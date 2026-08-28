@@ -4,7 +4,7 @@
 
 ### FrauddetectorEventType <a name="FrauddetectorEventType" id="@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventType"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_event_type awscc_frauddetector_event_type}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_event_type awscc_frauddetector_event_type}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventType.Initializer"></a>
 
@@ -39,9 +39,9 @@ FrauddetectorEventType.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventType.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventType.Initializer.parameter.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventType.Initializer.parameter.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventType.Initializer.parameter.entityTypes">entityTypes</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventTypeEntityTypes">FrauddetectorEventTypeEntityTypes</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_event_type#entity_types FrauddetectorEventType#entity_types}. |
-| <code><a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventType.Initializer.parameter.eventVariables">eventVariables</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventTypeEventVariables">FrauddetectorEventTypeEventVariables</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_event_type#event_variables FrauddetectorEventType#event_variables}. |
-| <code><a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventType.Initializer.parameter.labels">labels</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventTypeLabels">FrauddetectorEventTypeLabels</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_event_type#labels FrauddetectorEventType#labels}. |
+| <code><a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventType.Initializer.parameter.entityTypes">entityTypes</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventTypeEntityTypes">FrauddetectorEventTypeEntityTypes</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_event_type#entity_types FrauddetectorEventType#entity_types}. |
+| <code><a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventType.Initializer.parameter.eventVariables">eventVariables</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventTypeEventVariables">FrauddetectorEventTypeEventVariables</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_event_type#event_variables FrauddetectorEventType#event_variables}. |
+| <code><a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventType.Initializer.parameter.labels">labels</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventTypeLabels">FrauddetectorEventTypeLabels</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_event_type#labels FrauddetectorEventType#labels}. |
 | <code><a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventType.Initializer.parameter.name">name</a></code> | <code>java.lang.String</code> | The name for the event type. |
 | <code><a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventType.Initializer.parameter.description">description</a></code> | <code>java.lang.String</code> | The description of the event type. |
 | <code><a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventType.Initializer.parameter.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventTypeTags">FrauddetectorEventTypeTags</a>></code> | Tags associated with this event type. |
@@ -112,7 +112,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventTypeEntityTypes">FrauddetectorEventTypeEntityTypes</a>>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_event_type#entity_types FrauddetectorEventType#entity_types}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_event_type#entity_types FrauddetectorEventType#entity_types}.
 
 ---
 
@@ -120,7 +120,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventTypeEventVariables">FrauddetectorEventTypeEventVariables</a>>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_event_type#event_variables FrauddetectorEventType#event_variables}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_event_type#event_variables FrauddetectorEventType#event_variables}.
 
 ---
 
@@ -128,7 +128,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventTypeLabels">FrauddetectorEventTypeLabels</a>>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_event_type#labels FrauddetectorEventType#labels}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_event_type#labels FrauddetectorEventType#labels}.
 
 ---
 
@@ -138,7 +138,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name for the event type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_event_type#name FrauddetectorEventType#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_event_type#name FrauddetectorEventType#name}
 
 ---
 
@@ -148,7 +148,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The description of the event type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_event_type#description FrauddetectorEventType#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_event_type#description FrauddetectorEventType#description}
 
 ---
 
@@ -158,7 +158,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Tags associated with this event type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_event_type#tags FrauddetectorEventType#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_event_type#tags FrauddetectorEventType#tags}
 
 ---
 
@@ -673,7 +673,7 @@ The construct id used in the generated config for the FrauddetectorEventType to 
 
 The id of the existing FrauddetectorEventType that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_event_type#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_event_type#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1079,9 +1079,9 @@ FrauddetectorEventTypeConfig.builder()
 | <code><a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventTypeConfig.property.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventTypeConfig.property.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventTypeConfig.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventTypeConfig.property.entityTypes">entityTypes</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventTypeEntityTypes">FrauddetectorEventTypeEntityTypes</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_event_type#entity_types FrauddetectorEventType#entity_types}. |
-| <code><a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventTypeConfig.property.eventVariables">eventVariables</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventTypeEventVariables">FrauddetectorEventTypeEventVariables</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_event_type#event_variables FrauddetectorEventType#event_variables}. |
-| <code><a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventTypeConfig.property.labels">labels</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventTypeLabels">FrauddetectorEventTypeLabels</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_event_type#labels FrauddetectorEventType#labels}. |
+| <code><a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventTypeConfig.property.entityTypes">entityTypes</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventTypeEntityTypes">FrauddetectorEventTypeEntityTypes</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_event_type#entity_types FrauddetectorEventType#entity_types}. |
+| <code><a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventTypeConfig.property.eventVariables">eventVariables</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventTypeEventVariables">FrauddetectorEventTypeEventVariables</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_event_type#event_variables FrauddetectorEventType#event_variables}. |
+| <code><a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventTypeConfig.property.labels">labels</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventTypeLabels">FrauddetectorEventTypeLabels</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_event_type#labels FrauddetectorEventType#labels}. |
 | <code><a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventTypeConfig.property.name">name</a></code> | <code>java.lang.String</code> | The name for the event type. |
 | <code><a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventTypeConfig.property.description">description</a></code> | <code>java.lang.String</code> | The description of the event type. |
 | <code><a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventTypeConfig.property.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventTypeTags">FrauddetectorEventTypeTags</a>></code> | Tags associated with this event type. |
@@ -1166,7 +1166,7 @@ public IResolvable|java.util.List<FrauddetectorEventTypeEntityTypes> getEntityTy
 
 - *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventTypeEntityTypes">FrauddetectorEventTypeEntityTypes</a>>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_event_type#entity_types FrauddetectorEventType#entity_types}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_event_type#entity_types FrauddetectorEventType#entity_types}.
 
 ---
 
@@ -1178,7 +1178,7 @@ public IResolvable|java.util.List<FrauddetectorEventTypeEventVariables> getEvent
 
 - *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventTypeEventVariables">FrauddetectorEventTypeEventVariables</a>>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_event_type#event_variables FrauddetectorEventType#event_variables}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_event_type#event_variables FrauddetectorEventType#event_variables}.
 
 ---
 
@@ -1190,7 +1190,7 @@ public IResolvable|java.util.List<FrauddetectorEventTypeLabels> getLabels();
 
 - *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventTypeLabels">FrauddetectorEventTypeLabels</a>>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_event_type#labels FrauddetectorEventType#labels}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_event_type#labels FrauddetectorEventType#labels}.
 
 ---
 
@@ -1204,7 +1204,7 @@ public java.lang.String getName();
 
 The name for the event type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_event_type#name FrauddetectorEventType#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_event_type#name FrauddetectorEventType#name}
 
 ---
 
@@ -1218,7 +1218,7 @@ public java.lang.String getDescription();
 
 The description of the event type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_event_type#description FrauddetectorEventType#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_event_type#description FrauddetectorEventType#description}
 
 ---
 
@@ -1232,7 +1232,7 @@ public IResolvable|java.util.List<FrauddetectorEventTypeTags> getTags();
 
 Tags associated with this event type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_event_type#tags FrauddetectorEventType#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_event_type#tags FrauddetectorEventType#tags}
 
 ---
 
@@ -1258,12 +1258,12 @@ FrauddetectorEventTypeEntityTypes.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventTypeEntityTypes.property.arn">arn</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_event_type#arn FrauddetectorEventType#arn}. |
+| <code><a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventTypeEntityTypes.property.arn">arn</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_event_type#arn FrauddetectorEventType#arn}. |
 | <code><a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventTypeEntityTypes.property.createdTime">createdTime</a></code> | <code>java.lang.String</code> | The time when the event type was created. |
 | <code><a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventTypeEntityTypes.property.description">description</a></code> | <code>java.lang.String</code> | The description. |
-| <code><a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventTypeEntityTypes.property.inline">inline</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_event_type#inline FrauddetectorEventType#inline}. |
+| <code><a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventTypeEntityTypes.property.inline">inline</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_event_type#inline FrauddetectorEventType#inline}. |
 | <code><a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventTypeEntityTypes.property.lastUpdatedTime">lastUpdatedTime</a></code> | <code>java.lang.String</code> | The time when the event type was last updated. |
-| <code><a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventTypeEntityTypes.property.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_event_type#name FrauddetectorEventType#name}. |
+| <code><a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventTypeEntityTypes.property.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_event_type#name FrauddetectorEventType#name}. |
 | <code><a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventTypeEntityTypes.property.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventTypeEntityTypesTags">FrauddetectorEventTypeEntityTypesTags</a>></code> | Tags associated with this event type. |
 
 ---
@@ -1276,7 +1276,7 @@ public java.lang.String getArn();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_event_type#arn FrauddetectorEventType#arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_event_type#arn FrauddetectorEventType#arn}.
 
 ---
 
@@ -1290,7 +1290,7 @@ public java.lang.String getCreatedTime();
 
 The time when the event type was created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_event_type#created_time FrauddetectorEventType#created_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_event_type#created_time FrauddetectorEventType#created_time}
 
 ---
 
@@ -1304,7 +1304,7 @@ public java.lang.String getDescription();
 
 The description.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_event_type#description FrauddetectorEventType#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_event_type#description FrauddetectorEventType#description}
 
 ---
 
@@ -1316,7 +1316,7 @@ public java.lang.Boolean|IResolvable getInline();
 
 - *Type:* java.lang.Boolean|io.cdktn.cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_event_type#inline FrauddetectorEventType#inline}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_event_type#inline FrauddetectorEventType#inline}.
 
 ---
 
@@ -1330,7 +1330,7 @@ public java.lang.String getLastUpdatedTime();
 
 The time when the event type was last updated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_event_type#last_updated_time FrauddetectorEventType#last_updated_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_event_type#last_updated_time FrauddetectorEventType#last_updated_time}
 
 ---
 
@@ -1342,7 +1342,7 @@ public java.lang.String getName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_event_type#name FrauddetectorEventType#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_event_type#name FrauddetectorEventType#name}.
 
 ---
 
@@ -1356,7 +1356,7 @@ public IResolvable|java.util.List<FrauddetectorEventTypeEntityTypesTags> getTags
 
 Tags associated with this event type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_event_type#tags FrauddetectorEventType#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_event_type#tags FrauddetectorEventType#tags}
 
 ---
 
@@ -1377,8 +1377,8 @@ FrauddetectorEventTypeEntityTypesTags.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventTypeEntityTypesTags.property.key">key</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_event_type#key FrauddetectorEventType#key}. |
-| <code><a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventTypeEntityTypesTags.property.value">value</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_event_type#value FrauddetectorEventType#value}. |
+| <code><a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventTypeEntityTypesTags.property.key">key</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_event_type#key FrauddetectorEventType#key}. |
+| <code><a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventTypeEntityTypesTags.property.value">value</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_event_type#value FrauddetectorEventType#value}. |
 
 ---
 
@@ -1390,7 +1390,7 @@ public java.lang.String getKey();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_event_type#key FrauddetectorEventType#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_event_type#key FrauddetectorEventType#key}.
 
 ---
 
@@ -1402,7 +1402,7 @@ public java.lang.String getValue();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_event_type#value FrauddetectorEventType#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_event_type#value FrauddetectorEventType#value}.
 
 ---
 
@@ -1432,17 +1432,17 @@ FrauddetectorEventTypeEventVariables.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventTypeEventVariables.property.arn">arn</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_event_type#arn FrauddetectorEventType#arn}. |
+| <code><a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventTypeEventVariables.property.arn">arn</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_event_type#arn FrauddetectorEventType#arn}. |
 | <code><a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventTypeEventVariables.property.createdTime">createdTime</a></code> | <code>java.lang.String</code> | The time when the event type was created. |
-| <code><a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventTypeEventVariables.property.dataSource">dataSource</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_event_type#data_source FrauddetectorEventType#data_source}. |
-| <code><a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventTypeEventVariables.property.dataType">dataType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_event_type#data_type FrauddetectorEventType#data_type}. |
-| <code><a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventTypeEventVariables.property.defaultValue">defaultValue</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_event_type#default_value FrauddetectorEventType#default_value}. |
+| <code><a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventTypeEventVariables.property.dataSource">dataSource</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_event_type#data_source FrauddetectorEventType#data_source}. |
+| <code><a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventTypeEventVariables.property.dataType">dataType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_event_type#data_type FrauddetectorEventType#data_type}. |
+| <code><a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventTypeEventVariables.property.defaultValue">defaultValue</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_event_type#default_value FrauddetectorEventType#default_value}. |
 | <code><a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventTypeEventVariables.property.description">description</a></code> | <code>java.lang.String</code> | The description. |
-| <code><a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventTypeEventVariables.property.inline">inline</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_event_type#inline FrauddetectorEventType#inline}. |
+| <code><a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventTypeEventVariables.property.inline">inline</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_event_type#inline FrauddetectorEventType#inline}. |
 | <code><a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventTypeEventVariables.property.lastUpdatedTime">lastUpdatedTime</a></code> | <code>java.lang.String</code> | The time when the event type was last updated. |
-| <code><a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventTypeEventVariables.property.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_event_type#name FrauddetectorEventType#name}. |
+| <code><a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventTypeEventVariables.property.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_event_type#name FrauddetectorEventType#name}. |
 | <code><a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventTypeEventVariables.property.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventTypeEventVariablesTags">FrauddetectorEventTypeEventVariablesTags</a>></code> | Tags associated with this event type. |
-| <code><a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventTypeEventVariables.property.variableType">variableType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_event_type#variable_type FrauddetectorEventType#variable_type}. |
+| <code><a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventTypeEventVariables.property.variableType">variableType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_event_type#variable_type FrauddetectorEventType#variable_type}. |
 
 ---
 
@@ -1454,7 +1454,7 @@ public java.lang.String getArn();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_event_type#arn FrauddetectorEventType#arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_event_type#arn FrauddetectorEventType#arn}.
 
 ---
 
@@ -1468,7 +1468,7 @@ public java.lang.String getCreatedTime();
 
 The time when the event type was created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_event_type#created_time FrauddetectorEventType#created_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_event_type#created_time FrauddetectorEventType#created_time}
 
 ---
 
@@ -1480,7 +1480,7 @@ public java.lang.String getDataSource();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_event_type#data_source FrauddetectorEventType#data_source}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_event_type#data_source FrauddetectorEventType#data_source}.
 
 ---
 
@@ -1492,7 +1492,7 @@ public java.lang.String getDataType();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_event_type#data_type FrauddetectorEventType#data_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_event_type#data_type FrauddetectorEventType#data_type}.
 
 ---
 
@@ -1504,7 +1504,7 @@ public java.lang.String getDefaultValue();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_event_type#default_value FrauddetectorEventType#default_value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_event_type#default_value FrauddetectorEventType#default_value}.
 
 ---
 
@@ -1518,7 +1518,7 @@ public java.lang.String getDescription();
 
 The description.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_event_type#description FrauddetectorEventType#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_event_type#description FrauddetectorEventType#description}
 
 ---
 
@@ -1530,7 +1530,7 @@ public java.lang.Boolean|IResolvable getInline();
 
 - *Type:* java.lang.Boolean|io.cdktn.cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_event_type#inline FrauddetectorEventType#inline}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_event_type#inline FrauddetectorEventType#inline}.
 
 ---
 
@@ -1544,7 +1544,7 @@ public java.lang.String getLastUpdatedTime();
 
 The time when the event type was last updated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_event_type#last_updated_time FrauddetectorEventType#last_updated_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_event_type#last_updated_time FrauddetectorEventType#last_updated_time}
 
 ---
 
@@ -1556,7 +1556,7 @@ public java.lang.String getName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_event_type#name FrauddetectorEventType#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_event_type#name FrauddetectorEventType#name}.
 
 ---
 
@@ -1570,7 +1570,7 @@ public IResolvable|java.util.List<FrauddetectorEventTypeEventVariablesTags> getT
 
 Tags associated with this event type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_event_type#tags FrauddetectorEventType#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_event_type#tags FrauddetectorEventType#tags}
 
 ---
 
@@ -1582,7 +1582,7 @@ public java.lang.String getVariableType();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_event_type#variable_type FrauddetectorEventType#variable_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_event_type#variable_type FrauddetectorEventType#variable_type}.
 
 ---
 
@@ -1603,8 +1603,8 @@ FrauddetectorEventTypeEventVariablesTags.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventTypeEventVariablesTags.property.key">key</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_event_type#key FrauddetectorEventType#key}. |
-| <code><a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventTypeEventVariablesTags.property.value">value</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_event_type#value FrauddetectorEventType#value}. |
+| <code><a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventTypeEventVariablesTags.property.key">key</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_event_type#key FrauddetectorEventType#key}. |
+| <code><a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventTypeEventVariablesTags.property.value">value</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_event_type#value FrauddetectorEventType#value}. |
 
 ---
 
@@ -1616,7 +1616,7 @@ public java.lang.String getKey();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_event_type#key FrauddetectorEventType#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_event_type#key FrauddetectorEventType#key}.
 
 ---
 
@@ -1628,7 +1628,7 @@ public java.lang.String getValue();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_event_type#value FrauddetectorEventType#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_event_type#value FrauddetectorEventType#value}.
 
 ---
 
@@ -1654,12 +1654,12 @@ FrauddetectorEventTypeLabels.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventTypeLabels.property.arn">arn</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_event_type#arn FrauddetectorEventType#arn}. |
+| <code><a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventTypeLabels.property.arn">arn</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_event_type#arn FrauddetectorEventType#arn}. |
 | <code><a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventTypeLabels.property.createdTime">createdTime</a></code> | <code>java.lang.String</code> | The time when the event type was created. |
 | <code><a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventTypeLabels.property.description">description</a></code> | <code>java.lang.String</code> | The description. |
-| <code><a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventTypeLabels.property.inline">inline</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_event_type#inline FrauddetectorEventType#inline}. |
+| <code><a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventTypeLabels.property.inline">inline</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_event_type#inline FrauddetectorEventType#inline}. |
 | <code><a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventTypeLabels.property.lastUpdatedTime">lastUpdatedTime</a></code> | <code>java.lang.String</code> | The time when the event type was last updated. |
-| <code><a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventTypeLabels.property.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_event_type#name FrauddetectorEventType#name}. |
+| <code><a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventTypeLabels.property.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_event_type#name FrauddetectorEventType#name}. |
 | <code><a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventTypeLabels.property.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventTypeLabelsTags">FrauddetectorEventTypeLabelsTags</a>></code> | Tags associated with this event type. |
 
 ---
@@ -1672,7 +1672,7 @@ public java.lang.String getArn();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_event_type#arn FrauddetectorEventType#arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_event_type#arn FrauddetectorEventType#arn}.
 
 ---
 
@@ -1686,7 +1686,7 @@ public java.lang.String getCreatedTime();
 
 The time when the event type was created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_event_type#created_time FrauddetectorEventType#created_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_event_type#created_time FrauddetectorEventType#created_time}
 
 ---
 
@@ -1700,7 +1700,7 @@ public java.lang.String getDescription();
 
 The description.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_event_type#description FrauddetectorEventType#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_event_type#description FrauddetectorEventType#description}
 
 ---
 
@@ -1712,7 +1712,7 @@ public java.lang.Boolean|IResolvable getInline();
 
 - *Type:* java.lang.Boolean|io.cdktn.cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_event_type#inline FrauddetectorEventType#inline}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_event_type#inline FrauddetectorEventType#inline}.
 
 ---
 
@@ -1726,7 +1726,7 @@ public java.lang.String getLastUpdatedTime();
 
 The time when the event type was last updated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_event_type#last_updated_time FrauddetectorEventType#last_updated_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_event_type#last_updated_time FrauddetectorEventType#last_updated_time}
 
 ---
 
@@ -1738,7 +1738,7 @@ public java.lang.String getName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_event_type#name FrauddetectorEventType#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_event_type#name FrauddetectorEventType#name}.
 
 ---
 
@@ -1752,7 +1752,7 @@ public IResolvable|java.util.List<FrauddetectorEventTypeLabelsTags> getTags();
 
 Tags associated with this event type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_event_type#tags FrauddetectorEventType#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_event_type#tags FrauddetectorEventType#tags}
 
 ---
 
@@ -1773,8 +1773,8 @@ FrauddetectorEventTypeLabelsTags.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventTypeLabelsTags.property.key">key</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_event_type#key FrauddetectorEventType#key}. |
-| <code><a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventTypeLabelsTags.property.value">value</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_event_type#value FrauddetectorEventType#value}. |
+| <code><a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventTypeLabelsTags.property.key">key</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_event_type#key FrauddetectorEventType#key}. |
+| <code><a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventTypeLabelsTags.property.value">value</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_event_type#value FrauddetectorEventType#value}. |
 
 ---
 
@@ -1786,7 +1786,7 @@ public java.lang.String getKey();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_event_type#key FrauddetectorEventType#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_event_type#key FrauddetectorEventType#key}.
 
 ---
 
@@ -1798,7 +1798,7 @@ public java.lang.String getValue();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_event_type#value FrauddetectorEventType#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_event_type#value FrauddetectorEventType#value}.
 
 ---
 
@@ -1819,8 +1819,8 @@ FrauddetectorEventTypeTags.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventTypeTags.property.key">key</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_event_type#key FrauddetectorEventType#key}. |
-| <code><a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventTypeTags.property.value">value</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_event_type#value FrauddetectorEventType#value}. |
+| <code><a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventTypeTags.property.key">key</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_event_type#key FrauddetectorEventType#key}. |
+| <code><a href="#@cdktn/provider-awscc.frauddetectorEventType.FrauddetectorEventTypeTags.property.value">value</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_event_type#value FrauddetectorEventType#value}. |
 
 ---
 
@@ -1832,7 +1832,7 @@ public java.lang.String getKey();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_event_type#key FrauddetectorEventType#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_event_type#key FrauddetectorEventType#key}.
 
 ---
 
@@ -1844,7 +1844,7 @@ public java.lang.String getValue();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_event_type#value FrauddetectorEventType#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_event_type#value FrauddetectorEventType#value}.
 
 ---
 

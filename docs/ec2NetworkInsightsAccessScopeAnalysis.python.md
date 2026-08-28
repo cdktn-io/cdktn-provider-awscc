@@ -4,7 +4,7 @@
 
 ### Ec2NetworkInsightsAccessScopeAnalysis <a name="Ec2NetworkInsightsAccessScopeAnalysis" id="@cdktn/provider-awscc.ec2NetworkInsightsAccessScopeAnalysis.Ec2NetworkInsightsAccessScopeAnalysis"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_network_insights_access_scope_analysis awscc_ec2_network_insights_access_scope_analysis}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_network_insights_access_scope_analysis awscc_ec2_network_insights_access_scope_analysis}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2NetworkInsightsAccessScopeAnalysis.Ec2NetworkInsightsAccessScopeAnalysis.Initializer"></a>
 
@@ -37,8 +37,8 @@ ec2NetworkInsightsAccessScopeAnalysis.Ec2NetworkInsightsAccessScopeAnalysis(
 | <code><a href="#@cdktn/provider-awscc.ec2NetworkInsightsAccessScopeAnalysis.Ec2NetworkInsightsAccessScopeAnalysis.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ec2NetworkInsightsAccessScopeAnalysis.Ec2NetworkInsightsAccessScopeAnalysis.Initializer.parameter.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ec2NetworkInsightsAccessScopeAnalysis.Ec2NetworkInsightsAccessScopeAnalysis.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.ec2NetworkInsightsAccessScopeAnalysis.Ec2NetworkInsightsAccessScopeAnalysis.Initializer.parameter.networkInsightsAccessScopeId">network_insights_access_scope_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_network_insights_access_scope_analysis#network_insights_access_scope_id Ec2NetworkInsightsAccessScopeAnalysis#network_insights_access_scope_id}. |
-| <code><a href="#@cdktn/provider-awscc.ec2NetworkInsightsAccessScopeAnalysis.Ec2NetworkInsightsAccessScopeAnalysis.Initializer.parameter.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.ec2NetworkInsightsAccessScopeAnalysis.Ec2NetworkInsightsAccessScopeAnalysisTags">Ec2NetworkInsightsAccessScopeAnalysisTags</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_network_insights_access_scope_analysis#tags Ec2NetworkInsightsAccessScopeAnalysis#tags}. |
+| <code><a href="#@cdktn/provider-awscc.ec2NetworkInsightsAccessScopeAnalysis.Ec2NetworkInsightsAccessScopeAnalysis.Initializer.parameter.networkInsightsAccessScopeId">network_insights_access_scope_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_network_insights_access_scope_analysis#network_insights_access_scope_id Ec2NetworkInsightsAccessScopeAnalysis#network_insights_access_scope_id}. |
+| <code><a href="#@cdktn/provider-awscc.ec2NetworkInsightsAccessScopeAnalysis.Ec2NetworkInsightsAccessScopeAnalysis.Initializer.parameter.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.ec2NetworkInsightsAccessScopeAnalysis.Ec2NetworkInsightsAccessScopeAnalysisTags">Ec2NetworkInsightsAccessScopeAnalysisTags</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_network_insights_access_scope_analysis#tags Ec2NetworkInsightsAccessScopeAnalysis#tags}. |
 
 ---
 
@@ -106,7 +106,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_network_insights_access_scope_analysis#network_insights_access_scope_id Ec2NetworkInsightsAccessScopeAnalysis#network_insights_access_scope_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_network_insights_access_scope_analysis#network_insights_access_scope_id Ec2NetworkInsightsAccessScopeAnalysis#network_insights_access_scope_id}.
 
 ---
 
@@ -114,7 +114,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.ec2NetworkInsightsAccessScopeAnalysis.Ec2NetworkInsightsAccessScopeAnalysisTags">Ec2NetworkInsightsAccessScopeAnalysisTags</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_network_insights_access_scope_analysis#tags Ec2NetworkInsightsAccessScopeAnalysis#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_network_insights_access_scope_analysis#tags Ec2NetworkInsightsAccessScopeAnalysis#tags}.
 
 ---
 
@@ -633,7 +633,7 @@ The construct id used in the generated config for the Ec2NetworkInsightsAccessSc
 
 The id of the existing Ec2NetworkInsightsAccessScopeAnalysis that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_network_insights_access_scope_analysis#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_network_insights_access_scope_analysis#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1002,8 +1002,8 @@ ec2NetworkInsightsAccessScopeAnalysis.Ec2NetworkInsightsAccessScopeAnalysisConfi
 | <code><a href="#@cdktn/provider-awscc.ec2NetworkInsightsAccessScopeAnalysis.Ec2NetworkInsightsAccessScopeAnalysisConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ec2NetworkInsightsAccessScopeAnalysis.Ec2NetworkInsightsAccessScopeAnalysisConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ec2NetworkInsightsAccessScopeAnalysis.Ec2NetworkInsightsAccessScopeAnalysisConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.ec2NetworkInsightsAccessScopeAnalysis.Ec2NetworkInsightsAccessScopeAnalysisConfig.property.networkInsightsAccessScopeId">network_insights_access_scope_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_network_insights_access_scope_analysis#network_insights_access_scope_id Ec2NetworkInsightsAccessScopeAnalysis#network_insights_access_scope_id}. |
-| <code><a href="#@cdktn/provider-awscc.ec2NetworkInsightsAccessScopeAnalysis.Ec2NetworkInsightsAccessScopeAnalysisConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.ec2NetworkInsightsAccessScopeAnalysis.Ec2NetworkInsightsAccessScopeAnalysisTags">Ec2NetworkInsightsAccessScopeAnalysisTags</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_network_insights_access_scope_analysis#tags Ec2NetworkInsightsAccessScopeAnalysis#tags}. |
+| <code><a href="#@cdktn/provider-awscc.ec2NetworkInsightsAccessScopeAnalysis.Ec2NetworkInsightsAccessScopeAnalysisConfig.property.networkInsightsAccessScopeId">network_insights_access_scope_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_network_insights_access_scope_analysis#network_insights_access_scope_id Ec2NetworkInsightsAccessScopeAnalysis#network_insights_access_scope_id}. |
+| <code><a href="#@cdktn/provider-awscc.ec2NetworkInsightsAccessScopeAnalysis.Ec2NetworkInsightsAccessScopeAnalysisConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.ec2NetworkInsightsAccessScopeAnalysis.Ec2NetworkInsightsAccessScopeAnalysisTags">Ec2NetworkInsightsAccessScopeAnalysisTags</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_network_insights_access_scope_analysis#tags Ec2NetworkInsightsAccessScopeAnalysis#tags}. |
 
 ---
 
@@ -1085,7 +1085,7 @@ network_insights_access_scope_id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_network_insights_access_scope_analysis#network_insights_access_scope_id Ec2NetworkInsightsAccessScopeAnalysis#network_insights_access_scope_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_network_insights_access_scope_analysis#network_insights_access_scope_id Ec2NetworkInsightsAccessScopeAnalysis#network_insights_access_scope_id}.
 
 ---
 
@@ -1097,7 +1097,7 @@ tags: IResolvable | typing.List[Ec2NetworkInsightsAccessScopeAnalysisTags]
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.ec2NetworkInsightsAccessScopeAnalysis.Ec2NetworkInsightsAccessScopeAnalysisTags">Ec2NetworkInsightsAccessScopeAnalysisTags</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_network_insights_access_scope_analysis#tags Ec2NetworkInsightsAccessScopeAnalysis#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_network_insights_access_scope_analysis#tags Ec2NetworkInsightsAccessScopeAnalysis#tags}.
 
 ---
 
@@ -1118,8 +1118,8 @@ ec2NetworkInsightsAccessScopeAnalysis.Ec2NetworkInsightsAccessScopeAnalysisTags(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2NetworkInsightsAccessScopeAnalysis.Ec2NetworkInsightsAccessScopeAnalysisTags.property.key">key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_network_insights_access_scope_analysis#key Ec2NetworkInsightsAccessScopeAnalysis#key}. |
-| <code><a href="#@cdktn/provider-awscc.ec2NetworkInsightsAccessScopeAnalysis.Ec2NetworkInsightsAccessScopeAnalysisTags.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_network_insights_access_scope_analysis#value Ec2NetworkInsightsAccessScopeAnalysis#value}. |
+| <code><a href="#@cdktn/provider-awscc.ec2NetworkInsightsAccessScopeAnalysis.Ec2NetworkInsightsAccessScopeAnalysisTags.property.key">key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_network_insights_access_scope_analysis#key Ec2NetworkInsightsAccessScopeAnalysis#key}. |
+| <code><a href="#@cdktn/provider-awscc.ec2NetworkInsightsAccessScopeAnalysis.Ec2NetworkInsightsAccessScopeAnalysisTags.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_network_insights_access_scope_analysis#value Ec2NetworkInsightsAccessScopeAnalysis#value}. |
 
 ---
 
@@ -1131,7 +1131,7 @@ key: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_network_insights_access_scope_analysis#key Ec2NetworkInsightsAccessScopeAnalysis#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_network_insights_access_scope_analysis#key Ec2NetworkInsightsAccessScopeAnalysis#key}.
 
 ---
 
@@ -1143,7 +1143,7 @@ value: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_network_insights_access_scope_analysis#value Ec2NetworkInsightsAccessScopeAnalysis#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_network_insights_access_scope_analysis#value Ec2NetworkInsightsAccessScopeAnalysis#value}.
 
 ---
 

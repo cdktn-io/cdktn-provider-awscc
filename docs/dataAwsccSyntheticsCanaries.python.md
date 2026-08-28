@@ -4,7 +4,7 @@
 
 ### DataAwsccSyntheticsCanaries <a name="DataAwsccSyntheticsCanaries" id="@cdktn/provider-awscc.dataAwsccSyntheticsCanaries.DataAwsccSyntheticsCanaries"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/synthetics_canaries awscc_synthetics_canaries}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/synthetics_canaries awscc_synthetics_canaries}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSyntheticsCanaries.DataAwsccSyntheticsCanaries.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccSyntheticsCanarie
 
 The id of the existing DataAwsccSyntheticsCanaries that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/synthetics_canaries#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/synthetics_canaries#import import section} in the documentation of this resource for the id to use
 
 ---
 

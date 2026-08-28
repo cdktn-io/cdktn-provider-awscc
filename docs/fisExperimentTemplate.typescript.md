@@ -4,7 +4,7 @@
 
 ### FisExperimentTemplate <a name="FisExperimentTemplate" id="@cdktn/provider-awscc.fisExperimentTemplate.FisExperimentTemplate"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/fis_experiment_template awscc_fis_experiment_template}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/fis_experiment_template awscc_fis_experiment_template}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.fisExperimentTemplate.FisExperimentTemplate.Initializer"></a>
 
@@ -602,7 +602,7 @@ The construct id used in the generated config for the FisExperimentTemplate to i
 
 The id of the existing FisExperimentTemplate that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/fis_experiment_template#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/fis_experiment_template#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1049,7 +1049,7 @@ public readonly actionId: string;
 
 The ID of the action.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/fis_experiment_template#action_id FisExperimentTemplate#action_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/fis_experiment_template#action_id FisExperimentTemplate#action_id}
 
 ---
 
@@ -1063,7 +1063,7 @@ public readonly description: string;
 
 A description for the action.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/fis_experiment_template#description FisExperimentTemplate#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/fis_experiment_template#description FisExperimentTemplate#description}
 
 ---
 
@@ -1077,7 +1077,7 @@ public readonly parameters: {[ key: string ]: string};
 
 The parameters for the action, if applicable.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/fis_experiment_template#parameters FisExperimentTemplate#parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/fis_experiment_template#parameters FisExperimentTemplate#parameters}
 
 ---
 
@@ -1091,7 +1091,7 @@ public readonly startAfter: string[];
 
 The names of the actions that must be completed before the current action starts.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/fis_experiment_template#start_after FisExperimentTemplate#start_after}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/fis_experiment_template#start_after FisExperimentTemplate#start_after}
 
 ---
 
@@ -1105,7 +1105,7 @@ public readonly targets: {[ key: string ]: string};
 
 One or more targets for the action.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/fis_experiment_template#targets FisExperimentTemplate#targets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/fis_experiment_template#targets FisExperimentTemplate#targets}
 
 ---
 
@@ -1135,10 +1135,10 @@ const fisExperimentTemplateConfig: fisExperimentTemplate.FisExperimentTemplateCo
 | <code><a href="#@cdktn/provider-awscc.fisExperimentTemplate.FisExperimentTemplateConfig.property.stopConditions">stopConditions</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.fisExperimentTemplate.FisExperimentTemplateStopConditions">FisExperimentTemplateStopConditions</a>[]</code> | One or more stop conditions. |
 | <code><a href="#@cdktn/provider-awscc.fisExperimentTemplate.FisExperimentTemplateConfig.property.targets">targets</a></code> | <code>cdktn.IResolvable \| {[ key: string ]: <a href="#@cdktn/provider-awscc.fisExperimentTemplate.FisExperimentTemplateTargets">FisExperimentTemplateTargets</a>}</code> | The targets for the experiment. |
 | <code><a href="#@cdktn/provider-awscc.fisExperimentTemplate.FisExperimentTemplateConfig.property.actions">actions</a></code> | <code>cdktn.IResolvable \| {[ key: string ]: <a href="#@cdktn/provider-awscc.fisExperimentTemplate.FisExperimentTemplateActions">FisExperimentTemplateActions</a>}</code> | The actions for the experiment. |
-| <code><a href="#@cdktn/provider-awscc.fisExperimentTemplate.FisExperimentTemplateConfig.property.experimentOptions">experimentOptions</a></code> | <code><a href="#@cdktn/provider-awscc.fisExperimentTemplate.FisExperimentTemplateExperimentOptions">FisExperimentTemplateExperimentOptions</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/fis_experiment_template#experiment_options FisExperimentTemplate#experiment_options}. |
-| <code><a href="#@cdktn/provider-awscc.fisExperimentTemplate.FisExperimentTemplateConfig.property.experimentReportConfiguration">experimentReportConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.fisExperimentTemplate.FisExperimentTemplateExperimentReportConfiguration">FisExperimentTemplateExperimentReportConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/fis_experiment_template#experiment_report_configuration FisExperimentTemplate#experiment_report_configuration}. |
-| <code><a href="#@cdktn/provider-awscc.fisExperimentTemplate.FisExperimentTemplateConfig.property.logConfiguration">logConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.fisExperimentTemplate.FisExperimentTemplateLogConfiguration">FisExperimentTemplateLogConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/fis_experiment_template#log_configuration FisExperimentTemplate#log_configuration}. |
-| <code><a href="#@cdktn/provider-awscc.fisExperimentTemplate.FisExperimentTemplateConfig.property.tags">tags</a></code> | <code>{[ key: string ]: string}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/fis_experiment_template#tags FisExperimentTemplate#tags}. |
+| <code><a href="#@cdktn/provider-awscc.fisExperimentTemplate.FisExperimentTemplateConfig.property.experimentOptions">experimentOptions</a></code> | <code><a href="#@cdktn/provider-awscc.fisExperimentTemplate.FisExperimentTemplateExperimentOptions">FisExperimentTemplateExperimentOptions</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/fis_experiment_template#experiment_options FisExperimentTemplate#experiment_options}. |
+| <code><a href="#@cdktn/provider-awscc.fisExperimentTemplate.FisExperimentTemplateConfig.property.experimentReportConfiguration">experimentReportConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.fisExperimentTemplate.FisExperimentTemplateExperimentReportConfiguration">FisExperimentTemplateExperimentReportConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/fis_experiment_template#experiment_report_configuration FisExperimentTemplate#experiment_report_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.fisExperimentTemplate.FisExperimentTemplateConfig.property.logConfiguration">logConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.fisExperimentTemplate.FisExperimentTemplateLogConfiguration">FisExperimentTemplateLogConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/fis_experiment_template#log_configuration FisExperimentTemplate#log_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.fisExperimentTemplate.FisExperimentTemplateConfig.property.tags">tags</a></code> | <code>{[ key: string ]: string}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/fis_experiment_template#tags FisExperimentTemplate#tags}. |
 
 ---
 
@@ -1222,7 +1222,7 @@ public readonly description: string;
 
 A description for the experiment template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/fis_experiment_template#description FisExperimentTemplate#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/fis_experiment_template#description FisExperimentTemplate#description}
 
 ---
 
@@ -1236,7 +1236,7 @@ public readonly roleArn: string;
 
 The Amazon Resource Name (ARN) of an IAM role that grants the AWS FIS service permission to perform service actions on your behalf.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/fis_experiment_template#role_arn FisExperimentTemplate#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/fis_experiment_template#role_arn FisExperimentTemplate#role_arn}
 
 ---
 
@@ -1250,7 +1250,7 @@ public readonly stopConditions: IResolvable | FisExperimentTemplateStopCondition
 
 One or more stop conditions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/fis_experiment_template#stop_conditions FisExperimentTemplate#stop_conditions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/fis_experiment_template#stop_conditions FisExperimentTemplate#stop_conditions}
 
 ---
 
@@ -1264,7 +1264,7 @@ public readonly targets: IResolvable | {[ key: string ]: FisExperimentTemplateTa
 
 The targets for the experiment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/fis_experiment_template#targets FisExperimentTemplate#targets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/fis_experiment_template#targets FisExperimentTemplate#targets}
 
 ---
 
@@ -1278,7 +1278,7 @@ public readonly actions: IResolvable | {[ key: string ]: FisExperimentTemplateAc
 
 The actions for the experiment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/fis_experiment_template#actions FisExperimentTemplate#actions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/fis_experiment_template#actions FisExperimentTemplate#actions}
 
 ---
 
@@ -1290,7 +1290,7 @@ public readonly experimentOptions: FisExperimentTemplateExperimentOptions;
 
 - *Type:* <a href="#@cdktn/provider-awscc.fisExperimentTemplate.FisExperimentTemplateExperimentOptions">FisExperimentTemplateExperimentOptions</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/fis_experiment_template#experiment_options FisExperimentTemplate#experiment_options}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/fis_experiment_template#experiment_options FisExperimentTemplate#experiment_options}.
 
 ---
 
@@ -1302,7 +1302,7 @@ public readonly experimentReportConfiguration: FisExperimentTemplateExperimentRe
 
 - *Type:* <a href="#@cdktn/provider-awscc.fisExperimentTemplate.FisExperimentTemplateExperimentReportConfiguration">FisExperimentTemplateExperimentReportConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/fis_experiment_template#experiment_report_configuration FisExperimentTemplate#experiment_report_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/fis_experiment_template#experiment_report_configuration FisExperimentTemplate#experiment_report_configuration}.
 
 ---
 
@@ -1314,7 +1314,7 @@ public readonly logConfiguration: FisExperimentTemplateLogConfiguration;
 
 - *Type:* <a href="#@cdktn/provider-awscc.fisExperimentTemplate.FisExperimentTemplateLogConfiguration">FisExperimentTemplateLogConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/fis_experiment_template#log_configuration FisExperimentTemplate#log_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/fis_experiment_template#log_configuration FisExperimentTemplate#log_configuration}.
 
 ---
 
@@ -1326,7 +1326,7 @@ public readonly tags: {[ key: string ]: string};
 
 - *Type:* {[ key: string ]: string}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/fis_experiment_template#tags FisExperimentTemplate#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/fis_experiment_template#tags FisExperimentTemplate#tags}.
 
 ---
 
@@ -1359,7 +1359,7 @@ public readonly accountTargeting: string;
 
 The account targeting setting for the experiment template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/fis_experiment_template#account_targeting FisExperimentTemplate#account_targeting}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/fis_experiment_template#account_targeting FisExperimentTemplate#account_targeting}
 
 ---
 
@@ -1373,7 +1373,7 @@ public readonly emptyTargetResolutionMode: string;
 
 The target resolution failure mode for the experiment template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/fis_experiment_template#empty_target_resolution_mode FisExperimentTemplate#empty_target_resolution_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/fis_experiment_template#empty_target_resolution_mode FisExperimentTemplate#empty_target_resolution_mode}
 
 ---
 
@@ -1391,10 +1391,10 @@ const fisExperimentTemplateExperimentReportConfiguration: fisExperimentTemplate.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.fisExperimentTemplate.FisExperimentTemplateExperimentReportConfiguration.property.dataSources">dataSources</a></code> | <code><a href="#@cdktn/provider-awscc.fisExperimentTemplate.FisExperimentTemplateExperimentReportConfigurationDataSources">FisExperimentTemplateExperimentReportConfigurationDataSources</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/fis_experiment_template#data_sources FisExperimentTemplate#data_sources}. |
-| <code><a href="#@cdktn/provider-awscc.fisExperimentTemplate.FisExperimentTemplateExperimentReportConfiguration.property.outputs">outputs</a></code> | <code><a href="#@cdktn/provider-awscc.fisExperimentTemplate.FisExperimentTemplateExperimentReportConfigurationOutputs">FisExperimentTemplateExperimentReportConfigurationOutputs</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/fis_experiment_template#outputs FisExperimentTemplate#outputs}. |
-| <code><a href="#@cdktn/provider-awscc.fisExperimentTemplate.FisExperimentTemplateExperimentReportConfiguration.property.postExperimentDuration">postExperimentDuration</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/fis_experiment_template#post_experiment_duration FisExperimentTemplate#post_experiment_duration}. |
-| <code><a href="#@cdktn/provider-awscc.fisExperimentTemplate.FisExperimentTemplateExperimentReportConfiguration.property.preExperimentDuration">preExperimentDuration</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/fis_experiment_template#pre_experiment_duration FisExperimentTemplate#pre_experiment_duration}. |
+| <code><a href="#@cdktn/provider-awscc.fisExperimentTemplate.FisExperimentTemplateExperimentReportConfiguration.property.dataSources">dataSources</a></code> | <code><a href="#@cdktn/provider-awscc.fisExperimentTemplate.FisExperimentTemplateExperimentReportConfigurationDataSources">FisExperimentTemplateExperimentReportConfigurationDataSources</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/fis_experiment_template#data_sources FisExperimentTemplate#data_sources}. |
+| <code><a href="#@cdktn/provider-awscc.fisExperimentTemplate.FisExperimentTemplateExperimentReportConfiguration.property.outputs">outputs</a></code> | <code><a href="#@cdktn/provider-awscc.fisExperimentTemplate.FisExperimentTemplateExperimentReportConfigurationOutputs">FisExperimentTemplateExperimentReportConfigurationOutputs</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/fis_experiment_template#outputs FisExperimentTemplate#outputs}. |
+| <code><a href="#@cdktn/provider-awscc.fisExperimentTemplate.FisExperimentTemplateExperimentReportConfiguration.property.postExperimentDuration">postExperimentDuration</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/fis_experiment_template#post_experiment_duration FisExperimentTemplate#post_experiment_duration}. |
+| <code><a href="#@cdktn/provider-awscc.fisExperimentTemplate.FisExperimentTemplateExperimentReportConfiguration.property.preExperimentDuration">preExperimentDuration</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/fis_experiment_template#pre_experiment_duration FisExperimentTemplate#pre_experiment_duration}. |
 
 ---
 
@@ -1406,7 +1406,7 @@ public readonly dataSources: FisExperimentTemplateExperimentReportConfigurationD
 
 - *Type:* <a href="#@cdktn/provider-awscc.fisExperimentTemplate.FisExperimentTemplateExperimentReportConfigurationDataSources">FisExperimentTemplateExperimentReportConfigurationDataSources</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/fis_experiment_template#data_sources FisExperimentTemplate#data_sources}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/fis_experiment_template#data_sources FisExperimentTemplate#data_sources}.
 
 ---
 
@@ -1418,7 +1418,7 @@ public readonly outputs: FisExperimentTemplateExperimentReportConfigurationOutpu
 
 - *Type:* <a href="#@cdktn/provider-awscc.fisExperimentTemplate.FisExperimentTemplateExperimentReportConfigurationOutputs">FisExperimentTemplateExperimentReportConfigurationOutputs</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/fis_experiment_template#outputs FisExperimentTemplate#outputs}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/fis_experiment_template#outputs FisExperimentTemplate#outputs}.
 
 ---
 
@@ -1430,7 +1430,7 @@ public readonly postExperimentDuration: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/fis_experiment_template#post_experiment_duration FisExperimentTemplate#post_experiment_duration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/fis_experiment_template#post_experiment_duration FisExperimentTemplate#post_experiment_duration}.
 
 ---
 
@@ -1442,7 +1442,7 @@ public readonly preExperimentDuration: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/fis_experiment_template#pre_experiment_duration FisExperimentTemplate#pre_experiment_duration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/fis_experiment_template#pre_experiment_duration FisExperimentTemplate#pre_experiment_duration}.
 
 ---
 
@@ -1460,7 +1460,7 @@ const fisExperimentTemplateExperimentReportConfigurationDataSources: fisExperime
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.fisExperimentTemplate.FisExperimentTemplateExperimentReportConfigurationDataSources.property.cloudwatchDashboards">cloudwatchDashboards</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.fisExperimentTemplate.FisExperimentTemplateExperimentReportConfigurationDataSourcesCloudwatchDashboards">FisExperimentTemplateExperimentReportConfigurationDataSourcesCloudwatchDashboards</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/fis_experiment_template#cloudwatch_dashboards FisExperimentTemplate#cloudwatch_dashboards}. |
+| <code><a href="#@cdktn/provider-awscc.fisExperimentTemplate.FisExperimentTemplateExperimentReportConfigurationDataSources.property.cloudwatchDashboards">cloudwatchDashboards</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.fisExperimentTemplate.FisExperimentTemplateExperimentReportConfigurationDataSourcesCloudwatchDashboards">FisExperimentTemplateExperimentReportConfigurationDataSourcesCloudwatchDashboards</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/fis_experiment_template#cloudwatch_dashboards FisExperimentTemplate#cloudwatch_dashboards}. |
 
 ---
 
@@ -1472,7 +1472,7 @@ public readonly cloudwatchDashboards: IResolvable | FisExperimentTemplateExperim
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.fisExperimentTemplate.FisExperimentTemplateExperimentReportConfigurationDataSourcesCloudwatchDashboards">FisExperimentTemplateExperimentReportConfigurationDataSourcesCloudwatchDashboards</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/fis_experiment_template#cloudwatch_dashboards FisExperimentTemplate#cloudwatch_dashboards}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/fis_experiment_template#cloudwatch_dashboards FisExperimentTemplate#cloudwatch_dashboards}.
 
 ---
 
@@ -1490,7 +1490,7 @@ const fisExperimentTemplateExperimentReportConfigurationDataSourcesCloudwatchDas
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.fisExperimentTemplate.FisExperimentTemplateExperimentReportConfigurationDataSourcesCloudwatchDashboards.property.dashboardIdentifier">dashboardIdentifier</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/fis_experiment_template#dashboard_identifier FisExperimentTemplate#dashboard_identifier}. |
+| <code><a href="#@cdktn/provider-awscc.fisExperimentTemplate.FisExperimentTemplateExperimentReportConfigurationDataSourcesCloudwatchDashboards.property.dashboardIdentifier">dashboardIdentifier</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/fis_experiment_template#dashboard_identifier FisExperimentTemplate#dashboard_identifier}. |
 
 ---
 
@@ -1502,7 +1502,7 @@ public readonly dashboardIdentifier: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/fis_experiment_template#dashboard_identifier FisExperimentTemplate#dashboard_identifier}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/fis_experiment_template#dashboard_identifier FisExperimentTemplate#dashboard_identifier}.
 
 ---
 
@@ -1520,7 +1520,7 @@ const fisExperimentTemplateExperimentReportConfigurationOutputs: fisExperimentTe
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.fisExperimentTemplate.FisExperimentTemplateExperimentReportConfigurationOutputs.property.experimentReportS3Configuration">experimentReportS3Configuration</a></code> | <code><a href="#@cdktn/provider-awscc.fisExperimentTemplate.FisExperimentTemplateExperimentReportConfigurationOutputsExperimentReportS3Configuration">FisExperimentTemplateExperimentReportConfigurationOutputsExperimentReportS3Configuration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/fis_experiment_template#experiment_report_s3_configuration FisExperimentTemplate#experiment_report_s3_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.fisExperimentTemplate.FisExperimentTemplateExperimentReportConfigurationOutputs.property.experimentReportS3Configuration">experimentReportS3Configuration</a></code> | <code><a href="#@cdktn/provider-awscc.fisExperimentTemplate.FisExperimentTemplateExperimentReportConfigurationOutputsExperimentReportS3Configuration">FisExperimentTemplateExperimentReportConfigurationOutputsExperimentReportS3Configuration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/fis_experiment_template#experiment_report_s3_configuration FisExperimentTemplate#experiment_report_s3_configuration}. |
 
 ---
 
@@ -1532,7 +1532,7 @@ public readonly experimentReportS3Configuration: FisExperimentTemplateExperiment
 
 - *Type:* <a href="#@cdktn/provider-awscc.fisExperimentTemplate.FisExperimentTemplateExperimentReportConfigurationOutputsExperimentReportS3Configuration">FisExperimentTemplateExperimentReportConfigurationOutputsExperimentReportS3Configuration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/fis_experiment_template#experiment_report_s3_configuration FisExperimentTemplate#experiment_report_s3_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/fis_experiment_template#experiment_report_s3_configuration FisExperimentTemplate#experiment_report_s3_configuration}.
 
 ---
 
@@ -1550,8 +1550,8 @@ const fisExperimentTemplateExperimentReportConfigurationOutputsExperimentReportS
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.fisExperimentTemplate.FisExperimentTemplateExperimentReportConfigurationOutputsExperimentReportS3Configuration.property.bucketName">bucketName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/fis_experiment_template#bucket_name FisExperimentTemplate#bucket_name}. |
-| <code><a href="#@cdktn/provider-awscc.fisExperimentTemplate.FisExperimentTemplateExperimentReportConfigurationOutputsExperimentReportS3Configuration.property.prefix">prefix</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/fis_experiment_template#prefix FisExperimentTemplate#prefix}. |
+| <code><a href="#@cdktn/provider-awscc.fisExperimentTemplate.FisExperimentTemplateExperimentReportConfigurationOutputsExperimentReportS3Configuration.property.bucketName">bucketName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/fis_experiment_template#bucket_name FisExperimentTemplate#bucket_name}. |
+| <code><a href="#@cdktn/provider-awscc.fisExperimentTemplate.FisExperimentTemplateExperimentReportConfigurationOutputsExperimentReportS3Configuration.property.prefix">prefix</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/fis_experiment_template#prefix FisExperimentTemplate#prefix}. |
 
 ---
 
@@ -1563,7 +1563,7 @@ public readonly bucketName: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/fis_experiment_template#bucket_name FisExperimentTemplate#bucket_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/fis_experiment_template#bucket_name FisExperimentTemplate#bucket_name}.
 
 ---
 
@@ -1575,7 +1575,7 @@ public readonly prefix: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/fis_experiment_template#prefix FisExperimentTemplate#prefix}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/fis_experiment_template#prefix FisExperimentTemplate#prefix}.
 
 ---
 
@@ -1593,9 +1593,9 @@ const fisExperimentTemplateLogConfiguration: fisExperimentTemplate.FisExperiment
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.fisExperimentTemplate.FisExperimentTemplateLogConfiguration.property.cloudwatchLogsConfiguration">cloudwatchLogsConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.fisExperimentTemplate.FisExperimentTemplateLogConfigurationCloudwatchLogsConfiguration">FisExperimentTemplateLogConfigurationCloudwatchLogsConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/fis_experiment_template#cloudwatch_logs_configuration FisExperimentTemplate#cloudwatch_logs_configuration}. |
-| <code><a href="#@cdktn/provider-awscc.fisExperimentTemplate.FisExperimentTemplateLogConfiguration.property.logSchemaVersion">logSchemaVersion</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/fis_experiment_template#log_schema_version FisExperimentTemplate#log_schema_version}. |
-| <code><a href="#@cdktn/provider-awscc.fisExperimentTemplate.FisExperimentTemplateLogConfiguration.property.s3Configuration">s3Configuration</a></code> | <code><a href="#@cdktn/provider-awscc.fisExperimentTemplate.FisExperimentTemplateLogConfigurationS3Configuration">FisExperimentTemplateLogConfigurationS3Configuration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/fis_experiment_template#s3_configuration FisExperimentTemplate#s3_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.fisExperimentTemplate.FisExperimentTemplateLogConfiguration.property.cloudwatchLogsConfiguration">cloudwatchLogsConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.fisExperimentTemplate.FisExperimentTemplateLogConfigurationCloudwatchLogsConfiguration">FisExperimentTemplateLogConfigurationCloudwatchLogsConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/fis_experiment_template#cloudwatch_logs_configuration FisExperimentTemplate#cloudwatch_logs_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.fisExperimentTemplate.FisExperimentTemplateLogConfiguration.property.logSchemaVersion">logSchemaVersion</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/fis_experiment_template#log_schema_version FisExperimentTemplate#log_schema_version}. |
+| <code><a href="#@cdktn/provider-awscc.fisExperimentTemplate.FisExperimentTemplateLogConfiguration.property.s3Configuration">s3Configuration</a></code> | <code><a href="#@cdktn/provider-awscc.fisExperimentTemplate.FisExperimentTemplateLogConfigurationS3Configuration">FisExperimentTemplateLogConfigurationS3Configuration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/fis_experiment_template#s3_configuration FisExperimentTemplate#s3_configuration}. |
 
 ---
 
@@ -1607,7 +1607,7 @@ public readonly cloudwatchLogsConfiguration: FisExperimentTemplateLogConfigurati
 
 - *Type:* <a href="#@cdktn/provider-awscc.fisExperimentTemplate.FisExperimentTemplateLogConfigurationCloudwatchLogsConfiguration">FisExperimentTemplateLogConfigurationCloudwatchLogsConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/fis_experiment_template#cloudwatch_logs_configuration FisExperimentTemplate#cloudwatch_logs_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/fis_experiment_template#cloudwatch_logs_configuration FisExperimentTemplate#cloudwatch_logs_configuration}.
 
 ---
 
@@ -1619,7 +1619,7 @@ public readonly logSchemaVersion: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/fis_experiment_template#log_schema_version FisExperimentTemplate#log_schema_version}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/fis_experiment_template#log_schema_version FisExperimentTemplate#log_schema_version}.
 
 ---
 
@@ -1631,7 +1631,7 @@ public readonly s3Configuration: FisExperimentTemplateLogConfigurationS3Configur
 
 - *Type:* <a href="#@cdktn/provider-awscc.fisExperimentTemplate.FisExperimentTemplateLogConfigurationS3Configuration">FisExperimentTemplateLogConfigurationS3Configuration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/fis_experiment_template#s3_configuration FisExperimentTemplate#s3_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/fis_experiment_template#s3_configuration FisExperimentTemplate#s3_configuration}.
 
 ---
 
@@ -1649,7 +1649,7 @@ const fisExperimentTemplateLogConfigurationCloudwatchLogsConfiguration: fisExper
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.fisExperimentTemplate.FisExperimentTemplateLogConfigurationCloudwatchLogsConfiguration.property.logGroupArn">logGroupArn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/fis_experiment_template#log_group_arn FisExperimentTemplate#log_group_arn}. |
+| <code><a href="#@cdktn/provider-awscc.fisExperimentTemplate.FisExperimentTemplateLogConfigurationCloudwatchLogsConfiguration.property.logGroupArn">logGroupArn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/fis_experiment_template#log_group_arn FisExperimentTemplate#log_group_arn}. |
 
 ---
 
@@ -1661,7 +1661,7 @@ public readonly logGroupArn: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/fis_experiment_template#log_group_arn FisExperimentTemplate#log_group_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/fis_experiment_template#log_group_arn FisExperimentTemplate#log_group_arn}.
 
 ---
 
@@ -1679,8 +1679,8 @@ const fisExperimentTemplateLogConfigurationS3Configuration: fisExperimentTemplat
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.fisExperimentTemplate.FisExperimentTemplateLogConfigurationS3Configuration.property.bucketName">bucketName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/fis_experiment_template#bucket_name FisExperimentTemplate#bucket_name}. |
-| <code><a href="#@cdktn/provider-awscc.fisExperimentTemplate.FisExperimentTemplateLogConfigurationS3Configuration.property.prefix">prefix</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/fis_experiment_template#prefix FisExperimentTemplate#prefix}. |
+| <code><a href="#@cdktn/provider-awscc.fisExperimentTemplate.FisExperimentTemplateLogConfigurationS3Configuration.property.bucketName">bucketName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/fis_experiment_template#bucket_name FisExperimentTemplate#bucket_name}. |
+| <code><a href="#@cdktn/provider-awscc.fisExperimentTemplate.FisExperimentTemplateLogConfigurationS3Configuration.property.prefix">prefix</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/fis_experiment_template#prefix FisExperimentTemplate#prefix}. |
 
 ---
 
@@ -1692,7 +1692,7 @@ public readonly bucketName: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/fis_experiment_template#bucket_name FisExperimentTemplate#bucket_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/fis_experiment_template#bucket_name FisExperimentTemplate#bucket_name}.
 
 ---
 
@@ -1704,7 +1704,7 @@ public readonly prefix: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/fis_experiment_template#prefix FisExperimentTemplate#prefix}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/fis_experiment_template#prefix FisExperimentTemplate#prefix}.
 
 ---
 
@@ -1722,8 +1722,8 @@ const fisExperimentTemplateStopConditions: fisExperimentTemplate.FisExperimentTe
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.fisExperimentTemplate.FisExperimentTemplateStopConditions.property.source">source</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/fis_experiment_template#source FisExperimentTemplate#source}. |
-| <code><a href="#@cdktn/provider-awscc.fisExperimentTemplate.FisExperimentTemplateStopConditions.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/fis_experiment_template#value FisExperimentTemplate#value}. |
+| <code><a href="#@cdktn/provider-awscc.fisExperimentTemplate.FisExperimentTemplateStopConditions.property.source">source</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/fis_experiment_template#source FisExperimentTemplate#source}. |
+| <code><a href="#@cdktn/provider-awscc.fisExperimentTemplate.FisExperimentTemplateStopConditions.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/fis_experiment_template#value FisExperimentTemplate#value}. |
 
 ---
 
@@ -1735,7 +1735,7 @@ public readonly source: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/fis_experiment_template#source FisExperimentTemplate#source}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/fis_experiment_template#source FisExperimentTemplate#source}.
 
 ---
 
@@ -1747,7 +1747,7 @@ public readonly value: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/fis_experiment_template#value FisExperimentTemplate#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/fis_experiment_template#value FisExperimentTemplate#value}.
 
 ---
 
@@ -1765,10 +1765,10 @@ const fisExperimentTemplateTargets: fisExperimentTemplate.FisExperimentTemplateT
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.fisExperimentTemplate.FisExperimentTemplateTargets.property.filters">filters</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.fisExperimentTemplate.FisExperimentTemplateTargetsFilters">FisExperimentTemplateTargetsFilters</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/fis_experiment_template#filters FisExperimentTemplate#filters}. |
-| <code><a href="#@cdktn/provider-awscc.fisExperimentTemplate.FisExperimentTemplateTargets.property.parameters">parameters</a></code> | <code>{[ key: string ]: string}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/fis_experiment_template#parameters FisExperimentTemplate#parameters}. |
+| <code><a href="#@cdktn/provider-awscc.fisExperimentTemplate.FisExperimentTemplateTargets.property.filters">filters</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.fisExperimentTemplate.FisExperimentTemplateTargetsFilters">FisExperimentTemplateTargetsFilters</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/fis_experiment_template#filters FisExperimentTemplate#filters}. |
+| <code><a href="#@cdktn/provider-awscc.fisExperimentTemplate.FisExperimentTemplateTargets.property.parameters">parameters</a></code> | <code>{[ key: string ]: string}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/fis_experiment_template#parameters FisExperimentTemplate#parameters}. |
 | <code><a href="#@cdktn/provider-awscc.fisExperimentTemplate.FisExperimentTemplateTargets.property.resourceArns">resourceArns</a></code> | <code>string[]</code> | The Amazon Resource Names (ARNs) of the target resources. |
-| <code><a href="#@cdktn/provider-awscc.fisExperimentTemplate.FisExperimentTemplateTargets.property.resourceTags">resourceTags</a></code> | <code>{[ key: string ]: string}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/fis_experiment_template#resource_tags FisExperimentTemplate#resource_tags}. |
+| <code><a href="#@cdktn/provider-awscc.fisExperimentTemplate.FisExperimentTemplateTargets.property.resourceTags">resourceTags</a></code> | <code>{[ key: string ]: string}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/fis_experiment_template#resource_tags FisExperimentTemplate#resource_tags}. |
 | <code><a href="#@cdktn/provider-awscc.fisExperimentTemplate.FisExperimentTemplateTargets.property.resourceType">resourceType</a></code> | <code>string</code> | The AWS resource type. The resource type must be supported for the specified action. |
 | <code><a href="#@cdktn/provider-awscc.fisExperimentTemplate.FisExperimentTemplateTargets.property.selectionMode">selectionMode</a></code> | <code>string</code> | Scopes the identified resources to a specific number of the resources at random, or a percentage of the resources. |
 
@@ -1782,7 +1782,7 @@ public readonly filters: IResolvable | FisExperimentTemplateTargetsFilters[];
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.fisExperimentTemplate.FisExperimentTemplateTargetsFilters">FisExperimentTemplateTargetsFilters</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/fis_experiment_template#filters FisExperimentTemplate#filters}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/fis_experiment_template#filters FisExperimentTemplate#filters}.
 
 ---
 
@@ -1794,7 +1794,7 @@ public readonly parameters: {[ key: string ]: string};
 
 - *Type:* {[ key: string ]: string}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/fis_experiment_template#parameters FisExperimentTemplate#parameters}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/fis_experiment_template#parameters FisExperimentTemplate#parameters}.
 
 ---
 
@@ -1808,7 +1808,7 @@ public readonly resourceArns: string[];
 
 The Amazon Resource Names (ARNs) of the target resources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/fis_experiment_template#resource_arns FisExperimentTemplate#resource_arns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/fis_experiment_template#resource_arns FisExperimentTemplate#resource_arns}
 
 ---
 
@@ -1820,7 +1820,7 @@ public readonly resourceTags: {[ key: string ]: string};
 
 - *Type:* {[ key: string ]: string}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/fis_experiment_template#resource_tags FisExperimentTemplate#resource_tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/fis_experiment_template#resource_tags FisExperimentTemplate#resource_tags}.
 
 ---
 
@@ -1834,7 +1834,7 @@ public readonly resourceType: string;
 
 The AWS resource type. The resource type must be supported for the specified action.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/fis_experiment_template#resource_type FisExperimentTemplate#resource_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/fis_experiment_template#resource_type FisExperimentTemplate#resource_type}
 
 ---
 
@@ -1848,7 +1848,7 @@ public readonly selectionMode: string;
 
 Scopes the identified resources to a specific number of the resources at random, or a percentage of the resources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/fis_experiment_template#selection_mode FisExperimentTemplate#selection_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/fis_experiment_template#selection_mode FisExperimentTemplate#selection_mode}
 
 ---
 
@@ -1881,7 +1881,7 @@ public readonly path: string;
 
 The attribute path for the filter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/fis_experiment_template#path FisExperimentTemplate#path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/fis_experiment_template#path FisExperimentTemplate#path}
 
 ---
 
@@ -1895,7 +1895,7 @@ public readonly values: string[];
 
 The attribute values for the filter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/fis_experiment_template#values FisExperimentTemplate#values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/fis_experiment_template#values FisExperimentTemplate#values}
 
 ---
 

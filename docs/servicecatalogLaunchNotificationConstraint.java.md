@@ -4,7 +4,7 @@
 
 ### ServicecatalogLaunchNotificationConstraint <a name="ServicecatalogLaunchNotificationConstraint" id="@cdktn/provider-awscc.servicecatalogLaunchNotificationConstraint.ServicecatalogLaunchNotificationConstraint"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicecatalog_launch_notification_constraint awscc_servicecatalog_launch_notification_constraint}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicecatalog_launch_notification_constraint awscc_servicecatalog_launch_notification_constraint}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.servicecatalogLaunchNotificationConstraint.ServicecatalogLaunchNotificationConstraint.Initializer"></a>
 
@@ -38,11 +38,11 @@ ServicecatalogLaunchNotificationConstraint.Builder.create(Construct scope, java.
 | <code><a href="#@cdktn/provider-awscc.servicecatalogLaunchNotificationConstraint.ServicecatalogLaunchNotificationConstraint.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.servicecatalogLaunchNotificationConstraint.ServicecatalogLaunchNotificationConstraint.Initializer.parameter.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.servicecatalogLaunchNotificationConstraint.ServicecatalogLaunchNotificationConstraint.Initializer.parameter.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.servicecatalogLaunchNotificationConstraint.ServicecatalogLaunchNotificationConstraint.Initializer.parameter.notificationArns">notificationArns</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicecatalog_launch_notification_constraint#notification_arns ServicecatalogLaunchNotificationConstraint#notification_arns}. |
-| <code><a href="#@cdktn/provider-awscc.servicecatalogLaunchNotificationConstraint.ServicecatalogLaunchNotificationConstraint.Initializer.parameter.portfolioId">portfolioId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicecatalog_launch_notification_constraint#portfolio_id ServicecatalogLaunchNotificationConstraint#portfolio_id}. |
-| <code><a href="#@cdktn/provider-awscc.servicecatalogLaunchNotificationConstraint.ServicecatalogLaunchNotificationConstraint.Initializer.parameter.productId">productId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicecatalog_launch_notification_constraint#product_id ServicecatalogLaunchNotificationConstraint#product_id}. |
-| <code><a href="#@cdktn/provider-awscc.servicecatalogLaunchNotificationConstraint.ServicecatalogLaunchNotificationConstraint.Initializer.parameter.acceptLanguage">acceptLanguage</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicecatalog_launch_notification_constraint#accept_language ServicecatalogLaunchNotificationConstraint#accept_language}. |
-| <code><a href="#@cdktn/provider-awscc.servicecatalogLaunchNotificationConstraint.ServicecatalogLaunchNotificationConstraint.Initializer.parameter.description">description</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicecatalog_launch_notification_constraint#description ServicecatalogLaunchNotificationConstraint#description}. |
+| <code><a href="#@cdktn/provider-awscc.servicecatalogLaunchNotificationConstraint.ServicecatalogLaunchNotificationConstraint.Initializer.parameter.notificationArns">notificationArns</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicecatalog_launch_notification_constraint#notification_arns ServicecatalogLaunchNotificationConstraint#notification_arns}. |
+| <code><a href="#@cdktn/provider-awscc.servicecatalogLaunchNotificationConstraint.ServicecatalogLaunchNotificationConstraint.Initializer.parameter.portfolioId">portfolioId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicecatalog_launch_notification_constraint#portfolio_id ServicecatalogLaunchNotificationConstraint#portfolio_id}. |
+| <code><a href="#@cdktn/provider-awscc.servicecatalogLaunchNotificationConstraint.ServicecatalogLaunchNotificationConstraint.Initializer.parameter.productId">productId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicecatalog_launch_notification_constraint#product_id ServicecatalogLaunchNotificationConstraint#product_id}. |
+| <code><a href="#@cdktn/provider-awscc.servicecatalogLaunchNotificationConstraint.ServicecatalogLaunchNotificationConstraint.Initializer.parameter.acceptLanguage">acceptLanguage</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicecatalog_launch_notification_constraint#accept_language ServicecatalogLaunchNotificationConstraint#accept_language}. |
+| <code><a href="#@cdktn/provider-awscc.servicecatalogLaunchNotificationConstraint.ServicecatalogLaunchNotificationConstraint.Initializer.parameter.description">description</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicecatalog_launch_notification_constraint#description ServicecatalogLaunchNotificationConstraint#description}. |
 
 ---
 
@@ -110,7 +110,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicecatalog_launch_notification_constraint#notification_arns ServicecatalogLaunchNotificationConstraint#notification_arns}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicecatalog_launch_notification_constraint#notification_arns ServicecatalogLaunchNotificationConstraint#notification_arns}.
 
 ---
 
@@ -118,7 +118,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicecatalog_launch_notification_constraint#portfolio_id ServicecatalogLaunchNotificationConstraint#portfolio_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicecatalog_launch_notification_constraint#portfolio_id ServicecatalogLaunchNotificationConstraint#portfolio_id}.
 
 ---
 
@@ -126,7 +126,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicecatalog_launch_notification_constraint#product_id ServicecatalogLaunchNotificationConstraint#product_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicecatalog_launch_notification_constraint#product_id ServicecatalogLaunchNotificationConstraint#product_id}.
 
 ---
 
@@ -134,7 +134,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicecatalog_launch_notification_constraint#accept_language ServicecatalogLaunchNotificationConstraint#accept_language}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicecatalog_launch_notification_constraint#accept_language ServicecatalogLaunchNotificationConstraint#accept_language}.
 
 ---
 
@@ -142,7 +142,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicecatalog_launch_notification_constraint#description ServicecatalogLaunchNotificationConstraint#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicecatalog_launch_notification_constraint#description ServicecatalogLaunchNotificationConstraint#description}.
 
 ---
 
@@ -605,7 +605,7 @@ The construct id used in the generated config for the ServicecatalogLaunchNotifi
 
 The id of the existing ServicecatalogLaunchNotificationConstraint that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicecatalog_launch_notification_constraint#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicecatalog_launch_notification_constraint#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -966,11 +966,11 @@ ServicecatalogLaunchNotificationConstraintConfig.builder()
 | <code><a href="#@cdktn/provider-awscc.servicecatalogLaunchNotificationConstraint.ServicecatalogLaunchNotificationConstraintConfig.property.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.servicecatalogLaunchNotificationConstraint.ServicecatalogLaunchNotificationConstraintConfig.property.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.servicecatalogLaunchNotificationConstraint.ServicecatalogLaunchNotificationConstraintConfig.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.servicecatalogLaunchNotificationConstraint.ServicecatalogLaunchNotificationConstraintConfig.property.notificationArns">notificationArns</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicecatalog_launch_notification_constraint#notification_arns ServicecatalogLaunchNotificationConstraint#notification_arns}. |
-| <code><a href="#@cdktn/provider-awscc.servicecatalogLaunchNotificationConstraint.ServicecatalogLaunchNotificationConstraintConfig.property.portfolioId">portfolioId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicecatalog_launch_notification_constraint#portfolio_id ServicecatalogLaunchNotificationConstraint#portfolio_id}. |
-| <code><a href="#@cdktn/provider-awscc.servicecatalogLaunchNotificationConstraint.ServicecatalogLaunchNotificationConstraintConfig.property.productId">productId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicecatalog_launch_notification_constraint#product_id ServicecatalogLaunchNotificationConstraint#product_id}. |
-| <code><a href="#@cdktn/provider-awscc.servicecatalogLaunchNotificationConstraint.ServicecatalogLaunchNotificationConstraintConfig.property.acceptLanguage">acceptLanguage</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicecatalog_launch_notification_constraint#accept_language ServicecatalogLaunchNotificationConstraint#accept_language}. |
-| <code><a href="#@cdktn/provider-awscc.servicecatalogLaunchNotificationConstraint.ServicecatalogLaunchNotificationConstraintConfig.property.description">description</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicecatalog_launch_notification_constraint#description ServicecatalogLaunchNotificationConstraint#description}. |
+| <code><a href="#@cdktn/provider-awscc.servicecatalogLaunchNotificationConstraint.ServicecatalogLaunchNotificationConstraintConfig.property.notificationArns">notificationArns</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicecatalog_launch_notification_constraint#notification_arns ServicecatalogLaunchNotificationConstraint#notification_arns}. |
+| <code><a href="#@cdktn/provider-awscc.servicecatalogLaunchNotificationConstraint.ServicecatalogLaunchNotificationConstraintConfig.property.portfolioId">portfolioId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicecatalog_launch_notification_constraint#portfolio_id ServicecatalogLaunchNotificationConstraint#portfolio_id}. |
+| <code><a href="#@cdktn/provider-awscc.servicecatalogLaunchNotificationConstraint.ServicecatalogLaunchNotificationConstraintConfig.property.productId">productId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicecatalog_launch_notification_constraint#product_id ServicecatalogLaunchNotificationConstraint#product_id}. |
+| <code><a href="#@cdktn/provider-awscc.servicecatalogLaunchNotificationConstraint.ServicecatalogLaunchNotificationConstraintConfig.property.acceptLanguage">acceptLanguage</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicecatalog_launch_notification_constraint#accept_language ServicecatalogLaunchNotificationConstraint#accept_language}. |
+| <code><a href="#@cdktn/provider-awscc.servicecatalogLaunchNotificationConstraint.ServicecatalogLaunchNotificationConstraintConfig.property.description">description</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicecatalog_launch_notification_constraint#description ServicecatalogLaunchNotificationConstraint#description}. |
 
 ---
 
@@ -1052,7 +1052,7 @@ public java.util.List<java.lang.String> getNotificationArns();
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicecatalog_launch_notification_constraint#notification_arns ServicecatalogLaunchNotificationConstraint#notification_arns}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicecatalog_launch_notification_constraint#notification_arns ServicecatalogLaunchNotificationConstraint#notification_arns}.
 
 ---
 
@@ -1064,7 +1064,7 @@ public java.lang.String getPortfolioId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicecatalog_launch_notification_constraint#portfolio_id ServicecatalogLaunchNotificationConstraint#portfolio_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicecatalog_launch_notification_constraint#portfolio_id ServicecatalogLaunchNotificationConstraint#portfolio_id}.
 
 ---
 
@@ -1076,7 +1076,7 @@ public java.lang.String getProductId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicecatalog_launch_notification_constraint#product_id ServicecatalogLaunchNotificationConstraint#product_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicecatalog_launch_notification_constraint#product_id ServicecatalogLaunchNotificationConstraint#product_id}.
 
 ---
 
@@ -1088,7 +1088,7 @@ public java.lang.String getAcceptLanguage();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicecatalog_launch_notification_constraint#accept_language ServicecatalogLaunchNotificationConstraint#accept_language}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicecatalog_launch_notification_constraint#accept_language ServicecatalogLaunchNotificationConstraint#accept_language}.
 
 ---
 
@@ -1100,7 +1100,7 @@ public java.lang.String getDescription();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicecatalog_launch_notification_constraint#description ServicecatalogLaunchNotificationConstraint#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicecatalog_launch_notification_constraint#description ServicecatalogLaunchNotificationConstraint#description}.
 
 ---
 

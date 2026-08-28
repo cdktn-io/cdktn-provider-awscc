@@ -4,7 +4,7 @@
 
 ### DataAwsccMskVpcConnections <a name="DataAwsccMskVpcConnections" id="@cdktn/provider-awscc.dataAwsccMskVpcConnections.DataAwsccMskVpcConnections"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/msk_vpc_connections awscc_msk_vpc_connections}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/msk_vpc_connections awscc_msk_vpc_connections}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskVpcConnections.DataAwsccMskVpcConnections.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccMskVpcConnections
 
 The id of the existing DataAwsccMskVpcConnections that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/msk_vpc_connections#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/msk_vpc_connections#import import section} in the documentation of this resource for the id to use
 
 ---
 

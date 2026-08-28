@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/medialive_cluster
+// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/medialive_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,31 +15,31 @@ export interface MedialiveClusterConfig extends cdktn.TerraformMetaArguments {
   /**
   * The hardware type for the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/medialive_cluster#cluster_type MedialiveCluster#cluster_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/medialive_cluster#cluster_type MedialiveCluster#cluster_type}
   */
   readonly clusterType?: string;
   /**
   * The IAM role your nodes will use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/medialive_cluster#instance_role_arn MedialiveCluster#instance_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/medialive_cluster#instance_role_arn MedialiveCluster#instance_role_arn}
   */
   readonly instanceRoleArn?: string;
   /**
   * The user-specified name of the Cluster to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/medialive_cluster#name MedialiveCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/medialive_cluster#name MedialiveCluster#name}
   */
   readonly name?: string;
   /**
   * On premises settings which will have the interface network mappings and default Output logical interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/medialive_cluster#network_settings MedialiveCluster#network_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/medialive_cluster#network_settings MedialiveCluster#network_settings}
   */
   readonly networkSettings?: MedialiveClusterNetworkSettings;
   /**
   * A collection of key-value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/medialive_cluster#tags MedialiveCluster#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/medialive_cluster#tags MedialiveCluster#tags}
   */
   readonly tags?: MedialiveClusterTags[] | cdktn.IResolvable;
 }
@@ -47,13 +47,13 @@ export interface MedialiveClusterNetworkSettingsInterfaceMappings {
   /**
   * logical interface name, unique in the list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/medialive_cluster#logical_interface_name MedialiveCluster#logical_interface_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/medialive_cluster#logical_interface_name MedialiveCluster#logical_interface_name}
   */
   readonly logicalInterfaceName?: string;
   /**
   * Network Id to be associated with the logical interface name, can be duplicated in list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/medialive_cluster#network_id MedialiveCluster#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/medialive_cluster#network_id MedialiveCluster#network_id}
   */
   readonly networkId?: string;
 }
@@ -200,13 +200,13 @@ export interface MedialiveClusterNetworkSettings {
   /**
   * Default value if the customer does not define it in channel Output API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/medialive_cluster#default_route MedialiveCluster#default_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/medialive_cluster#default_route MedialiveCluster#default_route}
   */
   readonly defaultRoute?: string;
   /**
   * Network mappings for the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/medialive_cluster#interface_mappings MedialiveCluster#interface_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/medialive_cluster#interface_mappings MedialiveCluster#interface_mappings}
   */
   readonly interfaceMappings?: MedialiveClusterNetworkSettingsInterfaceMappings[] | cdktn.IResolvable;
 }
@@ -329,11 +329,11 @@ export class MedialiveClusterNetworkSettingsOutputReference extends cdktn.Comple
 }
 export interface MedialiveClusterTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/medialive_cluster#key MedialiveCluster#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/medialive_cluster#key MedialiveCluster#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/medialive_cluster#value MedialiveCluster#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/medialive_cluster#value MedialiveCluster#value}
   */
   readonly value?: string;
 }
@@ -478,7 +478,7 @@ export class MedialiveClusterTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/medialive_cluster awscc_medialive_cluster}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/medialive_cluster awscc_medialive_cluster}
 */
 export class MedialiveCluster extends cdktn.TerraformResource {
 
@@ -494,7 +494,7 @@ export class MedialiveCluster extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a MedialiveCluster resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MedialiveCluster to import
-  * @param importFromId The id of the existing MedialiveCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/medialive_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MedialiveCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/medialive_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MedialiveCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -506,7 +506,7 @@ export class MedialiveCluster extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/medialive_cluster awscc_medialive_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/medialive_cluster awscc_medialive_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -517,7 +517,7 @@ export class MedialiveCluster extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_medialive_cluster',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.98.0',
+        providerVersion: '1.99.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

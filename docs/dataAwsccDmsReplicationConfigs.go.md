@@ -4,7 +4,7 @@
 
 ### DataAwsccDmsReplicationConfigs <a name="DataAwsccDmsReplicationConfigs" id="@cdktn/provider-awscc.dataAwsccDmsReplicationConfigs.DataAwsccDmsReplicationConfigs"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/dms_replication_configs awscc_dms_replication_configs}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/dms_replication_configs awscc_dms_replication_configs}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDmsReplicationConfigs.DataAwsccDmsReplicationConfigs.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccDmsReplicationCon
 
 The id of the existing DataAwsccDmsReplicationConfigs that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/dms_replication_configs#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/dms_replication_configs#import import section} in the documentation of this resource for the id to use
 
 ---
 

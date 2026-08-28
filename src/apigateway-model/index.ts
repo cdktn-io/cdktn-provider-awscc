@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_model
+// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_model
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,32 +13,32 @@ import * as cdktn from 'cdktn';
 
 export interface ApigatewayModelConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_model#content_type ApigatewayModel#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_model#content_type ApigatewayModel#content_type}
   */
   readonly contentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_model#description ApigatewayModel#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_model#description ApigatewayModel#description}
   */
   readonly description?: string;
   /**
   * A name for the model. If you don't specify a name, CFN generates a unique physical ID and uses that ID for the model name. For more information, see [Name Type](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-name.html).
   *   If you specify a name, you cannot perform updates that require replacement of this resource. You can perform updates that require no or some interruption. If you must replace the resource, specify a new name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_model#name ApigatewayModel#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_model#name ApigatewayModel#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_model#rest_api_id ApigatewayModel#rest_api_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_model#rest_api_id ApigatewayModel#rest_api_id}
   */
   readonly restApiId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_model#schema ApigatewayModel#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_model#schema ApigatewayModel#schema}
   */
   readonly schema?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_model awscc_apigateway_model}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_model awscc_apigateway_model}
 */
 export class ApigatewayModel extends cdktn.TerraformResource {
 
@@ -54,7 +54,7 @@ export class ApigatewayModel extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ApigatewayModel resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApigatewayModel to import
-  * @param importFromId The id of the existing ApigatewayModel that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_model#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApigatewayModel that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_model#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApigatewayModel to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -66,7 +66,7 @@ export class ApigatewayModel extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_model awscc_apigateway_model} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_model awscc_apigateway_model} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -77,7 +77,7 @@ export class ApigatewayModel extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_apigateway_model',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.98.0',
+        providerVersion: '1.99.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

@@ -4,7 +4,7 @@
 
 ### DatasyncStorageSystem <a name="DatasyncStorageSystem" id="@cdktn/provider-awscc.datasyncStorageSystem.DatasyncStorageSystem"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datasync_storage_system awscc_datasync_storage_system}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datasync_storage_system awscc_datasync_storage_system}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.datasyncStorageSystem.DatasyncStorageSystem.Initializer"></a>
 
@@ -42,13 +42,13 @@ datasyncStorageSystem.DatasyncStorageSystem(
 | <code><a href="#@cdktn/provider-awscc.datasyncStorageSystem.DatasyncStorageSystem.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.datasyncStorageSystem.DatasyncStorageSystem.Initializer.parameter.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.datasyncStorageSystem.DatasyncStorageSystem.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.datasyncStorageSystem.DatasyncStorageSystem.Initializer.parameter.agentArns">agent_arns</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datasync_storage_system#agent_arns DatasyncStorageSystem#agent_arns}. |
-| <code><a href="#@cdktn/provider-awscc.datasyncStorageSystem.DatasyncStorageSystem.Initializer.parameter.serverConfiguration">server_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.datasyncStorageSystem.DatasyncStorageSystemServerConfiguration">DatasyncStorageSystemServerConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datasync_storage_system#server_configuration DatasyncStorageSystem#server_configuration}. |
-| <code><a href="#@cdktn/provider-awscc.datasyncStorageSystem.DatasyncStorageSystem.Initializer.parameter.systemType">system_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datasync_storage_system#system_type DatasyncStorageSystem#system_type}. |
-| <code><a href="#@cdktn/provider-awscc.datasyncStorageSystem.DatasyncStorageSystem.Initializer.parameter.cloudwatchLogGroupArn">cloudwatch_log_group_arn</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datasync_storage_system#cloudwatch_log_group_arn DatasyncStorageSystem#cloudwatch_log_group_arn}. |
-| <code><a href="#@cdktn/provider-awscc.datasyncStorageSystem.DatasyncStorageSystem.Initializer.parameter.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datasync_storage_system#name DatasyncStorageSystem#name}. |
-| <code><a href="#@cdktn/provider-awscc.datasyncStorageSystem.DatasyncStorageSystem.Initializer.parameter.serverCredentials">server_credentials</a></code> | <code><a href="#@cdktn/provider-awscc.datasyncStorageSystem.DatasyncStorageSystemServerCredentials">DatasyncStorageSystemServerCredentials</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datasync_storage_system#server_credentials DatasyncStorageSystem#server_credentials}. |
-| <code><a href="#@cdktn/provider-awscc.datasyncStorageSystem.DatasyncStorageSystem.Initializer.parameter.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.datasyncStorageSystem.DatasyncStorageSystemTags">DatasyncStorageSystemTags</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datasync_storage_system#tags DatasyncStorageSystem#tags}. |
+| <code><a href="#@cdktn/provider-awscc.datasyncStorageSystem.DatasyncStorageSystem.Initializer.parameter.agentArns">agent_arns</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datasync_storage_system#agent_arns DatasyncStorageSystem#agent_arns}. |
+| <code><a href="#@cdktn/provider-awscc.datasyncStorageSystem.DatasyncStorageSystem.Initializer.parameter.serverConfiguration">server_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.datasyncStorageSystem.DatasyncStorageSystemServerConfiguration">DatasyncStorageSystemServerConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datasync_storage_system#server_configuration DatasyncStorageSystem#server_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.datasyncStorageSystem.DatasyncStorageSystem.Initializer.parameter.systemType">system_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datasync_storage_system#system_type DatasyncStorageSystem#system_type}. |
+| <code><a href="#@cdktn/provider-awscc.datasyncStorageSystem.DatasyncStorageSystem.Initializer.parameter.cloudwatchLogGroupArn">cloudwatch_log_group_arn</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datasync_storage_system#cloudwatch_log_group_arn DatasyncStorageSystem#cloudwatch_log_group_arn}. |
+| <code><a href="#@cdktn/provider-awscc.datasyncStorageSystem.DatasyncStorageSystem.Initializer.parameter.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datasync_storage_system#name DatasyncStorageSystem#name}. |
+| <code><a href="#@cdktn/provider-awscc.datasyncStorageSystem.DatasyncStorageSystem.Initializer.parameter.serverCredentials">server_credentials</a></code> | <code><a href="#@cdktn/provider-awscc.datasyncStorageSystem.DatasyncStorageSystemServerCredentials">DatasyncStorageSystemServerCredentials</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datasync_storage_system#server_credentials DatasyncStorageSystem#server_credentials}. |
+| <code><a href="#@cdktn/provider-awscc.datasyncStorageSystem.DatasyncStorageSystem.Initializer.parameter.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.datasyncStorageSystem.DatasyncStorageSystemTags">DatasyncStorageSystemTags</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datasync_storage_system#tags DatasyncStorageSystem#tags}. |
 
 ---
 
@@ -116,7 +116,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datasync_storage_system#agent_arns DatasyncStorageSystem#agent_arns}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datasync_storage_system#agent_arns DatasyncStorageSystem#agent_arns}.
 
 ---
 
@@ -124,7 +124,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.datasyncStorageSystem.DatasyncStorageSystemServerConfiguration">DatasyncStorageSystemServerConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datasync_storage_system#server_configuration DatasyncStorageSystem#server_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datasync_storage_system#server_configuration DatasyncStorageSystem#server_configuration}.
 
 ---
 
@@ -132,7 +132,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datasync_storage_system#system_type DatasyncStorageSystem#system_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datasync_storage_system#system_type DatasyncStorageSystem#system_type}.
 
 ---
 
@@ -140,7 +140,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datasync_storage_system#cloudwatch_log_group_arn DatasyncStorageSystem#cloudwatch_log_group_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datasync_storage_system#cloudwatch_log_group_arn DatasyncStorageSystem#cloudwatch_log_group_arn}.
 
 ---
 
@@ -148,7 +148,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datasync_storage_system#name DatasyncStorageSystem#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datasync_storage_system#name DatasyncStorageSystem#name}.
 
 ---
 
@@ -156,7 +156,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.datasyncStorageSystem.DatasyncStorageSystemServerCredentials">DatasyncStorageSystemServerCredentials</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datasync_storage_system#server_credentials DatasyncStorageSystem#server_credentials}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datasync_storage_system#server_credentials DatasyncStorageSystem#server_credentials}.
 
 ---
 
@@ -164,7 +164,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.datasyncStorageSystem.DatasyncStorageSystemTags">DatasyncStorageSystemTags</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datasync_storage_system#tags DatasyncStorageSystem#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datasync_storage_system#tags DatasyncStorageSystem#tags}.
 
 ---
 
@@ -567,7 +567,7 @@ def put_server_configuration(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datasync_storage_system#server_hostname DatasyncStorageSystem#server_hostname}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datasync_storage_system#server_hostname DatasyncStorageSystem#server_hostname}.
 
 ---
 
@@ -575,7 +575,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datasync_storage_system#server_port DatasyncStorageSystem#server_port}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datasync_storage_system#server_port DatasyncStorageSystem#server_port}.
 
 ---
 
@@ -592,7 +592,7 @@ def put_server_credentials(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datasync_storage_system#password DatasyncStorageSystem#password}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datasync_storage_system#password DatasyncStorageSystem#password}.
 
 ---
 
@@ -600,7 +600,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datasync_storage_system#username DatasyncStorageSystem#username}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datasync_storage_system#username DatasyncStorageSystem#username}.
 
 ---
 
@@ -756,7 +756,7 @@ The construct id used in the generated config for the DatasyncStorageSystem to i
 
 The id of the existing DatasyncStorageSystem that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datasync_storage_system#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datasync_storage_system#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1196,13 +1196,13 @@ datasyncStorageSystem.DatasyncStorageSystemConfig(
 | <code><a href="#@cdktn/provider-awscc.datasyncStorageSystem.DatasyncStorageSystemConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.datasyncStorageSystem.DatasyncStorageSystemConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.datasyncStorageSystem.DatasyncStorageSystemConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.datasyncStorageSystem.DatasyncStorageSystemConfig.property.agentArns">agent_arns</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datasync_storage_system#agent_arns DatasyncStorageSystem#agent_arns}. |
-| <code><a href="#@cdktn/provider-awscc.datasyncStorageSystem.DatasyncStorageSystemConfig.property.serverConfiguration">server_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.datasyncStorageSystem.DatasyncStorageSystemServerConfiguration">DatasyncStorageSystemServerConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datasync_storage_system#server_configuration DatasyncStorageSystem#server_configuration}. |
-| <code><a href="#@cdktn/provider-awscc.datasyncStorageSystem.DatasyncStorageSystemConfig.property.systemType">system_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datasync_storage_system#system_type DatasyncStorageSystem#system_type}. |
-| <code><a href="#@cdktn/provider-awscc.datasyncStorageSystem.DatasyncStorageSystemConfig.property.cloudwatchLogGroupArn">cloudwatch_log_group_arn</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datasync_storage_system#cloudwatch_log_group_arn DatasyncStorageSystem#cloudwatch_log_group_arn}. |
-| <code><a href="#@cdktn/provider-awscc.datasyncStorageSystem.DatasyncStorageSystemConfig.property.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datasync_storage_system#name DatasyncStorageSystem#name}. |
-| <code><a href="#@cdktn/provider-awscc.datasyncStorageSystem.DatasyncStorageSystemConfig.property.serverCredentials">server_credentials</a></code> | <code><a href="#@cdktn/provider-awscc.datasyncStorageSystem.DatasyncStorageSystemServerCredentials">DatasyncStorageSystemServerCredentials</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datasync_storage_system#server_credentials DatasyncStorageSystem#server_credentials}. |
-| <code><a href="#@cdktn/provider-awscc.datasyncStorageSystem.DatasyncStorageSystemConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.datasyncStorageSystem.DatasyncStorageSystemTags">DatasyncStorageSystemTags</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datasync_storage_system#tags DatasyncStorageSystem#tags}. |
+| <code><a href="#@cdktn/provider-awscc.datasyncStorageSystem.DatasyncStorageSystemConfig.property.agentArns">agent_arns</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datasync_storage_system#agent_arns DatasyncStorageSystem#agent_arns}. |
+| <code><a href="#@cdktn/provider-awscc.datasyncStorageSystem.DatasyncStorageSystemConfig.property.serverConfiguration">server_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.datasyncStorageSystem.DatasyncStorageSystemServerConfiguration">DatasyncStorageSystemServerConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datasync_storage_system#server_configuration DatasyncStorageSystem#server_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.datasyncStorageSystem.DatasyncStorageSystemConfig.property.systemType">system_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datasync_storage_system#system_type DatasyncStorageSystem#system_type}. |
+| <code><a href="#@cdktn/provider-awscc.datasyncStorageSystem.DatasyncStorageSystemConfig.property.cloudwatchLogGroupArn">cloudwatch_log_group_arn</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datasync_storage_system#cloudwatch_log_group_arn DatasyncStorageSystem#cloudwatch_log_group_arn}. |
+| <code><a href="#@cdktn/provider-awscc.datasyncStorageSystem.DatasyncStorageSystemConfig.property.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datasync_storage_system#name DatasyncStorageSystem#name}. |
+| <code><a href="#@cdktn/provider-awscc.datasyncStorageSystem.DatasyncStorageSystemConfig.property.serverCredentials">server_credentials</a></code> | <code><a href="#@cdktn/provider-awscc.datasyncStorageSystem.DatasyncStorageSystemServerCredentials">DatasyncStorageSystemServerCredentials</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datasync_storage_system#server_credentials DatasyncStorageSystem#server_credentials}. |
+| <code><a href="#@cdktn/provider-awscc.datasyncStorageSystem.DatasyncStorageSystemConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.datasyncStorageSystem.DatasyncStorageSystemTags">DatasyncStorageSystemTags</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datasync_storage_system#tags DatasyncStorageSystem#tags}. |
 
 ---
 
@@ -1284,7 +1284,7 @@ agent_arns: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datasync_storage_system#agent_arns DatasyncStorageSystem#agent_arns}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datasync_storage_system#agent_arns DatasyncStorageSystem#agent_arns}.
 
 ---
 
@@ -1296,7 +1296,7 @@ server_configuration: DatasyncStorageSystemServerConfiguration
 
 - *Type:* <a href="#@cdktn/provider-awscc.datasyncStorageSystem.DatasyncStorageSystemServerConfiguration">DatasyncStorageSystemServerConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datasync_storage_system#server_configuration DatasyncStorageSystem#server_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datasync_storage_system#server_configuration DatasyncStorageSystem#server_configuration}.
 
 ---
 
@@ -1308,7 +1308,7 @@ system_type: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datasync_storage_system#system_type DatasyncStorageSystem#system_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datasync_storage_system#system_type DatasyncStorageSystem#system_type}.
 
 ---
 
@@ -1320,7 +1320,7 @@ cloudwatch_log_group_arn: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datasync_storage_system#cloudwatch_log_group_arn DatasyncStorageSystem#cloudwatch_log_group_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datasync_storage_system#cloudwatch_log_group_arn DatasyncStorageSystem#cloudwatch_log_group_arn}.
 
 ---
 
@@ -1332,7 +1332,7 @@ name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datasync_storage_system#name DatasyncStorageSystem#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datasync_storage_system#name DatasyncStorageSystem#name}.
 
 ---
 
@@ -1344,7 +1344,7 @@ server_credentials: DatasyncStorageSystemServerCredentials
 
 - *Type:* <a href="#@cdktn/provider-awscc.datasyncStorageSystem.DatasyncStorageSystemServerCredentials">DatasyncStorageSystemServerCredentials</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datasync_storage_system#server_credentials DatasyncStorageSystem#server_credentials}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datasync_storage_system#server_credentials DatasyncStorageSystem#server_credentials}.
 
 ---
 
@@ -1356,7 +1356,7 @@ tags: IResolvable | typing.List[DatasyncStorageSystemTags]
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.datasyncStorageSystem.DatasyncStorageSystemTags">DatasyncStorageSystemTags</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datasync_storage_system#tags DatasyncStorageSystem#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datasync_storage_system#tags DatasyncStorageSystem#tags}.
 
 ---
 
@@ -1377,8 +1377,8 @@ datasyncStorageSystem.DatasyncStorageSystemServerConfiguration(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.datasyncStorageSystem.DatasyncStorageSystemServerConfiguration.property.serverHostname">server_hostname</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datasync_storage_system#server_hostname DatasyncStorageSystem#server_hostname}. |
-| <code><a href="#@cdktn/provider-awscc.datasyncStorageSystem.DatasyncStorageSystemServerConfiguration.property.serverPort">server_port</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datasync_storage_system#server_port DatasyncStorageSystem#server_port}. |
+| <code><a href="#@cdktn/provider-awscc.datasyncStorageSystem.DatasyncStorageSystemServerConfiguration.property.serverHostname">server_hostname</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datasync_storage_system#server_hostname DatasyncStorageSystem#server_hostname}. |
+| <code><a href="#@cdktn/provider-awscc.datasyncStorageSystem.DatasyncStorageSystemServerConfiguration.property.serverPort">server_port</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datasync_storage_system#server_port DatasyncStorageSystem#server_port}. |
 
 ---
 
@@ -1390,7 +1390,7 @@ server_hostname: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datasync_storage_system#server_hostname DatasyncStorageSystem#server_hostname}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datasync_storage_system#server_hostname DatasyncStorageSystem#server_hostname}.
 
 ---
 
@@ -1402,7 +1402,7 @@ server_port: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datasync_storage_system#server_port DatasyncStorageSystem#server_port}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datasync_storage_system#server_port DatasyncStorageSystem#server_port}.
 
 ---
 
@@ -1423,8 +1423,8 @@ datasyncStorageSystem.DatasyncStorageSystemServerCredentials(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.datasyncStorageSystem.DatasyncStorageSystemServerCredentials.property.password">password</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datasync_storage_system#password DatasyncStorageSystem#password}. |
-| <code><a href="#@cdktn/provider-awscc.datasyncStorageSystem.DatasyncStorageSystemServerCredentials.property.username">username</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datasync_storage_system#username DatasyncStorageSystem#username}. |
+| <code><a href="#@cdktn/provider-awscc.datasyncStorageSystem.DatasyncStorageSystemServerCredentials.property.password">password</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datasync_storage_system#password DatasyncStorageSystem#password}. |
+| <code><a href="#@cdktn/provider-awscc.datasyncStorageSystem.DatasyncStorageSystemServerCredentials.property.username">username</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datasync_storage_system#username DatasyncStorageSystem#username}. |
 
 ---
 
@@ -1436,7 +1436,7 @@ password: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datasync_storage_system#password DatasyncStorageSystem#password}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datasync_storage_system#password DatasyncStorageSystem#password}.
 
 ---
 
@@ -1448,7 +1448,7 @@ username: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datasync_storage_system#username DatasyncStorageSystem#username}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datasync_storage_system#username DatasyncStorageSystem#username}.
 
 ---
 
@@ -1469,8 +1469,8 @@ datasyncStorageSystem.DatasyncStorageSystemTags(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.datasyncStorageSystem.DatasyncStorageSystemTags.property.key">key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datasync_storage_system#key DatasyncStorageSystem#key}. |
-| <code><a href="#@cdktn/provider-awscc.datasyncStorageSystem.DatasyncStorageSystemTags.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datasync_storage_system#value DatasyncStorageSystem#value}. |
+| <code><a href="#@cdktn/provider-awscc.datasyncStorageSystem.DatasyncStorageSystemTags.property.key">key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datasync_storage_system#key DatasyncStorageSystem#key}. |
+| <code><a href="#@cdktn/provider-awscc.datasyncStorageSystem.DatasyncStorageSystemTags.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datasync_storage_system#value DatasyncStorageSystem#value}. |
 
 ---
 
@@ -1482,7 +1482,7 @@ key: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datasync_storage_system#key DatasyncStorageSystem#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datasync_storage_system#key DatasyncStorageSystem#key}.
 
 ---
 
@@ -1494,7 +1494,7 @@ value: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datasync_storage_system#value DatasyncStorageSystem#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datasync_storage_system#value DatasyncStorageSystem#value}.
 
 ---
 

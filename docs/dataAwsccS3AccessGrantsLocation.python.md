@@ -4,7 +4,7 @@
 
 ### DataAwsccS3AccessGrantsLocation <a name="DataAwsccS3AccessGrantsLocation" id="@cdktn/provider-awscc.dataAwsccS3AccessGrantsLocation.DataAwsccS3AccessGrantsLocation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/s3_access_grants_location awscc_s3_access_grants_location}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/s3_access_grants_location awscc_s3_access_grants_location}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3AccessGrantsLocation.DataAwsccS3AccessGrantsLocation.Initializer"></a>
 
@@ -106,7 +106,7 @@ Must be unique amongst siblings in the same scope
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/s3_access_grants_location#id DataAwsccS3AccessGrantsLocation#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/s3_access_grants_location#id DataAwsccS3AccessGrantsLocation#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -492,7 +492,7 @@ The construct id used in the generated config for the DataAwsccS3AccessGrantsLoc
 
 The id of the existing DataAwsccS3AccessGrantsLocation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/s3_access_grants_location#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/s3_access_grants_location#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -856,7 +856,7 @@ id: str
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/s3_access_grants_location#id DataAwsccS3AccessGrantsLocation#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/s3_access_grants_location#id DataAwsccS3AccessGrantsLocation#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

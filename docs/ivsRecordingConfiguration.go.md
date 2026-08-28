@@ -4,7 +4,7 @@
 
 ### IvsRecordingConfiguration <a name="IvsRecordingConfiguration" id="@cdktn/provider-awscc.ivsRecordingConfiguration.IvsRecordingConfiguration"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ivs_recording_configuration awscc_ivs_recording_configuration}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ivs_recording_configuration awscc_ivs_recording_configuration}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ivsRecordingConfiguration.IvsRecordingConfiguration.Initializer"></a>
 
@@ -576,7 +576,7 @@ The construct id used in the generated config for the IvsRecordingConfiguration 
 
 The id of the existing IvsRecordingConfiguration that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ivs_recording_configuration#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ivs_recording_configuration#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1060,7 +1060,7 @@ DestinationConfiguration IvsRecordingConfigurationDestinationConfiguration
 
 Recording Destination Configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ivs_recording_configuration#destination_configuration IvsRecordingConfiguration#destination_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ivs_recording_configuration#destination_configuration IvsRecordingConfiguration#destination_configuration}
 
 ---
 
@@ -1074,7 +1074,7 @@ Name *string
 
 Recording Configuration Name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ivs_recording_configuration#name IvsRecordingConfiguration#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ivs_recording_configuration#name IvsRecordingConfiguration#name}
 
 ---
 
@@ -1088,7 +1088,7 @@ RecordingReconnectWindowSeconds *f64
 
 Recording Reconnect Window Seconds. (0 means disabled).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ivs_recording_configuration#recording_reconnect_window_seconds IvsRecordingConfiguration#recording_reconnect_window_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ivs_recording_configuration#recording_reconnect_window_seconds IvsRecordingConfiguration#recording_reconnect_window_seconds}
 
 ---
 
@@ -1102,7 +1102,7 @@ RenditionConfiguration IvsRecordingConfigurationRenditionConfiguration
 
 Rendition Configuration describes which renditions should be recorded for a stream.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ivs_recording_configuration#rendition_configuration IvsRecordingConfiguration#rendition_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ivs_recording_configuration#rendition_configuration IvsRecordingConfiguration#rendition_configuration}
 
 ---
 
@@ -1116,7 +1116,7 @@ Tags interface{}
 
 A list of key-value pairs that contain metadata for the asset model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ivs_recording_configuration#tags IvsRecordingConfiguration#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ivs_recording_configuration#tags IvsRecordingConfiguration#tags}
 
 ---
 
@@ -1130,7 +1130,7 @@ ThumbnailConfiguration IvsRecordingConfigurationThumbnailConfiguration
 
 Recording Thumbnail Configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ivs_recording_configuration#thumbnail_configuration IvsRecordingConfiguration#thumbnail_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ivs_recording_configuration#thumbnail_configuration IvsRecordingConfiguration#thumbnail_configuration}
 
 ---
 
@@ -1164,7 +1164,7 @@ S3 IvsRecordingConfigurationDestinationConfigurationS3
 
 Recording S3 Destination Configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ivs_recording_configuration#s3 IvsRecordingConfiguration#s3}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ivs_recording_configuration#s3 IvsRecordingConfiguration#s3}
 
 ---
 
@@ -1184,7 +1184,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivsrecordingconfigurat
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ivsRecordingConfiguration.IvsRecordingConfigurationDestinationConfigurationS3.property.bucketName">BucketName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ivs_recording_configuration#bucket_name IvsRecordingConfiguration#bucket_name}. |
+| <code><a href="#@cdktn/provider-awscc.ivsRecordingConfiguration.IvsRecordingConfigurationDestinationConfigurationS3.property.bucketName">BucketName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ivs_recording_configuration#bucket_name IvsRecordingConfiguration#bucket_name}. |
 
 ---
 
@@ -1196,7 +1196,7 @@ BucketName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ivs_recording_configuration#bucket_name IvsRecordingConfiguration#bucket_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ivs_recording_configuration#bucket_name IvsRecordingConfiguration#bucket_name}.
 
 ---
 
@@ -1232,7 +1232,7 @@ Renditions *[]*string
 
 Renditions indicates which renditions are recorded for a stream.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ivs_recording_configuration#renditions IvsRecordingConfiguration#renditions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ivs_recording_configuration#renditions IvsRecordingConfiguration#renditions}
 
 ---
 
@@ -1246,7 +1246,7 @@ RenditionSelection *string
 
 Resolution Selection indicates which set of renditions are recorded for a stream.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ivs_recording_configuration#rendition_selection IvsRecordingConfiguration#rendition_selection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ivs_recording_configuration#rendition_selection IvsRecordingConfiguration#rendition_selection}
 
 ---
 
@@ -1284,7 +1284,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ivs_recording_configuration#key IvsRecordingConfiguration#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ivs_recording_configuration#key IvsRecordingConfiguration#key}
 
 ---
 
@@ -1300,7 +1300,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ivs_recording_configuration#value IvsRecordingConfiguration#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ivs_recording_configuration#value IvsRecordingConfiguration#value}
 
 ---
 
@@ -1340,7 +1340,7 @@ RecordingMode *string
 
 Thumbnail Recording Mode, which determines whether thumbnails are recorded at an interval or are disabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ivs_recording_configuration#recording_mode IvsRecordingConfiguration#recording_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ivs_recording_configuration#recording_mode IvsRecordingConfiguration#recording_mode}
 
 ---
 
@@ -1354,7 +1354,7 @@ Resolution *string
 
 Resolution indicates the desired resolution of recorded thumbnails.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ivs_recording_configuration#resolution IvsRecordingConfiguration#resolution}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ivs_recording_configuration#resolution IvsRecordingConfiguration#resolution}
 
 ---
 
@@ -1368,7 +1368,7 @@ Storage *[]*string
 
 Storage indicates the format in which thumbnails are recorded.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ivs_recording_configuration#storage IvsRecordingConfiguration#storage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ivs_recording_configuration#storage IvsRecordingConfiguration#storage}
 
 ---
 
@@ -1382,7 +1382,7 @@ TargetIntervalSeconds *f64
 
 Target Interval Seconds defines the interval at which thumbnails are recorded. This field is required if RecordingMode is INTERVAL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ivs_recording_configuration#target_interval_seconds IvsRecordingConfiguration#target_interval_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ivs_recording_configuration#target_interval_seconds IvsRecordingConfiguration#target_interval_seconds}
 
 ---
 

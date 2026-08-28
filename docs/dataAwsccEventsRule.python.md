@@ -4,7 +4,7 @@
 
 ### DataAwsccEventsRule <a name="DataAwsccEventsRule" id="@cdktn/provider-awscc.dataAwsccEventsRule.DataAwsccEventsRule"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/events_rule awscc_events_rule}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/events_rule awscc_events_rule}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventsRule.DataAwsccEventsRule.Initializer"></a>
 
@@ -106,7 +106,7 @@ Must be unique amongst siblings in the same scope
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/events_rule#id DataAwsccEventsRule#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/events_rule#id DataAwsccEventsRule#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -492,7 +492,7 @@ The construct id used in the generated config for the DataAwsccEventsRule to imp
 
 The id of the existing DataAwsccEventsRule that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/events_rule#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/events_rule#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -526,6 +526,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98
 | <code><a href="#@cdktn/provider-awscc.dataAwsccEventsRule.DataAwsccEventsRule.property.eventPattern">event_pattern</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccEventsRule.DataAwsccEventsRule.property.name">name</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccEventsRule.DataAwsccEventsRule.property.roleArn">role_arn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEventsRule.DataAwsccEventsRule.property.ruleName">rule_name</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccEventsRule.DataAwsccEventsRule.property.scheduleExpression">schedule_expression</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccEventsRule.DataAwsccEventsRule.property.state">state</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccEventsRule.DataAwsccEventsRule.property.tags">tags</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccEventsRule.DataAwsccEventsRuleTagsList">DataAwsccEventsRuleTagsList</a></code> | *No description.* |
@@ -711,6 +712,16 @@ name: str
 
 ```python
 role_arn: str
+```
+
+- *Type:* str
+
+---
+
+##### `rule_name`<sup>Required</sup> <a name="rule_name" id="@cdktn/provider-awscc.dataAwsccEventsRule.DataAwsccEventsRule.property.ruleName"></a>
+
+```python
+rule_name: str
 ```
 
 - *Type:* str
@@ -911,7 +922,7 @@ id: str
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/events_rule#id DataAwsccEventsRule#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/events_rule#id DataAwsccEventsRule#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

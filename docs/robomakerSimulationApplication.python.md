@@ -4,7 +4,7 @@
 
 ### RobomakerSimulationApplication <a name="RobomakerSimulationApplication" id="@cdktn/provider-awscc.robomakerSimulationApplication.RobomakerSimulationApplication"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/robomaker_simulation_application awscc_robomaker_simulation_application}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/robomaker_simulation_application awscc_robomaker_simulation_application}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.robomakerSimulationApplication.RobomakerSimulationApplication.Initializer"></a>
 
@@ -120,7 +120,7 @@ Must be unique amongst siblings in the same scope
 
 The robot software suite used by the simulation application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/robomaker_simulation_application#robot_software_suite RobomakerSimulationApplication#robot_software_suite}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/robomaker_simulation_application#robot_software_suite RobomakerSimulationApplication#robot_software_suite}
 
 ---
 
@@ -130,7 +130,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The simulation software suite used by the simulation application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/robomaker_simulation_application#simulation_software_suite RobomakerSimulationApplication#simulation_software_suite}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/robomaker_simulation_application#simulation_software_suite RobomakerSimulationApplication#simulation_software_suite}
 
 ---
 
@@ -140,7 +140,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The current revision id.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/robomaker_simulation_application#current_revision_id RobomakerSimulationApplication#current_revision_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/robomaker_simulation_application#current_revision_id RobomakerSimulationApplication#current_revision_id}
 
 ---
 
@@ -150,7 +150,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The URI of the Docker image for the robot application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/robomaker_simulation_application#environment RobomakerSimulationApplication#environment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/robomaker_simulation_application#environment RobomakerSimulationApplication#environment}
 
 ---
 
@@ -160,7 +160,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the simulation application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/robomaker_simulation_application#name RobomakerSimulationApplication#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/robomaker_simulation_application#name RobomakerSimulationApplication#name}
 
 ---
 
@@ -170,7 +170,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The rendering engine for the simulation application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/robomaker_simulation_application#rendering_engine RobomakerSimulationApplication#rendering_engine}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/robomaker_simulation_application#rendering_engine RobomakerSimulationApplication#rendering_engine}
 
 ---
 
@@ -180,7 +180,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The sources of the simulation application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/robomaker_simulation_application#sources RobomakerSimulationApplication#sources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/robomaker_simulation_application#sources RobomakerSimulationApplication#sources}
 
 ---
 
@@ -190,7 +190,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A key-value pair to associate with a resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/robomaker_simulation_application#tags RobomakerSimulationApplication#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/robomaker_simulation_application#tags RobomakerSimulationApplication#tags}
 
 ---
 
@@ -598,7 +598,7 @@ def put_rendering_engine(
 
 The name of the rendering engine.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/robomaker_simulation_application#name RobomakerSimulationApplication#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/robomaker_simulation_application#name RobomakerSimulationApplication#name}
 
 ---
 
@@ -608,7 +608,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The version of the rendering engine.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/robomaker_simulation_application#version RobomakerSimulationApplication#version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/robomaker_simulation_application#version RobomakerSimulationApplication#version}
 
 ---
 
@@ -627,7 +627,7 @@ def put_robot_software_suite(
 
 The name of the robot software suite.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/robomaker_simulation_application#name RobomakerSimulationApplication#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/robomaker_simulation_application#name RobomakerSimulationApplication#name}
 
 ---
 
@@ -637,7 +637,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The version of the robot software suite.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/robomaker_simulation_application#version RobomakerSimulationApplication#version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/robomaker_simulation_application#version RobomakerSimulationApplication#version}
 
 ---
 
@@ -656,7 +656,7 @@ def put_simulation_software_suite(
 
 The name of the simulation software suite.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/robomaker_simulation_application#name RobomakerSimulationApplication#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/robomaker_simulation_application#name RobomakerSimulationApplication#name}
 
 ---
 
@@ -666,7 +666,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The version of the simulation software suite.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/robomaker_simulation_application#version RobomakerSimulationApplication#version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/robomaker_simulation_application#version RobomakerSimulationApplication#version}
 
 ---
 
@@ -834,7 +834,7 @@ The construct id used in the generated config for the RobomakerSimulationApplica
 
 The id of the existing RobomakerSimulationApplication that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/robomaker_simulation_application#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/robomaker_simulation_application#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1355,7 +1355,7 @@ robot_software_suite: RobomakerSimulationApplicationRobotSoftwareSuite
 
 The robot software suite used by the simulation application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/robomaker_simulation_application#robot_software_suite RobomakerSimulationApplication#robot_software_suite}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/robomaker_simulation_application#robot_software_suite RobomakerSimulationApplication#robot_software_suite}
 
 ---
 
@@ -1369,7 +1369,7 @@ simulation_software_suite: RobomakerSimulationApplicationSimulationSoftwareSuite
 
 The simulation software suite used by the simulation application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/robomaker_simulation_application#simulation_software_suite RobomakerSimulationApplication#simulation_software_suite}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/robomaker_simulation_application#simulation_software_suite RobomakerSimulationApplication#simulation_software_suite}
 
 ---
 
@@ -1383,7 +1383,7 @@ current_revision_id: str
 
 The current revision id.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/robomaker_simulation_application#current_revision_id RobomakerSimulationApplication#current_revision_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/robomaker_simulation_application#current_revision_id RobomakerSimulationApplication#current_revision_id}
 
 ---
 
@@ -1397,7 +1397,7 @@ environment: str
 
 The URI of the Docker image for the robot application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/robomaker_simulation_application#environment RobomakerSimulationApplication#environment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/robomaker_simulation_application#environment RobomakerSimulationApplication#environment}
 
 ---
 
@@ -1411,7 +1411,7 @@ name: str
 
 The name of the simulation application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/robomaker_simulation_application#name RobomakerSimulationApplication#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/robomaker_simulation_application#name RobomakerSimulationApplication#name}
 
 ---
 
@@ -1425,7 +1425,7 @@ rendering_engine: RobomakerSimulationApplicationRenderingEngine
 
 The rendering engine for the simulation application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/robomaker_simulation_application#rendering_engine RobomakerSimulationApplication#rendering_engine}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/robomaker_simulation_application#rendering_engine RobomakerSimulationApplication#rendering_engine}
 
 ---
 
@@ -1439,7 +1439,7 @@ sources: IResolvable | typing.List[RobomakerSimulationApplicationSources]
 
 The sources of the simulation application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/robomaker_simulation_application#sources RobomakerSimulationApplication#sources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/robomaker_simulation_application#sources RobomakerSimulationApplication#sources}
 
 ---
 
@@ -1453,7 +1453,7 @@ tags: typing.Mapping[str]
 
 A key-value pair to associate with a resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/robomaker_simulation_application#tags RobomakerSimulationApplication#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/robomaker_simulation_application#tags RobomakerSimulationApplication#tags}
 
 ---
 
@@ -1489,7 +1489,7 @@ name: str
 
 The name of the rendering engine.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/robomaker_simulation_application#name RobomakerSimulationApplication#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/robomaker_simulation_application#name RobomakerSimulationApplication#name}
 
 ---
 
@@ -1503,7 +1503,7 @@ version: str
 
 The version of the rendering engine.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/robomaker_simulation_application#version RobomakerSimulationApplication#version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/robomaker_simulation_application#version RobomakerSimulationApplication#version}
 
 ---
 
@@ -1539,7 +1539,7 @@ name: str
 
 The name of the robot software suite.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/robomaker_simulation_application#name RobomakerSimulationApplication#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/robomaker_simulation_application#name RobomakerSimulationApplication#name}
 
 ---
 
@@ -1553,7 +1553,7 @@ version: str
 
 The version of the robot software suite.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/robomaker_simulation_application#version RobomakerSimulationApplication#version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/robomaker_simulation_application#version RobomakerSimulationApplication#version}
 
 ---
 
@@ -1589,7 +1589,7 @@ name: str
 
 The name of the simulation software suite.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/robomaker_simulation_application#name RobomakerSimulationApplication#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/robomaker_simulation_application#name RobomakerSimulationApplication#name}
 
 ---
 
@@ -1603,7 +1603,7 @@ version: str
 
 The version of the simulation software suite.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/robomaker_simulation_application#version RobomakerSimulationApplication#version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/robomaker_simulation_application#version RobomakerSimulationApplication#version}
 
 ---
 
@@ -1641,7 +1641,7 @@ architecture: str
 
 The target processor architecture for the application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/robomaker_simulation_application#architecture RobomakerSimulationApplication#architecture}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/robomaker_simulation_application#architecture RobomakerSimulationApplication#architecture}
 
 ---
 
@@ -1655,7 +1655,7 @@ s3_bucket: str
 
 The Amazon S3 bucket name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/robomaker_simulation_application#s3_bucket RobomakerSimulationApplication#s3_bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/robomaker_simulation_application#s3_bucket RobomakerSimulationApplication#s3_bucket}
 
 ---
 
@@ -1669,7 +1669,7 @@ s3_key: str
 
 The s3 object key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/robomaker_simulation_application#s3_key RobomakerSimulationApplication#s3_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/robomaker_simulation_application#s3_key RobomakerSimulationApplication#s3_key}
 
 ---
 

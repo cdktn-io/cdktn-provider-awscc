@@ -4,7 +4,7 @@
 
 ### Inspectorv2Connector <a name="Inspectorv2Connector" id="@cdktn/provider-awscc.inspectorv2Connector.Inspectorv2Connector"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/inspectorv2_connector awscc_inspectorv2_connector}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/inspectorv2_connector awscc_inspectorv2_connector}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.inspectorv2Connector.Inspectorv2Connector.Initializer"></a>
 
@@ -529,7 +529,7 @@ The construct id used in the generated config for the Inspectorv2Connector to im
 
 The id of the existing Inspectorv2Connector that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/inspectorv2_connector#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/inspectorv2_connector#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1033,7 +1033,7 @@ public string Name { get; set; }
 
 Display name for the connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/inspectorv2_connector#name Inspectorv2Connector#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/inspectorv2_connector#name Inspectorv2Connector#name}
 
 ---
 
@@ -1047,7 +1047,7 @@ public Inspectorv2ConnectorProviderConfiguration ProviderConfiguration { get; se
 
 Provider-specific configuration including regions and scope.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/inspectorv2_connector#provider_configuration Inspectorv2Connector#provider_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/inspectorv2_connector#provider_configuration Inspectorv2Connector#provider_configuration}
 
 ---
 
@@ -1061,7 +1061,7 @@ public string ProviderName { get; set; }
 
 The cloud provider for this connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/inspectorv2_connector#provider_name Inspectorv2Connector#provider_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/inspectorv2_connector#provider_name Inspectorv2Connector#provider_name}
 
 ---
 
@@ -1075,7 +1075,7 @@ public string Description { get; set; }
 
 Optional description of the connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/inspectorv2_connector#description Inspectorv2Connector#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/inspectorv2_connector#description Inspectorv2Connector#description}
 
 ---
 
@@ -1089,7 +1089,7 @@ public IResolvable|Inspectorv2ConnectorTags[] Tags { get; set; }
 
 Tags to apply to the connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/inspectorv2_connector#tags Inspectorv2Connector#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/inspectorv2_connector#tags Inspectorv2Connector#tags}
 
 ---
 
@@ -1122,7 +1122,7 @@ new Inspectorv2ConnectorProviderConfiguration {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Connector.Inspectorv2ConnectorProviderConfiguration.property.azure">Azure</a></code> | <code><a href="#@cdktn/provider-awscc.inspectorv2Connector.Inspectorv2ConnectorProviderConfigurationAzure">Inspectorv2ConnectorProviderConfigurationAzure</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/inspectorv2_connector#azure Inspectorv2Connector#azure}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Connector.Inspectorv2ConnectorProviderConfiguration.property.azure">Azure</a></code> | <code><a href="#@cdktn/provider-awscc.inspectorv2Connector.Inspectorv2ConnectorProviderConfigurationAzure">Inspectorv2ConnectorProviderConfigurationAzure</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/inspectorv2_connector#azure Inspectorv2Connector#azure}. |
 
 ---
 
@@ -1134,7 +1134,7 @@ public Inspectorv2ConnectorProviderConfigurationAzure Azure { get; set; }
 
 - *Type:* <a href="#@cdktn/provider-awscc.inspectorv2Connector.Inspectorv2ConnectorProviderConfigurationAzure">Inspectorv2ConnectorProviderConfigurationAzure</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/inspectorv2_connector#azure Inspectorv2Connector#azure}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/inspectorv2_connector#azure Inspectorv2Connector#azure}.
 
 ---
 
@@ -1174,7 +1174,7 @@ public string AwsConfigConnectorArn { get; set; }
 
 The ARN of the AWS Config connector used for Azure resource discovery.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/inspectorv2_connector#aws_config_connector_arn Inspectorv2Connector#aws_config_connector_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/inspectorv2_connector#aws_config_connector_arn Inspectorv2Connector#aws_config_connector_arn}
 
 ---
 
@@ -1188,7 +1188,7 @@ public string[] AzureRegions { get; set; }
 
 List of Azure regions to scan.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/inspectorv2_connector#azure_regions Inspectorv2Connector#azure_regions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/inspectorv2_connector#azure_regions Inspectorv2Connector#azure_regions}
 
 ---
 
@@ -1202,7 +1202,7 @@ public Inspectorv2ConnectorProviderConfigurationAzureScopeConfiguration ScopeCon
 
 Defines which resource types to scan and at what scope level.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/inspectorv2_connector#scope_configuration Inspectorv2Connector#scope_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/inspectorv2_connector#scope_configuration Inspectorv2Connector#scope_configuration}
 
 ---
 
@@ -1216,7 +1216,7 @@ public bool|IResolvable AutoInstallVmScanner { get; set; }
 
 Whether to automatically install the VM scanner. Defaults to true.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/inspectorv2_connector#auto_install_vm_scanner Inspectorv2Connector#auto_install_vm_scanner}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/inspectorv2_connector#auto_install_vm_scanner Inspectorv2Connector#auto_install_vm_scanner}
 
 ---
 
@@ -1254,7 +1254,7 @@ public Inspectorv2ConnectorProviderConfigurationAzureScopeConfigurationContainer
 
 Defines the scope of Azure resources to monitor for a specific resource type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/inspectorv2_connector#container_image_scanning Inspectorv2Connector#container_image_scanning}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/inspectorv2_connector#container_image_scanning Inspectorv2Connector#container_image_scanning}
 
 ---
 
@@ -1268,7 +1268,7 @@ public Inspectorv2ConnectorProviderConfigurationAzureScopeConfigurationServerles
 
 Defines the scope of Azure resources to monitor for a specific resource type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/inspectorv2_connector#serverless_scanning Inspectorv2Connector#serverless_scanning}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/inspectorv2_connector#serverless_scanning Inspectorv2Connector#serverless_scanning}
 
 ---
 
@@ -1282,7 +1282,7 @@ public Inspectorv2ConnectorProviderConfigurationAzureScopeConfigurationVmScannin
 
 Defines the scope of Azure resources to monitor for a specific resource type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/inspectorv2_connector#vm_scanning Inspectorv2Connector#vm_scanning}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/inspectorv2_connector#vm_scanning Inspectorv2Connector#vm_scanning}
 
 ---
 
@@ -1303,7 +1303,7 @@ new Inspectorv2ConnectorProviderConfigurationAzureScopeConfigurationContainerIma
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Connector.Inspectorv2ConnectorProviderConfigurationAzureScopeConfigurationContainerImageScanning.property.scopeType">ScopeType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/inspectorv2_connector#scope_type Inspectorv2Connector#scope_type}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Connector.Inspectorv2ConnectorProviderConfigurationAzureScopeConfigurationContainerImageScanning.property.scopeType">ScopeType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/inspectorv2_connector#scope_type Inspectorv2Connector#scope_type}. |
 | <code><a href="#@cdktn/provider-awscc.inspectorv2Connector.Inspectorv2ConnectorProviderConfigurationAzureScopeConfigurationContainerImageScanning.property.scopeValues">ScopeValues</a></code> | <code>string[]</code> | List of subscription IDs. Empty for TENANT scope. |
 
 ---
@@ -1316,7 +1316,7 @@ public string ScopeType { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/inspectorv2_connector#scope_type Inspectorv2Connector#scope_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/inspectorv2_connector#scope_type Inspectorv2Connector#scope_type}.
 
 ---
 
@@ -1330,7 +1330,7 @@ public string[] ScopeValues { get; set; }
 
 List of subscription IDs. Empty for TENANT scope.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/inspectorv2_connector#scope_values Inspectorv2Connector#scope_values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/inspectorv2_connector#scope_values Inspectorv2Connector#scope_values}
 
 ---
 
@@ -1351,7 +1351,7 @@ new Inspectorv2ConnectorProviderConfigurationAzureScopeConfigurationServerlessSc
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Connector.Inspectorv2ConnectorProviderConfigurationAzureScopeConfigurationServerlessScanning.property.scopeType">ScopeType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/inspectorv2_connector#scope_type Inspectorv2Connector#scope_type}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Connector.Inspectorv2ConnectorProviderConfigurationAzureScopeConfigurationServerlessScanning.property.scopeType">ScopeType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/inspectorv2_connector#scope_type Inspectorv2Connector#scope_type}. |
 | <code><a href="#@cdktn/provider-awscc.inspectorv2Connector.Inspectorv2ConnectorProviderConfigurationAzureScopeConfigurationServerlessScanning.property.scopeValues">ScopeValues</a></code> | <code>string[]</code> | List of subscription IDs. Empty for TENANT scope. |
 
 ---
@@ -1364,7 +1364,7 @@ public string ScopeType { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/inspectorv2_connector#scope_type Inspectorv2Connector#scope_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/inspectorv2_connector#scope_type Inspectorv2Connector#scope_type}.
 
 ---
 
@@ -1378,7 +1378,7 @@ public string[] ScopeValues { get; set; }
 
 List of subscription IDs. Empty for TENANT scope.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/inspectorv2_connector#scope_values Inspectorv2Connector#scope_values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/inspectorv2_connector#scope_values Inspectorv2Connector#scope_values}
 
 ---
 
@@ -1399,7 +1399,7 @@ new Inspectorv2ConnectorProviderConfigurationAzureScopeConfigurationVmScanning {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Connector.Inspectorv2ConnectorProviderConfigurationAzureScopeConfigurationVmScanning.property.scopeType">ScopeType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/inspectorv2_connector#scope_type Inspectorv2Connector#scope_type}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Connector.Inspectorv2ConnectorProviderConfigurationAzureScopeConfigurationVmScanning.property.scopeType">ScopeType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/inspectorv2_connector#scope_type Inspectorv2Connector#scope_type}. |
 | <code><a href="#@cdktn/provider-awscc.inspectorv2Connector.Inspectorv2ConnectorProviderConfigurationAzureScopeConfigurationVmScanning.property.scopeValues">ScopeValues</a></code> | <code>string[]</code> | List of subscription IDs. Empty for TENANT scope. |
 
 ---
@@ -1412,7 +1412,7 @@ public string ScopeType { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/inspectorv2_connector#scope_type Inspectorv2Connector#scope_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/inspectorv2_connector#scope_type Inspectorv2Connector#scope_type}.
 
 ---
 
@@ -1426,7 +1426,7 @@ public string[] ScopeValues { get; set; }
 
 List of subscription IDs. Empty for TENANT scope.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/inspectorv2_connector#scope_values Inspectorv2Connector#scope_values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/inspectorv2_connector#scope_values Inspectorv2Connector#scope_values}
 
 ---
 
@@ -1447,8 +1447,8 @@ new Inspectorv2ConnectorTags {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Connector.Inspectorv2ConnectorTags.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/inspectorv2_connector#key Inspectorv2Connector#key}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Connector.Inspectorv2ConnectorTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/inspectorv2_connector#value Inspectorv2Connector#value}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Connector.Inspectorv2ConnectorTags.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/inspectorv2_connector#key Inspectorv2Connector#key}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Connector.Inspectorv2ConnectorTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/inspectorv2_connector#value Inspectorv2Connector#value}. |
 
 ---
 
@@ -1460,7 +1460,7 @@ public string Key { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/inspectorv2_connector#key Inspectorv2Connector#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/inspectorv2_connector#key Inspectorv2Connector#key}.
 
 ---
 
@@ -1472,7 +1472,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/inspectorv2_connector#value Inspectorv2Connector#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/inspectorv2_connector#value Inspectorv2Connector#value}.
 
 ---
 

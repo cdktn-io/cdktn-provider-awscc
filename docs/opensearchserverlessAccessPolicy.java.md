@@ -4,7 +4,7 @@
 
 ### OpensearchserverlessAccessPolicy <a name="OpensearchserverlessAccessPolicy" id="@cdktn/provider-awscc.opensearchserverlessAccessPolicy.OpensearchserverlessAccessPolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/opensearchserverless_access_policy awscc_opensearchserverless_access_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/opensearchserverless_access_policy awscc_opensearchserverless_access_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.opensearchserverlessAccessPolicy.OpensearchserverlessAccessPolicy.Initializer"></a>
 
@@ -110,7 +110,7 @@ Must be unique amongst siblings in the same scope
 
 The name of the policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/opensearchserverless_access_policy#name OpensearchserverlessAccessPolicy#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/opensearchserverless_access_policy#name OpensearchserverlessAccessPolicy#name}
 
 ---
 
@@ -120,7 +120,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The JSON policy document that is the content for the policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/opensearchserverless_access_policy#policy OpensearchserverlessAccessPolicy#policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/opensearchserverless_access_policy#policy OpensearchserverlessAccessPolicy#policy}
 
 ---
 
@@ -130,7 +130,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The possible types for the access policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/opensearchserverless_access_policy#type OpensearchserverlessAccessPolicy#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/opensearchserverless_access_policy#type OpensearchserverlessAccessPolicy#type}
 
 ---
 
@@ -140,7 +140,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The description of the policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/opensearchserverless_access_policy#description OpensearchserverlessAccessPolicy#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/opensearchserverless_access_policy#description OpensearchserverlessAccessPolicy#description}
 
 ---
 
@@ -596,7 +596,7 @@ The construct id used in the generated config for the OpensearchserverlessAccess
 
 The id of the existing OpensearchserverlessAccessPolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/opensearchserverless_access_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/opensearchserverless_access_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1010,7 +1010,7 @@ public java.lang.String getName();
 
 The name of the policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/opensearchserverless_access_policy#name OpensearchserverlessAccessPolicy#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/opensearchserverless_access_policy#name OpensearchserverlessAccessPolicy#name}
 
 ---
 
@@ -1024,7 +1024,7 @@ public java.lang.String getPolicy();
 
 The JSON policy document that is the content for the policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/opensearchserverless_access_policy#policy OpensearchserverlessAccessPolicy#policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/opensearchserverless_access_policy#policy OpensearchserverlessAccessPolicy#policy}
 
 ---
 
@@ -1038,7 +1038,7 @@ public java.lang.String getType();
 
 The possible types for the access policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/opensearchserverless_access_policy#type OpensearchserverlessAccessPolicy#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/opensearchserverless_access_policy#type OpensearchserverlessAccessPolicy#type}
 
 ---
 
@@ -1052,7 +1052,7 @@ public java.lang.String getDescription();
 
 The description of the policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/opensearchserverless_access_policy#description OpensearchserverlessAccessPolicy#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/opensearchserverless_access_policy#description OpensearchserverlessAccessPolicy#description}
 
 ---
 

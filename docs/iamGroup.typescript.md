@@ -4,7 +4,7 @@
 
 ### IamGroup <a name="IamGroup" id="@cdktn/provider-awscc.iamGroup.IamGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iam_group awscc_iam_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iam_group awscc_iam_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iamGroup.IamGroup.Initializer"></a>
 
@@ -530,7 +530,7 @@ The construct id used in the generated config for the IamGroup to import.
 
 The id of the existing IamGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iam_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iam_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -949,7 +949,7 @@ Do not include the path in this value.
   If you specify a name, you must specify the ``CAPABILITY_NAMED_IAM`` value to acknowledge your template's capabilities. For more information, see [Acknowledging Resources in Templates](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-iam-template.html#using-iam-capabilities).
   Naming an IAM resource can cause an unrecoverable error if you reuse the same template in multiple Regions. To prevent this, we recommend using ``Fn::Join`` and ``AWS::Region`` to create a Region-specific name, as in the following example: ``{"Fn::Join": ["", [{"Ref": "AWS::Region"}, {"Ref": "MyResourceName"}]]}``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iam_group#group_name IamGroup#group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iam_group#group_name IamGroup#group_name}
 
 ---
 
@@ -965,7 +965,7 @@ The Amazon Resource Name (ARN) of the IAM policy you want to attach.
 
 For more information about ARNs, see [Amazon Resource Names (ARNs)](https://docs.aws.amazon.com/general/latest/gr/aws-arns-and-namespaces.html) in the *General Reference*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iam_group#managed_policy_arns IamGroup#managed_policy_arns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iam_group#managed_policy_arns IamGroup#managed_policy_arns}
 
 ---
 
@@ -983,7 +983,7 @@ For more information about paths, see [IAM identifiers](https://docs.aws.amazon.
  This parameter is optional. If it is not included, it defaults to a slash (/).
  This parameter allows (through its [regex pattern](https://docs.aws.amazon.com/http://wikipedia.org/wiki/regex)) a string of characters consisting of either a forward slash (/) by itself or a string that must begin and end with forward slashes. In addition, it can contain any ASCII character from the ! (``\u0021``) through the DEL character (``\u007F``), including most punctuation characters, digits, and upper and lowercased letters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iam_group#path IamGroup#path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iam_group#path IamGroup#path}
 
 ---
 
@@ -1001,7 +1001,7 @@ To view AWS::IAM::Group snippets, see [Declaring an Group Resource](https://docs
   The name of each inline policy for a role, user, or group must be unique. If you don't choose unique names, updates to the IAM identity will fail. 
   For information about limits on the number of inline policies that you can embed in a group, see [Limitations on Entities](https://docs.aws.amazon.com/IAM/latest/UserGuide/LimitationsOnEntities.html) in the *User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iam_group#policies IamGroup#policies}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iam_group#policies IamGroup#policies}
 
 ---
 
@@ -1034,7 +1034,7 @@ public readonly policyDocument: string;
 
 The policy document.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iam_group#policy_document IamGroup#policy_document}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iam_group#policy_document IamGroup#policy_document}
 
 ---
 
@@ -1048,7 +1048,7 @@ public readonly policyName: string;
 
 The friendly name (not ARN) identifying the policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iam_group#policy_name IamGroup#policy_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iam_group#policy_name IamGroup#policy_name}
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### DataAwsccM2Applications <a name="DataAwsccM2Applications" id="@cdktn/provider-awscc.dataAwsccM2Applications.DataAwsccM2Applications"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/m2_applications awscc_m2_applications}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/m2_applications awscc_m2_applications}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccM2Applications.DataAwsccM2Applications.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccM2Applications to
 
 The id of the existing DataAwsccM2Applications that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/m2_applications#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/m2_applications#import import section} in the documentation of this resource for the id to use
 
 ---
 

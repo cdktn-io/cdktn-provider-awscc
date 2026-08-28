@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/detective_member_invitation
+// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/detective_member_invitation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,37 +15,37 @@ export interface DetectiveMemberInvitationConfig extends cdktn.TerraformMetaArgu
   /**
   * When set to true, invitation emails are not sent to the member accounts. Member accounts must still accept the invitation before they are added to the behavior graph. Updating this field has no effect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/detective_member_invitation#disable_email_notification DetectiveMemberInvitation#disable_email_notification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/detective_member_invitation#disable_email_notification DetectiveMemberInvitation#disable_email_notification}
   */
   readonly disableEmailNotification?: boolean | cdktn.IResolvable;
   /**
   * The ARN of the graph to which the member account will be invited
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/detective_member_invitation#graph_arn DetectiveMemberInvitation#graph_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/detective_member_invitation#graph_arn DetectiveMemberInvitation#graph_arn}
   */
   readonly graphArn: string;
   /**
   * The root email address for the account to be invited, for validation. Updating this field has no effect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/detective_member_invitation#member_email_address DetectiveMemberInvitation#member_email_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/detective_member_invitation#member_email_address DetectiveMemberInvitation#member_email_address}
   */
   readonly memberEmailAddress: string;
   /**
   * The AWS account ID to be invited to join the graph as a member
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/detective_member_invitation#member_id DetectiveMemberInvitation#member_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/detective_member_invitation#member_id DetectiveMemberInvitation#member_id}
   */
   readonly memberId: string;
   /**
   * A message to be included in the email invitation sent to the invited account. Updating this field has no effect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/detective_member_invitation#message DetectiveMemberInvitation#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/detective_member_invitation#message DetectiveMemberInvitation#message}
   */
   readonly message?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/detective_member_invitation awscc_detective_member_invitation}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/detective_member_invitation awscc_detective_member_invitation}
 */
 export class DetectiveMemberInvitation extends cdktn.TerraformResource {
 
@@ -61,7 +61,7 @@ export class DetectiveMemberInvitation extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a DetectiveMemberInvitation resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DetectiveMemberInvitation to import
-  * @param importFromId The id of the existing DetectiveMemberInvitation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/detective_member_invitation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DetectiveMemberInvitation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/detective_member_invitation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DetectiveMemberInvitation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -73,7 +73,7 @@ export class DetectiveMemberInvitation extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/detective_member_invitation awscc_detective_member_invitation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/detective_member_invitation awscc_detective_member_invitation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -84,7 +84,7 @@ export class DetectiveMemberInvitation extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_detective_member_invitation',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.98.0',
+        providerVersion: '1.99.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

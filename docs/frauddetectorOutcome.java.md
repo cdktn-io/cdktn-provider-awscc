@@ -4,7 +4,7 @@
 
 ### FrauddetectorOutcome <a name="FrauddetectorOutcome" id="@cdktn/provider-awscc.frauddetectorOutcome.FrauddetectorOutcome"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_outcome awscc_frauddetector_outcome}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_outcome awscc_frauddetector_outcome}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.frauddetectorOutcome.FrauddetectorOutcome.Initializer"></a>
 
@@ -108,7 +108,7 @@ Must be unique amongst siblings in the same scope
 
 The name of the outcome.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_outcome#name FrauddetectorOutcome#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_outcome#name FrauddetectorOutcome#name}
 
 ---
 
@@ -118,7 +118,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The outcome description.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_outcome#description FrauddetectorOutcome#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_outcome#description FrauddetectorOutcome#description}
 
 ---
 
@@ -128,7 +128,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Tags associated with this outcome.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_outcome#tags FrauddetectorOutcome#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_outcome#tags FrauddetectorOutcome#tags}
 
 ---
 
@@ -604,7 +604,7 @@ The construct id used in the generated config for the FrauddetectorOutcome to im
 
 The id of the existing FrauddetectorOutcome that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_outcome#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_outcome#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1027,7 +1027,7 @@ public java.lang.String getName();
 
 The name of the outcome.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_outcome#name FrauddetectorOutcome#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_outcome#name FrauddetectorOutcome#name}
 
 ---
 
@@ -1041,7 +1041,7 @@ public java.lang.String getDescription();
 
 The outcome description.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_outcome#description FrauddetectorOutcome#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_outcome#description FrauddetectorOutcome#description}
 
 ---
 
@@ -1055,7 +1055,7 @@ public IResolvable|java.util.List<FrauddetectorOutcomeTags> getTags();
 
 Tags associated with this outcome.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_outcome#tags FrauddetectorOutcome#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_outcome#tags FrauddetectorOutcome#tags}
 
 ---
 
@@ -1076,8 +1076,8 @@ FrauddetectorOutcomeTags.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.frauddetectorOutcome.FrauddetectorOutcomeTags.property.key">key</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_outcome#key FrauddetectorOutcome#key}. |
-| <code><a href="#@cdktn/provider-awscc.frauddetectorOutcome.FrauddetectorOutcomeTags.property.value">value</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_outcome#value FrauddetectorOutcome#value}. |
+| <code><a href="#@cdktn/provider-awscc.frauddetectorOutcome.FrauddetectorOutcomeTags.property.key">key</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_outcome#key FrauddetectorOutcome#key}. |
+| <code><a href="#@cdktn/provider-awscc.frauddetectorOutcome.FrauddetectorOutcomeTags.property.value">value</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_outcome#value FrauddetectorOutcome#value}. |
 
 ---
 
@@ -1089,7 +1089,7 @@ public java.lang.String getKey();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_outcome#key FrauddetectorOutcome#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_outcome#key FrauddetectorOutcome#key}.
 
 ---
 
@@ -1101,7 +1101,7 @@ public java.lang.String getValue();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_outcome#value FrauddetectorOutcome#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_outcome#value FrauddetectorOutcome#value}.
 
 ---
 

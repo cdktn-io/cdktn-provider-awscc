@@ -4,7 +4,7 @@
 
 ### Ec2IpamResourceDiscoveryAssociation <a name="Ec2IpamResourceDiscoveryAssociation" id="@cdktn/provider-awscc.ec2IpamResourceDiscoveryAssociation.Ec2IpamResourceDiscoveryAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_ipam_resource_discovery_association awscc_ec2_ipam_resource_discovery_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_ipam_resource_discovery_association awscc_ec2_ipam_resource_discovery_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2IpamResourceDiscoveryAssociation.Ec2IpamResourceDiscoveryAssociation.Initializer"></a>
 
@@ -509,7 +509,7 @@ The construct id used in the generated config for the Ec2IpamResourceDiscoveryAs
 
 The id of the existing Ec2IpamResourceDiscoveryAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_ipam_resource_discovery_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_ipam_resource_discovery_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -976,7 +976,7 @@ public readonly ipamId: string;
 
 The Id of the IPAM this Resource Discovery is associated to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_ipam_resource_discovery_association#ipam_id Ec2IpamResourceDiscoveryAssociation#ipam_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_ipam_resource_discovery_association#ipam_id Ec2IpamResourceDiscoveryAssociation#ipam_id}
 
 ---
 
@@ -990,7 +990,7 @@ public readonly ipamResourceDiscoveryId: string;
 
 The Amazon Resource Name (ARN) of the IPAM Resource Discovery Association.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_ipam_resource_discovery_association#ipam_resource_discovery_id Ec2IpamResourceDiscoveryAssociation#ipam_resource_discovery_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_ipam_resource_discovery_association#ipam_resource_discovery_id Ec2IpamResourceDiscoveryAssociation#ipam_resource_discovery_id}
 
 ---
 
@@ -1004,7 +1004,7 @@ public readonly tags: IResolvable | Ec2IpamResourceDiscoveryAssociationTags[];
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_ipam_resource_discovery_association#tags Ec2IpamResourceDiscoveryAssociation#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_ipam_resource_discovery_association#tags Ec2IpamResourceDiscoveryAssociation#tags}
 
 ---
 
@@ -1039,7 +1039,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_ipam_resource_discovery_association#key Ec2IpamResourceDiscoveryAssociation#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_ipam_resource_discovery_association#key Ec2IpamResourceDiscoveryAssociation#key}
 
 ---
 
@@ -1055,7 +1055,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_ipam_resource_discovery_association#value Ec2IpamResourceDiscoveryAssociation#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_ipam_resource_discovery_association#value Ec2IpamResourceDiscoveryAssociation#value}
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### EksAccessEntry <a name="EksAccessEntry" id="@cdktn/provider-awscc.eksAccessEntry.EksAccessEntry"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/eks_access_entry awscc_eks_access_entry}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_access_entry awscc_eks_access_entry}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eksAccessEntry.EksAccessEntry.Initializer"></a>
 
@@ -118,7 +118,7 @@ Must be unique amongst siblings in the same scope
 
 The cluster that the access entry is created for.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/eks_access_entry#cluster_name EksAccessEntry#cluster_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_access_entry#cluster_name EksAccessEntry#cluster_name}
 
 ---
 
@@ -128,7 +128,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The principal ARN that the access entry is created for.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/eks_access_entry#principal_arn EksAccessEntry#principal_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_access_entry#principal_arn EksAccessEntry#principal_arn}
 
 ---
 
@@ -138,7 +138,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An array of access policies that are associated with the access entry.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/eks_access_entry#access_policies EksAccessEntry#access_policies}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_access_entry#access_policies EksAccessEntry#access_policies}
 
 ---
 
@@ -148,7 +148,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The Kubernetes groups that the access entry is associated with.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/eks_access_entry#kubernetes_groups EksAccessEntry#kubernetes_groups}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_access_entry#kubernetes_groups EksAccessEntry#kubernetes_groups}
 
 ---
 
@@ -158,7 +158,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/eks_access_entry#tags EksAccessEntry#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_access_entry#tags EksAccessEntry#tags}
 
 ---
 
@@ -168,7 +168,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The node type to associate with the access entry.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/eks_access_entry#type EksAccessEntry#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_access_entry#type EksAccessEntry#type}
 
 ---
 
@@ -178,7 +178,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The Kubernetes user that the access entry is associated with.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/eks_access_entry#username EksAccessEntry#username}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_access_entry#username EksAccessEntry#username}
 
 ---
 
@@ -740,7 +740,7 @@ The construct id used in the generated config for the EksAccessEntry to import.
 
 The id of the existing EksAccessEntry that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/eks_access_entry#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_access_entry#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1143,7 +1143,7 @@ access_scope: EksAccessEntryAccessPoliciesAccessScope
 
 The access scope of the access policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/eks_access_entry#access_scope EksAccessEntry#access_scope}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_access_entry#access_scope EksAccessEntry#access_scope}
 
 ---
 
@@ -1157,7 +1157,7 @@ policy_arn: str
 
 The ARN of the access policy to add to the access entry.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/eks_access_entry#policy_arn EksAccessEntry#policy_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_access_entry#policy_arn EksAccessEntry#policy_arn}
 
 ---
 
@@ -1193,7 +1193,7 @@ namespaces: typing.List[str]
 
 The namespaces to associate with the access scope. Only specify if Type is set to 'namespace'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/eks_access_entry#namespaces EksAccessEntry#namespaces}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_access_entry#namespaces EksAccessEntry#namespaces}
 
 ---
 
@@ -1207,7 +1207,7 @@ type: str
 
 The type of the access scope.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/eks_access_entry#type EksAccessEntry#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_access_entry#type EksAccessEntry#type}
 
 ---
 
@@ -1337,7 +1337,7 @@ cluster_name: str
 
 The cluster that the access entry is created for.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/eks_access_entry#cluster_name EksAccessEntry#cluster_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_access_entry#cluster_name EksAccessEntry#cluster_name}
 
 ---
 
@@ -1351,7 +1351,7 @@ principal_arn: str
 
 The principal ARN that the access entry is created for.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/eks_access_entry#principal_arn EksAccessEntry#principal_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_access_entry#principal_arn EksAccessEntry#principal_arn}
 
 ---
 
@@ -1365,7 +1365,7 @@ access_policies: IResolvable | typing.List[EksAccessEntryAccessPolicies]
 
 An array of access policies that are associated with the access entry.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/eks_access_entry#access_policies EksAccessEntry#access_policies}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_access_entry#access_policies EksAccessEntry#access_policies}
 
 ---
 
@@ -1379,7 +1379,7 @@ kubernetes_groups: typing.List[str]
 
 The Kubernetes groups that the access entry is associated with.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/eks_access_entry#kubernetes_groups EksAccessEntry#kubernetes_groups}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_access_entry#kubernetes_groups EksAccessEntry#kubernetes_groups}
 
 ---
 
@@ -1393,7 +1393,7 @@ tags: IResolvable | typing.List[EksAccessEntryTags]
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/eks_access_entry#tags EksAccessEntry#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_access_entry#tags EksAccessEntry#tags}
 
 ---
 
@@ -1407,7 +1407,7 @@ type: str
 
 The node type to associate with the access entry.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/eks_access_entry#type EksAccessEntry#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_access_entry#type EksAccessEntry#type}
 
 ---
 
@@ -1421,7 +1421,7 @@ username: str
 
 The Kubernetes user that the access entry is associated with.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/eks_access_entry#username EksAccessEntry#username}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_access_entry#username EksAccessEntry#username}
 
 ---
 
@@ -1459,7 +1459,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/eks_access_entry#key EksAccessEntry#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_access_entry#key EksAccessEntry#key}
 
 ---
 
@@ -1475,7 +1475,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/eks_access_entry#value EksAccessEntry#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_access_entry#value EksAccessEntry#value}
 
 ---
 
@@ -2249,7 +2249,7 @@ def put_access_scope(
 
 The namespaces to associate with the access scope. Only specify if Type is set to 'namespace'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/eks_access_entry#namespaces EksAccessEntry#namespaces}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_access_entry#namespaces EksAccessEntry#namespaces}
 
 ---
 
@@ -2259,7 +2259,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The type of the access scope.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/eks_access_entry#type EksAccessEntry#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_access_entry#type EksAccessEntry#type}
 
 ---
 

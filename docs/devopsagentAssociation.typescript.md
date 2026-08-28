@@ -4,7 +4,7 @@
 
 ### DevopsagentAssociation <a name="DevopsagentAssociation" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association awscc_devopsagent_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association awscc_devopsagent_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociation.Initializer"></a>
 
@@ -509,7 +509,7 @@ The construct id used in the generated config for the DevopsagentAssociation to 
 
 The id of the existing DevopsagentAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -944,7 +944,7 @@ public readonly agentSpaceId: string;
 
 The unique identifier of the AgentSpace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association#agent_space_id DevopsagentAssociation#agent_space_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association#agent_space_id DevopsagentAssociation#agent_space_id}
 
 ---
 
@@ -958,7 +958,7 @@ public readonly configuration: DevopsagentAssociationConfiguration;
 
 The configuration that directs how AgentSpace interacts with the given service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association#configuration DevopsagentAssociation#configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association#configuration DevopsagentAssociation#configuration}
 
 ---
 
@@ -972,7 +972,7 @@ public readonly serviceId: string;
 
 The identifier for the associated service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association#service_id DevopsagentAssociation#service_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association#service_id DevopsagentAssociation#service_id}
 
 ---
 
@@ -986,7 +986,7 @@ public readonly linkedAssociationIds: string[];
 
 Set of linked association IDs for parent-child relationships.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association#linked_association_ids DevopsagentAssociation#linked_association_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association#linked_association_ids DevopsagentAssociation#linked_association_ids}
 
 ---
 
@@ -1033,7 +1033,7 @@ public readonly aws: DevopsagentAssociationConfigurationAws;
 
 AWS association for 'monitor' account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association#aws DevopsagentAssociation#aws}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association#aws DevopsagentAssociation#aws}
 
 ---
 
@@ -1047,7 +1047,7 @@ public readonly azure: DevopsagentAssociationConfigurationAzure;
 
 Azure subscription integration configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association#azure DevopsagentAssociation#azure}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association#azure DevopsagentAssociation#azure}
 
 ---
 
@@ -1061,7 +1061,7 @@ public readonly dynatrace: DevopsagentAssociationConfigurationDynatrace;
 
 Dynatrace monitoring configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association#dynatrace DevopsagentAssociation#dynatrace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association#dynatrace DevopsagentAssociation#dynatrace}
 
 ---
 
@@ -1075,7 +1075,7 @@ public readonly eventChannel: DevopsagentAssociationConfigurationEventChannel;
 
 EventChannelconfiguration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association#event_channel DevopsagentAssociation#event_channel}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association#event_channel DevopsagentAssociation#event_channel}
 
 ---
 
@@ -1089,7 +1089,7 @@ public readonly gitHub: DevopsagentAssociationConfigurationGitHub;
 
 GitHub repository integration configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association#git_hub DevopsagentAssociation#git_hub}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association#git_hub DevopsagentAssociation#git_hub}
 
 ---
 
@@ -1103,7 +1103,7 @@ public readonly gitLab: DevopsagentAssociationConfigurationGitLab;
 
 GitLab project integration configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association#git_lab DevopsagentAssociation#git_lab}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association#git_lab DevopsagentAssociation#git_lab}
 
 ---
 
@@ -1117,7 +1117,7 @@ public readonly mcpServer: DevopsagentAssociationConfigurationMcpServer;
 
 MCP server configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association#mcp_server DevopsagentAssociation#mcp_server}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association#mcp_server DevopsagentAssociation#mcp_server}
 
 ---
 
@@ -1131,7 +1131,7 @@ public readonly mcpServerDatadog: DevopsagentAssociationConfigurationMcpServerDa
 
 Datadog MCP server configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association#mcp_server_datadog DevopsagentAssociation#mcp_server_datadog}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association#mcp_server_datadog DevopsagentAssociation#mcp_server_datadog}
 
 ---
 
@@ -1145,7 +1145,7 @@ public readonly mcpServerGrafana: DevopsagentAssociationConfigurationMcpServerGr
 
 Grafana MCP server configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association#mcp_server_grafana DevopsagentAssociation#mcp_server_grafana}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association#mcp_server_grafana DevopsagentAssociation#mcp_server_grafana}
 
 ---
 
@@ -1159,7 +1159,7 @@ public readonly mcpServerNewRelic: DevopsagentAssociationConfigurationMcpServerN
 
 NewRelic MCP server configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association#mcp_server_new_relic DevopsagentAssociation#mcp_server_new_relic}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association#mcp_server_new_relic DevopsagentAssociation#mcp_server_new_relic}
 
 ---
 
@@ -1173,7 +1173,7 @@ public readonly mcpServerSigV4: DevopsagentAssociationConfigurationMcpServerSigV
 
 SigV4-authenticated MCP server configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association#mcp_server_sig_v4 DevopsagentAssociation#mcp_server_sig_v4}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association#mcp_server_sig_v4 DevopsagentAssociation#mcp_server_sig_v4}
 
 ---
 
@@ -1187,7 +1187,7 @@ public readonly mcpServerSplunk: DevopsagentAssociationConfigurationMcpServerSpl
 
 Splunk MCP server configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association#mcp_server_splunk DevopsagentAssociation#mcp_server_splunk}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association#mcp_server_splunk DevopsagentAssociation#mcp_server_splunk}
 
 ---
 
@@ -1201,7 +1201,7 @@ public readonly pagerDuty: DevopsagentAssociationConfigurationPagerDuty;
 
 PagerDuty integration configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association#pager_duty DevopsagentAssociation#pager_duty}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association#pager_duty DevopsagentAssociation#pager_duty}
 
 ---
 
@@ -1215,7 +1215,7 @@ public readonly serviceNow: DevopsagentAssociationConfigurationServiceNow;
 
 ServiceNow integration configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association#service_now DevopsagentAssociation#service_now}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association#service_now DevopsagentAssociation#service_now}
 
 ---
 
@@ -1229,7 +1229,7 @@ public readonly slack: DevopsagentAssociationConfigurationSlack;
 
 Slack workspace integration configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association#slack DevopsagentAssociation#slack}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association#slack DevopsagentAssociation#slack}
 
 ---
 
@@ -1243,7 +1243,7 @@ public readonly sourceAws: DevopsagentAssociationConfigurationSourceAws;
 
 AWS association for 'source' account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association#source_aws DevopsagentAssociation#source_aws}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association#source_aws DevopsagentAssociation#source_aws}
 
 ---
 
@@ -1279,7 +1279,7 @@ public readonly accountId: string;
 
 AWS Account Id corresponding to provided resources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association#account_id DevopsagentAssociation#account_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association#account_id DevopsagentAssociation#account_id}
 
 ---
 
@@ -1293,7 +1293,7 @@ public readonly accountType: string;
 
 Account Type 'monitor' for DevOpsAgent monitoring.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association#account_type DevopsagentAssociation#account_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association#account_type DevopsagentAssociation#account_type}
 
 ---
 
@@ -1307,7 +1307,7 @@ public readonly assumableRoleArn: string;
 
 Role ARN to be assumed by DevOpsAgent to operate on behalf of customer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association#assumable_role_arn DevopsagentAssociation#assumable_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association#assumable_role_arn DevopsagentAssociation#assumable_role_arn}
 
 ---
 
@@ -1321,7 +1321,7 @@ public readonly resources: IResolvable | DevopsagentAssociationConfigurationAwsR
 
 List of AWS resources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association#resources DevopsagentAssociation#resources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association#resources DevopsagentAssociation#resources}
 
 ---
 
@@ -1335,7 +1335,7 @@ public readonly tags: IResolvable | DevopsagentAssociationConfigurationAwsTags[]
 
 List of AWS tags as key-value pairs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association#tags DevopsagentAssociation#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association#tags DevopsagentAssociation#tags}
 
 ---
 
@@ -1369,7 +1369,7 @@ public readonly resourceArn: string;
 
 The Amazon Resource Name (ARN) of the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association#resource_arn DevopsagentAssociation#resource_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association#resource_arn DevopsagentAssociation#resource_arn}
 
 ---
 
@@ -1383,7 +1383,7 @@ public readonly resourceMetadata: string;
 
 Additional metadata for the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association#resource_metadata DevopsagentAssociation#resource_metadata}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association#resource_metadata DevopsagentAssociation#resource_metadata}
 
 ---
 
@@ -1397,7 +1397,7 @@ public readonly resourceType: string;
 
 Resource type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association#resource_type DevopsagentAssociation#resource_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association#resource_type DevopsagentAssociation#resource_type}
 
 ---
 
@@ -1415,8 +1415,8 @@ const devopsagentAssociationConfigurationAwsTags: devopsagentAssociation.Devopsa
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationAwsTags.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association#key DevopsagentAssociation#key}. |
-| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationAwsTags.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association#value DevopsagentAssociation#value}. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationAwsTags.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association#key DevopsagentAssociation#key}. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationAwsTags.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association#value DevopsagentAssociation#value}. |
 
 ---
 
@@ -1428,7 +1428,7 @@ public readonly key: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association#key DevopsagentAssociation#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association#key DevopsagentAssociation#key}.
 
 ---
 
@@ -1440,7 +1440,7 @@ public readonly value: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association#value DevopsagentAssociation#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association#value DevopsagentAssociation#value}.
 
 ---
 
@@ -1472,7 +1472,7 @@ public readonly subscriptionId: string;
 
 Azure subscription ID corresponding to provided resources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association#subscription_id DevopsagentAssociation#subscription_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association#subscription_id DevopsagentAssociation#subscription_id}
 
 ---
 
@@ -1506,7 +1506,7 @@ public readonly enableWebhookUpdates: boolean | IResolvable;
 
 When set to true, enables the Agent Space to create and update webhooks for receiving notifications and events from the service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
 
 ---
 
@@ -1520,7 +1520,7 @@ public readonly envId: string;
 
 Dynatrace environment id.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association#env_id DevopsagentAssociation#env_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association#env_id DevopsagentAssociation#env_id}
 
 ---
 
@@ -1534,7 +1534,7 @@ public readonly resources: string[];
 
 List of Dynatrace resources to monitor.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association#resources DevopsagentAssociation#resources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association#resources DevopsagentAssociation#resources}
 
 ---
 
@@ -1566,7 +1566,7 @@ public readonly enableWebhookUpdates: boolean | IResolvable;
 
 When set to true, enables the Agent Space to create and update webhooks for receiving notifications and events from the service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
 
 ---
 
@@ -1601,7 +1601,7 @@ public readonly owner: string;
 
 Repository owner.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association#owner DevopsagentAssociation#owner}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association#owner DevopsagentAssociation#owner}
 
 ---
 
@@ -1615,7 +1615,7 @@ public readonly ownerType: string;
 
 Type of repository owner.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association#owner_type DevopsagentAssociation#owner_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association#owner_type DevopsagentAssociation#owner_type}
 
 ---
 
@@ -1629,7 +1629,7 @@ public readonly repoId: string;
 
 Associated Github repo ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association#repo_id DevopsagentAssociation#repo_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association#repo_id DevopsagentAssociation#repo_id}
 
 ---
 
@@ -1643,7 +1643,7 @@ public readonly repoName: string;
 
 Associated Github repo name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association#repo_name DevopsagentAssociation#repo_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association#repo_name DevopsagentAssociation#repo_name}
 
 ---
 
@@ -1678,7 +1678,7 @@ public readonly enableWebhookUpdates: boolean | IResolvable;
 
 When set to true, enables the Agent Space to create and update webhooks for receiving notifications and events from the service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
 
 ---
 
@@ -1692,7 +1692,7 @@ public readonly instanceIdentifier: string;
 
 GitLab instance identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association#instance_identifier DevopsagentAssociation#instance_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association#instance_identifier DevopsagentAssociation#instance_identifier}
 
 ---
 
@@ -1706,7 +1706,7 @@ public readonly projectId: string;
 
 GitLab numeric project ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association#project_id DevopsagentAssociation#project_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association#project_id DevopsagentAssociation#project_id}
 
 ---
 
@@ -1720,7 +1720,7 @@ public readonly projectPath: string;
 
 Full GitLab project path (e.g., namespace/project-name).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association#project_path DevopsagentAssociation#project_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association#project_path DevopsagentAssociation#project_path}
 
 ---
 
@@ -1756,7 +1756,7 @@ public readonly description: string;
 
 The description of the MCP server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association#description DevopsagentAssociation#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association#description DevopsagentAssociation#description}
 
 ---
 
@@ -1770,7 +1770,7 @@ public readonly enableWebhookUpdates: boolean | IResolvable;
 
 When set to true, enables the Agent Space to create and update webhooks for receiving notifications and events from the service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
 
 ---
 
@@ -1784,7 +1784,7 @@ public readonly endpoint: string;
 
 MCP server endpoint URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association#endpoint DevopsagentAssociation#endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association#endpoint DevopsagentAssociation#endpoint}
 
 ---
 
@@ -1798,7 +1798,7 @@ public readonly name: string;
 
 The name of the MCP server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association#name DevopsagentAssociation#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association#name DevopsagentAssociation#name}
 
 ---
 
@@ -1812,7 +1812,7 @@ public readonly tools: string[];
 
 List of MCP tools that can be used with the association.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association#tools DevopsagentAssociation#tools}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association#tools DevopsagentAssociation#tools}
 
 ---
 
@@ -1847,7 +1847,7 @@ public readonly description: string;
 
 The description of the MCP server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association#description DevopsagentAssociation#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association#description DevopsagentAssociation#description}
 
 ---
 
@@ -1861,7 +1861,7 @@ public readonly enableWebhookUpdates: boolean | IResolvable;
 
 When set to true, enables the Agent Space to create and update webhooks for receiving notifications and events from the service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
 
 ---
 
@@ -1875,7 +1875,7 @@ public readonly endpoint: string;
 
 MCP server endpoint URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association#endpoint DevopsagentAssociation#endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association#endpoint DevopsagentAssociation#endpoint}
 
 ---
 
@@ -1889,7 +1889,7 @@ public readonly name: string;
 
 The name of the MCP server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association#name DevopsagentAssociation#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association#name DevopsagentAssociation#name}
 
 ---
 
@@ -1923,7 +1923,7 @@ public readonly enableWebhookUpdates: boolean | IResolvable;
 
 When set to true, enables the Agent Space to create and update webhooks for receiving notifications and events from the service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
 
 ---
 
@@ -1937,7 +1937,7 @@ public readonly endpoint: string;
 
 MCP server endpoint URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association#endpoint DevopsagentAssociation#endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association#endpoint DevopsagentAssociation#endpoint}
 
 ---
 
@@ -1951,7 +1951,7 @@ public readonly tools: string[];
 
 List of tool categories to enable for the Grafana MCP server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association#tools DevopsagentAssociation#tools}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association#tools DevopsagentAssociation#tools}
 
 ---
 
@@ -1984,7 +1984,7 @@ public readonly accountId: string;
 
 New Relic Account ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association#account_id DevopsagentAssociation#account_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association#account_id DevopsagentAssociation#account_id}
 
 ---
 
@@ -1998,7 +1998,7 @@ public readonly endpoint: string;
 
 MCP server endpoint URL (e.g., https://mcp.newrelic.com/mcp/).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association#endpoint DevopsagentAssociation#endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association#endpoint DevopsagentAssociation#endpoint}
 
 ---
 
@@ -2030,7 +2030,7 @@ public readonly tools: string[];
 
 List of MCP tools available for the association.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association#tools DevopsagentAssociation#tools}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association#tools DevopsagentAssociation#tools}
 
 ---
 
@@ -2065,7 +2065,7 @@ public readonly description: string;
 
 The description of the MCP server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association#description DevopsagentAssociation#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association#description DevopsagentAssociation#description}
 
 ---
 
@@ -2079,7 +2079,7 @@ public readonly enableWebhookUpdates: boolean | IResolvable;
 
 When set to true, enables the Agent Space to create and update webhooks for receiving notifications and events from the service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
 
 ---
 
@@ -2093,7 +2093,7 @@ public readonly endpoint: string;
 
 MCP server endpoint URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association#endpoint DevopsagentAssociation#endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association#endpoint DevopsagentAssociation#endpoint}
 
 ---
 
@@ -2107,7 +2107,7 @@ public readonly name: string;
 
 The name of the MCP server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association#name DevopsagentAssociation#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association#name DevopsagentAssociation#name}
 
 ---
 
@@ -2141,7 +2141,7 @@ public readonly customerEmail: string;
 
 Email to be used in PagerDuty API header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association#customer_email DevopsagentAssociation#customer_email}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association#customer_email DevopsagentAssociation#customer_email}
 
 ---
 
@@ -2155,7 +2155,7 @@ public readonly enableWebhookUpdates: boolean | IResolvable;
 
 When set to true, enables the Agent Space to create and update webhooks for receiving notifications and events from the service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
 
 ---
 
@@ -2169,7 +2169,7 @@ public readonly services: string[];
 
 List of PagerDuty service IDs available for the association.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association#services DevopsagentAssociation#services}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association#services DevopsagentAssociation#services}
 
 ---
 
@@ -2202,7 +2202,7 @@ public readonly enableWebhookUpdates: boolean | IResolvable;
 
 When set to true, enables the Agent Space to create and update webhooks for receiving notifications and events from the service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
 
 ---
 
@@ -2216,7 +2216,7 @@ public readonly instanceId: string;
 
 ServiceNow instance ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association#instance_id DevopsagentAssociation#instance_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association#instance_id DevopsagentAssociation#instance_id}
 
 ---
 
@@ -2250,7 +2250,7 @@ public readonly transmissionTarget: DevopsagentAssociationConfigurationSlackTran
 
 Transmission targets for agent notifications.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association#transmission_target DevopsagentAssociation#transmission_target}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association#transmission_target DevopsagentAssociation#transmission_target}
 
 ---
 
@@ -2264,7 +2264,7 @@ public readonly workspaceId: string;
 
 Associated Slack workspace ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association#workspace_id DevopsagentAssociation#workspace_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association#workspace_id DevopsagentAssociation#workspace_id}
 
 ---
 
@@ -2278,7 +2278,7 @@ public readonly workspaceName: string;
 
 Associated Slack workspace name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association#workspace_name DevopsagentAssociation#workspace_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association#workspace_name DevopsagentAssociation#workspace_name}
 
 ---
 
@@ -2310,7 +2310,7 @@ public readonly incidentResponseTarget: DevopsagentAssociationConfigurationSlack
 
 Destination for IncidentResponse agent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association#incident_response_target DevopsagentAssociation#incident_response_target}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association#incident_response_target DevopsagentAssociation#incident_response_target}
 
 ---
 
@@ -2343,7 +2343,7 @@ public readonly channelId: string;
 
 Slack channel ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association#channel_id DevopsagentAssociation#channel_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association#channel_id DevopsagentAssociation#channel_id}
 
 ---
 
@@ -2357,7 +2357,7 @@ public readonly channelName: string;
 
 Slack channel name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association#channel_name DevopsagentAssociation#channel_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association#channel_name DevopsagentAssociation#channel_name}
 
 ---
 
@@ -2393,7 +2393,7 @@ public readonly accountId: string;
 
 AWS Account Id corresponding to provided resources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association#account_id DevopsagentAssociation#account_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association#account_id DevopsagentAssociation#account_id}
 
 ---
 
@@ -2407,7 +2407,7 @@ public readonly accountType: string;
 
 Account Type 'source' for DevOpsAgent monitoring.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association#account_type DevopsagentAssociation#account_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association#account_type DevopsagentAssociation#account_type}
 
 ---
 
@@ -2421,7 +2421,7 @@ public readonly assumableRoleArn: string;
 
 Role ARN to be assumed by DevOpsAgent to operate on behalf of customer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association#assumable_role_arn DevopsagentAssociation#assumable_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association#assumable_role_arn DevopsagentAssociation#assumable_role_arn}
 
 ---
 
@@ -2435,7 +2435,7 @@ public readonly resources: IResolvable | DevopsagentAssociationConfigurationSour
 
 List of AWS resources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association#resources DevopsagentAssociation#resources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association#resources DevopsagentAssociation#resources}
 
 ---
 
@@ -2449,7 +2449,7 @@ public readonly tags: IResolvable | DevopsagentAssociationConfigurationSourceAws
 
 List of AWS tags as key-value pairs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association#tags DevopsagentAssociation#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association#tags DevopsagentAssociation#tags}
 
 ---
 
@@ -2483,7 +2483,7 @@ public readonly resourceArn: string;
 
 The Amazon Resource Name (ARN) of the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association#resource_arn DevopsagentAssociation#resource_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association#resource_arn DevopsagentAssociation#resource_arn}
 
 ---
 
@@ -2497,7 +2497,7 @@ public readonly resourceMetadata: string;
 
 Additional metadata for the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association#resource_metadata DevopsagentAssociation#resource_metadata}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association#resource_metadata DevopsagentAssociation#resource_metadata}
 
 ---
 
@@ -2511,7 +2511,7 @@ public readonly resourceType: string;
 
 Resource type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association#resource_type DevopsagentAssociation#resource_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association#resource_type DevopsagentAssociation#resource_type}
 
 ---
 
@@ -2529,8 +2529,8 @@ const devopsagentAssociationConfigurationSourceAwsTags: devopsagentAssociation.D
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSourceAwsTags.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association#key DevopsagentAssociation#key}. |
-| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSourceAwsTags.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association#value DevopsagentAssociation#value}. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSourceAwsTags.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association#key DevopsagentAssociation#key}. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSourceAwsTags.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association#value DevopsagentAssociation#value}. |
 
 ---
 
@@ -2542,7 +2542,7 @@ public readonly key: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association#key DevopsagentAssociation#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association#key DevopsagentAssociation#key}.
 
 ---
 
@@ -2554,7 +2554,7 @@ public readonly value: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association#value DevopsagentAssociation#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association#value DevopsagentAssociation#value}.
 
 ---
 

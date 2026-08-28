@@ -4,7 +4,7 @@
 
 ### DataAwsccBedrockagentcoreGateway <a name="DataAwsccBedrockagentcoreGateway" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreGateway.DataAwsccBedrockagentcoreGateway"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/bedrockagentcore_gateway awscc_bedrockagentcore_gateway}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/bedrockagentcore_gateway awscc_bedrockagentcore_gateway}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreGateway.DataAwsccBedrockagentcoreGateway.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccBedrockagentcoreG
 
 The id of the existing DataAwsccBedrockagentcoreGateway that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/bedrockagentcore_gateway#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/bedrockagentcore_gateway#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -434,6 +434,8 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98
 | <code><a href="#@cdktn/provider-awscc.dataAwsccBedrockagentcoreGateway.DataAwsccBedrockagentcoreGateway.property.statusReasons">StatusReasons</a></code> | <code>*[]*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccBedrockagentcoreGateway.DataAwsccBedrockagentcoreGateway.property.tags">Tags</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.StringMap</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccBedrockagentcoreGateway.DataAwsccBedrockagentcoreGateway.property.updatedAt">UpdatedAt</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccBedrockagentcoreGateway.DataAwsccBedrockagentcoreGateway.property.wafConfiguration">WafConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccBedrockagentcoreGateway.DataAwsccBedrockagentcoreGatewayWafConfigurationOutputReference">DataAwsccBedrockagentcoreGatewayWafConfigurationOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccBedrockagentcoreGateway.DataAwsccBedrockagentcoreGateway.property.webAclArn">WebAclArn</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccBedrockagentcoreGateway.DataAwsccBedrockagentcoreGateway.property.workloadIdentityDetails">WorkloadIdentityDetails</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccBedrockagentcoreGateway.DataAwsccBedrockagentcoreGatewayWorkloadIdentityDetailsOutputReference">DataAwsccBedrockagentcoreGatewayWorkloadIdentityDetailsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccBedrockagentcoreGateway.DataAwsccBedrockagentcoreGateway.property.idInput">IdInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccBedrockagentcoreGateway.DataAwsccBedrockagentcoreGateway.property.id">Id</a></code> | <code>*string</code> | *No description.* |
@@ -752,6 +754,26 @@ func UpdatedAt() *string
 
 ---
 
+##### `WafConfiguration`<sup>Required</sup> <a name="WafConfiguration" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreGateway.DataAwsccBedrockagentcoreGateway.property.wafConfiguration"></a>
+
+```go
+func WafConfiguration() DataAwsccBedrockagentcoreGatewayWafConfigurationOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccBedrockagentcoreGateway.DataAwsccBedrockagentcoreGatewayWafConfigurationOutputReference">DataAwsccBedrockagentcoreGatewayWafConfigurationOutputReference</a>
+
+---
+
+##### `WebAclArn`<sup>Required</sup> <a name="WebAclArn" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreGateway.DataAwsccBedrockagentcoreGateway.property.webAclArn"></a>
+
+```go
+func WebAclArn() *string
+```
+
+- *Type:* *string
+
+---
+
 ##### `WorkloadIdentityDetails`<sup>Required</sup> <a name="WorkloadIdentityDetails" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreGateway.DataAwsccBedrockagentcoreGateway.property.workloadIdentityDetails"></a>
 
 ```go
@@ -1020,7 +1042,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/bedrockagentcore_gateway#id DataAwsccBedrockagentcoreGateway#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/bedrockagentcore_gateway#id DataAwsccBedrockagentcoreGateway#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1165,6 +1187,19 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentc
 import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcoregateway"
 
 &dataawsccbedrockagentcoregateway.DataAwsccBedrockagentcoreGatewayProtocolConfigurationMcpStreamingConfiguration {
+
+}
+```
+
+
+### DataAwsccBedrockagentcoreGatewayWafConfiguration <a name="DataAwsccBedrockagentcoreGatewayWafConfiguration" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreGateway.DataAwsccBedrockagentcoreGatewayWafConfiguration"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreGateway.DataAwsccBedrockagentcoreGatewayWafConfiguration.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcoregateway"
+
+&dataawsccbedrockagentcoregateway.DataAwsccBedrockagentcoreGatewayWafConfiguration {
 
 }
 ```
@@ -6875,6 +6910,266 @@ func InternalValue() DataAwsccBedrockagentcoreGatewayProtocolConfiguration
 ```
 
 - *Type:* <a href="#@cdktn/provider-awscc.dataAwsccBedrockagentcoreGateway.DataAwsccBedrockagentcoreGatewayProtocolConfiguration">DataAwsccBedrockagentcoreGatewayProtocolConfiguration</a>
+
+---
+
+
+### DataAwsccBedrockagentcoreGatewayWafConfigurationOutputReference <a name="DataAwsccBedrockagentcoreGatewayWafConfigurationOutputReference" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreGateway.DataAwsccBedrockagentcoreGatewayWafConfigurationOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreGateway.DataAwsccBedrockagentcoreGatewayWafConfigurationOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcoregateway"
+
+dataawsccbedrockagentcoregateway.NewDataAwsccBedrockagentcoreGatewayWafConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockagentcoreGatewayWafConfigurationOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccBedrockagentcoreGateway.DataAwsccBedrockagentcoreGatewayWafConfigurationOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccBedrockagentcoreGateway.DataAwsccBedrockagentcoreGatewayWafConfigurationOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreGateway.DataAwsccBedrockagentcoreGatewayWafConfigurationOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreGateway.DataAwsccBedrockagentcoreGatewayWafConfigurationOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccBedrockagentcoreGateway.DataAwsccBedrockagentcoreGatewayWafConfigurationOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccBedrockagentcoreGateway.DataAwsccBedrockagentcoreGatewayWafConfigurationOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccBedrockagentcoreGateway.DataAwsccBedrockagentcoreGatewayWafConfigurationOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccBedrockagentcoreGateway.DataAwsccBedrockagentcoreGatewayWafConfigurationOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccBedrockagentcoreGateway.DataAwsccBedrockagentcoreGatewayWafConfigurationOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccBedrockagentcoreGateway.DataAwsccBedrockagentcoreGatewayWafConfigurationOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccBedrockagentcoreGateway.DataAwsccBedrockagentcoreGatewayWafConfigurationOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccBedrockagentcoreGateway.DataAwsccBedrockagentcoreGatewayWafConfigurationOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccBedrockagentcoreGateway.DataAwsccBedrockagentcoreGatewayWafConfigurationOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccBedrockagentcoreGateway.DataAwsccBedrockagentcoreGatewayWafConfigurationOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccBedrockagentcoreGateway.DataAwsccBedrockagentcoreGatewayWafConfigurationOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccBedrockagentcoreGateway.DataAwsccBedrockagentcoreGatewayWafConfigurationOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccBedrockagentcoreGateway.DataAwsccBedrockagentcoreGatewayWafConfigurationOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreGateway.DataAwsccBedrockagentcoreGatewayWafConfigurationOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreGateway.DataAwsccBedrockagentcoreGatewayWafConfigurationOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreGateway.DataAwsccBedrockagentcoreGatewayWafConfigurationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreGateway.DataAwsccBedrockagentcoreGatewayWafConfigurationOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreGateway.DataAwsccBedrockagentcoreGatewayWafConfigurationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreGateway.DataAwsccBedrockagentcoreGatewayWafConfigurationOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreGateway.DataAwsccBedrockagentcoreGatewayWafConfigurationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreGateway.DataAwsccBedrockagentcoreGatewayWafConfigurationOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreGateway.DataAwsccBedrockagentcoreGatewayWafConfigurationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreGateway.DataAwsccBedrockagentcoreGatewayWafConfigurationOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreGateway.DataAwsccBedrockagentcoreGatewayWafConfigurationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreGateway.DataAwsccBedrockagentcoreGatewayWafConfigurationOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreGateway.DataAwsccBedrockagentcoreGatewayWafConfigurationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreGateway.DataAwsccBedrockagentcoreGatewayWafConfigurationOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreGateway.DataAwsccBedrockagentcoreGatewayWafConfigurationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreGateway.DataAwsccBedrockagentcoreGatewayWafConfigurationOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreGateway.DataAwsccBedrockagentcoreGatewayWafConfigurationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreGateway.DataAwsccBedrockagentcoreGatewayWafConfigurationOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreGateway.DataAwsccBedrockagentcoreGatewayWafConfigurationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreGateway.DataAwsccBedrockagentcoreGatewayWafConfigurationOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreGateway.DataAwsccBedrockagentcoreGatewayWafConfigurationOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreGateway.DataAwsccBedrockagentcoreGatewayWafConfigurationOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreGateway.DataAwsccBedrockagentcoreGatewayWafConfigurationOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreGateway.DataAwsccBedrockagentcoreGatewayWafConfigurationOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccBedrockagentcoreGateway.DataAwsccBedrockagentcoreGatewayWafConfigurationOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccBedrockagentcoreGateway.DataAwsccBedrockagentcoreGatewayWafConfigurationOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccBedrockagentcoreGateway.DataAwsccBedrockagentcoreGatewayWafConfigurationOutputReference.property.failureMode">FailureMode</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccBedrockagentcoreGateway.DataAwsccBedrockagentcoreGatewayWafConfigurationOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccBedrockagentcoreGateway.DataAwsccBedrockagentcoreGatewayWafConfiguration">DataAwsccBedrockagentcoreGatewayWafConfiguration</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreGateway.DataAwsccBedrockagentcoreGatewayWafConfigurationOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreGateway.DataAwsccBedrockagentcoreGatewayWafConfigurationOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `FailureMode`<sup>Required</sup> <a name="FailureMode" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreGateway.DataAwsccBedrockagentcoreGatewayWafConfigurationOutputReference.property.failureMode"></a>
+
+```go
+func FailureMode() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreGateway.DataAwsccBedrockagentcoreGatewayWafConfigurationOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() DataAwsccBedrockagentcoreGatewayWafConfiguration
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccBedrockagentcoreGateway.DataAwsccBedrockagentcoreGatewayWafConfiguration">DataAwsccBedrockagentcoreGatewayWafConfiguration</a>
 
 ---
 

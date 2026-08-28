@@ -4,7 +4,7 @@
 
 ### ArczonalshiftAutoshiftObserverNotificationStatus <a name="ArczonalshiftAutoshiftObserverNotificationStatus" id="@cdktn/provider-awscc.arczonalshiftAutoshiftObserverNotificationStatus.ArczonalshiftAutoshiftObserverNotificationStatus"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/arczonalshift_autoshift_observer_notification_status awscc_arczonalshift_autoshift_observer_notification_status}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/arczonalshift_autoshift_observer_notification_status awscc_arczonalshift_autoshift_observer_notification_status}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.arczonalshiftAutoshiftObserverNotificationStatus.ArczonalshiftAutoshiftObserverNotificationStatus.Initializer"></a>
 
@@ -489,7 +489,7 @@ The construct id used in the generated config for the ArczonalshiftAutoshiftObse
 
 The id of the existing ArczonalshiftAutoshiftObserverNotificationStatus that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/arczonalshift_autoshift_observer_notification_status#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/arczonalshift_autoshift_observer_notification_status#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -769,7 +769,7 @@ new ArczonalshiftAutoshiftObserverNotificationStatusConfig {
 | <code><a href="#@cdktn/provider-awscc.arczonalshiftAutoshiftObserverNotificationStatus.ArczonalshiftAutoshiftObserverNotificationStatusConfig.property.lifecycle">Lifecycle</a></code> | <code>Io.Cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.arczonalshiftAutoshiftObserverNotificationStatus.ArczonalshiftAutoshiftObserverNotificationStatusConfig.property.provider">Provider</a></code> | <code>Io.Cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.arczonalshiftAutoshiftObserverNotificationStatus.ArczonalshiftAutoshiftObserverNotificationStatusConfig.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.arczonalshiftAutoshiftObserverNotificationStatus.ArczonalshiftAutoshiftObserverNotificationStatusConfig.property.status">Status</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/arczonalshift_autoshift_observer_notification_status#status ArczonalshiftAutoshiftObserverNotificationStatus#status}. |
+| <code><a href="#@cdktn/provider-awscc.arczonalshiftAutoshiftObserverNotificationStatus.ArczonalshiftAutoshiftObserverNotificationStatusConfig.property.status">Status</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/arczonalshift_autoshift_observer_notification_status#status ArczonalshiftAutoshiftObserverNotificationStatus#status}. |
 
 ---
 
@@ -851,7 +851,7 @@ public string Status { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/arczonalshift_autoshift_observer_notification_status#status ArczonalshiftAutoshiftObserverNotificationStatus#status}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/arczonalshift_autoshift_observer_notification_status#status ArczonalshiftAutoshiftObserverNotificationStatus#status}.
 
 ---
 

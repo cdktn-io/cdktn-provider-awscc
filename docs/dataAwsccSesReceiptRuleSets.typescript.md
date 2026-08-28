@@ -4,7 +4,7 @@
 
 ### DataAwsccSesReceiptRuleSets <a name="DataAwsccSesReceiptRuleSets" id="@cdktn/provider-awscc.dataAwsccSesReceiptRuleSets.DataAwsccSesReceiptRuleSets"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ses_receipt_rule_sets awscc_ses_receipt_rule_sets}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ses_receipt_rule_sets awscc_ses_receipt_rule_sets}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesReceiptRuleSets.DataAwsccSesReceiptRuleSets.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSesReceiptRuleSet
 
 The id of the existing DataAwsccSesReceiptRuleSets that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ses_receipt_rule_sets#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ses_receipt_rule_sets#import import section} in the documentation of this resource for the id to use
 
 ---
 

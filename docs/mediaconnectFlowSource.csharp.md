@@ -4,7 +4,7 @@
 
 ### MediaconnectFlowSourceA <a name="MediaconnectFlowSourceA" id="@cdktn/provider-awscc.mediaconnectFlowSource.MediaconnectFlowSourceA"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediaconnect_flow_source awscc_mediaconnect_flow_source}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow_source awscc_mediaconnect_flow_source}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediaconnectFlowSource.MediaconnectFlowSourceA.Initializer"></a>
 
@@ -640,7 +640,7 @@ The construct id used in the generated config for the MediaconnectFlowSourceA to
 
 The id of the existing MediaconnectFlowSourceA that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediaconnect_flow_source#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow_source#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1449,7 +1449,7 @@ A description for the source.
 
 This value is not used or seen outside of the current AWS Elemental MediaConnect account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediaconnect_flow_source#description MediaconnectFlowSourceA#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow_source#description MediaconnectFlowSourceA#description}
 
 ---
 
@@ -1463,7 +1463,7 @@ public string FlowArn { get; set; }
 
 The ARN of the flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediaconnect_flow_source#flow_arn MediaconnectFlowSourceA#flow_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow_source#flow_arn MediaconnectFlowSourceA#flow_arn}
 
 ---
 
@@ -1477,7 +1477,7 @@ public string Name { get; set; }
 
 The name of the source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediaconnect_flow_source#name MediaconnectFlowSourceA#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow_source#name MediaconnectFlowSourceA#name}
 
 ---
 
@@ -1491,7 +1491,7 @@ public MediaconnectFlowSourceDecryptionA Decryption { get; set; }
 
 The type of encryption that is used on the content ingested from this source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediaconnect_flow_source#decryption MediaconnectFlowSourceA#decryption}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow_source#decryption MediaconnectFlowSourceA#decryption}
 
 ---
 
@@ -1507,7 +1507,7 @@ The ARN of the entitlement that allows you to subscribe to content that comes fr
 
 The entitlement is set by the content originator and the ARN is generated as part of the originator's flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediaconnect_flow_source#entitlement_arn MediaconnectFlowSourceA#entitlement_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow_source#entitlement_arn MediaconnectFlowSourceA#entitlement_arn}
 
 ---
 
@@ -1521,7 +1521,7 @@ public MediaconnectFlowSourceGatewayBridgeSourceA GatewayBridgeSource { get; set
 
 The source configuration for cloud flows receiving a stream from a bridge.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediaconnect_flow_source#gateway_bridge_source MediaconnectFlowSourceA#gateway_bridge_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow_source#gateway_bridge_source MediaconnectFlowSourceA#gateway_bridge_source}
 
 ---
 
@@ -1535,7 +1535,7 @@ public double IngestPort { get; set; }
 
 The port that the flow will be listening on for incoming content.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediaconnect_flow_source#ingest_port MediaconnectFlowSourceA#ingest_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow_source#ingest_port MediaconnectFlowSourceA#ingest_port}
 
 ---
 
@@ -1549,7 +1549,7 @@ public double MaxBitrate { get; set; }
 
 The smoothing max bitrate for RIST, RTP, and RTP-FEC streams.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediaconnect_flow_source#max_bitrate MediaconnectFlowSourceA#max_bitrate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow_source#max_bitrate MediaconnectFlowSourceA#max_bitrate}
 
 ---
 
@@ -1563,7 +1563,7 @@ public double MaxLatency { get; set; }
 
 The maximum latency in milliseconds. This parameter applies only to RIST-based and Zixi-based streams.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediaconnect_flow_source#max_latency MediaconnectFlowSourceA#max_latency}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow_source#max_latency MediaconnectFlowSourceA#max_latency}
 
 ---
 
@@ -1577,7 +1577,7 @@ public double MinLatency { get; set; }
 
 The minimum latency in milliseconds.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediaconnect_flow_source#min_latency MediaconnectFlowSourceA#min_latency}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow_source#min_latency MediaconnectFlowSourceA#min_latency}
 
 ---
 
@@ -1591,7 +1591,7 @@ public string Protocol { get; set; }
 
 The protocol that is used by the source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediaconnect_flow_source#protocol MediaconnectFlowSourceA#protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow_source#protocol MediaconnectFlowSourceA#protocol}
 
 ---
 
@@ -1605,7 +1605,7 @@ public double SenderControlPort { get; set; }
 
 The port that the flow uses to send outbound requests to initiate connection with the sender for fujitsu-qos protocol.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediaconnect_flow_source#sender_control_port MediaconnectFlowSourceA#sender_control_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow_source#sender_control_port MediaconnectFlowSourceA#sender_control_port}
 
 ---
 
@@ -1619,7 +1619,7 @@ public string SenderIpAddress { get; set; }
 
 The IP address that the flow communicates with to initiate connection with the sender for fujitsu-qos protocol.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediaconnect_flow_source#sender_ip_address MediaconnectFlowSourceA#sender_ip_address}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow_source#sender_ip_address MediaconnectFlowSourceA#sender_ip_address}
 
 ---
 
@@ -1633,7 +1633,7 @@ public string SourceListenerAddress { get; set; }
 
 Source IP or domain name for SRT-caller protocol.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediaconnect_flow_source#source_listener_address MediaconnectFlowSourceA#source_listener_address}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow_source#source_listener_address MediaconnectFlowSourceA#source_listener_address}
 
 ---
 
@@ -1647,7 +1647,7 @@ public double SourceListenerPort { get; set; }
 
 Source port for SRT-caller protocol.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediaconnect_flow_source#source_listener_port MediaconnectFlowSourceA#source_listener_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow_source#source_listener_port MediaconnectFlowSourceA#source_listener_port}
 
 ---
 
@@ -1661,7 +1661,7 @@ public string StreamId { get; set; }
 
 The stream ID that you want to use for this transport. This parameter applies only to Zixi-based streams.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediaconnect_flow_source#stream_id MediaconnectFlowSourceA#stream_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow_source#stream_id MediaconnectFlowSourceA#stream_id}
 
 ---
 
@@ -1675,7 +1675,7 @@ public IResolvable|MediaconnectFlowSourceTags[] Tags { get; set; }
 
 Key-value pairs that can be used to tag and organize this flow source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediaconnect_flow_source#tags MediaconnectFlowSourceA#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow_source#tags MediaconnectFlowSourceA#tags}
 
 ---
 
@@ -1689,7 +1689,7 @@ public string VpcInterfaceName { get; set; }
 
 The name of the VPC Interface this Source is configured with.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediaconnect_flow_source#vpc_interface_name MediaconnectFlowSourceA#vpc_interface_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow_source#vpc_interface_name MediaconnectFlowSourceA#vpc_interface_name}
 
 ---
 
@@ -1705,7 +1705,7 @@ The range of IP addresses that should be allowed to contribute content to your s
 
 These IP addresses should be in the form of a Classless Inter-Domain Routing (CIDR) block; for example, 10.0.0.0/16.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediaconnect_flow_source#whitelist_cidr MediaconnectFlowSourceA#whitelist_cidr}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow_source#whitelist_cidr MediaconnectFlowSourceA#whitelist_cidr}
 
 ---
 
@@ -1755,7 +1755,7 @@ public string Algorithm { get; set; }
 
 The type of algorithm that is used for the encryption (such as aes128, aes192, or aes256).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediaconnect_flow_source#algorithm MediaconnectFlowSourceA#algorithm}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow_source#algorithm MediaconnectFlowSourceA#algorithm}
 
 ---
 
@@ -1771,7 +1771,7 @@ A 128-bit, 16-byte hex value represented by a 32-character string, to be used wi
 
 This parameter is not valid for static key encryption.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediaconnect_flow_source#constant_initialization_vector MediaconnectFlowSourceA#constant_initialization_vector}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow_source#constant_initialization_vector MediaconnectFlowSourceA#constant_initialization_vector}
 
 ---
 
@@ -1787,7 +1787,7 @@ The value of one of the devices that you configured with your digital rights man
 
 This parameter is required for SPEKE encryption and is not valid for static key encryption.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediaconnect_flow_source#device_id MediaconnectFlowSourceA#device_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow_source#device_id MediaconnectFlowSourceA#device_id}
 
 ---
 
@@ -1803,7 +1803,7 @@ The type of key that is used for the encryption.
 
 If no keyType is provided, the service will use the default setting (static-key).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediaconnect_flow_source#key_type MediaconnectFlowSourceA#key_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow_source#key_type MediaconnectFlowSourceA#key_type}
 
 ---
 
@@ -1819,7 +1819,7 @@ The AWS Region that the API Gateway proxy endpoint was created in.
 
 This parameter is required for SPEKE encryption and is not valid for static key encryption.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediaconnect_flow_source#region MediaconnectFlowSourceA#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow_source#region MediaconnectFlowSourceA#region}
 
 ---
 
@@ -1835,7 +1835,7 @@ An identifier for the content.
 
 The service sends this value to the key server to identify the current endpoint. The resource ID is also known as the content ID. This parameter is required for SPEKE encryption and is not valid for static key encryption.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediaconnect_flow_source#resource_id MediaconnectFlowSourceA#resource_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow_source#resource_id MediaconnectFlowSourceA#resource_id}
 
 ---
 
@@ -1849,7 +1849,7 @@ public string RoleArn { get; set; }
 
 The ARN of the role that you created during setup (when you set up AWS Elemental MediaConnect as a trusted entity).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediaconnect_flow_source#role_arn MediaconnectFlowSourceA#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow_source#role_arn MediaconnectFlowSourceA#role_arn}
 
 ---
 
@@ -1865,7 +1865,7 @@ The ARN of the secret that you created in AWS Secrets Manager to store the encry
 
 This parameter is required for static key encryption and is not valid for SPEKE encryption.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediaconnect_flow_source#secret_arn MediaconnectFlowSourceA#secret_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow_source#secret_arn MediaconnectFlowSourceA#secret_arn}
 
 ---
 
@@ -1881,7 +1881,7 @@ The URL from the API Gateway proxy that you set up to talk to your key server.
 
 This parameter is required for SPEKE encryption and is not valid for static key encryption.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediaconnect_flow_source#url MediaconnectFlowSourceA#url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow_source#url MediaconnectFlowSourceA#url}
 
 ---
 
@@ -1917,7 +1917,7 @@ public string BridgeArn { get; set; }
 
 The ARN of the bridge feeding this flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediaconnect_flow_source#bridge_arn MediaconnectFlowSourceA#bridge_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow_source#bridge_arn MediaconnectFlowSourceA#bridge_arn}
 
 ---
 
@@ -1931,7 +1931,7 @@ public MediaconnectFlowSourceGatewayBridgeSourceVpcInterfaceAttachmentA VpcInter
 
 The name of the VPC interface attachment to use for this bridge source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediaconnect_flow_source#vpc_interface_attachment MediaconnectFlowSourceA#vpc_interface_attachment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow_source#vpc_interface_attachment MediaconnectFlowSourceA#vpc_interface_attachment}
 
 ---
 
@@ -1965,7 +1965,7 @@ public string VpcInterfaceName { get; set; }
 
 The name of the VPC interface to use for this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediaconnect_flow_source#vpc_interface_name MediaconnectFlowSourceA#vpc_interface_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow_source#vpc_interface_name MediaconnectFlowSourceA#vpc_interface_name}
 
 ---
 
@@ -1986,8 +1986,8 @@ new MediaconnectFlowSourceTags {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.mediaconnectFlowSource.MediaconnectFlowSourceTags.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediaconnect_flow_source#key MediaconnectFlowSourceA#key}. |
-| <code><a href="#@cdktn/provider-awscc.mediaconnectFlowSource.MediaconnectFlowSourceTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediaconnect_flow_source#value MediaconnectFlowSourceA#value}. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlowSource.MediaconnectFlowSourceTags.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow_source#key MediaconnectFlowSourceA#key}. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlowSource.MediaconnectFlowSourceTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow_source#value MediaconnectFlowSourceA#value}. |
 
 ---
 
@@ -1999,7 +1999,7 @@ public string Key { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediaconnect_flow_source#key MediaconnectFlowSourceA#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow_source#key MediaconnectFlowSourceA#key}.
 
 ---
 
@@ -2011,7 +2011,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediaconnect_flow_source#value MediaconnectFlowSourceA#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow_source#value MediaconnectFlowSourceA#value}.
 
 ---
 

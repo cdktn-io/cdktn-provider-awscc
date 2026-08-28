@@ -4,7 +4,7 @@
 
 ### DataAwsccSsoAssignments <a name="DataAwsccSsoAssignments" id="@cdktn/provider-awscc.dataAwsccSsoAssignments.DataAwsccSsoAssignments"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/sso_assignments awscc_sso_assignments}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/sso_assignments awscc_sso_assignments}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsoAssignments.DataAwsccSsoAssignments.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSsoAssignments to
 
 The id of the existing DataAwsccSsoAssignments that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/sso_assignments#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/sso_assignments#import import section} in the documentation of this resource for the id to use
 
 ---
 

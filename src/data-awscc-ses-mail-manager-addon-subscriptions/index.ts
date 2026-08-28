@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ses_mail_manager_addon_subscriptions
+// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ses_mail_manager_addon_subscriptions
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccSesMailManagerAddonSubscriptionsConfig extends cdktn.T
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ses_mail_manager_addon_subscriptions awscc_ses_mail_manager_addon_subscriptions}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ses_mail_manager_addon_subscriptions awscc_ses_mail_manager_addon_subscriptions}
 */
 export class DataAwsccSesMailManagerAddonSubscriptions extends cdktn.TerraformDataSource {
 
@@ -31,7 +31,7 @@ export class DataAwsccSesMailManagerAddonSubscriptions extends cdktn.TerraformDa
   * Generates CDKTN code for importing a DataAwsccSesMailManagerAddonSubscriptions resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccSesMailManagerAddonSubscriptions to import
-  * @param importFromId The id of the existing DataAwsccSesMailManagerAddonSubscriptions that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ses_mail_manager_addon_subscriptions#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccSesMailManagerAddonSubscriptions that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ses_mail_manager_addon_subscriptions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccSesMailManagerAddonSubscriptions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -43,7 +43,7 @@ export class DataAwsccSesMailManagerAddonSubscriptions extends cdktn.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ses_mail_manager_addon_subscriptions awscc_ses_mail_manager_addon_subscriptions} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ses_mail_manager_addon_subscriptions awscc_ses_mail_manager_addon_subscriptions} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -54,7 +54,7 @@ export class DataAwsccSesMailManagerAddonSubscriptions extends cdktn.TerraformDa
       terraformResourceType: 'awscc_ses_mail_manager_addon_subscriptions',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.98.0',
+        providerVersion: '1.99.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

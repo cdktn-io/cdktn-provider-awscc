@@ -4,7 +4,7 @@
 
 ### ServicecatalogPortfolioProductAssociation <a name="ServicecatalogPortfolioProductAssociation" id="@cdktn/provider-awscc.servicecatalogPortfolioProductAssociation.ServicecatalogPortfolioProductAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicecatalog_portfolio_product_association awscc_servicecatalog_portfolio_product_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicecatalog_portfolio_product_association awscc_servicecatalog_portfolio_product_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.servicecatalogPortfolioProductAssociation.ServicecatalogPortfolioProductAssociation.Initializer"></a>
 
@@ -517,7 +517,7 @@ The construct id used in the generated config for the ServicecatalogPortfolioPro
 
 The id of the existing ServicecatalogPortfolioProductAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicecatalog_portfolio_product_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicecatalog_portfolio_product_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -931,7 +931,7 @@ AcceptLanguage *string
 
 The language code.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicecatalog_portfolio_product_association#accept_language ServicecatalogPortfolioProductAssociation#accept_language}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicecatalog_portfolio_product_association#accept_language ServicecatalogPortfolioProductAssociation#accept_language}
 
 ---
 
@@ -945,7 +945,7 @@ PortfolioId *string
 
 The portfolio identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicecatalog_portfolio_product_association#portfolio_id ServicecatalogPortfolioProductAssociation#portfolio_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicecatalog_portfolio_product_association#portfolio_id ServicecatalogPortfolioProductAssociation#portfolio_id}
 
 ---
 
@@ -959,7 +959,7 @@ ProductId *string
 
 The product identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicecatalog_portfolio_product_association#product_id ServicecatalogPortfolioProductAssociation#product_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicecatalog_portfolio_product_association#product_id ServicecatalogPortfolioProductAssociation#product_id}
 
 ---
 
@@ -975,7 +975,7 @@ The identifier of the source portfolio.
 
 The source portfolio must be a portfolio imported from a different account than the one creating the association. This account must have previously shared this portfolio with the account creating the association.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicecatalog_portfolio_product_association#source_portfolio_id ServicecatalogPortfolioProductAssociation#source_portfolio_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicecatalog_portfolio_product_association#source_portfolio_id ServicecatalogPortfolioProductAssociation#source_portfolio_id}
 
 ---
 

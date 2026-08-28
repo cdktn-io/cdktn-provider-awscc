@@ -4,7 +4,7 @@
 
 ### MedialiveSdiSource <a name="MedialiveSdiSource" id="@cdktn/provider-awscc.medialiveSdiSource.MedialiveSdiSource"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/medialive_sdi_source awscc_medialive_sdi_source}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/medialive_sdi_source awscc_medialive_sdi_source}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.medialiveSdiSource.MedialiveSdiSource.Initializer"></a>
 
@@ -516,7 +516,7 @@ The construct id used in the generated config for the MedialiveSdiSource to impo
 
 The id of the existing MedialiveSdiSource that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/medialive_sdi_source#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/medialive_sdi_source#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -962,7 +962,7 @@ public readonly name: string;
 
 The name of the SdiSource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/medialive_sdi_source#name MedialiveSdiSource#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/medialive_sdi_source#name MedialiveSdiSource#name}
 
 ---
 
@@ -976,7 +976,7 @@ public readonly type: string;
 
 The interface mode of the SdiSource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/medialive_sdi_source#type MedialiveSdiSource#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/medialive_sdi_source#type MedialiveSdiSource#type}
 
 ---
 
@@ -990,7 +990,7 @@ public readonly mode: string;
 
 The current state of the SdiSource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/medialive_sdi_source#mode MedialiveSdiSource#mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/medialive_sdi_source#mode MedialiveSdiSource#mode}
 
 ---
 
@@ -1004,7 +1004,7 @@ public readonly tags: IResolvable | MedialiveSdiSourceTags[];
 
 A collection of key-value pairs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/medialive_sdi_source#tags MedialiveSdiSource#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/medialive_sdi_source#tags MedialiveSdiSource#tags}
 
 ---
 
@@ -1022,8 +1022,8 @@ const medialiveSdiSourceTags: medialiveSdiSource.MedialiveSdiSourceTags = { ... 
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.medialiveSdiSource.MedialiveSdiSourceTags.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/medialive_sdi_source#key MedialiveSdiSource#key}. |
-| <code><a href="#@cdktn/provider-awscc.medialiveSdiSource.MedialiveSdiSourceTags.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/medialive_sdi_source#value MedialiveSdiSource#value}. |
+| <code><a href="#@cdktn/provider-awscc.medialiveSdiSource.MedialiveSdiSourceTags.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/medialive_sdi_source#key MedialiveSdiSource#key}. |
+| <code><a href="#@cdktn/provider-awscc.medialiveSdiSource.MedialiveSdiSourceTags.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/medialive_sdi_source#value MedialiveSdiSource#value}. |
 
 ---
 
@@ -1035,7 +1035,7 @@ public readonly key: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/medialive_sdi_source#key MedialiveSdiSource#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/medialive_sdi_source#key MedialiveSdiSource#key}.
 
 ---
 
@@ -1047,7 +1047,7 @@ public readonly value: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/medialive_sdi_source#value MedialiveSdiSource#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/medialive_sdi_source#value MedialiveSdiSource#value}.
 
 ---
 

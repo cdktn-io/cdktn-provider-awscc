@@ -4,7 +4,7 @@
 
 ### ConnectPrompt <a name="ConnectPrompt" id="@cdktn/provider-awscc.connectPrompt.ConnectPrompt"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_prompt awscc_connect_prompt}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_prompt awscc_connect_prompt}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectPrompt.ConnectPrompt.Initializer"></a>
 
@@ -523,7 +523,7 @@ The construct id used in the generated config for the ConnectPrompt to import.
 
 The id of the existing ConnectPrompt that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_prompt#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_prompt#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -972,7 +972,7 @@ InstanceArn *string
 
 The identifier of the Amazon Connect instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_prompt#instance_arn ConnectPrompt#instance_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_prompt#instance_arn ConnectPrompt#instance_arn}
 
 ---
 
@@ -986,7 +986,7 @@ Name *string
 
 The name of the prompt.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_prompt#name ConnectPrompt#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_prompt#name ConnectPrompt#name}
 
 ---
 
@@ -1000,7 +1000,7 @@ Description *string
 
 The description of the prompt.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_prompt#description ConnectPrompt#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_prompt#description ConnectPrompt#description}
 
 ---
 
@@ -1014,7 +1014,7 @@ S3Uri *string
 
 S3 URI of the customer's audio file for creating prompts resource..
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_prompt#s3_uri ConnectPrompt#s3_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_prompt#s3_uri ConnectPrompt#s3_uri}
 
 ---
 
@@ -1028,7 +1028,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_prompt#tags ConnectPrompt#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_prompt#tags ConnectPrompt#tags}
 
 ---
 
@@ -1066,7 +1066,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_prompt#key ConnectPrompt#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_prompt#key ConnectPrompt#key}
 
 ---
 
@@ -1082,7 +1082,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_prompt#value ConnectPrompt#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_prompt#value ConnectPrompt#value}
 
 ---
 

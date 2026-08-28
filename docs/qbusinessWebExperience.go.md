@@ -4,7 +4,7 @@
 
 ### QbusinessWebExperience <a name="QbusinessWebExperience" id="@cdktn/provider-awscc.qbusinessWebExperience.QbusinessWebExperience"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/qbusiness_web_experience awscc_qbusiness_web_experience}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/qbusiness_web_experience awscc_qbusiness_web_experience}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.qbusinessWebExperience.QbusinessWebExperience.Initializer"></a>
 
@@ -611,7 +611,7 @@ The construct id used in the generated config for the QbusinessWebExperience to 
 
 The id of the existing QbusinessWebExperience that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/qbusiness_web_experience#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/qbusiness_web_experience#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1141,7 +1141,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/qbusinesswebexperience
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.qbusinessWebExperience.QbusinessWebExperienceBrowserExtensionConfiguration.property.enabledBrowserExtensions">EnabledBrowserExtensions</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/qbusiness_web_experience#enabled_browser_extensions QbusinessWebExperience#enabled_browser_extensions}. |
+| <code><a href="#@cdktn/provider-awscc.qbusinessWebExperience.QbusinessWebExperienceBrowserExtensionConfiguration.property.enabledBrowserExtensions">EnabledBrowserExtensions</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/qbusiness_web_experience#enabled_browser_extensions QbusinessWebExperience#enabled_browser_extensions}. |
 
 ---
 
@@ -1153,7 +1153,7 @@ EnabledBrowserExtensions *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/qbusiness_web_experience#enabled_browser_extensions QbusinessWebExperience#enabled_browser_extensions}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/qbusiness_web_experience#enabled_browser_extensions QbusinessWebExperience#enabled_browser_extensions}.
 
 ---
 
@@ -1197,17 +1197,17 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/qbusinesswebexperience
 | <code><a href="#@cdktn/provider-awscc.qbusinessWebExperience.QbusinessWebExperienceConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.qbusinessWebExperience.QbusinessWebExperienceConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.qbusinessWebExperience.QbusinessWebExperienceConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.qbusinessWebExperience.QbusinessWebExperienceConfig.property.applicationId">ApplicationId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/qbusiness_web_experience#application_id QbusinessWebExperience#application_id}. |
-| <code><a href="#@cdktn/provider-awscc.qbusinessWebExperience.QbusinessWebExperienceConfig.property.browserExtensionConfiguration">BrowserExtensionConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.qbusinessWebExperience.QbusinessWebExperienceBrowserExtensionConfiguration">QbusinessWebExperienceBrowserExtensionConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/qbusiness_web_experience#browser_extension_configuration QbusinessWebExperience#browser_extension_configuration}. |
-| <code><a href="#@cdktn/provider-awscc.qbusinessWebExperience.QbusinessWebExperienceConfig.property.customizationConfiguration">CustomizationConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.qbusinessWebExperience.QbusinessWebExperienceCustomizationConfiguration">QbusinessWebExperienceCustomizationConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/qbusiness_web_experience#customization_configuration QbusinessWebExperience#customization_configuration}. |
-| <code><a href="#@cdktn/provider-awscc.qbusinessWebExperience.QbusinessWebExperienceConfig.property.identityProviderConfiguration">IdentityProviderConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.qbusinessWebExperience.QbusinessWebExperienceIdentityProviderConfiguration">QbusinessWebExperienceIdentityProviderConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/qbusiness_web_experience#identity_provider_configuration QbusinessWebExperience#identity_provider_configuration}. |
-| <code><a href="#@cdktn/provider-awscc.qbusinessWebExperience.QbusinessWebExperienceConfig.property.origins">Origins</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/qbusiness_web_experience#origins QbusinessWebExperience#origins}. |
-| <code><a href="#@cdktn/provider-awscc.qbusinessWebExperience.QbusinessWebExperienceConfig.property.roleArn">RoleArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/qbusiness_web_experience#role_arn QbusinessWebExperience#role_arn}. |
-| <code><a href="#@cdktn/provider-awscc.qbusinessWebExperience.QbusinessWebExperienceConfig.property.samplePromptsControlMode">SamplePromptsControlMode</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/qbusiness_web_experience#sample_prompts_control_mode QbusinessWebExperience#sample_prompts_control_mode}. |
-| <code><a href="#@cdktn/provider-awscc.qbusinessWebExperience.QbusinessWebExperienceConfig.property.subtitle">Subtitle</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/qbusiness_web_experience#subtitle QbusinessWebExperience#subtitle}. |
-| <code><a href="#@cdktn/provider-awscc.qbusinessWebExperience.QbusinessWebExperienceConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/qbusiness_web_experience#tags QbusinessWebExperience#tags}. |
-| <code><a href="#@cdktn/provider-awscc.qbusinessWebExperience.QbusinessWebExperienceConfig.property.title">Title</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/qbusiness_web_experience#title QbusinessWebExperience#title}. |
-| <code><a href="#@cdktn/provider-awscc.qbusinessWebExperience.QbusinessWebExperienceConfig.property.welcomeMessage">WelcomeMessage</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/qbusiness_web_experience#welcome_message QbusinessWebExperience#welcome_message}. |
+| <code><a href="#@cdktn/provider-awscc.qbusinessWebExperience.QbusinessWebExperienceConfig.property.applicationId">ApplicationId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/qbusiness_web_experience#application_id QbusinessWebExperience#application_id}. |
+| <code><a href="#@cdktn/provider-awscc.qbusinessWebExperience.QbusinessWebExperienceConfig.property.browserExtensionConfiguration">BrowserExtensionConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.qbusinessWebExperience.QbusinessWebExperienceBrowserExtensionConfiguration">QbusinessWebExperienceBrowserExtensionConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/qbusiness_web_experience#browser_extension_configuration QbusinessWebExperience#browser_extension_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.qbusinessWebExperience.QbusinessWebExperienceConfig.property.customizationConfiguration">CustomizationConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.qbusinessWebExperience.QbusinessWebExperienceCustomizationConfiguration">QbusinessWebExperienceCustomizationConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/qbusiness_web_experience#customization_configuration QbusinessWebExperience#customization_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.qbusinessWebExperience.QbusinessWebExperienceConfig.property.identityProviderConfiguration">IdentityProviderConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.qbusinessWebExperience.QbusinessWebExperienceIdentityProviderConfiguration">QbusinessWebExperienceIdentityProviderConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/qbusiness_web_experience#identity_provider_configuration QbusinessWebExperience#identity_provider_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.qbusinessWebExperience.QbusinessWebExperienceConfig.property.origins">Origins</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/qbusiness_web_experience#origins QbusinessWebExperience#origins}. |
+| <code><a href="#@cdktn/provider-awscc.qbusinessWebExperience.QbusinessWebExperienceConfig.property.roleArn">RoleArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/qbusiness_web_experience#role_arn QbusinessWebExperience#role_arn}. |
+| <code><a href="#@cdktn/provider-awscc.qbusinessWebExperience.QbusinessWebExperienceConfig.property.samplePromptsControlMode">SamplePromptsControlMode</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/qbusiness_web_experience#sample_prompts_control_mode QbusinessWebExperience#sample_prompts_control_mode}. |
+| <code><a href="#@cdktn/provider-awscc.qbusinessWebExperience.QbusinessWebExperienceConfig.property.subtitle">Subtitle</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/qbusiness_web_experience#subtitle QbusinessWebExperience#subtitle}. |
+| <code><a href="#@cdktn/provider-awscc.qbusinessWebExperience.QbusinessWebExperienceConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/qbusiness_web_experience#tags QbusinessWebExperience#tags}. |
+| <code><a href="#@cdktn/provider-awscc.qbusinessWebExperience.QbusinessWebExperienceConfig.property.title">Title</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/qbusiness_web_experience#title QbusinessWebExperience#title}. |
+| <code><a href="#@cdktn/provider-awscc.qbusinessWebExperience.QbusinessWebExperienceConfig.property.welcomeMessage">WelcomeMessage</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/qbusiness_web_experience#welcome_message QbusinessWebExperience#welcome_message}. |
 
 ---
 
@@ -1289,7 +1289,7 @@ ApplicationId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/qbusiness_web_experience#application_id QbusinessWebExperience#application_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/qbusiness_web_experience#application_id QbusinessWebExperience#application_id}.
 
 ---
 
@@ -1301,7 +1301,7 @@ BrowserExtensionConfiguration QbusinessWebExperienceBrowserExtensionConfiguratio
 
 - *Type:* <a href="#@cdktn/provider-awscc.qbusinessWebExperience.QbusinessWebExperienceBrowserExtensionConfiguration">QbusinessWebExperienceBrowserExtensionConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/qbusiness_web_experience#browser_extension_configuration QbusinessWebExperience#browser_extension_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/qbusiness_web_experience#browser_extension_configuration QbusinessWebExperience#browser_extension_configuration}.
 
 ---
 
@@ -1313,7 +1313,7 @@ CustomizationConfiguration QbusinessWebExperienceCustomizationConfiguration
 
 - *Type:* <a href="#@cdktn/provider-awscc.qbusinessWebExperience.QbusinessWebExperienceCustomizationConfiguration">QbusinessWebExperienceCustomizationConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/qbusiness_web_experience#customization_configuration QbusinessWebExperience#customization_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/qbusiness_web_experience#customization_configuration QbusinessWebExperience#customization_configuration}.
 
 ---
 
@@ -1325,7 +1325,7 @@ IdentityProviderConfiguration QbusinessWebExperienceIdentityProviderConfiguratio
 
 - *Type:* <a href="#@cdktn/provider-awscc.qbusinessWebExperience.QbusinessWebExperienceIdentityProviderConfiguration">QbusinessWebExperienceIdentityProviderConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/qbusiness_web_experience#identity_provider_configuration QbusinessWebExperience#identity_provider_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/qbusiness_web_experience#identity_provider_configuration QbusinessWebExperience#identity_provider_configuration}.
 
 ---
 
@@ -1337,7 +1337,7 @@ Origins *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/qbusiness_web_experience#origins QbusinessWebExperience#origins}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/qbusiness_web_experience#origins QbusinessWebExperience#origins}.
 
 ---
 
@@ -1349,7 +1349,7 @@ RoleArn *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/qbusiness_web_experience#role_arn QbusinessWebExperience#role_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/qbusiness_web_experience#role_arn QbusinessWebExperience#role_arn}.
 
 ---
 
@@ -1361,7 +1361,7 @@ SamplePromptsControlMode *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/qbusiness_web_experience#sample_prompts_control_mode QbusinessWebExperience#sample_prompts_control_mode}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/qbusiness_web_experience#sample_prompts_control_mode QbusinessWebExperience#sample_prompts_control_mode}.
 
 ---
 
@@ -1373,7 +1373,7 @@ Subtitle *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/qbusiness_web_experience#subtitle QbusinessWebExperience#subtitle}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/qbusiness_web_experience#subtitle QbusinessWebExperience#subtitle}.
 
 ---
 
@@ -1385,7 +1385,7 @@ Tags interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/qbusiness_web_experience#tags QbusinessWebExperience#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/qbusiness_web_experience#tags QbusinessWebExperience#tags}.
 
 ---
 
@@ -1397,7 +1397,7 @@ Title *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/qbusiness_web_experience#title QbusinessWebExperience#title}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/qbusiness_web_experience#title QbusinessWebExperience#title}.
 
 ---
 
@@ -1409,7 +1409,7 @@ WelcomeMessage *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/qbusiness_web_experience#welcome_message QbusinessWebExperience#welcome_message}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/qbusiness_web_experience#welcome_message QbusinessWebExperience#welcome_message}.
 
 ---
 
@@ -1432,10 +1432,10 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/qbusinesswebexperience
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.qbusinessWebExperience.QbusinessWebExperienceCustomizationConfiguration.property.customCssUrl">CustomCssUrl</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/qbusiness_web_experience#custom_css_url QbusinessWebExperience#custom_css_url}. |
-| <code><a href="#@cdktn/provider-awscc.qbusinessWebExperience.QbusinessWebExperienceCustomizationConfiguration.property.faviconUrl">FaviconUrl</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/qbusiness_web_experience#favicon_url QbusinessWebExperience#favicon_url}. |
-| <code><a href="#@cdktn/provider-awscc.qbusinessWebExperience.QbusinessWebExperienceCustomizationConfiguration.property.fontUrl">FontUrl</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/qbusiness_web_experience#font_url QbusinessWebExperience#font_url}. |
-| <code><a href="#@cdktn/provider-awscc.qbusinessWebExperience.QbusinessWebExperienceCustomizationConfiguration.property.logoUrl">LogoUrl</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/qbusiness_web_experience#logo_url QbusinessWebExperience#logo_url}. |
+| <code><a href="#@cdktn/provider-awscc.qbusinessWebExperience.QbusinessWebExperienceCustomizationConfiguration.property.customCssUrl">CustomCssUrl</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/qbusiness_web_experience#custom_css_url QbusinessWebExperience#custom_css_url}. |
+| <code><a href="#@cdktn/provider-awscc.qbusinessWebExperience.QbusinessWebExperienceCustomizationConfiguration.property.faviconUrl">FaviconUrl</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/qbusiness_web_experience#favicon_url QbusinessWebExperience#favicon_url}. |
+| <code><a href="#@cdktn/provider-awscc.qbusinessWebExperience.QbusinessWebExperienceCustomizationConfiguration.property.fontUrl">FontUrl</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/qbusiness_web_experience#font_url QbusinessWebExperience#font_url}. |
+| <code><a href="#@cdktn/provider-awscc.qbusinessWebExperience.QbusinessWebExperienceCustomizationConfiguration.property.logoUrl">LogoUrl</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/qbusiness_web_experience#logo_url QbusinessWebExperience#logo_url}. |
 
 ---
 
@@ -1447,7 +1447,7 @@ CustomCssUrl *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/qbusiness_web_experience#custom_css_url QbusinessWebExperience#custom_css_url}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/qbusiness_web_experience#custom_css_url QbusinessWebExperience#custom_css_url}.
 
 ---
 
@@ -1459,7 +1459,7 @@ FaviconUrl *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/qbusiness_web_experience#favicon_url QbusinessWebExperience#favicon_url}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/qbusiness_web_experience#favicon_url QbusinessWebExperience#favicon_url}.
 
 ---
 
@@ -1471,7 +1471,7 @@ FontUrl *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/qbusiness_web_experience#font_url QbusinessWebExperience#font_url}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/qbusiness_web_experience#font_url QbusinessWebExperience#font_url}.
 
 ---
 
@@ -1483,7 +1483,7 @@ LogoUrl *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/qbusiness_web_experience#logo_url QbusinessWebExperience#logo_url}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/qbusiness_web_experience#logo_url QbusinessWebExperience#logo_url}.
 
 ---
 
@@ -1504,8 +1504,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/qbusinesswebexperience
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.qbusinessWebExperience.QbusinessWebExperienceIdentityProviderConfiguration.property.openIdConnectConfiguration">OpenIdConnectConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.qbusinessWebExperience.QbusinessWebExperienceIdentityProviderConfigurationOpenIdConnectConfiguration">QbusinessWebExperienceIdentityProviderConfigurationOpenIdConnectConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/qbusiness_web_experience#open_id_connect_configuration QbusinessWebExperience#open_id_connect_configuration}. |
-| <code><a href="#@cdktn/provider-awscc.qbusinessWebExperience.QbusinessWebExperienceIdentityProviderConfiguration.property.samlConfiguration">SamlConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.qbusinessWebExperience.QbusinessWebExperienceIdentityProviderConfigurationSamlConfiguration">QbusinessWebExperienceIdentityProviderConfigurationSamlConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/qbusiness_web_experience#saml_configuration QbusinessWebExperience#saml_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.qbusinessWebExperience.QbusinessWebExperienceIdentityProviderConfiguration.property.openIdConnectConfiguration">OpenIdConnectConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.qbusinessWebExperience.QbusinessWebExperienceIdentityProviderConfigurationOpenIdConnectConfiguration">QbusinessWebExperienceIdentityProviderConfigurationOpenIdConnectConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/qbusiness_web_experience#open_id_connect_configuration QbusinessWebExperience#open_id_connect_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.qbusinessWebExperience.QbusinessWebExperienceIdentityProviderConfiguration.property.samlConfiguration">SamlConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.qbusinessWebExperience.QbusinessWebExperienceIdentityProviderConfigurationSamlConfiguration">QbusinessWebExperienceIdentityProviderConfigurationSamlConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/qbusiness_web_experience#saml_configuration QbusinessWebExperience#saml_configuration}. |
 
 ---
 
@@ -1517,7 +1517,7 @@ OpenIdConnectConfiguration QbusinessWebExperienceIdentityProviderConfigurationOp
 
 - *Type:* <a href="#@cdktn/provider-awscc.qbusinessWebExperience.QbusinessWebExperienceIdentityProviderConfigurationOpenIdConnectConfiguration">QbusinessWebExperienceIdentityProviderConfigurationOpenIdConnectConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/qbusiness_web_experience#open_id_connect_configuration QbusinessWebExperience#open_id_connect_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/qbusiness_web_experience#open_id_connect_configuration QbusinessWebExperience#open_id_connect_configuration}.
 
 ---
 
@@ -1529,7 +1529,7 @@ SamlConfiguration QbusinessWebExperienceIdentityProviderConfigurationSamlConfigu
 
 - *Type:* <a href="#@cdktn/provider-awscc.qbusinessWebExperience.QbusinessWebExperienceIdentityProviderConfigurationSamlConfiguration">QbusinessWebExperienceIdentityProviderConfigurationSamlConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/qbusiness_web_experience#saml_configuration QbusinessWebExperience#saml_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/qbusiness_web_experience#saml_configuration QbusinessWebExperience#saml_configuration}.
 
 ---
 
@@ -1550,8 +1550,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/qbusinesswebexperience
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.qbusinessWebExperience.QbusinessWebExperienceIdentityProviderConfigurationOpenIdConnectConfiguration.property.secretsArn">SecretsArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/qbusiness_web_experience#secrets_arn QbusinessWebExperience#secrets_arn}. |
-| <code><a href="#@cdktn/provider-awscc.qbusinessWebExperience.QbusinessWebExperienceIdentityProviderConfigurationOpenIdConnectConfiguration.property.secretsRole">SecretsRole</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/qbusiness_web_experience#secrets_role QbusinessWebExperience#secrets_role}. |
+| <code><a href="#@cdktn/provider-awscc.qbusinessWebExperience.QbusinessWebExperienceIdentityProviderConfigurationOpenIdConnectConfiguration.property.secretsArn">SecretsArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/qbusiness_web_experience#secrets_arn QbusinessWebExperience#secrets_arn}. |
+| <code><a href="#@cdktn/provider-awscc.qbusinessWebExperience.QbusinessWebExperienceIdentityProviderConfigurationOpenIdConnectConfiguration.property.secretsRole">SecretsRole</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/qbusiness_web_experience#secrets_role QbusinessWebExperience#secrets_role}. |
 
 ---
 
@@ -1563,7 +1563,7 @@ SecretsArn *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/qbusiness_web_experience#secrets_arn QbusinessWebExperience#secrets_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/qbusiness_web_experience#secrets_arn QbusinessWebExperience#secrets_arn}.
 
 ---
 
@@ -1575,7 +1575,7 @@ SecretsRole *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/qbusiness_web_experience#secrets_role QbusinessWebExperience#secrets_role}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/qbusiness_web_experience#secrets_role QbusinessWebExperience#secrets_role}.
 
 ---
 
@@ -1595,7 +1595,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/qbusinesswebexperience
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.qbusinessWebExperience.QbusinessWebExperienceIdentityProviderConfigurationSamlConfiguration.property.authenticationUrl">AuthenticationUrl</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/qbusiness_web_experience#authentication_url QbusinessWebExperience#authentication_url}. |
+| <code><a href="#@cdktn/provider-awscc.qbusinessWebExperience.QbusinessWebExperienceIdentityProviderConfigurationSamlConfiguration.property.authenticationUrl">AuthenticationUrl</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/qbusiness_web_experience#authentication_url QbusinessWebExperience#authentication_url}. |
 
 ---
 
@@ -1607,7 +1607,7 @@ AuthenticationUrl *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/qbusiness_web_experience#authentication_url QbusinessWebExperience#authentication_url}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/qbusiness_web_experience#authentication_url QbusinessWebExperience#authentication_url}.
 
 ---
 
@@ -1628,8 +1628,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/qbusinesswebexperience
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.qbusinessWebExperience.QbusinessWebExperienceTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/qbusiness_web_experience#key QbusinessWebExperience#key}. |
-| <code><a href="#@cdktn/provider-awscc.qbusinessWebExperience.QbusinessWebExperienceTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/qbusiness_web_experience#value QbusinessWebExperience#value}. |
+| <code><a href="#@cdktn/provider-awscc.qbusinessWebExperience.QbusinessWebExperienceTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/qbusiness_web_experience#key QbusinessWebExperience#key}. |
+| <code><a href="#@cdktn/provider-awscc.qbusinessWebExperience.QbusinessWebExperienceTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/qbusiness_web_experience#value QbusinessWebExperience#value}. |
 
 ---
 
@@ -1641,7 +1641,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/qbusiness_web_experience#key QbusinessWebExperience#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/qbusiness_web_experience#key QbusinessWebExperience#key}.
 
 ---
 
@@ -1653,7 +1653,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/qbusiness_web_experience#value QbusinessWebExperience#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/qbusiness_web_experience#value QbusinessWebExperience#value}.
 
 ---
 

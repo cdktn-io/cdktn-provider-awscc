@@ -4,7 +4,7 @@
 
 ### CloudformationModuleDefaultVersion <a name="CloudformationModuleDefaultVersion" id="@cdktn/provider-awscc.cloudformationModuleDefaultVersion.CloudformationModuleDefaultVersion"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_module_default_version awscc_cloudformation_module_default_version}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_module_default_version awscc_cloudformation_module_default_version}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudformationModuleDefaultVersion.CloudformationModuleDefaultVersion.Initializer"></a>
 
@@ -110,7 +110,7 @@ Must be unique amongst siblings in the same scope
 
 The Amazon Resource Name (ARN) of the module version to set as the default version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_module_default_version#arn CloudformationModuleDefaultVersion#arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_module_default_version#arn CloudformationModuleDefaultVersion#arn}
 
 ---
 
@@ -120,7 +120,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of a module existing in the registry.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_module_default_version#module_name CloudformationModuleDefaultVersion#module_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_module_default_version#module_name CloudformationModuleDefaultVersion#module_name}
 
 ---
 
@@ -130,7 +130,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The ID of an existing version of the named module to set as the default.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_module_default_version#version_id CloudformationModuleDefaultVersion#version_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_module_default_version#version_id CloudformationModuleDefaultVersion#version_id}
 
 ---
 
@@ -648,7 +648,7 @@ The construct id used in the generated config for the CloudformationModuleDefaul
 
 The id of the existing CloudformationModuleDefaultVersion that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_module_default_version#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_module_default_version#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1038,7 +1038,7 @@ arn: str
 
 The Amazon Resource Name (ARN) of the module version to set as the default version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_module_default_version#arn CloudformationModuleDefaultVersion#arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_module_default_version#arn CloudformationModuleDefaultVersion#arn}
 
 ---
 
@@ -1052,7 +1052,7 @@ module_name: str
 
 The name of a module existing in the registry.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_module_default_version#module_name CloudformationModuleDefaultVersion#module_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_module_default_version#module_name CloudformationModuleDefaultVersion#module_name}
 
 ---
 
@@ -1066,7 +1066,7 @@ version_id: str
 
 The ID of an existing version of the named module to set as the default.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_module_default_version#version_id CloudformationModuleDefaultVersion#version_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_module_default_version#version_id CloudformationModuleDefaultVersion#version_id}
 
 ---
 

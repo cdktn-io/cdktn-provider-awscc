@@ -4,7 +4,7 @@
 
 ### IotAuthorizer <a name="IotAuthorizer" id="@cdktn/provider-awscc.iotAuthorizer.IotAuthorizer"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_authorizer awscc_iot_authorizer}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_authorizer awscc_iot_authorizer}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotAuthorizer.IotAuthorizer.Initializer"></a>
 
@@ -551,7 +551,7 @@ The construct id used in the generated config for the IotAuthorizer to import.
 
 The id of the existing IotAuthorizer that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_authorizer#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_authorizer#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -965,14 +965,14 @@ const iotAuthorizerConfig: iotAuthorizer.IotAuthorizerConfig = { ... }
 | <code><a href="#@cdktn/provider-awscc.iotAuthorizer.IotAuthorizerConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.iotAuthorizer.IotAuthorizerConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.iotAuthorizer.IotAuthorizerConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.iotAuthorizer.IotAuthorizerConfig.property.authorizerFunctionArn">authorizerFunctionArn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_authorizer#authorizer_function_arn IotAuthorizer#authorizer_function_arn}. |
-| <code><a href="#@cdktn/provider-awscc.iotAuthorizer.IotAuthorizerConfig.property.authorizerName">authorizerName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_authorizer#authorizer_name IotAuthorizer#authorizer_name}. |
-| <code><a href="#@cdktn/provider-awscc.iotAuthorizer.IotAuthorizerConfig.property.enableCachingForHttp">enableCachingForHttp</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_authorizer#enable_caching_for_http IotAuthorizer#enable_caching_for_http}. |
-| <code><a href="#@cdktn/provider-awscc.iotAuthorizer.IotAuthorizerConfig.property.signingDisabled">signingDisabled</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_authorizer#signing_disabled IotAuthorizer#signing_disabled}. |
-| <code><a href="#@cdktn/provider-awscc.iotAuthorizer.IotAuthorizerConfig.property.status">status</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_authorizer#status IotAuthorizer#status}. |
-| <code><a href="#@cdktn/provider-awscc.iotAuthorizer.IotAuthorizerConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.iotAuthorizer.IotAuthorizerTags">IotAuthorizerTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_authorizer#tags IotAuthorizer#tags}. |
-| <code><a href="#@cdktn/provider-awscc.iotAuthorizer.IotAuthorizerConfig.property.tokenKeyName">tokenKeyName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_authorizer#token_key_name IotAuthorizer#token_key_name}. |
-| <code><a href="#@cdktn/provider-awscc.iotAuthorizer.IotAuthorizerConfig.property.tokenSigningPublicKeys">tokenSigningPublicKeys</a></code> | <code>{[ key: string ]: string}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_authorizer#token_signing_public_keys IotAuthorizer#token_signing_public_keys}. |
+| <code><a href="#@cdktn/provider-awscc.iotAuthorizer.IotAuthorizerConfig.property.authorizerFunctionArn">authorizerFunctionArn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_authorizer#authorizer_function_arn IotAuthorizer#authorizer_function_arn}. |
+| <code><a href="#@cdktn/provider-awscc.iotAuthorizer.IotAuthorizerConfig.property.authorizerName">authorizerName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_authorizer#authorizer_name IotAuthorizer#authorizer_name}. |
+| <code><a href="#@cdktn/provider-awscc.iotAuthorizer.IotAuthorizerConfig.property.enableCachingForHttp">enableCachingForHttp</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_authorizer#enable_caching_for_http IotAuthorizer#enable_caching_for_http}. |
+| <code><a href="#@cdktn/provider-awscc.iotAuthorizer.IotAuthorizerConfig.property.signingDisabled">signingDisabled</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_authorizer#signing_disabled IotAuthorizer#signing_disabled}. |
+| <code><a href="#@cdktn/provider-awscc.iotAuthorizer.IotAuthorizerConfig.property.status">status</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_authorizer#status IotAuthorizer#status}. |
+| <code><a href="#@cdktn/provider-awscc.iotAuthorizer.IotAuthorizerConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.iotAuthorizer.IotAuthorizerTags">IotAuthorizerTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_authorizer#tags IotAuthorizer#tags}. |
+| <code><a href="#@cdktn/provider-awscc.iotAuthorizer.IotAuthorizerConfig.property.tokenKeyName">tokenKeyName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_authorizer#token_key_name IotAuthorizer#token_key_name}. |
+| <code><a href="#@cdktn/provider-awscc.iotAuthorizer.IotAuthorizerConfig.property.tokenSigningPublicKeys">tokenSigningPublicKeys</a></code> | <code>{[ key: string ]: string}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_authorizer#token_signing_public_keys IotAuthorizer#token_signing_public_keys}. |
 
 ---
 
@@ -1054,7 +1054,7 @@ public readonly authorizerFunctionArn: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_authorizer#authorizer_function_arn IotAuthorizer#authorizer_function_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_authorizer#authorizer_function_arn IotAuthorizer#authorizer_function_arn}.
 
 ---
 
@@ -1066,7 +1066,7 @@ public readonly authorizerName: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_authorizer#authorizer_name IotAuthorizer#authorizer_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_authorizer#authorizer_name IotAuthorizer#authorizer_name}.
 
 ---
 
@@ -1078,7 +1078,7 @@ public readonly enableCachingForHttp: boolean | IResolvable;
 
 - *Type:* boolean | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_authorizer#enable_caching_for_http IotAuthorizer#enable_caching_for_http}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_authorizer#enable_caching_for_http IotAuthorizer#enable_caching_for_http}.
 
 ---
 
@@ -1090,7 +1090,7 @@ public readonly signingDisabled: boolean | IResolvable;
 
 - *Type:* boolean | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_authorizer#signing_disabled IotAuthorizer#signing_disabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_authorizer#signing_disabled IotAuthorizer#signing_disabled}.
 
 ---
 
@@ -1102,7 +1102,7 @@ public readonly status: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_authorizer#status IotAuthorizer#status}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_authorizer#status IotAuthorizer#status}.
 
 ---
 
@@ -1114,7 +1114,7 @@ public readonly tags: IResolvable | IotAuthorizerTags[];
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.iotAuthorizer.IotAuthorizerTags">IotAuthorizerTags</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_authorizer#tags IotAuthorizer#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_authorizer#tags IotAuthorizer#tags}.
 
 ---
 
@@ -1126,7 +1126,7 @@ public readonly tokenKeyName: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_authorizer#token_key_name IotAuthorizer#token_key_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_authorizer#token_key_name IotAuthorizer#token_key_name}.
 
 ---
 
@@ -1138,7 +1138,7 @@ public readonly tokenSigningPublicKeys: {[ key: string ]: string};
 
 - *Type:* {[ key: string ]: string}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_authorizer#token_signing_public_keys IotAuthorizer#token_signing_public_keys}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_authorizer#token_signing_public_keys IotAuthorizer#token_signing_public_keys}.
 
 ---
 
@@ -1156,8 +1156,8 @@ const iotAuthorizerTags: iotAuthorizer.IotAuthorizerTags = { ... }
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.iotAuthorizer.IotAuthorizerTags.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_authorizer#key IotAuthorizer#key}. |
-| <code><a href="#@cdktn/provider-awscc.iotAuthorizer.IotAuthorizerTags.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_authorizer#value IotAuthorizer#value}. |
+| <code><a href="#@cdktn/provider-awscc.iotAuthorizer.IotAuthorizerTags.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_authorizer#key IotAuthorizer#key}. |
+| <code><a href="#@cdktn/provider-awscc.iotAuthorizer.IotAuthorizerTags.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_authorizer#value IotAuthorizer#value}. |
 
 ---
 
@@ -1169,7 +1169,7 @@ public readonly key: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_authorizer#key IotAuthorizer#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_authorizer#key IotAuthorizer#key}.
 
 ---
 
@@ -1181,7 +1181,7 @@ public readonly value: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_authorizer#value IotAuthorizer#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_authorizer#value IotAuthorizer#value}.
 
 ---
 

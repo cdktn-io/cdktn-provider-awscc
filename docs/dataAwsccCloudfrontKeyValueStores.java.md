@@ -4,7 +4,7 @@
 
 ### DataAwsccCloudfrontKeyValueStores <a name="DataAwsccCloudfrontKeyValueStores" id="@cdktn/provider-awscc.dataAwsccCloudfrontKeyValueStores.DataAwsccCloudfrontKeyValueStores"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/cloudfront_key_value_stores awscc_cloudfront_key_value_stores}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/cloudfront_key_value_stores awscc_cloudfront_key_value_stores}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudfrontKeyValueStores.DataAwsccCloudfrontKeyValueStores.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccCloudfrontKeyValu
 
 The id of the existing DataAwsccCloudfrontKeyValueStores that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/cloudfront_key_value_stores#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/cloudfront_key_value_stores#import import section} in the documentation of this resource for the id to use
 
 ---
 

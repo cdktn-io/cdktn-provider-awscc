@@ -4,7 +4,7 @@
 
 ### Ec2LocalGatewayVirtualInterfaceGroup <a name="Ec2LocalGatewayVirtualInterfaceGroup" id="@cdktn/provider-awscc.ec2LocalGatewayVirtualInterfaceGroup.Ec2LocalGatewayVirtualInterfaceGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_local_gateway_virtual_interface_group awscc_ec2_local_gateway_virtual_interface_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_local_gateway_virtual_interface_group awscc_ec2_local_gateway_virtual_interface_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2LocalGatewayVirtualInterfaceGroup.Ec2LocalGatewayVirtualInterfaceGroup.Initializer"></a>
 
@@ -112,7 +112,7 @@ Must be unique amongst siblings in the same scope
 
 The ID of the local gateway.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_local_gateway_virtual_interface_group#local_gateway_id Ec2LocalGatewayVirtualInterfaceGroup#local_gateway_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_local_gateway_virtual_interface_group#local_gateway_id Ec2LocalGatewayVirtualInterfaceGroup#local_gateway_id}
 
 ---
 
@@ -122,7 +122,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The Autonomous System Number(ASN) for the local Border Gateway Protocol (BGP).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_local_gateway_virtual_interface_group#local_bgp_asn Ec2LocalGatewayVirtualInterfaceGroup#local_bgp_asn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_local_gateway_virtual_interface_group#local_bgp_asn Ec2LocalGatewayVirtualInterfaceGroup#local_bgp_asn}
 
 ---
 
@@ -132,7 +132,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The extended 32-bit ASN for the local BGP configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_local_gateway_virtual_interface_group#local_bgp_asn_extended Ec2LocalGatewayVirtualInterfaceGroup#local_bgp_asn_extended}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_local_gateway_virtual_interface_group#local_bgp_asn_extended Ec2LocalGatewayVirtualInterfaceGroup#local_bgp_asn_extended}
 
 ---
 
@@ -142,7 +142,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The tags assigned to the virtual interface group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_local_gateway_virtual_interface_group#tags Ec2LocalGatewayVirtualInterfaceGroup#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_local_gateway_virtual_interface_group#tags Ec2LocalGatewayVirtualInterfaceGroup#tags}
 
 ---
 
@@ -675,7 +675,7 @@ The construct id used in the generated config for the Ec2LocalGatewayVirtualInte
 
 The id of the existing Ec2LocalGatewayVirtualInterfaceGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_local_gateway_virtual_interface_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_local_gateway_virtual_interface_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1144,7 +1144,7 @@ local_gateway_id: str
 
 The ID of the local gateway.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_local_gateway_virtual_interface_group#local_gateway_id Ec2LocalGatewayVirtualInterfaceGroup#local_gateway_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_local_gateway_virtual_interface_group#local_gateway_id Ec2LocalGatewayVirtualInterfaceGroup#local_gateway_id}
 
 ---
 
@@ -1158,7 +1158,7 @@ local_bgp_asn: typing.Union[int, float]
 
 The Autonomous System Number(ASN) for the local Border Gateway Protocol (BGP).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_local_gateway_virtual_interface_group#local_bgp_asn Ec2LocalGatewayVirtualInterfaceGroup#local_bgp_asn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_local_gateway_virtual_interface_group#local_bgp_asn Ec2LocalGatewayVirtualInterfaceGroup#local_bgp_asn}
 
 ---
 
@@ -1172,7 +1172,7 @@ local_bgp_asn_extended: typing.Union[int, float]
 
 The extended 32-bit ASN for the local BGP configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_local_gateway_virtual_interface_group#local_bgp_asn_extended Ec2LocalGatewayVirtualInterfaceGroup#local_bgp_asn_extended}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_local_gateway_virtual_interface_group#local_bgp_asn_extended Ec2LocalGatewayVirtualInterfaceGroup#local_bgp_asn_extended}
 
 ---
 
@@ -1186,7 +1186,7 @@ tags: IResolvable | typing.List[Ec2LocalGatewayVirtualInterfaceGroupTags]
 
 The tags assigned to the virtual interface group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_local_gateway_virtual_interface_group#tags Ec2LocalGatewayVirtualInterfaceGroup#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_local_gateway_virtual_interface_group#tags Ec2LocalGatewayVirtualInterfaceGroup#tags}
 
 ---
 
@@ -1224,7 +1224,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_local_gateway_virtual_interface_group#key Ec2LocalGatewayVirtualInterfaceGroup#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_local_gateway_virtual_interface_group#key Ec2LocalGatewayVirtualInterfaceGroup#key}
 
 ---
 
@@ -1240,7 +1240,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_local_gateway_virtual_interface_group#value Ec2LocalGatewayVirtualInterfaceGroup#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_local_gateway_virtual_interface_group#value Ec2LocalGatewayVirtualInterfaceGroup#value}
 
 ---
 

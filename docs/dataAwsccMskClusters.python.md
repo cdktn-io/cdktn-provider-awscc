@@ -4,7 +4,7 @@
 
 ### DataAwsccMskClusters <a name="DataAwsccMskClusters" id="@cdktn/provider-awscc.dataAwsccMskClusters.DataAwsccMskClusters"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/msk_clusters awscc_msk_clusters}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/msk_clusters awscc_msk_clusters}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskClusters.DataAwsccMskClusters.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccMskClusters to im
 
 The id of the existing DataAwsccMskClusters that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/msk_clusters#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/msk_clusters#import import section} in the documentation of this resource for the id to use
 
 ---
 

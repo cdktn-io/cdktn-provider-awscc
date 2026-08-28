@@ -4,7 +4,7 @@
 
 ### DeadlineLimit <a name="DeadlineLimit" id="@cdktn/provider-awscc.deadlineLimit.DeadlineLimit"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_limit awscc_deadline_limit}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/deadline_limit awscc_deadline_limit}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.deadlineLimit.DeadlineLimit.Initializer"></a>
 
@@ -496,7 +496,7 @@ The construct id used in the generated config for the DeadlineLimit to import.
 
 The id of the existing DeadlineLimit that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_limit#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/deadline_limit#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -855,11 +855,11 @@ const deadlineLimitConfig: deadlineLimit.DeadlineLimitConfig = { ... }
 | <code><a href="#@cdktn/provider-awscc.deadlineLimit.DeadlineLimitConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.deadlineLimit.DeadlineLimitConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.deadlineLimit.DeadlineLimitConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.deadlineLimit.DeadlineLimitConfig.property.amountRequirementName">amountRequirementName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_limit#amount_requirement_name DeadlineLimit#amount_requirement_name}. |
-| <code><a href="#@cdktn/provider-awscc.deadlineLimit.DeadlineLimitConfig.property.displayName">displayName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_limit#display_name DeadlineLimit#display_name}. |
-| <code><a href="#@cdktn/provider-awscc.deadlineLimit.DeadlineLimitConfig.property.farmId">farmId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_limit#farm_id DeadlineLimit#farm_id}. |
-| <code><a href="#@cdktn/provider-awscc.deadlineLimit.DeadlineLimitConfig.property.maxCount">maxCount</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_limit#max_count DeadlineLimit#max_count}. |
-| <code><a href="#@cdktn/provider-awscc.deadlineLimit.DeadlineLimitConfig.property.description">description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_limit#description DeadlineLimit#description}. |
+| <code><a href="#@cdktn/provider-awscc.deadlineLimit.DeadlineLimitConfig.property.amountRequirementName">amountRequirementName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/deadline_limit#amount_requirement_name DeadlineLimit#amount_requirement_name}. |
+| <code><a href="#@cdktn/provider-awscc.deadlineLimit.DeadlineLimitConfig.property.displayName">displayName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/deadline_limit#display_name DeadlineLimit#display_name}. |
+| <code><a href="#@cdktn/provider-awscc.deadlineLimit.DeadlineLimitConfig.property.farmId">farmId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/deadline_limit#farm_id DeadlineLimit#farm_id}. |
+| <code><a href="#@cdktn/provider-awscc.deadlineLimit.DeadlineLimitConfig.property.maxCount">maxCount</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/deadline_limit#max_count DeadlineLimit#max_count}. |
+| <code><a href="#@cdktn/provider-awscc.deadlineLimit.DeadlineLimitConfig.property.description">description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/deadline_limit#description DeadlineLimit#description}. |
 
 ---
 
@@ -941,7 +941,7 @@ public readonly amountRequirementName: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_limit#amount_requirement_name DeadlineLimit#amount_requirement_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/deadline_limit#amount_requirement_name DeadlineLimit#amount_requirement_name}.
 
 ---
 
@@ -953,7 +953,7 @@ public readonly displayName: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_limit#display_name DeadlineLimit#display_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/deadline_limit#display_name DeadlineLimit#display_name}.
 
 ---
 
@@ -965,7 +965,7 @@ public readonly farmId: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_limit#farm_id DeadlineLimit#farm_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/deadline_limit#farm_id DeadlineLimit#farm_id}.
 
 ---
 
@@ -977,7 +977,7 @@ public readonly maxCount: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_limit#max_count DeadlineLimit#max_count}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/deadline_limit#max_count DeadlineLimit#max_count}.
 
 ---
 
@@ -989,7 +989,7 @@ public readonly description: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_limit#description DeadlineLimit#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/deadline_limit#description DeadlineLimit#description}.
 
 ---
 

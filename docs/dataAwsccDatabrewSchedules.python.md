@@ -4,7 +4,7 @@
 
 ### DataAwsccDatabrewSchedules <a name="DataAwsccDatabrewSchedules" id="@cdktn/provider-awscc.dataAwsccDatabrewSchedules.DataAwsccDatabrewSchedules"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/databrew_schedules awscc_databrew_schedules}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/databrew_schedules awscc_databrew_schedules}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatabrewSchedules.DataAwsccDatabrewSchedules.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccDatabrewSchedules
 
 The id of the existing DataAwsccDatabrewSchedules that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/databrew_schedules#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/databrew_schedules#import import section} in the documentation of this resource for the id to use
 
 ---
 

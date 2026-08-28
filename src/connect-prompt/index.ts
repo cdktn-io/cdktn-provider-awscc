@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_prompt
+// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_prompt
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,31 +15,31 @@ export interface ConnectPromptConfig extends cdktn.TerraformMetaArguments {
   /**
   * The description of the prompt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_prompt#description ConnectPrompt#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_prompt#description ConnectPrompt#description}
   */
   readonly description?: string;
   /**
   * The identifier of the Amazon Connect instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_prompt#instance_arn ConnectPrompt#instance_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_prompt#instance_arn ConnectPrompt#instance_arn}
   */
   readonly instanceArn: string;
   /**
   * The name of the prompt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_prompt#name ConnectPrompt#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_prompt#name ConnectPrompt#name}
   */
   readonly name: string;
   /**
   * S3 URI of the customer's audio file for creating prompts resource..
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_prompt#s3_uri ConnectPrompt#s3_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_prompt#s3_uri ConnectPrompt#s3_uri}
   */
   readonly s3Uri?: string;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_prompt#tags ConnectPrompt#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_prompt#tags ConnectPrompt#tags}
   */
   readonly tags?: ConnectPromptTags[] | cdktn.IResolvable;
 }
@@ -47,13 +47,13 @@ export interface ConnectPromptTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_prompt#key ConnectPrompt#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_prompt#key ConnectPrompt#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_prompt#value ConnectPrompt#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_prompt#value ConnectPrompt#value}
   */
   readonly value?: string;
 }
@@ -198,7 +198,7 @@ export class ConnectPromptTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_prompt awscc_connect_prompt}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_prompt awscc_connect_prompt}
 */
 export class ConnectPrompt extends cdktn.TerraformResource {
 
@@ -214,7 +214,7 @@ export class ConnectPrompt extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ConnectPrompt resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConnectPrompt to import
-  * @param importFromId The id of the existing ConnectPrompt that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_prompt#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConnectPrompt that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_prompt#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConnectPrompt to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -226,7 +226,7 @@ export class ConnectPrompt extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_prompt awscc_connect_prompt} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_prompt awscc_connect_prompt} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -237,7 +237,7 @@ export class ConnectPrompt extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_connect_prompt',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.98.0',
+        providerVersion: '1.99.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

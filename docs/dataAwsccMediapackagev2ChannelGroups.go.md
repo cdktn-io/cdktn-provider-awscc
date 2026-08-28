@@ -4,7 +4,7 @@
 
 ### DataAwsccMediapackagev2ChannelGroups <a name="DataAwsccMediapackagev2ChannelGroups" id="@cdktn/provider-awscc.dataAwsccMediapackagev2ChannelGroups.DataAwsccMediapackagev2ChannelGroups"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/mediapackagev2_channel_groups awscc_mediapackagev2_channel_groups}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/mediapackagev2_channel_groups awscc_mediapackagev2_channel_groups}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediapackagev2ChannelGroups.DataAwsccMediapackagev2ChannelGroups.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccMediapackagev2Cha
 
 The id of the existing DataAwsccMediapackagev2ChannelGroups that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/mediapackagev2_channel_groups#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/mediapackagev2_channel_groups#import import section} in the documentation of this resource for the id to use
 
 ---
 

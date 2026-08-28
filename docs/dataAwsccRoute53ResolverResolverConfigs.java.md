@@ -4,7 +4,7 @@
 
 ### DataAwsccRoute53ResolverResolverConfigs <a name="DataAwsccRoute53ResolverResolverConfigs" id="@cdktn/provider-awscc.dataAwsccRoute53ResolverResolverConfigs.DataAwsccRoute53ResolverResolverConfigs"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/route53resolver_resolver_configs awscc_route53resolver_resolver_configs}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/route53resolver_resolver_configs awscc_route53resolver_resolver_configs}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRoute53ResolverResolverConfigs.DataAwsccRoute53ResolverResolverConfigs.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccRoute53ResolverRe
 
 The id of the existing DataAwsccRoute53ResolverResolverConfigs that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/route53resolver_resolver_configs#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/route53resolver_resolver_configs#import import section} in the documentation of this resource for the id to use
 
 ---
 

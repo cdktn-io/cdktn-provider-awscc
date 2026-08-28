@@ -4,7 +4,7 @@
 
 ### EvidentlyFeature <a name="EvidentlyFeature" id="@cdktn/provider-awscc.evidentlyFeature.EvidentlyFeature"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/evidently_feature awscc_evidently_feature}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/evidently_feature awscc_evidently_feature}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.evidentlyFeature.EvidentlyFeature.Initializer"></a>
 
@@ -41,13 +41,13 @@ EvidentlyFeature.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktn/provider-awscc.evidentlyFeature.EvidentlyFeature.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.evidentlyFeature.EvidentlyFeature.Initializer.parameter.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.evidentlyFeature.EvidentlyFeature.Initializer.parameter.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.evidentlyFeature.EvidentlyFeature.Initializer.parameter.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/evidently_feature#name EvidentlyFeature#name}. |
-| <code><a href="#@cdktn/provider-awscc.evidentlyFeature.EvidentlyFeature.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/evidently_feature#project EvidentlyFeature#project}. |
-| <code><a href="#@cdktn/provider-awscc.evidentlyFeature.EvidentlyFeature.Initializer.parameter.variations">variations</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.evidentlyFeature.EvidentlyFeatureVariations">EvidentlyFeatureVariations</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/evidently_feature#variations EvidentlyFeature#variations}. |
-| <code><a href="#@cdktn/provider-awscc.evidentlyFeature.EvidentlyFeature.Initializer.parameter.defaultVariation">defaultVariation</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/evidently_feature#default_variation EvidentlyFeature#default_variation}. |
-| <code><a href="#@cdktn/provider-awscc.evidentlyFeature.EvidentlyFeature.Initializer.parameter.description">description</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/evidently_feature#description EvidentlyFeature#description}. |
-| <code><a href="#@cdktn/provider-awscc.evidentlyFeature.EvidentlyFeature.Initializer.parameter.entityOverrides">entityOverrides</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.evidentlyFeature.EvidentlyFeatureEntityOverrides">EvidentlyFeatureEntityOverrides</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/evidently_feature#entity_overrides EvidentlyFeature#entity_overrides}. |
-| <code><a href="#@cdktn/provider-awscc.evidentlyFeature.EvidentlyFeature.Initializer.parameter.evaluationStrategy">evaluationStrategy</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/evidently_feature#evaluation_strategy EvidentlyFeature#evaluation_strategy}. |
+| <code><a href="#@cdktn/provider-awscc.evidentlyFeature.EvidentlyFeature.Initializer.parameter.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/evidently_feature#name EvidentlyFeature#name}. |
+| <code><a href="#@cdktn/provider-awscc.evidentlyFeature.EvidentlyFeature.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/evidently_feature#project EvidentlyFeature#project}. |
+| <code><a href="#@cdktn/provider-awscc.evidentlyFeature.EvidentlyFeature.Initializer.parameter.variations">variations</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.evidentlyFeature.EvidentlyFeatureVariations">EvidentlyFeatureVariations</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/evidently_feature#variations EvidentlyFeature#variations}. |
+| <code><a href="#@cdktn/provider-awscc.evidentlyFeature.EvidentlyFeature.Initializer.parameter.defaultVariation">defaultVariation</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/evidently_feature#default_variation EvidentlyFeature#default_variation}. |
+| <code><a href="#@cdktn/provider-awscc.evidentlyFeature.EvidentlyFeature.Initializer.parameter.description">description</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/evidently_feature#description EvidentlyFeature#description}. |
+| <code><a href="#@cdktn/provider-awscc.evidentlyFeature.EvidentlyFeature.Initializer.parameter.entityOverrides">entityOverrides</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.evidentlyFeature.EvidentlyFeatureEntityOverrides">EvidentlyFeatureEntityOverrides</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/evidently_feature#entity_overrides EvidentlyFeature#entity_overrides}. |
+| <code><a href="#@cdktn/provider-awscc.evidentlyFeature.EvidentlyFeature.Initializer.parameter.evaluationStrategy">evaluationStrategy</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/evidently_feature#evaluation_strategy EvidentlyFeature#evaluation_strategy}. |
 | <code><a href="#@cdktn/provider-awscc.evidentlyFeature.EvidentlyFeature.Initializer.parameter.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.evidentlyFeature.EvidentlyFeatureTags">EvidentlyFeatureTags</a>></code> | An array of key-value pairs to apply to this resource. |
 
 ---
@@ -116,7 +116,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/evidently_feature#name EvidentlyFeature#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/evidently_feature#name EvidentlyFeature#name}.
 
 ---
 
@@ -124,7 +124,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/evidently_feature#project EvidentlyFeature#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/evidently_feature#project EvidentlyFeature#project}.
 
 ---
 
@@ -132,7 +132,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-awscc.evidentlyFeature.EvidentlyFeatureVariations">EvidentlyFeatureVariations</a>>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/evidently_feature#variations EvidentlyFeature#variations}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/evidently_feature#variations EvidentlyFeature#variations}.
 
 ---
 
@@ -140,7 +140,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/evidently_feature#default_variation EvidentlyFeature#default_variation}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/evidently_feature#default_variation EvidentlyFeature#default_variation}.
 
 ---
 
@@ -148,7 +148,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/evidently_feature#description EvidentlyFeature#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/evidently_feature#description EvidentlyFeature#description}.
 
 ---
 
@@ -156,7 +156,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-awscc.evidentlyFeature.EvidentlyFeatureEntityOverrides">EvidentlyFeatureEntityOverrides</a>>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/evidently_feature#entity_overrides EvidentlyFeature#entity_overrides}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/evidently_feature#entity_overrides EvidentlyFeature#entity_overrides}.
 
 ---
 
@@ -164,7 +164,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/evidently_feature#evaluation_strategy EvidentlyFeature#evaluation_strategy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/evidently_feature#evaluation_strategy EvidentlyFeature#evaluation_strategy}.
 
 ---
 
@@ -174,7 +174,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/evidently_feature#tags EvidentlyFeature#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/evidently_feature#tags EvidentlyFeature#tags}
 
 ---
 
@@ -697,7 +697,7 @@ The construct id used in the generated config for the EvidentlyFeature to import
 
 The id of the existing EvidentlyFeature that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/evidently_feature#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/evidently_feature#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1127,13 +1127,13 @@ EvidentlyFeatureConfig.builder()
 | <code><a href="#@cdktn/provider-awscc.evidentlyFeature.EvidentlyFeatureConfig.property.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.evidentlyFeature.EvidentlyFeatureConfig.property.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.evidentlyFeature.EvidentlyFeatureConfig.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.evidentlyFeature.EvidentlyFeatureConfig.property.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/evidently_feature#name EvidentlyFeature#name}. |
-| <code><a href="#@cdktn/provider-awscc.evidentlyFeature.EvidentlyFeatureConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/evidently_feature#project EvidentlyFeature#project}. |
-| <code><a href="#@cdktn/provider-awscc.evidentlyFeature.EvidentlyFeatureConfig.property.variations">variations</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.evidentlyFeature.EvidentlyFeatureVariations">EvidentlyFeatureVariations</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/evidently_feature#variations EvidentlyFeature#variations}. |
-| <code><a href="#@cdktn/provider-awscc.evidentlyFeature.EvidentlyFeatureConfig.property.defaultVariation">defaultVariation</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/evidently_feature#default_variation EvidentlyFeature#default_variation}. |
-| <code><a href="#@cdktn/provider-awscc.evidentlyFeature.EvidentlyFeatureConfig.property.description">description</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/evidently_feature#description EvidentlyFeature#description}. |
-| <code><a href="#@cdktn/provider-awscc.evidentlyFeature.EvidentlyFeatureConfig.property.entityOverrides">entityOverrides</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.evidentlyFeature.EvidentlyFeatureEntityOverrides">EvidentlyFeatureEntityOverrides</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/evidently_feature#entity_overrides EvidentlyFeature#entity_overrides}. |
-| <code><a href="#@cdktn/provider-awscc.evidentlyFeature.EvidentlyFeatureConfig.property.evaluationStrategy">evaluationStrategy</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/evidently_feature#evaluation_strategy EvidentlyFeature#evaluation_strategy}. |
+| <code><a href="#@cdktn/provider-awscc.evidentlyFeature.EvidentlyFeatureConfig.property.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/evidently_feature#name EvidentlyFeature#name}. |
+| <code><a href="#@cdktn/provider-awscc.evidentlyFeature.EvidentlyFeatureConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/evidently_feature#project EvidentlyFeature#project}. |
+| <code><a href="#@cdktn/provider-awscc.evidentlyFeature.EvidentlyFeatureConfig.property.variations">variations</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.evidentlyFeature.EvidentlyFeatureVariations">EvidentlyFeatureVariations</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/evidently_feature#variations EvidentlyFeature#variations}. |
+| <code><a href="#@cdktn/provider-awscc.evidentlyFeature.EvidentlyFeatureConfig.property.defaultVariation">defaultVariation</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/evidently_feature#default_variation EvidentlyFeature#default_variation}. |
+| <code><a href="#@cdktn/provider-awscc.evidentlyFeature.EvidentlyFeatureConfig.property.description">description</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/evidently_feature#description EvidentlyFeature#description}. |
+| <code><a href="#@cdktn/provider-awscc.evidentlyFeature.EvidentlyFeatureConfig.property.entityOverrides">entityOverrides</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.evidentlyFeature.EvidentlyFeatureEntityOverrides">EvidentlyFeatureEntityOverrides</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/evidently_feature#entity_overrides EvidentlyFeature#entity_overrides}. |
+| <code><a href="#@cdktn/provider-awscc.evidentlyFeature.EvidentlyFeatureConfig.property.evaluationStrategy">evaluationStrategy</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/evidently_feature#evaluation_strategy EvidentlyFeature#evaluation_strategy}. |
 | <code><a href="#@cdktn/provider-awscc.evidentlyFeature.EvidentlyFeatureConfig.property.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.evidentlyFeature.EvidentlyFeatureTags">EvidentlyFeatureTags</a>></code> | An array of key-value pairs to apply to this resource. |
 
 ---
@@ -1216,7 +1216,7 @@ public java.lang.String getName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/evidently_feature#name EvidentlyFeature#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/evidently_feature#name EvidentlyFeature#name}.
 
 ---
 
@@ -1228,7 +1228,7 @@ public java.lang.String getProject();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/evidently_feature#project EvidentlyFeature#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/evidently_feature#project EvidentlyFeature#project}.
 
 ---
 
@@ -1240,7 +1240,7 @@ public IResolvable|java.util.List<EvidentlyFeatureVariations> getVariations();
 
 - *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-awscc.evidentlyFeature.EvidentlyFeatureVariations">EvidentlyFeatureVariations</a>>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/evidently_feature#variations EvidentlyFeature#variations}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/evidently_feature#variations EvidentlyFeature#variations}.
 
 ---
 
@@ -1252,7 +1252,7 @@ public java.lang.String getDefaultVariation();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/evidently_feature#default_variation EvidentlyFeature#default_variation}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/evidently_feature#default_variation EvidentlyFeature#default_variation}.
 
 ---
 
@@ -1264,7 +1264,7 @@ public java.lang.String getDescription();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/evidently_feature#description EvidentlyFeature#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/evidently_feature#description EvidentlyFeature#description}.
 
 ---
 
@@ -1276,7 +1276,7 @@ public IResolvable|java.util.List<EvidentlyFeatureEntityOverrides> getEntityOver
 
 - *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-awscc.evidentlyFeature.EvidentlyFeatureEntityOverrides">EvidentlyFeatureEntityOverrides</a>>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/evidently_feature#entity_overrides EvidentlyFeature#entity_overrides}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/evidently_feature#entity_overrides EvidentlyFeature#entity_overrides}.
 
 ---
 
@@ -1288,7 +1288,7 @@ public java.lang.String getEvaluationStrategy();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/evidently_feature#evaluation_strategy EvidentlyFeature#evaluation_strategy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/evidently_feature#evaluation_strategy EvidentlyFeature#evaluation_strategy}.
 
 ---
 
@@ -1302,7 +1302,7 @@ public IResolvable|java.util.List<EvidentlyFeatureTags> getTags();
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/evidently_feature#tags EvidentlyFeature#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/evidently_feature#tags EvidentlyFeature#tags}
 
 ---
 
@@ -1323,8 +1323,8 @@ EvidentlyFeatureEntityOverrides.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.evidentlyFeature.EvidentlyFeatureEntityOverrides.property.entityId">entityId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/evidently_feature#entity_id EvidentlyFeature#entity_id}. |
-| <code><a href="#@cdktn/provider-awscc.evidentlyFeature.EvidentlyFeatureEntityOverrides.property.variation">variation</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/evidently_feature#variation EvidentlyFeature#variation}. |
+| <code><a href="#@cdktn/provider-awscc.evidentlyFeature.EvidentlyFeatureEntityOverrides.property.entityId">entityId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/evidently_feature#entity_id EvidentlyFeature#entity_id}. |
+| <code><a href="#@cdktn/provider-awscc.evidentlyFeature.EvidentlyFeatureEntityOverrides.property.variation">variation</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/evidently_feature#variation EvidentlyFeature#variation}. |
 
 ---
 
@@ -1336,7 +1336,7 @@ public java.lang.String getEntityId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/evidently_feature#entity_id EvidentlyFeature#entity_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/evidently_feature#entity_id EvidentlyFeature#entity_id}.
 
 ---
 
@@ -1348,7 +1348,7 @@ public java.lang.String getVariation();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/evidently_feature#variation EvidentlyFeature#variation}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/evidently_feature#variation EvidentlyFeature#variation}.
 
 ---
 
@@ -1386,7 +1386,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/evidently_feature#key EvidentlyFeature#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/evidently_feature#key EvidentlyFeature#key}
 
 ---
 
@@ -1402,7 +1402,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/evidently_feature#value EvidentlyFeature#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/evidently_feature#value EvidentlyFeature#value}
 
 ---
 
@@ -1426,11 +1426,11 @@ EvidentlyFeatureVariations.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.evidentlyFeature.EvidentlyFeatureVariations.property.booleanValue">booleanValue</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/evidently_feature#boolean_value EvidentlyFeature#boolean_value}. |
-| <code><a href="#@cdktn/provider-awscc.evidentlyFeature.EvidentlyFeatureVariations.property.doubleValue">doubleValue</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/evidently_feature#double_value EvidentlyFeature#double_value}. |
-| <code><a href="#@cdktn/provider-awscc.evidentlyFeature.EvidentlyFeatureVariations.property.longValue">longValue</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/evidently_feature#long_value EvidentlyFeature#long_value}. |
-| <code><a href="#@cdktn/provider-awscc.evidentlyFeature.EvidentlyFeatureVariations.property.stringValue">stringValue</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/evidently_feature#string_value EvidentlyFeature#string_value}. |
-| <code><a href="#@cdktn/provider-awscc.evidentlyFeature.EvidentlyFeatureVariations.property.variationName">variationName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/evidently_feature#variation_name EvidentlyFeature#variation_name}. |
+| <code><a href="#@cdktn/provider-awscc.evidentlyFeature.EvidentlyFeatureVariations.property.booleanValue">booleanValue</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/evidently_feature#boolean_value EvidentlyFeature#boolean_value}. |
+| <code><a href="#@cdktn/provider-awscc.evidentlyFeature.EvidentlyFeatureVariations.property.doubleValue">doubleValue</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/evidently_feature#double_value EvidentlyFeature#double_value}. |
+| <code><a href="#@cdktn/provider-awscc.evidentlyFeature.EvidentlyFeatureVariations.property.longValue">longValue</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/evidently_feature#long_value EvidentlyFeature#long_value}. |
+| <code><a href="#@cdktn/provider-awscc.evidentlyFeature.EvidentlyFeatureVariations.property.stringValue">stringValue</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/evidently_feature#string_value EvidentlyFeature#string_value}. |
+| <code><a href="#@cdktn/provider-awscc.evidentlyFeature.EvidentlyFeatureVariations.property.variationName">variationName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/evidently_feature#variation_name EvidentlyFeature#variation_name}. |
 
 ---
 
@@ -1442,7 +1442,7 @@ public java.lang.Boolean|IResolvable getBooleanValue();
 
 - *Type:* java.lang.Boolean|io.cdktn.cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/evidently_feature#boolean_value EvidentlyFeature#boolean_value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/evidently_feature#boolean_value EvidentlyFeature#boolean_value}.
 
 ---
 
@@ -1454,7 +1454,7 @@ public java.lang.Number getDoubleValue();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/evidently_feature#double_value EvidentlyFeature#double_value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/evidently_feature#double_value EvidentlyFeature#double_value}.
 
 ---
 
@@ -1466,7 +1466,7 @@ public java.lang.Number getLongValue();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/evidently_feature#long_value EvidentlyFeature#long_value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/evidently_feature#long_value EvidentlyFeature#long_value}.
 
 ---
 
@@ -1478,7 +1478,7 @@ public java.lang.String getStringValue();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/evidently_feature#string_value EvidentlyFeature#string_value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/evidently_feature#string_value EvidentlyFeature#string_value}.
 
 ---
 
@@ -1490,7 +1490,7 @@ public java.lang.String getVariationName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/evidently_feature#variation_name EvidentlyFeature#variation_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/evidently_feature#variation_name EvidentlyFeature#variation_name}.
 
 ---
 

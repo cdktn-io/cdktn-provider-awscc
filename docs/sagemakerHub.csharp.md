@@ -4,7 +4,7 @@
 
 ### SagemakerHub <a name="SagemakerHub" id="@cdktn/provider-awscc.sagemakerHub.SagemakerHub"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_hub awscc_sagemaker_hub}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_hub awscc_sagemaker_hub}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sagemakerHub.SagemakerHub.Initializer"></a>
 
@@ -543,7 +543,7 @@ The construct id used in the generated config for the SagemakerHub to import.
 
 The id of the existing SagemakerHub that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_hub#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_hub#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1049,7 +1049,7 @@ public string HubDescription { get; set; }
 
 A description of the hub.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_hub#hub_description SagemakerHub#hub_description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_hub#hub_description SagemakerHub#hub_description}
 
 ---
 
@@ -1063,7 +1063,7 @@ public string HubName { get; set; }
 
 The name of the hub.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_hub#hub_name SagemakerHub#hub_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_hub#hub_name SagemakerHub#hub_name}
 
 ---
 
@@ -1077,7 +1077,7 @@ public string HubDisplayName { get; set; }
 
 The display name of the hub.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_hub#hub_display_name SagemakerHub#hub_display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_hub#hub_display_name SagemakerHub#hub_display_name}
 
 ---
 
@@ -1091,7 +1091,7 @@ public string[] HubSearchKeywords { get; set; }
 
 The searchable keywords for the hub.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_hub#hub_search_keywords SagemakerHub#hub_search_keywords}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_hub#hub_search_keywords SagemakerHub#hub_search_keywords}
 
 ---
 
@@ -1105,7 +1105,7 @@ public SagemakerHubS3StorageConfig S3StorageConfig { get; set; }
 
 The Amazon S3 storage configuration for the hub.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_hub#s3_storage_config SagemakerHub#s3_storage_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_hub#s3_storage_config SagemakerHub#s3_storage_config}
 
 ---
 
@@ -1119,7 +1119,7 @@ public IResolvable|SagemakerHubTags[] Tags { get; set; }
 
 Tags to associate with the hub.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_hub#tags SagemakerHub#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_hub#tags SagemakerHub#tags}
 
 ---
 
@@ -1153,7 +1153,7 @@ public string S3OutputPath { get; set; }
 
 The Amazon S3 bucket prefix for hosting hub content.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_hub#s3_output_path SagemakerHub#s3_output_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_hub#s3_output_path SagemakerHub#s3_output_path}
 
 ---
 
@@ -1174,8 +1174,8 @@ new SagemakerHubTags {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sagemakerHub.SagemakerHubTags.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_hub#key SagemakerHub#key}. |
-| <code><a href="#@cdktn/provider-awscc.sagemakerHub.SagemakerHubTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_hub#value SagemakerHub#value}. |
+| <code><a href="#@cdktn/provider-awscc.sagemakerHub.SagemakerHubTags.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_hub#key SagemakerHub#key}. |
+| <code><a href="#@cdktn/provider-awscc.sagemakerHub.SagemakerHubTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_hub#value SagemakerHub#value}. |
 
 ---
 
@@ -1187,7 +1187,7 @@ public string Key { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_hub#key SagemakerHub#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_hub#key SagemakerHub#key}.
 
 ---
 
@@ -1199,7 +1199,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_hub#value SagemakerHub#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_hub#value SagemakerHub#value}.
 
 ---
 

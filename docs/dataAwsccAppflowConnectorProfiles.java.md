@@ -4,7 +4,7 @@
 
 ### DataAwsccAppflowConnectorProfiles <a name="DataAwsccAppflowConnectorProfiles" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfiles.DataAwsccAppflowConnectorProfiles"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/appflow_connector_profiles awscc_appflow_connector_profiles}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/appflow_connector_profiles awscc_appflow_connector_profiles}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfiles.DataAwsccAppflowConnectorProfiles.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccAppflowConnectorP
 
 The id of the existing DataAwsccAppflowConnectorProfiles that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/appflow_connector_profiles#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/appflow_connector_profiles#import import section} in the documentation of this resource for the id to use
 
 ---
 

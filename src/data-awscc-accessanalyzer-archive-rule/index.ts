@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/accessanalyzer_archive_rule
+// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/accessanalyzer_archive_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccAccessanalyzerArchiveRuleConfig extends cdktn.Terrafor
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/accessanalyzer_archive_rule#id DataAwsccAccessanalyzerArchiveRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/accessanalyzer_archive_rule#id DataAwsccAccessanalyzerArchiveRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -112,7 +112,7 @@ export class DataAwsccAccessanalyzerArchiveRuleFilterMap extends cdktn.ComplexMa
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/accessanalyzer_archive_rule awscc_accessanalyzer_archive_rule}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/accessanalyzer_archive_rule awscc_accessanalyzer_archive_rule}
 */
 export class DataAwsccAccessanalyzerArchiveRule extends cdktn.TerraformDataSource {
 
@@ -128,7 +128,7 @@ export class DataAwsccAccessanalyzerArchiveRule extends cdktn.TerraformDataSourc
   * Generates CDKTN code for importing a DataAwsccAccessanalyzerArchiveRule resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccAccessanalyzerArchiveRule to import
-  * @param importFromId The id of the existing DataAwsccAccessanalyzerArchiveRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/accessanalyzer_archive_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccAccessanalyzerArchiveRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/accessanalyzer_archive_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccAccessanalyzerArchiveRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -140,7 +140,7 @@ export class DataAwsccAccessanalyzerArchiveRule extends cdktn.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/accessanalyzer_archive_rule awscc_accessanalyzer_archive_rule} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/accessanalyzer_archive_rule awscc_accessanalyzer_archive_rule} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -151,7 +151,7 @@ export class DataAwsccAccessanalyzerArchiveRule extends cdktn.TerraformDataSourc
       terraformResourceType: 'awscc_accessanalyzer_archive_rule',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.98.0',
+        providerVersion: '1.99.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

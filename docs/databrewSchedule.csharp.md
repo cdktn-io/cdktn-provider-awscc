@@ -4,7 +4,7 @@
 
 ### DatabrewSchedule <a name="DatabrewSchedule" id="@cdktn/provider-awscc.databrewSchedule.DatabrewSchedule"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/databrew_schedule awscc_databrew_schedule}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/databrew_schedule awscc_databrew_schedule}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.databrewSchedule.DatabrewSchedule.Initializer"></a>
 
@@ -516,7 +516,7 @@ The construct id used in the generated config for the DatabrewSchedule to import
 
 The id of the existing DatabrewSchedule that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/databrew_schedule#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/databrew_schedule#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -845,8 +845,8 @@ new DatabrewScheduleConfig {
 | <code><a href="#@cdktn/provider-awscc.databrewSchedule.DatabrewScheduleConfig.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.databrewSchedule.DatabrewScheduleConfig.property.cronExpression">CronExpression</a></code> | <code>string</code> | Schedule cron. |
 | <code><a href="#@cdktn/provider-awscc.databrewSchedule.DatabrewScheduleConfig.property.name">Name</a></code> | <code>string</code> | Schedule Name. |
-| <code><a href="#@cdktn/provider-awscc.databrewSchedule.DatabrewScheduleConfig.property.jobNames">JobNames</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/databrew_schedule#job_names DatabrewSchedule#job_names}. |
-| <code><a href="#@cdktn/provider-awscc.databrewSchedule.DatabrewScheduleConfig.property.tags">Tags</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.databrewSchedule.DatabrewScheduleTags">DatabrewScheduleTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/databrew_schedule#tags DatabrewSchedule#tags}. |
+| <code><a href="#@cdktn/provider-awscc.databrewSchedule.DatabrewScheduleConfig.property.jobNames">JobNames</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/databrew_schedule#job_names DatabrewSchedule#job_names}. |
+| <code><a href="#@cdktn/provider-awscc.databrewSchedule.DatabrewScheduleConfig.property.tags">Tags</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.databrewSchedule.DatabrewScheduleTags">DatabrewScheduleTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/databrew_schedule#tags DatabrewSchedule#tags}. |
 
 ---
 
@@ -930,7 +930,7 @@ public string CronExpression { get; set; }
 
 Schedule cron.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/databrew_schedule#cron_expression DatabrewSchedule#cron_expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/databrew_schedule#cron_expression DatabrewSchedule#cron_expression}
 
 ---
 
@@ -944,7 +944,7 @@ public string Name { get; set; }
 
 Schedule Name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/databrew_schedule#name DatabrewSchedule#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/databrew_schedule#name DatabrewSchedule#name}
 
 ---
 
@@ -956,7 +956,7 @@ public string[] JobNames { get; set; }
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/databrew_schedule#job_names DatabrewSchedule#job_names}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/databrew_schedule#job_names DatabrewSchedule#job_names}.
 
 ---
 
@@ -968,7 +968,7 @@ public IResolvable|DatabrewScheduleTags[] Tags { get; set; }
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.databrewSchedule.DatabrewScheduleTags">DatabrewScheduleTags</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/databrew_schedule#tags DatabrewSchedule#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/databrew_schedule#tags DatabrewSchedule#tags}.
 
 ---
 
@@ -989,8 +989,8 @@ new DatabrewScheduleTags {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.databrewSchedule.DatabrewScheduleTags.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/databrew_schedule#key DatabrewSchedule#key}. |
-| <code><a href="#@cdktn/provider-awscc.databrewSchedule.DatabrewScheduleTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/databrew_schedule#value DatabrewSchedule#value}. |
+| <code><a href="#@cdktn/provider-awscc.databrewSchedule.DatabrewScheduleTags.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/databrew_schedule#key DatabrewSchedule#key}. |
+| <code><a href="#@cdktn/provider-awscc.databrewSchedule.DatabrewScheduleTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/databrew_schedule#value DatabrewSchedule#value}. |
 
 ---
 
@@ -1002,7 +1002,7 @@ public string Key { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/databrew_schedule#key DatabrewSchedule#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/databrew_schedule#key DatabrewSchedule#key}.
 
 ---
 
@@ -1014,7 +1014,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/databrew_schedule#value DatabrewSchedule#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/databrew_schedule#value DatabrewSchedule#value}.
 
 ---
 

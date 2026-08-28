@@ -4,7 +4,7 @@
 
 ### DataAwsccXrayGroup <a name="DataAwsccXrayGroup" id="@cdktn/provider-awscc.dataAwsccXrayGroup.DataAwsccXrayGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/xray_group awscc_xray_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/xray_group awscc_xray_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccXrayGroup.DataAwsccXrayGroup.Initializer"></a>
 
@@ -104,7 +104,7 @@ Must be unique amongst siblings in the same scope
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/xray_group#id DataAwsccXrayGroup#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/xray_group#id DataAwsccXrayGroup#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -452,7 +452,7 @@ The construct id used in the generated config for the DataAwsccXrayGroup to impo
 
 The id of the existing DataAwsccXrayGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/xray_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/xray_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -816,7 +816,7 @@ public java.lang.String getId();
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/xray_group#id DataAwsccXrayGroup#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/xray_group#id DataAwsccXrayGroup#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

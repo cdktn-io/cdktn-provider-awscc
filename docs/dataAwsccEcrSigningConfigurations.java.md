@@ -4,7 +4,7 @@
 
 ### DataAwsccEcrSigningConfigurations <a name="DataAwsccEcrSigningConfigurations" id="@cdktn/provider-awscc.dataAwsccEcrSigningConfigurations.DataAwsccEcrSigningConfigurations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ecr_signing_configurations awscc_ecr_signing_configurations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ecr_signing_configurations awscc_ecr_signing_configurations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcrSigningConfigurations.DataAwsccEcrSigningConfigurations.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccEcrSigningConfigu
 
 The id of the existing DataAwsccEcrSigningConfigurations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ecr_signing_configurations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ecr_signing_configurations#import import section} in the documentation of this resource for the id to use
 
 ---
 

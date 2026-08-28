@@ -4,7 +4,7 @@
 
 ### VpclatticeResourceGateway <a name="VpclatticeResourceGateway" id="@cdktn/provider-awscc.vpclatticeResourceGateway.VpclatticeResourceGateway"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/vpclattice_resource_gateway awscc_vpclattice_resource_gateway}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/vpclattice_resource_gateway awscc_vpclattice_resource_gateway}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.vpclatticeResourceGateway.VpclatticeResourceGateway.Initializer"></a>
 
@@ -537,7 +537,7 @@ The construct id used in the generated config for the VpclatticeResourceGateway 
 
 The id of the existing VpclatticeResourceGateway that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/vpclattice_resource_gateway#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/vpclattice_resource_gateway#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -978,14 +978,14 @@ new VpclatticeResourceGatewayConfig {
 | <code><a href="#@cdktn/provider-awscc.vpclatticeResourceGateway.VpclatticeResourceGatewayConfig.property.lifecycle">Lifecycle</a></code> | <code>Io.Cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.vpclatticeResourceGateway.VpclatticeResourceGatewayConfig.property.provider">Provider</a></code> | <code>Io.Cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.vpclatticeResourceGateway.VpclatticeResourceGatewayConfig.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.vpclatticeResourceGateway.VpclatticeResourceGatewayConfig.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/vpclattice_resource_gateway#name VpclatticeResourceGateway#name}. |
+| <code><a href="#@cdktn/provider-awscc.vpclatticeResourceGateway.VpclatticeResourceGatewayConfig.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/vpclattice_resource_gateway#name VpclatticeResourceGateway#name}. |
 | <code><a href="#@cdktn/provider-awscc.vpclatticeResourceGateway.VpclatticeResourceGatewayConfig.property.subnetIds">SubnetIds</a></code> | <code>string[]</code> | The ID of one or more subnets in which to create an endpoint network interface. |
-| <code><a href="#@cdktn/provider-awscc.vpclatticeResourceGateway.VpclatticeResourceGatewayConfig.property.vpcIdentifier">VpcIdentifier</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/vpclattice_resource_gateway#vpc_identifier VpclatticeResourceGateway#vpc_identifier}. |
-| <code><a href="#@cdktn/provider-awscc.vpclatticeResourceGateway.VpclatticeResourceGatewayConfig.property.ipAddressType">IpAddressType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/vpclattice_resource_gateway#ip_address_type VpclatticeResourceGateway#ip_address_type}. |
+| <code><a href="#@cdktn/provider-awscc.vpclatticeResourceGateway.VpclatticeResourceGatewayConfig.property.vpcIdentifier">VpcIdentifier</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/vpclattice_resource_gateway#vpc_identifier VpclatticeResourceGateway#vpc_identifier}. |
+| <code><a href="#@cdktn/provider-awscc.vpclatticeResourceGateway.VpclatticeResourceGatewayConfig.property.ipAddressType">IpAddressType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/vpclattice_resource_gateway#ip_address_type VpclatticeResourceGateway#ip_address_type}. |
 | <code><a href="#@cdktn/provider-awscc.vpclatticeResourceGateway.VpclatticeResourceGatewayConfig.property.ipv4AddressesPerEni">Ipv4AddressesPerEni</a></code> | <code>double</code> | The number of IPv4 addresses to allocate per ENI for the resource gateway. |
-| <code><a href="#@cdktn/provider-awscc.vpclatticeResourceGateway.VpclatticeResourceGatewayConfig.property.resourceConfigDnsResolution">ResourceConfigDnsResolution</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/vpclattice_resource_gateway#resource_config_dns_resolution VpclatticeResourceGateway#resource_config_dns_resolution}. |
+| <code><a href="#@cdktn/provider-awscc.vpclatticeResourceGateway.VpclatticeResourceGatewayConfig.property.resourceConfigDnsResolution">ResourceConfigDnsResolution</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/vpclattice_resource_gateway#resource_config_dns_resolution VpclatticeResourceGateway#resource_config_dns_resolution}. |
 | <code><a href="#@cdktn/provider-awscc.vpclatticeResourceGateway.VpclatticeResourceGatewayConfig.property.securityGroupIds">SecurityGroupIds</a></code> | <code>string[]</code> | The ID of one or more security groups to associate with the endpoint network interface. |
-| <code><a href="#@cdktn/provider-awscc.vpclatticeResourceGateway.VpclatticeResourceGatewayConfig.property.tags">Tags</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.vpclatticeResourceGateway.VpclatticeResourceGatewayTags">VpclatticeResourceGatewayTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/vpclattice_resource_gateway#tags VpclatticeResourceGateway#tags}. |
+| <code><a href="#@cdktn/provider-awscc.vpclatticeResourceGateway.VpclatticeResourceGatewayConfig.property.tags">Tags</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.vpclatticeResourceGateway.VpclatticeResourceGatewayTags">VpclatticeResourceGatewayTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/vpclattice_resource_gateway#tags VpclatticeResourceGateway#tags}. |
 
 ---
 
@@ -1067,7 +1067,7 @@ public string Name { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/vpclattice_resource_gateway#name VpclatticeResourceGateway#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/vpclattice_resource_gateway#name VpclatticeResourceGateway#name}.
 
 ---
 
@@ -1081,7 +1081,7 @@ public string[] SubnetIds { get; set; }
 
 The ID of one or more subnets in which to create an endpoint network interface.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/vpclattice_resource_gateway#subnet_ids VpclatticeResourceGateway#subnet_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/vpclattice_resource_gateway#subnet_ids VpclatticeResourceGateway#subnet_ids}
 
 ---
 
@@ -1093,7 +1093,7 @@ public string VpcIdentifier { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/vpclattice_resource_gateway#vpc_identifier VpclatticeResourceGateway#vpc_identifier}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/vpclattice_resource_gateway#vpc_identifier VpclatticeResourceGateway#vpc_identifier}.
 
 ---
 
@@ -1105,7 +1105,7 @@ public string IpAddressType { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/vpclattice_resource_gateway#ip_address_type VpclatticeResourceGateway#ip_address_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/vpclattice_resource_gateway#ip_address_type VpclatticeResourceGateway#ip_address_type}.
 
 ---
 
@@ -1119,7 +1119,7 @@ public double Ipv4AddressesPerEni { get; set; }
 
 The number of IPv4 addresses to allocate per ENI for the resource gateway.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/vpclattice_resource_gateway#ipv_4_addresses_per_eni VpclatticeResourceGateway#ipv_4_addresses_per_eni}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/vpclattice_resource_gateway#ipv_4_addresses_per_eni VpclatticeResourceGateway#ipv_4_addresses_per_eni}
 
 ---
 
@@ -1131,7 +1131,7 @@ public string ResourceConfigDnsResolution { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/vpclattice_resource_gateway#resource_config_dns_resolution VpclatticeResourceGateway#resource_config_dns_resolution}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/vpclattice_resource_gateway#resource_config_dns_resolution VpclatticeResourceGateway#resource_config_dns_resolution}.
 
 ---
 
@@ -1145,7 +1145,7 @@ public string[] SecurityGroupIds { get; set; }
 
 The ID of one or more security groups to associate with the endpoint network interface.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/vpclattice_resource_gateway#security_group_ids VpclatticeResourceGateway#security_group_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/vpclattice_resource_gateway#security_group_ids VpclatticeResourceGateway#security_group_ids}
 
 ---
 
@@ -1157,7 +1157,7 @@ public IResolvable|VpclatticeResourceGatewayTags[] Tags { get; set; }
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.vpclatticeResourceGateway.VpclatticeResourceGatewayTags">VpclatticeResourceGatewayTags</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/vpclattice_resource_gateway#tags VpclatticeResourceGateway#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/vpclattice_resource_gateway#tags VpclatticeResourceGateway#tags}.
 
 ---
 
@@ -1178,8 +1178,8 @@ new VpclatticeResourceGatewayTags {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.vpclatticeResourceGateway.VpclatticeResourceGatewayTags.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/vpclattice_resource_gateway#key VpclatticeResourceGateway#key}. |
-| <code><a href="#@cdktn/provider-awscc.vpclatticeResourceGateway.VpclatticeResourceGatewayTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/vpclattice_resource_gateway#value VpclatticeResourceGateway#value}. |
+| <code><a href="#@cdktn/provider-awscc.vpclatticeResourceGateway.VpclatticeResourceGatewayTags.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/vpclattice_resource_gateway#key VpclatticeResourceGateway#key}. |
+| <code><a href="#@cdktn/provider-awscc.vpclatticeResourceGateway.VpclatticeResourceGatewayTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/vpclattice_resource_gateway#value VpclatticeResourceGateway#value}. |
 
 ---
 
@@ -1191,7 +1191,7 @@ public string Key { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/vpclattice_resource_gateway#key VpclatticeResourceGateway#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/vpclattice_resource_gateway#key VpclatticeResourceGateway#key}.
 
 ---
 
@@ -1203,7 +1203,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/vpclattice_resource_gateway#value VpclatticeResourceGateway#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/vpclattice_resource_gateway#value VpclatticeResourceGateway#value}.
 
 ---
 

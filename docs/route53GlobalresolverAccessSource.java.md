@@ -4,7 +4,7 @@
 
 ### Route53GlobalresolverAccessSource <a name="Route53GlobalresolverAccessSource" id="@cdktn/provider-awscc.route53GlobalresolverAccessSource.Route53GlobalresolverAccessSource"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53globalresolver_access_source awscc_route53globalresolver_access_source}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53globalresolver_access_source awscc_route53globalresolver_access_source}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.route53GlobalresolverAccessSource.Route53GlobalresolverAccessSource.Initializer"></a>
 
@@ -40,13 +40,13 @@ Route53GlobalresolverAccessSource.Builder.create(Construct scope, java.lang.Stri
 | <code><a href="#@cdktn/provider-awscc.route53GlobalresolverAccessSource.Route53GlobalresolverAccessSource.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.route53GlobalresolverAccessSource.Route53GlobalresolverAccessSource.Initializer.parameter.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.route53GlobalresolverAccessSource.Route53GlobalresolverAccessSource.Initializer.parameter.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.route53GlobalresolverAccessSource.Route53GlobalresolverAccessSource.Initializer.parameter.cidr">cidr</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53globalresolver_access_source#cidr Route53GlobalresolverAccessSource#cidr}. |
-| <code><a href="#@cdktn/provider-awscc.route53GlobalresolverAccessSource.Route53GlobalresolverAccessSource.Initializer.parameter.dnsViewId">dnsViewId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53globalresolver_access_source#dns_view_id Route53GlobalresolverAccessSource#dns_view_id}. |
-| <code><a href="#@cdktn/provider-awscc.route53GlobalresolverAccessSource.Route53GlobalresolverAccessSource.Initializer.parameter.protocol">protocol</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53globalresolver_access_source#protocol Route53GlobalresolverAccessSource#protocol}. |
-| <code><a href="#@cdktn/provider-awscc.route53GlobalresolverAccessSource.Route53GlobalresolverAccessSource.Initializer.parameter.clientToken">clientToken</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53globalresolver_access_source#client_token Route53GlobalresolverAccessSource#client_token}. |
-| <code><a href="#@cdktn/provider-awscc.route53GlobalresolverAccessSource.Route53GlobalresolverAccessSource.Initializer.parameter.ipAddressType">ipAddressType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53globalresolver_access_source#ip_address_type Route53GlobalresolverAccessSource#ip_address_type}. |
-| <code><a href="#@cdktn/provider-awscc.route53GlobalresolverAccessSource.Route53GlobalresolverAccessSource.Initializer.parameter.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53globalresolver_access_source#name Route53GlobalresolverAccessSource#name}. |
-| <code><a href="#@cdktn/provider-awscc.route53GlobalresolverAccessSource.Route53GlobalresolverAccessSource.Initializer.parameter.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.route53GlobalresolverAccessSource.Route53GlobalresolverAccessSourceTags">Route53GlobalresolverAccessSourceTags</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53globalresolver_access_source#tags Route53GlobalresolverAccessSource#tags}. |
+| <code><a href="#@cdktn/provider-awscc.route53GlobalresolverAccessSource.Route53GlobalresolverAccessSource.Initializer.parameter.cidr">cidr</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53globalresolver_access_source#cidr Route53GlobalresolverAccessSource#cidr}. |
+| <code><a href="#@cdktn/provider-awscc.route53GlobalresolverAccessSource.Route53GlobalresolverAccessSource.Initializer.parameter.dnsViewId">dnsViewId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53globalresolver_access_source#dns_view_id Route53GlobalresolverAccessSource#dns_view_id}. |
+| <code><a href="#@cdktn/provider-awscc.route53GlobalresolverAccessSource.Route53GlobalresolverAccessSource.Initializer.parameter.protocol">protocol</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53globalresolver_access_source#protocol Route53GlobalresolverAccessSource#protocol}. |
+| <code><a href="#@cdktn/provider-awscc.route53GlobalresolverAccessSource.Route53GlobalresolverAccessSource.Initializer.parameter.clientToken">clientToken</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53globalresolver_access_source#client_token Route53GlobalresolverAccessSource#client_token}. |
+| <code><a href="#@cdktn/provider-awscc.route53GlobalresolverAccessSource.Route53GlobalresolverAccessSource.Initializer.parameter.ipAddressType">ipAddressType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53globalresolver_access_source#ip_address_type Route53GlobalresolverAccessSource#ip_address_type}. |
+| <code><a href="#@cdktn/provider-awscc.route53GlobalresolverAccessSource.Route53GlobalresolverAccessSource.Initializer.parameter.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53globalresolver_access_source#name Route53GlobalresolverAccessSource#name}. |
+| <code><a href="#@cdktn/provider-awscc.route53GlobalresolverAccessSource.Route53GlobalresolverAccessSource.Initializer.parameter.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.route53GlobalresolverAccessSource.Route53GlobalresolverAccessSourceTags">Route53GlobalresolverAccessSourceTags</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53globalresolver_access_source#tags Route53GlobalresolverAccessSource#tags}. |
 
 ---
 
@@ -114,7 +114,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53globalresolver_access_source#cidr Route53GlobalresolverAccessSource#cidr}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53globalresolver_access_source#cidr Route53GlobalresolverAccessSource#cidr}.
 
 ---
 
@@ -122,7 +122,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53globalresolver_access_source#dns_view_id Route53GlobalresolverAccessSource#dns_view_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53globalresolver_access_source#dns_view_id Route53GlobalresolverAccessSource#dns_view_id}.
 
 ---
 
@@ -130,7 +130,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53globalresolver_access_source#protocol Route53GlobalresolverAccessSource#protocol}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53globalresolver_access_source#protocol Route53GlobalresolverAccessSource#protocol}.
 
 ---
 
@@ -138,7 +138,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53globalresolver_access_source#client_token Route53GlobalresolverAccessSource#client_token}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53globalresolver_access_source#client_token Route53GlobalresolverAccessSource#client_token}.
 
 ---
 
@@ -146,7 +146,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53globalresolver_access_source#ip_address_type Route53GlobalresolverAccessSource#ip_address_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53globalresolver_access_source#ip_address_type Route53GlobalresolverAccessSource#ip_address_type}.
 
 ---
 
@@ -154,7 +154,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53globalresolver_access_source#name Route53GlobalresolverAccessSource#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53globalresolver_access_source#name Route53GlobalresolverAccessSource#name}.
 
 ---
 
@@ -162,7 +162,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-awscc.route53GlobalresolverAccessSource.Route53GlobalresolverAccessSourceTags">Route53GlobalresolverAccessSourceTags</a>>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53globalresolver_access_source#tags Route53GlobalresolverAccessSource#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53globalresolver_access_source#tags Route53GlobalresolverAccessSource#tags}.
 
 ---
 
@@ -652,7 +652,7 @@ The construct id used in the generated config for the Route53GlobalresolverAcces
 
 The id of the existing Route53GlobalresolverAccessSource that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53globalresolver_access_source#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53globalresolver_access_source#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1103,13 +1103,13 @@ Route53GlobalresolverAccessSourceConfig.builder()
 | <code><a href="#@cdktn/provider-awscc.route53GlobalresolverAccessSource.Route53GlobalresolverAccessSourceConfig.property.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.route53GlobalresolverAccessSource.Route53GlobalresolverAccessSourceConfig.property.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.route53GlobalresolverAccessSource.Route53GlobalresolverAccessSourceConfig.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.route53GlobalresolverAccessSource.Route53GlobalresolverAccessSourceConfig.property.cidr">cidr</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53globalresolver_access_source#cidr Route53GlobalresolverAccessSource#cidr}. |
-| <code><a href="#@cdktn/provider-awscc.route53GlobalresolverAccessSource.Route53GlobalresolverAccessSourceConfig.property.dnsViewId">dnsViewId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53globalresolver_access_source#dns_view_id Route53GlobalresolverAccessSource#dns_view_id}. |
-| <code><a href="#@cdktn/provider-awscc.route53GlobalresolverAccessSource.Route53GlobalresolverAccessSourceConfig.property.protocol">protocol</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53globalresolver_access_source#protocol Route53GlobalresolverAccessSource#protocol}. |
-| <code><a href="#@cdktn/provider-awscc.route53GlobalresolverAccessSource.Route53GlobalresolverAccessSourceConfig.property.clientToken">clientToken</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53globalresolver_access_source#client_token Route53GlobalresolverAccessSource#client_token}. |
-| <code><a href="#@cdktn/provider-awscc.route53GlobalresolverAccessSource.Route53GlobalresolverAccessSourceConfig.property.ipAddressType">ipAddressType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53globalresolver_access_source#ip_address_type Route53GlobalresolverAccessSource#ip_address_type}. |
-| <code><a href="#@cdktn/provider-awscc.route53GlobalresolverAccessSource.Route53GlobalresolverAccessSourceConfig.property.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53globalresolver_access_source#name Route53GlobalresolverAccessSource#name}. |
-| <code><a href="#@cdktn/provider-awscc.route53GlobalresolverAccessSource.Route53GlobalresolverAccessSourceConfig.property.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.route53GlobalresolverAccessSource.Route53GlobalresolverAccessSourceTags">Route53GlobalresolverAccessSourceTags</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53globalresolver_access_source#tags Route53GlobalresolverAccessSource#tags}. |
+| <code><a href="#@cdktn/provider-awscc.route53GlobalresolverAccessSource.Route53GlobalresolverAccessSourceConfig.property.cidr">cidr</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53globalresolver_access_source#cidr Route53GlobalresolverAccessSource#cidr}. |
+| <code><a href="#@cdktn/provider-awscc.route53GlobalresolverAccessSource.Route53GlobalresolverAccessSourceConfig.property.dnsViewId">dnsViewId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53globalresolver_access_source#dns_view_id Route53GlobalresolverAccessSource#dns_view_id}. |
+| <code><a href="#@cdktn/provider-awscc.route53GlobalresolverAccessSource.Route53GlobalresolverAccessSourceConfig.property.protocol">protocol</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53globalresolver_access_source#protocol Route53GlobalresolverAccessSource#protocol}. |
+| <code><a href="#@cdktn/provider-awscc.route53GlobalresolverAccessSource.Route53GlobalresolverAccessSourceConfig.property.clientToken">clientToken</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53globalresolver_access_source#client_token Route53GlobalresolverAccessSource#client_token}. |
+| <code><a href="#@cdktn/provider-awscc.route53GlobalresolverAccessSource.Route53GlobalresolverAccessSourceConfig.property.ipAddressType">ipAddressType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53globalresolver_access_source#ip_address_type Route53GlobalresolverAccessSource#ip_address_type}. |
+| <code><a href="#@cdktn/provider-awscc.route53GlobalresolverAccessSource.Route53GlobalresolverAccessSourceConfig.property.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53globalresolver_access_source#name Route53GlobalresolverAccessSource#name}. |
+| <code><a href="#@cdktn/provider-awscc.route53GlobalresolverAccessSource.Route53GlobalresolverAccessSourceConfig.property.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.route53GlobalresolverAccessSource.Route53GlobalresolverAccessSourceTags">Route53GlobalresolverAccessSourceTags</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53globalresolver_access_source#tags Route53GlobalresolverAccessSource#tags}. |
 
 ---
 
@@ -1191,7 +1191,7 @@ public java.lang.String getCidr();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53globalresolver_access_source#cidr Route53GlobalresolverAccessSource#cidr}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53globalresolver_access_source#cidr Route53GlobalresolverAccessSource#cidr}.
 
 ---
 
@@ -1203,7 +1203,7 @@ public java.lang.String getDnsViewId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53globalresolver_access_source#dns_view_id Route53GlobalresolverAccessSource#dns_view_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53globalresolver_access_source#dns_view_id Route53GlobalresolverAccessSource#dns_view_id}.
 
 ---
 
@@ -1215,7 +1215,7 @@ public java.lang.String getProtocol();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53globalresolver_access_source#protocol Route53GlobalresolverAccessSource#protocol}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53globalresolver_access_source#protocol Route53GlobalresolverAccessSource#protocol}.
 
 ---
 
@@ -1227,7 +1227,7 @@ public java.lang.String getClientToken();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53globalresolver_access_source#client_token Route53GlobalresolverAccessSource#client_token}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53globalresolver_access_source#client_token Route53GlobalresolverAccessSource#client_token}.
 
 ---
 
@@ -1239,7 +1239,7 @@ public java.lang.String getIpAddressType();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53globalresolver_access_source#ip_address_type Route53GlobalresolverAccessSource#ip_address_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53globalresolver_access_source#ip_address_type Route53GlobalresolverAccessSource#ip_address_type}.
 
 ---
 
@@ -1251,7 +1251,7 @@ public java.lang.String getName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53globalresolver_access_source#name Route53GlobalresolverAccessSource#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53globalresolver_access_source#name Route53GlobalresolverAccessSource#name}.
 
 ---
 
@@ -1263,7 +1263,7 @@ public IResolvable|java.util.List<Route53GlobalresolverAccessSourceTags> getTags
 
 - *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-awscc.route53GlobalresolverAccessSource.Route53GlobalresolverAccessSourceTags">Route53GlobalresolverAccessSourceTags</a>>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53globalresolver_access_source#tags Route53GlobalresolverAccessSource#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53globalresolver_access_source#tags Route53GlobalresolverAccessSource#tags}.
 
 ---
 
@@ -1284,8 +1284,8 @@ Route53GlobalresolverAccessSourceTags.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.route53GlobalresolverAccessSource.Route53GlobalresolverAccessSourceTags.property.key">key</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53globalresolver_access_source#key Route53GlobalresolverAccessSource#key}. |
-| <code><a href="#@cdktn/provider-awscc.route53GlobalresolverAccessSource.Route53GlobalresolverAccessSourceTags.property.value">value</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53globalresolver_access_source#value Route53GlobalresolverAccessSource#value}. |
+| <code><a href="#@cdktn/provider-awscc.route53GlobalresolverAccessSource.Route53GlobalresolverAccessSourceTags.property.key">key</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53globalresolver_access_source#key Route53GlobalresolverAccessSource#key}. |
+| <code><a href="#@cdktn/provider-awscc.route53GlobalresolverAccessSource.Route53GlobalresolverAccessSourceTags.property.value">value</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53globalresolver_access_source#value Route53GlobalresolverAccessSource#value}. |
 
 ---
 
@@ -1297,7 +1297,7 @@ public java.lang.String getKey();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53globalresolver_access_source#key Route53GlobalresolverAccessSource#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53globalresolver_access_source#key Route53GlobalresolverAccessSource#key}.
 
 ---
 
@@ -1309,7 +1309,7 @@ public java.lang.String getValue();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53globalresolver_access_source#value Route53GlobalresolverAccessSource#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53globalresolver_access_source#value Route53GlobalresolverAccessSource#value}.
 
 ---
 

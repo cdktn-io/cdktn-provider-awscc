@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/smsvoice_protect_configuration
+// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/smsvoice_protect_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,19 +15,19 @@ export interface SmsvoiceProtectConfigurationConfig extends cdktn.TerraformMetaA
   /**
   * An array of CountryRule containing the rules for the NumberCapability.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/smsvoice_protect_configuration#country_rule_set SmsvoiceProtectConfiguration#country_rule_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/smsvoice_protect_configuration#country_rule_set SmsvoiceProtectConfiguration#country_rule_set}
   */
   readonly countryRuleSet?: SmsvoiceProtectConfigurationCountryRuleSet;
   /**
   * When set to true deletion protection is enabled and protect configuration cannot be deleted. By default this is set to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/smsvoice_protect_configuration#deletion_protection_enabled SmsvoiceProtectConfiguration#deletion_protection_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/smsvoice_protect_configuration#deletion_protection_enabled SmsvoiceProtectConfiguration#deletion_protection_enabled}
   */
   readonly deletionProtectionEnabled?: boolean | cdktn.IResolvable;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/smsvoice_protect_configuration#tags SmsvoiceProtectConfiguration#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/smsvoice_protect_configuration#tags SmsvoiceProtectConfiguration#tags}
   */
   readonly tags?: SmsvoiceProtectConfigurationTags[] | cdktn.IResolvable;
 }
@@ -35,13 +35,13 @@ export interface SmsvoiceProtectConfigurationCountryRuleSetMms {
   /**
   * The two-letter ISO country code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/smsvoice_protect_configuration#country_code SmsvoiceProtectConfiguration#country_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/smsvoice_protect_configuration#country_code SmsvoiceProtectConfiguration#country_code}
   */
   readonly countryCode?: string;
   /**
   * The types of protection that can be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/smsvoice_protect_configuration#protect_status SmsvoiceProtectConfiguration#protect_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/smsvoice_protect_configuration#protect_status SmsvoiceProtectConfiguration#protect_status}
   */
   readonly protectStatus?: string;
 }
@@ -188,13 +188,13 @@ export interface SmsvoiceProtectConfigurationCountryRuleSetSms {
   /**
   * The two-letter ISO country code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/smsvoice_protect_configuration#country_code SmsvoiceProtectConfiguration#country_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/smsvoice_protect_configuration#country_code SmsvoiceProtectConfiguration#country_code}
   */
   readonly countryCode?: string;
   /**
   * The types of protection that can be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/smsvoice_protect_configuration#protect_status SmsvoiceProtectConfiguration#protect_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/smsvoice_protect_configuration#protect_status SmsvoiceProtectConfiguration#protect_status}
   */
   readonly protectStatus?: string;
 }
@@ -341,13 +341,13 @@ export interface SmsvoiceProtectConfigurationCountryRuleSetVoice {
   /**
   * The two-letter ISO country code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/smsvoice_protect_configuration#country_code SmsvoiceProtectConfiguration#country_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/smsvoice_protect_configuration#country_code SmsvoiceProtectConfiguration#country_code}
   */
   readonly countryCode?: string;
   /**
   * The types of protection that can be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/smsvoice_protect_configuration#protect_status SmsvoiceProtectConfiguration#protect_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/smsvoice_protect_configuration#protect_status SmsvoiceProtectConfiguration#protect_status}
   */
   readonly protectStatus?: string;
 }
@@ -492,15 +492,15 @@ export class SmsvoiceProtectConfigurationCountryRuleSetVoiceList extends cdktn.C
 }
 export interface SmsvoiceProtectConfigurationCountryRuleSet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/smsvoice_protect_configuration#mms SmsvoiceProtectConfiguration#mms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/smsvoice_protect_configuration#mms SmsvoiceProtectConfiguration#mms}
   */
   readonly mms?: SmsvoiceProtectConfigurationCountryRuleSetMms[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/smsvoice_protect_configuration#sms SmsvoiceProtectConfiguration#sms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/smsvoice_protect_configuration#sms SmsvoiceProtectConfiguration#sms}
   */
   readonly sms?: SmsvoiceProtectConfigurationCountryRuleSetSms[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/smsvoice_protect_configuration#voice SmsvoiceProtectConfiguration#voice}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/smsvoice_protect_configuration#voice SmsvoiceProtectConfiguration#voice}
   */
   readonly voice?: SmsvoiceProtectConfigurationCountryRuleSetVoice[] | cdktn.IResolvable;
 }
@@ -654,13 +654,13 @@ export interface SmsvoiceProtectConfigurationTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/smsvoice_protect_configuration#key SmsvoiceProtectConfiguration#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/smsvoice_protect_configuration#key SmsvoiceProtectConfiguration#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/smsvoice_protect_configuration#value SmsvoiceProtectConfiguration#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/smsvoice_protect_configuration#value SmsvoiceProtectConfiguration#value}
   */
   readonly value?: string;
 }
@@ -805,7 +805,7 @@ export class SmsvoiceProtectConfigurationTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/smsvoice_protect_configuration awscc_smsvoice_protect_configuration}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/smsvoice_protect_configuration awscc_smsvoice_protect_configuration}
 */
 export class SmsvoiceProtectConfiguration extends cdktn.TerraformResource {
 
@@ -821,7 +821,7 @@ export class SmsvoiceProtectConfiguration extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a SmsvoiceProtectConfiguration resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SmsvoiceProtectConfiguration to import
-  * @param importFromId The id of the existing SmsvoiceProtectConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/smsvoice_protect_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SmsvoiceProtectConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/smsvoice_protect_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SmsvoiceProtectConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -833,7 +833,7 @@ export class SmsvoiceProtectConfiguration extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/smsvoice_protect_configuration awscc_smsvoice_protect_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/smsvoice_protect_configuration awscc_smsvoice_protect_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -844,7 +844,7 @@ export class SmsvoiceProtectConfiguration extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_smsvoice_protect_configuration',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.98.0',
+        providerVersion: '1.99.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

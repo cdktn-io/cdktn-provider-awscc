@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/gamelift_container_group_definitions
+// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/gamelift_container_group_definitions
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccGameliftContainerGroupDefinitionsConfig extends cdktn.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/gamelift_container_group_definitions awscc_gamelift_container_group_definitions}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/gamelift_container_group_definitions awscc_gamelift_container_group_definitions}
 */
 export class DataAwsccGameliftContainerGroupDefinitions extends cdktn.TerraformDataSource {
 
@@ -31,7 +31,7 @@ export class DataAwsccGameliftContainerGroupDefinitions extends cdktn.TerraformD
   * Generates CDKTN code for importing a DataAwsccGameliftContainerGroupDefinitions resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccGameliftContainerGroupDefinitions to import
-  * @param importFromId The id of the existing DataAwsccGameliftContainerGroupDefinitions that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/gamelift_container_group_definitions#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccGameliftContainerGroupDefinitions that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/gamelift_container_group_definitions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccGameliftContainerGroupDefinitions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -43,7 +43,7 @@ export class DataAwsccGameliftContainerGroupDefinitions extends cdktn.TerraformD
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/gamelift_container_group_definitions awscc_gamelift_container_group_definitions} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/gamelift_container_group_definitions awscc_gamelift_container_group_definitions} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -54,7 +54,7 @@ export class DataAwsccGameliftContainerGroupDefinitions extends cdktn.TerraformD
       terraformResourceType: 'awscc_gamelift_container_group_definitions',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.98.0',
+        providerVersion: '1.99.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

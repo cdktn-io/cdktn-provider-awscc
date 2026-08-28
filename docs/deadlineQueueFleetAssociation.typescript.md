@@ -4,7 +4,7 @@
 
 ### DeadlineQueueFleetAssociation <a name="DeadlineQueueFleetAssociation" id="@cdktn/provider-awscc.deadlineQueueFleetAssociation.DeadlineQueueFleetAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_queue_fleet_association awscc_deadline_queue_fleet_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/deadline_queue_fleet_association awscc_deadline_queue_fleet_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.deadlineQueueFleetAssociation.DeadlineQueueFleetAssociation.Initializer"></a>
 
@@ -489,7 +489,7 @@ The construct id used in the generated config for the DeadlineQueueFleetAssociat
 
 The id of the existing DeadlineQueueFleetAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_queue_fleet_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/deadline_queue_fleet_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -782,9 +782,9 @@ const deadlineQueueFleetAssociationConfig: deadlineQueueFleetAssociation.Deadlin
 | <code><a href="#@cdktn/provider-awscc.deadlineQueueFleetAssociation.DeadlineQueueFleetAssociationConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.deadlineQueueFleetAssociation.DeadlineQueueFleetAssociationConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.deadlineQueueFleetAssociation.DeadlineQueueFleetAssociationConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.deadlineQueueFleetAssociation.DeadlineQueueFleetAssociationConfig.property.farmId">farmId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_queue_fleet_association#farm_id DeadlineQueueFleetAssociation#farm_id}. |
-| <code><a href="#@cdktn/provider-awscc.deadlineQueueFleetAssociation.DeadlineQueueFleetAssociationConfig.property.fleetId">fleetId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_queue_fleet_association#fleet_id DeadlineQueueFleetAssociation#fleet_id}. |
-| <code><a href="#@cdktn/provider-awscc.deadlineQueueFleetAssociation.DeadlineQueueFleetAssociationConfig.property.queueId">queueId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_queue_fleet_association#queue_id DeadlineQueueFleetAssociation#queue_id}. |
+| <code><a href="#@cdktn/provider-awscc.deadlineQueueFleetAssociation.DeadlineQueueFleetAssociationConfig.property.farmId">farmId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/deadline_queue_fleet_association#farm_id DeadlineQueueFleetAssociation#farm_id}. |
+| <code><a href="#@cdktn/provider-awscc.deadlineQueueFleetAssociation.DeadlineQueueFleetAssociationConfig.property.fleetId">fleetId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/deadline_queue_fleet_association#fleet_id DeadlineQueueFleetAssociation#fleet_id}. |
+| <code><a href="#@cdktn/provider-awscc.deadlineQueueFleetAssociation.DeadlineQueueFleetAssociationConfig.property.queueId">queueId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/deadline_queue_fleet_association#queue_id DeadlineQueueFleetAssociation#queue_id}. |
 
 ---
 
@@ -866,7 +866,7 @@ public readonly farmId: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_queue_fleet_association#farm_id DeadlineQueueFleetAssociation#farm_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/deadline_queue_fleet_association#farm_id DeadlineQueueFleetAssociation#farm_id}.
 
 ---
 
@@ -878,7 +878,7 @@ public readonly fleetId: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_queue_fleet_association#fleet_id DeadlineQueueFleetAssociation#fleet_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/deadline_queue_fleet_association#fleet_id DeadlineQueueFleetAssociation#fleet_id}.
 
 ---
 
@@ -890,7 +890,7 @@ public readonly queueId: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_queue_fleet_association#queue_id DeadlineQueueFleetAssociation#queue_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/deadline_queue_fleet_association#queue_id DeadlineQueueFleetAssociation#queue_id}.
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### DataAwsccElasticacheReplicationGroups <a name="DataAwsccElasticacheReplicationGroups" id="@cdktn/provider-awscc.dataAwsccElasticacheReplicationGroups.DataAwsccElasticacheReplicationGroups"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/elasticache_replication_groups awscc_elasticache_replication_groups}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/elasticache_replication_groups awscc_elasticache_replication_groups}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccElasticacheReplicationGroups.DataAwsccElasticacheReplicationGroups.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccElasticacheReplic
 
 The id of the existing DataAwsccElasticacheReplicationGroups that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/elasticache_replication_groups#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/elasticache_replication_groups#import import section} in the documentation of this resource for the id to use
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### DataAwsccSecuritylakeSubscriberNotifications <a name="DataAwsccSecuritylakeSubscriberNotifications" id="@cdktn/provider-awscc.dataAwsccSecuritylakeSubscriberNotifications.DataAwsccSecuritylakeSubscriberNotifications"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/securitylake_subscriber_notifications awscc_securitylake_subscriber_notifications}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/securitylake_subscriber_notifications awscc_securitylake_subscriber_notifications}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecuritylakeSubscriberNotifications.DataAwsccSecuritylakeSubscriberNotifications.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccSecuritylakeSubsc
 
 The id of the existing DataAwsccSecuritylakeSubscriberNotifications that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/securitylake_subscriber_notifications#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/securitylake_subscriber_notifications#import import section} in the documentation of this resource for the id to use
 
 ---
 

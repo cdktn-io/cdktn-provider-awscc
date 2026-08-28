@@ -4,7 +4,7 @@
 
 ### ApigatewayDocumentationPart <a name="ApigatewayDocumentationPart" id="@cdktn/provider-awscc.apigatewayDocumentationPart.ApigatewayDocumentationPart"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_documentation_part awscc_apigateway_documentation_part}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_documentation_part awscc_apigateway_documentation_part}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apigatewayDocumentationPart.ApigatewayDocumentationPart.Initializer"></a>
 
@@ -39,8 +39,8 @@ apigatewayDocumentationPart.ApigatewayDocumentationPart(
 | <code><a href="#@cdktn/provider-awscc.apigatewayDocumentationPart.ApigatewayDocumentationPart.Initializer.parameter.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.apigatewayDocumentationPart.ApigatewayDocumentationPart.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.apigatewayDocumentationPart.ApigatewayDocumentationPart.Initializer.parameter.location">location</a></code> | <code><a href="#@cdktn/provider-awscc.apigatewayDocumentationPart.ApigatewayDocumentationPartLocation">ApigatewayDocumentationPartLocation</a></code> | The ``Location`` property specifies the location of the Amazon API Gateway API entity that the documentation applies to. |
-| <code><a href="#@cdktn/provider-awscc.apigatewayDocumentationPart.ApigatewayDocumentationPart.Initializer.parameter.properties">properties</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_documentation_part#properties ApigatewayDocumentationPart#properties}. |
-| <code><a href="#@cdktn/provider-awscc.apigatewayDocumentationPart.ApigatewayDocumentationPart.Initializer.parameter.restApiId">rest_api_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_documentation_part#rest_api_id ApigatewayDocumentationPart#rest_api_id}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayDocumentationPart.ApigatewayDocumentationPart.Initializer.parameter.properties">properties</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_documentation_part#properties ApigatewayDocumentationPart#properties}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayDocumentationPart.ApigatewayDocumentationPart.Initializer.parameter.restApiId">rest_api_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_documentation_part#rest_api_id ApigatewayDocumentationPart#rest_api_id}. |
 
 ---
 
@@ -113,7 +113,7 @@ The ``Location`` property specifies the location of the Amazon API Gateway API e
 `Location` is a property of the [AWS::ApiGateway::DocumentationPart](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-documentationpart.html) resource.
 For more information about each property, including constraints and valid values, see [DocumentationPart](https://docs.aws.amazon.com/apigateway/latest/api/API_DocumentationPartLocation.html) in the *Amazon API Gateway REST API Reference*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_documentation_part#location ApigatewayDocumentationPart#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_documentation_part#location ApigatewayDocumentationPart#location}
 
 ---
 
@@ -121,7 +121,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_documentation_part#properties ApigatewayDocumentationPart#properties}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_documentation_part#properties ApigatewayDocumentationPart#properties}.
 
 ---
 
@@ -129,7 +129,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_documentation_part#rest_api_id ApigatewayDocumentationPart#rest_api_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_documentation_part#rest_api_id ApigatewayDocumentationPart#rest_api_id}.
 
 ---
 
@@ -529,7 +529,7 @@ def put_location(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_documentation_part#method ApigatewayDocumentationPart#method}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_documentation_part#method ApigatewayDocumentationPart#method}.
 
 ---
 
@@ -537,7 +537,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_documentation_part#name ApigatewayDocumentationPart#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_documentation_part#name ApigatewayDocumentationPart#name}.
 
 ---
 
@@ -545,7 +545,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_documentation_part#path ApigatewayDocumentationPart#path}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_documentation_part#path ApigatewayDocumentationPart#path}.
 
 ---
 
@@ -553,7 +553,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_documentation_part#status_code ApigatewayDocumentationPart#status_code}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_documentation_part#status_code ApigatewayDocumentationPart#status_code}.
 
 ---
 
@@ -561,7 +561,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_documentation_part#type ApigatewayDocumentationPart#type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_documentation_part#type ApigatewayDocumentationPart#type}.
 
 ---
 
@@ -679,7 +679,7 @@ The construct id used in the generated config for the ApigatewayDocumentationPar
 
 The id of the existing ApigatewayDocumentationPart that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_documentation_part#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_documentation_part#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -995,8 +995,8 @@ apigatewayDocumentationPart.ApigatewayDocumentationPartConfig(
 | <code><a href="#@cdktn/provider-awscc.apigatewayDocumentationPart.ApigatewayDocumentationPartConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.apigatewayDocumentationPart.ApigatewayDocumentationPartConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.apigatewayDocumentationPart.ApigatewayDocumentationPartConfig.property.location">location</a></code> | <code><a href="#@cdktn/provider-awscc.apigatewayDocumentationPart.ApigatewayDocumentationPartLocation">ApigatewayDocumentationPartLocation</a></code> | The ``Location`` property specifies the location of the Amazon API Gateway API entity that the documentation applies to. |
-| <code><a href="#@cdktn/provider-awscc.apigatewayDocumentationPart.ApigatewayDocumentationPartConfig.property.properties">properties</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_documentation_part#properties ApigatewayDocumentationPart#properties}. |
-| <code><a href="#@cdktn/provider-awscc.apigatewayDocumentationPart.ApigatewayDocumentationPartConfig.property.restApiId">rest_api_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_documentation_part#rest_api_id ApigatewayDocumentationPart#rest_api_id}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayDocumentationPart.ApigatewayDocumentationPartConfig.property.properties">properties</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_documentation_part#properties ApigatewayDocumentationPart#properties}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayDocumentationPart.ApigatewayDocumentationPartConfig.property.restApiId">rest_api_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_documentation_part#rest_api_id ApigatewayDocumentationPart#rest_api_id}. |
 
 ---
 
@@ -1083,7 +1083,7 @@ The ``Location`` property specifies the location of the Amazon API Gateway API e
 `Location` is a property of the [AWS::ApiGateway::DocumentationPart](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-documentationpart.html) resource.
 For more information about each property, including constraints and valid values, see [DocumentationPart](https://docs.aws.amazon.com/apigateway/latest/api/API_DocumentationPartLocation.html) in the *Amazon API Gateway REST API Reference*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_documentation_part#location ApigatewayDocumentationPart#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_documentation_part#location ApigatewayDocumentationPart#location}
 
 ---
 
@@ -1095,7 +1095,7 @@ properties: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_documentation_part#properties ApigatewayDocumentationPart#properties}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_documentation_part#properties ApigatewayDocumentationPart#properties}.
 
 ---
 
@@ -1107,7 +1107,7 @@ rest_api_id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_documentation_part#rest_api_id ApigatewayDocumentationPart#rest_api_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_documentation_part#rest_api_id ApigatewayDocumentationPart#rest_api_id}.
 
 ---
 
@@ -1131,11 +1131,11 @@ apigatewayDocumentationPart.ApigatewayDocumentationPartLocation(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.apigatewayDocumentationPart.ApigatewayDocumentationPartLocation.property.method">method</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_documentation_part#method ApigatewayDocumentationPart#method}. |
-| <code><a href="#@cdktn/provider-awscc.apigatewayDocumentationPart.ApigatewayDocumentationPartLocation.property.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_documentation_part#name ApigatewayDocumentationPart#name}. |
-| <code><a href="#@cdktn/provider-awscc.apigatewayDocumentationPart.ApigatewayDocumentationPartLocation.property.path">path</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_documentation_part#path ApigatewayDocumentationPart#path}. |
-| <code><a href="#@cdktn/provider-awscc.apigatewayDocumentationPart.ApigatewayDocumentationPartLocation.property.statusCode">status_code</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_documentation_part#status_code ApigatewayDocumentationPart#status_code}. |
-| <code><a href="#@cdktn/provider-awscc.apigatewayDocumentationPart.ApigatewayDocumentationPartLocation.property.type">type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_documentation_part#type ApigatewayDocumentationPart#type}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayDocumentationPart.ApigatewayDocumentationPartLocation.property.method">method</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_documentation_part#method ApigatewayDocumentationPart#method}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayDocumentationPart.ApigatewayDocumentationPartLocation.property.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_documentation_part#name ApigatewayDocumentationPart#name}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayDocumentationPart.ApigatewayDocumentationPartLocation.property.path">path</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_documentation_part#path ApigatewayDocumentationPart#path}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayDocumentationPart.ApigatewayDocumentationPartLocation.property.statusCode">status_code</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_documentation_part#status_code ApigatewayDocumentationPart#status_code}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayDocumentationPart.ApigatewayDocumentationPartLocation.property.type">type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_documentation_part#type ApigatewayDocumentationPart#type}. |
 
 ---
 
@@ -1147,7 +1147,7 @@ method: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_documentation_part#method ApigatewayDocumentationPart#method}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_documentation_part#method ApigatewayDocumentationPart#method}.
 
 ---
 
@@ -1159,7 +1159,7 @@ name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_documentation_part#name ApigatewayDocumentationPart#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_documentation_part#name ApigatewayDocumentationPart#name}.
 
 ---
 
@@ -1171,7 +1171,7 @@ path: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_documentation_part#path ApigatewayDocumentationPart#path}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_documentation_part#path ApigatewayDocumentationPart#path}.
 
 ---
 
@@ -1183,7 +1183,7 @@ status_code: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_documentation_part#status_code ApigatewayDocumentationPart#status_code}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_documentation_part#status_code ApigatewayDocumentationPart#status_code}.
 
 ---
 
@@ -1195,7 +1195,7 @@ type: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_documentation_part#type ApigatewayDocumentationPart#type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_documentation_part#type ApigatewayDocumentationPart#type}.
 
 ---
 

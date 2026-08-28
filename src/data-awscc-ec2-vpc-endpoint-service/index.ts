@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ec2_vpc_endpoint_service
+// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_vpc_endpoint_service
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,12 +15,81 @@ export interface DataAwsccEc2VpcEndpointServiceConfig extends cdktn.TerraformMet
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ec2_vpc_endpoint_service#id DataAwsccEc2VpcEndpointService#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_vpc_endpoint_service#id DataAwsccEc2VpcEndpointService#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
+}
+export interface DataAwsccEc2VpcEndpointServicePrivateDnsNameConfiguration {
+}
+
+export function dataAwsccEc2VpcEndpointServicePrivateDnsNameConfigurationToTerraform(struct?: DataAwsccEc2VpcEndpointServicePrivateDnsNameConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccEc2VpcEndpointServicePrivateDnsNameConfigurationToHclTerraform(struct?: DataAwsccEc2VpcEndpointServicePrivateDnsNameConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccEc2VpcEndpointServicePrivateDnsNameConfigurationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccEc2VpcEndpointServicePrivateDnsNameConfiguration | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccEc2VpcEndpointServicePrivateDnsNameConfiguration | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // name - computed: true, optional: false, required: false
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+
+  // state - computed: true, optional: false, required: false
+  public get state() {
+    return this.getStringAttribute('state');
+  }
+
+  // type - computed: true, optional: false, required: false
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+
+  // value - computed: true, optional: false, required: false
+  public get value() {
+    return this.getStringAttribute('value');
+  }
 }
 export interface DataAwsccEc2VpcEndpointServiceTags {
 }
@@ -104,7 +173,7 @@ export class DataAwsccEc2VpcEndpointServiceTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ec2_vpc_endpoint_service awscc_ec2_vpc_endpoint_service}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_vpc_endpoint_service awscc_ec2_vpc_endpoint_service}
 */
 export class DataAwsccEc2VpcEndpointService extends cdktn.TerraformDataSource {
 
@@ -120,7 +189,7 @@ export class DataAwsccEc2VpcEndpointService extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAwsccEc2VpcEndpointService resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccEc2VpcEndpointService to import
-  * @param importFromId The id of the existing DataAwsccEc2VpcEndpointService that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ec2_vpc_endpoint_service#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccEc2VpcEndpointService that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_vpc_endpoint_service#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccEc2VpcEndpointService to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -132,7 +201,7 @@ export class DataAwsccEc2VpcEndpointService extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ec2_vpc_endpoint_service awscc_ec2_vpc_endpoint_service} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_vpc_endpoint_service awscc_ec2_vpc_endpoint_service} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -143,7 +212,7 @@ export class DataAwsccEc2VpcEndpointService extends cdktn.TerraformDataSource {
       terraformResourceType: 'awscc_ec2_vpc_endpoint_service',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.98.0',
+        providerVersion: '1.99.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -197,6 +266,17 @@ export class DataAwsccEc2VpcEndpointService extends cdktn.TerraformDataSource {
   // payer_responsibility - computed: true, optional: false, required: false
   public get payerResponsibility() {
     return this.getStringAttribute('payer_responsibility');
+  }
+
+  // private_dns_name - computed: true, optional: false, required: false
+  public get privateDnsName() {
+    return this.getStringAttribute('private_dns_name');
+  }
+
+  // private_dns_name_configuration - computed: true, optional: false, required: false
+  private _privateDnsNameConfiguration = new DataAwsccEc2VpcEndpointServicePrivateDnsNameConfigurationOutputReference(this, "private_dns_name_configuration");
+  public get privateDnsNameConfiguration() {
+    return this._privateDnsNameConfiguration;
   }
 
   // service_id - computed: true, optional: false, required: false

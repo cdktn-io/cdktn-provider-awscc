@@ -4,7 +4,7 @@
 
 ### DataAwsccIotcoredeviceadvisorSuiteDefinitions <a name="DataAwsccIotcoredeviceadvisorSuiteDefinitions" id="@cdktn/provider-awscc.dataAwsccIotcoredeviceadvisorSuiteDefinitions.DataAwsccIotcoredeviceadvisorSuiteDefinitions"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/iotcoredeviceadvisor_suite_definitions awscc_iotcoredeviceadvisor_suite_definitions}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/iotcoredeviceadvisor_suite_definitions awscc_iotcoredeviceadvisor_suite_definitions}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotcoredeviceadvisorSuiteDefinitions.DataAwsccIotcoredeviceadvisorSuiteDefinitions.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccIotcoredeviceadvi
 
 The id of the existing DataAwsccIotcoredeviceadvisorSuiteDefinitions that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/iotcoredeviceadvisor_suite_definitions#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/iotcoredeviceadvisor_suite_definitions#import import section} in the documentation of this resource for the id to use
 
 ---
 

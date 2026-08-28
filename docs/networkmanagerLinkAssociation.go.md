@@ -4,7 +4,7 @@
 
 ### NetworkmanagerLinkAssociation <a name="NetworkmanagerLinkAssociation" id="@cdktn/provider-awscc.networkmanagerLinkAssociation.NetworkmanagerLinkAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/networkmanager_link_association awscc_networkmanager_link_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/networkmanager_link_association awscc_networkmanager_link_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networkmanagerLinkAssociation.NetworkmanagerLinkAssociation.Initializer"></a>
 
@@ -489,7 +489,7 @@ The construct id used in the generated config for the NetworkmanagerLinkAssociat
 
 The id of the existing NetworkmanagerLinkAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/networkmanager_link_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/networkmanager_link_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -879,7 +879,7 @@ DeviceId *string
 
 The ID of the device.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/networkmanager_link_association#device_id NetworkmanagerLinkAssociation#device_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/networkmanager_link_association#device_id NetworkmanagerLinkAssociation#device_id}
 
 ---
 
@@ -893,7 +893,7 @@ GlobalNetworkId *string
 
 The ID of the global network.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/networkmanager_link_association#global_network_id NetworkmanagerLinkAssociation#global_network_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/networkmanager_link_association#global_network_id NetworkmanagerLinkAssociation#global_network_id}
 
 ---
 
@@ -907,7 +907,7 @@ LinkId *string
 
 The ID of the link.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/networkmanager_link_association#link_id NetworkmanagerLinkAssociation#link_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/networkmanager_link_association#link_id NetworkmanagerLinkAssociation#link_id}
 
 ---
 

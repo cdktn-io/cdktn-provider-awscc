@@ -4,7 +4,7 @@
 
 ### DataAwsccEc2NetworkPerformanceMetricSubscriptions <a name="DataAwsccEc2NetworkPerformanceMetricSubscriptions" id="@cdktn/provider-awscc.dataAwsccEc2NetworkPerformanceMetricSubscriptions.DataAwsccEc2NetworkPerformanceMetricSubscriptions"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ec2_network_performance_metric_subscriptions awscc_ec2_network_performance_metric_subscriptions}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_network_performance_metric_subscriptions awscc_ec2_network_performance_metric_subscriptions}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2NetworkPerformanceMetricSubscriptions.DataAwsccEc2NetworkPerformanceMetricSubscriptions.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccEc2NetworkPerform
 
 The id of the existing DataAwsccEc2NetworkPerformanceMetricSubscriptions that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ec2_network_performance_metric_subscriptions#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_network_performance_metric_subscriptions#import import section} in the documentation of this resource for the id to use
 
 ---
 

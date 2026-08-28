@@ -4,7 +4,7 @@
 
 ### IotThingGroup <a name="IotThingGroup" id="@cdktn/provider-awscc.iotThingGroup.IotThingGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_thing_group awscc_iot_thing_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_thing_group awscc_iot_thing_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotThingGroup.IotThingGroup.Initializer"></a>
 
@@ -550,7 +550,7 @@ The construct id used in the generated config for the IotThingGroup to import.
 
 The id of the existing IotThingGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_thing_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_thing_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -909,11 +909,11 @@ const iotThingGroupConfig: iotThingGroup.IotThingGroupConfig = { ... }
 | <code><a href="#@cdktn/provider-awscc.iotThingGroup.IotThingGroupConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.iotThingGroup.IotThingGroupConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.iotThingGroup.IotThingGroupConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.iotThingGroup.IotThingGroupConfig.property.parentGroupName">parentGroupName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_thing_group#parent_group_name IotThingGroup#parent_group_name}. |
-| <code><a href="#@cdktn/provider-awscc.iotThingGroup.IotThingGroupConfig.property.queryString">queryString</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_thing_group#query_string IotThingGroup#query_string}. |
+| <code><a href="#@cdktn/provider-awscc.iotThingGroup.IotThingGroupConfig.property.parentGroupName">parentGroupName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_thing_group#parent_group_name IotThingGroup#parent_group_name}. |
+| <code><a href="#@cdktn/provider-awscc.iotThingGroup.IotThingGroupConfig.property.queryString">queryString</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_thing_group#query_string IotThingGroup#query_string}. |
 | <code><a href="#@cdktn/provider-awscc.iotThingGroup.IotThingGroupConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.iotThingGroup.IotThingGroupTags">IotThingGroupTags</a>[]</code> | An array of key-value pairs to apply to this resource. |
-| <code><a href="#@cdktn/provider-awscc.iotThingGroup.IotThingGroupConfig.property.thingGroupName">thingGroupName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_thing_group#thing_group_name IotThingGroup#thing_group_name}. |
-| <code><a href="#@cdktn/provider-awscc.iotThingGroup.IotThingGroupConfig.property.thingGroupProperties">thingGroupProperties</a></code> | <code><a href="#@cdktn/provider-awscc.iotThingGroup.IotThingGroupThingGroupProperties">IotThingGroupThingGroupProperties</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_thing_group#thing_group_properties IotThingGroup#thing_group_properties}. |
+| <code><a href="#@cdktn/provider-awscc.iotThingGroup.IotThingGroupConfig.property.thingGroupName">thingGroupName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_thing_group#thing_group_name IotThingGroup#thing_group_name}. |
+| <code><a href="#@cdktn/provider-awscc.iotThingGroup.IotThingGroupConfig.property.thingGroupProperties">thingGroupProperties</a></code> | <code><a href="#@cdktn/provider-awscc.iotThingGroup.IotThingGroupThingGroupProperties">IotThingGroupThingGroupProperties</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_thing_group#thing_group_properties IotThingGroup#thing_group_properties}. |
 
 ---
 
@@ -995,7 +995,7 @@ public readonly parentGroupName: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_thing_group#parent_group_name IotThingGroup#parent_group_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_thing_group#parent_group_name IotThingGroup#parent_group_name}.
 
 ---
 
@@ -1007,7 +1007,7 @@ public readonly queryString: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_thing_group#query_string IotThingGroup#query_string}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_thing_group#query_string IotThingGroup#query_string}.
 
 ---
 
@@ -1021,7 +1021,7 @@ public readonly tags: IResolvable | IotThingGroupTags[];
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_thing_group#tags IotThingGroup#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_thing_group#tags IotThingGroup#tags}
 
 ---
 
@@ -1033,7 +1033,7 @@ public readonly thingGroupName: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_thing_group#thing_group_name IotThingGroup#thing_group_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_thing_group#thing_group_name IotThingGroup#thing_group_name}.
 
 ---
 
@@ -1045,7 +1045,7 @@ public readonly thingGroupProperties: IotThingGroupThingGroupProperties;
 
 - *Type:* <a href="#@cdktn/provider-awscc.iotThingGroup.IotThingGroupThingGroupProperties">IotThingGroupThingGroupProperties</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_thing_group#thing_group_properties IotThingGroup#thing_group_properties}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_thing_group#thing_group_properties IotThingGroup#thing_group_properties}.
 
 ---
 
@@ -1078,7 +1078,7 @@ public readonly key: string;
 
 Tag key (1-128 chars). No 'aws:' prefix. Allows: [A-Za-z0-9 _.:/=+-].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_thing_group#key IotThingGroup#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_thing_group#key IotThingGroup#key}
 
 ---
 
@@ -1092,7 +1092,7 @@ public readonly value: string;
 
 Tag value (1-256 chars). No 'aws:' prefix. Allows: [A-Za-z0-9 _.:/=+-].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_thing_group#value IotThingGroup#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_thing_group#value IotThingGroup#value}
 
 ---
 
@@ -1110,8 +1110,8 @@ const iotThingGroupThingGroupProperties: iotThingGroup.IotThingGroupThingGroupPr
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.iotThingGroup.IotThingGroupThingGroupProperties.property.attributePayload">attributePayload</a></code> | <code><a href="#@cdktn/provider-awscc.iotThingGroup.IotThingGroupThingGroupPropertiesAttributePayload">IotThingGroupThingGroupPropertiesAttributePayload</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_thing_group#attribute_payload IotThingGroup#attribute_payload}. |
-| <code><a href="#@cdktn/provider-awscc.iotThingGroup.IotThingGroupThingGroupProperties.property.thingGroupDescription">thingGroupDescription</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_thing_group#thing_group_description IotThingGroup#thing_group_description}. |
+| <code><a href="#@cdktn/provider-awscc.iotThingGroup.IotThingGroupThingGroupProperties.property.attributePayload">attributePayload</a></code> | <code><a href="#@cdktn/provider-awscc.iotThingGroup.IotThingGroupThingGroupPropertiesAttributePayload">IotThingGroupThingGroupPropertiesAttributePayload</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_thing_group#attribute_payload IotThingGroup#attribute_payload}. |
+| <code><a href="#@cdktn/provider-awscc.iotThingGroup.IotThingGroupThingGroupProperties.property.thingGroupDescription">thingGroupDescription</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_thing_group#thing_group_description IotThingGroup#thing_group_description}. |
 
 ---
 
@@ -1123,7 +1123,7 @@ public readonly attributePayload: IotThingGroupThingGroupPropertiesAttributePayl
 
 - *Type:* <a href="#@cdktn/provider-awscc.iotThingGroup.IotThingGroupThingGroupPropertiesAttributePayload">IotThingGroupThingGroupPropertiesAttributePayload</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_thing_group#attribute_payload IotThingGroup#attribute_payload}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_thing_group#attribute_payload IotThingGroup#attribute_payload}.
 
 ---
 
@@ -1135,7 +1135,7 @@ public readonly thingGroupDescription: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_thing_group#thing_group_description IotThingGroup#thing_group_description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_thing_group#thing_group_description IotThingGroup#thing_group_description}.
 
 ---
 
@@ -1153,7 +1153,7 @@ const iotThingGroupThingGroupPropertiesAttributePayload: iotThingGroup.IotThingG
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.iotThingGroup.IotThingGroupThingGroupPropertiesAttributePayload.property.attributes">attributes</a></code> | <code>{[ key: string ]: string}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_thing_group#attributes IotThingGroup#attributes}. |
+| <code><a href="#@cdktn/provider-awscc.iotThingGroup.IotThingGroupThingGroupPropertiesAttributePayload.property.attributes">attributes</a></code> | <code>{[ key: string ]: string}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_thing_group#attributes IotThingGroup#attributes}. |
 
 ---
 
@@ -1165,7 +1165,7 @@ public readonly attributes: {[ key: string ]: string};
 
 - *Type:* {[ key: string ]: string}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_thing_group#attributes IotThingGroup#attributes}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_thing_group#attributes IotThingGroup#attributes}.
 
 ---
 

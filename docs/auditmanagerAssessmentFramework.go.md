@@ -4,7 +4,7 @@
 
 ### AuditmanagerAssessmentFramework <a name="AuditmanagerAssessmentFramework" id="@cdktn/provider-awscc.auditmanagerAssessmentFramework.AuditmanagerAssessmentFramework"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/auditmanager_assessment_framework awscc_auditmanager_assessment_framework}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/auditmanager_assessment_framework awscc_auditmanager_assessment_framework}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.auditmanagerAssessmentFramework.AuditmanagerAssessmentFramework.Initializer"></a>
 
@@ -536,7 +536,7 @@ The construct id used in the generated config for the AuditmanagerAssessmentFram
 
 The id of the existing AuditmanagerAssessmentFramework that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/auditmanager_assessment_framework#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/auditmanager_assessment_framework#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1051,7 +1051,7 @@ ControlSets interface{}
 
 The control sets that are associated with the framework.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/auditmanager_assessment_framework#control_sets AuditmanagerAssessmentFramework#control_sets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/auditmanager_assessment_framework#control_sets AuditmanagerAssessmentFramework#control_sets}
 
 ---
 
@@ -1065,7 +1065,7 @@ Name *string
 
 The name of the framework.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/auditmanager_assessment_framework#name AuditmanagerAssessmentFramework#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/auditmanager_assessment_framework#name AuditmanagerAssessmentFramework#name}
 
 ---
 
@@ -1079,7 +1079,7 @@ ComplianceType *string
 
 The compliance type that the framework supports, such as CIS or HIPAA.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/auditmanager_assessment_framework#compliance_type AuditmanagerAssessmentFramework#compliance_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/auditmanager_assessment_framework#compliance_type AuditmanagerAssessmentFramework#compliance_type}
 
 ---
 
@@ -1093,7 +1093,7 @@ Description *string
 
 The description of the framework.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/auditmanager_assessment_framework#description AuditmanagerAssessmentFramework#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/auditmanager_assessment_framework#description AuditmanagerAssessmentFramework#description}
 
 ---
 
@@ -1107,7 +1107,7 @@ Tags interface{}
 
 The tags associated with the framework.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/auditmanager_assessment_framework#tags AuditmanagerAssessmentFramework#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/auditmanager_assessment_framework#tags AuditmanagerAssessmentFramework#tags}
 
 ---
 
@@ -1143,7 +1143,7 @@ Controls interface{}
 
 The list of controls within the control set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/auditmanager_assessment_framework#controls AuditmanagerAssessmentFramework#controls}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/auditmanager_assessment_framework#controls AuditmanagerAssessmentFramework#controls}
 
 ---
 
@@ -1157,7 +1157,7 @@ Name *string
 
 The name of the control set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/auditmanager_assessment_framework#name AuditmanagerAssessmentFramework#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/auditmanager_assessment_framework#name AuditmanagerAssessmentFramework#name}
 
 ---
 
@@ -1191,7 +1191,7 @@ Id *string
 
 The unique identifier of the control.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/auditmanager_assessment_framework#id AuditmanagerAssessmentFramework#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/auditmanager_assessment_framework#id AuditmanagerAssessmentFramework#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1230,7 +1230,7 @@ Key *string
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/auditmanager_assessment_framework#key AuditmanagerAssessmentFramework#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/auditmanager_assessment_framework#key AuditmanagerAssessmentFramework#key}
 
 ---
 
@@ -1244,7 +1244,7 @@ Value *string
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/auditmanager_assessment_framework#value AuditmanagerAssessmentFramework#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/auditmanager_assessment_framework#value AuditmanagerAssessmentFramework#value}
 
 ---
 

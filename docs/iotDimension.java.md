@@ -4,7 +4,7 @@
 
 ### IotDimension <a name="IotDimension" id="@cdktn/provider-awscc.iotDimension.IotDimension"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_dimension awscc_iot_dimension}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_dimension awscc_iot_dimension}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotDimension.IotDimension.Initializer"></a>
 
@@ -110,7 +110,7 @@ Must be unique amongst siblings in the same scope
 
 Specifies the value or list of values for the dimension.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_dimension#string_values IotDimension#string_values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_dimension#string_values IotDimension#string_values}
 
 ---
 
@@ -120,7 +120,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Specifies the type of the dimension.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_dimension#type IotDimension#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_dimension#type IotDimension#type}
 
 ---
 
@@ -130,7 +130,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A unique identifier for the dimension.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_dimension#name IotDimension#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_dimension#name IotDimension#name}
 
 ---
 
@@ -140,7 +140,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Metadata that can be used to manage the dimension.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_dimension#tags IotDimension#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_dimension#tags IotDimension#tags}
 
 ---
 
@@ -616,7 +616,7 @@ The construct id used in the generated config for the IotDimension to import.
 
 The id of the existing IotDimension that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_dimension#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_dimension#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1041,7 +1041,7 @@ public java.util.List<java.lang.String> getStringValues();
 
 Specifies the value or list of values for the dimension.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_dimension#string_values IotDimension#string_values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_dimension#string_values IotDimension#string_values}
 
 ---
 
@@ -1055,7 +1055,7 @@ public java.lang.String getType();
 
 Specifies the type of the dimension.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_dimension#type IotDimension#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_dimension#type IotDimension#type}
 
 ---
 
@@ -1069,7 +1069,7 @@ public java.lang.String getName();
 
 A unique identifier for the dimension.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_dimension#name IotDimension#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_dimension#name IotDimension#name}
 
 ---
 
@@ -1083,7 +1083,7 @@ public IResolvable|java.util.List<IotDimensionTags> getTags();
 
 Metadata that can be used to manage the dimension.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_dimension#tags IotDimension#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_dimension#tags IotDimension#tags}
 
 ---
 
@@ -1119,7 +1119,7 @@ public java.lang.String getKey();
 
 The tag's key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_dimension#key IotDimension#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_dimension#key IotDimension#key}
 
 ---
 
@@ -1133,7 +1133,7 @@ public java.lang.String getValue();
 
 The tag's value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_dimension#value IotDimension#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_dimension#value IotDimension#value}
 
 ---
 

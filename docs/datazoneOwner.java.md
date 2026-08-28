@@ -4,7 +4,7 @@
 
 ### DatazoneOwner <a name="DatazoneOwner" id="@cdktn/provider-awscc.datazoneOwner.DatazoneOwner"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_owner awscc_datazone_owner}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_owner awscc_datazone_owner}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.datazoneOwner.DatazoneOwner.Initializer"></a>
 
@@ -110,7 +110,7 @@ Must be unique amongst siblings in the same scope
 
 The ID of the domain in which you want to add the entity owner.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_owner#domain_identifier DatazoneOwner#domain_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_owner#domain_identifier DatazoneOwner#domain_identifier}
 
 ---
 
@@ -120,7 +120,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The ID of the entity to which you want to add an owner.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_owner#entity_identifier DatazoneOwner#entity_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_owner#entity_identifier DatazoneOwner#entity_identifier}
 
 ---
 
@@ -130,7 +130,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The type of an entity.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_owner#entity_type DatazoneOwner#entity_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_owner#entity_type DatazoneOwner#entity_type}
 
 ---
 
@@ -140,7 +140,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The owner that you want to add to the entity.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_owner#owner DatazoneOwner#owner}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_owner#owner DatazoneOwner#owner}
 
 ---
 
@@ -602,7 +602,7 @@ The construct id used in the generated config for the DatazoneOwner to import.
 
 The id of the existing DatazoneOwner that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_owner#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_owner#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1038,7 +1038,7 @@ public java.lang.String getDomainIdentifier();
 
 The ID of the domain in which you want to add the entity owner.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_owner#domain_identifier DatazoneOwner#domain_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_owner#domain_identifier DatazoneOwner#domain_identifier}
 
 ---
 
@@ -1052,7 +1052,7 @@ public java.lang.String getEntityIdentifier();
 
 The ID of the entity to which you want to add an owner.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_owner#entity_identifier DatazoneOwner#entity_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_owner#entity_identifier DatazoneOwner#entity_identifier}
 
 ---
 
@@ -1066,7 +1066,7 @@ public java.lang.String getEntityType();
 
 The type of an entity.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_owner#entity_type DatazoneOwner#entity_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_owner#entity_type DatazoneOwner#entity_type}
 
 ---
 
@@ -1080,7 +1080,7 @@ public DatazoneOwnerOwner getOwner();
 
 The owner that you want to add to the entity.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_owner#owner DatazoneOwner#owner}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_owner#owner DatazoneOwner#owner}
 
 ---
 
@@ -1116,7 +1116,7 @@ public DatazoneOwnerOwnerGroup getGroup();
 
 The properties of the domain unit owners group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_owner#group DatazoneOwner#group}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_owner#group DatazoneOwner#group}
 
 ---
 
@@ -1130,7 +1130,7 @@ public DatazoneOwnerOwnerUser getUser();
 
 The properties of the owner user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_owner#user DatazoneOwner#user}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_owner#user DatazoneOwner#user}
 
 ---
 
@@ -1164,7 +1164,7 @@ public java.lang.String getGroupIdentifier();
 
 The ID of the domain unit owners group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_owner#group_identifier DatazoneOwner#group_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_owner#group_identifier DatazoneOwner#group_identifier}
 
 ---
 
@@ -1198,7 +1198,7 @@ public java.lang.String getUserIdentifier();
 
 The ID of the owner user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_owner#user_identifier DatazoneOwner#user_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_owner#user_identifier DatazoneOwner#user_identifier}
 
 ---
 

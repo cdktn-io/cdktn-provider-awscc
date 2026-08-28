@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/resourceexplorer2_index
+// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/resourceexplorer2_index
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,17 +13,17 @@ import * as cdktn from 'cdktn';
 
 export interface Resourceexplorer2IndexConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/resourceexplorer2_index#tags Resourceexplorer2Index#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/resourceexplorer2_index#tags Resourceexplorer2Index#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/resourceexplorer2_index#type Resourceexplorer2Index#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/resourceexplorer2_index#type Resourceexplorer2Index#type}
   */
   readonly type: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/resourceexplorer2_index awscc_resourceexplorer2_index}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/resourceexplorer2_index awscc_resourceexplorer2_index}
 */
 export class Resourceexplorer2Index extends cdktn.TerraformResource {
 
@@ -39,7 +39,7 @@ export class Resourceexplorer2Index extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Resourceexplorer2Index resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Resourceexplorer2Index to import
-  * @param importFromId The id of the existing Resourceexplorer2Index that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/resourceexplorer2_index#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Resourceexplorer2Index that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/resourceexplorer2_index#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Resourceexplorer2Index to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -51,7 +51,7 @@ export class Resourceexplorer2Index extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/resourceexplorer2_index awscc_resourceexplorer2_index} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/resourceexplorer2_index awscc_resourceexplorer2_index} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -62,7 +62,7 @@ export class Resourceexplorer2Index extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_resourceexplorer2_index',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.98.0',
+        providerVersion: '1.99.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

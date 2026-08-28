@@ -4,7 +4,7 @@
 
 ### GlueSchema <a name="GlueSchema" id="@cdktn/provider-awscc.glueSchema.GlueSchema"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_schema awscc_glue_schema}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_schema awscc_glue_schema}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueSchema.GlueSchema.Initializer"></a>
 
@@ -563,7 +563,7 @@ The construct id used in the generated config for the GlueSchema to import.
 
 The id of the existing GlueSchema that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_schema#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_schema#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -999,7 +999,7 @@ public bool|IResolvable IsLatest { get; set; }
 
 Indicates if the latest version needs to be updated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_schema#is_latest GlueSchema#is_latest}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_schema#is_latest GlueSchema#is_latest}
 
 ---
 
@@ -1013,7 +1013,7 @@ public double VersionNumber { get; set; }
 
 Indicates the version number in the schema to update.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_schema#version_number GlueSchema#version_number}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_schema#version_number GlueSchema#version_number}
 
 ---
 
@@ -1145,7 +1145,7 @@ public string Compatibility { get; set; }
 
 Compatibility setting for the schema.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_schema#compatibility GlueSchema#compatibility}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_schema#compatibility GlueSchema#compatibility}
 
 ---
 
@@ -1159,7 +1159,7 @@ public string DataFormat { get; set; }
 
 Data format name to use for the schema. Accepted values: 'AVRO', 'JSON', 'PROTOBUF'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_schema#data_format GlueSchema#data_format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_schema#data_format GlueSchema#data_format}
 
 ---
 
@@ -1173,7 +1173,7 @@ public string Name { get; set; }
 
 Name of the schema.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_schema#name GlueSchema#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_schema#name GlueSchema#name}
 
 ---
 
@@ -1187,7 +1187,7 @@ public GlueSchemaCheckpointVersion CheckpointVersion { get; set; }
 
 Specify checkpoint version for update. This is only required to update the Compatibility.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_schema#checkpoint_version GlueSchema#checkpoint_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_schema#checkpoint_version GlueSchema#checkpoint_version}
 
 ---
 
@@ -1201,7 +1201,7 @@ public string Description { get; set; }
 
 A description of the schema. If description is not provided, there will not be any default value for this.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_schema#description GlueSchema#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_schema#description GlueSchema#description}
 
 ---
 
@@ -1215,7 +1215,7 @@ public GlueSchemaRegistry Registry { get; set; }
 
 Identifier for the registry which the schema is part of.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_schema#registry GlueSchema#registry}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_schema#registry GlueSchema#registry}
 
 ---
 
@@ -1229,7 +1229,7 @@ public string SchemaDefinition { get; set; }
 
 Definition for the initial schema version in plain-text.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_schema#schema_definition GlueSchema#schema_definition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_schema#schema_definition GlueSchema#schema_definition}
 
 ---
 
@@ -1243,7 +1243,7 @@ public IResolvable|GlueSchemaTags[] Tags { get; set; }
 
 List of tags to tag the schema.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_schema#tags GlueSchema#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_schema#tags GlueSchema#tags}
 
 ---
 
@@ -1279,7 +1279,7 @@ public string Arn { get; set; }
 
 Amazon Resource Name for the Registry.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_schema#arn GlueSchema#arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_schema#arn GlueSchema#arn}
 
 ---
 
@@ -1293,7 +1293,7 @@ public string Name { get; set; }
 
 Name of the registry in which the schema will be created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_schema#name GlueSchema#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_schema#name GlueSchema#name}
 
 ---
 
@@ -1329,7 +1329,7 @@ public string Key { get; set; }
 
 A key to identify the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_schema#key GlueSchema#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_schema#key GlueSchema#key}
 
 ---
 
@@ -1343,7 +1343,7 @@ public string Value { get; set; }
 
 Corresponding tag value for the key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_schema#value GlueSchema#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_schema#value GlueSchema#value}
 
 ---
 

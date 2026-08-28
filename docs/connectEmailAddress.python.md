@@ -4,7 +4,7 @@
 
 ### ConnectEmailAddress <a name="ConnectEmailAddress" id="@cdktn/provider-awscc.connectEmailAddress.ConnectEmailAddress"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_email_address awscc_connect_email_address}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_email_address awscc_connect_email_address}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectEmailAddress.ConnectEmailAddress.Initializer"></a>
 
@@ -116,7 +116,7 @@ Must be unique amongst siblings in the same scope
 
 Email address to be created for this instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_email_address#email_address ConnectEmailAddress#email_address}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_email_address#email_address ConnectEmailAddress#email_address}
 
 ---
 
@@ -126,7 +126,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The identifier of the Amazon Connect instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_email_address#instance_arn ConnectEmailAddress#instance_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_email_address#instance_arn ConnectEmailAddress#instance_arn}
 
 ---
 
@@ -136,7 +136,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 List of alias configurations for the email address.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_email_address#alias_configurations ConnectEmailAddress#alias_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_email_address#alias_configurations ConnectEmailAddress#alias_configurations}
 
 ---
 
@@ -146,7 +146,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A description for the email address.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_email_address#description ConnectEmailAddress#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_email_address#description ConnectEmailAddress#description}
 
 ---
 
@@ -156,7 +156,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The display name for the email address.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_email_address#display_name ConnectEmailAddress#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_email_address#display_name ConnectEmailAddress#display_name}
 
 ---
 
@@ -166,7 +166,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 One or more tags.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_email_address#tags ConnectEmailAddress#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_email_address#tags ConnectEmailAddress#tags}
 
 ---
 
@@ -721,7 +721,7 @@ The construct id used in the generated config for the ConnectEmailAddress to imp
 
 The id of the existing ConnectEmailAddress that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_email_address#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_email_address#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1100,7 +1100,7 @@ email_address_arn: str
 
 The identifier of the email address alias.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_email_address#email_address_arn ConnectEmailAddress#email_address_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_email_address#email_address_arn ConnectEmailAddress#email_address_arn}
 
 ---
 
@@ -1228,7 +1228,7 @@ email_address: str
 
 Email address to be created for this instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_email_address#email_address ConnectEmailAddress#email_address}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_email_address#email_address ConnectEmailAddress#email_address}
 
 ---
 
@@ -1242,7 +1242,7 @@ instance_arn: str
 
 The identifier of the Amazon Connect instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_email_address#instance_arn ConnectEmailAddress#instance_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_email_address#instance_arn ConnectEmailAddress#instance_arn}
 
 ---
 
@@ -1256,7 +1256,7 @@ alias_configurations: IResolvable | typing.List[ConnectEmailAddressAliasConfigur
 
 List of alias configurations for the email address.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_email_address#alias_configurations ConnectEmailAddress#alias_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_email_address#alias_configurations ConnectEmailAddress#alias_configurations}
 
 ---
 
@@ -1270,7 +1270,7 @@ description: str
 
 A description for the email address.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_email_address#description ConnectEmailAddress#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_email_address#description ConnectEmailAddress#description}
 
 ---
 
@@ -1284,7 +1284,7 @@ display_name: str
 
 The display name for the email address.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_email_address#display_name ConnectEmailAddress#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_email_address#display_name ConnectEmailAddress#display_name}
 
 ---
 
@@ -1298,7 +1298,7 @@ tags: IResolvable | typing.List[ConnectEmailAddressTags]
 
 One or more tags.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_email_address#tags ConnectEmailAddress#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_email_address#tags ConnectEmailAddress#tags}
 
 ---
 
@@ -1336,7 +1336,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_email_address#key ConnectEmailAddress#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_email_address#key ConnectEmailAddress#key}
 
 ---
 
@@ -1352,7 +1352,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_email_address#value ConnectEmailAddress#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_email_address#value ConnectEmailAddress#value}
 
 ---
 

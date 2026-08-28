@@ -4,7 +4,7 @@
 
 ### DataAwsccBraketSpendingLimits <a name="DataAwsccBraketSpendingLimits" id="@cdktn/provider-awscc.dataAwsccBraketSpendingLimits.DataAwsccBraketSpendingLimits"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/braket_spending_limits awscc_braket_spending_limits}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/braket_spending_limits awscc_braket_spending_limits}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBraketSpendingLimits.DataAwsccBraketSpendingLimits.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccBraketSpendingLim
 
 The id of the existing DataAwsccBraketSpendingLimits that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/braket_spending_limits#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/braket_spending_limits#import import section} in the documentation of this resource for the id to use
 
 ---
 

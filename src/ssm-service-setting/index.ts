@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssm_service_setting
+// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssm_service_setting
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,19 +15,19 @@ export interface SsmServiceSettingConfig extends cdktn.TerraformMetaArguments {
   /**
   * The ID of the service setting, such as /ssm/parameter-store/high-throughput-enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssm_service_setting#setting_id SsmServiceSetting#setting_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssm_service_setting#setting_id SsmServiceSetting#setting_id}
   */
   readonly settingId: string;
   /**
   * The value of the service setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssm_service_setting#setting_value SsmServiceSetting#setting_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssm_service_setting#setting_value SsmServiceSetting#setting_value}
   */
   readonly settingValue: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssm_service_setting awscc_ssm_service_setting}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssm_service_setting awscc_ssm_service_setting}
 */
 export class SsmServiceSetting extends cdktn.TerraformResource {
 
@@ -43,7 +43,7 @@ export class SsmServiceSetting extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a SsmServiceSetting resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SsmServiceSetting to import
-  * @param importFromId The id of the existing SsmServiceSetting that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssm_service_setting#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SsmServiceSetting that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssm_service_setting#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SsmServiceSetting to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -55,7 +55,7 @@ export class SsmServiceSetting extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssm_service_setting awscc_ssm_service_setting} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssm_service_setting awscc_ssm_service_setting} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -66,7 +66,7 @@ export class SsmServiceSetting extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_ssm_service_setting',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.98.0',
+        providerVersion: '1.99.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

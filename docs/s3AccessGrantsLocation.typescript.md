@@ -4,7 +4,7 @@
 
 ### S3AccessGrantsLocation <a name="S3AccessGrantsLocation" id="@cdktn/provider-awscc.s3AccessGrantsLocation.S3AccessGrantsLocation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3_access_grants_location awscc_s3_access_grants_location}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3_access_grants_location awscc_s3_access_grants_location}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3AccessGrantsLocation.S3AccessGrantsLocation.Initializer"></a>
 
@@ -509,7 +509,7 @@ The construct id used in the generated config for the S3AccessGrantsLocation to 
 
 The id of the existing S3AccessGrantsLocation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3_access_grants_location#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3_access_grants_location#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -826,7 +826,7 @@ const s3AccessGrantsLocationConfig: s3AccessGrantsLocation.S3AccessGrantsLocatio
 | <code><a href="#@cdktn/provider-awscc.s3AccessGrantsLocation.S3AccessGrantsLocationConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3AccessGrantsLocation.S3AccessGrantsLocationConfig.property.iamRoleArn">iamRoleArn</a></code> | <code>string</code> | The Amazon Resource Name (ARN) of the access grant location's associated IAM role. |
 | <code><a href="#@cdktn/provider-awscc.s3AccessGrantsLocation.S3AccessGrantsLocationConfig.property.locationScope">locationScope</a></code> | <code>string</code> | Descriptor for where the location actually points. |
-| <code><a href="#@cdktn/provider-awscc.s3AccessGrantsLocation.S3AccessGrantsLocationConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.s3AccessGrantsLocation.S3AccessGrantsLocationTags">S3AccessGrantsLocationTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3_access_grants_location#tags S3AccessGrantsLocation#tags}. |
+| <code><a href="#@cdktn/provider-awscc.s3AccessGrantsLocation.S3AccessGrantsLocationConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.s3AccessGrantsLocation.S3AccessGrantsLocationTags">S3AccessGrantsLocationTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3_access_grants_location#tags S3AccessGrantsLocation#tags}. |
 
 ---
 
@@ -910,7 +910,7 @@ public readonly iamRoleArn: string;
 
 The Amazon Resource Name (ARN) of the access grant location's associated IAM role.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3_access_grants_location#iam_role_arn S3AccessGrantsLocation#iam_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3_access_grants_location#iam_role_arn S3AccessGrantsLocation#iam_role_arn}
 
 ---
 
@@ -924,7 +924,7 @@ public readonly locationScope: string;
 
 Descriptor for where the location actually points.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3_access_grants_location#location_scope S3AccessGrantsLocation#location_scope}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3_access_grants_location#location_scope S3AccessGrantsLocation#location_scope}
 
 ---
 
@@ -936,7 +936,7 @@ public readonly tags: IResolvable | S3AccessGrantsLocationTags[];
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.s3AccessGrantsLocation.S3AccessGrantsLocationTags">S3AccessGrantsLocationTags</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3_access_grants_location#tags S3AccessGrantsLocation#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3_access_grants_location#tags S3AccessGrantsLocation#tags}.
 
 ---
 
@@ -954,8 +954,8 @@ const s3AccessGrantsLocationTags: s3AccessGrantsLocation.S3AccessGrantsLocationT
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.s3AccessGrantsLocation.S3AccessGrantsLocationTags.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3_access_grants_location#key S3AccessGrantsLocation#key}. |
-| <code><a href="#@cdktn/provider-awscc.s3AccessGrantsLocation.S3AccessGrantsLocationTags.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3_access_grants_location#value S3AccessGrantsLocation#value}. |
+| <code><a href="#@cdktn/provider-awscc.s3AccessGrantsLocation.S3AccessGrantsLocationTags.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3_access_grants_location#key S3AccessGrantsLocation#key}. |
+| <code><a href="#@cdktn/provider-awscc.s3AccessGrantsLocation.S3AccessGrantsLocationTags.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3_access_grants_location#value S3AccessGrantsLocation#value}. |
 
 ---
 
@@ -967,7 +967,7 @@ public readonly key: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3_access_grants_location#key S3AccessGrantsLocation#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3_access_grants_location#key S3AccessGrantsLocation#key}.
 
 ---
 
@@ -979,7 +979,7 @@ public readonly value: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3_access_grants_location#value S3AccessGrantsLocation#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3_access_grants_location#value S3AccessGrantsLocation#value}.
 
 ---
 

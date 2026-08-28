@@ -4,7 +4,7 @@
 
 ### DataAwsccRedshiftserverlessNamespaces <a name="DataAwsccRedshiftserverlessNamespaces" id="@cdktn/provider-awscc.dataAwsccRedshiftserverlessNamespaces.DataAwsccRedshiftserverlessNamespaces"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/redshiftserverless_namespaces awscc_redshiftserverless_namespaces}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/redshiftserverless_namespaces awscc_redshiftserverless_namespaces}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRedshiftserverlessNamespaces.DataAwsccRedshiftserverlessNamespaces.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccRedshiftserverles
 
 The id of the existing DataAwsccRedshiftserverlessNamespaces that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/redshiftserverless_namespaces#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/redshiftserverless_namespaces#import import section} in the documentation of this resource for the id to use
 
 ---
 

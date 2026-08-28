@@ -4,7 +4,7 @@
 
 ### DataAwsccFsxS3AccessPointAttachments <a name="DataAwsccFsxS3AccessPointAttachments" id="@cdktn/provider-awscc.dataAwsccFsxS3AccessPointAttachments.DataAwsccFsxS3AccessPointAttachments"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/fsx_s3_access_point_attachments awscc_fsx_s3_access_point_attachments}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/fsx_s3_access_point_attachments awscc_fsx_s3_access_point_attachments}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFsxS3AccessPointAttachments.DataAwsccFsxS3AccessPointAttachments.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccFsxS3AccessPointA
 
 The id of the existing DataAwsccFsxS3AccessPointAttachments that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/fsx_s3_access_point_attachments#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/fsx_s3_access_point_attachments#import import section} in the documentation of this resource for the id to use
 
 ---
 

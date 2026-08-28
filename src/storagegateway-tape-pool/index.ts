@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/storagegateway_tape_pool
+// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/storagegateway_tape_pool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,31 +15,31 @@ export interface StoragegatewayTapePoolConfig extends cdktn.TerraformMetaArgumen
   /**
   * The name of the custom tape pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/storagegateway_tape_pool#pool_name StoragegatewayTapePool#pool_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/storagegateway_tape_pool#pool_name StoragegatewayTapePool#pool_name}
   */
   readonly poolName: string;
   /**
   * Tape retention lock time in days (up to 36,500 days / 100 years).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/storagegateway_tape_pool#retention_lock_time_in_days StoragegatewayTapePool#retention_lock_time_in_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/storagegateway_tape_pool#retention_lock_time_in_days StoragegatewayTapePool#retention_lock_time_in_days}
   */
   readonly retentionLockTimeInDays?: number;
   /**
   * Tape retention lock type. Governance mode allows authorized removal; compliance mode prevents all removal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/storagegateway_tape_pool#retention_lock_type StoragegatewayTapePool#retention_lock_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/storagegateway_tape_pool#retention_lock_type StoragegatewayTapePool#retention_lock_type}
   */
   readonly retentionLockType?: string;
   /**
   * The storage class associated with the custom pool (S3 Glacier or S3 Glacier Deep Archive).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/storagegateway_tape_pool#storage_class StoragegatewayTapePool#storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/storagegateway_tape_pool#storage_class StoragegatewayTapePool#storage_class}
   */
   readonly storageClass: string;
   /**
   * A list of up to 50 tags for the tape pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/storagegateway_tape_pool#tags StoragegatewayTapePool#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/storagegateway_tape_pool#tags StoragegatewayTapePool#tags}
   */
   readonly tags?: StoragegatewayTapePoolTags[] | cdktn.IResolvable;
 }
@@ -47,13 +47,13 @@ export interface StoragegatewayTapePoolTags {
   /**
   * The tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/storagegateway_tape_pool#key StoragegatewayTapePool#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/storagegateway_tape_pool#key StoragegatewayTapePool#key}
   */
   readonly key?: string;
   /**
   * The tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/storagegateway_tape_pool#value StoragegatewayTapePool#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/storagegateway_tape_pool#value StoragegatewayTapePool#value}
   */
   readonly value?: string;
 }
@@ -198,7 +198,7 @@ export class StoragegatewayTapePoolTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/storagegateway_tape_pool awscc_storagegateway_tape_pool}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/storagegateway_tape_pool awscc_storagegateway_tape_pool}
 */
 export class StoragegatewayTapePool extends cdktn.TerraformResource {
 
@@ -214,7 +214,7 @@ export class StoragegatewayTapePool extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a StoragegatewayTapePool resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the StoragegatewayTapePool to import
-  * @param importFromId The id of the existing StoragegatewayTapePool that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/storagegateway_tape_pool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing StoragegatewayTapePool that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/storagegateway_tape_pool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the StoragegatewayTapePool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -226,7 +226,7 @@ export class StoragegatewayTapePool extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/storagegateway_tape_pool awscc_storagegateway_tape_pool} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/storagegateway_tape_pool awscc_storagegateway_tape_pool} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -237,7 +237,7 @@ export class StoragegatewayTapePool extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_storagegateway_tape_pool',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.98.0',
+        providerVersion: '1.99.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

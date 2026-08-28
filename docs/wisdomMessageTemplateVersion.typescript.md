@@ -4,7 +4,7 @@
 
 ### WisdomMessageTemplateVersion <a name="WisdomMessageTemplateVersion" id="@cdktn/provider-awscc.wisdomMessageTemplateVersion.WisdomMessageTemplateVersion"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/wisdom_message_template_version awscc_wisdom_message_template_version}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wisdom_message_template_version awscc_wisdom_message_template_version}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.wisdomMessageTemplateVersion.WisdomMessageTemplateVersion.Initializer"></a>
 
@@ -496,7 +496,7 @@ The construct id used in the generated config for the WisdomMessageTemplateVersi
 
 The id of the existing WisdomMessageTemplateVersion that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/wisdom_message_template_version#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wisdom_message_template_version#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -874,7 +874,7 @@ public readonly messageTemplateArn: string;
 
 The unqualified Amazon Resource Name (ARN) of the message template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/wisdom_message_template_version#message_template_arn WisdomMessageTemplateVersion#message_template_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wisdom_message_template_version#message_template_arn WisdomMessageTemplateVersion#message_template_arn}
 
 ---
 
@@ -888,7 +888,7 @@ public readonly messageTemplateContentSha256: string;
 
 The content SHA256 of the message template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/wisdom_message_template_version#message_template_content_sha_256 WisdomMessageTemplateVersion#message_template_content_sha_256}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wisdom_message_template_version#message_template_content_sha_256 WisdomMessageTemplateVersion#message_template_content_sha_256}
 
 ---
 

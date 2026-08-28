@@ -4,7 +4,7 @@
 
 ### DataAwsccImagebuilderInfrastructureConfigurations <a name="DataAwsccImagebuilderInfrastructureConfigurations" id="@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfigurations.DataAwsccImagebuilderInfrastructureConfigurations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/imagebuilder_infrastructure_configurations awscc_imagebuilder_infrastructure_configurations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/imagebuilder_infrastructure_configurations awscc_imagebuilder_infrastructure_configurations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfigurations.DataAwsccImagebuilderInfrastructureConfigurations.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccImagebuilderInfra
 
 The id of the existing DataAwsccImagebuilderInfrastructureConfigurations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/imagebuilder_infrastructure_configurations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/imagebuilder_infrastructure_configurations#import import section} in the documentation of this resource for the id to use
 
 ---
 

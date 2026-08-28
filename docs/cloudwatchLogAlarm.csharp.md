@@ -4,7 +4,7 @@
 
 ### CloudwatchLogAlarm <a name="CloudwatchLogAlarm" id="@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarm"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudwatch_log_alarm awscc_cloudwatch_log_alarm}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudwatch_log_alarm awscc_cloudwatch_log_alarm}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarm.Initializer"></a>
 
@@ -76,6 +76,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarm.moveToId">MoveToId</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarm.putScheduledQueryConfiguration">PutScheduledQueryConfiguration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarm.putTags">PutTags</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarm.putWarmUpConfiguration">PutWarmUpConfiguration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarm.resetActionLogLineCount">ResetActionLogLineCount</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarm.resetActionLogLineRoleArn">ResetActionLogLineRoleArn</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarm.resetActionsEnabled">ResetActionsEnabled</a></code> | *No description.* |
@@ -86,6 +87,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarm.resetOkActions">ResetOkActions</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarm.resetTags">ResetTags</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarm.resetTreatMissingData">ResetTreatMissingData</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarm.resetWarmUpConfiguration">ResetWarmUpConfiguration</a></code> | *No description.* |
 
 ---
 
@@ -422,6 +424,18 @@ private void PutTags(IResolvable|CloudwatchLogAlarmTags[] Value)
 
 ---
 
+##### `PutWarmUpConfiguration` <a name="PutWarmUpConfiguration" id="@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarm.putWarmUpConfiguration"></a>
+
+```csharp
+private void PutWarmUpConfiguration(CloudwatchLogAlarmWarmUpConfiguration Value)
+```
+
+###### `Value`<sup>Required</sup> <a name="Value" id="@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarm.putWarmUpConfiguration.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarmWarmUpConfiguration">CloudwatchLogAlarmWarmUpConfiguration</a>
+
+---
+
 ##### `ResetActionLogLineCount` <a name="ResetActionLogLineCount" id="@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarm.resetActionLogLineCount"></a>
 
 ```csharp
@@ -480,6 +494,12 @@ private void ResetTags()
 
 ```csharp
 private void ResetTreatMissingData()
+```
+
+##### `ResetWarmUpConfiguration` <a name="ResetWarmUpConfiguration" id="@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarm.resetWarmUpConfiguration"></a>
+
+```csharp
+private void ResetWarmUpConfiguration()
 ```
 
 #### Static Functions <a name="Static Functions" id="Static Functions"></a>
@@ -585,7 +605,7 @@ The construct id used in the generated config for the CloudwatchLogAlarm to impo
 
 The id of the existing CloudwatchLogAlarm that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudwatch_log_alarm#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudwatch_log_alarm#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -619,6 +639,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98
 | <code><a href="#@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarm.property.id">Id</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarm.property.scheduledQueryConfiguration">ScheduledQueryConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarmScheduledQueryConfigurationOutputReference">CloudwatchLogAlarmScheduledQueryConfigurationOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarm.property.tags">Tags</a></code> | <code><a href="#@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarmTagsList">CloudwatchLogAlarmTagsList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarm.property.warmUpConfiguration">WarmUpConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarmWarmUpConfigurationOutputReference">CloudwatchLogAlarmWarmUpConfigurationOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarm.property.actionLogLineCountInput">ActionLogLineCountInput</a></code> | <code>double</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarm.property.actionLogLineRoleArnInput">ActionLogLineRoleArnInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarm.property.actionsEnabledInput">ActionsEnabledInput</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | *No description.* |
@@ -634,6 +655,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98
 | <code><a href="#@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarm.property.tagsInput">TagsInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarmTags">CloudwatchLogAlarmTags</a>[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarm.property.thresholdInput">ThresholdInput</a></code> | <code>double</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarm.property.treatMissingDataInput">TreatMissingDataInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarm.property.warmUpConfigurationInput">WarmUpConfigurationInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarmWarmUpConfiguration">CloudwatchLogAlarmWarmUpConfiguration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarm.property.actionLogLineCount">ActionLogLineCount</a></code> | <code>double</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarm.property.actionLogLineRoleArn">ActionLogLineRoleArn</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarm.property.actionsEnabled">ActionsEnabled</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | *No description.* |
@@ -832,6 +854,16 @@ public CloudwatchLogAlarmTagsList Tags { get; }
 
 ---
 
+##### `WarmUpConfiguration`<sup>Required</sup> <a name="WarmUpConfiguration" id="@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarm.property.warmUpConfiguration"></a>
+
+```csharp
+public CloudwatchLogAlarmWarmUpConfigurationOutputReference WarmUpConfiguration { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarmWarmUpConfigurationOutputReference">CloudwatchLogAlarmWarmUpConfigurationOutputReference</a>
+
+---
+
 ##### `ActionLogLineCountInput`<sup>Optional</sup> <a name="ActionLogLineCountInput" id="@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarm.property.actionLogLineCountInput"></a>
 
 ```csharp
@@ -979,6 +1011,16 @@ public string TreatMissingDataInput { get; }
 ```
 
 - *Type:* string
+
+---
+
+##### `WarmUpConfigurationInput`<sup>Optional</sup> <a name="WarmUpConfigurationInput" id="@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarm.property.warmUpConfigurationInput"></a>
+
+```csharp
+public IResolvable|CloudwatchLogAlarmWarmUpConfiguration WarmUpConfigurationInput { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarmWarmUpConfiguration">CloudwatchLogAlarmWarmUpConfiguration</a>
 
 ---
 
@@ -1161,7 +1203,8 @@ new CloudwatchLogAlarmConfig {
     string[] InsufficientDataActions = null,
     string[] OkActions = null,
     IResolvable|CloudwatchLogAlarmTags[] Tags = null,
-    string TreatMissingData = null
+    string TreatMissingData = null,
+    CloudwatchLogAlarmWarmUpConfiguration WarmUpConfiguration = null
 };
 ```
 
@@ -1191,6 +1234,7 @@ new CloudwatchLogAlarmConfig {
 | <code><a href="#@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarmConfig.property.okActions">OkActions</a></code> | <code>string[]</code> | The actions to execute when this alarm transitions to the OK state from any other state. |
 | <code><a href="#@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarmConfig.property.tags">Tags</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarmTags">CloudwatchLogAlarmTags</a>[]</code> | A list of key-value pairs to associate with the log alarm. |
 | <code><a href="#@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarmConfig.property.treatMissingData">TreatMissingData</a></code> | <code>string</code> | Sets how this alarm is to handle missing data points. Valid values are breaching, notBreaching, ignore, and missing. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarmConfig.property.warmUpConfiguration">WarmUpConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarmWarmUpConfiguration">CloudwatchLogAlarmWarmUpConfiguration</a></code> | The warm-up configuration for the alarm. |
 
 ---
 
@@ -1276,7 +1320,7 @@ The arithmetic operation to use when comparing the specified threshold and the q
 
 Valid values are GreaterThanOrEqualToThreshold, GreaterThanThreshold, LessThanThreshold, and LessThanOrEqualToThreshold.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudwatch_log_alarm#comparison_operator CloudwatchLogAlarm#comparison_operator}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudwatch_log_alarm#comparison_operator CloudwatchLogAlarm#comparison_operator}
 
 ---
 
@@ -1290,7 +1334,7 @@ public double QueryResultsToAlarm { get; set; }
 
 The number of query results that must be breaching to trigger the alarm.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudwatch_log_alarm#query_results_to_alarm CloudwatchLogAlarm#query_results_to_alarm}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudwatch_log_alarm#query_results_to_alarm CloudwatchLogAlarm#query_results_to_alarm}
 
 ---
 
@@ -1304,7 +1348,7 @@ public double QueryResultsToEvaluate { get; set; }
 
 The number of query results over which data is compared to the specified threshold.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudwatch_log_alarm#query_results_to_evaluate CloudwatchLogAlarm#query_results_to_evaluate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudwatch_log_alarm#query_results_to_evaluate CloudwatchLogAlarm#query_results_to_evaluate}
 
 ---
 
@@ -1318,7 +1362,7 @@ public CloudwatchLogAlarmScheduledQueryConfiguration ScheduledQueryConfiguration
 
 The scheduled query configuration for the log alarm.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudwatch_log_alarm#scheduled_query_configuration CloudwatchLogAlarm#scheduled_query_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudwatch_log_alarm#scheduled_query_configuration CloudwatchLogAlarm#scheduled_query_configuration}
 
 ---
 
@@ -1332,7 +1376,7 @@ public double Threshold { get; set; }
 
 The value to compare against the results of the scheduled query evaluation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudwatch_log_alarm#threshold CloudwatchLogAlarm#threshold}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudwatch_log_alarm#threshold CloudwatchLogAlarm#threshold}
 
 ---
 
@@ -1346,7 +1390,7 @@ public double ActionLogLineCount { get; set; }
 
 The number of log lines to include in alarm notifications. Valid values are 0 to 50.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudwatch_log_alarm#action_log_line_count CloudwatchLogAlarm#action_log_line_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudwatch_log_alarm#action_log_line_count CloudwatchLogAlarm#action_log_line_count}
 
 ---
 
@@ -1362,7 +1406,7 @@ The ARN of the IAM role that grants CloudWatch permissions to fetch log lines fo
 
 Required when ActionLogLineCount is greater than 0.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudwatch_log_alarm#action_log_line_role_arn CloudwatchLogAlarm#action_log_line_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudwatch_log_alarm#action_log_line_role_arn CloudwatchLogAlarm#action_log_line_role_arn}
 
 ---
 
@@ -1376,7 +1420,7 @@ public bool|IResolvable ActionsEnabled { get; set; }
 
 Indicates whether actions should be executed during any changes to the alarm state. The default is TRUE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudwatch_log_alarm#actions_enabled CloudwatchLogAlarm#actions_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudwatch_log_alarm#actions_enabled CloudwatchLogAlarm#actions_enabled}
 
 ---
 
@@ -1390,7 +1434,7 @@ public string[] AlarmActions { get; set; }
 
 The list of actions to execute when this alarm transitions into an ALARM state from any other state.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudwatch_log_alarm#alarm_actions CloudwatchLogAlarm#alarm_actions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudwatch_log_alarm#alarm_actions CloudwatchLogAlarm#alarm_actions}
 
 ---
 
@@ -1404,7 +1448,7 @@ public string AlarmDescription { get; set; }
 
 The description of the log alarm.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudwatch_log_alarm#alarm_description CloudwatchLogAlarm#alarm_description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudwatch_log_alarm#alarm_description CloudwatchLogAlarm#alarm_description}
 
 ---
 
@@ -1418,7 +1462,7 @@ public string AlarmName { get; set; }
 
 The name of the log alarm.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudwatch_log_alarm#alarm_name CloudwatchLogAlarm#alarm_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudwatch_log_alarm#alarm_name CloudwatchLogAlarm#alarm_name}
 
 ---
 
@@ -1432,7 +1476,7 @@ public string[] InsufficientDataActions { get; set; }
 
 The actions to execute when this alarm transitions to the INSUFFICIENT_DATA state from any other state.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudwatch_log_alarm#insufficient_data_actions CloudwatchLogAlarm#insufficient_data_actions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudwatch_log_alarm#insufficient_data_actions CloudwatchLogAlarm#insufficient_data_actions}
 
 ---
 
@@ -1446,7 +1490,7 @@ public string[] OkActions { get; set; }
 
 The actions to execute when this alarm transitions to the OK state from any other state.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudwatch_log_alarm#ok_actions CloudwatchLogAlarm#ok_actions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudwatch_log_alarm#ok_actions CloudwatchLogAlarm#ok_actions}
 
 ---
 
@@ -1460,7 +1504,7 @@ public IResolvable|CloudwatchLogAlarmTags[] Tags { get; set; }
 
 A list of key-value pairs to associate with the log alarm.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudwatch_log_alarm#tags CloudwatchLogAlarm#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudwatch_log_alarm#tags CloudwatchLogAlarm#tags}
 
 ---
 
@@ -1474,7 +1518,23 @@ public string TreatMissingData { get; set; }
 
 Sets how this alarm is to handle missing data points. Valid values are breaching, notBreaching, ignore, and missing.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudwatch_log_alarm#treat_missing_data CloudwatchLogAlarm#treat_missing_data}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudwatch_log_alarm#treat_missing_data CloudwatchLogAlarm#treat_missing_data}
+
+---
+
+##### `WarmUpConfiguration`<sup>Optional</sup> <a name="WarmUpConfiguration" id="@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarmConfig.property.warmUpConfiguration"></a>
+
+```csharp
+public CloudwatchLogAlarmWarmUpConfiguration WarmUpConfiguration { get; set; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarmWarmUpConfiguration">CloudwatchLogAlarmWarmUpConfiguration</a>
+
+The warm-up configuration for the alarm.
+
+During the warm-up period, the alarm stays in INSUFFICIENT_DATA and doesn't perform alarm actions. For more information, see Alarm warm-up periods in the Amazon CloudWatch User Guide.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudwatch_log_alarm#warm_up_configuration CloudwatchLogAlarm#warm_up_configuration}
 
 ---
 
@@ -1518,7 +1578,7 @@ public string AggregationExpression { get; set; }
 
 The aggregation expression for the scheduled query, e.g. count(*) or avg(latency) by host.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudwatch_log_alarm#aggregation_expression CloudwatchLogAlarm#aggregation_expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudwatch_log_alarm#aggregation_expression CloudwatchLogAlarm#aggregation_expression}
 
 ---
 
@@ -1532,7 +1592,7 @@ public string QueryString { get; set; }
 
 The query string to execute against the specified log groups.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudwatch_log_alarm#query_string CloudwatchLogAlarm#query_string}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudwatch_log_alarm#query_string CloudwatchLogAlarm#query_string}
 
 ---
 
@@ -1546,7 +1606,7 @@ public CloudwatchLogAlarmScheduledQueryConfigurationScheduleConfiguration Schedu
 
 The schedule configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudwatch_log_alarm#schedule_configuration CloudwatchLogAlarm#schedule_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudwatch_log_alarm#schedule_configuration CloudwatchLogAlarm#schedule_configuration}
 
 ---
 
@@ -1560,7 +1620,7 @@ public string ScheduledQueryRoleArn { get; set; }
 
 The ARN of the IAM role that grants permissions to execute the scheduled query.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudwatch_log_alarm#scheduled_query_role_arn CloudwatchLogAlarm#scheduled_query_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudwatch_log_alarm#scheduled_query_role_arn CloudwatchLogAlarm#scheduled_query_role_arn}
 
 ---
 
@@ -1574,7 +1634,7 @@ public string[] LogGroupIdentifiers { get; set; }
 
 The log groups to query.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudwatch_log_alarm#log_group_identifiers CloudwatchLogAlarm#log_group_identifiers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudwatch_log_alarm#log_group_identifiers CloudwatchLogAlarm#log_group_identifiers}
 
 ---
 
@@ -1588,7 +1648,7 @@ public IResolvable|CloudwatchLogAlarmScheduledQueryConfigurationTags[] Tags { ge
 
 A list of key-value pairs to associate with the scheduled query that backs the log alarm.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudwatch_log_alarm#tags CloudwatchLogAlarm#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudwatch_log_alarm#tags CloudwatchLogAlarm#tags}
 
 ---
 
@@ -1626,7 +1686,7 @@ public string ScheduleExpression { get; set; }
 
 The expression that defines when the scheduled query runs, e.g. rate(1 minute).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudwatch_log_alarm#schedule_expression CloudwatchLogAlarm#schedule_expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudwatch_log_alarm#schedule_expression CloudwatchLogAlarm#schedule_expression}
 
 ---
 
@@ -1642,7 +1702,7 @@ The number of seconds into the past to start the query window.
 
 Must be a positive value and cannot exceed 2592000 seconds (30 days).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudwatch_log_alarm#start_time_offset CloudwatchLogAlarm#start_time_offset}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudwatch_log_alarm#start_time_offset CloudwatchLogAlarm#start_time_offset}
 
 ---
 
@@ -1658,7 +1718,7 @@ The number of seconds into the past to end the query window.
 
 Must be a non-negative value and cannot exceed 2592000 seconds (30 days).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudwatch_log_alarm#end_time_offset CloudwatchLogAlarm#end_time_offset}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudwatch_log_alarm#end_time_offset CloudwatchLogAlarm#end_time_offset}
 
 ---
 
@@ -1696,7 +1756,7 @@ A unique identifier for the tag.
 
 The combination of tag keys and values can help you organize and categorize your resources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudwatch_log_alarm#key CloudwatchLogAlarm#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudwatch_log_alarm#key CloudwatchLogAlarm#key}
 
 ---
 
@@ -1710,7 +1770,7 @@ public string Value { get; set; }
 
 The value for the specified tag key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudwatch_log_alarm#value CloudwatchLogAlarm#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudwatch_log_alarm#value CloudwatchLogAlarm#value}
 
 ---
 
@@ -1748,7 +1808,7 @@ A unique identifier for the tag.
 
 The combination of tag keys and values can help you organize and categorize your resources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudwatch_log_alarm#key CloudwatchLogAlarm#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudwatch_log_alarm#key CloudwatchLogAlarm#key}
 
 ---
 
@@ -1762,7 +1822,61 @@ public string Value { get; set; }
 
 The value for the specified tag key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudwatch_log_alarm#value CloudwatchLogAlarm#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudwatch_log_alarm#value CloudwatchLogAlarm#value}
+
+---
+
+### CloudwatchLogAlarmWarmUpConfiguration <a name="CloudwatchLogAlarmWarmUpConfiguration" id="@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarmWarmUpConfiguration"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarmWarmUpConfiguration.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new CloudwatchLogAlarmWarmUpConfiguration {
+    bool|IResolvable OnlyStartEvaluatingAfterWarmUpPeriodEnds = null,
+    double WarmUpPeriodDurationInMinutes = null
+};
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarmWarmUpConfiguration.property.onlyStartEvaluatingAfterWarmUpPeriodEnds">OnlyStartEvaluatingAfterWarmUpPeriodEnds</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | Specifies whether the alarm waits for the full warm-up period before it starts evaluating. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarmWarmUpConfiguration.property.warmUpPeriodDurationInMinutes">WarmUpPeriodDurationInMinutes</a></code> | <code>double</code> | The length of the warm-up period, in minutes. |
+
+---
+
+##### `OnlyStartEvaluatingAfterWarmUpPeriodEnds`<sup>Optional</sup> <a name="OnlyStartEvaluatingAfterWarmUpPeriodEnds" id="@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarmWarmUpConfiguration.property.onlyStartEvaluatingAfterWarmUpPeriodEnds"></a>
+
+```csharp
+public bool|IResolvable OnlyStartEvaluatingAfterWarmUpPeriodEnds { get; set; }
+```
+
+- *Type:* bool|Io.Cdktn.IResolvable
+
+Specifies whether the alarm waits for the full warm-up period before it starts evaluating.
+
+If true, the alarm waits the entire WarmUpPeriodDurationInMinutes before it starts evaluating, even if metric data arrives earlier. If false, the alarm ends the warm-up period early and starts evaluating as soon as it has enough metric data to fill its evaluation window. This is the default behavior.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudwatch_log_alarm#only_start_evaluating_after_warm_up_period_ends CloudwatchLogAlarm#only_start_evaluating_after_warm_up_period_ends}
+
+---
+
+##### `WarmUpPeriodDurationInMinutes`<sup>Optional</sup> <a name="WarmUpPeriodDurationInMinutes" id="@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarmWarmUpConfiguration.property.warmUpPeriodDurationInMinutes"></a>
+
+```csharp
+public double WarmUpPeriodDurationInMinutes { get; set; }
+```
+
+- *Type:* double
+
+The length of the warm-up period, in minutes.
+
+For this duration after you create or update the alarm, the alarm stays in INSUFFICIENT_DATA and doesn't perform alarm actions. Valid values range from 1 to 2,880 minutes (2 days). You can change this value while the alarm is still in its warm-up period. Changes have no effect after the warm-up period ends.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudwatch_log_alarm#warm_up_period_duration_in_minutes CloudwatchLogAlarm#warm_up_period_duration_in_minutes}
 
 ---
 
@@ -3477,6 +3591,313 @@ public IResolvable|CloudwatchLogAlarmTags InternalValue { get; }
 ```
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarmTags">CloudwatchLogAlarmTags</a>
+
+---
+
+
+### CloudwatchLogAlarmWarmUpConfigurationOutputReference <a name="CloudwatchLogAlarmWarmUpConfigurationOutputReference" id="@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarmWarmUpConfigurationOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarmWarmUpConfigurationOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new CloudwatchLogAlarmWarmUpConfigurationOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarmWarmUpConfigurationOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarmWarmUpConfigurationOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarmWarmUpConfigurationOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarmWarmUpConfigurationOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarmWarmUpConfigurationOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarmWarmUpConfigurationOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarmWarmUpConfigurationOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarmWarmUpConfigurationOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarmWarmUpConfigurationOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarmWarmUpConfigurationOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarmWarmUpConfigurationOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarmWarmUpConfigurationOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarmWarmUpConfigurationOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarmWarmUpConfigurationOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarmWarmUpConfigurationOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarmWarmUpConfigurationOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarmWarmUpConfigurationOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarmWarmUpConfigurationOutputReference.resetOnlyStartEvaluatingAfterWarmUpPeriodEnds">ResetOnlyStartEvaluatingAfterWarmUpPeriodEnds</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarmWarmUpConfigurationOutputReference.resetWarmUpPeriodDurationInMinutes">ResetWarmUpPeriodDurationInMinutes</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarmWarmUpConfigurationOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarmWarmUpConfigurationOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarmWarmUpConfigurationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarmWarmUpConfigurationOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarmWarmUpConfigurationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarmWarmUpConfigurationOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarmWarmUpConfigurationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarmWarmUpConfigurationOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarmWarmUpConfigurationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarmWarmUpConfigurationOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarmWarmUpConfigurationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarmWarmUpConfigurationOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarmWarmUpConfigurationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarmWarmUpConfigurationOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarmWarmUpConfigurationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarmWarmUpConfigurationOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarmWarmUpConfigurationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarmWarmUpConfigurationOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarmWarmUpConfigurationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarmWarmUpConfigurationOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarmWarmUpConfigurationOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarmWarmUpConfigurationOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarmWarmUpConfigurationOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarmWarmUpConfigurationOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `ResetOnlyStartEvaluatingAfterWarmUpPeriodEnds` <a name="ResetOnlyStartEvaluatingAfterWarmUpPeriodEnds" id="@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarmWarmUpConfigurationOutputReference.resetOnlyStartEvaluatingAfterWarmUpPeriodEnds"></a>
+
+```csharp
+private void ResetOnlyStartEvaluatingAfterWarmUpPeriodEnds()
+```
+
+##### `ResetWarmUpPeriodDurationInMinutes` <a name="ResetWarmUpPeriodDurationInMinutes" id="@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarmWarmUpConfigurationOutputReference.resetWarmUpPeriodDurationInMinutes"></a>
+
+```csharp
+private void ResetWarmUpPeriodDurationInMinutes()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarmWarmUpConfigurationOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarmWarmUpConfigurationOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarmWarmUpConfigurationOutputReference.property.onlyStartEvaluatingAfterWarmUpPeriodEndsInput">OnlyStartEvaluatingAfterWarmUpPeriodEndsInput</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarmWarmUpConfigurationOutputReference.property.warmUpPeriodDurationInMinutesInput">WarmUpPeriodDurationInMinutesInput</a></code> | <code>double</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarmWarmUpConfigurationOutputReference.property.onlyStartEvaluatingAfterWarmUpPeriodEnds">OnlyStartEvaluatingAfterWarmUpPeriodEnds</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarmWarmUpConfigurationOutputReference.property.warmUpPeriodDurationInMinutes">WarmUpPeriodDurationInMinutes</a></code> | <code>double</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarmWarmUpConfigurationOutputReference.property.internalValue">InternalValue</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarmWarmUpConfiguration">CloudwatchLogAlarmWarmUpConfiguration</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarmWarmUpConfigurationOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarmWarmUpConfigurationOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `OnlyStartEvaluatingAfterWarmUpPeriodEndsInput`<sup>Optional</sup> <a name="OnlyStartEvaluatingAfterWarmUpPeriodEndsInput" id="@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarmWarmUpConfigurationOutputReference.property.onlyStartEvaluatingAfterWarmUpPeriodEndsInput"></a>
+
+```csharp
+public bool|IResolvable OnlyStartEvaluatingAfterWarmUpPeriodEndsInput { get; }
+```
+
+- *Type:* bool|Io.Cdktn.IResolvable
+
+---
+
+##### `WarmUpPeriodDurationInMinutesInput`<sup>Optional</sup> <a name="WarmUpPeriodDurationInMinutesInput" id="@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarmWarmUpConfigurationOutputReference.property.warmUpPeriodDurationInMinutesInput"></a>
+
+```csharp
+public double WarmUpPeriodDurationInMinutesInput { get; }
+```
+
+- *Type:* double
+
+---
+
+##### `OnlyStartEvaluatingAfterWarmUpPeriodEnds`<sup>Required</sup> <a name="OnlyStartEvaluatingAfterWarmUpPeriodEnds" id="@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarmWarmUpConfigurationOutputReference.property.onlyStartEvaluatingAfterWarmUpPeriodEnds"></a>
+
+```csharp
+public bool|IResolvable OnlyStartEvaluatingAfterWarmUpPeriodEnds { get; }
+```
+
+- *Type:* bool|Io.Cdktn.IResolvable
+
+---
+
+##### `WarmUpPeriodDurationInMinutes`<sup>Required</sup> <a name="WarmUpPeriodDurationInMinutes" id="@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarmWarmUpConfigurationOutputReference.property.warmUpPeriodDurationInMinutes"></a>
+
+```csharp
+public double WarmUpPeriodDurationInMinutes { get; }
+```
+
+- *Type:* double
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarmWarmUpConfigurationOutputReference.property.internalValue"></a>
+
+```csharp
+public IResolvable|CloudwatchLogAlarmWarmUpConfiguration InternalValue { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.cloudwatchLogAlarm.CloudwatchLogAlarmWarmUpConfiguration">CloudwatchLogAlarmWarmUpConfiguration</a>
 
 ---
 

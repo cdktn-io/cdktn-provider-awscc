@@ -4,7 +4,7 @@
 
 ### ElasticbeanstalkEnvironment <a name="ElasticbeanstalkEnvironment" id="@cdktn/provider-awscc.elasticbeanstalkEnvironment.ElasticbeanstalkEnvironment"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/elasticbeanstalk_environment awscc_elasticbeanstalk_environment}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/elasticbeanstalk_environment awscc_elasticbeanstalk_environment}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.elasticbeanstalkEnvironment.ElasticbeanstalkEnvironment.Initializer"></a>
 
@@ -605,7 +605,7 @@ The construct id used in the generated config for the ElasticbeanstalkEnvironmen
 
 The id of the existing ElasticbeanstalkEnvironment that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/elasticbeanstalk_environment#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/elasticbeanstalk_environment#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1222,7 +1222,7 @@ public string ApplicationName { get; set; }
 
 The name of the application that is associated with this environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/elasticbeanstalk_environment#application_name ElasticbeanstalkEnvironment#application_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/elasticbeanstalk_environment#application_name ElasticbeanstalkEnvironment#application_name}
 
 ---
 
@@ -1238,7 +1238,7 @@ If specified, the environment attempts to use this value as the prefix for the C
 
 If not specified, the CNAME is generated automatically by appending a random alphanumeric string to the environment name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/elasticbeanstalk_environment#cname_prefix ElasticbeanstalkEnvironment#cname_prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/elasticbeanstalk_environment#cname_prefix ElasticbeanstalkEnvironment#cname_prefix}
 
 ---
 
@@ -1252,7 +1252,7 @@ public string Description { get; set; }
 
 Your description for this environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/elasticbeanstalk_environment#description ElasticbeanstalkEnvironment#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/elasticbeanstalk_environment#description ElasticbeanstalkEnvironment#description}
 
 ---
 
@@ -1266,7 +1266,7 @@ public string EnvironmentName { get; set; }
 
 A unique name for the environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/elasticbeanstalk_environment#environment_name ElasticbeanstalkEnvironment#environment_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/elasticbeanstalk_environment#environment_name ElasticbeanstalkEnvironment#environment_name}
 
 ---
 
@@ -1280,7 +1280,7 @@ public string OperationsRole { get; set; }
 
 The Amazon Resource Name (ARN) of an existing IAM role to be used as the environment's operations role.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/elasticbeanstalk_environment#operations_role ElasticbeanstalkEnvironment#operations_role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/elasticbeanstalk_environment#operations_role ElasticbeanstalkEnvironment#operations_role}
 
 ---
 
@@ -1294,7 +1294,7 @@ public IResolvable|ElasticbeanstalkEnvironmentOptionSettings[] OptionSettings { 
 
 Key-value pairs defining configuration options for this environment, such as the instance type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/elasticbeanstalk_environment#option_settings ElasticbeanstalkEnvironment#option_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/elasticbeanstalk_environment#option_settings ElasticbeanstalkEnvironment#option_settings}
 
 ---
 
@@ -1308,7 +1308,7 @@ public string PlatformArn { get; set; }
 
 The Amazon Resource Name (ARN) of the custom platform to use with the environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/elasticbeanstalk_environment#platform_arn ElasticbeanstalkEnvironment#platform_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/elasticbeanstalk_environment#platform_arn ElasticbeanstalkEnvironment#platform_arn}
 
 ---
 
@@ -1322,7 +1322,7 @@ public string SolutionStackName { get; set; }
 
 The name of an Elastic Beanstalk solution stack (platform version) to use with the environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/elasticbeanstalk_environment#solution_stack_name ElasticbeanstalkEnvironment#solution_stack_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/elasticbeanstalk_environment#solution_stack_name ElasticbeanstalkEnvironment#solution_stack_name}
 
 ---
 
@@ -1336,7 +1336,7 @@ public IResolvable|ElasticbeanstalkEnvironmentTags[] Tags { get; set; }
 
 Specifies the tags applied to resources in the environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/elasticbeanstalk_environment#tags ElasticbeanstalkEnvironment#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/elasticbeanstalk_environment#tags ElasticbeanstalkEnvironment#tags}
 
 ---
 
@@ -1350,7 +1350,7 @@ public string TemplateName { get; set; }
 
 The name of the Elastic Beanstalk configuration template to use with the environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/elasticbeanstalk_environment#template_name ElasticbeanstalkEnvironment#template_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/elasticbeanstalk_environment#template_name ElasticbeanstalkEnvironment#template_name}
 
 ---
 
@@ -1366,7 +1366,7 @@ Specifies the tier to use in creating this environment.
 
 The environment tier that you choose determines whether Elastic Beanstalk provisions resources to support a web application that handles HTTP(S) requests or a web application that handles background-processing tasks.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/elasticbeanstalk_environment#tier ElasticbeanstalkEnvironment#tier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/elasticbeanstalk_environment#tier ElasticbeanstalkEnvironment#tier}
 
 ---
 
@@ -1380,7 +1380,7 @@ public string VersionLabel { get; set; }
 
 The name of the application version to deploy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/elasticbeanstalk_environment#version_label ElasticbeanstalkEnvironment#version_label}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/elasticbeanstalk_environment#version_label ElasticbeanstalkEnvironment#version_label}
 
 ---
 
@@ -1420,7 +1420,7 @@ public string Namespace { get; set; }
 
 A unique namespace that identifies the option's associated AWS resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/elasticbeanstalk_environment#namespace ElasticbeanstalkEnvironment#namespace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/elasticbeanstalk_environment#namespace ElasticbeanstalkEnvironment#namespace}
 
 ---
 
@@ -1434,7 +1434,7 @@ public string OptionName { get; set; }
 
 The name of the configuration option.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/elasticbeanstalk_environment#option_name ElasticbeanstalkEnvironment#option_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/elasticbeanstalk_environment#option_name ElasticbeanstalkEnvironment#option_name}
 
 ---
 
@@ -1448,7 +1448,7 @@ public string ResourceName { get; set; }
 
 A unique resource name for the option setting. Use it for a time–based scaling configuration option.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/elasticbeanstalk_environment#resource_name ElasticbeanstalkEnvironment#resource_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/elasticbeanstalk_environment#resource_name ElasticbeanstalkEnvironment#resource_name}
 
 ---
 
@@ -1462,7 +1462,7 @@ public string Value { get; set; }
 
 The current value for the configuration option.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/elasticbeanstalk_environment#value ElasticbeanstalkEnvironment#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/elasticbeanstalk_environment#value ElasticbeanstalkEnvironment#value}
 
 ---
 
@@ -1498,7 +1498,7 @@ public string Key { get; set; }
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/elasticbeanstalk_environment#key ElasticbeanstalkEnvironment#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/elasticbeanstalk_environment#key ElasticbeanstalkEnvironment#key}
 
 ---
 
@@ -1512,7 +1512,7 @@ public string Value { get; set; }
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/elasticbeanstalk_environment#value ElasticbeanstalkEnvironment#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/elasticbeanstalk_environment#value ElasticbeanstalkEnvironment#value}
 
 ---
 
@@ -1550,7 +1550,7 @@ public string Name { get; set; }
 
 The name of this environment tier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/elasticbeanstalk_environment#name ElasticbeanstalkEnvironment#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/elasticbeanstalk_environment#name ElasticbeanstalkEnvironment#name}
 
 ---
 
@@ -1564,7 +1564,7 @@ public string Type { get; set; }
 
 The type of this environment tier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/elasticbeanstalk_environment#type ElasticbeanstalkEnvironment#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/elasticbeanstalk_environment#type ElasticbeanstalkEnvironment#type}
 
 ---
 
@@ -1580,7 +1580,7 @@ The version of this environment tier.
 
 When you don't set a value to it, Elastic Beanstalk uses the latest compatible worker tier version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/elasticbeanstalk_environment#version ElasticbeanstalkEnvironment#version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/elasticbeanstalk_environment#version ElasticbeanstalkEnvironment#version}
 
 ---
 

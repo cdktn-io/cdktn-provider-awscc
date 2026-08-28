@@ -4,7 +4,7 @@
 
 ### LaunchwizardDeployment <a name="LaunchwizardDeployment" id="@cdktn/provider-awscc.launchwizardDeployment.LaunchwizardDeployment"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/launchwizard_deployment awscc_launchwizard_deployment}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/launchwizard_deployment awscc_launchwizard_deployment}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.launchwizardDeployment.LaunchwizardDeployment.Initializer"></a>
 
@@ -516,7 +516,7 @@ The construct id used in the generated config for the LaunchwizardDeployment to 
 
 The id of the existing LaunchwizardDeployment that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/launchwizard_deployment#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/launchwizard_deployment#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1007,7 +1007,7 @@ public readonly deploymentPatternName: string;
 
 Workload deployment pattern name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/launchwizard_deployment#deployment_pattern_name LaunchwizardDeployment#deployment_pattern_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/launchwizard_deployment#deployment_pattern_name LaunchwizardDeployment#deployment_pattern_name}
 
 ---
 
@@ -1021,7 +1021,7 @@ public readonly name: string;
 
 Name of LaunchWizard deployment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/launchwizard_deployment#name LaunchwizardDeployment#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/launchwizard_deployment#name LaunchwizardDeployment#name}
 
 ---
 
@@ -1035,7 +1035,7 @@ public readonly workloadName: string;
 
 Workload Name for LaunchWizard deployment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/launchwizard_deployment#workload_name LaunchwizardDeployment#workload_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/launchwizard_deployment#workload_name LaunchwizardDeployment#workload_name}
 
 ---
 
@@ -1049,7 +1049,7 @@ public readonly specifications: {[ key: string ]: string};
 
 LaunchWizard deployment specifications.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/launchwizard_deployment#specifications LaunchwizardDeployment#specifications}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/launchwizard_deployment#specifications LaunchwizardDeployment#specifications}
 
 ---
 
@@ -1063,7 +1063,7 @@ public readonly tags: IResolvable | LaunchwizardDeploymentTags[];
 
 Tags for LaunchWizard deployment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/launchwizard_deployment#tags LaunchwizardDeployment#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/launchwizard_deployment#tags LaunchwizardDeployment#tags}
 
 ---
 
@@ -1098,7 +1098,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/launchwizard_deployment#key LaunchwizardDeployment#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/launchwizard_deployment#key LaunchwizardDeployment#key}
 
 ---
 
@@ -1114,7 +1114,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/launchwizard_deployment#value LaunchwizardDeployment#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/launchwizard_deployment#value LaunchwizardDeployment#value}
 
 ---
 

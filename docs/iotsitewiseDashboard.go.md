@@ -4,7 +4,7 @@
 
 ### IotsitewiseDashboard <a name="IotsitewiseDashboard" id="@cdktn/provider-awscc.iotsitewiseDashboard.IotsitewiseDashboard"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_dashboard awscc_iotsitewise_dashboard}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_dashboard awscc_iotsitewise_dashboard}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseDashboard.IotsitewiseDashboard.Initializer"></a>
 
@@ -516,7 +516,7 @@ The construct id used in the generated config for the IotsitewiseDashboard to im
 
 The id of the existing IotsitewiseDashboard that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_dashboard#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_dashboard#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -976,7 +976,7 @@ DashboardDefinition *string
 
 The dashboard definition specified in a JSON literal.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_dashboard#dashboard_definition IotsitewiseDashboard#dashboard_definition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_dashboard#dashboard_definition IotsitewiseDashboard#dashboard_definition}
 
 ---
 
@@ -990,7 +990,7 @@ DashboardDescription *string
 
 A description for the dashboard.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_dashboard#dashboard_description IotsitewiseDashboard#dashboard_description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_dashboard#dashboard_description IotsitewiseDashboard#dashboard_description}
 
 ---
 
@@ -1004,7 +1004,7 @@ DashboardName *string
 
 A friendly name for the dashboard.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_dashboard#dashboard_name IotsitewiseDashboard#dashboard_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_dashboard#dashboard_name IotsitewiseDashboard#dashboard_name}
 
 ---
 
@@ -1018,7 +1018,7 @@ ProjectId *string
 
 The ID of the project in which to create the dashboard.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_dashboard#project_id IotsitewiseDashboard#project_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_dashboard#project_id IotsitewiseDashboard#project_id}
 
 ---
 
@@ -1032,7 +1032,7 @@ Tags interface{}
 
 A list of key-value pairs that contain metadata for the dashboard.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_dashboard#tags IotsitewiseDashboard#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_dashboard#tags IotsitewiseDashboard#tags}
 
 ---
 
@@ -1053,8 +1053,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewisedashboard"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.iotsitewiseDashboard.IotsitewiseDashboardTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_dashboard#key IotsitewiseDashboard#key}. |
-| <code><a href="#@cdktn/provider-awscc.iotsitewiseDashboard.IotsitewiseDashboardTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_dashboard#value IotsitewiseDashboard#value}. |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseDashboard.IotsitewiseDashboardTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_dashboard#key IotsitewiseDashboard#key}. |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseDashboard.IotsitewiseDashboardTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_dashboard#value IotsitewiseDashboard#value}. |
 
 ---
 
@@ -1066,7 +1066,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_dashboard#key IotsitewiseDashboard#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_dashboard#key IotsitewiseDashboard#key}.
 
 ---
 
@@ -1078,7 +1078,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_dashboard#value IotsitewiseDashboard#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_dashboard#value IotsitewiseDashboard#value}.
 
 ---
 

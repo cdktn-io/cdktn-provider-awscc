@@ -4,7 +4,7 @@
 
 ### DataAwsccWellarchitectedWorkloads <a name="DataAwsccWellarchitectedWorkloads" id="@cdktn/provider-awscc.dataAwsccWellarchitectedWorkloads.DataAwsccWellarchitectedWorkloads"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/wellarchitected_workloads awscc_wellarchitected_workloads}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/wellarchitected_workloads awscc_wellarchitected_workloads}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWellarchitectedWorkloads.DataAwsccWellarchitectedWorkloads.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccWellarchitectedWo
 
 The id of the existing DataAwsccWellarchitectedWorkloads that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/wellarchitected_workloads#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/wellarchitected_workloads#import import section} in the documentation of this resource for the id to use
 
 ---
 

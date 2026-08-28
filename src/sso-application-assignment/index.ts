@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sso_application_assignment
+// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sso_application_assignment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,25 +15,25 @@ export interface SsoApplicationAssignmentConfig extends cdktn.TerraformMetaArgum
   /**
   * The ARN of the application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sso_application_assignment#application_arn SsoApplicationAssignment#application_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sso_application_assignment#application_arn SsoApplicationAssignment#application_arn}
   */
   readonly applicationArn: string;
   /**
   * An identifier for an object in IAM Identity Center, such as a user or group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sso_application_assignment#principal_id SsoApplicationAssignment#principal_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sso_application_assignment#principal_id SsoApplicationAssignment#principal_id}
   */
   readonly principalId: string;
   /**
   * The entity type for which the assignment will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sso_application_assignment#principal_type SsoApplicationAssignment#principal_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sso_application_assignment#principal_type SsoApplicationAssignment#principal_type}
   */
   readonly principalType: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sso_application_assignment awscc_sso_application_assignment}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sso_application_assignment awscc_sso_application_assignment}
 */
 export class SsoApplicationAssignment extends cdktn.TerraformResource {
 
@@ -49,7 +49,7 @@ export class SsoApplicationAssignment extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a SsoApplicationAssignment resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SsoApplicationAssignment to import
-  * @param importFromId The id of the existing SsoApplicationAssignment that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sso_application_assignment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SsoApplicationAssignment that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sso_application_assignment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SsoApplicationAssignment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -61,7 +61,7 @@ export class SsoApplicationAssignment extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sso_application_assignment awscc_sso_application_assignment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sso_application_assignment awscc_sso_application_assignment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -72,7 +72,7 @@ export class SsoApplicationAssignment extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_sso_application_assignment',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.98.0',
+        providerVersion: '1.99.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

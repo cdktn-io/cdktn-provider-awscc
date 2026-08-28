@@ -4,7 +4,7 @@
 
 ### SignerSigningProfile <a name="SignerSigningProfile" id="@cdktn/provider-awscc.signerSigningProfile.SignerSigningProfile"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/signer_signing_profile awscc_signer_signing_profile}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/signer_signing_profile awscc_signer_signing_profile}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.signerSigningProfile.SignerSigningProfile.Initializer"></a>
 
@@ -529,7 +529,7 @@ The construct id used in the generated config for the SignerSigningProfile to im
 
 The id of the existing SignerSigningProfile that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/signer_signing_profile#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/signer_signing_profile#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -963,7 +963,7 @@ public string PlatformId { get; set; }
 
 The ID of the target signing platform.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/signer_signing_profile#platform_id SignerSigningProfile#platform_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/signer_signing_profile#platform_id SignerSigningProfile#platform_id}
 
 ---
 
@@ -977,7 +977,7 @@ public SignerSigningProfileSignatureValidityPeriod SignatureValidityPeriod { get
 
 Signature validity period of the profile.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/signer_signing_profile#signature_validity_period SignerSigningProfile#signature_validity_period}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/signer_signing_profile#signature_validity_period SignerSigningProfile#signature_validity_period}
 
 ---
 
@@ -991,7 +991,7 @@ public IResolvable|SignerSigningProfileTags[] Tags { get; set; }
 
 A list of tags associated with the signing profile.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/signer_signing_profile#tags SignerSigningProfile#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/signer_signing_profile#tags SignerSigningProfile#tags}
 
 ---
 
@@ -1012,8 +1012,8 @@ new SignerSigningProfileSignatureValidityPeriod {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.signerSigningProfile.SignerSigningProfileSignatureValidityPeriod.property.type">Type</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/signer_signing_profile#type SignerSigningProfile#type}. |
-| <code><a href="#@cdktn/provider-awscc.signerSigningProfile.SignerSigningProfileSignatureValidityPeriod.property.value">Value</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/signer_signing_profile#value SignerSigningProfile#value}. |
+| <code><a href="#@cdktn/provider-awscc.signerSigningProfile.SignerSigningProfileSignatureValidityPeriod.property.type">Type</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/signer_signing_profile#type SignerSigningProfile#type}. |
+| <code><a href="#@cdktn/provider-awscc.signerSigningProfile.SignerSigningProfileSignatureValidityPeriod.property.value">Value</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/signer_signing_profile#value SignerSigningProfile#value}. |
 
 ---
 
@@ -1025,7 +1025,7 @@ public string Type { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/signer_signing_profile#type SignerSigningProfile#type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/signer_signing_profile#type SignerSigningProfile#type}.
 
 ---
 
@@ -1037,7 +1037,7 @@ public double Value { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/signer_signing_profile#value SignerSigningProfile#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/signer_signing_profile#value SignerSigningProfile#value}.
 
 ---
 
@@ -1058,8 +1058,8 @@ new SignerSigningProfileTags {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.signerSigningProfile.SignerSigningProfileTags.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/signer_signing_profile#key SignerSigningProfile#key}. |
-| <code><a href="#@cdktn/provider-awscc.signerSigningProfile.SignerSigningProfileTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/signer_signing_profile#value SignerSigningProfile#value}. |
+| <code><a href="#@cdktn/provider-awscc.signerSigningProfile.SignerSigningProfileTags.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/signer_signing_profile#key SignerSigningProfile#key}. |
+| <code><a href="#@cdktn/provider-awscc.signerSigningProfile.SignerSigningProfileTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/signer_signing_profile#value SignerSigningProfile#value}. |
 
 ---
 
@@ -1071,7 +1071,7 @@ public string Key { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/signer_signing_profile#key SignerSigningProfile#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/signer_signing_profile#key SignerSigningProfile#key}.
 
 ---
 
@@ -1083,7 +1083,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/signer_signing_profile#value SignerSigningProfile#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/signer_signing_profile#value SignerSigningProfile#value}.
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### IottwinmakerWorkspace <a name="IottwinmakerWorkspace" id="@cdktn/provider-awscc.iottwinmakerWorkspace.IottwinmakerWorkspace"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iottwinmaker_workspace awscc_iottwinmaker_workspace}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iottwinmaker_workspace awscc_iottwinmaker_workspace}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iottwinmakerWorkspace.IottwinmakerWorkspace.Initializer"></a>
 
@@ -112,7 +112,7 @@ Must be unique amongst siblings in the same scope
 
 The ARN of the execution role associated with the workspace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iottwinmaker_workspace#role IottwinmakerWorkspace#role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iottwinmaker_workspace#role IottwinmakerWorkspace#role}
 
 ---
 
@@ -122,7 +122,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The ARN of the S3 bucket where resources associated with the workspace are stored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iottwinmaker_workspace#s3_location IottwinmakerWorkspace#s3_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iottwinmaker_workspace#s3_location IottwinmakerWorkspace#s3_location}
 
 ---
 
@@ -132,7 +132,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The ID of the workspace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iottwinmaker_workspace#workspace_id IottwinmakerWorkspace#workspace_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iottwinmaker_workspace#workspace_id IottwinmakerWorkspace#workspace_id}
 
 ---
 
@@ -142,7 +142,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The description of the workspace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iottwinmaker_workspace#description IottwinmakerWorkspace#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iottwinmaker_workspace#description IottwinmakerWorkspace#description}
 
 ---
 
@@ -152,7 +152,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A map of key-value pairs to associate with a resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iottwinmaker_workspace#tags IottwinmakerWorkspace#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iottwinmaker_workspace#tags IottwinmakerWorkspace#tags}
 
 ---
 
@@ -615,7 +615,7 @@ The construct id used in the generated config for the IottwinmakerWorkspace to i
 
 The id of the existing IottwinmakerWorkspace that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iottwinmaker_workspace#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iottwinmaker_workspace#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1086,7 +1086,7 @@ public java.lang.String getRole();
 
 The ARN of the execution role associated with the workspace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iottwinmaker_workspace#role IottwinmakerWorkspace#role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iottwinmaker_workspace#role IottwinmakerWorkspace#role}
 
 ---
 
@@ -1100,7 +1100,7 @@ public java.lang.String getS3Location();
 
 The ARN of the S3 bucket where resources associated with the workspace are stored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iottwinmaker_workspace#s3_location IottwinmakerWorkspace#s3_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iottwinmaker_workspace#s3_location IottwinmakerWorkspace#s3_location}
 
 ---
 
@@ -1114,7 +1114,7 @@ public java.lang.String getWorkspaceId();
 
 The ID of the workspace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iottwinmaker_workspace#workspace_id IottwinmakerWorkspace#workspace_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iottwinmaker_workspace#workspace_id IottwinmakerWorkspace#workspace_id}
 
 ---
 
@@ -1128,7 +1128,7 @@ public java.lang.String getDescription();
 
 The description of the workspace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iottwinmaker_workspace#description IottwinmakerWorkspace#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iottwinmaker_workspace#description IottwinmakerWorkspace#description}
 
 ---
 
@@ -1142,7 +1142,7 @@ public java.util.Map<java.lang.String, java.lang.String> getTags();
 
 A map of key-value pairs to associate with a resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iottwinmaker_workspace#tags IottwinmakerWorkspace#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iottwinmaker_workspace#tags IottwinmakerWorkspace#tags}
 
 ---
 

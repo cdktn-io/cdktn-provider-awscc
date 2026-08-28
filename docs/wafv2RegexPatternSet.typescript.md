@@ -4,7 +4,7 @@
 
 ### Wafv2RegexPatternSet <a name="Wafv2RegexPatternSet" id="@cdktn/provider-awscc.wafv2RegexPatternSet.Wafv2RegexPatternSet"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/wafv2_regex_pattern_set awscc_wafv2_regex_pattern_set}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wafv2_regex_pattern_set awscc_wafv2_regex_pattern_set}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.wafv2RegexPatternSet.Wafv2RegexPatternSet.Initializer"></a>
 
@@ -523,7 +523,7 @@ The construct id used in the generated config for the Wafv2RegexPatternSet to im
 
 The id of the existing Wafv2RegexPatternSet that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/wafv2_regex_pattern_set#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wafv2_regex_pattern_set#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -882,11 +882,11 @@ const wafv2RegexPatternSetConfig: wafv2RegexPatternSet.Wafv2RegexPatternSetConfi
 | <code><a href="#@cdktn/provider-awscc.wafv2RegexPatternSet.Wafv2RegexPatternSetConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.wafv2RegexPatternSet.Wafv2RegexPatternSetConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.wafv2RegexPatternSet.Wafv2RegexPatternSetConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.wafv2RegexPatternSet.Wafv2RegexPatternSetConfig.property.regularExpressionList">regularExpressionList</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/wafv2_regex_pattern_set#regular_expression_list Wafv2RegexPatternSet#regular_expression_list}. |
+| <code><a href="#@cdktn/provider-awscc.wafv2RegexPatternSet.Wafv2RegexPatternSetConfig.property.regularExpressionList">regularExpressionList</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wafv2_regex_pattern_set#regular_expression_list Wafv2RegexPatternSet#regular_expression_list}. |
 | <code><a href="#@cdktn/provider-awscc.wafv2RegexPatternSet.Wafv2RegexPatternSetConfig.property.scope">scope</a></code> | <code>string</code> | Use CLOUDFRONT for CloudFront RegexPatternSet, use REGIONAL for Application Load Balancer and API Gateway. |
 | <code><a href="#@cdktn/provider-awscc.wafv2RegexPatternSet.Wafv2RegexPatternSetConfig.property.description">description</a></code> | <code>string</code> | Description of the entity. |
 | <code><a href="#@cdktn/provider-awscc.wafv2RegexPatternSet.Wafv2RegexPatternSetConfig.property.name">name</a></code> | <code>string</code> | Name of the RegexPatternSet. |
-| <code><a href="#@cdktn/provider-awscc.wafv2RegexPatternSet.Wafv2RegexPatternSetConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.wafv2RegexPatternSet.Wafv2RegexPatternSetTags">Wafv2RegexPatternSetTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/wafv2_regex_pattern_set#tags Wafv2RegexPatternSet#tags}. |
+| <code><a href="#@cdktn/provider-awscc.wafv2RegexPatternSet.Wafv2RegexPatternSetConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.wafv2RegexPatternSet.Wafv2RegexPatternSetTags">Wafv2RegexPatternSetTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wafv2_regex_pattern_set#tags Wafv2RegexPatternSet#tags}. |
 
 ---
 
@@ -968,7 +968,7 @@ public readonly regularExpressionList: string[];
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/wafv2_regex_pattern_set#regular_expression_list Wafv2RegexPatternSet#regular_expression_list}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wafv2_regex_pattern_set#regular_expression_list Wafv2RegexPatternSet#regular_expression_list}.
 
 ---
 
@@ -982,7 +982,7 @@ public readonly scope: string;
 
 Use CLOUDFRONT for CloudFront RegexPatternSet, use REGIONAL for Application Load Balancer and API Gateway.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/wafv2_regex_pattern_set#scope Wafv2RegexPatternSet#scope}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wafv2_regex_pattern_set#scope Wafv2RegexPatternSet#scope}
 
 ---
 
@@ -996,7 +996,7 @@ public readonly description: string;
 
 Description of the entity.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/wafv2_regex_pattern_set#description Wafv2RegexPatternSet#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wafv2_regex_pattern_set#description Wafv2RegexPatternSet#description}
 
 ---
 
@@ -1010,7 +1010,7 @@ public readonly name: string;
 
 Name of the RegexPatternSet.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/wafv2_regex_pattern_set#name Wafv2RegexPatternSet#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wafv2_regex_pattern_set#name Wafv2RegexPatternSet#name}
 
 ---
 
@@ -1022,7 +1022,7 @@ public readonly tags: IResolvable | Wafv2RegexPatternSetTags[];
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.wafv2RegexPatternSet.Wafv2RegexPatternSetTags">Wafv2RegexPatternSetTags</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/wafv2_regex_pattern_set#tags Wafv2RegexPatternSet#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wafv2_regex_pattern_set#tags Wafv2RegexPatternSet#tags}.
 
 ---
 
@@ -1040,8 +1040,8 @@ const wafv2RegexPatternSetTags: wafv2RegexPatternSet.Wafv2RegexPatternSetTags = 
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.wafv2RegexPatternSet.Wafv2RegexPatternSetTags.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/wafv2_regex_pattern_set#key Wafv2RegexPatternSet#key}. |
-| <code><a href="#@cdktn/provider-awscc.wafv2RegexPatternSet.Wafv2RegexPatternSetTags.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/wafv2_regex_pattern_set#value Wafv2RegexPatternSet#value}. |
+| <code><a href="#@cdktn/provider-awscc.wafv2RegexPatternSet.Wafv2RegexPatternSetTags.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wafv2_regex_pattern_set#key Wafv2RegexPatternSet#key}. |
+| <code><a href="#@cdktn/provider-awscc.wafv2RegexPatternSet.Wafv2RegexPatternSetTags.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wafv2_regex_pattern_set#value Wafv2RegexPatternSet#value}. |
 
 ---
 
@@ -1053,7 +1053,7 @@ public readonly key: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/wafv2_regex_pattern_set#key Wafv2RegexPatternSet#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wafv2_regex_pattern_set#key Wafv2RegexPatternSet#key}.
 
 ---
 
@@ -1065,7 +1065,7 @@ public readonly value: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/wafv2_regex_pattern_set#value Wafv2RegexPatternSet#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wafv2_regex_pattern_set#value Wafv2RegexPatternSet#value}.
 
 ---
 

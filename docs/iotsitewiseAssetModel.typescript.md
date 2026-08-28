@@ -4,7 +4,7 @@
 
 ### IotsitewiseAssetModel <a name="IotsitewiseAssetModel" id="@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModel"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model awscc_iotsitewise_asset_model}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model awscc_iotsitewise_asset_model}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModel.Initializer"></a>
 
@@ -610,7 +610,7 @@ The construct id used in the generated config for the IotsitewiseAssetModel to i
 
 The id of the existing IotsitewiseAssetModel that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1072,7 +1072,7 @@ public readonly composedAssetModelId: string;
 
 The component model ID for which the composite model is composed of.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#composed_asset_model_id IotsitewiseAssetModel#composed_asset_model_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#composed_asset_model_id IotsitewiseAssetModel#composed_asset_model_id}
 
 ---
 
@@ -1086,7 +1086,7 @@ public readonly compositeModelProperties: IResolvable | IotsitewiseAssetModelAss
 
 The property definitions of the asset model. You can specify up to 200 properties per asset model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#composite_model_properties IotsitewiseAssetModel#composite_model_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#composite_model_properties IotsitewiseAssetModel#composite_model_properties}
 
 ---
 
@@ -1100,7 +1100,7 @@ public readonly description: string;
 
 A description for the asset composite model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#description IotsitewiseAssetModel#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#description IotsitewiseAssetModel#description}
 
 ---
 
@@ -1114,7 +1114,7 @@ public readonly externalId: string;
 
 The External ID of the composite model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#external_id IotsitewiseAssetModel#external_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#external_id IotsitewiseAssetModel#external_id}
 
 ---
 
@@ -1128,7 +1128,7 @@ public readonly id: string;
 
 The Actual ID of the composite model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#id IotsitewiseAssetModel#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#id IotsitewiseAssetModel#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1145,7 +1145,7 @@ public readonly name: string;
 
 A unique, friendly name for the asset composite model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#name IotsitewiseAssetModel#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#name IotsitewiseAssetModel#name}
 
 ---
 
@@ -1159,7 +1159,7 @@ public readonly parentAssetModelCompositeModelExternalId: string;
 
 The parent composite model External ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#parent_asset_model_composite_model_external_id IotsitewiseAssetModel#parent_asset_model_composite_model_external_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#parent_asset_model_composite_model_external_id IotsitewiseAssetModel#parent_asset_model_composite_model_external_id}
 
 ---
 
@@ -1173,7 +1173,7 @@ public readonly path: string[];
 
 The path of the composite model. This is only for derived composite models.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#path IotsitewiseAssetModel#path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#path IotsitewiseAssetModel#path}
 
 ---
 
@@ -1187,7 +1187,7 @@ public readonly type: string;
 
 The type of the composite model. For alarm composite models, this type is AWS/ALARM.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#type IotsitewiseAssetModel#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#type IotsitewiseAssetModel#type}
 
 ---
 
@@ -1226,7 +1226,7 @@ public readonly dataType: string;
 
 The data type of the asset model property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#data_type IotsitewiseAssetModel#data_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#data_type IotsitewiseAssetModel#data_type}
 
 ---
 
@@ -1240,7 +1240,7 @@ public readonly dataTypeSpec: string;
 
 The data type of the structure for this property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#data_type_spec IotsitewiseAssetModel#data_type_spec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#data_type_spec IotsitewiseAssetModel#data_type_spec}
 
 ---
 
@@ -1254,7 +1254,7 @@ public readonly externalId: string;
 
 The External ID of the Asset Model Property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#external_id IotsitewiseAssetModel#external_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#external_id IotsitewiseAssetModel#external_id}
 
 ---
 
@@ -1268,7 +1268,7 @@ public readonly id: string;
 
 The ID of the Asset Model Property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#id IotsitewiseAssetModel#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#id IotsitewiseAssetModel#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1285,7 +1285,7 @@ public readonly logicalId: string;
 
 Customer provided Logical ID for property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#logical_id IotsitewiseAssetModel#logical_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#logical_id IotsitewiseAssetModel#logical_id}
 
 ---
 
@@ -1299,7 +1299,7 @@ public readonly name: string;
 
 The name of the asset model property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#name IotsitewiseAssetModel#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#name IotsitewiseAssetModel#name}
 
 ---
 
@@ -1313,7 +1313,7 @@ public readonly type: IotsitewiseAssetModelAssetModelCompositeModelsCompositeMod
 
 The property type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#type IotsitewiseAssetModel#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#type IotsitewiseAssetModel#type}
 
 ---
 
@@ -1327,7 +1327,7 @@ public readonly unit: string;
 
 The unit of the asset model property, such as Newtons or RPM.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#unit IotsitewiseAssetModel#unit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#unit IotsitewiseAssetModel#unit}
 
 ---
 
@@ -1345,10 +1345,10 @@ const iotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesType
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesType.property.attribute">attribute</a></code> | <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeAttribute">IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeAttribute</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#attribute IotsitewiseAssetModel#attribute}. |
-| <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesType.property.metric">metric</a></code> | <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeMetric">IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeMetric</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#metric IotsitewiseAssetModel#metric}. |
-| <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesType.property.transform">transform</a></code> | <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeTransform">IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeTransform</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#transform IotsitewiseAssetModel#transform}. |
-| <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesType.property.typeName">typeName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#type_name IotsitewiseAssetModel#type_name}. |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesType.property.attribute">attribute</a></code> | <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeAttribute">IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeAttribute</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#attribute IotsitewiseAssetModel#attribute}. |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesType.property.metric">metric</a></code> | <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeMetric">IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeMetric</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#metric IotsitewiseAssetModel#metric}. |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesType.property.transform">transform</a></code> | <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeTransform">IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeTransform</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#transform IotsitewiseAssetModel#transform}. |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesType.property.typeName">typeName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#type_name IotsitewiseAssetModel#type_name}. |
 
 ---
 
@@ -1360,7 +1360,7 @@ public readonly attribute: IotsitewiseAssetModelAssetModelCompositeModelsComposi
 
 - *Type:* <a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeAttribute">IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeAttribute</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#attribute IotsitewiseAssetModel#attribute}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#attribute IotsitewiseAssetModel#attribute}.
 
 ---
 
@@ -1372,7 +1372,7 @@ public readonly metric: IotsitewiseAssetModelAssetModelCompositeModelsCompositeM
 
 - *Type:* <a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeMetric">IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeMetric</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#metric IotsitewiseAssetModel#metric}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#metric IotsitewiseAssetModel#metric}.
 
 ---
 
@@ -1384,7 +1384,7 @@ public readonly transform: IotsitewiseAssetModelAssetModelCompositeModelsComposi
 
 - *Type:* <a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeTransform">IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeTransform</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#transform IotsitewiseAssetModel#transform}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#transform IotsitewiseAssetModel#transform}.
 
 ---
 
@@ -1396,7 +1396,7 @@ public readonly typeName: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#type_name IotsitewiseAssetModel#type_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#type_name IotsitewiseAssetModel#type_name}.
 
 ---
 
@@ -1414,7 +1414,7 @@ const iotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesType
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeAttribute.property.defaultValue">defaultValue</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#default_value IotsitewiseAssetModel#default_value}. |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeAttribute.property.defaultValue">defaultValue</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#default_value IotsitewiseAssetModel#default_value}. |
 
 ---
 
@@ -1426,7 +1426,7 @@ public readonly defaultValue: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#default_value IotsitewiseAssetModel#default_value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#default_value IotsitewiseAssetModel#default_value}.
 
 ---
 
@@ -1460,7 +1460,7 @@ public readonly expression: string;
 
 The mathematical expression that defines the metric aggregation function. You can specify up to 10 functions per expression.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#expression IotsitewiseAssetModel#expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#expression IotsitewiseAssetModel#expression}
 
 ---
 
@@ -1474,7 +1474,7 @@ public readonly variables: IResolvable | IotsitewiseAssetModelAssetModelComposit
 
 The list of variables used in the expression.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#variables IotsitewiseAssetModel#variables}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#variables IotsitewiseAssetModel#variables}
 
 ---
 
@@ -1488,7 +1488,7 @@ public readonly window: IotsitewiseAssetModelAssetModelCompositeModelsCompositeM
 
 The window (time interval) over which AWS IoT SiteWise computes the metric's aggregation expression.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#window IotsitewiseAssetModel#window}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#window IotsitewiseAssetModel#window}
 
 ---
 
@@ -1521,7 +1521,7 @@ public readonly name: string;
 
 The friendly name of the variable to be used in the expression.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#name IotsitewiseAssetModel#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#name IotsitewiseAssetModel#name}
 
 ---
 
@@ -1535,7 +1535,7 @@ public readonly value: IotsitewiseAssetModelAssetModelCompositeModelsCompositeMo
 
 The variable that identifies an asset property from which to use values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#value IotsitewiseAssetModel#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#value IotsitewiseAssetModel#value}
 
 ---
 
@@ -1555,10 +1555,10 @@ const iotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesType
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeMetricVariablesValue.property.hierarchyExternalId">hierarchyExternalId</a></code> | <code>string</code> | The External ID of the hierarchy that is trying to be referenced. |
 | <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeMetricVariablesValue.property.hierarchyId">hierarchyId</a></code> | <code>string</code> | The ID of the hierarchy that is trying to be referenced. |
-| <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeMetricVariablesValue.property.hierarchyLogicalId">hierarchyLogicalId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#hierarchy_logical_id IotsitewiseAssetModel#hierarchy_logical_id}. |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeMetricVariablesValue.property.hierarchyLogicalId">hierarchyLogicalId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#hierarchy_logical_id IotsitewiseAssetModel#hierarchy_logical_id}. |
 | <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeMetricVariablesValue.property.propertyExternalId">propertyExternalId</a></code> | <code>string</code> | The External ID of the property that is trying to be referenced. |
 | <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeMetricVariablesValue.property.propertyId">propertyId</a></code> | <code>string</code> | The ID of the property that is trying to be referenced. |
-| <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeMetricVariablesValue.property.propertyLogicalId">propertyLogicalId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#property_logical_id IotsitewiseAssetModel#property_logical_id}. |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeMetricVariablesValue.property.propertyLogicalId">propertyLogicalId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#property_logical_id IotsitewiseAssetModel#property_logical_id}. |
 | <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeMetricVariablesValue.property.propertyPath">propertyPath</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeMetricVariablesValuePropertyPath">IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeMetricVariablesValuePropertyPath</a>[]</code> | The path of the property that is trying to be referenced. |
 
 ---
@@ -1573,7 +1573,7 @@ public readonly hierarchyExternalId: string;
 
 The External ID of the hierarchy that is trying to be referenced.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#hierarchy_external_id IotsitewiseAssetModel#hierarchy_external_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#hierarchy_external_id IotsitewiseAssetModel#hierarchy_external_id}
 
 ---
 
@@ -1587,7 +1587,7 @@ public readonly hierarchyId: string;
 
 The ID of the hierarchy that is trying to be referenced.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#hierarchy_id IotsitewiseAssetModel#hierarchy_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#hierarchy_id IotsitewiseAssetModel#hierarchy_id}
 
 ---
 
@@ -1599,7 +1599,7 @@ public readonly hierarchyLogicalId: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#hierarchy_logical_id IotsitewiseAssetModel#hierarchy_logical_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#hierarchy_logical_id IotsitewiseAssetModel#hierarchy_logical_id}.
 
 ---
 
@@ -1613,7 +1613,7 @@ public readonly propertyExternalId: string;
 
 The External ID of the property that is trying to be referenced.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#property_external_id IotsitewiseAssetModel#property_external_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#property_external_id IotsitewiseAssetModel#property_external_id}
 
 ---
 
@@ -1627,7 +1627,7 @@ public readonly propertyId: string;
 
 The ID of the property that is trying to be referenced.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#property_id IotsitewiseAssetModel#property_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#property_id IotsitewiseAssetModel#property_id}
 
 ---
 
@@ -1639,7 +1639,7 @@ public readonly propertyLogicalId: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#property_logical_id IotsitewiseAssetModel#property_logical_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#property_logical_id IotsitewiseAssetModel#property_logical_id}.
 
 ---
 
@@ -1653,7 +1653,7 @@ public readonly propertyPath: IResolvable | IotsitewiseAssetModelAssetModelCompo
 
 The path of the property that is trying to be referenced.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#property_path IotsitewiseAssetModel#property_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#property_path IotsitewiseAssetModel#property_path}
 
 ---
 
@@ -1685,7 +1685,7 @@ public readonly name: string;
 
 The name of the property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#name IotsitewiseAssetModel#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#name IotsitewiseAssetModel#name}
 
 ---
 
@@ -1719,7 +1719,7 @@ Contains a tumbling window, which is a repeating fixed-sized, non-overlapping, a
 
 This window is used in metric and aggregation computations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#tumbling IotsitewiseAssetModel#tumbling}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#tumbling IotsitewiseAssetModel#tumbling}
 
 ---
 
@@ -1752,7 +1752,7 @@ public readonly interval: string;
 
 The time interval for the tumbling window.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#interval IotsitewiseAssetModel#interval}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#interval IotsitewiseAssetModel#interval}
 
 ---
 
@@ -1766,7 +1766,7 @@ public readonly offset: string;
 
 The shift or reference point on timeline for the contiguous time intervals.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#offset IotsitewiseAssetModel#offset}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#offset IotsitewiseAssetModel#offset}
 
 ---
 
@@ -1799,7 +1799,7 @@ public readonly expression: string;
 
 The mathematical expression that defines the transformation function. You can specify up to 10 functions per expression.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#expression IotsitewiseAssetModel#expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#expression IotsitewiseAssetModel#expression}
 
 ---
 
@@ -1813,7 +1813,7 @@ public readonly variables: IResolvable | IotsitewiseAssetModelAssetModelComposit
 
 The list of variables used in the expression.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#variables IotsitewiseAssetModel#variables}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#variables IotsitewiseAssetModel#variables}
 
 ---
 
@@ -1846,7 +1846,7 @@ public readonly name: string;
 
 The friendly name of the variable to be used in the expression.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#name IotsitewiseAssetModel#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#name IotsitewiseAssetModel#name}
 
 ---
 
@@ -1860,7 +1860,7 @@ public readonly value: IotsitewiseAssetModelAssetModelCompositeModelsCompositeMo
 
 The variable that identifies an asset property from which to use values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#value IotsitewiseAssetModel#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#value IotsitewiseAssetModel#value}
 
 ---
 
@@ -1880,10 +1880,10 @@ const iotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesType
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeTransformVariablesValue.property.hierarchyExternalId">hierarchyExternalId</a></code> | <code>string</code> | The External ID of the hierarchy that is trying to be referenced. |
 | <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeTransformVariablesValue.property.hierarchyId">hierarchyId</a></code> | <code>string</code> | The ID of the hierarchy that is trying to be referenced. |
-| <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeTransformVariablesValue.property.hierarchyLogicalId">hierarchyLogicalId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#hierarchy_logical_id IotsitewiseAssetModel#hierarchy_logical_id}. |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeTransformVariablesValue.property.hierarchyLogicalId">hierarchyLogicalId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#hierarchy_logical_id IotsitewiseAssetModel#hierarchy_logical_id}. |
 | <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeTransformVariablesValue.property.propertyExternalId">propertyExternalId</a></code> | <code>string</code> | The External ID of the property that is trying to be referenced. |
 | <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeTransformVariablesValue.property.propertyId">propertyId</a></code> | <code>string</code> | The ID of the property that is trying to be referenced. |
-| <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeTransformVariablesValue.property.propertyLogicalId">propertyLogicalId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#property_logical_id IotsitewiseAssetModel#property_logical_id}. |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeTransformVariablesValue.property.propertyLogicalId">propertyLogicalId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#property_logical_id IotsitewiseAssetModel#property_logical_id}. |
 | <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeTransformVariablesValue.property.propertyPath">propertyPath</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeTransformVariablesValuePropertyPath">IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeTransformVariablesValuePropertyPath</a>[]</code> | The path of the property that is trying to be referenced. |
 
 ---
@@ -1898,7 +1898,7 @@ public readonly hierarchyExternalId: string;
 
 The External ID of the hierarchy that is trying to be referenced.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#hierarchy_external_id IotsitewiseAssetModel#hierarchy_external_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#hierarchy_external_id IotsitewiseAssetModel#hierarchy_external_id}
 
 ---
 
@@ -1912,7 +1912,7 @@ public readonly hierarchyId: string;
 
 The ID of the hierarchy that is trying to be referenced.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#hierarchy_id IotsitewiseAssetModel#hierarchy_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#hierarchy_id IotsitewiseAssetModel#hierarchy_id}
 
 ---
 
@@ -1924,7 +1924,7 @@ public readonly hierarchyLogicalId: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#hierarchy_logical_id IotsitewiseAssetModel#hierarchy_logical_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#hierarchy_logical_id IotsitewiseAssetModel#hierarchy_logical_id}.
 
 ---
 
@@ -1938,7 +1938,7 @@ public readonly propertyExternalId: string;
 
 The External ID of the property that is trying to be referenced.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#property_external_id IotsitewiseAssetModel#property_external_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#property_external_id IotsitewiseAssetModel#property_external_id}
 
 ---
 
@@ -1952,7 +1952,7 @@ public readonly propertyId: string;
 
 The ID of the property that is trying to be referenced.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#property_id IotsitewiseAssetModel#property_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#property_id IotsitewiseAssetModel#property_id}
 
 ---
 
@@ -1964,7 +1964,7 @@ public readonly propertyLogicalId: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#property_logical_id IotsitewiseAssetModel#property_logical_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#property_logical_id IotsitewiseAssetModel#property_logical_id}.
 
 ---
 
@@ -1978,7 +1978,7 @@ public readonly propertyPath: IResolvable | IotsitewiseAssetModelAssetModelCompo
 
 The path of the property that is trying to be referenced.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#property_path IotsitewiseAssetModel#property_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#property_path IotsitewiseAssetModel#property_path}
 
 ---
 
@@ -2010,7 +2010,7 @@ public readonly name: string;
 
 The name of the property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#name IotsitewiseAssetModel#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#name IotsitewiseAssetModel#name}
 
 ---
 
@@ -2048,7 +2048,7 @@ The ID of the asset model.
 
 All assets in this hierarchy must be instances of the child AssetModelId asset model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#child_asset_model_id IotsitewiseAssetModel#child_asset_model_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#child_asset_model_id IotsitewiseAssetModel#child_asset_model_id}
 
 ---
 
@@ -2062,7 +2062,7 @@ public readonly externalId: string;
 
 Customer provided external ID for hierarchy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#external_id IotsitewiseAssetModel#external_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#external_id IotsitewiseAssetModel#external_id}
 
 ---
 
@@ -2076,7 +2076,7 @@ public readonly id: string;
 
 Customer provided actual ID for hierarchy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#id IotsitewiseAssetModel#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#id IotsitewiseAssetModel#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2093,7 +2093,7 @@ public readonly logicalId: string;
 
 Customer provided logical ID for hierarchy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#logical_id IotsitewiseAssetModel#logical_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#logical_id IotsitewiseAssetModel#logical_id}
 
 ---
 
@@ -2107,7 +2107,7 @@ public readonly name: string;
 
 The name of the asset model hierarchy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#name IotsitewiseAssetModel#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#name IotsitewiseAssetModel#name}
 
 ---
 
@@ -2146,7 +2146,7 @@ public readonly dataType: string;
 
 The data type of the asset model property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#data_type IotsitewiseAssetModel#data_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#data_type IotsitewiseAssetModel#data_type}
 
 ---
 
@@ -2160,7 +2160,7 @@ public readonly dataTypeSpec: string;
 
 The data type of the structure for this property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#data_type_spec IotsitewiseAssetModel#data_type_spec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#data_type_spec IotsitewiseAssetModel#data_type_spec}
 
 ---
 
@@ -2174,7 +2174,7 @@ public readonly externalId: string;
 
 The External ID of the Asset Model Property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#external_id IotsitewiseAssetModel#external_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#external_id IotsitewiseAssetModel#external_id}
 
 ---
 
@@ -2188,7 +2188,7 @@ public readonly id: string;
 
 The ID of the Asset Model Property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#id IotsitewiseAssetModel#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#id IotsitewiseAssetModel#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2205,7 +2205,7 @@ public readonly logicalId: string;
 
 Customer provided Logical ID for property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#logical_id IotsitewiseAssetModel#logical_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#logical_id IotsitewiseAssetModel#logical_id}
 
 ---
 
@@ -2219,7 +2219,7 @@ public readonly name: string;
 
 The name of the asset model property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#name IotsitewiseAssetModel#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#name IotsitewiseAssetModel#name}
 
 ---
 
@@ -2233,7 +2233,7 @@ public readonly type: IotsitewiseAssetModelAssetModelPropertiesType;
 
 The property type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#type IotsitewiseAssetModel#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#type IotsitewiseAssetModel#type}
 
 ---
 
@@ -2247,7 +2247,7 @@ public readonly unit: string;
 
 The unit of the asset model property, such as Newtons or RPM.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#unit IotsitewiseAssetModel#unit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#unit IotsitewiseAssetModel#unit}
 
 ---
 
@@ -2265,10 +2265,10 @@ const iotsitewiseAssetModelAssetModelPropertiesType: iotsitewiseAssetModel.Iotsi
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesType.property.attribute">attribute</a></code> | <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeAttribute">IotsitewiseAssetModelAssetModelPropertiesTypeAttribute</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#attribute IotsitewiseAssetModel#attribute}. |
-| <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesType.property.metric">metric</a></code> | <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeMetric">IotsitewiseAssetModelAssetModelPropertiesTypeMetric</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#metric IotsitewiseAssetModel#metric}. |
-| <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesType.property.transform">transform</a></code> | <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeTransform">IotsitewiseAssetModelAssetModelPropertiesTypeTransform</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#transform IotsitewiseAssetModel#transform}. |
-| <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesType.property.typeName">typeName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#type_name IotsitewiseAssetModel#type_name}. |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesType.property.attribute">attribute</a></code> | <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeAttribute">IotsitewiseAssetModelAssetModelPropertiesTypeAttribute</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#attribute IotsitewiseAssetModel#attribute}. |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesType.property.metric">metric</a></code> | <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeMetric">IotsitewiseAssetModelAssetModelPropertiesTypeMetric</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#metric IotsitewiseAssetModel#metric}. |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesType.property.transform">transform</a></code> | <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeTransform">IotsitewiseAssetModelAssetModelPropertiesTypeTransform</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#transform IotsitewiseAssetModel#transform}. |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesType.property.typeName">typeName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#type_name IotsitewiseAssetModel#type_name}. |
 
 ---
 
@@ -2280,7 +2280,7 @@ public readonly attribute: IotsitewiseAssetModelAssetModelPropertiesTypeAttribut
 
 - *Type:* <a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeAttribute">IotsitewiseAssetModelAssetModelPropertiesTypeAttribute</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#attribute IotsitewiseAssetModel#attribute}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#attribute IotsitewiseAssetModel#attribute}.
 
 ---
 
@@ -2292,7 +2292,7 @@ public readonly metric: IotsitewiseAssetModelAssetModelPropertiesTypeMetric;
 
 - *Type:* <a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeMetric">IotsitewiseAssetModelAssetModelPropertiesTypeMetric</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#metric IotsitewiseAssetModel#metric}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#metric IotsitewiseAssetModel#metric}.
 
 ---
 
@@ -2304,7 +2304,7 @@ public readonly transform: IotsitewiseAssetModelAssetModelPropertiesTypeTransfor
 
 - *Type:* <a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeTransform">IotsitewiseAssetModelAssetModelPropertiesTypeTransform</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#transform IotsitewiseAssetModel#transform}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#transform IotsitewiseAssetModel#transform}.
 
 ---
 
@@ -2316,7 +2316,7 @@ public readonly typeName: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#type_name IotsitewiseAssetModel#type_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#type_name IotsitewiseAssetModel#type_name}.
 
 ---
 
@@ -2334,7 +2334,7 @@ const iotsitewiseAssetModelAssetModelPropertiesTypeAttribute: iotsitewiseAssetMo
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeAttribute.property.defaultValue">defaultValue</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#default_value IotsitewiseAssetModel#default_value}. |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeAttribute.property.defaultValue">defaultValue</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#default_value IotsitewiseAssetModel#default_value}. |
 
 ---
 
@@ -2346,7 +2346,7 @@ public readonly defaultValue: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#default_value IotsitewiseAssetModel#default_value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#default_value IotsitewiseAssetModel#default_value}.
 
 ---
 
@@ -2380,7 +2380,7 @@ public readonly expression: string;
 
 The mathematical expression that defines the metric aggregation function. You can specify up to 10 functions per expression.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#expression IotsitewiseAssetModel#expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#expression IotsitewiseAssetModel#expression}
 
 ---
 
@@ -2394,7 +2394,7 @@ public readonly variables: IResolvable | IotsitewiseAssetModelAssetModelProperti
 
 The list of variables used in the expression.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#variables IotsitewiseAssetModel#variables}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#variables IotsitewiseAssetModel#variables}
 
 ---
 
@@ -2408,7 +2408,7 @@ public readonly window: IotsitewiseAssetModelAssetModelPropertiesTypeMetricWindo
 
 The window (time interval) over which AWS IoT SiteWise computes the metric's aggregation expression.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#window IotsitewiseAssetModel#window}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#window IotsitewiseAssetModel#window}
 
 ---
 
@@ -2441,7 +2441,7 @@ public readonly name: string;
 
 The friendly name of the variable to be used in the expression.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#name IotsitewiseAssetModel#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#name IotsitewiseAssetModel#name}
 
 ---
 
@@ -2455,7 +2455,7 @@ public readonly value: IotsitewiseAssetModelAssetModelPropertiesTypeMetricVariab
 
 The variable that identifies an asset property from which to use values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#value IotsitewiseAssetModel#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#value IotsitewiseAssetModel#value}
 
 ---
 
@@ -2475,10 +2475,10 @@ const iotsitewiseAssetModelAssetModelPropertiesTypeMetricVariablesValue: iotsite
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeMetricVariablesValue.property.hierarchyExternalId">hierarchyExternalId</a></code> | <code>string</code> | The External ID of the hierarchy that is trying to be referenced. |
 | <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeMetricVariablesValue.property.hierarchyId">hierarchyId</a></code> | <code>string</code> | The ID of the hierarchy that is trying to be referenced. |
-| <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeMetricVariablesValue.property.hierarchyLogicalId">hierarchyLogicalId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#hierarchy_logical_id IotsitewiseAssetModel#hierarchy_logical_id}. |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeMetricVariablesValue.property.hierarchyLogicalId">hierarchyLogicalId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#hierarchy_logical_id IotsitewiseAssetModel#hierarchy_logical_id}. |
 | <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeMetricVariablesValue.property.propertyExternalId">propertyExternalId</a></code> | <code>string</code> | The External ID of the property that is trying to be referenced. |
 | <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeMetricVariablesValue.property.propertyId">propertyId</a></code> | <code>string</code> | The ID of the property that is trying to be referenced. |
-| <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeMetricVariablesValue.property.propertyLogicalId">propertyLogicalId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#property_logical_id IotsitewiseAssetModel#property_logical_id}. |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeMetricVariablesValue.property.propertyLogicalId">propertyLogicalId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#property_logical_id IotsitewiseAssetModel#property_logical_id}. |
 | <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeMetricVariablesValue.property.propertyPath">propertyPath</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeMetricVariablesValuePropertyPath">IotsitewiseAssetModelAssetModelPropertiesTypeMetricVariablesValuePropertyPath</a>[]</code> | The path of the property that is trying to be referenced. |
 
 ---
@@ -2493,7 +2493,7 @@ public readonly hierarchyExternalId: string;
 
 The External ID of the hierarchy that is trying to be referenced.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#hierarchy_external_id IotsitewiseAssetModel#hierarchy_external_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#hierarchy_external_id IotsitewiseAssetModel#hierarchy_external_id}
 
 ---
 
@@ -2507,7 +2507,7 @@ public readonly hierarchyId: string;
 
 The ID of the hierarchy that is trying to be referenced.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#hierarchy_id IotsitewiseAssetModel#hierarchy_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#hierarchy_id IotsitewiseAssetModel#hierarchy_id}
 
 ---
 
@@ -2519,7 +2519,7 @@ public readonly hierarchyLogicalId: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#hierarchy_logical_id IotsitewiseAssetModel#hierarchy_logical_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#hierarchy_logical_id IotsitewiseAssetModel#hierarchy_logical_id}.
 
 ---
 
@@ -2533,7 +2533,7 @@ public readonly propertyExternalId: string;
 
 The External ID of the property that is trying to be referenced.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#property_external_id IotsitewiseAssetModel#property_external_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#property_external_id IotsitewiseAssetModel#property_external_id}
 
 ---
 
@@ -2547,7 +2547,7 @@ public readonly propertyId: string;
 
 The ID of the property that is trying to be referenced.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#property_id IotsitewiseAssetModel#property_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#property_id IotsitewiseAssetModel#property_id}
 
 ---
 
@@ -2559,7 +2559,7 @@ public readonly propertyLogicalId: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#property_logical_id IotsitewiseAssetModel#property_logical_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#property_logical_id IotsitewiseAssetModel#property_logical_id}.
 
 ---
 
@@ -2573,7 +2573,7 @@ public readonly propertyPath: IResolvable | IotsitewiseAssetModelAssetModelPrope
 
 The path of the property that is trying to be referenced.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#property_path IotsitewiseAssetModel#property_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#property_path IotsitewiseAssetModel#property_path}
 
 ---
 
@@ -2605,7 +2605,7 @@ public readonly name: string;
 
 The name of the property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#name IotsitewiseAssetModel#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#name IotsitewiseAssetModel#name}
 
 ---
 
@@ -2639,7 +2639,7 @@ Contains a tumbling window, which is a repeating fixed-sized, non-overlapping, a
 
 This window is used in metric and aggregation computations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#tumbling IotsitewiseAssetModel#tumbling}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#tumbling IotsitewiseAssetModel#tumbling}
 
 ---
 
@@ -2672,7 +2672,7 @@ public readonly interval: string;
 
 The time interval for the tumbling window.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#interval IotsitewiseAssetModel#interval}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#interval IotsitewiseAssetModel#interval}
 
 ---
 
@@ -2686,7 +2686,7 @@ public readonly offset: string;
 
 The shift or reference point on timeline for the contiguous time intervals.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#offset IotsitewiseAssetModel#offset}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#offset IotsitewiseAssetModel#offset}
 
 ---
 
@@ -2719,7 +2719,7 @@ public readonly expression: string;
 
 The mathematical expression that defines the transformation function. You can specify up to 10 functions per expression.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#expression IotsitewiseAssetModel#expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#expression IotsitewiseAssetModel#expression}
 
 ---
 
@@ -2733,7 +2733,7 @@ public readonly variables: IResolvable | IotsitewiseAssetModelAssetModelProperti
 
 The list of variables used in the expression.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#variables IotsitewiseAssetModel#variables}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#variables IotsitewiseAssetModel#variables}
 
 ---
 
@@ -2766,7 +2766,7 @@ public readonly name: string;
 
 The friendly name of the variable to be used in the expression.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#name IotsitewiseAssetModel#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#name IotsitewiseAssetModel#name}
 
 ---
 
@@ -2780,7 +2780,7 @@ public readonly value: IotsitewiseAssetModelAssetModelPropertiesTypeTransformVar
 
 The variable that identifies an asset property from which to use values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#value IotsitewiseAssetModel#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#value IotsitewiseAssetModel#value}
 
 ---
 
@@ -2800,10 +2800,10 @@ const iotsitewiseAssetModelAssetModelPropertiesTypeTransformVariablesValue: iots
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeTransformVariablesValue.property.hierarchyExternalId">hierarchyExternalId</a></code> | <code>string</code> | The External ID of the hierarchy that is trying to be referenced. |
 | <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeTransformVariablesValue.property.hierarchyId">hierarchyId</a></code> | <code>string</code> | The ID of the hierarchy that is trying to be referenced. |
-| <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeTransformVariablesValue.property.hierarchyLogicalId">hierarchyLogicalId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#hierarchy_logical_id IotsitewiseAssetModel#hierarchy_logical_id}. |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeTransformVariablesValue.property.hierarchyLogicalId">hierarchyLogicalId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#hierarchy_logical_id IotsitewiseAssetModel#hierarchy_logical_id}. |
 | <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeTransformVariablesValue.property.propertyExternalId">propertyExternalId</a></code> | <code>string</code> | The External ID of the property that is trying to be referenced. |
 | <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeTransformVariablesValue.property.propertyId">propertyId</a></code> | <code>string</code> | The ID of the property that is trying to be referenced. |
-| <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeTransformVariablesValue.property.propertyLogicalId">propertyLogicalId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#property_logical_id IotsitewiseAssetModel#property_logical_id}. |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeTransformVariablesValue.property.propertyLogicalId">propertyLogicalId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#property_logical_id IotsitewiseAssetModel#property_logical_id}. |
 | <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeTransformVariablesValue.property.propertyPath">propertyPath</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeTransformVariablesValuePropertyPath">IotsitewiseAssetModelAssetModelPropertiesTypeTransformVariablesValuePropertyPath</a>[]</code> | The path of the property that is trying to be referenced. |
 
 ---
@@ -2818,7 +2818,7 @@ public readonly hierarchyExternalId: string;
 
 The External ID of the hierarchy that is trying to be referenced.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#hierarchy_external_id IotsitewiseAssetModel#hierarchy_external_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#hierarchy_external_id IotsitewiseAssetModel#hierarchy_external_id}
 
 ---
 
@@ -2832,7 +2832,7 @@ public readonly hierarchyId: string;
 
 The ID of the hierarchy that is trying to be referenced.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#hierarchy_id IotsitewiseAssetModel#hierarchy_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#hierarchy_id IotsitewiseAssetModel#hierarchy_id}
 
 ---
 
@@ -2844,7 +2844,7 @@ public readonly hierarchyLogicalId: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#hierarchy_logical_id IotsitewiseAssetModel#hierarchy_logical_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#hierarchy_logical_id IotsitewiseAssetModel#hierarchy_logical_id}.
 
 ---
 
@@ -2858,7 +2858,7 @@ public readonly propertyExternalId: string;
 
 The External ID of the property that is trying to be referenced.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#property_external_id IotsitewiseAssetModel#property_external_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#property_external_id IotsitewiseAssetModel#property_external_id}
 
 ---
 
@@ -2872,7 +2872,7 @@ public readonly propertyId: string;
 
 The ID of the property that is trying to be referenced.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#property_id IotsitewiseAssetModel#property_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#property_id IotsitewiseAssetModel#property_id}
 
 ---
 
@@ -2884,7 +2884,7 @@ public readonly propertyLogicalId: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#property_logical_id IotsitewiseAssetModel#property_logical_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#property_logical_id IotsitewiseAssetModel#property_logical_id}.
 
 ---
 
@@ -2898,7 +2898,7 @@ public readonly propertyPath: IResolvable | IotsitewiseAssetModelAssetModelPrope
 
 The path of the property that is trying to be referenced.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#property_path IotsitewiseAssetModel#property_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#property_path IotsitewiseAssetModel#property_path}
 
 ---
 
@@ -2930,7 +2930,7 @@ public readonly name: string;
 
 The name of the property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#name IotsitewiseAssetModel#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#name IotsitewiseAssetModel#name}
 
 ---
 
@@ -3047,7 +3047,7 @@ public readonly assetModelName: string;
 
 A unique, friendly name for the asset model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#asset_model_name IotsitewiseAssetModel#asset_model_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#asset_model_name IotsitewiseAssetModel#asset_model_name}
 
 ---
 
@@ -3063,7 +3063,7 @@ The composite asset models that are part of this asset model.
 
 Composite asset models are asset models that contain specific properties.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#asset_model_composite_models IotsitewiseAssetModel#asset_model_composite_models}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#asset_model_composite_models IotsitewiseAssetModel#asset_model_composite_models}
 
 ---
 
@@ -3077,7 +3077,7 @@ public readonly assetModelDescription: string;
 
 A description for the asset model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#asset_model_description IotsitewiseAssetModel#asset_model_description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#asset_model_description IotsitewiseAssetModel#asset_model_description}
 
 ---
 
@@ -3091,7 +3091,7 @@ public readonly assetModelExternalId: string;
 
 The external ID of the asset model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#asset_model_external_id IotsitewiseAssetModel#asset_model_external_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#asset_model_external_id IotsitewiseAssetModel#asset_model_external_id}
 
 ---
 
@@ -3107,7 +3107,7 @@ The hierarchy definitions of the asset model.
 
 Each hierarchy specifies an asset model whose assets can be children of any other assets created from this asset model. You can specify up to 10 hierarchies per asset model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#asset_model_hierarchies IotsitewiseAssetModel#asset_model_hierarchies}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#asset_model_hierarchies IotsitewiseAssetModel#asset_model_hierarchies}
 
 ---
 
@@ -3121,7 +3121,7 @@ public readonly assetModelProperties: IResolvable | IotsitewiseAssetModelAssetMo
 
 The property definitions of the asset model. You can specify up to 200 properties per asset model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#asset_model_properties IotsitewiseAssetModel#asset_model_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#asset_model_properties IotsitewiseAssetModel#asset_model_properties}
 
 ---
 
@@ -3135,7 +3135,7 @@ public readonly assetModelType: string;
 
 The type of the asset model (ASSET_MODEL OR COMPONENT_MODEL or INTERFACE).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#asset_model_type IotsitewiseAssetModel#asset_model_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#asset_model_type IotsitewiseAssetModel#asset_model_type}
 
 ---
 
@@ -3149,7 +3149,7 @@ public readonly enforcedAssetModelInterfaceRelationships: IResolvable | Iotsitew
 
 a list of asset model and interface relationships.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#enforced_asset_model_interface_relationships IotsitewiseAssetModel#enforced_asset_model_interface_relationships}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#enforced_asset_model_interface_relationships IotsitewiseAssetModel#enforced_asset_model_interface_relationships}
 
 ---
 
@@ -3163,7 +3163,7 @@ public readonly tags: IResolvable | IotsitewiseAssetModelTags[];
 
 A list of key-value pairs that contain metadata for the asset model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#tags IotsitewiseAssetModel#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#tags IotsitewiseAssetModel#tags}
 
 ---
 
@@ -3196,7 +3196,7 @@ public readonly interfaceAssetModelId: string;
 
 The ID of the interface that is enforced to the asset model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#interface_asset_model_id IotsitewiseAssetModel#interface_asset_model_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#interface_asset_model_id IotsitewiseAssetModel#interface_asset_model_id}
 
 ---
 
@@ -3210,7 +3210,7 @@ public readonly propertyMappings: IResolvable | IotsitewiseAssetModelEnforcedAss
 
 Contains information about enforced interface property and asset model property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#property_mappings IotsitewiseAssetModel#property_mappings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#property_mappings IotsitewiseAssetModel#property_mappings}
 
 ---
 
@@ -3244,7 +3244,7 @@ public readonly assetModelPropertyExternalId: string;
 
 The external ID of the enforced asset model property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#asset_model_property_external_id IotsitewiseAssetModel#asset_model_property_external_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#asset_model_property_external_id IotsitewiseAssetModel#asset_model_property_external_id}
 
 ---
 
@@ -3258,7 +3258,7 @@ public readonly assetModelPropertyLogicalId: string;
 
 The logical ID of the enforced asset model property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#asset_model_property_logical_id IotsitewiseAssetModel#asset_model_property_logical_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#asset_model_property_logical_id IotsitewiseAssetModel#asset_model_property_logical_id}
 
 ---
 
@@ -3272,7 +3272,7 @@ public readonly interfaceAssetModelPropertyExternalId: string;
 
 The external ID of the enforced interface property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#interface_asset_model_property_external_id IotsitewiseAssetModel#interface_asset_model_property_external_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#interface_asset_model_property_external_id IotsitewiseAssetModel#interface_asset_model_property_external_id}
 
 ---
 
@@ -3290,8 +3290,8 @@ const iotsitewiseAssetModelTags: iotsitewiseAssetModel.IotsitewiseAssetModelTags
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelTags.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#key IotsitewiseAssetModel#key}. |
-| <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelTags.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#value IotsitewiseAssetModel#value}. |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelTags.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#key IotsitewiseAssetModel#key}. |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelTags.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#value IotsitewiseAssetModel#value}. |
 
 ---
 
@@ -3303,7 +3303,7 @@ public readonly key: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#key IotsitewiseAssetModel#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#key IotsitewiseAssetModel#key}.
 
 ---
 
@@ -3315,7 +3315,7 @@ public readonly value: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset_model#value IotsitewiseAssetModel#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_asset_model#value IotsitewiseAssetModel#value}.
 
 ---
 

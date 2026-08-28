@@ -4,7 +4,7 @@
 
 ### SsmincidentsResponsePlan <a name="SsmincidentsResponsePlan" id="@cdktn/provider-awscc.ssmincidentsResponsePlan.SsmincidentsResponsePlan"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssmincidents_response_plan awscc_ssmincidents_response_plan}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmincidents_response_plan awscc_ssmincidents_response_plan}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ssmincidentsResponsePlan.SsmincidentsResponsePlan.Initializer"></a>
 
@@ -596,7 +596,7 @@ The construct id used in the generated config for the SsmincidentsResponsePlan t
 
 The id of the existing SsmincidentsResponsePlan that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssmincidents_response_plan#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmincidents_response_plan#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1019,7 +1019,7 @@ SsmAutomation SsmincidentsResponsePlanActionsSsmAutomation
 
 The configuration to use when starting the SSM automation document.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssmincidents_response_plan#ssm_automation SsmincidentsResponsePlan#ssm_automation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmincidents_response_plan#ssm_automation SsmincidentsResponsePlan#ssm_automation}
 
 ---
 
@@ -1063,7 +1063,7 @@ DocumentName *string
 
 The document name to use when starting the SSM automation document.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssmincidents_response_plan#document_name SsmincidentsResponsePlan#document_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmincidents_response_plan#document_name SsmincidentsResponsePlan#document_name}
 
 ---
 
@@ -1077,7 +1077,7 @@ DocumentVersion *string
 
 The version of the document to use when starting the SSM automation document.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssmincidents_response_plan#document_version SsmincidentsResponsePlan#document_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmincidents_response_plan#document_version SsmincidentsResponsePlan#document_version}
 
 ---
 
@@ -1091,7 +1091,7 @@ DynamicParameters interface{}
 
 The parameters with dynamic values to set when starting the SSM automation document.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssmincidents_response_plan#dynamic_parameters SsmincidentsResponsePlan#dynamic_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmincidents_response_plan#dynamic_parameters SsmincidentsResponsePlan#dynamic_parameters}
 
 ---
 
@@ -1105,7 +1105,7 @@ Parameters interface{}
 
 The parameters to set when starting the SSM automation document.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssmincidents_response_plan#parameters SsmincidentsResponsePlan#parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmincidents_response_plan#parameters SsmincidentsResponsePlan#parameters}
 
 ---
 
@@ -1119,7 +1119,7 @@ RoleArn *string
 
 The role ARN to use when starting the SSM automation document.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssmincidents_response_plan#role_arn SsmincidentsResponsePlan#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmincidents_response_plan#role_arn SsmincidentsResponsePlan#role_arn}
 
 ---
 
@@ -1133,7 +1133,7 @@ TargetAccount *string
 
 The account type to use when starting the SSM automation document.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssmincidents_response_plan#target_account SsmincidentsResponsePlan#target_account}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmincidents_response_plan#target_account SsmincidentsResponsePlan#target_account}
 
 ---
 
@@ -1154,7 +1154,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmincidentsresponsepl
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ssmincidentsResponsePlan.SsmincidentsResponsePlanActionsSsmAutomationDynamicParameters.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssmincidents_response_plan#key SsmincidentsResponsePlan#key}. |
+| <code><a href="#@cdktn/provider-awscc.ssmincidentsResponsePlan.SsmincidentsResponsePlanActionsSsmAutomationDynamicParameters.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmincidents_response_plan#key SsmincidentsResponsePlan#key}. |
 | <code><a href="#@cdktn/provider-awscc.ssmincidentsResponsePlan.SsmincidentsResponsePlanActionsSsmAutomationDynamicParameters.property.value">Value</a></code> | <code><a href="#@cdktn/provider-awscc.ssmincidentsResponsePlan.SsmincidentsResponsePlanActionsSsmAutomationDynamicParametersValue">SsmincidentsResponsePlanActionsSsmAutomationDynamicParametersValue</a></code> | Value of the dynamic parameter to set when starting the SSM automation document. |
 
 ---
@@ -1167,7 +1167,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssmincidents_response_plan#key SsmincidentsResponsePlan#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmincidents_response_plan#key SsmincidentsResponsePlan#key}.
 
 ---
 
@@ -1181,7 +1181,7 @@ Value SsmincidentsResponsePlanActionsSsmAutomationDynamicParametersValue
 
 Value of the dynamic parameter to set when starting the SSM automation document.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssmincidents_response_plan#value SsmincidentsResponsePlan#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmincidents_response_plan#value SsmincidentsResponsePlan#value}
 
 ---
 
@@ -1215,7 +1215,7 @@ Variable *string
 
 The variable types used as dynamic parameter value when starting the SSM automation document.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssmincidents_response_plan#variable SsmincidentsResponsePlan#variable}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmincidents_response_plan#variable SsmincidentsResponsePlan#variable}
 
 ---
 
@@ -1236,8 +1236,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmincidentsresponsepl
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ssmincidentsResponsePlan.SsmincidentsResponsePlanActionsSsmAutomationParameters.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssmincidents_response_plan#key SsmincidentsResponsePlan#key}. |
-| <code><a href="#@cdktn/provider-awscc.ssmincidentsResponsePlan.SsmincidentsResponsePlanActionsSsmAutomationParameters.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssmincidents_response_plan#values SsmincidentsResponsePlan#values}. |
+| <code><a href="#@cdktn/provider-awscc.ssmincidentsResponsePlan.SsmincidentsResponsePlanActionsSsmAutomationParameters.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmincidents_response_plan#key SsmincidentsResponsePlan#key}. |
+| <code><a href="#@cdktn/provider-awscc.ssmincidentsResponsePlan.SsmincidentsResponsePlanActionsSsmAutomationParameters.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmincidents_response_plan#values SsmincidentsResponsePlan#values}. |
 
 ---
 
@@ -1249,7 +1249,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssmincidents_response_plan#key SsmincidentsResponsePlan#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmincidents_response_plan#key SsmincidentsResponsePlan#key}.
 
 ---
 
@@ -1261,7 +1261,7 @@ Values *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssmincidents_response_plan#values SsmincidentsResponsePlan#values}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmincidents_response_plan#values SsmincidentsResponsePlan#values}.
 
 ---
 
@@ -1281,7 +1281,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmincidentsresponsepl
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ssmincidentsResponsePlan.SsmincidentsResponsePlanChatChannel.property.chatbotSns">ChatbotSns</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssmincidents_response_plan#chatbot_sns SsmincidentsResponsePlan#chatbot_sns}. |
+| <code><a href="#@cdktn/provider-awscc.ssmincidentsResponsePlan.SsmincidentsResponsePlanChatChannel.property.chatbotSns">ChatbotSns</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmincidents_response_plan#chatbot_sns SsmincidentsResponsePlan#chatbot_sns}. |
 
 ---
 
@@ -1293,7 +1293,7 @@ ChatbotSns *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssmincidents_response_plan#chatbot_sns SsmincidentsResponsePlan#chatbot_sns}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmincidents_response_plan#chatbot_sns SsmincidentsResponsePlan#chatbot_sns}.
 
 ---
 
@@ -1425,7 +1425,7 @@ IncidentTemplate SsmincidentsResponsePlanIncidentTemplate
 
 The incident template configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssmincidents_response_plan#incident_template SsmincidentsResponsePlan#incident_template}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmincidents_response_plan#incident_template SsmincidentsResponsePlan#incident_template}
 
 ---
 
@@ -1439,7 +1439,7 @@ Name *string
 
 The name of the response plan.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssmincidents_response_plan#name SsmincidentsResponsePlan#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmincidents_response_plan#name SsmincidentsResponsePlan#name}
 
 ---
 
@@ -1453,7 +1453,7 @@ Actions interface{}
 
 The list of actions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssmincidents_response_plan#actions SsmincidentsResponsePlan#actions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmincidents_response_plan#actions SsmincidentsResponsePlan#actions}
 
 ---
 
@@ -1467,7 +1467,7 @@ ChatChannel SsmincidentsResponsePlanChatChannel
 
 The chat channel configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssmincidents_response_plan#chat_channel SsmincidentsResponsePlan#chat_channel}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmincidents_response_plan#chat_channel SsmincidentsResponsePlan#chat_channel}
 
 ---
 
@@ -1481,7 +1481,7 @@ DisplayName *string
 
 The display name of the response plan.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssmincidents_response_plan#display_name SsmincidentsResponsePlan#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmincidents_response_plan#display_name SsmincidentsResponsePlan#display_name}
 
 ---
 
@@ -1495,7 +1495,7 @@ Engagements *[]*string
 
 The list of engagements to use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssmincidents_response_plan#engagements SsmincidentsResponsePlan#engagements}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmincidents_response_plan#engagements SsmincidentsResponsePlan#engagements}
 
 ---
 
@@ -1509,7 +1509,7 @@ Integrations interface{}
 
 The list of integrations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssmincidents_response_plan#integrations SsmincidentsResponsePlan#integrations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmincidents_response_plan#integrations SsmincidentsResponsePlan#integrations}
 
 ---
 
@@ -1523,7 +1523,7 @@ Tags interface{}
 
 The tags to apply to the response plan.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssmincidents_response_plan#tags SsmincidentsResponsePlan#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmincidents_response_plan#tags SsmincidentsResponsePlan#tags}
 
 ---
 
@@ -1567,7 +1567,7 @@ Impact *f64
 
 The impact value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssmincidents_response_plan#impact SsmincidentsResponsePlan#impact}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmincidents_response_plan#impact SsmincidentsResponsePlan#impact}
 
 ---
 
@@ -1581,7 +1581,7 @@ Title *string
 
 The title string.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssmincidents_response_plan#title SsmincidentsResponsePlan#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmincidents_response_plan#title SsmincidentsResponsePlan#title}
 
 ---
 
@@ -1595,7 +1595,7 @@ DedupeString *string
 
 The deduplication string.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssmincidents_response_plan#dedupe_string SsmincidentsResponsePlan#dedupe_string}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmincidents_response_plan#dedupe_string SsmincidentsResponsePlan#dedupe_string}
 
 ---
 
@@ -1609,7 +1609,7 @@ IncidentTags interface{}
 
 Tags that get applied to incidents created by the StartIncident API action.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssmincidents_response_plan#incident_tags SsmincidentsResponsePlan#incident_tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmincidents_response_plan#incident_tags SsmincidentsResponsePlan#incident_tags}
 
 ---
 
@@ -1623,7 +1623,7 @@ NotificationTargets interface{}
 
 The list of notification targets.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssmincidents_response_plan#notification_targets SsmincidentsResponsePlan#notification_targets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmincidents_response_plan#notification_targets SsmincidentsResponsePlan#notification_targets}
 
 ---
 
@@ -1637,7 +1637,7 @@ Summary *string
 
 The summary string.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssmincidents_response_plan#summary SsmincidentsResponsePlan#summary}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmincidents_response_plan#summary SsmincidentsResponsePlan#summary}
 
 ---
 
@@ -1658,8 +1658,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmincidentsresponsepl
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ssmincidentsResponsePlan.SsmincidentsResponsePlanIncidentTemplateIncidentTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssmincidents_response_plan#key SsmincidentsResponsePlan#key}. |
-| <code><a href="#@cdktn/provider-awscc.ssmincidentsResponsePlan.SsmincidentsResponsePlanIncidentTemplateIncidentTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssmincidents_response_plan#value SsmincidentsResponsePlan#value}. |
+| <code><a href="#@cdktn/provider-awscc.ssmincidentsResponsePlan.SsmincidentsResponsePlanIncidentTemplateIncidentTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmincidents_response_plan#key SsmincidentsResponsePlan#key}. |
+| <code><a href="#@cdktn/provider-awscc.ssmincidentsResponsePlan.SsmincidentsResponsePlanIncidentTemplateIncidentTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmincidents_response_plan#value SsmincidentsResponsePlan#value}. |
 
 ---
 
@@ -1671,7 +1671,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssmincidents_response_plan#key SsmincidentsResponsePlan#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmincidents_response_plan#key SsmincidentsResponsePlan#key}.
 
 ---
 
@@ -1683,7 +1683,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssmincidents_response_plan#value SsmincidentsResponsePlan#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmincidents_response_plan#value SsmincidentsResponsePlan#value}.
 
 ---
 
@@ -1717,7 +1717,7 @@ SnsTopicArn *string
 
 The ARN of the Chatbot SNS topic.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssmincidents_response_plan#sns_topic_arn SsmincidentsResponsePlan#sns_topic_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmincidents_response_plan#sns_topic_arn SsmincidentsResponsePlan#sns_topic_arn}
 
 ---
 
@@ -1751,7 +1751,7 @@ PagerDutyConfiguration SsmincidentsResponsePlanIntegrationsPagerDutyConfiguratio
 
 The pagerDuty configuration to use when starting the incident.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssmincidents_response_plan#pager_duty_configuration SsmincidentsResponsePlan#pager_duty_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmincidents_response_plan#pager_duty_configuration SsmincidentsResponsePlan#pager_duty_configuration}
 
 ---
 
@@ -1789,7 +1789,7 @@ Name *string
 
 The name of the pagerDuty configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssmincidents_response_plan#name SsmincidentsResponsePlan#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmincidents_response_plan#name SsmincidentsResponsePlan#name}
 
 ---
 
@@ -1803,7 +1803,7 @@ PagerDutyIncidentConfiguration SsmincidentsResponsePlanIntegrationsPagerDutyConf
 
 The pagerDuty incident configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssmincidents_response_plan#pager_duty_incident_configuration SsmincidentsResponsePlan#pager_duty_incident_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmincidents_response_plan#pager_duty_incident_configuration SsmincidentsResponsePlan#pager_duty_incident_configuration}
 
 ---
 
@@ -1817,7 +1817,7 @@ SecretId *string
 
 The AWS secrets manager secretId storing the pagerDuty token.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssmincidents_response_plan#secret_id SsmincidentsResponsePlan#secret_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmincidents_response_plan#secret_id SsmincidentsResponsePlan#secret_id}
 
 ---
 
@@ -1851,7 +1851,7 @@ ServiceId *string
 
 The pagerDuty serviceId.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssmincidents_response_plan#service_id SsmincidentsResponsePlan#service_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmincidents_response_plan#service_id SsmincidentsResponsePlan#service_id}
 
 ---
 
@@ -1872,8 +1872,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmincidentsresponsepl
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ssmincidentsResponsePlan.SsmincidentsResponsePlanTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssmincidents_response_plan#key SsmincidentsResponsePlan#key}. |
-| <code><a href="#@cdktn/provider-awscc.ssmincidentsResponsePlan.SsmincidentsResponsePlanTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssmincidents_response_plan#value SsmincidentsResponsePlan#value}. |
+| <code><a href="#@cdktn/provider-awscc.ssmincidentsResponsePlan.SsmincidentsResponsePlanTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmincidents_response_plan#key SsmincidentsResponsePlan#key}. |
+| <code><a href="#@cdktn/provider-awscc.ssmincidentsResponsePlan.SsmincidentsResponsePlanTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmincidents_response_plan#value SsmincidentsResponsePlan#value}. |
 
 ---
 
@@ -1885,7 +1885,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssmincidents_response_plan#key SsmincidentsResponsePlan#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmincidents_response_plan#key SsmincidentsResponsePlan#key}.
 
 ---
 
@@ -1897,7 +1897,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssmincidents_response_plan#value SsmincidentsResponsePlan#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmincidents_response_plan#value SsmincidentsResponsePlan#value}.
 
 ---
 

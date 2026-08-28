@@ -4,7 +4,7 @@
 
 ### S3TablesTable <a name="S3TablesTable" id="@cdktn/provider-awscc.s3TablesTable.S3TablesTable"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3tables_table awscc_s3tables_table}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3tables_table awscc_s3tables_table}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3TablesTable.S3TablesTable.Initializer"></a>
 
@@ -596,7 +596,7 @@ The construct id used in the generated config for the S3TablesTable to import.
 
 The id of the existing S3TablesTable that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3tables_table#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3tables_table#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1087,7 +1087,7 @@ Status *string
 
 Indicates whether the Compaction maintenance action is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3tables_table#status S3TablesTable#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3tables_table#status S3TablesTable#status}
 
 ---
 
@@ -1101,7 +1101,7 @@ TargetFileSizeMb *f64
 
 The target file size for the table in MB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3tables_table#target_file_size_mb S3TablesTable#target_file_size_mb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3tables_table#target_file_size_mb S3TablesTable#target_file_size_mb}
 
 ---
 
@@ -1237,7 +1237,7 @@ Namespace *string
 
 The namespace that the table belongs to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3tables_table#namespace S3TablesTable#namespace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3tables_table#namespace S3TablesTable#namespace}
 
 ---
 
@@ -1251,7 +1251,7 @@ OpenTableFormat *string
 
 Format of the table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3tables_table#open_table_format S3TablesTable#open_table_format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3tables_table#open_table_format S3TablesTable#open_table_format}
 
 ---
 
@@ -1265,7 +1265,7 @@ TableBucketArn *string
 
 The Amazon Resource Name (ARN) of the specified table bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3tables_table#table_bucket_arn S3TablesTable#table_bucket_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3tables_table#table_bucket_arn S3TablesTable#table_bucket_arn}
 
 ---
 
@@ -1279,7 +1279,7 @@ TableName *string
 
 The name for the table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3tables_table#table_name S3TablesTable#table_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3tables_table#table_name S3TablesTable#table_name}
 
 ---
 
@@ -1293,7 +1293,7 @@ Compaction S3TablesTableCompaction
 
 Settings governing the Compaction maintenance action. Contains details about the compaction settings for an Iceberg table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3tables_table#compaction S3TablesTable#compaction}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3tables_table#compaction S3TablesTable#compaction}
 
 ---
 
@@ -1309,7 +1309,7 @@ Contains details about the metadata for an Iceberg table.
 
 Specify either IcebergSchema (for simple flat schemas with primitive types only) or IcebergSchemaV2 (for schemas with nested types like struct, list, map), but not both.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3tables_table#iceberg_metadata S3TablesTable#iceberg_metadata}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3tables_table#iceberg_metadata S3TablesTable#iceberg_metadata}
 
 ---
 
@@ -1325,7 +1325,7 @@ Contains details about the snapshot management settings for an Iceberg table.
 
 A snapshot is expired when it exceeds MinSnapshotsToKeep and MaxSnapshotAgeHours.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3tables_table#snapshot_management S3TablesTable#snapshot_management}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3tables_table#snapshot_management S3TablesTable#snapshot_management}
 
 ---
 
@@ -1339,7 +1339,7 @@ StorageClassConfiguration S3TablesTableStorageClassConfiguration
 
 Specifies storage class settings for the table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3tables_table#storage_class_configuration S3TablesTable#storage_class_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3tables_table#storage_class_configuration S3TablesTable#storage_class_configuration}
 
 ---
 
@@ -1353,7 +1353,7 @@ Tags interface{}
 
 User tags (key-value pairs) to associate with the table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3tables_table#tags S3TablesTable#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3tables_table#tags S3TablesTable#tags}
 
 ---
 
@@ -1369,7 +1369,7 @@ Indicates that you don't want to specify a schema for the table.
 
 This property is mutually exclusive to 'IcebergMetadata', and its only possible value is 'Yes'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3tables_table#without_metadata S3TablesTable#without_metadata}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3tables_table#without_metadata S3TablesTable#without_metadata}
 
 ---
 
@@ -1411,7 +1411,7 @@ IcebergPartitionSpec S3TablesTableIcebergMetadataIcebergPartitionSpec
 
 Partition specification for an Iceberg table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3tables_table#iceberg_partition_spec S3TablesTable#iceberg_partition_spec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3tables_table#iceberg_partition_spec S3TablesTable#iceberg_partition_spec}
 
 ---
 
@@ -1425,7 +1425,7 @@ IcebergSchema S3TablesTableIcebergMetadataIcebergSchema
 
 Schema definition for flat tables with primitive types only. Mutually exclusive with IcebergSchemaV2.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3tables_table#iceberg_schema S3TablesTable#iceberg_schema}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3tables_table#iceberg_schema S3TablesTable#iceberg_schema}
 
 ---
 
@@ -1439,7 +1439,7 @@ IcebergSchemaV2 S3TablesTableIcebergMetadataIcebergSchemaV2
 
 Schema definition that supports Apache Iceberg nested types (struct, list, map) and primitive types. Mutually exclusive with IcebergSchema.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3tables_table#iceberg_schema_v2 S3TablesTable#iceberg_schema_v2}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3tables_table#iceberg_schema_v2 S3TablesTable#iceberg_schema_v2}
 
 ---
 
@@ -1453,7 +1453,7 @@ IcebergSortOrder S3TablesTableIcebergMetadataIcebergSortOrder
 
 Sort order specification for an Iceberg table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3tables_table#iceberg_sort_order S3TablesTable#iceberg_sort_order}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3tables_table#iceberg_sort_order S3TablesTable#iceberg_sort_order}
 
 ---
 
@@ -1467,7 +1467,7 @@ TableProperties *map[string]*string
 
 Iceberg table properties (e.g., format-version, write.parquet.compression-codec).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3tables_table#table_properties S3TablesTable#table_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3tables_table#table_properties S3TablesTable#table_properties}
 
 ---
 
@@ -1503,7 +1503,7 @@ Fields interface{}
 
 List of partition fields.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3tables_table#fields S3TablesTable#fields}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3tables_table#fields S3TablesTable#fields}
 
 ---
 
@@ -1517,7 +1517,7 @@ SpecId *f64
 
 The partition spec ID (defaults to 0 if not specified).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3tables_table#spec_id S3TablesTable#spec_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3tables_table#spec_id S3TablesTable#spec_id}
 
 ---
 
@@ -1557,7 +1557,7 @@ FieldId *f64
 
 The partition field ID (auto-assigned starting from 1000 if not specified).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3tables_table#field_id S3TablesTable#field_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3tables_table#field_id S3TablesTable#field_id}
 
 ---
 
@@ -1571,7 +1571,7 @@ Name *string
 
 The name of the partition field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3tables_table#name S3TablesTable#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3tables_table#name S3TablesTable#name}
 
 ---
 
@@ -1585,7 +1585,7 @@ SourceId *f64
 
 The source column ID to partition on.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3tables_table#source_id S3TablesTable#source_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3tables_table#source_id S3TablesTable#source_id}
 
 ---
 
@@ -1599,7 +1599,7 @@ Transform *string
 
 The partition transform function (identity, bucket[N], truncate[N], year, month, day, hour).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3tables_table#transform S3TablesTable#transform}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3tables_table#transform S3TablesTable#transform}
 
 ---
 
@@ -1633,7 +1633,7 @@ SchemaFieldList interface{}
 
 Contains details about the schema for an Iceberg table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3tables_table#schema_field_list S3TablesTable#schema_field_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3tables_table#schema_field_list S3TablesTable#schema_field_list}
 
 ---
 
@@ -1673,7 +1673,7 @@ Id *f64
 
 The unique identifier for the field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3tables_table#id S3TablesTable#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3tables_table#id S3TablesTable#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1690,7 +1690,7 @@ Name *string
 
 The name of the field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3tables_table#name S3TablesTable#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3tables_table#name S3TablesTable#name}
 
 ---
 
@@ -1704,7 +1704,7 @@ Required interface{}
 
 A Boolean value that specifies whether values are required for each row in this field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3tables_table#required S3TablesTable#required}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3tables_table#required S3TablesTable#required}
 
 ---
 
@@ -1718,7 +1718,7 @@ Type *string
 
 The field type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3tables_table#type S3TablesTable#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3tables_table#type S3TablesTable#type}
 
 ---
 
@@ -1760,7 +1760,7 @@ A list of field IDs that are used as the identifier fields for the table.
 
 Identifier fields uniquely identify a row in the table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3tables_table#identifier_field_ids S3TablesTable#identifier_field_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3tables_table#identifier_field_ids S3TablesTable#identifier_field_ids}
 
 ---
 
@@ -1774,7 +1774,7 @@ SchemaId *f64
 
 An optional unique identifier for the schema.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3tables_table#schema_id S3TablesTable#schema_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3tables_table#schema_id S3TablesTable#schema_id}
 
 ---
 
@@ -1788,7 +1788,7 @@ SchemaV2FieldList interface{}
 
 The schema fields for the table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3tables_table#schema_v2_field_list S3TablesTable#schema_v2_field_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3tables_table#schema_v2_field_list S3TablesTable#schema_v2_field_list}
 
 ---
 
@@ -1802,7 +1802,7 @@ SchemaV2FieldType *string
 
 The type of the top-level schema, which is always 'struct'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3tables_table#schema_v2_field_type S3TablesTable#schema_v2_field_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3tables_table#schema_v2_field_type S3TablesTable#schema_v2_field_type}
 
 ---
 
@@ -1844,7 +1844,7 @@ Doc *string
 
 Optional documentation for the field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3tables_table#doc S3TablesTable#doc}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3tables_table#doc S3TablesTable#doc}
 
 ---
 
@@ -1858,7 +1858,7 @@ Id *f64
 
 The unique identifier for the field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3tables_table#id S3TablesTable#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3tables_table#id S3TablesTable#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1875,7 +1875,7 @@ Name *string
 
 The name of the field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3tables_table#name S3TablesTable#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3tables_table#name S3TablesTable#name}
 
 ---
 
@@ -1889,7 +1889,7 @@ Required interface{}
 
 A Boolean value that specifies whether values are required for each row in this field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3tables_table#required S3TablesTable#required}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3tables_table#required S3TablesTable#required}
 
 ---
 
@@ -1905,7 +1905,7 @@ The field type.
 
 For primitive types, use a string (e.g., 'int', 'string', 'long'). For nested types, use an object (e.g., {'type': 'struct', 'fields': [...]} for struct, {'type': 'list', 'element-id': N, 'element': 'type'} for list, {'type': 'map', 'key-id': N, 'key': 'type', 'value-id': N, 'value': 'type'} for map).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3tables_table#type S3TablesTable#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3tables_table#type S3TablesTable#type}
 
 ---
 
@@ -1941,7 +1941,7 @@ Fields interface{}
 
 List of sort fields.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3tables_table#fields S3TablesTable#fields}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3tables_table#fields S3TablesTable#fields}
 
 ---
 
@@ -1955,7 +1955,7 @@ OrderId *f64
 
 The sort order ID (defaults to 1 if not specified, 0 is reserved for unsorted).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3tables_table#order_id S3TablesTable#order_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3tables_table#order_id S3TablesTable#order_id}
 
 ---
 
@@ -1995,7 +1995,7 @@ Direction *string
 
 Sort direction (asc or desc).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3tables_table#direction S3TablesTable#direction}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3tables_table#direction S3TablesTable#direction}
 
 ---
 
@@ -2009,7 +2009,7 @@ NullOrder *string
 
 Null value ordering (nulls-first or nulls-last).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3tables_table#null_order S3TablesTable#null_order}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3tables_table#null_order S3TablesTable#null_order}
 
 ---
 
@@ -2023,7 +2023,7 @@ SourceId *f64
 
 The source column ID to sort on.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3tables_table#source_id S3TablesTable#source_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3tables_table#source_id S3TablesTable#source_id}
 
 ---
 
@@ -2037,7 +2037,7 @@ Transform *string
 
 The sort transform function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3tables_table#transform S3TablesTable#transform}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3tables_table#transform S3TablesTable#transform}
 
 ---
 
@@ -2075,7 +2075,7 @@ MaxSnapshotAgeHours *f64
 
 The maximum age of a snapshot before it can be expired.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3tables_table#max_snapshot_age_hours S3TablesTable#max_snapshot_age_hours}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3tables_table#max_snapshot_age_hours S3TablesTable#max_snapshot_age_hours}
 
 ---
 
@@ -2089,7 +2089,7 @@ MinSnapshotsToKeep *f64
 
 The minimum number of snapshots to keep.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3tables_table#min_snapshots_to_keep S3TablesTable#min_snapshots_to_keep}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3tables_table#min_snapshots_to_keep S3TablesTable#min_snapshots_to_keep}
 
 ---
 
@@ -2103,7 +2103,7 @@ Status *string
 
 Indicates whether the SnapshotManagement maintenance action is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3tables_table#status S3TablesTable#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3tables_table#status S3TablesTable#status}
 
 ---
 
@@ -2137,7 +2137,7 @@ StorageClass *string
 
 The storage class for the table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3tables_table#storage_class S3TablesTable#storage_class}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3tables_table#storage_class S3TablesTable#storage_class}
 
 ---
 

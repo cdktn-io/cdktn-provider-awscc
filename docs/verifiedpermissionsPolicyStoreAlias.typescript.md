@@ -4,7 +4,7 @@
 
 ### VerifiedpermissionsPolicyStoreAlias <a name="VerifiedpermissionsPolicyStoreAlias" id="@cdktn/provider-awscc.verifiedpermissionsPolicyStoreAlias.VerifiedpermissionsPolicyStoreAlias"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/verifiedpermissions_policy_store_alias awscc_verifiedpermissions_policy_store_alias}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/verifiedpermissions_policy_store_alias awscc_verifiedpermissions_policy_store_alias}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.verifiedpermissionsPolicyStoreAlias.VerifiedpermissionsPolicyStoreAlias.Initializer"></a>
 
@@ -489,7 +489,7 @@ The construct id used in the generated config for the VerifiedpermissionsPolicyS
 
 The id of the existing VerifiedpermissionsPolicyStoreAlias that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/verifiedpermissions_policy_store_alias#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/verifiedpermissions_policy_store_alias#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -760,8 +760,8 @@ const verifiedpermissionsPolicyStoreAliasConfig: verifiedpermissionsPolicyStoreA
 | <code><a href="#@cdktn/provider-awscc.verifiedpermissionsPolicyStoreAlias.VerifiedpermissionsPolicyStoreAliasConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.verifiedpermissionsPolicyStoreAlias.VerifiedpermissionsPolicyStoreAliasConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.verifiedpermissionsPolicyStoreAlias.VerifiedpermissionsPolicyStoreAliasConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.verifiedpermissionsPolicyStoreAlias.VerifiedpermissionsPolicyStoreAliasConfig.property.aliasName">aliasName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/verifiedpermissions_policy_store_alias#alias_name VerifiedpermissionsPolicyStoreAlias#alias_name}. |
-| <code><a href="#@cdktn/provider-awscc.verifiedpermissionsPolicyStoreAlias.VerifiedpermissionsPolicyStoreAliasConfig.property.policyStoreId">policyStoreId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/verifiedpermissions_policy_store_alias#policy_store_id VerifiedpermissionsPolicyStoreAlias#policy_store_id}. |
+| <code><a href="#@cdktn/provider-awscc.verifiedpermissionsPolicyStoreAlias.VerifiedpermissionsPolicyStoreAliasConfig.property.aliasName">aliasName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/verifiedpermissions_policy_store_alias#alias_name VerifiedpermissionsPolicyStoreAlias#alias_name}. |
+| <code><a href="#@cdktn/provider-awscc.verifiedpermissionsPolicyStoreAlias.VerifiedpermissionsPolicyStoreAliasConfig.property.policyStoreId">policyStoreId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/verifiedpermissions_policy_store_alias#policy_store_id VerifiedpermissionsPolicyStoreAlias#policy_store_id}. |
 
 ---
 
@@ -843,7 +843,7 @@ public readonly aliasName: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/verifiedpermissions_policy_store_alias#alias_name VerifiedpermissionsPolicyStoreAlias#alias_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/verifiedpermissions_policy_store_alias#alias_name VerifiedpermissionsPolicyStoreAlias#alias_name}.
 
 ---
 
@@ -855,7 +855,7 @@ public readonly policyStoreId: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/verifiedpermissions_policy_store_alias#policy_store_id VerifiedpermissionsPolicyStoreAlias#policy_store_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/verifiedpermissions_policy_store_alias#policy_store_id VerifiedpermissionsPolicyStoreAlias#policy_store_id}.
 
 ---
 

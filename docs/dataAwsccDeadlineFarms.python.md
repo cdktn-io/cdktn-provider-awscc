@@ -4,7 +4,7 @@
 
 ### DataAwsccDeadlineFarms <a name="DataAwsccDeadlineFarms" id="@cdktn/provider-awscc.dataAwsccDeadlineFarms.DataAwsccDeadlineFarms"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/deadline_farms awscc_deadline_farms}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/deadline_farms awscc_deadline_farms}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDeadlineFarms.DataAwsccDeadlineFarms.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccDeadlineFarms to 
 
 The id of the existing DataAwsccDeadlineFarms that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/deadline_farms#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/deadline_farms#import import section} in the documentation of this resource for the id to use
 
 ---
 

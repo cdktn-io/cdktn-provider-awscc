@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/codegurureviewer_repository_associations
+// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/codegurureviewer_repository_associations
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccCodegurureviewerRepositoryAssociationsConfig extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/codegurureviewer_repository_associations awscc_codegurureviewer_repository_associations}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/codegurureviewer_repository_associations awscc_codegurureviewer_repository_associations}
 */
 export class DataAwsccCodegurureviewerRepositoryAssociations extends cdktn.TerraformDataSource {
 
@@ -31,7 +31,7 @@ export class DataAwsccCodegurureviewerRepositoryAssociations extends cdktn.Terra
   * Generates CDKTN code for importing a DataAwsccCodegurureviewerRepositoryAssociations resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccCodegurureviewerRepositoryAssociations to import
-  * @param importFromId The id of the existing DataAwsccCodegurureviewerRepositoryAssociations that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/codegurureviewer_repository_associations#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccCodegurureviewerRepositoryAssociations that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/codegurureviewer_repository_associations#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccCodegurureviewerRepositoryAssociations to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -43,7 +43,7 @@ export class DataAwsccCodegurureviewerRepositoryAssociations extends cdktn.Terra
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/codegurureviewer_repository_associations awscc_codegurureviewer_repository_associations} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/codegurureviewer_repository_associations awscc_codegurureviewer_repository_associations} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -54,7 +54,7 @@ export class DataAwsccCodegurureviewerRepositoryAssociations extends cdktn.Terra
       terraformResourceType: 'awscc_codegurureviewer_repository_associations',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.98.0',
+        providerVersion: '1.99.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

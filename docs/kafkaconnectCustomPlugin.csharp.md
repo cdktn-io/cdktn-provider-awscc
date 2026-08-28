@@ -4,7 +4,7 @@
 
 ### KafkaconnectCustomPlugin <a name="KafkaconnectCustomPlugin" id="@cdktn/provider-awscc.kafkaconnectCustomPlugin.KafkaconnectCustomPlugin"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/kafkaconnect_custom_plugin awscc_kafkaconnect_custom_plugin}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kafkaconnect_custom_plugin awscc_kafkaconnect_custom_plugin}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.kafkaconnectCustomPlugin.KafkaconnectCustomPlugin.Initializer"></a>
 
@@ -529,7 +529,7 @@ The construct id used in the generated config for the KafkaconnectCustomPlugin t
 
 The id of the existing KafkaconnectCustomPlugin that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/kafkaconnect_custom_plugin#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kafkaconnect_custom_plugin#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1000,7 +1000,7 @@ public string ContentType { get; set; }
 
 The type of the plugin file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/kafkaconnect_custom_plugin#content_type KafkaconnectCustomPlugin#content_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kafkaconnect_custom_plugin#content_type KafkaconnectCustomPlugin#content_type}
 
 ---
 
@@ -1014,7 +1014,7 @@ public KafkaconnectCustomPluginLocation Location { get; set; }
 
 Information about the location of a custom plugin.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/kafkaconnect_custom_plugin#location KafkaconnectCustomPlugin#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kafkaconnect_custom_plugin#location KafkaconnectCustomPlugin#location}
 
 ---
 
@@ -1028,7 +1028,7 @@ public string Name { get; set; }
 
 The name of the custom plugin.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/kafkaconnect_custom_plugin#name KafkaconnectCustomPlugin#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kafkaconnect_custom_plugin#name KafkaconnectCustomPlugin#name}
 
 ---
 
@@ -1042,7 +1042,7 @@ public string Description { get; set; }
 
 A summary description of the custom plugin.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/kafkaconnect_custom_plugin#description KafkaconnectCustomPlugin#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kafkaconnect_custom_plugin#description KafkaconnectCustomPlugin#description}
 
 ---
 
@@ -1056,7 +1056,7 @@ public IResolvable|KafkaconnectCustomPluginTags[] Tags { get; set; }
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/kafkaconnect_custom_plugin#tags KafkaconnectCustomPlugin#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kafkaconnect_custom_plugin#tags KafkaconnectCustomPlugin#tags}
 
 ---
 
@@ -1103,7 +1103,7 @@ public KafkaconnectCustomPluginLocationS3Location S3Location { get; set; }
 
 The S3 bucket Amazon Resource Name (ARN), file key, and object version of the plugin file stored in Amazon S3.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/kafkaconnect_custom_plugin#s3_location KafkaconnectCustomPlugin#s3_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kafkaconnect_custom_plugin#s3_location KafkaconnectCustomPlugin#s3_location}
 
 ---
 
@@ -1141,7 +1141,7 @@ public string BucketArn { get; set; }
 
 The Amazon Resource Name (ARN) of an S3 bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/kafkaconnect_custom_plugin#bucket_arn KafkaconnectCustomPlugin#bucket_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kafkaconnect_custom_plugin#bucket_arn KafkaconnectCustomPlugin#bucket_arn}
 
 ---
 
@@ -1155,7 +1155,7 @@ public string FileKey { get; set; }
 
 The file key for an object in an S3 bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/kafkaconnect_custom_plugin#file_key KafkaconnectCustomPlugin#file_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kafkaconnect_custom_plugin#file_key KafkaconnectCustomPlugin#file_key}
 
 ---
 
@@ -1169,7 +1169,7 @@ public string ObjectVersion { get; set; }
 
 The version of an object in an S3 bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/kafkaconnect_custom_plugin#object_version KafkaconnectCustomPlugin#object_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kafkaconnect_custom_plugin#object_version KafkaconnectCustomPlugin#object_version}
 
 ---
 
@@ -1207,7 +1207,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/kafkaconnect_custom_plugin#key KafkaconnectCustomPlugin#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kafkaconnect_custom_plugin#key KafkaconnectCustomPlugin#key}
 
 ---
 
@@ -1223,7 +1223,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/kafkaconnect_custom_plugin#value KafkaconnectCustomPlugin#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kafkaconnect_custom_plugin#value KafkaconnectCustomPlugin#value}
 
 ---
 

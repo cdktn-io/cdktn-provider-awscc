@@ -4,7 +4,7 @@
 
 ### DataAwsccDynamodbTables <a name="DataAwsccDynamodbTables" id="@cdktn/provider-awscc.dataAwsccDynamodbTables.DataAwsccDynamodbTables"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/dynamodb_tables awscc_dynamodb_tables}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/dynamodb_tables awscc_dynamodb_tables}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDynamodbTables.DataAwsccDynamodbTables.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccDynamodbTables to
 
 The id of the existing DataAwsccDynamodbTables that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/dynamodb_tables#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/dynamodb_tables#import import section} in the documentation of this resource for the id to use
 
 ---
 

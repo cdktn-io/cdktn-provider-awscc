@@ -4,7 +4,7 @@
 
 ### NeptuneDbParameterGroup <a name="NeptuneDbParameterGroup" id="@cdktn/provider-awscc.neptuneDbParameterGroup.NeptuneDbParameterGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/neptune_db_parameter_group awscc_neptune_db_parameter_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/neptune_db_parameter_group awscc_neptune_db_parameter_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.neptuneDbParameterGroup.NeptuneDbParameterGroup.Initializer"></a>
 
@@ -516,7 +516,7 @@ The construct id used in the generated config for the NeptuneDbParameterGroup to
 
 The id of the existing NeptuneDbParameterGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/neptune_db_parameter_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/neptune_db_parameter_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -954,7 +954,7 @@ public string Description { get; set; }
 
 Provides the customer-specified description for this DB parameter group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/neptune_db_parameter_group#description NeptuneDbParameterGroup#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/neptune_db_parameter_group#description NeptuneDbParameterGroup#description}
 
 ---
 
@@ -968,7 +968,7 @@ public string Family { get; set; }
 
 Must be `neptune1` for engine versions prior to 1.2.0.0, or `neptune1.2` for engine version `1.2.0.0` and higher.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/neptune_db_parameter_group#family NeptuneDbParameterGroup#family}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/neptune_db_parameter_group#family NeptuneDbParameterGroup#family}
 
 ---
 
@@ -986,7 +986,7 @@ The parameters are expressed as a JSON object consisting of key-value pairs.
 
 Changes to dynamic parameters are applied immediately. During an update, if you have static parameters (whether they were changed or not), it triggers AWS CloudFormation to reboot the associated DB instance without failover.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/neptune_db_parameter_group#parameters NeptuneDbParameterGroup#parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/neptune_db_parameter_group#parameters NeptuneDbParameterGroup#parameters}
 
 ---
 
@@ -1000,7 +1000,7 @@ public string Name { get; set; }
 
 Provides the name of the DB parameter group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/neptune_db_parameter_group#name NeptuneDbParameterGroup#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/neptune_db_parameter_group#name NeptuneDbParameterGroup#name}
 
 ---
 
@@ -1014,7 +1014,7 @@ public IResolvable|NeptuneDbParameterGroupTags[] Tags { get; set; }
 
 An optional array of key-value pairs to apply to this DB parameter group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/neptune_db_parameter_group#tags NeptuneDbParameterGroup#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/neptune_db_parameter_group#tags NeptuneDbParameterGroup#tags}
 
 ---
 
@@ -1052,7 +1052,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/neptune_db_parameter_group#key NeptuneDbParameterGroup#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/neptune_db_parameter_group#key NeptuneDbParameterGroup#key}
 
 ---
 
@@ -1068,7 +1068,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/neptune_db_parameter_group#value NeptuneDbParameterGroup#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/neptune_db_parameter_group#value NeptuneDbParameterGroup#value}
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### ServicecatalogappregistryApplication <a name="ServicecatalogappregistryApplication" id="@cdktn/provider-awscc.servicecatalogappregistryApplication.ServicecatalogappregistryApplication"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicecatalogappregistry_application awscc_servicecatalogappregistry_application}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicecatalogappregistry_application awscc_servicecatalogappregistry_application}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.servicecatalogappregistryApplication.ServicecatalogappregistryApplication.Initializer"></a>
 
@@ -503,7 +503,7 @@ The construct id used in the generated config for the ServicecatalogappregistryA
 
 The id of the existing ServicecatalogappregistryApplication that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicecatalogappregistry_application#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicecatalogappregistry_application#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -864,7 +864,7 @@ new ServicecatalogappregistryApplicationConfig {
 | <code><a href="#@cdktn/provider-awscc.servicecatalogappregistryApplication.ServicecatalogappregistryApplicationConfig.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.servicecatalogappregistryApplication.ServicecatalogappregistryApplicationConfig.property.name">Name</a></code> | <code>string</code> | The name of the application. |
 | <code><a href="#@cdktn/provider-awscc.servicecatalogappregistryApplication.ServicecatalogappregistryApplicationConfig.property.description">Description</a></code> | <code>string</code> | The description of the application. |
-| <code><a href="#@cdktn/provider-awscc.servicecatalogappregistryApplication.ServicecatalogappregistryApplicationConfig.property.tags">Tags</a></code> | <code>System.Collections.Generic.IDictionary<string, string></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicecatalogappregistry_application#tags ServicecatalogappregistryApplication#tags}. |
+| <code><a href="#@cdktn/provider-awscc.servicecatalogappregistryApplication.ServicecatalogappregistryApplicationConfig.property.tags">Tags</a></code> | <code>System.Collections.Generic.IDictionary<string, string></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicecatalogappregistry_application#tags ServicecatalogappregistryApplication#tags}. |
 
 ---
 
@@ -948,7 +948,7 @@ public string Name { get; set; }
 
 The name of the application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicecatalogappregistry_application#name ServicecatalogappregistryApplication#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicecatalogappregistry_application#name ServicecatalogappregistryApplication#name}
 
 ---
 
@@ -962,7 +962,7 @@ public string Description { get; set; }
 
 The description of the application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicecatalogappregistry_application#description ServicecatalogappregistryApplication#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicecatalogappregistry_application#description ServicecatalogappregistryApplication#description}
 
 ---
 
@@ -974,7 +974,7 @@ public System.Collections.Generic.IDictionary<string, string> Tags { get; set; }
 
 - *Type:* System.Collections.Generic.IDictionary<string, string>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicecatalogappregistry_application#tags ServicecatalogappregistryApplication#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicecatalogappregistry_application#tags ServicecatalogappregistryApplication#tags}.
 
 ---
 

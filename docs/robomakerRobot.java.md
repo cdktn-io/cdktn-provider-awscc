@@ -4,7 +4,7 @@
 
 ### RobomakerRobot <a name="RobomakerRobot" id="@cdktn/provider-awscc.robomakerRobot.RobomakerRobot"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/robomaker_robot awscc_robomaker_robot}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/robomaker_robot awscc_robomaker_robot}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.robomakerRobot.RobomakerRobot.Initializer"></a>
 
@@ -112,7 +112,7 @@ Must be unique amongst siblings in the same scope
 
 The target architecture of the robot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/robomaker_robot#architecture RobomakerRobot#architecture}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/robomaker_robot#architecture RobomakerRobot#architecture}
 
 ---
 
@@ -122,7 +122,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The Greengrass group id.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/robomaker_robot#greengrass_group_id RobomakerRobot#greengrass_group_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/robomaker_robot#greengrass_group_id RobomakerRobot#greengrass_group_id}
 
 ---
 
@@ -132,7 +132,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The Amazon Resource Name (ARN) of the fleet.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/robomaker_robot#fleet RobomakerRobot#fleet}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/robomaker_robot#fleet RobomakerRobot#fleet}
 
 ---
 
@@ -142,7 +142,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name for the robot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/robomaker_robot#name RobomakerRobot#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/robomaker_robot#name RobomakerRobot#name}
 
 ---
 
@@ -152,7 +152,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A key-value pair to associate with a resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/robomaker_robot#tags RobomakerRobot#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/robomaker_robot#tags RobomakerRobot#tags}
 
 ---
 
@@ -622,7 +622,7 @@ The construct id used in the generated config for the RobomakerRobot to import.
 
 The id of the existing RobomakerRobot that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/robomaker_robot#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/robomaker_robot#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1071,7 +1071,7 @@ public java.lang.String getArchitecture();
 
 The target architecture of the robot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/robomaker_robot#architecture RobomakerRobot#architecture}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/robomaker_robot#architecture RobomakerRobot#architecture}
 
 ---
 
@@ -1085,7 +1085,7 @@ public java.lang.String getGreengrassGroupId();
 
 The Greengrass group id.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/robomaker_robot#greengrass_group_id RobomakerRobot#greengrass_group_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/robomaker_robot#greengrass_group_id RobomakerRobot#greengrass_group_id}
 
 ---
 
@@ -1099,7 +1099,7 @@ public java.lang.String getFleet();
 
 The Amazon Resource Name (ARN) of the fleet.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/robomaker_robot#fleet RobomakerRobot#fleet}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/robomaker_robot#fleet RobomakerRobot#fleet}
 
 ---
 
@@ -1113,7 +1113,7 @@ public java.lang.String getName();
 
 The name for the robot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/robomaker_robot#name RobomakerRobot#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/robomaker_robot#name RobomakerRobot#name}
 
 ---
 
@@ -1127,7 +1127,7 @@ public java.util.Map<java.lang.String, java.lang.String> getTags();
 
 A key-value pair to associate with a resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/robomaker_robot#tags RobomakerRobot#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/robomaker_robot#tags RobomakerRobot#tags}
 
 ---
 

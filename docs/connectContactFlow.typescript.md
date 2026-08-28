@@ -4,7 +4,7 @@
 
 ### ConnectContactFlow <a name="ConnectContactFlow" id="@cdktn/provider-awscc.connectContactFlow.ConnectContactFlow"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_contact_flow awscc_connect_contact_flow}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_contact_flow awscc_connect_contact_flow}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectContactFlow.ConnectContactFlow.Initializer"></a>
 
@@ -523,7 +523,7 @@ The construct id used in the generated config for the ConnectContactFlow to impo
 
 The id of the existing ConnectContactFlow that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_contact_flow#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_contact_flow#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1005,7 +1005,7 @@ public readonly content: string;
 
 The content of the contact flow in JSON format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_contact_flow#content ConnectContactFlow#content}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_contact_flow#content ConnectContactFlow#content}
 
 ---
 
@@ -1019,7 +1019,7 @@ public readonly instanceArn: string;
 
 The identifier of the Amazon Connect instance (ARN).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_contact_flow#instance_arn ConnectContactFlow#instance_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_contact_flow#instance_arn ConnectContactFlow#instance_arn}
 
 ---
 
@@ -1033,7 +1033,7 @@ public readonly name: string;
 
 The name of the contact flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_contact_flow#name ConnectContactFlow#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_contact_flow#name ConnectContactFlow#name}
 
 ---
 
@@ -1047,7 +1047,7 @@ public readonly type: string;
 
 The type of the contact flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_contact_flow#type ConnectContactFlow#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_contact_flow#type ConnectContactFlow#type}
 
 ---
 
@@ -1061,7 +1061,7 @@ public readonly description: string;
 
 The description of the contact flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_contact_flow#description ConnectContactFlow#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_contact_flow#description ConnectContactFlow#description}
 
 ---
 
@@ -1075,7 +1075,7 @@ public readonly state: string;
 
 The state of the contact flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_contact_flow#state ConnectContactFlow#state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_contact_flow#state ConnectContactFlow#state}
 
 ---
 
@@ -1089,7 +1089,7 @@ public readonly tags: IResolvable | ConnectContactFlowTags[];
 
 One or more tags.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_contact_flow#tags ConnectContactFlow#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_contact_flow#tags ConnectContactFlow#tags}
 
 ---
 
@@ -1124,7 +1124,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_contact_flow#key ConnectContactFlow#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_contact_flow#key ConnectContactFlow#key}
 
 ---
 
@@ -1140,7 +1140,7 @@ The value for the tag.
 
 . You can specify a value that is maximum of 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_contact_flow#value ConnectContactFlow#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_contact_flow#value ConnectContactFlow#value}
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### DetectiveMemberInvitation <a name="DetectiveMemberInvitation" id="@cdktn/provider-awscc.detectiveMemberInvitation.DetectiveMemberInvitation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/detective_member_invitation awscc_detective_member_invitation}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/detective_member_invitation awscc_detective_member_invitation}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.detectiveMemberInvitation.DetectiveMemberInvitation.Initializer"></a>
 
@@ -503,7 +503,7 @@ The construct id used in the generated config for the DetectiveMemberInvitation 
 
 The id of the existing DetectiveMemberInvitation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/detective_member_invitation#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/detective_member_invitation#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -928,7 +928,7 @@ public readonly graphArn: string;
 
 The ARN of the graph to which the member account will be invited.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/detective_member_invitation#graph_arn DetectiveMemberInvitation#graph_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/detective_member_invitation#graph_arn DetectiveMemberInvitation#graph_arn}
 
 ---
 
@@ -942,7 +942,7 @@ public readonly memberEmailAddress: string;
 
 The root email address for the account to be invited, for validation. Updating this field has no effect.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/detective_member_invitation#member_email_address DetectiveMemberInvitation#member_email_address}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/detective_member_invitation#member_email_address DetectiveMemberInvitation#member_email_address}
 
 ---
 
@@ -956,7 +956,7 @@ public readonly memberId: string;
 
 The AWS account ID to be invited to join the graph as a member.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/detective_member_invitation#member_id DetectiveMemberInvitation#member_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/detective_member_invitation#member_id DetectiveMemberInvitation#member_id}
 
 ---
 
@@ -972,7 +972,7 @@ When set to true, invitation emails are not sent to the member accounts.
 
 Member accounts must still accept the invitation before they are added to the behavior graph. Updating this field has no effect.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/detective_member_invitation#disable_email_notification DetectiveMemberInvitation#disable_email_notification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/detective_member_invitation#disable_email_notification DetectiveMemberInvitation#disable_email_notification}
 
 ---
 
@@ -988,7 +988,7 @@ A message to be included in the email invitation sent to the invited account.
 
 Updating this field has no effect.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/detective_member_invitation#message DetectiveMemberInvitation#message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/detective_member_invitation#message DetectiveMemberInvitation#message}
 
 ---
 

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/cloudfront_realtime_log_configs
+// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/cloudfront_realtime_log_configs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccCloudfrontRealtimeLogConfigsConfig extends cdktn.Terra
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/cloudfront_realtime_log_configs awscc_cloudfront_realtime_log_configs}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/cloudfront_realtime_log_configs awscc_cloudfront_realtime_log_configs}
 */
 export class DataAwsccCloudfrontRealtimeLogConfigs extends cdktn.TerraformDataSource {
 
@@ -31,7 +31,7 @@ export class DataAwsccCloudfrontRealtimeLogConfigs extends cdktn.TerraformDataSo
   * Generates CDKTN code for importing a DataAwsccCloudfrontRealtimeLogConfigs resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccCloudfrontRealtimeLogConfigs to import
-  * @param importFromId The id of the existing DataAwsccCloudfrontRealtimeLogConfigs that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/cloudfront_realtime_log_configs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccCloudfrontRealtimeLogConfigs that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/cloudfront_realtime_log_configs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccCloudfrontRealtimeLogConfigs to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -43,7 +43,7 @@ export class DataAwsccCloudfrontRealtimeLogConfigs extends cdktn.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/cloudfront_realtime_log_configs awscc_cloudfront_realtime_log_configs} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/cloudfront_realtime_log_configs awscc_cloudfront_realtime_log_configs} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -54,7 +54,7 @@ export class DataAwsccCloudfrontRealtimeLogConfigs extends cdktn.TerraformDataSo
       terraformResourceType: 'awscc_cloudfront_realtime_log_configs',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.98.0',
+        providerVersion: '1.99.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

@@ -4,7 +4,7 @@
 
 ### DataAwsccBatchJobDefinitions <a name="DataAwsccBatchJobDefinitions" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinitions.DataAwsccBatchJobDefinitions"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/batch_job_definitions awscc_batch_job_definitions}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/batch_job_definitions awscc_batch_job_definitions}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinitions.DataAwsccBatchJobDefinitions.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccBatchJobDefinitio
 
 The id of the existing DataAwsccBatchJobDefinitions that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/batch_job_definitions#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/batch_job_definitions#import import section} in the documentation of this resource for the id to use
 
 ---
 

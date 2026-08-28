@@ -4,7 +4,7 @@
 
 ### DataAwsccDirectconnectLags <a name="DataAwsccDirectconnectLags" id="@cdktn/provider-awscc.dataAwsccDirectconnectLags.DataAwsccDirectconnectLags"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/directconnect_lags awscc_directconnect_lags}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/directconnect_lags awscc_directconnect_lags}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDirectconnectLags.DataAwsccDirectconnectLags.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccDirectconnectLags
 
 The id of the existing DataAwsccDirectconnectLags that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/directconnect_lags#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/directconnect_lags#import import section} in the documentation of this resource for the id to use
 
 ---
 

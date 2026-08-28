@@ -4,7 +4,7 @@
 
 ### CloudtrailDashboard <a name="CloudtrailDashboard" id="@cdktn/provider-awscc.cloudtrailDashboard.CloudtrailDashboard"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudtrail_dashboard awscc_cloudtrail_dashboard}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudtrail_dashboard awscc_cloudtrail_dashboard}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudtrailDashboard.CloudtrailDashboard.Initializer"></a>
 
@@ -563,7 +563,7 @@ The construct id used in the generated config for the CloudtrailDashboard to imp
 
 The id of the existing CloudtrailDashboard that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudtrail_dashboard#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudtrail_dashboard#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -970,7 +970,7 @@ new CloudtrailDashboardConfig {
 | <code><a href="#@cdktn/provider-awscc.cloudtrailDashboard.CloudtrailDashboardConfig.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.cloudtrailDashboard.CloudtrailDashboardConfig.property.name">Name</a></code> | <code>string</code> | The name of the dashboard. |
 | <code><a href="#@cdktn/provider-awscc.cloudtrailDashboard.CloudtrailDashboardConfig.property.refreshSchedule">RefreshSchedule</a></code> | <code><a href="#@cdktn/provider-awscc.cloudtrailDashboard.CloudtrailDashboardRefreshSchedule">CloudtrailDashboardRefreshSchedule</a></code> | Configures the automatic refresh schedule for the dashboard. |
-| <code><a href="#@cdktn/provider-awscc.cloudtrailDashboard.CloudtrailDashboardConfig.property.tags">Tags</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.cloudtrailDashboard.CloudtrailDashboardTags">CloudtrailDashboardTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudtrail_dashboard#tags CloudtrailDashboard#tags}. |
+| <code><a href="#@cdktn/provider-awscc.cloudtrailDashboard.CloudtrailDashboardConfig.property.tags">Tags</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.cloudtrailDashboard.CloudtrailDashboardTags">CloudtrailDashboardTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudtrail_dashboard#tags CloudtrailDashboard#tags}. |
 | <code><a href="#@cdktn/provider-awscc.cloudtrailDashboard.CloudtrailDashboardConfig.property.terminationProtectionEnabled">TerminationProtectionEnabled</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | Indicates whether the dashboard is protected from termination. |
 | <code><a href="#@cdktn/provider-awscc.cloudtrailDashboard.CloudtrailDashboardConfig.property.widgets">Widgets</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.cloudtrailDashboard.CloudtrailDashboardWidgets">CloudtrailDashboardWidgets</a>[]</code> | List of widgets on the dashboard. |
 
@@ -1056,7 +1056,7 @@ public string Name { get; set; }
 
 The name of the dashboard.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudtrail_dashboard#name CloudtrailDashboard#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudtrail_dashboard#name CloudtrailDashboard#name}
 
 ---
 
@@ -1072,7 +1072,7 @@ Configures the automatic refresh schedule for the dashboard.
 
 Includes the frequency unit (DAYS or HOURS) and value, as well as the status (ENABLED or DISABLED) of the refresh schedule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudtrail_dashboard#refresh_schedule CloudtrailDashboard#refresh_schedule}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudtrail_dashboard#refresh_schedule CloudtrailDashboard#refresh_schedule}
 
 ---
 
@@ -1084,7 +1084,7 @@ public IResolvable|CloudtrailDashboardTags[] Tags { get; set; }
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.cloudtrailDashboard.CloudtrailDashboardTags">CloudtrailDashboardTags</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudtrail_dashboard#tags CloudtrailDashboard#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudtrail_dashboard#tags CloudtrailDashboard#tags}.
 
 ---
 
@@ -1098,7 +1098,7 @@ public bool|IResolvable TerminationProtectionEnabled { get; set; }
 
 Indicates whether the dashboard is protected from termination.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudtrail_dashboard#termination_protection_enabled CloudtrailDashboard#termination_protection_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudtrail_dashboard#termination_protection_enabled CloudtrailDashboard#termination_protection_enabled}
 
 ---
 
@@ -1112,7 +1112,7 @@ public IResolvable|CloudtrailDashboardWidgets[] Widgets { get; set; }
 
 List of widgets on the dashboard.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudtrail_dashboard#widgets CloudtrailDashboard#widgets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudtrail_dashboard#widgets CloudtrailDashboard#widgets}
 
 ---
 
@@ -1134,7 +1134,7 @@ new CloudtrailDashboardRefreshSchedule {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.cloudtrailDashboard.CloudtrailDashboardRefreshSchedule.property.frequency">Frequency</a></code> | <code><a href="#@cdktn/provider-awscc.cloudtrailDashboard.CloudtrailDashboardRefreshScheduleFrequency">CloudtrailDashboardRefreshScheduleFrequency</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudtrail_dashboard#frequency CloudtrailDashboard#frequency}. |
+| <code><a href="#@cdktn/provider-awscc.cloudtrailDashboard.CloudtrailDashboardRefreshSchedule.property.frequency">Frequency</a></code> | <code><a href="#@cdktn/provider-awscc.cloudtrailDashboard.CloudtrailDashboardRefreshScheduleFrequency">CloudtrailDashboardRefreshScheduleFrequency</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudtrail_dashboard#frequency CloudtrailDashboard#frequency}. |
 | <code><a href="#@cdktn/provider-awscc.cloudtrailDashboard.CloudtrailDashboardRefreshSchedule.property.status">Status</a></code> | <code>string</code> | The status of the schedule. Supported values are ENABLED and DISABLED. |
 | <code><a href="#@cdktn/provider-awscc.cloudtrailDashboard.CloudtrailDashboardRefreshSchedule.property.timeOfDay">TimeOfDay</a></code> | <code>string</code> | StartTime of the automatic schedule refresh. |
 
@@ -1148,7 +1148,7 @@ public CloudtrailDashboardRefreshScheduleFrequency Frequency { get; set; }
 
 - *Type:* <a href="#@cdktn/provider-awscc.cloudtrailDashboard.CloudtrailDashboardRefreshScheduleFrequency">CloudtrailDashboardRefreshScheduleFrequency</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudtrail_dashboard#frequency CloudtrailDashboard#frequency}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudtrail_dashboard#frequency CloudtrailDashboard#frequency}.
 
 ---
 
@@ -1162,7 +1162,7 @@ public string Status { get; set; }
 
 The status of the schedule. Supported values are ENABLED and DISABLED.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudtrail_dashboard#status CloudtrailDashboard#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudtrail_dashboard#status CloudtrailDashboard#status}
 
 ---
 
@@ -1176,7 +1176,7 @@ public string TimeOfDay { get; set; }
 
 StartTime of the automatic schedule refresh.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudtrail_dashboard#time_of_day CloudtrailDashboard#time_of_day}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudtrail_dashboard#time_of_day CloudtrailDashboard#time_of_day}
 
 ---
 
@@ -1212,7 +1212,7 @@ public string Unit { get; set; }
 
 The frequency unit. Supported values are HOURS and DAYS.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudtrail_dashboard#unit CloudtrailDashboard#unit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudtrail_dashboard#unit CloudtrailDashboard#unit}
 
 ---
 
@@ -1226,7 +1226,7 @@ public double Value { get; set; }
 
 The frequency value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudtrail_dashboard#value CloudtrailDashboard#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudtrail_dashboard#value CloudtrailDashboard#value}
 
 ---
 
@@ -1264,7 +1264,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudtrail_dashboard#key CloudtrailDashboard#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudtrail_dashboard#key CloudtrailDashboard#key}
 
 ---
 
@@ -1280,7 +1280,7 @@ The value for the tag.
 
 You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudtrail_dashboard#value CloudtrailDashboard#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudtrail_dashboard#value CloudtrailDashboard#value}
 
 ---
 
@@ -1318,7 +1318,7 @@ public string[] QueryParameters { get; set; }
 
 The placeholder keys in the QueryStatement. For example: $StartTime$, $EndTime$, $Period$.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudtrail_dashboard#query_parameters CloudtrailDashboard#query_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudtrail_dashboard#query_parameters CloudtrailDashboard#query_parameters}
 
 ---
 
@@ -1332,7 +1332,7 @@ public string QueryStatement { get; set; }
 
 The SQL query statement on one or more event data stores.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudtrail_dashboard#query_statement CloudtrailDashboard#query_statement}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudtrail_dashboard#query_statement CloudtrailDashboard#query_statement}
 
 ---
 
@@ -1346,7 +1346,7 @@ public System.Collections.Generic.IDictionary<string, string> ViewProperties { g
 
 The view properties of the widget.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudtrail_dashboard#view_properties CloudtrailDashboard#view_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudtrail_dashboard#view_properties CloudtrailDashboard#view_properties}
 
 ---
 

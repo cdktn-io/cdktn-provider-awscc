@@ -4,7 +4,7 @@
 
 ### DataAwsccRoute53RecoveryreadinessCells <a name="DataAwsccRoute53RecoveryreadinessCells" id="@cdktn/provider-awscc.dataAwsccRoute53RecoveryreadinessCells.DataAwsccRoute53RecoveryreadinessCells"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/route53recoveryreadiness_cells awscc_route53recoveryreadiness_cells}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/route53recoveryreadiness_cells awscc_route53recoveryreadiness_cells}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRoute53RecoveryreadinessCells.DataAwsccRoute53RecoveryreadinessCells.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccRoute53Recoveryre
 
 The id of the existing DataAwsccRoute53RecoveryreadinessCells that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/route53recoveryreadiness_cells#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/route53recoveryreadiness_cells#import import section} in the documentation of this resource for the id to use
 
 ---
 

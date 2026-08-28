@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicediscovery_service
+// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicediscovery_service
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,55 +15,55 @@ export interface ServicediscoveryServiceConfig extends cdktn.TerraformMetaArgume
   /**
   * A description for the service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicediscovery_service#description ServicediscoveryService#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicediscovery_service#description ServicediscoveryService#description}
   */
   readonly description?: string;
   /**
   * DNS-related configurations for the service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicediscovery_service#dns_config ServicediscoveryService#dns_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicediscovery_service#dns_config ServicediscoveryService#dns_config}
   */
   readonly dnsConfig?: ServicediscoveryServiceDnsConfig;
   /**
   * Settings for health checks. Used when routing is DNS-based.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicediscovery_service#health_check_config ServicediscoveryService#health_check_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicediscovery_service#health_check_config ServicediscoveryService#health_check_config}
   */
   readonly healthCheckConfig?: ServicediscoveryServiceHealthCheckConfig;
   /**
   * Settings for custom health checks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicediscovery_service#health_check_custom_config ServicediscoveryService#health_check_custom_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicediscovery_service#health_check_custom_config ServicediscoveryService#health_check_custom_config}
   */
   readonly healthCheckCustomConfig?: ServicediscoveryServiceHealthCheckCustomConfig;
   /**
   * The name of the service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicediscovery_service#name ServicediscoveryService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicediscovery_service#name ServicediscoveryService#name}
   */
   readonly name?: string;
   /**
   * The ID of the namespace in which the service is created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicediscovery_service#namespace_id ServicediscoveryService#namespace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicediscovery_service#namespace_id ServicediscoveryService#namespace_id}
   */
   readonly namespaceId?: string;
   /**
   * A string map that contains attributes and values for the service. You can specify a maximum of 30 key-value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicediscovery_service#service_attributes ServicediscoveryService#service_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicediscovery_service#service_attributes ServicediscoveryService#service_attributes}
   */
   readonly serviceAttributes?: { [key: string]: string };
   /**
   * An array of key-value pairs to associate with the service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicediscovery_service#tags ServicediscoveryService#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicediscovery_service#tags ServicediscoveryService#tags}
   */
   readonly tags?: ServicediscoveryServiceTags[] | cdktn.IResolvable;
   /**
   * The type of service. Supported values are HTTP or DNS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicediscovery_service#type ServicediscoveryService#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicediscovery_service#type ServicediscoveryService#type}
   */
   readonly type?: string;
 }
@@ -71,13 +71,13 @@ export interface ServicediscoveryServiceDnsConfigDnsRecords {
   /**
   * The time-to-live (TTL) for the DNS record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicediscovery_service#ttl ServicediscoveryService#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicediscovery_service#ttl ServicediscoveryService#ttl}
   */
   readonly ttl?: number;
   /**
   * The DNS record type (e.g., A, AAAA, SRV).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicediscovery_service#type ServicediscoveryService#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicediscovery_service#type ServicediscoveryService#type}
   */
   readonly type?: string;
 }
@@ -224,19 +224,19 @@ export interface ServicediscoveryServiceDnsConfig {
   /**
   * A list of DNS records associated with the service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicediscovery_service#dns_records ServicediscoveryService#dns_records}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicediscovery_service#dns_records ServicediscoveryService#dns_records}
   */
   readonly dnsRecords?: ServicediscoveryServiceDnsConfigDnsRecords[] | cdktn.IResolvable;
   /**
   * The ID of the namespace for the DNS configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicediscovery_service#namespace_id ServicediscoveryService#namespace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicediscovery_service#namespace_id ServicediscoveryService#namespace_id}
   */
   readonly namespaceId?: string;
   /**
   * The routing policy to use for DNS queries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicediscovery_service#routing_policy ServicediscoveryService#routing_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicediscovery_service#routing_policy ServicediscoveryService#routing_policy}
   */
   readonly routingPolicy?: string;
 }
@@ -390,19 +390,19 @@ export interface ServicediscoveryServiceHealthCheckConfig {
   /**
   * The number of consecutive health check failures that must occur before declaring the service unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicediscovery_service#failure_threshold ServicediscoveryService#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicediscovery_service#failure_threshold ServicediscoveryService#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * The path to ping on the service for health checks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicediscovery_service#resource_path ServicediscoveryService#resource_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicediscovery_service#resource_path ServicediscoveryService#resource_path}
   */
   readonly resourcePath?: string;
   /**
   * The type of health check (e.g., HTTP, HTTPS, TCP).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicediscovery_service#type ServicediscoveryService#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicediscovery_service#type ServicediscoveryService#type}
   */
   readonly type?: string;
 }
@@ -556,7 +556,7 @@ export interface ServicediscoveryServiceHealthCheckCustomConfig {
   /**
   * The number of consecutive health check failures required before the service is considered unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicediscovery_service#failure_threshold ServicediscoveryService#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicediscovery_service#failure_threshold ServicediscoveryService#failure_threshold}
   */
   readonly failureThreshold?: number;
 }
@@ -652,13 +652,13 @@ export interface ServicediscoveryServiceTags {
   /**
   * The key name of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicediscovery_service#key ServicediscoveryService#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicediscovery_service#key ServicediscoveryService#key}
   */
   readonly key?: string;
   /**
   * The value of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicediscovery_service#value ServicediscoveryService#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicediscovery_service#value ServicediscoveryService#value}
   */
   readonly value?: string;
 }
@@ -803,7 +803,7 @@ export class ServicediscoveryServiceTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicediscovery_service awscc_servicediscovery_service}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicediscovery_service awscc_servicediscovery_service}
 */
 export class ServicediscoveryService extends cdktn.TerraformResource {
 
@@ -819,7 +819,7 @@ export class ServicediscoveryService extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ServicediscoveryService resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServicediscoveryService to import
-  * @param importFromId The id of the existing ServicediscoveryService that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicediscovery_service#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServicediscoveryService that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicediscovery_service#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServicediscoveryService to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -831,7 +831,7 @@ export class ServicediscoveryService extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicediscovery_service awscc_servicediscovery_service} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicediscovery_service awscc_servicediscovery_service} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -842,7 +842,7 @@ export class ServicediscoveryService extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_servicediscovery_service',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.98.0',
+        providerVersion: '1.99.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

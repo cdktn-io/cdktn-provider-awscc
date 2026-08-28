@@ -4,7 +4,7 @@
 
 ### DeadlineMonitor <a name="DeadlineMonitor" id="@cdktn/provider-awscc.deadlineMonitor.DeadlineMonitor"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_monitor awscc_deadline_monitor}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/deadline_monitor awscc_deadline_monitor}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.deadlineMonitor.DeadlineMonitor.Initializer"></a>
 
@@ -41,10 +41,10 @@ deadlineMonitor.DeadlineMonitor(
 | <code><a href="#@cdktn/provider-awscc.deadlineMonitor.DeadlineMonitor.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.deadlineMonitor.DeadlineMonitor.Initializer.parameter.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.deadlineMonitor.DeadlineMonitor.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.deadlineMonitor.DeadlineMonitor.Initializer.parameter.displayName">display_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_monitor#display_name DeadlineMonitor#display_name}. |
-| <code><a href="#@cdktn/provider-awscc.deadlineMonitor.DeadlineMonitor.Initializer.parameter.identityCenterInstanceArn">identity_center_instance_arn</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_monitor#identity_center_instance_arn DeadlineMonitor#identity_center_instance_arn}. |
-| <code><a href="#@cdktn/provider-awscc.deadlineMonitor.DeadlineMonitor.Initializer.parameter.roleArn">role_arn</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_monitor#role_arn DeadlineMonitor#role_arn}. |
-| <code><a href="#@cdktn/provider-awscc.deadlineMonitor.DeadlineMonitor.Initializer.parameter.subdomain">subdomain</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_monitor#subdomain DeadlineMonitor#subdomain}. |
+| <code><a href="#@cdktn/provider-awscc.deadlineMonitor.DeadlineMonitor.Initializer.parameter.displayName">display_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/deadline_monitor#display_name DeadlineMonitor#display_name}. |
+| <code><a href="#@cdktn/provider-awscc.deadlineMonitor.DeadlineMonitor.Initializer.parameter.identityCenterInstanceArn">identity_center_instance_arn</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/deadline_monitor#identity_center_instance_arn DeadlineMonitor#identity_center_instance_arn}. |
+| <code><a href="#@cdktn/provider-awscc.deadlineMonitor.DeadlineMonitor.Initializer.parameter.roleArn">role_arn</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/deadline_monitor#role_arn DeadlineMonitor#role_arn}. |
+| <code><a href="#@cdktn/provider-awscc.deadlineMonitor.DeadlineMonitor.Initializer.parameter.subdomain">subdomain</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/deadline_monitor#subdomain DeadlineMonitor#subdomain}. |
 | <code><a href="#@cdktn/provider-awscc.deadlineMonitor.DeadlineMonitor.Initializer.parameter.identityCenterRegion">identity_center_region</a></code> | <code>str</code> | The AWS region where IAM Identity Center is enabled. |
 | <code><a href="#@cdktn/provider-awscc.deadlineMonitor.DeadlineMonitor.Initializer.parameter.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.deadlineMonitor.DeadlineMonitorTags">DeadlineMonitorTags</a>]</code> | An array of key-value pairs to apply to this resource. |
 
@@ -114,7 +114,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_monitor#display_name DeadlineMonitor#display_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/deadline_monitor#display_name DeadlineMonitor#display_name}.
 
 ---
 
@@ -122,7 +122,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_monitor#identity_center_instance_arn DeadlineMonitor#identity_center_instance_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/deadline_monitor#identity_center_instance_arn DeadlineMonitor#identity_center_instance_arn}.
 
 ---
 
@@ -130,7 +130,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_monitor#role_arn DeadlineMonitor#role_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/deadline_monitor#role_arn DeadlineMonitor#role_arn}.
 
 ---
 
@@ -138,7 +138,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_monitor#subdomain DeadlineMonitor#subdomain}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/deadline_monitor#subdomain DeadlineMonitor#subdomain}.
 
 ---
 
@@ -150,7 +150,7 @@ The AWS region where IAM Identity Center is enabled.
 
 Required when Identity Center is in a different region than the monitor.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_monitor#identity_center_region DeadlineMonitor#identity_center_region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/deadline_monitor#identity_center_region DeadlineMonitor#identity_center_region}
 
 ---
 
@@ -160,7 +160,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_monitor#tags DeadlineMonitor#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/deadline_monitor#tags DeadlineMonitor#tags}
 
 ---
 
@@ -686,7 +686,7 @@ The construct id used in the generated config for the DeadlineMonitor to import.
 
 The id of the existing DeadlineMonitor that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_monitor#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/deadline_monitor#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1103,10 +1103,10 @@ deadlineMonitor.DeadlineMonitorConfig(
 | <code><a href="#@cdktn/provider-awscc.deadlineMonitor.DeadlineMonitorConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.deadlineMonitor.DeadlineMonitorConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.deadlineMonitor.DeadlineMonitorConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.deadlineMonitor.DeadlineMonitorConfig.property.displayName">display_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_monitor#display_name DeadlineMonitor#display_name}. |
-| <code><a href="#@cdktn/provider-awscc.deadlineMonitor.DeadlineMonitorConfig.property.identityCenterInstanceArn">identity_center_instance_arn</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_monitor#identity_center_instance_arn DeadlineMonitor#identity_center_instance_arn}. |
-| <code><a href="#@cdktn/provider-awscc.deadlineMonitor.DeadlineMonitorConfig.property.roleArn">role_arn</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_monitor#role_arn DeadlineMonitor#role_arn}. |
-| <code><a href="#@cdktn/provider-awscc.deadlineMonitor.DeadlineMonitorConfig.property.subdomain">subdomain</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_monitor#subdomain DeadlineMonitor#subdomain}. |
+| <code><a href="#@cdktn/provider-awscc.deadlineMonitor.DeadlineMonitorConfig.property.displayName">display_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/deadline_monitor#display_name DeadlineMonitor#display_name}. |
+| <code><a href="#@cdktn/provider-awscc.deadlineMonitor.DeadlineMonitorConfig.property.identityCenterInstanceArn">identity_center_instance_arn</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/deadline_monitor#identity_center_instance_arn DeadlineMonitor#identity_center_instance_arn}. |
+| <code><a href="#@cdktn/provider-awscc.deadlineMonitor.DeadlineMonitorConfig.property.roleArn">role_arn</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/deadline_monitor#role_arn DeadlineMonitor#role_arn}. |
+| <code><a href="#@cdktn/provider-awscc.deadlineMonitor.DeadlineMonitorConfig.property.subdomain">subdomain</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/deadline_monitor#subdomain DeadlineMonitor#subdomain}. |
 | <code><a href="#@cdktn/provider-awscc.deadlineMonitor.DeadlineMonitorConfig.property.identityCenterRegion">identity_center_region</a></code> | <code>str</code> | The AWS region where IAM Identity Center is enabled. |
 | <code><a href="#@cdktn/provider-awscc.deadlineMonitor.DeadlineMonitorConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.deadlineMonitor.DeadlineMonitorTags">DeadlineMonitorTags</a>]</code> | An array of key-value pairs to apply to this resource. |
 
@@ -1190,7 +1190,7 @@ display_name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_monitor#display_name DeadlineMonitor#display_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/deadline_monitor#display_name DeadlineMonitor#display_name}.
 
 ---
 
@@ -1202,7 +1202,7 @@ identity_center_instance_arn: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_monitor#identity_center_instance_arn DeadlineMonitor#identity_center_instance_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/deadline_monitor#identity_center_instance_arn DeadlineMonitor#identity_center_instance_arn}.
 
 ---
 
@@ -1214,7 +1214,7 @@ role_arn: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_monitor#role_arn DeadlineMonitor#role_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/deadline_monitor#role_arn DeadlineMonitor#role_arn}.
 
 ---
 
@@ -1226,7 +1226,7 @@ subdomain: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_monitor#subdomain DeadlineMonitor#subdomain}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/deadline_monitor#subdomain DeadlineMonitor#subdomain}.
 
 ---
 
@@ -1242,7 +1242,7 @@ The AWS region where IAM Identity Center is enabled.
 
 Required when Identity Center is in a different region than the monitor.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_monitor#identity_center_region DeadlineMonitor#identity_center_region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/deadline_monitor#identity_center_region DeadlineMonitor#identity_center_region}
 
 ---
 
@@ -1256,7 +1256,7 @@ tags: IResolvable | typing.List[DeadlineMonitorTags]
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_monitor#tags DeadlineMonitor#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/deadline_monitor#tags DeadlineMonitor#tags}
 
 ---
 
@@ -1294,7 +1294,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_monitor#key DeadlineMonitor#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/deadline_monitor#key DeadlineMonitor#key}
 
 ---
 
@@ -1310,7 +1310,7 @@ The value for the tag.
 
 You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_monitor#value DeadlineMonitor#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/deadline_monitor#value DeadlineMonitor#value}
 
 ---
 

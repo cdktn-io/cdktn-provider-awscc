@@ -4,7 +4,7 @@
 
 ### ConnectDataTable <a name="ConnectDataTable" id="@cdktn/provider-awscc.connectDataTable.ConnectDataTable"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_data_table awscc_connect_data_table}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_data_table awscc_connect_data_table}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectDataTable.ConnectDataTable.Initializer"></a>
 
@@ -516,7 +516,7 @@ The construct id used in the generated config for the ConnectDataTable to import
 
 The id of the existing ConnectDataTable that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_data_table#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_data_table#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1042,7 +1042,7 @@ public readonly instanceArn: string;
 
 The identifier of the Amazon Connect instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_data_table#instance_arn ConnectDataTable#instance_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_data_table#instance_arn ConnectDataTable#instance_arn}
 
 ---
 
@@ -1056,7 +1056,7 @@ public readonly name: string;
 
 The name of the Data Table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_data_table#name ConnectDataTable#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_data_table#name ConnectDataTable#name}
 
 ---
 
@@ -1070,7 +1070,7 @@ public readonly status: string;
 
 The status of the Data Table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_data_table#status ConnectDataTable#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_data_table#status ConnectDataTable#status}
 
 ---
 
@@ -1084,7 +1084,7 @@ public readonly timeZone: string;
 
 The time zone of the Data Table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_data_table#time_zone ConnectDataTable#time_zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_data_table#time_zone ConnectDataTable#time_zone}
 
 ---
 
@@ -1098,7 +1098,7 @@ public readonly valueLockLevel: string;
 
 The value lock level of the Data Table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_data_table#value_lock_level ConnectDataTable#value_lock_level}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_data_table#value_lock_level ConnectDataTable#value_lock_level}
 
 ---
 
@@ -1112,7 +1112,7 @@ public readonly description: string;
 
 The description of the Data Table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_data_table#description ConnectDataTable#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_data_table#description ConnectDataTable#description}
 
 ---
 
@@ -1126,7 +1126,7 @@ public readonly tags: IResolvable | ConnectDataTableTags[];
 
 One or more tags.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_data_table#tags ConnectDataTable#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_data_table#tags ConnectDataTable#tags}
 
 ---
 
@@ -1172,7 +1172,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_data_table#key ConnectDataTable#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_data_table#key ConnectDataTable#key}
 
 ---
 
@@ -1188,7 +1188,7 @@ The value for the tag.
 
 You can specify a value that is maximum of 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_data_table#value ConnectDataTable#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_data_table#value ConnectDataTable#value}
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### GrafanaWorkspace <a name="GrafanaWorkspace" id="@cdktn/provider-awscc.grafanaWorkspace.GrafanaWorkspace"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/grafana_workspace awscc_grafana_workspace}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/grafana_workspace awscc_grafana_workspace}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.grafanaWorkspace.GrafanaWorkspace.Initializer"></a>
 
@@ -140,7 +140,7 @@ These enums represent valid account access types.
 
 Specifically these enums determine whether the workspace can access AWS resources in the AWS account only, or whether it can also access resources in other accounts in the same organization. If the value CURRENT_ACCOUNT is used, a workspace role ARN must be provided. If the value is ORGANIZATION, a list of organizational units must be provided.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/grafana_workspace#account_access_type GrafanaWorkspace#account_access_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/grafana_workspace#account_access_type GrafanaWorkspace#account_access_type}
 
 ---
 
@@ -150,7 +150,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 List of authentication providers to enable.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/grafana_workspace#authentication_providers GrafanaWorkspace#authentication_providers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/grafana_workspace#authentication_providers GrafanaWorkspace#authentication_providers}
 
 ---
 
@@ -162,7 +162,7 @@ These enums represent valid permission types to use when creating or configuring
 
 The SERVICE_MANAGED permission type means the Managed Grafana service will create a workspace IAM role on your behalf. The CUSTOMER_MANAGED permission type means that the customer is expected to provide an IAM role that the Grafana workspace can use to query data sources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/grafana_workspace#permission_type GrafanaWorkspace#permission_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/grafana_workspace#permission_type GrafanaWorkspace#permission_type}
 
 ---
 
@@ -172,7 +172,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A unique, case-sensitive, user-provided identifier to ensure the idempotency of the request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/grafana_workspace#client_token GrafanaWorkspace#client_token}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/grafana_workspace#client_token GrafanaWorkspace#client_token}
 
 ---
 
@@ -182,7 +182,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 List of data sources on the service managed IAM role.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/grafana_workspace#data_sources GrafanaWorkspace#data_sources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/grafana_workspace#data_sources GrafanaWorkspace#data_sources}
 
 ---
 
@@ -192,7 +192,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Description of a workspace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/grafana_workspace#description GrafanaWorkspace#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/grafana_workspace#description GrafanaWorkspace#description}
 
 ---
 
@@ -202,7 +202,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The version of Grafana to support in your workspace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/grafana_workspace#grafana_version GrafanaWorkspace#grafana_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/grafana_workspace#grafana_version GrafanaWorkspace#grafana_version}
 
 ---
 
@@ -212,7 +212,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The user friendly name of a workspace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/grafana_workspace#name GrafanaWorkspace#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/grafana_workspace#name GrafanaWorkspace#name}
 
 ---
 
@@ -222,7 +222,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The configuration settings for Network Access Control.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/grafana_workspace#network_access_control GrafanaWorkspace#network_access_control}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/grafana_workspace#network_access_control GrafanaWorkspace#network_access_control}
 
 ---
 
@@ -232,7 +232,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 List of notification destinations on the customers service managed IAM role that the Grafana workspace can query.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/grafana_workspace#notification_destinations GrafanaWorkspace#notification_destinations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/grafana_workspace#notification_destinations GrafanaWorkspace#notification_destinations}
 
 ---
 
@@ -242,7 +242,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 List of Organizational Units containing AWS accounts the Grafana workspace can pull data from.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/grafana_workspace#organizational_units GrafanaWorkspace#organizational_units}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/grafana_workspace#organizational_units GrafanaWorkspace#organizational_units}
 
 ---
 
@@ -252,7 +252,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of an IAM role that already exists to use with AWS Organizations to access AWS data sources and notification channels in other accounts in an organization.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/grafana_workspace#organization_role_name GrafanaWorkspace#organization_role_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/grafana_workspace#organization_role_name GrafanaWorkspace#organization_role_name}
 
 ---
 
@@ -262,7 +262,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Allow workspace admins to install plugins.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/grafana_workspace#plugin_admin_enabled GrafanaWorkspace#plugin_admin_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/grafana_workspace#plugin_admin_enabled GrafanaWorkspace#plugin_admin_enabled}
 
 ---
 
@@ -272,7 +272,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 IAM Role that will be used to grant the Grafana workspace access to a customers AWS resources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/grafana_workspace#role_arn GrafanaWorkspace#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/grafana_workspace#role_arn GrafanaWorkspace#role_arn}
 
 ---
 
@@ -282,7 +282,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 SAML configuration data associated with an AMG workspace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/grafana_workspace#saml_configuration GrafanaWorkspace#saml_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/grafana_workspace#saml_configuration GrafanaWorkspace#saml_configuration}
 
 ---
 
@@ -292,7 +292,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the AWS CloudFormation stack set to use to generate IAM roles to be used for this workspace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/grafana_workspace#stack_set_name GrafanaWorkspace#stack_set_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/grafana_workspace#stack_set_name GrafanaWorkspace#stack_set_name}
 
 ---
 
@@ -302,7 +302,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The list of tags associated with the workspace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/grafana_workspace#tags GrafanaWorkspace#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/grafana_workspace#tags GrafanaWorkspace#tags}
 
 ---
 
@@ -312,7 +312,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The configuration settings for an Amazon VPC that contains data sources for your Grafana workspace to connect to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/grafana_workspace#vpc_configuration GrafanaWorkspace#vpc_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/grafana_workspace#vpc_configuration GrafanaWorkspace#vpc_configuration}
 
 ---
 
@@ -918,7 +918,7 @@ The construct id used in the generated config for the GrafanaWorkspace to import
 
 The id of the existing GrafanaWorkspace that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/grafana_workspace#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/grafana_workspace#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1747,7 +1747,7 @@ These enums represent valid account access types.
 
 Specifically these enums determine whether the workspace can access AWS resources in the AWS account only, or whether it can also access resources in other accounts in the same organization. If the value CURRENT_ACCOUNT is used, a workspace role ARN must be provided. If the value is ORGANIZATION, a list of organizational units must be provided.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/grafana_workspace#account_access_type GrafanaWorkspace#account_access_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/grafana_workspace#account_access_type GrafanaWorkspace#account_access_type}
 
 ---
 
@@ -1761,7 +1761,7 @@ public java.util.List<java.lang.String> getAuthenticationProviders();
 
 List of authentication providers to enable.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/grafana_workspace#authentication_providers GrafanaWorkspace#authentication_providers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/grafana_workspace#authentication_providers GrafanaWorkspace#authentication_providers}
 
 ---
 
@@ -1777,7 +1777,7 @@ These enums represent valid permission types to use when creating or configuring
 
 The SERVICE_MANAGED permission type means the Managed Grafana service will create a workspace IAM role on your behalf. The CUSTOMER_MANAGED permission type means that the customer is expected to provide an IAM role that the Grafana workspace can use to query data sources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/grafana_workspace#permission_type GrafanaWorkspace#permission_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/grafana_workspace#permission_type GrafanaWorkspace#permission_type}
 
 ---
 
@@ -1791,7 +1791,7 @@ public java.lang.String getClientToken();
 
 A unique, case-sensitive, user-provided identifier to ensure the idempotency of the request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/grafana_workspace#client_token GrafanaWorkspace#client_token}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/grafana_workspace#client_token GrafanaWorkspace#client_token}
 
 ---
 
@@ -1805,7 +1805,7 @@ public java.util.List<java.lang.String> getDataSources();
 
 List of data sources on the service managed IAM role.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/grafana_workspace#data_sources GrafanaWorkspace#data_sources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/grafana_workspace#data_sources GrafanaWorkspace#data_sources}
 
 ---
 
@@ -1819,7 +1819,7 @@ public java.lang.String getDescription();
 
 Description of a workspace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/grafana_workspace#description GrafanaWorkspace#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/grafana_workspace#description GrafanaWorkspace#description}
 
 ---
 
@@ -1833,7 +1833,7 @@ public java.lang.String getGrafanaVersion();
 
 The version of Grafana to support in your workspace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/grafana_workspace#grafana_version GrafanaWorkspace#grafana_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/grafana_workspace#grafana_version GrafanaWorkspace#grafana_version}
 
 ---
 
@@ -1847,7 +1847,7 @@ public java.lang.String getName();
 
 The user friendly name of a workspace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/grafana_workspace#name GrafanaWorkspace#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/grafana_workspace#name GrafanaWorkspace#name}
 
 ---
 
@@ -1861,7 +1861,7 @@ public GrafanaWorkspaceNetworkAccessControl getNetworkAccessControl();
 
 The configuration settings for Network Access Control.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/grafana_workspace#network_access_control GrafanaWorkspace#network_access_control}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/grafana_workspace#network_access_control GrafanaWorkspace#network_access_control}
 
 ---
 
@@ -1875,7 +1875,7 @@ public java.util.List<java.lang.String> getNotificationDestinations();
 
 List of notification destinations on the customers service managed IAM role that the Grafana workspace can query.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/grafana_workspace#notification_destinations GrafanaWorkspace#notification_destinations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/grafana_workspace#notification_destinations GrafanaWorkspace#notification_destinations}
 
 ---
 
@@ -1889,7 +1889,7 @@ public java.util.List<java.lang.String> getOrganizationalUnits();
 
 List of Organizational Units containing AWS accounts the Grafana workspace can pull data from.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/grafana_workspace#organizational_units GrafanaWorkspace#organizational_units}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/grafana_workspace#organizational_units GrafanaWorkspace#organizational_units}
 
 ---
 
@@ -1903,7 +1903,7 @@ public java.lang.String getOrganizationRoleName();
 
 The name of an IAM role that already exists to use with AWS Organizations to access AWS data sources and notification channels in other accounts in an organization.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/grafana_workspace#organization_role_name GrafanaWorkspace#organization_role_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/grafana_workspace#organization_role_name GrafanaWorkspace#organization_role_name}
 
 ---
 
@@ -1917,7 +1917,7 @@ public java.lang.Boolean|IResolvable getPluginAdminEnabled();
 
 Allow workspace admins to install plugins.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/grafana_workspace#plugin_admin_enabled GrafanaWorkspace#plugin_admin_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/grafana_workspace#plugin_admin_enabled GrafanaWorkspace#plugin_admin_enabled}
 
 ---
 
@@ -1931,7 +1931,7 @@ public java.lang.String getRoleArn();
 
 IAM Role that will be used to grant the Grafana workspace access to a customers AWS resources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/grafana_workspace#role_arn GrafanaWorkspace#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/grafana_workspace#role_arn GrafanaWorkspace#role_arn}
 
 ---
 
@@ -1945,7 +1945,7 @@ public GrafanaWorkspaceSamlConfiguration getSamlConfiguration();
 
 SAML configuration data associated with an AMG workspace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/grafana_workspace#saml_configuration GrafanaWorkspace#saml_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/grafana_workspace#saml_configuration GrafanaWorkspace#saml_configuration}
 
 ---
 
@@ -1959,7 +1959,7 @@ public java.lang.String getStackSetName();
 
 The name of the AWS CloudFormation stack set to use to generate IAM roles to be used for this workspace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/grafana_workspace#stack_set_name GrafanaWorkspace#stack_set_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/grafana_workspace#stack_set_name GrafanaWorkspace#stack_set_name}
 
 ---
 
@@ -1973,7 +1973,7 @@ public IResolvable|java.util.List<GrafanaWorkspaceTags> getTags();
 
 The list of tags associated with the workspace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/grafana_workspace#tags GrafanaWorkspace#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/grafana_workspace#tags GrafanaWorkspace#tags}
 
 ---
 
@@ -1987,7 +1987,7 @@ public GrafanaWorkspaceVpcConfiguration getVpcConfiguration();
 
 The configuration settings for an Amazon VPC that contains data sources for your Grafana workspace to connect to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/grafana_workspace#vpc_configuration GrafanaWorkspace#vpc_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/grafana_workspace#vpc_configuration GrafanaWorkspace#vpc_configuration}
 
 ---
 
@@ -2025,7 +2025,7 @@ The list of prefix list IDs.
 
 A prefix list is a list of CIDR ranges of IP addresses. The IP addresses specified are allowed to access your workspace. If the list is not included in the configuration then no IP addresses will be allowed to access the workspace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/grafana_workspace#prefix_list_ids GrafanaWorkspace#prefix_list_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/grafana_workspace#prefix_list_ids GrafanaWorkspace#prefix_list_ids}
 
 ---
 
@@ -2041,7 +2041,7 @@ The list of Amazon VPC endpoint IDs for the workspace.
 
 If a NetworkAccessConfiguration is specified then only VPC endpoints specified here will be allowed to access the workspace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/grafana_workspace#vpce_ids GrafanaWorkspace#vpce_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/grafana_workspace#vpce_ids GrafanaWorkspace#vpce_ids}
 
 ---
 
@@ -2083,7 +2083,7 @@ public java.util.List<java.lang.String> getAllowedOrganizations();
 
 List of SAML organizations allowed to access Grafana.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/grafana_workspace#allowed_organizations GrafanaWorkspace#allowed_organizations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/grafana_workspace#allowed_organizations GrafanaWorkspace#allowed_organizations}
 
 ---
 
@@ -2097,7 +2097,7 @@ public GrafanaWorkspaceSamlConfigurationAssertionAttributes getAssertionAttribut
 
 Maps Grafana friendly names to the IdPs SAML attributes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/grafana_workspace#assertion_attributes GrafanaWorkspace#assertion_attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/grafana_workspace#assertion_attributes GrafanaWorkspace#assertion_attributes}
 
 ---
 
@@ -2111,7 +2111,7 @@ public GrafanaWorkspaceSamlConfigurationIdpMetadata getIdpMetadata();
 
 IdP Metadata used to configure SAML authentication in Grafana.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/grafana_workspace#idp_metadata GrafanaWorkspace#idp_metadata}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/grafana_workspace#idp_metadata GrafanaWorkspace#idp_metadata}
 
 ---
 
@@ -2125,7 +2125,7 @@ public java.lang.Number getLoginValidityDuration();
 
 The maximum lifetime an authenticated user can be logged in (in minutes) before being required to re-authenticate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/grafana_workspace#login_validity_duration GrafanaWorkspace#login_validity_duration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/grafana_workspace#login_validity_duration GrafanaWorkspace#login_validity_duration}
 
 ---
 
@@ -2139,7 +2139,7 @@ public GrafanaWorkspaceSamlConfigurationRoleValues getRoleValues();
 
 Maps SAML roles to the Grafana Editor and Admin roles.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/grafana_workspace#role_values GrafanaWorkspace#role_values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/grafana_workspace#role_values GrafanaWorkspace#role_values}
 
 ---
 
@@ -2183,7 +2183,7 @@ public java.lang.String getEmail();
 
 Name of the attribute within the SAML assert to use as the users email in Grafana.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/grafana_workspace#email GrafanaWorkspace#email}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/grafana_workspace#email GrafanaWorkspace#email}
 
 ---
 
@@ -2197,7 +2197,7 @@ public java.lang.String getGroups();
 
 Name of the attribute within the SAML assert to use as the users groups in Grafana.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/grafana_workspace#groups GrafanaWorkspace#groups}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/grafana_workspace#groups GrafanaWorkspace#groups}
 
 ---
 
@@ -2211,7 +2211,7 @@ public java.lang.String getLogin();
 
 Name of the attribute within the SAML assert to use as the users login handle in Grafana.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/grafana_workspace#login GrafanaWorkspace#login}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/grafana_workspace#login GrafanaWorkspace#login}
 
 ---
 
@@ -2225,7 +2225,7 @@ public java.lang.String getName();
 
 Name of the attribute within the SAML assert to use as the users name in Grafana.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/grafana_workspace#name GrafanaWorkspace#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/grafana_workspace#name GrafanaWorkspace#name}
 
 ---
 
@@ -2239,7 +2239,7 @@ public java.lang.String getOrg();
 
 Name of the attribute within the SAML assert to use as the users organizations in Grafana.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/grafana_workspace#org GrafanaWorkspace#org}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/grafana_workspace#org GrafanaWorkspace#org}
 
 ---
 
@@ -2253,7 +2253,7 @@ public java.lang.String getRole();
 
 Name of the attribute within the SAML assert to use as the users roles in Grafana.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/grafana_workspace#role GrafanaWorkspace#role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/grafana_workspace#role GrafanaWorkspace#role}
 
 ---
 
@@ -2289,7 +2289,7 @@ public java.lang.String getUrl();
 
 URL that vends the IdPs metadata.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/grafana_workspace#url GrafanaWorkspace#url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/grafana_workspace#url GrafanaWorkspace#url}
 
 ---
 
@@ -2303,7 +2303,7 @@ public java.lang.String getXml();
 
 XML blob of the IdPs metadata.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/grafana_workspace#xml GrafanaWorkspace#xml}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/grafana_workspace#xml GrafanaWorkspace#xml}
 
 ---
 
@@ -2339,7 +2339,7 @@ public java.util.List<java.lang.String> getAdmin();
 
 List of SAML roles which will be mapped into the Grafana Admin role.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/grafana_workspace#admin GrafanaWorkspace#admin}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/grafana_workspace#admin GrafanaWorkspace#admin}
 
 ---
 
@@ -2353,7 +2353,7 @@ public java.util.List<java.lang.String> getEditor();
 
 List of SAML roles which will be mapped into the Grafana Editor role.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/grafana_workspace#editor GrafanaWorkspace#editor}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/grafana_workspace#editor GrafanaWorkspace#editor}
 
 ---
 
@@ -2374,8 +2374,8 @@ GrafanaWorkspaceTags.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.grafanaWorkspace.GrafanaWorkspaceTags.property.key">key</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/grafana_workspace#key GrafanaWorkspace#key}. |
-| <code><a href="#@cdktn/provider-awscc.grafanaWorkspace.GrafanaWorkspaceTags.property.value">value</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/grafana_workspace#value GrafanaWorkspace#value}. |
+| <code><a href="#@cdktn/provider-awscc.grafanaWorkspace.GrafanaWorkspaceTags.property.key">key</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/grafana_workspace#key GrafanaWorkspace#key}. |
+| <code><a href="#@cdktn/provider-awscc.grafanaWorkspace.GrafanaWorkspaceTags.property.value">value</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/grafana_workspace#value GrafanaWorkspace#value}. |
 
 ---
 
@@ -2387,7 +2387,7 @@ public java.lang.String getKey();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/grafana_workspace#key GrafanaWorkspace#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/grafana_workspace#key GrafanaWorkspace#key}.
 
 ---
 
@@ -2399,7 +2399,7 @@ public java.lang.String getValue();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/grafana_workspace#value GrafanaWorkspace#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/grafana_workspace#value GrafanaWorkspace#value}.
 
 ---
 
@@ -2435,7 +2435,7 @@ public java.util.List<java.lang.String> getSecurityGroupIds();
 
 The list of Amazon EC2 security group IDs attached to the Amazon VPC for your Grafana workspace to connect.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/grafana_workspace#security_group_ids GrafanaWorkspace#security_group_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/grafana_workspace#security_group_ids GrafanaWorkspace#security_group_ids}
 
 ---
 
@@ -2449,7 +2449,7 @@ public java.util.List<java.lang.String> getSubnetIds();
 
 The list of Amazon EC2 subnet IDs created in the Amazon VPC for your Grafana workspace to connect.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/grafana_workspace#subnet_ids GrafanaWorkspace#subnet_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/grafana_workspace#subnet_ids GrafanaWorkspace#subnet_ids}
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### DataAwsccNetworkmanagerDirectConnectGatewayAttachments <a name="DataAwsccNetworkmanagerDirectConnectGatewayAttachments" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerDirectConnectGatewayAttachments.DataAwsccNetworkmanagerDirectConnectGatewayAttachments"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/networkmanager_direct_connect_gateway_attachments awscc_networkmanager_direct_connect_gateway_attachments}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/networkmanager_direct_connect_gateway_attachments awscc_networkmanager_direct_connect_gateway_attachments}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerDirectConnectGatewayAttachments.DataAwsccNetworkmanagerDirectConnectGatewayAttachments.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccNetworkmanagerDir
 
 The id of the existing DataAwsccNetworkmanagerDirectConnectGatewayAttachments that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/networkmanager_direct_connect_gateway_attachments#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/networkmanager_direct_connect_gateway_attachments#import import section} in the documentation of this resource for the id to use
 
 ---
 

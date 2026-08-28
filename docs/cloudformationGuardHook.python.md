@@ -4,7 +4,7 @@
 
 ### CloudformationGuardHook <a name="CloudformationGuardHook" id="@cdktn/provider-awscc.cloudformationGuardHook.CloudformationGuardHook"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_guard_hook awscc_cloudformation_guard_hook}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_guard_hook awscc_cloudformation_guard_hook}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudformationGuardHook.CloudformationGuardHook.Initializer"></a>
 
@@ -52,7 +52,7 @@ cloudformationGuardHook.CloudformationGuardHook(
 | <code><a href="#@cdktn/provider-awscc.cloudformationGuardHook.CloudformationGuardHook.Initializer.parameter.failureMode">failure_mode</a></code> | <code>str</code> | Attribute to specify CloudFormation behavior on hook failure. |
 | <code><a href="#@cdktn/provider-awscc.cloudformationGuardHook.CloudformationGuardHook.Initializer.parameter.hookStatus">hook_status</a></code> | <code>str</code> | Attribute to specify which stacks this hook applies to or should get invoked for. |
 | <code><a href="#@cdktn/provider-awscc.cloudformationGuardHook.CloudformationGuardHook.Initializer.parameter.logBucket">log_bucket</a></code> | <code>str</code> | S3 Bucket where the guard validate report will be uploaded to. |
-| <code><a href="#@cdktn/provider-awscc.cloudformationGuardHook.CloudformationGuardHook.Initializer.parameter.options">options</a></code> | <code><a href="#@cdktn/provider-awscc.cloudformationGuardHook.CloudformationGuardHookOptions">CloudformationGuardHookOptions</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_guard_hook#options CloudformationGuardHook#options}. |
+| <code><a href="#@cdktn/provider-awscc.cloudformationGuardHook.CloudformationGuardHook.Initializer.parameter.options">options</a></code> | <code><a href="#@cdktn/provider-awscc.cloudformationGuardHook.CloudformationGuardHookOptions">CloudformationGuardHookOptions</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_guard_hook#options CloudformationGuardHook#options}. |
 | <code><a href="#@cdktn/provider-awscc.cloudformationGuardHook.CloudformationGuardHook.Initializer.parameter.stackFilters">stack_filters</a></code> | <code><a href="#@cdktn/provider-awscc.cloudformationGuardHook.CloudformationGuardHookStackFilters">CloudformationGuardHookStackFilters</a></code> | Filters to allow hooks to target specific stack attributes. |
 | <code><a href="#@cdktn/provider-awscc.cloudformationGuardHook.CloudformationGuardHook.Initializer.parameter.targetFilters">target_filters</a></code> | <code><a href="#@cdktn/provider-awscc.cloudformationGuardHook.CloudformationGuardHookTargetFilters">CloudformationGuardHookTargetFilters</a></code> | Attribute to specify which targets should invoke the hook. |
 
@@ -124,7 +124,7 @@ Must be unique amongst siblings in the same scope
 
 The typename alias for the hook.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_guard_hook#alias CloudformationGuardHook#alias}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_guard_hook#alias CloudformationGuardHook#alias}
 
 ---
 
@@ -134,7 +134,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The execution role ARN assumed by hooks to read Guard rules from S3 and write Guard outputs to S3.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_guard_hook#execution_role CloudformationGuardHook#execution_role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_guard_hook#execution_role CloudformationGuardHook#execution_role}
 
 ---
 
@@ -144,7 +144,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 S3 Source Location for the Guard files.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_guard_hook#rule_location CloudformationGuardHook#rule_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_guard_hook#rule_location CloudformationGuardHook#rule_location}
 
 ---
 
@@ -154,7 +154,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Which operations should this Hook run against? Resource changes, stacks or change sets.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_guard_hook#target_operations CloudformationGuardHook#target_operations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_guard_hook#target_operations CloudformationGuardHook#target_operations}
 
 ---
 
@@ -164,7 +164,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Attribute to specify CloudFormation behavior on hook failure.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_guard_hook#failure_mode CloudformationGuardHook#failure_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_guard_hook#failure_mode CloudformationGuardHook#failure_mode}
 
 ---
 
@@ -174,7 +174,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Attribute to specify which stacks this hook applies to or should get invoked for.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_guard_hook#hook_status CloudformationGuardHook#hook_status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_guard_hook#hook_status CloudformationGuardHook#hook_status}
 
 ---
 
@@ -184,7 +184,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 S3 Bucket where the guard validate report will be uploaded to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_guard_hook#log_bucket CloudformationGuardHook#log_bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_guard_hook#log_bucket CloudformationGuardHook#log_bucket}
 
 ---
 
@@ -192,7 +192,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.cloudformationGuardHook.CloudformationGuardHookOptions">CloudformationGuardHookOptions</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_guard_hook#options CloudformationGuardHook#options}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_guard_hook#options CloudformationGuardHook#options}.
 
 ---
 
@@ -202,7 +202,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Filters to allow hooks to target specific stack attributes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_guard_hook#stack_filters CloudformationGuardHook#stack_filters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_guard_hook#stack_filters CloudformationGuardHook#stack_filters}
 
 ---
 
@@ -212,7 +212,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Attribute to specify which targets should invoke the hook.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_guard_hook#target_filters CloudformationGuardHook#target_filters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_guard_hook#target_filters CloudformationGuardHook#target_filters}
 
 ---
 
@@ -621,7 +621,7 @@ Specifies the S3 location of input parameter files for your Guard rules.
 
 You can specify either a single S3 location or an array of up to 10 S3 locations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_guard_hook#input_params CloudformationGuardHook#input_params}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_guard_hook#input_params CloudformationGuardHook#input_params}
 
 ---
 
@@ -640,7 +640,7 @@ def put_rule_location(
 
 S3 uri of Guard files.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_guard_hook#uri CloudformationGuardHook#uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_guard_hook#uri CloudformationGuardHook#uri}
 
 ---
 
@@ -650,7 +650,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 S3 object version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_guard_hook#version_id CloudformationGuardHook#version_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_guard_hook#version_id CloudformationGuardHook#version_id}
 
 ---
 
@@ -672,7 +672,7 @@ Attribute to specify the filtering behavior.
 
 ANY will make the Hook pass if one filter matches. ALL will make the Hook pass if all filters match
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_guard_hook#filtering_criteria CloudformationGuardHook#filtering_criteria}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_guard_hook#filtering_criteria CloudformationGuardHook#filtering_criteria}
 
 ---
 
@@ -682,7 +682,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 List of stack names as filters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_guard_hook#stack_names CloudformationGuardHook#stack_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_guard_hook#stack_names CloudformationGuardHook#stack_names}
 
 ---
 
@@ -692,7 +692,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 List of stack roles that are performing the stack operations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_guard_hook#stack_roles CloudformationGuardHook#stack_roles}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_guard_hook#stack_roles CloudformationGuardHook#stack_roles}
 
 ---
 
@@ -713,7 +713,7 @@ def put_target_filters(
 
 List of actions that the hook is going to target.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_guard_hook#actions CloudformationGuardHook#actions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_guard_hook#actions CloudformationGuardHook#actions}
 
 ---
 
@@ -723,7 +723,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 List of invocation points that the hook is going to target.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_guard_hook#invocation_points CloudformationGuardHook#invocation_points}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_guard_hook#invocation_points CloudformationGuardHook#invocation_points}
 
 ---
 
@@ -733,7 +733,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 List of type names that the hook is going to target.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_guard_hook#target_names CloudformationGuardHook#target_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_guard_hook#target_names CloudformationGuardHook#target_names}
 
 ---
 
@@ -743,7 +743,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 List of hook targets.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_guard_hook#targets CloudformationGuardHook#targets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_guard_hook#targets CloudformationGuardHook#targets}
 
 ---
 
@@ -897,7 +897,7 @@ The construct id used in the generated config for the CloudformationGuardHook to
 
 The id of the existing CloudformationGuardHook that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_guard_hook#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_guard_hook#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1380,7 +1380,7 @@ cloudformationGuardHook.CloudformationGuardHookConfig(
 | <code><a href="#@cdktn/provider-awscc.cloudformationGuardHook.CloudformationGuardHookConfig.property.failureMode">failure_mode</a></code> | <code>str</code> | Attribute to specify CloudFormation behavior on hook failure. |
 | <code><a href="#@cdktn/provider-awscc.cloudformationGuardHook.CloudformationGuardHookConfig.property.hookStatus">hook_status</a></code> | <code>str</code> | Attribute to specify which stacks this hook applies to or should get invoked for. |
 | <code><a href="#@cdktn/provider-awscc.cloudformationGuardHook.CloudformationGuardHookConfig.property.logBucket">log_bucket</a></code> | <code>str</code> | S3 Bucket where the guard validate report will be uploaded to. |
-| <code><a href="#@cdktn/provider-awscc.cloudformationGuardHook.CloudformationGuardHookConfig.property.options">options</a></code> | <code><a href="#@cdktn/provider-awscc.cloudformationGuardHook.CloudformationGuardHookOptions">CloudformationGuardHookOptions</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_guard_hook#options CloudformationGuardHook#options}. |
+| <code><a href="#@cdktn/provider-awscc.cloudformationGuardHook.CloudformationGuardHookConfig.property.options">options</a></code> | <code><a href="#@cdktn/provider-awscc.cloudformationGuardHook.CloudformationGuardHookOptions">CloudformationGuardHookOptions</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_guard_hook#options CloudformationGuardHook#options}. |
 | <code><a href="#@cdktn/provider-awscc.cloudformationGuardHook.CloudformationGuardHookConfig.property.stackFilters">stack_filters</a></code> | <code><a href="#@cdktn/provider-awscc.cloudformationGuardHook.CloudformationGuardHookStackFilters">CloudformationGuardHookStackFilters</a></code> | Filters to allow hooks to target specific stack attributes. |
 | <code><a href="#@cdktn/provider-awscc.cloudformationGuardHook.CloudformationGuardHookConfig.property.targetFilters">target_filters</a></code> | <code><a href="#@cdktn/provider-awscc.cloudformationGuardHook.CloudformationGuardHookTargetFilters">CloudformationGuardHookTargetFilters</a></code> | Attribute to specify which targets should invoke the hook. |
 
@@ -1466,7 +1466,7 @@ alias: str
 
 The typename alias for the hook.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_guard_hook#alias CloudformationGuardHook#alias}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_guard_hook#alias CloudformationGuardHook#alias}
 
 ---
 
@@ -1480,7 +1480,7 @@ execution_role: str
 
 The execution role ARN assumed by hooks to read Guard rules from S3 and write Guard outputs to S3.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_guard_hook#execution_role CloudformationGuardHook#execution_role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_guard_hook#execution_role CloudformationGuardHook#execution_role}
 
 ---
 
@@ -1494,7 +1494,7 @@ rule_location: CloudformationGuardHookRuleLocation
 
 S3 Source Location for the Guard files.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_guard_hook#rule_location CloudformationGuardHook#rule_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_guard_hook#rule_location CloudformationGuardHook#rule_location}
 
 ---
 
@@ -1508,7 +1508,7 @@ target_operations: typing.List[str]
 
 Which operations should this Hook run against? Resource changes, stacks or change sets.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_guard_hook#target_operations CloudformationGuardHook#target_operations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_guard_hook#target_operations CloudformationGuardHook#target_operations}
 
 ---
 
@@ -1522,7 +1522,7 @@ failure_mode: str
 
 Attribute to specify CloudFormation behavior on hook failure.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_guard_hook#failure_mode CloudformationGuardHook#failure_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_guard_hook#failure_mode CloudformationGuardHook#failure_mode}
 
 ---
 
@@ -1536,7 +1536,7 @@ hook_status: str
 
 Attribute to specify which stacks this hook applies to or should get invoked for.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_guard_hook#hook_status CloudformationGuardHook#hook_status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_guard_hook#hook_status CloudformationGuardHook#hook_status}
 
 ---
 
@@ -1550,7 +1550,7 @@ log_bucket: str
 
 S3 Bucket where the guard validate report will be uploaded to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_guard_hook#log_bucket CloudformationGuardHook#log_bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_guard_hook#log_bucket CloudformationGuardHook#log_bucket}
 
 ---
 
@@ -1562,7 +1562,7 @@ options: CloudformationGuardHookOptions
 
 - *Type:* <a href="#@cdktn/provider-awscc.cloudformationGuardHook.CloudformationGuardHookOptions">CloudformationGuardHookOptions</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_guard_hook#options CloudformationGuardHook#options}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_guard_hook#options CloudformationGuardHook#options}.
 
 ---
 
@@ -1576,7 +1576,7 @@ stack_filters: CloudformationGuardHookStackFilters
 
 Filters to allow hooks to target specific stack attributes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_guard_hook#stack_filters CloudformationGuardHook#stack_filters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_guard_hook#stack_filters CloudformationGuardHook#stack_filters}
 
 ---
 
@@ -1590,7 +1590,7 @@ target_filters: CloudformationGuardHookTargetFilters
 
 Attribute to specify which targets should invoke the hook.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_guard_hook#target_filters CloudformationGuardHook#target_filters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_guard_hook#target_filters CloudformationGuardHook#target_filters}
 
 ---
 
@@ -1626,7 +1626,7 @@ Specifies the S3 location of input parameter files for your Guard rules.
 
 You can specify either a single S3 location or an array of up to 10 S3 locations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_guard_hook#input_params CloudformationGuardHook#input_params}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_guard_hook#input_params CloudformationGuardHook#input_params}
 
 ---
 
@@ -1662,7 +1662,7 @@ uri: str
 
 S3 uri of Guard files.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_guard_hook#uri CloudformationGuardHook#uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_guard_hook#uri CloudformationGuardHook#uri}
 
 ---
 
@@ -1676,7 +1676,7 @@ version_id: str
 
 S3 object version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_guard_hook#version_id CloudformationGuardHook#version_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_guard_hook#version_id CloudformationGuardHook#version_id}
 
 ---
 
@@ -1716,7 +1716,7 @@ Attribute to specify the filtering behavior.
 
 ANY will make the Hook pass if one filter matches. ALL will make the Hook pass if all filters match
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_guard_hook#filtering_criteria CloudformationGuardHook#filtering_criteria}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_guard_hook#filtering_criteria CloudformationGuardHook#filtering_criteria}
 
 ---
 
@@ -1730,7 +1730,7 @@ stack_names: CloudformationGuardHookStackFiltersStackNames
 
 List of stack names as filters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_guard_hook#stack_names CloudformationGuardHook#stack_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_guard_hook#stack_names CloudformationGuardHook#stack_names}
 
 ---
 
@@ -1744,7 +1744,7 @@ stack_roles: CloudformationGuardHookStackFiltersStackRoles
 
 List of stack roles that are performing the stack operations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_guard_hook#stack_roles CloudformationGuardHook#stack_roles}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_guard_hook#stack_roles CloudformationGuardHook#stack_roles}
 
 ---
 
@@ -1780,7 +1780,7 @@ exclude: typing.List[str]
 
 List of stack names that the hook is going to be excluded from.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_guard_hook#exclude CloudformationGuardHook#exclude}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_guard_hook#exclude CloudformationGuardHook#exclude}
 
 ---
 
@@ -1794,7 +1794,7 @@ include: typing.List[str]
 
 List of stack names that the hook is going to target.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_guard_hook#include CloudformationGuardHook#include}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_guard_hook#include CloudformationGuardHook#include}
 
 ---
 
@@ -1830,7 +1830,7 @@ exclude: typing.List[str]
 
 List of stack roles that the hook is going to be excluded from.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_guard_hook#exclude CloudformationGuardHook#exclude}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_guard_hook#exclude CloudformationGuardHook#exclude}
 
 ---
 
@@ -1844,7 +1844,7 @@ include: typing.List[str]
 
 List of stack roles that the hook is going to target.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_guard_hook#include CloudformationGuardHook#include}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_guard_hook#include CloudformationGuardHook#include}
 
 ---
 
@@ -1884,7 +1884,7 @@ actions: typing.List[str]
 
 List of actions that the hook is going to target.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_guard_hook#actions CloudformationGuardHook#actions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_guard_hook#actions CloudformationGuardHook#actions}
 
 ---
 
@@ -1898,7 +1898,7 @@ invocation_points: typing.List[str]
 
 List of invocation points that the hook is going to target.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_guard_hook#invocation_points CloudformationGuardHook#invocation_points}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_guard_hook#invocation_points CloudformationGuardHook#invocation_points}
 
 ---
 
@@ -1912,7 +1912,7 @@ target_names: typing.List[str]
 
 List of type names that the hook is going to target.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_guard_hook#target_names CloudformationGuardHook#target_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_guard_hook#target_names CloudformationGuardHook#target_names}
 
 ---
 
@@ -1926,7 +1926,7 @@ targets: IResolvable | typing.List[CloudformationGuardHookTargetFiltersTargets]
 
 List of hook targets.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_guard_hook#targets CloudformationGuardHook#targets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_guard_hook#targets CloudformationGuardHook#targets}
 
 ---
 
@@ -1964,7 +1964,7 @@ action: str
 
 Target actions are the type of operation hooks will be executed at.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_guard_hook#action CloudformationGuardHook#action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_guard_hook#action CloudformationGuardHook#action}
 
 ---
 
@@ -1978,7 +1978,7 @@ invocation_point: str
 
 Invocation points are the point in provisioning workflow where hooks will be executed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_guard_hook#invocation_point CloudformationGuardHook#invocation_point}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_guard_hook#invocation_point CloudformationGuardHook#invocation_point}
 
 ---
 
@@ -1992,7 +1992,7 @@ target_name: str
 
 Type name of hook target. Hook targets are the destination where hooks will be invoked against.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_guard_hook#target_name CloudformationGuardHook#target_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_guard_hook#target_name CloudformationGuardHook#target_name}
 
 ---
 
@@ -2874,7 +2874,7 @@ def put_stack_names(
 
 List of stack names that the hook is going to be excluded from.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_guard_hook#exclude CloudformationGuardHook#exclude}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_guard_hook#exclude CloudformationGuardHook#exclude}
 
 ---
 
@@ -2884,7 +2884,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 List of stack names that the hook is going to target.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_guard_hook#include CloudformationGuardHook#include}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_guard_hook#include CloudformationGuardHook#include}
 
 ---
 
@@ -2903,7 +2903,7 @@ def put_stack_roles(
 
 List of stack roles that the hook is going to be excluded from.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_guard_hook#exclude CloudformationGuardHook#exclude}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_guard_hook#exclude CloudformationGuardHook#exclude}
 
 ---
 
@@ -2913,7 +2913,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 List of stack roles that the hook is going to target.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_guard_hook#include CloudformationGuardHook#include}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_guard_hook#include CloudformationGuardHook#include}
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### EvidentlySegment <a name="EvidentlySegment" id="@cdktn/provider-awscc.evidentlySegment.EvidentlySegment"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/evidently_segment awscc_evidently_segment}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/evidently_segment awscc_evidently_segment}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.evidentlySegment.EvidentlySegment.Initializer"></a>
 
@@ -523,7 +523,7 @@ The construct id used in the generated config for the EvidentlySegment to import
 
 The id of the existing EvidentlySegment that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/evidently_segment#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/evidently_segment#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -849,9 +849,9 @@ const evidentlySegmentConfig: evidentlySegment.EvidentlySegmentConfig = { ... }
 | <code><a href="#@cdktn/provider-awscc.evidentlySegment.EvidentlySegmentConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.evidentlySegment.EvidentlySegmentConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.evidentlySegment.EvidentlySegmentConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.evidentlySegment.EvidentlySegmentConfig.property.name">name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/evidently_segment#name EvidentlySegment#name}. |
-| <code><a href="#@cdktn/provider-awscc.evidentlySegment.EvidentlySegmentConfig.property.description">description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/evidently_segment#description EvidentlySegment#description}. |
-| <code><a href="#@cdktn/provider-awscc.evidentlySegment.EvidentlySegmentConfig.property.pattern">pattern</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/evidently_segment#pattern EvidentlySegment#pattern}. |
+| <code><a href="#@cdktn/provider-awscc.evidentlySegment.EvidentlySegmentConfig.property.name">name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/evidently_segment#name EvidentlySegment#name}. |
+| <code><a href="#@cdktn/provider-awscc.evidentlySegment.EvidentlySegmentConfig.property.description">description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/evidently_segment#description EvidentlySegment#description}. |
+| <code><a href="#@cdktn/provider-awscc.evidentlySegment.EvidentlySegmentConfig.property.pattern">pattern</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/evidently_segment#pattern EvidentlySegment#pattern}. |
 | <code><a href="#@cdktn/provider-awscc.evidentlySegment.EvidentlySegmentConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.evidentlySegment.EvidentlySegmentTags">EvidentlySegmentTags</a>[]</code> | An array of key-value pairs to apply to this resource. |
 
 ---
@@ -934,7 +934,7 @@ public readonly name: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/evidently_segment#name EvidentlySegment#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/evidently_segment#name EvidentlySegment#name}.
 
 ---
 
@@ -946,7 +946,7 @@ public readonly description: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/evidently_segment#description EvidentlySegment#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/evidently_segment#description EvidentlySegment#description}.
 
 ---
 
@@ -958,7 +958,7 @@ public readonly pattern: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/evidently_segment#pattern EvidentlySegment#pattern}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/evidently_segment#pattern EvidentlySegment#pattern}.
 
 ---
 
@@ -972,7 +972,7 @@ public readonly tags: IResolvable | EvidentlySegmentTags[];
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/evidently_segment#tags EvidentlySegment#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/evidently_segment#tags EvidentlySegment#tags}
 
 ---
 
@@ -1007,7 +1007,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/evidently_segment#key EvidentlySegment#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/evidently_segment#key EvidentlySegment#key}
 
 ---
 
@@ -1023,7 +1023,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/evidently_segment#value EvidentlySegment#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/evidently_segment#value EvidentlySegment#value}
 
 ---
 

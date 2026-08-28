@@ -4,7 +4,7 @@
 
 ### DataAwsccWorkspaceswebDataProtectionSettingsPlural <a name="DataAwsccWorkspaceswebDataProtectionSettingsPlural" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebDataProtectionSettingsPlural.DataAwsccWorkspaceswebDataProtectionSettingsPlural"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/workspacesweb_data_protection_settings_plural awscc_workspacesweb_data_protection_settings_plural}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/workspacesweb_data_protection_settings_plural awscc_workspacesweb_data_protection_settings_plural}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebDataProtectionSettingsPlural.DataAwsccWorkspaceswebDataProtectionSettingsPlural.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccWorkspaceswebData
 
 The id of the existing DataAwsccWorkspaceswebDataProtectionSettingsPlural that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/workspacesweb_data_protection_settings_plural#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/workspacesweb_data_protection_settings_plural#import import section} in the documentation of this resource for the id to use
 
 ---
 

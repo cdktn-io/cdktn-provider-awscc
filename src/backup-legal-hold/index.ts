@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backup_legal_hold
+// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_legal_hold
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,25 +15,25 @@ export interface BackupLegalHoldConfig extends cdktn.TerraformMetaArguments {
   /**
   * The description of the legal hold.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backup_legal_hold#description BackupLegalHold#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_legal_hold#description BackupLegalHold#description}
   */
   readonly description: string;
   /**
   * The criteria to assign a set of resources, such as resource types or backup vaults.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backup_legal_hold#recovery_point_selection BackupLegalHold#recovery_point_selection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_legal_hold#recovery_point_selection BackupLegalHold#recovery_point_selection}
   */
   readonly recoveryPointSelection: BackupLegalHoldRecoveryPointSelection;
   /**
   * Optional tags to include.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backup_legal_hold#tags BackupLegalHold#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_legal_hold#tags BackupLegalHold#tags}
   */
   readonly tags?: BackupLegalHoldTags[] | cdktn.IResolvable;
   /**
   * The title of the legal hold.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backup_legal_hold#title BackupLegalHold#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_legal_hold#title BackupLegalHold#title}
   */
   readonly title: string;
 }
@@ -41,13 +41,13 @@ export interface BackupLegalHoldRecoveryPointSelectionDateRange {
   /**
   * The beginning date, inclusive. ISO 8601 date-time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backup_legal_hold#from_date BackupLegalHold#from_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_legal_hold#from_date BackupLegalHold#from_date}
   */
   readonly fromDate?: string;
   /**
   * The end date, inclusive. ISO 8601 date-time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backup_legal_hold#to_date BackupLegalHold#to_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_legal_hold#to_date BackupLegalHold#to_date}
   */
   readonly toDate?: string;
 }
@@ -172,19 +172,19 @@ export interface BackupLegalHoldRecoveryPointSelection {
   /**
   * A date range for filtering recovery points.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backup_legal_hold#date_range BackupLegalHold#date_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_legal_hold#date_range BackupLegalHold#date_range}
   */
   readonly dateRange?: BackupLegalHoldRecoveryPointSelectionDateRange;
   /**
   * The resources included in the resource selection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backup_legal_hold#resource_identifiers BackupLegalHold#resource_identifiers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_legal_hold#resource_identifiers BackupLegalHold#resource_identifiers}
   */
   readonly resourceIdentifiers?: string[];
   /**
   * The names of the vaults in which the selected recovery points are contained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backup_legal_hold#vault_names BackupLegalHold#vault_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_legal_hold#vault_names BackupLegalHold#vault_names}
   */
   readonly vaultNames?: string[];
 }
@@ -338,13 +338,13 @@ export interface BackupLegalHoldTags {
   /**
   * The key name of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backup_legal_hold#key BackupLegalHold#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_legal_hold#key BackupLegalHold#key}
   */
   readonly key?: string;
   /**
   * The value for the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backup_legal_hold#value BackupLegalHold#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_legal_hold#value BackupLegalHold#value}
   */
   readonly value?: string;
 }
@@ -489,7 +489,7 @@ export class BackupLegalHoldTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backup_legal_hold awscc_backup_legal_hold}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_legal_hold awscc_backup_legal_hold}
 */
 export class BackupLegalHold extends cdktn.TerraformResource {
 
@@ -505,7 +505,7 @@ export class BackupLegalHold extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a BackupLegalHold resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BackupLegalHold to import
-  * @param importFromId The id of the existing BackupLegalHold that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backup_legal_hold#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BackupLegalHold that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_legal_hold#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BackupLegalHold to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -517,7 +517,7 @@ export class BackupLegalHold extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backup_legal_hold awscc_backup_legal_hold} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_legal_hold awscc_backup_legal_hold} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -528,7 +528,7 @@ export class BackupLegalHold extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_backup_legal_hold',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.98.0',
+        providerVersion: '1.99.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

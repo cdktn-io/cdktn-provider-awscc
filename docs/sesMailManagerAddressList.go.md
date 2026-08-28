@@ -4,7 +4,7 @@
 
 ### SesMailManagerAddressList <a name="SesMailManagerAddressList" id="@cdktn/provider-awscc.sesMailManagerAddressList.SesMailManagerAddressList"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_address_list awscc_ses_mail_manager_address_list}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_mail_manager_address_list awscc_ses_mail_manager_address_list}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sesMailManagerAddressList.SesMailManagerAddressList.Initializer"></a>
 
@@ -516,7 +516,7 @@ The construct id used in the generated config for the SesMailManagerAddressList 
 
 The id of the existing SesMailManagerAddressList that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_address_list#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_mail_manager_address_list#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -819,8 +819,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesmailmanageraddressl
 | <code><a href="#@cdktn/provider-awscc.sesMailManagerAddressList.SesMailManagerAddressListConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.sesMailManagerAddressList.SesMailManagerAddressListConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.sesMailManagerAddressList.SesMailManagerAddressListConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerAddressList.SesMailManagerAddressListConfig.property.addressListName">AddressListName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_address_list#address_list_name SesMailManagerAddressList#address_list_name}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerAddressList.SesMailManagerAddressListConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_address_list#tags SesMailManagerAddressList#tags}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerAddressList.SesMailManagerAddressListConfig.property.addressListName">AddressListName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_mail_manager_address_list#address_list_name SesMailManagerAddressList#address_list_name}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerAddressList.SesMailManagerAddressListConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_mail_manager_address_list#tags SesMailManagerAddressList#tags}. |
 
 ---
 
@@ -902,7 +902,7 @@ AddressListName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_address_list#address_list_name SesMailManagerAddressList#address_list_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_mail_manager_address_list#address_list_name SesMailManagerAddressList#address_list_name}.
 
 ---
 
@@ -914,7 +914,7 @@ Tags interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_address_list#tags SesMailManagerAddressList#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_mail_manager_address_list#tags SesMailManagerAddressList#tags}.
 
 ---
 
@@ -935,8 +935,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesmailmanageraddressl
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerAddressList.SesMailManagerAddressListTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_address_list#key SesMailManagerAddressList#key}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerAddressList.SesMailManagerAddressListTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_address_list#value SesMailManagerAddressList#value}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerAddressList.SesMailManagerAddressListTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_mail_manager_address_list#key SesMailManagerAddressList#key}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerAddressList.SesMailManagerAddressListTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_mail_manager_address_list#value SesMailManagerAddressList#value}. |
 
 ---
 
@@ -948,7 +948,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_address_list#key SesMailManagerAddressList#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_mail_manager_address_list#key SesMailManagerAddressList#key}.
 
 ---
 
@@ -960,7 +960,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_address_list#value SesMailManagerAddressList#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_mail_manager_address_list#value SesMailManagerAddressList#value}.
 
 ---
 

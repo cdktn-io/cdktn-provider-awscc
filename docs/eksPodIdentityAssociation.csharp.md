@@ -4,7 +4,7 @@
 
 ### EksPodIdentityAssociation <a name="EksPodIdentityAssociation" id="@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/eks_pod_identity_association awscc_eks_pod_identity_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_pod_identity_association awscc_eks_pod_identity_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociation.Initializer"></a>
 
@@ -530,7 +530,7 @@ The construct id used in the generated config for the EksPodIdentityAssociation 
 
 The id of the existing EksPodIdentityAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/eks_pod_identity_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_pod_identity_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1073,7 +1073,7 @@ public string ClusterName { get; set; }
 
 The cluster that the pod identity association is created for.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/eks_pod_identity_association#cluster_name EksPodIdentityAssociation#cluster_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_pod_identity_association#cluster_name EksPodIdentityAssociation#cluster_name}
 
 ---
 
@@ -1087,7 +1087,7 @@ public string Namespace { get; set; }
 
 The Kubernetes namespace that the pod identity association is created for.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/eks_pod_identity_association#namespace EksPodIdentityAssociation#namespace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_pod_identity_association#namespace EksPodIdentityAssociation#namespace}
 
 ---
 
@@ -1101,7 +1101,7 @@ public string RoleArn { get; set; }
 
 The IAM role ARN that the pod identity association is created for.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/eks_pod_identity_association#role_arn EksPodIdentityAssociation#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_pod_identity_association#role_arn EksPodIdentityAssociation#role_arn}
 
 ---
 
@@ -1115,7 +1115,7 @@ public string ServiceAccount { get; set; }
 
 The Kubernetes service account that the pod identity association is created for.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/eks_pod_identity_association#service_account EksPodIdentityAssociation#service_account}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_pod_identity_association#service_account EksPodIdentityAssociation#service_account}
 
 ---
 
@@ -1129,7 +1129,7 @@ public bool|IResolvable DisableSessionTags { get; set; }
 
 The Disable Session Tags of the pod identity association.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/eks_pod_identity_association#disable_session_tags EksPodIdentityAssociation#disable_session_tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_pod_identity_association#disable_session_tags EksPodIdentityAssociation#disable_session_tags}
 
 ---
 
@@ -1143,7 +1143,7 @@ public string Policy { get; set; }
 
 The policy of the pod identity association.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/eks_pod_identity_association#policy EksPodIdentityAssociation#policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_pod_identity_association#policy EksPodIdentityAssociation#policy}
 
 ---
 
@@ -1157,7 +1157,7 @@ public IResolvable|EksPodIdentityAssociationTags[] Tags { get; set; }
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/eks_pod_identity_association#tags EksPodIdentityAssociation#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_pod_identity_association#tags EksPodIdentityAssociation#tags}
 
 ---
 
@@ -1171,7 +1171,7 @@ public string TargetRoleArn { get; set; }
 
 The Target Role Arn of the pod identity association.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/eks_pod_identity_association#target_role_arn EksPodIdentityAssociation#target_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_pod_identity_association#target_role_arn EksPodIdentityAssociation#target_role_arn}
 
 ---
 
@@ -1209,7 +1209,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/eks_pod_identity_association#key EksPodIdentityAssociation#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_pod_identity_association#key EksPodIdentityAssociation#key}
 
 ---
 
@@ -1225,7 +1225,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/eks_pod_identity_association#value EksPodIdentityAssociation#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_pod_identity_association#value EksPodIdentityAssociation#value}
 
 ---
 

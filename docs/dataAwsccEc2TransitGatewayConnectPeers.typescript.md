@@ -4,7 +4,7 @@
 
 ### DataAwsccEc2TransitGatewayConnectPeers <a name="DataAwsccEc2TransitGatewayConnectPeers" id="@cdktn/provider-awscc.dataAwsccEc2TransitGatewayConnectPeers.DataAwsccEc2TransitGatewayConnectPeers"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ec2_transit_gateway_connect_peers awscc_ec2_transit_gateway_connect_peers}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_transit_gateway_connect_peers awscc_ec2_transit_gateway_connect_peers}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2TransitGatewayConnectPeers.DataAwsccEc2TransitGatewayConnectPeers.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2TransitGateway
 
 The id of the existing DataAwsccEc2TransitGatewayConnectPeers that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ec2_transit_gateway_connect_peers#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_transit_gateway_connect_peers#import import section} in the documentation of this resource for the id to use
 
 ---
 

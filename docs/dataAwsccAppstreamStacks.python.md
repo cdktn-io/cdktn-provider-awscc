@@ -4,7 +4,7 @@
 
 ### DataAwsccAppstreamStacks <a name="DataAwsccAppstreamStacks" id="@cdktn/provider-awscc.dataAwsccAppstreamStacks.DataAwsccAppstreamStacks"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/appstream_stacks awscc_appstream_stacks}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/appstream_stacks awscc_appstream_stacks}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppstreamStacks.DataAwsccAppstreamStacks.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccAppstreamStacks t
 
 The id of the existing DataAwsccAppstreamStacks that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/appstream_stacks#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/appstream_stacks#import import section} in the documentation of this resource for the id to use
 
 ---
 

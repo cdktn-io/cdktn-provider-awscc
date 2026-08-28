@@ -4,7 +4,7 @@
 
 ### QuicksightDataSource <a name="QuicksightDataSource" id="@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSource"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source awscc_quicksight_data_source}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source awscc_quicksight_data_source}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSource.Initializer"></a>
 
@@ -46,18 +46,18 @@ QuicksightDataSource.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSource.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSource.Initializer.parameter.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSource.Initializer.parameter.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSource.Initializer.parameter.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#name QuicksightDataSource#name}. |
-| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSource.Initializer.parameter.type">type</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#type QuicksightDataSource#type}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSource.Initializer.parameter.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#name QuicksightDataSource#name}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSource.Initializer.parameter.type">type</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#type QuicksightDataSource#type}. |
 | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSource.Initializer.parameter.alternateDataSourceParameters">alternateDataSourceParameters</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceAlternateDataSourceParameters">QuicksightDataSourceAlternateDataSourceParameters</a>></code> | <p>A set of alternate data source parameters that you want to share for the credentials             stored with this data source. |
-| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSource.Initializer.parameter.awsAccountId">awsAccountId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#aws_account_id QuicksightDataSource#aws_account_id}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSource.Initializer.parameter.awsAccountId">awsAccountId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#aws_account_id QuicksightDataSource#aws_account_id}. |
 | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSource.Initializer.parameter.credentials">credentials</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceCredentials">QuicksightDataSourceCredentials</a></code> | <p>Data source credentials. |
-| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSource.Initializer.parameter.dataSourceId">dataSourceId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#data_source_id QuicksightDataSource#data_source_id}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSource.Initializer.parameter.dataSourceId">dataSourceId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#data_source_id QuicksightDataSource#data_source_id}. |
 | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSource.Initializer.parameter.dataSourceParameters">dataSourceParameters</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceDataSourceParameters">QuicksightDataSourceDataSourceParameters</a></code> | <p>The parameters that Amazon QuickSight uses to connect to your underlying data source. |
 | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSource.Initializer.parameter.errorInfo">errorInfo</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceErrorInfo">QuicksightDataSourceErrorInfo</a></code> | <p>Error information for the data source creation or update.</p>. |
-| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSource.Initializer.parameter.folderArns">folderArns</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#folder_arns QuicksightDataSource#folder_arns}. |
-| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSource.Initializer.parameter.permissions">permissions</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourcePermissions">QuicksightDataSourcePermissions</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#permissions QuicksightDataSource#permissions}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSource.Initializer.parameter.folderArns">folderArns</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#folder_arns QuicksightDataSource#folder_arns}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSource.Initializer.parameter.permissions">permissions</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourcePermissions">QuicksightDataSourcePermissions</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#permissions QuicksightDataSource#permissions}. |
 | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSource.Initializer.parameter.sslProperties">sslProperties</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceSslProperties">QuicksightDataSourceSslProperties</a></code> | <p>Secure Socket Layer (SSL) properties that apply when Amazon QuickSight connects to your             underlying data source.</p>. |
-| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSource.Initializer.parameter.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceTags">QuicksightDataSourceTags</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#tags QuicksightDataSource#tags}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSource.Initializer.parameter.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceTags">QuicksightDataSourceTags</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#tags QuicksightDataSource#tags}. |
 | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSource.Initializer.parameter.vpcConnectionProperties">vpcConnectionProperties</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceVpcConnectionProperties">QuicksightDataSourceVpcConnectionProperties</a></code> | <p>VPC connection properties.</p>. |
 
 ---
@@ -126,7 +126,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#name QuicksightDataSource#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#name QuicksightDataSource#name}.
 
 ---
 
@@ -134,7 +134,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#type QuicksightDataSource#type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#type QuicksightDataSource#type}.
 
 ---
 
@@ -153,7 +153,7 @@ existing data source. If the <code>AlternateDataSourceParameters</code> list is 
 the <code>Credentials</code> originally used with this <code>DataSourceParameters</code>
 are automatically allowed.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#alternate_data_source_parameters QuicksightDataSource#alternate_data_source_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#alternate_data_source_parameters QuicksightDataSource#alternate_data_source_parameters}
 
 ---
 
@@ -161,7 +161,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#aws_account_id QuicksightDataSource#aws_account_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#aws_account_id QuicksightDataSource#aws_account_id}.
 
 ---
 
@@ -174,7 +174,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 This is a variant type structure. For this structure to be
 valid, only one of the attributes can be non-null.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#credentials QuicksightDataSource#credentials}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#credentials QuicksightDataSource#credentials}
 
 ---
 
@@ -182,7 +182,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#data_source_id QuicksightDataSource#data_source_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#data_source_id QuicksightDataSource#data_source_id}.
 
 ---
 
@@ -195,7 +195,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 This is a variant type structure. For this structure to be valid, only one of the
 attributes can be non-null.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#data_source_parameters QuicksightDataSource#data_source_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#data_source_parameters QuicksightDataSource#data_source_parameters}
 
 ---
 
@@ -205,7 +205,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 <p>Error information for the data source creation or update.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#error_info QuicksightDataSource#error_info}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#error_info QuicksightDataSource#error_info}
 
 ---
 
@@ -213,7 +213,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#folder_arns QuicksightDataSource#folder_arns}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#folder_arns QuicksightDataSource#folder_arns}.
 
 ---
 
@@ -221,7 +221,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourcePermissions">QuicksightDataSourcePermissions</a>>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#permissions QuicksightDataSource#permissions}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#permissions QuicksightDataSource#permissions}.
 
 ---
 
@@ -231,7 +231,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 <p>Secure Socket Layer (SSL) properties that apply when Amazon QuickSight connects to your             underlying data source.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#ssl_properties QuicksightDataSource#ssl_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#ssl_properties QuicksightDataSource#ssl_properties}
 
 ---
 
@@ -239,7 +239,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceTags">QuicksightDataSourceTags</a>>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#tags QuicksightDataSource#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#tags QuicksightDataSource#tags}.
 
 ---
 
@@ -249,7 +249,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 <p>VPC connection properties.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#vpc_connection_properties QuicksightDataSource#vpc_connection_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#vpc_connection_properties QuicksightDataSource#vpc_connection_properties}
 
 ---
 
@@ -879,7 +879,7 @@ The construct id used in the generated config for the QuicksightDataSource to im
 
 The id of the existing QuicksightDataSource that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1465,7 +1465,7 @@ QuicksightDataSourceAlternateDataSourceParameters.builder()
 | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceAlternateDataSourceParameters.property.rdsParameters">rdsParameters</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceAlternateDataSourceParametersRdsParameters">QuicksightDataSourceAlternateDataSourceParametersRdsParameters</a></code> | <p>The parameters for Amazon RDS.</p>. |
 | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceAlternateDataSourceParameters.property.redshiftParameters">redshiftParameters</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceAlternateDataSourceParametersRedshiftParameters">QuicksightDataSourceAlternateDataSourceParametersRedshiftParameters</a></code> | <p>The parameters for Amazon Redshift. |
 | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceAlternateDataSourceParameters.property.s3Parameters">s3Parameters</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceAlternateDataSourceParametersS3Parameters">QuicksightDataSourceAlternateDataSourceParametersS3Parameters</a></code> | <p>The parameters for S3.</p>. |
-| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceAlternateDataSourceParameters.property.s3TablesParameters">s3TablesParameters</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceAlternateDataSourceParametersS3TablesParameters">QuicksightDataSourceAlternateDataSourceParametersS3TablesParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#s3_tables_parameters QuicksightDataSource#s3_tables_parameters}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceAlternateDataSourceParameters.property.s3TablesParameters">s3TablesParameters</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceAlternateDataSourceParametersS3TablesParameters">QuicksightDataSourceAlternateDataSourceParametersS3TablesParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#s3_tables_parameters QuicksightDataSource#s3_tables_parameters}. |
 | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceAlternateDataSourceParameters.property.snowflakeParameters">snowflakeParameters</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceAlternateDataSourceParametersSnowflakeParameters">QuicksightDataSourceAlternateDataSourceParametersSnowflakeParameters</a></code> | <p>The parameters for Snowflake.</p>. |
 | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceAlternateDataSourceParameters.property.sparkParameters">sparkParameters</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceAlternateDataSourceParametersSparkParameters">QuicksightDataSourceAlternateDataSourceParametersSparkParameters</a></code> | <p>The parameters for Spark.</p>. |
 | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceAlternateDataSourceParameters.property.sqlServerParameters">sqlServerParameters</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceAlternateDataSourceParametersSqlServerParameters">QuicksightDataSourceAlternateDataSourceParametersSqlServerParameters</a></code> | <p>The parameters for SQL Server.</p>. |
@@ -1485,7 +1485,7 @@ public QuicksightDataSourceAlternateDataSourceParametersAmazonElasticsearchParam
 
 <p>The parameters for OpenSearch.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#amazon_elasticsearch_parameters QuicksightDataSource#amazon_elasticsearch_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#amazon_elasticsearch_parameters QuicksightDataSource#amazon_elasticsearch_parameters}
 
 ---
 
@@ -1499,7 +1499,7 @@ public QuicksightDataSourceAlternateDataSourceParametersAmazonOpenSearchParamete
 
 <p>The parameters for OpenSearch.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#amazon_open_search_parameters QuicksightDataSource#amazon_open_search_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#amazon_open_search_parameters QuicksightDataSource#amazon_open_search_parameters}
 
 ---
 
@@ -1513,7 +1513,7 @@ public QuicksightDataSourceAlternateDataSourceParametersAthenaParameters getAthe
 
 <p>Parameters for Amazon Athena.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#athena_parameters QuicksightDataSource#athena_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#athena_parameters QuicksightDataSource#athena_parameters}
 
 ---
 
@@ -1527,7 +1527,7 @@ public QuicksightDataSourceAlternateDataSourceParametersAuroraParameters getAuro
 
 <p>Parameters for Amazon Aurora.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#aurora_parameters QuicksightDataSource#aurora_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#aurora_parameters QuicksightDataSource#aurora_parameters}
 
 ---
 
@@ -1541,7 +1541,7 @@ public QuicksightDataSourceAlternateDataSourceParametersAuroraPostgreSqlParamete
 
 <p>Parameters for Amazon Aurora PostgreSQL-Compatible Edition.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#aurora_postgre_sql_parameters QuicksightDataSource#aurora_postgre_sql_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#aurora_postgre_sql_parameters QuicksightDataSource#aurora_postgre_sql_parameters}
 
 ---
 
@@ -1555,7 +1555,7 @@ public QuicksightDataSourceAlternateDataSourceParametersDatabricksParameters get
 
 <p>The parameters that are required to connect to a Databricks data source.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#databricks_parameters QuicksightDataSource#databricks_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#databricks_parameters QuicksightDataSource#databricks_parameters}
 
 ---
 
@@ -1569,7 +1569,7 @@ public QuicksightDataSourceAlternateDataSourceParametersMariaDbParameters getMar
 
 <p>The parameters for MariaDB.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#maria_db_parameters QuicksightDataSource#maria_db_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#maria_db_parameters QuicksightDataSource#maria_db_parameters}
 
 ---
 
@@ -1583,7 +1583,7 @@ public QuicksightDataSourceAlternateDataSourceParametersMySqlParameters getMySql
 
 <p>The parameters for MySQL.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#my_sql_parameters QuicksightDataSource#my_sql_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#my_sql_parameters QuicksightDataSource#my_sql_parameters}
 
 ---
 
@@ -1597,7 +1597,7 @@ public QuicksightDataSourceAlternateDataSourceParametersOracleParameters getOrac
 
 <p>The parameters for Oracle.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#oracle_parameters QuicksightDataSource#oracle_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#oracle_parameters QuicksightDataSource#oracle_parameters}
 
 ---
 
@@ -1611,7 +1611,7 @@ public QuicksightDataSourceAlternateDataSourceParametersPostgreSqlParameters get
 
 <p>The parameters for PostgreSQL.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#postgre_sql_parameters QuicksightDataSource#postgre_sql_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#postgre_sql_parameters QuicksightDataSource#postgre_sql_parameters}
 
 ---
 
@@ -1625,7 +1625,7 @@ public QuicksightDataSourceAlternateDataSourceParametersPrestoParameters getPres
 
 <p>The parameters for Presto.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#presto_parameters QuicksightDataSource#presto_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#presto_parameters QuicksightDataSource#presto_parameters}
 
 ---
 
@@ -1639,7 +1639,7 @@ public QuicksightDataSourceAlternateDataSourceParametersRdsParameters getRdsPara
 
 <p>The parameters for Amazon RDS.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#rds_parameters QuicksightDataSource#rds_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#rds_parameters QuicksightDataSource#rds_parameters}
 
 ---
 
@@ -1656,7 +1656,7 @@ public QuicksightDataSourceAlternateDataSourceParametersRedshiftParameters getRe
 The <code>ClusterId</code> field can be blank if
 <code>Host</code> and <code>Port</code> are both set. The <code>Host</code> and <code>Port</code> fields can be blank if the <code>ClusterId</code> field is set.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#redshift_parameters QuicksightDataSource#redshift_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#redshift_parameters QuicksightDataSource#redshift_parameters}
 
 ---
 
@@ -1670,7 +1670,7 @@ public QuicksightDataSourceAlternateDataSourceParametersS3Parameters getS3Parame
 
 <p>The parameters for S3.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#s3_parameters QuicksightDataSource#s3_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#s3_parameters QuicksightDataSource#s3_parameters}
 
 ---
 
@@ -1682,7 +1682,7 @@ public QuicksightDataSourceAlternateDataSourceParametersS3TablesParameters getS3
 
 - *Type:* <a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceAlternateDataSourceParametersS3TablesParameters">QuicksightDataSourceAlternateDataSourceParametersS3TablesParameters</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#s3_tables_parameters QuicksightDataSource#s3_tables_parameters}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#s3_tables_parameters QuicksightDataSource#s3_tables_parameters}.
 
 ---
 
@@ -1696,7 +1696,7 @@ public QuicksightDataSourceAlternateDataSourceParametersSnowflakeParameters getS
 
 <p>The parameters for Snowflake.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#snowflake_parameters QuicksightDataSource#snowflake_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#snowflake_parameters QuicksightDataSource#snowflake_parameters}
 
 ---
 
@@ -1710,7 +1710,7 @@ public QuicksightDataSourceAlternateDataSourceParametersSparkParameters getSpark
 
 <p>The parameters for Spark.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#spark_parameters QuicksightDataSource#spark_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#spark_parameters QuicksightDataSource#spark_parameters}
 
 ---
 
@@ -1724,7 +1724,7 @@ public QuicksightDataSourceAlternateDataSourceParametersSqlServerParameters getS
 
 <p>The parameters for SQL Server.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#sql_server_parameters QuicksightDataSource#sql_server_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#sql_server_parameters QuicksightDataSource#sql_server_parameters}
 
 ---
 
@@ -1738,7 +1738,7 @@ public QuicksightDataSourceAlternateDataSourceParametersStarburstParameters getS
 
 <p>The parameters that are required to connect to a Starburst data source.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#starburst_parameters QuicksightDataSource#starburst_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#starburst_parameters QuicksightDataSource#starburst_parameters}
 
 ---
 
@@ -1752,7 +1752,7 @@ public QuicksightDataSourceAlternateDataSourceParametersTeradataParameters getTe
 
 <p>The parameters for Teradata.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#teradata_parameters QuicksightDataSource#teradata_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#teradata_parameters QuicksightDataSource#teradata_parameters}
 
 ---
 
@@ -1766,7 +1766,7 @@ public QuicksightDataSourceAlternateDataSourceParametersTrinoParameters getTrino
 
 <p>The parameters that are required to connect to a Trino data source.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#trino_parameters QuicksightDataSource#trino_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#trino_parameters QuicksightDataSource#trino_parameters}
 
 ---
 
@@ -1800,7 +1800,7 @@ public java.lang.String getDomain();
 
 <p>The OpenSearch domain.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#domain QuicksightDataSource#domain}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#domain QuicksightDataSource#domain}
 
 ---
 
@@ -1834,7 +1834,7 @@ public java.lang.String getDomain();
 
 <p>The OpenSearch domain.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#domain QuicksightDataSource#domain}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#domain QuicksightDataSource#domain}
 
 ---
 
@@ -1872,7 +1872,7 @@ public QuicksightDataSourceAlternateDataSourceParametersAthenaParametersIdentity
 
 <p>The parameters for an IAM Identity Center configuration.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#identity_center_configuration QuicksightDataSource#identity_center_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#identity_center_configuration QuicksightDataSource#identity_center_configuration}
 
 ---
 
@@ -1888,7 +1888,7 @@ public java.lang.String getRoleArn();
 
 For example, say an account administrator has turned off all Athena access with an account-wide role. The administrator can then use <code>RoleArn</code> to bypass the account-wide role and allow Athena access for the single Athena data source that is specified in the structure, even if the account-wide role forbidding Athena access is still active.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#role_arn QuicksightDataSource#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#role_arn QuicksightDataSource#role_arn}
 
 ---
 
@@ -1902,7 +1902,7 @@ public java.lang.String getWorkGroup();
 
 <p>The workgroup that Amazon Athena uses.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#work_group QuicksightDataSource#work_group}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#work_group QuicksightDataSource#work_group}
 
 ---
 
@@ -1936,7 +1936,7 @@ public java.lang.Boolean|IResolvable getEnableIdentityPropagation();
 
 <p>A Boolean option that controls whether Trusted Identity Propagation should be used.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#enable_identity_propagation QuicksightDataSource#enable_identity_propagation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#enable_identity_propagation QuicksightDataSource#enable_identity_propagation}
 
 ---
 
@@ -1974,7 +1974,7 @@ public java.lang.String getDatabase();
 
 <p>Database.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#database QuicksightDataSource#database}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#database QuicksightDataSource#database}
 
 ---
 
@@ -1988,7 +1988,7 @@ public java.lang.String getHost();
 
 <p>Host.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
 
 ---
 
@@ -2002,7 +2002,7 @@ public java.lang.Number getPort();
 
 <p>Port.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
 
 ---
 
@@ -2040,7 +2040,7 @@ public java.lang.String getDatabase();
 
 <p>The Amazon Aurora PostgreSQL database to connect to.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#database QuicksightDataSource#database}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#database QuicksightDataSource#database}
 
 ---
 
@@ -2054,7 +2054,7 @@ public java.lang.String getHost();
 
 <p>The Amazon Aurora PostgreSQL-Compatible host to connect to.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
 
 ---
 
@@ -2068,7 +2068,7 @@ public java.lang.Number getPort();
 
 <p>The port that Amazon Aurora PostgreSQL is listening on.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
 
 ---
 
@@ -2106,7 +2106,7 @@ public java.lang.String getHost();
 
 <p>The host name of the Databricks data source.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
 
 ---
 
@@ -2120,7 +2120,7 @@ public java.lang.Number getPort();
 
 <p>The port for the Databricks data source.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
 
 ---
 
@@ -2134,7 +2134,7 @@ public java.lang.String getSqlEndpointPath();
 
 <p>The HTTP path of the Databricks data source.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#sql_endpoint_path QuicksightDataSource#sql_endpoint_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#sql_endpoint_path QuicksightDataSource#sql_endpoint_path}
 
 ---
 
@@ -2172,7 +2172,7 @@ public java.lang.String getDatabase();
 
 <p>Database.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#database QuicksightDataSource#database}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#database QuicksightDataSource#database}
 
 ---
 
@@ -2186,7 +2186,7 @@ public java.lang.String getHost();
 
 <p>Host.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
 
 ---
 
@@ -2200,7 +2200,7 @@ public java.lang.Number getPort();
 
 <p>Port.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
 
 ---
 
@@ -2238,7 +2238,7 @@ public java.lang.String getDatabase();
 
 <p>Database.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#database QuicksightDataSource#database}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#database QuicksightDataSource#database}
 
 ---
 
@@ -2252,7 +2252,7 @@ public java.lang.String getHost();
 
 <p>Host.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
 
 ---
 
@@ -2266,7 +2266,7 @@ public java.lang.Number getPort();
 
 <p>Port.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
 
 ---
 
@@ -2292,7 +2292,7 @@ QuicksightDataSourceAlternateDataSourceParametersOracleParameters.builder()
 | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceAlternateDataSourceParametersOracleParameters.property.database">database</a></code> | <code>java.lang.String</code> | <p>The database.</p>. |
 | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceAlternateDataSourceParametersOracleParameters.property.host">host</a></code> | <code>java.lang.String</code> | <p>An Oracle host.</p>. |
 | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceAlternateDataSourceParametersOracleParameters.property.port">port</a></code> | <code>java.lang.Number</code> | <p>The port.</p>. |
-| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceAlternateDataSourceParametersOracleParameters.property.useServiceName">useServiceName</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#use_service_name QuicksightDataSource#use_service_name}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceAlternateDataSourceParametersOracleParameters.property.useServiceName">useServiceName</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#use_service_name QuicksightDataSource#use_service_name}. |
 
 ---
 
@@ -2306,7 +2306,7 @@ public java.lang.String getDatabase();
 
 <p>The database.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#database QuicksightDataSource#database}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#database QuicksightDataSource#database}
 
 ---
 
@@ -2320,7 +2320,7 @@ public java.lang.String getHost();
 
 <p>An Oracle host.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
 
 ---
 
@@ -2334,7 +2334,7 @@ public java.lang.Number getPort();
 
 <p>The port.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
 
 ---
 
@@ -2346,7 +2346,7 @@ public java.lang.Boolean|IResolvable getUseServiceName();
 
 - *Type:* java.lang.Boolean|io.cdktn.cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#use_service_name QuicksightDataSource#use_service_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#use_service_name QuicksightDataSource#use_service_name}.
 
 ---
 
@@ -2384,7 +2384,7 @@ public java.lang.String getDatabase();
 
 <p>Database.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#database QuicksightDataSource#database}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#database QuicksightDataSource#database}
 
 ---
 
@@ -2398,7 +2398,7 @@ public java.lang.String getHost();
 
 <p>Host.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
 
 ---
 
@@ -2412,7 +2412,7 @@ public java.lang.Number getPort();
 
 <p>Port.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
 
 ---
 
@@ -2450,7 +2450,7 @@ public java.lang.String getCatalog();
 
 <p>Catalog.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#catalog QuicksightDataSource#catalog}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#catalog QuicksightDataSource#catalog}
 
 ---
 
@@ -2464,7 +2464,7 @@ public java.lang.String getHost();
 
 <p>Host.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
 
 ---
 
@@ -2478,7 +2478,7 @@ public java.lang.Number getPort();
 
 <p>Port.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
 
 ---
 
@@ -2514,7 +2514,7 @@ public java.lang.String getDatabase();
 
 <p>Database.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#database QuicksightDataSource#database}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#database QuicksightDataSource#database}
 
 ---
 
@@ -2528,7 +2528,7 @@ public java.lang.String getInstanceId();
 
 <p>Instance ID.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#instance_id QuicksightDataSource#instance_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#instance_id QuicksightDataSource#instance_id}
 
 ---
 
@@ -2575,7 +2575,7 @@ public java.lang.String getClusterId();
 This field can be blank if the <code>Host</code> and <code>Port</code> are
 provided.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#cluster_id QuicksightDataSource#cluster_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#cluster_id QuicksightDataSource#cluster_id}
 
 ---
 
@@ -2589,7 +2589,7 @@ public java.lang.String getDatabase();
 
 <p>Database.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#database QuicksightDataSource#database}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#database QuicksightDataSource#database}
 
 ---
 
@@ -2603,7 +2603,7 @@ public java.lang.String getHost();
 
 <p>Host. This field can be blank if <code>ClusterId</code> is provided.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
 
 ---
 
@@ -2621,7 +2621,7 @@ For more information on the <code>redshift:GetClusterCredentials</code> API, see
 <code>GetClusterCredentials</code>
 </a>.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#iam_parameters QuicksightDataSource#iam_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#iam_parameters QuicksightDataSource#iam_parameters}
 
 ---
 
@@ -2635,7 +2635,7 @@ public QuicksightDataSourceAlternateDataSourceParametersRedshiftParametersIdenti
 
 <p>The parameters for an IAM Identity Center configuration.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#identity_center_configuration QuicksightDataSource#identity_center_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#identity_center_configuration QuicksightDataSource#identity_center_configuration}
 
 ---
 
@@ -2649,7 +2649,7 @@ public java.lang.Number getPort();
 
 <p>Port. This field can be blank if the <code>ClusterId</code> is provided.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
 
 ---
 
@@ -2691,7 +2691,7 @@ public java.lang.Boolean|IResolvable getAutoCreateDatabaseUser();
 
 If your database doesn't have a <code>DatabaseUser</code>, set this parameter to <code>True</code>. If there is no <code>DatabaseUser</code>, Amazon QuickSight can't connect to your cluster. The <code>RoleArn</code> that you use for this operation must grant access to <code>redshift:CreateClusterUser</code> to successfully create the user.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#auto_create_database_user QuicksightDataSource#auto_create_database_user}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#auto_create_database_user QuicksightDataSource#auto_create_database_user}
 
 ---
 
@@ -2707,7 +2707,7 @@ public java.util.List<java.lang.String> getDatabaseGroups();
 
 These permissions are combined with the permissions granted to Amazon QuickSight by the <code>DatabaseUser</code>. If you choose to include this parameter, the <code>RoleArn</code> must grant access to <code>redshift:JoinGroup</code>.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#database_groups QuicksightDataSource#database_groups}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#database_groups QuicksightDataSource#database_groups}
 
 ---
 
@@ -2723,7 +2723,7 @@ public java.lang.String getDatabaseUser();
 
 If this user already exists in your database, Amazon QuickSight is granted the same permissions that the user has. If the user doesn't exist, set the value of <code>AutoCreateDatabaseUser</code> to <code>True</code> to create a new user with PUBLIC permissions.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#database_user QuicksightDataSource#database_user}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#database_user QuicksightDataSource#database_user}
 
 ---
 
@@ -2739,7 +2739,7 @@ public java.lang.String getRoleArn();
 
 The calling principal must have <code>iam:PassRole</code> access to pass the role to Amazon QuickSight. The role's trust policy must allow the Amazon QuickSight service principal to assume the role.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#role_arn QuicksightDataSource#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#role_arn QuicksightDataSource#role_arn}
 
 ---
 
@@ -2773,7 +2773,7 @@ public java.lang.Boolean|IResolvable getEnableIdentityPropagation();
 
 <p>A Boolean option that controls whether Trusted Identity Propagation should be used.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#enable_identity_propagation QuicksightDataSource#enable_identity_propagation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#enable_identity_propagation QuicksightDataSource#enable_identity_propagation}
 
 ---
 
@@ -2809,7 +2809,7 @@ public QuicksightDataSourceAlternateDataSourceParametersS3ParametersManifestFile
 
 <p>Amazon S3 manifest file location.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#manifest_file_location QuicksightDataSource#manifest_file_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#manifest_file_location QuicksightDataSource#manifest_file_location}
 
 ---
 
@@ -2825,7 +2825,7 @@ public java.lang.String getRoleArn();
 
 For example, say an account administrator has turned off all S3 access with an account-wide role. The administrator can then use <code>RoleArn</code> to bypass the account-wide role and allow S3 access for the single S3 data source that is specified in the structure, even if the account-wide role forbidding S3 access is still active.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#role_arn QuicksightDataSource#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#role_arn QuicksightDataSource#role_arn}
 
 ---
 
@@ -2861,7 +2861,7 @@ public java.lang.String getBucket();
 
 <p>Amazon S3 bucket.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#bucket QuicksightDataSource#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#bucket QuicksightDataSource#bucket}
 
 ---
 
@@ -2875,7 +2875,7 @@ public java.lang.String getKey();
 
 <p>Amazon S3 key that identifies an object.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#key QuicksightDataSource#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#key QuicksightDataSource#key}
 
 ---
 
@@ -2895,7 +2895,7 @@ QuicksightDataSourceAlternateDataSourceParametersS3TablesParameters.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceAlternateDataSourceParametersS3TablesParameters.property.tableBucketArn">tableBucketArn</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#table_bucket_arn QuicksightDataSource#table_bucket_arn}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceAlternateDataSourceParametersS3TablesParameters.property.tableBucketArn">tableBucketArn</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#table_bucket_arn QuicksightDataSource#table_bucket_arn}. |
 
 ---
 
@@ -2907,7 +2907,7 @@ public java.lang.String getTableBucketArn();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#table_bucket_arn QuicksightDataSource#table_bucket_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#table_bucket_arn QuicksightDataSource#table_bucket_arn}.
 
 ---
 
@@ -2932,11 +2932,11 @@ QuicksightDataSourceAlternateDataSourceParametersSnowflakeParameters.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceAlternateDataSourceParametersSnowflakeParameters.property.authenticationType">authenticationType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#authentication_type QuicksightDataSource#authentication_type}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceAlternateDataSourceParametersSnowflakeParameters.property.authenticationType">authenticationType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#authentication_type QuicksightDataSource#authentication_type}. |
 | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceAlternateDataSourceParametersSnowflakeParameters.property.database">database</a></code> | <code>java.lang.String</code> | <p>Database.</p>. |
-| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceAlternateDataSourceParametersSnowflakeParameters.property.databaseAccessControlRole">databaseAccessControlRole</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#database_access_control_role QuicksightDataSource#database_access_control_role}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceAlternateDataSourceParametersSnowflakeParameters.property.databaseAccessControlRole">databaseAccessControlRole</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#database_access_control_role QuicksightDataSource#database_access_control_role}. |
 | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceAlternateDataSourceParametersSnowflakeParameters.property.host">host</a></code> | <code>java.lang.String</code> | <p>Host.</p>. |
-| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceAlternateDataSourceParametersSnowflakeParameters.property.oAuthParameters">oAuthParameters</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceAlternateDataSourceParametersSnowflakeParametersOAuthParameters">QuicksightDataSourceAlternateDataSourceParametersSnowflakeParametersOAuthParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#o_auth_parameters QuicksightDataSource#o_auth_parameters}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceAlternateDataSourceParametersSnowflakeParameters.property.oAuthParameters">oAuthParameters</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceAlternateDataSourceParametersSnowflakeParametersOAuthParameters">QuicksightDataSourceAlternateDataSourceParametersSnowflakeParametersOAuthParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#o_auth_parameters QuicksightDataSource#o_auth_parameters}. |
 | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceAlternateDataSourceParametersSnowflakeParameters.property.warehouse">warehouse</a></code> | <code>java.lang.String</code> | <p>Warehouse.</p>. |
 
 ---
@@ -2949,7 +2949,7 @@ public java.lang.String getAuthenticationType();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#authentication_type QuicksightDataSource#authentication_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#authentication_type QuicksightDataSource#authentication_type}.
 
 ---
 
@@ -2963,7 +2963,7 @@ public java.lang.String getDatabase();
 
 <p>Database.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#database QuicksightDataSource#database}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#database QuicksightDataSource#database}
 
 ---
 
@@ -2975,7 +2975,7 @@ public java.lang.String getDatabaseAccessControlRole();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#database_access_control_role QuicksightDataSource#database_access_control_role}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#database_access_control_role QuicksightDataSource#database_access_control_role}.
 
 ---
 
@@ -2989,7 +2989,7 @@ public java.lang.String getHost();
 
 <p>Host.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
 
 ---
 
@@ -3001,7 +3001,7 @@ public QuicksightDataSourceAlternateDataSourceParametersSnowflakeParametersOAuth
 
 - *Type:* <a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceAlternateDataSourceParametersSnowflakeParametersOAuthParameters">QuicksightDataSourceAlternateDataSourceParametersSnowflakeParametersOAuthParameters</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#o_auth_parameters QuicksightDataSource#o_auth_parameters}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#o_auth_parameters QuicksightDataSource#o_auth_parameters}.
 
 ---
 
@@ -3015,7 +3015,7 @@ public java.lang.String getWarehouse();
 
 <p>Warehouse.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#warehouse QuicksightDataSource#warehouse}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#warehouse QuicksightDataSource#warehouse}
 
 ---
 
@@ -3038,10 +3038,10 @@ QuicksightDataSourceAlternateDataSourceParametersSnowflakeParametersOAuthParamet
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceAlternateDataSourceParametersSnowflakeParametersOAuthParameters.property.identityProviderResourceUri">identityProviderResourceUri</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#identity_provider_resource_uri QuicksightDataSource#identity_provider_resource_uri}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceAlternateDataSourceParametersSnowflakeParametersOAuthParameters.property.identityProviderResourceUri">identityProviderResourceUri</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#identity_provider_resource_uri QuicksightDataSource#identity_provider_resource_uri}. |
 | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceAlternateDataSourceParametersSnowflakeParametersOAuthParameters.property.identityProviderVpcConnectionProperties">identityProviderVpcConnectionProperties</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceAlternateDataSourceParametersSnowflakeParametersOAuthParametersIdentityProviderVpcConnectionProperties">QuicksightDataSourceAlternateDataSourceParametersSnowflakeParametersOAuthParametersIdentityProviderVpcConnectionProperties</a></code> | <p>VPC connection properties.</p>. |
-| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceAlternateDataSourceParametersSnowflakeParametersOAuthParameters.property.oAuthScope">oAuthScope</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#o_auth_scope QuicksightDataSource#o_auth_scope}. |
-| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceAlternateDataSourceParametersSnowflakeParametersOAuthParameters.property.tokenProviderUrl">tokenProviderUrl</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#token_provider_url QuicksightDataSource#token_provider_url}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceAlternateDataSourceParametersSnowflakeParametersOAuthParameters.property.oAuthScope">oAuthScope</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#o_auth_scope QuicksightDataSource#o_auth_scope}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceAlternateDataSourceParametersSnowflakeParametersOAuthParameters.property.tokenProviderUrl">tokenProviderUrl</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#token_provider_url QuicksightDataSource#token_provider_url}. |
 
 ---
 
@@ -3053,7 +3053,7 @@ public java.lang.String getIdentityProviderResourceUri();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#identity_provider_resource_uri QuicksightDataSource#identity_provider_resource_uri}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#identity_provider_resource_uri QuicksightDataSource#identity_provider_resource_uri}.
 
 ---
 
@@ -3067,7 +3067,7 @@ public QuicksightDataSourceAlternateDataSourceParametersSnowflakeParametersOAuth
 
 <p>VPC connection properties.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#identity_provider_vpc_connection_properties QuicksightDataSource#identity_provider_vpc_connection_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#identity_provider_vpc_connection_properties QuicksightDataSource#identity_provider_vpc_connection_properties}
 
 ---
 
@@ -3079,7 +3079,7 @@ public java.lang.String getOAuthScope();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#o_auth_scope QuicksightDataSource#o_auth_scope}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#o_auth_scope QuicksightDataSource#o_auth_scope}.
 
 ---
 
@@ -3091,7 +3091,7 @@ public java.lang.String getTokenProviderUrl();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#token_provider_url QuicksightDataSource#token_provider_url}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#token_provider_url QuicksightDataSource#token_provider_url}.
 
 ---
 
@@ -3125,7 +3125,7 @@ public java.lang.String getVpcConnectionArn();
 
 <p>The Amazon Resource Name (ARN) for the VPC connection.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#vpc_connection_arn QuicksightDataSource#vpc_connection_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#vpc_connection_arn QuicksightDataSource#vpc_connection_arn}
 
 ---
 
@@ -3161,7 +3161,7 @@ public java.lang.String getHost();
 
 <p>Host.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
 
 ---
 
@@ -3175,7 +3175,7 @@ public java.lang.Number getPort();
 
 <p>Port.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
 
 ---
 
@@ -3213,7 +3213,7 @@ public java.lang.String getDatabase();
 
 <p>Database.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#database QuicksightDataSource#database}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#database QuicksightDataSource#database}
 
 ---
 
@@ -3227,7 +3227,7 @@ public java.lang.String getHost();
 
 <p>Host.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
 
 ---
 
@@ -3241,7 +3241,7 @@ public java.lang.Number getPort();
 
 <p>Port.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
 
 ---
 
@@ -3267,13 +3267,13 @@ QuicksightDataSourceAlternateDataSourceParametersStarburstParameters.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceAlternateDataSourceParametersStarburstParameters.property.authenticationType">authenticationType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#authentication_type QuicksightDataSource#authentication_type}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceAlternateDataSourceParametersStarburstParameters.property.authenticationType">authenticationType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#authentication_type QuicksightDataSource#authentication_type}. |
 | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceAlternateDataSourceParametersStarburstParameters.property.catalog">catalog</a></code> | <code>java.lang.String</code> | <p>The catalog name for the Starburst data source.</p>. |
-| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceAlternateDataSourceParametersStarburstParameters.property.databaseAccessControlRole">databaseAccessControlRole</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#database_access_control_role QuicksightDataSource#database_access_control_role}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceAlternateDataSourceParametersStarburstParameters.property.databaseAccessControlRole">databaseAccessControlRole</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#database_access_control_role QuicksightDataSource#database_access_control_role}. |
 | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceAlternateDataSourceParametersStarburstParameters.property.host">host</a></code> | <code>java.lang.String</code> | <p>The host name of the Starburst data source.</p>. |
-| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceAlternateDataSourceParametersStarburstParameters.property.oAuthParameters">oAuthParameters</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceAlternateDataSourceParametersStarburstParametersOAuthParameters">QuicksightDataSourceAlternateDataSourceParametersStarburstParametersOAuthParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#o_auth_parameters QuicksightDataSource#o_auth_parameters}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceAlternateDataSourceParametersStarburstParameters.property.oAuthParameters">oAuthParameters</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceAlternateDataSourceParametersStarburstParametersOAuthParameters">QuicksightDataSourceAlternateDataSourceParametersStarburstParametersOAuthParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#o_auth_parameters QuicksightDataSource#o_auth_parameters}. |
 | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceAlternateDataSourceParametersStarburstParameters.property.port">port</a></code> | <code>java.lang.Number</code> | <p>The port for the Starburst data source.</p>. |
-| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceAlternateDataSourceParametersStarburstParameters.property.productType">productType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#product_type QuicksightDataSource#product_type}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceAlternateDataSourceParametersStarburstParameters.property.productType">productType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#product_type QuicksightDataSource#product_type}. |
 
 ---
 
@@ -3285,7 +3285,7 @@ public java.lang.String getAuthenticationType();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#authentication_type QuicksightDataSource#authentication_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#authentication_type QuicksightDataSource#authentication_type}.
 
 ---
 
@@ -3299,7 +3299,7 @@ public java.lang.String getCatalog();
 
 <p>The catalog name for the Starburst data source.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#catalog QuicksightDataSource#catalog}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#catalog QuicksightDataSource#catalog}
 
 ---
 
@@ -3311,7 +3311,7 @@ public java.lang.String getDatabaseAccessControlRole();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#database_access_control_role QuicksightDataSource#database_access_control_role}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#database_access_control_role QuicksightDataSource#database_access_control_role}.
 
 ---
 
@@ -3325,7 +3325,7 @@ public java.lang.String getHost();
 
 <p>The host name of the Starburst data source.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
 
 ---
 
@@ -3337,7 +3337,7 @@ public QuicksightDataSourceAlternateDataSourceParametersStarburstParametersOAuth
 
 - *Type:* <a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceAlternateDataSourceParametersStarburstParametersOAuthParameters">QuicksightDataSourceAlternateDataSourceParametersStarburstParametersOAuthParameters</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#o_auth_parameters QuicksightDataSource#o_auth_parameters}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#o_auth_parameters QuicksightDataSource#o_auth_parameters}.
 
 ---
 
@@ -3351,7 +3351,7 @@ public java.lang.Number getPort();
 
 <p>The port for the Starburst data source.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
 
 ---
 
@@ -3363,7 +3363,7 @@ public java.lang.String getProductType();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#product_type QuicksightDataSource#product_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#product_type QuicksightDataSource#product_type}.
 
 ---
 
@@ -3386,10 +3386,10 @@ QuicksightDataSourceAlternateDataSourceParametersStarburstParametersOAuthParamet
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceAlternateDataSourceParametersStarburstParametersOAuthParameters.property.identityProviderResourceUri">identityProviderResourceUri</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#identity_provider_resource_uri QuicksightDataSource#identity_provider_resource_uri}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceAlternateDataSourceParametersStarburstParametersOAuthParameters.property.identityProviderResourceUri">identityProviderResourceUri</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#identity_provider_resource_uri QuicksightDataSource#identity_provider_resource_uri}. |
 | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceAlternateDataSourceParametersStarburstParametersOAuthParameters.property.identityProviderVpcConnectionProperties">identityProviderVpcConnectionProperties</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceAlternateDataSourceParametersStarburstParametersOAuthParametersIdentityProviderVpcConnectionProperties">QuicksightDataSourceAlternateDataSourceParametersStarburstParametersOAuthParametersIdentityProviderVpcConnectionProperties</a></code> | <p>VPC connection properties.</p>. |
-| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceAlternateDataSourceParametersStarburstParametersOAuthParameters.property.oAuthScope">oAuthScope</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#o_auth_scope QuicksightDataSource#o_auth_scope}. |
-| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceAlternateDataSourceParametersStarburstParametersOAuthParameters.property.tokenProviderUrl">tokenProviderUrl</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#token_provider_url QuicksightDataSource#token_provider_url}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceAlternateDataSourceParametersStarburstParametersOAuthParameters.property.oAuthScope">oAuthScope</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#o_auth_scope QuicksightDataSource#o_auth_scope}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceAlternateDataSourceParametersStarburstParametersOAuthParameters.property.tokenProviderUrl">tokenProviderUrl</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#token_provider_url QuicksightDataSource#token_provider_url}. |
 
 ---
 
@@ -3401,7 +3401,7 @@ public java.lang.String getIdentityProviderResourceUri();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#identity_provider_resource_uri QuicksightDataSource#identity_provider_resource_uri}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#identity_provider_resource_uri QuicksightDataSource#identity_provider_resource_uri}.
 
 ---
 
@@ -3415,7 +3415,7 @@ public QuicksightDataSourceAlternateDataSourceParametersStarburstParametersOAuth
 
 <p>VPC connection properties.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#identity_provider_vpc_connection_properties QuicksightDataSource#identity_provider_vpc_connection_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#identity_provider_vpc_connection_properties QuicksightDataSource#identity_provider_vpc_connection_properties}
 
 ---
 
@@ -3427,7 +3427,7 @@ public java.lang.String getOAuthScope();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#o_auth_scope QuicksightDataSource#o_auth_scope}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#o_auth_scope QuicksightDataSource#o_auth_scope}.
 
 ---
 
@@ -3439,7 +3439,7 @@ public java.lang.String getTokenProviderUrl();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#token_provider_url QuicksightDataSource#token_provider_url}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#token_provider_url QuicksightDataSource#token_provider_url}.
 
 ---
 
@@ -3473,7 +3473,7 @@ public java.lang.String getVpcConnectionArn();
 
 <p>The Amazon Resource Name (ARN) for the VPC connection.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#vpc_connection_arn QuicksightDataSource#vpc_connection_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#vpc_connection_arn QuicksightDataSource#vpc_connection_arn}
 
 ---
 
@@ -3511,7 +3511,7 @@ public java.lang.String getDatabase();
 
 <p>Database.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#database QuicksightDataSource#database}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#database QuicksightDataSource#database}
 
 ---
 
@@ -3525,7 +3525,7 @@ public java.lang.String getHost();
 
 <p>Host.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
 
 ---
 
@@ -3539,7 +3539,7 @@ public java.lang.Number getPort();
 
 <p>Port.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
 
 ---
 
@@ -3577,7 +3577,7 @@ public java.lang.String getCatalog();
 
 <p>The catalog name for the Trino data source.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#catalog QuicksightDataSource#catalog}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#catalog QuicksightDataSource#catalog}
 
 ---
 
@@ -3591,7 +3591,7 @@ public java.lang.String getHost();
 
 <p>The host name of the Trino data source.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
 
 ---
 
@@ -3605,7 +3605,7 @@ public java.lang.Number getPort();
 
 <p>The port for the Trino data source.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
 
 ---
 
@@ -3651,18 +3651,18 @@ QuicksightDataSourceConfig.builder()
 | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceConfig.property.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceConfig.property.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceConfig.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceConfig.property.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#name QuicksightDataSource#name}. |
-| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceConfig.property.type">type</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#type QuicksightDataSource#type}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceConfig.property.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#name QuicksightDataSource#name}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceConfig.property.type">type</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#type QuicksightDataSource#type}. |
 | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceConfig.property.alternateDataSourceParameters">alternateDataSourceParameters</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceAlternateDataSourceParameters">QuicksightDataSourceAlternateDataSourceParameters</a>></code> | <p>A set of alternate data source parameters that you want to share for the credentials             stored with this data source. |
-| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceConfig.property.awsAccountId">awsAccountId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#aws_account_id QuicksightDataSource#aws_account_id}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceConfig.property.awsAccountId">awsAccountId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#aws_account_id QuicksightDataSource#aws_account_id}. |
 | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceConfig.property.credentials">credentials</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceCredentials">QuicksightDataSourceCredentials</a></code> | <p>Data source credentials. |
-| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceConfig.property.dataSourceId">dataSourceId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#data_source_id QuicksightDataSource#data_source_id}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceConfig.property.dataSourceId">dataSourceId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#data_source_id QuicksightDataSource#data_source_id}. |
 | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceConfig.property.dataSourceParameters">dataSourceParameters</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceDataSourceParameters">QuicksightDataSourceDataSourceParameters</a></code> | <p>The parameters that Amazon QuickSight uses to connect to your underlying data source. |
 | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceConfig.property.errorInfo">errorInfo</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceErrorInfo">QuicksightDataSourceErrorInfo</a></code> | <p>Error information for the data source creation or update.</p>. |
-| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceConfig.property.folderArns">folderArns</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#folder_arns QuicksightDataSource#folder_arns}. |
-| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceConfig.property.permissions">permissions</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourcePermissions">QuicksightDataSourcePermissions</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#permissions QuicksightDataSource#permissions}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceConfig.property.folderArns">folderArns</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#folder_arns QuicksightDataSource#folder_arns}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceConfig.property.permissions">permissions</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourcePermissions">QuicksightDataSourcePermissions</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#permissions QuicksightDataSource#permissions}. |
 | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceConfig.property.sslProperties">sslProperties</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceSslProperties">QuicksightDataSourceSslProperties</a></code> | <p>Secure Socket Layer (SSL) properties that apply when Amazon QuickSight connects to your             underlying data source.</p>. |
-| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceConfig.property.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceTags">QuicksightDataSourceTags</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#tags QuicksightDataSource#tags}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceConfig.property.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceTags">QuicksightDataSourceTags</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#tags QuicksightDataSource#tags}. |
 | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceConfig.property.vpcConnectionProperties">vpcConnectionProperties</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceVpcConnectionProperties">QuicksightDataSourceVpcConnectionProperties</a></code> | <p>VPC connection properties.</p>. |
 
 ---
@@ -3745,7 +3745,7 @@ public java.lang.String getName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#name QuicksightDataSource#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#name QuicksightDataSource#name}.
 
 ---
 
@@ -3757,7 +3757,7 @@ public java.lang.String getType();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#type QuicksightDataSource#type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#type QuicksightDataSource#type}.
 
 ---
 
@@ -3780,7 +3780,7 @@ existing data source. If the <code>AlternateDataSourceParameters</code> list is 
 the <code>Credentials</code> originally used with this <code>DataSourceParameters</code>
 are automatically allowed.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#alternate_data_source_parameters QuicksightDataSource#alternate_data_source_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#alternate_data_source_parameters QuicksightDataSource#alternate_data_source_parameters}
 
 ---
 
@@ -3792,7 +3792,7 @@ public java.lang.String getAwsAccountId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#aws_account_id QuicksightDataSource#aws_account_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#aws_account_id QuicksightDataSource#aws_account_id}.
 
 ---
 
@@ -3809,7 +3809,7 @@ public QuicksightDataSourceCredentials getCredentials();
 This is a variant type structure. For this structure to be
 valid, only one of the attributes can be non-null.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#credentials QuicksightDataSource#credentials}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#credentials QuicksightDataSource#credentials}
 
 ---
 
@@ -3821,7 +3821,7 @@ public java.lang.String getDataSourceId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#data_source_id QuicksightDataSource#data_source_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#data_source_id QuicksightDataSource#data_source_id}.
 
 ---
 
@@ -3838,7 +3838,7 @@ public QuicksightDataSourceDataSourceParameters getDataSourceParameters();
 This is a variant type structure. For this structure to be valid, only one of the
 attributes can be non-null.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#data_source_parameters QuicksightDataSource#data_source_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#data_source_parameters QuicksightDataSource#data_source_parameters}
 
 ---
 
@@ -3852,7 +3852,7 @@ public QuicksightDataSourceErrorInfo getErrorInfo();
 
 <p>Error information for the data source creation or update.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#error_info QuicksightDataSource#error_info}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#error_info QuicksightDataSource#error_info}
 
 ---
 
@@ -3864,7 +3864,7 @@ public java.util.List<java.lang.String> getFolderArns();
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#folder_arns QuicksightDataSource#folder_arns}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#folder_arns QuicksightDataSource#folder_arns}.
 
 ---
 
@@ -3876,7 +3876,7 @@ public IResolvable|java.util.List<QuicksightDataSourcePermissions> getPermission
 
 - *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourcePermissions">QuicksightDataSourcePermissions</a>>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#permissions QuicksightDataSource#permissions}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#permissions QuicksightDataSource#permissions}.
 
 ---
 
@@ -3890,7 +3890,7 @@ public QuicksightDataSourceSslProperties getSslProperties();
 
 <p>Secure Socket Layer (SSL) properties that apply when Amazon QuickSight connects to your             underlying data source.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#ssl_properties QuicksightDataSource#ssl_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#ssl_properties QuicksightDataSource#ssl_properties}
 
 ---
 
@@ -3902,7 +3902,7 @@ public IResolvable|java.util.List<QuicksightDataSourceTags> getTags();
 
 - *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceTags">QuicksightDataSourceTags</a>>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#tags QuicksightDataSource#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#tags QuicksightDataSource#tags}.
 
 ---
 
@@ -3916,7 +3916,7 @@ public QuicksightDataSourceVpcConnectionProperties getVpcConnectionProperties();
 
 <p>VPC connection properties.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#vpc_connection_properties QuicksightDataSource#vpc_connection_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#vpc_connection_properties QuicksightDataSource#vpc_connection_properties}
 
 ---
 
@@ -3941,7 +3941,7 @@ QuicksightDataSourceCredentials.builder()
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceCredentials.property.copySourceArn">copySourceArn</a></code> | <code>java.lang.String</code> | <p>The Amazon Resource Name (ARN) of a data source that has the credential pair that you             want to use. |
 | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceCredentials.property.credentialPair">credentialPair</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceCredentialsCredentialPair">QuicksightDataSourceCredentialsCredentialPair</a></code> | <p>The combination of user name and password that are used as credentials.</p>. |
-| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceCredentials.property.keyPairCredentials">keyPairCredentials</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceCredentialsKeyPairCredentials">QuicksightDataSourceCredentialsKeyPairCredentials</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#key_pair_credentials QuicksightDataSource#key_pair_credentials}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceCredentials.property.keyPairCredentials">keyPairCredentials</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceCredentialsKeyPairCredentials">QuicksightDataSourceCredentialsKeyPairCredentials</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#key_pair_credentials QuicksightDataSource#key_pair_credentials}. |
 | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceCredentials.property.secretArn">secretArn</a></code> | <code>java.lang.String</code> | <p>The Amazon Resource Name (ARN) of the secret associated with the data source in Amazon Secrets Manager.</p>. |
 
 ---
@@ -3960,7 +3960,7 @@ When <code>CopySourceArn</code> is not null, the credential pair from the
 data source in the ARN is used as the credentials for the
 <code>DataSourceCredentials</code> structure.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#copy_source_arn QuicksightDataSource#copy_source_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#copy_source_arn QuicksightDataSource#copy_source_arn}
 
 ---
 
@@ -3974,7 +3974,7 @@ public QuicksightDataSourceCredentialsCredentialPair getCredentialPair();
 
 <p>The combination of user name and password that are used as credentials.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#credential_pair QuicksightDataSource#credential_pair}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#credential_pair QuicksightDataSource#credential_pair}
 
 ---
 
@@ -3986,7 +3986,7 @@ public QuicksightDataSourceCredentialsKeyPairCredentials getKeyPairCredentials()
 
 - *Type:* <a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceCredentialsKeyPairCredentials">QuicksightDataSourceCredentialsKeyPairCredentials</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#key_pair_credentials QuicksightDataSource#key_pair_credentials}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#key_pair_credentials QuicksightDataSource#key_pair_credentials}.
 
 ---
 
@@ -4000,7 +4000,7 @@ public java.lang.String getSecretArn();
 
 <p>The Amazon Resource Name (ARN) of the secret associated with the data source in Amazon Secrets Manager.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#secret_arn QuicksightDataSource#secret_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#secret_arn QuicksightDataSource#secret_arn}
 
 ---
 
@@ -4047,7 +4047,7 @@ the existing credentials. If the <code>AlternateDataSourceParameters</code> list
 null, the <code>DataSourceParameters</code> originally used with these
 <code>Credentials</code> is automatically allowed.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#alternate_data_source_parameters QuicksightDataSource#alternate_data_source_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#alternate_data_source_parameters QuicksightDataSource#alternate_data_source_parameters}
 
 ---
 
@@ -4061,7 +4061,7 @@ public java.lang.String getPassword();
 
 <p>Password.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#password QuicksightDataSource#password}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#password QuicksightDataSource#password}
 
 ---
 
@@ -4075,7 +4075,7 @@ public java.lang.String getUsername();
 
 <p>User name.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#username QuicksightDataSource#username}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#username QuicksightDataSource#username}
 
 ---
 
@@ -4129,7 +4129,7 @@ QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParameters.build
 | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParameters.property.rdsParameters">rdsParameters</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersRdsParameters">QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersRdsParameters</a></code> | <p>The parameters for Amazon RDS.</p>. |
 | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParameters.property.redshiftParameters">redshiftParameters</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersRedshiftParameters">QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersRedshiftParameters</a></code> | <p>The parameters for Amazon Redshift. |
 | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParameters.property.s3Parameters">s3Parameters</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersS3Parameters">QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersS3Parameters</a></code> | <p>The parameters for S3.</p>. |
-| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParameters.property.s3TablesParameters">s3TablesParameters</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersS3TablesParameters">QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersS3TablesParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#s3_tables_parameters QuicksightDataSource#s3_tables_parameters}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParameters.property.s3TablesParameters">s3TablesParameters</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersS3TablesParameters">QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersS3TablesParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#s3_tables_parameters QuicksightDataSource#s3_tables_parameters}. |
 | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParameters.property.snowflakeParameters">snowflakeParameters</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersSnowflakeParameters">QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersSnowflakeParameters</a></code> | <p>The parameters for Snowflake.</p>. |
 | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParameters.property.sparkParameters">sparkParameters</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersSparkParameters">QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersSparkParameters</a></code> | <p>The parameters for Spark.</p>. |
 | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParameters.property.sqlServerParameters">sqlServerParameters</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersSqlServerParameters">QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersSqlServerParameters</a></code> | <p>The parameters for SQL Server.</p>. |
@@ -4149,7 +4149,7 @@ public QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParameter
 
 <p>The parameters for OpenSearch.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#amazon_elasticsearch_parameters QuicksightDataSource#amazon_elasticsearch_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#amazon_elasticsearch_parameters QuicksightDataSource#amazon_elasticsearch_parameters}
 
 ---
 
@@ -4163,7 +4163,7 @@ public QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParameter
 
 <p>The parameters for OpenSearch.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#amazon_open_search_parameters QuicksightDataSource#amazon_open_search_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#amazon_open_search_parameters QuicksightDataSource#amazon_open_search_parameters}
 
 ---
 
@@ -4177,7 +4177,7 @@ public QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParameter
 
 <p>Parameters for Amazon Athena.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#athena_parameters QuicksightDataSource#athena_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#athena_parameters QuicksightDataSource#athena_parameters}
 
 ---
 
@@ -4191,7 +4191,7 @@ public QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParameter
 
 <p>Parameters for Amazon Aurora.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#aurora_parameters QuicksightDataSource#aurora_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#aurora_parameters QuicksightDataSource#aurora_parameters}
 
 ---
 
@@ -4205,7 +4205,7 @@ public QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParameter
 
 <p>Parameters for Amazon Aurora PostgreSQL-Compatible Edition.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#aurora_postgre_sql_parameters QuicksightDataSource#aurora_postgre_sql_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#aurora_postgre_sql_parameters QuicksightDataSource#aurora_postgre_sql_parameters}
 
 ---
 
@@ -4219,7 +4219,7 @@ public QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParameter
 
 <p>The parameters that are required to connect to a Databricks data source.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#databricks_parameters QuicksightDataSource#databricks_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#databricks_parameters QuicksightDataSource#databricks_parameters}
 
 ---
 
@@ -4233,7 +4233,7 @@ public QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParameter
 
 <p>The parameters for MariaDB.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#maria_db_parameters QuicksightDataSource#maria_db_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#maria_db_parameters QuicksightDataSource#maria_db_parameters}
 
 ---
 
@@ -4247,7 +4247,7 @@ public QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParameter
 
 <p>The parameters for MySQL.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#my_sql_parameters QuicksightDataSource#my_sql_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#my_sql_parameters QuicksightDataSource#my_sql_parameters}
 
 ---
 
@@ -4261,7 +4261,7 @@ public QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParameter
 
 <p>The parameters for Oracle.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#oracle_parameters QuicksightDataSource#oracle_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#oracle_parameters QuicksightDataSource#oracle_parameters}
 
 ---
 
@@ -4275,7 +4275,7 @@ public QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParameter
 
 <p>The parameters for PostgreSQL.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#postgre_sql_parameters QuicksightDataSource#postgre_sql_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#postgre_sql_parameters QuicksightDataSource#postgre_sql_parameters}
 
 ---
 
@@ -4289,7 +4289,7 @@ public QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParameter
 
 <p>The parameters for Presto.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#presto_parameters QuicksightDataSource#presto_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#presto_parameters QuicksightDataSource#presto_parameters}
 
 ---
 
@@ -4303,7 +4303,7 @@ public QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParameter
 
 <p>The parameters for Amazon RDS.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#rds_parameters QuicksightDataSource#rds_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#rds_parameters QuicksightDataSource#rds_parameters}
 
 ---
 
@@ -4320,7 +4320,7 @@ public QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParameter
 The <code>ClusterId</code> field can be blank if
 <code>Host</code> and <code>Port</code> are both set. The <code>Host</code> and <code>Port</code> fields can be blank if the <code>ClusterId</code> field is set.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#redshift_parameters QuicksightDataSource#redshift_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#redshift_parameters QuicksightDataSource#redshift_parameters}
 
 ---
 
@@ -4334,7 +4334,7 @@ public QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParameter
 
 <p>The parameters for S3.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#s3_parameters QuicksightDataSource#s3_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#s3_parameters QuicksightDataSource#s3_parameters}
 
 ---
 
@@ -4346,7 +4346,7 @@ public QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParameter
 
 - *Type:* <a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersS3TablesParameters">QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersS3TablesParameters</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#s3_tables_parameters QuicksightDataSource#s3_tables_parameters}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#s3_tables_parameters QuicksightDataSource#s3_tables_parameters}.
 
 ---
 
@@ -4360,7 +4360,7 @@ public QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParameter
 
 <p>The parameters for Snowflake.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#snowflake_parameters QuicksightDataSource#snowflake_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#snowflake_parameters QuicksightDataSource#snowflake_parameters}
 
 ---
 
@@ -4374,7 +4374,7 @@ public QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParameter
 
 <p>The parameters for Spark.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#spark_parameters QuicksightDataSource#spark_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#spark_parameters QuicksightDataSource#spark_parameters}
 
 ---
 
@@ -4388,7 +4388,7 @@ public QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParameter
 
 <p>The parameters for SQL Server.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#sql_server_parameters QuicksightDataSource#sql_server_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#sql_server_parameters QuicksightDataSource#sql_server_parameters}
 
 ---
 
@@ -4402,7 +4402,7 @@ public QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParameter
 
 <p>The parameters that are required to connect to a Starburst data source.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#starburst_parameters QuicksightDataSource#starburst_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#starburst_parameters QuicksightDataSource#starburst_parameters}
 
 ---
 
@@ -4416,7 +4416,7 @@ public QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParameter
 
 <p>The parameters for Teradata.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#teradata_parameters QuicksightDataSource#teradata_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#teradata_parameters QuicksightDataSource#teradata_parameters}
 
 ---
 
@@ -4430,7 +4430,7 @@ public QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParameter
 
 <p>The parameters that are required to connect to a Trino data source.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#trino_parameters QuicksightDataSource#trino_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#trino_parameters QuicksightDataSource#trino_parameters}
 
 ---
 
@@ -4464,7 +4464,7 @@ public java.lang.String getDomain();
 
 <p>The OpenSearch domain.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#domain QuicksightDataSource#domain}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#domain QuicksightDataSource#domain}
 
 ---
 
@@ -4498,7 +4498,7 @@ public java.lang.String getDomain();
 
 <p>The OpenSearch domain.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#domain QuicksightDataSource#domain}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#domain QuicksightDataSource#domain}
 
 ---
 
@@ -4536,7 +4536,7 @@ public QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParameter
 
 <p>The parameters for an IAM Identity Center configuration.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#identity_center_configuration QuicksightDataSource#identity_center_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#identity_center_configuration QuicksightDataSource#identity_center_configuration}
 
 ---
 
@@ -4552,7 +4552,7 @@ public java.lang.String getRoleArn();
 
 For example, say an account administrator has turned off all Athena access with an account-wide role. The administrator can then use <code>RoleArn</code> to bypass the account-wide role and allow Athena access for the single Athena data source that is specified in the structure, even if the account-wide role forbidding Athena access is still active.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#role_arn QuicksightDataSource#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#role_arn QuicksightDataSource#role_arn}
 
 ---
 
@@ -4566,7 +4566,7 @@ public java.lang.String getWorkGroup();
 
 <p>The workgroup that Amazon Athena uses.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#work_group QuicksightDataSource#work_group}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#work_group QuicksightDataSource#work_group}
 
 ---
 
@@ -4600,7 +4600,7 @@ public java.lang.Boolean|IResolvable getEnableIdentityPropagation();
 
 <p>A Boolean option that controls whether Trusted Identity Propagation should be used.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#enable_identity_propagation QuicksightDataSource#enable_identity_propagation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#enable_identity_propagation QuicksightDataSource#enable_identity_propagation}
 
 ---
 
@@ -4638,7 +4638,7 @@ public java.lang.String getDatabase();
 
 <p>Database.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#database QuicksightDataSource#database}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#database QuicksightDataSource#database}
 
 ---
 
@@ -4652,7 +4652,7 @@ public java.lang.String getHost();
 
 <p>Host.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
 
 ---
 
@@ -4666,7 +4666,7 @@ public java.lang.Number getPort();
 
 <p>Port.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
 
 ---
 
@@ -4704,7 +4704,7 @@ public java.lang.String getDatabase();
 
 <p>The Amazon Aurora PostgreSQL database to connect to.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#database QuicksightDataSource#database}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#database QuicksightDataSource#database}
 
 ---
 
@@ -4718,7 +4718,7 @@ public java.lang.String getHost();
 
 <p>The Amazon Aurora PostgreSQL-Compatible host to connect to.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
 
 ---
 
@@ -4732,7 +4732,7 @@ public java.lang.Number getPort();
 
 <p>The port that Amazon Aurora PostgreSQL is listening on.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
 
 ---
 
@@ -4770,7 +4770,7 @@ public java.lang.String getHost();
 
 <p>The host name of the Databricks data source.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
 
 ---
 
@@ -4784,7 +4784,7 @@ public java.lang.Number getPort();
 
 <p>The port for the Databricks data source.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
 
 ---
 
@@ -4798,7 +4798,7 @@ public java.lang.String getSqlEndpointPath();
 
 <p>The HTTP path of the Databricks data source.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#sql_endpoint_path QuicksightDataSource#sql_endpoint_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#sql_endpoint_path QuicksightDataSource#sql_endpoint_path}
 
 ---
 
@@ -4836,7 +4836,7 @@ public java.lang.String getDatabase();
 
 <p>Database.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#database QuicksightDataSource#database}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#database QuicksightDataSource#database}
 
 ---
 
@@ -4850,7 +4850,7 @@ public java.lang.String getHost();
 
 <p>Host.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
 
 ---
 
@@ -4864,7 +4864,7 @@ public java.lang.Number getPort();
 
 <p>Port.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
 
 ---
 
@@ -4902,7 +4902,7 @@ public java.lang.String getDatabase();
 
 <p>Database.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#database QuicksightDataSource#database}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#database QuicksightDataSource#database}
 
 ---
 
@@ -4916,7 +4916,7 @@ public java.lang.String getHost();
 
 <p>Host.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
 
 ---
 
@@ -4930,7 +4930,7 @@ public java.lang.Number getPort();
 
 <p>Port.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
 
 ---
 
@@ -4956,7 +4956,7 @@ QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersOracle
 | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersOracleParameters.property.database">database</a></code> | <code>java.lang.String</code> | <p>The database.</p>. |
 | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersOracleParameters.property.host">host</a></code> | <code>java.lang.String</code> | <p>An Oracle host.</p>. |
 | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersOracleParameters.property.port">port</a></code> | <code>java.lang.Number</code> | <p>The port.</p>. |
-| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersOracleParameters.property.useServiceName">useServiceName</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#use_service_name QuicksightDataSource#use_service_name}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersOracleParameters.property.useServiceName">useServiceName</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#use_service_name QuicksightDataSource#use_service_name}. |
 
 ---
 
@@ -4970,7 +4970,7 @@ public java.lang.String getDatabase();
 
 <p>The database.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#database QuicksightDataSource#database}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#database QuicksightDataSource#database}
 
 ---
 
@@ -4984,7 +4984,7 @@ public java.lang.String getHost();
 
 <p>An Oracle host.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
 
 ---
 
@@ -4998,7 +4998,7 @@ public java.lang.Number getPort();
 
 <p>The port.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
 
 ---
 
@@ -5010,7 +5010,7 @@ public java.lang.Boolean|IResolvable getUseServiceName();
 
 - *Type:* java.lang.Boolean|io.cdktn.cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#use_service_name QuicksightDataSource#use_service_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#use_service_name QuicksightDataSource#use_service_name}.
 
 ---
 
@@ -5048,7 +5048,7 @@ public java.lang.String getDatabase();
 
 <p>Database.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#database QuicksightDataSource#database}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#database QuicksightDataSource#database}
 
 ---
 
@@ -5062,7 +5062,7 @@ public java.lang.String getHost();
 
 <p>Host.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
 
 ---
 
@@ -5076,7 +5076,7 @@ public java.lang.Number getPort();
 
 <p>Port.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
 
 ---
 
@@ -5114,7 +5114,7 @@ public java.lang.String getCatalog();
 
 <p>Catalog.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#catalog QuicksightDataSource#catalog}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#catalog QuicksightDataSource#catalog}
 
 ---
 
@@ -5128,7 +5128,7 @@ public java.lang.String getHost();
 
 <p>Host.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
 
 ---
 
@@ -5142,7 +5142,7 @@ public java.lang.Number getPort();
 
 <p>Port.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
 
 ---
 
@@ -5178,7 +5178,7 @@ public java.lang.String getDatabase();
 
 <p>Database.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#database QuicksightDataSource#database}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#database QuicksightDataSource#database}
 
 ---
 
@@ -5192,7 +5192,7 @@ public java.lang.String getInstanceId();
 
 <p>Instance ID.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#instance_id QuicksightDataSource#instance_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#instance_id QuicksightDataSource#instance_id}
 
 ---
 
@@ -5239,7 +5239,7 @@ public java.lang.String getClusterId();
 This field can be blank if the <code>Host</code> and <code>Port</code> are
 provided.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#cluster_id QuicksightDataSource#cluster_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#cluster_id QuicksightDataSource#cluster_id}
 
 ---
 
@@ -5253,7 +5253,7 @@ public java.lang.String getDatabase();
 
 <p>Database.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#database QuicksightDataSource#database}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#database QuicksightDataSource#database}
 
 ---
 
@@ -5267,7 +5267,7 @@ public java.lang.String getHost();
 
 <p>Host. This field can be blank if <code>ClusterId</code> is provided.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
 
 ---
 
@@ -5285,7 +5285,7 @@ For more information on the <code>redshift:GetClusterCredentials</code> API, see
 <code>GetClusterCredentials</code>
 </a>.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#iam_parameters QuicksightDataSource#iam_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#iam_parameters QuicksightDataSource#iam_parameters}
 
 ---
 
@@ -5299,7 +5299,7 @@ public QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParameter
 
 <p>The parameters for an IAM Identity Center configuration.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#identity_center_configuration QuicksightDataSource#identity_center_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#identity_center_configuration QuicksightDataSource#identity_center_configuration}
 
 ---
 
@@ -5313,7 +5313,7 @@ public java.lang.Number getPort();
 
 <p>Port. This field can be blank if the <code>ClusterId</code> is provided.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
 
 ---
 
@@ -5355,7 +5355,7 @@ public java.lang.Boolean|IResolvable getAutoCreateDatabaseUser();
 
 If your database doesn't have a <code>DatabaseUser</code>, set this parameter to <code>True</code>. If there is no <code>DatabaseUser</code>, Amazon QuickSight can't connect to your cluster. The <code>RoleArn</code> that you use for this operation must grant access to <code>redshift:CreateClusterUser</code> to successfully create the user.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#auto_create_database_user QuicksightDataSource#auto_create_database_user}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#auto_create_database_user QuicksightDataSource#auto_create_database_user}
 
 ---
 
@@ -5371,7 +5371,7 @@ public java.util.List<java.lang.String> getDatabaseGroups();
 
 These permissions are combined with the permissions granted to Amazon QuickSight by the <code>DatabaseUser</code>. If you choose to include this parameter, the <code>RoleArn</code> must grant access to <code>redshift:JoinGroup</code>.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#database_groups QuicksightDataSource#database_groups}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#database_groups QuicksightDataSource#database_groups}
 
 ---
 
@@ -5387,7 +5387,7 @@ public java.lang.String getDatabaseUser();
 
 If this user already exists in your database, Amazon QuickSight is granted the same permissions that the user has. If the user doesn't exist, set the value of <code>AutoCreateDatabaseUser</code> to <code>True</code> to create a new user with PUBLIC permissions.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#database_user QuicksightDataSource#database_user}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#database_user QuicksightDataSource#database_user}
 
 ---
 
@@ -5403,7 +5403,7 @@ public java.lang.String getRoleArn();
 
 The calling principal must have <code>iam:PassRole</code> access to pass the role to Amazon QuickSight. The role's trust policy must allow the Amazon QuickSight service principal to assume the role.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#role_arn QuicksightDataSource#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#role_arn QuicksightDataSource#role_arn}
 
 ---
 
@@ -5437,7 +5437,7 @@ public java.lang.Boolean|IResolvable getEnableIdentityPropagation();
 
 <p>A Boolean option that controls whether Trusted Identity Propagation should be used.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#enable_identity_propagation QuicksightDataSource#enable_identity_propagation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#enable_identity_propagation QuicksightDataSource#enable_identity_propagation}
 
 ---
 
@@ -5473,7 +5473,7 @@ public QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParameter
 
 <p>Amazon S3 manifest file location.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#manifest_file_location QuicksightDataSource#manifest_file_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#manifest_file_location QuicksightDataSource#manifest_file_location}
 
 ---
 
@@ -5489,7 +5489,7 @@ public java.lang.String getRoleArn();
 
 For example, say an account administrator has turned off all S3 access with an account-wide role. The administrator can then use <code>RoleArn</code> to bypass the account-wide role and allow S3 access for the single S3 data source that is specified in the structure, even if the account-wide role forbidding S3 access is still active.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#role_arn QuicksightDataSource#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#role_arn QuicksightDataSource#role_arn}
 
 ---
 
@@ -5525,7 +5525,7 @@ public java.lang.String getBucket();
 
 <p>Amazon S3 bucket.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#bucket QuicksightDataSource#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#bucket QuicksightDataSource#bucket}
 
 ---
 
@@ -5539,7 +5539,7 @@ public java.lang.String getKey();
 
 <p>Amazon S3 key that identifies an object.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#key QuicksightDataSource#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#key QuicksightDataSource#key}
 
 ---
 
@@ -5559,7 +5559,7 @@ QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersS3Tabl
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersS3TablesParameters.property.tableBucketArn">tableBucketArn</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#table_bucket_arn QuicksightDataSource#table_bucket_arn}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersS3TablesParameters.property.tableBucketArn">tableBucketArn</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#table_bucket_arn QuicksightDataSource#table_bucket_arn}. |
 
 ---
 
@@ -5571,7 +5571,7 @@ public java.lang.String getTableBucketArn();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#table_bucket_arn QuicksightDataSource#table_bucket_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#table_bucket_arn QuicksightDataSource#table_bucket_arn}.
 
 ---
 
@@ -5596,11 +5596,11 @@ QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersSnowfl
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersSnowflakeParameters.property.authenticationType">authenticationType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#authentication_type QuicksightDataSource#authentication_type}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersSnowflakeParameters.property.authenticationType">authenticationType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#authentication_type QuicksightDataSource#authentication_type}. |
 | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersSnowflakeParameters.property.database">database</a></code> | <code>java.lang.String</code> | <p>Database.</p>. |
-| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersSnowflakeParameters.property.databaseAccessControlRole">databaseAccessControlRole</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#database_access_control_role QuicksightDataSource#database_access_control_role}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersSnowflakeParameters.property.databaseAccessControlRole">databaseAccessControlRole</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#database_access_control_role QuicksightDataSource#database_access_control_role}. |
 | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersSnowflakeParameters.property.host">host</a></code> | <code>java.lang.String</code> | <p>Host.</p>. |
-| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersSnowflakeParameters.property.oAuthParameters">oAuthParameters</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersSnowflakeParametersOAuthParameters">QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersSnowflakeParametersOAuthParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#o_auth_parameters QuicksightDataSource#o_auth_parameters}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersSnowflakeParameters.property.oAuthParameters">oAuthParameters</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersSnowflakeParametersOAuthParameters">QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersSnowflakeParametersOAuthParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#o_auth_parameters QuicksightDataSource#o_auth_parameters}. |
 | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersSnowflakeParameters.property.warehouse">warehouse</a></code> | <code>java.lang.String</code> | <p>Warehouse.</p>. |
 
 ---
@@ -5613,7 +5613,7 @@ public java.lang.String getAuthenticationType();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#authentication_type QuicksightDataSource#authentication_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#authentication_type QuicksightDataSource#authentication_type}.
 
 ---
 
@@ -5627,7 +5627,7 @@ public java.lang.String getDatabase();
 
 <p>Database.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#database QuicksightDataSource#database}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#database QuicksightDataSource#database}
 
 ---
 
@@ -5639,7 +5639,7 @@ public java.lang.String getDatabaseAccessControlRole();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#database_access_control_role QuicksightDataSource#database_access_control_role}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#database_access_control_role QuicksightDataSource#database_access_control_role}.
 
 ---
 
@@ -5653,7 +5653,7 @@ public java.lang.String getHost();
 
 <p>Host.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
 
 ---
 
@@ -5665,7 +5665,7 @@ public QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParameter
 
 - *Type:* <a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersSnowflakeParametersOAuthParameters">QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersSnowflakeParametersOAuthParameters</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#o_auth_parameters QuicksightDataSource#o_auth_parameters}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#o_auth_parameters QuicksightDataSource#o_auth_parameters}.
 
 ---
 
@@ -5679,7 +5679,7 @@ public java.lang.String getWarehouse();
 
 <p>Warehouse.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#warehouse QuicksightDataSource#warehouse}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#warehouse QuicksightDataSource#warehouse}
 
 ---
 
@@ -5702,10 +5702,10 @@ QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersSnowfl
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersSnowflakeParametersOAuthParameters.property.identityProviderResourceUri">identityProviderResourceUri</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#identity_provider_resource_uri QuicksightDataSource#identity_provider_resource_uri}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersSnowflakeParametersOAuthParameters.property.identityProviderResourceUri">identityProviderResourceUri</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#identity_provider_resource_uri QuicksightDataSource#identity_provider_resource_uri}. |
 | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersSnowflakeParametersOAuthParameters.property.identityProviderVpcConnectionProperties">identityProviderVpcConnectionProperties</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersSnowflakeParametersOAuthParametersIdentityProviderVpcConnectionProperties">QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersSnowflakeParametersOAuthParametersIdentityProviderVpcConnectionProperties</a></code> | <p>VPC connection properties.</p>. |
-| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersSnowflakeParametersOAuthParameters.property.oAuthScope">oAuthScope</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#o_auth_scope QuicksightDataSource#o_auth_scope}. |
-| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersSnowflakeParametersOAuthParameters.property.tokenProviderUrl">tokenProviderUrl</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#token_provider_url QuicksightDataSource#token_provider_url}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersSnowflakeParametersOAuthParameters.property.oAuthScope">oAuthScope</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#o_auth_scope QuicksightDataSource#o_auth_scope}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersSnowflakeParametersOAuthParameters.property.tokenProviderUrl">tokenProviderUrl</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#token_provider_url QuicksightDataSource#token_provider_url}. |
 
 ---
 
@@ -5717,7 +5717,7 @@ public java.lang.String getIdentityProviderResourceUri();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#identity_provider_resource_uri QuicksightDataSource#identity_provider_resource_uri}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#identity_provider_resource_uri QuicksightDataSource#identity_provider_resource_uri}.
 
 ---
 
@@ -5731,7 +5731,7 @@ public QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParameter
 
 <p>VPC connection properties.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#identity_provider_vpc_connection_properties QuicksightDataSource#identity_provider_vpc_connection_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#identity_provider_vpc_connection_properties QuicksightDataSource#identity_provider_vpc_connection_properties}
 
 ---
 
@@ -5743,7 +5743,7 @@ public java.lang.String getOAuthScope();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#o_auth_scope QuicksightDataSource#o_auth_scope}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#o_auth_scope QuicksightDataSource#o_auth_scope}.
 
 ---
 
@@ -5755,7 +5755,7 @@ public java.lang.String getTokenProviderUrl();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#token_provider_url QuicksightDataSource#token_provider_url}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#token_provider_url QuicksightDataSource#token_provider_url}.
 
 ---
 
@@ -5789,7 +5789,7 @@ public java.lang.String getVpcConnectionArn();
 
 <p>The Amazon Resource Name (ARN) for the VPC connection.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#vpc_connection_arn QuicksightDataSource#vpc_connection_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#vpc_connection_arn QuicksightDataSource#vpc_connection_arn}
 
 ---
 
@@ -5825,7 +5825,7 @@ public java.lang.String getHost();
 
 <p>Host.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
 
 ---
 
@@ -5839,7 +5839,7 @@ public java.lang.Number getPort();
 
 <p>Port.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
 
 ---
 
@@ -5877,7 +5877,7 @@ public java.lang.String getDatabase();
 
 <p>Database.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#database QuicksightDataSource#database}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#database QuicksightDataSource#database}
 
 ---
 
@@ -5891,7 +5891,7 @@ public java.lang.String getHost();
 
 <p>Host.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
 
 ---
 
@@ -5905,7 +5905,7 @@ public java.lang.Number getPort();
 
 <p>Port.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
 
 ---
 
@@ -5931,13 +5931,13 @@ QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersStarbu
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersStarburstParameters.property.authenticationType">authenticationType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#authentication_type QuicksightDataSource#authentication_type}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersStarburstParameters.property.authenticationType">authenticationType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#authentication_type QuicksightDataSource#authentication_type}. |
 | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersStarburstParameters.property.catalog">catalog</a></code> | <code>java.lang.String</code> | <p>The catalog name for the Starburst data source.</p>. |
-| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersStarburstParameters.property.databaseAccessControlRole">databaseAccessControlRole</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#database_access_control_role QuicksightDataSource#database_access_control_role}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersStarburstParameters.property.databaseAccessControlRole">databaseAccessControlRole</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#database_access_control_role QuicksightDataSource#database_access_control_role}. |
 | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersStarburstParameters.property.host">host</a></code> | <code>java.lang.String</code> | <p>The host name of the Starburst data source.</p>. |
-| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersStarburstParameters.property.oAuthParameters">oAuthParameters</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersStarburstParametersOAuthParameters">QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersStarburstParametersOAuthParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#o_auth_parameters QuicksightDataSource#o_auth_parameters}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersStarburstParameters.property.oAuthParameters">oAuthParameters</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersStarburstParametersOAuthParameters">QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersStarburstParametersOAuthParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#o_auth_parameters QuicksightDataSource#o_auth_parameters}. |
 | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersStarburstParameters.property.port">port</a></code> | <code>java.lang.Number</code> | <p>The port for the Starburst data source.</p>. |
-| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersStarburstParameters.property.productType">productType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#product_type QuicksightDataSource#product_type}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersStarburstParameters.property.productType">productType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#product_type QuicksightDataSource#product_type}. |
 
 ---
 
@@ -5949,7 +5949,7 @@ public java.lang.String getAuthenticationType();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#authentication_type QuicksightDataSource#authentication_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#authentication_type QuicksightDataSource#authentication_type}.
 
 ---
 
@@ -5963,7 +5963,7 @@ public java.lang.String getCatalog();
 
 <p>The catalog name for the Starburst data source.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#catalog QuicksightDataSource#catalog}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#catalog QuicksightDataSource#catalog}
 
 ---
 
@@ -5975,7 +5975,7 @@ public java.lang.String getDatabaseAccessControlRole();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#database_access_control_role QuicksightDataSource#database_access_control_role}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#database_access_control_role QuicksightDataSource#database_access_control_role}.
 
 ---
 
@@ -5989,7 +5989,7 @@ public java.lang.String getHost();
 
 <p>The host name of the Starburst data source.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
 
 ---
 
@@ -6001,7 +6001,7 @@ public QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParameter
 
 - *Type:* <a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersStarburstParametersOAuthParameters">QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersStarburstParametersOAuthParameters</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#o_auth_parameters QuicksightDataSource#o_auth_parameters}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#o_auth_parameters QuicksightDataSource#o_auth_parameters}.
 
 ---
 
@@ -6015,7 +6015,7 @@ public java.lang.Number getPort();
 
 <p>The port for the Starburst data source.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
 
 ---
 
@@ -6027,7 +6027,7 @@ public java.lang.String getProductType();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#product_type QuicksightDataSource#product_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#product_type QuicksightDataSource#product_type}.
 
 ---
 
@@ -6050,10 +6050,10 @@ QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersStarbu
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersStarburstParametersOAuthParameters.property.identityProviderResourceUri">identityProviderResourceUri</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#identity_provider_resource_uri QuicksightDataSource#identity_provider_resource_uri}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersStarburstParametersOAuthParameters.property.identityProviderResourceUri">identityProviderResourceUri</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#identity_provider_resource_uri QuicksightDataSource#identity_provider_resource_uri}. |
 | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersStarburstParametersOAuthParameters.property.identityProviderVpcConnectionProperties">identityProviderVpcConnectionProperties</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersStarburstParametersOAuthParametersIdentityProviderVpcConnectionProperties">QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersStarburstParametersOAuthParametersIdentityProviderVpcConnectionProperties</a></code> | <p>VPC connection properties.</p>. |
-| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersStarburstParametersOAuthParameters.property.oAuthScope">oAuthScope</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#o_auth_scope QuicksightDataSource#o_auth_scope}. |
-| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersStarburstParametersOAuthParameters.property.tokenProviderUrl">tokenProviderUrl</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#token_provider_url QuicksightDataSource#token_provider_url}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersStarburstParametersOAuthParameters.property.oAuthScope">oAuthScope</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#o_auth_scope QuicksightDataSource#o_auth_scope}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersStarburstParametersOAuthParameters.property.tokenProviderUrl">tokenProviderUrl</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#token_provider_url QuicksightDataSource#token_provider_url}. |
 
 ---
 
@@ -6065,7 +6065,7 @@ public java.lang.String getIdentityProviderResourceUri();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#identity_provider_resource_uri QuicksightDataSource#identity_provider_resource_uri}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#identity_provider_resource_uri QuicksightDataSource#identity_provider_resource_uri}.
 
 ---
 
@@ -6079,7 +6079,7 @@ public QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParameter
 
 <p>VPC connection properties.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#identity_provider_vpc_connection_properties QuicksightDataSource#identity_provider_vpc_connection_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#identity_provider_vpc_connection_properties QuicksightDataSource#identity_provider_vpc_connection_properties}
 
 ---
 
@@ -6091,7 +6091,7 @@ public java.lang.String getOAuthScope();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#o_auth_scope QuicksightDataSource#o_auth_scope}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#o_auth_scope QuicksightDataSource#o_auth_scope}.
 
 ---
 
@@ -6103,7 +6103,7 @@ public java.lang.String getTokenProviderUrl();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#token_provider_url QuicksightDataSource#token_provider_url}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#token_provider_url QuicksightDataSource#token_provider_url}.
 
 ---
 
@@ -6137,7 +6137,7 @@ public java.lang.String getVpcConnectionArn();
 
 <p>The Amazon Resource Name (ARN) for the VPC connection.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#vpc_connection_arn QuicksightDataSource#vpc_connection_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#vpc_connection_arn QuicksightDataSource#vpc_connection_arn}
 
 ---
 
@@ -6175,7 +6175,7 @@ public java.lang.String getDatabase();
 
 <p>Database.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#database QuicksightDataSource#database}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#database QuicksightDataSource#database}
 
 ---
 
@@ -6189,7 +6189,7 @@ public java.lang.String getHost();
 
 <p>Host.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
 
 ---
 
@@ -6203,7 +6203,7 @@ public java.lang.Number getPort();
 
 <p>Port.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
 
 ---
 
@@ -6241,7 +6241,7 @@ public java.lang.String getCatalog();
 
 <p>The catalog name for the Trino data source.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#catalog QuicksightDataSource#catalog}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#catalog QuicksightDataSource#catalog}
 
 ---
 
@@ -6255,7 +6255,7 @@ public java.lang.String getHost();
 
 <p>The host name of the Trino data source.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
 
 ---
 
@@ -6269,7 +6269,7 @@ public java.lang.Number getPort();
 
 <p>The port for the Trino data source.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
 
 ---
 
@@ -6291,9 +6291,9 @@ QuicksightDataSourceCredentialsKeyPairCredentials.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceCredentialsKeyPairCredentials.property.keyPairUsername">keyPairUsername</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#key_pair_username QuicksightDataSource#key_pair_username}. |
-| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceCredentialsKeyPairCredentials.property.privateKey">privateKey</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#private_key QuicksightDataSource#private_key}. |
-| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceCredentialsKeyPairCredentials.property.privateKeyPassphrase">privateKeyPassphrase</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#private_key_passphrase QuicksightDataSource#private_key_passphrase}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceCredentialsKeyPairCredentials.property.keyPairUsername">keyPairUsername</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#key_pair_username QuicksightDataSource#key_pair_username}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceCredentialsKeyPairCredentials.property.privateKey">privateKey</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#private_key QuicksightDataSource#private_key}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceCredentialsKeyPairCredentials.property.privateKeyPassphrase">privateKeyPassphrase</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#private_key_passphrase QuicksightDataSource#private_key_passphrase}. |
 
 ---
 
@@ -6305,7 +6305,7 @@ public java.lang.String getKeyPairUsername();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#key_pair_username QuicksightDataSource#key_pair_username}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#key_pair_username QuicksightDataSource#key_pair_username}.
 
 ---
 
@@ -6317,7 +6317,7 @@ public java.lang.String getPrivateKey();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#private_key QuicksightDataSource#private_key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#private_key QuicksightDataSource#private_key}.
 
 ---
 
@@ -6329,7 +6329,7 @@ public java.lang.String getPrivateKeyPassphrase();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#private_key_passphrase QuicksightDataSource#private_key_passphrase}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#private_key_passphrase QuicksightDataSource#private_key_passphrase}.
 
 ---
 
@@ -6383,7 +6383,7 @@ QuicksightDataSourceDataSourceParameters.builder()
 | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceDataSourceParameters.property.rdsParameters">rdsParameters</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceDataSourceParametersRdsParameters">QuicksightDataSourceDataSourceParametersRdsParameters</a></code> | <p>The parameters for Amazon RDS.</p>. |
 | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceDataSourceParameters.property.redshiftParameters">redshiftParameters</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceDataSourceParametersRedshiftParameters">QuicksightDataSourceDataSourceParametersRedshiftParameters</a></code> | <p>The parameters for Amazon Redshift. |
 | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceDataSourceParameters.property.s3Parameters">s3Parameters</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceDataSourceParametersS3Parameters">QuicksightDataSourceDataSourceParametersS3Parameters</a></code> | <p>The parameters for S3.</p>. |
-| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceDataSourceParameters.property.s3TablesParameters">s3TablesParameters</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceDataSourceParametersS3TablesParameters">QuicksightDataSourceDataSourceParametersS3TablesParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#s3_tables_parameters QuicksightDataSource#s3_tables_parameters}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceDataSourceParameters.property.s3TablesParameters">s3TablesParameters</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceDataSourceParametersS3TablesParameters">QuicksightDataSourceDataSourceParametersS3TablesParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#s3_tables_parameters QuicksightDataSource#s3_tables_parameters}. |
 | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceDataSourceParameters.property.snowflakeParameters">snowflakeParameters</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceDataSourceParametersSnowflakeParameters">QuicksightDataSourceDataSourceParametersSnowflakeParameters</a></code> | <p>The parameters for Snowflake.</p>. |
 | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceDataSourceParameters.property.sparkParameters">sparkParameters</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceDataSourceParametersSparkParameters">QuicksightDataSourceDataSourceParametersSparkParameters</a></code> | <p>The parameters for Spark.</p>. |
 | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceDataSourceParameters.property.sqlServerParameters">sqlServerParameters</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceDataSourceParametersSqlServerParameters">QuicksightDataSourceDataSourceParametersSqlServerParameters</a></code> | <p>The parameters for SQL Server.</p>. |
@@ -6403,7 +6403,7 @@ public QuicksightDataSourceDataSourceParametersAmazonElasticsearchParameters get
 
 <p>The parameters for OpenSearch.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#amazon_elasticsearch_parameters QuicksightDataSource#amazon_elasticsearch_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#amazon_elasticsearch_parameters QuicksightDataSource#amazon_elasticsearch_parameters}
 
 ---
 
@@ -6417,7 +6417,7 @@ public QuicksightDataSourceDataSourceParametersAmazonOpenSearchParameters getAma
 
 <p>The parameters for OpenSearch.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#amazon_open_search_parameters QuicksightDataSource#amazon_open_search_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#amazon_open_search_parameters QuicksightDataSource#amazon_open_search_parameters}
 
 ---
 
@@ -6431,7 +6431,7 @@ public QuicksightDataSourceDataSourceParametersAthenaParameters getAthenaParamet
 
 <p>Parameters for Amazon Athena.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#athena_parameters QuicksightDataSource#athena_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#athena_parameters QuicksightDataSource#athena_parameters}
 
 ---
 
@@ -6445,7 +6445,7 @@ public QuicksightDataSourceDataSourceParametersAuroraParameters getAuroraParamet
 
 <p>Parameters for Amazon Aurora.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#aurora_parameters QuicksightDataSource#aurora_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#aurora_parameters QuicksightDataSource#aurora_parameters}
 
 ---
 
@@ -6459,7 +6459,7 @@ public QuicksightDataSourceDataSourceParametersAuroraPostgreSqlParameters getAur
 
 <p>Parameters for Amazon Aurora PostgreSQL-Compatible Edition.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#aurora_postgre_sql_parameters QuicksightDataSource#aurora_postgre_sql_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#aurora_postgre_sql_parameters QuicksightDataSource#aurora_postgre_sql_parameters}
 
 ---
 
@@ -6473,7 +6473,7 @@ public QuicksightDataSourceDataSourceParametersDatabricksParameters getDatabrick
 
 <p>The parameters that are required to connect to a Databricks data source.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#databricks_parameters QuicksightDataSource#databricks_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#databricks_parameters QuicksightDataSource#databricks_parameters}
 
 ---
 
@@ -6487,7 +6487,7 @@ public QuicksightDataSourceDataSourceParametersMariaDbParameters getMariaDbParam
 
 <p>The parameters for MariaDB.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#maria_db_parameters QuicksightDataSource#maria_db_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#maria_db_parameters QuicksightDataSource#maria_db_parameters}
 
 ---
 
@@ -6501,7 +6501,7 @@ public QuicksightDataSourceDataSourceParametersMySqlParameters getMySqlParameter
 
 <p>The parameters for MySQL.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#my_sql_parameters QuicksightDataSource#my_sql_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#my_sql_parameters QuicksightDataSource#my_sql_parameters}
 
 ---
 
@@ -6515,7 +6515,7 @@ public QuicksightDataSourceDataSourceParametersOracleParameters getOracleParamet
 
 <p>The parameters for Oracle.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#oracle_parameters QuicksightDataSource#oracle_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#oracle_parameters QuicksightDataSource#oracle_parameters}
 
 ---
 
@@ -6529,7 +6529,7 @@ public QuicksightDataSourceDataSourceParametersPostgreSqlParameters getPostgreSq
 
 <p>The parameters for PostgreSQL.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#postgre_sql_parameters QuicksightDataSource#postgre_sql_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#postgre_sql_parameters QuicksightDataSource#postgre_sql_parameters}
 
 ---
 
@@ -6543,7 +6543,7 @@ public QuicksightDataSourceDataSourceParametersPrestoParameters getPrestoParamet
 
 <p>The parameters for Presto.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#presto_parameters QuicksightDataSource#presto_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#presto_parameters QuicksightDataSource#presto_parameters}
 
 ---
 
@@ -6557,7 +6557,7 @@ public QuicksightDataSourceDataSourceParametersRdsParameters getRdsParameters();
 
 <p>The parameters for Amazon RDS.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#rds_parameters QuicksightDataSource#rds_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#rds_parameters QuicksightDataSource#rds_parameters}
 
 ---
 
@@ -6574,7 +6574,7 @@ public QuicksightDataSourceDataSourceParametersRedshiftParameters getRedshiftPar
 The <code>ClusterId</code> field can be blank if
 <code>Host</code> and <code>Port</code> are both set. The <code>Host</code> and <code>Port</code> fields can be blank if the <code>ClusterId</code> field is set.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#redshift_parameters QuicksightDataSource#redshift_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#redshift_parameters QuicksightDataSource#redshift_parameters}
 
 ---
 
@@ -6588,7 +6588,7 @@ public QuicksightDataSourceDataSourceParametersS3Parameters getS3Parameters();
 
 <p>The parameters for S3.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#s3_parameters QuicksightDataSource#s3_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#s3_parameters QuicksightDataSource#s3_parameters}
 
 ---
 
@@ -6600,7 +6600,7 @@ public QuicksightDataSourceDataSourceParametersS3TablesParameters getS3TablesPar
 
 - *Type:* <a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceDataSourceParametersS3TablesParameters">QuicksightDataSourceDataSourceParametersS3TablesParameters</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#s3_tables_parameters QuicksightDataSource#s3_tables_parameters}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#s3_tables_parameters QuicksightDataSource#s3_tables_parameters}.
 
 ---
 
@@ -6614,7 +6614,7 @@ public QuicksightDataSourceDataSourceParametersSnowflakeParameters getSnowflakeP
 
 <p>The parameters for Snowflake.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#snowflake_parameters QuicksightDataSource#snowflake_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#snowflake_parameters QuicksightDataSource#snowflake_parameters}
 
 ---
 
@@ -6628,7 +6628,7 @@ public QuicksightDataSourceDataSourceParametersSparkParameters getSparkParameter
 
 <p>The parameters for Spark.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#spark_parameters QuicksightDataSource#spark_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#spark_parameters QuicksightDataSource#spark_parameters}
 
 ---
 
@@ -6642,7 +6642,7 @@ public QuicksightDataSourceDataSourceParametersSqlServerParameters getSqlServerP
 
 <p>The parameters for SQL Server.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#sql_server_parameters QuicksightDataSource#sql_server_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#sql_server_parameters QuicksightDataSource#sql_server_parameters}
 
 ---
 
@@ -6656,7 +6656,7 @@ public QuicksightDataSourceDataSourceParametersStarburstParameters getStarburstP
 
 <p>The parameters that are required to connect to a Starburst data source.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#starburst_parameters QuicksightDataSource#starburst_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#starburst_parameters QuicksightDataSource#starburst_parameters}
 
 ---
 
@@ -6670,7 +6670,7 @@ public QuicksightDataSourceDataSourceParametersTeradataParameters getTeradataPar
 
 <p>The parameters for Teradata.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#teradata_parameters QuicksightDataSource#teradata_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#teradata_parameters QuicksightDataSource#teradata_parameters}
 
 ---
 
@@ -6684,7 +6684,7 @@ public QuicksightDataSourceDataSourceParametersTrinoParameters getTrinoParameter
 
 <p>The parameters that are required to connect to a Trino data source.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#trino_parameters QuicksightDataSource#trino_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#trino_parameters QuicksightDataSource#trino_parameters}
 
 ---
 
@@ -6718,7 +6718,7 @@ public java.lang.String getDomain();
 
 <p>The OpenSearch domain.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#domain QuicksightDataSource#domain}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#domain QuicksightDataSource#domain}
 
 ---
 
@@ -6752,7 +6752,7 @@ public java.lang.String getDomain();
 
 <p>The OpenSearch domain.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#domain QuicksightDataSource#domain}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#domain QuicksightDataSource#domain}
 
 ---
 
@@ -6790,7 +6790,7 @@ public QuicksightDataSourceDataSourceParametersAthenaParametersIdentityCenterCon
 
 <p>The parameters for an IAM Identity Center configuration.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#identity_center_configuration QuicksightDataSource#identity_center_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#identity_center_configuration QuicksightDataSource#identity_center_configuration}
 
 ---
 
@@ -6806,7 +6806,7 @@ public java.lang.String getRoleArn();
 
 For example, say an account administrator has turned off all Athena access with an account-wide role. The administrator can then use <code>RoleArn</code> to bypass the account-wide role and allow Athena access for the single Athena data source that is specified in the structure, even if the account-wide role forbidding Athena access is still active.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#role_arn QuicksightDataSource#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#role_arn QuicksightDataSource#role_arn}
 
 ---
 
@@ -6820,7 +6820,7 @@ public java.lang.String getWorkGroup();
 
 <p>The workgroup that Amazon Athena uses.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#work_group QuicksightDataSource#work_group}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#work_group QuicksightDataSource#work_group}
 
 ---
 
@@ -6854,7 +6854,7 @@ public java.lang.Boolean|IResolvable getEnableIdentityPropagation();
 
 <p>A Boolean option that controls whether Trusted Identity Propagation should be used.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#enable_identity_propagation QuicksightDataSource#enable_identity_propagation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#enable_identity_propagation QuicksightDataSource#enable_identity_propagation}
 
 ---
 
@@ -6892,7 +6892,7 @@ public java.lang.String getDatabase();
 
 <p>Database.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#database QuicksightDataSource#database}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#database QuicksightDataSource#database}
 
 ---
 
@@ -6906,7 +6906,7 @@ public java.lang.String getHost();
 
 <p>Host.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
 
 ---
 
@@ -6920,7 +6920,7 @@ public java.lang.Number getPort();
 
 <p>Port.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
 
 ---
 
@@ -6958,7 +6958,7 @@ public java.lang.String getDatabase();
 
 <p>The Amazon Aurora PostgreSQL database to connect to.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#database QuicksightDataSource#database}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#database QuicksightDataSource#database}
 
 ---
 
@@ -6972,7 +6972,7 @@ public java.lang.String getHost();
 
 <p>The Amazon Aurora PostgreSQL-Compatible host to connect to.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
 
 ---
 
@@ -6986,7 +6986,7 @@ public java.lang.Number getPort();
 
 <p>The port that Amazon Aurora PostgreSQL is listening on.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
 
 ---
 
@@ -7024,7 +7024,7 @@ public java.lang.String getHost();
 
 <p>The host name of the Databricks data source.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
 
 ---
 
@@ -7038,7 +7038,7 @@ public java.lang.Number getPort();
 
 <p>The port for the Databricks data source.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
 
 ---
 
@@ -7052,7 +7052,7 @@ public java.lang.String getSqlEndpointPath();
 
 <p>The HTTP path of the Databricks data source.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#sql_endpoint_path QuicksightDataSource#sql_endpoint_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#sql_endpoint_path QuicksightDataSource#sql_endpoint_path}
 
 ---
 
@@ -7090,7 +7090,7 @@ public java.lang.String getDatabase();
 
 <p>Database.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#database QuicksightDataSource#database}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#database QuicksightDataSource#database}
 
 ---
 
@@ -7104,7 +7104,7 @@ public java.lang.String getHost();
 
 <p>Host.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
 
 ---
 
@@ -7118,7 +7118,7 @@ public java.lang.Number getPort();
 
 <p>Port.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
 
 ---
 
@@ -7156,7 +7156,7 @@ public java.lang.String getDatabase();
 
 <p>Database.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#database QuicksightDataSource#database}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#database QuicksightDataSource#database}
 
 ---
 
@@ -7170,7 +7170,7 @@ public java.lang.String getHost();
 
 <p>Host.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
 
 ---
 
@@ -7184,7 +7184,7 @@ public java.lang.Number getPort();
 
 <p>Port.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
 
 ---
 
@@ -7210,7 +7210,7 @@ QuicksightDataSourceDataSourceParametersOracleParameters.builder()
 | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceDataSourceParametersOracleParameters.property.database">database</a></code> | <code>java.lang.String</code> | <p>The database.</p>. |
 | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceDataSourceParametersOracleParameters.property.host">host</a></code> | <code>java.lang.String</code> | <p>An Oracle host.</p>. |
 | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceDataSourceParametersOracleParameters.property.port">port</a></code> | <code>java.lang.Number</code> | <p>The port.</p>. |
-| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceDataSourceParametersOracleParameters.property.useServiceName">useServiceName</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#use_service_name QuicksightDataSource#use_service_name}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceDataSourceParametersOracleParameters.property.useServiceName">useServiceName</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#use_service_name QuicksightDataSource#use_service_name}. |
 
 ---
 
@@ -7224,7 +7224,7 @@ public java.lang.String getDatabase();
 
 <p>The database.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#database QuicksightDataSource#database}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#database QuicksightDataSource#database}
 
 ---
 
@@ -7238,7 +7238,7 @@ public java.lang.String getHost();
 
 <p>An Oracle host.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
 
 ---
 
@@ -7252,7 +7252,7 @@ public java.lang.Number getPort();
 
 <p>The port.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
 
 ---
 
@@ -7264,7 +7264,7 @@ public java.lang.Boolean|IResolvable getUseServiceName();
 
 - *Type:* java.lang.Boolean|io.cdktn.cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#use_service_name QuicksightDataSource#use_service_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#use_service_name QuicksightDataSource#use_service_name}.
 
 ---
 
@@ -7302,7 +7302,7 @@ public java.lang.String getDatabase();
 
 <p>Database.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#database QuicksightDataSource#database}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#database QuicksightDataSource#database}
 
 ---
 
@@ -7316,7 +7316,7 @@ public java.lang.String getHost();
 
 <p>Host.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
 
 ---
 
@@ -7330,7 +7330,7 @@ public java.lang.Number getPort();
 
 <p>Port.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
 
 ---
 
@@ -7368,7 +7368,7 @@ public java.lang.String getCatalog();
 
 <p>Catalog.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#catalog QuicksightDataSource#catalog}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#catalog QuicksightDataSource#catalog}
 
 ---
 
@@ -7382,7 +7382,7 @@ public java.lang.String getHost();
 
 <p>Host.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
 
 ---
 
@@ -7396,7 +7396,7 @@ public java.lang.Number getPort();
 
 <p>Port.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
 
 ---
 
@@ -7432,7 +7432,7 @@ public java.lang.String getDatabase();
 
 <p>Database.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#database QuicksightDataSource#database}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#database QuicksightDataSource#database}
 
 ---
 
@@ -7446,7 +7446,7 @@ public java.lang.String getInstanceId();
 
 <p>Instance ID.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#instance_id QuicksightDataSource#instance_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#instance_id QuicksightDataSource#instance_id}
 
 ---
 
@@ -7493,7 +7493,7 @@ public java.lang.String getClusterId();
 This field can be blank if the <code>Host</code> and <code>Port</code> are
 provided.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#cluster_id QuicksightDataSource#cluster_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#cluster_id QuicksightDataSource#cluster_id}
 
 ---
 
@@ -7507,7 +7507,7 @@ public java.lang.String getDatabase();
 
 <p>Database.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#database QuicksightDataSource#database}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#database QuicksightDataSource#database}
 
 ---
 
@@ -7521,7 +7521,7 @@ public java.lang.String getHost();
 
 <p>Host. This field can be blank if <code>ClusterId</code> is provided.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
 
 ---
 
@@ -7539,7 +7539,7 @@ For more information on the <code>redshift:GetClusterCredentials</code> API, see
 <code>GetClusterCredentials</code>
 </a>.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#iam_parameters QuicksightDataSource#iam_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#iam_parameters QuicksightDataSource#iam_parameters}
 
 ---
 
@@ -7553,7 +7553,7 @@ public QuicksightDataSourceDataSourceParametersRedshiftParametersIdentityCenterC
 
 <p>The parameters for an IAM Identity Center configuration.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#identity_center_configuration QuicksightDataSource#identity_center_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#identity_center_configuration QuicksightDataSource#identity_center_configuration}
 
 ---
 
@@ -7567,7 +7567,7 @@ public java.lang.Number getPort();
 
 <p>Port. This field can be blank if the <code>ClusterId</code> is provided.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
 
 ---
 
@@ -7609,7 +7609,7 @@ public java.lang.Boolean|IResolvable getAutoCreateDatabaseUser();
 
 If your database doesn't have a <code>DatabaseUser</code>, set this parameter to <code>True</code>. If there is no <code>DatabaseUser</code>, Amazon QuickSight can't connect to your cluster. The <code>RoleArn</code> that you use for this operation must grant access to <code>redshift:CreateClusterUser</code> to successfully create the user.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#auto_create_database_user QuicksightDataSource#auto_create_database_user}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#auto_create_database_user QuicksightDataSource#auto_create_database_user}
 
 ---
 
@@ -7625,7 +7625,7 @@ public java.util.List<java.lang.String> getDatabaseGroups();
 
 These permissions are combined with the permissions granted to Amazon QuickSight by the <code>DatabaseUser</code>. If you choose to include this parameter, the <code>RoleArn</code> must grant access to <code>redshift:JoinGroup</code>.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#database_groups QuicksightDataSource#database_groups}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#database_groups QuicksightDataSource#database_groups}
 
 ---
 
@@ -7641,7 +7641,7 @@ public java.lang.String getDatabaseUser();
 
 If this user already exists in your database, Amazon QuickSight is granted the same permissions that the user has. If the user doesn't exist, set the value of <code>AutoCreateDatabaseUser</code> to <code>True</code> to create a new user with PUBLIC permissions.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#database_user QuicksightDataSource#database_user}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#database_user QuicksightDataSource#database_user}
 
 ---
 
@@ -7657,7 +7657,7 @@ public java.lang.String getRoleArn();
 
 The calling principal must have <code>iam:PassRole</code> access to pass the role to Amazon QuickSight. The role's trust policy must allow the Amazon QuickSight service principal to assume the role.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#role_arn QuicksightDataSource#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#role_arn QuicksightDataSource#role_arn}
 
 ---
 
@@ -7691,7 +7691,7 @@ public java.lang.Boolean|IResolvable getEnableIdentityPropagation();
 
 <p>A Boolean option that controls whether Trusted Identity Propagation should be used.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#enable_identity_propagation QuicksightDataSource#enable_identity_propagation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#enable_identity_propagation QuicksightDataSource#enable_identity_propagation}
 
 ---
 
@@ -7727,7 +7727,7 @@ public QuicksightDataSourceDataSourceParametersS3ParametersManifestFileLocation 
 
 <p>Amazon S3 manifest file location.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#manifest_file_location QuicksightDataSource#manifest_file_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#manifest_file_location QuicksightDataSource#manifest_file_location}
 
 ---
 
@@ -7743,7 +7743,7 @@ public java.lang.String getRoleArn();
 
 For example, say an account administrator has turned off all S3 access with an account-wide role. The administrator can then use <code>RoleArn</code> to bypass the account-wide role and allow S3 access for the single S3 data source that is specified in the structure, even if the account-wide role forbidding S3 access is still active.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#role_arn QuicksightDataSource#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#role_arn QuicksightDataSource#role_arn}
 
 ---
 
@@ -7779,7 +7779,7 @@ public java.lang.String getBucket();
 
 <p>Amazon S3 bucket.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#bucket QuicksightDataSource#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#bucket QuicksightDataSource#bucket}
 
 ---
 
@@ -7793,7 +7793,7 @@ public java.lang.String getKey();
 
 <p>Amazon S3 key that identifies an object.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#key QuicksightDataSource#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#key QuicksightDataSource#key}
 
 ---
 
@@ -7813,7 +7813,7 @@ QuicksightDataSourceDataSourceParametersS3TablesParameters.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceDataSourceParametersS3TablesParameters.property.tableBucketArn">tableBucketArn</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#table_bucket_arn QuicksightDataSource#table_bucket_arn}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceDataSourceParametersS3TablesParameters.property.tableBucketArn">tableBucketArn</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#table_bucket_arn QuicksightDataSource#table_bucket_arn}. |
 
 ---
 
@@ -7825,7 +7825,7 @@ public java.lang.String getTableBucketArn();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#table_bucket_arn QuicksightDataSource#table_bucket_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#table_bucket_arn QuicksightDataSource#table_bucket_arn}.
 
 ---
 
@@ -7850,11 +7850,11 @@ QuicksightDataSourceDataSourceParametersSnowflakeParameters.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceDataSourceParametersSnowflakeParameters.property.authenticationType">authenticationType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#authentication_type QuicksightDataSource#authentication_type}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceDataSourceParametersSnowflakeParameters.property.authenticationType">authenticationType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#authentication_type QuicksightDataSource#authentication_type}. |
 | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceDataSourceParametersSnowflakeParameters.property.database">database</a></code> | <code>java.lang.String</code> | <p>Database.</p>. |
-| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceDataSourceParametersSnowflakeParameters.property.databaseAccessControlRole">databaseAccessControlRole</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#database_access_control_role QuicksightDataSource#database_access_control_role}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceDataSourceParametersSnowflakeParameters.property.databaseAccessControlRole">databaseAccessControlRole</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#database_access_control_role QuicksightDataSource#database_access_control_role}. |
 | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceDataSourceParametersSnowflakeParameters.property.host">host</a></code> | <code>java.lang.String</code> | <p>Host.</p>. |
-| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceDataSourceParametersSnowflakeParameters.property.oAuthParameters">oAuthParameters</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceDataSourceParametersSnowflakeParametersOAuthParameters">QuicksightDataSourceDataSourceParametersSnowflakeParametersOAuthParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#o_auth_parameters QuicksightDataSource#o_auth_parameters}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceDataSourceParametersSnowflakeParameters.property.oAuthParameters">oAuthParameters</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceDataSourceParametersSnowflakeParametersOAuthParameters">QuicksightDataSourceDataSourceParametersSnowflakeParametersOAuthParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#o_auth_parameters QuicksightDataSource#o_auth_parameters}. |
 | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceDataSourceParametersSnowflakeParameters.property.warehouse">warehouse</a></code> | <code>java.lang.String</code> | <p>Warehouse.</p>. |
 
 ---
@@ -7867,7 +7867,7 @@ public java.lang.String getAuthenticationType();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#authentication_type QuicksightDataSource#authentication_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#authentication_type QuicksightDataSource#authentication_type}.
 
 ---
 
@@ -7881,7 +7881,7 @@ public java.lang.String getDatabase();
 
 <p>Database.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#database QuicksightDataSource#database}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#database QuicksightDataSource#database}
 
 ---
 
@@ -7893,7 +7893,7 @@ public java.lang.String getDatabaseAccessControlRole();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#database_access_control_role QuicksightDataSource#database_access_control_role}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#database_access_control_role QuicksightDataSource#database_access_control_role}.
 
 ---
 
@@ -7907,7 +7907,7 @@ public java.lang.String getHost();
 
 <p>Host.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
 
 ---
 
@@ -7919,7 +7919,7 @@ public QuicksightDataSourceDataSourceParametersSnowflakeParametersOAuthParameter
 
 - *Type:* <a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceDataSourceParametersSnowflakeParametersOAuthParameters">QuicksightDataSourceDataSourceParametersSnowflakeParametersOAuthParameters</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#o_auth_parameters QuicksightDataSource#o_auth_parameters}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#o_auth_parameters QuicksightDataSource#o_auth_parameters}.
 
 ---
 
@@ -7933,7 +7933,7 @@ public java.lang.String getWarehouse();
 
 <p>Warehouse.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#warehouse QuicksightDataSource#warehouse}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#warehouse QuicksightDataSource#warehouse}
 
 ---
 
@@ -7956,10 +7956,10 @@ QuicksightDataSourceDataSourceParametersSnowflakeParametersOAuthParameters.build
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceDataSourceParametersSnowflakeParametersOAuthParameters.property.identityProviderResourceUri">identityProviderResourceUri</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#identity_provider_resource_uri QuicksightDataSource#identity_provider_resource_uri}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceDataSourceParametersSnowflakeParametersOAuthParameters.property.identityProviderResourceUri">identityProviderResourceUri</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#identity_provider_resource_uri QuicksightDataSource#identity_provider_resource_uri}. |
 | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceDataSourceParametersSnowflakeParametersOAuthParameters.property.identityProviderVpcConnectionProperties">identityProviderVpcConnectionProperties</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceDataSourceParametersSnowflakeParametersOAuthParametersIdentityProviderVpcConnectionProperties">QuicksightDataSourceDataSourceParametersSnowflakeParametersOAuthParametersIdentityProviderVpcConnectionProperties</a></code> | <p>VPC connection properties.</p>. |
-| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceDataSourceParametersSnowflakeParametersOAuthParameters.property.oAuthScope">oAuthScope</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#o_auth_scope QuicksightDataSource#o_auth_scope}. |
-| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceDataSourceParametersSnowflakeParametersOAuthParameters.property.tokenProviderUrl">tokenProviderUrl</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#token_provider_url QuicksightDataSource#token_provider_url}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceDataSourceParametersSnowflakeParametersOAuthParameters.property.oAuthScope">oAuthScope</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#o_auth_scope QuicksightDataSource#o_auth_scope}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceDataSourceParametersSnowflakeParametersOAuthParameters.property.tokenProviderUrl">tokenProviderUrl</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#token_provider_url QuicksightDataSource#token_provider_url}. |
 
 ---
 
@@ -7971,7 +7971,7 @@ public java.lang.String getIdentityProviderResourceUri();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#identity_provider_resource_uri QuicksightDataSource#identity_provider_resource_uri}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#identity_provider_resource_uri QuicksightDataSource#identity_provider_resource_uri}.
 
 ---
 
@@ -7985,7 +7985,7 @@ public QuicksightDataSourceDataSourceParametersSnowflakeParametersOAuthParameter
 
 <p>VPC connection properties.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#identity_provider_vpc_connection_properties QuicksightDataSource#identity_provider_vpc_connection_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#identity_provider_vpc_connection_properties QuicksightDataSource#identity_provider_vpc_connection_properties}
 
 ---
 
@@ -7997,7 +7997,7 @@ public java.lang.String getOAuthScope();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#o_auth_scope QuicksightDataSource#o_auth_scope}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#o_auth_scope QuicksightDataSource#o_auth_scope}.
 
 ---
 
@@ -8009,7 +8009,7 @@ public java.lang.String getTokenProviderUrl();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#token_provider_url QuicksightDataSource#token_provider_url}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#token_provider_url QuicksightDataSource#token_provider_url}.
 
 ---
 
@@ -8043,7 +8043,7 @@ public java.lang.String getVpcConnectionArn();
 
 <p>The Amazon Resource Name (ARN) for the VPC connection.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#vpc_connection_arn QuicksightDataSource#vpc_connection_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#vpc_connection_arn QuicksightDataSource#vpc_connection_arn}
 
 ---
 
@@ -8079,7 +8079,7 @@ public java.lang.String getHost();
 
 <p>Host.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
 
 ---
 
@@ -8093,7 +8093,7 @@ public java.lang.Number getPort();
 
 <p>Port.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
 
 ---
 
@@ -8131,7 +8131,7 @@ public java.lang.String getDatabase();
 
 <p>Database.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#database QuicksightDataSource#database}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#database QuicksightDataSource#database}
 
 ---
 
@@ -8145,7 +8145,7 @@ public java.lang.String getHost();
 
 <p>Host.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
 
 ---
 
@@ -8159,7 +8159,7 @@ public java.lang.Number getPort();
 
 <p>Port.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
 
 ---
 
@@ -8185,13 +8185,13 @@ QuicksightDataSourceDataSourceParametersStarburstParameters.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceDataSourceParametersStarburstParameters.property.authenticationType">authenticationType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#authentication_type QuicksightDataSource#authentication_type}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceDataSourceParametersStarburstParameters.property.authenticationType">authenticationType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#authentication_type QuicksightDataSource#authentication_type}. |
 | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceDataSourceParametersStarburstParameters.property.catalog">catalog</a></code> | <code>java.lang.String</code> | <p>The catalog name for the Starburst data source.</p>. |
-| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceDataSourceParametersStarburstParameters.property.databaseAccessControlRole">databaseAccessControlRole</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#database_access_control_role QuicksightDataSource#database_access_control_role}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceDataSourceParametersStarburstParameters.property.databaseAccessControlRole">databaseAccessControlRole</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#database_access_control_role QuicksightDataSource#database_access_control_role}. |
 | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceDataSourceParametersStarburstParameters.property.host">host</a></code> | <code>java.lang.String</code> | <p>The host name of the Starburst data source.</p>. |
-| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceDataSourceParametersStarburstParameters.property.oAuthParameters">oAuthParameters</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceDataSourceParametersStarburstParametersOAuthParameters">QuicksightDataSourceDataSourceParametersStarburstParametersOAuthParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#o_auth_parameters QuicksightDataSource#o_auth_parameters}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceDataSourceParametersStarburstParameters.property.oAuthParameters">oAuthParameters</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceDataSourceParametersStarburstParametersOAuthParameters">QuicksightDataSourceDataSourceParametersStarburstParametersOAuthParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#o_auth_parameters QuicksightDataSource#o_auth_parameters}. |
 | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceDataSourceParametersStarburstParameters.property.port">port</a></code> | <code>java.lang.Number</code> | <p>The port for the Starburst data source.</p>. |
-| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceDataSourceParametersStarburstParameters.property.productType">productType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#product_type QuicksightDataSource#product_type}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceDataSourceParametersStarburstParameters.property.productType">productType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#product_type QuicksightDataSource#product_type}. |
 
 ---
 
@@ -8203,7 +8203,7 @@ public java.lang.String getAuthenticationType();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#authentication_type QuicksightDataSource#authentication_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#authentication_type QuicksightDataSource#authentication_type}.
 
 ---
 
@@ -8217,7 +8217,7 @@ public java.lang.String getCatalog();
 
 <p>The catalog name for the Starburst data source.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#catalog QuicksightDataSource#catalog}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#catalog QuicksightDataSource#catalog}
 
 ---
 
@@ -8229,7 +8229,7 @@ public java.lang.String getDatabaseAccessControlRole();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#database_access_control_role QuicksightDataSource#database_access_control_role}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#database_access_control_role QuicksightDataSource#database_access_control_role}.
 
 ---
 
@@ -8243,7 +8243,7 @@ public java.lang.String getHost();
 
 <p>The host name of the Starburst data source.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
 
 ---
 
@@ -8255,7 +8255,7 @@ public QuicksightDataSourceDataSourceParametersStarburstParametersOAuthParameter
 
 - *Type:* <a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceDataSourceParametersStarburstParametersOAuthParameters">QuicksightDataSourceDataSourceParametersStarburstParametersOAuthParameters</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#o_auth_parameters QuicksightDataSource#o_auth_parameters}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#o_auth_parameters QuicksightDataSource#o_auth_parameters}.
 
 ---
 
@@ -8269,7 +8269,7 @@ public java.lang.Number getPort();
 
 <p>The port for the Starburst data source.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
 
 ---
 
@@ -8281,7 +8281,7 @@ public java.lang.String getProductType();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#product_type QuicksightDataSource#product_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#product_type QuicksightDataSource#product_type}.
 
 ---
 
@@ -8304,10 +8304,10 @@ QuicksightDataSourceDataSourceParametersStarburstParametersOAuthParameters.build
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceDataSourceParametersStarburstParametersOAuthParameters.property.identityProviderResourceUri">identityProviderResourceUri</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#identity_provider_resource_uri QuicksightDataSource#identity_provider_resource_uri}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceDataSourceParametersStarburstParametersOAuthParameters.property.identityProviderResourceUri">identityProviderResourceUri</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#identity_provider_resource_uri QuicksightDataSource#identity_provider_resource_uri}. |
 | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceDataSourceParametersStarburstParametersOAuthParameters.property.identityProviderVpcConnectionProperties">identityProviderVpcConnectionProperties</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceDataSourceParametersStarburstParametersOAuthParametersIdentityProviderVpcConnectionProperties">QuicksightDataSourceDataSourceParametersStarburstParametersOAuthParametersIdentityProviderVpcConnectionProperties</a></code> | <p>VPC connection properties.</p>. |
-| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceDataSourceParametersStarburstParametersOAuthParameters.property.oAuthScope">oAuthScope</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#o_auth_scope QuicksightDataSource#o_auth_scope}. |
-| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceDataSourceParametersStarburstParametersOAuthParameters.property.tokenProviderUrl">tokenProviderUrl</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#token_provider_url QuicksightDataSource#token_provider_url}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceDataSourceParametersStarburstParametersOAuthParameters.property.oAuthScope">oAuthScope</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#o_auth_scope QuicksightDataSource#o_auth_scope}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceDataSourceParametersStarburstParametersOAuthParameters.property.tokenProviderUrl">tokenProviderUrl</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#token_provider_url QuicksightDataSource#token_provider_url}. |
 
 ---
 
@@ -8319,7 +8319,7 @@ public java.lang.String getIdentityProviderResourceUri();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#identity_provider_resource_uri QuicksightDataSource#identity_provider_resource_uri}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#identity_provider_resource_uri QuicksightDataSource#identity_provider_resource_uri}.
 
 ---
 
@@ -8333,7 +8333,7 @@ public QuicksightDataSourceDataSourceParametersStarburstParametersOAuthParameter
 
 <p>VPC connection properties.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#identity_provider_vpc_connection_properties QuicksightDataSource#identity_provider_vpc_connection_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#identity_provider_vpc_connection_properties QuicksightDataSource#identity_provider_vpc_connection_properties}
 
 ---
 
@@ -8345,7 +8345,7 @@ public java.lang.String getOAuthScope();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#o_auth_scope QuicksightDataSource#o_auth_scope}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#o_auth_scope QuicksightDataSource#o_auth_scope}.
 
 ---
 
@@ -8357,7 +8357,7 @@ public java.lang.String getTokenProviderUrl();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#token_provider_url QuicksightDataSource#token_provider_url}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#token_provider_url QuicksightDataSource#token_provider_url}.
 
 ---
 
@@ -8391,7 +8391,7 @@ public java.lang.String getVpcConnectionArn();
 
 <p>The Amazon Resource Name (ARN) for the VPC connection.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#vpc_connection_arn QuicksightDataSource#vpc_connection_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#vpc_connection_arn QuicksightDataSource#vpc_connection_arn}
 
 ---
 
@@ -8429,7 +8429,7 @@ public java.lang.String getDatabase();
 
 <p>Database.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#database QuicksightDataSource#database}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#database QuicksightDataSource#database}
 
 ---
 
@@ -8443,7 +8443,7 @@ public java.lang.String getHost();
 
 <p>Host.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
 
 ---
 
@@ -8457,7 +8457,7 @@ public java.lang.Number getPort();
 
 <p>Port.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
 
 ---
 
@@ -8495,7 +8495,7 @@ public java.lang.String getCatalog();
 
 <p>The catalog name for the Trino data source.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#catalog QuicksightDataSource#catalog}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#catalog QuicksightDataSource#catalog}
 
 ---
 
@@ -8509,7 +8509,7 @@ public java.lang.String getHost();
 
 <p>The host name of the Trino data source.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
 
 ---
 
@@ -8523,7 +8523,7 @@ public java.lang.Number getPort();
 
 <p>The port for the Trino data source.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
 
 ---
 
@@ -8545,7 +8545,7 @@ QuicksightDataSourceErrorInfo.builder()
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceErrorInfo.property.message">message</a></code> | <code>java.lang.String</code> | <p>Error message.</p>. |
-| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceErrorInfo.property.type">type</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#type QuicksightDataSource#type}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceErrorInfo.property.type">type</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#type QuicksightDataSource#type}. |
 
 ---
 
@@ -8559,7 +8559,7 @@ public java.lang.String getMessage();
 
 <p>Error message.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#message QuicksightDataSource#message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#message QuicksightDataSource#message}
 
 ---
 
@@ -8571,7 +8571,7 @@ public java.lang.String getType();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#type QuicksightDataSource#type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#type QuicksightDataSource#type}.
 
 ---
 
@@ -8595,7 +8595,7 @@ QuicksightDataSourcePermissions.builder()
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourcePermissions.property.actions">actions</a></code> | <code>java.util.List<java.lang.String></code> | <p>The IAM action to grant or revoke permissions on.</p>. |
 | <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourcePermissions.property.principal">principal</a></code> | <code>java.lang.String</code> | <p>The Amazon Resource Name (ARN) of the principal. |
-| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourcePermissions.property.resource">resource</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#resource QuicksightDataSource#resource}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourcePermissions.property.resource">resource</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#resource QuicksightDataSource#resource}. |
 
 ---
 
@@ -8609,7 +8609,7 @@ public java.util.List<java.lang.String> getActions();
 
 <p>The IAM action to grant or revoke permissions on.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#actions QuicksightDataSource#actions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#actions QuicksightDataSource#actions}
 
 ---
 
@@ -8639,7 +8639,7 @@ ARN. Use this option only to share resources (templates) across Amazon Web Servi
 </li>
 </ul>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#principal QuicksightDataSource#principal}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#principal QuicksightDataSource#principal}
 
 ---
 
@@ -8651,7 +8651,7 @@ public java.lang.String getResource();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#resource QuicksightDataSource#resource}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#resource QuicksightDataSource#resource}.
 
 ---
 
@@ -8685,7 +8685,7 @@ public java.lang.Boolean|IResolvable getDisableSsl();
 
 <p>A Boolean option to control whether SSL should be disabled.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#disable_ssl QuicksightDataSource#disable_ssl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#disable_ssl QuicksightDataSource#disable_ssl}
 
 ---
 
@@ -8721,7 +8721,7 @@ public java.lang.String getKey();
 
 <p>Tag key.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#key QuicksightDataSource#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#key QuicksightDataSource#key}
 
 ---
 
@@ -8735,7 +8735,7 @@ public java.lang.String getValue();
 
 <p>Tag value.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#value QuicksightDataSource#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#value QuicksightDataSource#value}
 
 ---
 
@@ -8769,7 +8769,7 @@ public java.lang.String getVpcConnectionArn();
 
 <p>The Amazon Resource Name (ARN) for the VPC connection.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_source#vpc_connection_arn QuicksightDataSource#vpc_connection_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#vpc_connection_arn QuicksightDataSource#vpc_connection_arn}
 
 ---
 

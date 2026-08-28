@@ -4,7 +4,7 @@
 
 ### DataAwsccS3BucketPolicies <a name="DataAwsccS3BucketPolicies" id="@cdktn/provider-awscc.dataAwsccS3BucketPolicies.DataAwsccS3BucketPolicies"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/s3_bucket_policies awscc_s3_bucket_policies}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/s3_bucket_policies awscc_s3_bucket_policies}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3BucketPolicies.DataAwsccS3BucketPolicies.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccS3BucketPolicies 
 
 The id of the existing DataAwsccS3BucketPolicies that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/s3_bucket_policies#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/s3_bucket_policies#import import section} in the documentation of this resource for the id to use
 
 ---
 

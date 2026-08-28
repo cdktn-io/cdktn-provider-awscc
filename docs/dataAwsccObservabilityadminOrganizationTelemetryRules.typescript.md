@@ -4,7 +4,7 @@
 
 ### DataAwsccObservabilityadminOrganizationTelemetryRules <a name="DataAwsccObservabilityadminOrganizationTelemetryRules" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationTelemetryRules.DataAwsccObservabilityadminOrganizationTelemetryRules"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/observabilityadmin_organization_telemetry_rules awscc_observabilityadmin_organization_telemetry_rules}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/observabilityadmin_organization_telemetry_rules awscc_observabilityadmin_organization_telemetry_rules}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationTelemetryRules.DataAwsccObservabilityadminOrganizationTelemetryRules.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccObservabilityadmi
 
 The id of the existing DataAwsccObservabilityadminOrganizationTelemetryRules that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/observabilityadmin_organization_telemetry_rules#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/observabilityadmin_organization_telemetry_rules#import import section} in the documentation of this resource for the id to use
 
 ---
 

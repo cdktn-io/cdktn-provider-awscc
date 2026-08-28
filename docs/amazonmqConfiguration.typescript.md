@@ -4,7 +4,7 @@
 
 ### AmazonmqConfiguration <a name="AmazonmqConfiguration" id="@cdktn/provider-awscc.amazonmqConfiguration.AmazonmqConfiguration"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amazonmq_configuration awscc_amazonmq_configuration}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amazonmq_configuration awscc_amazonmq_configuration}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.amazonmqConfiguration.AmazonmqConfiguration.Initializer"></a>
 
@@ -537,7 +537,7 @@ The construct id used in the generated config for the AmazonmqConfiguration to i
 
 The id of the existing AmazonmqConfiguration that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amazonmq_configuration#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amazonmq_configuration#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1041,7 +1041,7 @@ public readonly engineType: string;
 
 The type of broker engine. Note: Currently, Amazon MQ only supports ACTIVEMQ for creating and editing broker configurations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amazonmq_configuration#engine_type AmazonmqConfiguration#engine_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amazonmq_configuration#engine_type AmazonmqConfiguration#engine_type}
 
 ---
 
@@ -1055,7 +1055,7 @@ public readonly name: string;
 
 The name of the configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amazonmq_configuration#name AmazonmqConfiguration#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amazonmq_configuration#name AmazonmqConfiguration#name}
 
 ---
 
@@ -1069,7 +1069,7 @@ public readonly authenticationStrategy: string;
 
 The authentication strategy associated with the configuration. The default is SIMPLE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amazonmq_configuration#authentication_strategy AmazonmqConfiguration#authentication_strategy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amazonmq_configuration#authentication_strategy AmazonmqConfiguration#authentication_strategy}
 
 ---
 
@@ -1083,7 +1083,7 @@ public readonly data: string;
 
 The base64-encoded XML configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amazonmq_configuration#data AmazonmqConfiguration#data}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amazonmq_configuration#data AmazonmqConfiguration#data}
 
 ---
 
@@ -1097,7 +1097,7 @@ public readonly description: string;
 
 The description of the configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amazonmq_configuration#description AmazonmqConfiguration#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amazonmq_configuration#description AmazonmqConfiguration#description}
 
 ---
 
@@ -1111,7 +1111,7 @@ public readonly engineVersion: string;
 
 The version of the broker engine.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amazonmq_configuration#engine_version AmazonmqConfiguration#engine_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amazonmq_configuration#engine_version AmazonmqConfiguration#engine_version}
 
 ---
 
@@ -1125,7 +1125,7 @@ public readonly tags: IResolvable | AmazonmqConfigurationTags[];
 
 Create tags when creating the configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amazonmq_configuration#tags AmazonmqConfiguration#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amazonmq_configuration#tags AmazonmqConfiguration#tags}
 
 ---
 
@@ -1143,8 +1143,8 @@ const amazonmqConfigurationTags: amazonmqConfiguration.AmazonmqConfigurationTags
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.amazonmqConfiguration.AmazonmqConfigurationTags.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amazonmq_configuration#key AmazonmqConfiguration#key}. |
-| <code><a href="#@cdktn/provider-awscc.amazonmqConfiguration.AmazonmqConfigurationTags.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amazonmq_configuration#value AmazonmqConfiguration#value}. |
+| <code><a href="#@cdktn/provider-awscc.amazonmqConfiguration.AmazonmqConfigurationTags.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amazonmq_configuration#key AmazonmqConfiguration#key}. |
+| <code><a href="#@cdktn/provider-awscc.amazonmqConfiguration.AmazonmqConfigurationTags.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amazonmq_configuration#value AmazonmqConfiguration#value}. |
 
 ---
 
@@ -1156,7 +1156,7 @@ public readonly key: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amazonmq_configuration#key AmazonmqConfiguration#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amazonmq_configuration#key AmazonmqConfiguration#key}.
 
 ---
 
@@ -1168,7 +1168,7 @@ public readonly value: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amazonmq_configuration#value AmazonmqConfiguration#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amazonmq_configuration#value AmazonmqConfiguration#value}.
 
 ---
 

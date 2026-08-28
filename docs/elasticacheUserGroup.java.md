@@ -4,7 +4,7 @@
 
 ### ElasticacheUserGroup <a name="ElasticacheUserGroup" id="@cdktn/provider-awscc.elasticacheUserGroup.ElasticacheUserGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/elasticache_user_group awscc_elasticache_user_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/elasticache_user_group awscc_elasticache_user_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.elasticacheUserGroup.ElasticacheUserGroup.Initializer"></a>
 
@@ -110,7 +110,7 @@ Must be unique amongst siblings in the same scope
 
 The target cache engine for the user group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/elasticache_user_group#engine ElasticacheUserGroup#engine}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/elasticache_user_group#engine ElasticacheUserGroup#engine}
 
 ---
 
@@ -120,7 +120,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The ID of the user group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/elasticache_user_group#user_group_id ElasticacheUserGroup#user_group_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/elasticache_user_group#user_group_id ElasticacheUserGroup#user_group_id}
 
 ---
 
@@ -130,7 +130,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 List of users associated to this user group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/elasticache_user_group#user_ids ElasticacheUserGroup#user_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/elasticache_user_group#user_ids ElasticacheUserGroup#user_ids}
 
 ---
 
@@ -140,7 +140,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An array of key-value pairs to apply to this user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/elasticache_user_group#tags ElasticacheUserGroup#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/elasticache_user_group#tags ElasticacheUserGroup#tags}
 
 ---
 
@@ -609,7 +609,7 @@ The construct id used in the generated config for the ElasticacheUserGroup to im
 
 The id of the existing ElasticacheUserGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/elasticache_user_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/elasticache_user_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1045,7 +1045,7 @@ public java.lang.String getEngine();
 
 The target cache engine for the user group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/elasticache_user_group#engine ElasticacheUserGroup#engine}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/elasticache_user_group#engine ElasticacheUserGroup#engine}
 
 ---
 
@@ -1059,7 +1059,7 @@ public java.lang.String getUserGroupId();
 
 The ID of the user group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/elasticache_user_group#user_group_id ElasticacheUserGroup#user_group_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/elasticache_user_group#user_group_id ElasticacheUserGroup#user_group_id}
 
 ---
 
@@ -1073,7 +1073,7 @@ public java.util.List<java.lang.String> getUserIds();
 
 List of users associated to this user group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/elasticache_user_group#user_ids ElasticacheUserGroup#user_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/elasticache_user_group#user_ids ElasticacheUserGroup#user_ids}
 
 ---
 
@@ -1087,7 +1087,7 @@ public IResolvable|java.util.List<ElasticacheUserGroupTags> getTags();
 
 An array of key-value pairs to apply to this user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/elasticache_user_group#tags ElasticacheUserGroup#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/elasticache_user_group#tags ElasticacheUserGroup#tags}
 
 ---
 
@@ -1125,7 +1125,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with 'aws:'. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/elasticache_user_group#key ElasticacheUserGroup#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/elasticache_user_group#key ElasticacheUserGroup#key}
 
 ---
 
@@ -1141,7 +1141,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/elasticache_user_group#value ElasticacheUserGroup#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/elasticache_user_group#value ElasticacheUserGroup#value}
 
 ---
 

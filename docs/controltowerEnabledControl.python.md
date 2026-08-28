@@ -4,7 +4,7 @@
 
 ### ControltowerEnabledControl <a name="ControltowerEnabledControl" id="@cdktn/provider-awscc.controltowerEnabledControl.ControltowerEnabledControl"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/controltower_enabled_control awscc_controltower_enabled_control}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/controltower_enabled_control awscc_controltower_enabled_control}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.controltowerEnabledControl.ControltowerEnabledControl.Initializer"></a>
 
@@ -108,7 +108,7 @@ Must be unique amongst siblings in the same scope
 
 Arn of the control.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/controltower_enabled_control#control_identifier ControltowerEnabledControl#control_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/controltower_enabled_control#control_identifier ControltowerEnabledControl#control_identifier}
 
 ---
 
@@ -118,7 +118,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Arn for Organizational unit to which the control needs to be applied.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/controltower_enabled_control#target_identifier ControltowerEnabledControl#target_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/controltower_enabled_control#target_identifier ControltowerEnabledControl#target_identifier}
 
 ---
 
@@ -615,7 +615,7 @@ The construct id used in the generated config for the ControltowerEnabledControl
 
 The id of the existing ControltowerEnabledControl that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/controltower_enabled_control#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/controltower_enabled_control#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -981,7 +981,7 @@ control_identifier: str
 
 Arn of the control.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/controltower_enabled_control#control_identifier ControltowerEnabledControl#control_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/controltower_enabled_control#control_identifier ControltowerEnabledControl#control_identifier}
 
 ---
 
@@ -995,7 +995,7 @@ target_identifier: str
 
 Arn for Organizational unit to which the control needs to be applied.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/controltower_enabled_control#target_identifier ControltowerEnabledControl#target_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/controltower_enabled_control#target_identifier ControltowerEnabledControl#target_identifier}
 
 ---
 

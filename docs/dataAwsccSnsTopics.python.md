@@ -4,7 +4,7 @@
 
 ### DataAwsccSnsTopics <a name="DataAwsccSnsTopics" id="@cdktn/provider-awscc.dataAwsccSnsTopics.DataAwsccSnsTopics"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/sns_topics awscc_sns_topics}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/sns_topics awscc_sns_topics}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSnsTopics.DataAwsccSnsTopics.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccSnsTopics to impo
 
 The id of the existing DataAwsccSnsTopics that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/sns_topics#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/sns_topics#import import section} in the documentation of this resource for the id to use
 
 ---
 

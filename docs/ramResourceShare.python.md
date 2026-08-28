@@ -4,7 +4,7 @@
 
 ### RamResourceShare <a name="RamResourceShare" id="@cdktn/provider-awscc.ramResourceShare.RamResourceShare"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ram_resource_share awscc_ram_resource_share}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ram_resource_share awscc_ram_resource_share}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ramResourceShare.RamResourceShare.Initializer"></a>
 
@@ -120,7 +120,7 @@ Must be unique amongst siblings in the same scope
 
 Specifies the name of the resource share.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ram_resource_share#name RamResourceShare#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ram_resource_share#name RamResourceShare#name}
 
 ---
 
@@ -132,7 +132,7 @@ Specifies whether principals outside your organization in AWS Organizations can 
 
 A value of `true` lets you share with individual AWS accounts that are not in your organization. A value of `false` only has meaning if your account is a member of an AWS Organization. The default value is `true`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ram_resource_share#allow_external_principals RamResourceShare#allow_external_principals}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ram_resource_share#allow_external_principals RamResourceShare#allow_external_principals}
 
 ---
 
@@ -142,7 +142,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Specifies the [Amazon Resource Names (ARNs)](https://docs.aws.amazon.com/general/latest/gr/aws-arns-and-namespaces.html) of the AWS RAM permission to associate with the resource share. If you do not specify an ARN for the permission, AWS RAM automatically attaches the default version of the permission for each resource type. You can associate only one permission with each resource type included in the resource share.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ram_resource_share#permission_arns RamResourceShare#permission_arns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ram_resource_share#permission_arns RamResourceShare#permission_arns}
 
 ---
 
@@ -158,7 +158,7 @@ Specifies the principals to associate with the resource share. The possible valu
 * An ARN of an IAM role
 * An ARN of an IAM user
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ram_resource_share#principals RamResourceShare#principals}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ram_resource_share#principals RamResourceShare#principals}
 
 ---
 
@@ -168,7 +168,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Specifies a list of one or more ARNs of the resources to associate with the resource share.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ram_resource_share#resource_arns RamResourceShare#resource_arns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ram_resource_share#resource_arns RamResourceShare#resource_arns}
 
 ---
 
@@ -178,7 +178,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Specifies the configuration for the resource share.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ram_resource_share#resource_share_configuration RamResourceShare#resource_share_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ram_resource_share#resource_share_configuration RamResourceShare#resource_share_configuration}
 
 ---
 
@@ -188,7 +188,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Specifies from which source accounts the service principal has access to the resources in this resource share.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ram_resource_share#sources RamResourceShare#sources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ram_resource_share#sources RamResourceShare#sources}
 
 ---
 
@@ -200,7 +200,7 @@ Specifies one or more tags to attach to the resource share itself.
 
 It doesn't attach the tags to the resources associated with the resource share.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ram_resource_share#tags RamResourceShare#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ram_resource_share#tags RamResourceShare#tags}
 
 ---
 
@@ -607,7 +607,7 @@ def put_resource_share_configuration(
 
 The resource share restricts access to an account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ram_resource_share#exclusive_account_access RamResourceShare#exclusive_account_access}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ram_resource_share#exclusive_account_access RamResourceShare#exclusive_account_access}
 
 ---
 
@@ -617,7 +617,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Specifies whether the consumer account retains access to the resource share after leaving the organization.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ram_resource_share#retain_sharing_on_account_leave_organization RamResourceShare#retain_sharing_on_account_leave_organization}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ram_resource_share#retain_sharing_on_account_leave_organization RamResourceShare#retain_sharing_on_account_leave_organization}
 
 ---
 
@@ -791,7 +791,7 @@ The construct id used in the generated config for the RamResourceShare to import
 
 The id of the existing RamResourceShare that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ram_resource_share#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ram_resource_share#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1367,7 +1367,7 @@ name: str
 
 Specifies the name of the resource share.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ram_resource_share#name RamResourceShare#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ram_resource_share#name RamResourceShare#name}
 
 ---
 
@@ -1383,7 +1383,7 @@ Specifies whether principals outside your organization in AWS Organizations can 
 
 A value of `true` lets you share with individual AWS accounts that are not in your organization. A value of `false` only has meaning if your account is a member of an AWS Organization. The default value is `true`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ram_resource_share#allow_external_principals RamResourceShare#allow_external_principals}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ram_resource_share#allow_external_principals RamResourceShare#allow_external_principals}
 
 ---
 
@@ -1397,7 +1397,7 @@ permission_arns: typing.List[str]
 
 Specifies the [Amazon Resource Names (ARNs)](https://docs.aws.amazon.com/general/latest/gr/aws-arns-and-namespaces.html) of the AWS RAM permission to associate with the resource share. If you do not specify an ARN for the permission, AWS RAM automatically attaches the default version of the permission for each resource type. You can associate only one permission with each resource type included in the resource share.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ram_resource_share#permission_arns RamResourceShare#permission_arns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ram_resource_share#permission_arns RamResourceShare#permission_arns}
 
 ---
 
@@ -1417,7 +1417,7 @@ Specifies the principals to associate with the resource share. The possible valu
 * An ARN of an IAM role
 * An ARN of an IAM user
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ram_resource_share#principals RamResourceShare#principals}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ram_resource_share#principals RamResourceShare#principals}
 
 ---
 
@@ -1431,7 +1431,7 @@ resource_arns: typing.List[str]
 
 Specifies a list of one or more ARNs of the resources to associate with the resource share.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ram_resource_share#resource_arns RamResourceShare#resource_arns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ram_resource_share#resource_arns RamResourceShare#resource_arns}
 
 ---
 
@@ -1445,7 +1445,7 @@ resource_share_configuration: RamResourceShareResourceShareConfiguration
 
 Specifies the configuration for the resource share.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ram_resource_share#resource_share_configuration RamResourceShare#resource_share_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ram_resource_share#resource_share_configuration RamResourceShare#resource_share_configuration}
 
 ---
 
@@ -1459,7 +1459,7 @@ sources: typing.List[str]
 
 Specifies from which source accounts the service principal has access to the resources in this resource share.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ram_resource_share#sources RamResourceShare#sources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ram_resource_share#sources RamResourceShare#sources}
 
 ---
 
@@ -1475,7 +1475,7 @@ Specifies one or more tags to attach to the resource share itself.
 
 It doesn't attach the tags to the resources associated with the resource share.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ram_resource_share#tags RamResourceShare#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ram_resource_share#tags RamResourceShare#tags}
 
 ---
 
@@ -1511,7 +1511,7 @@ exclusive_account_access: bool | IResolvable
 
 The resource share restricts access to an account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ram_resource_share#exclusive_account_access RamResourceShare#exclusive_account_access}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ram_resource_share#exclusive_account_access RamResourceShare#exclusive_account_access}
 
 ---
 
@@ -1525,7 +1525,7 @@ retain_sharing_on_account_leave_organization: bool | IResolvable
 
 Specifies whether the consumer account retains access to the resource share after leaving the organization.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ram_resource_share#retain_sharing_on_account_leave_organization RamResourceShare#retain_sharing_on_account_leave_organization}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ram_resource_share#retain_sharing_on_account_leave_organization RamResourceShare#retain_sharing_on_account_leave_organization}
 
 ---
 
@@ -1563,7 +1563,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ram_resource_share#key RamResourceShare#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ram_resource_share#key RamResourceShare#key}
 
 ---
 
@@ -1579,7 +1579,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ram_resource_share#value RamResourceShare#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ram_resource_share#value RamResourceShare#value}
 
 ---
 

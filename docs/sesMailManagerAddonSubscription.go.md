@@ -4,7 +4,7 @@
 
 ### SesMailManagerAddonSubscription <a name="SesMailManagerAddonSubscription" id="@cdktn/provider-awscc.sesMailManagerAddonSubscription.SesMailManagerAddonSubscription"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_addon_subscription awscc_ses_mail_manager_addon_subscription}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_mail_manager_addon_subscription awscc_ses_mail_manager_addon_subscription}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sesMailManagerAddonSubscription.SesMailManagerAddonSubscription.Initializer"></a>
 
@@ -509,7 +509,7 @@ The construct id used in the generated config for the SesMailManagerAddonSubscri
 
 The id of the existing SesMailManagerAddonSubscription that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_addon_subscription#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_mail_manager_addon_subscription#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -812,8 +812,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesmailmanageraddonsub
 | <code><a href="#@cdktn/provider-awscc.sesMailManagerAddonSubscription.SesMailManagerAddonSubscriptionConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.sesMailManagerAddonSubscription.SesMailManagerAddonSubscriptionConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.sesMailManagerAddonSubscription.SesMailManagerAddonSubscriptionConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerAddonSubscription.SesMailManagerAddonSubscriptionConfig.property.addonName">AddonName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_addon_subscription#addon_name SesMailManagerAddonSubscription#addon_name}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerAddonSubscription.SesMailManagerAddonSubscriptionConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_addon_subscription#tags SesMailManagerAddonSubscription#tags}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerAddonSubscription.SesMailManagerAddonSubscriptionConfig.property.addonName">AddonName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_mail_manager_addon_subscription#addon_name SesMailManagerAddonSubscription#addon_name}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerAddonSubscription.SesMailManagerAddonSubscriptionConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_mail_manager_addon_subscription#tags SesMailManagerAddonSubscription#tags}. |
 
 ---
 
@@ -895,7 +895,7 @@ AddonName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_addon_subscription#addon_name SesMailManagerAddonSubscription#addon_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_mail_manager_addon_subscription#addon_name SesMailManagerAddonSubscription#addon_name}.
 
 ---
 
@@ -907,7 +907,7 @@ Tags interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_addon_subscription#tags SesMailManagerAddonSubscription#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_mail_manager_addon_subscription#tags SesMailManagerAddonSubscription#tags}.
 
 ---
 
@@ -928,8 +928,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesmailmanageraddonsub
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerAddonSubscription.SesMailManagerAddonSubscriptionTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_addon_subscription#key SesMailManagerAddonSubscription#key}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerAddonSubscription.SesMailManagerAddonSubscriptionTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_addon_subscription#value SesMailManagerAddonSubscription#value}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerAddonSubscription.SesMailManagerAddonSubscriptionTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_mail_manager_addon_subscription#key SesMailManagerAddonSubscription#key}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerAddonSubscription.SesMailManagerAddonSubscriptionTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_mail_manager_addon_subscription#value SesMailManagerAddonSubscription#value}. |
 
 ---
 
@@ -941,7 +941,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_addon_subscription#key SesMailManagerAddonSubscription#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_mail_manager_addon_subscription#key SesMailManagerAddonSubscription#key}.
 
 ---
 
@@ -953,7 +953,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_addon_subscription#value SesMailManagerAddonSubscription#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_mail_manager_addon_subscription#value SesMailManagerAddonSubscription#value}.
 
 ---
 

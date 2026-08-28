@@ -4,7 +4,7 @@
 
 ### DataAwsccChimeAppInstanceBot <a name="DataAwsccChimeAppInstanceBot" id="@cdktn/provider-awscc.dataAwsccChimeAppInstanceBot.DataAwsccChimeAppInstanceBot"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/chime_app_instance_bot awscc_chime_app_instance_bot}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/chime_app_instance_bot awscc_chime_app_instance_bot}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccChimeAppInstanceBot.DataAwsccChimeAppInstanceBot.Initializer"></a>
 
@@ -106,7 +106,7 @@ Must be unique amongst siblings in the same scope
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/chime_app_instance_bot#id DataAwsccChimeAppInstanceBot#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/chime_app_instance_bot#id DataAwsccChimeAppInstanceBot#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -492,7 +492,7 @@ The construct id used in the generated config for the DataAwsccChimeAppInstanceB
 
 The id of the existing DataAwsccChimeAppInstanceBot that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/chime_app_instance_bot#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/chime_app_instance_bot#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -523,8 +523,8 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98
 | <code><a href="#@cdktn/provider-awscc.dataAwsccChimeAppInstanceBot.DataAwsccChimeAppInstanceBot.property.appInstanceArn">app_instance_arn</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccChimeAppInstanceBot.DataAwsccChimeAppInstanceBot.property.appInstanceBotArn">app_instance_bot_arn</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccChimeAppInstanceBot.DataAwsccChimeAppInstanceBot.property.configuration">configuration</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccChimeAppInstanceBot.DataAwsccChimeAppInstanceBotConfigurationOutputReference">DataAwsccChimeAppInstanceBotConfigurationOutputReference</a></code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.dataAwsccChimeAppInstanceBot.DataAwsccChimeAppInstanceBot.property.createdTimestamp">created_timestamp</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.dataAwsccChimeAppInstanceBot.DataAwsccChimeAppInstanceBot.property.lastUpdatedTimestamp">last_updated_timestamp</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccChimeAppInstanceBot.DataAwsccChimeAppInstanceBot.property.createdTimestamp">created_timestamp</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccChimeAppInstanceBot.DataAwsccChimeAppInstanceBot.property.lastUpdatedTimestamp">last_updated_timestamp</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccChimeAppInstanceBot.DataAwsccChimeAppInstanceBot.property.metadata">metadata</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccChimeAppInstanceBot.DataAwsccChimeAppInstanceBot.property.name">name</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccChimeAppInstanceBot.DataAwsccChimeAppInstanceBot.property.tags">tags</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccChimeAppInstanceBot.DataAwsccChimeAppInstanceBotTagsList">DataAwsccChimeAppInstanceBotTagsList</a></code> | *No description.* |
@@ -688,20 +688,20 @@ configuration: DataAwsccChimeAppInstanceBotConfigurationOutputReference
 ##### `created_timestamp`<sup>Required</sup> <a name="created_timestamp" id="@cdktn/provider-awscc.dataAwsccChimeAppInstanceBot.DataAwsccChimeAppInstanceBot.property.createdTimestamp"></a>
 
 ```python
-created_timestamp: typing.Union[int, float]
+created_timestamp: str
 ```
 
-- *Type:* typing.Union[int, float]
+- *Type:* str
 
 ---
 
 ##### `last_updated_timestamp`<sup>Required</sup> <a name="last_updated_timestamp" id="@cdktn/provider-awscc.dataAwsccChimeAppInstanceBot.DataAwsccChimeAppInstanceBot.property.lastUpdatedTimestamp"></a>
 
 ```python
-last_updated_timestamp: typing.Union[int, float]
+last_updated_timestamp: str
 ```
 
-- *Type:* typing.Union[int, float]
+- *Type:* str
 
 ---
 
@@ -889,7 +889,7 @@ id: str
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/chime_app_instance_bot#id DataAwsccChimeAppInstanceBot#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/chime_app_instance_bot#id DataAwsccChimeAppInstanceBot#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

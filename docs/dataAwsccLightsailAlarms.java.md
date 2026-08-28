@@ -4,7 +4,7 @@
 
 ### DataAwsccLightsailAlarms <a name="DataAwsccLightsailAlarms" id="@cdktn/provider-awscc.dataAwsccLightsailAlarms.DataAwsccLightsailAlarms"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/lightsail_alarms awscc_lightsail_alarms}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/lightsail_alarms awscc_lightsail_alarms}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLightsailAlarms.DataAwsccLightsailAlarms.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccLightsailAlarms t
 
 The id of the existing DataAwsccLightsailAlarms that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/lightsail_alarms#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/lightsail_alarms#import import section} in the documentation of this resource for the id to use
 
 ---
 

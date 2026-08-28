@@ -4,7 +4,7 @@
 
 ### DirectconnectLag <a name="DirectconnectLag" id="@cdktn/provider-awscc.directconnectLag.DirectconnectLag"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/directconnect_lag awscc_directconnect_lag}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/directconnect_lag awscc_directconnect_lag}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.directconnectLag.DirectconnectLag.Initializer"></a>
 
@@ -530,7 +530,7 @@ The construct id used in the generated config for the DirectconnectLag to import
 
 The id of the existing DirectconnectLag that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/directconnect_lag#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/directconnect_lag#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1049,7 +1049,7 @@ public string ConnectionsBandwidth { get; set; }
 
 The bandwidth of the individual physical dedicated connections bundled by the LAG.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/directconnect_lag#connections_bandwidth DirectconnectLag#connections_bandwidth}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/directconnect_lag#connections_bandwidth DirectconnectLag#connections_bandwidth}
 
 ---
 
@@ -1063,7 +1063,7 @@ public string LagName { get; set; }
 
 The name of the LAG.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/directconnect_lag#lag_name DirectconnectLag#lag_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/directconnect_lag#lag_name DirectconnectLag#lag_name}
 
 ---
 
@@ -1077,7 +1077,7 @@ public string Location { get; set; }
 
 The location for the LAG.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/directconnect_lag#location DirectconnectLag#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/directconnect_lag#location DirectconnectLag#location}
 
 ---
 
@@ -1091,7 +1091,7 @@ public double MinimumLinks { get; set; }
 
 The minimum number of physical dedicated connections that must be operational for the LAG itself to be operational.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/directconnect_lag#minimum_links DirectconnectLag#minimum_links}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/directconnect_lag#minimum_links DirectconnectLag#minimum_links}
 
 ---
 
@@ -1105,7 +1105,7 @@ public string ProviderName { get; set; }
 
 The name of the service provider associated with the requested LAG.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/directconnect_lag#provider_name DirectconnectLag#provider_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/directconnect_lag#provider_name DirectconnectLag#provider_name}
 
 ---
 
@@ -1119,7 +1119,7 @@ public bool|IResolvable RequestMacSec { get; set; }
 
 Indicates whether you want the LAG to support MAC Security (MACsec).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/directconnect_lag#request_mac_sec DirectconnectLag#request_mac_sec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/directconnect_lag#request_mac_sec DirectconnectLag#request_mac_sec}
 
 ---
 
@@ -1133,7 +1133,7 @@ public IResolvable|DirectconnectLagTags[] Tags { get; set; }
 
 The tags associated with the LAG.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/directconnect_lag#tags DirectconnectLag#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/directconnect_lag#tags DirectconnectLag#tags}
 
 ---
 
@@ -1171,7 +1171,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/directconnect_lag#key DirectconnectLag#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/directconnect_lag#key DirectconnectLag#key}
 
 ---
 
@@ -1187,7 +1187,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/directconnect_lag#value DirectconnectLag#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/directconnect_lag#value DirectconnectLag#value}
 
 ---
 

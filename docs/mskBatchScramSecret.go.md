@@ -4,7 +4,7 @@
 
 ### MskBatchScramSecret <a name="MskBatchScramSecret" id="@cdktn/provider-awscc.mskBatchScramSecret.MskBatchScramSecret"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_batch_scram_secret awscc_msk_batch_scram_secret}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/msk_batch_scram_secret awscc_msk_batch_scram_secret}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mskBatchScramSecret.MskBatchScramSecret.Initializer"></a>
 
@@ -496,7 +496,7 @@ The construct id used in the generated config for the MskBatchScramSecret to imp
 
 The id of the existing MskBatchScramSecret that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_batch_scram_secret#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/msk_batch_scram_secret#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -777,8 +777,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mskbatchscramsecret"
 | <code><a href="#@cdktn/provider-awscc.mskBatchScramSecret.MskBatchScramSecretConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mskBatchScramSecret.MskBatchScramSecretConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mskBatchScramSecret.MskBatchScramSecretConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.mskBatchScramSecret.MskBatchScramSecretConfig.property.clusterArn">ClusterArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_batch_scram_secret#cluster_arn MskBatchScramSecret#cluster_arn}. |
-| <code><a href="#@cdktn/provider-awscc.mskBatchScramSecret.MskBatchScramSecretConfig.property.secretArnList">SecretArnList</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_batch_scram_secret#secret_arn_list MskBatchScramSecret#secret_arn_list}. |
+| <code><a href="#@cdktn/provider-awscc.mskBatchScramSecret.MskBatchScramSecretConfig.property.clusterArn">ClusterArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/msk_batch_scram_secret#cluster_arn MskBatchScramSecret#cluster_arn}. |
+| <code><a href="#@cdktn/provider-awscc.mskBatchScramSecret.MskBatchScramSecretConfig.property.secretArnList">SecretArnList</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/msk_batch_scram_secret#secret_arn_list MskBatchScramSecret#secret_arn_list}. |
 
 ---
 
@@ -860,7 +860,7 @@ ClusterArn *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_batch_scram_secret#cluster_arn MskBatchScramSecret#cluster_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/msk_batch_scram_secret#cluster_arn MskBatchScramSecret#cluster_arn}.
 
 ---
 
@@ -872,7 +872,7 @@ SecretArnList *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_batch_scram_secret#secret_arn_list MskBatchScramSecret#secret_arn_list}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/msk_batch_scram_secret#secret_arn_list MskBatchScramSecret#secret_arn_list}.
 
 ---
 

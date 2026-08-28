@@ -4,7 +4,7 @@
 
 ### DatazoneProjectProfile <a name="DatazoneProjectProfile" id="@cdktn/provider-awscc.datazoneProjectProfile.DatazoneProjectProfile"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_project_profile awscc_datazone_project_profile}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_project_profile awscc_datazone_project_profile}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.datazoneProjectProfile.DatazoneProjectProfile.Initializer"></a>
 
@@ -578,7 +578,7 @@ The construct id used in the generated config for the DatazoneProjectProfile to 
 
 The id of the existing DatazoneProjectProfile that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_project_profile#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_project_profile#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1102,16 +1102,16 @@ const datazoneProjectProfileConfig: datazoneProjectProfile.DatazoneProjectProfil
 | <code><a href="#@cdktn/provider-awscc.datazoneProjectProfile.DatazoneProjectProfileConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.datazoneProjectProfile.DatazoneProjectProfileConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.datazoneProjectProfile.DatazoneProjectProfileConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.datazoneProjectProfile.DatazoneProjectProfileConfig.property.name">name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_project_profile#name DatazoneProjectProfile#name}. |
-| <code><a href="#@cdktn/provider-awscc.datazoneProjectProfile.DatazoneProjectProfileConfig.property.allowCustomProjectResourceTags">allowCustomProjectResourceTags</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_project_profile#allow_custom_project_resource_tags DatazoneProjectProfile#allow_custom_project_resource_tags}. |
-| <code><a href="#@cdktn/provider-awscc.datazoneProjectProfile.DatazoneProjectProfileConfig.property.description">description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_project_profile#description DatazoneProjectProfile#description}. |
-| <code><a href="#@cdktn/provider-awscc.datazoneProjectProfile.DatazoneProjectProfileConfig.property.domainIdentifier">domainIdentifier</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_project_profile#domain_identifier DatazoneProjectProfile#domain_identifier}. |
-| <code><a href="#@cdktn/provider-awscc.datazoneProjectProfile.DatazoneProjectProfileConfig.property.domainUnitIdentifier">domainUnitIdentifier</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_project_profile#domain_unit_identifier DatazoneProjectProfile#domain_unit_identifier}. |
-| <code><a href="#@cdktn/provider-awscc.datazoneProjectProfile.DatazoneProjectProfileConfig.property.environmentConfigurations">environmentConfigurations</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.datazoneProjectProfile.DatazoneProjectProfileEnvironmentConfigurations">DatazoneProjectProfileEnvironmentConfigurations</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_project_profile#environment_configurations DatazoneProjectProfile#environment_configurations}. |
-| <code><a href="#@cdktn/provider-awscc.datazoneProjectProfile.DatazoneProjectProfileConfig.property.projectResourceTags">projectResourceTags</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.datazoneProjectProfile.DatazoneProjectProfileProjectResourceTags">DatazoneProjectProfileProjectResourceTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_project_profile#project_resource_tags DatazoneProjectProfile#project_resource_tags}. |
-| <code><a href="#@cdktn/provider-awscc.datazoneProjectProfile.DatazoneProjectProfileConfig.property.projectResourceTagsDescription">projectResourceTagsDescription</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_project_profile#project_resource_tags_description DatazoneProjectProfile#project_resource_tags_description}. |
-| <code><a href="#@cdktn/provider-awscc.datazoneProjectProfile.DatazoneProjectProfileConfig.property.status">status</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_project_profile#status DatazoneProjectProfile#status}. |
-| <code><a href="#@cdktn/provider-awscc.datazoneProjectProfile.DatazoneProjectProfileConfig.property.useDefaultConfigurations">useDefaultConfigurations</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_project_profile#use_default_configurations DatazoneProjectProfile#use_default_configurations}. |
+| <code><a href="#@cdktn/provider-awscc.datazoneProjectProfile.DatazoneProjectProfileConfig.property.name">name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_project_profile#name DatazoneProjectProfile#name}. |
+| <code><a href="#@cdktn/provider-awscc.datazoneProjectProfile.DatazoneProjectProfileConfig.property.allowCustomProjectResourceTags">allowCustomProjectResourceTags</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_project_profile#allow_custom_project_resource_tags DatazoneProjectProfile#allow_custom_project_resource_tags}. |
+| <code><a href="#@cdktn/provider-awscc.datazoneProjectProfile.DatazoneProjectProfileConfig.property.description">description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_project_profile#description DatazoneProjectProfile#description}. |
+| <code><a href="#@cdktn/provider-awscc.datazoneProjectProfile.DatazoneProjectProfileConfig.property.domainIdentifier">domainIdentifier</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_project_profile#domain_identifier DatazoneProjectProfile#domain_identifier}. |
+| <code><a href="#@cdktn/provider-awscc.datazoneProjectProfile.DatazoneProjectProfileConfig.property.domainUnitIdentifier">domainUnitIdentifier</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_project_profile#domain_unit_identifier DatazoneProjectProfile#domain_unit_identifier}. |
+| <code><a href="#@cdktn/provider-awscc.datazoneProjectProfile.DatazoneProjectProfileConfig.property.environmentConfigurations">environmentConfigurations</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.datazoneProjectProfile.DatazoneProjectProfileEnvironmentConfigurations">DatazoneProjectProfileEnvironmentConfigurations</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_project_profile#environment_configurations DatazoneProjectProfile#environment_configurations}. |
+| <code><a href="#@cdktn/provider-awscc.datazoneProjectProfile.DatazoneProjectProfileConfig.property.projectResourceTags">projectResourceTags</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.datazoneProjectProfile.DatazoneProjectProfileProjectResourceTags">DatazoneProjectProfileProjectResourceTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_project_profile#project_resource_tags DatazoneProjectProfile#project_resource_tags}. |
+| <code><a href="#@cdktn/provider-awscc.datazoneProjectProfile.DatazoneProjectProfileConfig.property.projectResourceTagsDescription">projectResourceTagsDescription</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_project_profile#project_resource_tags_description DatazoneProjectProfile#project_resource_tags_description}. |
+| <code><a href="#@cdktn/provider-awscc.datazoneProjectProfile.DatazoneProjectProfileConfig.property.status">status</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_project_profile#status DatazoneProjectProfile#status}. |
+| <code><a href="#@cdktn/provider-awscc.datazoneProjectProfile.DatazoneProjectProfileConfig.property.useDefaultConfigurations">useDefaultConfigurations</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_project_profile#use_default_configurations DatazoneProjectProfile#use_default_configurations}. |
 
 ---
 
@@ -1193,7 +1193,7 @@ public readonly name: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_project_profile#name DatazoneProjectProfile#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_project_profile#name DatazoneProjectProfile#name}.
 
 ---
 
@@ -1205,7 +1205,7 @@ public readonly allowCustomProjectResourceTags: boolean | IResolvable;
 
 - *Type:* boolean | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_project_profile#allow_custom_project_resource_tags DatazoneProjectProfile#allow_custom_project_resource_tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_project_profile#allow_custom_project_resource_tags DatazoneProjectProfile#allow_custom_project_resource_tags}.
 
 ---
 
@@ -1217,7 +1217,7 @@ public readonly description: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_project_profile#description DatazoneProjectProfile#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_project_profile#description DatazoneProjectProfile#description}.
 
 ---
 
@@ -1229,7 +1229,7 @@ public readonly domainIdentifier: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_project_profile#domain_identifier DatazoneProjectProfile#domain_identifier}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_project_profile#domain_identifier DatazoneProjectProfile#domain_identifier}.
 
 ---
 
@@ -1241,7 +1241,7 @@ public readonly domainUnitIdentifier: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_project_profile#domain_unit_identifier DatazoneProjectProfile#domain_unit_identifier}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_project_profile#domain_unit_identifier DatazoneProjectProfile#domain_unit_identifier}.
 
 ---
 
@@ -1253,7 +1253,7 @@ public readonly environmentConfigurations: IResolvable | DatazoneProjectProfileE
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.datazoneProjectProfile.DatazoneProjectProfileEnvironmentConfigurations">DatazoneProjectProfileEnvironmentConfigurations</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_project_profile#environment_configurations DatazoneProjectProfile#environment_configurations}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_project_profile#environment_configurations DatazoneProjectProfile#environment_configurations}.
 
 ---
 
@@ -1265,7 +1265,7 @@ public readonly projectResourceTags: IResolvable | DatazoneProjectProfileProject
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.datazoneProjectProfile.DatazoneProjectProfileProjectResourceTags">DatazoneProjectProfileProjectResourceTags</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_project_profile#project_resource_tags DatazoneProjectProfile#project_resource_tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_project_profile#project_resource_tags DatazoneProjectProfile#project_resource_tags}.
 
 ---
 
@@ -1277,7 +1277,7 @@ public readonly projectResourceTagsDescription: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_project_profile#project_resource_tags_description DatazoneProjectProfile#project_resource_tags_description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_project_profile#project_resource_tags_description DatazoneProjectProfile#project_resource_tags_description}.
 
 ---
 
@@ -1289,7 +1289,7 @@ public readonly status: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_project_profile#status DatazoneProjectProfile#status}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_project_profile#status DatazoneProjectProfile#status}.
 
 ---
 
@@ -1301,7 +1301,7 @@ public readonly useDefaultConfigurations: boolean | IResolvable;
 
 - *Type:* boolean | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_project_profile#use_default_configurations DatazoneProjectProfile#use_default_configurations}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_project_profile#use_default_configurations DatazoneProjectProfile#use_default_configurations}.
 
 ---
 
@@ -1319,15 +1319,15 @@ const datazoneProjectProfileEnvironmentConfigurations: datazoneProjectProfile.Da
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.datazoneProjectProfile.DatazoneProjectProfileEnvironmentConfigurations.property.awsAccount">awsAccount</a></code> | <code><a href="#@cdktn/provider-awscc.datazoneProjectProfile.DatazoneProjectProfileEnvironmentConfigurationsAwsAccount">DatazoneProjectProfileEnvironmentConfigurationsAwsAccount</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_project_profile#aws_account DatazoneProjectProfile#aws_account}. |
-| <code><a href="#@cdktn/provider-awscc.datazoneProjectProfile.DatazoneProjectProfileEnvironmentConfigurations.property.awsRegion">awsRegion</a></code> | <code><a href="#@cdktn/provider-awscc.datazoneProjectProfile.DatazoneProjectProfileEnvironmentConfigurationsAwsRegion">DatazoneProjectProfileEnvironmentConfigurationsAwsRegion</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_project_profile#aws_region DatazoneProjectProfile#aws_region}. |
-| <code><a href="#@cdktn/provider-awscc.datazoneProjectProfile.DatazoneProjectProfileEnvironmentConfigurations.property.configurationParameters">configurationParameters</a></code> | <code><a href="#@cdktn/provider-awscc.datazoneProjectProfile.DatazoneProjectProfileEnvironmentConfigurationsConfigurationParameters">DatazoneProjectProfileEnvironmentConfigurationsConfigurationParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_project_profile#configuration_parameters DatazoneProjectProfile#configuration_parameters}. |
-| <code><a href="#@cdktn/provider-awscc.datazoneProjectProfile.DatazoneProjectProfileEnvironmentConfigurations.property.deploymentMode">deploymentMode</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_project_profile#deployment_mode DatazoneProjectProfile#deployment_mode}. |
-| <code><a href="#@cdktn/provider-awscc.datazoneProjectProfile.DatazoneProjectProfileEnvironmentConfigurations.property.deploymentOrder">deploymentOrder</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_project_profile#deployment_order DatazoneProjectProfile#deployment_order}. |
-| <code><a href="#@cdktn/provider-awscc.datazoneProjectProfile.DatazoneProjectProfileEnvironmentConfigurations.property.description">description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_project_profile#description DatazoneProjectProfile#description}. |
-| <code><a href="#@cdktn/provider-awscc.datazoneProjectProfile.DatazoneProjectProfileEnvironmentConfigurations.property.environmentBlueprintId">environmentBlueprintId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_project_profile#environment_blueprint_id DatazoneProjectProfile#environment_blueprint_id}. |
-| <code><a href="#@cdktn/provider-awscc.datazoneProjectProfile.DatazoneProjectProfileEnvironmentConfigurations.property.environmentConfigurationId">environmentConfigurationId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_project_profile#environment_configuration_id DatazoneProjectProfile#environment_configuration_id}. |
-| <code><a href="#@cdktn/provider-awscc.datazoneProjectProfile.DatazoneProjectProfileEnvironmentConfigurations.property.name">name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_project_profile#name DatazoneProjectProfile#name}. |
+| <code><a href="#@cdktn/provider-awscc.datazoneProjectProfile.DatazoneProjectProfileEnvironmentConfigurations.property.awsAccount">awsAccount</a></code> | <code><a href="#@cdktn/provider-awscc.datazoneProjectProfile.DatazoneProjectProfileEnvironmentConfigurationsAwsAccount">DatazoneProjectProfileEnvironmentConfigurationsAwsAccount</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_project_profile#aws_account DatazoneProjectProfile#aws_account}. |
+| <code><a href="#@cdktn/provider-awscc.datazoneProjectProfile.DatazoneProjectProfileEnvironmentConfigurations.property.awsRegion">awsRegion</a></code> | <code><a href="#@cdktn/provider-awscc.datazoneProjectProfile.DatazoneProjectProfileEnvironmentConfigurationsAwsRegion">DatazoneProjectProfileEnvironmentConfigurationsAwsRegion</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_project_profile#aws_region DatazoneProjectProfile#aws_region}. |
+| <code><a href="#@cdktn/provider-awscc.datazoneProjectProfile.DatazoneProjectProfileEnvironmentConfigurations.property.configurationParameters">configurationParameters</a></code> | <code><a href="#@cdktn/provider-awscc.datazoneProjectProfile.DatazoneProjectProfileEnvironmentConfigurationsConfigurationParameters">DatazoneProjectProfileEnvironmentConfigurationsConfigurationParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_project_profile#configuration_parameters DatazoneProjectProfile#configuration_parameters}. |
+| <code><a href="#@cdktn/provider-awscc.datazoneProjectProfile.DatazoneProjectProfileEnvironmentConfigurations.property.deploymentMode">deploymentMode</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_project_profile#deployment_mode DatazoneProjectProfile#deployment_mode}. |
+| <code><a href="#@cdktn/provider-awscc.datazoneProjectProfile.DatazoneProjectProfileEnvironmentConfigurations.property.deploymentOrder">deploymentOrder</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_project_profile#deployment_order DatazoneProjectProfile#deployment_order}. |
+| <code><a href="#@cdktn/provider-awscc.datazoneProjectProfile.DatazoneProjectProfileEnvironmentConfigurations.property.description">description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_project_profile#description DatazoneProjectProfile#description}. |
+| <code><a href="#@cdktn/provider-awscc.datazoneProjectProfile.DatazoneProjectProfileEnvironmentConfigurations.property.environmentBlueprintId">environmentBlueprintId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_project_profile#environment_blueprint_id DatazoneProjectProfile#environment_blueprint_id}. |
+| <code><a href="#@cdktn/provider-awscc.datazoneProjectProfile.DatazoneProjectProfileEnvironmentConfigurations.property.environmentConfigurationId">environmentConfigurationId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_project_profile#environment_configuration_id DatazoneProjectProfile#environment_configuration_id}. |
+| <code><a href="#@cdktn/provider-awscc.datazoneProjectProfile.DatazoneProjectProfileEnvironmentConfigurations.property.name">name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_project_profile#name DatazoneProjectProfile#name}. |
 
 ---
 
@@ -1339,7 +1339,7 @@ public readonly awsAccount: DatazoneProjectProfileEnvironmentConfigurationsAwsAc
 
 - *Type:* <a href="#@cdktn/provider-awscc.datazoneProjectProfile.DatazoneProjectProfileEnvironmentConfigurationsAwsAccount">DatazoneProjectProfileEnvironmentConfigurationsAwsAccount</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_project_profile#aws_account DatazoneProjectProfile#aws_account}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_project_profile#aws_account DatazoneProjectProfile#aws_account}.
 
 ---
 
@@ -1351,7 +1351,7 @@ public readonly awsRegion: DatazoneProjectProfileEnvironmentConfigurationsAwsReg
 
 - *Type:* <a href="#@cdktn/provider-awscc.datazoneProjectProfile.DatazoneProjectProfileEnvironmentConfigurationsAwsRegion">DatazoneProjectProfileEnvironmentConfigurationsAwsRegion</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_project_profile#aws_region DatazoneProjectProfile#aws_region}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_project_profile#aws_region DatazoneProjectProfile#aws_region}.
 
 ---
 
@@ -1363,7 +1363,7 @@ public readonly configurationParameters: DatazoneProjectProfileEnvironmentConfig
 
 - *Type:* <a href="#@cdktn/provider-awscc.datazoneProjectProfile.DatazoneProjectProfileEnvironmentConfigurationsConfigurationParameters">DatazoneProjectProfileEnvironmentConfigurationsConfigurationParameters</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_project_profile#configuration_parameters DatazoneProjectProfile#configuration_parameters}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_project_profile#configuration_parameters DatazoneProjectProfile#configuration_parameters}.
 
 ---
 
@@ -1375,7 +1375,7 @@ public readonly deploymentMode: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_project_profile#deployment_mode DatazoneProjectProfile#deployment_mode}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_project_profile#deployment_mode DatazoneProjectProfile#deployment_mode}.
 
 ---
 
@@ -1387,7 +1387,7 @@ public readonly deploymentOrder: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_project_profile#deployment_order DatazoneProjectProfile#deployment_order}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_project_profile#deployment_order DatazoneProjectProfile#deployment_order}.
 
 ---
 
@@ -1399,7 +1399,7 @@ public readonly description: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_project_profile#description DatazoneProjectProfile#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_project_profile#description DatazoneProjectProfile#description}.
 
 ---
 
@@ -1411,7 +1411,7 @@ public readonly environmentBlueprintId: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_project_profile#environment_blueprint_id DatazoneProjectProfile#environment_blueprint_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_project_profile#environment_blueprint_id DatazoneProjectProfile#environment_blueprint_id}.
 
 ---
 
@@ -1423,7 +1423,7 @@ public readonly environmentConfigurationId: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_project_profile#environment_configuration_id DatazoneProjectProfile#environment_configuration_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_project_profile#environment_configuration_id DatazoneProjectProfile#environment_configuration_id}.
 
 ---
 
@@ -1435,7 +1435,7 @@ public readonly name: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_project_profile#name DatazoneProjectProfile#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_project_profile#name DatazoneProjectProfile#name}.
 
 ---
 
@@ -1453,7 +1453,7 @@ const datazoneProjectProfileEnvironmentConfigurationsAwsAccount: datazoneProject
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.datazoneProjectProfile.DatazoneProjectProfileEnvironmentConfigurationsAwsAccount.property.awsAccountId">awsAccountId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_project_profile#aws_account_id DatazoneProjectProfile#aws_account_id}. |
+| <code><a href="#@cdktn/provider-awscc.datazoneProjectProfile.DatazoneProjectProfileEnvironmentConfigurationsAwsAccount.property.awsAccountId">awsAccountId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_project_profile#aws_account_id DatazoneProjectProfile#aws_account_id}. |
 
 ---
 
@@ -1465,7 +1465,7 @@ public readonly awsAccountId: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_project_profile#aws_account_id DatazoneProjectProfile#aws_account_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_project_profile#aws_account_id DatazoneProjectProfile#aws_account_id}.
 
 ---
 
@@ -1483,7 +1483,7 @@ const datazoneProjectProfileEnvironmentConfigurationsAwsRegion: datazoneProjectP
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.datazoneProjectProfile.DatazoneProjectProfileEnvironmentConfigurationsAwsRegion.property.regionName">regionName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_project_profile#region_name DatazoneProjectProfile#region_name}. |
+| <code><a href="#@cdktn/provider-awscc.datazoneProjectProfile.DatazoneProjectProfileEnvironmentConfigurationsAwsRegion.property.regionName">regionName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_project_profile#region_name DatazoneProjectProfile#region_name}. |
 
 ---
 
@@ -1495,7 +1495,7 @@ public readonly regionName: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_project_profile#region_name DatazoneProjectProfile#region_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_project_profile#region_name DatazoneProjectProfile#region_name}.
 
 ---
 
@@ -1513,9 +1513,9 @@ const datazoneProjectProfileEnvironmentConfigurationsConfigurationParameters: da
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.datazoneProjectProfile.DatazoneProjectProfileEnvironmentConfigurationsConfigurationParameters.property.parameterOverrides">parameterOverrides</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.datazoneProjectProfile.DatazoneProjectProfileEnvironmentConfigurationsConfigurationParametersParameterOverrides">DatazoneProjectProfileEnvironmentConfigurationsConfigurationParametersParameterOverrides</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_project_profile#parameter_overrides DatazoneProjectProfile#parameter_overrides}. |
-| <code><a href="#@cdktn/provider-awscc.datazoneProjectProfile.DatazoneProjectProfileEnvironmentConfigurationsConfigurationParameters.property.resolvedParameters">resolvedParameters</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.datazoneProjectProfile.DatazoneProjectProfileEnvironmentConfigurationsConfigurationParametersResolvedParameters">DatazoneProjectProfileEnvironmentConfigurationsConfigurationParametersResolvedParameters</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_project_profile#resolved_parameters DatazoneProjectProfile#resolved_parameters}. |
-| <code><a href="#@cdktn/provider-awscc.datazoneProjectProfile.DatazoneProjectProfileEnvironmentConfigurationsConfigurationParameters.property.ssmPath">ssmPath</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_project_profile#ssm_path DatazoneProjectProfile#ssm_path}. |
+| <code><a href="#@cdktn/provider-awscc.datazoneProjectProfile.DatazoneProjectProfileEnvironmentConfigurationsConfigurationParameters.property.parameterOverrides">parameterOverrides</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.datazoneProjectProfile.DatazoneProjectProfileEnvironmentConfigurationsConfigurationParametersParameterOverrides">DatazoneProjectProfileEnvironmentConfigurationsConfigurationParametersParameterOverrides</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_project_profile#parameter_overrides DatazoneProjectProfile#parameter_overrides}. |
+| <code><a href="#@cdktn/provider-awscc.datazoneProjectProfile.DatazoneProjectProfileEnvironmentConfigurationsConfigurationParameters.property.resolvedParameters">resolvedParameters</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.datazoneProjectProfile.DatazoneProjectProfileEnvironmentConfigurationsConfigurationParametersResolvedParameters">DatazoneProjectProfileEnvironmentConfigurationsConfigurationParametersResolvedParameters</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_project_profile#resolved_parameters DatazoneProjectProfile#resolved_parameters}. |
+| <code><a href="#@cdktn/provider-awscc.datazoneProjectProfile.DatazoneProjectProfileEnvironmentConfigurationsConfigurationParameters.property.ssmPath">ssmPath</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_project_profile#ssm_path DatazoneProjectProfile#ssm_path}. |
 
 ---
 
@@ -1527,7 +1527,7 @@ public readonly parameterOverrides: IResolvable | DatazoneProjectProfileEnvironm
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.datazoneProjectProfile.DatazoneProjectProfileEnvironmentConfigurationsConfigurationParametersParameterOverrides">DatazoneProjectProfileEnvironmentConfigurationsConfigurationParametersParameterOverrides</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_project_profile#parameter_overrides DatazoneProjectProfile#parameter_overrides}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_project_profile#parameter_overrides DatazoneProjectProfile#parameter_overrides}.
 
 ---
 
@@ -1539,7 +1539,7 @@ public readonly resolvedParameters: IResolvable | DatazoneProjectProfileEnvironm
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.datazoneProjectProfile.DatazoneProjectProfileEnvironmentConfigurationsConfigurationParametersResolvedParameters">DatazoneProjectProfileEnvironmentConfigurationsConfigurationParametersResolvedParameters</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_project_profile#resolved_parameters DatazoneProjectProfile#resolved_parameters}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_project_profile#resolved_parameters DatazoneProjectProfile#resolved_parameters}.
 
 ---
 
@@ -1551,7 +1551,7 @@ public readonly ssmPath: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_project_profile#ssm_path DatazoneProjectProfile#ssm_path}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_project_profile#ssm_path DatazoneProjectProfile#ssm_path}.
 
 ---
 
@@ -1569,9 +1569,9 @@ const datazoneProjectProfileEnvironmentConfigurationsConfigurationParametersPara
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.datazoneProjectProfile.DatazoneProjectProfileEnvironmentConfigurationsConfigurationParametersParameterOverrides.property.isEditable">isEditable</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_project_profile#is_editable DatazoneProjectProfile#is_editable}. |
-| <code><a href="#@cdktn/provider-awscc.datazoneProjectProfile.DatazoneProjectProfileEnvironmentConfigurationsConfigurationParametersParameterOverrides.property.name">name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_project_profile#name DatazoneProjectProfile#name}. |
-| <code><a href="#@cdktn/provider-awscc.datazoneProjectProfile.DatazoneProjectProfileEnvironmentConfigurationsConfigurationParametersParameterOverrides.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_project_profile#value DatazoneProjectProfile#value}. |
+| <code><a href="#@cdktn/provider-awscc.datazoneProjectProfile.DatazoneProjectProfileEnvironmentConfigurationsConfigurationParametersParameterOverrides.property.isEditable">isEditable</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_project_profile#is_editable DatazoneProjectProfile#is_editable}. |
+| <code><a href="#@cdktn/provider-awscc.datazoneProjectProfile.DatazoneProjectProfileEnvironmentConfigurationsConfigurationParametersParameterOverrides.property.name">name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_project_profile#name DatazoneProjectProfile#name}. |
+| <code><a href="#@cdktn/provider-awscc.datazoneProjectProfile.DatazoneProjectProfileEnvironmentConfigurationsConfigurationParametersParameterOverrides.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_project_profile#value DatazoneProjectProfile#value}. |
 
 ---
 
@@ -1583,7 +1583,7 @@ public readonly isEditable: boolean | IResolvable;
 
 - *Type:* boolean | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_project_profile#is_editable DatazoneProjectProfile#is_editable}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_project_profile#is_editable DatazoneProjectProfile#is_editable}.
 
 ---
 
@@ -1595,7 +1595,7 @@ public readonly name: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_project_profile#name DatazoneProjectProfile#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_project_profile#name DatazoneProjectProfile#name}.
 
 ---
 
@@ -1607,7 +1607,7 @@ public readonly value: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_project_profile#value DatazoneProjectProfile#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_project_profile#value DatazoneProjectProfile#value}.
 
 ---
 
@@ -1625,9 +1625,9 @@ const datazoneProjectProfileEnvironmentConfigurationsConfigurationParametersReso
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.datazoneProjectProfile.DatazoneProjectProfileEnvironmentConfigurationsConfigurationParametersResolvedParameters.property.isEditable">isEditable</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_project_profile#is_editable DatazoneProjectProfile#is_editable}. |
-| <code><a href="#@cdktn/provider-awscc.datazoneProjectProfile.DatazoneProjectProfileEnvironmentConfigurationsConfigurationParametersResolvedParameters.property.name">name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_project_profile#name DatazoneProjectProfile#name}. |
-| <code><a href="#@cdktn/provider-awscc.datazoneProjectProfile.DatazoneProjectProfileEnvironmentConfigurationsConfigurationParametersResolvedParameters.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_project_profile#value DatazoneProjectProfile#value}. |
+| <code><a href="#@cdktn/provider-awscc.datazoneProjectProfile.DatazoneProjectProfileEnvironmentConfigurationsConfigurationParametersResolvedParameters.property.isEditable">isEditable</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_project_profile#is_editable DatazoneProjectProfile#is_editable}. |
+| <code><a href="#@cdktn/provider-awscc.datazoneProjectProfile.DatazoneProjectProfileEnvironmentConfigurationsConfigurationParametersResolvedParameters.property.name">name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_project_profile#name DatazoneProjectProfile#name}. |
+| <code><a href="#@cdktn/provider-awscc.datazoneProjectProfile.DatazoneProjectProfileEnvironmentConfigurationsConfigurationParametersResolvedParameters.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_project_profile#value DatazoneProjectProfile#value}. |
 
 ---
 
@@ -1639,7 +1639,7 @@ public readonly isEditable: boolean | IResolvable;
 
 - *Type:* boolean | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_project_profile#is_editable DatazoneProjectProfile#is_editable}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_project_profile#is_editable DatazoneProjectProfile#is_editable}.
 
 ---
 
@@ -1651,7 +1651,7 @@ public readonly name: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_project_profile#name DatazoneProjectProfile#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_project_profile#name DatazoneProjectProfile#name}.
 
 ---
 
@@ -1663,7 +1663,7 @@ public readonly value: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_project_profile#value DatazoneProjectProfile#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_project_profile#value DatazoneProjectProfile#value}.
 
 ---
 
@@ -1681,9 +1681,9 @@ const datazoneProjectProfileProjectResourceTags: datazoneProjectProfile.Datazone
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.datazoneProjectProfile.DatazoneProjectProfileProjectResourceTags.property.isValueEditable">isValueEditable</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_project_profile#is_value_editable DatazoneProjectProfile#is_value_editable}. |
-| <code><a href="#@cdktn/provider-awscc.datazoneProjectProfile.DatazoneProjectProfileProjectResourceTags.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_project_profile#key DatazoneProjectProfile#key}. |
-| <code><a href="#@cdktn/provider-awscc.datazoneProjectProfile.DatazoneProjectProfileProjectResourceTags.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_project_profile#value DatazoneProjectProfile#value}. |
+| <code><a href="#@cdktn/provider-awscc.datazoneProjectProfile.DatazoneProjectProfileProjectResourceTags.property.isValueEditable">isValueEditable</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_project_profile#is_value_editable DatazoneProjectProfile#is_value_editable}. |
+| <code><a href="#@cdktn/provider-awscc.datazoneProjectProfile.DatazoneProjectProfileProjectResourceTags.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_project_profile#key DatazoneProjectProfile#key}. |
+| <code><a href="#@cdktn/provider-awscc.datazoneProjectProfile.DatazoneProjectProfileProjectResourceTags.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_project_profile#value DatazoneProjectProfile#value}. |
 
 ---
 
@@ -1695,7 +1695,7 @@ public readonly isValueEditable: boolean | IResolvable;
 
 - *Type:* boolean | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_project_profile#is_value_editable DatazoneProjectProfile#is_value_editable}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_project_profile#is_value_editable DatazoneProjectProfile#is_value_editable}.
 
 ---
 
@@ -1707,7 +1707,7 @@ public readonly key: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_project_profile#key DatazoneProjectProfile#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_project_profile#key DatazoneProjectProfile#key}.
 
 ---
 
@@ -1719,7 +1719,7 @@ public readonly value: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_project_profile#value DatazoneProjectProfile#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_project_profile#value DatazoneProjectProfile#value}.
 
 ---
 

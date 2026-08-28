@@ -4,7 +4,7 @@
 
 ### ApigatewayClientCertificate <a name="ApigatewayClientCertificate" id="@cdktn/provider-awscc.apigatewayClientCertificate.ApigatewayClientCertificate"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_client_certificate awscc_apigateway_client_certificate}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_client_certificate awscc_apigateway_client_certificate}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apigatewayClientCertificate.ApigatewayClientCertificate.Initializer"></a>
 
@@ -516,7 +516,7 @@ The construct id used in the generated config for the ApigatewayClientCertificat
 
 The id of the existing ApigatewayClientCertificate that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_client_certificate#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_client_certificate#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -808,8 +808,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewayclientcertif
 | <code><a href="#@cdktn/provider-awscc.apigatewayClientCertificate.ApigatewayClientCertificateConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.apigatewayClientCertificate.ApigatewayClientCertificateConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.apigatewayClientCertificate.ApigatewayClientCertificateConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.apigatewayClientCertificate.ApigatewayClientCertificateConfig.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_client_certificate#description ApigatewayClientCertificate#description}. |
-| <code><a href="#@cdktn/provider-awscc.apigatewayClientCertificate.ApigatewayClientCertificateConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_client_certificate#tags ApigatewayClientCertificate#tags}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayClientCertificate.ApigatewayClientCertificateConfig.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_client_certificate#description ApigatewayClientCertificate#description}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayClientCertificate.ApigatewayClientCertificateConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_client_certificate#tags ApigatewayClientCertificate#tags}. |
 
 ---
 
@@ -891,7 +891,7 @@ Description *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_client_certificate#description ApigatewayClientCertificate#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_client_certificate#description ApigatewayClientCertificate#description}.
 
 ---
 
@@ -903,7 +903,7 @@ Tags interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_client_certificate#tags ApigatewayClientCertificate#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_client_certificate#tags ApigatewayClientCertificate#tags}.
 
 ---
 
@@ -941,7 +941,7 @@ A string you can use to assign a value.
 
 The combination of tag keys and values can help you organize and categorize your resources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_client_certificate#key ApigatewayClientCertificate#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_client_certificate#key ApigatewayClientCertificate#key}
 
 ---
 
@@ -955,7 +955,7 @@ Value *string
 
 The value for the specified tag key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_client_certificate#value ApigatewayClientCertificate#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_client_certificate#value ApigatewayClientCertificate#value}
 
 ---
 

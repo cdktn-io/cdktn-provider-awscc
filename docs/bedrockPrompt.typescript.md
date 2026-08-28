@@ -4,7 +4,7 @@
 
 ### BedrockPrompt <a name="BedrockPrompt" id="@cdktn/provider-awscc.bedrockPrompt.BedrockPrompt"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_prompt awscc_bedrock_prompt}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_prompt awscc_bedrock_prompt}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockPrompt.BedrockPrompt.Initializer"></a>
 
@@ -537,7 +537,7 @@ The construct id used in the generated config for the BedrockPrompt to import.
 
 The id of the existing BedrockPrompt that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_prompt#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_prompt#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1040,7 +1040,7 @@ public readonly name: string;
 
 Name for a prompt resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_prompt#name BedrockPrompt#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_prompt#name BedrockPrompt#name}
 
 ---
 
@@ -1054,7 +1054,7 @@ public readonly customerEncryptionKeyArn: string;
 
 A KMS key ARN.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_prompt#customer_encryption_key_arn BedrockPrompt#customer_encryption_key_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_prompt#customer_encryption_key_arn BedrockPrompt#customer_encryption_key_arn}
 
 ---
 
@@ -1068,7 +1068,7 @@ public readonly defaultVariant: string;
 
 Name for a variant.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_prompt#default_variant BedrockPrompt#default_variant}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_prompt#default_variant BedrockPrompt#default_variant}
 
 ---
 
@@ -1082,7 +1082,7 @@ public readonly description: string;
 
 Name for a prompt resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_prompt#description BedrockPrompt#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_prompt#description BedrockPrompt#description}
 
 ---
 
@@ -1096,7 +1096,7 @@ public readonly tags: {[ key: string ]: string};
 
 A map of tag keys and values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_prompt#tags BedrockPrompt#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_prompt#tags BedrockPrompt#tags}
 
 ---
 
@@ -1110,7 +1110,7 @@ public readonly variants: IResolvable | BedrockPromptVariants[];
 
 List of prompt variants.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_prompt#variants BedrockPrompt#variants}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_prompt#variants BedrockPrompt#variants}
 
 ---
 
@@ -1149,7 +1149,7 @@ public readonly additionalModelRequestFields: string;
 
 Contains model-specific configurations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_prompt#additional_model_request_fields BedrockPrompt#additional_model_request_fields}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_prompt#additional_model_request_fields BedrockPrompt#additional_model_request_fields}
 
 ---
 
@@ -1163,7 +1163,7 @@ public readonly genAiResource: BedrockPromptVariantsGenAiResource;
 
 Target resource to invoke with Prompt.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_prompt#gen_ai_resource BedrockPrompt#gen_ai_resource}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_prompt#gen_ai_resource BedrockPrompt#gen_ai_resource}
 
 ---
 
@@ -1177,7 +1177,7 @@ public readonly inferenceConfiguration: BedrockPromptVariantsInferenceConfigurat
 
 Model inference configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_prompt#inference_configuration BedrockPrompt#inference_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_prompt#inference_configuration BedrockPrompt#inference_configuration}
 
 ---
 
@@ -1191,7 +1191,7 @@ public readonly metadata: IResolvable | BedrockPromptVariantsMetadata[];
 
 List of metadata to associate with the prompt variant.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_prompt#metadata BedrockPrompt#metadata}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_prompt#metadata BedrockPrompt#metadata}
 
 ---
 
@@ -1205,7 +1205,7 @@ public readonly modelId: string;
 
 ARN or Id of a Bedrock Foundational Model or Inference Profile, or the ARN of a imported model, or a provisioned throughput ARN for custom models.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_prompt#model_id BedrockPrompt#model_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_prompt#model_id BedrockPrompt#model_id}
 
 ---
 
@@ -1219,7 +1219,7 @@ public readonly name: string;
 
 Name for a variant.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_prompt#name BedrockPrompt#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_prompt#name BedrockPrompt#name}
 
 ---
 
@@ -1233,7 +1233,7 @@ public readonly templateConfiguration: BedrockPromptVariantsTemplateConfiguratio
 
 Prompt template configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_prompt#template_configuration BedrockPrompt#template_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_prompt#template_configuration BedrockPrompt#template_configuration}
 
 ---
 
@@ -1247,7 +1247,7 @@ public readonly templateType: string;
 
 Prompt template type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_prompt#template_type BedrockPrompt#template_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_prompt#template_type BedrockPrompt#template_type}
 
 ---
 
@@ -1279,7 +1279,7 @@ public readonly agent: BedrockPromptVariantsGenAiResourceAgent;
 
 Target Agent to invoke with Prompt.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_prompt#agent BedrockPrompt#agent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_prompt#agent BedrockPrompt#agent}
 
 ---
 
@@ -1311,7 +1311,7 @@ public readonly agentIdentifier: string;
 
 Arn representation of the Agent Alias.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_prompt#agent_identifier BedrockPrompt#agent_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_prompt#agent_identifier BedrockPrompt#agent_identifier}
 
 ---
 
@@ -1343,7 +1343,7 @@ public readonly text: BedrockPromptVariantsInferenceConfigurationText;
 
 Prompt model inference configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_prompt#text BedrockPrompt#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_prompt#text BedrockPrompt#text}
 
 ---
 
@@ -1378,7 +1378,7 @@ public readonly maxTokens: number;
 
 Maximum length of output.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_prompt#max_tokens BedrockPrompt#max_tokens}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_prompt#max_tokens BedrockPrompt#max_tokens}
 
 ---
 
@@ -1392,7 +1392,7 @@ public readonly stopSequences: string[];
 
 List of stop sequences.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_prompt#stop_sequences BedrockPrompt#stop_sequences}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_prompt#stop_sequences BedrockPrompt#stop_sequences}
 
 ---
 
@@ -1406,7 +1406,7 @@ public readonly temperature: number;
 
 Controls randomness, higher values increase diversity.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_prompt#temperature BedrockPrompt#temperature}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_prompt#temperature BedrockPrompt#temperature}
 
 ---
 
@@ -1420,7 +1420,7 @@ public readonly topP: number;
 
 Cumulative probability cutoff for token selection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_prompt#top_p BedrockPrompt#top_p}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_prompt#top_p BedrockPrompt#top_p}
 
 ---
 
@@ -1453,7 +1453,7 @@ public readonly key: string;
 
 The key of a metadata tag for a prompt variant.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_prompt#key BedrockPrompt#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_prompt#key BedrockPrompt#key}
 
 ---
 
@@ -1467,7 +1467,7 @@ public readonly value: string;
 
 The value of a metadata tag for a prompt variant.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_prompt#value BedrockPrompt#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_prompt#value BedrockPrompt#value}
 
 ---
 
@@ -1500,7 +1500,7 @@ public readonly chat: BedrockPromptVariantsTemplateConfigurationChat;
 
 Configuration for chat prompt template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_prompt#chat BedrockPrompt#chat}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_prompt#chat BedrockPrompt#chat}
 
 ---
 
@@ -1514,7 +1514,7 @@ public readonly text: BedrockPromptVariantsTemplateConfigurationText;
 
 Configuration for text prompt template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_prompt#text BedrockPrompt#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_prompt#text BedrockPrompt#text}
 
 ---
 
@@ -1549,7 +1549,7 @@ public readonly inputVariables: IResolvable | BedrockPromptVariantsTemplateConfi
 
 List of input variables.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_prompt#input_variables BedrockPrompt#input_variables}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_prompt#input_variables BedrockPrompt#input_variables}
 
 ---
 
@@ -1563,7 +1563,7 @@ public readonly messages: IResolvable | BedrockPromptVariantsTemplateConfigurati
 
 List of messages for chat prompt template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_prompt#messages BedrockPrompt#messages}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_prompt#messages BedrockPrompt#messages}
 
 ---
 
@@ -1577,7 +1577,7 @@ public readonly systemAttribute: IResolvable | BedrockPromptVariantsTemplateConf
 
 Configuration for chat prompt template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_prompt#system BedrockPrompt#system}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_prompt#system BedrockPrompt#system}
 
 ---
 
@@ -1591,7 +1591,7 @@ public readonly toolConfiguration: BedrockPromptVariantsTemplateConfigurationCha
 
 Tool configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_prompt#tool_configuration BedrockPrompt#tool_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_prompt#tool_configuration BedrockPrompt#tool_configuration}
 
 ---
 
@@ -1623,7 +1623,7 @@ public readonly name: string;
 
 Name for an input variable.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_prompt#name BedrockPrompt#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_prompt#name BedrockPrompt#name}
 
 ---
 
@@ -1656,7 +1656,7 @@ public readonly content: IResolvable | BedrockPromptVariantsTemplateConfiguratio
 
 List of Content Blocks.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_prompt#content BedrockPrompt#content}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_prompt#content BedrockPrompt#content}
 
 ---
 
@@ -1670,7 +1670,7 @@ public readonly role: string;
 
 Conversation roles for the chat prompt.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_prompt#role BedrockPrompt#role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_prompt#role BedrockPrompt#role}
 
 ---
 
@@ -1703,7 +1703,7 @@ public readonly cachePoint: BedrockPromptVariantsTemplateConfigurationChatMessag
 
 CachePointBlock.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_prompt#cache_point BedrockPrompt#cache_point}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_prompt#cache_point BedrockPrompt#cache_point}
 
 ---
 
@@ -1717,7 +1717,7 @@ public readonly text: string;
 
 Configuration for chat prompt template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_prompt#text BedrockPrompt#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_prompt#text BedrockPrompt#text}
 
 ---
 
@@ -1749,7 +1749,7 @@ public readonly type: string;
 
 CachePoint types for CachePointBlock.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_prompt#type BedrockPrompt#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_prompt#type BedrockPrompt#type}
 
 ---
 
@@ -1782,7 +1782,7 @@ public readonly cachePoint: BedrockPromptVariantsTemplateConfigurationChatSystem
 
 CachePointBlock.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_prompt#cache_point BedrockPrompt#cache_point}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_prompt#cache_point BedrockPrompt#cache_point}
 
 ---
 
@@ -1796,7 +1796,7 @@ public readonly text: string;
 
 Configuration for chat prompt template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_prompt#text BedrockPrompt#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_prompt#text BedrockPrompt#text}
 
 ---
 
@@ -1828,7 +1828,7 @@ public readonly type: string;
 
 CachePoint types for CachePointBlock.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_prompt#type BedrockPrompt#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_prompt#type BedrockPrompt#type}
 
 ---
 
@@ -1861,7 +1861,7 @@ public readonly toolChoice: BedrockPromptVariantsTemplateConfigurationChatToolCo
 
 Tool choice.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_prompt#tool_choice BedrockPrompt#tool_choice}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_prompt#tool_choice BedrockPrompt#tool_choice}
 
 ---
 
@@ -1875,7 +1875,7 @@ public readonly tools: IResolvable | BedrockPromptVariantsTemplateConfigurationC
 
 List of Tools.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_prompt#tools BedrockPrompt#tools}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_prompt#tools BedrockPrompt#tools}
 
 ---
 
@@ -1909,7 +1909,7 @@ public readonly any: string;
 
 Any Tool choice.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_prompt#any BedrockPrompt#any}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_prompt#any BedrockPrompt#any}
 
 ---
 
@@ -1923,7 +1923,7 @@ public readonly auto: string;
 
 Auto Tool choice.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_prompt#auto BedrockPrompt#auto}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_prompt#auto BedrockPrompt#auto}
 
 ---
 
@@ -1937,7 +1937,7 @@ public readonly tool: BedrockPromptVariantsTemplateConfigurationChatToolConfigur
 
 Specific Tool choice.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_prompt#tool BedrockPrompt#tool}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_prompt#tool BedrockPrompt#tool}
 
 ---
 
@@ -1969,7 +1969,7 @@ public readonly name: string;
 
 Tool name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_prompt#name BedrockPrompt#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_prompt#name BedrockPrompt#name}
 
 ---
 
@@ -2002,7 +2002,7 @@ public readonly cachePoint: BedrockPromptVariantsTemplateConfigurationChatToolCo
 
 CachePointBlock.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_prompt#cache_point BedrockPrompt#cache_point}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_prompt#cache_point BedrockPrompt#cache_point}
 
 ---
 
@@ -2016,7 +2016,7 @@ public readonly toolSpec: BedrockPromptVariantsTemplateConfigurationChatToolConf
 
 Tool specification.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_prompt#tool_spec BedrockPrompt#tool_spec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_prompt#tool_spec BedrockPrompt#tool_spec}
 
 ---
 
@@ -2048,7 +2048,7 @@ public readonly type: string;
 
 CachePoint types for CachePointBlock.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_prompt#type BedrockPrompt#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_prompt#type BedrockPrompt#type}
 
 ---
 
@@ -2066,7 +2066,7 @@ const bedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolsToolSp
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.bedrockPrompt.BedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolsToolSpec.property.description">description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_prompt#description BedrockPrompt#description}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockPrompt.BedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolsToolSpec.property.description">description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_prompt#description BedrockPrompt#description}. |
 | <code><a href="#@cdktn/provider-awscc.bedrockPrompt.BedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolsToolSpec.property.inputSchema">inputSchema</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockPrompt.BedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolsToolSpecInputSchema">BedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolsToolSpecInputSchema</a></code> | Tool input schema. |
 | <code><a href="#@cdktn/provider-awscc.bedrockPrompt.BedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolsToolSpec.property.name">name</a></code> | <code>string</code> | Tool name. |
 
@@ -2080,7 +2080,7 @@ public readonly description: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_prompt#description BedrockPrompt#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_prompt#description BedrockPrompt#description}.
 
 ---
 
@@ -2094,7 +2094,7 @@ public readonly inputSchema: BedrockPromptVariantsTemplateConfigurationChatToolC
 
 Tool input schema.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_prompt#input_schema BedrockPrompt#input_schema}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_prompt#input_schema BedrockPrompt#input_schema}
 
 ---
 
@@ -2108,7 +2108,7 @@ public readonly name: string;
 
 Tool name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_prompt#name BedrockPrompt#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_prompt#name BedrockPrompt#name}
 
 ---
 
@@ -2126,7 +2126,7 @@ const bedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolsToolSp
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.bedrockPrompt.BedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolsToolSpecInputSchema.property.json">json</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_prompt#json BedrockPrompt#json}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockPrompt.BedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolsToolSpecInputSchema.property.json">json</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_prompt#json BedrockPrompt#json}. |
 
 ---
 
@@ -2138,7 +2138,7 @@ public readonly json: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_prompt#json BedrockPrompt#json}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_prompt#json BedrockPrompt#json}.
 
 ---
 
@@ -2173,7 +2173,7 @@ public readonly cachePoint: BedrockPromptVariantsTemplateConfigurationTextCacheP
 
 CachePointBlock.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_prompt#cache_point BedrockPrompt#cache_point}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_prompt#cache_point BedrockPrompt#cache_point}
 
 ---
 
@@ -2187,7 +2187,7 @@ public readonly inputVariables: IResolvable | BedrockPromptVariantsTemplateConfi
 
 List of input variables.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_prompt#input_variables BedrockPrompt#input_variables}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_prompt#input_variables BedrockPrompt#input_variables}
 
 ---
 
@@ -2201,7 +2201,7 @@ public readonly text: string;
 
 Prompt content for String prompt template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_prompt#text BedrockPrompt#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_prompt#text BedrockPrompt#text}
 
 ---
 
@@ -2215,7 +2215,7 @@ public readonly textS3Location: BedrockPromptVariantsTemplateConfigurationTextTe
 
 The identifier for the S3 resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_prompt#text_s3_location BedrockPrompt#text_s3_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_prompt#text_s3_location BedrockPrompt#text_s3_location}
 
 ---
 
@@ -2247,7 +2247,7 @@ public readonly type: string;
 
 CachePoint types for CachePointBlock.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_prompt#type BedrockPrompt#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_prompt#type BedrockPrompt#type}
 
 ---
 
@@ -2279,7 +2279,7 @@ public readonly name: string;
 
 Name for an input variable.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_prompt#name BedrockPrompt#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_prompt#name BedrockPrompt#name}
 
 ---
 
@@ -2313,7 +2313,7 @@ public readonly bucket: string;
 
 A bucket in S3.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_prompt#bucket BedrockPrompt#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_prompt#bucket BedrockPrompt#bucket}
 
 ---
 
@@ -2327,7 +2327,7 @@ public readonly key: string;
 
 A object key in S3.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_prompt#key BedrockPrompt#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_prompt#key BedrockPrompt#key}
 
 ---
 
@@ -2341,7 +2341,7 @@ public readonly version: string;
 
 The version of the the S3 object to use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_prompt#version BedrockPrompt#version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_prompt#version BedrockPrompt#version}
 
 ---
 

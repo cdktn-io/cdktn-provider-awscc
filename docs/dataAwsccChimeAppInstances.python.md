@@ -4,7 +4,7 @@
 
 ### DataAwsccChimeAppInstances <a name="DataAwsccChimeAppInstances" id="@cdktn/provider-awscc.dataAwsccChimeAppInstances.DataAwsccChimeAppInstances"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/chime_app_instances awscc_chime_app_instances}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/chime_app_instances awscc_chime_app_instances}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccChimeAppInstances.DataAwsccChimeAppInstances.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccChimeAppInstances
 
 The id of the existing DataAwsccChimeAppInstances that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/chime_app_instances#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/chime_app_instances#import import section} in the documentation of this resource for the id to use
 
 ---
 

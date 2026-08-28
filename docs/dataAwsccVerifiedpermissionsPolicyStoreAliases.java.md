@@ -4,7 +4,7 @@
 
 ### DataAwsccVerifiedpermissionsPolicyStoreAliases <a name="DataAwsccVerifiedpermissionsPolicyStoreAliases" id="@cdktn/provider-awscc.dataAwsccVerifiedpermissionsPolicyStoreAliases.DataAwsccVerifiedpermissionsPolicyStoreAliases"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/verifiedpermissions_policy_store_aliases awscc_verifiedpermissions_policy_store_aliases}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/verifiedpermissions_policy_store_aliases awscc_verifiedpermissions_policy_store_aliases}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccVerifiedpermissionsPolicyStoreAliases.DataAwsccVerifiedpermissionsPolicyStoreAliases.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccVerifiedpermissio
 
 The id of the existing DataAwsccVerifiedpermissionsPolicyStoreAliases that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/verifiedpermissions_policy_store_aliases#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/verifiedpermissions_policy_store_aliases#import import section} in the documentation of this resource for the id to use
 
 ---
 

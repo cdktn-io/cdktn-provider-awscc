@@ -4,7 +4,7 @@
 
 ### IotJobTemplate <a name="IotJobTemplate" id="@cdktn/provider-awscc.iotJobTemplate.IotJobTemplate"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job_template awscc_iot_job_template}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_job_template awscc_iot_job_template}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotJobTemplate.IotJobTemplate.Initializer"></a>
 
@@ -49,15 +49,15 @@ iotJobTemplate.IotJobTemplate(
 | <code><a href="#@cdktn/provider-awscc.iotJobTemplate.IotJobTemplate.Initializer.parameter.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.iotJobTemplate.IotJobTemplate.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.iotJobTemplate.IotJobTemplate.Initializer.parameter.description">description</a></code> | <code>str</code> | A description of the Job Template. |
-| <code><a href="#@cdktn/provider-awscc.iotJobTemplate.IotJobTemplate.Initializer.parameter.jobTemplateId">job_template_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job_template#job_template_id IotJobTemplate#job_template_id}. |
+| <code><a href="#@cdktn/provider-awscc.iotJobTemplate.IotJobTemplate.Initializer.parameter.jobTemplateId">job_template_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_job_template#job_template_id IotJobTemplate#job_template_id}. |
 | <code><a href="#@cdktn/provider-awscc.iotJobTemplate.IotJobTemplate.Initializer.parameter.abortConfig">abort_config</a></code> | <code><a href="#@cdktn/provider-awscc.iotJobTemplate.IotJobTemplateAbortConfig">IotJobTemplateAbortConfig</a></code> | The criteria that determine when and how a job abort takes place. |
-| <code><a href="#@cdktn/provider-awscc.iotJobTemplate.IotJobTemplate.Initializer.parameter.destinationPackageVersions">destination_package_versions</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job_template#destination_package_versions IotJobTemplate#destination_package_versions}. |
+| <code><a href="#@cdktn/provider-awscc.iotJobTemplate.IotJobTemplate.Initializer.parameter.destinationPackageVersions">destination_package_versions</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_job_template#destination_package_versions IotJobTemplate#destination_package_versions}. |
 | <code><a href="#@cdktn/provider-awscc.iotJobTemplate.IotJobTemplate.Initializer.parameter.document">document</a></code> | <code>str</code> | The job document. Required if you don't specify a value for documentSource. |
 | <code><a href="#@cdktn/provider-awscc.iotJobTemplate.IotJobTemplate.Initializer.parameter.documentSource">document_source</a></code> | <code>str</code> | An S3 link to the job document to use in the template. |
 | <code><a href="#@cdktn/provider-awscc.iotJobTemplate.IotJobTemplate.Initializer.parameter.jobArn">job_arn</a></code> | <code>str</code> | Optional for copying a JobTemplate from a pre-existing Job configuration. |
-| <code><a href="#@cdktn/provider-awscc.iotJobTemplate.IotJobTemplate.Initializer.parameter.jobExecutionsRetryConfig">job_executions_retry_config</a></code> | <code><a href="#@cdktn/provider-awscc.iotJobTemplate.IotJobTemplateJobExecutionsRetryConfig">IotJobTemplateJobExecutionsRetryConfig</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job_template#job_executions_retry_config IotJobTemplate#job_executions_retry_config}. |
+| <code><a href="#@cdktn/provider-awscc.iotJobTemplate.IotJobTemplate.Initializer.parameter.jobExecutionsRetryConfig">job_executions_retry_config</a></code> | <code><a href="#@cdktn/provider-awscc.iotJobTemplate.IotJobTemplateJobExecutionsRetryConfig">IotJobTemplateJobExecutionsRetryConfig</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_job_template#job_executions_retry_config IotJobTemplate#job_executions_retry_config}. |
 | <code><a href="#@cdktn/provider-awscc.iotJobTemplate.IotJobTemplate.Initializer.parameter.jobExecutionsRolloutConfig">job_executions_rollout_config</a></code> | <code><a href="#@cdktn/provider-awscc.iotJobTemplate.IotJobTemplateJobExecutionsRolloutConfig">IotJobTemplateJobExecutionsRolloutConfig</a></code> | Allows you to create a staged rollout of a job. |
-| <code><a href="#@cdktn/provider-awscc.iotJobTemplate.IotJobTemplate.Initializer.parameter.maintenanceWindows">maintenance_windows</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.iotJobTemplate.IotJobTemplateMaintenanceWindows">IotJobTemplateMaintenanceWindows</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job_template#maintenance_windows IotJobTemplate#maintenance_windows}. |
+| <code><a href="#@cdktn/provider-awscc.iotJobTemplate.IotJobTemplate.Initializer.parameter.maintenanceWindows">maintenance_windows</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.iotJobTemplate.IotJobTemplateMaintenanceWindows">IotJobTemplateMaintenanceWindows</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_job_template#maintenance_windows IotJobTemplate#maintenance_windows}. |
 | <code><a href="#@cdktn/provider-awscc.iotJobTemplate.IotJobTemplate.Initializer.parameter.presignedUrlConfig">presigned_url_config</a></code> | <code><a href="#@cdktn/provider-awscc.iotJobTemplate.IotJobTemplatePresignedUrlConfig">IotJobTemplatePresignedUrlConfig</a></code> | Configuration for pre-signed S3 URLs. |
 | <code><a href="#@cdktn/provider-awscc.iotJobTemplate.IotJobTemplate.Initializer.parameter.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.iotJobTemplate.IotJobTemplateTags">IotJobTemplateTags</a>]</code> | Metadata that can be used to manage the JobTemplate. |
 | <code><a href="#@cdktn/provider-awscc.iotJobTemplate.IotJobTemplate.Initializer.parameter.timeoutConfig">timeout_config</a></code> | <code><a href="#@cdktn/provider-awscc.iotJobTemplate.IotJobTemplateTimeoutConfig">IotJobTemplateTimeoutConfig</a></code> | Specifies the amount of time each device has to finish its execution of the job. |
@@ -130,7 +130,7 @@ Must be unique amongst siblings in the same scope
 
 A description of the Job Template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job_template#description IotJobTemplate#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_job_template#description IotJobTemplate#description}
 
 ---
 
@@ -138,7 +138,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job_template#job_template_id IotJobTemplate#job_template_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_job_template#job_template_id IotJobTemplate#job_template_id}.
 
 ---
 
@@ -148,7 +148,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The criteria that determine when and how a job abort takes place.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job_template#abort_config IotJobTemplate#abort_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_job_template#abort_config IotJobTemplate#abort_config}
 
 ---
 
@@ -156,7 +156,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job_template#destination_package_versions IotJobTemplate#destination_package_versions}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_job_template#destination_package_versions IotJobTemplate#destination_package_versions}.
 
 ---
 
@@ -166,7 +166,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The job document. Required if you don't specify a value for documentSource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job_template#document IotJobTemplate#document}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_job_template#document IotJobTemplate#document}
 
 ---
 
@@ -178,7 +178,7 @@ An S3 link to the job document to use in the template.
 
 Required if you don't specify a value for document.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job_template#document_source IotJobTemplate#document_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_job_template#document_source IotJobTemplate#document_source}
 
 ---
 
@@ -188,7 +188,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Optional for copying a JobTemplate from a pre-existing Job configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job_template#job_arn IotJobTemplate#job_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_job_template#job_arn IotJobTemplate#job_arn}
 
 ---
 
@@ -196,7 +196,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.iotJobTemplate.IotJobTemplateJobExecutionsRetryConfig">IotJobTemplateJobExecutionsRetryConfig</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job_template#job_executions_retry_config IotJobTemplate#job_executions_retry_config}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_job_template#job_executions_retry_config IotJobTemplate#job_executions_retry_config}.
 
 ---
 
@@ -206,7 +206,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Allows you to create a staged rollout of a job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job_template#job_executions_rollout_config IotJobTemplate#job_executions_rollout_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_job_template#job_executions_rollout_config IotJobTemplate#job_executions_rollout_config}
 
 ---
 
@@ -214,7 +214,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.iotJobTemplate.IotJobTemplateMaintenanceWindows">IotJobTemplateMaintenanceWindows</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job_template#maintenance_windows IotJobTemplate#maintenance_windows}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_job_template#maintenance_windows IotJobTemplate#maintenance_windows}.
 
 ---
 
@@ -224,7 +224,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Configuration for pre-signed S3 URLs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job_template#presigned_url_config IotJobTemplate#presigned_url_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_job_template#presigned_url_config IotJobTemplate#presigned_url_config}
 
 ---
 
@@ -234,7 +234,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Metadata that can be used to manage the JobTemplate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job_template#tags IotJobTemplate#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_job_template#tags IotJobTemplate#tags}
 
 ---
 
@@ -244,7 +244,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Specifies the amount of time each device has to finish its execution of the job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job_template#timeout_config IotJobTemplate#timeout_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_job_template#timeout_config IotJobTemplate#timeout_config}
 
 ---
 
@@ -657,7 +657,7 @@ def put_abort_config(
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.iotJobTemplate.IotJobTemplateAbortConfigCriteriaListStruct">IotJobTemplateAbortConfigCriteriaListStruct</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job_template#criteria_list IotJobTemplate#criteria_list}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_job_template#criteria_list IotJobTemplate#criteria_list}.
 
 ---
 
@@ -673,7 +673,7 @@ def put_job_executions_retry_config(
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.iotJobTemplate.IotJobTemplateJobExecutionsRetryConfigRetryCriteriaListStruct">IotJobTemplateJobExecutionsRetryConfigRetryCriteriaListStruct</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job_template#retry_criteria_list IotJobTemplate#retry_criteria_list}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_job_template#retry_criteria_list IotJobTemplate#retry_criteria_list}.
 
 ---
 
@@ -694,7 +694,7 @@ The rate of increase for a job rollout.
 
 This parameter allows you to define an exponential rate for a job rollout.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job_template#exponential_rollout_rate IotJobTemplate#exponential_rollout_rate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_job_template#exponential_rollout_rate IotJobTemplate#exponential_rollout_rate}
 
 ---
 
@@ -706,7 +706,7 @@ The maximum number of things that will be notified of a pending job, per minute.
 
 This parameter allows you to create a staged rollout.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job_template#maximum_per_minute IotJobTemplate#maximum_per_minute}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_job_template#maximum_per_minute IotJobTemplate#maximum_per_minute}
 
 ---
 
@@ -739,7 +739,7 @@ def put_presigned_url_config(
 
 How number (in seconds) pre-signed URLs are valid.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job_template#expires_in_sec IotJobTemplate#expires_in_sec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_job_template#expires_in_sec IotJobTemplate#expires_in_sec}
 
 ---
 
@@ -751,7 +751,7 @@ The ARN of an IAM role that grants grants permission to download files from the 
 
 The role must also grant permission for IoT to download the files.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job_template#role_arn IotJobTemplate#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_job_template#role_arn IotJobTemplate#role_arn}
 
 ---
 
@@ -783,7 +783,7 @@ def put_timeout_config(
 
 Specifies the amount of time, in minutes, this device has to finish execution of this job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job_template#in_progress_timeout_in_minutes IotJobTemplate#in_progress_timeout_in_minutes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_job_template#in_progress_timeout_in_minutes IotJobTemplate#in_progress_timeout_in_minutes}
 
 ---
 
@@ -967,7 +967,7 @@ The construct id used in the generated config for the IotJobTemplate to import.
 
 The id of the existing IotJobTemplate that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job_template#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_job_template#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1486,7 +1486,7 @@ iotJobTemplate.IotJobTemplateAbortConfig(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.iotJobTemplate.IotJobTemplateAbortConfig.property.criteriaList">criteria_list</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.iotJobTemplate.IotJobTemplateAbortConfigCriteriaListStruct">IotJobTemplateAbortConfigCriteriaListStruct</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job_template#criteria_list IotJobTemplate#criteria_list}. |
+| <code><a href="#@cdktn/provider-awscc.iotJobTemplate.IotJobTemplateAbortConfig.property.criteriaList">criteria_list</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.iotJobTemplate.IotJobTemplateAbortConfigCriteriaListStruct">IotJobTemplateAbortConfigCriteriaListStruct</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_job_template#criteria_list IotJobTemplate#criteria_list}. |
 
 ---
 
@@ -1498,7 +1498,7 @@ criteria_list: IResolvable | typing.List[IotJobTemplateAbortConfigCriteriaListSt
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.iotJobTemplate.IotJobTemplateAbortConfigCriteriaListStruct">IotJobTemplateAbortConfigCriteriaListStruct</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job_template#criteria_list IotJobTemplate#criteria_list}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_job_template#criteria_list IotJobTemplate#criteria_list}.
 
 ---
 
@@ -1538,7 +1538,7 @@ action: str
 
 The type of job action to take to initiate the job abort.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job_template#action IotJobTemplate#action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_job_template#action IotJobTemplate#action}
 
 ---
 
@@ -1552,7 +1552,7 @@ failure_type: str
 
 The type of job execution failures that can initiate a job abort.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job_template#failure_type IotJobTemplate#failure_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_job_template#failure_type IotJobTemplate#failure_type}
 
 ---
 
@@ -1566,7 +1566,7 @@ min_number_of_executed_things: typing.Union[int, float]
 
 The minimum number of things which must receive job execution notifications before the job can be aborted.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job_template#min_number_of_executed_things IotJobTemplate#min_number_of_executed_things}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_job_template#min_number_of_executed_things IotJobTemplate#min_number_of_executed_things}
 
 ---
 
@@ -1580,7 +1580,7 @@ threshold_percentage: typing.Union[int, float]
 
 The minimum percentage of job execution failures that must occur to initiate the job abort.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job_template#threshold_percentage IotJobTemplate#threshold_percentage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_job_template#threshold_percentage IotJobTemplate#threshold_percentage}
 
 ---
 
@@ -1627,15 +1627,15 @@ iotJobTemplate.IotJobTemplateConfig(
 | <code><a href="#@cdktn/provider-awscc.iotJobTemplate.IotJobTemplateConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.iotJobTemplate.IotJobTemplateConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.iotJobTemplate.IotJobTemplateConfig.property.description">description</a></code> | <code>str</code> | A description of the Job Template. |
-| <code><a href="#@cdktn/provider-awscc.iotJobTemplate.IotJobTemplateConfig.property.jobTemplateId">job_template_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job_template#job_template_id IotJobTemplate#job_template_id}. |
+| <code><a href="#@cdktn/provider-awscc.iotJobTemplate.IotJobTemplateConfig.property.jobTemplateId">job_template_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_job_template#job_template_id IotJobTemplate#job_template_id}. |
 | <code><a href="#@cdktn/provider-awscc.iotJobTemplate.IotJobTemplateConfig.property.abortConfig">abort_config</a></code> | <code><a href="#@cdktn/provider-awscc.iotJobTemplate.IotJobTemplateAbortConfig">IotJobTemplateAbortConfig</a></code> | The criteria that determine when and how a job abort takes place. |
-| <code><a href="#@cdktn/provider-awscc.iotJobTemplate.IotJobTemplateConfig.property.destinationPackageVersions">destination_package_versions</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job_template#destination_package_versions IotJobTemplate#destination_package_versions}. |
+| <code><a href="#@cdktn/provider-awscc.iotJobTemplate.IotJobTemplateConfig.property.destinationPackageVersions">destination_package_versions</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_job_template#destination_package_versions IotJobTemplate#destination_package_versions}. |
 | <code><a href="#@cdktn/provider-awscc.iotJobTemplate.IotJobTemplateConfig.property.document">document</a></code> | <code>str</code> | The job document. Required if you don't specify a value for documentSource. |
 | <code><a href="#@cdktn/provider-awscc.iotJobTemplate.IotJobTemplateConfig.property.documentSource">document_source</a></code> | <code>str</code> | An S3 link to the job document to use in the template. |
 | <code><a href="#@cdktn/provider-awscc.iotJobTemplate.IotJobTemplateConfig.property.jobArn">job_arn</a></code> | <code>str</code> | Optional for copying a JobTemplate from a pre-existing Job configuration. |
-| <code><a href="#@cdktn/provider-awscc.iotJobTemplate.IotJobTemplateConfig.property.jobExecutionsRetryConfig">job_executions_retry_config</a></code> | <code><a href="#@cdktn/provider-awscc.iotJobTemplate.IotJobTemplateJobExecutionsRetryConfig">IotJobTemplateJobExecutionsRetryConfig</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job_template#job_executions_retry_config IotJobTemplate#job_executions_retry_config}. |
+| <code><a href="#@cdktn/provider-awscc.iotJobTemplate.IotJobTemplateConfig.property.jobExecutionsRetryConfig">job_executions_retry_config</a></code> | <code><a href="#@cdktn/provider-awscc.iotJobTemplate.IotJobTemplateJobExecutionsRetryConfig">IotJobTemplateJobExecutionsRetryConfig</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_job_template#job_executions_retry_config IotJobTemplate#job_executions_retry_config}. |
 | <code><a href="#@cdktn/provider-awscc.iotJobTemplate.IotJobTemplateConfig.property.jobExecutionsRolloutConfig">job_executions_rollout_config</a></code> | <code><a href="#@cdktn/provider-awscc.iotJobTemplate.IotJobTemplateJobExecutionsRolloutConfig">IotJobTemplateJobExecutionsRolloutConfig</a></code> | Allows you to create a staged rollout of a job. |
-| <code><a href="#@cdktn/provider-awscc.iotJobTemplate.IotJobTemplateConfig.property.maintenanceWindows">maintenance_windows</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.iotJobTemplate.IotJobTemplateMaintenanceWindows">IotJobTemplateMaintenanceWindows</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job_template#maintenance_windows IotJobTemplate#maintenance_windows}. |
+| <code><a href="#@cdktn/provider-awscc.iotJobTemplate.IotJobTemplateConfig.property.maintenanceWindows">maintenance_windows</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.iotJobTemplate.IotJobTemplateMaintenanceWindows">IotJobTemplateMaintenanceWindows</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_job_template#maintenance_windows IotJobTemplate#maintenance_windows}. |
 | <code><a href="#@cdktn/provider-awscc.iotJobTemplate.IotJobTemplateConfig.property.presignedUrlConfig">presigned_url_config</a></code> | <code><a href="#@cdktn/provider-awscc.iotJobTemplate.IotJobTemplatePresignedUrlConfig">IotJobTemplatePresignedUrlConfig</a></code> | Configuration for pre-signed S3 URLs. |
 | <code><a href="#@cdktn/provider-awscc.iotJobTemplate.IotJobTemplateConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.iotJobTemplate.IotJobTemplateTags">IotJobTemplateTags</a>]</code> | Metadata that can be used to manage the JobTemplate. |
 | <code><a href="#@cdktn/provider-awscc.iotJobTemplate.IotJobTemplateConfig.property.timeoutConfig">timeout_config</a></code> | <code><a href="#@cdktn/provider-awscc.iotJobTemplate.IotJobTemplateTimeoutConfig">IotJobTemplateTimeoutConfig</a></code> | Specifies the amount of time each device has to finish its execution of the job. |
@@ -1722,7 +1722,7 @@ description: str
 
 A description of the Job Template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job_template#description IotJobTemplate#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_job_template#description IotJobTemplate#description}
 
 ---
 
@@ -1734,7 +1734,7 @@ job_template_id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job_template#job_template_id IotJobTemplate#job_template_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_job_template#job_template_id IotJobTemplate#job_template_id}.
 
 ---
 
@@ -1748,7 +1748,7 @@ abort_config: IotJobTemplateAbortConfig
 
 The criteria that determine when and how a job abort takes place.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job_template#abort_config IotJobTemplate#abort_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_job_template#abort_config IotJobTemplate#abort_config}
 
 ---
 
@@ -1760,7 +1760,7 @@ destination_package_versions: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job_template#destination_package_versions IotJobTemplate#destination_package_versions}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_job_template#destination_package_versions IotJobTemplate#destination_package_versions}.
 
 ---
 
@@ -1774,7 +1774,7 @@ document: str
 
 The job document. Required if you don't specify a value for documentSource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job_template#document IotJobTemplate#document}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_job_template#document IotJobTemplate#document}
 
 ---
 
@@ -1790,7 +1790,7 @@ An S3 link to the job document to use in the template.
 
 Required if you don't specify a value for document.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job_template#document_source IotJobTemplate#document_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_job_template#document_source IotJobTemplate#document_source}
 
 ---
 
@@ -1804,7 +1804,7 @@ job_arn: str
 
 Optional for copying a JobTemplate from a pre-existing Job configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job_template#job_arn IotJobTemplate#job_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_job_template#job_arn IotJobTemplate#job_arn}
 
 ---
 
@@ -1816,7 +1816,7 @@ job_executions_retry_config: IotJobTemplateJobExecutionsRetryConfig
 
 - *Type:* <a href="#@cdktn/provider-awscc.iotJobTemplate.IotJobTemplateJobExecutionsRetryConfig">IotJobTemplateJobExecutionsRetryConfig</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job_template#job_executions_retry_config IotJobTemplate#job_executions_retry_config}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_job_template#job_executions_retry_config IotJobTemplate#job_executions_retry_config}.
 
 ---
 
@@ -1830,7 +1830,7 @@ job_executions_rollout_config: IotJobTemplateJobExecutionsRolloutConfig
 
 Allows you to create a staged rollout of a job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job_template#job_executions_rollout_config IotJobTemplate#job_executions_rollout_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_job_template#job_executions_rollout_config IotJobTemplate#job_executions_rollout_config}
 
 ---
 
@@ -1842,7 +1842,7 @@ maintenance_windows: IResolvable | typing.List[IotJobTemplateMaintenanceWindows]
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.iotJobTemplate.IotJobTemplateMaintenanceWindows">IotJobTemplateMaintenanceWindows</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job_template#maintenance_windows IotJobTemplate#maintenance_windows}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_job_template#maintenance_windows IotJobTemplate#maintenance_windows}.
 
 ---
 
@@ -1856,7 +1856,7 @@ presigned_url_config: IotJobTemplatePresignedUrlConfig
 
 Configuration for pre-signed S3 URLs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job_template#presigned_url_config IotJobTemplate#presigned_url_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_job_template#presigned_url_config IotJobTemplate#presigned_url_config}
 
 ---
 
@@ -1870,7 +1870,7 @@ tags: IResolvable | typing.List[IotJobTemplateTags]
 
 Metadata that can be used to manage the JobTemplate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job_template#tags IotJobTemplate#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_job_template#tags IotJobTemplate#tags}
 
 ---
 
@@ -1884,7 +1884,7 @@ timeout_config: IotJobTemplateTimeoutConfig
 
 Specifies the amount of time each device has to finish its execution of the job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job_template#timeout_config IotJobTemplate#timeout_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_job_template#timeout_config IotJobTemplate#timeout_config}
 
 ---
 
@@ -1904,7 +1904,7 @@ iotJobTemplate.IotJobTemplateJobExecutionsRetryConfig(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.iotJobTemplate.IotJobTemplateJobExecutionsRetryConfig.property.retryCriteriaList">retry_criteria_list</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.iotJobTemplate.IotJobTemplateJobExecutionsRetryConfigRetryCriteriaListStruct">IotJobTemplateJobExecutionsRetryConfigRetryCriteriaListStruct</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job_template#retry_criteria_list IotJobTemplate#retry_criteria_list}. |
+| <code><a href="#@cdktn/provider-awscc.iotJobTemplate.IotJobTemplateJobExecutionsRetryConfig.property.retryCriteriaList">retry_criteria_list</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.iotJobTemplate.IotJobTemplateJobExecutionsRetryConfigRetryCriteriaListStruct">IotJobTemplateJobExecutionsRetryConfigRetryCriteriaListStruct</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_job_template#retry_criteria_list IotJobTemplate#retry_criteria_list}. |
 
 ---
 
@@ -1916,7 +1916,7 @@ retry_criteria_list: IResolvable | typing.List[IotJobTemplateJobExecutionsRetryC
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.iotJobTemplate.IotJobTemplateJobExecutionsRetryConfigRetryCriteriaListStruct">IotJobTemplateJobExecutionsRetryConfigRetryCriteriaListStruct</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job_template#retry_criteria_list IotJobTemplate#retry_criteria_list}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_job_template#retry_criteria_list IotJobTemplate#retry_criteria_list}.
 
 ---
 
@@ -1937,8 +1937,8 @@ iotJobTemplate.IotJobTemplateJobExecutionsRetryConfigRetryCriteriaListStruct(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.iotJobTemplate.IotJobTemplateJobExecutionsRetryConfigRetryCriteriaListStruct.property.failureType">failure_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job_template#failure_type IotJobTemplate#failure_type}. |
-| <code><a href="#@cdktn/provider-awscc.iotJobTemplate.IotJobTemplateJobExecutionsRetryConfigRetryCriteriaListStruct.property.numberOfRetries">number_of_retries</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job_template#number_of_retries IotJobTemplate#number_of_retries}. |
+| <code><a href="#@cdktn/provider-awscc.iotJobTemplate.IotJobTemplateJobExecutionsRetryConfigRetryCriteriaListStruct.property.failureType">failure_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_job_template#failure_type IotJobTemplate#failure_type}. |
+| <code><a href="#@cdktn/provider-awscc.iotJobTemplate.IotJobTemplateJobExecutionsRetryConfigRetryCriteriaListStruct.property.numberOfRetries">number_of_retries</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_job_template#number_of_retries IotJobTemplate#number_of_retries}. |
 
 ---
 
@@ -1950,7 +1950,7 @@ failure_type: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job_template#failure_type IotJobTemplate#failure_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_job_template#failure_type IotJobTemplate#failure_type}.
 
 ---
 
@@ -1962,7 +1962,7 @@ number_of_retries: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job_template#number_of_retries IotJobTemplate#number_of_retries}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_job_template#number_of_retries IotJobTemplate#number_of_retries}.
 
 ---
 
@@ -2000,7 +2000,7 @@ The rate of increase for a job rollout.
 
 This parameter allows you to define an exponential rate for a job rollout.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job_template#exponential_rollout_rate IotJobTemplate#exponential_rollout_rate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_job_template#exponential_rollout_rate IotJobTemplate#exponential_rollout_rate}
 
 ---
 
@@ -2016,7 +2016,7 @@ The maximum number of things that will be notified of a pending job, per minute.
 
 This parameter allows you to create a staged rollout.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job_template#maximum_per_minute IotJobTemplate#maximum_per_minute}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_job_template#maximum_per_minute IotJobTemplate#maximum_per_minute}
 
 ---
 
@@ -2056,7 +2056,7 @@ The minimum number of things that will be notified of a pending job, per minute 
 
 This parameter allows you to define the initial rate of rollout.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job_template#base_rate_per_minute IotJobTemplate#base_rate_per_minute}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_job_template#base_rate_per_minute IotJobTemplate#base_rate_per_minute}
 
 ---
 
@@ -2070,7 +2070,7 @@ increment_factor: typing.Union[int, float]
 
 The exponential factor to increase the rate of rollout for a job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job_template#increment_factor IotJobTemplate#increment_factor}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_job_template#increment_factor IotJobTemplate#increment_factor}
 
 ---
 
@@ -2084,7 +2084,7 @@ rate_increase_criteria: IotJobTemplateJobExecutionsRolloutConfigExponentialRollo
 
 The criteria to initiate the increase in rate of rollout for a job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job_template#rate_increase_criteria IotJobTemplate#rate_increase_criteria}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_job_template#rate_increase_criteria IotJobTemplate#rate_increase_criteria}
 
 ---
 
@@ -2105,8 +2105,8 @@ iotJobTemplate.IotJobTemplateJobExecutionsRolloutConfigExponentialRolloutRateRat
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.iotJobTemplate.IotJobTemplateJobExecutionsRolloutConfigExponentialRolloutRateRateIncreaseCriteria.property.numberOfNotifiedThings">number_of_notified_things</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job_template#number_of_notified_things IotJobTemplate#number_of_notified_things}. |
-| <code><a href="#@cdktn/provider-awscc.iotJobTemplate.IotJobTemplateJobExecutionsRolloutConfigExponentialRolloutRateRateIncreaseCriteria.property.numberOfSucceededThings">number_of_succeeded_things</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job_template#number_of_succeeded_things IotJobTemplate#number_of_succeeded_things}. |
+| <code><a href="#@cdktn/provider-awscc.iotJobTemplate.IotJobTemplateJobExecutionsRolloutConfigExponentialRolloutRateRateIncreaseCriteria.property.numberOfNotifiedThings">number_of_notified_things</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_job_template#number_of_notified_things IotJobTemplate#number_of_notified_things}. |
+| <code><a href="#@cdktn/provider-awscc.iotJobTemplate.IotJobTemplateJobExecutionsRolloutConfigExponentialRolloutRateRateIncreaseCriteria.property.numberOfSucceededThings">number_of_succeeded_things</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_job_template#number_of_succeeded_things IotJobTemplate#number_of_succeeded_things}. |
 
 ---
 
@@ -2118,7 +2118,7 @@ number_of_notified_things: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job_template#number_of_notified_things IotJobTemplate#number_of_notified_things}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_job_template#number_of_notified_things IotJobTemplate#number_of_notified_things}.
 
 ---
 
@@ -2130,7 +2130,7 @@ number_of_succeeded_things: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job_template#number_of_succeeded_things IotJobTemplate#number_of_succeeded_things}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_job_template#number_of_succeeded_things IotJobTemplate#number_of_succeeded_things}.
 
 ---
 
@@ -2151,8 +2151,8 @@ iotJobTemplate.IotJobTemplateMaintenanceWindows(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.iotJobTemplate.IotJobTemplateMaintenanceWindows.property.durationInMinutes">duration_in_minutes</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job_template#duration_in_minutes IotJobTemplate#duration_in_minutes}. |
-| <code><a href="#@cdktn/provider-awscc.iotJobTemplate.IotJobTemplateMaintenanceWindows.property.startTime">start_time</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job_template#start_time IotJobTemplate#start_time}. |
+| <code><a href="#@cdktn/provider-awscc.iotJobTemplate.IotJobTemplateMaintenanceWindows.property.durationInMinutes">duration_in_minutes</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_job_template#duration_in_minutes IotJobTemplate#duration_in_minutes}. |
+| <code><a href="#@cdktn/provider-awscc.iotJobTemplate.IotJobTemplateMaintenanceWindows.property.startTime">start_time</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_job_template#start_time IotJobTemplate#start_time}. |
 
 ---
 
@@ -2164,7 +2164,7 @@ duration_in_minutes: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job_template#duration_in_minutes IotJobTemplate#duration_in_minutes}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_job_template#duration_in_minutes IotJobTemplate#duration_in_minutes}.
 
 ---
 
@@ -2176,7 +2176,7 @@ start_time: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job_template#start_time IotJobTemplate#start_time}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_job_template#start_time IotJobTemplate#start_time}.
 
 ---
 
@@ -2212,7 +2212,7 @@ expires_in_sec: typing.Union[int, float]
 
 How number (in seconds) pre-signed URLs are valid.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job_template#expires_in_sec IotJobTemplate#expires_in_sec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_job_template#expires_in_sec IotJobTemplate#expires_in_sec}
 
 ---
 
@@ -2228,7 +2228,7 @@ The ARN of an IAM role that grants grants permission to download files from the 
 
 The role must also grant permission for IoT to download the files.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job_template#role_arn IotJobTemplate#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_job_template#role_arn IotJobTemplate#role_arn}
 
 ---
 
@@ -2264,7 +2264,7 @@ key: str
 
 The tag's key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job_template#key IotJobTemplate#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_job_template#key IotJobTemplate#key}
 
 ---
 
@@ -2278,7 +2278,7 @@ value: str
 
 The tag's value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job_template#value IotJobTemplate#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_job_template#value IotJobTemplate#value}
 
 ---
 
@@ -2312,7 +2312,7 @@ in_progress_timeout_in_minutes: typing.Union[int, float]
 
 Specifies the amount of time, in minutes, this device has to finish execution of this job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job_template#in_progress_timeout_in_minutes IotJobTemplate#in_progress_timeout_in_minutes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_job_template#in_progress_timeout_in_minutes IotJobTemplate#in_progress_timeout_in_minutes}
 
 ---
 
@@ -4301,7 +4301,7 @@ def put_rate_increase_criteria(
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job_template#number_of_notified_things IotJobTemplate#number_of_notified_things}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_job_template#number_of_notified_things IotJobTemplate#number_of_notified_things}.
 
 ---
 
@@ -4309,7 +4309,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job_template#number_of_succeeded_things IotJobTemplate#number_of_succeeded_things}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_job_template#number_of_succeeded_things IotJobTemplate#number_of_succeeded_things}.
 
 ---
 
@@ -5024,7 +5024,7 @@ The minimum number of things that will be notified of a pending job, per minute 
 
 This parameter allows you to define the initial rate of rollout.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job_template#base_rate_per_minute IotJobTemplate#base_rate_per_minute}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_job_template#base_rate_per_minute IotJobTemplate#base_rate_per_minute}
 
 ---
 
@@ -5034,7 +5034,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The exponential factor to increase the rate of rollout for a job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job_template#increment_factor IotJobTemplate#increment_factor}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_job_template#increment_factor IotJobTemplate#increment_factor}
 
 ---
 
@@ -5044,7 +5044,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The criteria to initiate the increase in rate of rollout for a job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job_template#rate_increase_criteria IotJobTemplate#rate_increase_criteria}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_job_template#rate_increase_criteria IotJobTemplate#rate_increase_criteria}
 
 ---
 

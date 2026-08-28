@@ -4,7 +4,7 @@
 
 ### GuarddutyMember <a name="GuarddutyMember" id="@cdktn/provider-awscc.guarddutyMember.GuarddutyMember"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_member awscc_guardduty_member}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/guardduty_member awscc_guardduty_member}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.guarddutyMember.GuarddutyMember.Initializer"></a>
 
@@ -39,12 +39,12 @@ GuarddutyMember.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktn/provider-awscc.guarddutyMember.GuarddutyMember.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.guarddutyMember.GuarddutyMember.Initializer.parameter.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.guarddutyMember.GuarddutyMember.Initializer.parameter.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.guarddutyMember.GuarddutyMember.Initializer.parameter.email">email</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_member#email GuarddutyMember#email}. |
-| <code><a href="#@cdktn/provider-awscc.guarddutyMember.GuarddutyMember.Initializer.parameter.detectorId">detectorId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_member#detector_id GuarddutyMember#detector_id}. |
-| <code><a href="#@cdktn/provider-awscc.guarddutyMember.GuarddutyMember.Initializer.parameter.disableEmailNotification">disableEmailNotification</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_member#disable_email_notification GuarddutyMember#disable_email_notification}. |
-| <code><a href="#@cdktn/provider-awscc.guarddutyMember.GuarddutyMember.Initializer.parameter.memberId">memberId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_member#member_id GuarddutyMember#member_id}. |
-| <code><a href="#@cdktn/provider-awscc.guarddutyMember.GuarddutyMember.Initializer.parameter.message">message</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_member#message GuarddutyMember#message}. |
-| <code><a href="#@cdktn/provider-awscc.guarddutyMember.GuarddutyMember.Initializer.parameter.status">status</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_member#status GuarddutyMember#status}. |
+| <code><a href="#@cdktn/provider-awscc.guarddutyMember.GuarddutyMember.Initializer.parameter.email">email</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/guardduty_member#email GuarddutyMember#email}. |
+| <code><a href="#@cdktn/provider-awscc.guarddutyMember.GuarddutyMember.Initializer.parameter.detectorId">detectorId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/guardduty_member#detector_id GuarddutyMember#detector_id}. |
+| <code><a href="#@cdktn/provider-awscc.guarddutyMember.GuarddutyMember.Initializer.parameter.disableEmailNotification">disableEmailNotification</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/guardduty_member#disable_email_notification GuarddutyMember#disable_email_notification}. |
+| <code><a href="#@cdktn/provider-awscc.guarddutyMember.GuarddutyMember.Initializer.parameter.memberId">memberId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/guardduty_member#member_id GuarddutyMember#member_id}. |
+| <code><a href="#@cdktn/provider-awscc.guarddutyMember.GuarddutyMember.Initializer.parameter.message">message</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/guardduty_member#message GuarddutyMember#message}. |
+| <code><a href="#@cdktn/provider-awscc.guarddutyMember.GuarddutyMember.Initializer.parameter.status">status</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/guardduty_member#status GuarddutyMember#status}. |
 
 ---
 
@@ -112,7 +112,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_member#email GuarddutyMember#email}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/guardduty_member#email GuarddutyMember#email}.
 
 ---
 
@@ -120,7 +120,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_member#detector_id GuarddutyMember#detector_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/guardduty_member#detector_id GuarddutyMember#detector_id}.
 
 ---
 
@@ -128,7 +128,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.Boolean|io.cdktn.cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_member#disable_email_notification GuarddutyMember#disable_email_notification}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/guardduty_member#disable_email_notification GuarddutyMember#disable_email_notification}.
 
 ---
 
@@ -136,7 +136,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_member#member_id GuarddutyMember#member_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/guardduty_member#member_id GuarddutyMember#member_id}.
 
 ---
 
@@ -144,7 +144,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_member#message GuarddutyMember#message}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/guardduty_member#message GuarddutyMember#message}.
 
 ---
 
@@ -152,7 +152,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_member#status GuarddutyMember#status}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/guardduty_member#status GuarddutyMember#status}.
 
 ---
 
@@ -636,7 +636,7 @@ The construct id used in the generated config for the GuarddutyMember to import.
 
 The id of the existing GuarddutyMember that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_member#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/guardduty_member#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1009,12 +1009,12 @@ GuarddutyMemberConfig.builder()
 | <code><a href="#@cdktn/provider-awscc.guarddutyMember.GuarddutyMemberConfig.property.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.guarddutyMember.GuarddutyMemberConfig.property.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.guarddutyMember.GuarddutyMemberConfig.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.guarddutyMember.GuarddutyMemberConfig.property.email">email</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_member#email GuarddutyMember#email}. |
-| <code><a href="#@cdktn/provider-awscc.guarddutyMember.GuarddutyMemberConfig.property.detectorId">detectorId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_member#detector_id GuarddutyMember#detector_id}. |
-| <code><a href="#@cdktn/provider-awscc.guarddutyMember.GuarddutyMemberConfig.property.disableEmailNotification">disableEmailNotification</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_member#disable_email_notification GuarddutyMember#disable_email_notification}. |
-| <code><a href="#@cdktn/provider-awscc.guarddutyMember.GuarddutyMemberConfig.property.memberId">memberId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_member#member_id GuarddutyMember#member_id}. |
-| <code><a href="#@cdktn/provider-awscc.guarddutyMember.GuarddutyMemberConfig.property.message">message</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_member#message GuarddutyMember#message}. |
-| <code><a href="#@cdktn/provider-awscc.guarddutyMember.GuarddutyMemberConfig.property.status">status</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_member#status GuarddutyMember#status}. |
+| <code><a href="#@cdktn/provider-awscc.guarddutyMember.GuarddutyMemberConfig.property.email">email</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/guardduty_member#email GuarddutyMember#email}. |
+| <code><a href="#@cdktn/provider-awscc.guarddutyMember.GuarddutyMemberConfig.property.detectorId">detectorId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/guardduty_member#detector_id GuarddutyMember#detector_id}. |
+| <code><a href="#@cdktn/provider-awscc.guarddutyMember.GuarddutyMemberConfig.property.disableEmailNotification">disableEmailNotification</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/guardduty_member#disable_email_notification GuarddutyMember#disable_email_notification}. |
+| <code><a href="#@cdktn/provider-awscc.guarddutyMember.GuarddutyMemberConfig.property.memberId">memberId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/guardduty_member#member_id GuarddutyMember#member_id}. |
+| <code><a href="#@cdktn/provider-awscc.guarddutyMember.GuarddutyMemberConfig.property.message">message</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/guardduty_member#message GuarddutyMember#message}. |
+| <code><a href="#@cdktn/provider-awscc.guarddutyMember.GuarddutyMemberConfig.property.status">status</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/guardduty_member#status GuarddutyMember#status}. |
 
 ---
 
@@ -1096,7 +1096,7 @@ public java.lang.String getEmail();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_member#email GuarddutyMember#email}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/guardduty_member#email GuarddutyMember#email}.
 
 ---
 
@@ -1108,7 +1108,7 @@ public java.lang.String getDetectorId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_member#detector_id GuarddutyMember#detector_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/guardduty_member#detector_id GuarddutyMember#detector_id}.
 
 ---
 
@@ -1120,7 +1120,7 @@ public java.lang.Boolean|IResolvable getDisableEmailNotification();
 
 - *Type:* java.lang.Boolean|io.cdktn.cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_member#disable_email_notification GuarddutyMember#disable_email_notification}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/guardduty_member#disable_email_notification GuarddutyMember#disable_email_notification}.
 
 ---
 
@@ -1132,7 +1132,7 @@ public java.lang.String getMemberId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_member#member_id GuarddutyMember#member_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/guardduty_member#member_id GuarddutyMember#member_id}.
 
 ---
 
@@ -1144,7 +1144,7 @@ public java.lang.String getMessage();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_member#message GuarddutyMember#message}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/guardduty_member#message GuarddutyMember#message}.
 
 ---
 
@@ -1156,7 +1156,7 @@ public java.lang.String getStatus();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_member#status GuarddutyMember#status}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/guardduty_member#status GuarddutyMember#status}.
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### SupportappAccountAlias <a name="SupportappAccountAlias" id="@cdktn/provider-awscc.supportappAccountAlias.SupportappAccountAlias"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/supportapp_account_alias awscc_supportapp_account_alias}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/supportapp_account_alias awscc_supportapp_account_alias}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.supportappAccountAlias.SupportappAccountAlias.Initializer"></a>
 
@@ -489,7 +489,7 @@ The construct id used in the generated config for the SupportappAccountAlias to 
 
 The id of the existing SupportappAccountAlias that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/supportapp_account_alias#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/supportapp_account_alias#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -833,7 +833,7 @@ public readonly accountAlias: string;
 
 An account alias associated with a customer's account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/supportapp_account_alias#account_alias SupportappAccountAlias#account_alias}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/supportapp_account_alias#account_alias SupportappAccountAlias#account_alias}
 
 ---
 

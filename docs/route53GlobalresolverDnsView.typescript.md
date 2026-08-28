@@ -4,7 +4,7 @@
 
 ### Route53GlobalresolverDnsView <a name="Route53GlobalresolverDnsView" id="@cdktn/provider-awscc.route53GlobalresolverDnsView.Route53GlobalresolverDnsView"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53globalresolver_dns_view awscc_route53globalresolver_dns_view}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53globalresolver_dns_view awscc_route53globalresolver_dns_view}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.route53GlobalresolverDnsView.Route53GlobalresolverDnsView.Initializer"></a>
 
@@ -544,7 +544,7 @@ The construct id used in the generated config for the Route53GlobalresolverDnsVi
 
 The id of the existing Route53GlobalresolverDnsView that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53globalresolver_dns_view#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53globalresolver_dns_view#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1002,14 +1002,14 @@ const route53GlobalresolverDnsViewConfig: route53GlobalresolverDnsView.Route53Gl
 | <code><a href="#@cdktn/provider-awscc.route53GlobalresolverDnsView.Route53GlobalresolverDnsViewConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.route53GlobalresolverDnsView.Route53GlobalresolverDnsViewConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.route53GlobalresolverDnsView.Route53GlobalresolverDnsViewConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.route53GlobalresolverDnsView.Route53GlobalresolverDnsViewConfig.property.globalResolverId">globalResolverId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53globalresolver_dns_view#global_resolver_id Route53GlobalresolverDnsView#global_resolver_id}. |
-| <code><a href="#@cdktn/provider-awscc.route53GlobalresolverDnsView.Route53GlobalresolverDnsViewConfig.property.name">name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53globalresolver_dns_view#name Route53GlobalresolverDnsView#name}. |
-| <code><a href="#@cdktn/provider-awscc.route53GlobalresolverDnsView.Route53GlobalresolverDnsViewConfig.property.clientToken">clientToken</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53globalresolver_dns_view#client_token Route53GlobalresolverDnsView#client_token}. |
-| <code><a href="#@cdktn/provider-awscc.route53GlobalresolverDnsView.Route53GlobalresolverDnsViewConfig.property.description">description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53globalresolver_dns_view#description Route53GlobalresolverDnsView#description}. |
-| <code><a href="#@cdktn/provider-awscc.route53GlobalresolverDnsView.Route53GlobalresolverDnsViewConfig.property.dnssecValidation">dnssecValidation</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53globalresolver_dns_view#dnssec_validation Route53GlobalresolverDnsView#dnssec_validation}. |
-| <code><a href="#@cdktn/provider-awscc.route53GlobalresolverDnsView.Route53GlobalresolverDnsViewConfig.property.ednsClientSubnet">ednsClientSubnet</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53globalresolver_dns_view#edns_client_subnet Route53GlobalresolverDnsView#edns_client_subnet}. |
-| <code><a href="#@cdktn/provider-awscc.route53GlobalresolverDnsView.Route53GlobalresolverDnsViewConfig.property.firewallRulesFailOpen">firewallRulesFailOpen</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53globalresolver_dns_view#firewall_rules_fail_open Route53GlobalresolverDnsView#firewall_rules_fail_open}. |
-| <code><a href="#@cdktn/provider-awscc.route53GlobalresolverDnsView.Route53GlobalresolverDnsViewConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.route53GlobalresolverDnsView.Route53GlobalresolverDnsViewTags">Route53GlobalresolverDnsViewTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53globalresolver_dns_view#tags Route53GlobalresolverDnsView#tags}. |
+| <code><a href="#@cdktn/provider-awscc.route53GlobalresolverDnsView.Route53GlobalresolverDnsViewConfig.property.globalResolverId">globalResolverId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53globalresolver_dns_view#global_resolver_id Route53GlobalresolverDnsView#global_resolver_id}. |
+| <code><a href="#@cdktn/provider-awscc.route53GlobalresolverDnsView.Route53GlobalresolverDnsViewConfig.property.name">name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53globalresolver_dns_view#name Route53GlobalresolverDnsView#name}. |
+| <code><a href="#@cdktn/provider-awscc.route53GlobalresolverDnsView.Route53GlobalresolverDnsViewConfig.property.clientToken">clientToken</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53globalresolver_dns_view#client_token Route53GlobalresolverDnsView#client_token}. |
+| <code><a href="#@cdktn/provider-awscc.route53GlobalresolverDnsView.Route53GlobalresolverDnsViewConfig.property.description">description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53globalresolver_dns_view#description Route53GlobalresolverDnsView#description}. |
+| <code><a href="#@cdktn/provider-awscc.route53GlobalresolverDnsView.Route53GlobalresolverDnsViewConfig.property.dnssecValidation">dnssecValidation</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53globalresolver_dns_view#dnssec_validation Route53GlobalresolverDnsView#dnssec_validation}. |
+| <code><a href="#@cdktn/provider-awscc.route53GlobalresolverDnsView.Route53GlobalresolverDnsViewConfig.property.ednsClientSubnet">ednsClientSubnet</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53globalresolver_dns_view#edns_client_subnet Route53GlobalresolverDnsView#edns_client_subnet}. |
+| <code><a href="#@cdktn/provider-awscc.route53GlobalresolverDnsView.Route53GlobalresolverDnsViewConfig.property.firewallRulesFailOpen">firewallRulesFailOpen</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53globalresolver_dns_view#firewall_rules_fail_open Route53GlobalresolverDnsView#firewall_rules_fail_open}. |
+| <code><a href="#@cdktn/provider-awscc.route53GlobalresolverDnsView.Route53GlobalresolverDnsViewConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.route53GlobalresolverDnsView.Route53GlobalresolverDnsViewTags">Route53GlobalresolverDnsViewTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53globalresolver_dns_view#tags Route53GlobalresolverDnsView#tags}. |
 
 ---
 
@@ -1091,7 +1091,7 @@ public readonly globalResolverId: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53globalresolver_dns_view#global_resolver_id Route53GlobalresolverDnsView#global_resolver_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53globalresolver_dns_view#global_resolver_id Route53GlobalresolverDnsView#global_resolver_id}.
 
 ---
 
@@ -1103,7 +1103,7 @@ public readonly name: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53globalresolver_dns_view#name Route53GlobalresolverDnsView#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53globalresolver_dns_view#name Route53GlobalresolverDnsView#name}.
 
 ---
 
@@ -1115,7 +1115,7 @@ public readonly clientToken: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53globalresolver_dns_view#client_token Route53GlobalresolverDnsView#client_token}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53globalresolver_dns_view#client_token Route53GlobalresolverDnsView#client_token}.
 
 ---
 
@@ -1127,7 +1127,7 @@ public readonly description: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53globalresolver_dns_view#description Route53GlobalresolverDnsView#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53globalresolver_dns_view#description Route53GlobalresolverDnsView#description}.
 
 ---
 
@@ -1139,7 +1139,7 @@ public readonly dnssecValidation: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53globalresolver_dns_view#dnssec_validation Route53GlobalresolverDnsView#dnssec_validation}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53globalresolver_dns_view#dnssec_validation Route53GlobalresolverDnsView#dnssec_validation}.
 
 ---
 
@@ -1151,7 +1151,7 @@ public readonly ednsClientSubnet: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53globalresolver_dns_view#edns_client_subnet Route53GlobalresolverDnsView#edns_client_subnet}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53globalresolver_dns_view#edns_client_subnet Route53GlobalresolverDnsView#edns_client_subnet}.
 
 ---
 
@@ -1163,7 +1163,7 @@ public readonly firewallRulesFailOpen: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53globalresolver_dns_view#firewall_rules_fail_open Route53GlobalresolverDnsView#firewall_rules_fail_open}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53globalresolver_dns_view#firewall_rules_fail_open Route53GlobalresolverDnsView#firewall_rules_fail_open}.
 
 ---
 
@@ -1175,7 +1175,7 @@ public readonly tags: IResolvable | Route53GlobalresolverDnsViewTags[];
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.route53GlobalresolverDnsView.Route53GlobalresolverDnsViewTags">Route53GlobalresolverDnsViewTags</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53globalresolver_dns_view#tags Route53GlobalresolverDnsView#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53globalresolver_dns_view#tags Route53GlobalresolverDnsView#tags}.
 
 ---
 
@@ -1193,8 +1193,8 @@ const route53GlobalresolverDnsViewTags: route53GlobalresolverDnsView.Route53Glob
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.route53GlobalresolverDnsView.Route53GlobalresolverDnsViewTags.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53globalresolver_dns_view#key Route53GlobalresolverDnsView#key}. |
-| <code><a href="#@cdktn/provider-awscc.route53GlobalresolverDnsView.Route53GlobalresolverDnsViewTags.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53globalresolver_dns_view#value Route53GlobalresolverDnsView#value}. |
+| <code><a href="#@cdktn/provider-awscc.route53GlobalresolverDnsView.Route53GlobalresolverDnsViewTags.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53globalresolver_dns_view#key Route53GlobalresolverDnsView#key}. |
+| <code><a href="#@cdktn/provider-awscc.route53GlobalresolverDnsView.Route53GlobalresolverDnsViewTags.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53globalresolver_dns_view#value Route53GlobalresolverDnsView#value}. |
 
 ---
 
@@ -1206,7 +1206,7 @@ public readonly key: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53globalresolver_dns_view#key Route53GlobalresolverDnsView#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53globalresolver_dns_view#key Route53GlobalresolverDnsView#key}.
 
 ---
 
@@ -1218,7 +1218,7 @@ public readonly value: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53globalresolver_dns_view#value Route53GlobalresolverDnsView#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53globalresolver_dns_view#value Route53GlobalresolverDnsView#value}.
 
 ---
 

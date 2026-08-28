@@ -4,7 +4,7 @@
 
 ### EventschemasRegistryPolicy <a name="EventschemasRegistryPolicy" id="@cdktn/provider-awscc.eventschemasRegistryPolicy.EventschemasRegistryPolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/eventschemas_registry_policy awscc_eventschemas_registry_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eventschemas_registry_policy awscc_eventschemas_registry_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eventschemasRegistryPolicy.EventschemasRegistryPolicy.Initializer"></a>
 
@@ -496,7 +496,7 @@ The construct id used in the generated config for the EventschemasRegistryPolicy
 
 The id of the existing EventschemasRegistryPolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/eventschemas_registry_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eventschemas_registry_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -800,9 +800,9 @@ const eventschemasRegistryPolicyConfig: eventschemasRegistryPolicy.EventschemasR
 | <code><a href="#@cdktn/provider-awscc.eventschemasRegistryPolicy.EventschemasRegistryPolicyConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.eventschemasRegistryPolicy.EventschemasRegistryPolicyConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.eventschemasRegistryPolicy.EventschemasRegistryPolicyConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.eventschemasRegistryPolicy.EventschemasRegistryPolicyConfig.property.policy">policy</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/eventschemas_registry_policy#policy EventschemasRegistryPolicy#policy}. |
-| <code><a href="#@cdktn/provider-awscc.eventschemasRegistryPolicy.EventschemasRegistryPolicyConfig.property.registryName">registryName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/eventschemas_registry_policy#registry_name EventschemasRegistryPolicy#registry_name}. |
-| <code><a href="#@cdktn/provider-awscc.eventschemasRegistryPolicy.EventschemasRegistryPolicyConfig.property.revisionId">revisionId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/eventschemas_registry_policy#revision_id EventschemasRegistryPolicy#revision_id}. |
+| <code><a href="#@cdktn/provider-awscc.eventschemasRegistryPolicy.EventschemasRegistryPolicyConfig.property.policy">policy</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eventschemas_registry_policy#policy EventschemasRegistryPolicy#policy}. |
+| <code><a href="#@cdktn/provider-awscc.eventschemasRegistryPolicy.EventschemasRegistryPolicyConfig.property.registryName">registryName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eventschemas_registry_policy#registry_name EventschemasRegistryPolicy#registry_name}. |
+| <code><a href="#@cdktn/provider-awscc.eventschemasRegistryPolicy.EventschemasRegistryPolicyConfig.property.revisionId">revisionId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eventschemas_registry_policy#revision_id EventschemasRegistryPolicy#revision_id}. |
 
 ---
 
@@ -884,7 +884,7 @@ public readonly policy: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/eventschemas_registry_policy#policy EventschemasRegistryPolicy#policy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eventschemas_registry_policy#policy EventschemasRegistryPolicy#policy}.
 
 ---
 
@@ -896,7 +896,7 @@ public readonly registryName: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/eventschemas_registry_policy#registry_name EventschemasRegistryPolicy#registry_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eventschemas_registry_policy#registry_name EventschemasRegistryPolicy#registry_name}.
 
 ---
 
@@ -908,7 +908,7 @@ public readonly revisionId: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/eventschemas_registry_policy#revision_id EventschemasRegistryPolicy#revision_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eventschemas_registry_policy#revision_id EventschemasRegistryPolicy#revision_id}.
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### DataAwsccCloudhsmClusters <a name="DataAwsccCloudhsmClusters" id="@cdktn/provider-awscc.dataAwsccCloudhsmClusters.DataAwsccCloudhsmClusters"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/cloudhsm_clusters awscc_cloudhsm_clusters}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/cloudhsm_clusters awscc_cloudhsm_clusters}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudhsmClusters.DataAwsccCloudhsmClusters.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccCloudhsmClusters 
 
 The id of the existing DataAwsccCloudhsmClusters that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/cloudhsm_clusters#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/cloudhsm_clusters#import import section} in the documentation of this resource for the id to use
 
 ---
 

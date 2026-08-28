@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_dataset_group
+// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/personalize_dataset_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,41 +15,41 @@ export interface PersonalizeDatasetGroupConfig extends cdktn.TerraformMetaArgume
   /**
   * The domain of a Domain dataset group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_dataset_group#domain PersonalizeDatasetGroup#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/personalize_dataset_group#domain PersonalizeDatasetGroup#domain}
   */
   readonly domain?: string;
   /**
   * The Amazon Resource Name(ARN) of a AWS Key Management Service (KMS) key used to encrypt the datasets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_dataset_group#kms_key_arn PersonalizeDatasetGroup#kms_key_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/personalize_dataset_group#kms_key_arn PersonalizeDatasetGroup#kms_key_arn}
   */
   readonly kmsKeyArn?: string;
   /**
   * The name for the new dataset group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_dataset_group#name PersonalizeDatasetGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/personalize_dataset_group#name PersonalizeDatasetGroup#name}
   */
   readonly name: string;
   /**
   * The ARN of the AWS Identity and Access Management (IAM) role that has permissions to access the AWS Key Management Service (KMS) key. Supplying an IAM role is only valid when also specifying a KMS key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_dataset_group#role_arn PersonalizeDatasetGroup#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/personalize_dataset_group#role_arn PersonalizeDatasetGroup#role_arn}
   */
   readonly roleArn?: string;
   /**
   * The tags used to organize, track, or control access for this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_dataset_group#tags PersonalizeDatasetGroup#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/personalize_dataset_group#tags PersonalizeDatasetGroup#tags}
   */
   readonly tags?: PersonalizeDatasetGroupTags[] | cdktn.IResolvable;
 }
 export interface PersonalizeDatasetGroupTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_dataset_group#key PersonalizeDatasetGroup#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/personalize_dataset_group#key PersonalizeDatasetGroup#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_dataset_group#value PersonalizeDatasetGroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/personalize_dataset_group#value PersonalizeDatasetGroup#value}
   */
   readonly value?: string;
 }
@@ -194,7 +194,7 @@ export class PersonalizeDatasetGroupTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_dataset_group awscc_personalize_dataset_group}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/personalize_dataset_group awscc_personalize_dataset_group}
 */
 export class PersonalizeDatasetGroup extends cdktn.TerraformResource {
 
@@ -210,7 +210,7 @@ export class PersonalizeDatasetGroup extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a PersonalizeDatasetGroup resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PersonalizeDatasetGroup to import
-  * @param importFromId The id of the existing PersonalizeDatasetGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_dataset_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PersonalizeDatasetGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/personalize_dataset_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PersonalizeDatasetGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -222,7 +222,7 @@ export class PersonalizeDatasetGroup extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_dataset_group awscc_personalize_dataset_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/personalize_dataset_group awscc_personalize_dataset_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -233,7 +233,7 @@ export class PersonalizeDatasetGroup extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_personalize_dataset_group',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.98.0',
+        providerVersion: '1.99.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

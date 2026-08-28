@@ -4,7 +4,7 @@
 
 ### DataAwsccAccountaccessApplications <a name="DataAwsccAccountaccessApplications" id="@cdktn/provider-awscc.dataAwsccAccountaccessApplications.DataAwsccAccountaccessApplications"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/accountaccess_applications awscc_accountaccess_applications}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/accountaccess_applications awscc_accountaccess_applications}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAccountaccessApplications.DataAwsccAccountaccessApplications.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccAccountaccessAppl
 
 The id of the existing DataAwsccAccountaccessApplications that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/accountaccess_applications#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/accountaccess_applications#import import section} in the documentation of this resource for the id to use
 
 ---
 

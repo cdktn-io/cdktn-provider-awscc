@@ -4,7 +4,7 @@
 
 ### DataAwsccOmicsRunGroups <a name="DataAwsccOmicsRunGroups" id="@cdktn/provider-awscc.dataAwsccOmicsRunGroups.DataAwsccOmicsRunGroups"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/omics_run_groups awscc_omics_run_groups}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/omics_run_groups awscc_omics_run_groups}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOmicsRunGroups.DataAwsccOmicsRunGroups.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccOmicsRunGroups to
 
 The id of the existing DataAwsccOmicsRunGroups that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/omics_run_groups#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/omics_run_groups#import import section} in the documentation of this resource for the id to use
 
 ---
 

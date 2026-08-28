@@ -4,7 +4,7 @@
 
 ### MskVpcConnection <a name="MskVpcConnection" id="@cdktn/provider-awscc.mskVpcConnection.MskVpcConnection"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_vpc_connection awscc_msk_vpc_connection}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/msk_vpc_connection awscc_msk_vpc_connection}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mskVpcConnection.MskVpcConnection.Initializer"></a>
 
@@ -40,10 +40,10 @@ MskVpcConnection.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktn/provider-awscc.mskVpcConnection.MskVpcConnection.Initializer.parameter.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mskVpcConnection.MskVpcConnection.Initializer.parameter.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mskVpcConnection.MskVpcConnection.Initializer.parameter.authentication">authentication</a></code> | <code>java.lang.String</code> | The type of private link authentication. |
-| <code><a href="#@cdktn/provider-awscc.mskVpcConnection.MskVpcConnection.Initializer.parameter.clientSubnets">clientSubnets</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_vpc_connection#client_subnets MskVpcConnection#client_subnets}. |
-| <code><a href="#@cdktn/provider-awscc.mskVpcConnection.MskVpcConnection.Initializer.parameter.securityGroups">securityGroups</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_vpc_connection#security_groups MskVpcConnection#security_groups}. |
+| <code><a href="#@cdktn/provider-awscc.mskVpcConnection.MskVpcConnection.Initializer.parameter.clientSubnets">clientSubnets</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/msk_vpc_connection#client_subnets MskVpcConnection#client_subnets}. |
+| <code><a href="#@cdktn/provider-awscc.mskVpcConnection.MskVpcConnection.Initializer.parameter.securityGroups">securityGroups</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/msk_vpc_connection#security_groups MskVpcConnection#security_groups}. |
 | <code><a href="#@cdktn/provider-awscc.mskVpcConnection.MskVpcConnection.Initializer.parameter.targetClusterArn">targetClusterArn</a></code> | <code>java.lang.String</code> | The Amazon Resource Name (ARN) of the target cluster. |
-| <code><a href="#@cdktn/provider-awscc.mskVpcConnection.MskVpcConnection.Initializer.parameter.vpcId">vpcId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_vpc_connection#vpc_id MskVpcConnection#vpc_id}. |
+| <code><a href="#@cdktn/provider-awscc.mskVpcConnection.MskVpcConnection.Initializer.parameter.vpcId">vpcId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/msk_vpc_connection#vpc_id MskVpcConnection#vpc_id}. |
 | <code><a href="#@cdktn/provider-awscc.mskVpcConnection.MskVpcConnection.Initializer.parameter.tags">tags</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | A key-value pair to associate with a resource. |
 
 ---
@@ -114,7 +114,7 @@ Must be unique amongst siblings in the same scope
 
 The type of private link authentication.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_vpc_connection#authentication MskVpcConnection#authentication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/msk_vpc_connection#authentication MskVpcConnection#authentication}
 
 ---
 
@@ -122,7 +122,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_vpc_connection#client_subnets MskVpcConnection#client_subnets}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/msk_vpc_connection#client_subnets MskVpcConnection#client_subnets}.
 
 ---
 
@@ -130,7 +130,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_vpc_connection#security_groups MskVpcConnection#security_groups}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/msk_vpc_connection#security_groups MskVpcConnection#security_groups}.
 
 ---
 
@@ -140,7 +140,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The Amazon Resource Name (ARN) of the target cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_vpc_connection#target_cluster_arn MskVpcConnection#target_cluster_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/msk_vpc_connection#target_cluster_arn MskVpcConnection#target_cluster_arn}
 
 ---
 
@@ -148,7 +148,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_vpc_connection#vpc_id MskVpcConnection#vpc_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/msk_vpc_connection#vpc_id MskVpcConnection#vpc_id}.
 
 ---
 
@@ -158,7 +158,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A key-value pair to associate with a resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_vpc_connection#tags MskVpcConnection#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/msk_vpc_connection#tags MskVpcConnection#tags}
 
 ---
 
@@ -614,7 +614,7 @@ The construct id used in the generated config for the MskVpcConnection to import
 
 The id of the existing MskVpcConnection that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_vpc_connection#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/msk_vpc_connection#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -999,10 +999,10 @@ MskVpcConnectionConfig.builder()
 | <code><a href="#@cdktn/provider-awscc.mskVpcConnection.MskVpcConnectionConfig.property.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mskVpcConnection.MskVpcConnectionConfig.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mskVpcConnection.MskVpcConnectionConfig.property.authentication">authentication</a></code> | <code>java.lang.String</code> | The type of private link authentication. |
-| <code><a href="#@cdktn/provider-awscc.mskVpcConnection.MskVpcConnectionConfig.property.clientSubnets">clientSubnets</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_vpc_connection#client_subnets MskVpcConnection#client_subnets}. |
-| <code><a href="#@cdktn/provider-awscc.mskVpcConnection.MskVpcConnectionConfig.property.securityGroups">securityGroups</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_vpc_connection#security_groups MskVpcConnection#security_groups}. |
+| <code><a href="#@cdktn/provider-awscc.mskVpcConnection.MskVpcConnectionConfig.property.clientSubnets">clientSubnets</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/msk_vpc_connection#client_subnets MskVpcConnection#client_subnets}. |
+| <code><a href="#@cdktn/provider-awscc.mskVpcConnection.MskVpcConnectionConfig.property.securityGroups">securityGroups</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/msk_vpc_connection#security_groups MskVpcConnection#security_groups}. |
 | <code><a href="#@cdktn/provider-awscc.mskVpcConnection.MskVpcConnectionConfig.property.targetClusterArn">targetClusterArn</a></code> | <code>java.lang.String</code> | The Amazon Resource Name (ARN) of the target cluster. |
-| <code><a href="#@cdktn/provider-awscc.mskVpcConnection.MskVpcConnectionConfig.property.vpcId">vpcId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_vpc_connection#vpc_id MskVpcConnection#vpc_id}. |
+| <code><a href="#@cdktn/provider-awscc.mskVpcConnection.MskVpcConnectionConfig.property.vpcId">vpcId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/msk_vpc_connection#vpc_id MskVpcConnection#vpc_id}. |
 | <code><a href="#@cdktn/provider-awscc.mskVpcConnection.MskVpcConnectionConfig.property.tags">tags</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | A key-value pair to associate with a resource. |
 
 ---
@@ -1087,7 +1087,7 @@ public java.lang.String getAuthentication();
 
 The type of private link authentication.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_vpc_connection#authentication MskVpcConnection#authentication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/msk_vpc_connection#authentication MskVpcConnection#authentication}
 
 ---
 
@@ -1099,7 +1099,7 @@ public java.util.List<java.lang.String> getClientSubnets();
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_vpc_connection#client_subnets MskVpcConnection#client_subnets}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/msk_vpc_connection#client_subnets MskVpcConnection#client_subnets}.
 
 ---
 
@@ -1111,7 +1111,7 @@ public java.util.List<java.lang.String> getSecurityGroups();
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_vpc_connection#security_groups MskVpcConnection#security_groups}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/msk_vpc_connection#security_groups MskVpcConnection#security_groups}.
 
 ---
 
@@ -1125,7 +1125,7 @@ public java.lang.String getTargetClusterArn();
 
 The Amazon Resource Name (ARN) of the target cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_vpc_connection#target_cluster_arn MskVpcConnection#target_cluster_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/msk_vpc_connection#target_cluster_arn MskVpcConnection#target_cluster_arn}
 
 ---
 
@@ -1137,7 +1137,7 @@ public java.lang.String getVpcId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_vpc_connection#vpc_id MskVpcConnection#vpc_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/msk_vpc_connection#vpc_id MskVpcConnection#vpc_id}.
 
 ---
 
@@ -1151,7 +1151,7 @@ public java.util.Map<java.lang.String, java.lang.String> getTags();
 
 A key-value pair to associate with a resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_vpc_connection#tags MskVpcConnection#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/msk_vpc_connection#tags MskVpcConnection#tags}
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### Ec2VpcEndpointServicePermissions <a name="Ec2VpcEndpointServicePermissions" id="@cdktn/provider-awscc.ec2VpcEndpointServicePermissions.Ec2VpcEndpointServicePermissions"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpc_endpoint_service_permissions awscc_ec2_vpc_endpoint_service_permissions}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_vpc_endpoint_service_permissions awscc_ec2_vpc_endpoint_service_permissions}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2VpcEndpointServicePermissions.Ec2VpcEndpointServicePermissions.Initializer"></a>
 
@@ -35,8 +35,8 @@ Ec2VpcEndpointServicePermissions.Builder.create(Construct scope, java.lang.Strin
 | <code><a href="#@cdktn/provider-awscc.ec2VpcEndpointServicePermissions.Ec2VpcEndpointServicePermissions.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ec2VpcEndpointServicePermissions.Ec2VpcEndpointServicePermissions.Initializer.parameter.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ec2VpcEndpointServicePermissions.Ec2VpcEndpointServicePermissions.Initializer.parameter.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.ec2VpcEndpointServicePermissions.Ec2VpcEndpointServicePermissions.Initializer.parameter.serviceId">serviceId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpc_endpoint_service_permissions#service_id Ec2VpcEndpointServicePermissions#service_id}. |
-| <code><a href="#@cdktn/provider-awscc.ec2VpcEndpointServicePermissions.Ec2VpcEndpointServicePermissions.Initializer.parameter.allowedPrincipals">allowedPrincipals</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpc_endpoint_service_permissions#allowed_principals Ec2VpcEndpointServicePermissions#allowed_principals}. |
+| <code><a href="#@cdktn/provider-awscc.ec2VpcEndpointServicePermissions.Ec2VpcEndpointServicePermissions.Initializer.parameter.serviceId">serviceId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_vpc_endpoint_service_permissions#service_id Ec2VpcEndpointServicePermissions#service_id}. |
+| <code><a href="#@cdktn/provider-awscc.ec2VpcEndpointServicePermissions.Ec2VpcEndpointServicePermissions.Initializer.parameter.allowedPrincipals">allowedPrincipals</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_vpc_endpoint_service_permissions#allowed_principals Ec2VpcEndpointServicePermissions#allowed_principals}. |
 
 ---
 
@@ -104,7 +104,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpc_endpoint_service_permissions#service_id Ec2VpcEndpointServicePermissions#service_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_vpc_endpoint_service_permissions#service_id Ec2VpcEndpointServicePermissions#service_id}.
 
 ---
 
@@ -112,7 +112,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpc_endpoint_service_permissions#allowed_principals Ec2VpcEndpointServicePermissions#allowed_principals}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_vpc_endpoint_service_permissions#allowed_principals Ec2VpcEndpointServicePermissions#allowed_principals}.
 
 ---
 
@@ -568,7 +568,7 @@ The construct id used in the generated config for the Ec2VpcEndpointServicePermi
 
 The id of the existing Ec2VpcEndpointServicePermissions that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpc_endpoint_service_permissions#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_vpc_endpoint_service_permissions#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -849,8 +849,8 @@ Ec2VpcEndpointServicePermissionsConfig.builder()
 | <code><a href="#@cdktn/provider-awscc.ec2VpcEndpointServicePermissions.Ec2VpcEndpointServicePermissionsConfig.property.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ec2VpcEndpointServicePermissions.Ec2VpcEndpointServicePermissionsConfig.property.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ec2VpcEndpointServicePermissions.Ec2VpcEndpointServicePermissionsConfig.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.ec2VpcEndpointServicePermissions.Ec2VpcEndpointServicePermissionsConfig.property.serviceId">serviceId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpc_endpoint_service_permissions#service_id Ec2VpcEndpointServicePermissions#service_id}. |
-| <code><a href="#@cdktn/provider-awscc.ec2VpcEndpointServicePermissions.Ec2VpcEndpointServicePermissionsConfig.property.allowedPrincipals">allowedPrincipals</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpc_endpoint_service_permissions#allowed_principals Ec2VpcEndpointServicePermissions#allowed_principals}. |
+| <code><a href="#@cdktn/provider-awscc.ec2VpcEndpointServicePermissions.Ec2VpcEndpointServicePermissionsConfig.property.serviceId">serviceId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_vpc_endpoint_service_permissions#service_id Ec2VpcEndpointServicePermissions#service_id}. |
+| <code><a href="#@cdktn/provider-awscc.ec2VpcEndpointServicePermissions.Ec2VpcEndpointServicePermissionsConfig.property.allowedPrincipals">allowedPrincipals</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_vpc_endpoint_service_permissions#allowed_principals Ec2VpcEndpointServicePermissions#allowed_principals}. |
 
 ---
 
@@ -932,7 +932,7 @@ public java.lang.String getServiceId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpc_endpoint_service_permissions#service_id Ec2VpcEndpointServicePermissions#service_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_vpc_endpoint_service_permissions#service_id Ec2VpcEndpointServicePermissions#service_id}.
 
 ---
 
@@ -944,7 +944,7 @@ public java.util.List<java.lang.String> getAllowedPrincipals();
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpc_endpoint_service_permissions#allowed_principals Ec2VpcEndpointServicePermissions#allowed_principals}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_vpc_endpoint_service_permissions#allowed_principals Ec2VpcEndpointServicePermissions#allowed_principals}.
 
 ---
 

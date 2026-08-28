@@ -4,7 +4,7 @@
 
 ### DataAwsccApplicationinsightsApplications <a name="DataAwsccApplicationinsightsApplications" id="@cdktn/provider-awscc.dataAwsccApplicationinsightsApplications.DataAwsccApplicationinsightsApplications"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/applicationinsights_applications awscc_applicationinsights_applications}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/applicationinsights_applications awscc_applicationinsights_applications}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApplicationinsightsApplications.DataAwsccApplicationinsightsApplications.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccApplicationinsigh
 
 The id of the existing DataAwsccApplicationinsightsApplications that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/applicationinsights_applications#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/applicationinsights_applications#import import section} in the documentation of this resource for the id to use
 
 ---
 

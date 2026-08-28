@@ -4,7 +4,7 @@
 
 ### SsoApplicationAssignment <a name="SsoApplicationAssignment" id="@cdktn/provider-awscc.ssoApplicationAssignment.SsoApplicationAssignment"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sso_application_assignment awscc_sso_application_assignment}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sso_application_assignment awscc_sso_application_assignment}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ssoApplicationAssignment.SsoApplicationAssignment.Initializer"></a>
 
@@ -108,7 +108,7 @@ Must be unique amongst siblings in the same scope
 
 The ARN of the application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sso_application_assignment#application_arn SsoApplicationAssignment#application_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sso_application_assignment#application_arn SsoApplicationAssignment#application_arn}
 
 ---
 
@@ -118,7 +118,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An identifier for an object in IAM Identity Center, such as a user or group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sso_application_assignment#principal_id SsoApplicationAssignment#principal_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sso_application_assignment#principal_id SsoApplicationAssignment#principal_id}
 
 ---
 
@@ -128,7 +128,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The entity type for which the assignment will be created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sso_application_assignment#principal_type SsoApplicationAssignment#principal_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sso_application_assignment#principal_type SsoApplicationAssignment#principal_type}
 
 ---
 
@@ -577,7 +577,7 @@ The construct id used in the generated config for the SsoApplicationAssignment t
 
 The id of the existing SsoApplicationAssignment that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sso_application_assignment#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sso_application_assignment#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -967,7 +967,7 @@ public java.lang.String getApplicationArn();
 
 The ARN of the application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sso_application_assignment#application_arn SsoApplicationAssignment#application_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sso_application_assignment#application_arn SsoApplicationAssignment#application_arn}
 
 ---
 
@@ -981,7 +981,7 @@ public java.lang.String getPrincipalId();
 
 An identifier for an object in IAM Identity Center, such as a user or group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sso_application_assignment#principal_id SsoApplicationAssignment#principal_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sso_application_assignment#principal_id SsoApplicationAssignment#principal_id}
 
 ---
 
@@ -995,7 +995,7 @@ public java.lang.String getPrincipalType();
 
 The entity type for which the assignment will be created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sso_application_assignment#principal_type SsoApplicationAssignment#principal_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sso_application_assignment#principal_type SsoApplicationAssignment#principal_type}
 
 ---
 

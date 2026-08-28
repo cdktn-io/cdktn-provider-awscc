@@ -4,7 +4,7 @@
 
 ### StepfunctionsActivity <a name="StepfunctionsActivity" id="@cdktn/provider-awscc.stepfunctionsActivity.StepfunctionsActivity"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/stepfunctions_activity awscc_stepfunctions_activity}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/stepfunctions_activity awscc_stepfunctions_activity}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.stepfunctionsActivity.StepfunctionsActivity.Initializer"></a>
 
@@ -36,9 +36,9 @@ StepfunctionsActivity.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktn/provider-awscc.stepfunctionsActivity.StepfunctionsActivity.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.stepfunctionsActivity.StepfunctionsActivity.Initializer.parameter.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.stepfunctionsActivity.StepfunctionsActivity.Initializer.parameter.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.stepfunctionsActivity.StepfunctionsActivity.Initializer.parameter.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/stepfunctions_activity#name StepfunctionsActivity#name}. |
-| <code><a href="#@cdktn/provider-awscc.stepfunctionsActivity.StepfunctionsActivity.Initializer.parameter.encryptionConfiguration">encryptionConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.stepfunctionsActivity.StepfunctionsActivityEncryptionConfiguration">StepfunctionsActivityEncryptionConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/stepfunctions_activity#encryption_configuration StepfunctionsActivity#encryption_configuration}. |
-| <code><a href="#@cdktn/provider-awscc.stepfunctionsActivity.StepfunctionsActivity.Initializer.parameter.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.stepfunctionsActivity.StepfunctionsActivityTags">StepfunctionsActivityTags</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/stepfunctions_activity#tags StepfunctionsActivity#tags}. |
+| <code><a href="#@cdktn/provider-awscc.stepfunctionsActivity.StepfunctionsActivity.Initializer.parameter.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/stepfunctions_activity#name StepfunctionsActivity#name}. |
+| <code><a href="#@cdktn/provider-awscc.stepfunctionsActivity.StepfunctionsActivity.Initializer.parameter.encryptionConfiguration">encryptionConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.stepfunctionsActivity.StepfunctionsActivityEncryptionConfiguration">StepfunctionsActivityEncryptionConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/stepfunctions_activity#encryption_configuration StepfunctionsActivity#encryption_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.stepfunctionsActivity.StepfunctionsActivity.Initializer.parameter.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.stepfunctionsActivity.StepfunctionsActivityTags">StepfunctionsActivityTags</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/stepfunctions_activity#tags StepfunctionsActivity#tags}. |
 
 ---
 
@@ -106,7 +106,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/stepfunctions_activity#name StepfunctionsActivity#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/stepfunctions_activity#name StepfunctionsActivity#name}.
 
 ---
 
@@ -114,7 +114,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.stepfunctionsActivity.StepfunctionsActivityEncryptionConfiguration">StepfunctionsActivityEncryptionConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/stepfunctions_activity#encryption_configuration StepfunctionsActivity#encryption_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/stepfunctions_activity#encryption_configuration StepfunctionsActivity#encryption_configuration}.
 
 ---
 
@@ -122,7 +122,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-awscc.stepfunctionsActivity.StepfunctionsActivityTags">StepfunctionsActivityTags</a>>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/stepfunctions_activity#tags StepfunctionsActivity#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/stepfunctions_activity#tags StepfunctionsActivity#tags}.
 
 ---
 
@@ -611,7 +611,7 @@ The construct id used in the generated config for the StepfunctionsActivity to i
 
 The id of the existing StepfunctionsActivity that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/stepfunctions_activity#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/stepfunctions_activity#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -926,9 +926,9 @@ StepfunctionsActivityConfig.builder()
 | <code><a href="#@cdktn/provider-awscc.stepfunctionsActivity.StepfunctionsActivityConfig.property.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.stepfunctionsActivity.StepfunctionsActivityConfig.property.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.stepfunctionsActivity.StepfunctionsActivityConfig.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.stepfunctionsActivity.StepfunctionsActivityConfig.property.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/stepfunctions_activity#name StepfunctionsActivity#name}. |
-| <code><a href="#@cdktn/provider-awscc.stepfunctionsActivity.StepfunctionsActivityConfig.property.encryptionConfiguration">encryptionConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.stepfunctionsActivity.StepfunctionsActivityEncryptionConfiguration">StepfunctionsActivityEncryptionConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/stepfunctions_activity#encryption_configuration StepfunctionsActivity#encryption_configuration}. |
-| <code><a href="#@cdktn/provider-awscc.stepfunctionsActivity.StepfunctionsActivityConfig.property.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.stepfunctionsActivity.StepfunctionsActivityTags">StepfunctionsActivityTags</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/stepfunctions_activity#tags StepfunctionsActivity#tags}. |
+| <code><a href="#@cdktn/provider-awscc.stepfunctionsActivity.StepfunctionsActivityConfig.property.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/stepfunctions_activity#name StepfunctionsActivity#name}. |
+| <code><a href="#@cdktn/provider-awscc.stepfunctionsActivity.StepfunctionsActivityConfig.property.encryptionConfiguration">encryptionConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.stepfunctionsActivity.StepfunctionsActivityEncryptionConfiguration">StepfunctionsActivityEncryptionConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/stepfunctions_activity#encryption_configuration StepfunctionsActivity#encryption_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.stepfunctionsActivity.StepfunctionsActivityConfig.property.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.stepfunctionsActivity.StepfunctionsActivityTags">StepfunctionsActivityTags</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/stepfunctions_activity#tags StepfunctionsActivity#tags}. |
 
 ---
 
@@ -1010,7 +1010,7 @@ public java.lang.String getName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/stepfunctions_activity#name StepfunctionsActivity#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/stepfunctions_activity#name StepfunctionsActivity#name}.
 
 ---
 
@@ -1022,7 +1022,7 @@ public StepfunctionsActivityEncryptionConfiguration getEncryptionConfiguration()
 
 - *Type:* <a href="#@cdktn/provider-awscc.stepfunctionsActivity.StepfunctionsActivityEncryptionConfiguration">StepfunctionsActivityEncryptionConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/stepfunctions_activity#encryption_configuration StepfunctionsActivity#encryption_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/stepfunctions_activity#encryption_configuration StepfunctionsActivity#encryption_configuration}.
 
 ---
 
@@ -1034,7 +1034,7 @@ public IResolvable|java.util.List<StepfunctionsActivityTags> getTags();
 
 - *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-awscc.stepfunctionsActivity.StepfunctionsActivityTags">StepfunctionsActivityTags</a>>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/stepfunctions_activity#tags StepfunctionsActivity#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/stepfunctions_activity#tags StepfunctionsActivity#tags}.
 
 ---
 
@@ -1056,9 +1056,9 @@ StepfunctionsActivityEncryptionConfiguration.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.stepfunctionsActivity.StepfunctionsActivityEncryptionConfiguration.property.kmsDataKeyReusePeriodSeconds">kmsDataKeyReusePeriodSeconds</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/stepfunctions_activity#kms_data_key_reuse_period_seconds StepfunctionsActivity#kms_data_key_reuse_period_seconds}. |
-| <code><a href="#@cdktn/provider-awscc.stepfunctionsActivity.StepfunctionsActivityEncryptionConfiguration.property.kmsKeyId">kmsKeyId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/stepfunctions_activity#kms_key_id StepfunctionsActivity#kms_key_id}. |
-| <code><a href="#@cdktn/provider-awscc.stepfunctionsActivity.StepfunctionsActivityEncryptionConfiguration.property.type">type</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/stepfunctions_activity#type StepfunctionsActivity#type}. |
+| <code><a href="#@cdktn/provider-awscc.stepfunctionsActivity.StepfunctionsActivityEncryptionConfiguration.property.kmsDataKeyReusePeriodSeconds">kmsDataKeyReusePeriodSeconds</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/stepfunctions_activity#kms_data_key_reuse_period_seconds StepfunctionsActivity#kms_data_key_reuse_period_seconds}. |
+| <code><a href="#@cdktn/provider-awscc.stepfunctionsActivity.StepfunctionsActivityEncryptionConfiguration.property.kmsKeyId">kmsKeyId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/stepfunctions_activity#kms_key_id StepfunctionsActivity#kms_key_id}. |
+| <code><a href="#@cdktn/provider-awscc.stepfunctionsActivity.StepfunctionsActivityEncryptionConfiguration.property.type">type</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/stepfunctions_activity#type StepfunctionsActivity#type}. |
 
 ---
 
@@ -1070,7 +1070,7 @@ public java.lang.Number getKmsDataKeyReusePeriodSeconds();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/stepfunctions_activity#kms_data_key_reuse_period_seconds StepfunctionsActivity#kms_data_key_reuse_period_seconds}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/stepfunctions_activity#kms_data_key_reuse_period_seconds StepfunctionsActivity#kms_data_key_reuse_period_seconds}.
 
 ---
 
@@ -1082,7 +1082,7 @@ public java.lang.String getKmsKeyId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/stepfunctions_activity#kms_key_id StepfunctionsActivity#kms_key_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/stepfunctions_activity#kms_key_id StepfunctionsActivity#kms_key_id}.
 
 ---
 
@@ -1094,7 +1094,7 @@ public java.lang.String getType();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/stepfunctions_activity#type StepfunctionsActivity#type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/stepfunctions_activity#type StepfunctionsActivity#type}.
 
 ---
 
@@ -1115,8 +1115,8 @@ StepfunctionsActivityTags.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.stepfunctionsActivity.StepfunctionsActivityTags.property.key">key</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/stepfunctions_activity#key StepfunctionsActivity#key}. |
-| <code><a href="#@cdktn/provider-awscc.stepfunctionsActivity.StepfunctionsActivityTags.property.value">value</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/stepfunctions_activity#value StepfunctionsActivity#value}. |
+| <code><a href="#@cdktn/provider-awscc.stepfunctionsActivity.StepfunctionsActivityTags.property.key">key</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/stepfunctions_activity#key StepfunctionsActivity#key}. |
+| <code><a href="#@cdktn/provider-awscc.stepfunctionsActivity.StepfunctionsActivityTags.property.value">value</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/stepfunctions_activity#value StepfunctionsActivity#value}. |
 
 ---
 
@@ -1128,7 +1128,7 @@ public java.lang.String getKey();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/stepfunctions_activity#key StepfunctionsActivity#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/stepfunctions_activity#key StepfunctionsActivity#key}.
 
 ---
 
@@ -1140,7 +1140,7 @@ public java.lang.String getValue();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/stepfunctions_activity#value StepfunctionsActivity#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/stepfunctions_activity#value StepfunctionsActivity#value}.
 
 ---
 

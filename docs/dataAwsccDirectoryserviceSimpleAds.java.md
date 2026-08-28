@@ -4,7 +4,7 @@
 
 ### DataAwsccDirectoryserviceSimpleAds <a name="DataAwsccDirectoryserviceSimpleAds" id="@cdktn/provider-awscc.dataAwsccDirectoryserviceSimpleAds.DataAwsccDirectoryserviceSimpleAds"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/directoryservice_simple_ads awscc_directoryservice_simple_ads}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/directoryservice_simple_ads awscc_directoryservice_simple_ads}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDirectoryserviceSimpleAds.DataAwsccDirectoryserviceSimpleAds.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccDirectoryserviceS
 
 The id of the existing DataAwsccDirectoryserviceSimpleAds that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/directoryservice_simple_ads#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/directoryservice_simple_ads#import import section} in the documentation of this resource for the id to use
 
 ---
 

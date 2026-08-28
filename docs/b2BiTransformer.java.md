@@ -4,7 +4,7 @@
 
 ### B2BiTransformer <a name="B2BiTransformer" id="@cdktn/provider-awscc.b2BiTransformer.B2BiTransformer"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer awscc_b2bi_transformer}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer awscc_b2bi_transformer}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.b2BiTransformer.B2BiTransformer.Initializer"></a>
 
@@ -44,17 +44,17 @@ B2BiTransformer.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformer.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformer.Initializer.parameter.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformer.Initializer.parameter.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformer.Initializer.parameter.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#name B2BiTransformer#name}. |
-| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformer.Initializer.parameter.status">status</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#status B2BiTransformer#status}. |
-| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformer.Initializer.parameter.ediType">ediType</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerEdiType">B2BiTransformerEdiType</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#edi_type B2BiTransformer#edi_type}. |
-| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformer.Initializer.parameter.fileFormat">fileFormat</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#file_format B2BiTransformer#file_format}. |
-| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformer.Initializer.parameter.inputConversion">inputConversion</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerInputConversion">B2BiTransformerInputConversion</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#input_conversion B2BiTransformer#input_conversion}. |
-| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformer.Initializer.parameter.mapping">mapping</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerMapping">B2BiTransformerMapping</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#mapping B2BiTransformer#mapping}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformer.Initializer.parameter.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#name B2BiTransformer#name}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformer.Initializer.parameter.status">status</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#status B2BiTransformer#status}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformer.Initializer.parameter.ediType">ediType</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerEdiType">B2BiTransformerEdiType</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#edi_type B2BiTransformer#edi_type}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformer.Initializer.parameter.fileFormat">fileFormat</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#file_format B2BiTransformer#file_format}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformer.Initializer.parameter.inputConversion">inputConversion</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerInputConversion">B2BiTransformerInputConversion</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#input_conversion B2BiTransformer#input_conversion}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformer.Initializer.parameter.mapping">mapping</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerMapping">B2BiTransformerMapping</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#mapping B2BiTransformer#mapping}. |
 | <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformer.Initializer.parameter.mappingTemplate">mappingTemplate</a></code> | <code>java.lang.String</code> | This shape is deprecated: This is a legacy trait. Please use input-conversion or output-conversion. |
-| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformer.Initializer.parameter.outputConversion">outputConversion</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerOutputConversion">B2BiTransformerOutputConversion</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#output_conversion B2BiTransformer#output_conversion}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformer.Initializer.parameter.outputConversion">outputConversion</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerOutputConversion">B2BiTransformerOutputConversion</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#output_conversion B2BiTransformer#output_conversion}. |
 | <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformer.Initializer.parameter.sampleDocument">sampleDocument</a></code> | <code>java.lang.String</code> | This shape is deprecated: This is a legacy trait. Please use input-conversion or output-conversion. |
-| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformer.Initializer.parameter.sampleDocuments">sampleDocuments</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerSampleDocuments">B2BiTransformerSampleDocuments</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#sample_documents B2BiTransformer#sample_documents}. |
-| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformer.Initializer.parameter.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerTags">B2BiTransformerTags</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#tags B2BiTransformer#tags}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformer.Initializer.parameter.sampleDocuments">sampleDocuments</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerSampleDocuments">B2BiTransformerSampleDocuments</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#sample_documents B2BiTransformer#sample_documents}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformer.Initializer.parameter.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerTags">B2BiTransformerTags</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#tags B2BiTransformer#tags}. |
 
 ---
 
@@ -122,7 +122,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#name B2BiTransformer#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#name B2BiTransformer#name}.
 
 ---
 
@@ -130,7 +130,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#status B2BiTransformer#status}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#status B2BiTransformer#status}.
 
 ---
 
@@ -138,7 +138,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerEdiType">B2BiTransformerEdiType</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#edi_type B2BiTransformer#edi_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#edi_type B2BiTransformer#edi_type}.
 
 ---
 
@@ -146,7 +146,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#file_format B2BiTransformer#file_format}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#file_format B2BiTransformer#file_format}.
 
 ---
 
@@ -154,7 +154,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerInputConversion">B2BiTransformerInputConversion</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#input_conversion B2BiTransformer#input_conversion}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#input_conversion B2BiTransformer#input_conversion}.
 
 ---
 
@@ -162,7 +162,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerMapping">B2BiTransformerMapping</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#mapping B2BiTransformer#mapping}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#mapping B2BiTransformer#mapping}.
 
 ---
 
@@ -172,7 +172,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 This shape is deprecated: This is a legacy trait. Please use input-conversion or output-conversion.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#mapping_template B2BiTransformer#mapping_template}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#mapping_template B2BiTransformer#mapping_template}
 
 ---
 
@@ -180,7 +180,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerOutputConversion">B2BiTransformerOutputConversion</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#output_conversion B2BiTransformer#output_conversion}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#output_conversion B2BiTransformer#output_conversion}.
 
 ---
 
@@ -190,7 +190,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 This shape is deprecated: This is a legacy trait. Please use input-conversion or output-conversion.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#sample_document B2BiTransformer#sample_document}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#sample_document B2BiTransformer#sample_document}
 
 ---
 
@@ -198,7 +198,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerSampleDocuments">B2BiTransformerSampleDocuments</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#sample_documents B2BiTransformer#sample_documents}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#sample_documents B2BiTransformer#sample_documents}.
 
 ---
 
@@ -206,7 +206,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerTags">B2BiTransformerTags</a>>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#tags B2BiTransformer#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#tags B2BiTransformer#tags}.
 
 ---
 
@@ -796,7 +796,7 @@ The construct id used in the generated config for the B2BiTransformer to import.
 
 The id of the existing B2BiTransformer that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1328,17 +1328,17 @@ B2BiTransformerConfig.builder()
 | <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerConfig.property.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerConfig.property.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerConfig.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerConfig.property.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#name B2BiTransformer#name}. |
-| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerConfig.property.status">status</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#status B2BiTransformer#status}. |
-| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerConfig.property.ediType">ediType</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerEdiType">B2BiTransformerEdiType</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#edi_type B2BiTransformer#edi_type}. |
-| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerConfig.property.fileFormat">fileFormat</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#file_format B2BiTransformer#file_format}. |
-| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerConfig.property.inputConversion">inputConversion</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerInputConversion">B2BiTransformerInputConversion</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#input_conversion B2BiTransformer#input_conversion}. |
-| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerConfig.property.mapping">mapping</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerMapping">B2BiTransformerMapping</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#mapping B2BiTransformer#mapping}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerConfig.property.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#name B2BiTransformer#name}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerConfig.property.status">status</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#status B2BiTransformer#status}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerConfig.property.ediType">ediType</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerEdiType">B2BiTransformerEdiType</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#edi_type B2BiTransformer#edi_type}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerConfig.property.fileFormat">fileFormat</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#file_format B2BiTransformer#file_format}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerConfig.property.inputConversion">inputConversion</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerInputConversion">B2BiTransformerInputConversion</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#input_conversion B2BiTransformer#input_conversion}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerConfig.property.mapping">mapping</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerMapping">B2BiTransformerMapping</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#mapping B2BiTransformer#mapping}. |
 | <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerConfig.property.mappingTemplate">mappingTemplate</a></code> | <code>java.lang.String</code> | This shape is deprecated: This is a legacy trait. Please use input-conversion or output-conversion. |
-| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerConfig.property.outputConversion">outputConversion</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerOutputConversion">B2BiTransformerOutputConversion</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#output_conversion B2BiTransformer#output_conversion}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerConfig.property.outputConversion">outputConversion</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerOutputConversion">B2BiTransformerOutputConversion</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#output_conversion B2BiTransformer#output_conversion}. |
 | <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerConfig.property.sampleDocument">sampleDocument</a></code> | <code>java.lang.String</code> | This shape is deprecated: This is a legacy trait. Please use input-conversion or output-conversion. |
-| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerConfig.property.sampleDocuments">sampleDocuments</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerSampleDocuments">B2BiTransformerSampleDocuments</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#sample_documents B2BiTransformer#sample_documents}. |
-| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerConfig.property.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerTags">B2BiTransformerTags</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#tags B2BiTransformer#tags}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerConfig.property.sampleDocuments">sampleDocuments</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerSampleDocuments">B2BiTransformerSampleDocuments</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#sample_documents B2BiTransformer#sample_documents}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerConfig.property.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerTags">B2BiTransformerTags</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#tags B2BiTransformer#tags}. |
 
 ---
 
@@ -1420,7 +1420,7 @@ public java.lang.String getName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#name B2BiTransformer#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#name B2BiTransformer#name}.
 
 ---
 
@@ -1432,7 +1432,7 @@ public java.lang.String getStatus();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#status B2BiTransformer#status}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#status B2BiTransformer#status}.
 
 ---
 
@@ -1444,7 +1444,7 @@ public B2BiTransformerEdiType getEdiType();
 
 - *Type:* <a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerEdiType">B2BiTransformerEdiType</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#edi_type B2BiTransformer#edi_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#edi_type B2BiTransformer#edi_type}.
 
 ---
 
@@ -1456,7 +1456,7 @@ public java.lang.String getFileFormat();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#file_format B2BiTransformer#file_format}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#file_format B2BiTransformer#file_format}.
 
 ---
 
@@ -1468,7 +1468,7 @@ public B2BiTransformerInputConversion getInputConversion();
 
 - *Type:* <a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerInputConversion">B2BiTransformerInputConversion</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#input_conversion B2BiTransformer#input_conversion}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#input_conversion B2BiTransformer#input_conversion}.
 
 ---
 
@@ -1480,7 +1480,7 @@ public B2BiTransformerMapping getMapping();
 
 - *Type:* <a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerMapping">B2BiTransformerMapping</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#mapping B2BiTransformer#mapping}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#mapping B2BiTransformer#mapping}.
 
 ---
 
@@ -1494,7 +1494,7 @@ public java.lang.String getMappingTemplate();
 
 This shape is deprecated: This is a legacy trait. Please use input-conversion or output-conversion.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#mapping_template B2BiTransformer#mapping_template}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#mapping_template B2BiTransformer#mapping_template}
 
 ---
 
@@ -1506,7 +1506,7 @@ public B2BiTransformerOutputConversion getOutputConversion();
 
 - *Type:* <a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerOutputConversion">B2BiTransformerOutputConversion</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#output_conversion B2BiTransformer#output_conversion}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#output_conversion B2BiTransformer#output_conversion}.
 
 ---
 
@@ -1520,7 +1520,7 @@ public java.lang.String getSampleDocument();
 
 This shape is deprecated: This is a legacy trait. Please use input-conversion or output-conversion.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#sample_document B2BiTransformer#sample_document}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#sample_document B2BiTransformer#sample_document}
 
 ---
 
@@ -1532,7 +1532,7 @@ public B2BiTransformerSampleDocuments getSampleDocuments();
 
 - *Type:* <a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerSampleDocuments">B2BiTransformerSampleDocuments</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#sample_documents B2BiTransformer#sample_documents}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#sample_documents B2BiTransformer#sample_documents}.
 
 ---
 
@@ -1544,7 +1544,7 @@ public IResolvable|java.util.List<B2BiTransformerTags> getTags();
 
 - *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerTags">B2BiTransformerTags</a>>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#tags B2BiTransformer#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#tags B2BiTransformer#tags}.
 
 ---
 
@@ -1564,7 +1564,7 @@ B2BiTransformerEdiType.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerEdiType.property.x12Details">x12Details</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerEdiTypeX12Details">B2BiTransformerEdiTypeX12Details</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#x12_details B2BiTransformer#x12_details}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerEdiType.property.x12Details">x12Details</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerEdiTypeX12Details">B2BiTransformerEdiTypeX12Details</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#x12_details B2BiTransformer#x12_details}. |
 
 ---
 
@@ -1576,7 +1576,7 @@ public B2BiTransformerEdiTypeX12Details getX12Details();
 
 - *Type:* <a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerEdiTypeX12Details">B2BiTransformerEdiTypeX12Details</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#x12_details B2BiTransformer#x12_details}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#x12_details B2BiTransformer#x12_details}.
 
 ---
 
@@ -1597,8 +1597,8 @@ B2BiTransformerEdiTypeX12Details.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerEdiTypeX12Details.property.transactionSet">transactionSet</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#transaction_set B2BiTransformer#transaction_set}. |
-| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerEdiTypeX12Details.property.version">version</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#version B2BiTransformer#version}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerEdiTypeX12Details.property.transactionSet">transactionSet</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#transaction_set B2BiTransformer#transaction_set}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerEdiTypeX12Details.property.version">version</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#version B2BiTransformer#version}. |
 
 ---
 
@@ -1610,7 +1610,7 @@ public java.lang.String getTransactionSet();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#transaction_set B2BiTransformer#transaction_set}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#transaction_set B2BiTransformer#transaction_set}.
 
 ---
 
@@ -1622,7 +1622,7 @@ public java.lang.String getVersion();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#version B2BiTransformer#version}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#version B2BiTransformer#version}.
 
 ---
 
@@ -1644,9 +1644,9 @@ B2BiTransformerInputConversion.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerInputConversion.property.advancedOptions">advancedOptions</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerInputConversionAdvancedOptions">B2BiTransformerInputConversionAdvancedOptions</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#advanced_options B2BiTransformer#advanced_options}. |
-| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerInputConversion.property.formatOptions">formatOptions</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerInputConversionFormatOptions">B2BiTransformerInputConversionFormatOptions</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#format_options B2BiTransformer#format_options}. |
-| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerInputConversion.property.fromFormat">fromFormat</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#from_format B2BiTransformer#from_format}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerInputConversion.property.advancedOptions">advancedOptions</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerInputConversionAdvancedOptions">B2BiTransformerInputConversionAdvancedOptions</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#advanced_options B2BiTransformer#advanced_options}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerInputConversion.property.formatOptions">formatOptions</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerInputConversionFormatOptions">B2BiTransformerInputConversionFormatOptions</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#format_options B2BiTransformer#format_options}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerInputConversion.property.fromFormat">fromFormat</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#from_format B2BiTransformer#from_format}. |
 
 ---
 
@@ -1658,7 +1658,7 @@ public B2BiTransformerInputConversionAdvancedOptions getAdvancedOptions();
 
 - *Type:* <a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerInputConversionAdvancedOptions">B2BiTransformerInputConversionAdvancedOptions</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#advanced_options B2BiTransformer#advanced_options}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#advanced_options B2BiTransformer#advanced_options}.
 
 ---
 
@@ -1670,7 +1670,7 @@ public B2BiTransformerInputConversionFormatOptions getFormatOptions();
 
 - *Type:* <a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerInputConversionFormatOptions">B2BiTransformerInputConversionFormatOptions</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#format_options B2BiTransformer#format_options}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#format_options B2BiTransformer#format_options}.
 
 ---
 
@@ -1682,7 +1682,7 @@ public java.lang.String getFromFormat();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#from_format B2BiTransformer#from_format}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#from_format B2BiTransformer#from_format}.
 
 ---
 
@@ -1702,7 +1702,7 @@ B2BiTransformerInputConversionAdvancedOptions.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerInputConversionAdvancedOptions.property.x12">x12</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerInputConversionAdvancedOptionsX12">B2BiTransformerInputConversionAdvancedOptionsX12</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#x12 B2BiTransformer#x12}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerInputConversionAdvancedOptions.property.x12">x12</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerInputConversionAdvancedOptionsX12">B2BiTransformerInputConversionAdvancedOptionsX12</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#x12 B2BiTransformer#x12}. |
 
 ---
 
@@ -1714,7 +1714,7 @@ public B2BiTransformerInputConversionAdvancedOptionsX12 getX12();
 
 - *Type:* <a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerInputConversionAdvancedOptionsX12">B2BiTransformerInputConversionAdvancedOptionsX12</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#x12 B2BiTransformer#x12}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#x12 B2BiTransformer#x12}.
 
 ---
 
@@ -1735,8 +1735,8 @@ B2BiTransformerInputConversionAdvancedOptionsX12.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerInputConversionAdvancedOptionsX12.property.splitOptions">splitOptions</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerInputConversionAdvancedOptionsX12SplitOptions">B2BiTransformerInputConversionAdvancedOptionsX12SplitOptions</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#split_options B2BiTransformer#split_options}. |
-| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerInputConversionAdvancedOptionsX12.property.validationOptions">validationOptions</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerInputConversionAdvancedOptionsX12ValidationOptions">B2BiTransformerInputConversionAdvancedOptionsX12ValidationOptions</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#validation_options B2BiTransformer#validation_options}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerInputConversionAdvancedOptionsX12.property.splitOptions">splitOptions</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerInputConversionAdvancedOptionsX12SplitOptions">B2BiTransformerInputConversionAdvancedOptionsX12SplitOptions</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#split_options B2BiTransformer#split_options}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerInputConversionAdvancedOptionsX12.property.validationOptions">validationOptions</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerInputConversionAdvancedOptionsX12ValidationOptions">B2BiTransformerInputConversionAdvancedOptionsX12ValidationOptions</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#validation_options B2BiTransformer#validation_options}. |
 
 ---
 
@@ -1748,7 +1748,7 @@ public B2BiTransformerInputConversionAdvancedOptionsX12SplitOptions getSplitOpti
 
 - *Type:* <a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerInputConversionAdvancedOptionsX12SplitOptions">B2BiTransformerInputConversionAdvancedOptionsX12SplitOptions</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#split_options B2BiTransformer#split_options}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#split_options B2BiTransformer#split_options}.
 
 ---
 
@@ -1760,7 +1760,7 @@ public B2BiTransformerInputConversionAdvancedOptionsX12ValidationOptions getVali
 
 - *Type:* <a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerInputConversionAdvancedOptionsX12ValidationOptions">B2BiTransformerInputConversionAdvancedOptionsX12ValidationOptions</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#validation_options B2BiTransformer#validation_options}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#validation_options B2BiTransformer#validation_options}.
 
 ---
 
@@ -1780,7 +1780,7 @@ B2BiTransformerInputConversionAdvancedOptionsX12SplitOptions.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerInputConversionAdvancedOptionsX12SplitOptions.property.splitBy">splitBy</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#split_by B2BiTransformer#split_by}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerInputConversionAdvancedOptionsX12SplitOptions.property.splitBy">splitBy</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#split_by B2BiTransformer#split_by}. |
 
 ---
 
@@ -1792,7 +1792,7 @@ public java.lang.String getSplitBy();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#split_by B2BiTransformer#split_by}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#split_by B2BiTransformer#split_by}.
 
 ---
 
@@ -1812,7 +1812,7 @@ B2BiTransformerInputConversionAdvancedOptionsX12ValidationOptions.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerInputConversionAdvancedOptionsX12ValidationOptions.property.validationRules">validationRules</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsValidationRules">B2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsValidationRules</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#validation_rules B2BiTransformer#validation_rules}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerInputConversionAdvancedOptionsX12ValidationOptions.property.validationRules">validationRules</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsValidationRules">B2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsValidationRules</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#validation_rules B2BiTransformer#validation_rules}. |
 
 ---
 
@@ -1824,7 +1824,7 @@ public IResolvable|java.util.List<B2BiTransformerInputConversionAdvancedOptionsX
 
 - *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsValidationRules">B2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsValidationRules</a>>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#validation_rules B2BiTransformer#validation_rules}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#validation_rules B2BiTransformer#validation_rules}.
 
 ---
 
@@ -1846,9 +1846,9 @@ B2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsValidationRules
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsValidationRules.property.codeListValidationRule">codeListValidationRule</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsValidationRulesCodeListValidationRule">B2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsValidationRulesCodeListValidationRule</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#code_list_validation_rule B2BiTransformer#code_list_validation_rule}. |
-| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsValidationRules.property.elementLengthValidationRule">elementLengthValidationRule</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsValidationRulesElementLengthValidationRule">B2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsValidationRulesElementLengthValidationRule</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#element_length_validation_rule B2BiTransformer#element_length_validation_rule}. |
-| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsValidationRules.property.elementRequirementValidationRule">elementRequirementValidationRule</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsValidationRulesElementRequirementValidationRule">B2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsValidationRulesElementRequirementValidationRule</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#element_requirement_validation_rule B2BiTransformer#element_requirement_validation_rule}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsValidationRules.property.codeListValidationRule">codeListValidationRule</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsValidationRulesCodeListValidationRule">B2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsValidationRulesCodeListValidationRule</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#code_list_validation_rule B2BiTransformer#code_list_validation_rule}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsValidationRules.property.elementLengthValidationRule">elementLengthValidationRule</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsValidationRulesElementLengthValidationRule">B2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsValidationRulesElementLengthValidationRule</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#element_length_validation_rule B2BiTransformer#element_length_validation_rule}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsValidationRules.property.elementRequirementValidationRule">elementRequirementValidationRule</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsValidationRulesElementRequirementValidationRule">B2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsValidationRulesElementRequirementValidationRule</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#element_requirement_validation_rule B2BiTransformer#element_requirement_validation_rule}. |
 
 ---
 
@@ -1860,7 +1860,7 @@ public B2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsValidati
 
 - *Type:* <a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsValidationRulesCodeListValidationRule">B2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsValidationRulesCodeListValidationRule</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#code_list_validation_rule B2BiTransformer#code_list_validation_rule}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#code_list_validation_rule B2BiTransformer#code_list_validation_rule}.
 
 ---
 
@@ -1872,7 +1872,7 @@ public B2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsValidati
 
 - *Type:* <a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsValidationRulesElementLengthValidationRule">B2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsValidationRulesElementLengthValidationRule</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#element_length_validation_rule B2BiTransformer#element_length_validation_rule}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#element_length_validation_rule B2BiTransformer#element_length_validation_rule}.
 
 ---
 
@@ -1884,7 +1884,7 @@ public B2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsValidati
 
 - *Type:* <a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsValidationRulesElementRequirementValidationRule">B2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsValidationRulesElementRequirementValidationRule</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#element_requirement_validation_rule B2BiTransformer#element_requirement_validation_rule}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#element_requirement_validation_rule B2BiTransformer#element_requirement_validation_rule}.
 
 ---
 
@@ -1906,9 +1906,9 @@ B2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsValidationRules
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsValidationRulesCodeListValidationRule.property.codesToAdd">codesToAdd</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#codes_to_add B2BiTransformer#codes_to_add}. |
-| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsValidationRulesCodeListValidationRule.property.codesToRemove">codesToRemove</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#codes_to_remove B2BiTransformer#codes_to_remove}. |
-| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsValidationRulesCodeListValidationRule.property.elementId">elementId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#element_id B2BiTransformer#element_id}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsValidationRulesCodeListValidationRule.property.codesToAdd">codesToAdd</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#codes_to_add B2BiTransformer#codes_to_add}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsValidationRulesCodeListValidationRule.property.codesToRemove">codesToRemove</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#codes_to_remove B2BiTransformer#codes_to_remove}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsValidationRulesCodeListValidationRule.property.elementId">elementId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#element_id B2BiTransformer#element_id}. |
 
 ---
 
@@ -1920,7 +1920,7 @@ public java.util.List<java.lang.String> getCodesToAdd();
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#codes_to_add B2BiTransformer#codes_to_add}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#codes_to_add B2BiTransformer#codes_to_add}.
 
 ---
 
@@ -1932,7 +1932,7 @@ public java.util.List<java.lang.String> getCodesToRemove();
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#codes_to_remove B2BiTransformer#codes_to_remove}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#codes_to_remove B2BiTransformer#codes_to_remove}.
 
 ---
 
@@ -1944,7 +1944,7 @@ public java.lang.String getElementId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#element_id B2BiTransformer#element_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#element_id B2BiTransformer#element_id}.
 
 ---
 
@@ -1966,9 +1966,9 @@ B2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsValidationRules
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsValidationRulesElementLengthValidationRule.property.elementId">elementId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#element_id B2BiTransformer#element_id}. |
-| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsValidationRulesElementLengthValidationRule.property.maxLength">maxLength</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#max_length B2BiTransformer#max_length}. |
-| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsValidationRulesElementLengthValidationRule.property.minLength">minLength</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#min_length B2BiTransformer#min_length}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsValidationRulesElementLengthValidationRule.property.elementId">elementId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#element_id B2BiTransformer#element_id}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsValidationRulesElementLengthValidationRule.property.maxLength">maxLength</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#max_length B2BiTransformer#max_length}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsValidationRulesElementLengthValidationRule.property.minLength">minLength</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#min_length B2BiTransformer#min_length}. |
 
 ---
 
@@ -1980,7 +1980,7 @@ public java.lang.String getElementId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#element_id B2BiTransformer#element_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#element_id B2BiTransformer#element_id}.
 
 ---
 
@@ -1992,7 +1992,7 @@ public java.lang.Number getMaxLength();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#max_length B2BiTransformer#max_length}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#max_length B2BiTransformer#max_length}.
 
 ---
 
@@ -2004,7 +2004,7 @@ public java.lang.Number getMinLength();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#min_length B2BiTransformer#min_length}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#min_length B2BiTransformer#min_length}.
 
 ---
 
@@ -2025,8 +2025,8 @@ B2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsValidationRules
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsValidationRulesElementRequirementValidationRule.property.elementPosition">elementPosition</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#element_position B2BiTransformer#element_position}. |
-| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsValidationRulesElementRequirementValidationRule.property.requirement">requirement</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#requirement B2BiTransformer#requirement}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsValidationRulesElementRequirementValidationRule.property.elementPosition">elementPosition</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#element_position B2BiTransformer#element_position}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsValidationRulesElementRequirementValidationRule.property.requirement">requirement</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#requirement B2BiTransformer#requirement}. |
 
 ---
 
@@ -2038,7 +2038,7 @@ public java.lang.String getElementPosition();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#element_position B2BiTransformer#element_position}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#element_position B2BiTransformer#element_position}.
 
 ---
 
@@ -2050,7 +2050,7 @@ public java.lang.String getRequirement();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#requirement B2BiTransformer#requirement}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#requirement B2BiTransformer#requirement}.
 
 ---
 
@@ -2070,7 +2070,7 @@ B2BiTransformerInputConversionFormatOptions.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerInputConversionFormatOptions.property.x12">x12</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerInputConversionFormatOptionsX12">B2BiTransformerInputConversionFormatOptionsX12</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#x12 B2BiTransformer#x12}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerInputConversionFormatOptions.property.x12">x12</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerInputConversionFormatOptionsX12">B2BiTransformerInputConversionFormatOptionsX12</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#x12 B2BiTransformer#x12}. |
 
 ---
 
@@ -2082,7 +2082,7 @@ public B2BiTransformerInputConversionFormatOptionsX12 getX12();
 
 - *Type:* <a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerInputConversionFormatOptionsX12">B2BiTransformerInputConversionFormatOptionsX12</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#x12 B2BiTransformer#x12}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#x12 B2BiTransformer#x12}.
 
 ---
 
@@ -2103,8 +2103,8 @@ B2BiTransformerInputConversionFormatOptionsX12.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerInputConversionFormatOptionsX12.property.transactionSet">transactionSet</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#transaction_set B2BiTransformer#transaction_set}. |
-| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerInputConversionFormatOptionsX12.property.version">version</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#version B2BiTransformer#version}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerInputConversionFormatOptionsX12.property.transactionSet">transactionSet</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#transaction_set B2BiTransformer#transaction_set}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerInputConversionFormatOptionsX12.property.version">version</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#version B2BiTransformer#version}. |
 
 ---
 
@@ -2116,7 +2116,7 @@ public java.lang.String getTransactionSet();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#transaction_set B2BiTransformer#transaction_set}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#transaction_set B2BiTransformer#transaction_set}.
 
 ---
 
@@ -2128,7 +2128,7 @@ public java.lang.String getVersion();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#version B2BiTransformer#version}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#version B2BiTransformer#version}.
 
 ---
 
@@ -2149,8 +2149,8 @@ B2BiTransformerMapping.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerMapping.property.template">template</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#template B2BiTransformer#template}. |
-| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerMapping.property.templateLanguage">templateLanguage</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#template_language B2BiTransformer#template_language}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerMapping.property.template">template</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#template B2BiTransformer#template}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerMapping.property.templateLanguage">templateLanguage</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#template_language B2BiTransformer#template_language}. |
 
 ---
 
@@ -2162,7 +2162,7 @@ public java.lang.String getTemplate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#template B2BiTransformer#template}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#template B2BiTransformer#template}.
 
 ---
 
@@ -2174,7 +2174,7 @@ public java.lang.String getTemplateLanguage();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#template_language B2BiTransformer#template_language}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#template_language B2BiTransformer#template_language}.
 
 ---
 
@@ -2196,9 +2196,9 @@ B2BiTransformerOutputConversion.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerOutputConversion.property.advancedOptions">advancedOptions</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerOutputConversionAdvancedOptions">B2BiTransformerOutputConversionAdvancedOptions</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#advanced_options B2BiTransformer#advanced_options}. |
-| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerOutputConversion.property.formatOptions">formatOptions</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerOutputConversionFormatOptions">B2BiTransformerOutputConversionFormatOptions</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#format_options B2BiTransformer#format_options}. |
-| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerOutputConversion.property.toFormat">toFormat</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#to_format B2BiTransformer#to_format}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerOutputConversion.property.advancedOptions">advancedOptions</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerOutputConversionAdvancedOptions">B2BiTransformerOutputConversionAdvancedOptions</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#advanced_options B2BiTransformer#advanced_options}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerOutputConversion.property.formatOptions">formatOptions</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerOutputConversionFormatOptions">B2BiTransformerOutputConversionFormatOptions</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#format_options B2BiTransformer#format_options}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerOutputConversion.property.toFormat">toFormat</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#to_format B2BiTransformer#to_format}. |
 
 ---
 
@@ -2210,7 +2210,7 @@ public B2BiTransformerOutputConversionAdvancedOptions getAdvancedOptions();
 
 - *Type:* <a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerOutputConversionAdvancedOptions">B2BiTransformerOutputConversionAdvancedOptions</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#advanced_options B2BiTransformer#advanced_options}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#advanced_options B2BiTransformer#advanced_options}.
 
 ---
 
@@ -2222,7 +2222,7 @@ public B2BiTransformerOutputConversionFormatOptions getFormatOptions();
 
 - *Type:* <a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerOutputConversionFormatOptions">B2BiTransformerOutputConversionFormatOptions</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#format_options B2BiTransformer#format_options}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#format_options B2BiTransformer#format_options}.
 
 ---
 
@@ -2234,7 +2234,7 @@ public java.lang.String getToFormat();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#to_format B2BiTransformer#to_format}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#to_format B2BiTransformer#to_format}.
 
 ---
 
@@ -2254,7 +2254,7 @@ B2BiTransformerOutputConversionAdvancedOptions.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerOutputConversionAdvancedOptions.property.x12">x12</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerOutputConversionAdvancedOptionsX12">B2BiTransformerOutputConversionAdvancedOptionsX12</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#x12 B2BiTransformer#x12}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerOutputConversionAdvancedOptions.property.x12">x12</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerOutputConversionAdvancedOptionsX12">B2BiTransformerOutputConversionAdvancedOptionsX12</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#x12 B2BiTransformer#x12}. |
 
 ---
 
@@ -2266,7 +2266,7 @@ public B2BiTransformerOutputConversionAdvancedOptionsX12 getX12();
 
 - *Type:* <a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerOutputConversionAdvancedOptionsX12">B2BiTransformerOutputConversionAdvancedOptionsX12</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#x12 B2BiTransformer#x12}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#x12 B2BiTransformer#x12}.
 
 ---
 
@@ -2287,8 +2287,8 @@ B2BiTransformerOutputConversionAdvancedOptionsX12.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerOutputConversionAdvancedOptionsX12.property.splitOptions">splitOptions</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerOutputConversionAdvancedOptionsX12SplitOptions">B2BiTransformerOutputConversionAdvancedOptionsX12SplitOptions</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#split_options B2BiTransformer#split_options}. |
-| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerOutputConversionAdvancedOptionsX12.property.validationOptions">validationOptions</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptions">B2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptions</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#validation_options B2BiTransformer#validation_options}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerOutputConversionAdvancedOptionsX12.property.splitOptions">splitOptions</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerOutputConversionAdvancedOptionsX12SplitOptions">B2BiTransformerOutputConversionAdvancedOptionsX12SplitOptions</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#split_options B2BiTransformer#split_options}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerOutputConversionAdvancedOptionsX12.property.validationOptions">validationOptions</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptions">B2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptions</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#validation_options B2BiTransformer#validation_options}. |
 
 ---
 
@@ -2300,7 +2300,7 @@ public B2BiTransformerOutputConversionAdvancedOptionsX12SplitOptions getSplitOpt
 
 - *Type:* <a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerOutputConversionAdvancedOptionsX12SplitOptions">B2BiTransformerOutputConversionAdvancedOptionsX12SplitOptions</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#split_options B2BiTransformer#split_options}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#split_options B2BiTransformer#split_options}.
 
 ---
 
@@ -2312,7 +2312,7 @@ public B2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptions getVal
 
 - *Type:* <a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptions">B2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptions</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#validation_options B2BiTransformer#validation_options}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#validation_options B2BiTransformer#validation_options}.
 
 ---
 
@@ -2332,7 +2332,7 @@ B2BiTransformerOutputConversionAdvancedOptionsX12SplitOptions.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerOutputConversionAdvancedOptionsX12SplitOptions.property.splitBy">splitBy</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#split_by B2BiTransformer#split_by}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerOutputConversionAdvancedOptionsX12SplitOptions.property.splitBy">splitBy</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#split_by B2BiTransformer#split_by}. |
 
 ---
 
@@ -2344,7 +2344,7 @@ public java.lang.String getSplitBy();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#split_by B2BiTransformer#split_by}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#split_by B2BiTransformer#split_by}.
 
 ---
 
@@ -2364,7 +2364,7 @@ B2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptions.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptions.property.validationRules">validationRules</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsValidationRules">B2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsValidationRules</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#validation_rules B2BiTransformer#validation_rules}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptions.property.validationRules">validationRules</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsValidationRules">B2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsValidationRules</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#validation_rules B2BiTransformer#validation_rules}. |
 
 ---
 
@@ -2376,7 +2376,7 @@ public IResolvable|java.util.List<B2BiTransformerOutputConversionAdvancedOptions
 
 - *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsValidationRules">B2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsValidationRules</a>>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#validation_rules B2BiTransformer#validation_rules}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#validation_rules B2BiTransformer#validation_rules}.
 
 ---
 
@@ -2398,9 +2398,9 @@ B2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsValidationRule
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsValidationRules.property.codeListValidationRule">codeListValidationRule</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsValidationRulesCodeListValidationRule">B2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsValidationRulesCodeListValidationRule</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#code_list_validation_rule B2BiTransformer#code_list_validation_rule}. |
-| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsValidationRules.property.elementLengthValidationRule">elementLengthValidationRule</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsValidationRulesElementLengthValidationRule">B2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsValidationRulesElementLengthValidationRule</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#element_length_validation_rule B2BiTransformer#element_length_validation_rule}. |
-| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsValidationRules.property.elementRequirementValidationRule">elementRequirementValidationRule</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsValidationRulesElementRequirementValidationRule">B2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsValidationRulesElementRequirementValidationRule</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#element_requirement_validation_rule B2BiTransformer#element_requirement_validation_rule}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsValidationRules.property.codeListValidationRule">codeListValidationRule</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsValidationRulesCodeListValidationRule">B2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsValidationRulesCodeListValidationRule</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#code_list_validation_rule B2BiTransformer#code_list_validation_rule}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsValidationRules.property.elementLengthValidationRule">elementLengthValidationRule</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsValidationRulesElementLengthValidationRule">B2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsValidationRulesElementLengthValidationRule</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#element_length_validation_rule B2BiTransformer#element_length_validation_rule}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsValidationRules.property.elementRequirementValidationRule">elementRequirementValidationRule</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsValidationRulesElementRequirementValidationRule">B2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsValidationRulesElementRequirementValidationRule</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#element_requirement_validation_rule B2BiTransformer#element_requirement_validation_rule}. |
 
 ---
 
@@ -2412,7 +2412,7 @@ public B2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsValidat
 
 - *Type:* <a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsValidationRulesCodeListValidationRule">B2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsValidationRulesCodeListValidationRule</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#code_list_validation_rule B2BiTransformer#code_list_validation_rule}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#code_list_validation_rule B2BiTransformer#code_list_validation_rule}.
 
 ---
 
@@ -2424,7 +2424,7 @@ public B2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsValidat
 
 - *Type:* <a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsValidationRulesElementLengthValidationRule">B2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsValidationRulesElementLengthValidationRule</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#element_length_validation_rule B2BiTransformer#element_length_validation_rule}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#element_length_validation_rule B2BiTransformer#element_length_validation_rule}.
 
 ---
 
@@ -2436,7 +2436,7 @@ public B2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsValidat
 
 - *Type:* <a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsValidationRulesElementRequirementValidationRule">B2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsValidationRulesElementRequirementValidationRule</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#element_requirement_validation_rule B2BiTransformer#element_requirement_validation_rule}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#element_requirement_validation_rule B2BiTransformer#element_requirement_validation_rule}.
 
 ---
 
@@ -2458,9 +2458,9 @@ B2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsValidationRule
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsValidationRulesCodeListValidationRule.property.codesToAdd">codesToAdd</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#codes_to_add B2BiTransformer#codes_to_add}. |
-| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsValidationRulesCodeListValidationRule.property.codesToRemove">codesToRemove</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#codes_to_remove B2BiTransformer#codes_to_remove}. |
-| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsValidationRulesCodeListValidationRule.property.elementId">elementId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#element_id B2BiTransformer#element_id}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsValidationRulesCodeListValidationRule.property.codesToAdd">codesToAdd</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#codes_to_add B2BiTransformer#codes_to_add}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsValidationRulesCodeListValidationRule.property.codesToRemove">codesToRemove</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#codes_to_remove B2BiTransformer#codes_to_remove}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsValidationRulesCodeListValidationRule.property.elementId">elementId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#element_id B2BiTransformer#element_id}. |
 
 ---
 
@@ -2472,7 +2472,7 @@ public java.util.List<java.lang.String> getCodesToAdd();
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#codes_to_add B2BiTransformer#codes_to_add}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#codes_to_add B2BiTransformer#codes_to_add}.
 
 ---
 
@@ -2484,7 +2484,7 @@ public java.util.List<java.lang.String> getCodesToRemove();
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#codes_to_remove B2BiTransformer#codes_to_remove}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#codes_to_remove B2BiTransformer#codes_to_remove}.
 
 ---
 
@@ -2496,7 +2496,7 @@ public java.lang.String getElementId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#element_id B2BiTransformer#element_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#element_id B2BiTransformer#element_id}.
 
 ---
 
@@ -2518,9 +2518,9 @@ B2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsValidationRule
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsValidationRulesElementLengthValidationRule.property.elementId">elementId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#element_id B2BiTransformer#element_id}. |
-| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsValidationRulesElementLengthValidationRule.property.maxLength">maxLength</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#max_length B2BiTransformer#max_length}. |
-| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsValidationRulesElementLengthValidationRule.property.minLength">minLength</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#min_length B2BiTransformer#min_length}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsValidationRulesElementLengthValidationRule.property.elementId">elementId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#element_id B2BiTransformer#element_id}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsValidationRulesElementLengthValidationRule.property.maxLength">maxLength</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#max_length B2BiTransformer#max_length}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsValidationRulesElementLengthValidationRule.property.minLength">minLength</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#min_length B2BiTransformer#min_length}. |
 
 ---
 
@@ -2532,7 +2532,7 @@ public java.lang.String getElementId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#element_id B2BiTransformer#element_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#element_id B2BiTransformer#element_id}.
 
 ---
 
@@ -2544,7 +2544,7 @@ public java.lang.Number getMaxLength();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#max_length B2BiTransformer#max_length}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#max_length B2BiTransformer#max_length}.
 
 ---
 
@@ -2556,7 +2556,7 @@ public java.lang.Number getMinLength();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#min_length B2BiTransformer#min_length}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#min_length B2BiTransformer#min_length}.
 
 ---
 
@@ -2577,8 +2577,8 @@ B2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsValidationRule
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsValidationRulesElementRequirementValidationRule.property.elementPosition">elementPosition</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#element_position B2BiTransformer#element_position}. |
-| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsValidationRulesElementRequirementValidationRule.property.requirement">requirement</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#requirement B2BiTransformer#requirement}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsValidationRulesElementRequirementValidationRule.property.elementPosition">elementPosition</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#element_position B2BiTransformer#element_position}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsValidationRulesElementRequirementValidationRule.property.requirement">requirement</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#requirement B2BiTransformer#requirement}. |
 
 ---
 
@@ -2590,7 +2590,7 @@ public java.lang.String getElementPosition();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#element_position B2BiTransformer#element_position}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#element_position B2BiTransformer#element_position}.
 
 ---
 
@@ -2602,7 +2602,7 @@ public java.lang.String getRequirement();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#requirement B2BiTransformer#requirement}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#requirement B2BiTransformer#requirement}.
 
 ---
 
@@ -2622,7 +2622,7 @@ B2BiTransformerOutputConversionFormatOptions.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerOutputConversionFormatOptions.property.x12">x12</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerOutputConversionFormatOptionsX12">B2BiTransformerOutputConversionFormatOptionsX12</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#x12 B2BiTransformer#x12}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerOutputConversionFormatOptions.property.x12">x12</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerOutputConversionFormatOptionsX12">B2BiTransformerOutputConversionFormatOptionsX12</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#x12 B2BiTransformer#x12}. |
 
 ---
 
@@ -2634,7 +2634,7 @@ public B2BiTransformerOutputConversionFormatOptionsX12 getX12();
 
 - *Type:* <a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerOutputConversionFormatOptionsX12">B2BiTransformerOutputConversionFormatOptionsX12</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#x12 B2BiTransformer#x12}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#x12 B2BiTransformer#x12}.
 
 ---
 
@@ -2655,8 +2655,8 @@ B2BiTransformerOutputConversionFormatOptionsX12.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerOutputConversionFormatOptionsX12.property.transactionSet">transactionSet</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#transaction_set B2BiTransformer#transaction_set}. |
-| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerOutputConversionFormatOptionsX12.property.version">version</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#version B2BiTransformer#version}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerOutputConversionFormatOptionsX12.property.transactionSet">transactionSet</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#transaction_set B2BiTransformer#transaction_set}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerOutputConversionFormatOptionsX12.property.version">version</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#version B2BiTransformer#version}. |
 
 ---
 
@@ -2668,7 +2668,7 @@ public java.lang.String getTransactionSet();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#transaction_set B2BiTransformer#transaction_set}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#transaction_set B2BiTransformer#transaction_set}.
 
 ---
 
@@ -2680,7 +2680,7 @@ public java.lang.String getVersion();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#version B2BiTransformer#version}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#version B2BiTransformer#version}.
 
 ---
 
@@ -2701,8 +2701,8 @@ B2BiTransformerSampleDocuments.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerSampleDocuments.property.bucketName">bucketName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#bucket_name B2BiTransformer#bucket_name}. |
-| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerSampleDocuments.property.keys">keys</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerSampleDocumentsKeys">B2BiTransformerSampleDocumentsKeys</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#keys B2BiTransformer#keys}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerSampleDocuments.property.bucketName">bucketName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#bucket_name B2BiTransformer#bucket_name}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerSampleDocuments.property.keys">keys</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerSampleDocumentsKeys">B2BiTransformerSampleDocumentsKeys</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#keys B2BiTransformer#keys}. |
 
 ---
 
@@ -2714,7 +2714,7 @@ public java.lang.String getBucketName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#bucket_name B2BiTransformer#bucket_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#bucket_name B2BiTransformer#bucket_name}.
 
 ---
 
@@ -2726,7 +2726,7 @@ public IResolvable|java.util.List<B2BiTransformerSampleDocumentsKeys> getKeys();
 
 - *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerSampleDocumentsKeys">B2BiTransformerSampleDocumentsKeys</a>>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#keys B2BiTransformer#keys}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#keys B2BiTransformer#keys}.
 
 ---
 
@@ -2747,8 +2747,8 @@ B2BiTransformerSampleDocumentsKeys.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerSampleDocumentsKeys.property.input">input</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#input B2BiTransformer#input}. |
-| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerSampleDocumentsKeys.property.output">output</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#output B2BiTransformer#output}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerSampleDocumentsKeys.property.input">input</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#input B2BiTransformer#input}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerSampleDocumentsKeys.property.output">output</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#output B2BiTransformer#output}. |
 
 ---
 
@@ -2760,7 +2760,7 @@ public java.lang.String getInput();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#input B2BiTransformer#input}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#input B2BiTransformer#input}.
 
 ---
 
@@ -2772,7 +2772,7 @@ public java.lang.String getOutput();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#output B2BiTransformer#output}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#output B2BiTransformer#output}.
 
 ---
 
@@ -2793,8 +2793,8 @@ B2BiTransformerTags.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerTags.property.key">key</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#key B2BiTransformer#key}. |
-| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerTags.property.value">value</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#value B2BiTransformer#value}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerTags.property.key">key</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#key B2BiTransformer#key}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiTransformer.B2BiTransformerTags.property.value">value</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#value B2BiTransformer#value}. |
 
 ---
 
@@ -2806,7 +2806,7 @@ public java.lang.String getKey();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#key B2BiTransformer#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#key B2BiTransformer#key}.
 
 ---
 
@@ -2818,7 +2818,7 @@ public java.lang.String getValue();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#value B2BiTransformer#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#value B2BiTransformer#value}.
 
 ---
 

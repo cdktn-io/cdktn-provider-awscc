@@ -4,7 +4,7 @@
 
 ### CodestarconnectionsConnection <a name="CodestarconnectionsConnection" id="@cdktn/provider-awscc.codestarconnectionsConnection.CodestarconnectionsConnection"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/codestarconnections_connection awscc_codestarconnections_connection}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codestarconnections_connection awscc_codestarconnections_connection}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codestarconnectionsConnection.CodestarconnectionsConnection.Initializer"></a>
 
@@ -112,7 +112,7 @@ Must be unique amongst siblings in the same scope
 
 The name of the connection. Connection names must be unique in an AWS user account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/codestarconnections_connection#connection_name CodestarconnectionsConnection#connection_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codestarconnections_connection#connection_name CodestarconnectionsConnection#connection_name}
 
 ---
 
@@ -124,7 +124,7 @@ The host arn configured to represent the infrastructure where your third-party p
 
 You must specify either a ProviderType or a HostArn.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/codestarconnections_connection#host_arn CodestarconnectionsConnection#host_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codestarconnections_connection#host_arn CodestarconnectionsConnection#host_arn}
 
 ---
 
@@ -136,7 +136,7 @@ The name of the external provider where your third-party code repository is conf
 
 You must specify either a ProviderType or a HostArn.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/codestarconnections_connection#provider_type CodestarconnectionsConnection#provider_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codestarconnections_connection#provider_type CodestarconnectionsConnection#provider_type}
 
 ---
 
@@ -146,7 +146,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Specifies the tags applied to a connection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/codestarconnections_connection#tags CodestarconnectionsConnection#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codestarconnections_connection#tags CodestarconnectionsConnection#tags}
 
 ---
 
@@ -679,7 +679,7 @@ The construct id used in the generated config for the CodestarconnectionsConnect
 
 The id of the existing CodestarconnectionsConnection that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/codestarconnections_connection#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codestarconnections_connection#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1126,7 +1126,7 @@ connection_name: str
 
 The name of the connection. Connection names must be unique in an AWS user account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/codestarconnections_connection#connection_name CodestarconnectionsConnection#connection_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codestarconnections_connection#connection_name CodestarconnectionsConnection#connection_name}
 
 ---
 
@@ -1142,7 +1142,7 @@ The host arn configured to represent the infrastructure where your third-party p
 
 You must specify either a ProviderType or a HostArn.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/codestarconnections_connection#host_arn CodestarconnectionsConnection#host_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codestarconnections_connection#host_arn CodestarconnectionsConnection#host_arn}
 
 ---
 
@@ -1158,7 +1158,7 @@ The name of the external provider where your third-party code repository is conf
 
 You must specify either a ProviderType or a HostArn.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/codestarconnections_connection#provider_type CodestarconnectionsConnection#provider_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codestarconnections_connection#provider_type CodestarconnectionsConnection#provider_type}
 
 ---
 
@@ -1172,7 +1172,7 @@ tags: IResolvable | typing.List[CodestarconnectionsConnectionTags]
 
 Specifies the tags applied to a connection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/codestarconnections_connection#tags CodestarconnectionsConnection#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codestarconnections_connection#tags CodestarconnectionsConnection#tags}
 
 ---
 
@@ -1210,7 +1210,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/codestarconnections_connection#key CodestarconnectionsConnection#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codestarconnections_connection#key CodestarconnectionsConnection#key}
 
 ---
 
@@ -1226,7 +1226,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/codestarconnections_connection#value CodestarconnectionsConnection#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codestarconnections_connection#value CodestarconnectionsConnection#value}
 
 ---
 

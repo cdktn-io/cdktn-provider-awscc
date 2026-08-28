@@ -4,7 +4,7 @@
 
 ### Ec2IpamScope <a name="Ec2IpamScope" id="@cdktn/provider-awscc.ec2IpamScope.Ec2IpamScope"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_ipam_scope awscc_ec2_ipam_scope}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_ipam_scope awscc_ec2_ipam_scope}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2IpamScope.Ec2IpamScope.Initializer"></a>
 
@@ -40,7 +40,7 @@ ec2IpamScope.Ec2IpamScope(
 | <code><a href="#@cdktn/provider-awscc.ec2IpamScope.Ec2IpamScope.Initializer.parameter.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ec2IpamScope.Ec2IpamScope.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ec2IpamScope.Ec2IpamScope.Initializer.parameter.ipamId">ipam_id</a></code> | <code>str</code> | The Id of the IPAM this scope is a part of. |
-| <code><a href="#@cdktn/provider-awscc.ec2IpamScope.Ec2IpamScope.Initializer.parameter.description">description</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_ipam_scope#description Ec2IpamScope#description}. |
+| <code><a href="#@cdktn/provider-awscc.ec2IpamScope.Ec2IpamScope.Initializer.parameter.description">description</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_ipam_scope#description Ec2IpamScope#description}. |
 | <code><a href="#@cdktn/provider-awscc.ec2IpamScope.Ec2IpamScope.Initializer.parameter.externalAuthorityConfiguration">external_authority_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.ec2IpamScope.Ec2IpamScopeExternalAuthorityConfiguration">Ec2IpamScopeExternalAuthorityConfiguration</a></code> | External service configuration to connect your AWS IPAM scope. |
 | <code><a href="#@cdktn/provider-awscc.ec2IpamScope.Ec2IpamScope.Initializer.parameter.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.ec2IpamScope.Ec2IpamScopeTags">Ec2IpamScopeTags</a>]</code> | An array of key-value pairs to apply to this resource. |
 
@@ -112,7 +112,7 @@ Must be unique amongst siblings in the same scope
 
 The Id of the IPAM this scope is a part of.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_ipam_scope#ipam_id Ec2IpamScope#ipam_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_ipam_scope#ipam_id Ec2IpamScope#ipam_id}
 
 ---
 
@@ -120,7 +120,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_ipam_scope#description Ec2IpamScope#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_ipam_scope#description Ec2IpamScope#description}.
 
 ---
 
@@ -130,7 +130,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 External service configuration to connect your AWS IPAM scope.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_ipam_scope#external_authority_configuration Ec2IpamScope#external_authority_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_ipam_scope#external_authority_configuration Ec2IpamScope#external_authority_configuration}
 
 ---
 
@@ -140,7 +140,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_ipam_scope#tags Ec2IpamScope#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_ipam_scope#tags Ec2IpamScope#tags}
 
 ---
 
@@ -543,7 +543,7 @@ def put_external_authority_configuration(
 
 Resource identifier of the scope in the external service connecting to your AWS IPAM scope.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_ipam_scope#external_resource_identifier Ec2IpamScope#external_resource_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_ipam_scope#external_resource_identifier Ec2IpamScope#external_resource_identifier}
 
 ---
 
@@ -553,7 +553,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An external service connecting to your AWS IPAM scope.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_ipam_scope#ipam_scope_external_authority_type Ec2IpamScope#ipam_scope_external_authority_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_ipam_scope#ipam_scope_external_authority_type Ec2IpamScope#ipam_scope_external_authority_type}
 
 ---
 
@@ -703,7 +703,7 @@ The construct id used in the generated config for the Ec2IpamScope to import.
 
 The id of the existing Ec2IpamScope that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_ipam_scope#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_ipam_scope#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1097,7 +1097,7 @@ ec2IpamScope.Ec2IpamScopeConfig(
 | <code><a href="#@cdktn/provider-awscc.ec2IpamScope.Ec2IpamScopeConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ec2IpamScope.Ec2IpamScopeConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ec2IpamScope.Ec2IpamScopeConfig.property.ipamId">ipam_id</a></code> | <code>str</code> | The Id of the IPAM this scope is a part of. |
-| <code><a href="#@cdktn/provider-awscc.ec2IpamScope.Ec2IpamScopeConfig.property.description">description</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_ipam_scope#description Ec2IpamScope#description}. |
+| <code><a href="#@cdktn/provider-awscc.ec2IpamScope.Ec2IpamScopeConfig.property.description">description</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_ipam_scope#description Ec2IpamScope#description}. |
 | <code><a href="#@cdktn/provider-awscc.ec2IpamScope.Ec2IpamScopeConfig.property.externalAuthorityConfiguration">external_authority_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.ec2IpamScope.Ec2IpamScopeExternalAuthorityConfiguration">Ec2IpamScopeExternalAuthorityConfiguration</a></code> | External service configuration to connect your AWS IPAM scope. |
 | <code><a href="#@cdktn/provider-awscc.ec2IpamScope.Ec2IpamScopeConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.ec2IpamScope.Ec2IpamScopeTags">Ec2IpamScopeTags</a>]</code> | An array of key-value pairs to apply to this resource. |
 
@@ -1183,7 +1183,7 @@ ipam_id: str
 
 The Id of the IPAM this scope is a part of.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_ipam_scope#ipam_id Ec2IpamScope#ipam_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_ipam_scope#ipam_id Ec2IpamScope#ipam_id}
 
 ---
 
@@ -1195,7 +1195,7 @@ description: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_ipam_scope#description Ec2IpamScope#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_ipam_scope#description Ec2IpamScope#description}.
 
 ---
 
@@ -1209,7 +1209,7 @@ external_authority_configuration: Ec2IpamScopeExternalAuthorityConfiguration
 
 External service configuration to connect your AWS IPAM scope.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_ipam_scope#external_authority_configuration Ec2IpamScope#external_authority_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_ipam_scope#external_authority_configuration Ec2IpamScope#external_authority_configuration}
 
 ---
 
@@ -1223,7 +1223,7 @@ tags: IResolvable | typing.List[Ec2IpamScopeTags]
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_ipam_scope#tags Ec2IpamScope#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_ipam_scope#tags Ec2IpamScope#tags}
 
 ---
 
@@ -1259,7 +1259,7 @@ external_resource_identifier: str
 
 Resource identifier of the scope in the external service connecting to your AWS IPAM scope.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_ipam_scope#external_resource_identifier Ec2IpamScope#external_resource_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_ipam_scope#external_resource_identifier Ec2IpamScope#external_resource_identifier}
 
 ---
 
@@ -1273,7 +1273,7 @@ ipam_scope_external_authority_type: str
 
 An external service connecting to your AWS IPAM scope.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_ipam_scope#ipam_scope_external_authority_type Ec2IpamScope#ipam_scope_external_authority_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_ipam_scope#ipam_scope_external_authority_type Ec2IpamScope#ipam_scope_external_authority_type}
 
 ---
 
@@ -1311,7 +1311,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_ipam_scope#key Ec2IpamScope#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_ipam_scope#key Ec2IpamScope#key}
 
 ---
 
@@ -1327,7 +1327,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_ipam_scope#value Ec2IpamScope#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_ipam_scope#value Ec2IpamScope#value}
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### AppintegrationsApplication <a name="AppintegrationsApplication" id="@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplication"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appintegrations_application awscc_appintegrations_application}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appintegrations_application awscc_appintegrations_application}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplication.Initializer"></a>
 
@@ -597,7 +597,7 @@ The construct id used in the generated config for the AppintegrationsApplication
 
 The id of the existing AppintegrationsApplication that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appintegrations_application#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appintegrations_application#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1083,7 +1083,7 @@ new AppintegrationsApplicationApplicationConfig {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationApplicationConfig.property.contactHandling">ContactHandling</a></code> | <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationApplicationConfigContactHandling">AppintegrationsApplicationApplicationConfigContactHandling</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appintegrations_application#contact_handling AppintegrationsApplication#contact_handling}. |
+| <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationApplicationConfig.property.contactHandling">ContactHandling</a></code> | <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationApplicationConfigContactHandling">AppintegrationsApplicationApplicationConfigContactHandling</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appintegrations_application#contact_handling AppintegrationsApplication#contact_handling}. |
 
 ---
 
@@ -1095,7 +1095,7 @@ public AppintegrationsApplicationApplicationConfigContactHandling ContactHandlin
 
 - *Type:* <a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationApplicationConfigContactHandling">AppintegrationsApplicationApplicationConfigContactHandling</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appintegrations_application#contact_handling AppintegrationsApplication#contact_handling}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appintegrations_application#contact_handling AppintegrationsApplication#contact_handling}.
 
 ---
 
@@ -1115,7 +1115,7 @@ new AppintegrationsApplicationApplicationConfigContactHandling {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationApplicationConfigContactHandling.property.scope">Scope</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appintegrations_application#scope AppintegrationsApplication#scope}. |
+| <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationApplicationConfigContactHandling.property.scope">Scope</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appintegrations_application#scope AppintegrationsApplication#scope}. |
 
 ---
 
@@ -1127,7 +1127,7 @@ public string Scope { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appintegrations_application#scope AppintegrationsApplication#scope}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appintegrations_application#scope AppintegrationsApplication#scope}.
 
 ---
 
@@ -1147,7 +1147,7 @@ new AppintegrationsApplicationApplicationSourceConfig {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationApplicationSourceConfig.property.externalUrlConfig">ExternalUrlConfig</a></code> | <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationApplicationSourceConfigExternalUrlConfig">AppintegrationsApplicationApplicationSourceConfigExternalUrlConfig</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appintegrations_application#external_url_config AppintegrationsApplication#external_url_config}. |
+| <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationApplicationSourceConfig.property.externalUrlConfig">ExternalUrlConfig</a></code> | <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationApplicationSourceConfigExternalUrlConfig">AppintegrationsApplicationApplicationSourceConfigExternalUrlConfig</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appintegrations_application#external_url_config AppintegrationsApplication#external_url_config}. |
 
 ---
 
@@ -1159,7 +1159,7 @@ public AppintegrationsApplicationApplicationSourceConfigExternalUrlConfig Extern
 
 - *Type:* <a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationApplicationSourceConfigExternalUrlConfig">AppintegrationsApplicationApplicationSourceConfigExternalUrlConfig</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appintegrations_application#external_url_config AppintegrationsApplication#external_url_config}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appintegrations_application#external_url_config AppintegrationsApplication#external_url_config}.
 
 ---
 
@@ -1180,8 +1180,8 @@ new AppintegrationsApplicationApplicationSourceConfigExternalUrlConfig {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationApplicationSourceConfigExternalUrlConfig.property.accessUrl">AccessUrl</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appintegrations_application#access_url AppintegrationsApplication#access_url}. |
-| <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationApplicationSourceConfigExternalUrlConfig.property.approvedOrigins">ApprovedOrigins</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appintegrations_application#approved_origins AppintegrationsApplication#approved_origins}. |
+| <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationApplicationSourceConfigExternalUrlConfig.property.accessUrl">AccessUrl</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appintegrations_application#access_url AppintegrationsApplication#access_url}. |
+| <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationApplicationSourceConfigExternalUrlConfig.property.approvedOrigins">ApprovedOrigins</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appintegrations_application#approved_origins AppintegrationsApplication#approved_origins}. |
 
 ---
 
@@ -1193,7 +1193,7 @@ public string AccessUrl { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appintegrations_application#access_url AppintegrationsApplication#access_url}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appintegrations_application#access_url AppintegrationsApplication#access_url}.
 
 ---
 
@@ -1205,7 +1205,7 @@ public string[] ApprovedOrigins { get; set; }
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appintegrations_application#approved_origins AppintegrationsApplication#approved_origins}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appintegrations_application#approved_origins AppintegrationsApplication#approved_origins}.
 
 ---
 
@@ -1343,7 +1343,7 @@ public AppintegrationsApplicationApplicationSourceConfig ApplicationSourceConfig
 
 Application source config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appintegrations_application#application_source_config AppintegrationsApplication#application_source_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appintegrations_application#application_source_config AppintegrationsApplication#application_source_config}
 
 ---
 
@@ -1357,7 +1357,7 @@ public string Name { get; set; }
 
 The name of the application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appintegrations_application#name AppintegrationsApplication#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appintegrations_application#name AppintegrationsApplication#name}
 
 ---
 
@@ -1371,7 +1371,7 @@ public string Namespace { get; set; }
 
 The namespace of the application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appintegrations_application#namespace AppintegrationsApplication#namespace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appintegrations_application#namespace AppintegrationsApplication#namespace}
 
 ---
 
@@ -1385,7 +1385,7 @@ public AppintegrationsApplicationApplicationConfig ApplicationConfig { get; set;
 
 The application configuration. Cannot be used when IsService is true.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appintegrations_application#application_config AppintegrationsApplication#application_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appintegrations_application#application_config AppintegrationsApplication#application_config}
 
 ---
 
@@ -1399,7 +1399,7 @@ public string ApplicationType { get; set; }
 
 The type of application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appintegrations_application#application_type AppintegrationsApplication#application_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appintegrations_application#application_type AppintegrationsApplication#application_type}
 
 ---
 
@@ -1413,7 +1413,7 @@ public string Description { get; set; }
 
 The application description.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appintegrations_application#description AppintegrationsApplication#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appintegrations_application#description AppintegrationsApplication#description}
 
 ---
 
@@ -1427,7 +1427,7 @@ public AppintegrationsApplicationIframeConfig IframeConfig { get; set; }
 
 The iframe configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appintegrations_application#iframe_config AppintegrationsApplication#iframe_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appintegrations_application#iframe_config AppintegrationsApplication#iframe_config}
 
 ---
 
@@ -1441,7 +1441,7 @@ public double InitializationTimeout { get; set; }
 
 The initialization timeout in milliseconds. Required when IsService is true.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appintegrations_application#initialization_timeout AppintegrationsApplication#initialization_timeout}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appintegrations_application#initialization_timeout AppintegrationsApplication#initialization_timeout}
 
 ---
 
@@ -1455,7 +1455,7 @@ public bool|IResolvable IsService { get; set; }
 
 Indicates if the application is a service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appintegrations_application#is_service AppintegrationsApplication#is_service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appintegrations_application#is_service AppintegrationsApplication#is_service}
 
 ---
 
@@ -1469,7 +1469,7 @@ public string[] Permissions { get; set; }
 
 The configuration of events or requests that the application has access to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appintegrations_application#permissions AppintegrationsApplication#permissions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appintegrations_application#permissions AppintegrationsApplication#permissions}
 
 ---
 
@@ -1483,7 +1483,7 @@ public IResolvable|AppintegrationsApplicationTags[] Tags { get; set; }
 
 The tags (keys and values) associated with the application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appintegrations_application#tags AppintegrationsApplication#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appintegrations_application#tags AppintegrationsApplication#tags}
 
 ---
 
@@ -1504,8 +1504,8 @@ new AppintegrationsApplicationIframeConfig {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationIframeConfig.property.allow">Allow</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appintegrations_application#allow AppintegrationsApplication#allow}. |
-| <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationIframeConfig.property.sandbox">Sandbox</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appintegrations_application#sandbox AppintegrationsApplication#sandbox}. |
+| <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationIframeConfig.property.allow">Allow</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appintegrations_application#allow AppintegrationsApplication#allow}. |
+| <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationIframeConfig.property.sandbox">Sandbox</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appintegrations_application#sandbox AppintegrationsApplication#sandbox}. |
 
 ---
 
@@ -1517,7 +1517,7 @@ public string[] Allow { get; set; }
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appintegrations_application#allow AppintegrationsApplication#allow}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appintegrations_application#allow AppintegrationsApplication#allow}.
 
 ---
 
@@ -1529,7 +1529,7 @@ public string[] Sandbox { get; set; }
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appintegrations_application#sandbox AppintegrationsApplication#sandbox}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appintegrations_application#sandbox AppintegrationsApplication#sandbox}.
 
 ---
 
@@ -1565,7 +1565,7 @@ public string Key { get; set; }
 
 A key to identify the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appintegrations_application#key AppintegrationsApplication#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appintegrations_application#key AppintegrationsApplication#key}
 
 ---
 
@@ -1579,7 +1579,7 @@ public string Value { get; set; }
 
 Corresponding tag value for the key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appintegrations_application#value AppintegrationsApplication#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appintegrations_application#value AppintegrationsApplication#value}
 
 ---
 

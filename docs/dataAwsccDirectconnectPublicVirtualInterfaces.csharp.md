@@ -4,7 +4,7 @@
 
 ### DataAwsccDirectconnectPublicVirtualInterfaces <a name="DataAwsccDirectconnectPublicVirtualInterfaces" id="@cdktn/provider-awscc.dataAwsccDirectconnectPublicVirtualInterfaces.DataAwsccDirectconnectPublicVirtualInterfaces"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/directconnect_public_virtual_interfaces awscc_directconnect_public_virtual_interfaces}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/directconnect_public_virtual_interfaces awscc_directconnect_public_virtual_interfaces}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDirectconnectPublicVirtualInterfaces.DataAwsccDirectconnectPublicVirtualInterfaces.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccDirectconnectPubl
 
 The id of the existing DataAwsccDirectconnectPublicVirtualInterfaces that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/directconnect_public_virtual_interfaces#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/directconnect_public_virtual_interfaces#import import section} in the documentation of this resource for the id to use
 
 ---
 

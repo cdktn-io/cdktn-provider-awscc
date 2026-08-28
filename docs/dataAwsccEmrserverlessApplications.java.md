@@ -4,7 +4,7 @@
 
 ### DataAwsccEmrserverlessApplications <a name="DataAwsccEmrserverlessApplications" id="@cdktn/provider-awscc.dataAwsccEmrserverlessApplications.DataAwsccEmrserverlessApplications"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/emrserverless_applications awscc_emrserverless_applications}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/emrserverless_applications awscc_emrserverless_applications}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEmrserverlessApplications.DataAwsccEmrserverlessApplications.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccEmrserverlessAppl
 
 The id of the existing DataAwsccEmrserverlessApplications that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/emrserverless_applications#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/emrserverless_applications#import import section} in the documentation of this resource for the id to use
 
 ---
 

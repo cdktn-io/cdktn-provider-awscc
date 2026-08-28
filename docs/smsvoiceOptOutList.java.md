@@ -4,7 +4,7 @@
 
 ### SmsvoiceOptOutList <a name="SmsvoiceOptOutList" id="@cdktn/provider-awscc.smsvoiceOptOutList.SmsvoiceOptOutList"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/smsvoice_opt_out_list awscc_smsvoice_opt_out_list}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/smsvoice_opt_out_list awscc_smsvoice_opt_out_list}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.smsvoiceOptOutList.SmsvoiceOptOutList.Initializer"></a>
 
@@ -106,7 +106,7 @@ Must be unique amongst siblings in the same scope
 
 The name of the new OptOutList.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/smsvoice_opt_out_list#opt_out_list_name SmsvoiceOptOutList#opt_out_list_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/smsvoice_opt_out_list#opt_out_list_name SmsvoiceOptOutList#opt_out_list_name}
 
 ---
 
@@ -116,7 +116,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/smsvoice_opt_out_list#tags SmsvoiceOptOutList#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/smsvoice_opt_out_list#tags SmsvoiceOptOutList#tags}
 
 ---
 
@@ -592,7 +592,7 @@ The construct id used in the generated config for the SmsvoiceOptOutList to impo
 
 The id of the existing SmsvoiceOptOutList that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/smsvoice_opt_out_list#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/smsvoice_opt_out_list#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -969,7 +969,7 @@ public java.lang.String getOptOutListName();
 
 The name of the new OptOutList.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/smsvoice_opt_out_list#opt_out_list_name SmsvoiceOptOutList#opt_out_list_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/smsvoice_opt_out_list#opt_out_list_name SmsvoiceOptOutList#opt_out_list_name}
 
 ---
 
@@ -983,7 +983,7 @@ public IResolvable|java.util.List<SmsvoiceOptOutListTags> getTags();
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/smsvoice_opt_out_list#tags SmsvoiceOptOutList#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/smsvoice_opt_out_list#tags SmsvoiceOptOutList#tags}
 
 ---
 
@@ -1021,7 +1021,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/smsvoice_opt_out_list#key SmsvoiceOptOutList#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/smsvoice_opt_out_list#key SmsvoiceOptOutList#key}
 
 ---
 
@@ -1037,7 +1037,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/smsvoice_opt_out_list#value SmsvoiceOptOutList#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/smsvoice_opt_out_list#value SmsvoiceOptOutList#value}
 
 ---
 

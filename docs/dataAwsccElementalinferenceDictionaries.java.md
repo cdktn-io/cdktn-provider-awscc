@@ -4,7 +4,7 @@
 
 ### DataAwsccElementalinferenceDictionaries <a name="DataAwsccElementalinferenceDictionaries" id="@cdktn/provider-awscc.dataAwsccElementalinferenceDictionaries.DataAwsccElementalinferenceDictionaries"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/elementalinference_dictionaries awscc_elementalinference_dictionaries}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/elementalinference_dictionaries awscc_elementalinference_dictionaries}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccElementalinferenceDictionaries.DataAwsccElementalinferenceDictionaries.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccElementalinferenc
 
 The id of the existing DataAwsccElementalinferenceDictionaries that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/elementalinference_dictionaries#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/elementalinference_dictionaries#import import section} in the documentation of this resource for the id to use
 
 ---
 

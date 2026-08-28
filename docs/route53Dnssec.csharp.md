@@ -4,7 +4,7 @@
 
 ### Route53Dnssec <a name="Route53Dnssec" id="@cdktn/provider-awscc.route53Dnssec.Route53Dnssec"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53_dnssec awscc_route53_dnssec}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53_dnssec awscc_route53_dnssec}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.route53Dnssec.Route53Dnssec.Initializer"></a>
 
@@ -489,7 +489,7 @@ The construct id used in the generated config for the Route53Dnssec to import.
 
 The id of the existing Route53Dnssec that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53_dnssec#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53_dnssec#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -831,7 +831,7 @@ public string HostedZoneId { get; set; }
 
 The unique string (ID) used to identify a hosted zone.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53_dnssec#hosted_zone_id Route53Dnssec#hosted_zone_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53_dnssec#hosted_zone_id Route53Dnssec#hosted_zone_id}
 
 ---
 

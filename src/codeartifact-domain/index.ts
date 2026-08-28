@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/codeartifact_domain
+// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codeartifact_domain
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,19 +15,19 @@ export interface CodeartifactDomainConfig extends cdktn.TerraformMetaArguments {
   /**
   * The name of the domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/codeartifact_domain#domain_name CodeartifactDomain#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codeartifact_domain#domain_name CodeartifactDomain#domain_name}
   */
   readonly domainName: string;
   /**
   * The access control resource policy on the provided domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/codeartifact_domain#permissions_policy_document CodeartifactDomain#permissions_policy_document}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codeartifact_domain#permissions_policy_document CodeartifactDomain#permissions_policy_document}
   */
   readonly permissionsPolicyDocument?: string;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/codeartifact_domain#tags CodeartifactDomain#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codeartifact_domain#tags CodeartifactDomain#tags}
   */
   readonly tags?: CodeartifactDomainTags[] | cdktn.IResolvable;
 }
@@ -35,13 +35,13 @@ export interface CodeartifactDomainTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/codeartifact_domain#key CodeartifactDomain#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codeartifact_domain#key CodeartifactDomain#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 1 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/codeartifact_domain#value CodeartifactDomain#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codeartifact_domain#value CodeartifactDomain#value}
   */
   readonly value?: string;
 }
@@ -186,7 +186,7 @@ export class CodeartifactDomainTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/codeartifact_domain awscc_codeartifact_domain}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codeartifact_domain awscc_codeartifact_domain}
 */
 export class CodeartifactDomain extends cdktn.TerraformResource {
 
@@ -202,7 +202,7 @@ export class CodeartifactDomain extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a CodeartifactDomain resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CodeartifactDomain to import
-  * @param importFromId The id of the existing CodeartifactDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/codeartifact_domain#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CodeartifactDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codeartifact_domain#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CodeartifactDomain to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -214,7 +214,7 @@ export class CodeartifactDomain extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/codeartifact_domain awscc_codeartifact_domain} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codeartifact_domain awscc_codeartifact_domain} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -225,7 +225,7 @@ export class CodeartifactDomain extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_codeartifact_domain',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.98.0',
+        providerVersion: '1.99.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

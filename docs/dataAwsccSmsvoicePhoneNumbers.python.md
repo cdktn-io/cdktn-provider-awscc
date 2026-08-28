@@ -4,7 +4,7 @@
 
 ### DataAwsccSmsvoicePhoneNumbers <a name="DataAwsccSmsvoicePhoneNumbers" id="@cdktn/provider-awscc.dataAwsccSmsvoicePhoneNumbers.DataAwsccSmsvoicePhoneNumbers"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/smsvoice_phone_numbers awscc_smsvoice_phone_numbers}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/smsvoice_phone_numbers awscc_smsvoice_phone_numbers}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSmsvoicePhoneNumbers.DataAwsccSmsvoicePhoneNumbers.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccSmsvoicePhoneNumb
 
 The id of the existing DataAwsccSmsvoicePhoneNumbers that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/smsvoice_phone_numbers#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/smsvoice_phone_numbers#import import section} in the documentation of this resource for the id to use
 
 ---
 

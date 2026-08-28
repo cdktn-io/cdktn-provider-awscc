@@ -4,7 +4,7 @@
 
 ### SchedulerScheduleGroup <a name="SchedulerScheduleGroup" id="@cdktn/provider-awscc.schedulerScheduleGroup.SchedulerScheduleGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/scheduler_schedule_group awscc_scheduler_schedule_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/scheduler_schedule_group awscc_scheduler_schedule_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.schedulerScheduleGroup.SchedulerScheduleGroup.Initializer"></a>
 
@@ -37,7 +37,7 @@ schedulerScheduleGroup.SchedulerScheduleGroup(
 | <code><a href="#@cdktn/provider-awscc.schedulerScheduleGroup.SchedulerScheduleGroup.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.schedulerScheduleGroup.SchedulerScheduleGroup.Initializer.parameter.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.schedulerScheduleGroup.SchedulerScheduleGroup.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.schedulerScheduleGroup.SchedulerScheduleGroup.Initializer.parameter.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/scheduler_schedule_group#name SchedulerScheduleGroup#name}. |
+| <code><a href="#@cdktn/provider-awscc.schedulerScheduleGroup.SchedulerScheduleGroup.Initializer.parameter.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/scheduler_schedule_group#name SchedulerScheduleGroup#name}. |
 | <code><a href="#@cdktn/provider-awscc.schedulerScheduleGroup.SchedulerScheduleGroup.Initializer.parameter.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.schedulerScheduleGroup.SchedulerScheduleGroupTags">SchedulerScheduleGroupTags</a>]</code> | The list of tags to associate with the schedule group. |
 
 ---
@@ -106,7 +106,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/scheduler_schedule_group#name SchedulerScheduleGroup#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/scheduler_schedule_group#name SchedulerScheduleGroup#name}.
 
 ---
 
@@ -116,7 +116,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The list of tags to associate with the schedule group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/scheduler_schedule_group#tags SchedulerScheduleGroup#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/scheduler_schedule_group#tags SchedulerScheduleGroup#tags}
 
 ---
 
@@ -642,7 +642,7 @@ The construct id used in the generated config for the SchedulerScheduleGroup to 
 
 The id of the existing SchedulerScheduleGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/scheduler_schedule_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/scheduler_schedule_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -967,7 +967,7 @@ schedulerScheduleGroup.SchedulerScheduleGroupConfig(
 | <code><a href="#@cdktn/provider-awscc.schedulerScheduleGroup.SchedulerScheduleGroupConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.schedulerScheduleGroup.SchedulerScheduleGroupConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.schedulerScheduleGroup.SchedulerScheduleGroupConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.schedulerScheduleGroup.SchedulerScheduleGroupConfig.property.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/scheduler_schedule_group#name SchedulerScheduleGroup#name}. |
+| <code><a href="#@cdktn/provider-awscc.schedulerScheduleGroup.SchedulerScheduleGroupConfig.property.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/scheduler_schedule_group#name SchedulerScheduleGroup#name}. |
 | <code><a href="#@cdktn/provider-awscc.schedulerScheduleGroup.SchedulerScheduleGroupConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.schedulerScheduleGroup.SchedulerScheduleGroupTags">SchedulerScheduleGroupTags</a>]</code> | The list of tags to associate with the schedule group. |
 
 ---
@@ -1050,7 +1050,7 @@ name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/scheduler_schedule_group#name SchedulerScheduleGroup#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/scheduler_schedule_group#name SchedulerScheduleGroup#name}.
 
 ---
 
@@ -1064,7 +1064,7 @@ tags: IResolvable | typing.List[SchedulerScheduleGroupTags]
 
 The list of tags to associate with the schedule group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/scheduler_schedule_group#tags SchedulerScheduleGroup#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/scheduler_schedule_group#tags SchedulerScheduleGroup#tags}
 
 ---
 
@@ -1100,7 +1100,7 @@ key: str
 
 Key for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/scheduler_schedule_group#key SchedulerScheduleGroup#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/scheduler_schedule_group#key SchedulerScheduleGroup#key}
 
 ---
 
@@ -1114,7 +1114,7 @@ value: str
 
 Value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/scheduler_schedule_group#value SchedulerScheduleGroup#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/scheduler_schedule_group#value SchedulerScheduleGroup#value}
 
 ---
 

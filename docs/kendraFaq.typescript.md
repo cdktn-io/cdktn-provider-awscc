@@ -4,7 +4,7 @@
 
 ### KendraFaq <a name="KendraFaq" id="@cdktn/provider-awscc.kendraFaq.KendraFaq"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/kendra_faq awscc_kendra_faq}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_faq awscc_kendra_faq}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.kendraFaq.KendraFaq.Initializer"></a>
 
@@ -543,7 +543,7 @@ The construct id used in the generated config for the KendraFaq to import.
 
 The id of the existing KendraFaq that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/kendra_faq#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_faq#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1059,7 +1059,7 @@ public readonly indexId: string;
 
 Index ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/kendra_faq#index_id KendraFaq#index_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_faq#index_id KendraFaq#index_id}
 
 ---
 
@@ -1073,7 +1073,7 @@ public readonly name: string;
 
 FAQ name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/kendra_faq#name KendraFaq#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_faq#name KendraFaq#name}
 
 ---
 
@@ -1087,7 +1087,7 @@ public readonly roleArn: string;
 
 FAQ role ARN.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/kendra_faq#role_arn KendraFaq#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_faq#role_arn KendraFaq#role_arn}
 
 ---
 
@@ -1101,7 +1101,7 @@ public readonly s3Path: KendraFaqS3Path;
 
 FAQ S3 path.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/kendra_faq#s3_path KendraFaq#s3_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_faq#s3_path KendraFaq#s3_path}
 
 ---
 
@@ -1115,7 +1115,7 @@ public readonly description: string;
 
 FAQ description.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/kendra_faq#description KendraFaq#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_faq#description KendraFaq#description}
 
 ---
 
@@ -1129,7 +1129,7 @@ public readonly fileFormat: string;
 
 FAQ file format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/kendra_faq#file_format KendraFaq#file_format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_faq#file_format KendraFaq#file_format}
 
 ---
 
@@ -1143,7 +1143,7 @@ public readonly languageCode: string;
 
 The code for a language.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/kendra_faq#language_code KendraFaq#language_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_faq#language_code KendraFaq#language_code}
 
 ---
 
@@ -1157,7 +1157,7 @@ public readonly tags: IResolvable | KendraFaqTags[];
 
 Tags for labeling the FAQ.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/kendra_faq#tags KendraFaq#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_faq#tags KendraFaq#tags}
 
 ---
 
@@ -1175,8 +1175,8 @@ const kendraFaqS3Path: kendraFaq.KendraFaqS3Path = { ... }
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.kendraFaq.KendraFaqS3Path.property.bucket">bucket</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/kendra_faq#bucket KendraFaq#bucket}. |
-| <code><a href="#@cdktn/provider-awscc.kendraFaq.KendraFaqS3Path.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/kendra_faq#key KendraFaq#key}. |
+| <code><a href="#@cdktn/provider-awscc.kendraFaq.KendraFaqS3Path.property.bucket">bucket</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_faq#bucket KendraFaq#bucket}. |
+| <code><a href="#@cdktn/provider-awscc.kendraFaq.KendraFaqS3Path.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_faq#key KendraFaq#key}. |
 
 ---
 
@@ -1188,7 +1188,7 @@ public readonly bucket: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/kendra_faq#bucket KendraFaq#bucket}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_faq#bucket KendraFaq#bucket}.
 
 ---
 
@@ -1200,7 +1200,7 @@ public readonly key: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/kendra_faq#key KendraFaq#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_faq#key KendraFaq#key}.
 
 ---
 
@@ -1233,7 +1233,7 @@ public readonly key: string;
 
 A string used to identify this tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/kendra_faq#key KendraFaq#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_faq#key KendraFaq#key}
 
 ---
 
@@ -1247,7 +1247,7 @@ public readonly value: string;
 
 A string containing the value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/kendra_faq#value KendraFaq#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_faq#value KendraFaq#value}
 
 ---
 

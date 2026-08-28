@@ -4,7 +4,7 @@
 
 ### QldbStream <a name="QldbStream" id="@cdktn/provider-awscc.qldbStream.QldbStream"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/qldb_stream awscc_qldb_stream}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/qldb_stream awscc_qldb_stream}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.qldbStream.QldbStream.Initializer"></a>
 
@@ -529,7 +529,7 @@ The construct id used in the generated config for the QldbStream to import.
 
 The id of the existing QldbStream that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/qldb_stream#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/qldb_stream#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -947,12 +947,12 @@ new QldbStreamConfig {
 | <code><a href="#@cdktn/provider-awscc.qldbStream.QldbStreamConfig.property.lifecycle">Lifecycle</a></code> | <code>Io.Cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.qldbStream.QldbStreamConfig.property.provider">Provider</a></code> | <code>Io.Cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.qldbStream.QldbStreamConfig.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.qldbStream.QldbStreamConfig.property.inclusiveStartTime">InclusiveStartTime</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/qldb_stream#inclusive_start_time QldbStream#inclusive_start_time}. |
-| <code><a href="#@cdktn/provider-awscc.qldbStream.QldbStreamConfig.property.kinesisConfiguration">KinesisConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.qldbStream.QldbStreamKinesisConfiguration">QldbStreamKinesisConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/qldb_stream#kinesis_configuration QldbStream#kinesis_configuration}. |
-| <code><a href="#@cdktn/provider-awscc.qldbStream.QldbStreamConfig.property.ledgerName">LedgerName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/qldb_stream#ledger_name QldbStream#ledger_name}. |
-| <code><a href="#@cdktn/provider-awscc.qldbStream.QldbStreamConfig.property.roleArn">RoleArn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/qldb_stream#role_arn QldbStream#role_arn}. |
-| <code><a href="#@cdktn/provider-awscc.qldbStream.QldbStreamConfig.property.streamName">StreamName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/qldb_stream#stream_name QldbStream#stream_name}. |
-| <code><a href="#@cdktn/provider-awscc.qldbStream.QldbStreamConfig.property.exclusiveEndTime">ExclusiveEndTime</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/qldb_stream#exclusive_end_time QldbStream#exclusive_end_time}. |
+| <code><a href="#@cdktn/provider-awscc.qldbStream.QldbStreamConfig.property.inclusiveStartTime">InclusiveStartTime</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/qldb_stream#inclusive_start_time QldbStream#inclusive_start_time}. |
+| <code><a href="#@cdktn/provider-awscc.qldbStream.QldbStreamConfig.property.kinesisConfiguration">KinesisConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.qldbStream.QldbStreamKinesisConfiguration">QldbStreamKinesisConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/qldb_stream#kinesis_configuration QldbStream#kinesis_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.qldbStream.QldbStreamConfig.property.ledgerName">LedgerName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/qldb_stream#ledger_name QldbStream#ledger_name}. |
+| <code><a href="#@cdktn/provider-awscc.qldbStream.QldbStreamConfig.property.roleArn">RoleArn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/qldb_stream#role_arn QldbStream#role_arn}. |
+| <code><a href="#@cdktn/provider-awscc.qldbStream.QldbStreamConfig.property.streamName">StreamName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/qldb_stream#stream_name QldbStream#stream_name}. |
+| <code><a href="#@cdktn/provider-awscc.qldbStream.QldbStreamConfig.property.exclusiveEndTime">ExclusiveEndTime</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/qldb_stream#exclusive_end_time QldbStream#exclusive_end_time}. |
 | <code><a href="#@cdktn/provider-awscc.qldbStream.QldbStreamConfig.property.tags">Tags</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.qldbStream.QldbStreamTags">QldbStreamTags</a>[]</code> | An array of key-value pairs to apply to this resource. |
 
 ---
@@ -1035,7 +1035,7 @@ public string InclusiveStartTime { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/qldb_stream#inclusive_start_time QldbStream#inclusive_start_time}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/qldb_stream#inclusive_start_time QldbStream#inclusive_start_time}.
 
 ---
 
@@ -1047,7 +1047,7 @@ public QldbStreamKinesisConfiguration KinesisConfiguration { get; set; }
 
 - *Type:* <a href="#@cdktn/provider-awscc.qldbStream.QldbStreamKinesisConfiguration">QldbStreamKinesisConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/qldb_stream#kinesis_configuration QldbStream#kinesis_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/qldb_stream#kinesis_configuration QldbStream#kinesis_configuration}.
 
 ---
 
@@ -1059,7 +1059,7 @@ public string LedgerName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/qldb_stream#ledger_name QldbStream#ledger_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/qldb_stream#ledger_name QldbStream#ledger_name}.
 
 ---
 
@@ -1071,7 +1071,7 @@ public string RoleArn { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/qldb_stream#role_arn QldbStream#role_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/qldb_stream#role_arn QldbStream#role_arn}.
 
 ---
 
@@ -1083,7 +1083,7 @@ public string StreamName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/qldb_stream#stream_name QldbStream#stream_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/qldb_stream#stream_name QldbStream#stream_name}.
 
 ---
 
@@ -1095,7 +1095,7 @@ public string ExclusiveEndTime { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/qldb_stream#exclusive_end_time QldbStream#exclusive_end_time}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/qldb_stream#exclusive_end_time QldbStream#exclusive_end_time}.
 
 ---
 
@@ -1109,7 +1109,7 @@ public IResolvable|QldbStreamTags[] Tags { get; set; }
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/qldb_stream#tags QldbStream#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/qldb_stream#tags QldbStream#tags}
 
 ---
 
@@ -1130,8 +1130,8 @@ new QldbStreamKinesisConfiguration {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.qldbStream.QldbStreamKinesisConfiguration.property.aggregationEnabled">AggregationEnabled</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/qldb_stream#aggregation_enabled QldbStream#aggregation_enabled}. |
-| <code><a href="#@cdktn/provider-awscc.qldbStream.QldbStreamKinesisConfiguration.property.streamArn">StreamArn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/qldb_stream#stream_arn QldbStream#stream_arn}. |
+| <code><a href="#@cdktn/provider-awscc.qldbStream.QldbStreamKinesisConfiguration.property.aggregationEnabled">AggregationEnabled</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/qldb_stream#aggregation_enabled QldbStream#aggregation_enabled}. |
+| <code><a href="#@cdktn/provider-awscc.qldbStream.QldbStreamKinesisConfiguration.property.streamArn">StreamArn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/qldb_stream#stream_arn QldbStream#stream_arn}. |
 
 ---
 
@@ -1143,7 +1143,7 @@ public bool|IResolvable AggregationEnabled { get; set; }
 
 - *Type:* bool|Io.Cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/qldb_stream#aggregation_enabled QldbStream#aggregation_enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/qldb_stream#aggregation_enabled QldbStream#aggregation_enabled}.
 
 ---
 
@@ -1155,7 +1155,7 @@ public string StreamArn { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/qldb_stream#stream_arn QldbStream#stream_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/qldb_stream#stream_arn QldbStream#stream_arn}.
 
 ---
 
@@ -1193,7 +1193,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/qldb_stream#key QldbStream#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/qldb_stream#key QldbStream#key}
 
 ---
 
@@ -1209,7 +1209,7 @@ The value for the tag.
 
 You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/qldb_stream#value QldbStream#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/qldb_stream#value QldbStream#value}
 
 ---
 

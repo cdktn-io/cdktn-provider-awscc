@@ -4,7 +4,7 @@
 
 ### DataAwsccSesTemplates <a name="DataAwsccSesTemplates" id="@cdktn/provider-awscc.dataAwsccSesTemplates.DataAwsccSesTemplates"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ses_templates awscc_ses_templates}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ses_templates awscc_ses_templates}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesTemplates.DataAwsccSesTemplates.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccSesTemplates to i
 
 The id of the existing DataAwsccSesTemplates that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ses_templates#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ses_templates#import import section} in the documentation of this resource for the id to use
 
 ---
 

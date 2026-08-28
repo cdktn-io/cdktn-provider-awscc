@@ -4,7 +4,7 @@
 
 ### Inspectorv2CodeSecurityScanConfiguration <a name="Inspectorv2CodeSecurityScanConfiguration" id="@cdktn/provider-awscc.inspectorv2CodeSecurityScanConfiguration.Inspectorv2CodeSecurityScanConfiguration"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/inspectorv2_code_security_scan_configuration awscc_inspectorv2_code_security_scan_configuration}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/inspectorv2_code_security_scan_configuration awscc_inspectorv2_code_security_scan_configuration}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.inspectorv2CodeSecurityScanConfiguration.Inspectorv2CodeSecurityScanConfiguration.Initializer"></a>
 
@@ -44,7 +44,7 @@ inspectorv2CodeSecurityScanConfiguration.Inspectorv2CodeSecurityScanConfiguratio
 | <code><a href="#@cdktn/provider-awscc.inspectorv2CodeSecurityScanConfiguration.Inspectorv2CodeSecurityScanConfiguration.Initializer.parameter.level">level</a></code> | <code>str</code> | Configuration Level. |
 | <code><a href="#@cdktn/provider-awscc.inspectorv2CodeSecurityScanConfiguration.Inspectorv2CodeSecurityScanConfiguration.Initializer.parameter.name">name</a></code> | <code>str</code> | Code Security Scan Configuration name. |
 | <code><a href="#@cdktn/provider-awscc.inspectorv2CodeSecurityScanConfiguration.Inspectorv2CodeSecurityScanConfiguration.Initializer.parameter.scopeSettings">scope_settings</a></code> | <code><a href="#@cdktn/provider-awscc.inspectorv2CodeSecurityScanConfiguration.Inspectorv2CodeSecurityScanConfigurationScopeSettings">Inspectorv2CodeSecurityScanConfigurationScopeSettings</a></code> | Scope Settings. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2CodeSecurityScanConfiguration.Inspectorv2CodeSecurityScanConfiguration.Initializer.parameter.tags">tags</a></code> | <code>typing.Mapping[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/inspectorv2_code_security_scan_configuration#tags Inspectorv2CodeSecurityScanConfiguration#tags}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2CodeSecurityScanConfiguration.Inspectorv2CodeSecurityScanConfiguration.Initializer.parameter.tags">tags</a></code> | <code>typing.Mapping[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/inspectorv2_code_security_scan_configuration#tags Inspectorv2CodeSecurityScanConfiguration#tags}. |
 
 ---
 
@@ -114,7 +114,7 @@ Must be unique amongst siblings in the same scope
 
 Code Security Scan Configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/inspectorv2_code_security_scan_configuration#configuration Inspectorv2CodeSecurityScanConfiguration#configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/inspectorv2_code_security_scan_configuration#configuration Inspectorv2CodeSecurityScanConfiguration#configuration}
 
 ---
 
@@ -124,7 +124,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Configuration Level.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/inspectorv2_code_security_scan_configuration#level Inspectorv2CodeSecurityScanConfiguration#level}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/inspectorv2_code_security_scan_configuration#level Inspectorv2CodeSecurityScanConfiguration#level}
 
 ---
 
@@ -134,7 +134,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Code Security Scan Configuration name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/inspectorv2_code_security_scan_configuration#name Inspectorv2CodeSecurityScanConfiguration#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/inspectorv2_code_security_scan_configuration#name Inspectorv2CodeSecurityScanConfiguration#name}
 
 ---
 
@@ -144,7 +144,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Scope Settings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/inspectorv2_code_security_scan_configuration#scope_settings Inspectorv2CodeSecurityScanConfiguration#scope_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/inspectorv2_code_security_scan_configuration#scope_settings Inspectorv2CodeSecurityScanConfiguration#scope_settings}
 
 ---
 
@@ -152,7 +152,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.Mapping[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/inspectorv2_code_security_scan_configuration#tags Inspectorv2CodeSecurityScanConfiguration#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/inspectorv2_code_security_scan_configuration#tags Inspectorv2CodeSecurityScanConfiguration#tags}.
 
 ---
 
@@ -556,7 +556,7 @@ def put_configuration(
 
 - *Type:* <a href="#@cdktn/provider-awscc.inspectorv2CodeSecurityScanConfiguration.Inspectorv2CodeSecurityScanConfigurationConfigurationContinuousIntegrationScanConfiguration">Inspectorv2CodeSecurityScanConfigurationConfigurationContinuousIntegrationScanConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/inspectorv2_code_security_scan_configuration#continuous_integration_scan_configuration Inspectorv2CodeSecurityScanConfiguration#continuous_integration_scan_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/inspectorv2_code_security_scan_configuration#continuous_integration_scan_configuration Inspectorv2CodeSecurityScanConfiguration#continuous_integration_scan_configuration}.
 
 ---
 
@@ -564,7 +564,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.inspectorv2CodeSecurityScanConfiguration.Inspectorv2CodeSecurityScanConfigurationConfigurationPeriodicScanConfiguration">Inspectorv2CodeSecurityScanConfigurationConfigurationPeriodicScanConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/inspectorv2_code_security_scan_configuration#periodic_scan_configuration Inspectorv2CodeSecurityScanConfiguration#periodic_scan_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/inspectorv2_code_security_scan_configuration#periodic_scan_configuration Inspectorv2CodeSecurityScanConfiguration#periodic_scan_configuration}.
 
 ---
 
@@ -572,7 +572,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/inspectorv2_code_security_scan_configuration#rule_set_categories Inspectorv2CodeSecurityScanConfiguration#rule_set_categories}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/inspectorv2_code_security_scan_configuration#rule_set_categories Inspectorv2CodeSecurityScanConfiguration#rule_set_categories}.
 
 ---
 
@@ -588,7 +588,7 @@ def put_scope_settings(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/inspectorv2_code_security_scan_configuration#project_selection_scope Inspectorv2CodeSecurityScanConfiguration#project_selection_scope}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/inspectorv2_code_security_scan_configuration#project_selection_scope Inspectorv2CodeSecurityScanConfiguration#project_selection_scope}.
 
 ---
 
@@ -736,7 +736,7 @@ The construct id used in the generated config for the Inspectorv2CodeSecuritySca
 
 The id of the existing Inspectorv2CodeSecurityScanConfiguration that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/inspectorv2_code_security_scan_configuration#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/inspectorv2_code_security_scan_configuration#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1101,7 +1101,7 @@ inspectorv2CodeSecurityScanConfiguration.Inspectorv2CodeSecurityScanConfiguratio
 | <code><a href="#@cdktn/provider-awscc.inspectorv2CodeSecurityScanConfiguration.Inspectorv2CodeSecurityScanConfigurationConfig.property.level">level</a></code> | <code>str</code> | Configuration Level. |
 | <code><a href="#@cdktn/provider-awscc.inspectorv2CodeSecurityScanConfiguration.Inspectorv2CodeSecurityScanConfigurationConfig.property.name">name</a></code> | <code>str</code> | Code Security Scan Configuration name. |
 | <code><a href="#@cdktn/provider-awscc.inspectorv2CodeSecurityScanConfiguration.Inspectorv2CodeSecurityScanConfigurationConfig.property.scopeSettings">scope_settings</a></code> | <code><a href="#@cdktn/provider-awscc.inspectorv2CodeSecurityScanConfiguration.Inspectorv2CodeSecurityScanConfigurationScopeSettings">Inspectorv2CodeSecurityScanConfigurationScopeSettings</a></code> | Scope Settings. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2CodeSecurityScanConfiguration.Inspectorv2CodeSecurityScanConfigurationConfig.property.tags">tags</a></code> | <code>typing.Mapping[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/inspectorv2_code_security_scan_configuration#tags Inspectorv2CodeSecurityScanConfiguration#tags}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2CodeSecurityScanConfiguration.Inspectorv2CodeSecurityScanConfigurationConfig.property.tags">tags</a></code> | <code>typing.Mapping[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/inspectorv2_code_security_scan_configuration#tags Inspectorv2CodeSecurityScanConfiguration#tags}. |
 
 ---
 
@@ -1185,7 +1185,7 @@ configuration: Inspectorv2CodeSecurityScanConfigurationConfiguration
 
 Code Security Scan Configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/inspectorv2_code_security_scan_configuration#configuration Inspectorv2CodeSecurityScanConfiguration#configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/inspectorv2_code_security_scan_configuration#configuration Inspectorv2CodeSecurityScanConfiguration#configuration}
 
 ---
 
@@ -1199,7 +1199,7 @@ level: str
 
 Configuration Level.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/inspectorv2_code_security_scan_configuration#level Inspectorv2CodeSecurityScanConfiguration#level}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/inspectorv2_code_security_scan_configuration#level Inspectorv2CodeSecurityScanConfiguration#level}
 
 ---
 
@@ -1213,7 +1213,7 @@ name: str
 
 Code Security Scan Configuration name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/inspectorv2_code_security_scan_configuration#name Inspectorv2CodeSecurityScanConfiguration#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/inspectorv2_code_security_scan_configuration#name Inspectorv2CodeSecurityScanConfiguration#name}
 
 ---
 
@@ -1227,7 +1227,7 @@ scope_settings: Inspectorv2CodeSecurityScanConfigurationScopeSettings
 
 Scope Settings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/inspectorv2_code_security_scan_configuration#scope_settings Inspectorv2CodeSecurityScanConfiguration#scope_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/inspectorv2_code_security_scan_configuration#scope_settings Inspectorv2CodeSecurityScanConfiguration#scope_settings}
 
 ---
 
@@ -1239,7 +1239,7 @@ tags: typing.Mapping[str]
 
 - *Type:* typing.Mapping[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/inspectorv2_code_security_scan_configuration#tags Inspectorv2CodeSecurityScanConfiguration#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/inspectorv2_code_security_scan_configuration#tags Inspectorv2CodeSecurityScanConfiguration#tags}.
 
 ---
 
@@ -1261,9 +1261,9 @@ inspectorv2CodeSecurityScanConfiguration.Inspectorv2CodeSecurityScanConfiguratio
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2CodeSecurityScanConfiguration.Inspectorv2CodeSecurityScanConfigurationConfiguration.property.continuousIntegrationScanConfiguration">continuous_integration_scan_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.inspectorv2CodeSecurityScanConfiguration.Inspectorv2CodeSecurityScanConfigurationConfigurationContinuousIntegrationScanConfiguration">Inspectorv2CodeSecurityScanConfigurationConfigurationContinuousIntegrationScanConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/inspectorv2_code_security_scan_configuration#continuous_integration_scan_configuration Inspectorv2CodeSecurityScanConfiguration#continuous_integration_scan_configuration}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2CodeSecurityScanConfiguration.Inspectorv2CodeSecurityScanConfigurationConfiguration.property.periodicScanConfiguration">periodic_scan_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.inspectorv2CodeSecurityScanConfiguration.Inspectorv2CodeSecurityScanConfigurationConfigurationPeriodicScanConfiguration">Inspectorv2CodeSecurityScanConfigurationConfigurationPeriodicScanConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/inspectorv2_code_security_scan_configuration#periodic_scan_configuration Inspectorv2CodeSecurityScanConfiguration#periodic_scan_configuration}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2CodeSecurityScanConfiguration.Inspectorv2CodeSecurityScanConfigurationConfiguration.property.ruleSetCategories">rule_set_categories</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/inspectorv2_code_security_scan_configuration#rule_set_categories Inspectorv2CodeSecurityScanConfiguration#rule_set_categories}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2CodeSecurityScanConfiguration.Inspectorv2CodeSecurityScanConfigurationConfiguration.property.continuousIntegrationScanConfiguration">continuous_integration_scan_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.inspectorv2CodeSecurityScanConfiguration.Inspectorv2CodeSecurityScanConfigurationConfigurationContinuousIntegrationScanConfiguration">Inspectorv2CodeSecurityScanConfigurationConfigurationContinuousIntegrationScanConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/inspectorv2_code_security_scan_configuration#continuous_integration_scan_configuration Inspectorv2CodeSecurityScanConfiguration#continuous_integration_scan_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2CodeSecurityScanConfiguration.Inspectorv2CodeSecurityScanConfigurationConfiguration.property.periodicScanConfiguration">periodic_scan_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.inspectorv2CodeSecurityScanConfiguration.Inspectorv2CodeSecurityScanConfigurationConfigurationPeriodicScanConfiguration">Inspectorv2CodeSecurityScanConfigurationConfigurationPeriodicScanConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/inspectorv2_code_security_scan_configuration#periodic_scan_configuration Inspectorv2CodeSecurityScanConfiguration#periodic_scan_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2CodeSecurityScanConfiguration.Inspectorv2CodeSecurityScanConfigurationConfiguration.property.ruleSetCategories">rule_set_categories</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/inspectorv2_code_security_scan_configuration#rule_set_categories Inspectorv2CodeSecurityScanConfiguration#rule_set_categories}. |
 
 ---
 
@@ -1275,7 +1275,7 @@ continuous_integration_scan_configuration: Inspectorv2CodeSecurityScanConfigurat
 
 - *Type:* <a href="#@cdktn/provider-awscc.inspectorv2CodeSecurityScanConfiguration.Inspectorv2CodeSecurityScanConfigurationConfigurationContinuousIntegrationScanConfiguration">Inspectorv2CodeSecurityScanConfigurationConfigurationContinuousIntegrationScanConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/inspectorv2_code_security_scan_configuration#continuous_integration_scan_configuration Inspectorv2CodeSecurityScanConfiguration#continuous_integration_scan_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/inspectorv2_code_security_scan_configuration#continuous_integration_scan_configuration Inspectorv2CodeSecurityScanConfiguration#continuous_integration_scan_configuration}.
 
 ---
 
@@ -1287,7 +1287,7 @@ periodic_scan_configuration: Inspectorv2CodeSecurityScanConfigurationConfigurati
 
 - *Type:* <a href="#@cdktn/provider-awscc.inspectorv2CodeSecurityScanConfiguration.Inspectorv2CodeSecurityScanConfigurationConfigurationPeriodicScanConfiguration">Inspectorv2CodeSecurityScanConfigurationConfigurationPeriodicScanConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/inspectorv2_code_security_scan_configuration#periodic_scan_configuration Inspectorv2CodeSecurityScanConfiguration#periodic_scan_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/inspectorv2_code_security_scan_configuration#periodic_scan_configuration Inspectorv2CodeSecurityScanConfiguration#periodic_scan_configuration}.
 
 ---
 
@@ -1299,7 +1299,7 @@ rule_set_categories: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/inspectorv2_code_security_scan_configuration#rule_set_categories Inspectorv2CodeSecurityScanConfiguration#rule_set_categories}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/inspectorv2_code_security_scan_configuration#rule_set_categories Inspectorv2CodeSecurityScanConfiguration#rule_set_categories}.
 
 ---
 
@@ -1319,7 +1319,7 @@ inspectorv2CodeSecurityScanConfiguration.Inspectorv2CodeSecurityScanConfiguratio
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2CodeSecurityScanConfiguration.Inspectorv2CodeSecurityScanConfigurationConfigurationContinuousIntegrationScanConfiguration.property.supportedEvents">supported_events</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/inspectorv2_code_security_scan_configuration#supported_events Inspectorv2CodeSecurityScanConfiguration#supported_events}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2CodeSecurityScanConfiguration.Inspectorv2CodeSecurityScanConfigurationConfigurationContinuousIntegrationScanConfiguration.property.supportedEvents">supported_events</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/inspectorv2_code_security_scan_configuration#supported_events Inspectorv2CodeSecurityScanConfiguration#supported_events}. |
 
 ---
 
@@ -1331,7 +1331,7 @@ supported_events: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/inspectorv2_code_security_scan_configuration#supported_events Inspectorv2CodeSecurityScanConfiguration#supported_events}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/inspectorv2_code_security_scan_configuration#supported_events Inspectorv2CodeSecurityScanConfiguration#supported_events}.
 
 ---
 
@@ -1352,8 +1352,8 @@ inspectorv2CodeSecurityScanConfiguration.Inspectorv2CodeSecurityScanConfiguratio
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2CodeSecurityScanConfiguration.Inspectorv2CodeSecurityScanConfigurationConfigurationPeriodicScanConfiguration.property.frequency">frequency</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/inspectorv2_code_security_scan_configuration#frequency Inspectorv2CodeSecurityScanConfiguration#frequency}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2CodeSecurityScanConfiguration.Inspectorv2CodeSecurityScanConfigurationConfigurationPeriodicScanConfiguration.property.frequencyExpression">frequency_expression</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/inspectorv2_code_security_scan_configuration#frequency_expression Inspectorv2CodeSecurityScanConfiguration#frequency_expression}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2CodeSecurityScanConfiguration.Inspectorv2CodeSecurityScanConfigurationConfigurationPeriodicScanConfiguration.property.frequency">frequency</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/inspectorv2_code_security_scan_configuration#frequency Inspectorv2CodeSecurityScanConfiguration#frequency}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2CodeSecurityScanConfiguration.Inspectorv2CodeSecurityScanConfigurationConfigurationPeriodicScanConfiguration.property.frequencyExpression">frequency_expression</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/inspectorv2_code_security_scan_configuration#frequency_expression Inspectorv2CodeSecurityScanConfiguration#frequency_expression}. |
 
 ---
 
@@ -1365,7 +1365,7 @@ frequency: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/inspectorv2_code_security_scan_configuration#frequency Inspectorv2CodeSecurityScanConfiguration#frequency}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/inspectorv2_code_security_scan_configuration#frequency Inspectorv2CodeSecurityScanConfiguration#frequency}.
 
 ---
 
@@ -1377,7 +1377,7 @@ frequency_expression: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/inspectorv2_code_security_scan_configuration#frequency_expression Inspectorv2CodeSecurityScanConfiguration#frequency_expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/inspectorv2_code_security_scan_configuration#frequency_expression Inspectorv2CodeSecurityScanConfiguration#frequency_expression}.
 
 ---
 
@@ -1397,7 +1397,7 @@ inspectorv2CodeSecurityScanConfiguration.Inspectorv2CodeSecurityScanConfiguratio
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2CodeSecurityScanConfiguration.Inspectorv2CodeSecurityScanConfigurationScopeSettings.property.projectSelectionScope">project_selection_scope</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/inspectorv2_code_security_scan_configuration#project_selection_scope Inspectorv2CodeSecurityScanConfiguration#project_selection_scope}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2CodeSecurityScanConfiguration.Inspectorv2CodeSecurityScanConfigurationScopeSettings.property.projectSelectionScope">project_selection_scope</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/inspectorv2_code_security_scan_configuration#project_selection_scope Inspectorv2CodeSecurityScanConfiguration#project_selection_scope}. |
 
 ---
 
@@ -1409,7 +1409,7 @@ project_selection_scope: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/inspectorv2_code_security_scan_configuration#project_selection_scope Inspectorv2CodeSecurityScanConfiguration#project_selection_scope}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/inspectorv2_code_security_scan_configuration#project_selection_scope Inspectorv2CodeSecurityScanConfiguration#project_selection_scope}.
 
 ---
 
@@ -1963,7 +1963,7 @@ def put_continuous_integration_scan_configuration(
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/inspectorv2_code_security_scan_configuration#supported_events Inspectorv2CodeSecurityScanConfiguration#supported_events}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/inspectorv2_code_security_scan_configuration#supported_events Inspectorv2CodeSecurityScanConfiguration#supported_events}.
 
 ---
 
@@ -1980,7 +1980,7 @@ def put_periodic_scan_configuration(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/inspectorv2_code_security_scan_configuration#frequency Inspectorv2CodeSecurityScanConfiguration#frequency}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/inspectorv2_code_security_scan_configuration#frequency Inspectorv2CodeSecurityScanConfiguration#frequency}.
 
 ---
 
@@ -1988,7 +1988,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/inspectorv2_code_security_scan_configuration#frequency_expression Inspectorv2CodeSecurityScanConfiguration#frequency_expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/inspectorv2_code_security_scan_configuration#frequency_expression Inspectorv2CodeSecurityScanConfiguration#frequency_expression}.
 
 ---
 

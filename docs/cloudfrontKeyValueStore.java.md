@@ -4,7 +4,7 @@
 
 ### CloudfrontKeyValueStore <a name="CloudfrontKeyValueStore" id="@cdktn/provider-awscc.cloudfrontKeyValueStore.CloudfrontKeyValueStore"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudfront_key_value_store awscc_cloudfront_key_value_store}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudfront_key_value_store awscc_cloudfront_key_value_store}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudfrontKeyValueStore.CloudfrontKeyValueStore.Initializer"></a>
 
@@ -110,7 +110,7 @@ Must be unique amongst siblings in the same scope
 
 The name of the key value store.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudfront_key_value_store#name CloudfrontKeyValueStore#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudfront_key_value_store#name CloudfrontKeyValueStore#name}
 
 ---
 
@@ -122,7 +122,7 @@ A comment to describe the Key Value Store.
 
 Omitting `Comment` from the template during updates will clear the existing comment (set to empty string). To preserve an existing comment, you must explicitly include it in the template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudfront_key_value_store#comment CloudfrontKeyValueStore#comment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudfront_key_value_store#comment CloudfrontKeyValueStore#comment}
 
 ---
 
@@ -132,7 +132,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The import source for the key value store.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudfront_key_value_store#import_source CloudfrontKeyValueStore#import_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudfront_key_value_store#import_source CloudfrontKeyValueStore#import_source}
 
 ---
 
@@ -142,7 +142,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A complex type that contains zero or more ``Tag`` elements.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudfront_key_value_store#tags CloudfrontKeyValueStore#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudfront_key_value_store#tags CloudfrontKeyValueStore#tags}
 
 ---
 
@@ -638,7 +638,7 @@ The construct id used in the generated config for the CloudfrontKeyValueStore to
 
 The id of the existing CloudfrontKeyValueStore that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudfront_key_value_store#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudfront_key_value_store#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1085,7 +1085,7 @@ public java.lang.String getName();
 
 The name of the key value store.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudfront_key_value_store#name CloudfrontKeyValueStore#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudfront_key_value_store#name CloudfrontKeyValueStore#name}
 
 ---
 
@@ -1101,7 +1101,7 @@ A comment to describe the Key Value Store.
 
 Omitting `Comment` from the template during updates will clear the existing comment (set to empty string). To preserve an existing comment, you must explicitly include it in the template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudfront_key_value_store#comment CloudfrontKeyValueStore#comment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudfront_key_value_store#comment CloudfrontKeyValueStore#comment}
 
 ---
 
@@ -1115,7 +1115,7 @@ public CloudfrontKeyValueStoreImportSource getImportSource();
 
 The import source for the key value store.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudfront_key_value_store#import_source CloudfrontKeyValueStore#import_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudfront_key_value_store#import_source CloudfrontKeyValueStore#import_source}
 
 ---
 
@@ -1129,7 +1129,7 @@ public IResolvable|java.util.List<CloudfrontKeyValueStoreTags> getTags();
 
 A complex type that contains zero or more ``Tag`` elements.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudfront_key_value_store#tags CloudfrontKeyValueStore#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudfront_key_value_store#tags CloudfrontKeyValueStore#tags}
 
 ---
 
@@ -1165,7 +1165,7 @@ public java.lang.String getSourceArn();
 
 The Amazon Resource Name (ARN) of the import source for the key value store.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudfront_key_value_store#source_arn CloudfrontKeyValueStore#source_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudfront_key_value_store#source_arn CloudfrontKeyValueStore#source_arn}
 
 ---
 
@@ -1179,7 +1179,7 @@ public java.lang.String getSourceType();
 
 The source type of the import source for the key value store.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudfront_key_value_store#source_type CloudfrontKeyValueStore#source_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudfront_key_value_store#source_type CloudfrontKeyValueStore#source_type}
 
 ---
 

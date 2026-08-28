@@ -4,7 +4,7 @@
 
 ### MacieAllowList <a name="MacieAllowList" id="@cdktn/provider-awscc.macieAllowList.MacieAllowList"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/macie_allow_list awscc_macie_allow_list}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/macie_allow_list awscc_macie_allow_list}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.macieAllowList.MacieAllowList.Initializer"></a>
 
@@ -529,7 +529,7 @@ The construct id used in the generated config for the MacieAllowList to import.
 
 The id of the existing MacieAllowList that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/macie_allow_list#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/macie_allow_list#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -964,7 +964,7 @@ public readonly criteria: MacieAllowListCriteria;
 
 AllowList criteria.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/macie_allow_list#criteria MacieAllowList#criteria}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/macie_allow_list#criteria MacieAllowList#criteria}
 
 ---
 
@@ -978,7 +978,7 @@ public readonly name: string;
 
 Name of AllowList.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/macie_allow_list#name MacieAllowList#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/macie_allow_list#name MacieAllowList#name}
 
 ---
 
@@ -992,7 +992,7 @@ public readonly description: string;
 
 Description of AllowList.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/macie_allow_list#description MacieAllowList#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/macie_allow_list#description MacieAllowList#description}
 
 ---
 
@@ -1006,7 +1006,7 @@ public readonly tags: IResolvable | MacieAllowListTags[];
 
 A collection of tags associated with a resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/macie_allow_list#tags MacieAllowList#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/macie_allow_list#tags MacieAllowList#tags}
 
 ---
 
@@ -1039,7 +1039,7 @@ public readonly regex: string;
 
 The S3 object key for the AllowList.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/macie_allow_list#regex MacieAllowList#regex}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/macie_allow_list#regex MacieAllowList#regex}
 
 ---
 
@@ -1053,7 +1053,7 @@ public readonly s3WordsList: MacieAllowListCriteriaS3WordsListStruct;
 
 The S3 location for the AllowList.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/macie_allow_list#s3_words_list MacieAllowList#s3_words_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/macie_allow_list#s3_words_list MacieAllowList#s3_words_list}
 
 ---
 
@@ -1071,8 +1071,8 @@ const macieAllowListCriteriaS3WordsListStruct: macieAllowList.MacieAllowListCrit
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.macieAllowList.MacieAllowListCriteriaS3WordsListStruct.property.bucketName">bucketName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/macie_allow_list#bucket_name MacieAllowList#bucket_name}. |
-| <code><a href="#@cdktn/provider-awscc.macieAllowList.MacieAllowListCriteriaS3WordsListStruct.property.objectKey">objectKey</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/macie_allow_list#object_key MacieAllowList#object_key}. |
+| <code><a href="#@cdktn/provider-awscc.macieAllowList.MacieAllowListCriteriaS3WordsListStruct.property.bucketName">bucketName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/macie_allow_list#bucket_name MacieAllowList#bucket_name}. |
+| <code><a href="#@cdktn/provider-awscc.macieAllowList.MacieAllowListCriteriaS3WordsListStruct.property.objectKey">objectKey</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/macie_allow_list#object_key MacieAllowList#object_key}. |
 
 ---
 
@@ -1084,7 +1084,7 @@ public readonly bucketName: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/macie_allow_list#bucket_name MacieAllowList#bucket_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/macie_allow_list#bucket_name MacieAllowList#bucket_name}.
 
 ---
 
@@ -1096,7 +1096,7 @@ public readonly objectKey: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/macie_allow_list#object_key MacieAllowList#object_key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/macie_allow_list#object_key MacieAllowList#object_key}.
 
 ---
 
@@ -1129,7 +1129,7 @@ public readonly key: string;
 
 The tag's key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/macie_allow_list#key MacieAllowList#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/macie_allow_list#key MacieAllowList#key}
 
 ---
 
@@ -1143,7 +1143,7 @@ public readonly value: string;
 
 The tag's value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/macie_allow_list#value MacieAllowList#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/macie_allow_list#value MacieAllowList#value}
 
 ---
 

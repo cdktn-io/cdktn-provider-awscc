@@ -4,7 +4,7 @@
 
 ### Route53GlobalresolverFirewallDomainList <a name="Route53GlobalresolverFirewallDomainList" id="@cdktn/provider-awscc.route53GlobalresolverFirewallDomainList.Route53GlobalresolverFirewallDomainList"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53globalresolver_firewall_domain_list awscc_route53globalresolver_firewall_domain_list}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53globalresolver_firewall_domain_list awscc_route53globalresolver_firewall_domain_list}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.route53GlobalresolverFirewallDomainList.Route53GlobalresolverFirewallDomainList.Initializer"></a>
 
@@ -537,7 +537,7 @@ The construct id used in the generated config for the Route53GlobalresolverFirew
 
 The id of the existing Route53GlobalresolverFirewallDomainList that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53globalresolver_firewall_domain_list#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53globalresolver_firewall_domain_list#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1010,13 +1010,13 @@ new Route53GlobalresolverFirewallDomainListConfig {
 | <code><a href="#@cdktn/provider-awscc.route53GlobalresolverFirewallDomainList.Route53GlobalresolverFirewallDomainListConfig.property.lifecycle">Lifecycle</a></code> | <code>Io.Cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.route53GlobalresolverFirewallDomainList.Route53GlobalresolverFirewallDomainListConfig.property.provider">Provider</a></code> | <code>Io.Cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.route53GlobalresolverFirewallDomainList.Route53GlobalresolverFirewallDomainListConfig.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.route53GlobalresolverFirewallDomainList.Route53GlobalresolverFirewallDomainListConfig.property.globalResolverId">GlobalResolverId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53globalresolver_firewall_domain_list#global_resolver_id Route53GlobalresolverFirewallDomainList#global_resolver_id}. |
-| <code><a href="#@cdktn/provider-awscc.route53GlobalresolverFirewallDomainList.Route53GlobalresolverFirewallDomainListConfig.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53globalresolver_firewall_domain_list#name Route53GlobalresolverFirewallDomainList#name}. |
-| <code><a href="#@cdktn/provider-awscc.route53GlobalresolverFirewallDomainList.Route53GlobalresolverFirewallDomainListConfig.property.clientToken">ClientToken</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53globalresolver_firewall_domain_list#client_token Route53GlobalresolverFirewallDomainList#client_token}. |
-| <code><a href="#@cdktn/provider-awscc.route53GlobalresolverFirewallDomainList.Route53GlobalresolverFirewallDomainListConfig.property.description">Description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53globalresolver_firewall_domain_list#description Route53GlobalresolverFirewallDomainList#description}. |
+| <code><a href="#@cdktn/provider-awscc.route53GlobalresolverFirewallDomainList.Route53GlobalresolverFirewallDomainListConfig.property.globalResolverId">GlobalResolverId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53globalresolver_firewall_domain_list#global_resolver_id Route53GlobalresolverFirewallDomainList#global_resolver_id}. |
+| <code><a href="#@cdktn/provider-awscc.route53GlobalresolverFirewallDomainList.Route53GlobalresolverFirewallDomainListConfig.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53globalresolver_firewall_domain_list#name Route53GlobalresolverFirewallDomainList#name}. |
+| <code><a href="#@cdktn/provider-awscc.route53GlobalresolverFirewallDomainList.Route53GlobalresolverFirewallDomainListConfig.property.clientToken">ClientToken</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53globalresolver_firewall_domain_list#client_token Route53GlobalresolverFirewallDomainList#client_token}. |
+| <code><a href="#@cdktn/provider-awscc.route53GlobalresolverFirewallDomainList.Route53GlobalresolverFirewallDomainListConfig.property.description">Description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53globalresolver_firewall_domain_list#description Route53GlobalresolverFirewallDomainList#description}. |
 | <code><a href="#@cdktn/provider-awscc.route53GlobalresolverFirewallDomainList.Route53GlobalresolverFirewallDomainListConfig.property.domainFileUrl">DomainFileUrl</a></code> | <code>string</code> | S3 URL to import domains from. |
 | <code><a href="#@cdktn/provider-awscc.route53GlobalresolverFirewallDomainList.Route53GlobalresolverFirewallDomainListConfig.property.domains">Domains</a></code> | <code>string[]</code> | An inline list of domains to use for this domain list. |
-| <code><a href="#@cdktn/provider-awscc.route53GlobalresolverFirewallDomainList.Route53GlobalresolverFirewallDomainListConfig.property.tags">Tags</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.route53GlobalresolverFirewallDomainList.Route53GlobalresolverFirewallDomainListTags">Route53GlobalresolverFirewallDomainListTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53globalresolver_firewall_domain_list#tags Route53GlobalresolverFirewallDomainList#tags}. |
+| <code><a href="#@cdktn/provider-awscc.route53GlobalresolverFirewallDomainList.Route53GlobalresolverFirewallDomainListConfig.property.tags">Tags</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.route53GlobalresolverFirewallDomainList.Route53GlobalresolverFirewallDomainListTags">Route53GlobalresolverFirewallDomainListTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53globalresolver_firewall_domain_list#tags Route53GlobalresolverFirewallDomainList#tags}. |
 
 ---
 
@@ -1098,7 +1098,7 @@ public string GlobalResolverId { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53globalresolver_firewall_domain_list#global_resolver_id Route53GlobalresolverFirewallDomainList#global_resolver_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53globalresolver_firewall_domain_list#global_resolver_id Route53GlobalresolverFirewallDomainList#global_resolver_id}.
 
 ---
 
@@ -1110,7 +1110,7 @@ public string Name { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53globalresolver_firewall_domain_list#name Route53GlobalresolverFirewallDomainList#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53globalresolver_firewall_domain_list#name Route53GlobalresolverFirewallDomainList#name}.
 
 ---
 
@@ -1122,7 +1122,7 @@ public string ClientToken { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53globalresolver_firewall_domain_list#client_token Route53GlobalresolverFirewallDomainList#client_token}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53globalresolver_firewall_domain_list#client_token Route53GlobalresolverFirewallDomainList#client_token}.
 
 ---
 
@@ -1134,7 +1134,7 @@ public string Description { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53globalresolver_firewall_domain_list#description Route53GlobalresolverFirewallDomainList#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53globalresolver_firewall_domain_list#description Route53GlobalresolverFirewallDomainList#description}.
 
 ---
 
@@ -1148,7 +1148,7 @@ public string DomainFileUrl { get; set; }
 
 S3 URL to import domains from.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53globalresolver_firewall_domain_list#domain_file_url Route53GlobalresolverFirewallDomainList#domain_file_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53globalresolver_firewall_domain_list#domain_file_url Route53GlobalresolverFirewallDomainList#domain_file_url}
 
 ---
 
@@ -1162,7 +1162,7 @@ public string[] Domains { get; set; }
 
 An inline list of domains to use for this domain list.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53globalresolver_firewall_domain_list#domains Route53GlobalresolverFirewallDomainList#domains}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53globalresolver_firewall_domain_list#domains Route53GlobalresolverFirewallDomainList#domains}
 
 ---
 
@@ -1174,7 +1174,7 @@ public IResolvable|Route53GlobalresolverFirewallDomainListTags[] Tags { get; set
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.route53GlobalresolverFirewallDomainList.Route53GlobalresolverFirewallDomainListTags">Route53GlobalresolverFirewallDomainListTags</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53globalresolver_firewall_domain_list#tags Route53GlobalresolverFirewallDomainList#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53globalresolver_firewall_domain_list#tags Route53GlobalresolverFirewallDomainList#tags}.
 
 ---
 
@@ -1195,8 +1195,8 @@ new Route53GlobalresolverFirewallDomainListTags {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.route53GlobalresolverFirewallDomainList.Route53GlobalresolverFirewallDomainListTags.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53globalresolver_firewall_domain_list#key Route53GlobalresolverFirewallDomainList#key}. |
-| <code><a href="#@cdktn/provider-awscc.route53GlobalresolverFirewallDomainList.Route53GlobalresolverFirewallDomainListTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53globalresolver_firewall_domain_list#value Route53GlobalresolverFirewallDomainList#value}. |
+| <code><a href="#@cdktn/provider-awscc.route53GlobalresolverFirewallDomainList.Route53GlobalresolverFirewallDomainListTags.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53globalresolver_firewall_domain_list#key Route53GlobalresolverFirewallDomainList#key}. |
+| <code><a href="#@cdktn/provider-awscc.route53GlobalresolverFirewallDomainList.Route53GlobalresolverFirewallDomainListTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53globalresolver_firewall_domain_list#value Route53GlobalresolverFirewallDomainList#value}. |
 
 ---
 
@@ -1208,7 +1208,7 @@ public string Key { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53globalresolver_firewall_domain_list#key Route53GlobalresolverFirewallDomainList#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53globalresolver_firewall_domain_list#key Route53GlobalresolverFirewallDomainList#key}.
 
 ---
 
@@ -1220,7 +1220,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53globalresolver_firewall_domain_list#value Route53GlobalresolverFirewallDomainList#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53globalresolver_firewall_domain_list#value Route53GlobalresolverFirewallDomainList#value}.
 
 ---
 

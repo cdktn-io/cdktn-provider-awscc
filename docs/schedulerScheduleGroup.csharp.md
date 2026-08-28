@@ -4,7 +4,7 @@
 
 ### SchedulerScheduleGroup <a name="SchedulerScheduleGroup" id="@cdktn/provider-awscc.schedulerScheduleGroup.SchedulerScheduleGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/scheduler_schedule_group awscc_scheduler_schedule_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/scheduler_schedule_group awscc_scheduler_schedule_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.schedulerScheduleGroup.SchedulerScheduleGroup.Initializer"></a>
 
@@ -516,7 +516,7 @@ The construct id used in the generated config for the SchedulerScheduleGroup to 
 
 The id of the existing SchedulerScheduleGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/scheduler_schedule_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/scheduler_schedule_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -841,7 +841,7 @@ new SchedulerScheduleGroupConfig {
 | <code><a href="#@cdktn/provider-awscc.schedulerScheduleGroup.SchedulerScheduleGroupConfig.property.lifecycle">Lifecycle</a></code> | <code>Io.Cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.schedulerScheduleGroup.SchedulerScheduleGroupConfig.property.provider">Provider</a></code> | <code>Io.Cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.schedulerScheduleGroup.SchedulerScheduleGroupConfig.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.schedulerScheduleGroup.SchedulerScheduleGroupConfig.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/scheduler_schedule_group#name SchedulerScheduleGroup#name}. |
+| <code><a href="#@cdktn/provider-awscc.schedulerScheduleGroup.SchedulerScheduleGroupConfig.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/scheduler_schedule_group#name SchedulerScheduleGroup#name}. |
 | <code><a href="#@cdktn/provider-awscc.schedulerScheduleGroup.SchedulerScheduleGroupConfig.property.tags">Tags</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.schedulerScheduleGroup.SchedulerScheduleGroupTags">SchedulerScheduleGroupTags</a>[]</code> | The list of tags to associate with the schedule group. |
 
 ---
@@ -924,7 +924,7 @@ public string Name { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/scheduler_schedule_group#name SchedulerScheduleGroup#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/scheduler_schedule_group#name SchedulerScheduleGroup#name}.
 
 ---
 
@@ -938,7 +938,7 @@ public IResolvable|SchedulerScheduleGroupTags[] Tags { get; set; }
 
 The list of tags to associate with the schedule group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/scheduler_schedule_group#tags SchedulerScheduleGroup#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/scheduler_schedule_group#tags SchedulerScheduleGroup#tags}
 
 ---
 
@@ -974,7 +974,7 @@ public string Key { get; set; }
 
 Key for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/scheduler_schedule_group#key SchedulerScheduleGroup#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/scheduler_schedule_group#key SchedulerScheduleGroup#key}
 
 ---
 
@@ -988,7 +988,7 @@ public string Value { get; set; }
 
 Value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/scheduler_schedule_group#value SchedulerScheduleGroup#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/scheduler_schedule_group#value SchedulerScheduleGroup#value}
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### BackupLegalHold <a name="BackupLegalHold" id="@cdktn/provider-awscc.backupLegalHold.BackupLegalHold"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backup_legal_hold awscc_backup_legal_hold}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_legal_hold awscc_backup_legal_hold}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.backupLegalHold.BackupLegalHold.Initializer"></a>
 
@@ -110,7 +110,7 @@ Must be unique amongst siblings in the same scope
 
 The description of the legal hold.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backup_legal_hold#description BackupLegalHold#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_legal_hold#description BackupLegalHold#description}
 
 ---
 
@@ -120,7 +120,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The criteria to assign a set of resources, such as resource types or backup vaults.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backup_legal_hold#recovery_point_selection BackupLegalHold#recovery_point_selection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_legal_hold#recovery_point_selection BackupLegalHold#recovery_point_selection}
 
 ---
 
@@ -130,7 +130,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The title of the legal hold.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backup_legal_hold#title BackupLegalHold#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_legal_hold#title BackupLegalHold#title}
 
 ---
 
@@ -140,7 +140,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Optional tags to include.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backup_legal_hold#tags BackupLegalHold#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_legal_hold#tags BackupLegalHold#tags}
 
 ---
 
@@ -622,7 +622,7 @@ The construct id used in the generated config for the BackupLegalHold to import.
 
 The id of the existing BackupLegalHold that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backup_legal_hold#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_legal_hold#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1080,7 +1080,7 @@ public java.lang.String getDescription();
 
 The description of the legal hold.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backup_legal_hold#description BackupLegalHold#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_legal_hold#description BackupLegalHold#description}
 
 ---
 
@@ -1094,7 +1094,7 @@ public BackupLegalHoldRecoveryPointSelection getRecoveryPointSelection();
 
 The criteria to assign a set of resources, such as resource types or backup vaults.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backup_legal_hold#recovery_point_selection BackupLegalHold#recovery_point_selection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_legal_hold#recovery_point_selection BackupLegalHold#recovery_point_selection}
 
 ---
 
@@ -1108,7 +1108,7 @@ public java.lang.String getTitle();
 
 The title of the legal hold.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backup_legal_hold#title BackupLegalHold#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_legal_hold#title BackupLegalHold#title}
 
 ---
 
@@ -1122,7 +1122,7 @@ public IResolvable|java.util.List<BackupLegalHoldTags> getTags();
 
 Optional tags to include.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backup_legal_hold#tags BackupLegalHold#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_legal_hold#tags BackupLegalHold#tags}
 
 ---
 
@@ -1160,7 +1160,7 @@ public BackupLegalHoldRecoveryPointSelectionDateRange getDateRange();
 
 A date range for filtering recovery points.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backup_legal_hold#date_range BackupLegalHold#date_range}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_legal_hold#date_range BackupLegalHold#date_range}
 
 ---
 
@@ -1174,7 +1174,7 @@ public java.util.List<java.lang.String> getResourceIdentifiers();
 
 The resources included in the resource selection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backup_legal_hold#resource_identifiers BackupLegalHold#resource_identifiers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_legal_hold#resource_identifiers BackupLegalHold#resource_identifiers}
 
 ---
 
@@ -1188,7 +1188,7 @@ public java.util.List<java.lang.String> getVaultNames();
 
 The names of the vaults in which the selected recovery points are contained.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backup_legal_hold#vault_names BackupLegalHold#vault_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_legal_hold#vault_names BackupLegalHold#vault_names}
 
 ---
 
@@ -1224,7 +1224,7 @@ public java.lang.String getFromDate();
 
 The beginning date, inclusive. ISO 8601 date-time.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backup_legal_hold#from_date BackupLegalHold#from_date}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_legal_hold#from_date BackupLegalHold#from_date}
 
 ---
 
@@ -1238,7 +1238,7 @@ public java.lang.String getToDate();
 
 The end date, inclusive. ISO 8601 date-time.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backup_legal_hold#to_date BackupLegalHold#to_date}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_legal_hold#to_date BackupLegalHold#to_date}
 
 ---
 
@@ -1274,7 +1274,7 @@ public java.lang.String getKey();
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backup_legal_hold#key BackupLegalHold#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_legal_hold#key BackupLegalHold#key}
 
 ---
 
@@ -1288,7 +1288,7 @@ public java.lang.String getValue();
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backup_legal_hold#value BackupLegalHold#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_legal_hold#value BackupLegalHold#value}
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### IotSoftwarePackageVersion <a name="IotSoftwarePackageVersion" id="@cdktn/provider-awscc.iotSoftwarePackageVersion.IotSoftwarePackageVersion"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_software_package_version awscc_iot_software_package_version}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_software_package_version awscc_iot_software_package_version}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotSoftwarePackageVersion.IotSoftwarePackageVersion.Initializer"></a>
 
@@ -577,7 +577,7 @@ The construct id used in the generated config for the IotSoftwarePackageVersion 
 
 The id of the existing IotSoftwarePackageVersion that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_software_package_version#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_software_package_version#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1033,7 +1033,7 @@ public IotSoftwarePackageVersionArtifactS3Location S3Location { get; set; }
 
 The Amazon S3 location.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_software_package_version#s3_location IotSoftwarePackageVersion#s3_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_software_package_version#s3_location IotSoftwarePackageVersion#s3_location}
 
 ---
 
@@ -1071,7 +1071,7 @@ public string Bucket { get; set; }
 
 The S3 bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_software_package_version#bucket IotSoftwarePackageVersion#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_software_package_version#bucket IotSoftwarePackageVersion#bucket}
 
 ---
 
@@ -1085,7 +1085,7 @@ public string Key { get; set; }
 
 The S3 key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_software_package_version#key IotSoftwarePackageVersion#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_software_package_version#key IotSoftwarePackageVersion#key}
 
 ---
 
@@ -1099,7 +1099,7 @@ public string Version { get; set; }
 
 The S3 version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_software_package_version#version IotSoftwarePackageVersion#version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_software_package_version#version IotSoftwarePackageVersion#version}
 
 ---
 
@@ -1140,14 +1140,14 @@ new IotSoftwarePackageVersionConfig {
 | <code><a href="#@cdktn/provider-awscc.iotSoftwarePackageVersion.IotSoftwarePackageVersionConfig.property.lifecycle">Lifecycle</a></code> | <code>Io.Cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.iotSoftwarePackageVersion.IotSoftwarePackageVersionConfig.property.provider">Provider</a></code> | <code>Io.Cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.iotSoftwarePackageVersion.IotSoftwarePackageVersionConfig.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.iotSoftwarePackageVersion.IotSoftwarePackageVersionConfig.property.packageName">PackageName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_software_package_version#package_name IotSoftwarePackageVersion#package_name}. |
+| <code><a href="#@cdktn/provider-awscc.iotSoftwarePackageVersion.IotSoftwarePackageVersionConfig.property.packageName">PackageName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_software_package_version#package_name IotSoftwarePackageVersion#package_name}. |
 | <code><a href="#@cdktn/provider-awscc.iotSoftwarePackageVersion.IotSoftwarePackageVersionConfig.property.artifact">Artifact</a></code> | <code><a href="#@cdktn/provider-awscc.iotSoftwarePackageVersion.IotSoftwarePackageVersionArtifact">IotSoftwarePackageVersionArtifact</a></code> | The artifact location of the package version. |
-| <code><a href="#@cdktn/provider-awscc.iotSoftwarePackageVersion.IotSoftwarePackageVersionConfig.property.attributes">Attributes</a></code> | <code>System.Collections.Generic.IDictionary<string, string></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_software_package_version#attributes IotSoftwarePackageVersion#attributes}. |
-| <code><a href="#@cdktn/provider-awscc.iotSoftwarePackageVersion.IotSoftwarePackageVersionConfig.property.description">Description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_software_package_version#description IotSoftwarePackageVersion#description}. |
+| <code><a href="#@cdktn/provider-awscc.iotSoftwarePackageVersion.IotSoftwarePackageVersionConfig.property.attributes">Attributes</a></code> | <code>System.Collections.Generic.IDictionary<string, string></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_software_package_version#attributes IotSoftwarePackageVersion#attributes}. |
+| <code><a href="#@cdktn/provider-awscc.iotSoftwarePackageVersion.IotSoftwarePackageVersionConfig.property.description">Description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_software_package_version#description IotSoftwarePackageVersion#description}. |
 | <code><a href="#@cdktn/provider-awscc.iotSoftwarePackageVersion.IotSoftwarePackageVersionConfig.property.recipe">Recipe</a></code> | <code>string</code> | The inline json job document associated with a software package version. |
 | <code><a href="#@cdktn/provider-awscc.iotSoftwarePackageVersion.IotSoftwarePackageVersionConfig.property.sbom">Sbom</a></code> | <code><a href="#@cdktn/provider-awscc.iotSoftwarePackageVersion.IotSoftwarePackageVersionSbom">IotSoftwarePackageVersionSbom</a></code> | The sbom zip archive location of the package version. |
 | <code><a href="#@cdktn/provider-awscc.iotSoftwarePackageVersion.IotSoftwarePackageVersionConfig.property.tags">Tags</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.iotSoftwarePackageVersion.IotSoftwarePackageVersionTags">IotSoftwarePackageVersionTags</a>[]</code> | An array of key-value pairs to apply to this resource. |
-| <code><a href="#@cdktn/provider-awscc.iotSoftwarePackageVersion.IotSoftwarePackageVersionConfig.property.versionName">VersionName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_software_package_version#version_name IotSoftwarePackageVersion#version_name}. |
+| <code><a href="#@cdktn/provider-awscc.iotSoftwarePackageVersion.IotSoftwarePackageVersionConfig.property.versionName">VersionName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_software_package_version#version_name IotSoftwarePackageVersion#version_name}. |
 
 ---
 
@@ -1229,7 +1229,7 @@ public string PackageName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_software_package_version#package_name IotSoftwarePackageVersion#package_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_software_package_version#package_name IotSoftwarePackageVersion#package_name}.
 
 ---
 
@@ -1243,7 +1243,7 @@ public IotSoftwarePackageVersionArtifact Artifact { get; set; }
 
 The artifact location of the package version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_software_package_version#artifact IotSoftwarePackageVersion#artifact}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_software_package_version#artifact IotSoftwarePackageVersion#artifact}
 
 ---
 
@@ -1255,7 +1255,7 @@ public System.Collections.Generic.IDictionary<string, string> Attributes { get; 
 
 - *Type:* System.Collections.Generic.IDictionary<string, string>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_software_package_version#attributes IotSoftwarePackageVersion#attributes}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_software_package_version#attributes IotSoftwarePackageVersion#attributes}.
 
 ---
 
@@ -1267,7 +1267,7 @@ public string Description { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_software_package_version#description IotSoftwarePackageVersion#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_software_package_version#description IotSoftwarePackageVersion#description}.
 
 ---
 
@@ -1281,7 +1281,7 @@ public string Recipe { get; set; }
 
 The inline json job document associated with a software package version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_software_package_version#recipe IotSoftwarePackageVersion#recipe}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_software_package_version#recipe IotSoftwarePackageVersion#recipe}
 
 ---
 
@@ -1295,7 +1295,7 @@ public IotSoftwarePackageVersionSbom Sbom { get; set; }
 
 The sbom zip archive location of the package version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_software_package_version#sbom IotSoftwarePackageVersion#sbom}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_software_package_version#sbom IotSoftwarePackageVersion#sbom}
 
 ---
 
@@ -1309,7 +1309,7 @@ public IResolvable|IotSoftwarePackageVersionTags[] Tags { get; set; }
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_software_package_version#tags IotSoftwarePackageVersion#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_software_package_version#tags IotSoftwarePackageVersion#tags}
 
 ---
 
@@ -1321,7 +1321,7 @@ public string VersionName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_software_package_version#version_name IotSoftwarePackageVersion#version_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_software_package_version#version_name IotSoftwarePackageVersion#version_name}.
 
 ---
 
@@ -1355,7 +1355,7 @@ public IotSoftwarePackageVersionSbomS3Location S3Location { get; set; }
 
 The Amazon S3 location.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_software_package_version#s3_location IotSoftwarePackageVersion#s3_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_software_package_version#s3_location IotSoftwarePackageVersion#s3_location}
 
 ---
 
@@ -1393,7 +1393,7 @@ public string Bucket { get; set; }
 
 The S3 bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_software_package_version#bucket IotSoftwarePackageVersion#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_software_package_version#bucket IotSoftwarePackageVersion#bucket}
 
 ---
 
@@ -1407,7 +1407,7 @@ public string Key { get; set; }
 
 The S3 key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_software_package_version#key IotSoftwarePackageVersion#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_software_package_version#key IotSoftwarePackageVersion#key}
 
 ---
 
@@ -1421,7 +1421,7 @@ public string Version { get; set; }
 
 The S3 version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_software_package_version#version IotSoftwarePackageVersion#version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_software_package_version#version IotSoftwarePackageVersion#version}
 
 ---
 
@@ -1459,7 +1459,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_software_package_version#key IotSoftwarePackageVersion#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_software_package_version#key IotSoftwarePackageVersion#key}
 
 ---
 
@@ -1475,7 +1475,7 @@ The value for the tag.
 
 You can specify a value that is 1 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_software_package_version#value IotSoftwarePackageVersion#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_software_package_version#value IotSoftwarePackageVersion#value}
 
 ---
 

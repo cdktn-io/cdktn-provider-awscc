@@ -4,7 +4,7 @@
 
 ### DataAwsccSchedulerSchedules <a name="DataAwsccSchedulerSchedules" id="@cdktn/provider-awscc.dataAwsccSchedulerSchedules.DataAwsccSchedulerSchedules"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/scheduler_schedules awscc_scheduler_schedules}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/scheduler_schedules awscc_scheduler_schedules}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSchedulerSchedules.DataAwsccSchedulerSchedules.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSchedulerSchedule
 
 The id of the existing DataAwsccSchedulerSchedules that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/scheduler_schedules#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/scheduler_schedules#import import section} in the documentation of this resource for the id to use
 
 ---
 

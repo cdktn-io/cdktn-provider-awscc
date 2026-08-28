@@ -4,7 +4,7 @@
 
 ### SecurityhubHubV2 <a name="SecurityhubHubV2" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityhub_hub_v2 awscc_securityhub_hub_v2}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_hub_v2 awscc_securityhub_hub_v2}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2.Initializer"></a>
 
@@ -106,7 +106,7 @@ A key-value pair to associate with the Security Hub V2 resource.
 
 You can specify a key that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityhub_hub_v2#tags SecurityhubHubV2#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_hub_v2#tags SecurityhubHubV2#tags}
 
 ---
 
@@ -562,7 +562,7 @@ The construct id used in the generated config for the SecurityhubHubV2 to import
 
 The id of the existing SecurityhubHubV2 that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityhub_hub_v2#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_hub_v2#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -928,7 +928,7 @@ A key-value pair to associate with the Security Hub V2 resource.
 
 You can specify a key that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityhub_hub_v2#tags SecurityhubHubV2#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_hub_v2#tags SecurityhubHubV2#tags}
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### UxcAccountCustomization <a name="UxcAccountCustomization" id="@cdktn/provider-awscc.uxcAccountCustomization.UxcAccountCustomization"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/uxc_account_customization awscc_uxc_account_customization}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/uxc_account_customization awscc_uxc_account_customization}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.uxcAccountCustomization.UxcAccountCustomization.Initializer"></a>
 
@@ -108,7 +108,7 @@ Must be unique amongst siblings in the same scope
 
 The color theme assigned to the account for visual identification in the AWS Console.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/uxc_account_customization#account_color UxcAccountCustomization#account_color}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/uxc_account_customization#account_color UxcAccountCustomization#account_color}
 
 ---
 
@@ -118,7 +118,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A list of AWS region identifiers visible to the account in the AWS Console.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/uxc_account_customization#visible_regions UxcAccountCustomization#visible_regions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/uxc_account_customization#visible_regions UxcAccountCustomization#visible_regions}
 
 ---
 
@@ -128,7 +128,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A list of AWS service identifiers visible to the account in the AWS Console.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/uxc_account_customization#visible_services UxcAccountCustomization#visible_services}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/uxc_account_customization#visible_services UxcAccountCustomization#visible_services}
 
 ---
 
@@ -598,7 +598,7 @@ The construct id used in the generated config for the UxcAccountCustomization to
 
 The id of the existing UxcAccountCustomization that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/uxc_account_customization#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/uxc_account_customization#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -999,7 +999,7 @@ public java.lang.String getAccountColor();
 
 The color theme assigned to the account for visual identification in the AWS Console.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/uxc_account_customization#account_color UxcAccountCustomization#account_color}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/uxc_account_customization#account_color UxcAccountCustomization#account_color}
 
 ---
 
@@ -1013,7 +1013,7 @@ public java.util.List<java.lang.String> getVisibleRegions();
 
 A list of AWS region identifiers visible to the account in the AWS Console.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/uxc_account_customization#visible_regions UxcAccountCustomization#visible_regions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/uxc_account_customization#visible_regions UxcAccountCustomization#visible_regions}
 
 ---
 
@@ -1027,7 +1027,7 @@ public java.util.List<java.lang.String> getVisibleServices();
 
 A list of AWS service identifiers visible to the account in the AWS Console.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/uxc_account_customization#visible_services UxcAccountCustomization#visible_services}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/uxc_account_customization#visible_services UxcAccountCustomization#visible_services}
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### BedrockFlowVersion <a name="BedrockFlowVersion" id="@cdktn/provider-awscc.bedrockFlowVersion.BedrockFlowVersion"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_flow_version awscc_bedrock_flow_version}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_flow_version awscc_bedrock_flow_version}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockFlowVersion.BedrockFlowVersion.Initializer"></a>
 
@@ -108,7 +108,7 @@ Must be unique amongst siblings in the same scope
 
 Arn representation of the Flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_flow_version#flow_arn BedrockFlowVersion#flow_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_flow_version#flow_arn BedrockFlowVersion#flow_arn}
 
 ---
 
@@ -118,7 +118,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Description of the flow version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_flow_version#description BedrockFlowVersion#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_flow_version#description BedrockFlowVersion#description}
 
 ---
 
@@ -622,7 +622,7 @@ The construct id used in the generated config for the BedrockFlowVersion to impo
 
 The id of the existing BedrockFlowVersion that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_flow_version#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_flow_version#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1076,7 +1076,7 @@ flow_arn: str
 
 Arn representation of the Flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_flow_version#flow_arn BedrockFlowVersion#flow_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_flow_version#flow_arn BedrockFlowVersion#flow_arn}
 
 ---
 
@@ -1090,7 +1090,7 @@ description: str
 
 Description of the flow version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_flow_version#description BedrockFlowVersion#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_flow_version#description BedrockFlowVersion#description}
 
 ---
 

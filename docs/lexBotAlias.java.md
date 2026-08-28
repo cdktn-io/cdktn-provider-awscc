@@ -4,7 +4,7 @@
 
 ### LexBotAlias <a name="LexBotAlias" id="@cdktn/provider-awscc.lexBotAlias.LexBotAlias"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lex_bot_alias awscc_lex_bot_alias}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot_alias awscc_lex_bot_alias}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBotAlias.LexBotAlias.Initializer"></a>
 
@@ -118,7 +118,7 @@ Must be unique amongst siblings in the same scope
 
 A unique identifier for a resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lex_bot_alias#bot_alias_name LexBotAlias#bot_alias_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot_alias#bot_alias_name LexBotAlias#bot_alias_name}
 
 ---
 
@@ -128,7 +128,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Unique ID of resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lex_bot_alias#bot_id LexBotAlias#bot_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot_alias#bot_id LexBotAlias#bot_id}
 
 ---
 
@@ -138,7 +138,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A list of bot alias locale settings to add to the bot alias.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lex_bot_alias#bot_alias_locale_settings LexBotAlias#bot_alias_locale_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot_alias#bot_alias_locale_settings LexBotAlias#bot_alias_locale_settings}
 
 ---
 
@@ -148,7 +148,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A list of tags to add to the bot alias.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lex_bot_alias#bot_alias_tags LexBotAlias#bot_alias_tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot_alias#bot_alias_tags LexBotAlias#bot_alias_tags}
 
 ---
 
@@ -158,7 +158,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The version of a bot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lex_bot_alias#bot_version LexBotAlias#bot_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot_alias#bot_version LexBotAlias#bot_version}
 
 ---
 
@@ -168,7 +168,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Contains information about code hooks that Amazon Lex calls during a conversation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lex_bot_alias#conversation_log_settings LexBotAlias#conversation_log_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot_alias#conversation_log_settings LexBotAlias#conversation_log_settings}
 
 ---
 
@@ -178,7 +178,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A description of the bot alias. Use the description to help identify the bot alias in lists.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lex_bot_alias#description LexBotAlias#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot_alias#description LexBotAlias#description}
 
 ---
 
@@ -188,7 +188,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Determines whether Amazon Lex will use Amazon Comprehend to detect the sentiment of user utterances.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lex_bot_alias#sentiment_analysis_settings LexBotAlias#sentiment_analysis_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot_alias#sentiment_analysis_settings LexBotAlias#sentiment_analysis_settings}
 
 ---
 
@@ -731,7 +731,7 @@ The construct id used in the generated config for the LexBotAlias to import.
 
 The id of the existing LexBotAlias that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lex_bot_alias#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot_alias#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1178,7 +1178,7 @@ public LexBotAliasBotAliasLocaleSettingsBotAliasLocaleSetting getBotAliasLocaleS
 
 You can use this parameter to specify a specific Lambda function to run different functions in different locales.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lex_bot_alias#bot_alias_locale_setting LexBotAlias#bot_alias_locale_setting}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot_alias#bot_alias_locale_setting LexBotAlias#bot_alias_locale_setting}
 
 ---
 
@@ -1192,7 +1192,7 @@ public java.lang.String getLocaleId();
 
 A string used to identify the locale.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lex_bot_alias#locale_id LexBotAlias#locale_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot_alias#locale_id LexBotAlias#locale_id}
 
 ---
 
@@ -1228,7 +1228,7 @@ public LexBotAliasBotAliasLocaleSettingsBotAliasLocaleSettingCodeHookSpecificati
 
 Contains information about code hooks that Amazon Lex calls during a conversation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lex_bot_alias#code_hook_specification LexBotAlias#code_hook_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot_alias#code_hook_specification LexBotAlias#code_hook_specification}
 
 ---
 
@@ -1242,7 +1242,7 @@ public java.lang.Boolean|IResolvable getEnabled();
 
 Whether the Lambda code hook is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lex_bot_alias#enabled LexBotAlias#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot_alias#enabled LexBotAlias#enabled}
 
 ---
 
@@ -1276,7 +1276,7 @@ public LexBotAliasBotAliasLocaleSettingsBotAliasLocaleSettingCodeHookSpecificati
 
 Contains information about code hooks that Amazon Lex calls during a conversation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lex_bot_alias#lambda_code_hook LexBotAlias#lambda_code_hook}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot_alias#lambda_code_hook LexBotAlias#lambda_code_hook}
 
 ---
 
@@ -1312,7 +1312,7 @@ public java.lang.String getCodeHookInterfaceVersion();
 
 The version of the request-response that you want Amazon Lex to use to invoke your Lambda function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lex_bot_alias#code_hook_interface_version LexBotAlias#code_hook_interface_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot_alias#code_hook_interface_version LexBotAlias#code_hook_interface_version}
 
 ---
 
@@ -1326,7 +1326,7 @@ public java.lang.String getLambdaArn();
 
 The Amazon Resource Name (ARN) of the Lambda function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lex_bot_alias#lambda_arn LexBotAlias#lambda_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot_alias#lambda_arn LexBotAlias#lambda_arn}
 
 ---
 
@@ -1362,7 +1362,7 @@ public java.lang.String getKey();
 
 A string used to identify this tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lex_bot_alias#key LexBotAlias#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot_alias#key LexBotAlias#key}
 
 ---
 
@@ -1376,7 +1376,7 @@ public java.lang.String getValue();
 
 A string containing the value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lex_bot_alias#value LexBotAlias#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot_alias#value LexBotAlias#value}
 
 ---
 
@@ -1508,7 +1508,7 @@ public java.lang.String getBotAliasName();
 
 A unique identifier for a resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lex_bot_alias#bot_alias_name LexBotAlias#bot_alias_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot_alias#bot_alias_name LexBotAlias#bot_alias_name}
 
 ---
 
@@ -1522,7 +1522,7 @@ public java.lang.String getBotId();
 
 Unique ID of resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lex_bot_alias#bot_id LexBotAlias#bot_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot_alias#bot_id LexBotAlias#bot_id}
 
 ---
 
@@ -1536,7 +1536,7 @@ public IResolvable|java.util.List<LexBotAliasBotAliasLocaleSettings> getBotAlias
 
 A list of bot alias locale settings to add to the bot alias.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lex_bot_alias#bot_alias_locale_settings LexBotAlias#bot_alias_locale_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot_alias#bot_alias_locale_settings LexBotAlias#bot_alias_locale_settings}
 
 ---
 
@@ -1550,7 +1550,7 @@ public IResolvable|java.util.List<LexBotAliasBotAliasTags> getBotAliasTags();
 
 A list of tags to add to the bot alias.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lex_bot_alias#bot_alias_tags LexBotAlias#bot_alias_tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot_alias#bot_alias_tags LexBotAlias#bot_alias_tags}
 
 ---
 
@@ -1564,7 +1564,7 @@ public java.lang.String getBotVersion();
 
 The version of a bot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lex_bot_alias#bot_version LexBotAlias#bot_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot_alias#bot_version LexBotAlias#bot_version}
 
 ---
 
@@ -1578,7 +1578,7 @@ public LexBotAliasConversationLogSettings getConversationLogSettings();
 
 Contains information about code hooks that Amazon Lex calls during a conversation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lex_bot_alias#conversation_log_settings LexBotAlias#conversation_log_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot_alias#conversation_log_settings LexBotAlias#conversation_log_settings}
 
 ---
 
@@ -1592,7 +1592,7 @@ public java.lang.String getDescription();
 
 A description of the bot alias. Use the description to help identify the bot alias in lists.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lex_bot_alias#description LexBotAlias#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot_alias#description LexBotAlias#description}
 
 ---
 
@@ -1606,7 +1606,7 @@ public LexBotAliasSentimentAnalysisSettings getSentimentAnalysisSettings();
 
 Determines whether Amazon Lex will use Amazon Comprehend to detect the sentiment of user utterances.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lex_bot_alias#sentiment_analysis_settings LexBotAlias#sentiment_analysis_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot_alias#sentiment_analysis_settings LexBotAlias#sentiment_analysis_settings}
 
 ---
 
@@ -1642,7 +1642,7 @@ public IResolvable|java.util.List<LexBotAliasConversationLogSettingsAudioLogSett
 
 List of audio log settings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lex_bot_alias#audio_log_settings LexBotAlias#audio_log_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot_alias#audio_log_settings LexBotAlias#audio_log_settings}
 
 ---
 
@@ -1656,7 +1656,7 @@ public IResolvable|java.util.List<LexBotAliasConversationLogSettingsTextLogSetti
 
 List of text log settings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lex_bot_alias#text_log_settings LexBotAlias#text_log_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot_alias#text_log_settings LexBotAlias#text_log_settings}
 
 ---
 
@@ -1678,7 +1678,7 @@ LexBotAliasConversationLogSettingsAudioLogSettings.builder()
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.lexBotAlias.LexBotAliasConversationLogSettingsAudioLogSettings.property.destination">destination</a></code> | <code><a href="#@cdktn/provider-awscc.lexBotAlias.LexBotAliasConversationLogSettingsAudioLogSettingsDestination">LexBotAliasConversationLogSettingsAudioLogSettingsDestination</a></code> | The location of audio log files collected when conversation logging is enabled for a bot. |
-| <code><a href="#@cdktn/provider-awscc.lexBotAlias.LexBotAliasConversationLogSettingsAudioLogSettings.property.enabled">enabled</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lex_bot_alias#enabled LexBotAlias#enabled}. |
+| <code><a href="#@cdktn/provider-awscc.lexBotAlias.LexBotAliasConversationLogSettingsAudioLogSettings.property.enabled">enabled</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot_alias#enabled LexBotAlias#enabled}. |
 
 ---
 
@@ -1692,7 +1692,7 @@ public LexBotAliasConversationLogSettingsAudioLogSettingsDestination getDestinat
 
 The location of audio log files collected when conversation logging is enabled for a bot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lex_bot_alias#destination LexBotAlias#destination}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot_alias#destination LexBotAlias#destination}
 
 ---
 
@@ -1704,7 +1704,7 @@ public java.lang.Boolean|IResolvable getEnabled();
 
 - *Type:* java.lang.Boolean|io.cdktn.cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lex_bot_alias#enabled LexBotAlias#enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot_alias#enabled LexBotAlias#enabled}.
 
 ---
 
@@ -1738,7 +1738,7 @@ public LexBotAliasConversationLogSettingsAudioLogSettingsDestinationS3Bucket get
 
 Specifies an Amazon S3 bucket for logging audio conversations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lex_bot_alias#s3_bucket LexBotAlias#s3_bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot_alias#s3_bucket LexBotAlias#s3_bucket}
 
 ---
 
@@ -1776,7 +1776,7 @@ public java.lang.String getKmsKeyArn();
 
 The Amazon Resource Name (ARN) of an AWS Key Management Service (KMS) key for encrypting audio log files stored in an S3 bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lex_bot_alias#kms_key_arn LexBotAlias#kms_key_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot_alias#kms_key_arn LexBotAlias#kms_key_arn}
 
 ---
 
@@ -1790,7 +1790,7 @@ public java.lang.String getLogPrefix();
 
 The Amazon S3 key of the deployment package.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lex_bot_alias#log_prefix LexBotAlias#log_prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot_alias#log_prefix LexBotAlias#log_prefix}
 
 ---
 
@@ -1804,7 +1804,7 @@ public java.lang.String getS3BucketArn();
 
 The Amazon Resource Name (ARN) of an Amazon S3 bucket where audio log files are stored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lex_bot_alias#s3_bucket_arn LexBotAlias#s3_bucket_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot_alias#s3_bucket_arn LexBotAlias#s3_bucket_arn}
 
 ---
 
@@ -1826,7 +1826,7 @@ LexBotAliasConversationLogSettingsTextLogSettings.builder()
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.lexBotAlias.LexBotAliasConversationLogSettingsTextLogSettings.property.destination">destination</a></code> | <code><a href="#@cdktn/provider-awscc.lexBotAlias.LexBotAliasConversationLogSettingsTextLogSettingsDestination">LexBotAliasConversationLogSettingsTextLogSettingsDestination</a></code> | Defines the Amazon CloudWatch Logs destination log group for conversation text logs. |
-| <code><a href="#@cdktn/provider-awscc.lexBotAlias.LexBotAliasConversationLogSettingsTextLogSettings.property.enabled">enabled</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lex_bot_alias#enabled LexBotAlias#enabled}. |
+| <code><a href="#@cdktn/provider-awscc.lexBotAlias.LexBotAliasConversationLogSettingsTextLogSettings.property.enabled">enabled</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot_alias#enabled LexBotAlias#enabled}. |
 
 ---
 
@@ -1840,7 +1840,7 @@ public LexBotAliasConversationLogSettingsTextLogSettingsDestination getDestinati
 
 Defines the Amazon CloudWatch Logs destination log group for conversation text logs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lex_bot_alias#destination LexBotAlias#destination}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot_alias#destination LexBotAlias#destination}
 
 ---
 
@@ -1852,7 +1852,7 @@ public java.lang.Boolean|IResolvable getEnabled();
 
 - *Type:* java.lang.Boolean|io.cdktn.cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lex_bot_alias#enabled LexBotAlias#enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot_alias#enabled LexBotAlias#enabled}.
 
 ---
 
@@ -1872,7 +1872,7 @@ LexBotAliasConversationLogSettingsTextLogSettingsDestination.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.lexBotAlias.LexBotAliasConversationLogSettingsTextLogSettingsDestination.property.cloudwatch">cloudwatch</a></code> | <code><a href="#@cdktn/provider-awscc.lexBotAlias.LexBotAliasConversationLogSettingsTextLogSettingsDestinationCloudwatch">LexBotAliasConversationLogSettingsTextLogSettingsDestinationCloudwatch</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lex_bot_alias#cloudwatch LexBotAlias#cloudwatch}. |
+| <code><a href="#@cdktn/provider-awscc.lexBotAlias.LexBotAliasConversationLogSettingsTextLogSettingsDestination.property.cloudwatch">cloudwatch</a></code> | <code><a href="#@cdktn/provider-awscc.lexBotAlias.LexBotAliasConversationLogSettingsTextLogSettingsDestinationCloudwatch">LexBotAliasConversationLogSettingsTextLogSettingsDestinationCloudwatch</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot_alias#cloudwatch LexBotAlias#cloudwatch}. |
 
 ---
 
@@ -1884,7 +1884,7 @@ public LexBotAliasConversationLogSettingsTextLogSettingsDestinationCloudwatch ge
 
 - *Type:* <a href="#@cdktn/provider-awscc.lexBotAlias.LexBotAliasConversationLogSettingsTextLogSettingsDestinationCloudwatch">LexBotAliasConversationLogSettingsTextLogSettingsDestinationCloudwatch</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lex_bot_alias#cloudwatch LexBotAlias#cloudwatch}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot_alias#cloudwatch LexBotAlias#cloudwatch}.
 
 ---
 
@@ -1920,7 +1920,7 @@ public java.lang.String getCloudwatchLogGroupArn();
 
 A string used to identify the groupArn for the Cloudwatch Log Group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lex_bot_alias#cloudwatch_log_group_arn LexBotAlias#cloudwatch_log_group_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot_alias#cloudwatch_log_group_arn LexBotAlias#cloudwatch_log_group_arn}
 
 ---
 
@@ -1934,7 +1934,7 @@ public java.lang.String getLogPrefix();
 
 A string containing the value for the Log Prefix.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lex_bot_alias#log_prefix LexBotAlias#log_prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot_alias#log_prefix LexBotAlias#log_prefix}
 
 ---
 
@@ -1968,7 +1968,7 @@ public java.lang.Boolean|IResolvable getDetectSentiment();
 
 Enable to call Amazon Comprehend for Sentiment natively within Lex.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lex_bot_alias#detect_sentiment LexBotAlias#detect_sentiment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot_alias#detect_sentiment LexBotAlias#detect_sentiment}
 
 ---
 

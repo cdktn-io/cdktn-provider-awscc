@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_policy
+// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,25 +13,25 @@ import * as cdktn from 'cdktn';
 
 export interface IotPolicyConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_policy#policy_document IotPolicy#policy_document}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_policy#policy_document IotPolicy#policy_document}
   */
   readonly policyDocument: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_policy#policy_name IotPolicy#policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_policy#policy_name IotPolicy#policy_name}
   */
   readonly policyName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_policy#tags IotPolicy#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_policy#tags IotPolicy#tags}
   */
   readonly tags?: IotPolicyTags[] | cdktn.IResolvable;
 }
 export interface IotPolicyTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_policy#key IotPolicy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_policy#key IotPolicy#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_policy#value IotPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_policy#value IotPolicy#value}
   */
   readonly value?: string;
 }
@@ -176,7 +176,7 @@ export class IotPolicyTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_policy awscc_iot_policy}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_policy awscc_iot_policy}
 */
 export class IotPolicy extends cdktn.TerraformResource {
 
@@ -192,7 +192,7 @@ export class IotPolicy extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a IotPolicy resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IotPolicy to import
-  * @param importFromId The id of the existing IotPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IotPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IotPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -204,7 +204,7 @@ export class IotPolicy extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_policy awscc_iot_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_policy awscc_iot_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -215,7 +215,7 @@ export class IotPolicy extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_iot_policy',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.98.0',
+        providerVersion: '1.99.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

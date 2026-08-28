@@ -4,7 +4,7 @@
 
 ### DataAwsccB2BiPartnerships <a name="DataAwsccB2BiPartnerships" id="@cdktn/provider-awscc.dataAwsccB2BiPartnerships.DataAwsccB2BiPartnerships"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/b2bi_partnerships awscc_b2bi_partnerships}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/b2bi_partnerships awscc_b2bi_partnerships}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccB2BiPartnerships.DataAwsccB2BiPartnerships.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccB2BiPartnerships 
 
 The id of the existing DataAwsccB2BiPartnerships that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/b2bi_partnerships#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/b2bi_partnerships#import import section} in the documentation of this resource for the id to use
 
 ---
 

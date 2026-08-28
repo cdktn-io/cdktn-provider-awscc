@@ -4,7 +4,7 @@
 
 ### SecurityhubOrganizationConfiguration <a name="SecurityhubOrganizationConfiguration" id="@cdktn/provider-awscc.securityhubOrganizationConfiguration.SecurityhubOrganizationConfiguration"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityhub_organization_configuration awscc_securityhub_organization_configuration}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_organization_configuration awscc_securityhub_organization_configuration}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubOrganizationConfiguration.SecurityhubOrganizationConfiguration.Initializer"></a>
 
@@ -503,7 +503,7 @@ The construct id used in the generated config for the SecurityhubOrganizationCon
 
 The id of the existing SecurityhubOrganizationConfiguration that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityhub_organization_configuration#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_organization_configuration#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -926,7 +926,7 @@ public readonly autoEnable: boolean | IResolvable;
 
 Whether to automatically enable Security Hub in new member accounts when they join the organization.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityhub_organization_configuration#auto_enable SecurityhubOrganizationConfiguration#auto_enable}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_organization_configuration#auto_enable SecurityhubOrganizationConfiguration#auto_enable}
 
 ---
 
@@ -940,7 +940,7 @@ public readonly autoEnableStandards: string;
 
 Whether to automatically enable Security Hub default standards in new member accounts when they join the organization.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityhub_organization_configuration#auto_enable_standards SecurityhubOrganizationConfiguration#auto_enable_standards}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_organization_configuration#auto_enable_standards SecurityhubOrganizationConfiguration#auto_enable_standards}
 
 ---
 
@@ -954,7 +954,7 @@ public readonly configurationType: string;
 
 Indicates whether the organization uses local or central configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityhub_organization_configuration#configuration_type SecurityhubOrganizationConfiguration#configuration_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_organization_configuration#configuration_type SecurityhubOrganizationConfiguration#configuration_type}
 
 ---
 

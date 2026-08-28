@@ -4,7 +4,7 @@
 
 ### DataAwsccGameliftGameSessionQueues <a name="DataAwsccGameliftGameSessionQueues" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueues.DataAwsccGameliftGameSessionQueues"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/gamelift_game_session_queues awscc_gamelift_game_session_queues}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/gamelift_game_session_queues awscc_gamelift_game_session_queues}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueues.DataAwsccGameliftGameSessionQueues.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccGameliftGameSessi
 
 The id of the existing DataAwsccGameliftGameSessionQueues that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/gamelift_game_session_queues#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/gamelift_game_session_queues#import import section} in the documentation of this resource for the id to use
 
 ---
 

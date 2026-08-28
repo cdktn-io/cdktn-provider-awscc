@@ -4,7 +4,7 @@
 
 ### BackupLogicallyAirGappedBackupVault <a name="BackupLogicallyAirGappedBackupVault" id="@cdktn/provider-awscc.backupLogicallyAirGappedBackupVault.BackupLogicallyAirGappedBackupVault"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backup_logically_air_gapped_backup_vault awscc_backup_logically_air_gapped_backup_vault}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_logically_air_gapped_backup_vault awscc_backup_logically_air_gapped_backup_vault}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.backupLogicallyAirGappedBackupVault.BackupLogicallyAirGappedBackupVault.Initializer"></a>
 
@@ -537,7 +537,7 @@ The construct id used in the generated config for the BackupLogicallyAirGappedBa
 
 The id of the existing BackupLogicallyAirGappedBackupVault that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backup_logically_air_gapped_backup_vault#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_logically_air_gapped_backup_vault#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -989,14 +989,14 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/backuplogicallyairgapp
 | <code><a href="#@cdktn/provider-awscc.backupLogicallyAirGappedBackupVault.BackupLogicallyAirGappedBackupVaultConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.backupLogicallyAirGappedBackupVault.BackupLogicallyAirGappedBackupVaultConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.backupLogicallyAirGappedBackupVault.BackupLogicallyAirGappedBackupVaultConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.backupLogicallyAirGappedBackupVault.BackupLogicallyAirGappedBackupVaultConfig.property.backupVaultName">BackupVaultName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backup_logically_air_gapped_backup_vault#backup_vault_name BackupLogicallyAirGappedBackupVault#backup_vault_name}. |
-| <code><a href="#@cdktn/provider-awscc.backupLogicallyAirGappedBackupVault.BackupLogicallyAirGappedBackupVaultConfig.property.maxRetentionDays">MaxRetentionDays</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backup_logically_air_gapped_backup_vault#max_retention_days BackupLogicallyAirGappedBackupVault#max_retention_days}. |
-| <code><a href="#@cdktn/provider-awscc.backupLogicallyAirGappedBackupVault.BackupLogicallyAirGappedBackupVaultConfig.property.minRetentionDays">MinRetentionDays</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backup_logically_air_gapped_backup_vault#min_retention_days BackupLogicallyAirGappedBackupVault#min_retention_days}. |
-| <code><a href="#@cdktn/provider-awscc.backupLogicallyAirGappedBackupVault.BackupLogicallyAirGappedBackupVaultConfig.property.accessPolicy">AccessPolicy</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backup_logically_air_gapped_backup_vault#access_policy BackupLogicallyAirGappedBackupVault#access_policy}. |
-| <code><a href="#@cdktn/provider-awscc.backupLogicallyAirGappedBackupVault.BackupLogicallyAirGappedBackupVaultConfig.property.backupVaultTags">BackupVaultTags</a></code> | <code>*map[string]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backup_logically_air_gapped_backup_vault#backup_vault_tags BackupLogicallyAirGappedBackupVault#backup_vault_tags}. |
-| <code><a href="#@cdktn/provider-awscc.backupLogicallyAirGappedBackupVault.BackupLogicallyAirGappedBackupVaultConfig.property.encryptionKeyArn">EncryptionKeyArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backup_logically_air_gapped_backup_vault#encryption_key_arn BackupLogicallyAirGappedBackupVault#encryption_key_arn}. |
-| <code><a href="#@cdktn/provider-awscc.backupLogicallyAirGappedBackupVault.BackupLogicallyAirGappedBackupVaultConfig.property.mpaApprovalTeamArn">MpaApprovalTeamArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backup_logically_air_gapped_backup_vault#mpa_approval_team_arn BackupLogicallyAirGappedBackupVault#mpa_approval_team_arn}. |
-| <code><a href="#@cdktn/provider-awscc.backupLogicallyAirGappedBackupVault.BackupLogicallyAirGappedBackupVaultConfig.property.notifications">Notifications</a></code> | <code><a href="#@cdktn/provider-awscc.backupLogicallyAirGappedBackupVault.BackupLogicallyAirGappedBackupVaultNotifications">BackupLogicallyAirGappedBackupVaultNotifications</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backup_logically_air_gapped_backup_vault#notifications BackupLogicallyAirGappedBackupVault#notifications}. |
+| <code><a href="#@cdktn/provider-awscc.backupLogicallyAirGappedBackupVault.BackupLogicallyAirGappedBackupVaultConfig.property.backupVaultName">BackupVaultName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_logically_air_gapped_backup_vault#backup_vault_name BackupLogicallyAirGappedBackupVault#backup_vault_name}. |
+| <code><a href="#@cdktn/provider-awscc.backupLogicallyAirGappedBackupVault.BackupLogicallyAirGappedBackupVaultConfig.property.maxRetentionDays">MaxRetentionDays</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_logically_air_gapped_backup_vault#max_retention_days BackupLogicallyAirGappedBackupVault#max_retention_days}. |
+| <code><a href="#@cdktn/provider-awscc.backupLogicallyAirGappedBackupVault.BackupLogicallyAirGappedBackupVaultConfig.property.minRetentionDays">MinRetentionDays</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_logically_air_gapped_backup_vault#min_retention_days BackupLogicallyAirGappedBackupVault#min_retention_days}. |
+| <code><a href="#@cdktn/provider-awscc.backupLogicallyAirGappedBackupVault.BackupLogicallyAirGappedBackupVaultConfig.property.accessPolicy">AccessPolicy</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_logically_air_gapped_backup_vault#access_policy BackupLogicallyAirGappedBackupVault#access_policy}. |
+| <code><a href="#@cdktn/provider-awscc.backupLogicallyAirGappedBackupVault.BackupLogicallyAirGappedBackupVaultConfig.property.backupVaultTags">BackupVaultTags</a></code> | <code>*map[string]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_logically_air_gapped_backup_vault#backup_vault_tags BackupLogicallyAirGappedBackupVault#backup_vault_tags}. |
+| <code><a href="#@cdktn/provider-awscc.backupLogicallyAirGappedBackupVault.BackupLogicallyAirGappedBackupVaultConfig.property.encryptionKeyArn">EncryptionKeyArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_logically_air_gapped_backup_vault#encryption_key_arn BackupLogicallyAirGappedBackupVault#encryption_key_arn}. |
+| <code><a href="#@cdktn/provider-awscc.backupLogicallyAirGappedBackupVault.BackupLogicallyAirGappedBackupVaultConfig.property.mpaApprovalTeamArn">MpaApprovalTeamArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_logically_air_gapped_backup_vault#mpa_approval_team_arn BackupLogicallyAirGappedBackupVault#mpa_approval_team_arn}. |
+| <code><a href="#@cdktn/provider-awscc.backupLogicallyAirGappedBackupVault.BackupLogicallyAirGappedBackupVaultConfig.property.notifications">Notifications</a></code> | <code><a href="#@cdktn/provider-awscc.backupLogicallyAirGappedBackupVault.BackupLogicallyAirGappedBackupVaultNotifications">BackupLogicallyAirGappedBackupVaultNotifications</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_logically_air_gapped_backup_vault#notifications BackupLogicallyAirGappedBackupVault#notifications}. |
 
 ---
 
@@ -1078,7 +1078,7 @@ BackupVaultName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backup_logically_air_gapped_backup_vault#backup_vault_name BackupLogicallyAirGappedBackupVault#backup_vault_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_logically_air_gapped_backup_vault#backup_vault_name BackupLogicallyAirGappedBackupVault#backup_vault_name}.
 
 ---
 
@@ -1090,7 +1090,7 @@ MaxRetentionDays *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backup_logically_air_gapped_backup_vault#max_retention_days BackupLogicallyAirGappedBackupVault#max_retention_days}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_logically_air_gapped_backup_vault#max_retention_days BackupLogicallyAirGappedBackupVault#max_retention_days}.
 
 ---
 
@@ -1102,7 +1102,7 @@ MinRetentionDays *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backup_logically_air_gapped_backup_vault#min_retention_days BackupLogicallyAirGappedBackupVault#min_retention_days}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_logically_air_gapped_backup_vault#min_retention_days BackupLogicallyAirGappedBackupVault#min_retention_days}.
 
 ---
 
@@ -1114,7 +1114,7 @@ AccessPolicy *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backup_logically_air_gapped_backup_vault#access_policy BackupLogicallyAirGappedBackupVault#access_policy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_logically_air_gapped_backup_vault#access_policy BackupLogicallyAirGappedBackupVault#access_policy}.
 
 ---
 
@@ -1126,7 +1126,7 @@ BackupVaultTags *map[string]*string
 
 - *Type:* *map[string]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backup_logically_air_gapped_backup_vault#backup_vault_tags BackupLogicallyAirGappedBackupVault#backup_vault_tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_logically_air_gapped_backup_vault#backup_vault_tags BackupLogicallyAirGappedBackupVault#backup_vault_tags}.
 
 ---
 
@@ -1138,7 +1138,7 @@ EncryptionKeyArn *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backup_logically_air_gapped_backup_vault#encryption_key_arn BackupLogicallyAirGappedBackupVault#encryption_key_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_logically_air_gapped_backup_vault#encryption_key_arn BackupLogicallyAirGappedBackupVault#encryption_key_arn}.
 
 ---
 
@@ -1150,7 +1150,7 @@ MpaApprovalTeamArn *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backup_logically_air_gapped_backup_vault#mpa_approval_team_arn BackupLogicallyAirGappedBackupVault#mpa_approval_team_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_logically_air_gapped_backup_vault#mpa_approval_team_arn BackupLogicallyAirGappedBackupVault#mpa_approval_team_arn}.
 
 ---
 
@@ -1162,7 +1162,7 @@ Notifications BackupLogicallyAirGappedBackupVaultNotifications
 
 - *Type:* <a href="#@cdktn/provider-awscc.backupLogicallyAirGappedBackupVault.BackupLogicallyAirGappedBackupVaultNotifications">BackupLogicallyAirGappedBackupVaultNotifications</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backup_logically_air_gapped_backup_vault#notifications BackupLogicallyAirGappedBackupVault#notifications}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_logically_air_gapped_backup_vault#notifications BackupLogicallyAirGappedBackupVault#notifications}.
 
 ---
 
@@ -1183,8 +1183,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/backuplogicallyairgapp
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.backupLogicallyAirGappedBackupVault.BackupLogicallyAirGappedBackupVaultNotifications.property.backupVaultEvents">BackupVaultEvents</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backup_logically_air_gapped_backup_vault#backup_vault_events BackupLogicallyAirGappedBackupVault#backup_vault_events}. |
-| <code><a href="#@cdktn/provider-awscc.backupLogicallyAirGappedBackupVault.BackupLogicallyAirGappedBackupVaultNotifications.property.snsTopicArn">SnsTopicArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backup_logically_air_gapped_backup_vault#sns_topic_arn BackupLogicallyAirGappedBackupVault#sns_topic_arn}. |
+| <code><a href="#@cdktn/provider-awscc.backupLogicallyAirGappedBackupVault.BackupLogicallyAirGappedBackupVaultNotifications.property.backupVaultEvents">BackupVaultEvents</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_logically_air_gapped_backup_vault#backup_vault_events BackupLogicallyAirGappedBackupVault#backup_vault_events}. |
+| <code><a href="#@cdktn/provider-awscc.backupLogicallyAirGappedBackupVault.BackupLogicallyAirGappedBackupVaultNotifications.property.snsTopicArn">SnsTopicArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_logically_air_gapped_backup_vault#sns_topic_arn BackupLogicallyAirGappedBackupVault#sns_topic_arn}. |
 
 ---
 
@@ -1196,7 +1196,7 @@ BackupVaultEvents *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backup_logically_air_gapped_backup_vault#backup_vault_events BackupLogicallyAirGappedBackupVault#backup_vault_events}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_logically_air_gapped_backup_vault#backup_vault_events BackupLogicallyAirGappedBackupVault#backup_vault_events}.
 
 ---
 
@@ -1208,7 +1208,7 @@ SnsTopicArn *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backup_logically_air_gapped_backup_vault#sns_topic_arn BackupLogicallyAirGappedBackupVault#sns_topic_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_logically_air_gapped_backup_vault#sns_topic_arn BackupLogicallyAirGappedBackupVault#sns_topic_arn}.
 
 ---
 

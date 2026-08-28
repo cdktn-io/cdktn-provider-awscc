@@ -4,7 +4,7 @@
 
 ### DataAwsccLambdaMicrovmImages <a name="DataAwsccLambdaMicrovmImages" id="@cdktn/provider-awscc.dataAwsccLambdaMicrovmImages.DataAwsccLambdaMicrovmImages"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/lambda_microvm_images awscc_lambda_microvm_images}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/lambda_microvm_images awscc_lambda_microvm_images}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaMicrovmImages.DataAwsccLambdaMicrovmImages.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccLambdaMicrovmImag
 
 The id of the existing DataAwsccLambdaMicrovmImages that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/lambda_microvm_images#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/lambda_microvm_images#import import section} in the documentation of this resource for the id to use
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### RobomakerRobotApplicationVersion <a name="RobomakerRobotApplicationVersion" id="@cdktn/provider-awscc.robomakerRobotApplicationVersion.RobomakerRobotApplicationVersion"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/robomaker_robot_application_version awscc_robomaker_robot_application_version}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/robomaker_robot_application_version awscc_robomaker_robot_application_version}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.robomakerRobotApplicationVersion.RobomakerRobotApplicationVersion.Initializer"></a>
 
@@ -37,7 +37,7 @@ robomakerRobotApplicationVersion.RobomakerRobotApplicationVersion(
 | <code><a href="#@cdktn/provider-awscc.robomakerRobotApplicationVersion.RobomakerRobotApplicationVersion.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.robomakerRobotApplicationVersion.RobomakerRobotApplicationVersion.Initializer.parameter.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.robomakerRobotApplicationVersion.RobomakerRobotApplicationVersion.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.robomakerRobotApplicationVersion.RobomakerRobotApplicationVersion.Initializer.parameter.application">application</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/robomaker_robot_application_version#application RobomakerRobotApplicationVersion#application}. |
+| <code><a href="#@cdktn/provider-awscc.robomakerRobotApplicationVersion.RobomakerRobotApplicationVersion.Initializer.parameter.application">application</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/robomaker_robot_application_version#application RobomakerRobotApplicationVersion#application}. |
 | <code><a href="#@cdktn/provider-awscc.robomakerRobotApplicationVersion.RobomakerRobotApplicationVersion.Initializer.parameter.currentRevisionId">current_revision_id</a></code> | <code>str</code> | The revision ID of robot application. |
 
 ---
@@ -106,7 +106,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/robomaker_robot_application_version#application RobomakerRobotApplicationVersion#application}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/robomaker_robot_application_version#application RobomakerRobotApplicationVersion#application}.
 
 ---
 
@@ -116,7 +116,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The revision ID of robot application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/robomaker_robot_application_version#current_revision_id RobomakerRobotApplicationVersion#current_revision_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/robomaker_robot_application_version#current_revision_id RobomakerRobotApplicationVersion#current_revision_id}
 
 ---
 
@@ -620,7 +620,7 @@ The construct id used in the generated config for the RobomakerRobotApplicationV
 
 The id of the existing RobomakerRobotApplicationVersion that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/robomaker_robot_application_version#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/robomaker_robot_application_version#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -923,7 +923,7 @@ robomakerRobotApplicationVersion.RobomakerRobotApplicationVersionConfig(
 | <code><a href="#@cdktn/provider-awscc.robomakerRobotApplicationVersion.RobomakerRobotApplicationVersionConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.robomakerRobotApplicationVersion.RobomakerRobotApplicationVersionConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.robomakerRobotApplicationVersion.RobomakerRobotApplicationVersionConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.robomakerRobotApplicationVersion.RobomakerRobotApplicationVersionConfig.property.application">application</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/robomaker_robot_application_version#application RobomakerRobotApplicationVersion#application}. |
+| <code><a href="#@cdktn/provider-awscc.robomakerRobotApplicationVersion.RobomakerRobotApplicationVersionConfig.property.application">application</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/robomaker_robot_application_version#application RobomakerRobotApplicationVersion#application}. |
 | <code><a href="#@cdktn/provider-awscc.robomakerRobotApplicationVersion.RobomakerRobotApplicationVersionConfig.property.currentRevisionId">current_revision_id</a></code> | <code>str</code> | The revision ID of robot application. |
 
 ---
@@ -1006,7 +1006,7 @@ application: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/robomaker_robot_application_version#application RobomakerRobotApplicationVersion#application}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/robomaker_robot_application_version#application RobomakerRobotApplicationVersion#application}.
 
 ---
 
@@ -1020,7 +1020,7 @@ current_revision_id: str
 
 The revision ID of robot application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/robomaker_robot_application_version#current_revision_id RobomakerRobotApplicationVersion#current_revision_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/robomaker_robot_application_version#current_revision_id RobomakerRobotApplicationVersion#current_revision_id}
 
 ---
 

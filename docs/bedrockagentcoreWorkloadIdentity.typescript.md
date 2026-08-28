@@ -4,7 +4,7 @@
 
 ### BedrockagentcoreWorkloadIdentity <a name="BedrockagentcoreWorkloadIdentity" id="@cdktn/provider-awscc.bedrockagentcoreWorkloadIdentity.BedrockagentcoreWorkloadIdentity"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrockagentcore_workload_identity awscc_bedrockagentcore_workload_identity}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_workload_identity awscc_bedrockagentcore_workload_identity}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockagentcoreWorkloadIdentity.BedrockagentcoreWorkloadIdentity.Initializer"></a>
 
@@ -516,7 +516,7 @@ The construct id used in the generated config for the BedrockagentcoreWorkloadId
 
 The id of the existing BedrockagentcoreWorkloadIdentity that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrockagentcore_workload_identity#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_workload_identity#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -928,7 +928,7 @@ public readonly name: string;
 
 The name of the workload identity. The name must be unique within your account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrockagentcore_workload_identity#name BedrockagentcoreWorkloadIdentity#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_workload_identity#name BedrockagentcoreWorkloadIdentity#name}
 
 ---
 
@@ -942,7 +942,7 @@ public readonly allowedResourceOauth2ReturnUrls: string[];
 
 The list of allowed OAuth2 return URLs for resources associated with this workload identity.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrockagentcore_workload_identity#allowed_resource_oauth_2_return_urls BedrockagentcoreWorkloadIdentity#allowed_resource_oauth_2_return_urls}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_workload_identity#allowed_resource_oauth_2_return_urls BedrockagentcoreWorkloadIdentity#allowed_resource_oauth_2_return_urls}
 
 ---
 
@@ -956,7 +956,7 @@ public readonly tags: IResolvable | BedrockagentcoreWorkloadIdentityTags[];
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrockagentcore_workload_identity#tags BedrockagentcoreWorkloadIdentity#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_workload_identity#tags BedrockagentcoreWorkloadIdentity#tags}
 
 ---
 
@@ -974,8 +974,8 @@ const bedrockagentcoreWorkloadIdentityTags: bedrockagentcoreWorkloadIdentity.Bed
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.bedrockagentcoreWorkloadIdentity.BedrockagentcoreWorkloadIdentityTags.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrockagentcore_workload_identity#key BedrockagentcoreWorkloadIdentity#key}. |
-| <code><a href="#@cdktn/provider-awscc.bedrockagentcoreWorkloadIdentity.BedrockagentcoreWorkloadIdentityTags.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrockagentcore_workload_identity#value BedrockagentcoreWorkloadIdentity#value}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockagentcoreWorkloadIdentity.BedrockagentcoreWorkloadIdentityTags.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_workload_identity#key BedrockagentcoreWorkloadIdentity#key}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockagentcoreWorkloadIdentity.BedrockagentcoreWorkloadIdentityTags.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_workload_identity#value BedrockagentcoreWorkloadIdentity#value}. |
 
 ---
 
@@ -987,7 +987,7 @@ public readonly key: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrockagentcore_workload_identity#key BedrockagentcoreWorkloadIdentity#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_workload_identity#key BedrockagentcoreWorkloadIdentity#key}.
 
 ---
 
@@ -999,7 +999,7 @@ public readonly value: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrockagentcore_workload_identity#value BedrockagentcoreWorkloadIdentity#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_workload_identity#value BedrockagentcoreWorkloadIdentity#value}.
 
 ---
 

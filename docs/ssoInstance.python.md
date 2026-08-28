@@ -4,7 +4,7 @@
 
 ### SsoInstance <a name="SsoInstance" id="@cdktn/provider-awscc.ssoInstance.SsoInstance"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sso_instance awscc_sso_instance}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sso_instance awscc_sso_instance}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ssoInstance.SsoInstance.Initializer"></a>
 
@@ -38,7 +38,7 @@ ssoInstance.SsoInstance(
 | <code><a href="#@cdktn/provider-awscc.ssoInstance.SsoInstance.Initializer.parameter.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ssoInstance.SsoInstance.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ssoInstance.SsoInstance.Initializer.parameter.name">name</a></code> | <code>str</code> | The name you want to assign to this Identity Center (SSO) Instance. |
-| <code><a href="#@cdktn/provider-awscc.ssoInstance.SsoInstance.Initializer.parameter.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.ssoInstance.SsoInstanceTags">SsoInstanceTags</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sso_instance#tags SsoInstance#tags}. |
+| <code><a href="#@cdktn/provider-awscc.ssoInstance.SsoInstance.Initializer.parameter.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.ssoInstance.SsoInstanceTags">SsoInstanceTags</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sso_instance#tags SsoInstance#tags}. |
 
 ---
 
@@ -108,7 +108,7 @@ Must be unique amongst siblings in the same scope
 
 The name you want to assign to this Identity Center (SSO) Instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sso_instance#name SsoInstance#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sso_instance#name SsoInstance#name}
 
 ---
 
@@ -116,7 +116,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.ssoInstance.SsoInstanceTags">SsoInstanceTags</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sso_instance#tags SsoInstance#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sso_instance#tags SsoInstance#tags}.
 
 ---
 
@@ -642,7 +642,7 @@ The construct id used in the generated config for the SsoInstance to import.
 
 The id of the existing SsoInstance that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sso_instance#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sso_instance#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -968,7 +968,7 @@ ssoInstance.SsoInstanceConfig(
 | <code><a href="#@cdktn/provider-awscc.ssoInstance.SsoInstanceConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ssoInstance.SsoInstanceConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ssoInstance.SsoInstanceConfig.property.name">name</a></code> | <code>str</code> | The name you want to assign to this Identity Center (SSO) Instance. |
-| <code><a href="#@cdktn/provider-awscc.ssoInstance.SsoInstanceConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.ssoInstance.SsoInstanceTags">SsoInstanceTags</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sso_instance#tags SsoInstance#tags}. |
+| <code><a href="#@cdktn/provider-awscc.ssoInstance.SsoInstanceConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.ssoInstance.SsoInstanceTags">SsoInstanceTags</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sso_instance#tags SsoInstance#tags}. |
 
 ---
 
@@ -1052,7 +1052,7 @@ name: str
 
 The name you want to assign to this Identity Center (SSO) Instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sso_instance#name SsoInstance#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sso_instance#name SsoInstance#name}
 
 ---
 
@@ -1064,7 +1064,7 @@ tags: IResolvable | typing.List[SsoInstanceTags]
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.ssoInstance.SsoInstanceTags">SsoInstanceTags</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sso_instance#tags SsoInstance#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sso_instance#tags SsoInstance#tags}.
 
 ---
 
@@ -1085,8 +1085,8 @@ ssoInstance.SsoInstanceTags(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ssoInstance.SsoInstanceTags.property.key">key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sso_instance#key SsoInstance#key}. |
-| <code><a href="#@cdktn/provider-awscc.ssoInstance.SsoInstanceTags.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sso_instance#value SsoInstance#value}. |
+| <code><a href="#@cdktn/provider-awscc.ssoInstance.SsoInstanceTags.property.key">key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sso_instance#key SsoInstance#key}. |
+| <code><a href="#@cdktn/provider-awscc.ssoInstance.SsoInstanceTags.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sso_instance#value SsoInstance#value}. |
 
 ---
 
@@ -1098,7 +1098,7 @@ key: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sso_instance#key SsoInstance#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sso_instance#key SsoInstance#key}.
 
 ---
 
@@ -1110,7 +1110,7 @@ value: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sso_instance#value SsoInstance#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sso_instance#value SsoInstance#value}.
 
 ---
 

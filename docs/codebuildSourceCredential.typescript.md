@@ -1,0 +1,963 @@
+# `codebuildSourceCredential` Submodule <a name="`codebuildSourceCredential` Submodule" id="@cdktn/provider-awscc.codebuildSourceCredential"></a>
+
+## Constructs <a name="Constructs" id="Constructs"></a>
+
+### CodebuildSourceCredential <a name="CodebuildSourceCredential" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential"></a>
+
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codebuild_source_credential awscc_codebuild_source_credential}.
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.Initializer"></a>
+
+```typescript
+import { codebuildSourceCredential } from '@cdktn/provider-awscc'
+
+new codebuildSourceCredential.CodebuildSourceCredential(scope: Construct, id: string, config: CodebuildSourceCredentialConfig)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.Initializer.parameter.scope">scope</a></code> | <code>constructs.Construct</code> | The scope in which to define this construct. |
+| <code><a href="#@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.Initializer.parameter.id">id</a></code> | <code>string</code> | The scoped construct ID. |
+| <code><a href="#@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.Initializer.parameter.config">config</a></code> | <code><a href="#@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredentialConfig">CodebuildSourceCredentialConfig</a></code> | *No description.* |
+
+---
+
+##### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.Initializer.parameter.scope"></a>
+
+- *Type:* constructs.Construct
+
+The scope in which to define this construct.
+
+---
+
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.Initializer.parameter.id"></a>
+
+- *Type:* string
+
+The scoped construct ID.
+
+Must be unique amongst siblings in the same scope
+
+---
+
+##### `config`<sup>Required</sup> <a name="config" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.Initializer.parameter.config"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredentialConfig">CodebuildSourceCredentialConfig</a>
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.toString">toString</a></code> | Returns a string representation of this construct. |
+| <code><a href="#@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.with">with</a></code> | Applies one or more mixins to this construct. |
+| <code><a href="#@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.addOverride">addOverride</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.overrideLogicalId">overrideLogicalId</a></code> | Overrides the auto-generated logical ID with a specific ID. |
+| <code><a href="#@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.resetOverrideLogicalId">resetOverrideLogicalId</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
+| <code><a href="#@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.toHclTerraform">toHclTerraform</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.toMetadata">toMetadata</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.toTerraform">toTerraform</a></code> | Adds this resource to the terraform JSON output. |
+| <code><a href="#@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.addMoveTarget">addMoveTarget</a></code> | Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move. |
+| <code><a href="#@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.hasResourceMove">hasResourceMove</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.importFrom">importFrom</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.moveFromId">moveFromId</a></code> | Move the resource corresponding to "id" to this resource. |
+| <code><a href="#@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.moveTo">moveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
+| <code><a href="#@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.moveToId">moveToId</a></code> | Moves this resource to the resource corresponding to "id". |
+| <code><a href="#@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.resetUsername">resetUsername</a></code> | *No description.* |
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Returns a string representation of this construct.
+
+##### `with` <a name="with" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.with"></a>
+
+```typescript
+public with(mixins: ...IMixin[]): IConstruct
+```
+
+Applies one or more mixins to this construct.
+
+Mixins are applied in order. The list of constructs is captured at the
+start of the call, so constructs added by a mixin will not be visited.
+Use multiple `with()` calls if subsequent mixins should apply to added
+constructs.
+
+###### `mixins`<sup>Required</sup> <a name="mixins" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.with.parameter.mixins"></a>
+
+- *Type:* ...constructs.IMixin[]
+
+The mixins to apply.
+
+---
+
+##### `addOverride` <a name="addOverride" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.addOverride"></a>
+
+```typescript
+public addOverride(path: string, value: any): void
+```
+
+###### `path`<sup>Required</sup> <a name="path" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.addOverride.parameter.path"></a>
+
+- *Type:* string
+
+---
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.addOverride.parameter.value"></a>
+
+- *Type:* any
+
+---
+
+##### `overrideLogicalId` <a name="overrideLogicalId" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.overrideLogicalId"></a>
+
+```typescript
+public overrideLogicalId(newLogicalId: string): void
+```
+
+Overrides the auto-generated logical ID with a specific ID.
+
+###### `newLogicalId`<sup>Required</sup> <a name="newLogicalId" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.overrideLogicalId.parameter.newLogicalId"></a>
+
+- *Type:* string
+
+The new logical ID to use for this stack element.
+
+---
+
+##### `resetOverrideLogicalId` <a name="resetOverrideLogicalId" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.resetOverrideLogicalId"></a>
+
+```typescript
+public resetOverrideLogicalId(): void
+```
+
+Resets a previously passed logical Id to use the auto-generated logical id again.
+
+##### `toHclTerraform` <a name="toHclTerraform" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.toHclTerraform"></a>
+
+```typescript
+public toHclTerraform(): any
+```
+
+##### `toMetadata` <a name="toMetadata" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.toMetadata"></a>
+
+```typescript
+public toMetadata(): any
+```
+
+##### `toTerraform` <a name="toTerraform" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.toTerraform"></a>
+
+```typescript
+public toTerraform(): any
+```
+
+Adds this resource to the terraform JSON output.
+
+##### `addMoveTarget` <a name="addMoveTarget" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.addMoveTarget"></a>
+
+```typescript
+public addMoveTarget(moveTarget: string): void
+```
+
+Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
+
+###### `moveTarget`<sup>Required</sup> <a name="moveTarget" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.addMoveTarget.parameter.moveTarget"></a>
+
+- *Type:* string
+
+The string move target that will correspond to this resource.
+
+---
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `hasResourceMove` <a name="hasResourceMove" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.hasResourceMove"></a>
+
+```typescript
+public hasResourceMove(): TerraformResourceMoveByTarget | TerraformResourceMoveById
+```
+
+##### `importFrom` <a name="importFrom" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.importFrom"></a>
+
+```typescript
+public importFrom(id: string, provider?: TerraformProvider): void
+```
+
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.importFrom.parameter.id"></a>
+
+- *Type:* string
+
+---
+
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.importFrom.parameter.provider"></a>
+
+- *Type:* cdktn.TerraformProvider
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.interpolationForAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `moveFromId` <a name="moveFromId" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.moveFromId"></a>
+
+```typescript
+public moveFromId(id: string): void
+```
+
+Move the resource corresponding to "id" to this resource.
+
+Note that the resource being moved from must be marked as moved using its instance function.
+
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.moveFromId.parameter.id"></a>
+
+- *Type:* string
+
+Full id of resource being moved from, e.g. "aws_s3_bucket.example".
+
+---
+
+##### `moveTo` <a name="moveTo" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.moveTo"></a>
+
+```typescript
+public moveTo(moveTarget: string, index?: string | number): void
+```
+
+Moves this resource to the target resource given by moveTarget.
+
+###### `moveTarget`<sup>Required</sup> <a name="moveTarget" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.moveTo.parameter.moveTarget"></a>
+
+- *Type:* string
+
+The previously set user defined string set by .addMoveTarget() corresponding to the resource to move to.
+
+---
+
+###### `index`<sup>Optional</sup> <a name="index" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.moveTo.parameter.index"></a>
+
+- *Type:* string | number
+
+Optional The index corresponding to the key the resource is to appear in the foreach of a resource to move to.
+
+---
+
+##### `moveToId` <a name="moveToId" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.moveToId"></a>
+
+```typescript
+public moveToId(id: string): void
+```
+
+Moves this resource to the resource corresponding to "id".
+
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.moveToId.parameter.id"></a>
+
+- *Type:* string
+
+Full id of resource to move to, e.g. "aws_s3_bucket.example".
+
+---
+
+##### `resetUsername` <a name="resetUsername" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.resetUsername"></a>
+
+```typescript
+public resetUsername(): void
+```
+
+#### Static Functions <a name="Static Functions" id="Static Functions"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.isTerraformElement">isTerraformElement</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.isTerraformResource">isTerraformResource</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.generateConfigForImport">generateConfigForImport</a></code> | Generates CDKTN code for importing a CodebuildSourceCredential resource upon running "cdktn plan <stack-name>". |
+
+---
+
+##### `isConstruct` <a name="isConstruct" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.isConstruct"></a>
+
+```typescript
+import { codebuildSourceCredential } from '@cdktn/provider-awscc'
+
+codebuildSourceCredential.CodebuildSourceCredential.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+Use this method instead of `instanceof` to properly detect `Construct`
+instances, even when the construct library is symlinked.
+
+Explanation: in JavaScript, multiple copies of the `constructs` library on
+disk are seen as independent, completely different libraries. As a
+consequence, the class `Construct` in each copy of the `constructs` library
+is seen as a different class, and an instance of one class will not test as
+`instanceof` the other class. `npm install` will not create installations
+like this, but users may manually symlink construct libraries together or
+use a monorepo tool: in those cases, multiple copies of the `constructs`
+library can be accidentally installed, and `instanceof` will behave
+unpredictably. It is safest to avoid using `instanceof`, and using
+this type-testing method instead.
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
+
+---
+
+##### `isTerraformElement` <a name="isTerraformElement" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.isTerraformElement"></a>
+
+```typescript
+import { codebuildSourceCredential } from '@cdktn/provider-awscc'
+
+codebuildSourceCredential.CodebuildSourceCredential.isTerraformElement(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.isTerraformElement.parameter.x"></a>
+
+- *Type:* any
+
+---
+
+##### `isTerraformResource` <a name="isTerraformResource" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.isTerraformResource"></a>
+
+```typescript
+import { codebuildSourceCredential } from '@cdktn/provider-awscc'
+
+codebuildSourceCredential.CodebuildSourceCredential.isTerraformResource(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.isTerraformResource.parameter.x"></a>
+
+- *Type:* any
+
+---
+
+##### `generateConfigForImport` <a name="generateConfigForImport" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.generateConfigForImport"></a>
+
+```typescript
+import { codebuildSourceCredential } from '@cdktn/provider-awscc'
+
+codebuildSourceCredential.CodebuildSourceCredential.generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: TerraformProvider)
+```
+
+Generates CDKTN code for importing a CodebuildSourceCredential resource upon running "cdktn plan <stack-name>".
+
+###### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.generateConfigForImport.parameter.scope"></a>
+
+- *Type:* constructs.Construct
+
+The scope in which to define this construct.
+
+---
+
+###### `importToId`<sup>Required</sup> <a name="importToId" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.generateConfigForImport.parameter.importToId"></a>
+
+- *Type:* string
+
+The construct id used in the generated config for the CodebuildSourceCredential to import.
+
+---
+
+###### `importFromId`<sup>Required</sup> <a name="importFromId" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.generateConfigForImport.parameter.importFromId"></a>
+
+- *Type:* string
+
+The id of the existing CodebuildSourceCredential that should be imported.
+
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codebuild_source_credential#import import section} in the documentation of this resource for the id to use
+
+---
+
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.generateConfigForImport.parameter.provider"></a>
+
+- *Type:* cdktn.TerraformProvider
+
+? Optional instance of the provider where the CodebuildSourceCredential to import is found.
+
+---
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
+| <code><a href="#@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.property.cdktfStack">cdktfStack</a></code> | <code>cdktn.TerraformStack</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.property.friendlyUniqueId">friendlyUniqueId</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.property.terraformMetaArguments">terraformMetaArguments</a></code> | <code>{[ key: string ]: any}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.property.terraformResourceType">terraformResourceType</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.property.terraformGeneratorMetadata">terraformGeneratorMetadata</a></code> | <code>cdktn.TerraformProviderGeneratorMetadata</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.property.connection">connection</a></code> | <code>cdktn.SSHProvisionerConnection \| cdktn.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.property.count">count</a></code> | <code>number \| cdktn.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.property.dependsOn">dependsOn</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.property.forEach">forEach</a></code> | <code>cdktn.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.property.arn">arn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.property.id">id</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.property.authTypeInput">authTypeInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.property.serverTypeInput">serverTypeInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.property.tokenInput">tokenInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.property.usernameInput">usernameInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.property.authType">authType</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.property.serverType">serverType</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.property.token">token</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.property.username">username</a></code> | <code>string</code> | *No description.* |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
+
+---
+
+##### `cdktfStack`<sup>Required</sup> <a name="cdktfStack" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.property.cdktfStack"></a>
+
+```typescript
+public readonly cdktfStack: TerraformStack;
+```
+
+- *Type:* cdktn.TerraformStack
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `friendlyUniqueId`<sup>Required</sup> <a name="friendlyUniqueId" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.property.friendlyUniqueId"></a>
+
+```typescript
+public readonly friendlyUniqueId: string;
+```
+
+- *Type:* string
+
+---
+
+##### `terraformMetaArguments`<sup>Required</sup> <a name="terraformMetaArguments" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.property.terraformMetaArguments"></a>
+
+```typescript
+public readonly terraformMetaArguments: {[ key: string ]: any};
+```
+
+- *Type:* {[ key: string ]: any}
+
+---
+
+##### `terraformResourceType`<sup>Required</sup> <a name="terraformResourceType" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.property.terraformResourceType"></a>
+
+```typescript
+public readonly terraformResourceType: string;
+```
+
+- *Type:* string
+
+---
+
+##### `terraformGeneratorMetadata`<sup>Optional</sup> <a name="terraformGeneratorMetadata" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.property.terraformGeneratorMetadata"></a>
+
+```typescript
+public readonly terraformGeneratorMetadata: TerraformProviderGeneratorMetadata;
+```
+
+- *Type:* cdktn.TerraformProviderGeneratorMetadata
+
+---
+
+##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.property.connection"></a>
+
+```typescript
+public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnection;
+```
+
+- *Type:* cdktn.SSHProvisionerConnection | cdktn.WinrmProvisionerConnection
+
+---
+
+##### `count`<sup>Optional</sup> <a name="count" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.property.count"></a>
+
+```typescript
+public readonly count: number | TerraformCount;
+```
+
+- *Type:* number | cdktn.TerraformCount
+
+---
+
+##### `dependsOn`<sup>Optional</sup> <a name="dependsOn" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.property.dependsOn"></a>
+
+```typescript
+public readonly dependsOn: string[];
+```
+
+- *Type:* string[]
+
+---
+
+##### `forEach`<sup>Optional</sup> <a name="forEach" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.property.forEach"></a>
+
+```typescript
+public readonly forEach: ITerraformIterator;
+```
+
+- *Type:* cdktn.ITerraformIterator
+
+---
+
+##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.property.lifecycle"></a>
+
+```typescript
+public readonly lifecycle: TerraformResourceLifecycle;
+```
+
+- *Type:* cdktn.TerraformResourceLifecycle
+
+---
+
+##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.property.provider"></a>
+
+```typescript
+public readonly provider: TerraformProvider;
+```
+
+- *Type:* cdktn.TerraformProvider
+
+---
+
+##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.property.provisioners"></a>
+
+```typescript
+public readonly provisioners: (FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner)[];
+```
+
+- *Type:* cdktn.FileProvisioner | cdktn.LocalExecProvisioner | cdktn.RemoteExecProvisioner[]
+
+---
+
+##### `arn`<sup>Required</sup> <a name="arn" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.property.arn"></a>
+
+```typescript
+public readonly arn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.property.id"></a>
+
+```typescript
+public readonly id: string;
+```
+
+- *Type:* string
+
+---
+
+##### `authTypeInput`<sup>Optional</sup> <a name="authTypeInput" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.property.authTypeInput"></a>
+
+```typescript
+public readonly authTypeInput: string;
+```
+
+- *Type:* string
+
+---
+
+##### `serverTypeInput`<sup>Optional</sup> <a name="serverTypeInput" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.property.serverTypeInput"></a>
+
+```typescript
+public readonly serverTypeInput: string;
+```
+
+- *Type:* string
+
+---
+
+##### `tokenInput`<sup>Optional</sup> <a name="tokenInput" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.property.tokenInput"></a>
+
+```typescript
+public readonly tokenInput: string;
+```
+
+- *Type:* string
+
+---
+
+##### `usernameInput`<sup>Optional</sup> <a name="usernameInput" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.property.usernameInput"></a>
+
+```typescript
+public readonly usernameInput: string;
+```
+
+- *Type:* string
+
+---
+
+##### `authType`<sup>Required</sup> <a name="authType" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.property.authType"></a>
+
+```typescript
+public readonly authType: string;
+```
+
+- *Type:* string
+
+---
+
+##### `serverType`<sup>Required</sup> <a name="serverType" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.property.serverType"></a>
+
+```typescript
+public readonly serverType: string;
+```
+
+- *Type:* string
+
+---
+
+##### `token`<sup>Required</sup> <a name="token" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.property.token"></a>
+
+```typescript
+public readonly token: string;
+```
+
+- *Type:* string
+
+---
+
+##### `username`<sup>Required</sup> <a name="username" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.property.username"></a>
+
+```typescript
+public readonly username: string;
+```
+
+- *Type:* string
+
+---
+
+#### Constants <a name="Constants" id="Constants"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.property.tfResourceType">tfResourceType</a></code> | <code>string</code> | *No description.* |
+
+---
+
+##### `tfResourceType`<sup>Required</sup> <a name="tfResourceType" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.property.tfResourceType"></a>
+
+```typescript
+public readonly tfResourceType: string;
+```
+
+- *Type:* string
+
+---
+
+## Structs <a name="Structs" id="Structs"></a>
+
+### CodebuildSourceCredentialConfig <a name="CodebuildSourceCredentialConfig" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredentialConfig"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredentialConfig.Initializer"></a>
+
+```typescript
+import { codebuildSourceCredential } from '@cdktn/provider-awscc'
+
+const codebuildSourceCredentialConfig: codebuildSourceCredential.CodebuildSourceCredentialConfig = { ... }
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredentialConfig.property.connection">connection</a></code> | <code>cdktn.SSHProvisionerConnection \| cdktn.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredentialConfig.property.count">count</a></code> | <code>number \| cdktn.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredentialConfig.property.dependsOn">dependsOn</a></code> | <code>cdktn.ITerraformDependable[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredentialConfig.property.forEach">forEach</a></code> | <code>cdktn.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredentialConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredentialConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredentialConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredentialConfig.property.authType">authType</a></code> | <code>string</code> | The type of authentication used by the credentials. Valid options are OAUTH, BASIC_AUTH, PERSONAL_ACCESS_TOKEN, CODECONNECTIONS, or SECRETS_MANAGER. |
+| <code><a href="#@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredentialConfig.property.serverType">serverType</a></code> | <code>string</code> | The type of source provider. The valid options are GITHUB, GITHUB_ENTERPRISE, GITLAB, GITLAB_SELF_MANAGED, or BITBUCKET. |
+| <code><a href="#@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredentialConfig.property.token">token</a></code> | <code>string</code> | For GitHub or GitHub Enterprise, this is the personal access token. |
+| <code><a href="#@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredentialConfig.property.username">username</a></code> | <code>string</code> | The Bitbucket username when the authType is BASIC_AUTH. |
+
+---
+
+##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredentialConfig.property.connection"></a>
+
+```typescript
+public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnection;
+```
+
+- *Type:* cdktn.SSHProvisionerConnection | cdktn.WinrmProvisionerConnection
+
+---
+
+##### `count`<sup>Optional</sup> <a name="count" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredentialConfig.property.count"></a>
+
+```typescript
+public readonly count: number | TerraformCount;
+```
+
+- *Type:* number | cdktn.TerraformCount
+
+---
+
+##### `dependsOn`<sup>Optional</sup> <a name="dependsOn" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredentialConfig.property.dependsOn"></a>
+
+```typescript
+public readonly dependsOn: ITerraformDependable[];
+```
+
+- *Type:* cdktn.ITerraformDependable[]
+
+---
+
+##### `forEach`<sup>Optional</sup> <a name="forEach" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredentialConfig.property.forEach"></a>
+
+```typescript
+public readonly forEach: ITerraformIterator;
+```
+
+- *Type:* cdktn.ITerraformIterator
+
+---
+
+##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredentialConfig.property.lifecycle"></a>
+
+```typescript
+public readonly lifecycle: TerraformResourceLifecycle;
+```
+
+- *Type:* cdktn.TerraformResourceLifecycle
+
+---
+
+##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredentialConfig.property.provider"></a>
+
+```typescript
+public readonly provider: TerraformProvider;
+```
+
+- *Type:* cdktn.TerraformProvider
+
+---
+
+##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredentialConfig.property.provisioners"></a>
+
+```typescript
+public readonly provisioners: (FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner)[];
+```
+
+- *Type:* cdktn.FileProvisioner | cdktn.LocalExecProvisioner | cdktn.RemoteExecProvisioner[]
+
+---
+
+##### `authType`<sup>Required</sup> <a name="authType" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredentialConfig.property.authType"></a>
+
+```typescript
+public readonly authType: string;
+```
+
+- *Type:* string
+
+The type of authentication used by the credentials. Valid options are OAUTH, BASIC_AUTH, PERSONAL_ACCESS_TOKEN, CODECONNECTIONS, or SECRETS_MANAGER.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codebuild_source_credential#auth_type CodebuildSourceCredential#auth_type}
+
+---
+
+##### `serverType`<sup>Required</sup> <a name="serverType" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredentialConfig.property.serverType"></a>
+
+```typescript
+public readonly serverType: string;
+```
+
+- *Type:* string
+
+The type of source provider. The valid options are GITHUB, GITHUB_ENTERPRISE, GITLAB, GITLAB_SELF_MANAGED, or BITBUCKET.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codebuild_source_credential#server_type CodebuildSourceCredential#server_type}
+
+---
+
+##### `token`<sup>Required</sup> <a name="token" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredentialConfig.property.token"></a>
+
+```typescript
+public readonly token: string;
+```
+
+- *Type:* string
+
+For GitHub or GitHub Enterprise, this is the personal access token.
+
+For Bitbucket, this is either the access token or the app password. For the authType CODECONNECTIONS, this is the connectionArn. For the authType SECRETS_MANAGER, this is the secretArn.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codebuild_source_credential#token CodebuildSourceCredential#token}
+
+---
+
+##### `username`<sup>Optional</sup> <a name="username" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredentialConfig.property.username"></a>
+
+```typescript
+public readonly username: string;
+```
+
+- *Type:* string
+
+The Bitbucket username when the authType is BASIC_AUTH.
+
+This parameter is not valid for other types of source providers or connections.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codebuild_source_credential#username CodebuildSourceCredential#username}
+
+---
+
+
+

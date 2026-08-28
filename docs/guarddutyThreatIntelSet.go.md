@@ -4,7 +4,7 @@
 
 ### GuarddutyThreatIntelSet <a name="GuarddutyThreatIntelSet" id="@cdktn/provider-awscc.guarddutyThreatIntelSet.GuarddutyThreatIntelSet"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_threat_intel_set awscc_guardduty_threat_intel_set}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/guardduty_threat_intel_set awscc_guardduty_threat_intel_set}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.guarddutyThreatIntelSet.GuarddutyThreatIntelSet.Initializer"></a>
 
@@ -537,7 +537,7 @@ The construct id used in the generated config for the GuarddutyThreatIntelSet to
 
 The id of the existing GuarddutyThreatIntelSet that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_threat_intel_set#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/guardduty_threat_intel_set#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -944,13 +944,13 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/guarddutythreatintelse
 | <code><a href="#@cdktn/provider-awscc.guarddutyThreatIntelSet.GuarddutyThreatIntelSetConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.guarddutyThreatIntelSet.GuarddutyThreatIntelSetConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.guarddutyThreatIntelSet.GuarddutyThreatIntelSetConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.guarddutyThreatIntelSet.GuarddutyThreatIntelSetConfig.property.format">Format</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_threat_intel_set#format GuarddutyThreatIntelSet#format}. |
-| <code><a href="#@cdktn/provider-awscc.guarddutyThreatIntelSet.GuarddutyThreatIntelSetConfig.property.location">Location</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_threat_intel_set#location GuarddutyThreatIntelSet#location}. |
-| <code><a href="#@cdktn/provider-awscc.guarddutyThreatIntelSet.GuarddutyThreatIntelSetConfig.property.activate">Activate</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_threat_intel_set#activate GuarddutyThreatIntelSet#activate}. |
-| <code><a href="#@cdktn/provider-awscc.guarddutyThreatIntelSet.GuarddutyThreatIntelSetConfig.property.detectorId">DetectorId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_threat_intel_set#detector_id GuarddutyThreatIntelSet#detector_id}. |
-| <code><a href="#@cdktn/provider-awscc.guarddutyThreatIntelSet.GuarddutyThreatIntelSetConfig.property.expectedBucketOwner">ExpectedBucketOwner</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_threat_intel_set#expected_bucket_owner GuarddutyThreatIntelSet#expected_bucket_owner}. |
-| <code><a href="#@cdktn/provider-awscc.guarddutyThreatIntelSet.GuarddutyThreatIntelSetConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_threat_intel_set#name GuarddutyThreatIntelSet#name}. |
-| <code><a href="#@cdktn/provider-awscc.guarddutyThreatIntelSet.GuarddutyThreatIntelSetConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_threat_intel_set#tags GuarddutyThreatIntelSet#tags}. |
+| <code><a href="#@cdktn/provider-awscc.guarddutyThreatIntelSet.GuarddutyThreatIntelSetConfig.property.format">Format</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/guardduty_threat_intel_set#format GuarddutyThreatIntelSet#format}. |
+| <code><a href="#@cdktn/provider-awscc.guarddutyThreatIntelSet.GuarddutyThreatIntelSetConfig.property.location">Location</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/guardduty_threat_intel_set#location GuarddutyThreatIntelSet#location}. |
+| <code><a href="#@cdktn/provider-awscc.guarddutyThreatIntelSet.GuarddutyThreatIntelSetConfig.property.activate">Activate</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/guardduty_threat_intel_set#activate GuarddutyThreatIntelSet#activate}. |
+| <code><a href="#@cdktn/provider-awscc.guarddutyThreatIntelSet.GuarddutyThreatIntelSetConfig.property.detectorId">DetectorId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/guardduty_threat_intel_set#detector_id GuarddutyThreatIntelSet#detector_id}. |
+| <code><a href="#@cdktn/provider-awscc.guarddutyThreatIntelSet.GuarddutyThreatIntelSetConfig.property.expectedBucketOwner">ExpectedBucketOwner</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/guardduty_threat_intel_set#expected_bucket_owner GuarddutyThreatIntelSet#expected_bucket_owner}. |
+| <code><a href="#@cdktn/provider-awscc.guarddutyThreatIntelSet.GuarddutyThreatIntelSetConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/guardduty_threat_intel_set#name GuarddutyThreatIntelSet#name}. |
+| <code><a href="#@cdktn/provider-awscc.guarddutyThreatIntelSet.GuarddutyThreatIntelSetConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/guardduty_threat_intel_set#tags GuarddutyThreatIntelSet#tags}. |
 
 ---
 
@@ -1032,7 +1032,7 @@ Format *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_threat_intel_set#format GuarddutyThreatIntelSet#format}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/guardduty_threat_intel_set#format GuarddutyThreatIntelSet#format}.
 
 ---
 
@@ -1044,7 +1044,7 @@ Location *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_threat_intel_set#location GuarddutyThreatIntelSet#location}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/guardduty_threat_intel_set#location GuarddutyThreatIntelSet#location}.
 
 ---
 
@@ -1056,7 +1056,7 @@ Activate interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_threat_intel_set#activate GuarddutyThreatIntelSet#activate}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/guardduty_threat_intel_set#activate GuarddutyThreatIntelSet#activate}.
 
 ---
 
@@ -1068,7 +1068,7 @@ DetectorId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_threat_intel_set#detector_id GuarddutyThreatIntelSet#detector_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/guardduty_threat_intel_set#detector_id GuarddutyThreatIntelSet#detector_id}.
 
 ---
 
@@ -1080,7 +1080,7 @@ ExpectedBucketOwner *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_threat_intel_set#expected_bucket_owner GuarddutyThreatIntelSet#expected_bucket_owner}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/guardduty_threat_intel_set#expected_bucket_owner GuarddutyThreatIntelSet#expected_bucket_owner}.
 
 ---
 
@@ -1092,7 +1092,7 @@ Name *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_threat_intel_set#name GuarddutyThreatIntelSet#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/guardduty_threat_intel_set#name GuarddutyThreatIntelSet#name}.
 
 ---
 
@@ -1104,7 +1104,7 @@ Tags interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_threat_intel_set#tags GuarddutyThreatIntelSet#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/guardduty_threat_intel_set#tags GuarddutyThreatIntelSet#tags}.
 
 ---
 
@@ -1125,8 +1125,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/guarddutythreatintelse
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.guarddutyThreatIntelSet.GuarddutyThreatIntelSetTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_threat_intel_set#key GuarddutyThreatIntelSet#key}. |
-| <code><a href="#@cdktn/provider-awscc.guarddutyThreatIntelSet.GuarddutyThreatIntelSetTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_threat_intel_set#value GuarddutyThreatIntelSet#value}. |
+| <code><a href="#@cdktn/provider-awscc.guarddutyThreatIntelSet.GuarddutyThreatIntelSetTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/guardduty_threat_intel_set#key GuarddutyThreatIntelSet#key}. |
+| <code><a href="#@cdktn/provider-awscc.guarddutyThreatIntelSet.GuarddutyThreatIntelSetTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/guardduty_threat_intel_set#value GuarddutyThreatIntelSet#value}. |
 
 ---
 
@@ -1138,7 +1138,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_threat_intel_set#key GuarddutyThreatIntelSet#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/guardduty_threat_intel_set#key GuarddutyThreatIntelSet#key}.
 
 ---
 
@@ -1150,7 +1150,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_threat_intel_set#value GuarddutyThreatIntelSet#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/guardduty_threat_intel_set#value GuarddutyThreatIntelSet#value}.
 
 ---
 

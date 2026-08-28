@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_multi_region_endpoint
+// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_multi_region_endpoint
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,19 +15,19 @@ export interface SesMultiRegionEndpointConfig extends cdktn.TerraformMetaArgumen
   /**
   * Contains details of a multi-region endpoint (global-endpoint) being created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_multi_region_endpoint#details SesMultiRegionEndpoint#details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_multi_region_endpoint#details SesMultiRegionEndpoint#details}
   */
   readonly details: SesMultiRegionEndpointDetails;
   /**
   * The name of the multi-region endpoint (global-endpoint).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_multi_region_endpoint#endpoint_name SesMultiRegionEndpoint#endpoint_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_multi_region_endpoint#endpoint_name SesMultiRegionEndpoint#endpoint_name}
   */
   readonly endpointName: string;
   /**
   * An Array of objects that define the tags (keys and values) to associate with the multi-region endpoint (global-endpoint).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_multi_region_endpoint#tags SesMultiRegionEndpoint#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_multi_region_endpoint#tags SesMultiRegionEndpoint#tags}
   */
   readonly tags?: SesMultiRegionEndpointTags[] | cdktn.IResolvable;
 }
@@ -35,7 +35,7 @@ export interface SesMultiRegionEndpointDetailsRouteDetails {
   /**
   * The name of an AWS-Region to be a secondary region for the multi-region endpoint (global-endpoint)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_multi_region_endpoint#region SesMultiRegionEndpoint#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_multi_region_endpoint#region SesMultiRegionEndpoint#region}
   */
   readonly region: string;
 }
@@ -150,7 +150,7 @@ export interface SesMultiRegionEndpointDetails {
   /**
   * A list of route configuration details. Must contain exactly one route configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_multi_region_endpoint#route_details SesMultiRegionEndpoint#route_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_multi_region_endpoint#route_details SesMultiRegionEndpoint#route_details}
   */
   readonly routeDetails: SesMultiRegionEndpointDetailsRouteDetails[] | cdktn.IResolvable;
 }
@@ -243,13 +243,13 @@ export interface SesMultiRegionEndpointTags {
   /**
   * One part of a key-value pair that defines a tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_multi_region_endpoint#key SesMultiRegionEndpoint#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_multi_region_endpoint#key SesMultiRegionEndpoint#key}
   */
   readonly key?: string;
   /**
   * The optional part of a key-value pair that defines a tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_multi_region_endpoint#value SesMultiRegionEndpoint#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_multi_region_endpoint#value SesMultiRegionEndpoint#value}
   */
   readonly value?: string;
 }
@@ -394,7 +394,7 @@ export class SesMultiRegionEndpointTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_multi_region_endpoint awscc_ses_multi_region_endpoint}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_multi_region_endpoint awscc_ses_multi_region_endpoint}
 */
 export class SesMultiRegionEndpoint extends cdktn.TerraformResource {
 
@@ -410,7 +410,7 @@ export class SesMultiRegionEndpoint extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a SesMultiRegionEndpoint resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SesMultiRegionEndpoint to import
-  * @param importFromId The id of the existing SesMultiRegionEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_multi_region_endpoint#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SesMultiRegionEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_multi_region_endpoint#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SesMultiRegionEndpoint to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -422,7 +422,7 @@ export class SesMultiRegionEndpoint extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_multi_region_endpoint awscc_ses_multi_region_endpoint} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_multi_region_endpoint awscc_ses_multi_region_endpoint} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -433,7 +433,7 @@ export class SesMultiRegionEndpoint extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_ses_multi_region_endpoint',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.98.0',
+        providerVersion: '1.99.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

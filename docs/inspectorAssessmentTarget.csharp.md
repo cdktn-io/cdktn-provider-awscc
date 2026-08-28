@@ -4,7 +4,7 @@
 
 ### InspectorAssessmentTarget <a name="InspectorAssessmentTarget" id="@cdktn/provider-awscc.inspectorAssessmentTarget.InspectorAssessmentTarget"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/inspector_assessment_target awscc_inspector_assessment_target}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/inspector_assessment_target awscc_inspector_assessment_target}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.inspectorAssessmentTarget.InspectorAssessmentTarget.Initializer"></a>
 
@@ -503,7 +503,7 @@ The construct id used in the generated config for the InspectorAssessmentTarget 
 
 The id of the existing InspectorAssessmentTarget that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/inspector_assessment_target#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/inspector_assessment_target#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -795,8 +795,8 @@ new InspectorAssessmentTargetConfig {
 | <code><a href="#@cdktn/provider-awscc.inspectorAssessmentTarget.InspectorAssessmentTargetConfig.property.lifecycle">Lifecycle</a></code> | <code>Io.Cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.inspectorAssessmentTarget.InspectorAssessmentTargetConfig.property.provider">Provider</a></code> | <code>Io.Cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.inspectorAssessmentTarget.InspectorAssessmentTargetConfig.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.inspectorAssessmentTarget.InspectorAssessmentTargetConfig.property.assessmentTargetName">AssessmentTargetName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/inspector_assessment_target#assessment_target_name InspectorAssessmentTarget#assessment_target_name}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorAssessmentTarget.InspectorAssessmentTargetConfig.property.resourceGroupArn">ResourceGroupArn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/inspector_assessment_target#resource_group_arn InspectorAssessmentTarget#resource_group_arn}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorAssessmentTarget.InspectorAssessmentTargetConfig.property.assessmentTargetName">AssessmentTargetName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/inspector_assessment_target#assessment_target_name InspectorAssessmentTarget#assessment_target_name}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorAssessmentTarget.InspectorAssessmentTargetConfig.property.resourceGroupArn">ResourceGroupArn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/inspector_assessment_target#resource_group_arn InspectorAssessmentTarget#resource_group_arn}. |
 
 ---
 
@@ -878,7 +878,7 @@ public string AssessmentTargetName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/inspector_assessment_target#assessment_target_name InspectorAssessmentTarget#assessment_target_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/inspector_assessment_target#assessment_target_name InspectorAssessmentTarget#assessment_target_name}.
 
 ---
 
@@ -890,7 +890,7 @@ public string ResourceGroupArn { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/inspector_assessment_target#resource_group_arn InspectorAssessmentTarget#resource_group_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/inspector_assessment_target#resource_group_arn InspectorAssessmentTarget#resource_group_arn}.
 
 ---
 

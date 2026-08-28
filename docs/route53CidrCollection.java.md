@@ -4,7 +4,7 @@
 
 ### Route53CidrCollection <a name="Route53CidrCollection" id="@cdktn/provider-awscc.route53CidrCollection.Route53CidrCollection"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53_cidr_collection awscc_route53_cidr_collection}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53_cidr_collection awscc_route53_cidr_collection}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.route53CidrCollection.Route53CidrCollection.Initializer"></a>
 
@@ -106,7 +106,7 @@ Must be unique amongst siblings in the same scope
 
 A unique name for the CIDR collection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53_cidr_collection#name Route53CidrCollection#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53_cidr_collection#name Route53CidrCollection#name}
 
 ---
 
@@ -116,7 +116,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A complex type that contains information about the list of CIDR locations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53_cidr_collection#locations Route53CidrCollection#locations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53_cidr_collection#locations Route53CidrCollection#locations}
 
 ---
 
@@ -585,7 +585,7 @@ The construct id used in the generated config for the Route53CidrCollection to i
 
 The id of the existing Route53CidrCollection that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53_cidr_collection#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53_cidr_collection#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -973,7 +973,7 @@ public java.lang.String getName();
 
 A unique name for the CIDR collection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53_cidr_collection#name Route53CidrCollection#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53_cidr_collection#name Route53CidrCollection#name}
 
 ---
 
@@ -987,7 +987,7 @@ public IResolvable|java.util.List<Route53CidrCollectionLocations> getLocations()
 
 A complex type that contains information about the list of CIDR locations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53_cidr_collection#locations Route53CidrCollection#locations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53_cidr_collection#locations Route53CidrCollection#locations}
 
 ---
 
@@ -1023,7 +1023,7 @@ public java.util.List<java.lang.String> getCidrList();
 
 A list of CIDR blocks.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53_cidr_collection#cidr_list Route53CidrCollection#cidr_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53_cidr_collection#cidr_list Route53CidrCollection#cidr_list}
 
 ---
 
@@ -1037,7 +1037,7 @@ public java.lang.String getLocationName();
 
 The name of the location that is associated with the CIDR collection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53_cidr_collection#location_name Route53CidrCollection#location_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53_cidr_collection#location_name Route53CidrCollection#location_name}
 
 ---
 

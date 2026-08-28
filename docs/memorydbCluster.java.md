@@ -4,7 +4,7 @@
 
 ### MemorydbCluster <a name="MemorydbCluster" id="@cdktn/provider-awscc.memorydbCluster.MemorydbCluster"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/memorydb_cluster awscc_memorydb_cluster}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/memorydb_cluster awscc_memorydb_cluster}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.memorydbCluster.MemorydbCluster.Initializer"></a>
 
@@ -160,7 +160,7 @@ Must be unique amongst siblings in the same scope
 
 The name of the Access Control List to associate with the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/memorydb_cluster#acl_name MemorydbCluster#acl_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/memorydb_cluster#acl_name MemorydbCluster#acl_name}
 
 ---
 
@@ -170,7 +170,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the cluster. This value must be unique as it also serves as the cluster identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/memorydb_cluster#cluster_name MemorydbCluster#cluster_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/memorydb_cluster#cluster_name MemorydbCluster#cluster_name}
 
 ---
 
@@ -180,7 +180,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The compute and memory capacity of the nodes in the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/memorydb_cluster#node_type MemorydbCluster#node_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/memorydb_cluster#node_type MemorydbCluster#node_type}
 
 ---
 
@@ -192,7 +192,7 @@ A flag that enables automatic minor version upgrade when set to true.
 
 You cannot modify the value of AutoMinorVersionUpgrade after the cluster is created. To enable AutoMinorVersionUpgrade on a cluster you must set AutoMinorVersionUpgrade to true when you create a cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/memorydb_cluster#auto_minor_version_upgrade MemorydbCluster#auto_minor_version_upgrade}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/memorydb_cluster#auto_minor_version_upgrade MemorydbCluster#auto_minor_version_upgrade}
 
 ---
 
@@ -202,7 +202,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The cluster endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/memorydb_cluster#cluster_endpoint MemorydbCluster#cluster_endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/memorydb_cluster#cluster_endpoint MemorydbCluster#cluster_endpoint}
 
 ---
 
@@ -214,7 +214,7 @@ Enables data tiering.
 
 Data tiering is only supported for clusters using the r6gd node type. This parameter must be set when using r6gd nodes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/memorydb_cluster#data_tiering MemorydbCluster#data_tiering}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/memorydb_cluster#data_tiering MemorydbCluster#data_tiering}
 
 ---
 
@@ -224,7 +224,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An optional description of the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/memorydb_cluster#description MemorydbCluster#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/memorydb_cluster#description MemorydbCluster#description}
 
 ---
 
@@ -234,7 +234,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The engine type used by the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/memorydb_cluster#engine MemorydbCluster#engine}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/memorydb_cluster#engine MemorydbCluster#engine}
 
 ---
 
@@ -244,7 +244,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The Redis engine version used by the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/memorydb_cluster#engine_version MemorydbCluster#engine_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/memorydb_cluster#engine_version MemorydbCluster#engine_version}
 
 ---
 
@@ -256,7 +256,7 @@ The user-supplied name of a final cluster snapshot.
 
 This is the unique name that identifies the snapshot. MemoryDB creates the snapshot, and then deletes the cluster immediately afterward.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/memorydb_cluster#final_snapshot_name MemorydbCluster#final_snapshot_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/memorydb_cluster#final_snapshot_name MemorydbCluster#final_snapshot_name}
 
 ---
 
@@ -266,7 +266,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 For clusters wth dual stack NetworkType, IpDiscovery controls the Ip protocol (ipv4 or ipv6) returned by the engine commands such as `cluster info` and `cluster nodes` which are used by clients to connect to the nodes in the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/memorydb_cluster#ip_discovery MemorydbCluster#ip_discovery}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/memorydb_cluster#ip_discovery MemorydbCluster#ip_discovery}
 
 ---
 
@@ -276,7 +276,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The ID of the KMS key used to encrypt the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/memorydb_cluster#kms_key_id MemorydbCluster#kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/memorydb_cluster#kms_key_id MemorydbCluster#kms_key_id}
 
 ---
 
@@ -288,7 +288,7 @@ Specifies the weekly time range during which maintenance on the cluster is perfo
 
 It is specified as a range in the format ddd:hh24:mi-ddd:hh24:mi (24H Clock UTC). The minimum maintenance window is a 60 minute period.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/memorydb_cluster#maintenance_window MemorydbCluster#maintenance_window}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/memorydb_cluster#maintenance_window MemorydbCluster#maintenance_window}
 
 ---
 
@@ -298,7 +298,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the Global Datastore, it is generated by MemoryDB adding a prefix to MultiRegionClusterNameSuffix.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/memorydb_cluster#multi_region_cluster_name MemorydbCluster#multi_region_cluster_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/memorydb_cluster#multi_region_cluster_name MemorydbCluster#multi_region_cluster_name}
 
 ---
 
@@ -308,7 +308,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Must be either ipv4 | ipv6 | dual_stack.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/memorydb_cluster#network_type MemorydbCluster#network_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/memorydb_cluster#network_type MemorydbCluster#network_type}
 
 ---
 
@@ -318,7 +318,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The number of replicas to apply to each shard. The limit is 5.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/memorydb_cluster#num_replicas_per_shard MemorydbCluster#num_replicas_per_shard}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/memorydb_cluster#num_replicas_per_shard MemorydbCluster#num_replicas_per_shard}
 
 ---
 
@@ -328,7 +328,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The number of shards the cluster will contain.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/memorydb_cluster#num_shards MemorydbCluster#num_shards}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/memorydb_cluster#num_shards MemorydbCluster#num_shards}
 
 ---
 
@@ -338,7 +338,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the parameter group associated with the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/memorydb_cluster#parameter_group_name MemorydbCluster#parameter_group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/memorydb_cluster#parameter_group_name MemorydbCluster#parameter_group_name}
 
 ---
 
@@ -348,7 +348,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The port number on which each member of the cluster accepts connections.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/memorydb_cluster#port MemorydbCluster#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/memorydb_cluster#port MemorydbCluster#port}
 
 ---
 
@@ -358,7 +358,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 One or more Amazon VPC security groups associated with this cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/memorydb_cluster#security_group_ids MemorydbCluster#security_group_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/memorydb_cluster#security_group_ids MemorydbCluster#security_group_ids}
 
 ---
 
@@ -370,7 +370,7 @@ A list of Amazon Resource Names (ARN) that uniquely identify the RDB snapshot fi
 
 The snapshot files are used to populate the new cluster. The Amazon S3 object name in the ARN cannot contain any commas.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/memorydb_cluster#snapshot_arns MemorydbCluster#snapshot_arns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/memorydb_cluster#snapshot_arns MemorydbCluster#snapshot_arns}
 
 ---
 
@@ -382,7 +382,7 @@ The name of a snapshot from which to restore data into the new cluster.
 
 The snapshot status changes to restoring while the new cluster is being created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/memorydb_cluster#snapshot_name MemorydbCluster#snapshot_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/memorydb_cluster#snapshot_name MemorydbCluster#snapshot_name}
 
 ---
 
@@ -394,7 +394,7 @@ The number of days for which MemoryDB retains automatic snapshots before deletin
 
 For example, if you set SnapshotRetentionLimit to 5, a snapshot that was taken today is retained for 5 days before being deleted.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/memorydb_cluster#snapshot_retention_limit MemorydbCluster#snapshot_retention_limit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/memorydb_cluster#snapshot_retention_limit MemorydbCluster#snapshot_retention_limit}
 
 ---
 
@@ -404,7 +404,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The daily time range (in UTC) during which MemoryDB begins taking a daily snapshot of your cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/memorydb_cluster#snapshot_window MemorydbCluster#snapshot_window}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/memorydb_cluster#snapshot_window MemorydbCluster#snapshot_window}
 
 ---
 
@@ -414,7 +414,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The Amazon Resource Name (ARN) of the Amazon Simple Notification Service (SNS) topic to which notifications are sent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/memorydb_cluster#sns_topic_arn MemorydbCluster#sns_topic_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/memorydb_cluster#sns_topic_arn MemorydbCluster#sns_topic_arn}
 
 ---
 
@@ -424,7 +424,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The status of the Amazon SNS notification topic. Notifications are sent only if the status is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/memorydb_cluster#sns_topic_status MemorydbCluster#sns_topic_status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/memorydb_cluster#sns_topic_status MemorydbCluster#sns_topic_status}
 
 ---
 
@@ -434,7 +434,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the subnet group to be used for the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/memorydb_cluster#subnet_group_name MemorydbCluster#subnet_group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/memorydb_cluster#subnet_group_name MemorydbCluster#subnet_group_name}
 
 ---
 
@@ -444,7 +444,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An array of key-value pairs to apply to this cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/memorydb_cluster#tags MemorydbCluster#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/memorydb_cluster#tags MemorydbCluster#tags}
 
 ---
 
@@ -456,7 +456,7 @@ A flag that enables in-transit encryption when set to true.
 
 You cannot modify the value of TransitEncryptionEnabled after the cluster is created. To enable in-transit encryption on a cluster you must set TransitEncryptionEnabled to true when you create a cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/memorydb_cluster#tls_enabled MemorydbCluster#tls_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/memorydb_cluster#tls_enabled MemorydbCluster#tls_enabled}
 
 ---
 
@@ -1113,7 +1113,7 @@ The construct id used in the generated config for the MemorydbCluster to import.
 
 The id of the existing MemorydbCluster that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/memorydb_cluster#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/memorydb_cluster#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -2172,7 +2172,7 @@ public java.lang.String getAclName();
 
 The name of the Access Control List to associate with the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/memorydb_cluster#acl_name MemorydbCluster#acl_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/memorydb_cluster#acl_name MemorydbCluster#acl_name}
 
 ---
 
@@ -2186,7 +2186,7 @@ public java.lang.String getClusterName();
 
 The name of the cluster. This value must be unique as it also serves as the cluster identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/memorydb_cluster#cluster_name MemorydbCluster#cluster_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/memorydb_cluster#cluster_name MemorydbCluster#cluster_name}
 
 ---
 
@@ -2200,7 +2200,7 @@ public java.lang.String getNodeType();
 
 The compute and memory capacity of the nodes in the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/memorydb_cluster#node_type MemorydbCluster#node_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/memorydb_cluster#node_type MemorydbCluster#node_type}
 
 ---
 
@@ -2216,7 +2216,7 @@ A flag that enables automatic minor version upgrade when set to true.
 
 You cannot modify the value of AutoMinorVersionUpgrade after the cluster is created. To enable AutoMinorVersionUpgrade on a cluster you must set AutoMinorVersionUpgrade to true when you create a cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/memorydb_cluster#auto_minor_version_upgrade MemorydbCluster#auto_minor_version_upgrade}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/memorydb_cluster#auto_minor_version_upgrade MemorydbCluster#auto_minor_version_upgrade}
 
 ---
 
@@ -2230,7 +2230,7 @@ public MemorydbClusterClusterEndpoint getClusterEndpoint();
 
 The cluster endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/memorydb_cluster#cluster_endpoint MemorydbCluster#cluster_endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/memorydb_cluster#cluster_endpoint MemorydbCluster#cluster_endpoint}
 
 ---
 
@@ -2246,7 +2246,7 @@ Enables data tiering.
 
 Data tiering is only supported for clusters using the r6gd node type. This parameter must be set when using r6gd nodes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/memorydb_cluster#data_tiering MemorydbCluster#data_tiering}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/memorydb_cluster#data_tiering MemorydbCluster#data_tiering}
 
 ---
 
@@ -2260,7 +2260,7 @@ public java.lang.String getDescription();
 
 An optional description of the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/memorydb_cluster#description MemorydbCluster#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/memorydb_cluster#description MemorydbCluster#description}
 
 ---
 
@@ -2274,7 +2274,7 @@ public java.lang.String getEngine();
 
 The engine type used by the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/memorydb_cluster#engine MemorydbCluster#engine}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/memorydb_cluster#engine MemorydbCluster#engine}
 
 ---
 
@@ -2288,7 +2288,7 @@ public java.lang.String getEngineVersion();
 
 The Redis engine version used by the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/memorydb_cluster#engine_version MemorydbCluster#engine_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/memorydb_cluster#engine_version MemorydbCluster#engine_version}
 
 ---
 
@@ -2304,7 +2304,7 @@ The user-supplied name of a final cluster snapshot.
 
 This is the unique name that identifies the snapshot. MemoryDB creates the snapshot, and then deletes the cluster immediately afterward.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/memorydb_cluster#final_snapshot_name MemorydbCluster#final_snapshot_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/memorydb_cluster#final_snapshot_name MemorydbCluster#final_snapshot_name}
 
 ---
 
@@ -2318,7 +2318,7 @@ public java.lang.String getIpDiscovery();
 
 For clusters wth dual stack NetworkType, IpDiscovery controls the Ip protocol (ipv4 or ipv6) returned by the engine commands such as `cluster info` and `cluster nodes` which are used by clients to connect to the nodes in the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/memorydb_cluster#ip_discovery MemorydbCluster#ip_discovery}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/memorydb_cluster#ip_discovery MemorydbCluster#ip_discovery}
 
 ---
 
@@ -2332,7 +2332,7 @@ public java.lang.String getKmsKeyId();
 
 The ID of the KMS key used to encrypt the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/memorydb_cluster#kms_key_id MemorydbCluster#kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/memorydb_cluster#kms_key_id MemorydbCluster#kms_key_id}
 
 ---
 
@@ -2348,7 +2348,7 @@ Specifies the weekly time range during which maintenance on the cluster is perfo
 
 It is specified as a range in the format ddd:hh24:mi-ddd:hh24:mi (24H Clock UTC). The minimum maintenance window is a 60 minute period.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/memorydb_cluster#maintenance_window MemorydbCluster#maintenance_window}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/memorydb_cluster#maintenance_window MemorydbCluster#maintenance_window}
 
 ---
 
@@ -2362,7 +2362,7 @@ public java.lang.String getMultiRegionClusterName();
 
 The name of the Global Datastore, it is generated by MemoryDB adding a prefix to MultiRegionClusterNameSuffix.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/memorydb_cluster#multi_region_cluster_name MemorydbCluster#multi_region_cluster_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/memorydb_cluster#multi_region_cluster_name MemorydbCluster#multi_region_cluster_name}
 
 ---
 
@@ -2376,7 +2376,7 @@ public java.lang.String getNetworkType();
 
 Must be either ipv4 | ipv6 | dual_stack.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/memorydb_cluster#network_type MemorydbCluster#network_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/memorydb_cluster#network_type MemorydbCluster#network_type}
 
 ---
 
@@ -2390,7 +2390,7 @@ public java.lang.Number getNumReplicasPerShard();
 
 The number of replicas to apply to each shard. The limit is 5.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/memorydb_cluster#num_replicas_per_shard MemorydbCluster#num_replicas_per_shard}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/memorydb_cluster#num_replicas_per_shard MemorydbCluster#num_replicas_per_shard}
 
 ---
 
@@ -2404,7 +2404,7 @@ public java.lang.Number getNumShards();
 
 The number of shards the cluster will contain.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/memorydb_cluster#num_shards MemorydbCluster#num_shards}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/memorydb_cluster#num_shards MemorydbCluster#num_shards}
 
 ---
 
@@ -2418,7 +2418,7 @@ public java.lang.String getParameterGroupName();
 
 The name of the parameter group associated with the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/memorydb_cluster#parameter_group_name MemorydbCluster#parameter_group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/memorydb_cluster#parameter_group_name MemorydbCluster#parameter_group_name}
 
 ---
 
@@ -2432,7 +2432,7 @@ public java.lang.Number getPort();
 
 The port number on which each member of the cluster accepts connections.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/memorydb_cluster#port MemorydbCluster#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/memorydb_cluster#port MemorydbCluster#port}
 
 ---
 
@@ -2446,7 +2446,7 @@ public java.util.List<java.lang.String> getSecurityGroupIds();
 
 One or more Amazon VPC security groups associated with this cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/memorydb_cluster#security_group_ids MemorydbCluster#security_group_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/memorydb_cluster#security_group_ids MemorydbCluster#security_group_ids}
 
 ---
 
@@ -2462,7 +2462,7 @@ A list of Amazon Resource Names (ARN) that uniquely identify the RDB snapshot fi
 
 The snapshot files are used to populate the new cluster. The Amazon S3 object name in the ARN cannot contain any commas.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/memorydb_cluster#snapshot_arns MemorydbCluster#snapshot_arns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/memorydb_cluster#snapshot_arns MemorydbCluster#snapshot_arns}
 
 ---
 
@@ -2478,7 +2478,7 @@ The name of a snapshot from which to restore data into the new cluster.
 
 The snapshot status changes to restoring while the new cluster is being created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/memorydb_cluster#snapshot_name MemorydbCluster#snapshot_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/memorydb_cluster#snapshot_name MemorydbCluster#snapshot_name}
 
 ---
 
@@ -2494,7 +2494,7 @@ The number of days for which MemoryDB retains automatic snapshots before deletin
 
 For example, if you set SnapshotRetentionLimit to 5, a snapshot that was taken today is retained for 5 days before being deleted.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/memorydb_cluster#snapshot_retention_limit MemorydbCluster#snapshot_retention_limit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/memorydb_cluster#snapshot_retention_limit MemorydbCluster#snapshot_retention_limit}
 
 ---
 
@@ -2508,7 +2508,7 @@ public java.lang.String getSnapshotWindow();
 
 The daily time range (in UTC) during which MemoryDB begins taking a daily snapshot of your cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/memorydb_cluster#snapshot_window MemorydbCluster#snapshot_window}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/memorydb_cluster#snapshot_window MemorydbCluster#snapshot_window}
 
 ---
 
@@ -2522,7 +2522,7 @@ public java.lang.String getSnsTopicArn();
 
 The Amazon Resource Name (ARN) of the Amazon Simple Notification Service (SNS) topic to which notifications are sent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/memorydb_cluster#sns_topic_arn MemorydbCluster#sns_topic_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/memorydb_cluster#sns_topic_arn MemorydbCluster#sns_topic_arn}
 
 ---
 
@@ -2536,7 +2536,7 @@ public java.lang.String getSnsTopicStatus();
 
 The status of the Amazon SNS notification topic. Notifications are sent only if the status is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/memorydb_cluster#sns_topic_status MemorydbCluster#sns_topic_status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/memorydb_cluster#sns_topic_status MemorydbCluster#sns_topic_status}
 
 ---
 
@@ -2550,7 +2550,7 @@ public java.lang.String getSubnetGroupName();
 
 The name of the subnet group to be used for the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/memorydb_cluster#subnet_group_name MemorydbCluster#subnet_group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/memorydb_cluster#subnet_group_name MemorydbCluster#subnet_group_name}
 
 ---
 
@@ -2564,7 +2564,7 @@ public IResolvable|java.util.List<MemorydbClusterTags> getTags();
 
 An array of key-value pairs to apply to this cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/memorydb_cluster#tags MemorydbCluster#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/memorydb_cluster#tags MemorydbCluster#tags}
 
 ---
 
@@ -2580,7 +2580,7 @@ A flag that enables in-transit encryption when set to true.
 
 You cannot modify the value of TransitEncryptionEnabled after the cluster is created. To enable in-transit encryption on a cluster you must set TransitEncryptionEnabled to true when you create a cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/memorydb_cluster#tls_enabled MemorydbCluster#tls_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/memorydb_cluster#tls_enabled MemorydbCluster#tls_enabled}
 
 ---
 
@@ -2616,7 +2616,7 @@ public java.lang.String getKey();
 
 The key for the tag. May not be null.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/memorydb_cluster#key MemorydbCluster#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/memorydb_cluster#key MemorydbCluster#key}
 
 ---
 
@@ -2630,7 +2630,7 @@ public java.lang.String getValue();
 
 The tag's value. May be null.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/memorydb_cluster#value MemorydbCluster#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/memorydb_cluster#value MemorydbCluster#value}
 
 ---
 

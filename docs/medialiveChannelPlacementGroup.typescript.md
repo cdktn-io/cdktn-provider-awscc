@@ -4,7 +4,7 @@
 
 ### MedialiveChannelPlacementGroup <a name="MedialiveChannelPlacementGroup" id="@cdktn/provider-awscc.medialiveChannelPlacementGroup.MedialiveChannelPlacementGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/medialive_channel_placement_group awscc_medialive_channel_placement_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/medialive_channel_placement_group awscc_medialive_channel_placement_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.medialiveChannelPlacementGroup.MedialiveChannelPlacementGroup.Initializer"></a>
 
@@ -530,7 +530,7 @@ The construct id used in the generated config for the MedialiveChannelPlacementG
 
 The id of the existing MedialiveChannelPlacementGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/medialive_channel_placement_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/medialive_channel_placement_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -976,7 +976,7 @@ public readonly clusterId: string;
 
 The ID of the cluster the node is on.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/medialive_channel_placement_group#cluster_id MedialiveChannelPlacementGroup#cluster_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/medialive_channel_placement_group#cluster_id MedialiveChannelPlacementGroup#cluster_id}
 
 ---
 
@@ -990,7 +990,7 @@ public readonly name: string;
 
 The name of the channel placement group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/medialive_channel_placement_group#name MedialiveChannelPlacementGroup#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/medialive_channel_placement_group#name MedialiveChannelPlacementGroup#name}
 
 ---
 
@@ -1004,7 +1004,7 @@ public readonly nodes: string[];
 
 List of nodes added to the channel placement group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/medialive_channel_placement_group#nodes MedialiveChannelPlacementGroup#nodes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/medialive_channel_placement_group#nodes MedialiveChannelPlacementGroup#nodes}
 
 ---
 
@@ -1018,7 +1018,7 @@ public readonly tags: IResolvable | MedialiveChannelPlacementGroupTags[];
 
 A collection of key-value pairs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/medialive_channel_placement_group#tags MedialiveChannelPlacementGroup#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/medialive_channel_placement_group#tags MedialiveChannelPlacementGroup#tags}
 
 ---
 
@@ -1036,8 +1036,8 @@ const medialiveChannelPlacementGroupTags: medialiveChannelPlacementGroup.Mediali
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.medialiveChannelPlacementGroup.MedialiveChannelPlacementGroupTags.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/medialive_channel_placement_group#key MedialiveChannelPlacementGroup#key}. |
-| <code><a href="#@cdktn/provider-awscc.medialiveChannelPlacementGroup.MedialiveChannelPlacementGroupTags.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/medialive_channel_placement_group#value MedialiveChannelPlacementGroup#value}. |
+| <code><a href="#@cdktn/provider-awscc.medialiveChannelPlacementGroup.MedialiveChannelPlacementGroupTags.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/medialive_channel_placement_group#key MedialiveChannelPlacementGroup#key}. |
+| <code><a href="#@cdktn/provider-awscc.medialiveChannelPlacementGroup.MedialiveChannelPlacementGroupTags.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/medialive_channel_placement_group#value MedialiveChannelPlacementGroup#value}. |
 
 ---
 
@@ -1049,7 +1049,7 @@ public readonly key: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/medialive_channel_placement_group#key MedialiveChannelPlacementGroup#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/medialive_channel_placement_group#key MedialiveChannelPlacementGroup#key}.
 
 ---
 
@@ -1061,7 +1061,7 @@ public readonly value: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/medialive_channel_placement_group#value MedialiveChannelPlacementGroup#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/medialive_channel_placement_group#value MedialiveChannelPlacementGroup#value}.
 
 ---
 

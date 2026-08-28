@@ -4,7 +4,7 @@
 
 ### Route53ProfilesProfileResourceAssociation <a name="Route53ProfilesProfileResourceAssociation" id="@cdktn/provider-awscc.route53ProfilesProfileResourceAssociation.Route53ProfilesProfileResourceAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53profiles_profile_resource_association awscc_route53profiles_profile_resource_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53profiles_profile_resource_association awscc_route53profiles_profile_resource_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.route53ProfilesProfileResourceAssociation.Route53ProfilesProfileResourceAssociation.Initializer"></a>
 
@@ -496,7 +496,7 @@ The construct id used in the generated config for the Route53ProfilesProfileReso
 
 The id of the existing Route53ProfilesProfileResourceAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53profiles_profile_resource_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53profiles_profile_resource_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -920,7 +920,7 @@ public readonly name: string;
 
 The name of an association between the  Profile and resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53profiles_profile_resource_association#name Route53ProfilesProfileResourceAssociation#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53profiles_profile_resource_association#name Route53ProfilesProfileResourceAssociation#name}
 
 ---
 
@@ -934,7 +934,7 @@ public readonly profileId: string;
 
 The ID of the  profile that you associated the resource to that is specified by ResourceArn.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53profiles_profile_resource_association#profile_id Route53ProfilesProfileResourceAssociation#profile_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53profiles_profile_resource_association#profile_id Route53ProfilesProfileResourceAssociation#profile_id}
 
 ---
 
@@ -948,7 +948,7 @@ public readonly resourceArn: string;
 
 The arn of the resource that you associated to the  Profile.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53profiles_profile_resource_association#resource_arn Route53ProfilesProfileResourceAssociation#resource_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53profiles_profile_resource_association#resource_arn Route53ProfilesProfileResourceAssociation#resource_arn}
 
 ---
 
@@ -962,7 +962,7 @@ public readonly resourceProperties: string;
 
 A JSON-formatted string with key-value pairs specifying the properties of the associated resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53profiles_profile_resource_association#resource_properties Route53ProfilesProfileResourceAssociation#resource_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53profiles_profile_resource_association#resource_properties Route53ProfilesProfileResourceAssociation#resource_properties}
 
 ---
 

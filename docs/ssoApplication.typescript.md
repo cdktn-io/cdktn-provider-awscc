@@ -4,7 +4,7 @@
 
 ### SsoApplication <a name="SsoApplication" id="@cdktn/provider-awscc.ssoApplication.SsoApplication"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sso_application awscc_sso_application}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sso_application awscc_sso_application}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ssoApplication.SsoApplication.Initializer"></a>
 
@@ -543,7 +543,7 @@ The construct id used in the generated config for the SsoApplication to import.
 
 The id of the existing SsoApplication that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sso_application#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sso_application#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -952,7 +952,7 @@ const ssoApplicationConfig: ssoApplication.SsoApplicationConfig = { ... }
 | <code><a href="#@cdktn/provider-awscc.ssoApplication.SsoApplicationConfig.property.description">description</a></code> | <code>string</code> | The description information for the Identity Center (SSO) Application. |
 | <code><a href="#@cdktn/provider-awscc.ssoApplication.SsoApplicationConfig.property.portalOptions">portalOptions</a></code> | <code><a href="#@cdktn/provider-awscc.ssoApplication.SsoApplicationPortalOptions">SsoApplicationPortalOptions</a></code> | A structure that describes the options for the portal associated with an application. |
 | <code><a href="#@cdktn/provider-awscc.ssoApplication.SsoApplicationConfig.property.status">status</a></code> | <code>string</code> | Specifies whether the application is enabled or disabled. |
-| <code><a href="#@cdktn/provider-awscc.ssoApplication.SsoApplicationConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.ssoApplication.SsoApplicationTags">SsoApplicationTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sso_application#tags SsoApplication#tags}. |
+| <code><a href="#@cdktn/provider-awscc.ssoApplication.SsoApplicationConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.ssoApplication.SsoApplicationTags">SsoApplicationTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sso_application#tags SsoApplication#tags}. |
 
 ---
 
@@ -1036,7 +1036,7 @@ public readonly applicationProviderArn: string;
 
 The ARN of the application provider under which the operation will run.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sso_application#application_provider_arn SsoApplication#application_provider_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sso_application#application_provider_arn SsoApplication#application_provider_arn}
 
 ---
 
@@ -1050,7 +1050,7 @@ public readonly instanceArn: string;
 
 The ARN of the instance of IAM Identity Center under which the operation will run.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sso_application#instance_arn SsoApplication#instance_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sso_application#instance_arn SsoApplication#instance_arn}
 
 ---
 
@@ -1064,7 +1064,7 @@ public readonly name: string;
 
 The name you want to assign to this Identity Center (SSO) Application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sso_application#name SsoApplication#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sso_application#name SsoApplication#name}
 
 ---
 
@@ -1078,7 +1078,7 @@ public readonly description: string;
 
 The description information for the Identity Center (SSO) Application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sso_application#description SsoApplication#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sso_application#description SsoApplication#description}
 
 ---
 
@@ -1092,7 +1092,7 @@ public readonly portalOptions: SsoApplicationPortalOptions;
 
 A structure that describes the options for the portal associated with an application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sso_application#portal_options SsoApplication#portal_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sso_application#portal_options SsoApplication#portal_options}
 
 ---
 
@@ -1106,7 +1106,7 @@ public readonly status: string;
 
 Specifies whether the application is enabled or disabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sso_application#status SsoApplication#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sso_application#status SsoApplication#status}
 
 ---
 
@@ -1118,7 +1118,7 @@ public readonly tags: IResolvable | SsoApplicationTags[];
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.ssoApplication.SsoApplicationTags">SsoApplicationTags</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sso_application#tags SsoApplication#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sso_application#tags SsoApplication#tags}.
 
 ---
 
@@ -1151,7 +1151,7 @@ public readonly signInOptions: SsoApplicationPortalOptionsSignInOptions;
 
 A structure that describes the sign-in options for the access portal.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sso_application#sign_in_options SsoApplication#sign_in_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sso_application#sign_in_options SsoApplication#sign_in_options}
 
 ---
 
@@ -1165,7 +1165,7 @@ public readonly visibility: string;
 
 Indicates whether this application is visible in the access portal.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sso_application#visibility SsoApplication#visibility}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sso_application#visibility SsoApplication#visibility}
 
 ---
 
@@ -1198,7 +1198,7 @@ public readonly applicationUrl: string;
 
 The URL that accepts authentication requests for an application, this is a required parameter if the Origin parameter is APPLICATION.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sso_application#application_url SsoApplication#application_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sso_application#application_url SsoApplication#application_url}
 
 ---
 
@@ -1212,7 +1212,7 @@ public readonly origin: string;
 
 This determines how IAM Identity Center navigates the user to the target application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sso_application#origin SsoApplication#origin}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sso_application#origin SsoApplication#origin}
 
 ---
 
@@ -1230,8 +1230,8 @@ const ssoApplicationTags: ssoApplication.SsoApplicationTags = { ... }
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ssoApplication.SsoApplicationTags.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sso_application#key SsoApplication#key}. |
-| <code><a href="#@cdktn/provider-awscc.ssoApplication.SsoApplicationTags.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sso_application#value SsoApplication#value}. |
+| <code><a href="#@cdktn/provider-awscc.ssoApplication.SsoApplicationTags.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sso_application#key SsoApplication#key}. |
+| <code><a href="#@cdktn/provider-awscc.ssoApplication.SsoApplicationTags.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sso_application#value SsoApplication#value}. |
 
 ---
 
@@ -1243,7 +1243,7 @@ public readonly key: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sso_application#key SsoApplication#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sso_application#key SsoApplication#key}.
 
 ---
 
@@ -1255,7 +1255,7 @@ public readonly value: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sso_application#value SsoApplication#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sso_application#value SsoApplication#value}.
 
 ---
 

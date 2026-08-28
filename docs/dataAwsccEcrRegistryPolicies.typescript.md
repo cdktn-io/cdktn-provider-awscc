@@ -4,7 +4,7 @@
 
 ### DataAwsccEcrRegistryPolicies <a name="DataAwsccEcrRegistryPolicies" id="@cdktn/provider-awscc.dataAwsccEcrRegistryPolicies.DataAwsccEcrRegistryPolicies"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ecr_registry_policies awscc_ecr_registry_policies}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ecr_registry_policies awscc_ecr_registry_policies}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcrRegistryPolicies.DataAwsccEcrRegistryPolicies.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEcrRegistryPolici
 
 The id of the existing DataAwsccEcrRegistryPolicies that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ecr_registry_policies#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ecr_registry_policies#import import section} in the documentation of this resource for the id to use
 
 ---
 

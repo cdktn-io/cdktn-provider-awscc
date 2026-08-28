@@ -4,7 +4,7 @@
 
 ### PcaconnectorscepConnector <a name="PcaconnectorscepConnector" id="@cdktn/provider-awscc.pcaconnectorscepConnector.PcaconnectorscepConnector"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcaconnectorscep_connector awscc_pcaconnectorscep_connector}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/pcaconnectorscep_connector awscc_pcaconnectorscep_connector}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.pcaconnectorscepConnector.PcaconnectorscepConnector.Initializer"></a>
 
@@ -523,7 +523,7 @@ The construct id used in the generated config for the PcaconnectorscepConnector 
 
 The id of the existing PcaconnectorscepConnector that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcaconnectorscep_connector#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/pcaconnectorscep_connector#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -894,10 +894,10 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/pcaconnectorscepconnec
 | <code><a href="#@cdktn/provider-awscc.pcaconnectorscepConnector.PcaconnectorscepConnectorConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.pcaconnectorscepConnector.PcaconnectorscepConnectorConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.pcaconnectorscepConnector.PcaconnectorscepConnectorConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectorscepConnector.PcaconnectorscepConnectorConfig.property.certificateAuthorityArn">CertificateAuthorityArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcaconnectorscep_connector#certificate_authority_arn PcaconnectorscepConnector#certificate_authority_arn}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectorscepConnector.PcaconnectorscepConnectorConfig.property.mobileDeviceManagement">MobileDeviceManagement</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectorscepConnector.PcaconnectorscepConnectorMobileDeviceManagement">PcaconnectorscepConnectorMobileDeviceManagement</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcaconnectorscep_connector#mobile_device_management PcaconnectorscepConnector#mobile_device_management}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectorscepConnector.PcaconnectorscepConnectorConfig.property.tags">Tags</a></code> | <code>*map[string]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcaconnectorscep_connector#tags PcaconnectorscepConnector#tags}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectorscepConnector.PcaconnectorscepConnectorConfig.property.vpcEndpointId">VpcEndpointId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcaconnectorscep_connector#vpc_endpoint_id PcaconnectorscepConnector#vpc_endpoint_id}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectorscepConnector.PcaconnectorscepConnectorConfig.property.certificateAuthorityArn">CertificateAuthorityArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/pcaconnectorscep_connector#certificate_authority_arn PcaconnectorscepConnector#certificate_authority_arn}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectorscepConnector.PcaconnectorscepConnectorConfig.property.mobileDeviceManagement">MobileDeviceManagement</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectorscepConnector.PcaconnectorscepConnectorMobileDeviceManagement">PcaconnectorscepConnectorMobileDeviceManagement</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/pcaconnectorscep_connector#mobile_device_management PcaconnectorscepConnector#mobile_device_management}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectorscepConnector.PcaconnectorscepConnectorConfig.property.tags">Tags</a></code> | <code>*map[string]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/pcaconnectorscep_connector#tags PcaconnectorscepConnector#tags}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectorscepConnector.PcaconnectorscepConnectorConfig.property.vpcEndpointId">VpcEndpointId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/pcaconnectorscep_connector#vpc_endpoint_id PcaconnectorscepConnector#vpc_endpoint_id}. |
 
 ---
 
@@ -979,7 +979,7 @@ CertificateAuthorityArn *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcaconnectorscep_connector#certificate_authority_arn PcaconnectorscepConnector#certificate_authority_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/pcaconnectorscep_connector#certificate_authority_arn PcaconnectorscepConnector#certificate_authority_arn}.
 
 ---
 
@@ -991,7 +991,7 @@ MobileDeviceManagement PcaconnectorscepConnectorMobileDeviceManagement
 
 - *Type:* <a href="#@cdktn/provider-awscc.pcaconnectorscepConnector.PcaconnectorscepConnectorMobileDeviceManagement">PcaconnectorscepConnectorMobileDeviceManagement</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcaconnectorscep_connector#mobile_device_management PcaconnectorscepConnector#mobile_device_management}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/pcaconnectorscep_connector#mobile_device_management PcaconnectorscepConnector#mobile_device_management}.
 
 ---
 
@@ -1003,7 +1003,7 @@ Tags *map[string]*string
 
 - *Type:* *map[string]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcaconnectorscep_connector#tags PcaconnectorscepConnector#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/pcaconnectorscep_connector#tags PcaconnectorscepConnector#tags}.
 
 ---
 
@@ -1015,7 +1015,7 @@ VpcEndpointId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcaconnectorscep_connector#vpc_endpoint_id PcaconnectorscepConnector#vpc_endpoint_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/pcaconnectorscep_connector#vpc_endpoint_id PcaconnectorscepConnector#vpc_endpoint_id}.
 
 ---
 
@@ -1035,7 +1035,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/pcaconnectorscepconnec
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectorscepConnector.PcaconnectorscepConnectorMobileDeviceManagement.property.intune">Intune</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectorscepConnector.PcaconnectorscepConnectorMobileDeviceManagementIntune">PcaconnectorscepConnectorMobileDeviceManagementIntune</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcaconnectorscep_connector#intune PcaconnectorscepConnector#intune}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectorscepConnector.PcaconnectorscepConnectorMobileDeviceManagement.property.intune">Intune</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectorscepConnector.PcaconnectorscepConnectorMobileDeviceManagementIntune">PcaconnectorscepConnectorMobileDeviceManagementIntune</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/pcaconnectorscep_connector#intune PcaconnectorscepConnector#intune}. |
 
 ---
 
@@ -1047,7 +1047,7 @@ Intune PcaconnectorscepConnectorMobileDeviceManagementIntune
 
 - *Type:* <a href="#@cdktn/provider-awscc.pcaconnectorscepConnector.PcaconnectorscepConnectorMobileDeviceManagementIntune">PcaconnectorscepConnectorMobileDeviceManagementIntune</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcaconnectorscep_connector#intune PcaconnectorscepConnector#intune}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/pcaconnectorscep_connector#intune PcaconnectorscepConnector#intune}.
 
 ---
 
@@ -1068,8 +1068,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/pcaconnectorscepconnec
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectorscepConnector.PcaconnectorscepConnectorMobileDeviceManagementIntune.property.azureApplicationId">AzureApplicationId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcaconnectorscep_connector#azure_application_id PcaconnectorscepConnector#azure_application_id}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectorscepConnector.PcaconnectorscepConnectorMobileDeviceManagementIntune.property.domain">Domain</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcaconnectorscep_connector#domain PcaconnectorscepConnector#domain}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectorscepConnector.PcaconnectorscepConnectorMobileDeviceManagementIntune.property.azureApplicationId">AzureApplicationId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/pcaconnectorscep_connector#azure_application_id PcaconnectorscepConnector#azure_application_id}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectorscepConnector.PcaconnectorscepConnectorMobileDeviceManagementIntune.property.domain">Domain</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/pcaconnectorscep_connector#domain PcaconnectorscepConnector#domain}. |
 
 ---
 
@@ -1081,7 +1081,7 @@ AzureApplicationId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcaconnectorscep_connector#azure_application_id PcaconnectorscepConnector#azure_application_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/pcaconnectorscep_connector#azure_application_id PcaconnectorscepConnector#azure_application_id}.
 
 ---
 
@@ -1093,7 +1093,7 @@ Domain *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcaconnectorscep_connector#domain PcaconnectorscepConnector#domain}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/pcaconnectorscep_connector#domain PcaconnectorscepConnector#domain}.
 
 ---
 

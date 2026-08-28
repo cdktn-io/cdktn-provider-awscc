@@ -4,7 +4,7 @@
 
 ### DataAwsccInvoicingInvoiceUnits <a name="DataAwsccInvoicingInvoiceUnits" id="@cdktn/provider-awscc.dataAwsccInvoicingInvoiceUnits.DataAwsccInvoicingInvoiceUnits"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/invoicing_invoice_units awscc_invoicing_invoice_units}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/invoicing_invoice_units awscc_invoicing_invoice_units}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInvoicingInvoiceUnits.DataAwsccInvoicingInvoiceUnits.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccInvoicingInvoiceU
 
 The id of the existing DataAwsccInvoicingInvoiceUnits that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/invoicing_invoice_units#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/invoicing_invoice_units#import import section} in the documentation of this resource for the id to use
 
 ---
 

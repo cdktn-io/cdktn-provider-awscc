@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_view
+// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_view
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,37 +15,37 @@ export interface ConnectViewConfig extends cdktn.TerraformMetaArguments {
   /**
   * The actions of the view in an array.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_view#actions ConnectView#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_view#actions ConnectView#actions}
   */
   readonly actions: string[];
   /**
   * The description of the view.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_view#description ConnectView#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_view#description ConnectView#description}
   */
   readonly description?: string;
   /**
   * The Amazon Resource Name (ARN) of the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_view#instance_arn ConnectView#instance_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_view#instance_arn ConnectView#instance_arn}
   */
   readonly instanceArn: string;
   /**
   * The name of the view.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_view#name ConnectView#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_view#name ConnectView#name}
   */
   readonly name: string;
   /**
   * One or more tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_view#tags ConnectView#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_view#tags ConnectView#tags}
   */
   readonly tags?: ConnectViewTags[] | cdktn.IResolvable;
   /**
   * The template of the view as JSON.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_view#template ConnectView#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_view#template ConnectView#template}
   */
   readonly template: string;
 }
@@ -53,13 +53,13 @@ export interface ConnectViewTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_view#key ConnectView#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_view#key ConnectView#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. . You can specify a value that is maximum of 256 Unicode characters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_view#value ConnectView#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_view#value ConnectView#value}
   */
   readonly value?: string;
 }
@@ -204,7 +204,7 @@ export class ConnectViewTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_view awscc_connect_view}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_view awscc_connect_view}
 */
 export class ConnectView extends cdktn.TerraformResource {
 
@@ -220,7 +220,7 @@ export class ConnectView extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ConnectView resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConnectView to import
-  * @param importFromId The id of the existing ConnectView that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_view#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConnectView that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_view#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConnectView to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -232,7 +232,7 @@ export class ConnectView extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_view awscc_connect_view} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_view awscc_connect_view} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -243,7 +243,7 @@ export class ConnectView extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_connect_view',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.98.0',
+        providerVersion: '1.99.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

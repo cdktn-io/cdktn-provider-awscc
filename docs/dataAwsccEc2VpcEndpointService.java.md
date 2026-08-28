@@ -4,7 +4,7 @@
 
 ### DataAwsccEc2VpcEndpointService <a name="DataAwsccEc2VpcEndpointService" id="@cdktn/provider-awscc.dataAwsccEc2VpcEndpointService.DataAwsccEc2VpcEndpointService"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ec2_vpc_endpoint_service awscc_ec2_vpc_endpoint_service}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_vpc_endpoint_service awscc_ec2_vpc_endpoint_service}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2VpcEndpointService.DataAwsccEc2VpcEndpointService.Initializer"></a>
 
@@ -104,7 +104,7 @@ Must be unique amongst siblings in the same scope
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ec2_vpc_endpoint_service#id DataAwsccEc2VpcEndpointService#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_vpc_endpoint_service#id DataAwsccEc2VpcEndpointService#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -452,7 +452,7 @@ The construct id used in the generated config for the DataAwsccEc2VpcEndpointSer
 
 The id of the existing DataAwsccEc2VpcEndpointService that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ec2_vpc_endpoint_service#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_vpc_endpoint_service#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -485,6 +485,8 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98
 | <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcEndpointService.DataAwsccEc2VpcEndpointService.property.gatewayLoadBalancerArns">gatewayLoadBalancerArns</a></code> | <code>java.util.List<java.lang.String></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcEndpointService.DataAwsccEc2VpcEndpointService.property.networkLoadBalancerArns">networkLoadBalancerArns</a></code> | <code>java.util.List<java.lang.String></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcEndpointService.DataAwsccEc2VpcEndpointService.property.payerResponsibility">payerResponsibility</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcEndpointService.DataAwsccEc2VpcEndpointService.property.privateDnsName">privateDnsName</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcEndpointService.DataAwsccEc2VpcEndpointService.property.privateDnsNameConfiguration">privateDnsNameConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcEndpointService.DataAwsccEc2VpcEndpointServicePrivateDnsNameConfigurationOutputReference">DataAwsccEc2VpcEndpointServicePrivateDnsNameConfigurationOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcEndpointService.DataAwsccEc2VpcEndpointService.property.serviceId">serviceId</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcEndpointService.DataAwsccEc2VpcEndpointService.property.supportedIpAddressTypes">supportedIpAddressTypes</a></code> | <code>java.util.List<java.lang.String></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcEndpointService.DataAwsccEc2VpcEndpointService.property.supportedRegions">supportedRegions</a></code> | <code>java.util.List<java.lang.String></code> | *No description.* |
@@ -663,6 +665,26 @@ public java.lang.String getPayerResponsibility();
 ```
 
 - *Type:* java.lang.String
+
+---
+
+##### `privateDnsName`<sup>Required</sup> <a name="privateDnsName" id="@cdktn/provider-awscc.dataAwsccEc2VpcEndpointService.DataAwsccEc2VpcEndpointService.property.privateDnsName"></a>
+
+```java
+public java.lang.String getPrivateDnsName();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `privateDnsNameConfiguration`<sup>Required</sup> <a name="privateDnsNameConfiguration" id="@cdktn/provider-awscc.dataAwsccEc2VpcEndpointService.DataAwsccEc2VpcEndpointService.property.privateDnsNameConfiguration"></a>
+
+```java
+public DataAwsccEc2VpcEndpointServicePrivateDnsNameConfigurationOutputReference getPrivateDnsNameConfiguration();
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccEc2VpcEndpointService.DataAwsccEc2VpcEndpointServicePrivateDnsNameConfigurationOutputReference">DataAwsccEc2VpcEndpointServicePrivateDnsNameConfigurationOutputReference</a>
 
 ---
 
@@ -860,12 +882,24 @@ public java.lang.String getId();
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ec2_vpc_endpoint_service#id DataAwsccEc2VpcEndpointService#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_vpc_endpoint_service#id DataAwsccEc2VpcEndpointService#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 
 ---
+
+### DataAwsccEc2VpcEndpointServicePrivateDnsNameConfiguration <a name="DataAwsccEc2VpcEndpointServicePrivateDnsNameConfiguration" id="@cdktn/provider-awscc.dataAwsccEc2VpcEndpointService.DataAwsccEc2VpcEndpointServicePrivateDnsNameConfiguration"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2VpcEndpointService.DataAwsccEc2VpcEndpointServicePrivateDnsNameConfiguration.Initializer"></a>
+
+```java
+import io.cdktn.providers.awscc.data_awscc_ec2_vpc_endpoint_service.DataAwsccEc2VpcEndpointServicePrivateDnsNameConfiguration;
+
+DataAwsccEc2VpcEndpointServicePrivateDnsNameConfiguration.builder()
+    .build();
+```
+
 
 ### DataAwsccEc2VpcEndpointServiceTags <a name="DataAwsccEc2VpcEndpointServiceTags" id="@cdktn/provider-awscc.dataAwsccEc2VpcEndpointService.DataAwsccEc2VpcEndpointServiceTags"></a>
 
@@ -880,6 +914,299 @@ DataAwsccEc2VpcEndpointServiceTags.builder()
 
 
 ## Classes <a name="Classes" id="Classes"></a>
+
+### DataAwsccEc2VpcEndpointServicePrivateDnsNameConfigurationOutputReference <a name="DataAwsccEc2VpcEndpointServicePrivateDnsNameConfigurationOutputReference" id="@cdktn/provider-awscc.dataAwsccEc2VpcEndpointService.DataAwsccEc2VpcEndpointServicePrivateDnsNameConfigurationOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2VpcEndpointService.DataAwsccEc2VpcEndpointServicePrivateDnsNameConfigurationOutputReference.Initializer"></a>
+
+```java
+import io.cdktn.providers.awscc.data_awscc_ec2_vpc_endpoint_service.DataAwsccEc2VpcEndpointServicePrivateDnsNameConfigurationOutputReference;
+
+new DataAwsccEc2VpcEndpointServicePrivateDnsNameConfigurationOutputReference(IInterpolatingParent terraformResource, java.lang.String terraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcEndpointService.DataAwsccEc2VpcEndpointServicePrivateDnsNameConfigurationOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>io.cdktn.cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcEndpointService.DataAwsccEc2VpcEndpointServicePrivateDnsNameConfigurationOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>java.lang.String</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.dataAwsccEc2VpcEndpointService.DataAwsccEc2VpcEndpointServicePrivateDnsNameConfigurationOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* io.cdktn.cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccEc2VpcEndpointService.DataAwsccEc2VpcEndpointServicePrivateDnsNameConfigurationOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcEndpointService.DataAwsccEc2VpcEndpointServicePrivateDnsNameConfigurationOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcEndpointService.DataAwsccEc2VpcEndpointServicePrivateDnsNameConfigurationOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcEndpointService.DataAwsccEc2VpcEndpointServicePrivateDnsNameConfigurationOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcEndpointService.DataAwsccEc2VpcEndpointServicePrivateDnsNameConfigurationOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcEndpointService.DataAwsccEc2VpcEndpointServicePrivateDnsNameConfigurationOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcEndpointService.DataAwsccEc2VpcEndpointServicePrivateDnsNameConfigurationOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcEndpointService.DataAwsccEc2VpcEndpointServicePrivateDnsNameConfigurationOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcEndpointService.DataAwsccEc2VpcEndpointServicePrivateDnsNameConfigurationOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcEndpointService.DataAwsccEc2VpcEndpointServicePrivateDnsNameConfigurationOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcEndpointService.DataAwsccEc2VpcEndpointServicePrivateDnsNameConfigurationOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcEndpointService.DataAwsccEc2VpcEndpointServicePrivateDnsNameConfigurationOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcEndpointService.DataAwsccEc2VpcEndpointServicePrivateDnsNameConfigurationOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcEndpointService.DataAwsccEc2VpcEndpointServicePrivateDnsNameConfigurationOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-awscc.dataAwsccEc2VpcEndpointService.DataAwsccEc2VpcEndpointServicePrivateDnsNameConfigurationOutputReference.computeFqn"></a>
+
+```java
+public java.lang.String computeFqn()
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccEc2VpcEndpointService.DataAwsccEc2VpcEndpointServicePrivateDnsNameConfigurationOutputReference.getAnyMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Object> getAnyMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccEc2VpcEndpointService.DataAwsccEc2VpcEndpointServicePrivateDnsNameConfigurationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccEc2VpcEndpointService.DataAwsccEc2VpcEndpointServicePrivateDnsNameConfigurationOutputReference.getBooleanAttribute"></a>
+
+```java
+public IResolvable getBooleanAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccEc2VpcEndpointService.DataAwsccEc2VpcEndpointServicePrivateDnsNameConfigurationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccEc2VpcEndpointService.DataAwsccEc2VpcEndpointServicePrivateDnsNameConfigurationOutputReference.getBooleanMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Boolean> getBooleanMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccEc2VpcEndpointService.DataAwsccEc2VpcEndpointServicePrivateDnsNameConfigurationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-awscc.dataAwsccEc2VpcEndpointService.DataAwsccEc2VpcEndpointServicePrivateDnsNameConfigurationOutputReference.getListAttribute"></a>
+
+```java
+public java.util.List<java.lang.String> getListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccEc2VpcEndpointService.DataAwsccEc2VpcEndpointServicePrivateDnsNameConfigurationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-awscc.dataAwsccEc2VpcEndpointService.DataAwsccEc2VpcEndpointServicePrivateDnsNameConfigurationOutputReference.getNumberAttribute"></a>
+
+```java
+public java.lang.Number getNumberAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccEc2VpcEndpointService.DataAwsccEc2VpcEndpointServicePrivateDnsNameConfigurationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccEc2VpcEndpointService.DataAwsccEc2VpcEndpointServicePrivateDnsNameConfigurationOutputReference.getNumberListAttribute"></a>
+
+```java
+public java.util.List<java.lang.Number> getNumberListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccEc2VpcEndpointService.DataAwsccEc2VpcEndpointServicePrivateDnsNameConfigurationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccEc2VpcEndpointService.DataAwsccEc2VpcEndpointServicePrivateDnsNameConfigurationOutputReference.getNumberMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Number> getNumberMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccEc2VpcEndpointService.DataAwsccEc2VpcEndpointServicePrivateDnsNameConfigurationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-awscc.dataAwsccEc2VpcEndpointService.DataAwsccEc2VpcEndpointServicePrivateDnsNameConfigurationOutputReference.getStringAttribute"></a>
+
+```java
+public java.lang.String getStringAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccEc2VpcEndpointService.DataAwsccEc2VpcEndpointServicePrivateDnsNameConfigurationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccEc2VpcEndpointService.DataAwsccEc2VpcEndpointServicePrivateDnsNameConfigurationOutputReference.getStringMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.String> getStringMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccEc2VpcEndpointService.DataAwsccEc2VpcEndpointServicePrivateDnsNameConfigurationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccEc2VpcEndpointService.DataAwsccEc2VpcEndpointServicePrivateDnsNameConfigurationOutputReference.interpolationForAttribute"></a>
+
+```java
+public IResolvable interpolationForAttribute(java.lang.String property)
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.dataAwsccEc2VpcEndpointService.DataAwsccEc2VpcEndpointServicePrivateDnsNameConfigurationOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.dataAwsccEc2VpcEndpointService.DataAwsccEc2VpcEndpointServicePrivateDnsNameConfigurationOutputReference.resolve"></a>
+
+```java
+public java.lang.Object resolve(IResolveContext _context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.dataAwsccEc2VpcEndpointService.DataAwsccEc2VpcEndpointServicePrivateDnsNameConfigurationOutputReference.resolve.parameter._context"></a>
+
+- *Type:* io.cdktn.cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-awscc.dataAwsccEc2VpcEndpointService.DataAwsccEc2VpcEndpointServicePrivateDnsNameConfigurationOutputReference.toString"></a>
+
+```java
+public java.lang.String toString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcEndpointService.DataAwsccEc2VpcEndpointServicePrivateDnsNameConfigurationOutputReference.property.creationStack">creationStack</a></code> | <code>java.util.List<java.lang.String></code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcEndpointService.DataAwsccEc2VpcEndpointServicePrivateDnsNameConfigurationOutputReference.property.fqn">fqn</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcEndpointService.DataAwsccEc2VpcEndpointServicePrivateDnsNameConfigurationOutputReference.property.name">name</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcEndpointService.DataAwsccEc2VpcEndpointServicePrivateDnsNameConfigurationOutputReference.property.state">state</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcEndpointService.DataAwsccEc2VpcEndpointServicePrivateDnsNameConfigurationOutputReference.property.type">type</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcEndpointService.DataAwsccEc2VpcEndpointServicePrivateDnsNameConfigurationOutputReference.property.value">value</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcEndpointService.DataAwsccEc2VpcEndpointServicePrivateDnsNameConfigurationOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcEndpointService.DataAwsccEc2VpcEndpointServicePrivateDnsNameConfiguration">DataAwsccEc2VpcEndpointServicePrivateDnsNameConfiguration</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-awscc.dataAwsccEc2VpcEndpointService.DataAwsccEc2VpcEndpointServicePrivateDnsNameConfigurationOutputReference.property.creationStack"></a>
+
+```java
+public java.util.List<java.lang.String> getCreationStack();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.dataAwsccEc2VpcEndpointService.DataAwsccEc2VpcEndpointServicePrivateDnsNameConfigurationOutputReference.property.fqn"></a>
+
+```java
+public java.lang.String getFqn();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `name`<sup>Required</sup> <a name="name" id="@cdktn/provider-awscc.dataAwsccEc2VpcEndpointService.DataAwsccEc2VpcEndpointServicePrivateDnsNameConfigurationOutputReference.property.name"></a>
+
+```java
+public java.lang.String getName();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `state`<sup>Required</sup> <a name="state" id="@cdktn/provider-awscc.dataAwsccEc2VpcEndpointService.DataAwsccEc2VpcEndpointServicePrivateDnsNameConfigurationOutputReference.property.state"></a>
+
+```java
+public java.lang.String getState();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `type`<sup>Required</sup> <a name="type" id="@cdktn/provider-awscc.dataAwsccEc2VpcEndpointService.DataAwsccEc2VpcEndpointServicePrivateDnsNameConfigurationOutputReference.property.type"></a>
+
+```java
+public java.lang.String getType();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-awscc.dataAwsccEc2VpcEndpointService.DataAwsccEc2VpcEndpointServicePrivateDnsNameConfigurationOutputReference.property.value"></a>
+
+```java
+public java.lang.String getValue();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-awscc.dataAwsccEc2VpcEndpointService.DataAwsccEc2VpcEndpointServicePrivateDnsNameConfigurationOutputReference.property.internalValue"></a>
+
+```java
+public DataAwsccEc2VpcEndpointServicePrivateDnsNameConfiguration getInternalValue();
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccEc2VpcEndpointService.DataAwsccEc2VpcEndpointServicePrivateDnsNameConfiguration">DataAwsccEc2VpcEndpointServicePrivateDnsNameConfiguration</a>
+
+---
+
 
 ### DataAwsccEc2VpcEndpointServiceTagsList <a name="DataAwsccEc2VpcEndpointServiceTagsList" id="@cdktn/provider-awscc.dataAwsccEc2VpcEndpointService.DataAwsccEc2VpcEndpointServiceTagsList"></a>
 

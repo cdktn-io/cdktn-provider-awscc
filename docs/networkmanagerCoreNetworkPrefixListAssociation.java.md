@@ -4,7 +4,7 @@
 
 ### NetworkmanagerCoreNetworkPrefixListAssociation <a name="NetworkmanagerCoreNetworkPrefixListAssociation" id="@cdktn/provider-awscc.networkmanagerCoreNetworkPrefixListAssociation.NetworkmanagerCoreNetworkPrefixListAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/networkmanager_core_network_prefix_list_association awscc_networkmanager_core_network_prefix_list_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/networkmanager_core_network_prefix_list_association awscc_networkmanager_core_network_prefix_list_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networkmanagerCoreNetworkPrefixListAssociation.NetworkmanagerCoreNetworkPrefixListAssociation.Initializer"></a>
 
@@ -108,7 +108,7 @@ Must be unique amongst siblings in the same scope
 
 The ID of the core network.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/networkmanager_core_network_prefix_list_association#core_network_id NetworkmanagerCoreNetworkPrefixListAssociation#core_network_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/networkmanager_core_network_prefix_list_association#core_network_id NetworkmanagerCoreNetworkPrefixListAssociation#core_network_id}
 
 ---
 
@@ -118,7 +118,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The alias of the prefix list.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/networkmanager_core_network_prefix_list_association#prefix_list_alias NetworkmanagerCoreNetworkPrefixListAssociation#prefix_list_alias}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/networkmanager_core_network_prefix_list_association#prefix_list_alias NetworkmanagerCoreNetworkPrefixListAssociation#prefix_list_alias}
 
 ---
 
@@ -128,7 +128,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The Amazon Resource Name (ARN) of the prefix list.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/networkmanager_core_network_prefix_list_association#prefix_list_arn NetworkmanagerCoreNetworkPrefixListAssociation#prefix_list_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/networkmanager_core_network_prefix_list_association#prefix_list_arn NetworkmanagerCoreNetworkPrefixListAssociation#prefix_list_arn}
 
 ---
 
@@ -577,7 +577,7 @@ The construct id used in the generated config for the NetworkmanagerCoreNetworkP
 
 The id of the existing NetworkmanagerCoreNetworkPrefixListAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/networkmanager_core_network_prefix_list_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/networkmanager_core_network_prefix_list_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -967,7 +967,7 @@ public java.lang.String getCoreNetworkId();
 
 The ID of the core network.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/networkmanager_core_network_prefix_list_association#core_network_id NetworkmanagerCoreNetworkPrefixListAssociation#core_network_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/networkmanager_core_network_prefix_list_association#core_network_id NetworkmanagerCoreNetworkPrefixListAssociation#core_network_id}
 
 ---
 
@@ -981,7 +981,7 @@ public java.lang.String getPrefixListAlias();
 
 The alias of the prefix list.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/networkmanager_core_network_prefix_list_association#prefix_list_alias NetworkmanagerCoreNetworkPrefixListAssociation#prefix_list_alias}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/networkmanager_core_network_prefix_list_association#prefix_list_alias NetworkmanagerCoreNetworkPrefixListAssociation#prefix_list_alias}
 
 ---
 
@@ -995,7 +995,7 @@ public java.lang.String getPrefixListArn();
 
 The Amazon Resource Name (ARN) of the prefix list.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/networkmanager_core_network_prefix_list_association#prefix_list_arn NetworkmanagerCoreNetworkPrefixListAssociation#prefix_list_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/networkmanager_core_network_prefix_list_association#prefix_list_arn NetworkmanagerCoreNetworkPrefixListAssociation#prefix_list_arn}
 
 ---
 

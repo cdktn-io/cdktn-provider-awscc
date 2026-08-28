@@ -4,7 +4,7 @@
 
 ### ServicecatalogappregistryResourceAssociation <a name="ServicecatalogappregistryResourceAssociation" id="@cdktn/provider-awscc.servicecatalogappregistryResourceAssociation.ServicecatalogappregistryResourceAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicecatalogappregistry_resource_association awscc_servicecatalogappregistry_resource_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicecatalogappregistry_resource_association awscc_servicecatalogappregistry_resource_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.servicecatalogappregistryResourceAssociation.ServicecatalogappregistryResourceAssociation.Initializer"></a>
 
@@ -489,7 +489,7 @@ The construct id used in the generated config for the ServicecatalogappregistryR
 
 The id of the existing ServicecatalogappregistryResourceAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicecatalogappregistry_resource_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicecatalogappregistry_resource_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -890,7 +890,7 @@ public readonly application: string;
 
 The name or the Id of the Application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicecatalogappregistry_resource_association#application ServicecatalogappregistryResourceAssociation#application}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicecatalogappregistry_resource_association#application ServicecatalogappregistryResourceAssociation#application}
 
 ---
 
@@ -904,7 +904,7 @@ public readonly resource: string;
 
 The name or the Id of the Resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicecatalogappregistry_resource_association#resource ServicecatalogappregistryResourceAssociation#resource}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicecatalogappregistry_resource_association#resource ServicecatalogappregistryResourceAssociation#resource}
 
 ---
 
@@ -918,7 +918,7 @@ public readonly resourceType: string;
 
 The type of the CFN Resource for now it's enum CFN_STACK.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicecatalogappregistry_resource_association#resource_type ServicecatalogappregistryResourceAssociation#resource_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicecatalogappregistry_resource_association#resource_type ServicecatalogappregistryResourceAssociation#resource_type}
 
 ---
 

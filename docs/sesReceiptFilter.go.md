@@ -4,7 +4,7 @@
 
 ### SesReceiptFilter <a name="SesReceiptFilter" id="@cdktn/provider-awscc.sesReceiptFilter.SesReceiptFilter"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_receipt_filter awscc_ses_receipt_filter}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_receipt_filter awscc_ses_receipt_filter}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sesReceiptFilter.SesReceiptFilter.Initializer"></a>
 
@@ -502,7 +502,7 @@ The construct id used in the generated config for the SesReceiptFilter to import
 
 The id of the existing SesReceiptFilter that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_receipt_filter#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_receipt_filter#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -855,7 +855,7 @@ Filter SesReceiptFilterFilter
 
 A structure that describes the IP address filter to create, which consists of a name, an IP address range, and whether to allow or block mail from it.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_receipt_filter#filter SesReceiptFilter#filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_receipt_filter#filter SesReceiptFilter#filter}
 
 ---
 
@@ -891,7 +891,7 @@ IpFilter SesReceiptFilterFilterIpFilter
 
 A structure that provides the IP addresses to block or allow, and whether to block or allow incoming mail from them.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_receipt_filter#ip_filter SesReceiptFilter#ip_filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_receipt_filter#ip_filter SesReceiptFilter#ip_filter}
 
 ---
 
@@ -905,7 +905,7 @@ Name *string
 
 The name of the IP address filter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_receipt_filter#name SesReceiptFilter#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_receipt_filter#name SesReceiptFilter#name}
 
 ---
 
@@ -941,7 +941,7 @@ Cidr *string
 
 A single IP address or a range of IP addresses to block or allow, specified in CIDR notation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_receipt_filter#cidr SesReceiptFilter#cidr}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_receipt_filter#cidr SesReceiptFilter#cidr}
 
 ---
 
@@ -955,7 +955,7 @@ Policy *string
 
 Indicates whether to block or allow incoming mail from the specified IP addresses.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_receipt_filter#policy SesReceiptFilter#policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_receipt_filter#policy SesReceiptFilter#policy}
 
 ---
 

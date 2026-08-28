@@ -4,7 +4,7 @@
 
 ### DataAwsccEmrStudioSessionMappings <a name="DataAwsccEmrStudioSessionMappings" id="@cdktn/provider-awscc.dataAwsccEmrStudioSessionMappings.DataAwsccEmrStudioSessionMappings"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/emr_studio_session_mappings awscc_emr_studio_session_mappings}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/emr_studio_session_mappings awscc_emr_studio_session_mappings}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEmrStudioSessionMappings.DataAwsccEmrStudioSessionMappings.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEmrStudioSessionM
 
 The id of the existing DataAwsccEmrStudioSessionMappings that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/emr_studio_session_mappings#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/emr_studio_session_mappings#import import section} in the documentation of this resource for the id to use
 
 ---
 

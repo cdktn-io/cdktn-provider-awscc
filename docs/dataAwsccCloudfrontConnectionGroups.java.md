@@ -4,7 +4,7 @@
 
 ### DataAwsccCloudfrontConnectionGroups <a name="DataAwsccCloudfrontConnectionGroups" id="@cdktn/provider-awscc.dataAwsccCloudfrontConnectionGroups.DataAwsccCloudfrontConnectionGroups"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/cloudfront_connection_groups awscc_cloudfront_connection_groups}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/cloudfront_connection_groups awscc_cloudfront_connection_groups}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudfrontConnectionGroups.DataAwsccCloudfrontConnectionGroups.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccCloudfrontConnect
 
 The id of the existing DataAwsccCloudfrontConnectionGroups that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/cloudfront_connection_groups#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/cloudfront_connection_groups#import import section} in the documentation of this resource for the id to use
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### GlobalacceleratorAccelerator <a name="GlobalacceleratorAccelerator" id="@cdktn/provider-awscc.globalacceleratorAccelerator.GlobalacceleratorAccelerator"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/globalaccelerator_accelerator awscc_globalaccelerator_accelerator}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/globalaccelerator_accelerator awscc_globalaccelerator_accelerator}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.globalacceleratorAccelerator.GlobalacceleratorAccelerator.Initializer"></a>
 
@@ -50,7 +50,7 @@ globalacceleratorAccelerator.GlobalacceleratorAccelerator(
 | <code><a href="#@cdktn/provider-awscc.globalacceleratorAccelerator.GlobalacceleratorAccelerator.Initializer.parameter.flowLogsS3Prefix">flow_logs_s3_prefix</a></code> | <code>str</code> | The prefix for the location in the Amazon S3 bucket for the flow logs. |
 | <code><a href="#@cdktn/provider-awscc.globalacceleratorAccelerator.GlobalacceleratorAccelerator.Initializer.parameter.ipAddresses">ip_addresses</a></code> | <code>typing.List[str]</code> | The IP addresses from BYOIP Prefix pool. |
 | <code><a href="#@cdktn/provider-awscc.globalacceleratorAccelerator.GlobalacceleratorAccelerator.Initializer.parameter.ipAddressType">ip_address_type</a></code> | <code>str</code> | IP Address type. |
-| <code><a href="#@cdktn/provider-awscc.globalacceleratorAccelerator.GlobalacceleratorAccelerator.Initializer.parameter.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.globalacceleratorAccelerator.GlobalacceleratorAcceleratorTags">GlobalacceleratorAcceleratorTags</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/globalaccelerator_accelerator#tags GlobalacceleratorAccelerator#tags}. |
+| <code><a href="#@cdktn/provider-awscc.globalacceleratorAccelerator.GlobalacceleratorAccelerator.Initializer.parameter.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.globalacceleratorAccelerator.GlobalacceleratorAcceleratorTags">GlobalacceleratorAcceleratorTags</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/globalaccelerator_accelerator#tags GlobalacceleratorAccelerator#tags}. |
 
 ---
 
@@ -120,7 +120,7 @@ Must be unique amongst siblings in the same scope
 
 Name of accelerator.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/globalaccelerator_accelerator#name GlobalacceleratorAccelerator#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/globalaccelerator_accelerator#name GlobalacceleratorAccelerator#name}
 
 ---
 
@@ -130,7 +130,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Indicates whether an accelerator is enabled. The value is true or false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/globalaccelerator_accelerator#enabled GlobalacceleratorAccelerator#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/globalaccelerator_accelerator#enabled GlobalacceleratorAccelerator#enabled}
 
 ---
 
@@ -140,7 +140,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Indicates whether flow logs are enabled for the accelerator.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/globalaccelerator_accelerator#flow_logs_enabled GlobalacceleratorAccelerator#flow_logs_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/globalaccelerator_accelerator#flow_logs_enabled GlobalacceleratorAccelerator#flow_logs_enabled}
 
 ---
 
@@ -150,7 +150,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the Amazon S3 bucket for the flow logs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/globalaccelerator_accelerator#flow_logs_s3_bucket GlobalacceleratorAccelerator#flow_logs_s3_bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/globalaccelerator_accelerator#flow_logs_s3_bucket GlobalacceleratorAccelerator#flow_logs_s3_bucket}
 
 ---
 
@@ -160,7 +160,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The prefix for the location in the Amazon S3 bucket for the flow logs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/globalaccelerator_accelerator#flow_logs_s3_prefix GlobalacceleratorAccelerator#flow_logs_s3_prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/globalaccelerator_accelerator#flow_logs_s3_prefix GlobalacceleratorAccelerator#flow_logs_s3_prefix}
 
 ---
 
@@ -170,7 +170,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The IP addresses from BYOIP Prefix pool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/globalaccelerator_accelerator#ip_addresses GlobalacceleratorAccelerator#ip_addresses}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/globalaccelerator_accelerator#ip_addresses GlobalacceleratorAccelerator#ip_addresses}
 
 ---
 
@@ -180,7 +180,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 IP Address type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/globalaccelerator_accelerator#ip_address_type GlobalacceleratorAccelerator#ip_address_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/globalaccelerator_accelerator#ip_address_type GlobalacceleratorAccelerator#ip_address_type}
 
 ---
 
@@ -188,7 +188,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.globalacceleratorAccelerator.GlobalacceleratorAcceleratorTags">GlobalacceleratorAcceleratorTags</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/globalaccelerator_accelerator#tags GlobalacceleratorAccelerator#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/globalaccelerator_accelerator#tags GlobalacceleratorAccelerator#tags}.
 
 ---
 
@@ -749,7 +749,7 @@ The construct id used in the generated config for the GlobalacceleratorAccelerat
 
 The id of the existing GlobalacceleratorAccelerator that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/globalaccelerator_accelerator#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/globalaccelerator_accelerator#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1230,7 +1230,7 @@ globalacceleratorAccelerator.GlobalacceleratorAcceleratorConfig(
 | <code><a href="#@cdktn/provider-awscc.globalacceleratorAccelerator.GlobalacceleratorAcceleratorConfig.property.flowLogsS3Prefix">flow_logs_s3_prefix</a></code> | <code>str</code> | The prefix for the location in the Amazon S3 bucket for the flow logs. |
 | <code><a href="#@cdktn/provider-awscc.globalacceleratorAccelerator.GlobalacceleratorAcceleratorConfig.property.ipAddresses">ip_addresses</a></code> | <code>typing.List[str]</code> | The IP addresses from BYOIP Prefix pool. |
 | <code><a href="#@cdktn/provider-awscc.globalacceleratorAccelerator.GlobalacceleratorAcceleratorConfig.property.ipAddressType">ip_address_type</a></code> | <code>str</code> | IP Address type. |
-| <code><a href="#@cdktn/provider-awscc.globalacceleratorAccelerator.GlobalacceleratorAcceleratorConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.globalacceleratorAccelerator.GlobalacceleratorAcceleratorTags">GlobalacceleratorAcceleratorTags</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/globalaccelerator_accelerator#tags GlobalacceleratorAccelerator#tags}. |
+| <code><a href="#@cdktn/provider-awscc.globalacceleratorAccelerator.GlobalacceleratorAcceleratorConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.globalacceleratorAccelerator.GlobalacceleratorAcceleratorTags">GlobalacceleratorAcceleratorTags</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/globalaccelerator_accelerator#tags GlobalacceleratorAccelerator#tags}. |
 
 ---
 
@@ -1314,7 +1314,7 @@ name: str
 
 Name of accelerator.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/globalaccelerator_accelerator#name GlobalacceleratorAccelerator#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/globalaccelerator_accelerator#name GlobalacceleratorAccelerator#name}
 
 ---
 
@@ -1328,7 +1328,7 @@ enabled: bool | IResolvable
 
 Indicates whether an accelerator is enabled. The value is true or false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/globalaccelerator_accelerator#enabled GlobalacceleratorAccelerator#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/globalaccelerator_accelerator#enabled GlobalacceleratorAccelerator#enabled}
 
 ---
 
@@ -1342,7 +1342,7 @@ flow_logs_enabled: bool | IResolvable
 
 Indicates whether flow logs are enabled for the accelerator.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/globalaccelerator_accelerator#flow_logs_enabled GlobalacceleratorAccelerator#flow_logs_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/globalaccelerator_accelerator#flow_logs_enabled GlobalacceleratorAccelerator#flow_logs_enabled}
 
 ---
 
@@ -1356,7 +1356,7 @@ flow_logs_s3_bucket: str
 
 The name of the Amazon S3 bucket for the flow logs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/globalaccelerator_accelerator#flow_logs_s3_bucket GlobalacceleratorAccelerator#flow_logs_s3_bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/globalaccelerator_accelerator#flow_logs_s3_bucket GlobalacceleratorAccelerator#flow_logs_s3_bucket}
 
 ---
 
@@ -1370,7 +1370,7 @@ flow_logs_s3_prefix: str
 
 The prefix for the location in the Amazon S3 bucket for the flow logs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/globalaccelerator_accelerator#flow_logs_s3_prefix GlobalacceleratorAccelerator#flow_logs_s3_prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/globalaccelerator_accelerator#flow_logs_s3_prefix GlobalacceleratorAccelerator#flow_logs_s3_prefix}
 
 ---
 
@@ -1384,7 +1384,7 @@ ip_addresses: typing.List[str]
 
 The IP addresses from BYOIP Prefix pool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/globalaccelerator_accelerator#ip_addresses GlobalacceleratorAccelerator#ip_addresses}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/globalaccelerator_accelerator#ip_addresses GlobalacceleratorAccelerator#ip_addresses}
 
 ---
 
@@ -1398,7 +1398,7 @@ ip_address_type: str
 
 IP Address type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/globalaccelerator_accelerator#ip_address_type GlobalacceleratorAccelerator#ip_address_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/globalaccelerator_accelerator#ip_address_type GlobalacceleratorAccelerator#ip_address_type}
 
 ---
 
@@ -1410,7 +1410,7 @@ tags: IResolvable | typing.List[GlobalacceleratorAcceleratorTags]
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.globalacceleratorAccelerator.GlobalacceleratorAcceleratorTags">GlobalacceleratorAcceleratorTags</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/globalaccelerator_accelerator#tags GlobalacceleratorAccelerator#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/globalaccelerator_accelerator#tags GlobalacceleratorAccelerator#tags}.
 
 ---
 
@@ -1446,7 +1446,7 @@ key: str
 
 Key of the tag. Value can be 1 to 127 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/globalaccelerator_accelerator#key GlobalacceleratorAccelerator#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/globalaccelerator_accelerator#key GlobalacceleratorAccelerator#key}
 
 ---
 
@@ -1460,7 +1460,7 @@ value: str
 
 Value for the tag. Value can be 1 to 255 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/globalaccelerator_accelerator#value GlobalacceleratorAccelerator#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/globalaccelerator_accelerator#value GlobalacceleratorAccelerator#value}
 
 ---
 

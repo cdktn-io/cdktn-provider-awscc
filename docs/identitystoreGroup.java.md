@@ -4,7 +4,7 @@
 
 ### IdentitystoreGroup <a name="IdentitystoreGroup" id="@cdktn/provider-awscc.identitystoreGroup.IdentitystoreGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/identitystore_group awscc_identitystore_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/identitystore_group awscc_identitystore_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.identitystoreGroup.IdentitystoreGroup.Initializer"></a>
 
@@ -108,7 +108,7 @@ Must be unique amongst siblings in the same scope
 
 A string containing the name of the group. This value is commonly displayed when the group is referenced.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/identitystore_group#display_name IdentitystoreGroup#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/identitystore_group#display_name IdentitystoreGroup#display_name}
 
 ---
 
@@ -118,7 +118,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The globally unique identifier for the identity store.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/identitystore_group#identity_store_id IdentitystoreGroup#identity_store_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/identitystore_group#identity_store_id IdentitystoreGroup#identity_store_id}
 
 ---
 
@@ -128,7 +128,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A string containing the description of the group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/identitystore_group#description IdentitystoreGroup#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/identitystore_group#description IdentitystoreGroup#description}
 
 ---
 
@@ -584,7 +584,7 @@ The construct id used in the generated config for the IdentitystoreGroup to impo
 
 The id of the existing IdentitystoreGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/identitystore_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/identitystore_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -985,7 +985,7 @@ public java.lang.String getDisplayName();
 
 A string containing the name of the group. This value is commonly displayed when the group is referenced.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/identitystore_group#display_name IdentitystoreGroup#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/identitystore_group#display_name IdentitystoreGroup#display_name}
 
 ---
 
@@ -999,7 +999,7 @@ public java.lang.String getIdentityStoreId();
 
 The globally unique identifier for the identity store.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/identitystore_group#identity_store_id IdentitystoreGroup#identity_store_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/identitystore_group#identity_store_id IdentitystoreGroup#identity_store_id}
 
 ---
 
@@ -1013,7 +1013,7 @@ public java.lang.String getDescription();
 
 A string containing the description of the group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/identitystore_group#description IdentitystoreGroup#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/identitystore_group#description IdentitystoreGroup#description}
 
 ---
 

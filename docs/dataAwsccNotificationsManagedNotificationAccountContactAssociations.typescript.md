@@ -4,7 +4,7 @@
 
 ### DataAwsccNotificationsManagedNotificationAccountContactAssociations <a name="DataAwsccNotificationsManagedNotificationAccountContactAssociations" id="@cdktn/provider-awscc.dataAwsccNotificationsManagedNotificationAccountContactAssociations.DataAwsccNotificationsManagedNotificationAccountContactAssociations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/notifications_managed_notification_account_contact_associations awscc_notifications_managed_notification_account_contact_associations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/notifications_managed_notification_account_contact_associations awscc_notifications_managed_notification_account_contact_associations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNotificationsManagedNotificationAccountContactAssociations.DataAwsccNotificationsManagedNotificationAccountContactAssociations.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccNotificationsMana
 
 The id of the existing DataAwsccNotificationsManagedNotificationAccountContactAssociations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/notifications_managed_notification_account_contact_associations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/notifications_managed_notification_account_contact_associations#import import section} in the documentation of this resource for the id to use
 
 ---
 

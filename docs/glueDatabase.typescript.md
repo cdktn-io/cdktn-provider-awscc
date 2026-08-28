@@ -4,7 +4,7 @@
 
 ### GlueDatabase <a name="GlueDatabase" id="@cdktn/provider-awscc.glueDatabase.GlueDatabase"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_database awscc_glue_database}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_database awscc_glue_database}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueDatabase.GlueDatabase.Initializer"></a>
 
@@ -509,7 +509,7 @@ The construct id used in the generated config for the GlueDatabase to import.
 
 The id of the existing GlueDatabase that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_database#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_database#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -888,7 +888,7 @@ public readonly catalogId: string;
 
 The AWS account ID for the account in which to create the catalog object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_database#catalog_id GlueDatabase#catalog_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_database#catalog_id GlueDatabase#catalog_id}
 
 ---
 
@@ -902,7 +902,7 @@ public readonly databaseInput: GlueDatabaseDatabaseInput;
 
 The metadata for the database.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_database#database_input GlueDatabase#database_input}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_database#database_input GlueDatabase#database_input}
 
 ---
 
@@ -916,7 +916,7 @@ public readonly databaseName: string;
 
 The name of the database. For hive compatibility, this is folded to lowercase when it is store.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_database#database_name GlueDatabase#database_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_database#database_name GlueDatabase#database_name}
 
 ---
 
@@ -956,7 +956,7 @@ Creates a set of default permissions on the table for principals.
 
 Used by AWS Lake Formation. Not used in the normal course of AWS Glue operations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_database#create_table_default_permissions GlueDatabase#create_table_default_permissions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_database#create_table_default_permissions GlueDatabase#create_table_default_permissions}
 
 ---
 
@@ -970,7 +970,7 @@ public readonly description: string;
 
 A description of the database.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_database#description GlueDatabase#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_database#description GlueDatabase#description}
 
 ---
 
@@ -984,7 +984,7 @@ public readonly federatedDatabase: GlueDatabaseDatabaseInputFederatedDatabase;
 
 A FederatedDatabase structure that references an entity outside the AWS Glue Data Catalog.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_database#federated_database GlueDatabase#federated_database}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_database#federated_database GlueDatabase#federated_database}
 
 ---
 
@@ -998,7 +998,7 @@ public readonly locationUri: string;
 
 The location of the database (for example, an HDFS path).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_database#location_uri GlueDatabase#location_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_database#location_uri GlueDatabase#location_uri}
 
 ---
 
@@ -1012,7 +1012,7 @@ public readonly name: string;
 
 The name of the database. For hive compatibility, this is folded to lowercase when it is stored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_database#name GlueDatabase#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_database#name GlueDatabase#name}
 
 ---
 
@@ -1026,7 +1026,7 @@ public readonly parameters: string;
 
 These key-value pairs define parameters and properties of the database.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_database#parameters GlueDatabase#parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_database#parameters GlueDatabase#parameters}
 
 ---
 
@@ -1040,7 +1040,7 @@ public readonly targetDatabase: GlueDatabaseDatabaseInputTargetDatabase;
 
 A DatabaseIdentifier structure that describes a target database for resource linking.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_database#target_database GlueDatabase#target_database}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_database#target_database GlueDatabase#target_database}
 
 ---
 
@@ -1073,7 +1073,7 @@ public readonly permissions: string[];
 
 The permissions that are granted to the principal.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_database#permissions GlueDatabase#permissions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_database#permissions GlueDatabase#permissions}
 
 ---
 
@@ -1087,7 +1087,7 @@ public readonly principal: GlueDatabaseDatabaseInputCreateTableDefaultPermission
 
 The principal who is granted permissions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_database#principal GlueDatabase#principal}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_database#principal GlueDatabase#principal}
 
 ---
 
@@ -1119,7 +1119,7 @@ public readonly dataLakePrincipalIdentifier: string;
 
 An identifier for the AWS Lake Formation principal.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_database#data_lake_principal_identifier GlueDatabase#data_lake_principal_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_database#data_lake_principal_identifier GlueDatabase#data_lake_principal_identifier}
 
 ---
 
@@ -1152,7 +1152,7 @@ public readonly connectionName: string;
 
 The name of the connection to the external metastore.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_database#connection_name GlueDatabase#connection_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_database#connection_name GlueDatabase#connection_name}
 
 ---
 
@@ -1166,7 +1166,7 @@ public readonly identifier: string;
 
 A unique identifier for the federated database.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_database#identifier GlueDatabase#identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_database#identifier GlueDatabase#identifier}
 
 ---
 
@@ -1200,7 +1200,7 @@ public readonly catalogId: string;
 
 The ID of the Data Catalog in which the database resides.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_database#catalog_id GlueDatabase#catalog_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_database#catalog_id GlueDatabase#catalog_id}
 
 ---
 
@@ -1214,7 +1214,7 @@ public readonly databaseName: string;
 
 The name of the catalog database.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_database#database_name GlueDatabase#database_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_database#database_name GlueDatabase#database_name}
 
 ---
 
@@ -1228,7 +1228,7 @@ public readonly region: string;
 
 Region of the target database.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_database#region GlueDatabase#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_database#region GlueDatabase#region}
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### KinesisvideoSignalingChannel <a name="KinesisvideoSignalingChannel" id="@cdktn/provider-awscc.kinesisvideoSignalingChannel.KinesisvideoSignalingChannel"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/kinesisvideo_signaling_channel awscc_kinesisvideo_signaling_channel}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kinesisvideo_signaling_channel awscc_kinesisvideo_signaling_channel}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.kinesisvideoSignalingChannel.KinesisvideoSignalingChannel.Initializer"></a>
 
@@ -112,7 +112,7 @@ Must be unique amongst siblings in the same scope
 
 The period of time a signaling channel retains undelivered messages before they are discarded.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/kinesisvideo_signaling_channel#message_ttl_seconds KinesisvideoSignalingChannel#message_ttl_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kinesisvideo_signaling_channel#message_ttl_seconds KinesisvideoSignalingChannel#message_ttl_seconds}
 
 ---
 
@@ -122,7 +122,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the Kinesis Video Signaling Channel.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/kinesisvideo_signaling_channel#name KinesisvideoSignalingChannel#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kinesisvideo_signaling_channel#name KinesisvideoSignalingChannel#name}
 
 ---
 
@@ -132,7 +132,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/kinesisvideo_signaling_channel#tags KinesisvideoSignalingChannel#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kinesisvideo_signaling_channel#tags KinesisvideoSignalingChannel#tags}
 
 ---
 
@@ -142,7 +142,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The type of the Kinesis Video Signaling Channel to create. Currently, SINGLE_MASTER is the only supported channel type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/kinesisvideo_signaling_channel#type KinesisvideoSignalingChannel#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kinesisvideo_signaling_channel#type KinesisvideoSignalingChannel#type}
 
 ---
 
@@ -682,7 +682,7 @@ The construct id used in the generated config for the KinesisvideoSignalingChann
 
 The id of the existing KinesisvideoSignalingChannel that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/kinesisvideo_signaling_channel#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kinesisvideo_signaling_channel#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1107,7 +1107,7 @@ message_ttl_seconds: typing.Union[int, float]
 
 The period of time a signaling channel retains undelivered messages before they are discarded.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/kinesisvideo_signaling_channel#message_ttl_seconds KinesisvideoSignalingChannel#message_ttl_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kinesisvideo_signaling_channel#message_ttl_seconds KinesisvideoSignalingChannel#message_ttl_seconds}
 
 ---
 
@@ -1121,7 +1121,7 @@ name: str
 
 The name of the Kinesis Video Signaling Channel.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/kinesisvideo_signaling_channel#name KinesisvideoSignalingChannel#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kinesisvideo_signaling_channel#name KinesisvideoSignalingChannel#name}
 
 ---
 
@@ -1135,7 +1135,7 @@ tags: IResolvable | typing.List[KinesisvideoSignalingChannelTags]
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/kinesisvideo_signaling_channel#tags KinesisvideoSignalingChannel#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kinesisvideo_signaling_channel#tags KinesisvideoSignalingChannel#tags}
 
 ---
 
@@ -1149,7 +1149,7 @@ type: str
 
 The type of the Kinesis Video Signaling Channel to create. Currently, SINGLE_MASTER is the only supported channel type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/kinesisvideo_signaling_channel#type KinesisvideoSignalingChannel#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kinesisvideo_signaling_channel#type KinesisvideoSignalingChannel#type}
 
 ---
 
@@ -1187,7 +1187,7 @@ The key name of the tag.
 
 Specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. The following characters can be used: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/kinesisvideo_signaling_channel#key KinesisvideoSignalingChannel#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kinesisvideo_signaling_channel#key KinesisvideoSignalingChannel#key}
 
 ---
 
@@ -1203,7 +1203,7 @@ The value for the tag.
 
 Specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:.  The following characters can be used: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/kinesisvideo_signaling_channel#value KinesisvideoSignalingChannel#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kinesisvideo_signaling_channel#value KinesisvideoSignalingChannel#value}
 
 ---
 

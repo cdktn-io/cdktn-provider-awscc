@@ -4,7 +4,7 @@
 
 ### DataAwsccQuicksightVpcConnections <a name="DataAwsccQuicksightVpcConnections" id="@cdktn/provider-awscc.dataAwsccQuicksightVpcConnections.DataAwsccQuicksightVpcConnections"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/quicksight_vpc_connections awscc_quicksight_vpc_connections}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/quicksight_vpc_connections awscc_quicksight_vpc_connections}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightVpcConnections.DataAwsccQuicksightVpcConnections.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccQuicksightVpcConn
 
 The id of the existing DataAwsccQuicksightVpcConnections that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/quicksight_vpc_connections#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/quicksight_vpc_connections#import import section} in the documentation of this resource for the id to use
 
 ---
 

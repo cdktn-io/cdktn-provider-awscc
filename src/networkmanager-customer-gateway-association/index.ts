@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/networkmanager_customer_gateway_association
+// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/networkmanager_customer_gateway_association
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,31 +15,31 @@ export interface NetworkmanagerCustomerGatewayAssociationConfig extends cdktn.Te
   /**
   * The Amazon Resource Name (ARN) of the customer gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/networkmanager_customer_gateway_association#customer_gateway_arn NetworkmanagerCustomerGatewayAssociation#customer_gateway_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/networkmanager_customer_gateway_association#customer_gateway_arn NetworkmanagerCustomerGatewayAssociation#customer_gateway_arn}
   */
   readonly customerGatewayArn: string;
   /**
   * The ID of the device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/networkmanager_customer_gateway_association#device_id NetworkmanagerCustomerGatewayAssociation#device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/networkmanager_customer_gateway_association#device_id NetworkmanagerCustomerGatewayAssociation#device_id}
   */
   readonly deviceId: string;
   /**
   * The ID of the global network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/networkmanager_customer_gateway_association#global_network_id NetworkmanagerCustomerGatewayAssociation#global_network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/networkmanager_customer_gateway_association#global_network_id NetworkmanagerCustomerGatewayAssociation#global_network_id}
   */
   readonly globalNetworkId: string;
   /**
   * The ID of the link
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/networkmanager_customer_gateway_association#link_id NetworkmanagerCustomerGatewayAssociation#link_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/networkmanager_customer_gateway_association#link_id NetworkmanagerCustomerGatewayAssociation#link_id}
   */
   readonly linkId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/networkmanager_customer_gateway_association awscc_networkmanager_customer_gateway_association}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/networkmanager_customer_gateway_association awscc_networkmanager_customer_gateway_association}
 */
 export class NetworkmanagerCustomerGatewayAssociation extends cdktn.TerraformResource {
 
@@ -55,7 +55,7 @@ export class NetworkmanagerCustomerGatewayAssociation extends cdktn.TerraformRes
   * Generates CDKTN code for importing a NetworkmanagerCustomerGatewayAssociation resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkmanagerCustomerGatewayAssociation to import
-  * @param importFromId The id of the existing NetworkmanagerCustomerGatewayAssociation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/networkmanager_customer_gateway_association#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkmanagerCustomerGatewayAssociation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/networkmanager_customer_gateway_association#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkmanagerCustomerGatewayAssociation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -67,7 +67,7 @@ export class NetworkmanagerCustomerGatewayAssociation extends cdktn.TerraformRes
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/networkmanager_customer_gateway_association awscc_networkmanager_customer_gateway_association} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/networkmanager_customer_gateway_association awscc_networkmanager_customer_gateway_association} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -78,7 +78,7 @@ export class NetworkmanagerCustomerGatewayAssociation extends cdktn.TerraformRes
       terraformResourceType: 'awscc_networkmanager_customer_gateway_association',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.98.0',
+        providerVersion: '1.99.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

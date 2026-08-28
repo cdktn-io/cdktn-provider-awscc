@@ -4,7 +4,7 @@
 
 ### DataAwsccMwaaserverlessWorkflow <a name="DataAwsccMwaaserverlessWorkflow" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflow"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/mwaaserverless_workflow awscc_mwaaserverless_workflow}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/mwaaserverless_workflow awscc_mwaaserverless_workflow}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflow.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccMwaaserverlessWor
 
 The id of the existing DataAwsccMwaaserverlessWorkflow that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/mwaaserverless_workflow#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/mwaaserverless_workflow#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -415,6 +415,8 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98
 | <code><a href="#@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflow.property.forEach">ForEach</a></code> | <code>Io.Cdktn.ITerraformIterator</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflow.property.lifecycle">Lifecycle</a></code> | <code>Io.Cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflow.property.provider">Provider</a></code> | <code>Io.Cdktn.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflow.property.code">Code</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeOutputReference">DataAwsccMwaaserverlessWorkflowCodeOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflow.property.codeSnapshottedAt">CodeSnapshottedAt</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflow.property.createdAt">CreatedAt</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflow.property.definitionS3Location">DefinitionS3Location</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowDefinitionS3LocationOutputReference">DataAwsccMwaaserverlessWorkflowDefinitionS3LocationOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflow.property.description">Description</a></code> | <code>string</code> | *No description.* |
@@ -554,6 +556,26 @@ public TerraformProvider Provider { get; }
 ```
 
 - *Type:* Io.Cdktn.TerraformProvider
+
+---
+
+##### `Code`<sup>Required</sup> <a name="Code" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflow.property.code"></a>
+
+```csharp
+public DataAwsccMwaaserverlessWorkflowCodeOutputReference Code { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeOutputReference">DataAwsccMwaaserverlessWorkflowCodeOutputReference</a>
+
+---
+
+##### `CodeSnapshottedAt`<sup>Required</sup> <a name="CodeSnapshottedAt" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflow.property.codeSnapshottedAt"></a>
+
+```csharp
+public string CodeSnapshottedAt { get; }
+```
+
+- *Type:* string
 
 ---
 
@@ -747,6 +769,32 @@ public string TfResourceType { get; }
 
 ## Structs <a name="Structs" id="Structs"></a>
 
+### DataAwsccMwaaserverlessWorkflowCode <a name="DataAwsccMwaaserverlessWorkflowCode" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCode"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCode.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccMwaaserverlessWorkflowCode {
+
+};
+```
+
+
+### DataAwsccMwaaserverlessWorkflowCodeS3Location <a name="DataAwsccMwaaserverlessWorkflowCodeS3Location" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeS3Location"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeS3Location.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccMwaaserverlessWorkflowCodeS3Location {
+
+};
+```
+
+
 ### DataAwsccMwaaserverlessWorkflowConfig <a name="DataAwsccMwaaserverlessWorkflowConfig" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowConfig"></a>
 
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowConfig.Initializer"></a>
@@ -861,7 +909,7 @@ public string Id { get; set; }
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/mwaaserverless_workflow#id DataAwsccMwaaserverlessWorkflow#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/mwaaserverless_workflow#id DataAwsccMwaaserverlessWorkflow#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -934,6 +982,548 @@ new DataAwsccMwaaserverlessWorkflowScheduleConfiguration {
 
 
 ## Classes <a name="Classes" id="Classes"></a>
+
+### DataAwsccMwaaserverlessWorkflowCodeOutputReference <a name="DataAwsccMwaaserverlessWorkflowCodeOutputReference" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccMwaaserverlessWorkflowCodeOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeOutputReference.property.s3Location">S3Location</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeS3LocationOutputReference">DataAwsccMwaaserverlessWorkflowCodeS3LocationOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCode">DataAwsccMwaaserverlessWorkflowCode</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `S3Location`<sup>Required</sup> <a name="S3Location" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeOutputReference.property.s3Location"></a>
+
+```csharp
+public DataAwsccMwaaserverlessWorkflowCodeS3LocationOutputReference S3Location { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeS3LocationOutputReference">DataAwsccMwaaserverlessWorkflowCodeS3LocationOutputReference</a>
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeOutputReference.property.internalValue"></a>
+
+```csharp
+public DataAwsccMwaaserverlessWorkflowCode InternalValue { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCode">DataAwsccMwaaserverlessWorkflowCode</a>
+
+---
+
+
+### DataAwsccMwaaserverlessWorkflowCodeS3LocationOutputReference <a name="DataAwsccMwaaserverlessWorkflowCodeS3LocationOutputReference" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeS3LocationOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeS3LocationOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccMwaaserverlessWorkflowCodeS3LocationOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeS3LocationOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeS3LocationOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeS3LocationOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeS3LocationOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeS3LocationOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeS3LocationOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeS3LocationOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeS3LocationOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeS3LocationOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeS3LocationOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeS3LocationOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeS3LocationOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeS3LocationOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeS3LocationOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeS3LocationOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeS3LocationOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeS3LocationOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeS3LocationOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeS3LocationOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeS3LocationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeS3LocationOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeS3LocationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeS3LocationOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeS3LocationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeS3LocationOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeS3LocationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeS3LocationOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeS3LocationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeS3LocationOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeS3LocationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeS3LocationOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeS3LocationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeS3LocationOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeS3LocationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeS3LocationOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeS3LocationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeS3LocationOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeS3LocationOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeS3LocationOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeS3LocationOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeS3LocationOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeS3LocationOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeS3LocationOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeS3LocationOutputReference.property.bucket">Bucket</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeS3LocationOutputReference.property.objectKey">ObjectKey</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeS3LocationOutputReference.property.versionId">VersionId</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeS3LocationOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeS3Location">DataAwsccMwaaserverlessWorkflowCodeS3Location</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeS3LocationOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeS3LocationOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `Bucket`<sup>Required</sup> <a name="Bucket" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeS3LocationOutputReference.property.bucket"></a>
+
+```csharp
+public string Bucket { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `ObjectKey`<sup>Required</sup> <a name="ObjectKey" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeS3LocationOutputReference.property.objectKey"></a>
+
+```csharp
+public string ObjectKey { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `VersionId`<sup>Required</sup> <a name="VersionId" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeS3LocationOutputReference.property.versionId"></a>
+
+```csharp
+public string VersionId { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeS3LocationOutputReference.property.internalValue"></a>
+
+```csharp
+public DataAwsccMwaaserverlessWorkflowCodeS3Location InternalValue { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeS3Location">DataAwsccMwaaserverlessWorkflowCodeS3Location</a>
+
+---
+
 
 ### DataAwsccMwaaserverlessWorkflowDefinitionS3LocationOutputReference <a name="DataAwsccMwaaserverlessWorkflowDefinitionS3LocationOutputReference" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowDefinitionS3LocationOutputReference"></a>
 

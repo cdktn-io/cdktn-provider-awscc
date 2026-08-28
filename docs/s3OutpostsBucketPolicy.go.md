@@ -4,7 +4,7 @@
 
 ### S3OutpostsBucketPolicy <a name="S3OutpostsBucketPolicy" id="@cdktn/provider-awscc.s3OutpostsBucketPolicy.S3OutpostsBucketPolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3outposts_bucket_policy awscc_s3outposts_bucket_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3outposts_bucket_policy awscc_s3outposts_bucket_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3OutpostsBucketPolicy.S3OutpostsBucketPolicy.Initializer"></a>
 
@@ -489,7 +489,7 @@ The construct id used in the generated config for the S3OutpostsBucketPolicy to 
 
 The id of the existing S3OutpostsBucketPolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3outposts_bucket_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3outposts_bucket_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -855,7 +855,7 @@ Bucket *string
 
 The Amazon Resource Name (ARN) of the specified bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3outposts_bucket_policy#bucket S3OutpostsBucketPolicy#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3outposts_bucket_policy#bucket S3OutpostsBucketPolicy#bucket}
 
 ---
 
@@ -869,7 +869,7 @@ PolicyDocument *string
 
 A policy document containing permissions to add to the specified bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3outposts_bucket_policy#policy_document S3OutpostsBucketPolicy#policy_document}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3outposts_bucket_policy#policy_document S3OutpostsBucketPolicy#policy_document}
 
 ---
 

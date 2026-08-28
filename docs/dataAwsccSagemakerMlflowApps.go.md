@@ -4,7 +4,7 @@
 
 ### DataAwsccSagemakerMlflowApps <a name="DataAwsccSagemakerMlflowApps" id="@cdktn/provider-awscc.dataAwsccSagemakerMlflowApps.DataAwsccSagemakerMlflowApps"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/sagemaker_mlflow_apps awscc_sagemaker_mlflow_apps}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/sagemaker_mlflow_apps awscc_sagemaker_mlflow_apps}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerMlflowApps.DataAwsccSagemakerMlflowApps.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSagemakerMlflowAp
 
 The id of the existing DataAwsccSagemakerMlflowApps that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/sagemaker_mlflow_apps#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/sagemaker_mlflow_apps#import import section} in the documentation of this resource for the id to use
 
 ---
 

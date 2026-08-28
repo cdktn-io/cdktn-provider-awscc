@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/bedrockagentcore_runtime
+// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/bedrockagentcore_runtime
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccBedrockagentcoreRuntimeConfig extends cdktn.TerraformM
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/bedrockagentcore_runtime#id DataAwsccBedrockagentcoreRuntime#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/bedrockagentcore_runtime#id DataAwsccBedrockagentcoreRuntime#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1280,6 +1280,119 @@ export class DataAwsccBedrockagentcoreRuntimeAuthorizerConfigurationOutputRefere
     return this._customJwtAuthorizer;
   }
 }
+export interface DataAwsccBedrockagentcoreRuntimeCapacityProviderConfiguration {
+}
+
+export function dataAwsccBedrockagentcoreRuntimeCapacityProviderConfigurationToTerraform(struct?: DataAwsccBedrockagentcoreRuntimeCapacityProviderConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccBedrockagentcoreRuntimeCapacityProviderConfigurationToHclTerraform(struct?: DataAwsccBedrockagentcoreRuntimeCapacityProviderConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccBedrockagentcoreRuntimeCapacityProviderConfigurationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccBedrockagentcoreRuntimeCapacityProviderConfiguration | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccBedrockagentcoreRuntimeCapacityProviderConfiguration | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // capacity_provider_arn - computed: true, optional: false, required: false
+  public get capacityProviderArn() {
+    return this.getStringAttribute('capacity_provider_arn');
+  }
+}
+export interface DataAwsccBedrockagentcoreRuntimeFilesystemConfigurationsCapacityProviderVolume {
+}
+
+export function dataAwsccBedrockagentcoreRuntimeFilesystemConfigurationsCapacityProviderVolumeToTerraform(struct?: DataAwsccBedrockagentcoreRuntimeFilesystemConfigurationsCapacityProviderVolume): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccBedrockagentcoreRuntimeFilesystemConfigurationsCapacityProviderVolumeToHclTerraform(struct?: DataAwsccBedrockagentcoreRuntimeFilesystemConfigurationsCapacityProviderVolume): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccBedrockagentcoreRuntimeFilesystemConfigurationsCapacityProviderVolumeOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccBedrockagentcoreRuntimeFilesystemConfigurationsCapacityProviderVolume | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccBedrockagentcoreRuntimeFilesystemConfigurationsCapacityProviderVolume | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // mount_path - computed: true, optional: false, required: false
+  public get mountPath() {
+    return this.getStringAttribute('mount_path');
+  }
+
+  // volume_name - computed: true, optional: false, required: false
+  public get volumeName() {
+    return this.getStringAttribute('volume_name');
+  }
+}
 export interface DataAwsccBedrockagentcoreRuntimeFilesystemConfigurationsEfsAccessPoint {
 }
 
@@ -1501,6 +1614,12 @@ export class DataAwsccBedrockagentcoreRuntimeFilesystemConfigurationsOutputRefer
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
     }
+  }
+
+  // capacity_provider_volume - computed: true, optional: false, required: false
+  private _capacityProviderVolume = new DataAwsccBedrockagentcoreRuntimeFilesystemConfigurationsCapacityProviderVolumeOutputReference(this, "capacity_provider_volume");
+  public get capacityProviderVolume() {
+    return this._capacityProviderVolume;
   }
 
   // efs_access_point - computed: true, optional: false, required: false
@@ -1828,7 +1947,7 @@ export class DataAwsccBedrockagentcoreRuntimeWorkloadIdentityDetailsOutputRefere
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/bedrockagentcore_runtime awscc_bedrockagentcore_runtime}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/bedrockagentcore_runtime awscc_bedrockagentcore_runtime}
 */
 export class DataAwsccBedrockagentcoreRuntime extends cdktn.TerraformDataSource {
 
@@ -1844,7 +1963,7 @@ export class DataAwsccBedrockagentcoreRuntime extends cdktn.TerraformDataSource 
   * Generates CDKTN code for importing a DataAwsccBedrockagentcoreRuntime resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccBedrockagentcoreRuntime to import
-  * @param importFromId The id of the existing DataAwsccBedrockagentcoreRuntime that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/bedrockagentcore_runtime#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccBedrockagentcoreRuntime that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/bedrockagentcore_runtime#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccBedrockagentcoreRuntime to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1856,7 +1975,7 @@ export class DataAwsccBedrockagentcoreRuntime extends cdktn.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/bedrockagentcore_runtime awscc_bedrockagentcore_runtime} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/bedrockagentcore_runtime awscc_bedrockagentcore_runtime} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1867,7 +1986,7 @@ export class DataAwsccBedrockagentcoreRuntime extends cdktn.TerraformDataSource 
       terraformResourceType: 'awscc_bedrockagentcore_runtime',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.98.0',
+        providerVersion: '1.99.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -1915,6 +2034,12 @@ export class DataAwsccBedrockagentcoreRuntime extends cdktn.TerraformDataSource 
   private _authorizerConfiguration = new DataAwsccBedrockagentcoreRuntimeAuthorizerConfigurationOutputReference(this, "authorizer_configuration");
   public get authorizerConfiguration() {
     return this._authorizerConfiguration;
+  }
+
+  // capacity_provider_configuration - computed: true, optional: false, required: false
+  private _capacityProviderConfiguration = new DataAwsccBedrockagentcoreRuntimeCapacityProviderConfigurationOutputReference(this, "capacity_provider_configuration");
+  public get capacityProviderConfiguration() {
+    return this._capacityProviderConfiguration;
   }
 
   // created_at - computed: true, optional: false, required: false

@@ -4,7 +4,7 @@
 
 ### SesVdmAttributes <a name="SesVdmAttributes" id="@cdktn/provider-awscc.sesVdmAttributes.SesVdmAttributes"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_vdm_attributes awscc_ses_vdm_attributes}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_vdm_attributes awscc_ses_vdm_attributes}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sesVdmAttributes.SesVdmAttributes.Initializer"></a>
 
@@ -529,7 +529,7 @@ The construct id used in the generated config for the SesVdmAttributes to import
 
 The id of the existing SesVdmAttributes that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_vdm_attributes#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_vdm_attributes#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -896,7 +896,7 @@ public readonly dashboardAttributes: SesVdmAttributesDashboardAttributes;
 
 Preferences regarding the Dashboard feature.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_vdm_attributes#dashboard_attributes SesVdmAttributes#dashboard_attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_vdm_attributes#dashboard_attributes SesVdmAttributes#dashboard_attributes}
 
 ---
 
@@ -910,7 +910,7 @@ public readonly guardianAttributes: SesVdmAttributesGuardianAttributes;
 
 Preferences regarding the Guardian feature.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_vdm_attributes#guardian_attributes SesVdmAttributes#guardian_attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_vdm_attributes#guardian_attributes SesVdmAttributes#guardian_attributes}
 
 ---
 
@@ -942,7 +942,7 @@ public readonly engagementMetrics: string;
 
 Whether emails sent from this account have engagement tracking enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_vdm_attributes#engagement_metrics SesVdmAttributes#engagement_metrics}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_vdm_attributes#engagement_metrics SesVdmAttributes#engagement_metrics}
 
 ---
 
@@ -974,7 +974,7 @@ public readonly optimizedSharedDelivery: string;
 
 Whether emails sent from this account have optimized delivery algorithm enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_vdm_attributes#optimized_shared_delivery SesVdmAttributes#optimized_shared_delivery}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_vdm_attributes#optimized_shared_delivery SesVdmAttributes#optimized_shared_delivery}
 
 ---
 

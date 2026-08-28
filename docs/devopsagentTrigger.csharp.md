@@ -4,7 +4,7 @@
 
 ### DevopsagentTrigger <a name="DevopsagentTrigger" id="@cdktn/provider-awscc.devopsagentTrigger.DevopsagentTrigger"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_trigger awscc_devopsagent_trigger}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_trigger awscc_devopsagent_trigger}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentTrigger.DevopsagentTrigger.Initializer"></a>
 
@@ -509,7 +509,7 @@ The construct id used in the generated config for the DevopsagentTrigger to impo
 
 The id of the existing DevopsagentTrigger that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_trigger#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_trigger#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -899,7 +899,7 @@ public DevopsagentTriggerConditionSchedule Schedule { get; set; }
 
 Schedule configuration for a time-based trigger.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_trigger#schedule DevopsagentTrigger#schedule}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_trigger#schedule DevopsagentTrigger#schedule}
 
 ---
 
@@ -933,7 +933,7 @@ public string Expression { get; set; }
 
 A cron or rate expression that defines when the trigger fires.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_trigger#expression DevopsagentTrigger#expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_trigger#expression DevopsagentTrigger#expression}
 
 ---
 
@@ -1059,7 +1059,7 @@ public string Action { get; set; }
 
 The action to perform when the trigger fires. A JSON object containing actionType and task.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_trigger#action DevopsagentTrigger#action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_trigger#action DevopsagentTrigger#action}
 
 ---
 
@@ -1073,7 +1073,7 @@ public string AgentSpaceId { get; set; }
 
 The unique identifier of the parent Agent Space.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_trigger#agent_space_id DevopsagentTrigger#agent_space_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_trigger#agent_space_id DevopsagentTrigger#agent_space_id}
 
 ---
 
@@ -1087,7 +1087,7 @@ public DevopsagentTriggerCondition Condition { get; set; }
 
 The condition that causes the trigger to fire.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_trigger#condition DevopsagentTrigger#condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_trigger#condition DevopsagentTrigger#condition}
 
 ---
 
@@ -1101,7 +1101,7 @@ public string Type { get; set; }
 
 The type of trigger.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_trigger#type DevopsagentTrigger#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_trigger#type DevopsagentTrigger#type}
 
 ---
 
@@ -1115,7 +1115,7 @@ public string Status { get; set; }
 
 The status of the trigger. Active triggers fire on schedule; Inactive triggers are paused.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_trigger#status DevopsagentTrigger#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_trigger#status DevopsagentTrigger#status}
 
 ---
 

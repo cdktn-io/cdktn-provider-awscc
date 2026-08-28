@@ -4,7 +4,7 @@
 
 ### GlueSchemaVersionMetadata <a name="GlueSchemaVersionMetadata" id="@cdktn/provider-awscc.glueSchemaVersionMetadata.GlueSchemaVersionMetadata"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_schema_version_metadata awscc_glue_schema_version_metadata}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_schema_version_metadata awscc_glue_schema_version_metadata}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueSchemaVersionMetadata.GlueSchemaVersionMetadata.Initializer"></a>
 
@@ -489,7 +489,7 @@ The construct id used in the generated config for the GlueSchemaVersionMetadata 
 
 The id of the existing GlueSchemaVersionMetadata that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_schema_version_metadata#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_schema_version_metadata#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -868,7 +868,7 @@ public readonly key: string;
 
 Metadata key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_schema_version_metadata#key GlueSchemaVersionMetadata#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_schema_version_metadata#key GlueSchemaVersionMetadata#key}
 
 ---
 
@@ -882,7 +882,7 @@ public readonly schemaVersionId: string;
 
 Represents the version ID associated with the schema version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_schema_version_metadata#schema_version_id GlueSchemaVersionMetadata#schema_version_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_schema_version_metadata#schema_version_id GlueSchemaVersionMetadata#schema_version_id}
 
 ---
 
@@ -896,7 +896,7 @@ public readonly value: string;
 
 Metadata value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_schema_version_metadata#value GlueSchemaVersionMetadata#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_schema_version_metadata#value GlueSchemaVersionMetadata#value}
 
 ---
 

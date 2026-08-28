@@ -4,7 +4,7 @@
 
 ### AwsexternalanthropicWorkspace <a name="AwsexternalanthropicWorkspace" id="@cdktn/provider-awscc.awsexternalanthropicWorkspace.AwsexternalanthropicWorkspace"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/awsexternalanthropic_workspace awscc_awsexternalanthropic_workspace}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/awsexternalanthropic_workspace awscc_awsexternalanthropic_workspace}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.awsexternalanthropicWorkspace.AwsexternalanthropicWorkspace.Initializer"></a>
 
@@ -529,7 +529,7 @@ The construct id used in the generated config for the AwsexternalanthropicWorksp
 
 The id of the existing AwsexternalanthropicWorkspace that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/awsexternalanthropic_workspace#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/awsexternalanthropic_workspace#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -941,7 +941,7 @@ public readonly name: string;
 
 The name of the workspace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/awsexternalanthropic_workspace#name AwsexternalanthropicWorkspace#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/awsexternalanthropic_workspace#name AwsexternalanthropicWorkspace#name}
 
 ---
 
@@ -955,7 +955,7 @@ public readonly dataResidency: AwsexternalanthropicWorkspaceDataResidency;
 
 Data residency configuration for the workspace. WorkspaceGeo is immutable after creation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/awsexternalanthropic_workspace#data_residency AwsexternalanthropicWorkspace#data_residency}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/awsexternalanthropic_workspace#data_residency AwsexternalanthropicWorkspace#data_residency}
 
 ---
 
@@ -969,7 +969,7 @@ public readonly tags: IResolvable | AwsexternalanthropicWorkspaceTags[];
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/awsexternalanthropic_workspace#tags AwsexternalanthropicWorkspace#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/awsexternalanthropic_workspace#tags AwsexternalanthropicWorkspace#tags}
 
 ---
 
@@ -1003,7 +1003,7 @@ public readonly allowedInferenceGeos: string[];
 
 Permitted inference geo values. Omit to allow all geos (the service default of 'unrestricted'); otherwise list specific geos.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/awsexternalanthropic_workspace#allowed_inference_geos AwsexternalanthropicWorkspace#allowed_inference_geos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/awsexternalanthropic_workspace#allowed_inference_geos AwsexternalanthropicWorkspace#allowed_inference_geos}
 
 ---
 
@@ -1019,7 +1019,7 @@ Default inference geo applied when requests omit the parameter.
 
 Defaults to 'global' if omitted. Must be a member of AllowedInferenceGeos unless AllowedInferenceGeos is omitted.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/awsexternalanthropic_workspace#default_inference_geo AwsexternalanthropicWorkspace#default_inference_geo}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/awsexternalanthropic_workspace#default_inference_geo AwsexternalanthropicWorkspace#default_inference_geo}
 
 ---
 
@@ -1033,7 +1033,7 @@ public readonly workspaceGeo: string;
 
 Geographic region for workspace data storage. Immutable after creation. Defaults to 'us' if omitted.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/awsexternalanthropic_workspace#workspace_geo AwsexternalanthropicWorkspace#workspace_geo}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/awsexternalanthropic_workspace#workspace_geo AwsexternalanthropicWorkspace#workspace_geo}
 
 ---
 
@@ -1066,7 +1066,7 @@ public readonly key: string;
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/awsexternalanthropic_workspace#key AwsexternalanthropicWorkspace#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/awsexternalanthropic_workspace#key AwsexternalanthropicWorkspace#key}
 
 ---
 
@@ -1080,7 +1080,7 @@ public readonly value: string;
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/awsexternalanthropic_workspace#value AwsexternalanthropicWorkspace#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/awsexternalanthropic_workspace#value AwsexternalanthropicWorkspace#value}
 
 ---
 

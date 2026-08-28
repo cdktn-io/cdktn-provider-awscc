@@ -4,7 +4,7 @@
 
 ### CasesLayout <a name="CasesLayout" id="@cdktn/provider-awscc.casesLayout.CasesLayout"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cases_layout awscc_cases_layout}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cases_layout awscc_cases_layout}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.casesLayout.CasesLayout.Initializer"></a>
 
@@ -114,7 +114,7 @@ Defines the layout structure and field organization for the case interface.
 
 Specifies which fields appear in the top panel and More Info tab, and their display order.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cases_layout#content CasesLayout#content}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cases_layout#content CasesLayout#content}
 
 ---
 
@@ -126,7 +126,7 @@ A descriptive name for the layout.
 
 Must be unique within the Cases domain and should clearly indicate the layout's purpose and field organization.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cases_layout#name CasesLayout#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cases_layout#name CasesLayout#name}
 
 ---
 
@@ -136,7 +136,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The unique identifier of the Cases domain.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cases_layout#domain_id CasesLayout#domain_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cases_layout#domain_id CasesLayout#domain_id}
 
 ---
 
@@ -146,7 +146,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The tags that you attach to this layout.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cases_layout#tags CasesLayout#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cases_layout#tags CasesLayout#tags}
 
 ---
 
@@ -549,7 +549,7 @@ Defines the field layout for the agent's case interface.
 
 Configures which fields appear in the top panel (immediately visible) and More Info tab (expandable section) of the case view, allowing customization of the agent experience.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cases_layout#basic CasesLayout#basic}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cases_layout#basic CasesLayout#basic}
 
 ---
 
@@ -693,7 +693,7 @@ The construct id used in the generated config for the CasesLayout to import.
 
 The id of the existing CasesLayout that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cases_layout#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cases_layout#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1153,7 +1153,7 @@ Defines the layout structure and field organization for the case interface.
 
 Specifies which fields appear in the top panel and More Info tab, and their display order.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cases_layout#content CasesLayout#content}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cases_layout#content CasesLayout#content}
 
 ---
 
@@ -1169,7 +1169,7 @@ A descriptive name for the layout.
 
 Must be unique within the Cases domain and should clearly indicate the layout's purpose and field organization.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cases_layout#name CasesLayout#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cases_layout#name CasesLayout#name}
 
 ---
 
@@ -1183,7 +1183,7 @@ domain_id: str
 
 The unique identifier of the Cases domain.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cases_layout#domain_id CasesLayout#domain_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cases_layout#domain_id CasesLayout#domain_id}
 
 ---
 
@@ -1197,7 +1197,7 @@ tags: IResolvable | typing.List[CasesLayoutTags]
 
 The tags that you attach to this layout.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cases_layout#tags CasesLayout#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cases_layout#tags CasesLayout#tags}
 
 ---
 
@@ -1233,7 +1233,7 @@ Defines the field layout for the agent's case interface.
 
 Configures which fields appear in the top panel (immediately visible) and More Info tab (expandable section) of the case view, allowing customization of the agent experience.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cases_layout#basic CasesLayout#basic}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cases_layout#basic CasesLayout#basic}
 
 ---
 
@@ -1269,7 +1269,7 @@ more_info: CasesLayoutContentBasicMoreInfo
 
 Sections within a panel or tab of the page layout.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cases_layout#more_info CasesLayout#more_info}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cases_layout#more_info CasesLayout#more_info}
 
 ---
 
@@ -1283,7 +1283,7 @@ top_panel: CasesLayoutContentBasicTopPanel
 
 Sections within a panel or tab of the page layout.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cases_layout#top_panel CasesLayout#top_panel}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cases_layout#top_panel CasesLayout#top_panel}
 
 ---
 
@@ -1317,7 +1317,7 @@ sections: IResolvable | typing.List[CasesLayoutContentBasicMoreInfoSections]
 
 Defines the sections within a panel or tab. Contains field groups that organize related fields together.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cases_layout#sections CasesLayout#sections}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cases_layout#sections CasesLayout#sections}
 
 ---
 
@@ -1351,7 +1351,7 @@ field_group: CasesLayoutContentBasicMoreInfoSectionsFieldGroup
 
 Consists of a group of fields and associated properties.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cases_layout#field_group CasesLayout#field_group}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cases_layout#field_group CasesLayout#field_group}
 
 ---
 
@@ -1389,7 +1389,7 @@ An ordered list of fields to display in this group.
 
 The order determines the sequence in which fields appear in the agent interface. Each field is referenced by its unique field ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cases_layout#fields CasesLayout#fields}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cases_layout#fields CasesLayout#fields}
 
 ---
 
@@ -1403,7 +1403,7 @@ name: str
 
 A descriptive name for the field group. Helps organize related fields together in the layout interface.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cases_layout#name CasesLayout#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cases_layout#name CasesLayout#name}
 
 ---
 
@@ -1437,7 +1437,7 @@ id: str
 
 The unique identifier of a field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cases_layout#id CasesLayout#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cases_layout#id CasesLayout#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1474,7 +1474,7 @@ sections: IResolvable | typing.List[CasesLayoutContentBasicTopPanelSections]
 
 Defines the sections within a panel or tab. Contains field groups that organize related fields together.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cases_layout#sections CasesLayout#sections}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cases_layout#sections CasesLayout#sections}
 
 ---
 
@@ -1508,7 +1508,7 @@ field_group: CasesLayoutContentBasicTopPanelSectionsFieldGroup
 
 Consists of a group of fields and associated properties.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cases_layout#field_group CasesLayout#field_group}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cases_layout#field_group CasesLayout#field_group}
 
 ---
 
@@ -1546,7 +1546,7 @@ An ordered list of fields to display in this group.
 
 The order determines the sequence in which fields appear in the agent interface. Each field is referenced by its unique field ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cases_layout#fields CasesLayout#fields}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cases_layout#fields CasesLayout#fields}
 
 ---
 
@@ -1560,7 +1560,7 @@ name: str
 
 A descriptive name for the field group. Helps organize related fields together in the layout interface.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cases_layout#name CasesLayout#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cases_layout#name CasesLayout#name}
 
 ---
 
@@ -1594,7 +1594,7 @@ id: str
 
 The unique identifier of a field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cases_layout#id CasesLayout#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cases_layout#id CasesLayout#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1635,7 +1635,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cases_layout#key CasesLayout#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cases_layout#key CasesLayout#key}
 
 ---
 
@@ -1651,7 +1651,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cases_layout#value CasesLayout#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cases_layout#value CasesLayout#value}
 
 ---
 
@@ -3252,7 +3252,7 @@ An ordered list of fields to display in this group.
 
 The order determines the sequence in which fields appear in the agent interface. Each field is referenced by its unique field ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cases_layout#fields CasesLayout#fields}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cases_layout#fields CasesLayout#fields}
 
 ---
 
@@ -3262,7 +3262,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A descriptive name for the field group. Helps organize related fields together in the layout interface.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cases_layout#name CasesLayout#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cases_layout#name CasesLayout#name}
 
 ---
 
@@ -3586,7 +3586,7 @@ def put_more_info(
 
 Defines the sections within a panel or tab. Contains field groups that organize related fields together.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cases_layout#sections CasesLayout#sections}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cases_layout#sections CasesLayout#sections}
 
 ---
 
@@ -3604,7 +3604,7 @@ def put_top_panel(
 
 Defines the sections within a panel or tab. Contains field groups that organize related fields together.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cases_layout#sections CasesLayout#sections}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cases_layout#sections CasesLayout#sections}
 
 ---
 
@@ -5305,7 +5305,7 @@ An ordered list of fields to display in this group.
 
 The order determines the sequence in which fields appear in the agent interface. Each field is referenced by its unique field ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cases_layout#fields CasesLayout#fields}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cases_layout#fields CasesLayout#fields}
 
 ---
 
@@ -5315,7 +5315,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A descriptive name for the field group. Helps organize related fields together in the layout interface.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cases_layout#name CasesLayout#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cases_layout#name CasesLayout#name}
 
 ---
 
@@ -5638,7 +5638,7 @@ def put_basic(
 
 Sections within a panel or tab of the page layout.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cases_layout#more_info CasesLayout#more_info}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cases_layout#more_info CasesLayout#more_info}
 
 ---
 
@@ -5648,7 +5648,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Sections within a panel or tab of the page layout.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cases_layout#top_panel CasesLayout#top_panel}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cases_layout#top_panel CasesLayout#top_panel}
 
 ---
 

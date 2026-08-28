@@ -4,7 +4,7 @@
 
 ### DataAwsccDetectiveGraphs <a name="DataAwsccDetectiveGraphs" id="@cdktn/provider-awscc.dataAwsccDetectiveGraphs.DataAwsccDetectiveGraphs"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/detective_graphs awscc_detective_graphs}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/detective_graphs awscc_detective_graphs}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDetectiveGraphs.DataAwsccDetectiveGraphs.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccDetectiveGraphs t
 
 The id of the existing DataAwsccDetectiveGraphs that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/detective_graphs#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/detective_graphs#import import section} in the documentation of this resource for the id to use
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### ConnectTrafficDistributionGroup <a name="ConnectTrafficDistributionGroup" id="@cdktn/provider-awscc.connectTrafficDistributionGroup.ConnectTrafficDistributionGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_traffic_distribution_group awscc_connect_traffic_distribution_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_traffic_distribution_group awscc_connect_traffic_distribution_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectTrafficDistributionGroup.ConnectTrafficDistributionGroup.Initializer"></a>
 
@@ -516,7 +516,7 @@ The construct id used in the generated config for the ConnectTrafficDistribution
 
 The id of the existing ConnectTrafficDistributionGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_traffic_distribution_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_traffic_distribution_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -963,7 +963,7 @@ InstanceArn *string
 
 The identifier of the Amazon Connect instance that has been replicated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_traffic_distribution_group#instance_arn ConnectTrafficDistributionGroup#instance_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_traffic_distribution_group#instance_arn ConnectTrafficDistributionGroup#instance_arn}
 
 ---
 
@@ -977,7 +977,7 @@ Name *string
 
 The name for the traffic distribution group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_traffic_distribution_group#name ConnectTrafficDistributionGroup#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_traffic_distribution_group#name ConnectTrafficDistributionGroup#name}
 
 ---
 
@@ -991,7 +991,7 @@ Description *string
 
 A description for the traffic distribution group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_traffic_distribution_group#description ConnectTrafficDistributionGroup#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_traffic_distribution_group#description ConnectTrafficDistributionGroup#description}
 
 ---
 
@@ -1005,7 +1005,7 @@ Tags interface{}
 
 One or more tags.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_traffic_distribution_group#tags ConnectTrafficDistributionGroup#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_traffic_distribution_group#tags ConnectTrafficDistributionGroup#tags}
 
 ---
 
@@ -1043,7 +1043,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_traffic_distribution_group#key ConnectTrafficDistributionGroup#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_traffic_distribution_group#key ConnectTrafficDistributionGroup#key}
 
 ---
 
@@ -1059,7 +1059,7 @@ The value for the tag.
 
 You can specify a value that is 1 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_traffic_distribution_group#value ConnectTrafficDistributionGroup#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_traffic_distribution_group#value ConnectTrafficDistributionGroup#value}
 
 ---
 

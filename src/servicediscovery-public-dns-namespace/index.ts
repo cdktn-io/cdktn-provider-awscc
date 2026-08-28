@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicediscovery_public_dns_namespace
+// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicediscovery_public_dns_namespace
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,31 +15,31 @@ export interface ServicediscoveryPublicDnsNamespaceConfig extends cdktn.Terrafor
   /**
   * A description for the namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicediscovery_public_dns_namespace#description ServicediscoveryPublicDnsNamespace#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicediscovery_public_dns_namespace#description ServicediscoveryPublicDnsNamespace#description}
   */
   readonly description?: string;
   /**
   * The name that you want to assign to this namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicediscovery_public_dns_namespace#name ServicediscoveryPublicDnsNamespace#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicediscovery_public_dns_namespace#name ServicediscoveryPublicDnsNamespace#name}
   */
   readonly name: string;
   /**
   * Properties for the public DNS namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicediscovery_public_dns_namespace#properties ServicediscoveryPublicDnsNamespace#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicediscovery_public_dns_namespace#properties ServicediscoveryPublicDnsNamespace#properties}
   */
   readonly properties?: ServicediscoveryPublicDnsNamespaceProperties;
   /**
   * The tags for the namespace. Each tag consists of a key and an optional value, both of which you define. Tag keys can have a maximum character length of 128 characters, and tag values can have a maximum length of 256 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicediscovery_public_dns_namespace#tags ServicediscoveryPublicDnsNamespace#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicediscovery_public_dns_namespace#tags ServicediscoveryPublicDnsNamespace#tags}
   */
   readonly tags?: ServicediscoveryPublicDnsNamespaceTags[] | cdktn.IResolvable;
 }
 export interface ServicediscoveryPublicDnsNamespacePropertiesDnsPropertiesSoa {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicediscovery_public_dns_namespace#ttl ServicediscoveryPublicDnsNamespace#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicediscovery_public_dns_namespace#ttl ServicediscoveryPublicDnsNamespace#ttl}
   */
   readonly ttl?: number;
 }
@@ -133,7 +133,7 @@ export class ServicediscoveryPublicDnsNamespacePropertiesDnsPropertiesSoaOutputR
 }
 export interface ServicediscoveryPublicDnsNamespacePropertiesDnsProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicediscovery_public_dns_namespace#soa ServicediscoveryPublicDnsNamespace#soa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicediscovery_public_dns_namespace#soa ServicediscoveryPublicDnsNamespace#soa}
   */
   readonly soa?: ServicediscoveryPublicDnsNamespacePropertiesDnsPropertiesSoa;
 }
@@ -227,7 +227,7 @@ export class ServicediscoveryPublicDnsNamespacePropertiesDnsPropertiesOutputRefe
 }
 export interface ServicediscoveryPublicDnsNamespaceProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicediscovery_public_dns_namespace#dns_properties ServicediscoveryPublicDnsNamespace#dns_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicediscovery_public_dns_namespace#dns_properties ServicediscoveryPublicDnsNamespace#dns_properties}
   */
   readonly dnsProperties?: ServicediscoveryPublicDnsNamespacePropertiesDnsProperties;
 }
@@ -321,11 +321,11 @@ export class ServicediscoveryPublicDnsNamespacePropertiesOutputReference extends
 }
 export interface ServicediscoveryPublicDnsNamespaceTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicediscovery_public_dns_namespace#key ServicediscoveryPublicDnsNamespace#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicediscovery_public_dns_namespace#key ServicediscoveryPublicDnsNamespace#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicediscovery_public_dns_namespace#value ServicediscoveryPublicDnsNamespace#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicediscovery_public_dns_namespace#value ServicediscoveryPublicDnsNamespace#value}
   */
   readonly value?: string;
 }
@@ -470,7 +470,7 @@ export class ServicediscoveryPublicDnsNamespaceTagsList extends cdktn.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicediscovery_public_dns_namespace awscc_servicediscovery_public_dns_namespace}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicediscovery_public_dns_namespace awscc_servicediscovery_public_dns_namespace}
 */
 export class ServicediscoveryPublicDnsNamespace extends cdktn.TerraformResource {
 
@@ -486,7 +486,7 @@ export class ServicediscoveryPublicDnsNamespace extends cdktn.TerraformResource 
   * Generates CDKTN code for importing a ServicediscoveryPublicDnsNamespace resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServicediscoveryPublicDnsNamespace to import
-  * @param importFromId The id of the existing ServicediscoveryPublicDnsNamespace that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicediscovery_public_dns_namespace#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServicediscoveryPublicDnsNamespace that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicediscovery_public_dns_namespace#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServicediscoveryPublicDnsNamespace to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -498,7 +498,7 @@ export class ServicediscoveryPublicDnsNamespace extends cdktn.TerraformResource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicediscovery_public_dns_namespace awscc_servicediscovery_public_dns_namespace} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicediscovery_public_dns_namespace awscc_servicediscovery_public_dns_namespace} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -509,7 +509,7 @@ export class ServicediscoveryPublicDnsNamespace extends cdktn.TerraformResource 
       terraformResourceType: 'awscc_servicediscovery_public_dns_namespace',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.98.0',
+        providerVersion: '1.99.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

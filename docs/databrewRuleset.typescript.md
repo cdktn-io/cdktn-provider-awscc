@@ -4,7 +4,7 @@
 
 ### DatabrewRuleset <a name="DatabrewRuleset" id="@cdktn/provider-awscc.databrewRuleset.DatabrewRuleset"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/databrew_ruleset awscc_databrew_ruleset}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/databrew_ruleset awscc_databrew_ruleset}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.databrewRuleset.DatabrewRuleset.Initializer"></a>
 
@@ -529,7 +529,7 @@ The construct id used in the generated config for the DatabrewRuleset to import.
 
 The id of the existing DatabrewRuleset that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/databrew_ruleset#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/databrew_ruleset#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -870,7 +870,7 @@ const databrewRulesetConfig: databrewRuleset.DatabrewRulesetConfig = { ... }
 | <code><a href="#@cdktn/provider-awscc.databrewRuleset.DatabrewRulesetConfig.property.rules">rules</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.databrewRuleset.DatabrewRulesetRules">DatabrewRulesetRules</a>[]</code> | List of the data quality rules in the ruleset. |
 | <code><a href="#@cdktn/provider-awscc.databrewRuleset.DatabrewRulesetConfig.property.targetArn">targetArn</a></code> | <code>string</code> | Arn of the target resource (dataset) to apply the ruleset to. |
 | <code><a href="#@cdktn/provider-awscc.databrewRuleset.DatabrewRulesetConfig.property.description">description</a></code> | <code>string</code> | Description of the Ruleset. |
-| <code><a href="#@cdktn/provider-awscc.databrewRuleset.DatabrewRulesetConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.databrewRuleset.DatabrewRulesetTags">DatabrewRulesetTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/databrew_ruleset#tags DatabrewRuleset#tags}. |
+| <code><a href="#@cdktn/provider-awscc.databrewRuleset.DatabrewRulesetConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.databrewRuleset.DatabrewRulesetTags">DatabrewRulesetTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/databrew_ruleset#tags DatabrewRuleset#tags}. |
 
 ---
 
@@ -954,7 +954,7 @@ public readonly name: string;
 
 Name of the Ruleset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/databrew_ruleset#name DatabrewRuleset#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/databrew_ruleset#name DatabrewRuleset#name}
 
 ---
 
@@ -968,7 +968,7 @@ public readonly rules: IResolvable | DatabrewRulesetRules[];
 
 List of the data quality rules in the ruleset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/databrew_ruleset#rules DatabrewRuleset#rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/databrew_ruleset#rules DatabrewRuleset#rules}
 
 ---
 
@@ -982,7 +982,7 @@ public readonly targetArn: string;
 
 Arn of the target resource (dataset) to apply the ruleset to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/databrew_ruleset#target_arn DatabrewRuleset#target_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/databrew_ruleset#target_arn DatabrewRuleset#target_arn}
 
 ---
 
@@ -996,7 +996,7 @@ public readonly description: string;
 
 Description of the Ruleset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/databrew_ruleset#description DatabrewRuleset#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/databrew_ruleset#description DatabrewRuleset#description}
 
 ---
 
@@ -1008,7 +1008,7 @@ public readonly tags: IResolvable | DatabrewRulesetTags[];
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.databrewRuleset.DatabrewRulesetTags">DatabrewRulesetTags</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/databrew_ruleset#tags DatabrewRuleset#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/databrew_ruleset#tags DatabrewRuleset#tags}.
 
 ---
 
@@ -1028,10 +1028,10 @@ const databrewRulesetRules: databrewRuleset.DatabrewRulesetRules = { ... }
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.databrewRuleset.DatabrewRulesetRules.property.checkExpression">checkExpression</a></code> | <code>string</code> | Expression with rule conditions. |
 | <code><a href="#@cdktn/provider-awscc.databrewRuleset.DatabrewRulesetRules.property.name">name</a></code> | <code>string</code> | Name of the rule. |
-| <code><a href="#@cdktn/provider-awscc.databrewRuleset.DatabrewRulesetRules.property.columnSelectors">columnSelectors</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.databrewRuleset.DatabrewRulesetRulesColumnSelectors">DatabrewRulesetRulesColumnSelectors</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/databrew_ruleset#column_selectors DatabrewRuleset#column_selectors}. |
+| <code><a href="#@cdktn/provider-awscc.databrewRuleset.DatabrewRulesetRules.property.columnSelectors">columnSelectors</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.databrewRuleset.DatabrewRulesetRulesColumnSelectors">DatabrewRulesetRulesColumnSelectors</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/databrew_ruleset#column_selectors DatabrewRuleset#column_selectors}. |
 | <code><a href="#@cdktn/provider-awscc.databrewRuleset.DatabrewRulesetRules.property.disabled">disabled</a></code> | <code>boolean \| cdktn.IResolvable</code> | Boolean value to disable/enable a rule. |
-| <code><a href="#@cdktn/provider-awscc.databrewRuleset.DatabrewRulesetRules.property.substitutionMap">substitutionMap</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.databrewRuleset.DatabrewRulesetRulesSubstitutionMap">DatabrewRulesetRulesSubstitutionMap</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/databrew_ruleset#substitution_map DatabrewRuleset#substitution_map}. |
-| <code><a href="#@cdktn/provider-awscc.databrewRuleset.DatabrewRulesetRules.property.threshold">threshold</a></code> | <code><a href="#@cdktn/provider-awscc.databrewRuleset.DatabrewRulesetRulesThreshold">DatabrewRulesetRulesThreshold</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/databrew_ruleset#threshold DatabrewRuleset#threshold}. |
+| <code><a href="#@cdktn/provider-awscc.databrewRuleset.DatabrewRulesetRules.property.substitutionMap">substitutionMap</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.databrewRuleset.DatabrewRulesetRulesSubstitutionMap">DatabrewRulesetRulesSubstitutionMap</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/databrew_ruleset#substitution_map DatabrewRuleset#substitution_map}. |
+| <code><a href="#@cdktn/provider-awscc.databrewRuleset.DatabrewRulesetRules.property.threshold">threshold</a></code> | <code><a href="#@cdktn/provider-awscc.databrewRuleset.DatabrewRulesetRulesThreshold">DatabrewRulesetRulesThreshold</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/databrew_ruleset#threshold DatabrewRuleset#threshold}. |
 
 ---
 
@@ -1045,7 +1045,7 @@ public readonly checkExpression: string;
 
 Expression with rule conditions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/databrew_ruleset#check_expression DatabrewRuleset#check_expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/databrew_ruleset#check_expression DatabrewRuleset#check_expression}
 
 ---
 
@@ -1059,7 +1059,7 @@ public readonly name: string;
 
 Name of the rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/databrew_ruleset#name DatabrewRuleset#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/databrew_ruleset#name DatabrewRuleset#name}
 
 ---
 
@@ -1071,7 +1071,7 @@ public readonly columnSelectors: IResolvable | DatabrewRulesetRulesColumnSelecto
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.databrewRuleset.DatabrewRulesetRulesColumnSelectors">DatabrewRulesetRulesColumnSelectors</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/databrew_ruleset#column_selectors DatabrewRuleset#column_selectors}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/databrew_ruleset#column_selectors DatabrewRuleset#column_selectors}.
 
 ---
 
@@ -1085,7 +1085,7 @@ public readonly disabled: boolean | IResolvable;
 
 Boolean value to disable/enable a rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/databrew_ruleset#disabled DatabrewRuleset#disabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/databrew_ruleset#disabled DatabrewRuleset#disabled}
 
 ---
 
@@ -1097,7 +1097,7 @@ public readonly substitutionMap: IResolvable | DatabrewRulesetRulesSubstitutionM
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.databrewRuleset.DatabrewRulesetRulesSubstitutionMap">DatabrewRulesetRulesSubstitutionMap</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/databrew_ruleset#substitution_map DatabrewRuleset#substitution_map}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/databrew_ruleset#substitution_map DatabrewRuleset#substitution_map}.
 
 ---
 
@@ -1109,7 +1109,7 @@ public readonly threshold: DatabrewRulesetRulesThreshold;
 
 - *Type:* <a href="#@cdktn/provider-awscc.databrewRuleset.DatabrewRulesetRulesThreshold">DatabrewRulesetRulesThreshold</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/databrew_ruleset#threshold DatabrewRuleset#threshold}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/databrew_ruleset#threshold DatabrewRuleset#threshold}.
 
 ---
 
@@ -1142,7 +1142,7 @@ public readonly name: string;
 
 The name of a column from a dataset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/databrew_ruleset#name DatabrewRuleset#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/databrew_ruleset#name DatabrewRuleset#name}
 
 ---
 
@@ -1156,7 +1156,7 @@ public readonly regex: string;
 
 A regular expression for selecting a column from a dataset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/databrew_ruleset#regex DatabrewRuleset#regex}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/databrew_ruleset#regex DatabrewRuleset#regex}
 
 ---
 
@@ -1189,7 +1189,7 @@ public readonly value: string;
 
 Value or column name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/databrew_ruleset#value DatabrewRuleset#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/databrew_ruleset#value DatabrewRuleset#value}
 
 ---
 
@@ -1203,7 +1203,7 @@ public readonly valueReference: string;
 
 Variable name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/databrew_ruleset#value_reference DatabrewRuleset#value_reference}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/databrew_ruleset#value_reference DatabrewRuleset#value_reference}
 
 ---
 
@@ -1237,7 +1237,7 @@ public readonly type: string;
 
 Threshold type for a rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/databrew_ruleset#type DatabrewRuleset#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/databrew_ruleset#type DatabrewRuleset#type}
 
 ---
 
@@ -1251,7 +1251,7 @@ public readonly unit: string;
 
 Threshold unit for a rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/databrew_ruleset#unit DatabrewRuleset#unit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/databrew_ruleset#unit DatabrewRuleset#unit}
 
 ---
 
@@ -1265,7 +1265,7 @@ public readonly value: number;
 
 Threshold value for a rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/databrew_ruleset#value DatabrewRuleset#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/databrew_ruleset#value DatabrewRuleset#value}
 
 ---
 
@@ -1283,8 +1283,8 @@ const databrewRulesetTags: databrewRuleset.DatabrewRulesetTags = { ... }
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.databrewRuleset.DatabrewRulesetTags.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/databrew_ruleset#key DatabrewRuleset#key}. |
-| <code><a href="#@cdktn/provider-awscc.databrewRuleset.DatabrewRulesetTags.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/databrew_ruleset#value DatabrewRuleset#value}. |
+| <code><a href="#@cdktn/provider-awscc.databrewRuleset.DatabrewRulesetTags.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/databrew_ruleset#key DatabrewRuleset#key}. |
+| <code><a href="#@cdktn/provider-awscc.databrewRuleset.DatabrewRulesetTags.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/databrew_ruleset#value DatabrewRuleset#value}. |
 
 ---
 
@@ -1296,7 +1296,7 @@ public readonly key: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/databrew_ruleset#key DatabrewRuleset#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/databrew_ruleset#key DatabrewRuleset#key}.
 
 ---
 
@@ -1308,7 +1308,7 @@ public readonly value: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/databrew_ruleset#value DatabrewRuleset#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/databrew_ruleset#value DatabrewRuleset#value}.
 
 ---
 

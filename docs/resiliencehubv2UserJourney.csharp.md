@@ -4,7 +4,7 @@
 
 ### Resiliencehubv2UserJourney <a name="Resiliencehubv2UserJourney" id="@cdktn/provider-awscc.resiliencehubv2UserJourney.Resiliencehubv2UserJourney"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/resiliencehubv2_user_journey awscc_resiliencehubv2_user_journey}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/resiliencehubv2_user_journey awscc_resiliencehubv2_user_journey}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.resiliencehubv2UserJourney.Resiliencehubv2UserJourney.Initializer"></a>
 
@@ -503,7 +503,7 @@ The construct id used in the generated config for the Resiliencehubv2UserJourney
 
 The id of the existing Resiliencehubv2UserJourney that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/resiliencehubv2_user_journey#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/resiliencehubv2_user_journey#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -950,7 +950,7 @@ public string Name { get; set; }
 
 The name of the user journey.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/resiliencehubv2_user_journey#name Resiliencehubv2UserJourney#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/resiliencehubv2_user_journey#name Resiliencehubv2UserJourney#name}
 
 ---
 
@@ -964,7 +964,7 @@ public string SystemIdentifier { get; set; }
 
 The system ARN or system ID that owns this user journey.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/resiliencehubv2_user_journey#system_identifier Resiliencehubv2UserJourney#system_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/resiliencehubv2_user_journey#system_identifier Resiliencehubv2UserJourney#system_identifier}
 
 ---
 
@@ -978,7 +978,7 @@ public string Description { get; set; }
 
 The description of the user journey.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/resiliencehubv2_user_journey#description Resiliencehubv2UserJourney#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/resiliencehubv2_user_journey#description Resiliencehubv2UserJourney#description}
 
 ---
 
@@ -992,7 +992,7 @@ public string PolicyArn { get; set; }
 
 The ARN of the resilience policy to associate with this user journey.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/resiliencehubv2_user_journey#policy_arn Resiliencehubv2UserJourney#policy_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/resiliencehubv2_user_journey#policy_arn Resiliencehubv2UserJourney#policy_arn}
 
 ---
 
