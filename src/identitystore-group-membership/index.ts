@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/identitystore_group_membership
+// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/identitystore_group_membership
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,19 +15,19 @@ export interface IdentitystoreGroupMembershipConfig extends cdktn.TerraformMetaA
   /**
   * The unique identifier for a group in the identity store.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/identitystore_group_membership#group_id IdentitystoreGroupMembership#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/identitystore_group_membership#group_id IdentitystoreGroupMembership#group_id}
   */
   readonly groupId: string;
   /**
   * The globally unique identifier for the identity store.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/identitystore_group_membership#identity_store_id IdentitystoreGroupMembership#identity_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/identitystore_group_membership#identity_store_id IdentitystoreGroupMembership#identity_store_id}
   */
   readonly identityStoreId: string;
   /**
   * An object containing the identifier of a group member.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/identitystore_group_membership#member_id IdentitystoreGroupMembership#member_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/identitystore_group_membership#member_id IdentitystoreGroupMembership#member_id}
   */
   readonly memberId: IdentitystoreGroupMembershipMemberId;
 }
@@ -35,7 +35,7 @@ export interface IdentitystoreGroupMembershipMemberId {
   /**
   * The identifier for a user in the identity store.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/identitystore_group_membership#user_id IdentitystoreGroupMembership#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/identitystore_group_membership#user_id IdentitystoreGroupMembership#user_id}
   */
   readonly userId: string;
 }
@@ -126,7 +126,7 @@ export class IdentitystoreGroupMembershipMemberIdOutputReference extends cdktn.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/identitystore_group_membership awscc_identitystore_group_membership}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/identitystore_group_membership awscc_identitystore_group_membership}
 */
 export class IdentitystoreGroupMembership extends cdktn.TerraformResource {
 
@@ -142,7 +142,7 @@ export class IdentitystoreGroupMembership extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a IdentitystoreGroupMembership resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IdentitystoreGroupMembership to import
-  * @param importFromId The id of the existing IdentitystoreGroupMembership that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/identitystore_group_membership#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IdentitystoreGroupMembership that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/identitystore_group_membership#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IdentitystoreGroupMembership to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -154,7 +154,7 @@ export class IdentitystoreGroupMembership extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/identitystore_group_membership awscc_identitystore_group_membership} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/identitystore_group_membership awscc_identitystore_group_membership} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -165,7 +165,7 @@ export class IdentitystoreGroupMembership extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_identitystore_group_membership',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.98.0',
+        providerVersion: '1.99.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

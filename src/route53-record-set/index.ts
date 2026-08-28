@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53_record_set
+// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53_record_set
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,85 +13,119 @@ import * as cdktn from 'cdktn';
 
 export interface Route53RecordSetConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53_record_set#alias_target Route53RecordSet#alias_target}
+  * Alias resource record sets only: Information about the AWS resource, such as a CloudFront distribution or an Amazon S3 bucket, that you want to route traffic to.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53_record_set#alias_target Route53RecordSet#alias_target}
   */
   readonly aliasTarget?: Route53RecordSetAliasTarget;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53_record_set#cidr_routing_config Route53RecordSet#cidr_routing_config}
+  * The object that is specified in resource record set object when you are linking a resource record set to a CIDR location.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53_record_set#cidr_routing_config Route53RecordSet#cidr_routing_config}
   */
   readonly cidrRoutingConfig?: Route53RecordSetCidrRoutingConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53_record_set#comment Route53RecordSet#comment}
+  * Optional: Any comments you want to include about a change batch request.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53_record_set#comment Route53RecordSet#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53_record_set#failover Route53RecordSet#failover}
+  * To configure failover, you add the Failover element to two resource record sets. For one resource record set, you specify PRIMARY as the value for Failover; for the other resource record set, you specify SECONDARY. In addition, you include the HealthCheckId element and specify the health check that you want Amazon Route 53 to perform for each resource record set.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53_record_set#failover Route53RecordSet#failover}
   */
   readonly failover?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53_record_set#geo_location Route53RecordSet#geo_location}
+  * A complex type that lets you control how Amazon Route 53 responds to DNS queries based on the geographic origin of the query.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53_record_set#geo_location Route53RecordSet#geo_location}
   */
   readonly geoLocation?: Route53RecordSetGeoLocation;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53_record_set#geo_proximity_location Route53RecordSet#geo_proximity_location}
-  */
-  readonly geoProximityLocation?: Route53RecordSetGeoProximityLocation;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53_record_set#health_check_id Route53RecordSet#health_check_id}
+  * If you want Amazon Route 53 to return this resource record set in response to a DNS query only when the status of a health check is healthy, include the HealthCheckId element and specify the ID of the applicable health check.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53_record_set#health_check_id Route53RecordSet#health_check_id}
   */
   readonly healthCheckId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53_record_set#hosted_zone_id Route53RecordSet#hosted_zone_id}
+  * The ID of the hosted zone that you want to create records in.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53_record_set#hosted_zone_id Route53RecordSet#hosted_zone_id}
   */
   readonly hostedZoneId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53_record_set#hosted_zone_name Route53RecordSet#hosted_zone_name}
+  * The name of the hosted zone that you want to create records in. You must include a trailing dot (for example, www.example.com.) as part of the HostedZoneName.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53_record_set#hosted_zone_name Route53RecordSet#hosted_zone_name}
   */
   readonly hostedZoneName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53_record_set#multi_value_answer Route53RecordSet#multi_value_answer}
+  * To route traffic approximately randomly to multiple resources, such as web servers, create one multivalue answer record for each resource and specify true for MultiValueAnswer.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53_record_set#multi_value_answer Route53RecordSet#multi_value_answer}
   */
   readonly multiValueAnswer?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53_record_set#name Route53RecordSet#name}
+  * The name of the record that you want to create, update, or delete.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53_record_set#name Route53RecordSet#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53_record_set#region Route53RecordSet#region}
+  * The Amazon EC2 Region where you created the resource that this resource record set refers to.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53_record_set#region Route53RecordSet#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53_record_set#resource_records Route53RecordSet#resource_records}
+  * One or more values that correspond with the value that you specified for the Type property.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53_record_set#resource_records Route53RecordSet#resource_records}
   */
   readonly resourceRecords?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53_record_set#set_identifier Route53RecordSet#set_identifier}
+  * An identifier that differentiates among multiple resource record sets that have the same combination of name and type.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53_record_set#set_identifier Route53RecordSet#set_identifier}
   */
   readonly setIdentifier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53_record_set#ttl Route53RecordSet#ttl}
+  * The resource record cache time to live (TTL), in seconds.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53_record_set#ttl Route53RecordSet#ttl}
   */
   readonly ttl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53_record_set#type Route53RecordSet#type}
+  * The DNS record type.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53_record_set#type Route53RecordSet#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53_record_set#weight Route53RecordSet#weight}
+  * Among resource record sets that have the same combination of DNS name and type, a value that determines the proportion of DNS queries that Amazon Route 53 responds to using the current resource record set. Route 53 calculates the sum of the weights for the resource record sets that have the same combination of DNS name and type. Route 53 then responds to queries based on the ratio of a resource's weight to the total.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53_record_set#weight Route53RecordSet#weight}
   */
   readonly weight?: number;
 }
 export interface Route53RecordSetAliasTarget {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53_record_set#dns_name Route53RecordSet#dns_name}
+  * The value that you specify depends on where you want to route queries.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53_record_set#dns_name Route53RecordSet#dns_name}
   */
   readonly dnsName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53_record_set#evaluate_target_health Route53RecordSet#evaluate_target_health}
+  * When EvaluateTargetHealth is true, an alias resource record set inherits the health of the referenced AWS resource, such as an ELB load balancer or another resource record set in the hosted zone.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53_record_set#evaluate_target_health Route53RecordSet#evaluate_target_health}
   */
   readonly evaluateTargetHealth?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53_record_set#hosted_zone_id Route53RecordSet#hosted_zone_id}
+  * The value used depends on where you want to route traffic.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53_record_set#hosted_zone_id Route53RecordSet#hosted_zone_id}
   */
   readonly hostedZoneId?: string;
 }
@@ -243,11 +277,15 @@ export class Route53RecordSetAliasTargetOutputReference extends cdktn.ComplexObj
 }
 export interface Route53RecordSetCidrRoutingConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53_record_set#collection_id Route53RecordSet#collection_id}
+  * The CIDR collection ID.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53_record_set#collection_id Route53RecordSet#collection_id}
   */
   readonly collectionId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53_record_set#location_name Route53RecordSet#location_name}
+  * The CIDR collection location name.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53_record_set#location_name Route53RecordSet#location_name}
   */
   readonly locationName?: string;
 }
@@ -370,15 +408,21 @@ export class Route53RecordSetCidrRoutingConfigOutputReference extends cdktn.Comp
 }
 export interface Route53RecordSetGeoLocation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53_record_set#continent_code Route53RecordSet#continent_code}
+  * For geolocation resource record sets, a two-letter abbreviation that identifies a continent.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53_record_set#continent_code Route53RecordSet#continent_code}
   */
   readonly continentCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53_record_set#country_code Route53RecordSet#country_code}
+  * For geolocation resource record sets, the two-letter code for a country.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53_record_set#country_code Route53RecordSet#country_code}
   */
   readonly countryCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53_record_set#subdivision_code Route53RecordSet#subdivision_code}
+  * For geolocation resource record sets, the two-letter code for a state of the United States.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53_record_set#subdivision_code Route53RecordSet#subdivision_code}
   */
   readonly subdivisionCode?: string;
 }
@@ -528,329 +572,9 @@ export class Route53RecordSetGeoLocationOutputReference extends cdktn.ComplexObj
     return this._subdivisionCode;
   }
 }
-export interface Route53RecordSetGeoProximityLocationCoordinates {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53_record_set#latitude Route53RecordSet#latitude}
-  */
-  readonly latitude?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53_record_set#longitude Route53RecordSet#longitude}
-  */
-  readonly longitude?: string;
-}
-
-export function route53RecordSetGeoProximityLocationCoordinatesToTerraform(struct?: Route53RecordSetGeoProximityLocationCoordinates | cdktn.IResolvable): any {
-  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
-  }
-  return {
-    latitude: cdktn.stringToTerraform(struct!.latitude),
-    longitude: cdktn.stringToTerraform(struct!.longitude),
-  }
-}
-
-
-export function route53RecordSetGeoProximityLocationCoordinatesToHclTerraform(struct?: Route53RecordSetGeoProximityLocationCoordinates | cdktn.IResolvable): any {
-  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
-  }
-  const attrs = {
-    latitude: {
-      value: cdktn.stringToHclTerraform(struct!.latitude),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    longitude: {
-      value: cdktn.stringToHclTerraform(struct!.longitude),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class Route53RecordSetGeoProximityLocationCoordinatesOutputReference extends cdktn.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktn.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): Route53RecordSetGeoProximityLocationCoordinates | cdktn.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._latitude !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.latitude = this._latitude;
-    }
-    if (this._longitude !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.longitude = this._longitude;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: Route53RecordSetGeoProximityLocationCoordinates | cdktn.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._latitude = undefined;
-      this._longitude = undefined;
-    }
-    else if (cdktn.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._latitude = value.latitude;
-      this._longitude = value.longitude;
-    }
-  }
-
-  // latitude - computed: true, optional: true, required: false
-  private _latitude?: string; 
-  public get latitude() {
-    return this.getStringAttribute('latitude');
-  }
-  public set latitude(value: string) {
-    this._latitude = value;
-  }
-  public resetLatitude() {
-    this._latitude = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get latitudeInput() {
-    return this._latitude;
-  }
-
-  // longitude - computed: true, optional: true, required: false
-  private _longitude?: string; 
-  public get longitude() {
-    return this.getStringAttribute('longitude');
-  }
-  public set longitude(value: string) {
-    this._longitude = value;
-  }
-  public resetLongitude() {
-    this._longitude = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get longitudeInput() {
-    return this._longitude;
-  }
-}
-export interface Route53RecordSetGeoProximityLocation {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53_record_set#aws_region Route53RecordSet#aws_region}
-  */
-  readonly awsRegion?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53_record_set#bias Route53RecordSet#bias}
-  */
-  readonly bias?: number;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53_record_set#coordinates Route53RecordSet#coordinates}
-  */
-  readonly coordinates?: Route53RecordSetGeoProximityLocationCoordinates;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53_record_set#local_zone_group Route53RecordSet#local_zone_group}
-  */
-  readonly localZoneGroup?: string;
-}
-
-export function route53RecordSetGeoProximityLocationToTerraform(struct?: Route53RecordSetGeoProximityLocation | cdktn.IResolvable): any {
-  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
-  }
-  return {
-    aws_region: cdktn.stringToTerraform(struct!.awsRegion),
-    bias: cdktn.numberToTerraform(struct!.bias),
-    coordinates: route53RecordSetGeoProximityLocationCoordinatesToTerraform(struct!.coordinates),
-    local_zone_group: cdktn.stringToTerraform(struct!.localZoneGroup),
-  }
-}
-
-
-export function route53RecordSetGeoProximityLocationToHclTerraform(struct?: Route53RecordSetGeoProximityLocation | cdktn.IResolvable): any {
-  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
-  }
-  const attrs = {
-    aws_region: {
-      value: cdktn.stringToHclTerraform(struct!.awsRegion),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    bias: {
-      value: cdktn.numberToHclTerraform(struct!.bias),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    coordinates: {
-      value: route53RecordSetGeoProximityLocationCoordinatesToHclTerraform(struct!.coordinates),
-      isBlock: true,
-      type: "struct",
-      storageClassType: "Route53RecordSetGeoProximityLocationCoordinates",
-    },
-    local_zone_group: {
-      value: cdktn.stringToHclTerraform(struct!.localZoneGroup),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class Route53RecordSetGeoProximityLocationOutputReference extends cdktn.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktn.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): Route53RecordSetGeoProximityLocation | cdktn.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._awsRegion !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.awsRegion = this._awsRegion;
-    }
-    if (this._bias !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.bias = this._bias;
-    }
-    if (this._coordinates?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.coordinates = this._coordinates?.internalValue;
-    }
-    if (this._localZoneGroup !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.localZoneGroup = this._localZoneGroup;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: Route53RecordSetGeoProximityLocation | cdktn.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._awsRegion = undefined;
-      this._bias = undefined;
-      this._coordinates.internalValue = undefined;
-      this._localZoneGroup = undefined;
-    }
-    else if (cdktn.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._awsRegion = value.awsRegion;
-      this._bias = value.bias;
-      this._coordinates.internalValue = value.coordinates;
-      this._localZoneGroup = value.localZoneGroup;
-    }
-  }
-
-  // aws_region - computed: true, optional: true, required: false
-  private _awsRegion?: string; 
-  public get awsRegion() {
-    return this.getStringAttribute('aws_region');
-  }
-  public set awsRegion(value: string) {
-    this._awsRegion = value;
-  }
-  public resetAwsRegion() {
-    this._awsRegion = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get awsRegionInput() {
-    return this._awsRegion;
-  }
-
-  // bias - computed: true, optional: true, required: false
-  private _bias?: number; 
-  public get bias() {
-    return this.getNumberAttribute('bias');
-  }
-  public set bias(value: number) {
-    this._bias = value;
-  }
-  public resetBias() {
-    this._bias = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get biasInput() {
-    return this._bias;
-  }
-
-  // coordinates - computed: true, optional: true, required: false
-  private _coordinates = new Route53RecordSetGeoProximityLocationCoordinatesOutputReference(this, "coordinates");
-  public get coordinates() {
-    return this._coordinates;
-  }
-  public putCoordinates(value: Route53RecordSetGeoProximityLocationCoordinates) {
-    this._coordinates.internalValue = value;
-  }
-  public resetCoordinates() {
-    this._coordinates.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get coordinatesInput() {
-    return this._coordinates.internalValue;
-  }
-
-  // local_zone_group - computed: true, optional: true, required: false
-  private _localZoneGroup?: string; 
-  public get localZoneGroup() {
-    return this.getStringAttribute('local_zone_group');
-  }
-  public set localZoneGroup(value: string) {
-    this._localZoneGroup = value;
-  }
-  public resetLocalZoneGroup() {
-    this._localZoneGroup = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get localZoneGroupInput() {
-    return this._localZoneGroup;
-  }
-}
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53_record_set awscc_route53_record_set}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53_record_set awscc_route53_record_set}
 */
 export class Route53RecordSet extends cdktn.TerraformResource {
 
@@ -866,7 +590,7 @@ export class Route53RecordSet extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Route53RecordSet resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Route53RecordSet to import
-  * @param importFromId The id of the existing Route53RecordSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53_record_set#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Route53RecordSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53_record_set#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Route53RecordSet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -878,7 +602,7 @@ export class Route53RecordSet extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53_record_set awscc_route53_record_set} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53_record_set awscc_route53_record_set} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -889,7 +613,7 @@ export class Route53RecordSet extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_route53_record_set',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.98.0',
+        providerVersion: '1.99.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -905,7 +629,6 @@ export class Route53RecordSet extends cdktn.TerraformResource {
     this._comment = config.comment;
     this._failover = config.failover;
     this._geoLocation.internalValue = config.geoLocation;
-    this._geoProximityLocation.internalValue = config.geoProximityLocation;
     this._healthCheckId = config.healthCheckId;
     this._hostedZoneId = config.hostedZoneId;
     this._hostedZoneName = config.hostedZoneName;
@@ -1003,22 +726,6 @@ export class Route53RecordSet extends cdktn.TerraformResource {
     return this._geoLocation.internalValue;
   }
 
-  // geo_proximity_location - computed: true, optional: true, required: false
-  private _geoProximityLocation = new Route53RecordSetGeoProximityLocationOutputReference(this, "geo_proximity_location");
-  public get geoProximityLocation() {
-    return this._geoProximityLocation;
-  }
-  public putGeoProximityLocation(value: Route53RecordSetGeoProximityLocation) {
-    this._geoProximityLocation.internalValue = value;
-  }
-  public resetGeoProximityLocation() {
-    this._geoProximityLocation.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get geoProximityLocationInput() {
-    return this._geoProximityLocation.internalValue;
-  }
-
   // health_check_id - computed: true, optional: true, required: false
   private _healthCheckId?: string; 
   public get healthCheckId() {
@@ -1099,11 +806,6 @@ export class Route53RecordSet extends cdktn.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get nameInput() {
     return this._name;
-  }
-
-  // record_set_id - computed: true, optional: false, required: false
-  public get recordSetId() {
-    return this.getStringAttribute('record_set_id');
   }
 
   // region - computed: true, optional: true, required: false
@@ -1210,7 +912,6 @@ export class Route53RecordSet extends cdktn.TerraformResource {
       comment: cdktn.stringToTerraform(this._comment),
       failover: cdktn.stringToTerraform(this._failover),
       geo_location: route53RecordSetGeoLocationToTerraform(this._geoLocation.internalValue),
-      geo_proximity_location: route53RecordSetGeoProximityLocationToTerraform(this._geoProximityLocation.internalValue),
       health_check_id: cdktn.stringToTerraform(this._healthCheckId),
       hosted_zone_id: cdktn.stringToTerraform(this._hostedZoneId),
       hosted_zone_name: cdktn.stringToTerraform(this._hostedZoneName),
@@ -1256,12 +957,6 @@ export class Route53RecordSet extends cdktn.TerraformResource {
         isBlock: true,
         type: "struct",
         storageClassType: "Route53RecordSetGeoLocation",
-      },
-      geo_proximity_location: {
-        value: route53RecordSetGeoProximityLocationToHclTerraform(this._geoProximityLocation.internalValue),
-        isBlock: true,
-        type: "struct",
-        storageClassType: "Route53RecordSetGeoProximityLocation",
       },
       health_check_id: {
         value: cdktn.stringToHclTerraform(this._healthCheckId),

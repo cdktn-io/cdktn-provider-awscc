@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/elementalinference_dictionaries
+// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/elementalinference_dictionaries
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccElementalinferenceDictionariesConfig extends cdktn.Ter
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/elementalinference_dictionaries awscc_elementalinference_dictionaries}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/elementalinference_dictionaries awscc_elementalinference_dictionaries}
 */
 export class DataAwsccElementalinferenceDictionaries extends cdktn.TerraformDataSource {
 
@@ -31,7 +31,7 @@ export class DataAwsccElementalinferenceDictionaries extends cdktn.TerraformData
   * Generates CDKTN code for importing a DataAwsccElementalinferenceDictionaries resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccElementalinferenceDictionaries to import
-  * @param importFromId The id of the existing DataAwsccElementalinferenceDictionaries that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/elementalinference_dictionaries#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccElementalinferenceDictionaries that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/elementalinference_dictionaries#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccElementalinferenceDictionaries to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -43,7 +43,7 @@ export class DataAwsccElementalinferenceDictionaries extends cdktn.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/elementalinference_dictionaries awscc_elementalinference_dictionaries} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/elementalinference_dictionaries awscc_elementalinference_dictionaries} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -54,7 +54,7 @@ export class DataAwsccElementalinferenceDictionaries extends cdktn.TerraformData
       terraformResourceType: 'awscc_elementalinference_dictionaries',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.98.0',
+        providerVersion: '1.99.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

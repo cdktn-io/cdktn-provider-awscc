@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/route53resolver_outpost_resolvers
+// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/route53resolver_outpost_resolvers
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccRoute53ResolverOutpostResolversConfig extends cdktn.Te
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/route53resolver_outpost_resolvers awscc_route53resolver_outpost_resolvers}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/route53resolver_outpost_resolvers awscc_route53resolver_outpost_resolvers}
 */
 export class DataAwsccRoute53ResolverOutpostResolvers extends cdktn.TerraformDataSource {
 
@@ -31,7 +31,7 @@ export class DataAwsccRoute53ResolverOutpostResolvers extends cdktn.TerraformDat
   * Generates CDKTN code for importing a DataAwsccRoute53ResolverOutpostResolvers resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccRoute53ResolverOutpostResolvers to import
-  * @param importFromId The id of the existing DataAwsccRoute53ResolverOutpostResolvers that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/route53resolver_outpost_resolvers#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccRoute53ResolverOutpostResolvers that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/route53resolver_outpost_resolvers#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccRoute53ResolverOutpostResolvers to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -43,7 +43,7 @@ export class DataAwsccRoute53ResolverOutpostResolvers extends cdktn.TerraformDat
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/route53resolver_outpost_resolvers awscc_route53resolver_outpost_resolvers} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/route53resolver_outpost_resolvers awscc_route53resolver_outpost_resolvers} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -54,7 +54,7 @@ export class DataAwsccRoute53ResolverOutpostResolvers extends cdktn.TerraformDat
       terraformResourceType: 'awscc_route53resolver_outpost_resolvers',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.98.0',
+        providerVersion: '1.99.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

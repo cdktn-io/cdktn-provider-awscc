@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_metric
+// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_metric
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,49 +15,49 @@ export interface ConnectMetricConfig extends cdktn.TerraformMetaArguments {
   /**
   * The description of the custom metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_metric#description ConnectMetric#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_metric#description ConnectMetric#description}
   */
   readonly description?: string;
   /**
   * The identifier of the Amazon Connect instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_metric#instance_arn ConnectMetric#instance_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_metric#instance_arn ConnectMetric#instance_arn}
   */
   readonly instanceArn: string;
   /**
   * The calculation configuration for the metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_metric#metric_calculation ConnectMetric#metric_calculation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_metric#metric_calculation ConnectMetric#metric_calculation}
   */
   readonly metricCalculation?: ConnectMetricMetricCalculation;
   /**
   * The name of the custom metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_metric#name ConnectMetric#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_metric#name ConnectMetric#name}
   */
   readonly name?: string;
   /**
   * Indicates how to classify a positive trend in metric data on the UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_metric#positive_trend_indicator ConnectMetric#positive_trend_indicator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_metric#positive_trend_indicator ConnectMetric#positive_trend_indicator}
   */
   readonly positiveTrendIndicator?: string;
   /**
   * The status of the custom metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_metric#status ConnectMetric#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_metric#status ConnectMetric#status}
   */
   readonly status?: string;
   /**
   * One or more tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_metric#tags ConnectMetric#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_metric#tags ConnectMetric#tags}
   */
   readonly tags?: ConnectMetricTags[] | cdktn.IResolvable;
   /**
   * Display unit for the metric data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_metric#unit ConnectMetric#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_metric#unit ConnectMetric#unit}
   */
   readonly unit?: string;
 }
@@ -261,7 +261,7 @@ export class ConnectMetricLastModifiedUserOutputReference extends cdktn.ComplexO
 }
 export interface ConnectMetricMetricCalculationCalculationComponentsMetricFiltersBooleanCondition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_metric#comparison ConnectMetric#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_metric#comparison ConnectMetric#comparison}
   */
   readonly comparison?: string;
 }
@@ -355,11 +355,11 @@ export class ConnectMetricMetricCalculationCalculationComponentsMetricFiltersBoo
 }
 export interface ConnectMetricMetricCalculationCalculationComponentsMetricFiltersNumberCondition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_metric#comparison ConnectMetric#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_metric#comparison ConnectMetric#comparison}
   */
   readonly comparison?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_metric#values ConnectMetric#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_metric#values ConnectMetric#values}
   */
   readonly values?: number[];
 }
@@ -482,11 +482,11 @@ export class ConnectMetricMetricCalculationCalculationComponentsMetricFiltersNum
 }
 export interface ConnectMetricMetricCalculationCalculationComponentsMetricFiltersStringCondition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_metric#comparison ConnectMetric#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_metric#comparison ConnectMetric#comparison}
   */
   readonly comparison?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_metric#values ConnectMetric#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_metric#values ConnectMetric#values}
   */
   readonly values?: string[];
 }
@@ -609,23 +609,23 @@ export class ConnectMetricMetricCalculationCalculationComponentsMetricFiltersStr
 }
 export interface ConnectMetricMetricCalculationCalculationComponentsMetricFilters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_metric#boolean_condition ConnectMetric#boolean_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_metric#boolean_condition ConnectMetric#boolean_condition}
   */
   readonly booleanCondition?: ConnectMetricMetricCalculationCalculationComponentsMetricFiltersBooleanCondition;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_metric#metric_filter_key ConnectMetric#metric_filter_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_metric#metric_filter_key ConnectMetric#metric_filter_key}
   */
   readonly metricFilterKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_metric#negate ConnectMetric#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_metric#negate ConnectMetric#negate}
   */
   readonly negate?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_metric#number_condition ConnectMetric#number_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_metric#number_condition ConnectMetric#number_condition}
   */
   readonly numberCondition?: ConnectMetricMetricCalculationCalculationComponentsMetricFiltersNumberCondition;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_metric#string_condition ConnectMetric#string_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_metric#string_condition ConnectMetric#string_condition}
   */
   readonly stringCondition?: ConnectMetricMetricCalculationCalculationComponentsMetricFiltersStringCondition;
 }
@@ -859,19 +859,19 @@ export interface ConnectMetricMetricCalculationCalculationComponents {
   /**
   * Metric calculation component alias for use within a calculation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_metric#alias ConnectMetric#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_metric#alias ConnectMetric#alias}
   */
   readonly alias?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_metric#metric_filters ConnectMetric#metric_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_metric#metric_filters ConnectMetric#metric_filters}
   */
   readonly metricFilters?: ConnectMetricMetricCalculationCalculationComponentsMetricFilters[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_metric#metric_id ConnectMetric#metric_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_metric#metric_id ConnectMetric#metric_id}
   */
   readonly metricId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_metric#metric_name ConnectMetric#metric_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_metric#metric_name ConnectMetric#metric_name}
   */
   readonly metricName?: string;
 }
@@ -1076,13 +1076,13 @@ export interface ConnectMetricMetricCalculation {
   /**
   * The calculation formula
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_metric#calculation ConnectMetric#calculation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_metric#calculation ConnectMetric#calculation}
   */
   readonly calculation?: string;
   /**
   * The calculation components for the metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_metric#calculation_components ConnectMetric#calculation_components}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_metric#calculation_components ConnectMetric#calculation_components}
   */
   readonly calculationComponents?: ConnectMetricMetricCalculationCalculationComponents[] | cdktn.IResolvable;
 }
@@ -1207,13 +1207,13 @@ export interface ConnectMetricTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_metric#key ConnectMetric#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_metric#key ConnectMetric#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is maximum of 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_metric#value ConnectMetric#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_metric#value ConnectMetric#value}
   */
   readonly value?: string;
 }
@@ -1358,7 +1358,7 @@ export class ConnectMetricTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_metric awscc_connect_metric}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_metric awscc_connect_metric}
 */
 export class ConnectMetric extends cdktn.TerraformResource {
 
@@ -1374,7 +1374,7 @@ export class ConnectMetric extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ConnectMetric resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConnectMetric to import
-  * @param importFromId The id of the existing ConnectMetric that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_metric#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConnectMetric that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_metric#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConnectMetric to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1386,7 +1386,7 @@ export class ConnectMetric extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_metric awscc_connect_metric} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_metric awscc_connect_metric} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1397,7 +1397,7 @@ export class ConnectMetric extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_connect_metric',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.98.0',
+        providerVersion: '1.99.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

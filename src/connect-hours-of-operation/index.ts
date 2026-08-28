@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation
+// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_hours_of_operation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,55 +15,55 @@ export interface ConnectHoursOfOperationConfig extends cdktn.TerraformMetaArgume
   /**
   * List of child hours of operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#child_hours_of_operations ConnectHoursOfOperation#child_hours_of_operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_hours_of_operation#child_hours_of_operations ConnectHoursOfOperation#child_hours_of_operations}
   */
   readonly childHoursOfOperations?: ConnectHoursOfOperationChildHoursOfOperations[] | cdktn.IResolvable;
   /**
   * Configuration information for the hours of operation: day, start time, and end time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#config ConnectHoursOfOperation#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_hours_of_operation#config ConnectHoursOfOperation#config}
   */
   readonly config: ConnectHoursOfOperationConfigA[] | cdktn.IResolvable;
   /**
   * The description of the hours of operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#description ConnectHoursOfOperation#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_hours_of_operation#description ConnectHoursOfOperation#description}
   */
   readonly description?: string;
   /**
   * One or more hours of operation overrides assigned to an hour of operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#hours_of_operation_overrides ConnectHoursOfOperation#hours_of_operation_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_hours_of_operation#hours_of_operation_overrides ConnectHoursOfOperation#hours_of_operation_overrides}
   */
   readonly hoursOfOperationOverrides?: ConnectHoursOfOperationHoursOfOperationOverrides[] | cdktn.IResolvable;
   /**
   * The identifier of the Amazon Connect instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#instance_arn ConnectHoursOfOperation#instance_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_hours_of_operation#instance_arn ConnectHoursOfOperation#instance_arn}
   */
   readonly instanceArn: string;
   /**
   * The name of the hours of operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#name ConnectHoursOfOperation#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_hours_of_operation#name ConnectHoursOfOperation#name}
   */
   readonly name: string;
   /**
   * List of parent hours of operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#parent_hours_of_operations ConnectHoursOfOperation#parent_hours_of_operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_hours_of_operation#parent_hours_of_operations ConnectHoursOfOperation#parent_hours_of_operations}
   */
   readonly parentHoursOfOperations?: ConnectHoursOfOperationParentHoursOfOperations[] | cdktn.IResolvable;
   /**
   * One or more tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#tags ConnectHoursOfOperation#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_hours_of_operation#tags ConnectHoursOfOperation#tags}
   */
   readonly tags?: ConnectHoursOfOperationTags[] | cdktn.IResolvable;
   /**
   * The time zone of the hours of operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#time_zone ConnectHoursOfOperation#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_hours_of_operation#time_zone ConnectHoursOfOperation#time_zone}
   */
   readonly timeZone: string;
 }
@@ -71,7 +71,7 @@ export interface ConnectHoursOfOperationChildHoursOfOperations {
   /**
   * The identifier for the hours of operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#id ConnectHoursOfOperation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_hours_of_operation#id ConnectHoursOfOperation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -80,7 +80,7 @@ export interface ConnectHoursOfOperationChildHoursOfOperations {
   /**
   * The name of the hours of operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#name ConnectHoursOfOperation#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_hours_of_operation#name ConnectHoursOfOperation#name}
   */
   readonly name?: string;
 }
@@ -227,13 +227,13 @@ export interface ConnectHoursOfOperationConfigEndTime {
   /**
   * The hours.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#hours ConnectHoursOfOperation#hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_hours_of_operation#hours ConnectHoursOfOperation#hours}
   */
   readonly hours: number;
   /**
   * The minutes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#minutes ConnectHoursOfOperation#minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_hours_of_operation#minutes ConnectHoursOfOperation#minutes}
   */
   readonly minutes: number;
 }
@@ -352,13 +352,13 @@ export interface ConnectHoursOfOperationConfigStartTime {
   /**
   * The hours.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#hours ConnectHoursOfOperation#hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_hours_of_operation#hours ConnectHoursOfOperation#hours}
   */
   readonly hours: number;
   /**
   * The minutes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#minutes ConnectHoursOfOperation#minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_hours_of_operation#minutes ConnectHoursOfOperation#minutes}
   */
   readonly minutes: number;
 }
@@ -477,19 +477,19 @@ export interface ConnectHoursOfOperationConfigA {
   /**
   * The day that the hours of operation applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#day ConnectHoursOfOperation#day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_hours_of_operation#day ConnectHoursOfOperation#day}
   */
   readonly day: string;
   /**
   * The end time that your contact center closes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#end_time ConnectHoursOfOperation#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_hours_of_operation#end_time ConnectHoursOfOperation#end_time}
   */
   readonly endTime: ConnectHoursOfOperationConfigEndTime;
   /**
   * The start time that your contact center opens.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#start_time ConnectHoursOfOperation#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_hours_of_operation#start_time ConnectHoursOfOperation#start_time}
   */
   readonly startTime: ConnectHoursOfOperationConfigStartTime;
 }
@@ -656,13 +656,13 @@ export interface ConnectHoursOfOperationHoursOfOperationOverridesOverrideConfigE
   /**
   * The hours.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#hours ConnectHoursOfOperation#hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_hours_of_operation#hours ConnectHoursOfOperation#hours}
   */
   readonly hours?: number;
   /**
   * The minutes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#minutes ConnectHoursOfOperation#minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_hours_of_operation#minutes ConnectHoursOfOperation#minutes}
   */
   readonly minutes?: number;
 }
@@ -787,13 +787,13 @@ export interface ConnectHoursOfOperationHoursOfOperationOverridesOverrideConfigS
   /**
   * The hours.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#hours ConnectHoursOfOperation#hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_hours_of_operation#hours ConnectHoursOfOperation#hours}
   */
   readonly hours?: number;
   /**
   * The minutes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#minutes ConnectHoursOfOperation#minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_hours_of_operation#minutes ConnectHoursOfOperation#minutes}
   */
   readonly minutes?: number;
 }
@@ -918,19 +918,19 @@ export interface ConnectHoursOfOperationHoursOfOperationOverridesOverrideConfig 
   /**
   * The day that the hours of operation override applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#day ConnectHoursOfOperation#day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_hours_of_operation#day ConnectHoursOfOperation#day}
   */
   readonly day?: string;
   /**
   * The new end time that your contact center closes for the overriden days.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#end_time ConnectHoursOfOperation#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_hours_of_operation#end_time ConnectHoursOfOperation#end_time}
   */
   readonly endTime?: ConnectHoursOfOperationHoursOfOperationOverridesOverrideConfigEndTime;
   /**
   * The new start time that your contact center opens for the overriden days.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#start_time ConnectHoursOfOperation#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_hours_of_operation#start_time ConnectHoursOfOperation#start_time}
   */
   readonly startTime?: ConnectHoursOfOperationHoursOfOperationOverridesOverrideConfigStartTime;
 }
@@ -1106,27 +1106,27 @@ export interface ConnectHoursOfOperationHoursOfOperationOverridesRecurrenceConfi
   /**
   * List of months (1-12) for recurrence pattern.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#by_month ConnectHoursOfOperation#by_month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_hours_of_operation#by_month ConnectHoursOfOperation#by_month}
   */
   readonly byMonth?: number[];
   /**
   * List of month days (-1 to 31) for recurrence pattern.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#by_month_day ConnectHoursOfOperation#by_month_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_hours_of_operation#by_month_day ConnectHoursOfOperation#by_month_day}
   */
   readonly byMonthDay?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#by_weekday_occurrence ConnectHoursOfOperation#by_weekday_occurrence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_hours_of_operation#by_weekday_occurrence ConnectHoursOfOperation#by_weekday_occurrence}
   */
   readonly byWeekdayOccurrence?: number[];
   /**
   * The frequency of recurrence for hours of operation overrides.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#frequency ConnectHoursOfOperation#frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_hours_of_operation#frequency ConnectHoursOfOperation#frequency}
   */
   readonly frequency?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#interval ConnectHoursOfOperation#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_hours_of_operation#interval ConnectHoursOfOperation#interval}
   */
   readonly interval?: number;
 }
@@ -1338,7 +1338,7 @@ export interface ConnectHoursOfOperationHoursOfOperationOverridesRecurrenceConfi
   /**
   * Pattern for recurring hours of operation overrides.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#recurrence_pattern ConnectHoursOfOperation#recurrence_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_hours_of_operation#recurrence_pattern ConnectHoursOfOperation#recurrence_pattern}
   */
   readonly recurrencePattern?: ConnectHoursOfOperationHoursOfOperationOverridesRecurrenceConfigRecurrencePattern;
 }
@@ -1434,49 +1434,49 @@ export interface ConnectHoursOfOperationHoursOfOperationOverrides {
   /**
   * The date from which the hours of operation override would be effective.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#effective_from ConnectHoursOfOperation#effective_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_hours_of_operation#effective_from ConnectHoursOfOperation#effective_from}
   */
   readonly effectiveFrom?: string;
   /**
   * The date till which the hours of operation override would be effective.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#effective_till ConnectHoursOfOperation#effective_till}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_hours_of_operation#effective_till ConnectHoursOfOperation#effective_till}
   */
   readonly effectiveTill?: string;
   /**
   * The Resource Identifier for the hours of operation override.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#hours_of_operation_override_id ConnectHoursOfOperation#hours_of_operation_override_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_hours_of_operation#hours_of_operation_override_id ConnectHoursOfOperation#hours_of_operation_override_id}
   */
   readonly hoursOfOperationOverrideId?: string;
   /**
   * Configuration information for the hours of operation override: day, start time, and end time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#override_config ConnectHoursOfOperation#override_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_hours_of_operation#override_config ConnectHoursOfOperation#override_config}
   */
   readonly overrideConfig?: ConnectHoursOfOperationHoursOfOperationOverridesOverrideConfig[] | cdktn.IResolvable;
   /**
   * The description of the hours of operation override.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#override_description ConnectHoursOfOperation#override_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_hours_of_operation#override_description ConnectHoursOfOperation#override_description}
   */
   readonly overrideDescription?: string;
   /**
   * The name of the hours of operation override.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#override_name ConnectHoursOfOperation#override_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_hours_of_operation#override_name ConnectHoursOfOperation#override_name}
   */
   readonly overrideName?: string;
   /**
   * The type of hours of operation override.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#override_type ConnectHoursOfOperation#override_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_hours_of_operation#override_type ConnectHoursOfOperation#override_type}
   */
   readonly overrideType?: string;
   /**
   * Configuration for recurring hours of operation overrides.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#recurrence_config ConnectHoursOfOperation#recurrence_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_hours_of_operation#recurrence_config ConnectHoursOfOperation#recurrence_config}
   */
   readonly recurrenceConfig?: ConnectHoursOfOperationHoursOfOperationOverridesRecurrenceConfig;
 }
@@ -1797,7 +1797,7 @@ export interface ConnectHoursOfOperationParentHoursOfOperations {
   /**
   * The identifier for the hours of operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#id ConnectHoursOfOperation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_hours_of_operation#id ConnectHoursOfOperation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1806,7 +1806,7 @@ export interface ConnectHoursOfOperationParentHoursOfOperations {
   /**
   * The name of the hours of operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#name ConnectHoursOfOperation#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_hours_of_operation#name ConnectHoursOfOperation#name}
   */
   readonly name?: string;
 }
@@ -1953,13 +1953,13 @@ export interface ConnectHoursOfOperationTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#key ConnectHoursOfOperation#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_hours_of_operation#key ConnectHoursOfOperation#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is maximum of 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#value ConnectHoursOfOperation#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_hours_of_operation#value ConnectHoursOfOperation#value}
   */
   readonly value?: string;
 }
@@ -2104,7 +2104,7 @@ export class ConnectHoursOfOperationTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation awscc_connect_hours_of_operation}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_hours_of_operation awscc_connect_hours_of_operation}
 */
 export class ConnectHoursOfOperation extends cdktn.TerraformResource {
 
@@ -2120,7 +2120,7 @@ export class ConnectHoursOfOperation extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ConnectHoursOfOperation resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConnectHoursOfOperation to import
-  * @param importFromId The id of the existing ConnectHoursOfOperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConnectHoursOfOperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_hours_of_operation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConnectHoursOfOperation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -2132,7 +2132,7 @@ export class ConnectHoursOfOperation extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation awscc_connect_hours_of_operation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_hours_of_operation awscc_connect_hours_of_operation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2143,7 +2143,7 @@ export class ConnectHoursOfOperation extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_connect_hours_of_operation',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.98.0',
+        providerVersion: '1.99.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

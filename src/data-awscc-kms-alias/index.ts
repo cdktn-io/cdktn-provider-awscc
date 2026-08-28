@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/kms_alias
+// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/kms_alias
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccKmsAliasConfig extends cdktn.TerraformMetaArguments {
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/kms_alias#id DataAwsccKmsAlias#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/kms_alias#id DataAwsccKmsAlias#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -24,7 +24,7 @@ export interface DataAwsccKmsAliasConfig extends cdktn.TerraformMetaArguments {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/kms_alias awscc_kms_alias}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/kms_alias awscc_kms_alias}
 */
 export class DataAwsccKmsAlias extends cdktn.TerraformDataSource {
 
@@ -40,7 +40,7 @@ export class DataAwsccKmsAlias extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAwsccKmsAlias resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccKmsAlias to import
-  * @param importFromId The id of the existing DataAwsccKmsAlias that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/kms_alias#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccKmsAlias that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/kms_alias#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccKmsAlias to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -52,7 +52,7 @@ export class DataAwsccKmsAlias extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/kms_alias awscc_kms_alias} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/kms_alias awscc_kms_alias} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -63,7 +63,7 @@ export class DataAwsccKmsAlias extends cdktn.TerraformDataSource {
       terraformResourceType: 'awscc_kms_alias',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.98.0',
+        providerVersion: '1.99.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

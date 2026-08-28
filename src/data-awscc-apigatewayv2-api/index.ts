@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/apigatewayv2_api
+// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/apigatewayv2_api
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccApigatewayv2ApiConfig extends cdktn.TerraformMetaArgum
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/apigatewayv2_api#id DataAwsccApigatewayv2Api#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/apigatewayv2_api#id DataAwsccApigatewayv2Api#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -172,7 +172,7 @@ export class DataAwsccApigatewayv2ApiCorsConfigurationOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/apigatewayv2_api awscc_apigatewayv2_api}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/apigatewayv2_api awscc_apigatewayv2_api}
 */
 export class DataAwsccApigatewayv2Api extends cdktn.TerraformDataSource {
 
@@ -188,7 +188,7 @@ export class DataAwsccApigatewayv2Api extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAwsccApigatewayv2Api resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccApigatewayv2Api to import
-  * @param importFromId The id of the existing DataAwsccApigatewayv2Api that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/apigatewayv2_api#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccApigatewayv2Api that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/apigatewayv2_api#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccApigatewayv2Api to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -200,7 +200,7 @@ export class DataAwsccApigatewayv2Api extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/apigatewayv2_api awscc_apigatewayv2_api} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/apigatewayv2_api awscc_apigatewayv2_api} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -211,7 +211,7 @@ export class DataAwsccApigatewayv2Api extends cdktn.TerraformDataSource {
       terraformResourceType: 'awscc_apigatewayv2_api',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.98.0',
+        providerVersion: '1.99.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -284,6 +284,11 @@ export class DataAwsccApigatewayv2Api extends cdktn.TerraformDataSource {
   // disable_schema_validation - computed: true, optional: false, required: false
   public get disableSchemaValidation() {
     return this.getBooleanAttribute('disable_schema_validation');
+  }
+
+  // execute_api_arn - computed: true, optional: false, required: false
+  public get executeApiArn() {
+    return this.getStringAttribute('execute_api_arn');
   }
 
   // fail_on_warnings - computed: true, optional: false, required: false

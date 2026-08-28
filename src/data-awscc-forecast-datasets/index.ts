@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/forecast_datasets
+// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/forecast_datasets
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccForecastDatasetsConfig extends cdktn.TerraformMetaArgu
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/forecast_datasets awscc_forecast_datasets}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/forecast_datasets awscc_forecast_datasets}
 */
 export class DataAwsccForecastDatasets extends cdktn.TerraformDataSource {
 
@@ -31,7 +31,7 @@ export class DataAwsccForecastDatasets extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAwsccForecastDatasets resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccForecastDatasets to import
-  * @param importFromId The id of the existing DataAwsccForecastDatasets that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/forecast_datasets#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccForecastDatasets that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/forecast_datasets#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccForecastDatasets to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -43,7 +43,7 @@ export class DataAwsccForecastDatasets extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/forecast_datasets awscc_forecast_datasets} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/forecast_datasets awscc_forecast_datasets} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -54,7 +54,7 @@ export class DataAwsccForecastDatasets extends cdktn.TerraformDataSource {
       terraformResourceType: 'awscc_forecast_datasets',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.98.0',
+        providerVersion: '1.99.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/b2bi_capabilities
+// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/b2bi_capabilities
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccB2BiCapabilitiesConfig extends cdktn.TerraformMetaArgu
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/b2bi_capabilities awscc_b2bi_capabilities}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/b2bi_capabilities awscc_b2bi_capabilities}
 */
 export class DataAwsccB2BiCapabilities extends cdktn.TerraformDataSource {
 
@@ -31,7 +31,7 @@ export class DataAwsccB2BiCapabilities extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAwsccB2BiCapabilities resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccB2BiCapabilities to import
-  * @param importFromId The id of the existing DataAwsccB2BiCapabilities that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/b2bi_capabilities#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccB2BiCapabilities that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/b2bi_capabilities#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccB2BiCapabilities to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -43,7 +43,7 @@ export class DataAwsccB2BiCapabilities extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/b2bi_capabilities awscc_b2bi_capabilities} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/b2bi_capabilities awscc_b2bi_capabilities} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -54,7 +54,7 @@ export class DataAwsccB2BiCapabilities extends cdktn.TerraformDataSource {
       terraformResourceType: 'awscc_b2bi_capabilities',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.98.0',
+        providerVersion: '1.99.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

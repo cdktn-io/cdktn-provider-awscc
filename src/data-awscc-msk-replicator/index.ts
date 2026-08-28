@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/msk_replicator
+// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/msk_replicator
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccMskReplicatorConfig extends cdktn.TerraformMetaArgumen
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/msk_replicator#id DataAwsccMskReplicator#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/msk_replicator#id DataAwsccMskReplicator#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -189,6 +189,275 @@ export class DataAwsccMskReplicatorKafkaClustersClientAuthenticationMtlsOutputRe
     return this.getStringAttribute('secret_arn');
   }
 }
+export interface DataAwsccMskReplicatorKafkaClustersClientAuthenticationSaslOAuthBearerClientCredentials {
+}
+
+export function dataAwsccMskReplicatorKafkaClustersClientAuthenticationSaslOAuthBearerClientCredentialsToTerraform(struct?: DataAwsccMskReplicatorKafkaClustersClientAuthenticationSaslOAuthBearerClientCredentials): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccMskReplicatorKafkaClustersClientAuthenticationSaslOAuthBearerClientCredentialsToHclTerraform(struct?: DataAwsccMskReplicatorKafkaClustersClientAuthenticationSaslOAuthBearerClientCredentials): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccMskReplicatorKafkaClustersClientAuthenticationSaslOAuthBearerClientCredentialsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccMskReplicatorKafkaClustersClientAuthenticationSaslOAuthBearerClientCredentials | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccMskReplicatorKafkaClustersClientAuthenticationSaslOAuthBearerClientCredentials | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // token_request_secret_arn - computed: true, optional: false, required: false
+  public get tokenRequestSecretArn() {
+    return this.getStringAttribute('token_request_secret_arn');
+  }
+}
+export interface DataAwsccMskReplicatorKafkaClustersClientAuthenticationSaslOAuthBearerClientCredentialsAssertion {
+}
+
+export function dataAwsccMskReplicatorKafkaClustersClientAuthenticationSaslOAuthBearerClientCredentialsAssertionToTerraform(struct?: DataAwsccMskReplicatorKafkaClustersClientAuthenticationSaslOAuthBearerClientCredentialsAssertion): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccMskReplicatorKafkaClustersClientAuthenticationSaslOAuthBearerClientCredentialsAssertionToHclTerraform(struct?: DataAwsccMskReplicatorKafkaClustersClientAuthenticationSaslOAuthBearerClientCredentialsAssertion): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccMskReplicatorKafkaClustersClientAuthenticationSaslOAuthBearerClientCredentialsAssertionOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccMskReplicatorKafkaClustersClientAuthenticationSaslOAuthBearerClientCredentialsAssertion | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccMskReplicatorKafkaClustersClientAuthenticationSaslOAuthBearerClientCredentialsAssertion | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // audience - computed: true, optional: false, required: false
+  public get audience() {
+    return this.getStringAttribute('audience');
+  }
+
+  // signing_algorithm - computed: true, optional: false, required: false
+  public get signingAlgorithm() {
+    return this.getStringAttribute('signing_algorithm');
+  }
+
+  // token_request_secret_arn - computed: true, optional: false, required: false
+  public get tokenRequestSecretArn() {
+    return this.getStringAttribute('token_request_secret_arn');
+  }
+}
+export interface DataAwsccMskReplicatorKafkaClustersClientAuthenticationSaslOAuthBearerIamJwtBearer {
+}
+
+export function dataAwsccMskReplicatorKafkaClustersClientAuthenticationSaslOAuthBearerIamJwtBearerToTerraform(struct?: DataAwsccMskReplicatorKafkaClustersClientAuthenticationSaslOAuthBearerIamJwtBearer): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccMskReplicatorKafkaClustersClientAuthenticationSaslOAuthBearerIamJwtBearerToHclTerraform(struct?: DataAwsccMskReplicatorKafkaClustersClientAuthenticationSaslOAuthBearerIamJwtBearer): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccMskReplicatorKafkaClustersClientAuthenticationSaslOAuthBearerIamJwtBearerOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccMskReplicatorKafkaClustersClientAuthenticationSaslOAuthBearerIamJwtBearer | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccMskReplicatorKafkaClustersClientAuthenticationSaslOAuthBearerIamJwtBearer | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // audience - computed: true, optional: false, required: false
+  public get audience() {
+    return this.getStringAttribute('audience');
+  }
+
+  // signing_algorithm - computed: true, optional: false, required: false
+  public get signingAlgorithm() {
+    return this.getStringAttribute('signing_algorithm');
+  }
+
+  // token_request_secret_arn - computed: true, optional: false, required: false
+  public get tokenRequestSecretArn() {
+    return this.getStringAttribute('token_request_secret_arn');
+  }
+}
+export interface DataAwsccMskReplicatorKafkaClustersClientAuthenticationSaslOAuthBearer {
+}
+
+export function dataAwsccMskReplicatorKafkaClustersClientAuthenticationSaslOAuthBearerToTerraform(struct?: DataAwsccMskReplicatorKafkaClustersClientAuthenticationSaslOAuthBearer): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccMskReplicatorKafkaClustersClientAuthenticationSaslOAuthBearerToHclTerraform(struct?: DataAwsccMskReplicatorKafkaClustersClientAuthenticationSaslOAuthBearer): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccMskReplicatorKafkaClustersClientAuthenticationSaslOAuthBearerOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccMskReplicatorKafkaClustersClientAuthenticationSaslOAuthBearer | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccMskReplicatorKafkaClustersClientAuthenticationSaslOAuthBearer | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // client_credentials - computed: true, optional: false, required: false
+  private _clientCredentials = new DataAwsccMskReplicatorKafkaClustersClientAuthenticationSaslOAuthBearerClientCredentialsOutputReference(this, "client_credentials");
+  public get clientCredentials() {
+    return this._clientCredentials;
+  }
+
+  // client_credentials_assertion - computed: true, optional: false, required: false
+  private _clientCredentialsAssertion = new DataAwsccMskReplicatorKafkaClustersClientAuthenticationSaslOAuthBearerClientCredentialsAssertionOutputReference(this, "client_credentials_assertion");
+  public get clientCredentialsAssertion() {
+    return this._clientCredentialsAssertion;
+  }
+
+  // iam_jwt_bearer - computed: true, optional: false, required: false
+  private _iamJwtBearer = new DataAwsccMskReplicatorKafkaClustersClientAuthenticationSaslOAuthBearerIamJwtBearerOutputReference(this, "iam_jwt_bearer");
+  public get iamJwtBearer() {
+    return this._iamJwtBearer;
+  }
+
+  // scope - computed: true, optional: false, required: false
+  public get scope() {
+    return this.getStringAttribute('scope');
+  }
+
+  // token_endpoint_authentication_method - computed: true, optional: false, required: false
+  public get tokenEndpointAuthenticationMethod() {
+    return this.getStringAttribute('token_endpoint_authentication_method');
+  }
+
+  // token_endpoint_tls_certificate_arn - computed: true, optional: false, required: false
+  public get tokenEndpointTlsCertificateArn() {
+    return this.getStringAttribute('token_endpoint_tls_certificate_arn');
+  }
+
+  // token_endpoint_url - computed: true, optional: false, required: false
+  public get tokenEndpointUrl() {
+    return this.getStringAttribute('token_endpoint_url');
+  }
+}
 export interface DataAwsccMskReplicatorKafkaClustersClientAuthenticationSaslScram {
 }
 
@@ -301,6 +570,12 @@ export class DataAwsccMskReplicatorKafkaClustersClientAuthenticationOutputRefere
   private _mtls = new DataAwsccMskReplicatorKafkaClustersClientAuthenticationMtlsOutputReference(this, "mtls");
   public get mtls() {
     return this._mtls;
+  }
+
+  // sasl_o_auth_bearer - computed: true, optional: false, required: false
+  private _saslOAuthBearer = new DataAwsccMskReplicatorKafkaClustersClientAuthenticationSaslOAuthBearerOutputReference(this, "sasl_o_auth_bearer");
+  public get saslOAuthBearer() {
+    return this._saslOAuthBearer;
   }
 
   // sasl_scram - computed: true, optional: false, required: false
@@ -1288,7 +1563,7 @@ export class DataAwsccMskReplicatorTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/msk_replicator awscc_msk_replicator}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/msk_replicator awscc_msk_replicator}
 */
 export class DataAwsccMskReplicator extends cdktn.TerraformDataSource {
 
@@ -1304,7 +1579,7 @@ export class DataAwsccMskReplicator extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAwsccMskReplicator resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccMskReplicator to import
-  * @param importFromId The id of the existing DataAwsccMskReplicator that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/msk_replicator#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccMskReplicator that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/msk_replicator#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccMskReplicator to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1316,7 +1591,7 @@ export class DataAwsccMskReplicator extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/msk_replicator awscc_msk_replicator} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/msk_replicator awscc_msk_replicator} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1327,7 +1602,7 @@ export class DataAwsccMskReplicator extends cdktn.TerraformDataSource {
       terraformResourceType: 'awscc_msk_replicator',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.98.0',
+        providerVersion: '1.99.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

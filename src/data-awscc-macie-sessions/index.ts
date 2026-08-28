@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/macie_sessions
+// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/macie_sessions
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccMacieSessionsConfig extends cdktn.TerraformMetaArgumen
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/macie_sessions awscc_macie_sessions}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/macie_sessions awscc_macie_sessions}
 */
 export class DataAwsccMacieSessions extends cdktn.TerraformDataSource {
 
@@ -31,7 +31,7 @@ export class DataAwsccMacieSessions extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAwsccMacieSessions resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccMacieSessions to import
-  * @param importFromId The id of the existing DataAwsccMacieSessions that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/macie_sessions#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccMacieSessions that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/macie_sessions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccMacieSessions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -43,7 +43,7 @@ export class DataAwsccMacieSessions extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/macie_sessions awscc_macie_sessions} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/macie_sessions awscc_macie_sessions} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -54,7 +54,7 @@ export class DataAwsccMacieSessions extends cdktn.TerraformDataSource {
       terraformResourceType: 'awscc_macie_sessions',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.98.0',
+        providerVersion: '1.99.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

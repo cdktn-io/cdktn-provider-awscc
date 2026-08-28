@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/qbusiness_retriever
+// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/qbusiness_retriever
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,33 +13,33 @@ import * as cdktn from 'cdktn';
 
 export interface QbusinessRetrieverConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/qbusiness_retriever#application_id QbusinessRetriever#application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/qbusiness_retriever#application_id QbusinessRetriever#application_id}
   */
   readonly applicationId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/qbusiness_retriever#configuration QbusinessRetriever#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/qbusiness_retriever#configuration QbusinessRetriever#configuration}
   */
   readonly configuration: QbusinessRetrieverConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/qbusiness_retriever#display_name QbusinessRetriever#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/qbusiness_retriever#display_name QbusinessRetriever#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/qbusiness_retriever#role_arn QbusinessRetriever#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/qbusiness_retriever#role_arn QbusinessRetriever#role_arn}
   */
   readonly roleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/qbusiness_retriever#tags QbusinessRetriever#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/qbusiness_retriever#tags QbusinessRetriever#tags}
   */
   readonly tags?: QbusinessRetrieverTags[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/qbusiness_retriever#type QbusinessRetriever#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/qbusiness_retriever#type QbusinessRetriever#type}
   */
   readonly type: string;
 }
 export interface QbusinessRetrieverConfigurationKendraIndexConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/qbusiness_retriever#index_id QbusinessRetriever#index_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/qbusiness_retriever#index_id QbusinessRetriever#index_id}
   */
   readonly indexId?: string;
 }
@@ -133,7 +133,7 @@ export class QbusinessRetrieverConfigurationKendraIndexConfigurationOutputRefere
 }
 export interface QbusinessRetrieverConfigurationNativeIndexConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/qbusiness_retriever#index_id QbusinessRetriever#index_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/qbusiness_retriever#index_id QbusinessRetriever#index_id}
   */
   readonly indexId?: string;
 }
@@ -227,11 +227,11 @@ export class QbusinessRetrieverConfigurationNativeIndexConfigurationOutputRefere
 }
 export interface QbusinessRetrieverConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/qbusiness_retriever#kendra_index_configuration QbusinessRetriever#kendra_index_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/qbusiness_retriever#kendra_index_configuration QbusinessRetriever#kendra_index_configuration}
   */
   readonly kendraIndexConfiguration?: QbusinessRetrieverConfigurationKendraIndexConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/qbusiness_retriever#native_index_configuration QbusinessRetriever#native_index_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/qbusiness_retriever#native_index_configuration QbusinessRetriever#native_index_configuration}
   */
   readonly nativeIndexConfiguration?: QbusinessRetrieverConfigurationNativeIndexConfiguration;
 }
@@ -354,11 +354,11 @@ export class QbusinessRetrieverConfigurationOutputReference extends cdktn.Comple
 }
 export interface QbusinessRetrieverTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/qbusiness_retriever#key QbusinessRetriever#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/qbusiness_retriever#key QbusinessRetriever#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/qbusiness_retriever#value QbusinessRetriever#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/qbusiness_retriever#value QbusinessRetriever#value}
   */
   readonly value?: string;
 }
@@ -503,7 +503,7 @@ export class QbusinessRetrieverTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/qbusiness_retriever awscc_qbusiness_retriever}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/qbusiness_retriever awscc_qbusiness_retriever}
 */
 export class QbusinessRetriever extends cdktn.TerraformResource {
 
@@ -519,7 +519,7 @@ export class QbusinessRetriever extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a QbusinessRetriever resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the QbusinessRetriever to import
-  * @param importFromId The id of the existing QbusinessRetriever that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/qbusiness_retriever#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing QbusinessRetriever that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/qbusiness_retriever#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the QbusinessRetriever to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -531,7 +531,7 @@ export class QbusinessRetriever extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/qbusiness_retriever awscc_qbusiness_retriever} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/qbusiness_retriever awscc_qbusiness_retriever} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -542,7 +542,7 @@ export class QbusinessRetriever extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_qbusiness_retriever',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.98.0',
+        providerVersion: '1.99.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

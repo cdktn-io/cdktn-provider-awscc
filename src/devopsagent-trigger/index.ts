@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_trigger
+// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_trigger
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,31 +15,31 @@ export interface DevopsagentTriggerConfig extends cdktn.TerraformMetaArguments {
   /**
   * The action to perform when the trigger fires. A JSON object containing actionType and task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_trigger#action DevopsagentTrigger#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_trigger#action DevopsagentTrigger#action}
   */
   readonly action: string;
   /**
   * The unique identifier of the parent Agent Space.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_trigger#agent_space_id DevopsagentTrigger#agent_space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_trigger#agent_space_id DevopsagentTrigger#agent_space_id}
   */
   readonly agentSpaceId: string;
   /**
   * The condition that causes the trigger to fire.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_trigger#condition DevopsagentTrigger#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_trigger#condition DevopsagentTrigger#condition}
   */
   readonly condition: DevopsagentTriggerCondition;
   /**
   * The status of the trigger. Active triggers fire on schedule; Inactive triggers are paused.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_trigger#status DevopsagentTrigger#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_trigger#status DevopsagentTrigger#status}
   */
   readonly status?: string;
   /**
   * The type of trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_trigger#type DevopsagentTrigger#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_trigger#type DevopsagentTrigger#type}
   */
   readonly type: string;
 }
@@ -47,7 +47,7 @@ export interface DevopsagentTriggerConditionSchedule {
   /**
   * A cron or rate expression that defines when the trigger fires.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_trigger#expression DevopsagentTrigger#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_trigger#expression DevopsagentTrigger#expression}
   */
   readonly expression: string;
 }
@@ -140,7 +140,7 @@ export interface DevopsagentTriggerCondition {
   /**
   * Schedule configuration for a time-based trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_trigger#schedule DevopsagentTrigger#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_trigger#schedule DevopsagentTrigger#schedule}
   */
   readonly schedule: DevopsagentTriggerConditionSchedule;
 }
@@ -231,7 +231,7 @@ export class DevopsagentTriggerConditionOutputReference extends cdktn.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_trigger awscc_devopsagent_trigger}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_trigger awscc_devopsagent_trigger}
 */
 export class DevopsagentTrigger extends cdktn.TerraformResource {
 
@@ -247,7 +247,7 @@ export class DevopsagentTrigger extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a DevopsagentTrigger resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DevopsagentTrigger to import
-  * @param importFromId The id of the existing DevopsagentTrigger that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_trigger#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DevopsagentTrigger that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_trigger#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DevopsagentTrigger to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -259,7 +259,7 @@ export class DevopsagentTrigger extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_trigger awscc_devopsagent_trigger} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_trigger awscc_devopsagent_trigger} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -270,7 +270,7 @@ export class DevopsagentTrigger extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_devopsagent_trigger',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.98.0',
+        providerVersion: '1.99.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

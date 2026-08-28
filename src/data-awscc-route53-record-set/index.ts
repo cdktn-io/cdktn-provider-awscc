@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/route53_record_set
+// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/route53_record_set
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccRoute53RecordSetConfig extends cdktn.TerraformMetaArgu
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/route53_record_set#id DataAwsccRoute53RecordSet#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/route53_record_set#id DataAwsccRoute53RecordSet#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -209,138 +209,9 @@ export class DataAwsccRoute53RecordSetGeoLocationOutputReference extends cdktn.C
     return this.getStringAttribute('subdivision_code');
   }
 }
-export interface DataAwsccRoute53RecordSetGeoProximityLocationCoordinates {
-}
-
-export function dataAwsccRoute53RecordSetGeoProximityLocationCoordinatesToTerraform(struct?: DataAwsccRoute53RecordSetGeoProximityLocationCoordinates): any {
-  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
-  }
-  return {
-  }
-}
-
-
-export function dataAwsccRoute53RecordSetGeoProximityLocationCoordinatesToHclTerraform(struct?: DataAwsccRoute53RecordSetGeoProximityLocationCoordinates): any {
-  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class DataAwsccRoute53RecordSetGeoProximityLocationCoordinatesOutputReference extends cdktn.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): DataAwsccRoute53RecordSetGeoProximityLocationCoordinates | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DataAwsccRoute53RecordSetGeoProximityLocationCoordinates | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // latitude - computed: true, optional: false, required: false
-  public get latitude() {
-    return this.getStringAttribute('latitude');
-  }
-
-  // longitude - computed: true, optional: false, required: false
-  public get longitude() {
-    return this.getStringAttribute('longitude');
-  }
-}
-export interface DataAwsccRoute53RecordSetGeoProximityLocation {
-}
-
-export function dataAwsccRoute53RecordSetGeoProximityLocationToTerraform(struct?: DataAwsccRoute53RecordSetGeoProximityLocation): any {
-  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
-  }
-  return {
-  }
-}
-
-
-export function dataAwsccRoute53RecordSetGeoProximityLocationToHclTerraform(struct?: DataAwsccRoute53RecordSetGeoProximityLocation): any {
-  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class DataAwsccRoute53RecordSetGeoProximityLocationOutputReference extends cdktn.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): DataAwsccRoute53RecordSetGeoProximityLocation | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DataAwsccRoute53RecordSetGeoProximityLocation | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // aws_region - computed: true, optional: false, required: false
-  public get awsRegion() {
-    return this.getStringAttribute('aws_region');
-  }
-
-  // bias - computed: true, optional: false, required: false
-  public get bias() {
-    return this.getNumberAttribute('bias');
-  }
-
-  // coordinates - computed: true, optional: false, required: false
-  private _coordinates = new DataAwsccRoute53RecordSetGeoProximityLocationCoordinatesOutputReference(this, "coordinates");
-  public get coordinates() {
-    return this._coordinates;
-  }
-
-  // local_zone_group - computed: true, optional: false, required: false
-  public get localZoneGroup() {
-    return this.getStringAttribute('local_zone_group');
-  }
-}
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/route53_record_set awscc_route53_record_set}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/route53_record_set awscc_route53_record_set}
 */
 export class DataAwsccRoute53RecordSet extends cdktn.TerraformDataSource {
 
@@ -356,7 +227,7 @@ export class DataAwsccRoute53RecordSet extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAwsccRoute53RecordSet resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccRoute53RecordSet to import
-  * @param importFromId The id of the existing DataAwsccRoute53RecordSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/route53_record_set#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccRoute53RecordSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/route53_record_set#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccRoute53RecordSet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -368,7 +239,7 @@ export class DataAwsccRoute53RecordSet extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/route53_record_set awscc_route53_record_set} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/route53_record_set awscc_route53_record_set} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -379,7 +250,7 @@ export class DataAwsccRoute53RecordSet extends cdktn.TerraformDataSource {
       terraformResourceType: 'awscc_route53_record_set',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.98.0',
+        providerVersion: '1.99.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -425,12 +296,6 @@ export class DataAwsccRoute53RecordSet extends cdktn.TerraformDataSource {
     return this._geoLocation;
   }
 
-  // geo_proximity_location - computed: true, optional: false, required: false
-  private _geoProximityLocation = new DataAwsccRoute53RecordSetGeoProximityLocationOutputReference(this, "geo_proximity_location");
-  public get geoProximityLocation() {
-    return this._geoProximityLocation;
-  }
-
   // health_check_id - computed: true, optional: false, required: false
   public get healthCheckId() {
     return this.getStringAttribute('health_check_id');
@@ -467,11 +332,6 @@ export class DataAwsccRoute53RecordSet extends cdktn.TerraformDataSource {
   // name - computed: true, optional: false, required: false
   public get name() {
     return this.getStringAttribute('name');
-  }
-
-  // record_set_id - computed: true, optional: false, required: false
-  public get recordSetId() {
-    return this.getStringAttribute('record_set_id');
   }
 
   // region - computed: true, optional: false, required: false

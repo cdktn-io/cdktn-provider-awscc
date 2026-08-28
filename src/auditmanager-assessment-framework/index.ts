@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/auditmanager_assessment_framework
+// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/auditmanager_assessment_framework
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,31 +15,31 @@ export interface AuditmanagerAssessmentFrameworkConfig extends cdktn.TerraformMe
   /**
   * The compliance type that the framework supports, such as CIS or HIPAA.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/auditmanager_assessment_framework#compliance_type AuditmanagerAssessmentFramework#compliance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/auditmanager_assessment_framework#compliance_type AuditmanagerAssessmentFramework#compliance_type}
   */
   readonly complianceType?: string;
   /**
   * The control sets that are associated with the framework.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/auditmanager_assessment_framework#control_sets AuditmanagerAssessmentFramework#control_sets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/auditmanager_assessment_framework#control_sets AuditmanagerAssessmentFramework#control_sets}
   */
   readonly controlSets: AuditmanagerAssessmentFrameworkControlSets[] | cdktn.IResolvable;
   /**
   * The description of the framework.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/auditmanager_assessment_framework#description AuditmanagerAssessmentFramework#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/auditmanager_assessment_framework#description AuditmanagerAssessmentFramework#description}
   */
   readonly description?: string;
   /**
   * The name of the framework.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/auditmanager_assessment_framework#name AuditmanagerAssessmentFramework#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/auditmanager_assessment_framework#name AuditmanagerAssessmentFramework#name}
   */
   readonly name: string;
   /**
   * The tags associated with the framework.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/auditmanager_assessment_framework#tags AuditmanagerAssessmentFramework#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/auditmanager_assessment_framework#tags AuditmanagerAssessmentFramework#tags}
   */
   readonly tags?: AuditmanagerAssessmentFrameworkTags[] | cdktn.IResolvable;
 }
@@ -47,7 +47,7 @@ export interface AuditmanagerAssessmentFrameworkControlSetsControls {
   /**
   * The unique identifier of the control.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/auditmanager_assessment_framework#id AuditmanagerAssessmentFramework#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/auditmanager_assessment_framework#id AuditmanagerAssessmentFramework#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -165,13 +165,13 @@ export interface AuditmanagerAssessmentFrameworkControlSets {
   /**
   * The list of controls within the control set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/auditmanager_assessment_framework#controls AuditmanagerAssessmentFramework#controls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/auditmanager_assessment_framework#controls AuditmanagerAssessmentFramework#controls}
   */
   readonly controls: AuditmanagerAssessmentFrameworkControlSetsControls[] | cdktn.IResolvable;
   /**
   * The name of the control set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/auditmanager_assessment_framework#name AuditmanagerAssessmentFramework#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/auditmanager_assessment_framework#name AuditmanagerAssessmentFramework#name}
   */
   readonly name: string;
 }
@@ -312,13 +312,13 @@ export interface AuditmanagerAssessmentFrameworkTags {
   /**
   * The key name of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/auditmanager_assessment_framework#key AuditmanagerAssessmentFramework#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/auditmanager_assessment_framework#key AuditmanagerAssessmentFramework#key}
   */
   readonly key?: string;
   /**
   * The value for the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/auditmanager_assessment_framework#value AuditmanagerAssessmentFramework#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/auditmanager_assessment_framework#value AuditmanagerAssessmentFramework#value}
   */
   readonly value?: string;
 }
@@ -463,7 +463,7 @@ export class AuditmanagerAssessmentFrameworkTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/auditmanager_assessment_framework awscc_auditmanager_assessment_framework}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/auditmanager_assessment_framework awscc_auditmanager_assessment_framework}
 */
 export class AuditmanagerAssessmentFramework extends cdktn.TerraformResource {
 
@@ -479,7 +479,7 @@ export class AuditmanagerAssessmentFramework extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a AuditmanagerAssessmentFramework resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AuditmanagerAssessmentFramework to import
-  * @param importFromId The id of the existing AuditmanagerAssessmentFramework that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/auditmanager_assessment_framework#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AuditmanagerAssessmentFramework that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/auditmanager_assessment_framework#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AuditmanagerAssessmentFramework to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -491,7 +491,7 @@ export class AuditmanagerAssessmentFramework extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/auditmanager_assessment_framework awscc_auditmanager_assessment_framework} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/auditmanager_assessment_framework awscc_auditmanager_assessment_framework} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -502,7 +502,7 @@ export class AuditmanagerAssessmentFramework extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_auditmanager_assessment_framework',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.98.0',
+        providerVersion: '1.99.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

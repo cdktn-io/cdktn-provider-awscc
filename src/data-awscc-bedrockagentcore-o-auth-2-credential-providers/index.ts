@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/bedrockagentcore_o_auth_2_credential_providers
+// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/bedrockagentcore_o_auth_2_credential_providers
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccBedrockagentcoreOAuth2CredentialProvidersConfig extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/bedrockagentcore_o_auth_2_credential_providers awscc_bedrockagentcore_o_auth_2_credential_providers}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/bedrockagentcore_o_auth_2_credential_providers awscc_bedrockagentcore_o_auth_2_credential_providers}
 */
 export class DataAwsccBedrockagentcoreOAuth2CredentialProviders extends cdktn.TerraformDataSource {
 
@@ -31,7 +31,7 @@ export class DataAwsccBedrockagentcoreOAuth2CredentialProviders extends cdktn.Te
   * Generates CDKTN code for importing a DataAwsccBedrockagentcoreOAuth2CredentialProviders resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccBedrockagentcoreOAuth2CredentialProviders to import
-  * @param importFromId The id of the existing DataAwsccBedrockagentcoreOAuth2CredentialProviders that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/bedrockagentcore_o_auth_2_credential_providers#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccBedrockagentcoreOAuth2CredentialProviders that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/bedrockagentcore_o_auth_2_credential_providers#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccBedrockagentcoreOAuth2CredentialProviders to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -43,7 +43,7 @@ export class DataAwsccBedrockagentcoreOAuth2CredentialProviders extends cdktn.Te
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/bedrockagentcore_o_auth_2_credential_providers awscc_bedrockagentcore_o_auth_2_credential_providers} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/bedrockagentcore_o_auth_2_credential_providers awscc_bedrockagentcore_o_auth_2_credential_providers} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -54,7 +54,7 @@ export class DataAwsccBedrockagentcoreOAuth2CredentialProviders extends cdktn.Te
       terraformResourceType: 'awscc_bedrockagentcore_o_auth_2_credential_providers',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.98.0',
+        providerVersion: '1.99.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

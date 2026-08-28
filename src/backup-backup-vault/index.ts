@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backup_backup_vault
+// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_backup_vault
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,41 +13,41 @@ import * as cdktn from 'cdktn';
 
 export interface BackupBackupVaultConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backup_backup_vault#access_policy BackupBackupVault#access_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_backup_vault#access_policy BackupBackupVault#access_policy}
   */
   readonly accessPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backup_backup_vault#backup_vault_name BackupBackupVault#backup_vault_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_backup_vault#backup_vault_name BackupBackupVault#backup_vault_name}
   */
   readonly backupVaultName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backup_backup_vault#backup_vault_tags BackupBackupVault#backup_vault_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_backup_vault#backup_vault_tags BackupBackupVault#backup_vault_tags}
   */
   readonly backupVaultTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backup_backup_vault#encryption_key_arn BackupBackupVault#encryption_key_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_backup_vault#encryption_key_arn BackupBackupVault#encryption_key_arn}
   */
   readonly encryptionKeyArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backup_backup_vault#lock_configuration BackupBackupVault#lock_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_backup_vault#lock_configuration BackupBackupVault#lock_configuration}
   */
   readonly lockConfiguration?: BackupBackupVaultLockConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backup_backup_vault#notifications BackupBackupVault#notifications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_backup_vault#notifications BackupBackupVault#notifications}
   */
   readonly notifications?: BackupBackupVaultNotifications;
 }
 export interface BackupBackupVaultLockConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backup_backup_vault#changeable_for_days BackupBackupVault#changeable_for_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_backup_vault#changeable_for_days BackupBackupVault#changeable_for_days}
   */
   readonly changeableForDays?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backup_backup_vault#max_retention_days BackupBackupVault#max_retention_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_backup_vault#max_retention_days BackupBackupVault#max_retention_days}
   */
   readonly maxRetentionDays?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backup_backup_vault#min_retention_days BackupBackupVault#min_retention_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_backup_vault#min_retention_days BackupBackupVault#min_retention_days}
   */
   readonly minRetentionDays?: number;
 }
@@ -199,11 +199,11 @@ export class BackupBackupVaultLockConfigurationOutputReference extends cdktn.Com
 }
 export interface BackupBackupVaultNotifications {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backup_backup_vault#backup_vault_events BackupBackupVault#backup_vault_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_backup_vault#backup_vault_events BackupBackupVault#backup_vault_events}
   */
   readonly backupVaultEvents?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backup_backup_vault#sns_topic_arn BackupBackupVault#sns_topic_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_backup_vault#sns_topic_arn BackupBackupVault#sns_topic_arn}
   */
   readonly snsTopicArn?: string;
 }
@@ -326,7 +326,7 @@ export class BackupBackupVaultNotificationsOutputReference extends cdktn.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backup_backup_vault awscc_backup_backup_vault}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_backup_vault awscc_backup_backup_vault}
 */
 export class BackupBackupVault extends cdktn.TerraformResource {
 
@@ -342,7 +342,7 @@ export class BackupBackupVault extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a BackupBackupVault resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BackupBackupVault to import
-  * @param importFromId The id of the existing BackupBackupVault that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backup_backup_vault#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BackupBackupVault that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_backup_vault#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BackupBackupVault to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -354,7 +354,7 @@ export class BackupBackupVault extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backup_backup_vault awscc_backup_backup_vault} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_backup_vault awscc_backup_backup_vault} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -365,7 +365,7 @@ export class BackupBackupVault extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_backup_backup_vault',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.98.0',
+        providerVersion: '1.99.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

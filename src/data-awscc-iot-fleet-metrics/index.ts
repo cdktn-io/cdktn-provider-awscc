@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/iot_fleet_metrics
+// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/iot_fleet_metrics
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccIotFleetMetricsConfig extends cdktn.TerraformMetaArgum
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/iot_fleet_metrics awscc_iot_fleet_metrics}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/iot_fleet_metrics awscc_iot_fleet_metrics}
 */
 export class DataAwsccIotFleetMetrics extends cdktn.TerraformDataSource {
 
@@ -31,7 +31,7 @@ export class DataAwsccIotFleetMetrics extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAwsccIotFleetMetrics resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccIotFleetMetrics to import
-  * @param importFromId The id of the existing DataAwsccIotFleetMetrics that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/iot_fleet_metrics#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccIotFleetMetrics that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/iot_fleet_metrics#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccIotFleetMetrics to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -43,7 +43,7 @@ export class DataAwsccIotFleetMetrics extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/iot_fleet_metrics awscc_iot_fleet_metrics} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/iot_fleet_metrics awscc_iot_fleet_metrics} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -54,7 +54,7 @@ export class DataAwsccIotFleetMetrics extends cdktn.TerraformDataSource {
       terraformResourceType: 'awscc_iot_fleet_metrics',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.98.0',
+        providerVersion: '1.99.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

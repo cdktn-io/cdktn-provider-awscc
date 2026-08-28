@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpc_endpoint_service
+// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_vpc_endpoint_service
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,51 +13,138 @@ import * as cdktn from 'cdktn';
 
 export interface Ec2VpcEndpointServiceConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpc_endpoint_service#acceptance_required Ec2VpcEndpointService#acceptance_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_vpc_endpoint_service#acceptance_required Ec2VpcEndpointService#acceptance_required}
   */
   readonly acceptanceRequired?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpc_endpoint_service#contributor_insights_enabled Ec2VpcEndpointService#contributor_insights_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_vpc_endpoint_service#contributor_insights_enabled Ec2VpcEndpointService#contributor_insights_enabled}
   */
   readonly contributorInsightsEnabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpc_endpoint_service#gateway_load_balancer_arns Ec2VpcEndpointService#gateway_load_balancer_arns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_vpc_endpoint_service#gateway_load_balancer_arns Ec2VpcEndpointService#gateway_load_balancer_arns}
   */
   readonly gatewayLoadBalancerArns?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpc_endpoint_service#network_load_balancer_arns Ec2VpcEndpointService#network_load_balancer_arns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_vpc_endpoint_service#network_load_balancer_arns Ec2VpcEndpointService#network_load_balancer_arns}
   */
   readonly networkLoadBalancerArns?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpc_endpoint_service#payer_responsibility Ec2VpcEndpointService#payer_responsibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_vpc_endpoint_service#payer_responsibility Ec2VpcEndpointService#payer_responsibility}
   */
   readonly payerResponsibility?: string;
   /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_vpc_endpoint_service#private_dns_name Ec2VpcEndpointService#private_dns_name}
+  */
+  readonly privateDnsName?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_vpc_endpoint_service#private_dns_name_configuration Ec2VpcEndpointService#private_dns_name_configuration}
+  */
+  readonly privateDnsNameConfiguration?: Ec2VpcEndpointServicePrivateDnsNameConfiguration;
+  /**
   * Specify which Ip Address types are supported for VPC endpoint service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpc_endpoint_service#supported_ip_address_types Ec2VpcEndpointService#supported_ip_address_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_vpc_endpoint_service#supported_ip_address_types Ec2VpcEndpointService#supported_ip_address_types}
   */
   readonly supportedIpAddressTypes?: string[];
   /**
   * The Regions from which service consumers can access the service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpc_endpoint_service#supported_regions Ec2VpcEndpointService#supported_regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_vpc_endpoint_service#supported_regions Ec2VpcEndpointService#supported_regions}
   */
   readonly supportedRegions?: string[];
   /**
   * The tags to add to the VPC endpoint service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpc_endpoint_service#tags Ec2VpcEndpointService#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_vpc_endpoint_service#tags Ec2VpcEndpointService#tags}
   */
   readonly tags?: Ec2VpcEndpointServiceTags[] | cdktn.IResolvable;
 }
+export interface Ec2VpcEndpointServicePrivateDnsNameConfiguration {
+}
+
+export function ec2VpcEndpointServicePrivateDnsNameConfigurationToTerraform(struct?: Ec2VpcEndpointServicePrivateDnsNameConfiguration | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function ec2VpcEndpointServicePrivateDnsNameConfigurationToHclTerraform(struct?: Ec2VpcEndpointServicePrivateDnsNameConfiguration | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class Ec2VpcEndpointServicePrivateDnsNameConfigurationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): Ec2VpcEndpointServicePrivateDnsNameConfiguration | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: Ec2VpcEndpointServicePrivateDnsNameConfiguration | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+    }
+  }
+
+  // name - computed: true, optional: false, required: false
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+
+  // state - computed: true, optional: false, required: false
+  public get state() {
+    return this.getStringAttribute('state');
+  }
+
+  // type - computed: true, optional: false, required: false
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+
+  // value - computed: true, optional: false, required: false
+  public get value() {
+    return this.getStringAttribute('value');
+  }
+}
 export interface Ec2VpcEndpointServiceTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpc_endpoint_service#key Ec2VpcEndpointService#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_vpc_endpoint_service#key Ec2VpcEndpointService#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpc_endpoint_service#value Ec2VpcEndpointService#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_vpc_endpoint_service#value Ec2VpcEndpointService#value}
   */
   readonly value?: string;
 }
@@ -202,7 +289,7 @@ export class Ec2VpcEndpointServiceTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpc_endpoint_service awscc_ec2_vpc_endpoint_service}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_vpc_endpoint_service awscc_ec2_vpc_endpoint_service}
 */
 export class Ec2VpcEndpointService extends cdktn.TerraformResource {
 
@@ -218,7 +305,7 @@ export class Ec2VpcEndpointService extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Ec2VpcEndpointService resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Ec2VpcEndpointService to import
-  * @param importFromId The id of the existing Ec2VpcEndpointService that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpc_endpoint_service#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Ec2VpcEndpointService that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_vpc_endpoint_service#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Ec2VpcEndpointService to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -230,7 +317,7 @@ export class Ec2VpcEndpointService extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpc_endpoint_service awscc_ec2_vpc_endpoint_service} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_vpc_endpoint_service awscc_ec2_vpc_endpoint_service} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -241,7 +328,7 @@ export class Ec2VpcEndpointService extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_ec2_vpc_endpoint_service',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.98.0',
+        providerVersion: '1.99.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -257,6 +344,8 @@ export class Ec2VpcEndpointService extends cdktn.TerraformResource {
     this._gatewayLoadBalancerArns = config.gatewayLoadBalancerArns;
     this._networkLoadBalancerArns = config.networkLoadBalancerArns;
     this._payerResponsibility = config.payerResponsibility;
+    this._privateDnsName = config.privateDnsName;
+    this._privateDnsNameConfiguration.internalValue = config.privateDnsNameConfiguration;
     this._supportedIpAddressTypes = config.supportedIpAddressTypes;
     this._supportedRegions = config.supportedRegions;
     this._tags.internalValue = config.tags;
@@ -351,6 +440,38 @@ export class Ec2VpcEndpointService extends cdktn.TerraformResource {
     return this._payerResponsibility;
   }
 
+  // private_dns_name - computed: true, optional: true, required: false
+  private _privateDnsName?: string; 
+  public get privateDnsName() {
+    return this.getStringAttribute('private_dns_name');
+  }
+  public set privateDnsName(value: string) {
+    this._privateDnsName = value;
+  }
+  public resetPrivateDnsName() {
+    this._privateDnsName = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get privateDnsNameInput() {
+    return this._privateDnsName;
+  }
+
+  // private_dns_name_configuration - computed: true, optional: true, required: false
+  private _privateDnsNameConfiguration = new Ec2VpcEndpointServicePrivateDnsNameConfigurationOutputReference(this, "private_dns_name_configuration");
+  public get privateDnsNameConfiguration() {
+    return this._privateDnsNameConfiguration;
+  }
+  public putPrivateDnsNameConfiguration(value: Ec2VpcEndpointServicePrivateDnsNameConfiguration) {
+    this._privateDnsNameConfiguration.internalValue = value;
+  }
+  public resetPrivateDnsNameConfiguration() {
+    this._privateDnsNameConfiguration.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get privateDnsNameConfigurationInput() {
+    return this._privateDnsNameConfiguration.internalValue;
+  }
+
   // service_id - computed: true, optional: false, required: false
   public get serviceId() {
     return this.getStringAttribute('service_id');
@@ -415,6 +536,8 @@ export class Ec2VpcEndpointService extends cdktn.TerraformResource {
       gateway_load_balancer_arns: cdktn.listMapper(cdktn.stringToTerraform, false)(this._gatewayLoadBalancerArns),
       network_load_balancer_arns: cdktn.listMapper(cdktn.stringToTerraform, false)(this._networkLoadBalancerArns),
       payer_responsibility: cdktn.stringToTerraform(this._payerResponsibility),
+      private_dns_name: cdktn.stringToTerraform(this._privateDnsName),
+      private_dns_name_configuration: ec2VpcEndpointServicePrivateDnsNameConfigurationToTerraform(this._privateDnsNameConfiguration.internalValue),
       supported_ip_address_types: cdktn.listMapper(cdktn.stringToTerraform, false)(this._supportedIpAddressTypes),
       supported_regions: cdktn.listMapper(cdktn.stringToTerraform, false)(this._supportedRegions),
       tags: cdktn.listMapper(ec2VpcEndpointServiceTagsToTerraform, false)(this._tags.internalValue),
@@ -452,6 +575,18 @@ export class Ec2VpcEndpointService extends cdktn.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      private_dns_name: {
+        value: cdktn.stringToHclTerraform(this._privateDnsName),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      private_dns_name_configuration: {
+        value: ec2VpcEndpointServicePrivateDnsNameConfigurationToHclTerraform(this._privateDnsNameConfiguration.internalValue),
+        isBlock: true,
+        type: "struct",
+        storageClassType: "Ec2VpcEndpointServicePrivateDnsNameConfiguration",
       },
       supported_ip_address_types: {
         value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(this._supportedIpAddressTypes),

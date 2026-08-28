@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityhub_connector
+// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_connector
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,23 +15,23 @@ export interface SecurityhubConnectorConfig extends cdktn.TerraformMetaArguments
   /**
   * The description of the connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityhub_connector#description SecurityhubConnector#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_connector#description SecurityhubConnector#description}
   */
   readonly description?: string;
   /**
   * The name of the connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityhub_connector#name SecurityhubConnector#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_connector#name SecurityhubConnector#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityhub_connector#provider_name SecurityhubConnector#provider_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_connector#provider_name SecurityhubConnector#provider_name}
   */
   readonly providerName: SecurityhubConnectorProviderName;
   /**
   * A key-value pair to associate with a resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityhub_connector#tags SecurityhubConnector#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_connector#tags SecurityhubConnector#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -119,13 +119,13 @@ export interface SecurityhubConnectorProviderNameAzureScopeConfiguration {
   /**
   * The type of scope. Valid values are ``tenant`` and ``subscription``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityhub_connector#scope_type SecurityhubConnector#scope_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_connector#scope_type SecurityhubConnector#scope_type}
   */
   readonly scopeType: string;
   /**
   * The list of scope values, such as subscription IDs, when the scope type is ``subscription``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityhub_connector#scope_values SecurityhubConnector#scope_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_connector#scope_values SecurityhubConnector#scope_values}
   */
   readonly scopeValues?: string[];
 }
@@ -247,19 +247,19 @@ export interface SecurityhubConnectorProviderNameAzure {
   /**
   * The ARN of the multi-cloud configuration connector used to establish the connection to Azure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityhub_connector#aws_config_connector_arn SecurityhubConnector#aws_config_connector_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_connector#aws_config_connector_arn SecurityhubConnector#aws_config_connector_arn}
   */
   readonly awsConfigConnectorArn: string;
   /**
   * The list of Azure regions to monitor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityhub_connector#azure_regions SecurityhubConnector#azure_regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_connector#azure_regions SecurityhubConnector#azure_regions}
   */
   readonly azureRegions: string[];
   /**
   * The scope configuration that defines which Azure resources are monitored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityhub_connector#scope_configuration SecurityhubConnector#scope_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_connector#scope_configuration SecurityhubConnector#scope_configuration}
   */
   readonly scopeConfiguration: SecurityhubConnectorProviderNameAzureScopeConfiguration;
 }
@@ -404,7 +404,7 @@ export interface SecurityhubConnectorProviderName {
   /**
   * The configuration for connecting to an Azure environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityhub_connector#azure SecurityhubConnector#azure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_connector#azure SecurityhubConnector#azure}
   */
   readonly azure: SecurityhubConnectorProviderNameAzure;
 }
@@ -495,7 +495,7 @@ export class SecurityhubConnectorProviderNameOutputReference extends cdktn.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityhub_connector awscc_securityhub_connector}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_connector awscc_securityhub_connector}
 */
 export class SecurityhubConnector extends cdktn.TerraformResource {
 
@@ -511,7 +511,7 @@ export class SecurityhubConnector extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a SecurityhubConnector resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecurityhubConnector to import
-  * @param importFromId The id of the existing SecurityhubConnector that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityhub_connector#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecurityhubConnector that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_connector#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecurityhubConnector to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -523,7 +523,7 @@ export class SecurityhubConnector extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityhub_connector awscc_securityhub_connector} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_connector awscc_securityhub_connector} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -534,7 +534,7 @@ export class SecurityhubConnector extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_securityhub_connector',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.98.0',
+        providerVersion: '1.99.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
