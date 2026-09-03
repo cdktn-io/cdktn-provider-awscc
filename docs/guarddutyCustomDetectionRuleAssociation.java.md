@@ -4,7 +4,7 @@
 
 ### GuarddutyCustomDetectionRuleAssociation <a name="GuarddutyCustomDetectionRuleAssociation" id="@cdktn/provider-awscc.guarddutyCustomDetectionRuleAssociation.GuarddutyCustomDetectionRuleAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/guardduty_custom_detection_rule_association awscc_guardduty_custom_detection_rule_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/guardduty_custom_detection_rule_association awscc_guardduty_custom_detection_rule_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.guarddutyCustomDetectionRuleAssociation.GuarddutyCustomDetectionRuleAssociation.Initializer"></a>
 
@@ -108,7 +108,7 @@ Must be unique amongst siblings in the same scope
 
 Whether the rule runs in LIVE mode (generates findings) or DRY_RUN mode (evaluates without generating findings).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/guardduty_custom_detection_rule_association#mode GuarddutyCustomDetectionRuleAssociation#mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/guardduty_custom_detection_rule_association#mode GuarddutyCustomDetectionRuleAssociation#mode}
 
 ---
 
@@ -118,7 +118,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The catalog identifier of the custom detection rule to associate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/guardduty_custom_detection_rule_association#rule_id GuarddutyCustomDetectionRuleAssociation#rule_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/guardduty_custom_detection_rule_association#rule_id GuarddutyCustomDetectionRuleAssociation#rule_id}
 
 ---
 
@@ -128,7 +128,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The tags applied to the association.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/guardduty_custom_detection_rule_association#tags GuarddutyCustomDetectionRuleAssociation#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/guardduty_custom_detection_rule_association#tags GuarddutyCustomDetectionRuleAssociation#tags}
 
 ---
 
@@ -597,7 +597,7 @@ The construct id used in the generated config for the GuarddutyCustomDetectionRu
 
 The id of the existing GuarddutyCustomDetectionRuleAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/guardduty_custom_detection_rule_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/guardduty_custom_detection_rule_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1042,7 +1042,7 @@ public java.lang.String getMode();
 
 Whether the rule runs in LIVE mode (generates findings) or DRY_RUN mode (evaluates without generating findings).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/guardduty_custom_detection_rule_association#mode GuarddutyCustomDetectionRuleAssociation#mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/guardduty_custom_detection_rule_association#mode GuarddutyCustomDetectionRuleAssociation#mode}
 
 ---
 
@@ -1056,7 +1056,7 @@ public java.lang.String getRuleId();
 
 The catalog identifier of the custom detection rule to associate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/guardduty_custom_detection_rule_association#rule_id GuarddutyCustomDetectionRuleAssociation#rule_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/guardduty_custom_detection_rule_association#rule_id GuarddutyCustomDetectionRuleAssociation#rule_id}
 
 ---
 
@@ -1070,7 +1070,7 @@ public IResolvable|java.util.List<GuarddutyCustomDetectionRuleAssociationTags> g
 
 The tags applied to the association.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/guardduty_custom_detection_rule_association#tags GuarddutyCustomDetectionRuleAssociation#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/guardduty_custom_detection_rule_association#tags GuarddutyCustomDetectionRuleAssociation#tags}
 
 ---
 
@@ -1091,8 +1091,8 @@ GuarddutyCustomDetectionRuleAssociationTags.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.guarddutyCustomDetectionRuleAssociation.GuarddutyCustomDetectionRuleAssociationTags.property.key">key</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/guardduty_custom_detection_rule_association#key GuarddutyCustomDetectionRuleAssociation#key}. |
-| <code><a href="#@cdktn/provider-awscc.guarddutyCustomDetectionRuleAssociation.GuarddutyCustomDetectionRuleAssociationTags.property.value">value</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/guardduty_custom_detection_rule_association#value GuarddutyCustomDetectionRuleAssociation#value}. |
+| <code><a href="#@cdktn/provider-awscc.guarddutyCustomDetectionRuleAssociation.GuarddutyCustomDetectionRuleAssociationTags.property.key">key</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/guardduty_custom_detection_rule_association#key GuarddutyCustomDetectionRuleAssociation#key}. |
+| <code><a href="#@cdktn/provider-awscc.guarddutyCustomDetectionRuleAssociation.GuarddutyCustomDetectionRuleAssociationTags.property.value">value</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/guardduty_custom_detection_rule_association#value GuarddutyCustomDetectionRuleAssociation#value}. |
 
 ---
 
@@ -1104,7 +1104,7 @@ public java.lang.String getKey();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/guardduty_custom_detection_rule_association#key GuarddutyCustomDetectionRuleAssociation#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/guardduty_custom_detection_rule_association#key GuarddutyCustomDetectionRuleAssociation#key}.
 
 ---
 
@@ -1116,7 +1116,7 @@ public java.lang.String getValue();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/guardduty_custom_detection_rule_association#value GuarddutyCustomDetectionRuleAssociation#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/guardduty_custom_detection_rule_association#value GuarddutyCustomDetectionRuleAssociation#value}.
 
 ---
 

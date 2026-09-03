@@ -4,7 +4,7 @@
 
 ### DataAwsccSupportauthzSupportPermits <a name="DataAwsccSupportauthzSupportPermits" id="@cdktn/provider-awscc.dataAwsccSupportauthzSupportPermits.DataAwsccSupportauthzSupportPermits"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/supportauthz_support_permits awscc_supportauthz_support_permits}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/supportauthz_support_permits awscc_supportauthz_support_permits}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSupportauthzSupportPermits.DataAwsccSupportauthzSupportPermits.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSupportauthzSuppo
 
 The id of the existing DataAwsccSupportauthzSupportPermits that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/supportauthz_support_permits#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/supportauthz_support_permits#import import section} in the documentation of this resource for the id to use
 
 ---
 

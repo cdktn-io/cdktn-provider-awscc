@@ -4,7 +4,7 @@
 
 ### DataAwsccCleanroomsIntermediateTable <a name="DataAwsccCleanroomsIntermediateTable" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTable"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/cleanrooms_intermediate_table awscc_cleanrooms_intermediate_table}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/cleanrooms_intermediate_table awscc_cleanrooms_intermediate_table}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTable.Initializer"></a>
 
@@ -106,7 +106,7 @@ Must be unique amongst siblings in the same scope
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/cleanrooms_intermediate_table#id DataAwsccCleanroomsIntermediateTable#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/cleanrooms_intermediate_table#id DataAwsccCleanroomsIntermediateTable#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -492,7 +492,7 @@ The construct id used in the generated config for the DataAwsccCleanroomsInterme
 
 The id of the existing DataAwsccCleanroomsIntermediateTable that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/cleanrooms_intermediate_table#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/cleanrooms_intermediate_table#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -874,6 +874,39 @@ dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysi
 ```
 
 
+### DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholds <a name="DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholds" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholds"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholds.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import data_awscc_cleanrooms_intermediate_table
+
+dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholds()
+```
+
+
+### DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholds <a name="DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholds" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholds"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholds.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import data_awscc_cleanrooms_intermediate_table
+
+dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholds()
+```
+
+
+### DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomComparisonControls <a name="DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomComparisonControls" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomComparisonControls"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomComparisonControls.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import data_awscc_cleanrooms_intermediate_table
+
+dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomComparisonControls()
+```
+
+
 ### DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomDifferentialPrivacy <a name="DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomDifferentialPrivacy" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomDifferentialPrivacy"></a>
 
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomDifferentialPrivacy.Initializer"></a>
@@ -1010,7 +1043,7 @@ id: str
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/cleanrooms_intermediate_table#id DataAwsccCleanroomsIntermediateTable#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/cleanrooms_intermediate_table#id DataAwsccCleanroomsIntermediateTable#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1808,6 +1841,1285 @@ internal_value: DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicy
 ```
 
 - *Type:* <a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicy">DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicy</a>
+
+---
+
+
+### DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsList <a name="DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsList" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsList.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import data_awscc_cleanrooms_intermediate_table
+
+dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsList(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  wraps_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsList.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsList.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsList.Initializer.parameter.wrapsSet">wraps_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wraps_set`<sup>Required</sup> <a name="wraps_set" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsList.allWithMapKey">all_with_map_key</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsList.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsList.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsList.get">get</a></code> | *No description.* |
+
+---
+
+##### `all_with_map_key` <a name="all_with_map_key" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsList.allWithMapKey"></a>
+
+```python
+def all_with_map_key(
+  map_key_attribute_name: str
+) -> DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `map_key_attribute_name`<sup>Required</sup> <a name="map_key_attribute_name" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* str
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsList.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsList.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsList.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsList.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `get` <a name="get" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsList.get"></a>
+
+```python
+def get(
+  index: typing.Union[int, float]
+) -> DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsList.get.parameter.index"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsList.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsList.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsList.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsList.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+
+### DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsList <a name="DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsList" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsList.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import data_awscc_cleanrooms_intermediate_table
+
+dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsList(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  wraps_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsList.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsList.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsList.Initializer.parameter.wrapsSet">wraps_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wraps_set`<sup>Required</sup> <a name="wraps_set" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsList.allWithMapKey">all_with_map_key</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsList.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsList.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsList.get">get</a></code> | *No description.* |
+
+---
+
+##### `all_with_map_key` <a name="all_with_map_key" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsList.allWithMapKey"></a>
+
+```python
+def all_with_map_key(
+  map_key_attribute_name: str
+) -> DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `map_key_attribute_name`<sup>Required</sup> <a name="map_key_attribute_name" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* str
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsList.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsList.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsList.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsList.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `get` <a name="get" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsList.get"></a>
+
+```python
+def get(
+  index: typing.Union[int, float]
+) -> DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsList.get.parameter.index"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsList.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsList.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsList.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsList.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+
+### DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsOutputReference <a name="DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsOutputReference" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import data_awscc_cleanrooms_intermediate_table
+
+dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  complex_object_index: typing.Union[int, float],
+  complex_object_is_from_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsOutputReference.Initializer.parameter.complexObjectIndex">complex_object_index</a></code> | <code>typing.Union[int, float]</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsOutputReference.Initializer.parameter.complexObjectIsFromSet">complex_object_is_from_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complex_object_index`<sup>Required</sup> <a name="complex_object_index" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of this item in the list.
+
+---
+
+##### `complex_object_is_from_set`<sup>Required</sup> <a name="complex_object_is_from_set" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsOutputReference.property.minimumIdentityCount">minimum_identity_count</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsOutputReference.property.outputColumnName">output_column_name</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholds">DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholds</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `minimum_identity_count`<sup>Required</sup> <a name="minimum_identity_count" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsOutputReference.property.minimumIdentityCount"></a>
+
+```python
+minimum_identity_count: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+---
+
+##### `output_column_name`<sup>Required</sup> <a name="output_column_name" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsOutputReference.property.outputColumnName"></a>
+
+```python
+output_column_name: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsOutputReference.property.internalValue"></a>
+
+```python
+internal_value: DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholds
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholds">DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholds</a>
+
+---
+
+
+### DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputReference <a name="DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputReference" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import data_awscc_cleanrooms_intermediate_table
+
+dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  complex_object_index: typing.Union[int, float],
+  complex_object_is_from_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputReference.Initializer.parameter.complexObjectIndex">complex_object_index</a></code> | <code>typing.Union[int, float]</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputReference.Initializer.parameter.complexObjectIsFromSet">complex_object_is_from_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complex_object_index`<sup>Required</sup> <a name="complex_object_index" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of this item in the list.
+
+---
+
+##### `complex_object_is_from_set`<sup>Required</sup> <a name="complex_object_is_from_set" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputReference.property.allowedAggregateExpressionType">allowed_aggregate_expression_type</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputReference.property.identityColumns">identity_columns</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputReference.property.minimumIdentityCount">minimum_identity_count</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputReference.property.outputColumnThresholds">output_column_thresholds</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsList">DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputReference.property.type">type</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholds">DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholds</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `allowed_aggregate_expression_type`<sup>Required</sup> <a name="allowed_aggregate_expression_type" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputReference.property.allowedAggregateExpressionType"></a>
+
+```python
+allowed_aggregate_expression_type: str
+```
+
+- *Type:* str
+
+---
+
+##### `identity_columns`<sup>Required</sup> <a name="identity_columns" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputReference.property.identityColumns"></a>
+
+```python
+identity_columns: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+---
+
+##### `minimum_identity_count`<sup>Required</sup> <a name="minimum_identity_count" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputReference.property.minimumIdentityCount"></a>
+
+```python
+minimum_identity_count: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+---
+
+##### `output_column_thresholds`<sup>Required</sup> <a name="output_column_thresholds" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputReference.property.outputColumnThresholds"></a>
+
+```python
+output_column_thresholds: DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsList
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsList">DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsList</a>
+
+---
+
+##### `type`<sup>Required</sup> <a name="type" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputReference.property.type"></a>
+
+```python
+type: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputReference.property.internalValue"></a>
+
+```python
+internal_value: DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholds
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholds">DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholds</a>
+
+---
+
+
+### DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomComparisonControlsOutputReference <a name="DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomComparisonControlsOutputReference" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomComparisonControlsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomComparisonControlsOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import data_awscc_cleanrooms_intermediate_table
+
+dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomComparisonControlsOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomComparisonControlsOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomComparisonControlsOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomComparisonControlsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomComparisonControlsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomComparisonControlsOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomComparisonControlsOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomComparisonControlsOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomComparisonControlsOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomComparisonControlsOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomComparisonControlsOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomComparisonControlsOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomComparisonControlsOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomComparisonControlsOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomComparisonControlsOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomComparisonControlsOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomComparisonControlsOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomComparisonControlsOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomComparisonControlsOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomComparisonControlsOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomComparisonControlsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomComparisonControlsOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomComparisonControlsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomComparisonControlsOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomComparisonControlsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomComparisonControlsOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomComparisonControlsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomComparisonControlsOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomComparisonControlsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomComparisonControlsOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomComparisonControlsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomComparisonControlsOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomComparisonControlsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomComparisonControlsOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomComparisonControlsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomComparisonControlsOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomComparisonControlsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomComparisonControlsOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomComparisonControlsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomComparisonControlsOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomComparisonControlsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomComparisonControlsOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomComparisonControlsOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomComparisonControlsOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomComparisonControlsOutputReference.property.allowedColumnComparisonColumns">allowed_column_comparison_columns</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomComparisonControlsOutputReference.property.allowedLiteralComparisonColumns">allowed_literal_comparison_columns</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomComparisonControlsOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomComparisonControls">DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomComparisonControls</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomComparisonControlsOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomComparisonControlsOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `allowed_column_comparison_columns`<sup>Required</sup> <a name="allowed_column_comparison_columns" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomComparisonControlsOutputReference.property.allowedColumnComparisonColumns"></a>
+
+```python
+allowed_column_comparison_columns: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+---
+
+##### `allowed_literal_comparison_columns`<sup>Required</sup> <a name="allowed_literal_comparison_columns" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomComparisonControlsOutputReference.property.allowedLiteralComparisonColumns"></a>
+
+```python
+allowed_literal_comparison_columns: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomComparisonControlsOutputReference.property.internalValue"></a>
+
+```python
+internal_value: DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomComparisonControls
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomComparisonControls">DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomComparisonControls</a>
 
 ---
 
@@ -2797,9 +4109,11 @@ Returns a reversible string representation.
 | <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomOutputReference.property.additionalAnalyses">additional_analyses</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomOutputReference.property.aggregationThresholds">aggregation_thresholds</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsList">DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomOutputReference.property.allowedAnalyses">allowed_analyses</a></code> | <code>typing.List[str]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomOutputReference.property.allowedAnalysisProviders">allowed_analysis_providers</a></code> | <code>typing.List[str]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomOutputReference.property.allowedResultReceivers">allowed_result_receivers</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomOutputReference.property.comparisonControls">comparison_controls</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomComparisonControlsOutputReference">DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomComparisonControlsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomOutputReference.property.differentialPrivacy">differential_privacy</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomDifferentialPrivacyOutputReference">DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomDifferentialPrivacyOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomOutputReference.property.disallowedOutputColumns">disallowed_output_columns</a></code> | <code>typing.List[str]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1Custom">DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1Custom</a></code> | *No description.* |
@@ -2840,6 +4154,16 @@ additional_analyses: str
 
 ---
 
+##### `aggregation_thresholds`<sup>Required</sup> <a name="aggregation_thresholds" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomOutputReference.property.aggregationThresholds"></a>
+
+```python
+aggregation_thresholds: DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsList
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsList">DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsList</a>
+
+---
+
 ##### `allowed_analyses`<sup>Required</sup> <a name="allowed_analyses" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomOutputReference.property.allowedAnalyses"></a>
 
 ```python
@@ -2867,6 +4191,16 @@ allowed_result_receivers: typing.List[str]
 ```
 
 - *Type:* typing.List[str]
+
+---
+
+##### `comparison_controls`<sup>Required</sup> <a name="comparison_controls" id="@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomOutputReference.property.comparisonControls"></a>
+
+```python
+comparison_controls: DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomComparisonControlsOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccCleanroomsIntermediateTable.DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomComparisonControlsOutputReference">DataAwsccCleanroomsIntermediateTableAnalysisRulesPolicyV1CustomComparisonControlsOutputReference</a>
 
 ---
 

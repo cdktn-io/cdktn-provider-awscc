@@ -4,7 +4,7 @@
 
 ### TimestreamTable <a name="TimestreamTable" id="@cdktn/provider-awscc.timestreamTable.TimestreamTable"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/timestream_table awscc_timestream_table}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/timestream_table awscc_timestream_table}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.timestreamTable.TimestreamTable.Initializer"></a>
 
@@ -116,7 +116,7 @@ Must be unique amongst siblings in the same scope
 
 The name for the database which the table to be created belongs to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/timestream_table#database_name TimestreamTable#database_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/timestream_table#database_name TimestreamTable#database_name}
 
 ---
 
@@ -126,7 +126,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The properties that determine whether magnetic store writes are enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/timestream_table#magnetic_store_write_properties TimestreamTable#magnetic_store_write_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/timestream_table#magnetic_store_write_properties TimestreamTable#magnetic_store_write_properties}
 
 ---
 
@@ -136,7 +136,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The retention duration of the memory store and the magnetic store.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/timestream_table#retention_properties TimestreamTable#retention_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/timestream_table#retention_properties TimestreamTable#retention_properties}
 
 ---
 
@@ -146,7 +146,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A Schema specifies the expected data model of the table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/timestream_table#schema TimestreamTable#schema}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/timestream_table#schema TimestreamTable#schema}
 
 ---
 
@@ -158,7 +158,7 @@ The name for the table.
 
 If you don't specify a name, AWS CloudFormation generates a unique physical ID and uses that ID for the table name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/timestream_table#table_name TimestreamTable#table_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/timestream_table#table_name TimestreamTable#table_name}
 
 ---
 
@@ -168,7 +168,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/timestream_table#tags TimestreamTable#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/timestream_table#tags TimestreamTable#tags}
 
 ---
 
@@ -575,7 +575,7 @@ def put_magnetic_store_write_properties(
 
 Boolean flag indicating whether magnetic store writes are enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/timestream_table#enable_magnetic_store_writes TimestreamTable#enable_magnetic_store_writes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/timestream_table#enable_magnetic_store_writes TimestreamTable#enable_magnetic_store_writes}
 
 ---
 
@@ -585,7 +585,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Location to store information about records that were asynchronously rejected during magnetic store writes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/timestream_table#magnetic_store_rejected_data_location TimestreamTable#magnetic_store_rejected_data_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/timestream_table#magnetic_store_rejected_data_location TimestreamTable#magnetic_store_rejected_data_location}
 
 ---
 
@@ -604,7 +604,7 @@ def put_retention_properties(
 
 The duration for which data must be stored in the magnetic store.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/timestream_table#magnetic_store_retention_period_in_days TimestreamTable#magnetic_store_retention_period_in_days}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/timestream_table#magnetic_store_retention_period_in_days TimestreamTable#magnetic_store_retention_period_in_days}
 
 ---
 
@@ -614,7 +614,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The duration for which data must be stored in the memory store.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/timestream_table#memory_store_retention_period_in_hours TimestreamTable#memory_store_retention_period_in_hours}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/timestream_table#memory_store_retention_period_in_hours TimestreamTable#memory_store_retention_period_in_hours}
 
 ---
 
@@ -634,7 +634,7 @@ A list of partition keys defining the attributes used to partition the table dat
 
 The order of the list determines the partition hierarchy. The name and type of each partition key as well as the partition key order cannot be changed after the table is created. However, the enforcement level of each partition key can be changed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/timestream_table#composite_partition_key TimestreamTable#composite_partition_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/timestream_table#composite_partition_key TimestreamTable#composite_partition_key}
 
 ---
 
@@ -796,7 +796,7 @@ The construct id used in the generated config for the TimestreamTable to import.
 
 The id of the existing TimestreamTable that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/timestream_table#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/timestream_table#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1280,7 +1280,7 @@ database_name: str
 
 The name for the database which the table to be created belongs to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/timestream_table#database_name TimestreamTable#database_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/timestream_table#database_name TimestreamTable#database_name}
 
 ---
 
@@ -1294,7 +1294,7 @@ magnetic_store_write_properties: TimestreamTableMagneticStoreWriteProperties
 
 The properties that determine whether magnetic store writes are enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/timestream_table#magnetic_store_write_properties TimestreamTable#magnetic_store_write_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/timestream_table#magnetic_store_write_properties TimestreamTable#magnetic_store_write_properties}
 
 ---
 
@@ -1308,7 +1308,7 @@ retention_properties: TimestreamTableRetentionProperties
 
 The retention duration of the memory store and the magnetic store.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/timestream_table#retention_properties TimestreamTable#retention_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/timestream_table#retention_properties TimestreamTable#retention_properties}
 
 ---
 
@@ -1322,7 +1322,7 @@ schema: TimestreamTableSchema
 
 A Schema specifies the expected data model of the table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/timestream_table#schema TimestreamTable#schema}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/timestream_table#schema TimestreamTable#schema}
 
 ---
 
@@ -1338,7 +1338,7 @@ The name for the table.
 
 If you don't specify a name, AWS CloudFormation generates a unique physical ID and uses that ID for the table name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/timestream_table#table_name TimestreamTable#table_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/timestream_table#table_name TimestreamTable#table_name}
 
 ---
 
@@ -1352,7 +1352,7 @@ tags: IResolvable | typing.List[TimestreamTableTags]
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/timestream_table#tags TimestreamTable#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/timestream_table#tags TimestreamTable#tags}
 
 ---
 
@@ -1388,7 +1388,7 @@ enable_magnetic_store_writes: bool | IResolvable
 
 Boolean flag indicating whether magnetic store writes are enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/timestream_table#enable_magnetic_store_writes TimestreamTable#enable_magnetic_store_writes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/timestream_table#enable_magnetic_store_writes TimestreamTable#enable_magnetic_store_writes}
 
 ---
 
@@ -1402,7 +1402,7 @@ magnetic_store_rejected_data_location: TimestreamTableMagneticStoreWriteProperti
 
 Location to store information about records that were asynchronously rejected during magnetic store writes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/timestream_table#magnetic_store_rejected_data_location TimestreamTable#magnetic_store_rejected_data_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/timestream_table#magnetic_store_rejected_data_location TimestreamTable#magnetic_store_rejected_data_location}
 
 ---
 
@@ -1436,7 +1436,7 @@ s3_configuration: TimestreamTableMagneticStoreWritePropertiesMagneticStoreReject
 
 S3 configuration for location to store rejections from magnetic store writes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/timestream_table#s3_configuration TimestreamTable#s3_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/timestream_table#s3_configuration TimestreamTable#s3_configuration}
 
 ---
 
@@ -1476,7 +1476,7 @@ bucket_name: str
 
 The bucket name used to store the data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/timestream_table#bucket_name TimestreamTable#bucket_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/timestream_table#bucket_name TimestreamTable#bucket_name}
 
 ---
 
@@ -1490,7 +1490,7 @@ encryption_option: str
 
 Either SSE_KMS or SSE_S3.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/timestream_table#encryption_option TimestreamTable#encryption_option}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/timestream_table#encryption_option TimestreamTable#encryption_option}
 
 ---
 
@@ -1504,7 +1504,7 @@ kms_key_id: str
 
 Must be provided if SSE_KMS is specified as the encryption option.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/timestream_table#kms_key_id TimestreamTable#kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/timestream_table#kms_key_id TimestreamTable#kms_key_id}
 
 ---
 
@@ -1518,7 +1518,7 @@ object_key_prefix: str
 
 String used to prefix all data in the bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/timestream_table#object_key_prefix TimestreamTable#object_key_prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/timestream_table#object_key_prefix TimestreamTable#object_key_prefix}
 
 ---
 
@@ -1554,7 +1554,7 @@ magnetic_store_retention_period_in_days: str
 
 The duration for which data must be stored in the magnetic store.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/timestream_table#magnetic_store_retention_period_in_days TimestreamTable#magnetic_store_retention_period_in_days}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/timestream_table#magnetic_store_retention_period_in_days TimestreamTable#magnetic_store_retention_period_in_days}
 
 ---
 
@@ -1568,7 +1568,7 @@ memory_store_retention_period_in_hours: str
 
 The duration for which data must be stored in the memory store.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/timestream_table#memory_store_retention_period_in_hours TimestreamTable#memory_store_retention_period_in_hours}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/timestream_table#memory_store_retention_period_in_hours TimestreamTable#memory_store_retention_period_in_hours}
 
 ---
 
@@ -1604,7 +1604,7 @@ A list of partition keys defining the attributes used to partition the table dat
 
 The order of the list determines the partition hierarchy. The name and type of each partition key as well as the partition key order cannot be changed after the table is created. However, the enforcement level of each partition key can be changed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/timestream_table#composite_partition_key TimestreamTable#composite_partition_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/timestream_table#composite_partition_key TimestreamTable#composite_partition_key}
 
 ---
 
@@ -1644,7 +1644,7 @@ The level of enforcement for the specification of a dimension key in ingested re
 
 Options are REQUIRED (dimension key must be specified) and OPTIONAL (dimension key does not have to be specified).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/timestream_table#enforcement_in_record TimestreamTable#enforcement_in_record}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/timestream_table#enforcement_in_record TimestreamTable#enforcement_in_record}
 
 ---
 
@@ -1658,7 +1658,7 @@ name: str
 
 The name of the attribute used for a dimension key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/timestream_table#name TimestreamTable#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/timestream_table#name TimestreamTable#name}
 
 ---
 
@@ -1672,7 +1672,7 @@ type: str
 
 The type of the partition key. Options are DIMENSION (dimension key) and MEASURE (measure key).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/timestream_table#type TimestreamTable#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/timestream_table#type TimestreamTable#type}
 
 ---
 
@@ -1693,8 +1693,8 @@ timestreamTable.TimestreamTableTags(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.timestreamTable.TimestreamTableTags.property.key">key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/timestream_table#key TimestreamTable#key}. |
-| <code><a href="#@cdktn/provider-awscc.timestreamTable.TimestreamTableTags.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/timestream_table#value TimestreamTable#value}. |
+| <code><a href="#@cdktn/provider-awscc.timestreamTable.TimestreamTableTags.property.key">key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/timestream_table#key TimestreamTable#key}. |
+| <code><a href="#@cdktn/provider-awscc.timestreamTable.TimestreamTableTags.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/timestream_table#value TimestreamTable#value}. |
 
 ---
 
@@ -1706,7 +1706,7 @@ key: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/timestream_table#key TimestreamTable#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/timestream_table#key TimestreamTable#key}.
 
 ---
 
@@ -1718,7 +1718,7 @@ value: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/timestream_table#value TimestreamTable#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/timestream_table#value TimestreamTable#value}.
 
 ---
 
@@ -1971,7 +1971,7 @@ def put_s3_configuration(
 
 The bucket name used to store the data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/timestream_table#bucket_name TimestreamTable#bucket_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/timestream_table#bucket_name TimestreamTable#bucket_name}
 
 ---
 
@@ -1981,7 +1981,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Either SSE_KMS or SSE_S3.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/timestream_table#encryption_option TimestreamTable#encryption_option}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/timestream_table#encryption_option TimestreamTable#encryption_option}
 
 ---
 
@@ -1991,7 +1991,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Must be provided if SSE_KMS is specified as the encryption option.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/timestream_table#kms_key_id TimestreamTable#kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/timestream_table#kms_key_id TimestreamTable#kms_key_id}
 
 ---
 
@@ -2001,7 +2001,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 String used to prefix all data in the bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/timestream_table#object_key_prefix TimestreamTable#object_key_prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/timestream_table#object_key_prefix TimestreamTable#object_key_prefix}
 
 ---
 
@@ -2714,7 +2714,7 @@ def put_magnetic_store_rejected_data_location(
 
 S3 configuration for location to store rejections from magnetic store writes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/timestream_table#s3_configuration TimestreamTable#s3_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/timestream_table#s3_configuration TimestreamTable#s3_configuration}
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### DatasyncLocationEfs <a name="DatasyncLocationEfs" id="@cdktn/provider-awscc.datasyncLocationEfs.DatasyncLocationEfs"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datasync_location_efs awscc_datasync_location_efs}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datasync_location_efs awscc_datasync_location_efs}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.datasyncLocationEfs.DatasyncLocationEfs.Initializer"></a>
 
@@ -557,7 +557,7 @@ The construct id used in the generated config for the DatasyncLocationEfs to imp
 
 The id of the existing DatasyncLocationEfs that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datasync_location_efs#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datasync_location_efs#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1050,7 +1050,7 @@ public readonly ec2Config: DatasyncLocationEfsEc2Config;
 
 The subnet and security group that DataSync uses to access target EFS file system.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datasync_location_efs#ec_2_config DatasyncLocationEfs#ec_2_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datasync_location_efs#ec_2_config DatasyncLocationEfs#ec_2_config}
 
 ---
 
@@ -1064,7 +1064,7 @@ public readonly accessPointArn: string;
 
 The Amazon Resource Name (ARN) for the Amazon EFS Access point that DataSync uses when accessing the EFS file system.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datasync_location_efs#access_point_arn DatasyncLocationEfs#access_point_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datasync_location_efs#access_point_arn DatasyncLocationEfs#access_point_arn}
 
 ---
 
@@ -1078,7 +1078,7 @@ public readonly efsFilesystemArn: string;
 
 The Amazon Resource Name (ARN) for the Amazon EFS file system.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datasync_location_efs#efs_filesystem_arn DatasyncLocationEfs#efs_filesystem_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datasync_location_efs#efs_filesystem_arn DatasyncLocationEfs#efs_filesystem_arn}
 
 ---
 
@@ -1092,7 +1092,7 @@ public readonly fileSystemAccessRoleArn: string;
 
 The Amazon Resource Name (ARN) of the AWS IAM role that the DataSync will assume when mounting the EFS file system.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datasync_location_efs#file_system_access_role_arn DatasyncLocationEfs#file_system_access_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datasync_location_efs#file_system_access_role_arn DatasyncLocationEfs#file_system_access_role_arn}
 
 ---
 
@@ -1106,7 +1106,7 @@ public readonly inTransitEncryption: string;
 
 Protocol that is used for encrypting the traffic exchanged between the DataSync Agent and the EFS file system.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datasync_location_efs#in_transit_encryption DatasyncLocationEfs#in_transit_encryption}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datasync_location_efs#in_transit_encryption DatasyncLocationEfs#in_transit_encryption}
 
 ---
 
@@ -1122,7 +1122,7 @@ A subdirectory in the location's path.
 
 This subdirectory in the EFS file system is used to read data from the EFS source location or write data to the EFS destination.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datasync_location_efs#subdirectory DatasyncLocationEfs#subdirectory}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datasync_location_efs#subdirectory DatasyncLocationEfs#subdirectory}
 
 ---
 
@@ -1136,7 +1136,7 @@ public readonly tags: IResolvable | DatasyncLocationEfsTags[];
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datasync_location_efs#tags DatasyncLocationEfs#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datasync_location_efs#tags DatasyncLocationEfs#tags}
 
 ---
 
@@ -1169,7 +1169,7 @@ public readonly securityGroupArns: string[];
 
 The Amazon Resource Names (ARNs) of the security groups that are configured for the Amazon EC2 resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datasync_location_efs#security_group_arns DatasyncLocationEfs#security_group_arns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datasync_location_efs#security_group_arns DatasyncLocationEfs#security_group_arns}
 
 ---
 
@@ -1183,7 +1183,7 @@ public readonly subnetArn: string;
 
 The ARN of the subnet that DataSync uses to access the target EFS file system.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datasync_location_efs#subnet_arn DatasyncLocationEfs#subnet_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datasync_location_efs#subnet_arn DatasyncLocationEfs#subnet_arn}
 
 ---
 
@@ -1216,7 +1216,7 @@ public readonly key: string;
 
 The key for an AWS resource tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datasync_location_efs#key DatasyncLocationEfs#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datasync_location_efs#key DatasyncLocationEfs#key}
 
 ---
 
@@ -1230,7 +1230,7 @@ public readonly value: string;
 
 The value for an AWS resource tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datasync_location_efs#value DatasyncLocationEfs#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datasync_location_efs#value DatasyncLocationEfs#value}
 
 ---
 

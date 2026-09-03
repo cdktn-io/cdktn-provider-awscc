@@ -4,7 +4,7 @@
 
 ### ServerlessrepoApplication <a name="ServerlessrepoApplication" id="@cdktn/provider-awscc.serverlessrepoApplication.ServerlessrepoApplication"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/serverlessrepo_application awscc_serverlessrepo_application}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/serverlessrepo_application awscc_serverlessrepo_application}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.serverlessrepoApplication.ServerlessrepoApplication.Initializer"></a>
 
@@ -545,7 +545,7 @@ The construct id used in the generated config for the ServerlessrepoApplication 
 
 The id of the existing ServerlessrepoApplication that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/serverlessrepo_application#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/serverlessrepo_application#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1141,7 +1141,7 @@ public readonly author: string;
 
 The name of the author publishing the app.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/serverlessrepo_application#author ServerlessrepoApplication#author}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/serverlessrepo_application#author ServerlessrepoApplication#author}
 
 ---
 
@@ -1155,7 +1155,7 @@ public readonly description: string;
 
 The description of the application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/serverlessrepo_application#description ServerlessrepoApplication#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/serverlessrepo_application#description ServerlessrepoApplication#description}
 
 ---
 
@@ -1169,7 +1169,7 @@ public readonly name: string;
 
 The name of the application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/serverlessrepo_application#name ServerlessrepoApplication#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/serverlessrepo_application#name ServerlessrepoApplication#name}
 
 ---
 
@@ -1183,7 +1183,7 @@ public readonly homePageUrl: string;
 
 A URL with more information about the application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/serverlessrepo_application#home_page_url ServerlessrepoApplication#home_page_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/serverlessrepo_application#home_page_url ServerlessrepoApplication#home_page_url}
 
 ---
 
@@ -1197,7 +1197,7 @@ public readonly labels: string[];
 
 Labels to improve discovery of apps in search results.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/serverlessrepo_application#labels ServerlessrepoApplication#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/serverlessrepo_application#labels ServerlessrepoApplication#labels}
 
 ---
 
@@ -1211,7 +1211,7 @@ public readonly licenseBody: string;
 
 A local text file that contains the license of the app.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/serverlessrepo_application#license_body ServerlessrepoApplication#license_body}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/serverlessrepo_application#license_body ServerlessrepoApplication#license_body}
 
 ---
 
@@ -1225,7 +1225,7 @@ public readonly readmeBody: string;
 
 A text readme file in Markdown language that contains a more detailed description of the application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/serverlessrepo_application#readme_body ServerlessrepoApplication#readme_body}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/serverlessrepo_application#readme_body ServerlessrepoApplication#readme_body}
 
 ---
 
@@ -1239,7 +1239,7 @@ public readonly semanticVersion: string;
 
 The semantic version of the application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/serverlessrepo_application#semantic_version ServerlessrepoApplication#semantic_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/serverlessrepo_application#semantic_version ServerlessrepoApplication#semantic_version}
 
 ---
 
@@ -1253,7 +1253,7 @@ public readonly sourceCodeUrl: string;
 
 A link to a public repository for the source code of your application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/serverlessrepo_application#source_code_url ServerlessrepoApplication#source_code_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/serverlessrepo_application#source_code_url ServerlessrepoApplication#source_code_url}
 
 ---
 
@@ -1267,7 +1267,7 @@ public readonly spdxLicenseId: string;
 
 A valid identifier from https://spdx.org/licenses/.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/serverlessrepo_application#spdx_license_id ServerlessrepoApplication#spdx_license_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/serverlessrepo_application#spdx_license_id ServerlessrepoApplication#spdx_license_id}
 
 ---
 
@@ -1281,7 +1281,7 @@ public readonly templateBody: string;
 
 The local raw packaged AWS SAM template file of your application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/serverlessrepo_application#template_body ServerlessrepoApplication#template_body}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/serverlessrepo_application#template_body ServerlessrepoApplication#template_body}
 
 ---
 

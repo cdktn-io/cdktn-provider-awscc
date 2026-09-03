@@ -4,7 +4,7 @@
 
 ### LightsailContactMethod <a name="LightsailContactMethod" id="@cdktn/provider-awscc.lightsailContactMethod.LightsailContactMethod"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lightsail_contact_method awscc_lightsail_contact_method}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lightsail_contact_method awscc_lightsail_contact_method}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lightsailContactMethod.LightsailContactMethod.Initializer"></a>
 
@@ -106,7 +106,7 @@ Must be unique amongst siblings in the same scope
 
 The destination of the contact method, such as an email address or a mobile phone number.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lightsail_contact_method#contact_endpoint LightsailContactMethod#contact_endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lightsail_contact_method#contact_endpoint LightsailContactMethod#contact_endpoint}
 
 ---
 
@@ -116,7 +116,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The protocol of the contact method, such as Email or SMS (text messaging).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lightsail_contact_method#protocol LightsailContactMethod#protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lightsail_contact_method#protocol LightsailContactMethod#protocol}
 
 ---
 
@@ -565,7 +565,7 @@ The construct id used in the generated config for the LightsailContactMethod to 
 
 The id of the existing LightsailContactMethod that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lightsail_contact_method#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lightsail_contact_method#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -997,7 +997,7 @@ public java.lang.String getContactEndpoint();
 
 The destination of the contact method, such as an email address or a mobile phone number.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lightsail_contact_method#contact_endpoint LightsailContactMethod#contact_endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lightsail_contact_method#contact_endpoint LightsailContactMethod#contact_endpoint}
 
 ---
 
@@ -1011,7 +1011,7 @@ public java.lang.String getProtocol();
 
 The protocol of the contact method, such as Email or SMS (text messaging).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lightsail_contact_method#protocol LightsailContactMethod#protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lightsail_contact_method#protocol LightsailContactMethod#protocol}
 
 ---
 

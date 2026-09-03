@@ -4,7 +4,7 @@
 
 ### WellarchitectedLens <a name="WellarchitectedLens" id="@cdktn/provider-awscc.wellarchitectedLens.WellarchitectedLens"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wellarchitected_lens awscc_wellarchitected_lens}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/wellarchitected_lens awscc_wellarchitected_lens}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.wellarchitectedLens.WellarchitectedLens.Initializer"></a>
 
@@ -523,7 +523,7 @@ The construct id used in the generated config for the WellarchitectedLens to imp
 
 The id of the existing WellarchitectedLens that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wellarchitected_lens#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/wellarchitected_lens#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -968,7 +968,7 @@ JsonString *string
 
 The JSON representation of a lens.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wellarchitected_lens#json_string WellarchitectedLens#json_string}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/wellarchitected_lens#json_string WellarchitectedLens#json_string}
 
 ---
 
@@ -982,7 +982,7 @@ LensVersion *string
 
 The version of the lens.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wellarchitected_lens#lens_version WellarchitectedLens#lens_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/wellarchitected_lens#lens_version WellarchitectedLens#lens_version}
 
 ---
 
@@ -996,7 +996,7 @@ Tags interface{}
 
 The tags assigned to the lens.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wellarchitected_lens#tags WellarchitectedLens#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/wellarchitected_lens#tags WellarchitectedLens#tags}
 
 ---
 
@@ -1017,8 +1017,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wellarchitectedlens"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.wellarchitectedLens.WellarchitectedLensTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wellarchitected_lens#key WellarchitectedLens#key}. |
-| <code><a href="#@cdktn/provider-awscc.wellarchitectedLens.WellarchitectedLensTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wellarchitected_lens#value WellarchitectedLens#value}. |
+| <code><a href="#@cdktn/provider-awscc.wellarchitectedLens.WellarchitectedLensTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/wellarchitected_lens#key WellarchitectedLens#key}. |
+| <code><a href="#@cdktn/provider-awscc.wellarchitectedLens.WellarchitectedLensTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/wellarchitected_lens#value WellarchitectedLens#value}. |
 
 ---
 
@@ -1030,7 +1030,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wellarchitected_lens#key WellarchitectedLens#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/wellarchitected_lens#key WellarchitectedLens#key}.
 
 ---
 
@@ -1042,7 +1042,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wellarchitected_lens#value WellarchitectedLens#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/wellarchitected_lens#value WellarchitectedLens#value}.
 
 ---
 

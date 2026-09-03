@@ -4,7 +4,7 @@
 
 ### DataAwsccGlueTriggers <a name="DataAwsccGlueTriggers" id="@cdktn/provider-awscc.dataAwsccGlueTriggers.DataAwsccGlueTriggers"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/glue_triggers awscc_glue_triggers}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/glue_triggers awscc_glue_triggers}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueTriggers.DataAwsccGlueTriggers.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccGlueTriggers to i
 
 The id of the existing DataAwsccGlueTriggers that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/glue_triggers#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/glue_triggers#import import section} in the documentation of this resource for the id to use
 
 ---
 

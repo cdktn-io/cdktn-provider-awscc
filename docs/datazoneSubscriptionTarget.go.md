@@ -4,7 +4,7 @@
 
 ### DatazoneSubscriptionTarget <a name="DatazoneSubscriptionTarget" id="@cdktn/provider-awscc.datazoneSubscriptionTarget.DatazoneSubscriptionTarget"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_subscription_target awscc_datazone_subscription_target}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datazone_subscription_target awscc_datazone_subscription_target}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.datazoneSubscriptionTarget.DatazoneSubscriptionTarget.Initializer"></a>
 
@@ -516,7 +516,7 @@ The construct id used in the generated config for the DatazoneSubscriptionTarget
 
 The id of the existing DatazoneSubscriptionTarget that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_subscription_target#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datazone_subscription_target#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1138,7 +1138,7 @@ ApplicableAssetTypes *[]*string
 
 The asset types that can be included in the subscription target.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_subscription_target#applicable_asset_types DatazoneSubscriptionTarget#applicable_asset_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datazone_subscription_target#applicable_asset_types DatazoneSubscriptionTarget#applicable_asset_types}
 
 ---
 
@@ -1152,7 +1152,7 @@ AuthorizedPrincipals *[]*string
 
 The authorized principals of the subscription target.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_subscription_target#authorized_principals DatazoneSubscriptionTarget#authorized_principals}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datazone_subscription_target#authorized_principals DatazoneSubscriptionTarget#authorized_principals}
 
 ---
 
@@ -1166,7 +1166,7 @@ DomainIdentifier *string
 
 The ID of the Amazon DataZone domain in which subscription target would be created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_subscription_target#domain_identifier DatazoneSubscriptionTarget#domain_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datazone_subscription_target#domain_identifier DatazoneSubscriptionTarget#domain_identifier}
 
 ---
 
@@ -1180,7 +1180,7 @@ EnvironmentIdentifier *string
 
 The ID of the environment in which subscription target would be created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_subscription_target#environment_identifier DatazoneSubscriptionTarget#environment_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datazone_subscription_target#environment_identifier DatazoneSubscriptionTarget#environment_identifier}
 
 ---
 
@@ -1194,7 +1194,7 @@ Name *string
 
 The name of the subscription target.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_subscription_target#name DatazoneSubscriptionTarget#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datazone_subscription_target#name DatazoneSubscriptionTarget#name}
 
 ---
 
@@ -1208,7 +1208,7 @@ SubscriptionTargetConfig interface{}
 
 The configuration of the subscription target.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_subscription_target#subscription_target_config DatazoneSubscriptionTarget#subscription_target_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datazone_subscription_target#subscription_target_config DatazoneSubscriptionTarget#subscription_target_config}
 
 ---
 
@@ -1222,7 +1222,7 @@ Type *string
 
 The type of the subscription target.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_subscription_target#type DatazoneSubscriptionTarget#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datazone_subscription_target#type DatazoneSubscriptionTarget#type}
 
 ---
 
@@ -1236,7 +1236,7 @@ ManageAccessRole *string
 
 The manage access role that is used to create the subscription target.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_subscription_target#manage_access_role DatazoneSubscriptionTarget#manage_access_role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datazone_subscription_target#manage_access_role DatazoneSubscriptionTarget#manage_access_role}
 
 ---
 
@@ -1250,7 +1250,7 @@ ProviderName *string
 
 The provider of the subscription target.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_subscription_target#provider_name DatazoneSubscriptionTarget#provider_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datazone_subscription_target#provider_name DatazoneSubscriptionTarget#provider_name}
 
 ---
 
@@ -1286,7 +1286,7 @@ Content *string
 
 The content of the subscription target configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_subscription_target#content DatazoneSubscriptionTarget#content}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datazone_subscription_target#content DatazoneSubscriptionTarget#content}
 
 ---
 
@@ -1300,7 +1300,7 @@ FormName *string
 
 The form name included in the subscription target configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_subscription_target#form_name DatazoneSubscriptionTarget#form_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datazone_subscription_target#form_name DatazoneSubscriptionTarget#form_name}
 
 ---
 

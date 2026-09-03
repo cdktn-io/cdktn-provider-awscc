@@ -4,7 +4,7 @@
 
 ### DataAwsccEc2EipAssociations <a name="DataAwsccEc2EipAssociations" id="@cdktn/provider-awscc.dataAwsccEc2EipAssociations.DataAwsccEc2EipAssociations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_eip_associations awscc_ec2_eip_associations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_eip_associations awscc_ec2_eip_associations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2EipAssociations.DataAwsccEc2EipAssociations.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2EipAssociation
 
 The id of the existing DataAwsccEc2EipAssociations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_eip_associations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_eip_associations#import import section} in the documentation of this resource for the id to use
 
 ---
 

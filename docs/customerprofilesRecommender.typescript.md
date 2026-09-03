@@ -4,7 +4,7 @@
 
 ### CustomerprofilesRecommender <a name="CustomerprofilesRecommender" id="@cdktn/provider-awscc.customerprofilesRecommender.CustomerprofilesRecommender"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/customerprofiles_recommender awscc_customerprofiles_recommender}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/customerprofiles_recommender awscc_customerprofiles_recommender}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.customerprofilesRecommender.CustomerprofilesRecommender.Initializer"></a>
 
@@ -536,7 +536,7 @@ The construct id used in the generated config for the CustomerprofilesRecommende
 
 The id of the existing CustomerprofilesRecommender that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/customerprofiles_recommender#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/customerprofiles_recommender#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1061,7 +1061,7 @@ public readonly domainName: string;
 
 The name of the domain for which the recommender will be created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/customerprofiles_recommender#domain_name CustomerprofilesRecommender#domain_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/customerprofiles_recommender#domain_name CustomerprofilesRecommender#domain_name}
 
 ---
 
@@ -1075,7 +1075,7 @@ public readonly recommenderName: string;
 
 The name of the recommender.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/customerprofiles_recommender#recommender_name CustomerprofilesRecommender#recommender_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/customerprofiles_recommender#recommender_name CustomerprofilesRecommender#recommender_name}
 
 ---
 
@@ -1089,7 +1089,7 @@ public readonly recommenderRecipeName: string;
 
 The name of the recommender recipe.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/customerprofiles_recommender#recommender_recipe_name CustomerprofilesRecommender#recommender_recipe_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/customerprofiles_recommender#recommender_recipe_name CustomerprofilesRecommender#recommender_recipe_name}
 
 ---
 
@@ -1103,7 +1103,7 @@ public readonly description: string;
 
 The description of the recommender.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/customerprofiles_recommender#description CustomerprofilesRecommender#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/customerprofiles_recommender#description CustomerprofilesRecommender#description}
 
 ---
 
@@ -1117,7 +1117,7 @@ public readonly recommenderConfig: CustomerprofilesRecommenderRecommenderConfig;
 
 Configuration for the recommender.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/customerprofiles_recommender#recommender_config CustomerprofilesRecommender#recommender_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/customerprofiles_recommender#recommender_config CustomerprofilesRecommender#recommender_config}
 
 ---
 
@@ -1131,7 +1131,7 @@ public readonly tags: IResolvable | CustomerprofilesRecommenderTags[];
 
 The tags used to organize, track, or control access for this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/customerprofiles_recommender#tags CustomerprofilesRecommender#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/customerprofiles_recommender#tags CustomerprofilesRecommender#tags}
 
 ---
 
@@ -1207,7 +1207,7 @@ public readonly eventsConfig: CustomerprofilesRecommenderRecommenderConfigEvents
 
 Configuration for events used in the recommender.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/customerprofiles_recommender#events_config CustomerprofilesRecommender#events_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/customerprofiles_recommender#events_config CustomerprofilesRecommender#events_config}
 
 ---
 
@@ -1239,7 +1239,7 @@ public readonly eventParametersList: IResolvable | CustomerprofilesRecommenderRe
 
 List of event parameters with their value thresholds.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/customerprofiles_recommender#event_parameters_list CustomerprofilesRecommender#event_parameters_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/customerprofiles_recommender#event_parameters_list CustomerprofilesRecommender#event_parameters_list}
 
 ---
 
@@ -1272,7 +1272,7 @@ public readonly eventType: string;
 
 The type of event.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/customerprofiles_recommender#event_type CustomerprofilesRecommender#event_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/customerprofiles_recommender#event_type CustomerprofilesRecommender#event_type}
 
 ---
 
@@ -1288,7 +1288,7 @@ The threshold of the event type.
 
 Only events with a value greater or equal to this threshold will be considered for solution creation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/customerprofiles_recommender#event_value_threshold CustomerprofilesRecommender#event_value_threshold}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/customerprofiles_recommender#event_value_threshold CustomerprofilesRecommender#event_value_threshold}
 
 ---
 
@@ -1306,8 +1306,8 @@ const customerprofilesRecommenderTags: customerprofilesRecommender.Customerprofi
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.customerprofilesRecommender.CustomerprofilesRecommenderTags.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/customerprofiles_recommender#key CustomerprofilesRecommender#key}. |
-| <code><a href="#@cdktn/provider-awscc.customerprofilesRecommender.CustomerprofilesRecommenderTags.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/customerprofiles_recommender#value CustomerprofilesRecommender#value}. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesRecommender.CustomerprofilesRecommenderTags.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/customerprofiles_recommender#key CustomerprofilesRecommender#key}. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesRecommender.CustomerprofilesRecommenderTags.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/customerprofiles_recommender#value CustomerprofilesRecommender#value}. |
 
 ---
 
@@ -1319,7 +1319,7 @@ public readonly key: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/customerprofiles_recommender#key CustomerprofilesRecommender#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/customerprofiles_recommender#key CustomerprofilesRecommender#key}.
 
 ---
 
@@ -1331,7 +1331,7 @@ public readonly value: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/customerprofiles_recommender#value CustomerprofilesRecommender#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/customerprofiles_recommender#value CustomerprofilesRecommender#value}.
 
 ---
 

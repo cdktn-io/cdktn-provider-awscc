@@ -4,7 +4,7 @@
 
 ### SagemakerDevice <a name="SagemakerDevice" id="@cdktn/provider-awscc.sagemakerDevice.SagemakerDevice"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_device awscc_sagemaker_device}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_device awscc_sagemaker_device}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sagemakerDevice.SagemakerDevice.Initializer"></a>
 
@@ -529,7 +529,7 @@ The construct id used in the generated config for the SagemakerDevice to import.
 
 The id of the existing SagemakerDevice that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_device#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_device#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -919,7 +919,7 @@ public string DeviceFleetName { get; set; }
 
 The name of the edge device fleet.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_device#device_fleet_name SagemakerDevice#device_fleet_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_device#device_fleet_name SagemakerDevice#device_fleet_name}
 
 ---
 
@@ -933,7 +933,7 @@ public SagemakerDeviceDevice Device { get; set; }
 
 The Edge Device you want to register against a device fleet.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_device#device SagemakerDevice#device}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_device#device SagemakerDevice#device}
 
 ---
 
@@ -947,7 +947,7 @@ public IResolvable|SagemakerDeviceTags[] Tags { get; set; }
 
 Associate tags with the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_device#tags SagemakerDevice#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_device#tags SagemakerDevice#tags}
 
 ---
 
@@ -985,7 +985,7 @@ public string Description { get; set; }
 
 Description of the device.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_device#description SagemakerDevice#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_device#description SagemakerDevice#description}
 
 ---
 
@@ -999,7 +999,7 @@ public string DeviceName { get; set; }
 
 The name of the device.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_device#device_name SagemakerDevice#device_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_device#device_name SagemakerDevice#device_name}
 
 ---
 
@@ -1013,7 +1013,7 @@ public string IotThingName { get; set; }
 
 AWS Internet of Things (IoT) object name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_device#iot_thing_name SagemakerDevice#iot_thing_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_device#iot_thing_name SagemakerDevice#iot_thing_name}
 
 ---
 
@@ -1051,7 +1051,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_device#key SagemakerDevice#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_device#key SagemakerDevice#key}
 
 ---
 
@@ -1067,7 +1067,7 @@ The key value of the tag.
 
 You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_device#value SagemakerDevice#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_device#value SagemakerDevice#value}
 
 ---
 

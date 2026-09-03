@@ -4,7 +4,7 @@
 
 ### DataAwsccCodeguruprofilerProfilingGroups <a name="DataAwsccCodeguruprofilerProfilingGroups" id="@cdktn/provider-awscc.dataAwsccCodeguruprofilerProfilingGroups.DataAwsccCodeguruprofilerProfilingGroups"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/codeguruprofiler_profiling_groups awscc_codeguruprofiler_profiling_groups}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/codeguruprofiler_profiling_groups awscc_codeguruprofiler_profiling_groups}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodeguruprofilerProfilingGroups.DataAwsccCodeguruprofilerProfilingGroups.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCodeguruprofilerP
 
 The id of the existing DataAwsccCodeguruprofilerProfilingGroups that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/codeguruprofiler_profiling_groups#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/codeguruprofiler_profiling_groups#import import section} in the documentation of this resource for the id to use
 
 ---
 

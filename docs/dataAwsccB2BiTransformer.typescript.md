@@ -4,7 +4,7 @@
 
 ### DataAwsccB2BiTransformer <a name="DataAwsccB2BiTransformer" id="@cdktn/provider-awscc.dataAwsccB2BiTransformer.DataAwsccB2BiTransformer"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/b2bi_transformer awscc_b2bi_transformer}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/b2bi_transformer awscc_b2bi_transformer}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccB2BiTransformer.DataAwsccB2BiTransformer.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccB2BiTransformer t
 
 The id of the existing DataAwsccB2BiTransformer that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/b2bi_transformer#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/b2bi_transformer#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -852,7 +852,7 @@ public readonly id: string;
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/b2bi_transformer#id DataAwsccB2BiTransformer#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/b2bi_transformer#id DataAwsccB2BiTransformer#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

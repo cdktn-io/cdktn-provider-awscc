@@ -4,7 +4,7 @@
 
 ### DataAwsccLexBots <a name="DataAwsccLexBots" id="@cdktn/provider-awscc.dataAwsccLexBots.DataAwsccLexBots"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/lex_bots awscc_lex_bots}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/lex_bots awscc_lex_bots}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBots.DataAwsccLexBots.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccLexBots to import
 
 The id of the existing DataAwsccLexBots that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/lex_bots#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/lex_bots#import import section} in the documentation of this resource for the id to use
 
 ---
 

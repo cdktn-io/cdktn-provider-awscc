@@ -4,7 +4,7 @@
 
 ### DataAwsccBatchConsumableResources <a name="DataAwsccBatchConsumableResources" id="@cdktn/provider-awscc.dataAwsccBatchConsumableResources.DataAwsccBatchConsumableResources"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/batch_consumable_resources awscc_batch_consumable_resources}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/batch_consumable_resources awscc_batch_consumable_resources}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchConsumableResources.DataAwsccBatchConsumableResources.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccBatchConsumableRe
 
 The id of the existing DataAwsccBatchConsumableResources that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/batch_consumable_resources#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/batch_consumable_resources#import import section} in the documentation of this resource for the id to use
 
 ---
 

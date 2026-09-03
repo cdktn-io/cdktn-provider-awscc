@@ -4,7 +4,7 @@
 
 ### Ec2Host <a name="Ec2Host" id="@cdktn/provider-awscc.ec2Host.Ec2Host"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_host awscc_ec2_host}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_host awscc_ec2_host}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2Host.Ec2Host.Initializer"></a>
 
@@ -122,7 +122,7 @@ Must be unique amongst siblings in the same scope
 
 The Availability Zone in which to allocate the Dedicated Host.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_host#availability_zone Ec2Host#availability_zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_host#availability_zone Ec2Host#availability_zone}
 
 ---
 
@@ -132,7 +132,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The ID of the Outpost hardware asset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_host#asset_id Ec2Host#asset_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_host#asset_id Ec2Host#asset_id}
 
 ---
 
@@ -142,7 +142,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Indicates whether the host accepts any untargeted instance launches that match its instance type configuration, or if it only accepts Host tenancy instance launches that specify its unique host ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_host#auto_placement Ec2Host#auto_placement}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_host#auto_placement Ec2Host#auto_placement}
 
 ---
 
@@ -152,7 +152,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Automatically allocates a new dedicated host and moves your instances on to it if a degradation is detected on your current host.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_host#host_maintenance Ec2Host#host_maintenance}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_host#host_maintenance Ec2Host#host_maintenance}
 
 ---
 
@@ -162,7 +162,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Indicates whether to enable or disable host recovery for the Dedicated Host. Host recovery is disabled by default.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_host#host_recovery Ec2Host#host_recovery}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_host#host_recovery Ec2Host#host_recovery}
 
 ---
 
@@ -174,7 +174,7 @@ Specifies the instance family to be supported by the Dedicated Hosts.
 
 If you specify an instance family, the Dedicated Hosts support multiple instance types within that instance family.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_host#instance_family Ec2Host#instance_family}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_host#instance_family Ec2Host#instance_family}
 
 ---
 
@@ -186,7 +186,7 @@ Specifies the instance type to be supported by the Dedicated Hosts.
 
 If you specify an instance type, the Dedicated Hosts support instances of the specified instance type only.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_host#instance_type Ec2Host#instance_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_host#instance_type Ec2Host#instance_type}
 
 ---
 
@@ -196,7 +196,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The Amazon Resource Name (ARN) of the Amazon Web Services Outpost on which to allocate the Dedicated Host.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_host#outpost_arn Ec2Host#outpost_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_host#outpost_arn Ec2Host#outpost_arn}
 
 ---
 
@@ -206,7 +206,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Any tags assigned to the Host.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_host#tags Ec2Host#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_host#tags Ec2Host#tags}
 
 ---
 
@@ -774,7 +774,7 @@ The construct id used in the generated config for the Ec2Host to import.
 
 The id of the existing Ec2Host that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_host#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_host#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1319,7 +1319,7 @@ availability_zone: str
 
 The Availability Zone in which to allocate the Dedicated Host.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_host#availability_zone Ec2Host#availability_zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_host#availability_zone Ec2Host#availability_zone}
 
 ---
 
@@ -1333,7 +1333,7 @@ asset_id: str
 
 The ID of the Outpost hardware asset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_host#asset_id Ec2Host#asset_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_host#asset_id Ec2Host#asset_id}
 
 ---
 
@@ -1347,7 +1347,7 @@ auto_placement: str
 
 Indicates whether the host accepts any untargeted instance launches that match its instance type configuration, or if it only accepts Host tenancy instance launches that specify its unique host ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_host#auto_placement Ec2Host#auto_placement}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_host#auto_placement Ec2Host#auto_placement}
 
 ---
 
@@ -1361,7 +1361,7 @@ host_maintenance: str
 
 Automatically allocates a new dedicated host and moves your instances on to it if a degradation is detected on your current host.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_host#host_maintenance Ec2Host#host_maintenance}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_host#host_maintenance Ec2Host#host_maintenance}
 
 ---
 
@@ -1375,7 +1375,7 @@ host_recovery: str
 
 Indicates whether to enable or disable host recovery for the Dedicated Host. Host recovery is disabled by default.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_host#host_recovery Ec2Host#host_recovery}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_host#host_recovery Ec2Host#host_recovery}
 
 ---
 
@@ -1391,7 +1391,7 @@ Specifies the instance family to be supported by the Dedicated Hosts.
 
 If you specify an instance family, the Dedicated Hosts support multiple instance types within that instance family.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_host#instance_family Ec2Host#instance_family}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_host#instance_family Ec2Host#instance_family}
 
 ---
 
@@ -1407,7 +1407,7 @@ Specifies the instance type to be supported by the Dedicated Hosts.
 
 If you specify an instance type, the Dedicated Hosts support instances of the specified instance type only.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_host#instance_type Ec2Host#instance_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_host#instance_type Ec2Host#instance_type}
 
 ---
 
@@ -1421,7 +1421,7 @@ outpost_arn: str
 
 The Amazon Resource Name (ARN) of the Amazon Web Services Outpost on which to allocate the Dedicated Host.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_host#outpost_arn Ec2Host#outpost_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_host#outpost_arn Ec2Host#outpost_arn}
 
 ---
 
@@ -1435,7 +1435,7 @@ tags: IResolvable | typing.List[Ec2HostTags]
 
 Any tags assigned to the Host.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_host#tags Ec2Host#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_host#tags Ec2Host#tags}
 
 ---
 
@@ -1456,8 +1456,8 @@ ec2Host.Ec2HostTags(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2Host.Ec2HostTags.property.key">key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_host#key Ec2Host#key}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Host.Ec2HostTags.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_host#value Ec2Host#value}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Host.Ec2HostTags.property.key">key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_host#key Ec2Host#key}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Host.Ec2HostTags.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_host#value Ec2Host#value}. |
 
 ---
 
@@ -1469,7 +1469,7 @@ key: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_host#key Ec2Host#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_host#key Ec2Host#key}.
 
 ---
 
@@ -1481,7 +1481,7 @@ value: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_host#value Ec2Host#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_host#value Ec2Host#value}.
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### KendraThesaurus <a name="KendraThesaurus" id="@cdktn/provider-awscc.kendraThesaurus.KendraThesaurus"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_thesaurus awscc_kendra_thesaurus}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_thesaurus awscc_kendra_thesaurus}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.kendraThesaurus.KendraThesaurus.Initializer"></a>
 
@@ -529,7 +529,7 @@ The construct id used in the generated config for the KendraThesaurus to import.
 
 The id of the existing KendraThesaurus that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_thesaurus#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_thesaurus#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1013,7 +1013,7 @@ IndexId *string
 
 The identifier of the index for the thesaurus.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_thesaurus#index_id KendraThesaurus#index_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_thesaurus#index_id KendraThesaurus#index_id}
 
 ---
 
@@ -1027,7 +1027,7 @@ Name *string
 
 A name for the thesaurus.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_thesaurus#name KendraThesaurus#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_thesaurus#name KendraThesaurus#name}
 
 ---
 
@@ -1041,7 +1041,7 @@ RoleArn *string
 
 An IAM role that gives Amazon Kendra permissions to access the thesaurus file specified in SourceS3Path.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_thesaurus#role_arn KendraThesaurus#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_thesaurus#role_arn KendraThesaurus#role_arn}
 
 ---
 
@@ -1055,7 +1055,7 @@ SourceS3Path KendraThesaurusSourceS3Path
 
 Information required to find a specific file in an Amazon S3 bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_thesaurus#source_s3_path KendraThesaurus#source_s3_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_thesaurus#source_s3_path KendraThesaurus#source_s3_path}
 
 ---
 
@@ -1069,7 +1069,7 @@ Description *string
 
 A description for the thesaurus.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_thesaurus#description KendraThesaurus#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_thesaurus#description KendraThesaurus#description}
 
 ---
 
@@ -1083,7 +1083,7 @@ Tags interface{}
 
 A list of key-value pairs that identify or categorize the thesaurus.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_thesaurus#tags KendraThesaurus#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_thesaurus#tags KendraThesaurus#tags}
 
 ---
 
@@ -1119,7 +1119,7 @@ Bucket *string
 
 The name of the S3 bucket that contains the file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_thesaurus#bucket KendraThesaurus#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_thesaurus#bucket KendraThesaurus#bucket}
 
 ---
 
@@ -1133,7 +1133,7 @@ Key *string
 
 The name of the file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_thesaurus#key KendraThesaurus#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_thesaurus#key KendraThesaurus#key}
 
 ---
 
@@ -1169,7 +1169,7 @@ Key *string
 
 The key for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_thesaurus#key KendraThesaurus#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_thesaurus#key KendraThesaurus#key}
 
 ---
 
@@ -1183,7 +1183,7 @@ Value *string
 
 The value associated with the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_thesaurus#value KendraThesaurus#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_thesaurus#value KendraThesaurus#value}
 
 ---
 

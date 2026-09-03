@@ -4,7 +4,7 @@
 
 ### DataAwsccEc2VpnConnection <a name="DataAwsccEc2VpnConnection" id="@cdktn/provider-awscc.dataAwsccEc2VpnConnection.DataAwsccEc2VpnConnection"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_vpn_connection awscc_ec2_vpn_connection}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_vpn_connection awscc_ec2_vpn_connection}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2VpnConnection.DataAwsccEc2VpnConnection.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2VpnConnection 
 
 The id of the existing DataAwsccEc2VpnConnection that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_vpn_connection#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_vpn_connection#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -905,7 +905,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_vpn_connection#id DataAwsccEc2VpnConnection#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_vpn_connection#id DataAwsccEc2VpnConnection#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

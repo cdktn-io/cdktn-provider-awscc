@@ -4,7 +4,7 @@
 
 ### Ec2NetworkPerformanceMetricSubscription <a name="Ec2NetworkPerformanceMetricSubscription" id="@cdktn/provider-awscc.ec2NetworkPerformanceMetricSubscription.Ec2NetworkPerformanceMetricSubscription"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_network_performance_metric_subscription awscc_ec2_network_performance_metric_subscription}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_network_performance_metric_subscription awscc_ec2_network_performance_metric_subscription}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2NetworkPerformanceMetricSubscription.Ec2NetworkPerformanceMetricSubscription.Initializer"></a>
 
@@ -110,7 +110,7 @@ Must be unique amongst siblings in the same scope
 
 The target Region or Availability Zone for the metric to subscribe to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_network_performance_metric_subscription#destination Ec2NetworkPerformanceMetricSubscription#destination}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_network_performance_metric_subscription#destination Ec2NetworkPerformanceMetricSubscription#destination}
 
 ---
 
@@ -120,7 +120,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The metric type to subscribe to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_network_performance_metric_subscription#metric Ec2NetworkPerformanceMetricSubscription#metric}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_network_performance_metric_subscription#metric Ec2NetworkPerformanceMetricSubscription#metric}
 
 ---
 
@@ -130,7 +130,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The starting Region or Availability Zone for metric to subscribe to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_network_performance_metric_subscription#source Ec2NetworkPerformanceMetricSubscription#source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_network_performance_metric_subscription#source Ec2NetworkPerformanceMetricSubscription#source}
 
 ---
 
@@ -140,7 +140,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The statistic to subscribe to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_network_performance_metric_subscription#statistic Ec2NetworkPerformanceMetricSubscription#statistic}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_network_performance_metric_subscription#statistic Ec2NetworkPerformanceMetricSubscription#statistic}
 
 ---
 
@@ -589,7 +589,7 @@ The construct id used in the generated config for the Ec2NetworkPerformanceMetri
 
 The id of the existing Ec2NetworkPerformanceMetricSubscription that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_network_performance_metric_subscription#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_network_performance_metric_subscription#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1003,7 +1003,7 @@ public java.lang.String getDestination();
 
 The target Region or Availability Zone for the metric to subscribe to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_network_performance_metric_subscription#destination Ec2NetworkPerformanceMetricSubscription#destination}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_network_performance_metric_subscription#destination Ec2NetworkPerformanceMetricSubscription#destination}
 
 ---
 
@@ -1017,7 +1017,7 @@ public java.lang.String getMetric();
 
 The metric type to subscribe to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_network_performance_metric_subscription#metric Ec2NetworkPerformanceMetricSubscription#metric}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_network_performance_metric_subscription#metric Ec2NetworkPerformanceMetricSubscription#metric}
 
 ---
 
@@ -1031,7 +1031,7 @@ public java.lang.String getSource();
 
 The starting Region or Availability Zone for metric to subscribe to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_network_performance_metric_subscription#source Ec2NetworkPerformanceMetricSubscription#source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_network_performance_metric_subscription#source Ec2NetworkPerformanceMetricSubscription#source}
 
 ---
 
@@ -1045,7 +1045,7 @@ public java.lang.String getStatistic();
 
 The statistic to subscribe to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_network_performance_metric_subscription#statistic Ec2NetworkPerformanceMetricSubscription#statistic}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_network_performance_metric_subscription#statistic Ec2NetworkPerformanceMetricSubscription#statistic}
 
 ---
 

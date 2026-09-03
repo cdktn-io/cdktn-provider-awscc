@@ -4,7 +4,7 @@
 
 ### EksCapability <a name="EksCapability" id="@cdktn/provider-awscc.eksCapability.EksCapability"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_capability awscc_eks_capability}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_capability awscc_eks_capability}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eksCapability.EksCapability.Initializer"></a>
 
@@ -529,7 +529,7 @@ The construct id used in the generated config for the EksCapability to import.
 
 The id of the existing EksCapability that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_capability#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_capability#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1072,7 +1072,7 @@ A unique name for the capability.
 
 The name must be unique within your cluster and can contain alphanumeric characters, hyphens, and underscores.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_capability#capability_name EksCapability#capability_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_capability#capability_name EksCapability#capability_name}
 
 ---
 
@@ -1086,7 +1086,7 @@ public string ClusterName { get; set; }
 
 The name of the EKS cluster where you want to create the capability.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_capability#cluster_name EksCapability#cluster_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_capability#cluster_name EksCapability#cluster_name}
 
 ---
 
@@ -1102,7 +1102,7 @@ Specifies how Kubernetes resources managed by the capability should be handled w
 
 Currently, the only supported value is RETAIN which retains all Kubernetes resources managed by the capability when the capability is deleted.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_capability#delete_propagation_policy EksCapability#delete_propagation_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_capability#delete_propagation_policy EksCapability#delete_propagation_policy}
 
 ---
 
@@ -1118,7 +1118,7 @@ The Amazon Resource Name (ARN) of the IAM role that the capability uses to inter
 
 This role must have a trust policy that allows the EKS service principal to assume it, and it must have the necessary permissions for the capability type you're creating.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_capability#role_arn EksCapability#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_capability#role_arn EksCapability#role_arn}
 
 ---
 
@@ -1134,7 +1134,7 @@ The type of capability to create.
 
 Valid values are: ACK (AWS Controllers for Kubernetes, which lets you manage AWS resources directly from Kubernetes), ARGOCD (Argo CD for GitOps-based continuous delivery), or KRO (Kube Resource Orchestrator for composing and managing custom Kubernetes resources).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_capability#type EksCapability#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_capability#type EksCapability#type}
 
 ---
 
@@ -1150,7 +1150,7 @@ The configuration settings for the capability.
 
 The structure of this object varies depending on the capability type. For Argo CD capabilities, you can configure IAM Identity Center integration, RBAC role mappings, and network access settings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_capability#configuration EksCapability#configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_capability#configuration EksCapability#configuration}
 
 ---
 
@@ -1164,7 +1164,7 @@ public IResolvable|EksCapabilityTags[] Tags { get; set; }
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_capability#tags EksCapability#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_capability#tags EksCapability#tags}
 
 ---
 
@@ -1176,7 +1176,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 using Io.Cdktn.Providers.Awscc;
 
 new EksCapabilityConfiguration {
-    string Ack = null,
+    EksCapabilityConfigurationAck Ack = null,
     EksCapabilityConfigurationArgoCd ArgoCd = null
 };
 ```
@@ -1185,7 +1185,7 @@ new EksCapabilityConfiguration {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.eksCapability.EksCapabilityConfiguration.property.ack">Ack</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_capability#ack EksCapability#ack}. |
+| <code><a href="#@cdktn/provider-awscc.eksCapability.EksCapabilityConfiguration.property.ack">Ack</a></code> | <code><a href="#@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationAck">EksCapabilityConfigurationAck</a></code> | Configuration settings for an ACK (AWS Controllers for Kubernetes) capability. |
 | <code><a href="#@cdktn/provider-awscc.eksCapability.EksCapabilityConfiguration.property.argoCd">ArgoCd</a></code> | <code><a href="#@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationArgoCd">EksCapabilityConfigurationArgoCd</a></code> | Configuration settings for an Argo CD capability. |
 
 ---
@@ -1193,12 +1193,14 @@ new EksCapabilityConfiguration {
 ##### `Ack`<sup>Optional</sup> <a name="Ack" id="@cdktn/provider-awscc.eksCapability.EksCapabilityConfiguration.property.ack"></a>
 
 ```csharp
-public string Ack { get; set; }
+public EksCapabilityConfigurationAck Ack { get; set; }
 ```
 
-- *Type:* string
+- *Type:* <a href="#@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationAck">EksCapabilityConfigurationAck</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_capability#ack EksCapability#ack}.
+Configuration settings for an ACK (AWS Controllers for Kubernetes) capability.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_capability#ack EksCapability#ack}
 
 ---
 
@@ -1214,7 +1216,57 @@ Configuration settings for an Argo CD capability.
 
 This includes the Kubernetes namespace, IAM Identity Center integration, RBAC role mappings, and network access configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_capability#argo_cd EksCapability#argo_cd}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_capability#argo_cd EksCapability#argo_cd}
+
+---
+
+### EksCapabilityConfigurationAck <a name="EksCapabilityConfigurationAck" id="@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationAck"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationAck.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new EksCapabilityConfigurationAck {
+    string[] DisabledServices = null,
+    bool|IResolvable EnableCrossNamespace = null
+};
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationAck.property.disabledServices">DisabledServices</a></code> | <code>string[]</code> | A list of ACK service names to disable. Controllers for services in this list are not installed or managed. |
+| <code><a href="#@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationAck.property.enableCrossNamespace">EnableCrossNamespace</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | Whether cross-namespace references are enabled for ACK controllers. When not specified, the service default applies. |
+
+---
+
+##### `DisabledServices`<sup>Optional</sup> <a name="DisabledServices" id="@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationAck.property.disabledServices"></a>
+
+```csharp
+public string[] DisabledServices { get; set; }
+```
+
+- *Type:* string[]
+
+A list of ACK service names to disable. Controllers for services in this list are not installed or managed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_capability#disabled_services EksCapability#disabled_services}
+
+---
+
+##### `EnableCrossNamespace`<sup>Optional</sup> <a name="EnableCrossNamespace" id="@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationAck.property.enableCrossNamespace"></a>
+
+```csharp
+public bool|IResolvable EnableCrossNamespace { get; set; }
+```
+
+- *Type:* bool|Io.Cdktn.IResolvable
+
+Whether cross-namespace references are enabled for ACK controllers. When not specified, the service default applies.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_capability#enable_cross_namespace EksCapability#enable_cross_namespace}
 
 ---
 
@@ -1256,7 +1308,7 @@ Configuration for integrating Argo CD with IAM Identity Center.
 
 This allows you to use your organization's identity provider for authentication to Argo CD.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_capability#aws_idc EksCapability#aws_idc}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_capability#aws_idc EksCapability#aws_idc}
 
 ---
 
@@ -1270,7 +1322,7 @@ public string Namespace { get; set; }
 
 The Kubernetes namespace where Argo CD resources will be created. If not specified, the default namespace is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_capability#namespace EksCapability#namespace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_capability#namespace EksCapability#namespace}
 
 ---
 
@@ -1286,7 +1338,7 @@ Configuration for network access to the Argo CD capability's managed API server 
 
 By default, the Argo CD server is accessible via a public endpoint. You can optionally specify one or more VPC endpoint IDs to enable private connectivity from your VPCs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_capability#network_access EksCapability#network_access}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_capability#network_access EksCapability#network_access}
 
 ---
 
@@ -1302,7 +1354,7 @@ A list of role mappings that define which IAM Identity Center users or groups ha
 
 Each mapping associates an Argo CD role (ADMIN, EDITOR, or VIEWER) with one or more IAM Identity Center identities.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_capability#rbac_role_mappings EksCapability#rbac_role_mappings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_capability#rbac_role_mappings EksCapability#rbac_role_mappings}
 
 ---
 
@@ -1338,7 +1390,7 @@ public string IdcInstanceArn { get; set; }
 
 The ARN of the IAM Identity Center instance to use for authentication.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_capability#idc_instance_arn EksCapability#idc_instance_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_capability#idc_instance_arn EksCapability#idc_instance_arn}
 
 ---
 
@@ -1352,7 +1404,7 @@ public string IdcRegion { get; set; }
 
 The Region where your IAM Identity Center instance is located.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_capability#idc_region EksCapability#idc_region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_capability#idc_region EksCapability#idc_region}
 
 ---
 
@@ -1388,7 +1440,7 @@ A list of VPC endpoint IDs to associate with the managed Argo CD API server endp
 
 Each VPC endpoint provides private connectivity from a specific VPC to the Argo CD server. You can specify multiple VPC endpoint IDs to enable access from multiple VPCs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_capability#vpce_ids EksCapability#vpce_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_capability#vpce_ids EksCapability#vpce_ids}
 
 ---
 
@@ -1424,7 +1476,7 @@ public IResolvable|EksCapabilityConfigurationArgoCdRbacRoleMappingsIdentities[] 
 
 A list of IAM Identity Center identities (users or groups) that should be assigned this Argo CD role.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_capability#identities EksCapability#identities}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_capability#identities EksCapability#identities}
 
 ---
 
@@ -1440,7 +1492,7 @@ The Argo CD role to assign.
 
 Valid values are: ADMIN (full administrative access to Argo CD), EDITOR (edit access to Argo CD resources), or VIEWER (read-only access to Argo CD resources).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_capability#role EksCapability#role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_capability#role EksCapability#role}
 
 ---
 
@@ -1476,7 +1528,7 @@ public string Id { get; set; }
 
 The unique identifier of the IAM Identity Center user or group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_capability#id EksCapability#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_capability#id EksCapability#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1493,7 +1545,7 @@ public string Type { get; set; }
 
 The type of identity. Valid values are SSO_USER or SSO_GROUP.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_capability#type EksCapability#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_capability#type EksCapability#type}
 
 ---
 
@@ -1531,7 +1583,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_capability#key EksCapability#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_capability#key EksCapability#key}
 
 ---
 
@@ -1547,11 +1599,318 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_capability#value EksCapability#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_capability#value EksCapability#value}
 
 ---
 
 ## Classes <a name="Classes" id="Classes"></a>
+
+### EksCapabilityConfigurationAckOutputReference <a name="EksCapabilityConfigurationAckOutputReference" id="@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationAckOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationAckOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new EksCapabilityConfigurationAckOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationAckOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationAckOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationAckOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationAckOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationAckOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationAckOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationAckOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationAckOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationAckOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationAckOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationAckOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationAckOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationAckOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationAckOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationAckOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationAckOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationAckOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationAckOutputReference.resetDisabledServices">ResetDisabledServices</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationAckOutputReference.resetEnableCrossNamespace">ResetEnableCrossNamespace</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationAckOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationAckOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationAckOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationAckOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationAckOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationAckOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationAckOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationAckOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationAckOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationAckOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationAckOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationAckOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationAckOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationAckOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationAckOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationAckOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationAckOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationAckOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationAckOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationAckOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationAckOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationAckOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationAckOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationAckOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `ResetDisabledServices` <a name="ResetDisabledServices" id="@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationAckOutputReference.resetDisabledServices"></a>
+
+```csharp
+private void ResetDisabledServices()
+```
+
+##### `ResetEnableCrossNamespace` <a name="ResetEnableCrossNamespace" id="@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationAckOutputReference.resetEnableCrossNamespace"></a>
+
+```csharp
+private void ResetEnableCrossNamespace()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationAckOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationAckOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationAckOutputReference.property.disabledServicesInput">DisabledServicesInput</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationAckOutputReference.property.enableCrossNamespaceInput">EnableCrossNamespaceInput</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationAckOutputReference.property.disabledServices">DisabledServices</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationAckOutputReference.property.enableCrossNamespace">EnableCrossNamespace</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationAckOutputReference.property.internalValue">InternalValue</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationAck">EksCapabilityConfigurationAck</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationAckOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationAckOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `DisabledServicesInput`<sup>Optional</sup> <a name="DisabledServicesInput" id="@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationAckOutputReference.property.disabledServicesInput"></a>
+
+```csharp
+public string[] DisabledServicesInput { get; }
+```
+
+- *Type:* string[]
+
+---
+
+##### `EnableCrossNamespaceInput`<sup>Optional</sup> <a name="EnableCrossNamespaceInput" id="@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationAckOutputReference.property.enableCrossNamespaceInput"></a>
+
+```csharp
+public bool|IResolvable EnableCrossNamespaceInput { get; }
+```
+
+- *Type:* bool|Io.Cdktn.IResolvable
+
+---
+
+##### `DisabledServices`<sup>Required</sup> <a name="DisabledServices" id="@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationAckOutputReference.property.disabledServices"></a>
+
+```csharp
+public string[] DisabledServices { get; }
+```
+
+- *Type:* string[]
+
+---
+
+##### `EnableCrossNamespace`<sup>Required</sup> <a name="EnableCrossNamespace" id="@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationAckOutputReference.property.enableCrossNamespace"></a>
+
+```csharp
+public bool|IResolvable EnableCrossNamespace { get; }
+```
+
+- *Type:* bool|Io.Cdktn.IResolvable
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationAckOutputReference.property.internalValue"></a>
+
+```csharp
+public IResolvable|EksCapabilityConfigurationAck InternalValue { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationAck">EksCapabilityConfigurationAck</a>
+
+---
+
 
 ### EksCapabilityConfigurationArgoCdAwsIdcOutputReference <a name="EksCapabilityConfigurationArgoCdAwsIdcOutputReference" id="@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationArgoCdAwsIdcOutputReference"></a>
 
@@ -3597,6 +3956,7 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationOutputReference.putAck">PutAck</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationOutputReference.putArgoCd">PutArgoCd</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationOutputReference.resetAck">ResetAck</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationOutputReference.resetArgoCd">ResetArgoCd</a></code> | *No description.* |
@@ -3753,6 +4113,18 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
+##### `PutAck` <a name="PutAck" id="@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationOutputReference.putAck"></a>
+
+```csharp
+private void PutAck(EksCapabilityConfigurationAck Value)
+```
+
+###### `Value`<sup>Required</sup> <a name="Value" id="@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationOutputReference.putAck.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationAck">EksCapabilityConfigurationAck</a>
+
+---
+
 ##### `PutArgoCd` <a name="PutArgoCd" id="@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationOutputReference.putArgoCd"></a>
 
 ```csharp
@@ -3784,10 +4156,10 @@ private void ResetArgoCd()
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationOutputReference.property.ack">Ack</a></code> | <code><a href="#@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationAckOutputReference">EksCapabilityConfigurationAckOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationOutputReference.property.argoCd">ArgoCd</a></code> | <code><a href="#@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationArgoCdOutputReference">EksCapabilityConfigurationArgoCdOutputReference</a></code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationOutputReference.property.ackInput">AckInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationOutputReference.property.ackInput">AckInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationAck">EksCapabilityConfigurationAck</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationOutputReference.property.argoCdInput">ArgoCdInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationArgoCd">EksCapabilityConfigurationArgoCd</a></code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationOutputReference.property.ack">Ack</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationOutputReference.property.internalValue">InternalValue</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.eksCapability.EksCapabilityConfiguration">EksCapabilityConfiguration</a></code> | *No description.* |
 
 ---
@@ -3816,6 +4188,16 @@ public string Fqn { get; }
 
 ---
 
+##### `Ack`<sup>Required</sup> <a name="Ack" id="@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationOutputReference.property.ack"></a>
+
+```csharp
+public EksCapabilityConfigurationAckOutputReference Ack { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationAckOutputReference">EksCapabilityConfigurationAckOutputReference</a>
+
+---
+
 ##### `ArgoCd`<sup>Required</sup> <a name="ArgoCd" id="@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationOutputReference.property.argoCd"></a>
 
 ```csharp
@@ -3829,10 +4211,10 @@ public EksCapabilityConfigurationArgoCdOutputReference ArgoCd { get; }
 ##### `AckInput`<sup>Optional</sup> <a name="AckInput" id="@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationOutputReference.property.ackInput"></a>
 
 ```csharp
-public string AckInput { get; }
+public IResolvable|EksCapabilityConfigurationAck AckInput { get; }
 ```
 
-- *Type:* string
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationAck">EksCapabilityConfigurationAck</a>
 
 ---
 
@@ -3843,16 +4225,6 @@ public IResolvable|EksCapabilityConfigurationArgoCd ArgoCdInput { get; }
 ```
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationArgoCd">EksCapabilityConfigurationArgoCd</a>
-
----
-
-##### `Ack`<sup>Required</sup> <a name="Ack" id="@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationOutputReference.property.ack"></a>
-
-```csharp
-public string Ack { get; }
-```
-
-- *Type:* string
 
 ---
 

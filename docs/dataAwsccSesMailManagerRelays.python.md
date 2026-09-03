@@ -4,7 +4,7 @@
 
 ### DataAwsccSesMailManagerRelays <a name="DataAwsccSesMailManagerRelays" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRelays.DataAwsccSesMailManagerRelays"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ses_mail_manager_relays awscc_ses_mail_manager_relays}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ses_mail_manager_relays awscc_ses_mail_manager_relays}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRelays.DataAwsccSesMailManagerRelays.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccSesMailManagerRel
 
 The id of the existing DataAwsccSesMailManagerRelays that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ses_mail_manager_relays#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ses_mail_manager_relays#import import section} in the documentation of this resource for the id to use
 
 ---
 

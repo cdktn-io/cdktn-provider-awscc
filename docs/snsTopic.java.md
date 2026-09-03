@@ -4,7 +4,7 @@
 
 ### SnsTopic <a name="SnsTopic" id="@cdktn/provider-awscc.snsTopic.SnsTopic"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sns_topic awscc_sns_topic}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sns_topic awscc_sns_topic}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.snsTopic.SnsTopic.Initializer"></a>
 
@@ -130,7 +130,7 @@ The ``ArchivePolicy`` determines the number of days SNS retains messages in FIFO
 
 You can set a retention period ranging from 1 to 365 days. This property is only applicable to FIFO topics; attempting to use it with standard topics will result in a creation failure.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sns_topic#archive_policy SnsTopic#archive_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sns_topic#archive_policy SnsTopic#archive_policy}
 
 ---
 
@@ -142,7 +142,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 By default, this property is set to false. If you create a FIFO topic with `ContentBasedDeduplication` set to false, you must provide a `MessageDeduplicationId` for each `Publish` action. When set to true, SNS automatically generates a `MessageDeduplicationId` using a SHA-256 hash of the message body (excluding message attributes). You can optionally override this generated value by specifying a `MessageDeduplicationId` in the `Publish` action. Note that this property only applies to FIFO topics; using it with standard topics will cause the creation to fail.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sns_topic#content_based_deduplication SnsTopic#content_based_deduplication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sns_topic#content_based_deduplication SnsTopic#content_based_deduplication}
 
 ---
 
@@ -156,7 +156,7 @@ You can only add one policy per topic.
 The policy must be in JSON string format.
 Length Constraints: Maximum length of 30,720.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sns_topic#data_protection_policy SnsTopic#data_protection_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sns_topic#data_protection_policy SnsTopic#data_protection_policy}
 
 ---
 
@@ -166,7 +166,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The ``DeliveryStatusLogging`` configuration enables you to log the delivery status of messages sent from your Amazon SNS topic to subscribed endpoints with the following supported delivery protocols:   +  HTTP    +  Amazon Kinesis Data Firehose   +  AWS Lambda   +  Platform application endpoint   +  Amazon Simple Queue Service     Once configured, log entries are sent to Amazon CloudWatch Logs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sns_topic#delivery_status_logging SnsTopic#delivery_status_logging}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sns_topic#delivery_status_logging SnsTopic#delivery_status_logging}
 
 ---
 
@@ -178,7 +178,7 @@ The display name to use for an SNS topic with SMS subscriptions.
 
 The display name must be maximum 100 characters long, including hyphens (-), underscores (_), spaces, and tabs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sns_topic#display_name SnsTopic#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sns_topic#display_name SnsTopic#display_name}
 
 ---
 
@@ -188,7 +188,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Specifies the throughput quota and deduplication behavior to apply for the FIFO topic. Valid values are ``Topic`` or ``MessageGroup``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sns_topic#fifo_throughput_scope SnsTopic#fifo_throughput_scope}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sns_topic#fifo_throughput_scope SnsTopic#fifo_throughput_scope}
 
 ---
 
@@ -198,7 +198,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Set to true to create a FIFO topic.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sns_topic#fifo_topic SnsTopic#fifo_topic}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sns_topic#fifo_topic SnsTopic#fifo_topic}
 
 ---
 
@@ -211,7 +211,7 @@ The ID of an AWS managed customer master key (CMK) for SNS or a custom CMK.
 For more information, see [Key terms](https://docs.aws.amazon.com/sns/latest/dg/sns-server-side-encryption.html#sse-key-terms). For more examples, see `KeyId` in the *API Reference*.
 This property applies only to [server-side-encryption](https://docs.aws.amazon.com/sns/latest/dg/sns-server-side-encryption.html).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sns_topic#kms_master_key_id SnsTopic#kms_master_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sns_topic#kms_master_key_id SnsTopic#kms_master_key_id}
 
 ---
 
@@ -223,7 +223,7 @@ The signature version corresponds to the hashing algorithm used while creating t
 
 By default, `SignatureVersion` is set to `1`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sns_topic#signature_version SnsTopic#signature_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sns_topic#signature_version SnsTopic#signature_version}
 
 ---
 
@@ -235,7 +235,7 @@ The SNS subscriptions (endpoints) for this topic.
 
 If you specify the `Subscription` property in the `AWS::SNS::Topic` resource and it creates an associated subscription resource, the associated subscription is not deleted when the `AWS::SNS::Topic` resource is deleted.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sns_topic#subscription SnsTopic#subscription}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sns_topic#subscription SnsTopic#subscription}
 
 ---
 
@@ -247,7 +247,7 @@ The list of tags to add to a new topic.
 
 To be able to tag a topic on creation, you must have the `sns:CreateTopic` and `sns:TagResource` permissions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sns_topic#tags SnsTopic#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sns_topic#tags SnsTopic#tags}
 
 ---
 
@@ -261,7 +261,7 @@ Topic names must include only uppercase and lowercase ASCII letters, numbers, un
 If you don't specify a name, CFN generates a unique physical ID and uses that ID for the topic name. For more information, see [Name type](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-name.html).
 If you specify a name, you can't perform updates that require replacement of this resource. You can perform updates that require no or some interruption. If you must replace the resource, specify a new name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sns_topic#topic_name SnsTopic#topic_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sns_topic#topic_name SnsTopic#topic_name}
 
 ---
 
@@ -273,7 +273,7 @@ Tracing mode of an SNS topic.
 
 By default `TracingConfig` is set to `PassThrough`, and the topic passes through the tracing header it receives from an SNS publisher to its subscriptions. If set to `Active`, SNS will vend X-Ray segment data to topic owner account if the sampled flag in the tracing header is true.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sns_topic#tracing_config SnsTopic#tracing_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sns_topic#tracing_config SnsTopic#tracing_config}
 
 ---
 
@@ -852,7 +852,7 @@ The construct id used in the generated config for the SnsTopic to import.
 
 The id of the existing SnsTopic that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sns_topic#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sns_topic#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1495,7 +1495,7 @@ The ``ArchivePolicy`` determines the number of days SNS retains messages in FIFO
 
 You can set a retention period ranging from 1 to 365 days. This property is only applicable to FIFO topics; attempting to use it with standard topics will result in a creation failure.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sns_topic#archive_policy SnsTopic#archive_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sns_topic#archive_policy SnsTopic#archive_policy}
 
 ---
 
@@ -1511,7 +1511,7 @@ public java.lang.Boolean|IResolvable getContentBasedDeduplication();
 
 By default, this property is set to false. If you create a FIFO topic with `ContentBasedDeduplication` set to false, you must provide a `MessageDeduplicationId` for each `Publish` action. When set to true, SNS automatically generates a `MessageDeduplicationId` using a SHA-256 hash of the message body (excluding message attributes). You can optionally override this generated value by specifying a `MessageDeduplicationId` in the `Publish` action. Note that this property only applies to FIFO topics; using it with standard topics will cause the creation to fail.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sns_topic#content_based_deduplication SnsTopic#content_based_deduplication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sns_topic#content_based_deduplication SnsTopic#content_based_deduplication}
 
 ---
 
@@ -1529,7 +1529,7 @@ You can only add one policy per topic.
 The policy must be in JSON string format.
 Length Constraints: Maximum length of 30,720.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sns_topic#data_protection_policy SnsTopic#data_protection_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sns_topic#data_protection_policy SnsTopic#data_protection_policy}
 
 ---
 
@@ -1543,7 +1543,7 @@ public IResolvable|java.util.List<SnsTopicDeliveryStatusLogging> getDeliveryStat
 
 The ``DeliveryStatusLogging`` configuration enables you to log the delivery status of messages sent from your Amazon SNS topic to subscribed endpoints with the following supported delivery protocols:   +  HTTP    +  Amazon Kinesis Data Firehose   +  AWS Lambda   +  Platform application endpoint   +  Amazon Simple Queue Service     Once configured, log entries are sent to Amazon CloudWatch Logs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sns_topic#delivery_status_logging SnsTopic#delivery_status_logging}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sns_topic#delivery_status_logging SnsTopic#delivery_status_logging}
 
 ---
 
@@ -1559,7 +1559,7 @@ The display name to use for an SNS topic with SMS subscriptions.
 
 The display name must be maximum 100 characters long, including hyphens (-), underscores (_), spaces, and tabs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sns_topic#display_name SnsTopic#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sns_topic#display_name SnsTopic#display_name}
 
 ---
 
@@ -1573,7 +1573,7 @@ public java.lang.String getFifoThroughputScope();
 
 Specifies the throughput quota and deduplication behavior to apply for the FIFO topic. Valid values are ``Topic`` or ``MessageGroup``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sns_topic#fifo_throughput_scope SnsTopic#fifo_throughput_scope}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sns_topic#fifo_throughput_scope SnsTopic#fifo_throughput_scope}
 
 ---
 
@@ -1587,7 +1587,7 @@ public java.lang.Boolean|IResolvable getFifoTopic();
 
 Set to true to create a FIFO topic.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sns_topic#fifo_topic SnsTopic#fifo_topic}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sns_topic#fifo_topic SnsTopic#fifo_topic}
 
 ---
 
@@ -1604,7 +1604,7 @@ The ID of an AWS managed customer master key (CMK) for SNS or a custom CMK.
 For more information, see [Key terms](https://docs.aws.amazon.com/sns/latest/dg/sns-server-side-encryption.html#sse-key-terms). For more examples, see `KeyId` in the *API Reference*.
 This property applies only to [server-side-encryption](https://docs.aws.amazon.com/sns/latest/dg/sns-server-side-encryption.html).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sns_topic#kms_master_key_id SnsTopic#kms_master_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sns_topic#kms_master_key_id SnsTopic#kms_master_key_id}
 
 ---
 
@@ -1620,7 +1620,7 @@ The signature version corresponds to the hashing algorithm used while creating t
 
 By default, `SignatureVersion` is set to `1`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sns_topic#signature_version SnsTopic#signature_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sns_topic#signature_version SnsTopic#signature_version}
 
 ---
 
@@ -1636,7 +1636,7 @@ The SNS subscriptions (endpoints) for this topic.
 
 If you specify the `Subscription` property in the `AWS::SNS::Topic` resource and it creates an associated subscription resource, the associated subscription is not deleted when the `AWS::SNS::Topic` resource is deleted.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sns_topic#subscription SnsTopic#subscription}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sns_topic#subscription SnsTopic#subscription}
 
 ---
 
@@ -1652,7 +1652,7 @@ The list of tags to add to a new topic.
 
 To be able to tag a topic on creation, you must have the `sns:CreateTopic` and `sns:TagResource` permissions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sns_topic#tags SnsTopic#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sns_topic#tags SnsTopic#tags}
 
 ---
 
@@ -1670,7 +1670,7 @@ Topic names must include only uppercase and lowercase ASCII letters, numbers, un
 If you don't specify a name, CFN generates a unique physical ID and uses that ID for the topic name. For more information, see [Name type](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-name.html).
 If you specify a name, you can't perform updates that require replacement of this resource. You can perform updates that require no or some interruption. If you must replace the resource, specify a new name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sns_topic#topic_name SnsTopic#topic_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sns_topic#topic_name SnsTopic#topic_name}
 
 ---
 
@@ -1686,7 +1686,7 @@ Tracing mode of an SNS topic.
 
 By default `TracingConfig` is set to `PassThrough`, and the topic passes through the tracing header it receives from an SNS publisher to its subscriptions. If set to `Active`, SNS will vend X-Ray segment data to topic owner account if the sampled flag in the tracing header is true.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sns_topic#tracing_config SnsTopic#tracing_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sns_topic#tracing_config SnsTopic#tracing_config}
 
 ---
 
@@ -1726,7 +1726,7 @@ public java.lang.String getFailureFeedbackRoleArn();
 
 The IAM role ARN to be used when logging failed message deliveries in Amazon CloudWatch.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sns_topic#failure_feedback_role_arn SnsTopic#failure_feedback_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sns_topic#failure_feedback_role_arn SnsTopic#failure_feedback_role_arn}
 
 ---
 
@@ -1742,7 +1742,7 @@ Indicates one of the supported protocols for the Amazon SNS topic.
 
 At least one of the other three `LoggingConfig` properties is recommend along with `Protocol`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sns_topic#protocol SnsTopic#protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sns_topic#protocol SnsTopic#protocol}
 
 ---
 
@@ -1756,7 +1756,7 @@ public java.lang.String getSuccessFeedbackRoleArn();
 
 The IAM role ARN to be used when logging successful message deliveries in Amazon CloudWatch.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sns_topic#success_feedback_role_arn SnsTopic#success_feedback_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sns_topic#success_feedback_role_arn SnsTopic#success_feedback_role_arn}
 
 ---
 
@@ -1772,7 +1772,7 @@ The percentage of successful message deliveries to be logged in Amazon CloudWatc
 
 Valid percentage values range from 0 to 100.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sns_topic#success_feedback_sample_rate SnsTopic#success_feedback_sample_rate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sns_topic#success_feedback_sample_rate SnsTopic#success_feedback_sample_rate}
 
 ---
 
@@ -1810,7 +1810,7 @@ The endpoint that receives notifications from the SNS topic.
 
 The endpoint value depends on the protocol that you specify. For more information, see the `Endpoint` parameter of the `Subscribe` action in the *API Reference*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sns_topic#endpoint SnsTopic#endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sns_topic#endpoint SnsTopic#endpoint}
 
 ---
 
@@ -1824,7 +1824,7 @@ public java.lang.String getProtocol();
 
 The subscription's protocol. For more information, see the ``Protocol`` parameter of the ``Subscribe`` action in the *API Reference*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sns_topic#protocol SnsTopic#protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sns_topic#protocol SnsTopic#protocol}
 
 ---
 
@@ -1860,7 +1860,7 @@ public java.lang.String getKey();
 
 The required key portion of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sns_topic#key SnsTopic#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sns_topic#key SnsTopic#key}
 
 ---
 
@@ -1874,7 +1874,7 @@ public java.lang.String getValue();
 
 The optional value portion of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sns_topic#value SnsTopic#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sns_topic#value SnsTopic#value}
 
 ---
 

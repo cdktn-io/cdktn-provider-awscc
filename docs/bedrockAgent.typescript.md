@@ -4,7 +4,7 @@
 
 ### BedrockAgent <a name="BedrockAgent" id="@cdktn/provider-awscc.bedrockAgent.BedrockAgent"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_agent awscc_bedrock_agent}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_agent awscc_bedrock_agent}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockAgent.BedrockAgent.Initializer"></a>
 
@@ -713,7 +713,7 @@ The construct id used in the generated config for the BedrockAgent to import.
 
 The id of the existing BedrockAgent that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_agent#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_agent#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1493,7 +1493,7 @@ public readonly actionGroupExecutor: BedrockAgentActionGroupsActionGroupExecutor
 
 Type of Executors for an Action Group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_agent#action_group_executor BedrockAgent#action_group_executor}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_agent#action_group_executor BedrockAgent#action_group_executor}
 
 ---
 
@@ -1507,7 +1507,7 @@ public readonly actionGroupName: string;
 
 Name of the action group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_agent#action_group_name BedrockAgent#action_group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_agent#action_group_name BedrockAgent#action_group_name}
 
 ---
 
@@ -1521,7 +1521,7 @@ public readonly actionGroupState: string;
 
 State of the action group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_agent#action_group_state BedrockAgent#action_group_state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_agent#action_group_state BedrockAgent#action_group_state}
 
 ---
 
@@ -1535,7 +1535,7 @@ public readonly apiSchema: BedrockAgentActionGroupsApiSchema;
 
 Contains information about the API Schema for the Action Group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_agent#api_schema BedrockAgent#api_schema}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_agent#api_schema BedrockAgent#api_schema}
 
 ---
 
@@ -1549,7 +1549,7 @@ public readonly description: string;
 
 Description of action group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_agent#description BedrockAgent#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_agent#description BedrockAgent#description}
 
 ---
 
@@ -1563,7 +1563,7 @@ public readonly functionSchema: BedrockAgentActionGroupsFunctionSchema;
 
 Schema of Functions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_agent#function_schema BedrockAgent#function_schema}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_agent#function_schema BedrockAgent#function_schema}
 
 ---
 
@@ -1577,7 +1577,7 @@ public readonly parentActionGroupSignature: string;
 
 Action Group Signature for a BuiltIn Action.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_agent#parent_action_group_signature BedrockAgent#parent_action_group_signature}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_agent#parent_action_group_signature BedrockAgent#parent_action_group_signature}
 
 ---
 
@@ -1591,7 +1591,7 @@ public readonly skipResourceInUseCheckOnDelete: boolean | IResolvable;
 
 Specifies whether to allow deleting action group while it is in use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_agent#skip_resource_in_use_check_on_delete BedrockAgent#skip_resource_in_use_check_on_delete}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_agent#skip_resource_in_use_check_on_delete BedrockAgent#skip_resource_in_use_check_on_delete}
 
 ---
 
@@ -1624,7 +1624,7 @@ public readonly customControl: string;
 
 Custom control of action execution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_agent#custom_control BedrockAgent#custom_control}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_agent#custom_control BedrockAgent#custom_control}
 
 ---
 
@@ -1638,7 +1638,7 @@ public readonly lambda: string;
 
 ARN of a Lambda.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_agent#lambda BedrockAgent#lambda}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_agent#lambda BedrockAgent#lambda}
 
 ---
 
@@ -1671,7 +1671,7 @@ public readonly payload: string;
 
 String OpenAPI Payload.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_agent#payload BedrockAgent#payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_agent#payload BedrockAgent#payload}
 
 ---
 
@@ -1685,7 +1685,7 @@ public readonly s3: BedrockAgentActionGroupsApiSchemaS3;
 
 The identifier for the S3 resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_agent#s3 BedrockAgent#s3}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_agent#s3 BedrockAgent#s3}
 
 ---
 
@@ -1718,7 +1718,7 @@ public readonly s3BucketName: string;
 
 A bucket in S3.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_agent#s3_bucket_name BedrockAgent#s3_bucket_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_agent#s3_bucket_name BedrockAgent#s3_bucket_name}
 
 ---
 
@@ -1732,7 +1732,7 @@ public readonly s3ObjectKey: string;
 
 A object key in S3.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_agent#s3_object_key BedrockAgent#s3_object_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_agent#s3_object_key BedrockAgent#s3_object_key}
 
 ---
 
@@ -1764,7 +1764,7 @@ public readonly functions: IResolvable | BedrockAgentActionGroupsFunctionSchemaF
 
 List of Function definitions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_agent#functions BedrockAgent#functions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_agent#functions BedrockAgent#functions}
 
 ---
 
@@ -1799,7 +1799,7 @@ public readonly description: string;
 
 Description of function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_agent#description BedrockAgent#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_agent#description BedrockAgent#description}
 
 ---
 
@@ -1813,7 +1813,7 @@ public readonly name: string;
 
 Name for a resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_agent#name BedrockAgent#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_agent#name BedrockAgent#name}
 
 ---
 
@@ -1827,7 +1827,7 @@ public readonly parameters: IResolvable | {[ key: string ]: BedrockAgentActionGr
 
 A map of parameter name and detail.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_agent#parameters BedrockAgent#parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_agent#parameters BedrockAgent#parameters}
 
 ---
 
@@ -1841,7 +1841,7 @@ public readonly requireConfirmation: string;
 
 ENUM to check if action requires user confirmation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_agent#require_confirmation BedrockAgent#require_confirmation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_agent#require_confirmation BedrockAgent#require_confirmation}
 
 ---
 
@@ -1875,7 +1875,7 @@ public readonly description: string;
 
 Description of function parameter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_agent#description BedrockAgent#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_agent#description BedrockAgent#description}
 
 ---
 
@@ -1889,7 +1889,7 @@ public readonly required: boolean | IResolvable;
 
 Information about if a parameter is required for function call. Default to false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_agent#required BedrockAgent#required}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_agent#required BedrockAgent#required}
 
 ---
 
@@ -1903,7 +1903,7 @@ public readonly type: string;
 
 Parameter Type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_agent#type BedrockAgent#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_agent#type BedrockAgent#type}
 
 ---
 
@@ -1938,7 +1938,7 @@ public readonly agentDescriptor: BedrockAgentAgentCollaboratorsAgentDescriptor;
 
 Agent descriptor for agent collaborator.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_agent#agent_descriptor BedrockAgent#agent_descriptor}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_agent#agent_descriptor BedrockAgent#agent_descriptor}
 
 ---
 
@@ -1952,7 +1952,7 @@ public readonly collaborationInstruction: string;
 
 Agent collaborator instruction.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_agent#collaboration_instruction BedrockAgent#collaboration_instruction}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_agent#collaboration_instruction BedrockAgent#collaboration_instruction}
 
 ---
 
@@ -1966,7 +1966,7 @@ public readonly collaboratorName: string;
 
 Agent collaborator name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_agent#collaborator_name BedrockAgent#collaborator_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_agent#collaborator_name BedrockAgent#collaborator_name}
 
 ---
 
@@ -1980,7 +1980,7 @@ public readonly relayConversationHistory: string;
 
 Relay conversation history state.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_agent#relay_conversation_history BedrockAgent#relay_conversation_history}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_agent#relay_conversation_history BedrockAgent#relay_conversation_history}
 
 ---
 
@@ -2012,7 +2012,7 @@ public readonly aliasArn: string;
 
 Alias ARN for agent descriptor.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_agent#alias_arn BedrockAgent#alias_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_agent#alias_arn BedrockAgent#alias_arn}
 
 ---
 
@@ -2140,7 +2140,7 @@ public readonly agentName: string;
 
 Name for a resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_agent#agent_name BedrockAgent#agent_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_agent#agent_name BedrockAgent#agent_name}
 
 ---
 
@@ -2154,7 +2154,7 @@ public readonly actionGroups: IResolvable | BedrockAgentActionGroups[];
 
 List of ActionGroups.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_agent#action_groups BedrockAgent#action_groups}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_agent#action_groups BedrockAgent#action_groups}
 
 ---
 
@@ -2168,7 +2168,7 @@ public readonly agentCollaboration: string;
 
 Agent collaboration state.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_agent#agent_collaboration BedrockAgent#agent_collaboration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_agent#agent_collaboration BedrockAgent#agent_collaboration}
 
 ---
 
@@ -2182,7 +2182,7 @@ public readonly agentCollaborators: IResolvable | BedrockAgentAgentCollaborators
 
 List of Agent Collaborators.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_agent#agent_collaborators BedrockAgent#agent_collaborators}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_agent#agent_collaborators BedrockAgent#agent_collaborators}
 
 ---
 
@@ -2196,7 +2196,7 @@ public readonly agentResourceRoleArn: string;
 
 ARN of a IAM role.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_agent#agent_resource_role_arn BedrockAgent#agent_resource_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_agent#agent_resource_role_arn BedrockAgent#agent_resource_role_arn}
 
 ---
 
@@ -2210,7 +2210,7 @@ public readonly autoPrepare: boolean | IResolvable;
 
 Specifies whether to automatically prepare after creating or updating the agent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_agent#auto_prepare BedrockAgent#auto_prepare}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_agent#auto_prepare BedrockAgent#auto_prepare}
 
 ---
 
@@ -2224,7 +2224,7 @@ public readonly customerEncryptionKeyArn: string;
 
 A KMS key ARN.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_agent#customer_encryption_key_arn BedrockAgent#customer_encryption_key_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_agent#customer_encryption_key_arn BedrockAgent#customer_encryption_key_arn}
 
 ---
 
@@ -2238,7 +2238,7 @@ public readonly customOrchestration: BedrockAgentCustomOrchestration;
 
 Structure for custom orchestration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_agent#custom_orchestration BedrockAgent#custom_orchestration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_agent#custom_orchestration BedrockAgent#custom_orchestration}
 
 ---
 
@@ -2252,7 +2252,7 @@ public readonly description: string;
 
 Description of the Resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_agent#description BedrockAgent#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_agent#description BedrockAgent#description}
 
 ---
 
@@ -2266,7 +2266,7 @@ public readonly foundationModel: string;
 
 ARN or name of a Bedrock model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_agent#foundation_model BedrockAgent#foundation_model}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_agent#foundation_model BedrockAgent#foundation_model}
 
 ---
 
@@ -2280,7 +2280,7 @@ public readonly guardrailConfiguration: BedrockAgentGuardrailConfiguration;
 
 Configuration for a guardrail.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_agent#guardrail_configuration BedrockAgent#guardrail_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_agent#guardrail_configuration BedrockAgent#guardrail_configuration}
 
 ---
 
@@ -2294,7 +2294,7 @@ public readonly idleSessionTtlInSeconds: number;
 
 Max Session Time.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_agent#idle_session_ttl_in_seconds BedrockAgent#idle_session_ttl_in_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_agent#idle_session_ttl_in_seconds BedrockAgent#idle_session_ttl_in_seconds}
 
 ---
 
@@ -2308,7 +2308,7 @@ public readonly instruction: string;
 
 Instruction for the agent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_agent#instruction BedrockAgent#instruction}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_agent#instruction BedrockAgent#instruction}
 
 ---
 
@@ -2322,7 +2322,7 @@ public readonly knowledgeBases: IResolvable | BedrockAgentKnowledgeBases[];
 
 List of Agent Knowledge Bases.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_agent#knowledge_bases BedrockAgent#knowledge_bases}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_agent#knowledge_bases BedrockAgent#knowledge_bases}
 
 ---
 
@@ -2336,7 +2336,7 @@ public readonly memoryConfiguration: BedrockAgentMemoryConfiguration;
 
 Configuration for memory storage.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_agent#memory_configuration BedrockAgent#memory_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_agent#memory_configuration BedrockAgent#memory_configuration}
 
 ---
 
@@ -2350,7 +2350,7 @@ public readonly orchestrationType: string;
 
 Types of orchestration strategy for agents.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_agent#orchestration_type BedrockAgent#orchestration_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_agent#orchestration_type BedrockAgent#orchestration_type}
 
 ---
 
@@ -2364,7 +2364,7 @@ public readonly promptOverrideConfiguration: BedrockAgentPromptOverrideConfigura
 
 Configuration for prompt override.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_agent#prompt_override_configuration BedrockAgent#prompt_override_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_agent#prompt_override_configuration BedrockAgent#prompt_override_configuration}
 
 ---
 
@@ -2378,7 +2378,7 @@ public readonly skipResourceInUseCheckOnDelete: boolean | IResolvable;
 
 Specifies whether to allow deleting agent while it is in use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_agent#skip_resource_in_use_check_on_delete BedrockAgent#skip_resource_in_use_check_on_delete}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_agent#skip_resource_in_use_check_on_delete BedrockAgent#skip_resource_in_use_check_on_delete}
 
 ---
 
@@ -2392,7 +2392,7 @@ public readonly tags: {[ key: string ]: string};
 
 A map of tag keys and values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_agent#tags BedrockAgent#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_agent#tags BedrockAgent#tags}
 
 ---
 
@@ -2406,7 +2406,7 @@ public readonly testAliasTags: {[ key: string ]: string};
 
 A map of tag keys and values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_agent#test_alias_tags BedrockAgent#test_alias_tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_agent#test_alias_tags BedrockAgent#test_alias_tags}
 
 ---
 
@@ -2438,7 +2438,7 @@ public readonly executor: BedrockAgentCustomOrchestrationExecutor;
 
 Types of executors for custom orchestration strategy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_agent#executor BedrockAgent#executor}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_agent#executor BedrockAgent#executor}
 
 ---
 
@@ -2470,7 +2470,7 @@ public readonly lambda: string;
 
 ARN of a Lambda.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_agent#lambda BedrockAgent#lambda}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_agent#lambda BedrockAgent#lambda}
 
 ---
 
@@ -2503,7 +2503,7 @@ public readonly guardrailIdentifier: string;
 
 Identifier for the guardrail, could be the id or the arn.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_agent#guardrail_identifier BedrockAgent#guardrail_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_agent#guardrail_identifier BedrockAgent#guardrail_identifier}
 
 ---
 
@@ -2517,7 +2517,7 @@ public readonly guardrailVersion: string;
 
 Version of the guardrail.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_agent#guardrail_version BedrockAgent#guardrail_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_agent#guardrail_version BedrockAgent#guardrail_version}
 
 ---
 
@@ -2551,7 +2551,7 @@ public readonly description: string;
 
 Description of the Resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_agent#description BedrockAgent#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_agent#description BedrockAgent#description}
 
 ---
 
@@ -2565,7 +2565,7 @@ public readonly knowledgeBaseId: string;
 
 Identifier for a resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_agent#knowledge_base_id BedrockAgent#knowledge_base_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_agent#knowledge_base_id BedrockAgent#knowledge_base_id}
 
 ---
 
@@ -2579,7 +2579,7 @@ public readonly knowledgeBaseState: string;
 
 State of the knowledge base; whether it is enabled or disabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_agent#knowledge_base_state BedrockAgent#knowledge_base_state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_agent#knowledge_base_state BedrockAgent#knowledge_base_state}
 
 ---
 
@@ -2613,7 +2613,7 @@ public readonly enabledMemoryTypes: string[];
 
 Types of session storage persisted in memory.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_agent#enabled_memory_types BedrockAgent#enabled_memory_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_agent#enabled_memory_types BedrockAgent#enabled_memory_types}
 
 ---
 
@@ -2627,7 +2627,7 @@ public readonly sessionSummaryConfiguration: BedrockAgentMemoryConfigurationSess
 
 Configuration for Session Summarization.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_agent#session_summary_configuration BedrockAgent#session_summary_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_agent#session_summary_configuration BedrockAgent#session_summary_configuration}
 
 ---
 
@@ -2641,7 +2641,7 @@ public readonly storageDays: number;
 
 Maximum number of days to store session details.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_agent#storage_days BedrockAgent#storage_days}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_agent#storage_days BedrockAgent#storage_days}
 
 ---
 
@@ -2673,7 +2673,7 @@ public readonly maxRecentSessions: number;
 
 Maximum number of Sessions to Summarize.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_agent#max_recent_sessions BedrockAgent#max_recent_sessions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_agent#max_recent_sessions BedrockAgent#max_recent_sessions}
 
 ---
 
@@ -2706,7 +2706,7 @@ public readonly overrideLambda: string;
 
 ARN of a Lambda.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_agent#override_lambda BedrockAgent#override_lambda}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_agent#override_lambda BedrockAgent#override_lambda}
 
 ---
 
@@ -2720,7 +2720,7 @@ public readonly promptConfigurations: IResolvable | BedrockAgentPromptOverrideCo
 
 List of BasePromptConfiguration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_agent#prompt_configurations BedrockAgent#prompt_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_agent#prompt_configurations BedrockAgent#prompt_configurations}
 
 ---
 
@@ -2759,7 +2759,7 @@ public readonly additionalModelRequestFields: string;
 
 Additional Model Request Fields for Prompt Configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_agent#additional_model_request_fields BedrockAgent#additional_model_request_fields}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_agent#additional_model_request_fields BedrockAgent#additional_model_request_fields}
 
 ---
 
@@ -2773,7 +2773,7 @@ public readonly basePromptTemplate: string;
 
 Base Prompt Template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_agent#base_prompt_template BedrockAgent#base_prompt_template}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_agent#base_prompt_template BedrockAgent#base_prompt_template}
 
 ---
 
@@ -2787,7 +2787,7 @@ public readonly foundationModel: string;
 
 ARN or name of a Bedrock model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_agent#foundation_model BedrockAgent#foundation_model}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_agent#foundation_model BedrockAgent#foundation_model}
 
 ---
 
@@ -2801,7 +2801,7 @@ public readonly inferenceConfiguration: BedrockAgentPromptOverrideConfigurationP
 
 Configuration for inference in prompt configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_agent#inference_configuration BedrockAgent#inference_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_agent#inference_configuration BedrockAgent#inference_configuration}
 
 ---
 
@@ -2815,7 +2815,7 @@ public readonly parserMode: string;
 
 Creation Mode for Prompt Configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_agent#parser_mode BedrockAgent#parser_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_agent#parser_mode BedrockAgent#parser_mode}
 
 ---
 
@@ -2829,7 +2829,7 @@ public readonly promptCreationMode: string;
 
 Creation Mode for Prompt Configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_agent#prompt_creation_mode BedrockAgent#prompt_creation_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_agent#prompt_creation_mode BedrockAgent#prompt_creation_mode}
 
 ---
 
@@ -2843,7 +2843,7 @@ public readonly promptState: string;
 
 Prompt State.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_agent#prompt_state BedrockAgent#prompt_state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_agent#prompt_state BedrockAgent#prompt_state}
 
 ---
 
@@ -2857,7 +2857,7 @@ public readonly promptType: string;
 
 Prompt Type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_agent#prompt_type BedrockAgent#prompt_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_agent#prompt_type BedrockAgent#prompt_type}
 
 ---
 
@@ -2893,7 +2893,7 @@ public readonly maximumLength: number;
 
 Maximum length of output.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_agent#maximum_length BedrockAgent#maximum_length}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_agent#maximum_length BedrockAgent#maximum_length}
 
 ---
 
@@ -2907,7 +2907,7 @@ public readonly stopSequences: string[];
 
 List of stop sequences.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_agent#stop_sequences BedrockAgent#stop_sequences}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_agent#stop_sequences BedrockAgent#stop_sequences}
 
 ---
 
@@ -2921,7 +2921,7 @@ public readonly temperature: number;
 
 Controls randomness, higher values increase diversity.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_agent#temperature BedrockAgent#temperature}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_agent#temperature BedrockAgent#temperature}
 
 ---
 
@@ -2935,7 +2935,7 @@ public readonly topK: number;
 
 Sample from the k most likely next tokens.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_agent#top_k BedrockAgent#top_k}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_agent#top_k BedrockAgent#top_k}
 
 ---
 
@@ -2949,7 +2949,7 @@ public readonly topP: number;
 
 Cumulative probability cutoff for token selection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_agent#top_p BedrockAgent#top_p}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_agent#top_p BedrockAgent#top_p}
 
 ---
 

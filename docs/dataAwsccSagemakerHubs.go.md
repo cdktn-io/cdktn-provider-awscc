@@ -4,7 +4,7 @@
 
 ### DataAwsccSagemakerHubs <a name="DataAwsccSagemakerHubs" id="@cdktn/provider-awscc.dataAwsccSagemakerHubs.DataAwsccSagemakerHubs"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/sagemaker_hubs awscc_sagemaker_hubs}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/sagemaker_hubs awscc_sagemaker_hubs}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerHubs.DataAwsccSagemakerHubs.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSagemakerHubs to 
 
 The id of the existing DataAwsccSagemakerHubs that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/sagemaker_hubs#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/sagemaker_hubs#import import section} in the documentation of this resource for the id to use
 
 ---
 

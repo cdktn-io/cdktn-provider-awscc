@@ -4,7 +4,7 @@
 
 ### DataAwsccApigatewayDomainNameV2S <a name="DataAwsccApigatewayDomainNameV2S" id="@cdktn/provider-awscc.dataAwsccApigatewayDomainNameV2S.DataAwsccApigatewayDomainNameV2S"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/apigateway_domain_name_v2s awscc_apigateway_domain_name_v2s}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/apigateway_domain_name_v2s awscc_apigateway_domain_name_v2s}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApigatewayDomainNameV2S.DataAwsccApigatewayDomainNameV2S.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccApigatewayDomainN
 
 The id of the existing DataAwsccApigatewayDomainNameV2S that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/apigateway_domain_name_v2s#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/apigateway_domain_name_v2s#import import section} in the documentation of this resource for the id to use
 
 ---
 

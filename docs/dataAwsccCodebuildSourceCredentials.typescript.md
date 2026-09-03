@@ -4,7 +4,7 @@
 
 ### DataAwsccCodebuildSourceCredentials <a name="DataAwsccCodebuildSourceCredentials" id="@cdktn/provider-awscc.dataAwsccCodebuildSourceCredentials.DataAwsccCodebuildSourceCredentials"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/codebuild_source_credentials awscc_codebuild_source_credentials}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/codebuild_source_credentials awscc_codebuild_source_credentials}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodebuildSourceCredentials.DataAwsccCodebuildSourceCredentials.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCodebuildSourceCr
 
 The id of the existing DataAwsccCodebuildSourceCredentials that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/codebuild_source_credentials#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/codebuild_source_credentials#import import section} in the documentation of this resource for the id to use
 
 ---
 

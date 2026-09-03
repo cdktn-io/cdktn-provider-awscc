@@ -4,7 +4,7 @@
 
 ### Ec2InternetGateway <a name="Ec2InternetGateway" id="@cdktn/provider-awscc.ec2InternetGateway.Ec2InternetGateway"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_internet_gateway awscc_ec2_internet_gateway}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_internet_gateway awscc_ec2_internet_gateway}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2InternetGateway.Ec2InternetGateway.Initializer"></a>
 
@@ -106,7 +106,7 @@ Must be unique amongst siblings in the same scope
 
 Any tags to assign to the internet gateway.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_internet_gateway#tags Ec2InternetGateway#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_internet_gateway#tags Ec2InternetGateway#tags}
 
 ---
 
@@ -625,7 +625,7 @@ The construct id used in the generated config for the Ec2InternetGateway to impo
 
 The id of the existing Ec2InternetGateway that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_internet_gateway#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_internet_gateway#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -978,7 +978,7 @@ tags: IResolvable | typing.List[Ec2InternetGatewayTags]
 
 Any tags to assign to the internet gateway.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_internet_gateway#tags Ec2InternetGateway#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_internet_gateway#tags Ec2InternetGateway#tags}
 
 ---
 
@@ -1014,7 +1014,7 @@ key: str
 
 The tag key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_internet_gateway#key Ec2InternetGateway#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_internet_gateway#key Ec2InternetGateway#key}
 
 ---
 
@@ -1028,7 +1028,7 @@ value: str
 
 The tag value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_internet_gateway#value Ec2InternetGateway#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_internet_gateway#value Ec2InternetGateway#value}
 
 ---
 

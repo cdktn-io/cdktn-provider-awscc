@@ -4,7 +4,7 @@
 
 ### VpclatticeAuthPolicy <a name="VpclatticeAuthPolicy" id="@cdktn/provider-awscc.vpclatticeAuthPolicy.VpclatticeAuthPolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/vpclattice_auth_policy awscc_vpclattice_auth_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/vpclattice_auth_policy awscc_vpclattice_auth_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.vpclatticeAuthPolicy.VpclatticeAuthPolicy.Initializer"></a>
 
@@ -37,8 +37,8 @@ vpclatticeAuthPolicy.VpclatticeAuthPolicy(
 | <code><a href="#@cdktn/provider-awscc.vpclatticeAuthPolicy.VpclatticeAuthPolicy.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.vpclatticeAuthPolicy.VpclatticeAuthPolicy.Initializer.parameter.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.vpclatticeAuthPolicy.VpclatticeAuthPolicy.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.vpclatticeAuthPolicy.VpclatticeAuthPolicy.Initializer.parameter.policy">policy</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/vpclattice_auth_policy#policy VpclatticeAuthPolicy#policy}. |
-| <code><a href="#@cdktn/provider-awscc.vpclatticeAuthPolicy.VpclatticeAuthPolicy.Initializer.parameter.resourceIdentifier">resource_identifier</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/vpclattice_auth_policy#resource_identifier VpclatticeAuthPolicy#resource_identifier}. |
+| <code><a href="#@cdktn/provider-awscc.vpclatticeAuthPolicy.VpclatticeAuthPolicy.Initializer.parameter.policy">policy</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/vpclattice_auth_policy#policy VpclatticeAuthPolicy#policy}. |
+| <code><a href="#@cdktn/provider-awscc.vpclatticeAuthPolicy.VpclatticeAuthPolicy.Initializer.parameter.resourceIdentifier">resource_identifier</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/vpclattice_auth_policy#resource_identifier VpclatticeAuthPolicy#resource_identifier}. |
 
 ---
 
@@ -106,7 +106,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/vpclattice_auth_policy#policy VpclatticeAuthPolicy#policy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/vpclattice_auth_policy#policy VpclatticeAuthPolicy#policy}.
 
 ---
 
@@ -114,7 +114,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/vpclattice_auth_policy#resource_identifier VpclatticeAuthPolicy#resource_identifier}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/vpclattice_auth_policy#resource_identifier VpclatticeAuthPolicy#resource_identifier}.
 
 ---
 
@@ -611,7 +611,7 @@ The construct id used in the generated config for the VpclatticeAuthPolicy to im
 
 The id of the existing VpclatticeAuthPolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/vpclattice_auth_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/vpclattice_auth_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -903,8 +903,8 @@ vpclatticeAuthPolicy.VpclatticeAuthPolicyConfig(
 | <code><a href="#@cdktn/provider-awscc.vpclatticeAuthPolicy.VpclatticeAuthPolicyConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.vpclatticeAuthPolicy.VpclatticeAuthPolicyConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.vpclatticeAuthPolicy.VpclatticeAuthPolicyConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.vpclatticeAuthPolicy.VpclatticeAuthPolicyConfig.property.policy">policy</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/vpclattice_auth_policy#policy VpclatticeAuthPolicy#policy}. |
-| <code><a href="#@cdktn/provider-awscc.vpclatticeAuthPolicy.VpclatticeAuthPolicyConfig.property.resourceIdentifier">resource_identifier</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/vpclattice_auth_policy#resource_identifier VpclatticeAuthPolicy#resource_identifier}. |
+| <code><a href="#@cdktn/provider-awscc.vpclatticeAuthPolicy.VpclatticeAuthPolicyConfig.property.policy">policy</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/vpclattice_auth_policy#policy VpclatticeAuthPolicy#policy}. |
+| <code><a href="#@cdktn/provider-awscc.vpclatticeAuthPolicy.VpclatticeAuthPolicyConfig.property.resourceIdentifier">resource_identifier</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/vpclattice_auth_policy#resource_identifier VpclatticeAuthPolicy#resource_identifier}. |
 
 ---
 
@@ -986,7 +986,7 @@ policy: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/vpclattice_auth_policy#policy VpclatticeAuthPolicy#policy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/vpclattice_auth_policy#policy VpclatticeAuthPolicy#policy}.
 
 ---
 
@@ -998,7 +998,7 @@ resource_identifier: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/vpclattice_auth_policy#resource_identifier VpclatticeAuthPolicy#resource_identifier}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/vpclattice_auth_policy#resource_identifier VpclatticeAuthPolicy#resource_identifier}.
 
 ---
 

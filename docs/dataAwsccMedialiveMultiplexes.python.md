@@ -4,7 +4,7 @@
 
 ### DataAwsccMedialiveMultiplexes <a name="DataAwsccMedialiveMultiplexes" id="@cdktn/provider-awscc.dataAwsccMedialiveMultiplexes.DataAwsccMedialiveMultiplexes"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/medialive_multiplexes awscc_medialive_multiplexes}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/medialive_multiplexes awscc_medialive_multiplexes}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMedialiveMultiplexes.DataAwsccMedialiveMultiplexes.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccMedialiveMultiple
 
 The id of the existing DataAwsccMedialiveMultiplexes that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/medialive_multiplexes#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/medialive_multiplexes#import import section} in the documentation of this resource for the id to use
 
 ---
 

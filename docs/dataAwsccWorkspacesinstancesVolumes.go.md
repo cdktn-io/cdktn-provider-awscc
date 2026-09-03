@@ -4,7 +4,7 @@
 
 ### DataAwsccWorkspacesinstancesVolumes <a name="DataAwsccWorkspacesinstancesVolumes" id="@cdktn/provider-awscc.dataAwsccWorkspacesinstancesVolumes.DataAwsccWorkspacesinstancesVolumes"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/workspacesinstances_volumes awscc_workspacesinstances_volumes}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/workspacesinstances_volumes awscc_workspacesinstances_volumes}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspacesinstancesVolumes.DataAwsccWorkspacesinstancesVolumes.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccWorkspacesinstanc
 
 The id of the existing DataAwsccWorkspacesinstancesVolumes that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/workspacesinstances_volumes#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/workspacesinstances_volumes#import import section} in the documentation of this resource for the id to use
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### DataAwsccCloudformationGuardHooks <a name="DataAwsccCloudformationGuardHooks" id="@cdktn/provider-awscc.dataAwsccCloudformationGuardHooks.DataAwsccCloudformationGuardHooks"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/cloudformation_guard_hooks awscc_cloudformation_guard_hooks}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/cloudformation_guard_hooks awscc_cloudformation_guard_hooks}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudformationGuardHooks.DataAwsccCloudformationGuardHooks.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccCloudformationGua
 
 The id of the existing DataAwsccCloudformationGuardHooks that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/cloudformation_guard_hooks#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/cloudformation_guard_hooks#import import section} in the documentation of this resource for the id to use
 
 ---
 

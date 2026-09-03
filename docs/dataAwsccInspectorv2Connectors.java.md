@@ -4,7 +4,7 @@
 
 ### DataAwsccInspectorv2Connectors <a name="DataAwsccInspectorv2Connectors" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connectors.DataAwsccInspectorv2Connectors"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/inspectorv2_connectors awscc_inspectorv2_connectors}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/inspectorv2_connectors awscc_inspectorv2_connectors}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connectors.DataAwsccInspectorv2Connectors.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccInspectorv2Connec
 
 The id of the existing DataAwsccInspectorv2Connectors that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/inspectorv2_connectors#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/inspectorv2_connectors#import import section} in the documentation of this resource for the id to use
 
 ---
 

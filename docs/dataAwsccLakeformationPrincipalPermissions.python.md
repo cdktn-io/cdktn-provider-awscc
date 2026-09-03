@@ -4,7 +4,7 @@
 
 ### DataAwsccLakeformationPrincipalPermissions <a name="DataAwsccLakeformationPrincipalPermissions" id="@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissions"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/lakeformation_principal_permissions awscc_lakeformation_principal_permissions}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/lakeformation_principal_permissions awscc_lakeformation_principal_permissions}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissions.Initializer"></a>
 
@@ -106,7 +106,7 @@ Must be unique amongst siblings in the same scope
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/lakeformation_principal_permissions#id DataAwsccLakeformationPrincipalPermissions#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/lakeformation_principal_permissions#id DataAwsccLakeformationPrincipalPermissions#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -492,7 +492,7 @@ The construct id used in the generated config for the DataAwsccLakeformationPrin
 
 The id of the existing DataAwsccLakeformationPrincipalPermissions that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/lakeformation_principal_permissions#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/lakeformation_principal_permissions#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -878,7 +878,7 @@ id: str
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/lakeformation_principal_permissions#id DataAwsccLakeformationPrincipalPermissions#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/lakeformation_principal_permissions#id DataAwsccLakeformationPrincipalPermissions#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -904,6 +904,17 @@ dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermis
 from cdktn_provider_awscc import data_awscc_lakeformation_principal_permissions
 
 dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResource()
+```
+
+
+### DataAwsccLakeformationPrincipalPermissionsResourceCatalog <a name="DataAwsccLakeformationPrincipalPermissionsResourceCatalog" id="@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResourceCatalog"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResourceCatalog.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import data_awscc_lakeformation_principal_permissions
+
+dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResourceCatalog()
 ```
 
 
@@ -1289,6 +1300,291 @@ internal_value: DataAwsccLakeformationPrincipalPermissionsPrincipal
 ```
 
 - *Type:* <a href="#@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsPrincipal">DataAwsccLakeformationPrincipalPermissionsPrincipal</a>
+
+---
+
+
+### DataAwsccLakeformationPrincipalPermissionsResourceCatalogOutputReference <a name="DataAwsccLakeformationPrincipalPermissionsResourceCatalogOutputReference" id="@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResourceCatalogOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResourceCatalogOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import data_awscc_lakeformation_principal_permissions
+
+dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResourceCatalogOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResourceCatalogOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResourceCatalogOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResourceCatalogOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResourceCatalogOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResourceCatalogOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResourceCatalogOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResourceCatalogOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResourceCatalogOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResourceCatalogOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResourceCatalogOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResourceCatalogOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResourceCatalogOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResourceCatalogOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResourceCatalogOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResourceCatalogOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResourceCatalogOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResourceCatalogOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResourceCatalogOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResourceCatalogOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResourceCatalogOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResourceCatalogOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResourceCatalogOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResourceCatalogOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResourceCatalogOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResourceCatalogOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResourceCatalogOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResourceCatalogOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResourceCatalogOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResourceCatalogOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResourceCatalogOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResourceCatalogOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResourceCatalogOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResourceCatalogOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResourceCatalogOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResourceCatalogOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResourceCatalogOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResourceCatalogOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResourceCatalogOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResourceCatalogOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResourceCatalogOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResourceCatalogOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResourceCatalogOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResourceCatalogOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResourceCatalogOutputReference.property.id">id</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResourceCatalogOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResourceCatalog">DataAwsccLakeformationPrincipalPermissionsResourceCatalog</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResourceCatalogOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResourceCatalogOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResourceCatalogOutputReference.property.id"></a>
+
+```python
+id: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResourceCatalogOutputReference.property.internalValue"></a>
+
+```python
+internal_value: DataAwsccLakeformationPrincipalPermissionsResourceCatalog
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResourceCatalog">DataAwsccLakeformationPrincipalPermissionsResourceCatalog</a>
 
 ---
 
@@ -3527,7 +3823,7 @@ Returns a reversible string representation.
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResourceOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResourceOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResourceOutputReference.property.catalog">catalog</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResourceOutputReference.property.catalog">catalog</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResourceCatalogOutputReference">DataAwsccLakeformationPrincipalPermissionsResourceCatalogOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResourceOutputReference.property.database">database</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResourceDatabaseOutputReference">DataAwsccLakeformationPrincipalPermissionsResourceDatabaseOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResourceOutputReference.property.dataCellsFilter">data_cells_filter</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResourceDataCellsFilterOutputReference">DataAwsccLakeformationPrincipalPermissionsResourceDataCellsFilterOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResourceOutputReference.property.dataLocation">data_location</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResourceDataLocationOutputReference">DataAwsccLakeformationPrincipalPermissionsResourceDataLocationOutputReference</a></code> | *No description.* |
@@ -3566,10 +3862,10 @@ fqn: str
 ##### `catalog`<sup>Required</sup> <a name="catalog" id="@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResourceOutputReference.property.catalog"></a>
 
 ```python
-catalog: str
+catalog: DataAwsccLakeformationPrincipalPermissionsResourceCatalogOutputReference
 ```
 
-- *Type:* str
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResourceCatalogOutputReference">DataAwsccLakeformationPrincipalPermissionsResourceCatalogOutputReference</a>
 
 ---
 

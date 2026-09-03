@@ -4,7 +4,7 @@
 
 ### ConnectUserHierarchyGroup <a name="ConnectUserHierarchyGroup" id="@cdktn/provider-awscc.connectUserHierarchyGroup.ConnectUserHierarchyGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_user_hierarchy_group awscc_connect_user_hierarchy_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/connect_user_hierarchy_group awscc_connect_user_hierarchy_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectUserHierarchyGroup.ConnectUserHierarchyGroup.Initializer"></a>
 
@@ -516,7 +516,7 @@ The construct id used in the generated config for the ConnectUserHierarchyGroup 
 
 The id of the existing ConnectUserHierarchyGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_user_hierarchy_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/connect_user_hierarchy_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -929,7 +929,7 @@ public readonly instanceArn: string;
 
 The identifier of the Amazon Connect instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_user_hierarchy_group#instance_arn ConnectUserHierarchyGroup#instance_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/connect_user_hierarchy_group#instance_arn ConnectUserHierarchyGroup#instance_arn}
 
 ---
 
@@ -943,7 +943,7 @@ public readonly name: string;
 
 The name of the user hierarchy group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_user_hierarchy_group#name ConnectUserHierarchyGroup#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/connect_user_hierarchy_group#name ConnectUserHierarchyGroup#name}
 
 ---
 
@@ -957,7 +957,7 @@ public readonly parentGroupArn: string;
 
 The Amazon Resource Name (ARN) for the parent user hierarchy group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_user_hierarchy_group#parent_group_arn ConnectUserHierarchyGroup#parent_group_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/connect_user_hierarchy_group#parent_group_arn ConnectUserHierarchyGroup#parent_group_arn}
 
 ---
 
@@ -971,7 +971,7 @@ public readonly tags: IResolvable | ConnectUserHierarchyGroupTags[];
 
 One or more tags.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_user_hierarchy_group#tags ConnectUserHierarchyGroup#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/connect_user_hierarchy_group#tags ConnectUserHierarchyGroup#tags}
 
 ---
 
@@ -1006,7 +1006,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_user_hierarchy_group#key ConnectUserHierarchyGroup#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/connect_user_hierarchy_group#key ConnectUserHierarchyGroup#key}
 
 ---
 
@@ -1022,7 +1022,7 @@ The value for the tag.
 
 You can specify a value that is maximum of 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_user_hierarchy_group#value ConnectUserHierarchyGroup#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/connect_user_hierarchy_group#value ConnectUserHierarchyGroup#value}
 
 ---
 

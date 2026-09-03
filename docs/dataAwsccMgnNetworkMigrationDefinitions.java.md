@@ -4,7 +4,7 @@
 
 ### DataAwsccMgnNetworkMigrationDefinitions <a name="DataAwsccMgnNetworkMigrationDefinitions" id="@cdktn/provider-awscc.dataAwsccMgnNetworkMigrationDefinitions.DataAwsccMgnNetworkMigrationDefinitions"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/mgn_network_migration_definitions awscc_mgn_network_migration_definitions}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/mgn_network_migration_definitions awscc_mgn_network_migration_definitions}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMgnNetworkMigrationDefinitions.DataAwsccMgnNetworkMigrationDefinitions.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccMgnNetworkMigrati
 
 The id of the existing DataAwsccMgnNetworkMigrationDefinitions that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/mgn_network_migration_definitions#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/mgn_network_migration_definitions#import import section} in the documentation of this resource for the id to use
 
 ---
 

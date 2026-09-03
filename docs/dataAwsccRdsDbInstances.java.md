@@ -4,7 +4,7 @@
 
 ### DataAwsccRdsDbInstances <a name="DataAwsccRdsDbInstances" id="@cdktn/provider-awscc.dataAwsccRdsDbInstances.DataAwsccRdsDbInstances"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/rds_db_instances awscc_rds_db_instances}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/rds_db_instances awscc_rds_db_instances}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRdsDbInstances.DataAwsccRdsDbInstances.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccRdsDbInstances to
 
 The id of the existing DataAwsccRdsDbInstances that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/rds_db_instances#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/rds_db_instances#import import section} in the documentation of this resource for the id to use
 
 ---
 

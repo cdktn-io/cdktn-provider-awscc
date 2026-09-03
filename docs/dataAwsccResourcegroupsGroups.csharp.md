@@ -4,7 +4,7 @@
 
 ### DataAwsccResourcegroupsGroups <a name="DataAwsccResourcegroupsGroups" id="@cdktn/provider-awscc.dataAwsccResourcegroupsGroups.DataAwsccResourcegroupsGroups"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/resourcegroups_groups awscc_resourcegroups_groups}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/resourcegroups_groups awscc_resourcegroups_groups}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccResourcegroupsGroups.DataAwsccResourcegroupsGroups.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccResourcegroupsGro
 
 The id of the existing DataAwsccResourcegroupsGroups that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/resourcegroups_groups#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/resourcegroups_groups#import import section} in the documentation of this resource for the id to use
 
 ---
 

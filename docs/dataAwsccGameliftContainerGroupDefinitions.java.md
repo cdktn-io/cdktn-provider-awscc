@@ -4,7 +4,7 @@
 
 ### DataAwsccGameliftContainerGroupDefinitions <a name="DataAwsccGameliftContainerGroupDefinitions" id="@cdktn/provider-awscc.dataAwsccGameliftContainerGroupDefinitions.DataAwsccGameliftContainerGroupDefinitions"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/gamelift_container_group_definitions awscc_gamelift_container_group_definitions}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/gamelift_container_group_definitions awscc_gamelift_container_group_definitions}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGameliftContainerGroupDefinitions.DataAwsccGameliftContainerGroupDefinitions.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccGameliftContainer
 
 The id of the existing DataAwsccGameliftContainerGroupDefinitions that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/gamelift_container_group_definitions#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/gamelift_container_group_definitions#import import section} in the documentation of this resource for the id to use
 
 ---
 

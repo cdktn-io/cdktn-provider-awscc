@@ -4,7 +4,7 @@
 
 ### MacieSession <a name="MacieSession" id="@cdktn/provider-awscc.macieSession.MacieSession"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/macie_session awscc_macie_session}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/macie_session awscc_macie_session}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.macieSession.MacieSession.Initializer"></a>
 
@@ -106,7 +106,7 @@ Must be unique amongst siblings in the same scope
 
 A enumeration value that specifies how frequently finding updates are published.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/macie_session#finding_publishing_frequency MacieSession#finding_publishing_frequency}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/macie_session#finding_publishing_frequency MacieSession#finding_publishing_frequency}
 
 ---
 
@@ -116,7 +116,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A enumeration value that specifies the status of the Macie Session.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/macie_session#status MacieSession#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/macie_session#status MacieSession#status}
 
 ---
 
@@ -579,7 +579,7 @@ The construct id used in the generated config for the MacieSession to import.
 
 The id of the existing MacieSession that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/macie_session#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/macie_session#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -978,7 +978,7 @@ public java.lang.String getFindingPublishingFrequency();
 
 A enumeration value that specifies how frequently finding updates are published.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/macie_session#finding_publishing_frequency MacieSession#finding_publishing_frequency}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/macie_session#finding_publishing_frequency MacieSession#finding_publishing_frequency}
 
 ---
 
@@ -992,7 +992,7 @@ public java.lang.String getStatus();
 
 A enumeration value that specifies the status of the Macie Session.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/macie_session#status MacieSession#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/macie_session#status MacieSession#status}
 
 ---
 

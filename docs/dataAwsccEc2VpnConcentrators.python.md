@@ -4,7 +4,7 @@
 
 ### DataAwsccEc2VpnConcentrators <a name="DataAwsccEc2VpnConcentrators" id="@cdktn/provider-awscc.dataAwsccEc2VpnConcentrators.DataAwsccEc2VpnConcentrators"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_vpn_concentrators awscc_ec2_vpn_concentrators}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_vpn_concentrators awscc_ec2_vpn_concentrators}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2VpnConcentrators.DataAwsccEc2VpnConcentrators.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccEc2VpnConcentrato
 
 The id of the existing DataAwsccEc2VpnConcentrators that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_vpn_concentrators#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_vpn_concentrators#import import section} in the documentation of this resource for the id to use
 
 ---
 

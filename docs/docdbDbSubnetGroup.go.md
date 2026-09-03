@@ -4,7 +4,7 @@
 
 ### DocdbDbSubnetGroup <a name="DocdbDbSubnetGroup" id="@cdktn/provider-awscc.docdbDbSubnetGroup.DocdbDbSubnetGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/docdb_db_subnet_group awscc_docdb_db_subnet_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/docdb_db_subnet_group awscc_docdb_db_subnet_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.docdbDbSubnetGroup.DocdbDbSubnetGroup.Initializer"></a>
 
@@ -516,7 +516,7 @@ The construct id used in the generated config for the DocdbDbSubnetGroup to impo
 
 The id of the existing DocdbDbSubnetGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/docdb_db_subnet_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/docdb_db_subnet_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -930,7 +930,7 @@ DbSubnetGroupDescription *string
 
 The description for the subnet group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/docdb_db_subnet_group#db_subnet_group_description DocdbDbSubnetGroup#db_subnet_group_description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/docdb_db_subnet_group#db_subnet_group_description DocdbDbSubnetGroup#db_subnet_group_description}
 
 ---
 
@@ -944,7 +944,7 @@ SubnetIds *[]*string
 
 One or more subnet IDs to be assigned to the db subnet group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/docdb_db_subnet_group#subnet_ids DocdbDbSubnetGroup#subnet_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/docdb_db_subnet_group#subnet_ids DocdbDbSubnetGroup#subnet_ids}
 
 ---
 
@@ -958,7 +958,7 @@ DbSubnetGroupName *string
 
 The name for the db subnet group. This value is stored as a lowercase string.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/docdb_db_subnet_group#db_subnet_group_name DocdbDbSubnetGroup#db_subnet_group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/docdb_db_subnet_group#db_subnet_group_name DocdbDbSubnetGroup#db_subnet_group_name}
 
 ---
 
@@ -972,7 +972,7 @@ Tags interface{}
 
 One or more tags to be assigned to the db subnet group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/docdb_db_subnet_group#tags DocdbDbSubnetGroup#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/docdb_db_subnet_group#tags DocdbDbSubnetGroup#tags}
 
 ---
 
@@ -993,8 +993,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/docdbdbsubnetgroup"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.docdbDbSubnetGroup.DocdbDbSubnetGroupTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/docdb_db_subnet_group#key DocdbDbSubnetGroup#key}. |
-| <code><a href="#@cdktn/provider-awscc.docdbDbSubnetGroup.DocdbDbSubnetGroupTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/docdb_db_subnet_group#value DocdbDbSubnetGroup#value}. |
+| <code><a href="#@cdktn/provider-awscc.docdbDbSubnetGroup.DocdbDbSubnetGroupTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/docdb_db_subnet_group#key DocdbDbSubnetGroup#key}. |
+| <code><a href="#@cdktn/provider-awscc.docdbDbSubnetGroup.DocdbDbSubnetGroupTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/docdb_db_subnet_group#value DocdbDbSubnetGroup#value}. |
 
 ---
 
@@ -1006,7 +1006,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/docdb_db_subnet_group#key DocdbDbSubnetGroup#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/docdb_db_subnet_group#key DocdbDbSubnetGroup#key}.
 
 ---
 
@@ -1018,7 +1018,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/docdb_db_subnet_group#value DocdbDbSubnetGroup#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/docdb_db_subnet_group#value DocdbDbSubnetGroup#value}.
 
 ---
 

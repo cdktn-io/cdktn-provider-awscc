@@ -4,7 +4,7 @@
 
 ### DynamodbBackup <a name="DynamodbBackup" id="@cdktn/provider-awscc.dynamodbBackup.DynamodbBackup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/dynamodb_backup awscc_dynamodb_backup}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/dynamodb_backup awscc_dynamodb_backup}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dynamodbBackup.DynamodbBackup.Initializer"></a>
 
@@ -108,7 +108,7 @@ Must be unique amongst siblings in the same scope
 
 The name for the backup.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/dynamodb_backup#backup_name DynamodbBackup#backup_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/dynamodb_backup#backup_name DynamodbBackup#backup_name}
 
 ---
 
@@ -118,7 +118,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the table to back up.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/dynamodb_backup#table_name DynamodbBackup#table_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/dynamodb_backup#table_name DynamodbBackup#table_name}
 
 ---
 
@@ -615,7 +615,7 @@ The construct id used in the generated config for the DynamodbBackup to import.
 
 The id of the existing DynamodbBackup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/dynamodb_backup#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/dynamodb_backup#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1047,7 +1047,7 @@ backup_name: str
 
 The name for the backup.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/dynamodb_backup#backup_name DynamodbBackup#backup_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/dynamodb_backup#backup_name DynamodbBackup#backup_name}
 
 ---
 
@@ -1061,7 +1061,7 @@ table_name: str
 
 The name of the table to back up.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/dynamodb_backup#table_name DynamodbBackup#table_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/dynamodb_backup#table_name DynamodbBackup#table_name}
 
 ---
 

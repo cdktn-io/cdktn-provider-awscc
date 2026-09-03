@@ -4,7 +4,7 @@
 
 ### IotsecuretunnelingTunnel <a name="IotsecuretunnelingTunnel" id="@cdktn/provider-awscc.iotsecuretunnelingTunnel.IotsecuretunnelingTunnel"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsecuretunneling_tunnel awscc_iotsecuretunneling_tunnel}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotsecuretunneling_tunnel awscc_iotsecuretunneling_tunnel}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsecuretunnelingTunnel.IotsecuretunnelingTunnel.Initializer"></a>
 
@@ -556,7 +556,7 @@ The construct id used in the generated config for the IotsecuretunnelingTunnel t
 
 The id of the existing IotsecuretunnelingTunnel that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsecuretunneling_tunnel#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotsecuretunneling_tunnel#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -991,7 +991,7 @@ public readonly description: string;
 
 A short text description of the tunnel.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsecuretunneling_tunnel#description IotsecuretunnelingTunnel#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotsecuretunneling_tunnel#description IotsecuretunnelingTunnel#description}
 
 ---
 
@@ -1005,7 +1005,7 @@ public readonly destinationConfig: IotsecuretunnelingTunnelDestinationConfig;
 
 The destination configuration for the tunnel.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsecuretunneling_tunnel#destination_config IotsecuretunnelingTunnel#destination_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotsecuretunneling_tunnel#destination_config IotsecuretunnelingTunnel#destination_config}
 
 ---
 
@@ -1019,7 +1019,7 @@ public readonly tags: IResolvable | IotsecuretunnelingTunnelTags[];
 
 A collection of tag metadata.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsecuretunneling_tunnel#tags IotsecuretunnelingTunnel#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotsecuretunneling_tunnel#tags IotsecuretunnelingTunnel#tags}
 
 ---
 
@@ -1033,7 +1033,7 @@ public readonly timeoutConfig: IotsecuretunnelingTunnelTimeoutConfig;
 
 Timeout configuration for the tunnel.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsecuretunneling_tunnel#timeout_config IotsecuretunnelingTunnel#timeout_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotsecuretunneling_tunnel#timeout_config IotsecuretunnelingTunnel#timeout_config}
 
 ---
 
@@ -1066,7 +1066,7 @@ public readonly services: string[];
 
 A list of service names that identify the target application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsecuretunneling_tunnel#services IotsecuretunnelingTunnel#services}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotsecuretunneling_tunnel#services IotsecuretunnelingTunnel#services}
 
 ---
 
@@ -1080,7 +1080,7 @@ public readonly thingName: string;
 
 The name of the IoT thing to which you want to connect.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsecuretunneling_tunnel#thing_name IotsecuretunnelingTunnel#thing_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotsecuretunneling_tunnel#thing_name IotsecuretunnelingTunnel#thing_name}
 
 ---
 
@@ -1113,7 +1113,7 @@ public readonly key: string;
 
 The key of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsecuretunneling_tunnel#key IotsecuretunnelingTunnel#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotsecuretunneling_tunnel#key IotsecuretunnelingTunnel#key}
 
 ---
 
@@ -1127,7 +1127,7 @@ public readonly value: string;
 
 The value of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsecuretunneling_tunnel#value IotsecuretunnelingTunnel#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotsecuretunneling_tunnel#value IotsecuretunnelingTunnel#value}
 
 ---
 
@@ -1159,7 +1159,7 @@ public readonly maxLifetimeTimeoutMinutes: number;
 
 The maximum amount of time (in minutes) a tunnel can remain open.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsecuretunneling_tunnel#max_lifetime_timeout_minutes IotsecuretunnelingTunnel#max_lifetime_timeout_minutes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotsecuretunneling_tunnel#max_lifetime_timeout_minutes IotsecuretunnelingTunnel#max_lifetime_timeout_minutes}
 
 ---
 

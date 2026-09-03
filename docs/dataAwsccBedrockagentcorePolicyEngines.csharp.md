@@ -4,7 +4,7 @@
 
 ### DataAwsccBedrockagentcorePolicyEngines <a name="DataAwsccBedrockagentcorePolicyEngines" id="@cdktn/provider-awscc.dataAwsccBedrockagentcorePolicyEngines.DataAwsccBedrockagentcorePolicyEngines"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/bedrockagentcore_policy_engines awscc_bedrockagentcore_policy_engines}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/bedrockagentcore_policy_engines awscc_bedrockagentcore_policy_engines}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockagentcorePolicyEngines.DataAwsccBedrockagentcorePolicyEngines.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccBedrockagentcoreP
 
 The id of the existing DataAwsccBedrockagentcorePolicyEngines that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/bedrockagentcore_policy_engines#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/bedrockagentcore_policy_engines#import import section} in the documentation of this resource for the id to use
 
 ---
 

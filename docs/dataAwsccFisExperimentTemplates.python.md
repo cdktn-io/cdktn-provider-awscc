@@ -4,7 +4,7 @@
 
 ### DataAwsccFisExperimentTemplates <a name="DataAwsccFisExperimentTemplates" id="@cdktn/provider-awscc.dataAwsccFisExperimentTemplates.DataAwsccFisExperimentTemplates"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/fis_experiment_templates awscc_fis_experiment_templates}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/fis_experiment_templates awscc_fis_experiment_templates}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFisExperimentTemplates.DataAwsccFisExperimentTemplates.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccFisExperimentTemp
 
 The id of the existing DataAwsccFisExperimentTemplates that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/fis_experiment_templates#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/fis_experiment_templates#import import section} in the documentation of this resource for the id to use
 
 ---
 

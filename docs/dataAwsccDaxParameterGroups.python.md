@@ -4,7 +4,7 @@
 
 ### DataAwsccDaxParameterGroups <a name="DataAwsccDaxParameterGroups" id="@cdktn/provider-awscc.dataAwsccDaxParameterGroups.DataAwsccDaxParameterGroups"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/dax_parameter_groups awscc_dax_parameter_groups}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/dax_parameter_groups awscc_dax_parameter_groups}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDaxParameterGroups.DataAwsccDaxParameterGroups.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccDaxParameterGroup
 
 The id of the existing DataAwsccDaxParameterGroups that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/dax_parameter_groups#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/dax_parameter_groups#import import section} in the documentation of this resource for the id to use
 
 ---
 

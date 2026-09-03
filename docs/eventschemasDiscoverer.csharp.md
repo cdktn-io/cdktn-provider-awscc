@@ -4,7 +4,7 @@
 
 ### EventschemasDiscoverer <a name="EventschemasDiscoverer" id="@cdktn/provider-awscc.eventschemasDiscoverer.EventschemasDiscoverer"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eventschemas_discoverer awscc_eventschemas_discoverer}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eventschemas_discoverer awscc_eventschemas_discoverer}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eventschemasDiscoverer.EventschemasDiscoverer.Initializer"></a>
 
@@ -523,7 +523,7 @@ The construct id used in the generated config for the EventschemasDiscoverer to 
 
 The id of the existing EventschemasDiscoverer that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eventschemas_discoverer#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eventschemas_discoverer#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -970,7 +970,7 @@ public string SourceArn { get; set; }
 
 The ARN of the event bus.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eventschemas_discoverer#source_arn EventschemasDiscoverer#source_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eventschemas_discoverer#source_arn EventschemasDiscoverer#source_arn}
 
 ---
 
@@ -984,7 +984,7 @@ public bool|IResolvable CrossAccount { get; set; }
 
 Defines whether event schemas from other accounts are discovered. Default is True.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eventschemas_discoverer#cross_account EventschemasDiscoverer#cross_account}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eventschemas_discoverer#cross_account EventschemasDiscoverer#cross_account}
 
 ---
 
@@ -998,7 +998,7 @@ public string Description { get; set; }
 
 A description for the discoverer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eventschemas_discoverer#description EventschemasDiscoverer#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eventschemas_discoverer#description EventschemasDiscoverer#description}
 
 ---
 
@@ -1012,7 +1012,7 @@ public IResolvable|EventschemasDiscovererTags[] Tags { get; set; }
 
 Tags associated with the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eventschemas_discoverer#tags EventschemasDiscoverer#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eventschemas_discoverer#tags EventschemasDiscoverer#tags}
 
 ---
 
@@ -1033,8 +1033,8 @@ new EventschemasDiscovererTags {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.eventschemasDiscoverer.EventschemasDiscovererTags.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eventschemas_discoverer#key EventschemasDiscoverer#key}. |
-| <code><a href="#@cdktn/provider-awscc.eventschemasDiscoverer.EventschemasDiscovererTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eventschemas_discoverer#value EventschemasDiscoverer#value}. |
+| <code><a href="#@cdktn/provider-awscc.eventschemasDiscoverer.EventschemasDiscovererTags.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eventschemas_discoverer#key EventschemasDiscoverer#key}. |
+| <code><a href="#@cdktn/provider-awscc.eventschemasDiscoverer.EventschemasDiscovererTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eventschemas_discoverer#value EventschemasDiscoverer#value}. |
 
 ---
 
@@ -1046,7 +1046,7 @@ public string Key { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eventschemas_discoverer#key EventschemasDiscoverer#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eventschemas_discoverer#key EventschemasDiscoverer#key}.
 
 ---
 
@@ -1058,7 +1058,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eventschemas_discoverer#value EventschemasDiscoverer#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eventschemas_discoverer#value EventschemasDiscoverer#value}.
 
 ---
 

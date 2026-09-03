@@ -4,7 +4,7 @@
 
 ### DataAwsccRdsOptionGroups <a name="DataAwsccRdsOptionGroups" id="@cdktn/provider-awscc.dataAwsccRdsOptionGroups.DataAwsccRdsOptionGroups"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/rds_option_groups awscc_rds_option_groups}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/rds_option_groups awscc_rds_option_groups}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRdsOptionGroups.DataAwsccRdsOptionGroups.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccRdsOptionGroups t
 
 The id of the existing DataAwsccRdsOptionGroups that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/rds_option_groups#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/rds_option_groups#import import section} in the documentation of this resource for the id to use
 
 ---
 

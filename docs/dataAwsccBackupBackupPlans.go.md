@@ -4,7 +4,7 @@
 
 ### DataAwsccBackupBackupPlans <a name="DataAwsccBackupBackupPlans" id="@cdktn/provider-awscc.dataAwsccBackupBackupPlans.DataAwsccBackupBackupPlans"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/backup_backup_plans awscc_backup_backup_plans}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/backup_backup_plans awscc_backup_backup_plans}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBackupBackupPlans.DataAwsccBackupBackupPlans.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccBackupBackupPlans
 
 The id of the existing DataAwsccBackupBackupPlans that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/backup_backup_plans#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/backup_backup_plans#import import section} in the documentation of this resource for the id to use
 
 ---
 

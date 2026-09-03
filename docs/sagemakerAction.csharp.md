@@ -4,7 +4,7 @@
 
 ### SagemakerAction <a name="SagemakerAction" id="@cdktn/provider-awscc.sagemakerAction.SagemakerAction"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_action awscc_sagemaker_action}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_action awscc_sagemaker_action}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sagemakerAction.SagemakerAction.Initializer"></a>
 
@@ -563,7 +563,7 @@ The construct id used in the generated config for the SagemakerAction to import.
 
 The id of the existing SagemakerAction that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_action#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_action#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1106,7 +1106,7 @@ public string ActionName { get; set; }
 
 The name of the action. Must be unique to your account in an AWS Region.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_action#action_name SagemakerAction#action_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_action#action_name SagemakerAction#action_name}
 
 ---
 
@@ -1120,7 +1120,7 @@ public string ActionType { get; set; }
 
 The action type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_action#action_type SagemakerAction#action_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_action#action_type SagemakerAction#action_type}
 
 ---
 
@@ -1134,7 +1134,7 @@ public SagemakerActionSource Source { get; set; }
 
 The source type, ID, and URI.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_action#source SagemakerAction#source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_action#source SagemakerAction#source}
 
 ---
 
@@ -1148,7 +1148,7 @@ public string Description { get; set; }
 
 The description of the action.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_action#description SagemakerAction#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_action#description SagemakerAction#description}
 
 ---
 
@@ -1162,7 +1162,7 @@ public SagemakerActionMetadataProperties MetadataProperties { get; set; }
 
 Metadata properties of the tracking entity, trial, or trial component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_action#metadata_properties SagemakerAction#metadata_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_action#metadata_properties SagemakerAction#metadata_properties}
 
 ---
 
@@ -1176,7 +1176,7 @@ public System.Collections.Generic.IDictionary<string, string> Properties { get; 
 
 A list of properties to add to the action.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_action#properties SagemakerAction#properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_action#properties SagemakerAction#properties}
 
 ---
 
@@ -1190,7 +1190,7 @@ public string Status { get; set; }
 
 The status of the action.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_action#status SagemakerAction#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_action#status SagemakerAction#status}
 
 ---
 
@@ -1204,7 +1204,7 @@ public IResolvable|SagemakerActionTags[] Tags { get; set; }
 
 A list of tags to apply to the action.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_action#tags SagemakerAction#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_action#tags SagemakerAction#tags}
 
 ---
 
@@ -1244,7 +1244,7 @@ public string CommitId { get; set; }
 
 The commit ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_action#commit_id SagemakerAction#commit_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_action#commit_id SagemakerAction#commit_id}
 
 ---
 
@@ -1258,7 +1258,7 @@ public string GeneratedBy { get; set; }
 
 The entity this entity was generated by.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_action#generated_by SagemakerAction#generated_by}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_action#generated_by SagemakerAction#generated_by}
 
 ---
 
@@ -1272,7 +1272,7 @@ public string ProjectId { get; set; }
 
 The project ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_action#project_id SagemakerAction#project_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_action#project_id SagemakerAction#project_id}
 
 ---
 
@@ -1286,7 +1286,7 @@ public string Repository { get; set; }
 
 The repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_action#repository SagemakerAction#repository}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_action#repository SagemakerAction#repository}
 
 ---
 
@@ -1324,7 +1324,7 @@ public string SourceUri { get; set; }
 
 The URI of the source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_action#source_uri SagemakerAction#source_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_action#source_uri SagemakerAction#source_uri}
 
 ---
 
@@ -1338,7 +1338,7 @@ public string SourceId { get; set; }
 
 The ID of the source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_action#source_id SagemakerAction#source_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_action#source_id SagemakerAction#source_id}
 
 ---
 
@@ -1352,7 +1352,7 @@ public string SourceType { get; set; }
 
 The type of the source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_action#source_type SagemakerAction#source_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_action#source_type SagemakerAction#source_type}
 
 ---
 
@@ -1388,7 +1388,7 @@ public string Key { get; set; }
 
 The tag key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_action#key SagemakerAction#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_action#key SagemakerAction#key}
 
 ---
 
@@ -1402,7 +1402,7 @@ public string Value { get; set; }
 
 The tag value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_action#value SagemakerAction#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_action#value SagemakerAction#value}
 
 ---
 

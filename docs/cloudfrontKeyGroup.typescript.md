@@ -4,7 +4,7 @@
 
 ### CloudfrontKeyGroup <a name="CloudfrontKeyGroup" id="@cdktn/provider-awscc.cloudfrontKeyGroup.CloudfrontKeyGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudfront_key_group awscc_cloudfront_key_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudfront_key_group awscc_cloudfront_key_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudfrontKeyGroup.CloudfrontKeyGroup.Initializer"></a>
 
@@ -502,7 +502,7 @@ The construct id used in the generated config for the CloudfrontKeyGroup to impo
 
 The id of the existing CloudfrontKeyGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudfront_key_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudfront_key_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -857,7 +857,7 @@ public readonly keyGroupConfig: CloudfrontKeyGroupKeyGroupConfig;
 
 The key group configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudfront_key_group#key_group_config CloudfrontKeyGroup#key_group_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudfront_key_group#key_group_config CloudfrontKeyGroup#key_group_config}
 
 ---
 
@@ -891,7 +891,7 @@ public readonly items: string[];
 
 A list of the identifiers of the public keys in the key group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudfront_key_group#items CloudfrontKeyGroup#items}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudfront_key_group#items CloudfrontKeyGroup#items}
 
 ---
 
@@ -905,7 +905,7 @@ public readonly name: string;
 
 A name to identify the key group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudfront_key_group#name CloudfrontKeyGroup#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudfront_key_group#name CloudfrontKeyGroup#name}
 
 ---
 
@@ -919,7 +919,7 @@ public readonly comment: string;
 
 A comment to describe the key group. The comment cannot be longer than 128 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudfront_key_group#comment CloudfrontKeyGroup#comment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudfront_key_group#comment CloudfrontKeyGroup#comment}
 
 ---
 

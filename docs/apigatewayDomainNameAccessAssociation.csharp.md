@@ -4,7 +4,7 @@
 
 ### ApigatewayDomainNameAccessAssociation <a name="ApigatewayDomainNameAccessAssociation" id="@cdktn/provider-awscc.apigatewayDomainNameAccessAssociation.ApigatewayDomainNameAccessAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_domain_name_access_association awscc_apigateway_domain_name_access_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_domain_name_access_association awscc_apigateway_domain_name_access_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apigatewayDomainNameAccessAssociation.ApigatewayDomainNameAccessAssociation.Initializer"></a>
 
@@ -509,7 +509,7 @@ The construct id used in the generated config for the ApigatewayDomainNameAccess
 
 The id of the existing ApigatewayDomainNameAccessAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_domain_name_access_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_domain_name_access_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -934,7 +934,7 @@ public string AccessAssociationSource { get; set; }
 
 The source of the domain name access association resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_domain_name_access_association#access_association_source ApigatewayDomainNameAccessAssociation#access_association_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_domain_name_access_association#access_association_source ApigatewayDomainNameAccessAssociation#access_association_source}
 
 ---
 
@@ -948,7 +948,7 @@ public string AccessAssociationSourceType { get; set; }
 
 The source type of the domain name access association resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_domain_name_access_association#access_association_source_type ApigatewayDomainNameAccessAssociation#access_association_source_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_domain_name_access_association#access_association_source_type ApigatewayDomainNameAccessAssociation#access_association_source_type}
 
 ---
 
@@ -962,7 +962,7 @@ public string DomainNameArn { get; set; }
 
 The amazon resource name (ARN) of the domain name resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_domain_name_access_association#domain_name_arn ApigatewayDomainNameAccessAssociation#domain_name_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_domain_name_access_association#domain_name_arn ApigatewayDomainNameAccessAssociation#domain_name_arn}
 
 ---
 
@@ -976,7 +976,7 @@ public IResolvable|ApigatewayDomainNameAccessAssociationTags[] Tags { get; set; 
 
 An array of arbitrary tags (key-value pairs) to associate with the domainname access association.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_domain_name_access_association#tags ApigatewayDomainNameAccessAssociation#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_domain_name_access_association#tags ApigatewayDomainNameAccessAssociation#tags}
 
 ---
 
@@ -997,8 +997,8 @@ new ApigatewayDomainNameAccessAssociationTags {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.apigatewayDomainNameAccessAssociation.ApigatewayDomainNameAccessAssociationTags.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_domain_name_access_association#key ApigatewayDomainNameAccessAssociation#key}. |
-| <code><a href="#@cdktn/provider-awscc.apigatewayDomainNameAccessAssociation.ApigatewayDomainNameAccessAssociationTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_domain_name_access_association#value ApigatewayDomainNameAccessAssociation#value}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayDomainNameAccessAssociation.ApigatewayDomainNameAccessAssociationTags.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_domain_name_access_association#key ApigatewayDomainNameAccessAssociation#key}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayDomainNameAccessAssociation.ApigatewayDomainNameAccessAssociationTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_domain_name_access_association#value ApigatewayDomainNameAccessAssociation#value}. |
 
 ---
 
@@ -1010,7 +1010,7 @@ public string Key { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_domain_name_access_association#key ApigatewayDomainNameAccessAssociation#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_domain_name_access_association#key ApigatewayDomainNameAccessAssociation#key}.
 
 ---
 
@@ -1022,7 +1022,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_domain_name_access_association#value ApigatewayDomainNameAccessAssociation#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_domain_name_access_association#value ApigatewayDomainNameAccessAssociation#value}.
 
 ---
 

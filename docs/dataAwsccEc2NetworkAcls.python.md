@@ -4,7 +4,7 @@
 
 ### DataAwsccEc2NetworkAcls <a name="DataAwsccEc2NetworkAcls" id="@cdktn/provider-awscc.dataAwsccEc2NetworkAcls.DataAwsccEc2NetworkAcls"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_network_acls awscc_ec2_network_acls}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_network_acls awscc_ec2_network_acls}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2NetworkAcls.DataAwsccEc2NetworkAcls.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccEc2NetworkAcls to
 
 The id of the existing DataAwsccEc2NetworkAcls that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_network_acls#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_network_acls#import import section} in the documentation of this resource for the id to use
 
 ---
 

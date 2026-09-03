@@ -4,7 +4,7 @@
 
 ### DataAwsccTimestreamTables <a name="DataAwsccTimestreamTables" id="@cdktn/provider-awscc.dataAwsccTimestreamTables.DataAwsccTimestreamTables"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/timestream_tables awscc_timestream_tables}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/timestream_tables awscc_timestream_tables}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTimestreamTables.DataAwsccTimestreamTables.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccTimestreamTables 
 
 The id of the existing DataAwsccTimestreamTables that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/timestream_tables#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/timestream_tables#import import section} in the documentation of this resource for the id to use
 
 ---
 

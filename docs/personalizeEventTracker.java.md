@@ -4,7 +4,7 @@
 
 ### PersonalizeEventTracker <a name="PersonalizeEventTracker" id="@cdktn/provider-awscc.personalizeEventTracker.PersonalizeEventTracker"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/personalize_event_tracker awscc_personalize_event_tracker}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/personalize_event_tracker awscc_personalize_event_tracker}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.personalizeEventTracker.PersonalizeEventTracker.Initializer"></a>
 
@@ -108,7 +108,7 @@ Must be unique amongst siblings in the same scope
 
 The Amazon Resource Name (ARN) of the dataset group that receives the event data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/personalize_event_tracker#dataset_group_arn PersonalizeEventTracker#dataset_group_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/personalize_event_tracker#dataset_group_arn PersonalizeEventTracker#dataset_group_arn}
 
 ---
 
@@ -118,7 +118,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name for the event tracker.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/personalize_event_tracker#name PersonalizeEventTracker#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/personalize_event_tracker#name PersonalizeEventTracker#name}
 
 ---
 
@@ -128,7 +128,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A list of tags to apply to the event tracker.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/personalize_event_tracker#tags PersonalizeEventTracker#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/personalize_event_tracker#tags PersonalizeEventTracker#tags}
 
 ---
 
@@ -597,7 +597,7 @@ The construct id used in the generated config for the PersonalizeEventTracker to
 
 The id of the existing PersonalizeEventTracker that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/personalize_event_tracker#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/personalize_event_tracker#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1009,7 +1009,7 @@ public java.lang.String getDatasetGroupArn();
 
 The Amazon Resource Name (ARN) of the dataset group that receives the event data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/personalize_event_tracker#dataset_group_arn PersonalizeEventTracker#dataset_group_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/personalize_event_tracker#dataset_group_arn PersonalizeEventTracker#dataset_group_arn}
 
 ---
 
@@ -1023,7 +1023,7 @@ public java.lang.String getName();
 
 The name for the event tracker.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/personalize_event_tracker#name PersonalizeEventTracker#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/personalize_event_tracker#name PersonalizeEventTracker#name}
 
 ---
 
@@ -1037,7 +1037,7 @@ public IResolvable|java.util.List<PersonalizeEventTrackerTags> getTags();
 
 A list of tags to apply to the event tracker.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/personalize_event_tracker#tags PersonalizeEventTracker#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/personalize_event_tracker#tags PersonalizeEventTracker#tags}
 
 ---
 
@@ -1073,7 +1073,7 @@ public java.lang.String getKey();
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/personalize_event_tracker#key PersonalizeEventTracker#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/personalize_event_tracker#key PersonalizeEventTracker#key}
 
 ---
 
@@ -1087,7 +1087,7 @@ public java.lang.String getValue();
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/personalize_event_tracker#value PersonalizeEventTracker#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/personalize_event_tracker#value PersonalizeEventTracker#value}
 
 ---
 

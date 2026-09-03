@@ -4,7 +4,7 @@
 
 ### DataAwsccIotFleetMetrics <a name="DataAwsccIotFleetMetrics" id="@cdktn/provider-awscc.dataAwsccIotFleetMetrics.DataAwsccIotFleetMetrics"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/iot_fleet_metrics awscc_iot_fleet_metrics}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/iot_fleet_metrics awscc_iot_fleet_metrics}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotFleetMetrics.DataAwsccIotFleetMetrics.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccIotFleetMetrics t
 
 The id of the existing DataAwsccIotFleetMetrics that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/iot_fleet_metrics#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/iot_fleet_metrics#import import section} in the documentation of this resource for the id to use
 
 ---
 

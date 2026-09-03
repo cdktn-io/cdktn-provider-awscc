@@ -4,7 +4,7 @@
 
 ### DataAwsccAppstreamUsers <a name="DataAwsccAppstreamUsers" id="@cdktn/provider-awscc.dataAwsccAppstreamUsers.DataAwsccAppstreamUsers"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/appstream_users awscc_appstream_users}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/appstream_users awscc_appstream_users}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppstreamUsers.DataAwsccAppstreamUsers.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccAppstreamUsers to
 
 The id of the existing DataAwsccAppstreamUsers that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/appstream_users#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/appstream_users#import import section} in the documentation of this resource for the id to use
 
 ---
 

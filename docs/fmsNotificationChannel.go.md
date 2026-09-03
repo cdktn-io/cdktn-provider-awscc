@@ -4,7 +4,7 @@
 
 ### FmsNotificationChannel <a name="FmsNotificationChannel" id="@cdktn/provider-awscc.fmsNotificationChannel.FmsNotificationChannel"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/fms_notification_channel awscc_fms_notification_channel}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/fms_notification_channel awscc_fms_notification_channel}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.fmsNotificationChannel.FmsNotificationChannel.Initializer"></a>
 
@@ -489,7 +489,7 @@ The construct id used in the generated config for the FmsNotificationChannel to 
 
 The id of the existing FmsNotificationChannel that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/fms_notification_channel#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/fms_notification_channel#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -855,7 +855,7 @@ SnsRoleName *string
 
 A resource ARN.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/fms_notification_channel#sns_role_name FmsNotificationChannel#sns_role_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/fms_notification_channel#sns_role_name FmsNotificationChannel#sns_role_name}
 
 ---
 
@@ -869,7 +869,7 @@ SnsTopicArn *string
 
 A resource ARN.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/fms_notification_channel#sns_topic_arn FmsNotificationChannel#sns_topic_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/fms_notification_channel#sns_topic_arn FmsNotificationChannel#sns_topic_arn}
 
 ---
 

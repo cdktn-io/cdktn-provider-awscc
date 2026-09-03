@@ -4,7 +4,7 @@
 
 ### ApsRuleGroupsNamespace <a name="ApsRuleGroupsNamespace" id="@cdktn/provider-awscc.apsRuleGroupsNamespace.ApsRuleGroupsNamespace"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/aps_rule_groups_namespace awscc_aps_rule_groups_namespace}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/aps_rule_groups_namespace awscc_aps_rule_groups_namespace}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apsRuleGroupsNamespace.ApsRuleGroupsNamespace.Initializer"></a>
 
@@ -112,7 +112,7 @@ Must be unique amongst siblings in the same scope
 
 The RuleGroupsNamespace data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/aps_rule_groups_namespace#data ApsRuleGroupsNamespace#data}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/aps_rule_groups_namespace#data ApsRuleGroupsNamespace#data}
 
 ---
 
@@ -122,7 +122,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The RuleGroupsNamespace name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/aps_rule_groups_namespace#name ApsRuleGroupsNamespace#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/aps_rule_groups_namespace#name ApsRuleGroupsNamespace#name}
 
 ---
 
@@ -132,7 +132,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Required to identify a specific APS Workspace associated with this RuleGroupsNamespace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/aps_rule_groups_namespace#workspace ApsRuleGroupsNamespace#workspace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/aps_rule_groups_namespace#workspace ApsRuleGroupsNamespace#workspace}
 
 ---
 
@@ -142,7 +142,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/aps_rule_groups_namespace#tags ApsRuleGroupsNamespace#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/aps_rule_groups_namespace#tags ApsRuleGroupsNamespace#tags}
 
 ---
 
@@ -661,7 +661,7 @@ The construct id used in the generated config for the ApsRuleGroupsNamespace to 
 
 The id of the existing ApsRuleGroupsNamespace that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/aps_rule_groups_namespace#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/aps_rule_groups_namespace#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1086,7 +1086,7 @@ data: str
 
 The RuleGroupsNamespace data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/aps_rule_groups_namespace#data ApsRuleGroupsNamespace#data}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/aps_rule_groups_namespace#data ApsRuleGroupsNamespace#data}
 
 ---
 
@@ -1100,7 +1100,7 @@ name: str
 
 The RuleGroupsNamespace name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/aps_rule_groups_namespace#name ApsRuleGroupsNamespace#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/aps_rule_groups_namespace#name ApsRuleGroupsNamespace#name}
 
 ---
 
@@ -1114,7 +1114,7 @@ workspace: str
 
 Required to identify a specific APS Workspace associated with this RuleGroupsNamespace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/aps_rule_groups_namespace#workspace ApsRuleGroupsNamespace#workspace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/aps_rule_groups_namespace#workspace ApsRuleGroupsNamespace#workspace}
 
 ---
 
@@ -1128,7 +1128,7 @@ tags: IResolvable | typing.List[ApsRuleGroupsNamespaceTags]
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/aps_rule_groups_namespace#tags ApsRuleGroupsNamespace#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/aps_rule_groups_namespace#tags ApsRuleGroupsNamespace#tags}
 
 ---
 
@@ -1166,7 +1166,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/aps_rule_groups_namespace#key ApsRuleGroupsNamespace#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/aps_rule_groups_namespace#key ApsRuleGroupsNamespace#key}
 
 ---
 
@@ -1182,7 +1182,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/aps_rule_groups_namespace#value ApsRuleGroupsNamespace#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/aps_rule_groups_namespace#value ApsRuleGroupsNamespace#value}
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### DataAwsccInspectorAssessmentTargets <a name="DataAwsccInspectorAssessmentTargets" id="@cdktn/provider-awscc.dataAwsccInspectorAssessmentTargets.DataAwsccInspectorAssessmentTargets"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/inspector_assessment_targets awscc_inspector_assessment_targets}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/inspector_assessment_targets awscc_inspector_assessment_targets}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorAssessmentTargets.DataAwsccInspectorAssessmentTargets.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccInspectorAssessme
 
 The id of the existing DataAwsccInspectorAssessmentTargets that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/inspector_assessment_targets#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/inspector_assessment_targets#import import section} in the documentation of this resource for the id to use
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### DataAwsccWorkspaceswebUserAccessLoggingSettingsPlural <a name="DataAwsccWorkspaceswebUserAccessLoggingSettingsPlural" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebUserAccessLoggingSettingsPlural.DataAwsccWorkspaceswebUserAccessLoggingSettingsPlural"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/workspacesweb_user_access_logging_settings_plural awscc_workspacesweb_user_access_logging_settings_plural}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/workspacesweb_user_access_logging_settings_plural awscc_workspacesweb_user_access_logging_settings_plural}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebUserAccessLoggingSettingsPlural.DataAwsccWorkspaceswebUserAccessLoggingSettingsPlural.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccWorkspaceswebUser
 
 The id of the existing DataAwsccWorkspaceswebUserAccessLoggingSettingsPlural that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/workspacesweb_user_access_logging_settings_plural#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/workspacesweb_user_access_logging_settings_plural#import import section} in the documentation of this resource for the id to use
 
 ---
 

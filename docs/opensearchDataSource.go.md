@@ -4,7 +4,7 @@
 
 ### OpensearchDataSource <a name="OpensearchDataSource" id="@cdktn/provider-awscc.opensearchDataSource.OpensearchDataSource"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/opensearch_data_source awscc_opensearch_data_source}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/opensearch_data_source awscc_opensearch_data_source}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.opensearchDataSource.OpensearchDataSource.Initializer"></a>
 
@@ -509,7 +509,7 @@ The construct id used in the generated config for the OpensearchDataSource to im
 
 The id of the existing OpensearchDataSource that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/opensearch_data_source#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/opensearch_data_source#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -945,7 +945,7 @@ DataSourceType OpensearchDataSourceDataSourceType
 
 The type of data source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/opensearch_data_source#data_source_type OpensearchDataSource#data_source_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/opensearch_data_source#data_source_type OpensearchDataSource#data_source_type}
 
 ---
 
@@ -959,7 +959,7 @@ DomainName *string
 
 The name of the OpenSearch Service domain.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/opensearch_data_source#domain_name OpensearchDataSource#domain_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/opensearch_data_source#domain_name OpensearchDataSource#domain_name}
 
 ---
 
@@ -973,7 +973,7 @@ Name *string
 
 The name of the data source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/opensearch_data_source#name OpensearchDataSource#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/opensearch_data_source#name OpensearchDataSource#name}
 
 ---
 
@@ -987,7 +987,7 @@ Description *string
 
 A description of the data source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/opensearch_data_source#description OpensearchDataSource#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/opensearch_data_source#description OpensearchDataSource#description}
 
 ---
 
@@ -1021,7 +1021,7 @@ S3GlueDataCatalog OpensearchDataSourceDataSourceTypeS3GlueDataCatalog
 
 Configuration for an S3 Glue Data Catalog data source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/opensearch_data_source#s3_glue_data_catalog OpensearchDataSource#s3_glue_data_catalog}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/opensearch_data_source#s3_glue_data_catalog OpensearchDataSource#s3_glue_data_catalog}
 
 ---
 
@@ -1055,7 +1055,7 @@ RoleArn *string
 
 The ARN of the IAM role that grants OpenSearch Service permission to access the Glue Data Catalog.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/opensearch_data_source#role_arn OpensearchDataSource#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/opensearch_data_source#role_arn OpensearchDataSource#role_arn}
 
 ---
 

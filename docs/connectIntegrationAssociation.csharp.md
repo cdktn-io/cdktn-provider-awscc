@@ -4,7 +4,7 @@
 
 ### ConnectIntegrationAssociation <a name="ConnectIntegrationAssociation" id="@cdktn/provider-awscc.connectIntegrationAssociation.ConnectIntegrationAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_integration_association awscc_connect_integration_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/connect_integration_association awscc_connect_integration_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectIntegrationAssociation.ConnectIntegrationAssociation.Initializer"></a>
 
@@ -509,7 +509,7 @@ The construct id used in the generated config for the ConnectIntegrationAssociat
 
 The id of the existing ConnectIntegrationAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_integration_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/connect_integration_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -934,7 +934,7 @@ public string InstanceId { get; set; }
 
 Amazon Connect instance identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_integration_association#instance_id ConnectIntegrationAssociation#instance_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/connect_integration_association#instance_id ConnectIntegrationAssociation#instance_id}
 
 ---
 
@@ -948,7 +948,7 @@ public string IntegrationArn { get; set; }
 
 ARN of Integration being associated with the instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_integration_association#integration_arn ConnectIntegrationAssociation#integration_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/connect_integration_association#integration_arn ConnectIntegrationAssociation#integration_arn}
 
 ---
 
@@ -962,7 +962,7 @@ public string IntegrationType { get; set; }
 
 Specifies the integration type to be associated with the instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_integration_association#integration_type ConnectIntegrationAssociation#integration_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/connect_integration_association#integration_type ConnectIntegrationAssociation#integration_type}
 
 ---
 
@@ -976,7 +976,7 @@ public IResolvable|ConnectIntegrationAssociationTags[] Tags { get; set; }
 
 The tags used to organize, track, or control access for this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_integration_association#tags ConnectIntegrationAssociation#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/connect_integration_association#tags ConnectIntegrationAssociation#tags}
 
 ---
 
@@ -1012,7 +1012,7 @@ public string Key { get; set; }
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_integration_association#key ConnectIntegrationAssociation#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/connect_integration_association#key ConnectIntegrationAssociation#key}
 
 ---
 
@@ -1026,7 +1026,7 @@ public string Value { get; set; }
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_integration_association#value ConnectIntegrationAssociation#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/connect_integration_association#value ConnectIntegrationAssociation#value}
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### DataAwsccFmsResourceSets <a name="DataAwsccFmsResourceSets" id="@cdktn/provider-awscc.dataAwsccFmsResourceSets.DataAwsccFmsResourceSets"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/fms_resource_sets awscc_fms_resource_sets}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/fms_resource_sets awscc_fms_resource_sets}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFmsResourceSets.DataAwsccFmsResourceSets.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccFmsResourceSets t
 
 The id of the existing DataAwsccFmsResourceSets that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/fms_resource_sets#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/fms_resource_sets#import import section} in the documentation of this resource for the id to use
 
 ---
 

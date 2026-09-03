@@ -4,7 +4,7 @@
 
 ### DataAwsccDocdbDbClusterParameterGroups <a name="DataAwsccDocdbDbClusterParameterGroups" id="@cdktn/provider-awscc.dataAwsccDocdbDbClusterParameterGroups.DataAwsccDocdbDbClusterParameterGroups"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/docdb_db_cluster_parameter_groups awscc_docdb_db_cluster_parameter_groups}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/docdb_db_cluster_parameter_groups awscc_docdb_db_cluster_parameter_groups}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDocdbDbClusterParameterGroups.DataAwsccDocdbDbClusterParameterGroups.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccDocdbDbClusterPar
 
 The id of the existing DataAwsccDocdbDbClusterParameterGroups that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/docdb_db_cluster_parameter_groups#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/docdb_db_cluster_parameter_groups#import import section} in the documentation of this resource for the id to use
 
 ---
 

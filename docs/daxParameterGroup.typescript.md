@@ -4,7 +4,7 @@
 
 ### DaxParameterGroup <a name="DaxParameterGroup" id="@cdktn/provider-awscc.daxParameterGroup.DaxParameterGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/dax_parameter_group awscc_dax_parameter_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/dax_parameter_group awscc_dax_parameter_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.daxParameterGroup.DaxParameterGroup.Initializer"></a>
 
@@ -510,7 +510,7 @@ The construct id used in the generated config for the DaxParameterGroup to impor
 
 The id of the existing DaxParameterGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/dax_parameter_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/dax_parameter_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -889,7 +889,7 @@ public readonly description: string;
 
 A description of the parameter group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/dax_parameter_group#description DaxParameterGroup#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/dax_parameter_group#description DaxParameterGroup#description}
 
 ---
 
@@ -903,7 +903,7 @@ public readonly parameterGroupName: string;
 
 The name of the parameter group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/dax_parameter_group#parameter_group_name DaxParameterGroup#parameter_group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/dax_parameter_group#parameter_group_name DaxParameterGroup#parameter_group_name}
 
 ---
 
@@ -919,7 +919,7 @@ An array of name-value pairs for the parameters in the group.
 
 Each element in the array represents a single parameter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/dax_parameter_group#parameter_name_values DaxParameterGroup#parameter_name_values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/dax_parameter_group#parameter_name_values DaxParameterGroup#parameter_name_values}
 
 ---
 

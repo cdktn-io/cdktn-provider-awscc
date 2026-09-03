@@ -4,7 +4,7 @@
 
 ### DataAwsccInspectorAssessmentTemplates <a name="DataAwsccInspectorAssessmentTemplates" id="@cdktn/provider-awscc.dataAwsccInspectorAssessmentTemplates.DataAwsccInspectorAssessmentTemplates"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/inspector_assessment_templates awscc_inspector_assessment_templates}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/inspector_assessment_templates awscc_inspector_assessment_templates}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorAssessmentTemplates.DataAwsccInspectorAssessmentTemplates.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccInspectorAssessme
 
 The id of the existing DataAwsccInspectorAssessmentTemplates that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/inspector_assessment_templates#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/inspector_assessment_templates#import import section} in the documentation of this resource for the id to use
 
 ---
 

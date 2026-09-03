@@ -4,7 +4,7 @@
 
 ### IdentitystoreGroupMembership <a name="IdentitystoreGroupMembership" id="@cdktn/provider-awscc.identitystoreGroupMembership.IdentitystoreGroupMembership"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/identitystore_group_membership awscc_identitystore_group_membership}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/identitystore_group_membership awscc_identitystore_group_membership}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.identitystoreGroupMembership.IdentitystoreGroupMembership.Initializer"></a>
 
@@ -108,7 +108,7 @@ Must be unique amongst siblings in the same scope
 
 The unique identifier for a group in the identity store.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/identitystore_group_membership#group_id IdentitystoreGroupMembership#group_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/identitystore_group_membership#group_id IdentitystoreGroupMembership#group_id}
 
 ---
 
@@ -118,7 +118,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The globally unique identifier for the identity store.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/identitystore_group_membership#identity_store_id IdentitystoreGroupMembership#identity_store_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/identitystore_group_membership#identity_store_id IdentitystoreGroupMembership#identity_store_id}
 
 ---
 
@@ -128,7 +128,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An object containing the identifier of a group member.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/identitystore_group_membership#member_id IdentitystoreGroupMembership#member_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/identitystore_group_membership#member_id IdentitystoreGroupMembership#member_id}
 
 ---
 
@@ -590,7 +590,7 @@ The construct id used in the generated config for the IdentitystoreGroupMembersh
 
 The id of the existing IdentitystoreGroupMembership that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/identitystore_group_membership#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/identitystore_group_membership#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -991,7 +991,7 @@ public java.lang.String getGroupId();
 
 The unique identifier for a group in the identity store.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/identitystore_group_membership#group_id IdentitystoreGroupMembership#group_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/identitystore_group_membership#group_id IdentitystoreGroupMembership#group_id}
 
 ---
 
@@ -1005,7 +1005,7 @@ public java.lang.String getIdentityStoreId();
 
 The globally unique identifier for the identity store.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/identitystore_group_membership#identity_store_id IdentitystoreGroupMembership#identity_store_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/identitystore_group_membership#identity_store_id IdentitystoreGroupMembership#identity_store_id}
 
 ---
 
@@ -1019,7 +1019,7 @@ public IdentitystoreGroupMembershipMemberId getMemberId();
 
 An object containing the identifier of a group member.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/identitystore_group_membership#member_id IdentitystoreGroupMembership#member_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/identitystore_group_membership#member_id IdentitystoreGroupMembership#member_id}
 
 ---
 
@@ -1053,7 +1053,7 @@ public java.lang.String getUserId();
 
 The identifier for a user in the identity store.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/identitystore_group_membership#user_id IdentitystoreGroupMembership#user_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/identitystore_group_membership#user_id IdentitystoreGroupMembership#user_id}
 
 ---
 

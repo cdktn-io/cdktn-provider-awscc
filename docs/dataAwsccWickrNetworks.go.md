@@ -4,7 +4,7 @@
 
 ### DataAwsccWickrNetworks <a name="DataAwsccWickrNetworks" id="@cdktn/provider-awscc.dataAwsccWickrNetworks.DataAwsccWickrNetworks"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/wickr_networks awscc_wickr_networks}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/wickr_networks awscc_wickr_networks}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWickrNetworks.DataAwsccWickrNetworks.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccWickrNetworks to 
 
 The id of the existing DataAwsccWickrNetworks that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/wickr_networks#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/wickr_networks#import import section} in the documentation of this resource for the id to use
 
 ---
 

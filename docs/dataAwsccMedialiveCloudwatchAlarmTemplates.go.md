@@ -4,7 +4,7 @@
 
 ### DataAwsccMedialiveCloudwatchAlarmTemplates <a name="DataAwsccMedialiveCloudwatchAlarmTemplates" id="@cdktn/provider-awscc.dataAwsccMedialiveCloudwatchAlarmTemplates.DataAwsccMedialiveCloudwatchAlarmTemplates"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/medialive_cloudwatch_alarm_templates awscc_medialive_cloudwatch_alarm_templates}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/medialive_cloudwatch_alarm_templates awscc_medialive_cloudwatch_alarm_templates}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMedialiveCloudwatchAlarmTemplates.DataAwsccMedialiveCloudwatchAlarmTemplates.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccMedialiveCloudwat
 
 The id of the existing DataAwsccMedialiveCloudwatchAlarmTemplates that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/medialive_cloudwatch_alarm_templates#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/medialive_cloudwatch_alarm_templates#import import section} in the documentation of this resource for the id to use
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### DataAwsccS3MultiRegionAccessPointPolicies <a name="DataAwsccS3MultiRegionAccessPointPolicies" id="@cdktn/provider-awscc.dataAwsccS3MultiRegionAccessPointPolicies.DataAwsccS3MultiRegionAccessPointPolicies"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/s3_multi_region_access_point_policies awscc_s3_multi_region_access_point_policies}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/s3_multi_region_access_point_policies awscc_s3_multi_region_access_point_policies}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3MultiRegionAccessPointPolicies.DataAwsccS3MultiRegionAccessPointPolicies.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccS3MultiRegionAcce
 
 The id of the existing DataAwsccS3MultiRegionAccessPointPolicies that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/s3_multi_region_access_point_policies#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/s3_multi_region_access_point_policies#import import section} in the documentation of this resource for the id to use
 
 ---
 

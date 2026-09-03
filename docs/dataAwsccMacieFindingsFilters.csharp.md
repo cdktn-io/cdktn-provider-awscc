@@ -4,7 +4,7 @@
 
 ### DataAwsccMacieFindingsFilters <a name="DataAwsccMacieFindingsFilters" id="@cdktn/provider-awscc.dataAwsccMacieFindingsFilters.DataAwsccMacieFindingsFilters"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/macie_findings_filters awscc_macie_findings_filters}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/macie_findings_filters awscc_macie_findings_filters}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMacieFindingsFilters.DataAwsccMacieFindingsFilters.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccMacieFindingsFilt
 
 The id of the existing DataAwsccMacieFindingsFilters that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/macie_findings_filters#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/macie_findings_filters#import import section} in the documentation of this resource for the id to use
 
 ---
 

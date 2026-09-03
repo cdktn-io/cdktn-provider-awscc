@@ -4,7 +4,7 @@
 
 ### DatasyncAgent <a name="DatasyncAgent" id="@cdktn/provider-awscc.datasyncAgent.DatasyncAgent"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datasync_agent awscc_datasync_agent}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datasync_agent awscc_datasync_agent}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.datasyncAgent.DatasyncAgent.Initializer"></a>
 
@@ -116,7 +116,7 @@ Must be unique amongst siblings in the same scope
 
 Activation key of the Agent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datasync_agent#activation_key DatasyncAgent#activation_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datasync_agent#activation_key DatasyncAgent#activation_key}
 
 ---
 
@@ -126,7 +126,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name configured for the agent. Text reference used to identify the agent in the console.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datasync_agent#agent_name DatasyncAgent#agent_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datasync_agent#agent_name DatasyncAgent#agent_name}
 
 ---
 
@@ -136,7 +136,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The ARNs of the security group used to protect your data transfer task subnets.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datasync_agent#security_group_arns DatasyncAgent#security_group_arns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datasync_agent#security_group_arns DatasyncAgent#security_group_arns}
 
 ---
 
@@ -146,7 +146,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The ARNs of the subnets in which DataSync will create elastic network interfaces for each data transfer task.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datasync_agent#subnet_arns DatasyncAgent#subnet_arns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datasync_agent#subnet_arns DatasyncAgent#subnet_arns}
 
 ---
 
@@ -156,7 +156,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datasync_agent#tags DatasyncAgent#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datasync_agent#tags DatasyncAgent#tags}
 
 ---
 
@@ -166,7 +166,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The ID of the VPC endpoint that the agent has access to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datasync_agent#vpc_endpoint_id DatasyncAgent#vpc_endpoint_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datasync_agent#vpc_endpoint_id DatasyncAgent#vpc_endpoint_id}
 
 ---
 
@@ -720,7 +720,7 @@ The construct id used in the generated config for the DatasyncAgent to import.
 
 The id of the existing DatasyncAgent that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datasync_agent#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datasync_agent#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1204,7 +1204,7 @@ activation_key: str
 
 Activation key of the Agent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datasync_agent#activation_key DatasyncAgent#activation_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datasync_agent#activation_key DatasyncAgent#activation_key}
 
 ---
 
@@ -1218,7 +1218,7 @@ agent_name: str
 
 The name configured for the agent. Text reference used to identify the agent in the console.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datasync_agent#agent_name DatasyncAgent#agent_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datasync_agent#agent_name DatasyncAgent#agent_name}
 
 ---
 
@@ -1232,7 +1232,7 @@ security_group_arns: typing.List[str]
 
 The ARNs of the security group used to protect your data transfer task subnets.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datasync_agent#security_group_arns DatasyncAgent#security_group_arns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datasync_agent#security_group_arns DatasyncAgent#security_group_arns}
 
 ---
 
@@ -1246,7 +1246,7 @@ subnet_arns: typing.List[str]
 
 The ARNs of the subnets in which DataSync will create elastic network interfaces for each data transfer task.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datasync_agent#subnet_arns DatasyncAgent#subnet_arns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datasync_agent#subnet_arns DatasyncAgent#subnet_arns}
 
 ---
 
@@ -1260,7 +1260,7 @@ tags: IResolvable | typing.List[DatasyncAgentTags]
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datasync_agent#tags DatasyncAgent#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datasync_agent#tags DatasyncAgent#tags}
 
 ---
 
@@ -1274,7 +1274,7 @@ vpc_endpoint_id: str
 
 The ID of the VPC endpoint that the agent has access to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datasync_agent#vpc_endpoint_id DatasyncAgent#vpc_endpoint_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datasync_agent#vpc_endpoint_id DatasyncAgent#vpc_endpoint_id}
 
 ---
 
@@ -1310,7 +1310,7 @@ key: str
 
 The key for an AWS resource tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datasync_agent#key DatasyncAgent#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datasync_agent#key DatasyncAgent#key}
 
 ---
 
@@ -1324,7 +1324,7 @@ value: str
 
 The value for an AWS resource tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datasync_agent#value DatasyncAgent#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datasync_agent#value DatasyncAgent#value}
 
 ---
 

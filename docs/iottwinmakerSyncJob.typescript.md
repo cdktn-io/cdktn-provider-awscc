@@ -4,7 +4,7 @@
 
 ### IottwinmakerSyncJob <a name="IottwinmakerSyncJob" id="@cdktn/provider-awscc.iottwinmakerSyncJob.IottwinmakerSyncJob"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iottwinmaker_sync_job awscc_iottwinmaker_sync_job}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iottwinmaker_sync_job awscc_iottwinmaker_sync_job}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iottwinmakerSyncJob.IottwinmakerSyncJob.Initializer"></a>
 
@@ -496,7 +496,7 @@ The construct id used in the generated config for the IottwinmakerSyncJob to imp
 
 The id of the existing IottwinmakerSyncJob that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iottwinmaker_sync_job#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iottwinmaker_sync_job#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -942,7 +942,7 @@ public readonly syncRole: string;
 
 The IAM Role that execute SyncJob.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iottwinmaker_sync_job#sync_role IottwinmakerSyncJob#sync_role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iottwinmaker_sync_job#sync_role IottwinmakerSyncJob#sync_role}
 
 ---
 
@@ -956,7 +956,7 @@ public readonly syncSource: string;
 
 The source of the SyncJob.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iottwinmaker_sync_job#sync_source IottwinmakerSyncJob#sync_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iottwinmaker_sync_job#sync_source IottwinmakerSyncJob#sync_source}
 
 ---
 
@@ -970,7 +970,7 @@ public readonly workspaceId: string;
 
 The ID of the workspace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iottwinmaker_sync_job#workspace_id IottwinmakerSyncJob#workspace_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iottwinmaker_sync_job#workspace_id IottwinmakerSyncJob#workspace_id}
 
 ---
 
@@ -984,7 +984,7 @@ public readonly tags: {[ key: string ]: string};
 
 A key-value pair to associate with a resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iottwinmaker_sync_job#tags IottwinmakerSyncJob#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iottwinmaker_sync_job#tags IottwinmakerSyncJob#tags}
 
 ---
 

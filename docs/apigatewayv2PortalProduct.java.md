@@ -4,7 +4,7 @@
 
 ### Apigatewayv2PortalProduct <a name="Apigatewayv2PortalProduct" id="@cdktn/provider-awscc.apigatewayv2PortalProduct.Apigatewayv2PortalProduct"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigatewayv2_portal_product awscc_apigatewayv2_portal_product}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigatewayv2_portal_product awscc_apigatewayv2_portal_product}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apigatewayv2PortalProduct.Apigatewayv2PortalProduct.Initializer"></a>
 
@@ -108,7 +108,7 @@ Must be unique amongst siblings in the same scope
 
 The name of the portal product as it appears in a published portal.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigatewayv2_portal_product#display_name Apigatewayv2PortalProduct#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigatewayv2_portal_product#display_name Apigatewayv2PortalProduct#display_name}
 
 ---
 
@@ -118,7 +118,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A description of the portal product.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigatewayv2_portal_product#description Apigatewayv2PortalProduct#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigatewayv2_portal_product#description Apigatewayv2PortalProduct#description}
 
 ---
 
@@ -128,7 +128,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The collection of tags associated with the portal product.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigatewayv2_portal_product#tags Apigatewayv2PortalProduct#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigatewayv2_portal_product#tags Apigatewayv2PortalProduct#tags}
 
 ---
 
@@ -604,7 +604,7 @@ The construct id used in the generated config for the Apigatewayv2PortalProduct 
 
 The id of the existing Apigatewayv2PortalProduct that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigatewayv2_portal_product#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigatewayv2_portal_product#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1027,7 +1027,7 @@ public java.lang.String getDisplayName();
 
 The name of the portal product as it appears in a published portal.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigatewayv2_portal_product#display_name Apigatewayv2PortalProduct#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigatewayv2_portal_product#display_name Apigatewayv2PortalProduct#display_name}
 
 ---
 
@@ -1041,7 +1041,7 @@ public java.lang.String getDescription();
 
 A description of the portal product.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigatewayv2_portal_product#description Apigatewayv2PortalProduct#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigatewayv2_portal_product#description Apigatewayv2PortalProduct#description}
 
 ---
 
@@ -1055,7 +1055,7 @@ public IResolvable|java.util.List<Apigatewayv2PortalProductTags> getTags();
 
 The collection of tags associated with the portal product.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigatewayv2_portal_product#tags Apigatewayv2PortalProduct#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigatewayv2_portal_product#tags Apigatewayv2PortalProduct#tags}
 
 ---
 
@@ -1091,7 +1091,7 @@ public java.lang.String getKey();
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigatewayv2_portal_product#key Apigatewayv2PortalProduct#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigatewayv2_portal_product#key Apigatewayv2PortalProduct#key}
 
 ---
 
@@ -1105,7 +1105,7 @@ public java.lang.String getValue();
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigatewayv2_portal_product#value Apigatewayv2PortalProduct#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigatewayv2_portal_product#value Apigatewayv2PortalProduct#value}
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### DataAwsccLogsIntegrations <a name="DataAwsccLogsIntegrations" id="@cdktn/provider-awscc.dataAwsccLogsIntegrations.DataAwsccLogsIntegrations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/logs_integrations awscc_logs_integrations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/logs_integrations awscc_logs_integrations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLogsIntegrations.DataAwsccLogsIntegrations.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccLogsIntegrations 
 
 The id of the existing DataAwsccLogsIntegrations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/logs_integrations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/logs_integrations#import import section} in the documentation of this resource for the id to use
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### DataAwsccBackupBackupVaults <a name="DataAwsccBackupBackupVaults" id="@cdktn/provider-awscc.dataAwsccBackupBackupVaults.DataAwsccBackupBackupVaults"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/backup_backup_vaults awscc_backup_backup_vaults}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/backup_backup_vaults awscc_backup_backup_vaults}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBackupBackupVaults.DataAwsccBackupBackupVaults.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccBackupBackupVault
 
 The id of the existing DataAwsccBackupBackupVaults that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/backup_backup_vaults#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/backup_backup_vaults#import import section} in the documentation of this resource for the id to use
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### Ec2CarrierGateway <a name="Ec2CarrierGateway" id="@cdktn/provider-awscc.ec2CarrierGateway.Ec2CarrierGateway"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_carrier_gateway awscc_ec2_carrier_gateway}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_carrier_gateway awscc_ec2_carrier_gateway}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2CarrierGateway.Ec2CarrierGateway.Initializer"></a>
 
@@ -108,7 +108,7 @@ Must be unique amongst siblings in the same scope
 
 The ID of the VPC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_carrier_gateway#vpc_id Ec2CarrierGateway#vpc_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_carrier_gateway#vpc_id Ec2CarrierGateway#vpc_id}
 
 ---
 
@@ -118,7 +118,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The tags for the carrier gateway.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_carrier_gateway#tags Ec2CarrierGateway#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_carrier_gateway#tags Ec2CarrierGateway#tags}
 
 ---
 
@@ -637,7 +637,7 @@ The construct id used in the generated config for the Ec2CarrierGateway to impor
 
 The id of the existing Ec2CarrierGateway that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_carrier_gateway#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_carrier_gateway#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1036,7 +1036,7 @@ vpc_id: str
 
 The ID of the VPC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_carrier_gateway#vpc_id Ec2CarrierGateway#vpc_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_carrier_gateway#vpc_id Ec2CarrierGateway#vpc_id}
 
 ---
 
@@ -1050,7 +1050,7 @@ tags: IResolvable | typing.List[Ec2CarrierGatewayTags]
 
 The tags for the carrier gateway.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_carrier_gateway#tags Ec2CarrierGateway#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_carrier_gateway#tags Ec2CarrierGateway#tags}
 
 ---
 
@@ -1071,8 +1071,8 @@ ec2CarrierGateway.Ec2CarrierGatewayTags(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2CarrierGateway.Ec2CarrierGatewayTags.property.key">key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_carrier_gateway#key Ec2CarrierGateway#key}. |
-| <code><a href="#@cdktn/provider-awscc.ec2CarrierGateway.Ec2CarrierGatewayTags.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_carrier_gateway#value Ec2CarrierGateway#value}. |
+| <code><a href="#@cdktn/provider-awscc.ec2CarrierGateway.Ec2CarrierGatewayTags.property.key">key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_carrier_gateway#key Ec2CarrierGateway#key}. |
+| <code><a href="#@cdktn/provider-awscc.ec2CarrierGateway.Ec2CarrierGatewayTags.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_carrier_gateway#value Ec2CarrierGateway#value}. |
 
 ---
 
@@ -1084,7 +1084,7 @@ key: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_carrier_gateway#key Ec2CarrierGateway#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_carrier_gateway#key Ec2CarrierGateway#key}.
 
 ---
 
@@ -1096,7 +1096,7 @@ value: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_carrier_gateway#value Ec2CarrierGateway#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_carrier_gateway#value Ec2CarrierGateway#value}.
 
 ---
 

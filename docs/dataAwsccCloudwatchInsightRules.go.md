@@ -4,7 +4,7 @@
 
 ### DataAwsccCloudwatchInsightRules <a name="DataAwsccCloudwatchInsightRules" id="@cdktn/provider-awscc.dataAwsccCloudwatchInsightRules.DataAwsccCloudwatchInsightRules"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/cloudwatch_insight_rules awscc_cloudwatch_insight_rules}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/cloudwatch_insight_rules awscc_cloudwatch_insight_rules}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudwatchInsightRules.DataAwsccCloudwatchInsightRules.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCloudwatchInsight
 
 The id of the existing DataAwsccCloudwatchInsightRules that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/cloudwatch_insight_rules#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/cloudwatch_insight_rules#import import section} in the documentation of this resource for the id to use
 
 ---
 

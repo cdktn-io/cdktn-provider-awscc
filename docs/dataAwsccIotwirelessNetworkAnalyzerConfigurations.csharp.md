@@ -4,7 +4,7 @@
 
 ### DataAwsccIotwirelessNetworkAnalyzerConfigurations <a name="DataAwsccIotwirelessNetworkAnalyzerConfigurations" id="@cdktn/provider-awscc.dataAwsccIotwirelessNetworkAnalyzerConfigurations.DataAwsccIotwirelessNetworkAnalyzerConfigurations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/iotwireless_network_analyzer_configurations awscc_iotwireless_network_analyzer_configurations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/iotwireless_network_analyzer_configurations awscc_iotwireless_network_analyzer_configurations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotwirelessNetworkAnalyzerConfigurations.DataAwsccIotwirelessNetworkAnalyzerConfigurations.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIotwirelessNetwor
 
 The id of the existing DataAwsccIotwirelessNetworkAnalyzerConfigurations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/iotwireless_network_analyzer_configurations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/iotwireless_network_analyzer_configurations#import import section} in the documentation of this resource for the id to use
 
 ---
 

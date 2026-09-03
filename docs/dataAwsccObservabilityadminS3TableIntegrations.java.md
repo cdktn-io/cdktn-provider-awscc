@@ -4,7 +4,7 @@
 
 ### DataAwsccObservabilityadminS3TableIntegrations <a name="DataAwsccObservabilityadminS3TableIntegrations" id="@cdktn/provider-awscc.dataAwsccObservabilityadminS3TableIntegrations.DataAwsccObservabilityadminS3TableIntegrations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/observabilityadmin_s3_table_integrations awscc_observabilityadmin_s3_table_integrations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/observabilityadmin_s3_table_integrations awscc_observabilityadmin_s3_table_integrations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccObservabilityadminS3TableIntegrations.DataAwsccObservabilityadminS3TableIntegrations.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccObservabilityadmi
 
 The id of the existing DataAwsccObservabilityadminS3TableIntegrations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/observabilityadmin_s3_table_integrations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/observabilityadmin_s3_table_integrations#import import section} in the documentation of this resource for the id to use
 
 ---
 

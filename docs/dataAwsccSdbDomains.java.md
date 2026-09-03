@@ -4,7 +4,7 @@
 
 ### DataAwsccSdbDomains <a name="DataAwsccSdbDomains" id="@cdktn/provider-awscc.dataAwsccSdbDomains.DataAwsccSdbDomains"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/sdb_domains awscc_sdb_domains}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/sdb_domains awscc_sdb_domains}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSdbDomains.DataAwsccSdbDomains.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccSdbDomains to imp
 
 The id of the existing DataAwsccSdbDomains that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/sdb_domains#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/sdb_domains#import import section} in the documentation of this resource for the id to use
 
 ---
 

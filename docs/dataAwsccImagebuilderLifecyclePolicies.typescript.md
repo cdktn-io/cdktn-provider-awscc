@@ -4,7 +4,7 @@
 
 ### DataAwsccImagebuilderLifecyclePolicies <a name="DataAwsccImagebuilderLifecyclePolicies" id="@cdktn/provider-awscc.dataAwsccImagebuilderLifecyclePolicies.DataAwsccImagebuilderLifecyclePolicies"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/imagebuilder_lifecycle_policies awscc_imagebuilder_lifecycle_policies}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/imagebuilder_lifecycle_policies awscc_imagebuilder_lifecycle_policies}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccImagebuilderLifecyclePolicies.DataAwsccImagebuilderLifecyclePolicies.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccImagebuilderLifec
 
 The id of the existing DataAwsccImagebuilderLifecyclePolicies that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/imagebuilder_lifecycle_policies#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/imagebuilder_lifecycle_policies#import import section} in the documentation of this resource for the id to use
 
 ---
 

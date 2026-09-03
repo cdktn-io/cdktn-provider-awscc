@@ -4,7 +4,7 @@
 
 ### DataAwsccBcmpricingcalculatorBillScenarios <a name="DataAwsccBcmpricingcalculatorBillScenarios" id="@cdktn/provider-awscc.dataAwsccBcmpricingcalculatorBillScenarios.DataAwsccBcmpricingcalculatorBillScenarios"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/bcmpricingcalculator_bill_scenarios awscc_bcmpricingcalculator_bill_scenarios}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/bcmpricingcalculator_bill_scenarios awscc_bcmpricingcalculator_bill_scenarios}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBcmpricingcalculatorBillScenarios.DataAwsccBcmpricingcalculatorBillScenarios.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccBcmpricingcalcula
 
 The id of the existing DataAwsccBcmpricingcalculatorBillScenarios that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/bcmpricingcalculator_bill_scenarios#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/bcmpricingcalculator_bill_scenarios#import import section} in the documentation of this resource for the id to use
 
 ---
 

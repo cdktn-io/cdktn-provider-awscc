@@ -4,7 +4,7 @@
 
 ### DataAwsccIotResourceSpecificLoggings <a name="DataAwsccIotResourceSpecificLoggings" id="@cdktn/provider-awscc.dataAwsccIotResourceSpecificLoggings.DataAwsccIotResourceSpecificLoggings"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/iot_resource_specific_loggings awscc_iot_resource_specific_loggings}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/iot_resource_specific_loggings awscc_iot_resource_specific_loggings}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotResourceSpecificLoggings.DataAwsccIotResourceSpecificLoggings.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccIotResourceSpecif
 
 The id of the existing DataAwsccIotResourceSpecificLoggings that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/iot_resource_specific_loggings#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/iot_resource_specific_loggings#import import section} in the documentation of this resource for the id to use
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### MemorydbParameterGroup <a name="MemorydbParameterGroup" id="@cdktn/provider-awscc.memorydbParameterGroup.MemorydbParameterGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/memorydb_parameter_group awscc_memorydb_parameter_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/memorydb_parameter_group awscc_memorydb_parameter_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.memorydbParameterGroup.MemorydbParameterGroup.Initializer"></a>
 
@@ -523,7 +523,7 @@ The construct id used in the generated config for the MemorydbParameterGroup to 
 
 The id of the existing MemorydbParameterGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/memorydb_parameter_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/memorydb_parameter_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -959,7 +959,7 @@ public readonly family: string;
 
 The name of the parameter group family that this parameter group is compatible with.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/memorydb_parameter_group#family MemorydbParameterGroup#family}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/memorydb_parameter_group#family MemorydbParameterGroup#family}
 
 ---
 
@@ -973,7 +973,7 @@ public readonly parameterGroupName: string;
 
 The name of the parameter group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/memorydb_parameter_group#parameter_group_name MemorydbParameterGroup#parameter_group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/memorydb_parameter_group#parameter_group_name MemorydbParameterGroup#parameter_group_name}
 
 ---
 
@@ -987,7 +987,7 @@ public readonly description: string;
 
 A description of the parameter group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/memorydb_parameter_group#description MemorydbParameterGroup#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/memorydb_parameter_group#description MemorydbParameterGroup#description}
 
 ---
 
@@ -1003,7 +1003,7 @@ An map of parameter names and values for the parameter update.
 
 You must supply at least one parameter name and value; subsequent arguments are optional.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/memorydb_parameter_group#parameters MemorydbParameterGroup#parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/memorydb_parameter_group#parameters MemorydbParameterGroup#parameters}
 
 ---
 
@@ -1017,7 +1017,7 @@ public readonly tags: IResolvable | MemorydbParameterGroupTags[];
 
 An array of key-value pairs to apply to this parameter group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/memorydb_parameter_group#tags MemorydbParameterGroup#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/memorydb_parameter_group#tags MemorydbParameterGroup#tags}
 
 ---
 
@@ -1050,7 +1050,7 @@ public readonly key: string;
 
 The key for the tag. May not be null.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/memorydb_parameter_group#key MemorydbParameterGroup#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/memorydb_parameter_group#key MemorydbParameterGroup#key}
 
 ---
 
@@ -1064,7 +1064,7 @@ public readonly value: string;
 
 The tag's value. May be null.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/memorydb_parameter_group#value MemorydbParameterGroup#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/memorydb_parameter_group#value MemorydbParameterGroup#value}
 
 ---
 

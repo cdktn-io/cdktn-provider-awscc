@@ -4,7 +4,7 @@
 
 ### BedrockBlueprint <a name="BedrockBlueprint" id="@cdktn/provider-awscc.bedrockBlueprint.BedrockBlueprint"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_blueprint awscc_bedrock_blueprint}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_blueprint awscc_bedrock_blueprint}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockBlueprint.BedrockBlueprint.Initializer"></a>
 
@@ -523,7 +523,7 @@ The construct id used in the generated config for the BedrockBlueprint to import
 
 The id of the existing BedrockBlueprint that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_blueprint#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_blueprint#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1029,7 +1029,7 @@ BlueprintName *string
 
 Name of the Blueprint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_blueprint#blueprint_name BedrockBlueprint#blueprint_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_blueprint#blueprint_name BedrockBlueprint#blueprint_name}
 
 ---
 
@@ -1043,7 +1043,7 @@ Schema *string
 
 Schema of the blueprint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_blueprint#schema BedrockBlueprint#schema}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_blueprint#schema BedrockBlueprint#schema}
 
 ---
 
@@ -1057,7 +1057,7 @@ Type *string
 
 Modality Type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_blueprint#type BedrockBlueprint#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_blueprint#type BedrockBlueprint#type}
 
 ---
 
@@ -1071,7 +1071,7 @@ KmsEncryptionContext *map[string]*string
 
 KMS encryption context.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_blueprint#kms_encryption_context BedrockBlueprint#kms_encryption_context}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_blueprint#kms_encryption_context BedrockBlueprint#kms_encryption_context}
 
 ---
 
@@ -1085,7 +1085,7 @@ KmsKeyId *string
 
 KMS key identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_blueprint#kms_key_id BedrockBlueprint#kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_blueprint#kms_key_id BedrockBlueprint#kms_key_id}
 
 ---
 
@@ -1099,7 +1099,7 @@ Tags interface{}
 
 List of Tags.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_blueprint#tags BedrockBlueprint#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_blueprint#tags BedrockBlueprint#tags}
 
 ---
 
@@ -1135,7 +1135,7 @@ Key *string
 
 Key for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_blueprint#key BedrockBlueprint#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_blueprint#key BedrockBlueprint#key}
 
 ---
 
@@ -1149,7 +1149,7 @@ Value *string
 
 Value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_blueprint#value BedrockBlueprint#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_blueprint#value BedrockBlueprint#value}
 
 ---
 

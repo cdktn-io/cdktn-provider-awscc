@@ -4,7 +4,7 @@
 
 ### DataAwsccIotwirelessMulticastGroups <a name="DataAwsccIotwirelessMulticastGroups" id="@cdktn/provider-awscc.dataAwsccIotwirelessMulticastGroups.DataAwsccIotwirelessMulticastGroups"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/iotwireless_multicast_groups awscc_iotwireless_multicast_groups}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/iotwireless_multicast_groups awscc_iotwireless_multicast_groups}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotwirelessMulticastGroups.DataAwsccIotwirelessMulticastGroups.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccIotwirelessMultic
 
 The id of the existing DataAwsccIotwirelessMulticastGroups that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/iotwireless_multicast_groups#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/iotwireless_multicast_groups#import import section} in the documentation of this resource for the id to use
 
 ---
 

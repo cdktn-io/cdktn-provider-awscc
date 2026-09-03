@@ -4,7 +4,7 @@
 
 ### Ec2LocalGatewayRoute <a name="Ec2LocalGatewayRoute" id="@cdktn/provider-awscc.ec2LocalGatewayRoute.Ec2LocalGatewayRoute"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_local_gateway_route awscc_ec2_local_gateway_route}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_local_gateway_route awscc_ec2_local_gateway_route}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2LocalGatewayRoute.Ec2LocalGatewayRoute.Initializer"></a>
 
@@ -517,7 +517,7 @@ The construct id used in the generated config for the Ec2LocalGatewayRoute to im
 
 The id of the existing Ec2LocalGatewayRoute that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_local_gateway_route#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_local_gateway_route#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -953,7 +953,7 @@ public string DestinationCidrBlock { get; set; }
 
 The CIDR block used for destination matches.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_local_gateway_route#destination_cidr_block Ec2LocalGatewayRoute#destination_cidr_block}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_local_gateway_route#destination_cidr_block Ec2LocalGatewayRoute#destination_cidr_block}
 
 ---
 
@@ -967,7 +967,7 @@ public string LocalGatewayRouteTableId { get; set; }
 
 The ID of the local gateway route table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_local_gateway_route#local_gateway_route_table_id Ec2LocalGatewayRoute#local_gateway_route_table_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_local_gateway_route#local_gateway_route_table_id Ec2LocalGatewayRoute#local_gateway_route_table_id}
 
 ---
 
@@ -981,7 +981,7 @@ public string LocalGatewayVirtualInterfaceGroupId { get; set; }
 
 The ID of the virtual interface group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_local_gateway_route#local_gateway_virtual_interface_group_id Ec2LocalGatewayRoute#local_gateway_virtual_interface_group_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_local_gateway_route#local_gateway_virtual_interface_group_id Ec2LocalGatewayRoute#local_gateway_virtual_interface_group_id}
 
 ---
 
@@ -995,7 +995,7 @@ public string NetworkInterfaceId { get; set; }
 
 The ID of the network interface.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_local_gateway_route#network_interface_id Ec2LocalGatewayRoute#network_interface_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_local_gateway_route#network_interface_id Ec2LocalGatewayRoute#network_interface_id}
 
 ---
 

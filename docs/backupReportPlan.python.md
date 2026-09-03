@@ -4,7 +4,7 @@
 
 ### BackupReportPlan <a name="BackupReportPlan" id="@cdktn/provider-awscc.backupReportPlan.BackupReportPlan"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_report_plan awscc_backup_report_plan}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/backup_report_plan awscc_backup_report_plan}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.backupReportPlan.BackupReportPlan.Initializer"></a>
 
@@ -114,7 +114,7 @@ Must be unique amongst siblings in the same scope
 
 A structure that contains information about where and how to deliver your reports, specifically your Amazon S3 bucket name, S3 key prefix, and the formats of your reports.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_report_plan#report_delivery_channel BackupReportPlan#report_delivery_channel}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/backup_report_plan#report_delivery_channel BackupReportPlan#report_delivery_channel}
 
 ---
 
@@ -124,7 +124,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Identifies the report template for the report. Reports are built using a report template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_report_plan#report_setting BackupReportPlan#report_setting}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/backup_report_plan#report_setting BackupReportPlan#report_setting}
 
 ---
 
@@ -134,7 +134,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An optional description of the report plan with a maximum of 1,024 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_report_plan#report_plan_description BackupReportPlan#report_plan_description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/backup_report_plan#report_plan_description BackupReportPlan#report_plan_description}
 
 ---
 
@@ -146,7 +146,7 @@ The unique name of the report plan.
 
 The name must be between 1 and 256 characters, starting with a letter, and consisting of letters (a-z, A-Z), numbers (0-9), and underscores (_).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_report_plan#report_plan_name BackupReportPlan#report_plan_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/backup_report_plan#report_plan_name BackupReportPlan#report_plan_name}
 
 ---
 
@@ -158,7 +158,7 @@ Metadata that you can assign to help organize the report plans that you create.
 
 Each tag is a key-value pair.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_report_plan#report_plan_tags BackupReportPlan#report_plan_tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/backup_report_plan#report_plan_tags BackupReportPlan#report_plan_tags}
 
 ---
 
@@ -563,7 +563,7 @@ def put_report_delivery_channel(
 
 The unique name of the S3 bucket that receives your reports.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_report_plan#s3_bucket_name BackupReportPlan#s3_bucket_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/backup_report_plan#s3_bucket_name BackupReportPlan#s3_bucket_name}
 
 ---
 
@@ -575,7 +575,7 @@ A list of the format of your reports: CSV, JSON, or both.
 
 If not specified, the default format is CSV.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_report_plan#formats BackupReportPlan#formats}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/backup_report_plan#formats BackupReportPlan#formats}
 
 ---
 
@@ -587,7 +587,7 @@ The prefix for where AWS Backup Audit Manager delivers your reports to Amazon S3
 
 The prefix is this part of the following path: s3://your-bucket-name/prefix/Backup/us-west-2/year/month/day/report-name. If not specified, there is no prefix.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_report_plan#s3_key_prefix BackupReportPlan#s3_key_prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/backup_report_plan#s3_key_prefix BackupReportPlan#s3_key_prefix}
 
 ---
 
@@ -625,7 +625,7 @@ Identifies the report template for the report.
 
 Reports are built using a report template. The report templates are: `BACKUP_JOB_REPORT | COPY_JOB_REPORT | RESTORE_JOB_REPORT`
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_report_plan#report_template BackupReportPlan#report_template}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/backup_report_plan#report_template BackupReportPlan#report_template}
 
 ---
 
@@ -635,7 +635,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The list of AWS accounts that a report covers.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_report_plan#accounts BackupReportPlan#accounts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/backup_report_plan#accounts BackupReportPlan#accounts}
 
 ---
 
@@ -645,7 +645,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The Amazon Resource Names (ARNs) of the frameworks a report covers.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_report_plan#framework_arns BackupReportPlan#framework_arns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/backup_report_plan#framework_arns BackupReportPlan#framework_arns}
 
 ---
 
@@ -655,7 +655,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The list of AWS organization units that a report covers.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_report_plan#organization_units BackupReportPlan#organization_units}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/backup_report_plan#organization_units BackupReportPlan#organization_units}
 
 ---
 
@@ -665,7 +665,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The list of AWS regions that a report covers.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_report_plan#regions BackupReportPlan#regions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/backup_report_plan#regions BackupReportPlan#regions}
 
 ---
 
@@ -801,7 +801,7 @@ The construct id used in the generated config for the BackupReportPlan to import
 
 The id of the existing BackupReportPlan that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_report_plan#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/backup_report_plan#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1250,7 +1250,7 @@ report_delivery_channel: BackupReportPlanReportDeliveryChannel
 
 A structure that contains information about where and how to deliver your reports, specifically your Amazon S3 bucket name, S3 key prefix, and the formats of your reports.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_report_plan#report_delivery_channel BackupReportPlan#report_delivery_channel}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/backup_report_plan#report_delivery_channel BackupReportPlan#report_delivery_channel}
 
 ---
 
@@ -1264,7 +1264,7 @@ report_setting: BackupReportPlanReportSetting
 
 Identifies the report template for the report. Reports are built using a report template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_report_plan#report_setting BackupReportPlan#report_setting}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/backup_report_plan#report_setting BackupReportPlan#report_setting}
 
 ---
 
@@ -1278,7 +1278,7 @@ report_plan_description: str
 
 An optional description of the report plan with a maximum of 1,024 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_report_plan#report_plan_description BackupReportPlan#report_plan_description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/backup_report_plan#report_plan_description BackupReportPlan#report_plan_description}
 
 ---
 
@@ -1294,7 +1294,7 @@ The unique name of the report plan.
 
 The name must be between 1 and 256 characters, starting with a letter, and consisting of letters (a-z, A-Z), numbers (0-9), and underscores (_).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_report_plan#report_plan_name BackupReportPlan#report_plan_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/backup_report_plan#report_plan_name BackupReportPlan#report_plan_name}
 
 ---
 
@@ -1310,7 +1310,7 @@ Metadata that you can assign to help organize the report plans that you create.
 
 Each tag is a key-value pair.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_report_plan#report_plan_tags BackupReportPlan#report_plan_tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/backup_report_plan#report_plan_tags BackupReportPlan#report_plan_tags}
 
 ---
 
@@ -1348,7 +1348,7 @@ s3_bucket_name: str
 
 The unique name of the S3 bucket that receives your reports.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_report_plan#s3_bucket_name BackupReportPlan#s3_bucket_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/backup_report_plan#s3_bucket_name BackupReportPlan#s3_bucket_name}
 
 ---
 
@@ -1364,7 +1364,7 @@ A list of the format of your reports: CSV, JSON, or both.
 
 If not specified, the default format is CSV.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_report_plan#formats BackupReportPlan#formats}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/backup_report_plan#formats BackupReportPlan#formats}
 
 ---
 
@@ -1380,7 +1380,7 @@ The prefix for where AWS Backup Audit Manager delivers your reports to Amazon S3
 
 The prefix is this part of the following path: s3://your-bucket-name/prefix/Backup/us-west-2/year/month/day/report-name. If not specified, there is no prefix.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_report_plan#s3_key_prefix BackupReportPlan#s3_key_prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/backup_report_plan#s3_key_prefix BackupReportPlan#s3_key_prefix}
 
 ---
 
@@ -1418,7 +1418,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_report_plan#key BackupReportPlan#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/backup_report_plan#key BackupReportPlan#key}
 
 ---
 
@@ -1434,7 +1434,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_report_plan#value BackupReportPlan#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/backup_report_plan#value BackupReportPlan#value}
 
 ---
 
@@ -1478,7 +1478,7 @@ Identifies the report template for the report.
 
 Reports are built using a report template. The report templates are: `BACKUP_JOB_REPORT | COPY_JOB_REPORT | RESTORE_JOB_REPORT`
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_report_plan#report_template BackupReportPlan#report_template}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/backup_report_plan#report_template BackupReportPlan#report_template}
 
 ---
 
@@ -1492,7 +1492,7 @@ accounts: typing.List[str]
 
 The list of AWS accounts that a report covers.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_report_plan#accounts BackupReportPlan#accounts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/backup_report_plan#accounts BackupReportPlan#accounts}
 
 ---
 
@@ -1506,7 +1506,7 @@ framework_arns: typing.List[str]
 
 The Amazon Resource Names (ARNs) of the frameworks a report covers.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_report_plan#framework_arns BackupReportPlan#framework_arns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/backup_report_plan#framework_arns BackupReportPlan#framework_arns}
 
 ---
 
@@ -1520,7 +1520,7 @@ organization_units: typing.List[str]
 
 The list of AWS organization units that a report covers.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_report_plan#organization_units BackupReportPlan#organization_units}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/backup_report_plan#organization_units BackupReportPlan#organization_units}
 
 ---
 
@@ -1534,7 +1534,7 @@ regions: typing.List[str]
 
 The list of AWS regions that a report covers.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_report_plan#regions BackupReportPlan#regions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/backup_report_plan#regions BackupReportPlan#regions}
 
 ---
 

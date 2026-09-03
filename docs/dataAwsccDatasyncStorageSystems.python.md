@@ -4,7 +4,7 @@
 
 ### DataAwsccDatasyncStorageSystems <a name="DataAwsccDatasyncStorageSystems" id="@cdktn/provider-awscc.dataAwsccDatasyncStorageSystems.DataAwsccDatasyncStorageSystems"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/datasync_storage_systems awscc_datasync_storage_systems}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/datasync_storage_systems awscc_datasync_storage_systems}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatasyncStorageSystems.DataAwsccDatasyncStorageSystems.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccDatasyncStorageSy
 
 The id of the existing DataAwsccDatasyncStorageSystems that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/datasync_storage_systems#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/datasync_storage_systems#import import section} in the documentation of this resource for the id to use
 
 ---
 

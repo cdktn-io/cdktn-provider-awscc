@@ -4,7 +4,7 @@
 
 ### WickrNetwork <a name="WickrNetwork" id="@cdktn/provider-awscc.wickrNetwork.WickrNetwork"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wickr_network awscc_wickr_network}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/wickr_network awscc_wickr_network}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.wickrNetwork.WickrNetwork.Initializer"></a>
 
@@ -108,7 +108,7 @@ Must be unique amongst siblings in the same scope
 
 The access level of the network, which determines available features and capabilities.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wickr_network#access_level WickrNetwork#access_level}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/wickr_network#access_level WickrNetwork#access_level}
 
 ---
 
@@ -118,7 +118,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the network. Must be between 1 and 20 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wickr_network#network_name WickrNetwork#network_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/wickr_network#network_name WickrNetwork#network_name}
 
 ---
 
@@ -615,7 +615,7 @@ The construct id used in the generated config for the WickrNetwork to import.
 
 The id of the existing WickrNetwork that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wickr_network#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/wickr_network#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1036,7 +1036,7 @@ access_level: str
 
 The access level of the network, which determines available features and capabilities.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wickr_network#access_level WickrNetwork#access_level}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/wickr_network#access_level WickrNetwork#access_level}
 
 ---
 
@@ -1050,7 +1050,7 @@ network_name: str
 
 The name of the network. Must be between 1 and 20 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wickr_network#network_name WickrNetwork#network_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/wickr_network#network_name WickrNetwork#network_name}
 
 ---
 

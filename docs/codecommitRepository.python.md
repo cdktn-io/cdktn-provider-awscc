@@ -4,7 +4,7 @@
 
 ### CodecommitRepository <a name="CodecommitRepository" id="@cdktn/provider-awscc.codecommitRepository.CodecommitRepository"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codecommit_repository awscc_codecommit_repository}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codecommit_repository awscc_codecommit_repository}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codecommitRepository.CodecommitRepository.Initializer"></a>
 
@@ -116,7 +116,7 @@ Must be unique amongst siblings in the same scope
 
 The name of the new repository to be created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codecommit_repository#repository_name CodecommitRepository#repository_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codecommit_repository#repository_name CodecommitRepository#repository_name}
 
 ---
 
@@ -128,7 +128,7 @@ Information about code to be committed to a repository after it is created in an
 
 Information about code is only used in resource creation. Updates to a stack will not reflect changes made to code properties after initial resource creation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codecommit_repository#code CodecommitRepository#code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codecommit_repository#code CodecommitRepository#code}
 
 ---
 
@@ -138,7 +138,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The ID of the AWS Key Management Service encryption key used to encrypt and decrypt the repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codecommit_repository#kms_key_id CodecommitRepository#kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codecommit_repository#kms_key_id CodecommitRepository#kms_key_id}
 
 ---
 
@@ -148,7 +148,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A comment or description about the new repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codecommit_repository#repository_description CodecommitRepository#repository_description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codecommit_repository#repository_description CodecommitRepository#repository_description}
 
 ---
 
@@ -158,7 +158,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 One or more tag key-value pairs to use when tagging this repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codecommit_repository#tags CodecommitRepository#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codecommit_repository#tags CodecommitRepository#tags}
 
 ---
 
@@ -168,7 +168,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Information about a trigger for a repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codecommit_repository#triggers CodecommitRepository#triggers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codecommit_repository#triggers CodecommitRepository#triggers}
 
 ---
 
@@ -576,7 +576,7 @@ Optional.
 
 Specifies a branch name to be used as the default branch when importing code into a repository on initial creation. If this property is not set, the name main will be used for the default branch for the repository. Changes to this property are ignored after initial resource creation. We recommend using this parameter to set the name to main to align with the default behavior of CodeCommit unless another name is needed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codecommit_repository#branch_name CodecommitRepository#branch_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codecommit_repository#branch_name CodecommitRepository#branch_name}
 
 ---
 
@@ -588,7 +588,7 @@ Information about the Amazon S3 bucket that contains a ZIP file of code to be co
 
 Changes to this property are ignored after initial resource creation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codecommit_repository#s3 CodecommitRepository#s3}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codecommit_repository#s3 CodecommitRepository#s3}
 
 ---
 
@@ -764,7 +764,7 @@ The construct id used in the generated config for the CodecommitRepository to im
 
 The id of the existing CodecommitRepository that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codecommit_repository#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codecommit_repository#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1191,7 +1191,7 @@ Optional.
 
 Specifies a branch name to be used as the default branch when importing code into a repository on initial creation. If this property is not set, the name main will be used for the default branch for the repository. Changes to this property are ignored after initial resource creation. We recommend using this parameter to set the name to main to align with the default behavior of CodeCommit unless another name is needed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codecommit_repository#branch_name CodecommitRepository#branch_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codecommit_repository#branch_name CodecommitRepository#branch_name}
 
 ---
 
@@ -1207,7 +1207,7 @@ Information about the Amazon S3 bucket that contains a ZIP file of code to be co
 
 Changes to this property are ignored after initial resource creation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codecommit_repository#s3 CodecommitRepository#s3}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codecommit_repository#s3 CodecommitRepository#s3}
 
 ---
 
@@ -1247,7 +1247,7 @@ The name of the Amazon S3 bucket that contains the ZIP file with the content tha
 
 This can be specified using the name of the bucket in the AWS account. Changes to this property are ignored after initial resource creation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codecommit_repository#bucket CodecommitRepository#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codecommit_repository#bucket CodecommitRepository#bucket}
 
 ---
 
@@ -1263,7 +1263,7 @@ The key to use for accessing the Amazon S3 bucket.
 
 Changes to this property are ignored after initial resource creation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codecommit_repository#key CodecommitRepository#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codecommit_repository#key CodecommitRepository#key}
 
 ---
 
@@ -1279,7 +1279,7 @@ The object version of the ZIP file, if versioning is enabled for the Amazon S3 b
 
 Changes to this property are ignored after initial resource creation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codecommit_repository#object_version CodecommitRepository#object_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codecommit_repository#object_version CodecommitRepository#object_version}
 
 ---
 
@@ -1407,7 +1407,7 @@ repository_name: str
 
 The name of the new repository to be created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codecommit_repository#repository_name CodecommitRepository#repository_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codecommit_repository#repository_name CodecommitRepository#repository_name}
 
 ---
 
@@ -1423,7 +1423,7 @@ Information about code to be committed to a repository after it is created in an
 
 Information about code is only used in resource creation. Updates to a stack will not reflect changes made to code properties after initial resource creation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codecommit_repository#code CodecommitRepository#code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codecommit_repository#code CodecommitRepository#code}
 
 ---
 
@@ -1437,7 +1437,7 @@ kms_key_id: str
 
 The ID of the AWS Key Management Service encryption key used to encrypt and decrypt the repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codecommit_repository#kms_key_id CodecommitRepository#kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codecommit_repository#kms_key_id CodecommitRepository#kms_key_id}
 
 ---
 
@@ -1451,7 +1451,7 @@ repository_description: str
 
 A comment or description about the new repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codecommit_repository#repository_description CodecommitRepository#repository_description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codecommit_repository#repository_description CodecommitRepository#repository_description}
 
 ---
 
@@ -1465,7 +1465,7 @@ tags: IResolvable | typing.List[CodecommitRepositoryTags]
 
 One or more tag key-value pairs to use when tagging this repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codecommit_repository#tags CodecommitRepository#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codecommit_repository#tags CodecommitRepository#tags}
 
 ---
 
@@ -1479,7 +1479,7 @@ triggers: IResolvable | typing.List[CodecommitRepositoryTriggers]
 
 Information about a trigger for a repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codecommit_repository#triggers CodecommitRepository#triggers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codecommit_repository#triggers CodecommitRepository#triggers}
 
 ---
 
@@ -1515,7 +1515,7 @@ key: str
 
 The tag's key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codecommit_repository#key CodecommitRepository#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codecommit_repository#key CodecommitRepository#key}
 
 ---
 
@@ -1529,7 +1529,7 @@ value: str
 
 The tag's value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codecommit_repository#value CodecommitRepository#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codecommit_repository#value CodecommitRepository#value}
 
 ---
 
@@ -1573,7 +1573,7 @@ The branches to be included in the trigger configuration.
 
 If you specify an empty array, the trigger applies to all branches.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codecommit_repository#branches CodecommitRepository#branches}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codecommit_repository#branches CodecommitRepository#branches}
 
 ---
 
@@ -1587,7 +1587,7 @@ custom_data: str
 
 Any custom data associated with the trigger to be included in the information sent to the target of the trigger.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codecommit_repository#custom_data CodecommitRepository#custom_data}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codecommit_repository#custom_data CodecommitRepository#custom_data}
 
 ---
 
@@ -1601,7 +1601,7 @@ destination_arn: str
 
 The ARN of the resource that is the target for a trigger (for example, the ARN of a topic in Amazon SNS).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codecommit_repository#destination_arn CodecommitRepository#destination_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codecommit_repository#destination_arn CodecommitRepository#destination_arn}
 
 ---
 
@@ -1615,7 +1615,7 @@ events: typing.List[str]
 
 The repository events that cause the trigger to run actions in another service, such as sending a notification through Amazon SNS.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codecommit_repository#events CodecommitRepository#events}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codecommit_repository#events CodecommitRepository#events}
 
 ---
 
@@ -1629,7 +1629,7 @@ name: str
 
 The name of the trigger.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codecommit_repository#name CodecommitRepository#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codecommit_repository#name CodecommitRepository#name}
 
 ---
 
@@ -1884,7 +1884,7 @@ The name of the Amazon S3 bucket that contains the ZIP file with the content tha
 
 This can be specified using the name of the bucket in the AWS account. Changes to this property are ignored after initial resource creation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codecommit_repository#bucket CodecommitRepository#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codecommit_repository#bucket CodecommitRepository#bucket}
 
 ---
 
@@ -1896,7 +1896,7 @@ The key to use for accessing the Amazon S3 bucket.
 
 Changes to this property are ignored after initial resource creation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codecommit_repository#key CodecommitRepository#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codecommit_repository#key CodecommitRepository#key}
 
 ---
 
@@ -1908,7 +1908,7 @@ The object version of the ZIP file, if versioning is enabled for the Amazon S3 b
 
 Changes to this property are ignored after initial resource creation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codecommit_repository#object_version CodecommitRepository#object_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codecommit_repository#object_version CodecommitRepository#object_version}
 
 ---
 

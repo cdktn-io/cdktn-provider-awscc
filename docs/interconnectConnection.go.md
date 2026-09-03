@@ -4,7 +4,7 @@
 
 ### InterconnectConnection <a name="InterconnectConnection" id="@cdktn/provider-awscc.interconnectConnection.InterconnectConnection"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/interconnect_connection awscc_interconnect_connection}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/interconnect_connection awscc_interconnect_connection}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.interconnectConnection.InterconnectConnection.Initializer"></a>
 
@@ -577,7 +577,7 @@ The construct id used in the generated config for the InterconnectConnection to 
 
 The id of the existing InterconnectConnection that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/interconnect_connection#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/interconnect_connection#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1079,7 +1079,7 @@ Arn *string
 
 The ARN of the resource to attach to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/interconnect_connection#arn InterconnectConnection#arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/interconnect_connection#arn InterconnectConnection#arn}
 
 ---
 
@@ -1093,7 +1093,7 @@ DirectConnectGateway *string
 
 The ID of the Direct Connect Gateway to attach to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/interconnect_connection#direct_connect_gateway InterconnectConnection#direct_connect_gateway}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/interconnect_connection#direct_connect_gateway InterconnectConnection#direct_connect_gateway}
 
 ---
 
@@ -1225,7 +1225,7 @@ AttachPoint InterconnectConnectionAttachPoint
 
 The logical attachment point in your AWS network where the managed connection will be connected.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/interconnect_connection#attach_point InterconnectConnection#attach_point}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/interconnect_connection#attach_point InterconnectConnection#attach_point}
 
 ---
 
@@ -1239,7 +1239,7 @@ ActivationKey *string
 
 The activation key for accepting a connection proposal from a partner CSP. Mutually exclusive with EnvironmentId.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/interconnect_connection#activation_key InterconnectConnection#activation_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/interconnect_connection#activation_key InterconnectConnection#activation_key}
 
 ---
 
@@ -1253,7 +1253,7 @@ Bandwidth *string
 
 The bandwidth of the connection (e.g., 50Mbps, 1Gbps). Required when creating a connection through AWS.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/interconnect_connection#bandwidth InterconnectConnection#bandwidth}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/interconnect_connection#bandwidth InterconnectConnection#bandwidth}
 
 ---
 
@@ -1267,7 +1267,7 @@ Description *string
 
 A description of the connection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/interconnect_connection#description InterconnectConnection#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/interconnect_connection#description InterconnectConnection#description}
 
 ---
 
@@ -1281,7 +1281,7 @@ EnvironmentId *string
 
 The ID of the environment for the connection. Required when creating a connection through AWS. Mutually exclusive with ActivationKey.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/interconnect_connection#environment_id InterconnectConnection#environment_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/interconnect_connection#environment_id InterconnectConnection#environment_id}
 
 ---
 
@@ -1295,7 +1295,7 @@ RemoteAccount InterconnectConnectionRemoteAccount
 
 The remote account identifier for the connection. Required when creating a connection through AWS. Replaces RemoteOwnerAccount.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/interconnect_connection#remote_account InterconnectConnection#remote_account}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/interconnect_connection#remote_account InterconnectConnection#remote_account}
 
 ---
 
@@ -1309,7 +1309,7 @@ RemoteOwnerAccount *string
 
 Deprecated. Use RemoteAccount instead. The account ID of the remote owner. Required when creating a connection through AWS.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/interconnect_connection#remote_owner_account InterconnectConnection#remote_owner_account}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/interconnect_connection#remote_owner_account InterconnectConnection#remote_owner_account}
 
 ---
 
@@ -1323,7 +1323,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/interconnect_connection#tags InterconnectConnection#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/interconnect_connection#tags InterconnectConnection#tags}
 
 ---
 
@@ -1370,7 +1370,7 @@ Identifier *string
 
 The identifier of the remote account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/interconnect_connection#identifier InterconnectConnection#identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/interconnect_connection#identifier InterconnectConnection#identifier}
 
 ---
 
@@ -1408,7 +1408,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/interconnect_connection#key InterconnectConnection#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/interconnect_connection#key InterconnectConnection#key}
 
 ---
 
@@ -1424,7 +1424,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/interconnect_connection#value InterconnectConnection#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/interconnect_connection#value InterconnectConnection#value}
 
 ---
 

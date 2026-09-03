@@ -4,7 +4,7 @@
 
 ### KafkaconnectWorkerConfiguration <a name="KafkaconnectWorkerConfiguration" id="@cdktn/provider-awscc.kafkaconnectWorkerConfiguration.KafkaconnectWorkerConfiguration"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kafkaconnect_worker_configuration awscc_kafkaconnect_worker_configuration}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kafkaconnect_worker_configuration awscc_kafkaconnect_worker_configuration}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.kafkaconnectWorkerConfiguration.KafkaconnectWorkerConfiguration.Initializer"></a>
 
@@ -516,7 +516,7 @@ The construct id used in the generated config for the KafkaconnectWorkerConfigur
 
 The id of the existing KafkaconnectWorkerConfiguration that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kafkaconnect_worker_configuration#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kafkaconnect_worker_configuration#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -940,7 +940,7 @@ public readonly name: string;
 
 The name of the worker configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kafkaconnect_worker_configuration#name KafkaconnectWorkerConfiguration#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kafkaconnect_worker_configuration#name KafkaconnectWorkerConfiguration#name}
 
 ---
 
@@ -954,7 +954,7 @@ public readonly propertiesFileContent: string;
 
 Base64 encoded contents of connect-distributed.properties file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kafkaconnect_worker_configuration#properties_file_content KafkaconnectWorkerConfiguration#properties_file_content}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kafkaconnect_worker_configuration#properties_file_content KafkaconnectWorkerConfiguration#properties_file_content}
 
 ---
 
@@ -968,7 +968,7 @@ public readonly description: string;
 
 A summary description of the worker configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kafkaconnect_worker_configuration#description KafkaconnectWorkerConfiguration#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kafkaconnect_worker_configuration#description KafkaconnectWorkerConfiguration#description}
 
 ---
 
@@ -982,7 +982,7 @@ public readonly tags: IResolvable | KafkaconnectWorkerConfigurationTags[];
 
 A collection of tags associated with a resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kafkaconnect_worker_configuration#tags KafkaconnectWorkerConfiguration#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kafkaconnect_worker_configuration#tags KafkaconnectWorkerConfiguration#tags}
 
 ---
 
@@ -1000,8 +1000,8 @@ const kafkaconnectWorkerConfigurationTags: kafkaconnectWorkerConfiguration.Kafka
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.kafkaconnectWorkerConfiguration.KafkaconnectWorkerConfigurationTags.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kafkaconnect_worker_configuration#key KafkaconnectWorkerConfiguration#key}. |
-| <code><a href="#@cdktn/provider-awscc.kafkaconnectWorkerConfiguration.KafkaconnectWorkerConfigurationTags.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kafkaconnect_worker_configuration#value KafkaconnectWorkerConfiguration#value}. |
+| <code><a href="#@cdktn/provider-awscc.kafkaconnectWorkerConfiguration.KafkaconnectWorkerConfigurationTags.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kafkaconnect_worker_configuration#key KafkaconnectWorkerConfiguration#key}. |
+| <code><a href="#@cdktn/provider-awscc.kafkaconnectWorkerConfiguration.KafkaconnectWorkerConfigurationTags.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kafkaconnect_worker_configuration#value KafkaconnectWorkerConfiguration#value}. |
 
 ---
 
@@ -1013,7 +1013,7 @@ public readonly key: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kafkaconnect_worker_configuration#key KafkaconnectWorkerConfiguration#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kafkaconnect_worker_configuration#key KafkaconnectWorkerConfiguration#key}.
 
 ---
 
@@ -1025,7 +1025,7 @@ public readonly value: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kafkaconnect_worker_configuration#value KafkaconnectWorkerConfiguration#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kafkaconnect_worker_configuration#value KafkaconnectWorkerConfiguration#value}.
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### XrayGroup <a name="XrayGroup" id="@cdktn/provider-awscc.xrayGroup.XrayGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/xray_group awscc_xray_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/xray_group awscc_xray_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.xrayGroup.XrayGroup.Initializer"></a>
 
@@ -41,7 +41,7 @@ xrayGroup.XrayGroup(
 | <code><a href="#@cdktn/provider-awscc.xrayGroup.XrayGroup.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.xrayGroup.XrayGroup.Initializer.parameter.groupName">group_name</a></code> | <code>str</code> | The case-sensitive name of the new group. Names must be unique. |
 | <code><a href="#@cdktn/provider-awscc.xrayGroup.XrayGroup.Initializer.parameter.filterExpression">filter_expression</a></code> | <code>str</code> | The filter expression defining criteria by which to group traces. |
-| <code><a href="#@cdktn/provider-awscc.xrayGroup.XrayGroup.Initializer.parameter.insightsConfiguration">insights_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.xrayGroup.XrayGroupInsightsConfiguration">XrayGroupInsightsConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/xray_group#insights_configuration XrayGroup#insights_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.xrayGroup.XrayGroup.Initializer.parameter.insightsConfiguration">insights_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.xrayGroup.XrayGroupInsightsConfiguration">XrayGroupInsightsConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/xray_group#insights_configuration XrayGroup#insights_configuration}. |
 | <code><a href="#@cdktn/provider-awscc.xrayGroup.XrayGroup.Initializer.parameter.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.xrayGroup.XrayGroupTags">XrayGroupTags</a>]</code> | An array of key-value pairs to apply to this resource. |
 
 ---
@@ -112,7 +112,7 @@ Must be unique amongst siblings in the same scope
 
 The case-sensitive name of the new group. Names must be unique.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/xray_group#group_name XrayGroup#group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/xray_group#group_name XrayGroup#group_name}
 
 ---
 
@@ -122,7 +122,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The filter expression defining criteria by which to group traces.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/xray_group#filter_expression XrayGroup#filter_expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/xray_group#filter_expression XrayGroup#filter_expression}
 
 ---
 
@@ -130,7 +130,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.xrayGroup.XrayGroupInsightsConfiguration">XrayGroupInsightsConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/xray_group#insights_configuration XrayGroup#insights_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/xray_group#insights_configuration XrayGroup#insights_configuration}.
 
 ---
 
@@ -140,7 +140,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/xray_group#tags XrayGroup#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/xray_group#tags XrayGroup#tags}
 
 ---
 
@@ -543,7 +543,7 @@ def put_insights_configuration(
 
 Set the InsightsEnabled value to true to enable insights or false to disable insights.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/xray_group#insights_enabled XrayGroup#insights_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/xray_group#insights_enabled XrayGroup#insights_enabled}
 
 ---
 
@@ -555,7 +555,7 @@ Set the NotificationsEnabled value to true to enable insights notifications.
 
 Notifications can only be enabled on a group with InsightsEnabled set to true.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/xray_group#notifications_enabled XrayGroup#notifications_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/xray_group#notifications_enabled XrayGroup#notifications_enabled}
 
 ---
 
@@ -705,7 +705,7 @@ The construct id used in the generated config for the XrayGroup to import.
 
 The id of the existing XrayGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/xray_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/xray_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1045,7 +1045,7 @@ xrayGroup.XrayGroupConfig(
 | <code><a href="#@cdktn/provider-awscc.xrayGroup.XrayGroupConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.xrayGroup.XrayGroupConfig.property.groupName">group_name</a></code> | <code>str</code> | The case-sensitive name of the new group. Names must be unique. |
 | <code><a href="#@cdktn/provider-awscc.xrayGroup.XrayGroupConfig.property.filterExpression">filter_expression</a></code> | <code>str</code> | The filter expression defining criteria by which to group traces. |
-| <code><a href="#@cdktn/provider-awscc.xrayGroup.XrayGroupConfig.property.insightsConfiguration">insights_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.xrayGroup.XrayGroupInsightsConfiguration">XrayGroupInsightsConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/xray_group#insights_configuration XrayGroup#insights_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.xrayGroup.XrayGroupConfig.property.insightsConfiguration">insights_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.xrayGroup.XrayGroupInsightsConfiguration">XrayGroupInsightsConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/xray_group#insights_configuration XrayGroup#insights_configuration}. |
 | <code><a href="#@cdktn/provider-awscc.xrayGroup.XrayGroupConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.xrayGroup.XrayGroupTags">XrayGroupTags</a>]</code> | An array of key-value pairs to apply to this resource. |
 
 ---
@@ -1130,7 +1130,7 @@ group_name: str
 
 The case-sensitive name of the new group. Names must be unique.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/xray_group#group_name XrayGroup#group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/xray_group#group_name XrayGroup#group_name}
 
 ---
 
@@ -1144,7 +1144,7 @@ filter_expression: str
 
 The filter expression defining criteria by which to group traces.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/xray_group#filter_expression XrayGroup#filter_expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/xray_group#filter_expression XrayGroup#filter_expression}
 
 ---
 
@@ -1156,7 +1156,7 @@ insights_configuration: XrayGroupInsightsConfiguration
 
 - *Type:* <a href="#@cdktn/provider-awscc.xrayGroup.XrayGroupInsightsConfiguration">XrayGroupInsightsConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/xray_group#insights_configuration XrayGroup#insights_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/xray_group#insights_configuration XrayGroup#insights_configuration}.
 
 ---
 
@@ -1170,7 +1170,7 @@ tags: IResolvable | typing.List[XrayGroupTags]
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/xray_group#tags XrayGroup#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/xray_group#tags XrayGroup#tags}
 
 ---
 
@@ -1206,7 +1206,7 @@ insights_enabled: bool | IResolvable
 
 Set the InsightsEnabled value to true to enable insights or false to disable insights.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/xray_group#insights_enabled XrayGroup#insights_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/xray_group#insights_enabled XrayGroup#insights_enabled}
 
 ---
 
@@ -1222,7 +1222,7 @@ Set the NotificationsEnabled value to true to enable insights notifications.
 
 Notifications can only be enabled on a group with InsightsEnabled set to true.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/xray_group#notifications_enabled XrayGroup#notifications_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/xray_group#notifications_enabled XrayGroup#notifications_enabled}
 
 ---
 
@@ -1258,7 +1258,7 @@ key: str
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/xray_group#key XrayGroup#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/xray_group#key XrayGroup#key}
 
 ---
 
@@ -1272,7 +1272,7 @@ value: str
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/xray_group#value XrayGroup#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/xray_group#value XrayGroup#value}
 
 ---
 

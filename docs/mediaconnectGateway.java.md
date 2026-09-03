@@ -4,7 +4,7 @@
 
 ### MediaconnectGateway <a name="MediaconnectGateway" id="@cdktn/provider-awscc.mediaconnectGateway.MediaconnectGateway"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_gateway awscc_mediaconnect_gateway}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_gateway awscc_mediaconnect_gateway}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediaconnectGateway.MediaconnectGateway.Initializer"></a>
 
@@ -110,7 +110,7 @@ The range of IP addresses that contribute content or initiate output requests fo
 
 These IP addresses should be in the form of a Classless Inter-Domain Routing (CIDR) block; for example, 10.0.0.0/16.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_gateway#egress_cidr_blocks MediaconnectGateway#egress_cidr_blocks}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_gateway#egress_cidr_blocks MediaconnectGateway#egress_cidr_blocks}
 
 ---
 
@@ -120,7 +120,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the gateway. This name can not be modified after the gateway is created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_gateway#name MediaconnectGateway#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_gateway#name MediaconnectGateway#name}
 
 ---
 
@@ -130,7 +130,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The list of networks in the gateway.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_gateway#networks MediaconnectGateway#networks}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_gateway#networks MediaconnectGateway#networks}
 
 ---
 
@@ -592,7 +592,7 @@ The construct id used in the generated config for the MediaconnectGateway to imp
 
 The id of the existing MediaconnectGateway that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_gateway#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_gateway#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1006,7 +1006,7 @@ The range of IP addresses that contribute content or initiate output requests fo
 
 These IP addresses should be in the form of a Classless Inter-Domain Routing (CIDR) block; for example, 10.0.0.0/16.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_gateway#egress_cidr_blocks MediaconnectGateway#egress_cidr_blocks}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_gateway#egress_cidr_blocks MediaconnectGateway#egress_cidr_blocks}
 
 ---
 
@@ -1020,7 +1020,7 @@ public java.lang.String getName();
 
 The name of the gateway. This name can not be modified after the gateway is created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_gateway#name MediaconnectGateway#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_gateway#name MediaconnectGateway#name}
 
 ---
 
@@ -1034,7 +1034,7 @@ public IResolvable|java.util.List<MediaconnectGatewayNetworks> getNetworks();
 
 The list of networks in the gateway.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_gateway#networks MediaconnectGateway#networks}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_gateway#networks MediaconnectGateway#networks}
 
 ---
 
@@ -1072,7 +1072,7 @@ A unique IP address range to use for this network.
 
 These IP addresses should be in the form of a Classless Inter-Domain Routing (CIDR) block; for example, 10.0.0.0/16.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_gateway#cidr_block MediaconnectGateway#cidr_block}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_gateway#cidr_block MediaconnectGateway#cidr_block}
 
 ---
 
@@ -1088,7 +1088,7 @@ The name of the network.
 
 This name is used to reference the network and must be unique among networks in this gateway.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_gateway#name MediaconnectGateway#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_gateway#name MediaconnectGateway#name}
 
 ---
 

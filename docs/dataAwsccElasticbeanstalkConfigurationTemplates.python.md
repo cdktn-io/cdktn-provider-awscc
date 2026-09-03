@@ -4,7 +4,7 @@
 
 ### DataAwsccElasticbeanstalkConfigurationTemplates <a name="DataAwsccElasticbeanstalkConfigurationTemplates" id="@cdktn/provider-awscc.dataAwsccElasticbeanstalkConfigurationTemplates.DataAwsccElasticbeanstalkConfigurationTemplates"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/elasticbeanstalk_configuration_templates awscc_elasticbeanstalk_configuration_templates}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/elasticbeanstalk_configuration_templates awscc_elasticbeanstalk_configuration_templates}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccElasticbeanstalkConfigurationTemplates.DataAwsccElasticbeanstalkConfigurationTemplates.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccElasticbeanstalkC
 
 The id of the existing DataAwsccElasticbeanstalkConfigurationTemplates that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/elasticbeanstalk_configuration_templates#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/elasticbeanstalk_configuration_templates#import import section} in the documentation of this resource for the id to use
 
 ---
 

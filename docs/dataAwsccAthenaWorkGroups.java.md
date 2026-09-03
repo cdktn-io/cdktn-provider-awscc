@@ -4,7 +4,7 @@
 
 ### DataAwsccAthenaWorkGroups <a name="DataAwsccAthenaWorkGroups" id="@cdktn/provider-awscc.dataAwsccAthenaWorkGroups.DataAwsccAthenaWorkGroups"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/athena_work_groups awscc_athena_work_groups}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/athena_work_groups awscc_athena_work_groups}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAthenaWorkGroups.DataAwsccAthenaWorkGroups.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccAthenaWorkGroups 
 
 The id of the existing DataAwsccAthenaWorkGroups that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/athena_work_groups#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/athena_work_groups#import import section} in the documentation of this resource for the id to use
 
 ---
 

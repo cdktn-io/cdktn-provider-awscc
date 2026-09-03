@@ -4,7 +4,7 @@
 
 ### DataAwsccSignerSigningProfiles <a name="DataAwsccSignerSigningProfiles" id="@cdktn/provider-awscc.dataAwsccSignerSigningProfiles.DataAwsccSignerSigningProfiles"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/signer_signing_profiles awscc_signer_signing_profiles}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/signer_signing_profiles awscc_signer_signing_profiles}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSignerSigningProfiles.DataAwsccSignerSigningProfiles.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSignerSigningProf
 
 The id of the existing DataAwsccSignerSigningProfiles that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/signer_signing_profiles#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/signer_signing_profiles#import import section} in the documentation of this resource for the id to use
 
 ---
 

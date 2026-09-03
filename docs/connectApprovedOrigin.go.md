@@ -4,7 +4,7 @@
 
 ### ConnectApprovedOrigin <a name="ConnectApprovedOrigin" id="@cdktn/provider-awscc.connectApprovedOrigin.ConnectApprovedOrigin"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_approved_origin awscc_connect_approved_origin}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/connect_approved_origin awscc_connect_approved_origin}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectApprovedOrigin.ConnectApprovedOrigin.Initializer"></a>
 
@@ -489,7 +489,7 @@ The construct id used in the generated config for the ConnectApprovedOrigin to i
 
 The id of the existing ConnectApprovedOrigin that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_approved_origin#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/connect_approved_origin#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -855,7 +855,7 @@ InstanceId *string
 
 Amazon Connect instance identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_approved_origin#instance_id ConnectApprovedOrigin#instance_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/connect_approved_origin#instance_id ConnectApprovedOrigin#instance_id}
 
 ---
 
@@ -869,7 +869,7 @@ Origin *string
 
 Domain name to be added to the allowlist of instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_approved_origin#origin ConnectApprovedOrigin#origin}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/connect_approved_origin#origin ConnectApprovedOrigin#origin}
 
 ---
 

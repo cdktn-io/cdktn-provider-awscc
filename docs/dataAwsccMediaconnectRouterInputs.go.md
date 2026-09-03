@@ -4,7 +4,7 @@
 
 ### DataAwsccMediaconnectRouterInputs <a name="DataAwsccMediaconnectRouterInputs" id="@cdktn/provider-awscc.dataAwsccMediaconnectRouterInputs.DataAwsccMediaconnectRouterInputs"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/mediaconnect_router_inputs awscc_mediaconnect_router_inputs}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/mediaconnect_router_inputs awscc_mediaconnect_router_inputs}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediaconnectRouterInputs.DataAwsccMediaconnectRouterInputs.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccMediaconnectRoute
 
 The id of the existing DataAwsccMediaconnectRouterInputs that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/mediaconnect_router_inputs#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/mediaconnect_router_inputs#import import section} in the documentation of this resource for the id to use
 
 ---
 

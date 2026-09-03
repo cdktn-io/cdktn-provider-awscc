@@ -4,7 +4,7 @@
 
 ### CloudwatchInsightRule <a name="CloudwatchInsightRule" id="@cdktn/provider-awscc.cloudwatchInsightRule.CloudwatchInsightRule"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudwatch_insight_rule awscc_cloudwatch_insight_rule}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudwatch_insight_rule awscc_cloudwatch_insight_rule}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudwatchInsightRule.CloudwatchInsightRule.Initializer"></a>
 
@@ -516,7 +516,7 @@ The construct id used in the generated config for the CloudwatchInsightRule to i
 
 The id of the existing CloudwatchInsightRule that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudwatch_insight_rule#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudwatch_insight_rule#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -877,11 +877,11 @@ new CloudwatchInsightRuleConfig {
 | <code><a href="#@cdktn/provider-awscc.cloudwatchInsightRule.CloudwatchInsightRuleConfig.property.lifecycle">Lifecycle</a></code> | <code>Io.Cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.cloudwatchInsightRule.CloudwatchInsightRuleConfig.property.provider">Provider</a></code> | <code>Io.Cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.cloudwatchInsightRule.CloudwatchInsightRuleConfig.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.cloudwatchInsightRule.CloudwatchInsightRuleConfig.property.ruleBody">RuleBody</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudwatch_insight_rule#rule_body CloudwatchInsightRule#rule_body}. |
-| <code><a href="#@cdktn/provider-awscc.cloudwatchInsightRule.CloudwatchInsightRuleConfig.property.ruleName">RuleName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudwatch_insight_rule#rule_name CloudwatchInsightRule#rule_name}. |
-| <code><a href="#@cdktn/provider-awscc.cloudwatchInsightRule.CloudwatchInsightRuleConfig.property.ruleState">RuleState</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudwatch_insight_rule#rule_state CloudwatchInsightRule#rule_state}. |
-| <code><a href="#@cdktn/provider-awscc.cloudwatchInsightRule.CloudwatchInsightRuleConfig.property.applyOnTransformedLogs">ApplyOnTransformedLogs</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudwatch_insight_rule#apply_on_transformed_logs CloudwatchInsightRule#apply_on_transformed_logs}. |
-| <code><a href="#@cdktn/provider-awscc.cloudwatchInsightRule.CloudwatchInsightRuleConfig.property.tags">Tags</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.cloudwatchInsightRule.CloudwatchInsightRuleTags">CloudwatchInsightRuleTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudwatch_insight_rule#tags CloudwatchInsightRule#tags}. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchInsightRule.CloudwatchInsightRuleConfig.property.ruleBody">RuleBody</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudwatch_insight_rule#rule_body CloudwatchInsightRule#rule_body}. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchInsightRule.CloudwatchInsightRuleConfig.property.ruleName">RuleName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudwatch_insight_rule#rule_name CloudwatchInsightRule#rule_name}. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchInsightRule.CloudwatchInsightRuleConfig.property.ruleState">RuleState</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudwatch_insight_rule#rule_state CloudwatchInsightRule#rule_state}. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchInsightRule.CloudwatchInsightRuleConfig.property.applyOnTransformedLogs">ApplyOnTransformedLogs</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudwatch_insight_rule#apply_on_transformed_logs CloudwatchInsightRule#apply_on_transformed_logs}. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchInsightRule.CloudwatchInsightRuleConfig.property.tags">Tags</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.cloudwatchInsightRule.CloudwatchInsightRuleTags">CloudwatchInsightRuleTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudwatch_insight_rule#tags CloudwatchInsightRule#tags}. |
 
 ---
 
@@ -963,7 +963,7 @@ public string RuleBody { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudwatch_insight_rule#rule_body CloudwatchInsightRule#rule_body}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudwatch_insight_rule#rule_body CloudwatchInsightRule#rule_body}.
 
 ---
 
@@ -975,7 +975,7 @@ public string RuleName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudwatch_insight_rule#rule_name CloudwatchInsightRule#rule_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudwatch_insight_rule#rule_name CloudwatchInsightRule#rule_name}.
 
 ---
 
@@ -987,7 +987,7 @@ public string RuleState { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudwatch_insight_rule#rule_state CloudwatchInsightRule#rule_state}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudwatch_insight_rule#rule_state CloudwatchInsightRule#rule_state}.
 
 ---
 
@@ -999,7 +999,7 @@ public bool|IResolvable ApplyOnTransformedLogs { get; set; }
 
 - *Type:* bool|Io.Cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudwatch_insight_rule#apply_on_transformed_logs CloudwatchInsightRule#apply_on_transformed_logs}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudwatch_insight_rule#apply_on_transformed_logs CloudwatchInsightRule#apply_on_transformed_logs}.
 
 ---
 
@@ -1011,7 +1011,7 @@ public IResolvable|CloudwatchInsightRuleTags[] Tags { get; set; }
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.cloudwatchInsightRule.CloudwatchInsightRuleTags">CloudwatchInsightRuleTags</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudwatch_insight_rule#tags CloudwatchInsightRule#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudwatch_insight_rule#tags CloudwatchInsightRule#tags}.
 
 ---
 
@@ -1032,8 +1032,8 @@ new CloudwatchInsightRuleTags {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.cloudwatchInsightRule.CloudwatchInsightRuleTags.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudwatch_insight_rule#key CloudwatchInsightRule#key}. |
-| <code><a href="#@cdktn/provider-awscc.cloudwatchInsightRule.CloudwatchInsightRuleTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudwatch_insight_rule#value CloudwatchInsightRule#value}. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchInsightRule.CloudwatchInsightRuleTags.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudwatch_insight_rule#key CloudwatchInsightRule#key}. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchInsightRule.CloudwatchInsightRuleTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudwatch_insight_rule#value CloudwatchInsightRule#value}. |
 
 ---
 
@@ -1045,7 +1045,7 @@ public string Key { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudwatch_insight_rule#key CloudwatchInsightRule#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudwatch_insight_rule#key CloudwatchInsightRule#key}.
 
 ---
 
@@ -1057,7 +1057,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudwatch_insight_rule#value CloudwatchInsightRule#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudwatch_insight_rule#value CloudwatchInsightRule#value}.
 
 ---
 

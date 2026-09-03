@@ -4,7 +4,7 @@
 
 ### GuarddutyMaster <a name="GuarddutyMaster" id="@cdktn/provider-awscc.guarddutyMaster.GuarddutyMaster"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/guardduty_master awscc_guardduty_master}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/guardduty_master awscc_guardduty_master}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.guarddutyMaster.GuarddutyMaster.Initializer"></a>
 
@@ -110,7 +110,7 @@ Must be unique amongst siblings in the same scope
 
 Unique ID of the detector of the GuardDuty member account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/guardduty_master#detector_id GuarddutyMaster#detector_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/guardduty_master#detector_id GuarddutyMaster#detector_id}
 
 ---
 
@@ -120,7 +120,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ID of the account used as the master account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/guardduty_master#master_id GuarddutyMaster#master_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/guardduty_master#master_id GuarddutyMaster#master_id}
 
 ---
 
@@ -130,7 +130,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Value used to validate the master account to the member account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/guardduty_master#invitation_id GuarddutyMaster#invitation_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/guardduty_master#invitation_id GuarddutyMaster#invitation_id}
 
 ---
 
@@ -634,7 +634,7 @@ The construct id used in the generated config for the GuarddutyMaster to import.
 
 The id of the existing GuarddutyMaster that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/guardduty_master#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/guardduty_master#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1024,7 +1024,7 @@ detector_id: str
 
 Unique ID of the detector of the GuardDuty member account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/guardduty_master#detector_id GuarddutyMaster#detector_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/guardduty_master#detector_id GuarddutyMaster#detector_id}
 
 ---
 
@@ -1038,7 +1038,7 @@ master_id: str
 
 ID of the account used as the master account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/guardduty_master#master_id GuarddutyMaster#master_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/guardduty_master#master_id GuarddutyMaster#master_id}
 
 ---
 
@@ -1052,7 +1052,7 @@ invitation_id: str
 
 Value used to validate the master account to the member account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/guardduty_master#invitation_id GuarddutyMaster#invitation_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/guardduty_master#invitation_id GuarddutyMaster#invitation_id}
 
 ---
 

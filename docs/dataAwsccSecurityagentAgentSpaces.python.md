@@ -4,7 +4,7 @@
 
 ### DataAwsccSecurityagentAgentSpaces <a name="DataAwsccSecurityagentAgentSpaces" id="@cdktn/provider-awscc.dataAwsccSecurityagentAgentSpaces.DataAwsccSecurityagentAgentSpaces"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/securityagent_agent_spaces awscc_securityagent_agent_spaces}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/securityagent_agent_spaces awscc_securityagent_agent_spaces}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityagentAgentSpaces.DataAwsccSecurityagentAgentSpaces.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccSecurityagentAgen
 
 The id of the existing DataAwsccSecurityagentAgentSpaces that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/securityagent_agent_spaces#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/securityagent_agent_spaces#import import section} in the documentation of this resource for the id to use
 
 ---
 

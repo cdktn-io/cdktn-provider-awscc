@@ -4,7 +4,7 @@
 
 ### ScnNamespace <a name="ScnNamespace" id="@cdktn/provider-awscc.scnNamespace.ScnNamespace"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/scn_namespace awscc_scn_namespace}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/scn_namespace awscc_scn_namespace}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.scnNamespace.ScnNamespace.Initializer"></a>
 
@@ -516,7 +516,7 @@ The construct id used in the generated config for the ScnNamespace to import.
 
 The id of the existing ScnNamespace that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/scn_namespace#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/scn_namespace#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -963,7 +963,7 @@ InstanceId *string
 
 The Amazon Web Services Supply Chain instance identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/scn_namespace#instance_id ScnNamespace#instance_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/scn_namespace#instance_id ScnNamespace#instance_id}
 
 ---
 
@@ -977,7 +977,7 @@ Name *string
 
 The name of the namespace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/scn_namespace#name ScnNamespace#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/scn_namespace#name ScnNamespace#name}
 
 ---
 
@@ -991,7 +991,7 @@ Description *string
 
 The description of the namespace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/scn_namespace#description ScnNamespace#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/scn_namespace#description ScnNamespace#description}
 
 ---
 
@@ -1005,7 +1005,7 @@ Tags interface{}
 
 The tags for the namespace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/scn_namespace#tags ScnNamespace#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/scn_namespace#tags ScnNamespace#tags}
 
 ---
 
@@ -1026,8 +1026,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/scnnamespace"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.scnNamespace.ScnNamespaceTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/scn_namespace#key ScnNamespace#key}. |
-| <code><a href="#@cdktn/provider-awscc.scnNamespace.ScnNamespaceTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/scn_namespace#value ScnNamespace#value}. |
+| <code><a href="#@cdktn/provider-awscc.scnNamespace.ScnNamespaceTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/scn_namespace#key ScnNamespace#key}. |
+| <code><a href="#@cdktn/provider-awscc.scnNamespace.ScnNamespaceTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/scn_namespace#value ScnNamespace#value}. |
 
 ---
 
@@ -1039,7 +1039,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/scn_namespace#key ScnNamespace#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/scn_namespace#key ScnNamespace#key}.
 
 ---
 
@@ -1051,7 +1051,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/scn_namespace#value ScnNamespace#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/scn_namespace#value ScnNamespace#value}.
 
 ---
 

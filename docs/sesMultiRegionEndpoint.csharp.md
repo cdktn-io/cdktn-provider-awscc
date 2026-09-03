@@ -4,7 +4,7 @@
 
 ### SesMultiRegionEndpoint <a name="SesMultiRegionEndpoint" id="@cdktn/provider-awscc.sesMultiRegionEndpoint.SesMultiRegionEndpoint"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_multi_region_endpoint awscc_ses_multi_region_endpoint}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ses_multi_region_endpoint awscc_ses_multi_region_endpoint}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sesMultiRegionEndpoint.SesMultiRegionEndpoint.Initializer"></a>
 
@@ -522,7 +522,7 @@ The construct id used in the generated config for the SesMultiRegionEndpoint to 
 
 The id of the existing SesMultiRegionEndpoint that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_multi_region_endpoint#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ses_multi_region_endpoint#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -912,7 +912,7 @@ public SesMultiRegionEndpointDetails Details { get; set; }
 
 Contains details of a multi-region endpoint (global-endpoint) being created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_multi_region_endpoint#details SesMultiRegionEndpoint#details}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ses_multi_region_endpoint#details SesMultiRegionEndpoint#details}
 
 ---
 
@@ -926,7 +926,7 @@ public string EndpointName { get; set; }
 
 The name of the multi-region endpoint (global-endpoint).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_multi_region_endpoint#endpoint_name SesMultiRegionEndpoint#endpoint_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ses_multi_region_endpoint#endpoint_name SesMultiRegionEndpoint#endpoint_name}
 
 ---
 
@@ -940,7 +940,7 @@ public IResolvable|SesMultiRegionEndpointTags[] Tags { get; set; }
 
 An Array of objects that define the tags (keys and values) to associate with the multi-region endpoint (global-endpoint).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_multi_region_endpoint#tags SesMultiRegionEndpoint#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ses_multi_region_endpoint#tags SesMultiRegionEndpoint#tags}
 
 ---
 
@@ -974,7 +974,7 @@ public IResolvable|SesMultiRegionEndpointDetailsRouteDetails[] RouteDetails { ge
 
 A list of route configuration details. Must contain exactly one route configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_multi_region_endpoint#route_details SesMultiRegionEndpoint#route_details}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ses_multi_region_endpoint#route_details SesMultiRegionEndpoint#route_details}
 
 ---
 
@@ -1008,7 +1008,7 @@ public string Region { get; set; }
 
 The name of an AWS-Region to be a secondary region for the multi-region endpoint (global-endpoint).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_multi_region_endpoint#region SesMultiRegionEndpoint#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ses_multi_region_endpoint#region SesMultiRegionEndpoint#region}
 
 ---
 
@@ -1044,7 +1044,7 @@ public string Key { get; set; }
 
 One part of a key-value pair that defines a tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_multi_region_endpoint#key SesMultiRegionEndpoint#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ses_multi_region_endpoint#key SesMultiRegionEndpoint#key}
 
 ---
 
@@ -1058,7 +1058,7 @@ public string Value { get; set; }
 
 The optional part of a key-value pair that defines a tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_multi_region_endpoint#value SesMultiRegionEndpoint#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ses_multi_region_endpoint#value SesMultiRegionEndpoint#value}
 
 ---
 

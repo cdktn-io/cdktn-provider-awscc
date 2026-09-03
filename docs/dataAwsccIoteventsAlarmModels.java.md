@@ -4,7 +4,7 @@
 
 ### DataAwsccIoteventsAlarmModels <a name="DataAwsccIoteventsAlarmModels" id="@cdktn/provider-awscc.dataAwsccIoteventsAlarmModels.DataAwsccIoteventsAlarmModels"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/iotevents_alarm_models awscc_iotevents_alarm_models}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/iotevents_alarm_models awscc_iotevents_alarm_models}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsAlarmModels.DataAwsccIoteventsAlarmModels.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccIoteventsAlarmMod
 
 The id of the existing DataAwsccIoteventsAlarmModels that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/iotevents_alarm_models#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/iotevents_alarm_models#import import section} in the documentation of this resource for the id to use
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### DataAwsccSsmResourceDataSyncs <a name="DataAwsccSsmResourceDataSyncs" id="@cdktn/provider-awscc.dataAwsccSsmResourceDataSyncs.DataAwsccSsmResourceDataSyncs"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ssm_resource_data_syncs awscc_ssm_resource_data_syncs}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ssm_resource_data_syncs awscc_ssm_resource_data_syncs}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsmResourceDataSyncs.DataAwsccSsmResourceDataSyncs.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSsmResourceDataSy
 
 The id of the existing DataAwsccSsmResourceDataSyncs that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ssm_resource_data_syncs#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ssm_resource_data_syncs#import import section} in the documentation of this resource for the id to use
 
 ---
 

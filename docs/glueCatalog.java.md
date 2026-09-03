@@ -4,7 +4,7 @@
 
 ### GlueCatalog <a name="GlueCatalog" id="@cdktn/provider-awscc.glueCatalog.GlueCatalog"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_catalog awscc_glue_catalog}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_catalog awscc_glue_catalog}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueCatalog.GlueCatalog.Initializer"></a>
 
@@ -124,7 +124,7 @@ Must be unique amongst siblings in the same scope
 
 The name of the catalog to create.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_catalog#name GlueCatalog#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_catalog#name GlueCatalog#name}
 
 ---
 
@@ -134,7 +134,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Allows third-party engines to access data in Amazon S3 locations that are registered with Lake Formation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_catalog#allow_full_table_external_data_access GlueCatalog#allow_full_table_external_data_access}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_catalog#allow_full_table_external_data_access GlueCatalog#allow_full_table_external_data_access}
 
 ---
 
@@ -144,7 +144,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A structure that specifies data lake access properties and other custom properties.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_catalog#catalog_properties GlueCatalog#catalog_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_catalog#catalog_properties GlueCatalog#catalog_properties}
 
 ---
 
@@ -154,7 +154,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An array of PrincipalPermissions objects for default database permissions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_catalog#create_database_default_permissions GlueCatalog#create_database_default_permissions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_catalog#create_database_default_permissions GlueCatalog#create_database_default_permissions}
 
 ---
 
@@ -164,7 +164,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An array of PrincipalPermissions objects for default table permissions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_catalog#create_table_default_permissions GlueCatalog#create_table_default_permissions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_catalog#create_table_default_permissions GlueCatalog#create_table_default_permissions}
 
 ---
 
@@ -174,7 +174,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A description of the catalog.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_catalog#description GlueCatalog#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_catalog#description GlueCatalog#description}
 
 ---
 
@@ -184,7 +184,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A FederatedCatalog structure that references an entity outside the Glue Data Catalog.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_catalog#federated_catalog GlueCatalog#federated_catalog}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_catalog#federated_catalog GlueCatalog#federated_catalog}
 
 ---
 
@@ -194,7 +194,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Specifies whether to overwrite child resource permissions with the default permissions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_catalog#overwrite_child_resource_permissions_with_default GlueCatalog#overwrite_child_resource_permissions_with_default}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_catalog#overwrite_child_resource_permissions_with_default GlueCatalog#overwrite_child_resource_permissions_with_default}
 
 ---
 
@@ -204,7 +204,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A map of key-value pairs that define parameters and properties of the catalog.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_catalog#parameters GlueCatalog#parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_catalog#parameters GlueCatalog#parameters}
 
 ---
 
@@ -214,7 +214,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_catalog#tags GlueCatalog#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_catalog#tags GlueCatalog#tags}
 
 ---
 
@@ -224,7 +224,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A structure that describes a target catalog for resource linking.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_catalog#target_redshift_catalog GlueCatalog#target_redshift_catalog}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_catalog#target_redshift_catalog GlueCatalog#target_redshift_catalog}
 
 ---
 
@@ -821,7 +821,7 @@ The construct id used in the generated config for the GlueCatalog to import.
 
 The id of the existing GlueCatalog that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_catalog#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_catalog#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1343,7 +1343,7 @@ public GlueCatalogCatalogPropertiesDataLakeAccessProperties getDataLakeAccessPro
 
 Data lake access properties for the catalog.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_catalog#data_lake_access_properties GlueCatalog#data_lake_access_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_catalog#data_lake_access_properties GlueCatalog#data_lake_access_properties}
 
 ---
 
@@ -1385,7 +1385,7 @@ public java.lang.String getAllowFullTableExternalDataAccess();
 
 Allows third-party engines to access data in Amazon S3 locations that are registered with Lake Formation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_catalog#allow_full_table_external_data_access GlueCatalog#allow_full_table_external_data_access}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_catalog#allow_full_table_external_data_access GlueCatalog#allow_full_table_external_data_access}
 
 ---
 
@@ -1399,7 +1399,7 @@ public java.lang.String getCatalogType();
 
 Specifies a federated catalog type for the native catalog resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_catalog#catalog_type GlueCatalog#catalog_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_catalog#catalog_type GlueCatalog#catalog_type}
 
 ---
 
@@ -1413,7 +1413,7 @@ public java.lang.Boolean|IResolvable getDataLakeAccess();
 
 Turns on or off data lake access for Apache Spark applications that access Amazon Redshift databases in the Data Catalog from any non-Redshift engine.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_catalog#data_lake_access GlueCatalog#data_lake_access}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_catalog#data_lake_access GlueCatalog#data_lake_access}
 
 ---
 
@@ -1427,7 +1427,7 @@ public java.lang.String getDataTransferRole();
 
 A role that will be assumed by Glue for transferring data into/out of the staging bucket during a query.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_catalog#data_transfer_role GlueCatalog#data_transfer_role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_catalog#data_transfer_role GlueCatalog#data_transfer_role}
 
 ---
 
@@ -1441,7 +1441,7 @@ public java.lang.String getKmsKey();
 
 An encryption key that will be used for the staging bucket that will be created along with the catalog.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_catalog#kms_key GlueCatalog#kms_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_catalog#kms_key GlueCatalog#kms_key}
 
 ---
 
@@ -1579,7 +1579,7 @@ public java.lang.String getName();
 
 The name of the catalog to create.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_catalog#name GlueCatalog#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_catalog#name GlueCatalog#name}
 
 ---
 
@@ -1593,7 +1593,7 @@ public java.lang.String getAllowFullTableExternalDataAccess();
 
 Allows third-party engines to access data in Amazon S3 locations that are registered with Lake Formation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_catalog#allow_full_table_external_data_access GlueCatalog#allow_full_table_external_data_access}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_catalog#allow_full_table_external_data_access GlueCatalog#allow_full_table_external_data_access}
 
 ---
 
@@ -1607,7 +1607,7 @@ public GlueCatalogCatalogProperties getCatalogProperties();
 
 A structure that specifies data lake access properties and other custom properties.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_catalog#catalog_properties GlueCatalog#catalog_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_catalog#catalog_properties GlueCatalog#catalog_properties}
 
 ---
 
@@ -1621,7 +1621,7 @@ public IResolvable|java.util.List<GlueCatalogCreateDatabaseDefaultPermissions> g
 
 An array of PrincipalPermissions objects for default database permissions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_catalog#create_database_default_permissions GlueCatalog#create_database_default_permissions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_catalog#create_database_default_permissions GlueCatalog#create_database_default_permissions}
 
 ---
 
@@ -1635,7 +1635,7 @@ public IResolvable|java.util.List<GlueCatalogCreateTableDefaultPermissions> getC
 
 An array of PrincipalPermissions objects for default table permissions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_catalog#create_table_default_permissions GlueCatalog#create_table_default_permissions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_catalog#create_table_default_permissions GlueCatalog#create_table_default_permissions}
 
 ---
 
@@ -1649,7 +1649,7 @@ public java.lang.String getDescription();
 
 A description of the catalog.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_catalog#description GlueCatalog#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_catalog#description GlueCatalog#description}
 
 ---
 
@@ -1663,7 +1663,7 @@ public GlueCatalogFederatedCatalog getFederatedCatalog();
 
 A FederatedCatalog structure that references an entity outside the Glue Data Catalog.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_catalog#federated_catalog GlueCatalog#federated_catalog}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_catalog#federated_catalog GlueCatalog#federated_catalog}
 
 ---
 
@@ -1677,7 +1677,7 @@ public java.lang.String getOverwriteChildResourcePermissionsWithDefault();
 
 Specifies whether to overwrite child resource permissions with the default permissions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_catalog#overwrite_child_resource_permissions_with_default GlueCatalog#overwrite_child_resource_permissions_with_default}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_catalog#overwrite_child_resource_permissions_with_default GlueCatalog#overwrite_child_resource_permissions_with_default}
 
 ---
 
@@ -1691,7 +1691,7 @@ public java.util.Map<java.lang.String, java.lang.String> getParameters();
 
 A map of key-value pairs that define parameters and properties of the catalog.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_catalog#parameters GlueCatalog#parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_catalog#parameters GlueCatalog#parameters}
 
 ---
 
@@ -1705,7 +1705,7 @@ public IResolvable|java.util.List<GlueCatalogTags> getTags();
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_catalog#tags GlueCatalog#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_catalog#tags GlueCatalog#tags}
 
 ---
 
@@ -1719,7 +1719,7 @@ public GlueCatalogTargetRedshiftCatalog getTargetRedshiftCatalog();
 
 A structure that describes a target catalog for resource linking.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_catalog#target_redshift_catalog GlueCatalog#target_redshift_catalog}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_catalog#target_redshift_catalog GlueCatalog#target_redshift_catalog}
 
 ---
 
@@ -1755,7 +1755,7 @@ public java.util.List<java.lang.String> getPermissions();
 
 The permissions that are granted to the principal.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_catalog#permissions GlueCatalog#permissions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_catalog#permissions GlueCatalog#permissions}
 
 ---
 
@@ -1769,7 +1769,7 @@ public GlueCatalogCreateDatabaseDefaultPermissionsPrincipal getPrincipal();
 
 The Lake Formation principal.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_catalog#principal GlueCatalog#principal}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_catalog#principal GlueCatalog#principal}
 
 ---
 
@@ -1803,7 +1803,7 @@ public java.lang.String getDataLakePrincipalIdentifier();
 
 An identifier for the Lake Formation principal.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_catalog#data_lake_principal_identifier GlueCatalog#data_lake_principal_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_catalog#data_lake_principal_identifier GlueCatalog#data_lake_principal_identifier}
 
 ---
 
@@ -1839,7 +1839,7 @@ public java.util.List<java.lang.String> getPermissions();
 
 The permissions that are granted to the principal.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_catalog#permissions GlueCatalog#permissions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_catalog#permissions GlueCatalog#permissions}
 
 ---
 
@@ -1853,7 +1853,7 @@ public GlueCatalogCreateTableDefaultPermissionsPrincipal getPrincipal();
 
 The Lake Formation principal.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_catalog#principal GlueCatalog#principal}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_catalog#principal GlueCatalog#principal}
 
 ---
 
@@ -1887,7 +1887,7 @@ public java.lang.String getDataLakePrincipalIdentifier();
 
 An identifier for the Lake Formation principal.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_catalog#data_lake_principal_identifier GlueCatalog#data_lake_principal_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_catalog#data_lake_principal_identifier GlueCatalog#data_lake_principal_identifier}
 
 ---
 
@@ -1923,7 +1923,7 @@ public java.lang.String getConnectionName();
 
 The name of the connection to an external data source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_catalog#connection_name GlueCatalog#connection_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_catalog#connection_name GlueCatalog#connection_name}
 
 ---
 
@@ -1937,7 +1937,7 @@ public java.lang.String getIdentifier();
 
 A unique identifier for the federated catalog.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_catalog#identifier GlueCatalog#identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_catalog#identifier GlueCatalog#identifier}
 
 ---
 
@@ -1973,7 +1973,7 @@ public java.lang.String getKey();
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_catalog#key GlueCatalog#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_catalog#key GlueCatalog#key}
 
 ---
 
@@ -1987,7 +1987,7 @@ public java.lang.String getValue();
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_catalog#value GlueCatalog#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_catalog#value GlueCatalog#value}
 
 ---
 
@@ -2021,7 +2021,7 @@ public java.lang.String getCatalogArn();
 
 The Amazon Resource Name (ARN) of the catalog resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_catalog#catalog_arn GlueCatalog#catalog_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_catalog#catalog_arn GlueCatalog#catalog_arn}
 
 ---
 

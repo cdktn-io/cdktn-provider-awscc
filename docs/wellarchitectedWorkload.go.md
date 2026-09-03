@@ -4,7 +4,7 @@
 
 ### WellarchitectedWorkload <a name="WellarchitectedWorkload" id="@cdktn/provider-awscc.wellarchitectedWorkload.WellarchitectedWorkload"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wellarchitected_workload awscc_wellarchitected_workload}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/wellarchitected_workload awscc_wellarchitected_workload}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.wellarchitectedWorkload.WellarchitectedWorkload.Initializer"></a>
 
@@ -585,7 +585,7 @@ The construct id used in the generated config for the WellarchitectedWorkload to
 
 The id of the existing WellarchitectedWorkload that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wellarchitected_workload#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/wellarchitected_workload#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1272,7 +1272,7 @@ Description *string
 
 The description for the workload.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wellarchitected_workload#description WellarchitectedWorkload#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/wellarchitected_workload#description WellarchitectedWorkload#description}
 
 ---
 
@@ -1286,7 +1286,7 @@ Environment *string
 
 The environment for the workload.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wellarchitected_workload#environment WellarchitectedWorkload#environment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/wellarchitected_workload#environment WellarchitectedWorkload#environment}
 
 ---
 
@@ -1300,7 +1300,7 @@ Lenses *[]*string
 
 The list of lenses associated with the workload.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wellarchitected_workload#lenses WellarchitectedWorkload#lenses}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/wellarchitected_workload#lenses WellarchitectedWorkload#lenses}
 
 ---
 
@@ -1314,7 +1314,7 @@ WorkloadName *string
 
 The name of the workload.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wellarchitected_workload#workload_name WellarchitectedWorkload#workload_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/wellarchitected_workload#workload_name WellarchitectedWorkload#workload_name}
 
 ---
 
@@ -1328,7 +1328,7 @@ AccountIds *[]*string
 
 The list of Amazon Web Services account IDs associated with the workload.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wellarchitected_workload#account_ids WellarchitectedWorkload#account_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/wellarchitected_workload#account_ids WellarchitectedWorkload#account_ids}
 
 ---
 
@@ -1342,7 +1342,7 @@ ArchitecturalDesign *string
 
 The URL of the architectural design for the workload.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wellarchitected_workload#architectural_design WellarchitectedWorkload#architectural_design}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/wellarchitected_workload#architectural_design WellarchitectedWorkload#architectural_design}
 
 ---
 
@@ -1356,7 +1356,7 @@ AwsRegions *[]*string
 
 The list of Amazon Web Services Regions associated with the workload.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wellarchitected_workload#aws_regions WellarchitectedWorkload#aws_regions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/wellarchitected_workload#aws_regions WellarchitectedWorkload#aws_regions}
 
 ---
 
@@ -1370,7 +1370,7 @@ DiscoveryConfig WellarchitectedWorkloadDiscoveryConfig
 
 Discovery configuration associated to the workload.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wellarchitected_workload#discovery_config WellarchitectedWorkload#discovery_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/wellarchitected_workload#discovery_config WellarchitectedWorkload#discovery_config}
 
 ---
 
@@ -1384,7 +1384,7 @@ Industry *string
 
 The industry for the workload.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wellarchitected_workload#industry WellarchitectedWorkload#industry}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/wellarchitected_workload#industry WellarchitectedWorkload#industry}
 
 ---
 
@@ -1398,7 +1398,7 @@ IndustryType *string
 
 The industry type for the workload.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wellarchitected_workload#industry_type WellarchitectedWorkload#industry_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/wellarchitected_workload#industry_type WellarchitectedWorkload#industry_type}
 
 ---
 
@@ -1412,7 +1412,7 @@ NonAwsRegions *[]*string
 
 The list of non-Amazon Web Services Regions associated with the workload.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wellarchitected_workload#non_aws_regions WellarchitectedWorkload#non_aws_regions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/wellarchitected_workload#non_aws_regions WellarchitectedWorkload#non_aws_regions}
 
 ---
 
@@ -1426,7 +1426,7 @@ Notes *string
 
 The notes associated with the workload.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wellarchitected_workload#notes WellarchitectedWorkload#notes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/wellarchitected_workload#notes WellarchitectedWorkload#notes}
 
 ---
 
@@ -1440,7 +1440,7 @@ ReviewOwner *string
 
 The review owner of the workload.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wellarchitected_workload#review_owner WellarchitectedWorkload#review_owner}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/wellarchitected_workload#review_owner WellarchitectedWorkload#review_owner}
 
 ---
 
@@ -1454,7 +1454,7 @@ Tags interface{}
 
 The tags associated with the workload.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wellarchitected_workload#tags WellarchitectedWorkload#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/wellarchitected_workload#tags WellarchitectedWorkload#tags}
 
 ---
 
@@ -1490,7 +1490,7 @@ TrustedAdvisorIntegrationStatus *string
 
 Discovery integration status in respect to Trusted Advisor for the workload.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wellarchitected_workload#trusted_advisor_integration_status WellarchitectedWorkload#trusted_advisor_integration_status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/wellarchitected_workload#trusted_advisor_integration_status WellarchitectedWorkload#trusted_advisor_integration_status}
 
 ---
 
@@ -1504,7 +1504,7 @@ WorkloadResourceDefinition *[]*string
 
 The mode to use for identifying resources associated with the workload.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wellarchitected_workload#workload_resource_definition WellarchitectedWorkload#workload_resource_definition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/wellarchitected_workload#workload_resource_definition WellarchitectedWorkload#workload_resource_definition}
 
 ---
 
@@ -1525,8 +1525,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wellarchitectedworkloa
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.wellarchitectedWorkload.WellarchitectedWorkloadTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wellarchitected_workload#key WellarchitectedWorkload#key}. |
-| <code><a href="#@cdktn/provider-awscc.wellarchitectedWorkload.WellarchitectedWorkloadTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wellarchitected_workload#value WellarchitectedWorkload#value}. |
+| <code><a href="#@cdktn/provider-awscc.wellarchitectedWorkload.WellarchitectedWorkloadTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/wellarchitected_workload#key WellarchitectedWorkload#key}. |
+| <code><a href="#@cdktn/provider-awscc.wellarchitectedWorkload.WellarchitectedWorkloadTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/wellarchitected_workload#value WellarchitectedWorkload#value}. |
 
 ---
 
@@ -1538,7 +1538,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wellarchitected_workload#key WellarchitectedWorkload#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/wellarchitected_workload#key WellarchitectedWorkload#key}.
 
 ---
 
@@ -1550,7 +1550,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wellarchitected_workload#value WellarchitectedWorkload#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/wellarchitected_workload#value WellarchitectedWorkload#value}.
 
 ---
 

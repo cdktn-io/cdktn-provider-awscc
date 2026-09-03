@@ -4,7 +4,7 @@
 
 ### MediaconvertPreset <a name="MediaconvertPreset" id="@cdktn/provider-awscc.mediaconvertPreset.MediaconvertPreset"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconvert_preset awscc_mediaconvert_preset}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconvert_preset awscc_mediaconvert_preset}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediaconvertPreset.MediaconvertPreset.Initializer"></a>
 
@@ -517,7 +517,7 @@ The construct id used in the generated config for the MediaconvertPreset to impo
 
 The id of the existing MediaconvertPreset that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconvert_preset#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconvert_preset#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -869,7 +869,7 @@ const mediaconvertPresetConfig: mediaconvertPreset.MediaconvertPresetConfig = { 
 | <code><a href="#@cdktn/provider-awscc.mediaconvertPreset.MediaconvertPresetConfig.property.category">category</a></code> | <code>string</code> | The new category for the preset, if you are changing it. |
 | <code><a href="#@cdktn/provider-awscc.mediaconvertPreset.MediaconvertPresetConfig.property.description">description</a></code> | <code>string</code> | The new description for the preset, if you are changing it. |
 | <code><a href="#@cdktn/provider-awscc.mediaconvertPreset.MediaconvertPresetConfig.property.name">name</a></code> | <code>string</code> | The name of the preset that you are modifying. |
-| <code><a href="#@cdktn/provider-awscc.mediaconvertPreset.MediaconvertPresetConfig.property.tags">tags</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconvert_preset#tags MediaconvertPreset#tags}. |
+| <code><a href="#@cdktn/provider-awscc.mediaconvertPreset.MediaconvertPresetConfig.property.tags">tags</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconvert_preset#tags MediaconvertPreset#tags}. |
 
 ---
 
@@ -955,7 +955,7 @@ Specify, in JSON format, the transcoding job settings for this output preset.
 
 This specification must conform to the AWS Elemental MediaConvert job validation. For information about forming this specification, see the Remarks section later in this topic.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconvert_preset#settings_json MediaconvertPreset#settings_json}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconvert_preset#settings_json MediaconvertPreset#settings_json}
 
 ---
 
@@ -969,7 +969,7 @@ public readonly category: string;
 
 The new category for the preset, if you are changing it.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconvert_preset#category MediaconvertPreset#category}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconvert_preset#category MediaconvertPreset#category}
 
 ---
 
@@ -983,7 +983,7 @@ public readonly description: string;
 
 The new description for the preset, if you are changing it.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconvert_preset#description MediaconvertPreset#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconvert_preset#description MediaconvertPreset#description}
 
 ---
 
@@ -997,7 +997,7 @@ public readonly name: string;
 
 The name of the preset that you are modifying.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconvert_preset#name MediaconvertPreset#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconvert_preset#name MediaconvertPreset#name}
 
 ---
 
@@ -1009,7 +1009,7 @@ public readonly tags: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconvert_preset#tags MediaconvertPreset#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconvert_preset#tags MediaconvertPreset#tags}.
 
 ---
 

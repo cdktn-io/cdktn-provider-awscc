@@ -4,7 +4,7 @@
 
 ### TextractAdapter <a name="TextractAdapter" id="@cdktn/provider-awscc.textractAdapter.TextractAdapter"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/textract_adapter awscc_textract_adapter}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/textract_adapter awscc_textract_adapter}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.textractAdapter.TextractAdapter.Initializer"></a>
 
@@ -523,7 +523,7 @@ The construct id used in the generated config for the TextractAdapter to import.
 
 The id of the existing TextractAdapter that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/textract_adapter#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/textract_adapter#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -994,7 +994,7 @@ AdapterName *string
 
 The name to be assigned to the adapter being created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/textract_adapter#adapter_name TextractAdapter#adapter_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/textract_adapter#adapter_name TextractAdapter#adapter_name}
 
 ---
 
@@ -1008,7 +1008,7 @@ FeatureTypes *[]*string
 
 The type of feature that the adapter is being trained on. Currently, supported feature types are: QUERIES.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/textract_adapter#feature_types TextractAdapter#feature_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/textract_adapter#feature_types TextractAdapter#feature_types}
 
 ---
 
@@ -1022,7 +1022,7 @@ AutoUpdate *string
 
 Controls whether or not the adapter should automatically update.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/textract_adapter#auto_update TextractAdapter#auto_update}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/textract_adapter#auto_update TextractAdapter#auto_update}
 
 ---
 
@@ -1036,7 +1036,7 @@ Description *string
 
 The description to be assigned to the adapter being created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/textract_adapter#description TextractAdapter#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/textract_adapter#description TextractAdapter#description}
 
 ---
 
@@ -1050,7 +1050,7 @@ Tags interface{}
 
 A list of tags to be added to the adapter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/textract_adapter#tags TextractAdapter#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/textract_adapter#tags TextractAdapter#tags}
 
 ---
 
@@ -1086,7 +1086,7 @@ Key *string
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/textract_adapter#key TextractAdapter#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/textract_adapter#key TextractAdapter#key}
 
 ---
 
@@ -1100,7 +1100,7 @@ Value *string
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/textract_adapter#value TextractAdapter#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/textract_adapter#value TextractAdapter#value}
 
 ---
 

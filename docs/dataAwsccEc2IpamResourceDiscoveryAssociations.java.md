@@ -4,7 +4,7 @@
 
 ### DataAwsccEc2IpamResourceDiscoveryAssociations <a name="DataAwsccEc2IpamResourceDiscoveryAssociations" id="@cdktn/provider-awscc.dataAwsccEc2IpamResourceDiscoveryAssociations.DataAwsccEc2IpamResourceDiscoveryAssociations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_ipam_resource_discovery_associations awscc_ec2_ipam_resource_discovery_associations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_ipam_resource_discovery_associations awscc_ec2_ipam_resource_discovery_associations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2IpamResourceDiscoveryAssociations.DataAwsccEc2IpamResourceDiscoveryAssociations.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccEc2IpamResourceDi
 
 The id of the existing DataAwsccEc2IpamResourceDiscoveryAssociations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_ipam_resource_discovery_associations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_ipam_resource_discovery_associations#import import section} in the documentation of this resource for the id to use
 
 ---
 

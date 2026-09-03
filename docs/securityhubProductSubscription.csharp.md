@@ -4,7 +4,7 @@
 
 ### SecurityhubProductSubscription <a name="SecurityhubProductSubscription" id="@cdktn/provider-awscc.securityhubProductSubscription.SecurityhubProductSubscription"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_product_subscription awscc_securityhub_product_subscription}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/securityhub_product_subscription awscc_securityhub_product_subscription}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubProductSubscription.SecurityhubProductSubscription.Initializer"></a>
 
@@ -489,7 +489,7 @@ The construct id used in the generated config for the SecurityhubProductSubscrip
 
 The id of the existing SecurityhubProductSubscription that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_product_subscription#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/securityhub_product_subscription#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -842,7 +842,7 @@ public string ProductArn { get; set; }
 
 The generic ARN of the product being subscribed to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_product_subscription#product_arn SecurityhubProductSubscription#product_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/securityhub_product_subscription#product_arn SecurityhubProductSubscription#product_arn}
 
 ---
 

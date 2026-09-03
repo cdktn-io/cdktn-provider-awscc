@@ -4,7 +4,7 @@
 
 ### DataAwsccCassandraKeyspaces <a name="DataAwsccCassandraKeyspaces" id="@cdktn/provider-awscc.dataAwsccCassandraKeyspaces.DataAwsccCassandraKeyspaces"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/cassandra_keyspaces awscc_cassandra_keyspaces}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/cassandra_keyspaces awscc_cassandra_keyspaces}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCassandraKeyspaces.DataAwsccCassandraKeyspaces.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccCassandraKeyspace
 
 The id of the existing DataAwsccCassandraKeyspaces that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/cassandra_keyspaces#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/cassandra_keyspaces#import import section} in the documentation of this resource for the id to use
 
 ---
 

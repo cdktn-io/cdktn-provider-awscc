@@ -4,7 +4,7 @@
 
 ### DataAwsccQuicksightFlows <a name="DataAwsccQuicksightFlows" id="@cdktn/provider-awscc.dataAwsccQuicksightFlows.DataAwsccQuicksightFlows"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/quicksight_flows awscc_quicksight_flows}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/quicksight_flows awscc_quicksight_flows}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightFlows.DataAwsccQuicksightFlows.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccQuicksightFlows t
 
 The id of the existing DataAwsccQuicksightFlows that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/quicksight_flows#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/quicksight_flows#import import section} in the documentation of this resource for the id to use
 
 ---
 

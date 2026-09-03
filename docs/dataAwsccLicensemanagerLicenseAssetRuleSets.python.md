@@ -4,7 +4,7 @@
 
 ### DataAwsccLicensemanagerLicenseAssetRuleSets <a name="DataAwsccLicensemanagerLicenseAssetRuleSets" id="@cdktn/provider-awscc.dataAwsccLicensemanagerLicenseAssetRuleSets.DataAwsccLicensemanagerLicenseAssetRuleSets"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/licensemanager_license_asset_rule_sets awscc_licensemanager_license_asset_rule_sets}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/licensemanager_license_asset_rule_sets awscc_licensemanager_license_asset_rule_sets}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLicensemanagerLicenseAssetRuleSets.DataAwsccLicensemanagerLicenseAssetRuleSets.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccLicensemanagerLic
 
 The id of the existing DataAwsccLicensemanagerLicenseAssetRuleSets that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/licensemanager_license_asset_rule_sets#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/licensemanager_license_asset_rule_sets#import import section} in the documentation of this resource for the id to use
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### EmrStudioSessionMapping <a name="EmrStudioSessionMapping" id="@cdktn/provider-awscc.emrStudioSessionMapping.EmrStudioSessionMapping"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/emr_studio_session_mapping awscc_emr_studio_session_mapping}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/emr_studio_session_mapping awscc_emr_studio_session_mapping}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.emrStudioSessionMapping.EmrStudioSessionMapping.Initializer"></a>
 
@@ -112,7 +112,7 @@ The name of the user or group.
 
 For more information, see UserName and DisplayName in the AWS SSO Identity Store API Reference. Either IdentityName or IdentityId must be specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/emr_studio_session_mapping#identity_name EmrStudioSessionMapping#identity_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/emr_studio_session_mapping#identity_name EmrStudioSessionMapping#identity_name}
 
 ---
 
@@ -122,7 +122,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Specifies whether the identity to map to the Studio is a user or a group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/emr_studio_session_mapping#identity_type EmrStudioSessionMapping#identity_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/emr_studio_session_mapping#identity_type EmrStudioSessionMapping#identity_type}
 
 ---
 
@@ -134,7 +134,7 @@ The Amazon Resource Name (ARN) for the session policy that will be applied to th
 
 Session policies refine Studio user permissions without the need to use multiple IAM user roles.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/emr_studio_session_mapping#session_policy_arn EmrStudioSessionMapping#session_policy_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/emr_studio_session_mapping#session_policy_arn EmrStudioSessionMapping#session_policy_arn}
 
 ---
 
@@ -144,7 +144,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The ID of the Amazon EMR Studio to which the user or group will be mapped.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/emr_studio_session_mapping#studio_id EmrStudioSessionMapping#studio_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/emr_studio_session_mapping#studio_id EmrStudioSessionMapping#studio_id}
 
 ---
 
@@ -593,7 +593,7 @@ The construct id used in the generated config for the EmrStudioSessionMapping to
 
 The id of the existing EmrStudioSessionMapping that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/emr_studio_session_mapping#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/emr_studio_session_mapping#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1009,7 +1009,7 @@ The name of the user or group.
 
 For more information, see UserName and DisplayName in the AWS SSO Identity Store API Reference. Either IdentityName or IdentityId must be specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/emr_studio_session_mapping#identity_name EmrStudioSessionMapping#identity_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/emr_studio_session_mapping#identity_name EmrStudioSessionMapping#identity_name}
 
 ---
 
@@ -1023,7 +1023,7 @@ public java.lang.String getIdentityType();
 
 Specifies whether the identity to map to the Studio is a user or a group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/emr_studio_session_mapping#identity_type EmrStudioSessionMapping#identity_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/emr_studio_session_mapping#identity_type EmrStudioSessionMapping#identity_type}
 
 ---
 
@@ -1039,7 +1039,7 @@ The Amazon Resource Name (ARN) for the session policy that will be applied to th
 
 Session policies refine Studio user permissions without the need to use multiple IAM user roles.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/emr_studio_session_mapping#session_policy_arn EmrStudioSessionMapping#session_policy_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/emr_studio_session_mapping#session_policy_arn EmrStudioSessionMapping#session_policy_arn}
 
 ---
 
@@ -1053,7 +1053,7 @@ public java.lang.String getStudioId();
 
 The ID of the Amazon EMR Studio to which the user or group will be mapped.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/emr_studio_session_mapping#studio_id EmrStudioSessionMapping#studio_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/emr_studio_session_mapping#studio_id EmrStudioSessionMapping#studio_id}
 
 ---
 

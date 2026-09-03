@@ -4,7 +4,7 @@
 
 ### LogsDeliverySource <a name="LogsDeliverySource" id="@cdktn/provider-awscc.logsDeliverySource.LogsDeliverySource"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/logs_delivery_source awscc_logs_delivery_source}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/logs_delivery_source awscc_logs_delivery_source}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.logsDeliverySource.LogsDeliverySource.Initializer"></a>
 
@@ -530,7 +530,7 @@ The construct id used in the generated config for the LogsDeliverySource to impo
 
 The id of the existing LogsDeliverySource that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/logs_delivery_source#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/logs_delivery_source#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1010,7 +1010,7 @@ public readonly name: string;
 
 The unique name of the Log source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/logs_delivery_source#name LogsDeliverySource#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/logs_delivery_source#name LogsDeliverySource#name}
 
 ---
 
@@ -1026,7 +1026,7 @@ A map of key-value pairs to configure the delivery source.
 
 Both keys and values must be between 1 and 255 characters in length.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/logs_delivery_source#delivery_source_configuration LogsDeliverySource#delivery_source_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/logs_delivery_source#delivery_source_configuration LogsDeliverySource#delivery_source_configuration}
 
 ---
 
@@ -1042,7 +1042,7 @@ The type of logs being delivered.
 
 Only mandatory when the resourceArn could match more than one. In such a case, the error message will contain all the possible options.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/logs_delivery_source#log_type LogsDeliverySource#log_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/logs_delivery_source#log_type LogsDeliverySource#log_type}
 
 ---
 
@@ -1056,7 +1056,7 @@ public readonly resourceArn: string;
 
 The ARN of the resource that will be sending the logs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/logs_delivery_source#resource_arn LogsDeliverySource#resource_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/logs_delivery_source#resource_arn LogsDeliverySource#resource_arn}
 
 ---
 
@@ -1070,7 +1070,7 @@ public readonly tags: IResolvable | LogsDeliverySourceTags[];
 
 The tags that have been assigned to this delivery source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/logs_delivery_source#tags LogsDeliverySource#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/logs_delivery_source#tags LogsDeliverySource#tags}
 
 ---
 
@@ -1103,7 +1103,7 @@ public readonly key: string;
 
 The key name of the tag. You can specify a value that is 1 to 128 Unicode.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/logs_delivery_source#key LogsDeliverySource#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/logs_delivery_source#key LogsDeliverySource#key}
 
 ---
 
@@ -1117,7 +1117,7 @@ public readonly value: string;
 
 The value for the tag. You can specify a value that is 0 to 256 Unicode.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/logs_delivery_source#value LogsDeliverySource#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/logs_delivery_source#value LogsDeliverySource#value}
 
 ---
 

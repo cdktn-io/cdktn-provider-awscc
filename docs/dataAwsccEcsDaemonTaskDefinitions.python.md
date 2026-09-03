@@ -4,7 +4,7 @@
 
 ### DataAwsccEcsDaemonTaskDefinitions <a name="DataAwsccEcsDaemonTaskDefinitions" id="@cdktn/provider-awscc.dataAwsccEcsDaemonTaskDefinitions.DataAwsccEcsDaemonTaskDefinitions"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ecs_daemon_task_definitions awscc_ecs_daemon_task_definitions}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ecs_daemon_task_definitions awscc_ecs_daemon_task_definitions}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsDaemonTaskDefinitions.DataAwsccEcsDaemonTaskDefinitions.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccEcsDaemonTaskDefi
 
 The id of the existing DataAwsccEcsDaemonTaskDefinitions that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ecs_daemon_task_definitions#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ecs_daemon_task_definitions#import import section} in the documentation of this resource for the id to use
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### DataAwsccCloudformationStacks <a name="DataAwsccCloudformationStacks" id="@cdktn/provider-awscc.dataAwsccCloudformationStacks.DataAwsccCloudformationStacks"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/cloudformation_stacks awscc_cloudformation_stacks}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/cloudformation_stacks awscc_cloudformation_stacks}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudformationStacks.DataAwsccCloudformationStacks.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccCloudformationSta
 
 The id of the existing DataAwsccCloudformationStacks that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/cloudformation_stacks#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/cloudformation_stacks#import import section} in the documentation of this resource for the id to use
 
 ---
 

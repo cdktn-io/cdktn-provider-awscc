@@ -4,7 +4,7 @@
 
 ### DataAwsccSagemakerTrialComponents <a name="DataAwsccSagemakerTrialComponents" id="@cdktn/provider-awscc.dataAwsccSagemakerTrialComponents.DataAwsccSagemakerTrialComponents"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/sagemaker_trial_components awscc_sagemaker_trial_components}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/sagemaker_trial_components awscc_sagemaker_trial_components}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerTrialComponents.DataAwsccSagemakerTrialComponents.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSagemakerTrialCom
 
 The id of the existing DataAwsccSagemakerTrialComponents that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/sagemaker_trial_components#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/sagemaker_trial_components#import import section} in the documentation of this resource for the id to use
 
 ---
 

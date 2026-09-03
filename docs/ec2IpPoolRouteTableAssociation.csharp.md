@@ -4,7 +4,7 @@
 
 ### Ec2IpPoolRouteTableAssociation <a name="Ec2IpPoolRouteTableAssociation" id="@cdktn/provider-awscc.ec2IpPoolRouteTableAssociation.Ec2IpPoolRouteTableAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_ip_pool_route_table_association awscc_ec2_ip_pool_route_table_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ip_pool_route_table_association awscc_ec2_ip_pool_route_table_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2IpPoolRouteTableAssociation.Ec2IpPoolRouteTableAssociation.Initializer"></a>
 
@@ -489,7 +489,7 @@ The construct id used in the generated config for the Ec2IpPoolRouteTableAssocia
 
 The id of the existing Ec2IpPoolRouteTableAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_ip_pool_route_table_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ip_pool_route_table_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -866,7 +866,7 @@ public string PublicIpv4Pool { get; set; }
 
 The ID of the public IPv4 pool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_ip_pool_route_table_association#public_ipv_4_pool Ec2IpPoolRouteTableAssociation#public_ipv_4_pool}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ip_pool_route_table_association#public_ipv_4_pool Ec2IpPoolRouteTableAssociation#public_ipv_4_pool}
 
 ---
 
@@ -880,7 +880,7 @@ public string RouteTableId { get; set; }
 
 The ID of the route table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_ip_pool_route_table_association#route_table_id Ec2IpPoolRouteTableAssociation#route_table_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ip_pool_route_table_association#route_table_id Ec2IpPoolRouteTableAssociation#route_table_id}
 
 ---
 

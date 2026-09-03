@@ -4,7 +4,7 @@
 
 ### DataAwsccBedrockEnforcedGuardrailConfigurations <a name="DataAwsccBedrockEnforcedGuardrailConfigurations" id="@cdktn/provider-awscc.dataAwsccBedrockEnforcedGuardrailConfigurations.DataAwsccBedrockEnforcedGuardrailConfigurations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/bedrock_enforced_guardrail_configurations awscc_bedrock_enforced_guardrail_configurations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/bedrock_enforced_guardrail_configurations awscc_bedrock_enforced_guardrail_configurations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockEnforcedGuardrailConfigurations.DataAwsccBedrockEnforcedGuardrailConfigurations.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccBedrockEnforcedGu
 
 The id of the existing DataAwsccBedrockEnforcedGuardrailConfigurations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/bedrock_enforced_guardrail_configurations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/bedrock_enforced_guardrail_configurations#import import section} in the documentation of this resource for the id to use
 
 ---
 

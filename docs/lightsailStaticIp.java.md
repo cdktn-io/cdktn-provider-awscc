@@ -4,7 +4,7 @@
 
 ### LightsailStaticIp <a name="LightsailStaticIp" id="@cdktn/provider-awscc.lightsailStaticIp.LightsailStaticIp"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lightsail_static_ip awscc_lightsail_static_ip}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lightsail_static_ip awscc_lightsail_static_ip}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lightsailStaticIp.LightsailStaticIp.Initializer"></a>
 
@@ -106,7 +106,7 @@ Must be unique amongst siblings in the same scope
 
 The name of the static IP address.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lightsail_static_ip#static_ip_name LightsailStaticIp#static_ip_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lightsail_static_ip#static_ip_name LightsailStaticIp#static_ip_name}
 
 ---
 
@@ -116,7 +116,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The instance where the static IP is attached.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lightsail_static_ip#attached_to LightsailStaticIp#attached_to}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lightsail_static_ip#attached_to LightsailStaticIp#attached_to}
 
 ---
 
@@ -572,7 +572,7 @@ The construct id used in the generated config for the LightsailStaticIp to impor
 
 The id of the existing LightsailStaticIp that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lightsail_static_ip#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lightsail_static_ip#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -971,7 +971,7 @@ public java.lang.String getStaticIpName();
 
 The name of the static IP address.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lightsail_static_ip#static_ip_name LightsailStaticIp#static_ip_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lightsail_static_ip#static_ip_name LightsailStaticIp#static_ip_name}
 
 ---
 
@@ -985,7 +985,7 @@ public java.lang.String getAttachedTo();
 
 The instance where the static IP is attached.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lightsail_static_ip#attached_to LightsailStaticIp#attached_to}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lightsail_static_ip#attached_to LightsailStaticIp#attached_to}
 
 ---
 

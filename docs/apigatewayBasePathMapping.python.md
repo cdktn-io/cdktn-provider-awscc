@@ -4,7 +4,7 @@
 
 ### ApigatewayBasePathMapping <a name="ApigatewayBasePathMapping" id="@cdktn/provider-awscc.apigatewayBasePathMapping.ApigatewayBasePathMapping"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_base_path_mapping awscc_apigateway_base_path_mapping}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_base_path_mapping awscc_apigateway_base_path_mapping}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apigatewayBasePathMapping.ApigatewayBasePathMapping.Initializer"></a>
 
@@ -39,10 +39,10 @@ apigatewayBasePathMapping.ApigatewayBasePathMapping(
 | <code><a href="#@cdktn/provider-awscc.apigatewayBasePathMapping.ApigatewayBasePathMapping.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.apigatewayBasePathMapping.ApigatewayBasePathMapping.Initializer.parameter.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.apigatewayBasePathMapping.ApigatewayBasePathMapping.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.apigatewayBasePathMapping.ApigatewayBasePathMapping.Initializer.parameter.domainName">domain_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_base_path_mapping#domain_name ApigatewayBasePathMapping#domain_name}. |
-| <code><a href="#@cdktn/provider-awscc.apigatewayBasePathMapping.ApigatewayBasePathMapping.Initializer.parameter.basePath">base_path</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_base_path_mapping#base_path ApigatewayBasePathMapping#base_path}. |
-| <code><a href="#@cdktn/provider-awscc.apigatewayBasePathMapping.ApigatewayBasePathMapping.Initializer.parameter.restApiId">rest_api_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_base_path_mapping#rest_api_id ApigatewayBasePathMapping#rest_api_id}. |
-| <code><a href="#@cdktn/provider-awscc.apigatewayBasePathMapping.ApigatewayBasePathMapping.Initializer.parameter.stage">stage</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_base_path_mapping#stage ApigatewayBasePathMapping#stage}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayBasePathMapping.ApigatewayBasePathMapping.Initializer.parameter.domainName">domain_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_base_path_mapping#domain_name ApigatewayBasePathMapping#domain_name}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayBasePathMapping.ApigatewayBasePathMapping.Initializer.parameter.basePath">base_path</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_base_path_mapping#base_path ApigatewayBasePathMapping#base_path}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayBasePathMapping.ApigatewayBasePathMapping.Initializer.parameter.restApiId">rest_api_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_base_path_mapping#rest_api_id ApigatewayBasePathMapping#rest_api_id}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayBasePathMapping.ApigatewayBasePathMapping.Initializer.parameter.stage">stage</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_base_path_mapping#stage ApigatewayBasePathMapping#stage}. |
 
 ---
 
@@ -110,7 +110,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_base_path_mapping#domain_name ApigatewayBasePathMapping#domain_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_base_path_mapping#domain_name ApigatewayBasePathMapping#domain_name}.
 
 ---
 
@@ -118,7 +118,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_base_path_mapping#base_path ApigatewayBasePathMapping#base_path}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_base_path_mapping#base_path ApigatewayBasePathMapping#base_path}.
 
 ---
 
@@ -126,7 +126,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_base_path_mapping#rest_api_id ApigatewayBasePathMapping#rest_api_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_base_path_mapping#rest_api_id ApigatewayBasePathMapping#rest_api_id}.
 
 ---
 
@@ -134,7 +134,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_base_path_mapping#stage ApigatewayBasePathMapping#stage}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_base_path_mapping#stage ApigatewayBasePathMapping#stage}.
 
 ---
 
@@ -652,7 +652,7 @@ The construct id used in the generated config for the ApigatewayBasePathMapping 
 
 The id of the existing ApigatewayBasePathMapping that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_base_path_mapping#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_base_path_mapping#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -979,10 +979,10 @@ apigatewayBasePathMapping.ApigatewayBasePathMappingConfig(
 | <code><a href="#@cdktn/provider-awscc.apigatewayBasePathMapping.ApigatewayBasePathMappingConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.apigatewayBasePathMapping.ApigatewayBasePathMappingConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.apigatewayBasePathMapping.ApigatewayBasePathMappingConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.apigatewayBasePathMapping.ApigatewayBasePathMappingConfig.property.domainName">domain_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_base_path_mapping#domain_name ApigatewayBasePathMapping#domain_name}. |
-| <code><a href="#@cdktn/provider-awscc.apigatewayBasePathMapping.ApigatewayBasePathMappingConfig.property.basePath">base_path</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_base_path_mapping#base_path ApigatewayBasePathMapping#base_path}. |
-| <code><a href="#@cdktn/provider-awscc.apigatewayBasePathMapping.ApigatewayBasePathMappingConfig.property.restApiId">rest_api_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_base_path_mapping#rest_api_id ApigatewayBasePathMapping#rest_api_id}. |
-| <code><a href="#@cdktn/provider-awscc.apigatewayBasePathMapping.ApigatewayBasePathMappingConfig.property.stage">stage</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_base_path_mapping#stage ApigatewayBasePathMapping#stage}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayBasePathMapping.ApigatewayBasePathMappingConfig.property.domainName">domain_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_base_path_mapping#domain_name ApigatewayBasePathMapping#domain_name}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayBasePathMapping.ApigatewayBasePathMappingConfig.property.basePath">base_path</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_base_path_mapping#base_path ApigatewayBasePathMapping#base_path}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayBasePathMapping.ApigatewayBasePathMappingConfig.property.restApiId">rest_api_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_base_path_mapping#rest_api_id ApigatewayBasePathMapping#rest_api_id}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayBasePathMapping.ApigatewayBasePathMappingConfig.property.stage">stage</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_base_path_mapping#stage ApigatewayBasePathMapping#stage}. |
 
 ---
 
@@ -1064,7 +1064,7 @@ domain_name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_base_path_mapping#domain_name ApigatewayBasePathMapping#domain_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_base_path_mapping#domain_name ApigatewayBasePathMapping#domain_name}.
 
 ---
 
@@ -1076,7 +1076,7 @@ base_path: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_base_path_mapping#base_path ApigatewayBasePathMapping#base_path}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_base_path_mapping#base_path ApigatewayBasePathMapping#base_path}.
 
 ---
 
@@ -1088,7 +1088,7 @@ rest_api_id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_base_path_mapping#rest_api_id ApigatewayBasePathMapping#rest_api_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_base_path_mapping#rest_api_id ApigatewayBasePathMapping#rest_api_id}.
 
 ---
 
@@ -1100,7 +1100,7 @@ stage: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_base_path_mapping#stage ApigatewayBasePathMapping#stage}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_base_path_mapping#stage ApigatewayBasePathMapping#stage}.
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### DataAwsccSsmcontactsRotations <a name="DataAwsccSsmcontactsRotations" id="@cdktn/provider-awscc.dataAwsccSsmcontactsRotations.DataAwsccSsmcontactsRotations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ssmcontacts_rotations awscc_ssmcontacts_rotations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ssmcontacts_rotations awscc_ssmcontacts_rotations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsmcontactsRotations.DataAwsccSsmcontactsRotations.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSsmcontactsRotati
 
 The id of the existing DataAwsccSsmcontactsRotations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ssmcontacts_rotations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ssmcontacts_rotations#import import section} in the documentation of this resource for the id to use
 
 ---
 

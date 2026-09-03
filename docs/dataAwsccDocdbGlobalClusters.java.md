@@ -4,7 +4,7 @@
 
 ### DataAwsccDocdbGlobalClusters <a name="DataAwsccDocdbGlobalClusters" id="@cdktn/provider-awscc.dataAwsccDocdbGlobalClusters.DataAwsccDocdbGlobalClusters"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/docdb_global_clusters awscc_docdb_global_clusters}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/docdb_global_clusters awscc_docdb_global_clusters}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDocdbGlobalClusters.DataAwsccDocdbGlobalClusters.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccDocdbGlobalCluste
 
 The id of the existing DataAwsccDocdbGlobalClusters that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/docdb_global_clusters#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/docdb_global_clusters#import import section} in the documentation of this resource for the id to use
 
 ---
 

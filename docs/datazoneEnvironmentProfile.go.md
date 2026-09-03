@@ -4,7 +4,7 @@
 
 ### DatazoneEnvironmentProfile <a name="DatazoneEnvironmentProfile" id="@cdktn/provider-awscc.datazoneEnvironmentProfile.DatazoneEnvironmentProfile"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_environment_profile awscc_datazone_environment_profile}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datazone_environment_profile awscc_datazone_environment_profile}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.datazoneEnvironmentProfile.DatazoneEnvironmentProfile.Initializer"></a>
 
@@ -516,7 +516,7 @@ The construct id used in the generated config for the DatazoneEnvironmentProfile
 
 The id of the existing DatazoneEnvironmentProfile that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_environment_profile#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datazone_environment_profile#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1103,7 +1103,7 @@ AwsAccountId *string
 
 The AWS account in which the Amazon DataZone environment is created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_environment_profile#aws_account_id DatazoneEnvironmentProfile#aws_account_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datazone_environment_profile#aws_account_id DatazoneEnvironmentProfile#aws_account_id}
 
 ---
 
@@ -1117,7 +1117,7 @@ AwsAccountRegion *string
 
 The AWS region in which this environment profile is created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_environment_profile#aws_account_region DatazoneEnvironmentProfile#aws_account_region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datazone_environment_profile#aws_account_region DatazoneEnvironmentProfile#aws_account_region}
 
 ---
 
@@ -1131,7 +1131,7 @@ DomainIdentifier *string
 
 The ID of the Amazon DataZone domain in which this environment profile is created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_environment_profile#domain_identifier DatazoneEnvironmentProfile#domain_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datazone_environment_profile#domain_identifier DatazoneEnvironmentProfile#domain_identifier}
 
 ---
 
@@ -1145,7 +1145,7 @@ EnvironmentBlueprintIdentifier *string
 
 The ID of the blueprint with which this environment profile is created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_environment_profile#environment_blueprint_identifier DatazoneEnvironmentProfile#environment_blueprint_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datazone_environment_profile#environment_blueprint_identifier DatazoneEnvironmentProfile#environment_blueprint_identifier}
 
 ---
 
@@ -1159,7 +1159,7 @@ Name *string
 
 The name of this Amazon DataZone environment profile.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_environment_profile#name DatazoneEnvironmentProfile#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datazone_environment_profile#name DatazoneEnvironmentProfile#name}
 
 ---
 
@@ -1173,7 +1173,7 @@ ProjectIdentifier *string
 
 The identifier of the project in which to create the environment profile.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_environment_profile#project_identifier DatazoneEnvironmentProfile#project_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datazone_environment_profile#project_identifier DatazoneEnvironmentProfile#project_identifier}
 
 ---
 
@@ -1187,7 +1187,7 @@ Description *string
 
 The description of this Amazon DataZone environment profile.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_environment_profile#description DatazoneEnvironmentProfile#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datazone_environment_profile#description DatazoneEnvironmentProfile#description}
 
 ---
 
@@ -1201,7 +1201,7 @@ UserParameters interface{}
 
 The user parameters of this Amazon DataZone environment profile.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_environment_profile#user_parameters DatazoneEnvironmentProfile#user_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datazone_environment_profile#user_parameters DatazoneEnvironmentProfile#user_parameters}
 
 ---
 
@@ -1237,7 +1237,7 @@ Name *string
 
 The name of an environment profile parameter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_environment_profile#name DatazoneEnvironmentProfile#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datazone_environment_profile#name DatazoneEnvironmentProfile#name}
 
 ---
 
@@ -1251,7 +1251,7 @@ Value *string
 
 The value of an environment profile parameter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_environment_profile#value DatazoneEnvironmentProfile#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datazone_environment_profile#value DatazoneEnvironmentProfile#value}
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### DataAwsccCasesField <a name="DataAwsccCasesField" id="@cdktn/provider-awscc.dataAwsccCasesField.DataAwsccCasesField"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/cases_field awscc_cases_field}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/cases_field awscc_cases_field}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCasesField.DataAwsccCasesField.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCasesField to imp
 
 The id of the existing DataAwsccCasesField that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/cases_field#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/cases_field#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -830,7 +830,7 @@ public readonly id: string;
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/cases_field#id DataAwsccCasesField#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/cases_field#id DataAwsccCasesField#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

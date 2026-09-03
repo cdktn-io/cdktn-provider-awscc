@@ -4,7 +4,7 @@
 
 ### DataAwsccConnectInstanceStorageConfigs <a name="DataAwsccConnectInstanceStorageConfigs" id="@cdktn/provider-awscc.dataAwsccConnectInstanceStorageConfigs.DataAwsccConnectInstanceStorageConfigs"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/connect_instance_storage_configs awscc_connect_instance_storage_configs}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/connect_instance_storage_configs awscc_connect_instance_storage_configs}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectInstanceStorageConfigs.DataAwsccConnectInstanceStorageConfigs.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccConnectInstanceSt
 
 The id of the existing DataAwsccConnectInstanceStorageConfigs that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/connect_instance_storage_configs#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/connect_instance_storage_configs#import import section} in the documentation of this resource for the id to use
 
 ---
 

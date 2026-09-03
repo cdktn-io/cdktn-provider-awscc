@@ -4,7 +4,7 @@
 
 ### OpensearchserverlessCollectionIndex <a name="OpensearchserverlessCollectionIndex" id="@cdktn/provider-awscc.opensearchserverlessCollectionIndex.OpensearchserverlessCollectionIndex"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/opensearchserverless_collection_index awscc_opensearchserverless_collection_index}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/opensearchserverless_collection_index awscc_opensearchserverless_collection_index}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.opensearchserverlessCollectionIndex.OpensearchserverlessCollectionIndex.Initializer"></a>
 
@@ -496,7 +496,7 @@ The construct id used in the generated config for the OpensearchserverlessCollec
 
 The id of the existing OpensearchserverlessCollectionIndex that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/opensearchserverless_collection_index#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/opensearchserverless_collection_index#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -875,7 +875,7 @@ public readonly collectionIndexId: string;
 
 The identifier of the collection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/opensearchserverless_collection_index#collection_index_id OpensearchserverlessCollectionIndex#collection_index_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/opensearchserverless_collection_index#collection_index_id OpensearchserverlessCollectionIndex#collection_index_id}
 
 ---
 
@@ -889,7 +889,7 @@ public readonly indexName: string;
 
 The name of the collection index.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/opensearchserverless_collection_index#index_name OpensearchserverlessCollectionIndex#index_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/opensearchserverless_collection_index#index_name OpensearchserverlessCollectionIndex#index_name}
 
 ---
 
@@ -903,7 +903,7 @@ public readonly indexSchema: string;
 
 The Mappings for the collection index.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/opensearchserverless_collection_index#index_schema OpensearchserverlessCollectionIndex#index_schema}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/opensearchserverless_collection_index#index_schema OpensearchserverlessCollectionIndex#index_schema}
 
 ---
 

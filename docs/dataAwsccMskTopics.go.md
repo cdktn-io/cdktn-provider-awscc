@@ -4,7 +4,7 @@
 
 ### DataAwsccMskTopics <a name="DataAwsccMskTopics" id="@cdktn/provider-awscc.dataAwsccMskTopics.DataAwsccMskTopics"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/msk_topics awscc_msk_topics}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/msk_topics awscc_msk_topics}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskTopics.DataAwsccMskTopics.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccMskTopics to impo
 
 The id of the existing DataAwsccMskTopics that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/msk_topics#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/msk_topics#import import section} in the documentation of this resource for the id to use
 
 ---
 

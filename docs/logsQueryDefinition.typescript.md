@@ -4,7 +4,7 @@
 
 ### LogsQueryDefinition <a name="LogsQueryDefinition" id="@cdktn/provider-awscc.logsQueryDefinition.LogsQueryDefinition"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/logs_query_definition awscc_logs_query_definition}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/logs_query_definition awscc_logs_query_definition}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.logsQueryDefinition.LogsQueryDefinition.Initializer"></a>
 
@@ -523,7 +523,7 @@ The construct id used in the generated config for the LogsQueryDefinition to imp
 
 The id of the existing LogsQueryDefinition that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/logs_query_definition#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/logs_query_definition#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -959,7 +959,7 @@ public readonly name: string;
 
 A name for the saved query definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/logs_query_definition#name LogsQueryDefinition#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/logs_query_definition#name LogsQueryDefinition#name}
 
 ---
 
@@ -973,7 +973,7 @@ public readonly queryString: string;
 
 The query string to use for this definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/logs_query_definition#query_string LogsQueryDefinition#query_string}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/logs_query_definition#query_string LogsQueryDefinition#query_string}
 
 ---
 
@@ -987,7 +987,7 @@ public readonly logGroupNames: string[];
 
 Optionally define specific log groups as part of your query definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/logs_query_definition#log_group_names LogsQueryDefinition#log_group_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/logs_query_definition#log_group_names LogsQueryDefinition#log_group_names}
 
 ---
 
@@ -1003,7 +1003,7 @@ Use this parameter to include specific query parameters as part of your query de
 
 Query parameters are supported only for Logs Insights QL queries. Query parameters allow you to use placeholder variables in your query string that are substituted with values at execution time. Use the {{parameterName}} syntax in your query string to reference a parameter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/logs_query_definition#parameters LogsQueryDefinition#parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/logs_query_definition#parameters LogsQueryDefinition#parameters}
 
 ---
 
@@ -1017,7 +1017,7 @@ public readonly queryLanguage: string;
 
 Query language of the query string. Possible values are CWLI, SQL, PPL, with CWLI being the default.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/logs_query_definition#query_language LogsQueryDefinition#query_language}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/logs_query_definition#query_language LogsQueryDefinition#query_language}
 
 ---
 
@@ -1051,7 +1051,7 @@ public readonly defaultValue: string;
 
 The default value to use for this query parameter if no value is supplied at execution time.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/logs_query_definition#default_value LogsQueryDefinition#default_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/logs_query_definition#default_value LogsQueryDefinition#default_value}
 
 ---
 
@@ -1065,7 +1065,7 @@ public readonly description: string;
 
 A description of the query parameter that explains its purpose or expected values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/logs_query_definition#description LogsQueryDefinition#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/logs_query_definition#description LogsQueryDefinition#description}
 
 ---
 
@@ -1081,7 +1081,7 @@ The name of the query parameter.
 
 A query parameter name must start with a letter or underscore, and contain only letters, digits, and underscores.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/logs_query_definition#name LogsQueryDefinition#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/logs_query_definition#name LogsQueryDefinition#name}
 
 ---
 

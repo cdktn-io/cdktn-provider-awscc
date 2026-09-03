@@ -4,7 +4,7 @@
 
 ### DataAwsccMpaIdentitySources <a name="DataAwsccMpaIdentitySources" id="@cdktn/provider-awscc.dataAwsccMpaIdentitySources.DataAwsccMpaIdentitySources"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/mpa_identity_sources awscc_mpa_identity_sources}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/mpa_identity_sources awscc_mpa_identity_sources}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMpaIdentitySources.DataAwsccMpaIdentitySources.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccMpaIdentitySource
 
 The id of the existing DataAwsccMpaIdentitySources that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/mpa_identity_sources#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/mpa_identity_sources#import import section} in the documentation of this resource for the id to use
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### IotLogging <a name="IotLogging" id="@cdktn/provider-awscc.iotLogging.IotLogging"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_logging awscc_iot_logging}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_logging awscc_iot_logging}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotLogging.IotLogging.Initializer"></a>
 
@@ -112,7 +112,7 @@ Must be unique amongst siblings in the same scope
 
 Your 12-digit account ID (used as the primary identifier for the CloudFormation resource).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_logging#account_id IotLogging#account_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_logging#account_id IotLogging#account_id}
 
 ---
 
@@ -122,7 +122,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The log level to use. Valid values are: ERROR, WARN, INFO, DEBUG, or DISABLED.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_logging#default_log_level IotLogging#default_log_level}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_logging#default_log_level IotLogging#default_log_level}
 
 ---
 
@@ -132,7 +132,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The ARN of the role that allows IoT to write to Cloudwatch logs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_logging#role_arn IotLogging#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_logging#role_arn IotLogging#role_arn}
 
 ---
 
@@ -144,7 +144,7 @@ Configurations for event-based logging that specifies which event types to log a
 
 Overrides account-level logging for the specified event
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_logging#event_configurations IotLogging#event_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_logging#event_configurations IotLogging#event_configurations}
 
 ---
 
@@ -663,7 +663,7 @@ The construct id used in the generated config for the IotLogging to import.
 
 The id of the existing IotLogging that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_logging#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_logging#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1077,7 +1077,7 @@ account_id: str
 
 Your 12-digit account ID (used as the primary identifier for the CloudFormation resource).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_logging#account_id IotLogging#account_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_logging#account_id IotLogging#account_id}
 
 ---
 
@@ -1091,7 +1091,7 @@ default_log_level: str
 
 The log level to use. Valid values are: ERROR, WARN, INFO, DEBUG, or DISABLED.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_logging#default_log_level IotLogging#default_log_level}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_logging#default_log_level IotLogging#default_log_level}
 
 ---
 
@@ -1105,7 +1105,7 @@ role_arn: str
 
 The ARN of the role that allows IoT to write to Cloudwatch logs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_logging#role_arn IotLogging#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_logging#role_arn IotLogging#role_arn}
 
 ---
 
@@ -1121,7 +1121,7 @@ Configurations for event-based logging that specifies which event types to log a
 
 Overrides account-level logging for the specified event
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_logging#event_configurations IotLogging#event_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_logging#event_configurations IotLogging#event_configurations}
 
 ---
 
@@ -1159,7 +1159,7 @@ event_type: str
 
 The type of event to log. These include event types like Connect, Publish, and Disconnect.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_logging#event_type IotLogging#event_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_logging#event_type IotLogging#event_type}
 
 ---
 
@@ -1175,7 +1175,7 @@ CloudWatch Log Group for event-based logging.
 
 Specifies where log events should be sent. The log destination for event-based logging overrides default Log Group for the specified event type and applies to all resources associated with that event.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_logging#log_destination IotLogging#log_destination}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_logging#log_destination IotLogging#log_destination}
 
 ---
 
@@ -1189,7 +1189,7 @@ log_level: str
 
 The logging level for the specified event type. Determines the verbosity of log messages generated for this event type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_logging#log_level IotLogging#log_level}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_logging#log_level IotLogging#log_level}
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### CasesCase <a name="CasesCase" id="@cdktn/provider-awscc.casesCase.CasesCase"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cases_case awscc_cases_case}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cases_case awscc_cases_case}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.casesCase.CasesCase.Initializer"></a>
 
@@ -509,7 +509,7 @@ The construct id used in the generated config for the CasesCase to import.
 
 The id of the existing CasesCase that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cases_case#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cases_case#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -956,7 +956,7 @@ public readonly customerId: string;
 
 The full customer profile ARN for the case.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cases_case#customer_id CasesCase#customer_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cases_case#customer_id CasesCase#customer_id}
 
 ---
 
@@ -970,7 +970,7 @@ public readonly domainId: string;
 
 The unique identifier of the Cases domain.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cases_case#domain_id CasesCase#domain_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cases_case#domain_id CasesCase#domain_id}
 
 ---
 
@@ -984,7 +984,7 @@ public readonly templateId: string;
 
 A unique identifier of a template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cases_case#template_id CasesCase#template_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cases_case#template_id CasesCase#template_id}
 
 ---
 
@@ -998,7 +998,7 @@ public readonly title: string;
 
 The title of the case.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cases_case#title CasesCase#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cases_case#title CasesCase#title}
 
 ---
 
@@ -1012,7 +1012,7 @@ public readonly tags: IResolvable | CasesCaseTags[];
 
 A list of tags for the case.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cases_case#tags CasesCase#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cases_case#tags CasesCase#tags}
 
 ---
 
@@ -1045,7 +1045,7 @@ public readonly key: string;
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cases_case#key CasesCase#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cases_case#key CasesCase#key}
 
 ---
 
@@ -1059,7 +1059,7 @@ public readonly value: string;
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cases_case#value CasesCase#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cases_case#value CasesCase#value}
 
 ---
 

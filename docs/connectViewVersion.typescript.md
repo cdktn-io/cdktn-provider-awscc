@@ -4,7 +4,7 @@
 
 ### ConnectViewVersion <a name="ConnectViewVersion" id="@cdktn/provider-awscc.connectViewVersion.ConnectViewVersion"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_view_version awscc_connect_view_version}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/connect_view_version awscc_connect_view_version}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectViewVersion.ConnectViewVersion.Initializer"></a>
 
@@ -503,7 +503,7 @@ The construct id used in the generated config for the ConnectViewVersion to impo
 
 The id of the existing ConnectViewVersion that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_view_version#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/connect_view_version#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -904,7 +904,7 @@ public readonly viewArn: string;
 
 The Amazon Resource Name (ARN) of the view for which a version is being created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_view_version#view_arn ConnectViewVersion#view_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/connect_view_version#view_arn ConnectViewVersion#view_arn}
 
 ---
 
@@ -918,7 +918,7 @@ public readonly versionDescription: string;
 
 The description for the view version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_view_version#version_description ConnectViewVersion#version_description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/connect_view_version#version_description ConnectViewVersion#version_description}
 
 ---
 
@@ -932,7 +932,7 @@ public readonly viewContentSha256: string;
 
 The view content hash to be checked.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_view_version#view_content_sha_256 ConnectViewVersion#view_content_sha_256}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/connect_view_version#view_content_sha_256 ConnectViewVersion#view_content_sha_256}
 
 ---
 

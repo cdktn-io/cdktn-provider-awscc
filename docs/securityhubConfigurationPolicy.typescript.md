@@ -4,7 +4,7 @@
 
 ### SecurityhubConfigurationPolicy <a name="SecurityhubConfigurationPolicy" id="@cdktn/provider-awscc.securityhubConfigurationPolicy.SecurityhubConfigurationPolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_configuration_policy awscc_securityhub_configuration_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/securityhub_configuration_policy awscc_securityhub_configuration_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubConfigurationPolicy.SecurityhubConfigurationPolicy.Initializer"></a>
 
@@ -516,7 +516,7 @@ The construct id used in the generated config for the SecurityhubConfigurationPo
 
 The id of the existing SecurityhubConfigurationPolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_configuration_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/securityhub_configuration_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -973,7 +973,7 @@ public readonly configurationPolicy: SecurityhubConfigurationPolicyConfiguration
 
 An object that defines how Security Hub is configured.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_configuration_policy#configuration_policy SecurityhubConfigurationPolicy#configuration_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/securityhub_configuration_policy#configuration_policy SecurityhubConfigurationPolicy#configuration_policy}
 
 ---
 
@@ -987,7 +987,7 @@ public readonly name: string;
 
 The name of the configuration policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_configuration_policy#name SecurityhubConfigurationPolicy#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/securityhub_configuration_policy#name SecurityhubConfigurationPolicy#name}
 
 ---
 
@@ -1001,7 +1001,7 @@ public readonly description: string;
 
 The description of the configuration policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_configuration_policy#description SecurityhubConfigurationPolicy#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/securityhub_configuration_policy#description SecurityhubConfigurationPolicy#description}
 
 ---
 
@@ -1015,7 +1015,7 @@ public readonly tags: {[ key: string ]: string};
 
 A key-value pair to associate with a resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_configuration_policy#tags SecurityhubConfigurationPolicy#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/securityhub_configuration_policy#tags SecurityhubConfigurationPolicy#tags}
 
 ---
 
@@ -1047,7 +1047,7 @@ public readonly securityHub: SecurityhubConfigurationPolicyConfigurationPolicySe
 
 An object that defines how AWS Security Hub is configured.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_configuration_policy#security_hub SecurityhubConfigurationPolicy#security_hub}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/securityhub_configuration_policy#security_hub SecurityhubConfigurationPolicy#security_hub}
 
 ---
 
@@ -1081,7 +1081,7 @@ public readonly enabledStandardIdentifiers: string[];
 
 A list that defines which security standards are enabled in the configuration policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_configuration_policy#enabled_standard_identifiers SecurityhubConfigurationPolicy#enabled_standard_identifiers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/securityhub_configuration_policy#enabled_standard_identifiers SecurityhubConfigurationPolicy#enabled_standard_identifiers}
 
 ---
 
@@ -1095,7 +1095,7 @@ public readonly securityControlsConfiguration: SecurityhubConfigurationPolicyCon
 
 An object that defines which security controls are enabled in an AWS Security Hub configuration policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_configuration_policy#security_controls_configuration SecurityhubConfigurationPolicy#security_controls_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/securityhub_configuration_policy#security_controls_configuration SecurityhubConfigurationPolicy#security_controls_configuration}
 
 ---
 
@@ -1109,7 +1109,7 @@ public readonly serviceEnabled: boolean | IResolvable;
 
 Indicates whether Security Hub is enabled in the policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_configuration_policy#service_enabled SecurityhubConfigurationPolicy#service_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/securityhub_configuration_policy#service_enabled SecurityhubConfigurationPolicy#service_enabled}
 
 ---
 
@@ -1143,7 +1143,7 @@ public readonly disabledSecurityControlIdentifiers: string[];
 
 A list of security controls that are disabled in the configuration policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_configuration_policy#disabled_security_control_identifiers SecurityhubConfigurationPolicy#disabled_security_control_identifiers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/securityhub_configuration_policy#disabled_security_control_identifiers SecurityhubConfigurationPolicy#disabled_security_control_identifiers}
 
 ---
 
@@ -1157,7 +1157,7 @@ public readonly enabledSecurityControlIdentifiers: string[];
 
 A list of security controls that are enabled in the configuration policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_configuration_policy#enabled_security_control_identifiers SecurityhubConfigurationPolicy#enabled_security_control_identifiers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/securityhub_configuration_policy#enabled_security_control_identifiers SecurityhubConfigurationPolicy#enabled_security_control_identifiers}
 
 ---
 
@@ -1171,7 +1171,7 @@ public readonly securityControlCustomParameters: IResolvable | SecurityhubConfig
 
 A list of security controls and control parameter values that are included in a configuration policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_configuration_policy#security_control_custom_parameters SecurityhubConfigurationPolicy#security_control_custom_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/securityhub_configuration_policy#security_control_custom_parameters SecurityhubConfigurationPolicy#security_control_custom_parameters}
 
 ---
 
@@ -1204,7 +1204,7 @@ public readonly parameters: IResolvable | {[ key: string ]: SecurityhubConfigura
 
 An object that specifies parameter values for a control in a configuration policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_configuration_policy#parameters SecurityhubConfigurationPolicy#parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/securityhub_configuration_policy#parameters SecurityhubConfigurationPolicy#parameters}
 
 ---
 
@@ -1218,7 +1218,7 @@ public readonly securityControlId: string;
 
 The ID of the security control.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_configuration_policy#security_control_id SecurityhubConfigurationPolicy#security_control_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/securityhub_configuration_policy#security_control_id SecurityhubConfigurationPolicy#security_control_id}
 
 ---
 
@@ -1251,7 +1251,7 @@ public readonly value: SecurityhubConfigurationPolicyConfigurationPolicySecurity
 
 An object that includes the data type of a security control parameter and its current value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_configuration_policy#value SecurityhubConfigurationPolicy#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/securityhub_configuration_policy#value SecurityhubConfigurationPolicy#value}
 
 ---
 
@@ -1265,7 +1265,7 @@ public readonly valueType: string;
 
 Identifies whether a control parameter uses a custom user-defined value or subscribes to the default AWS Security Hub behavior.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_configuration_policy#value_type SecurityhubConfigurationPolicy#value_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/securityhub_configuration_policy#value_type SecurityhubConfigurationPolicy#value_type}
 
 ---
 
@@ -1304,7 +1304,7 @@ public readonly boolean: boolean | IResolvable;
 
 A control parameter that is a boolean.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_configuration_policy#boolean SecurityhubConfigurationPolicy#boolean}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/securityhub_configuration_policy#boolean SecurityhubConfigurationPolicy#boolean}
 
 ---
 
@@ -1318,7 +1318,7 @@ public readonly double: number;
 
 A control parameter that is a double.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_configuration_policy#double SecurityhubConfigurationPolicy#double}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/securityhub_configuration_policy#double SecurityhubConfigurationPolicy#double}
 
 ---
 
@@ -1332,7 +1332,7 @@ public readonly enum: string;
 
 A control parameter that is an enum.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_configuration_policy#enum SecurityhubConfigurationPolicy#enum}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/securityhub_configuration_policy#enum SecurityhubConfigurationPolicy#enum}
 
 ---
 
@@ -1346,7 +1346,7 @@ public readonly enumList: string[];
 
 A control parameter that is a list of enums.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_configuration_policy#enum_list SecurityhubConfigurationPolicy#enum_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/securityhub_configuration_policy#enum_list SecurityhubConfigurationPolicy#enum_list}
 
 ---
 
@@ -1360,7 +1360,7 @@ public readonly integer: number;
 
 A control parameter that is an integer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_configuration_policy#integer SecurityhubConfigurationPolicy#integer}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/securityhub_configuration_policy#integer SecurityhubConfigurationPolicy#integer}
 
 ---
 
@@ -1374,7 +1374,7 @@ public readonly integerList: number[];
 
 A control parameter that is a list of integers.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_configuration_policy#integer_list SecurityhubConfigurationPolicy#integer_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/securityhub_configuration_policy#integer_list SecurityhubConfigurationPolicy#integer_list}
 
 ---
 
@@ -1388,7 +1388,7 @@ public readonly string: string;
 
 A control parameter that is a string.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_configuration_policy#string SecurityhubConfigurationPolicy#string}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/securityhub_configuration_policy#string SecurityhubConfigurationPolicy#string}
 
 ---
 
@@ -1402,7 +1402,7 @@ public readonly stringList: string[];
 
 A control parameter that is a list of strings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_configuration_policy#string_list SecurityhubConfigurationPolicy#string_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/securityhub_configuration_policy#string_list SecurityhubConfigurationPolicy#string_list}
 
 ---
 

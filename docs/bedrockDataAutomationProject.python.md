@@ -4,7 +4,7 @@
 
 ### BedrockDataAutomationProject <a name="BedrockDataAutomationProject" id="@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProject"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project awscc_bedrock_data_automation_project}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project awscc_bedrock_data_automation_project}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProject.Initializer"></a>
 
@@ -122,7 +122,7 @@ Must be unique amongst siblings in the same scope
 
 Name of the DataAutomationProject.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#project_name BedrockDataAutomationProject#project_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#project_name BedrockDataAutomationProject#project_name}
 
 ---
 
@@ -132,7 +132,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Custom output configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#custom_output_configuration BedrockDataAutomationProject#custom_output_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#custom_output_configuration BedrockDataAutomationProject#custom_output_configuration}
 
 ---
 
@@ -142,7 +142,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 KMS encryption context.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#kms_encryption_context BedrockDataAutomationProject#kms_encryption_context}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#kms_encryption_context BedrockDataAutomationProject#kms_encryption_context}
 
 ---
 
@@ -152,7 +152,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 KMS key identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#kms_key_id BedrockDataAutomationProject#kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#kms_key_id BedrockDataAutomationProject#kms_key_id}
 
 ---
 
@@ -162,7 +162,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Override configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#override_configuration BedrockDataAutomationProject#override_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#override_configuration BedrockDataAutomationProject#override_configuration}
 
 ---
 
@@ -172,7 +172,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Description of the DataAutomationProject.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#project_description BedrockDataAutomationProject#project_description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#project_description BedrockDataAutomationProject#project_description}
 
 ---
 
@@ -182,7 +182,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Type of the DataAutomationProject - Sync or Async.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#project_type BedrockDataAutomationProject#project_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#project_type BedrockDataAutomationProject#project_type}
 
 ---
 
@@ -192,7 +192,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Standard output configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#standard_output_configuration BedrockDataAutomationProject#standard_output_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#standard_output_configuration BedrockDataAutomationProject#standard_output_configuration}
 
 ---
 
@@ -202,7 +202,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 List of Tags.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#tags BedrockDataAutomationProject#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#tags BedrockDataAutomationProject#tags}
 
 ---
 
@@ -609,7 +609,7 @@ def put_custom_output_configuration(
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectCustomOutputConfigurationBlueprints">BedrockDataAutomationProjectCustomOutputConfigurationBlueprints</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#blueprints BedrockDataAutomationProject#blueprints}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#blueprints BedrockDataAutomationProject#blueprints}.
 
 ---
 
@@ -629,7 +629,7 @@ def put_override_configuration(
 
 - *Type:* <a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationAudio">BedrockDataAutomationProjectOverrideConfigurationAudio</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#audio BedrockDataAutomationProject#audio}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#audio BedrockDataAutomationProject#audio}.
 
 ---
 
@@ -637,7 +637,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationDocument">BedrockDataAutomationProjectOverrideConfigurationDocument</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#document BedrockDataAutomationProject#document}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#document BedrockDataAutomationProject#document}.
 
 ---
 
@@ -645,7 +645,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationImage">BedrockDataAutomationProjectOverrideConfigurationImage</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#image BedrockDataAutomationProject#image}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#image BedrockDataAutomationProject#image}.
 
 ---
 
@@ -655,7 +655,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Modality routing configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#modality_routing BedrockDataAutomationProject#modality_routing}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#modality_routing BedrockDataAutomationProject#modality_routing}
 
 ---
 
@@ -663,7 +663,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationVideo">BedrockDataAutomationProjectOverrideConfigurationVideo</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#video BedrockDataAutomationProject#video}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#video BedrockDataAutomationProject#video}.
 
 ---
 
@@ -682,7 +682,7 @@ def put_standard_output_configuration(
 
 - *Type:* <a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationAudio">BedrockDataAutomationProjectStandardOutputConfigurationAudio</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#audio BedrockDataAutomationProject#audio}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#audio BedrockDataAutomationProject#audio}.
 
 ---
 
@@ -690,7 +690,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationDocument">BedrockDataAutomationProjectStandardOutputConfigurationDocument</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#document BedrockDataAutomationProject#document}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#document BedrockDataAutomationProject#document}.
 
 ---
 
@@ -698,7 +698,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationImage">BedrockDataAutomationProjectStandardOutputConfigurationImage</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#image BedrockDataAutomationProject#image}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#image BedrockDataAutomationProject#image}.
 
 ---
 
@@ -706,7 +706,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationVideo">BedrockDataAutomationProjectStandardOutputConfigurationVideo</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#video BedrockDataAutomationProject#video}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#video BedrockDataAutomationProject#video}.
 
 ---
 
@@ -886,7 +886,7 @@ The construct id used in the generated config for the BedrockDataAutomationProje
 
 The id of the existing BedrockDataAutomationProject that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1475,7 +1475,7 @@ project_name: str
 
 Name of the DataAutomationProject.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#project_name BedrockDataAutomationProject#project_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#project_name BedrockDataAutomationProject#project_name}
 
 ---
 
@@ -1489,7 +1489,7 @@ custom_output_configuration: BedrockDataAutomationProjectCustomOutputConfigurati
 
 Custom output configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#custom_output_configuration BedrockDataAutomationProject#custom_output_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#custom_output_configuration BedrockDataAutomationProject#custom_output_configuration}
 
 ---
 
@@ -1503,7 +1503,7 @@ kms_encryption_context: typing.Mapping[str]
 
 KMS encryption context.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#kms_encryption_context BedrockDataAutomationProject#kms_encryption_context}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#kms_encryption_context BedrockDataAutomationProject#kms_encryption_context}
 
 ---
 
@@ -1517,7 +1517,7 @@ kms_key_id: str
 
 KMS key identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#kms_key_id BedrockDataAutomationProject#kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#kms_key_id BedrockDataAutomationProject#kms_key_id}
 
 ---
 
@@ -1531,7 +1531,7 @@ override_configuration: BedrockDataAutomationProjectOverrideConfiguration
 
 Override configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#override_configuration BedrockDataAutomationProject#override_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#override_configuration BedrockDataAutomationProject#override_configuration}
 
 ---
 
@@ -1545,7 +1545,7 @@ project_description: str
 
 Description of the DataAutomationProject.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#project_description BedrockDataAutomationProject#project_description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#project_description BedrockDataAutomationProject#project_description}
 
 ---
 
@@ -1559,7 +1559,7 @@ project_type: str
 
 Type of the DataAutomationProject - Sync or Async.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#project_type BedrockDataAutomationProject#project_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#project_type BedrockDataAutomationProject#project_type}
 
 ---
 
@@ -1573,7 +1573,7 @@ standard_output_configuration: BedrockDataAutomationProjectStandardOutputConfigu
 
 Standard output configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#standard_output_configuration BedrockDataAutomationProject#standard_output_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#standard_output_configuration BedrockDataAutomationProject#standard_output_configuration}
 
 ---
 
@@ -1587,7 +1587,7 @@ tags: IResolvable | typing.List[BedrockDataAutomationProjectTags]
 
 List of Tags.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#tags BedrockDataAutomationProject#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#tags BedrockDataAutomationProject#tags}
 
 ---
 
@@ -1607,7 +1607,7 @@ bedrockDataAutomationProject.BedrockDataAutomationProjectCustomOutputConfigurati
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectCustomOutputConfiguration.property.blueprints">blueprints</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectCustomOutputConfigurationBlueprints">BedrockDataAutomationProjectCustomOutputConfigurationBlueprints</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#blueprints BedrockDataAutomationProject#blueprints}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectCustomOutputConfiguration.property.blueprints">blueprints</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectCustomOutputConfigurationBlueprints">BedrockDataAutomationProjectCustomOutputConfigurationBlueprints</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#blueprints BedrockDataAutomationProject#blueprints}. |
 
 ---
 
@@ -1619,7 +1619,7 @@ blueprints: IResolvable | typing.List[BedrockDataAutomationProjectCustomOutputCo
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectCustomOutputConfigurationBlueprints">BedrockDataAutomationProjectCustomOutputConfigurationBlueprints</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#blueprints BedrockDataAutomationProject#blueprints}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#blueprints BedrockDataAutomationProject#blueprints}.
 
 ---
 
@@ -1657,7 +1657,7 @@ blueprint_arn: str
 
 ARN of a Blueprint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#blueprint_arn BedrockDataAutomationProject#blueprint_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#blueprint_arn BedrockDataAutomationProject#blueprint_arn}
 
 ---
 
@@ -1671,7 +1671,7 @@ blueprint_stage: str
 
 Stage of the Blueprint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#blueprint_stage BedrockDataAutomationProject#blueprint_stage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#blueprint_stage BedrockDataAutomationProject#blueprint_stage}
 
 ---
 
@@ -1685,7 +1685,7 @@ blueprint_version: str
 
 Blueprint Version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#blueprint_version BedrockDataAutomationProject#blueprint_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#blueprint_version BedrockDataAutomationProject#blueprint_version}
 
 ---
 
@@ -1709,11 +1709,11 @@ bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfiguration(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfiguration.property.audio">audio</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationAudio">BedrockDataAutomationProjectOverrideConfigurationAudio</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#audio BedrockDataAutomationProject#audio}. |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfiguration.property.document">document</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationDocument">BedrockDataAutomationProjectOverrideConfigurationDocument</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#document BedrockDataAutomationProject#document}. |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfiguration.property.image">image</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationImage">BedrockDataAutomationProjectOverrideConfigurationImage</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#image BedrockDataAutomationProject#image}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfiguration.property.audio">audio</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationAudio">BedrockDataAutomationProjectOverrideConfigurationAudio</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#audio BedrockDataAutomationProject#audio}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfiguration.property.document">document</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationDocument">BedrockDataAutomationProjectOverrideConfigurationDocument</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#document BedrockDataAutomationProject#document}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfiguration.property.image">image</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationImage">BedrockDataAutomationProjectOverrideConfigurationImage</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#image BedrockDataAutomationProject#image}. |
 | <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfiguration.property.modalityRouting">modality_routing</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationModalityRouting">BedrockDataAutomationProjectOverrideConfigurationModalityRouting</a></code> | Modality routing configuration. |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfiguration.property.video">video</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationVideo">BedrockDataAutomationProjectOverrideConfigurationVideo</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#video BedrockDataAutomationProject#video}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfiguration.property.video">video</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationVideo">BedrockDataAutomationProjectOverrideConfigurationVideo</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#video BedrockDataAutomationProject#video}. |
 
 ---
 
@@ -1725,7 +1725,7 @@ audio: BedrockDataAutomationProjectOverrideConfigurationAudio
 
 - *Type:* <a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationAudio">BedrockDataAutomationProjectOverrideConfigurationAudio</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#audio BedrockDataAutomationProject#audio}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#audio BedrockDataAutomationProject#audio}.
 
 ---
 
@@ -1737,7 +1737,7 @@ document: BedrockDataAutomationProjectOverrideConfigurationDocument
 
 - *Type:* <a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationDocument">BedrockDataAutomationProjectOverrideConfigurationDocument</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#document BedrockDataAutomationProject#document}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#document BedrockDataAutomationProject#document}.
 
 ---
 
@@ -1749,7 +1749,7 @@ image: BedrockDataAutomationProjectOverrideConfigurationImage
 
 - *Type:* <a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationImage">BedrockDataAutomationProjectOverrideConfigurationImage</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#image BedrockDataAutomationProject#image}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#image BedrockDataAutomationProject#image}.
 
 ---
 
@@ -1763,7 +1763,7 @@ modality_routing: BedrockDataAutomationProjectOverrideConfigurationModalityRouti
 
 Modality routing configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#modality_routing BedrockDataAutomationProject#modality_routing}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#modality_routing BedrockDataAutomationProject#modality_routing}
 
 ---
 
@@ -1775,7 +1775,7 @@ video: BedrockDataAutomationProjectOverrideConfigurationVideo
 
 - *Type:* <a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationVideo">BedrockDataAutomationProjectOverrideConfigurationVideo</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#video BedrockDataAutomationProject#video}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#video BedrockDataAutomationProject#video}.
 
 ---
 
@@ -1797,9 +1797,9 @@ bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationAu
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationAudio.property.languageConfiguration">language_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationAudioLanguageConfiguration">BedrockDataAutomationProjectOverrideConfigurationAudioLanguageConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#language_configuration BedrockDataAutomationProject#language_configuration}. |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationAudio.property.modalityProcessing">modality_processing</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationAudioModalityProcessing">BedrockDataAutomationProjectOverrideConfigurationAudioModalityProcessing</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#modality_processing BedrockDataAutomationProject#modality_processing}. |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationAudio.property.sensitiveDataConfiguration">sensitive_data_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationAudioSensitiveDataConfiguration">BedrockDataAutomationProjectOverrideConfigurationAudioSensitiveDataConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#sensitive_data_configuration BedrockDataAutomationProject#sensitive_data_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationAudio.property.languageConfiguration">language_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationAudioLanguageConfiguration">BedrockDataAutomationProjectOverrideConfigurationAudioLanguageConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#language_configuration BedrockDataAutomationProject#language_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationAudio.property.modalityProcessing">modality_processing</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationAudioModalityProcessing">BedrockDataAutomationProjectOverrideConfigurationAudioModalityProcessing</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#modality_processing BedrockDataAutomationProject#modality_processing}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationAudio.property.sensitiveDataConfiguration">sensitive_data_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationAudioSensitiveDataConfiguration">BedrockDataAutomationProjectOverrideConfigurationAudioSensitiveDataConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#sensitive_data_configuration BedrockDataAutomationProject#sensitive_data_configuration}. |
 
 ---
 
@@ -1811,7 +1811,7 @@ language_configuration: BedrockDataAutomationProjectOverrideConfigurationAudioLa
 
 - *Type:* <a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationAudioLanguageConfiguration">BedrockDataAutomationProjectOverrideConfigurationAudioLanguageConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#language_configuration BedrockDataAutomationProject#language_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#language_configuration BedrockDataAutomationProject#language_configuration}.
 
 ---
 
@@ -1823,7 +1823,7 @@ modality_processing: BedrockDataAutomationProjectOverrideConfigurationAudioModal
 
 - *Type:* <a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationAudioModalityProcessing">BedrockDataAutomationProjectOverrideConfigurationAudioModalityProcessing</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#modality_processing BedrockDataAutomationProject#modality_processing}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#modality_processing BedrockDataAutomationProject#modality_processing}.
 
 ---
 
@@ -1835,7 +1835,7 @@ sensitive_data_configuration: BedrockDataAutomationProjectOverrideConfigurationA
 
 - *Type:* <a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationAudioSensitiveDataConfiguration">BedrockDataAutomationProjectOverrideConfigurationAudioSensitiveDataConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#sensitive_data_configuration BedrockDataAutomationProject#sensitive_data_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#sensitive_data_configuration BedrockDataAutomationProject#sensitive_data_configuration}.
 
 ---
 
@@ -1857,9 +1857,9 @@ bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationAu
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationAudioLanguageConfiguration.property.generativeOutputLanguage">generative_output_language</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#generative_output_language BedrockDataAutomationProject#generative_output_language}. |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationAudioLanguageConfiguration.property.identifyMultipleLanguages">identify_multiple_languages</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#identify_multiple_languages BedrockDataAutomationProject#identify_multiple_languages}. |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationAudioLanguageConfiguration.property.inputLanguages">input_languages</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#input_languages BedrockDataAutomationProject#input_languages}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationAudioLanguageConfiguration.property.generativeOutputLanguage">generative_output_language</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#generative_output_language BedrockDataAutomationProject#generative_output_language}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationAudioLanguageConfiguration.property.identifyMultipleLanguages">identify_multiple_languages</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#identify_multiple_languages BedrockDataAutomationProject#identify_multiple_languages}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationAudioLanguageConfiguration.property.inputLanguages">input_languages</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#input_languages BedrockDataAutomationProject#input_languages}. |
 
 ---
 
@@ -1871,7 +1871,7 @@ generative_output_language: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#generative_output_language BedrockDataAutomationProject#generative_output_language}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#generative_output_language BedrockDataAutomationProject#generative_output_language}.
 
 ---
 
@@ -1883,7 +1883,7 @@ identify_multiple_languages: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#identify_multiple_languages BedrockDataAutomationProject#identify_multiple_languages}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#identify_multiple_languages BedrockDataAutomationProject#identify_multiple_languages}.
 
 ---
 
@@ -1895,7 +1895,7 @@ input_languages: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#input_languages BedrockDataAutomationProject#input_languages}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#input_languages BedrockDataAutomationProject#input_languages}.
 
 ---
 
@@ -1915,7 +1915,7 @@ bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationAu
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationAudioModalityProcessing.property.state">state</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationAudioModalityProcessing.property.state">state</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}. |
 
 ---
 
@@ -1927,7 +1927,7 @@ state: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}.
 
 ---
 
@@ -1949,9 +1949,9 @@ bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationAu
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationAudioSensitiveDataConfiguration.property.detectionMode">detection_mode</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#detection_mode BedrockDataAutomationProject#detection_mode}. |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationAudioSensitiveDataConfiguration.property.detectionScope">detection_scope</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#detection_scope BedrockDataAutomationProject#detection_scope}. |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationAudioSensitiveDataConfiguration.property.piiEntitiesConfiguration">pii_entities_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationAudioSensitiveDataConfigurationPiiEntitiesConfiguration">BedrockDataAutomationProjectOverrideConfigurationAudioSensitiveDataConfigurationPiiEntitiesConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#pii_entities_configuration BedrockDataAutomationProject#pii_entities_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationAudioSensitiveDataConfiguration.property.detectionMode">detection_mode</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#detection_mode BedrockDataAutomationProject#detection_mode}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationAudioSensitiveDataConfiguration.property.detectionScope">detection_scope</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#detection_scope BedrockDataAutomationProject#detection_scope}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationAudioSensitiveDataConfiguration.property.piiEntitiesConfiguration">pii_entities_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationAudioSensitiveDataConfigurationPiiEntitiesConfiguration">BedrockDataAutomationProjectOverrideConfigurationAudioSensitiveDataConfigurationPiiEntitiesConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#pii_entities_configuration BedrockDataAutomationProject#pii_entities_configuration}. |
 
 ---
 
@@ -1963,7 +1963,7 @@ detection_mode: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#detection_mode BedrockDataAutomationProject#detection_mode}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#detection_mode BedrockDataAutomationProject#detection_mode}.
 
 ---
 
@@ -1975,7 +1975,7 @@ detection_scope: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#detection_scope BedrockDataAutomationProject#detection_scope}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#detection_scope BedrockDataAutomationProject#detection_scope}.
 
 ---
 
@@ -1987,7 +1987,7 @@ pii_entities_configuration: BedrockDataAutomationProjectOverrideConfigurationAud
 
 - *Type:* <a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationAudioSensitiveDataConfigurationPiiEntitiesConfiguration">BedrockDataAutomationProjectOverrideConfigurationAudioSensitiveDataConfigurationPiiEntitiesConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#pii_entities_configuration BedrockDataAutomationProject#pii_entities_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#pii_entities_configuration BedrockDataAutomationProject#pii_entities_configuration}.
 
 ---
 
@@ -2008,8 +2008,8 @@ bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationAu
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationAudioSensitiveDataConfigurationPiiEntitiesConfiguration.property.piiEntityTypes">pii_entity_types</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#pii_entity_types BedrockDataAutomationProject#pii_entity_types}. |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationAudioSensitiveDataConfigurationPiiEntitiesConfiguration.property.redactionMaskMode">redaction_mask_mode</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#redaction_mask_mode BedrockDataAutomationProject#redaction_mask_mode}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationAudioSensitiveDataConfigurationPiiEntitiesConfiguration.property.piiEntityTypes">pii_entity_types</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#pii_entity_types BedrockDataAutomationProject#pii_entity_types}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationAudioSensitiveDataConfigurationPiiEntitiesConfiguration.property.redactionMaskMode">redaction_mask_mode</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#redaction_mask_mode BedrockDataAutomationProject#redaction_mask_mode}. |
 
 ---
 
@@ -2021,7 +2021,7 @@ pii_entity_types: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#pii_entity_types BedrockDataAutomationProject#pii_entity_types}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#pii_entity_types BedrockDataAutomationProject#pii_entity_types}.
 
 ---
 
@@ -2033,7 +2033,7 @@ redaction_mask_mode: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#redaction_mask_mode BedrockDataAutomationProject#redaction_mask_mode}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#redaction_mask_mode BedrockDataAutomationProject#redaction_mask_mode}.
 
 ---
 
@@ -2055,9 +2055,9 @@ bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationDo
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationDocument.property.modalityProcessing">modality_processing</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationDocumentModalityProcessing">BedrockDataAutomationProjectOverrideConfigurationDocumentModalityProcessing</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#modality_processing BedrockDataAutomationProject#modality_processing}. |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationDocument.property.sensitiveDataConfiguration">sensitive_data_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationDocumentSensitiveDataConfiguration">BedrockDataAutomationProjectOverrideConfigurationDocumentSensitiveDataConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#sensitive_data_configuration BedrockDataAutomationProject#sensitive_data_configuration}. |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationDocument.property.splitter">splitter</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationDocumentSplitter">BedrockDataAutomationProjectOverrideConfigurationDocumentSplitter</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#splitter BedrockDataAutomationProject#splitter}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationDocument.property.modalityProcessing">modality_processing</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationDocumentModalityProcessing">BedrockDataAutomationProjectOverrideConfigurationDocumentModalityProcessing</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#modality_processing BedrockDataAutomationProject#modality_processing}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationDocument.property.sensitiveDataConfiguration">sensitive_data_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationDocumentSensitiveDataConfiguration">BedrockDataAutomationProjectOverrideConfigurationDocumentSensitiveDataConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#sensitive_data_configuration BedrockDataAutomationProject#sensitive_data_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationDocument.property.splitter">splitter</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationDocumentSplitter">BedrockDataAutomationProjectOverrideConfigurationDocumentSplitter</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#splitter BedrockDataAutomationProject#splitter}. |
 
 ---
 
@@ -2069,7 +2069,7 @@ modality_processing: BedrockDataAutomationProjectOverrideConfigurationDocumentMo
 
 - *Type:* <a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationDocumentModalityProcessing">BedrockDataAutomationProjectOverrideConfigurationDocumentModalityProcessing</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#modality_processing BedrockDataAutomationProject#modality_processing}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#modality_processing BedrockDataAutomationProject#modality_processing}.
 
 ---
 
@@ -2081,7 +2081,7 @@ sensitive_data_configuration: BedrockDataAutomationProjectOverrideConfigurationD
 
 - *Type:* <a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationDocumentSensitiveDataConfiguration">BedrockDataAutomationProjectOverrideConfigurationDocumentSensitiveDataConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#sensitive_data_configuration BedrockDataAutomationProject#sensitive_data_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#sensitive_data_configuration BedrockDataAutomationProject#sensitive_data_configuration}.
 
 ---
 
@@ -2093,7 +2093,7 @@ splitter: BedrockDataAutomationProjectOverrideConfigurationDocumentSplitter
 
 - *Type:* <a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationDocumentSplitter">BedrockDataAutomationProjectOverrideConfigurationDocumentSplitter</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#splitter BedrockDataAutomationProject#splitter}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#splitter BedrockDataAutomationProject#splitter}.
 
 ---
 
@@ -2113,7 +2113,7 @@ bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationDo
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationDocumentModalityProcessing.property.state">state</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationDocumentModalityProcessing.property.state">state</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}. |
 
 ---
 
@@ -2125,7 +2125,7 @@ state: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}.
 
 ---
 
@@ -2147,9 +2147,9 @@ bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationDo
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationDocumentSensitiveDataConfiguration.property.detectionMode">detection_mode</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#detection_mode BedrockDataAutomationProject#detection_mode}. |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationDocumentSensitiveDataConfiguration.property.detectionScope">detection_scope</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#detection_scope BedrockDataAutomationProject#detection_scope}. |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationDocumentSensitiveDataConfiguration.property.piiEntitiesConfiguration">pii_entities_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationDocumentSensitiveDataConfigurationPiiEntitiesConfiguration">BedrockDataAutomationProjectOverrideConfigurationDocumentSensitiveDataConfigurationPiiEntitiesConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#pii_entities_configuration BedrockDataAutomationProject#pii_entities_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationDocumentSensitiveDataConfiguration.property.detectionMode">detection_mode</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#detection_mode BedrockDataAutomationProject#detection_mode}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationDocumentSensitiveDataConfiguration.property.detectionScope">detection_scope</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#detection_scope BedrockDataAutomationProject#detection_scope}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationDocumentSensitiveDataConfiguration.property.piiEntitiesConfiguration">pii_entities_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationDocumentSensitiveDataConfigurationPiiEntitiesConfiguration">BedrockDataAutomationProjectOverrideConfigurationDocumentSensitiveDataConfigurationPiiEntitiesConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#pii_entities_configuration BedrockDataAutomationProject#pii_entities_configuration}. |
 
 ---
 
@@ -2161,7 +2161,7 @@ detection_mode: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#detection_mode BedrockDataAutomationProject#detection_mode}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#detection_mode BedrockDataAutomationProject#detection_mode}.
 
 ---
 
@@ -2173,7 +2173,7 @@ detection_scope: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#detection_scope BedrockDataAutomationProject#detection_scope}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#detection_scope BedrockDataAutomationProject#detection_scope}.
 
 ---
 
@@ -2185,7 +2185,7 @@ pii_entities_configuration: BedrockDataAutomationProjectOverrideConfigurationDoc
 
 - *Type:* <a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationDocumentSensitiveDataConfigurationPiiEntitiesConfiguration">BedrockDataAutomationProjectOverrideConfigurationDocumentSensitiveDataConfigurationPiiEntitiesConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#pii_entities_configuration BedrockDataAutomationProject#pii_entities_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#pii_entities_configuration BedrockDataAutomationProject#pii_entities_configuration}.
 
 ---
 
@@ -2206,8 +2206,8 @@ bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationDo
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationDocumentSensitiveDataConfigurationPiiEntitiesConfiguration.property.piiEntityTypes">pii_entity_types</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#pii_entity_types BedrockDataAutomationProject#pii_entity_types}. |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationDocumentSensitiveDataConfigurationPiiEntitiesConfiguration.property.redactionMaskMode">redaction_mask_mode</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#redaction_mask_mode BedrockDataAutomationProject#redaction_mask_mode}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationDocumentSensitiveDataConfigurationPiiEntitiesConfiguration.property.piiEntityTypes">pii_entity_types</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#pii_entity_types BedrockDataAutomationProject#pii_entity_types}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationDocumentSensitiveDataConfigurationPiiEntitiesConfiguration.property.redactionMaskMode">redaction_mask_mode</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#redaction_mask_mode BedrockDataAutomationProject#redaction_mask_mode}. |
 
 ---
 
@@ -2219,7 +2219,7 @@ pii_entity_types: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#pii_entity_types BedrockDataAutomationProject#pii_entity_types}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#pii_entity_types BedrockDataAutomationProject#pii_entity_types}.
 
 ---
 
@@ -2231,7 +2231,7 @@ redaction_mask_mode: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#redaction_mask_mode BedrockDataAutomationProject#redaction_mask_mode}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#redaction_mask_mode BedrockDataAutomationProject#redaction_mask_mode}.
 
 ---
 
@@ -2251,7 +2251,7 @@ bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationDo
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationDocumentSplitter.property.state">state</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationDocumentSplitter.property.state">state</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}. |
 
 ---
 
@@ -2263,7 +2263,7 @@ state: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}.
 
 ---
 
@@ -2284,8 +2284,8 @@ bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationIm
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationImage.property.modalityProcessing">modality_processing</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationImageModalityProcessing">BedrockDataAutomationProjectOverrideConfigurationImageModalityProcessing</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#modality_processing BedrockDataAutomationProject#modality_processing}. |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationImage.property.sensitiveDataConfiguration">sensitive_data_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationImageSensitiveDataConfiguration">BedrockDataAutomationProjectOverrideConfigurationImageSensitiveDataConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#sensitive_data_configuration BedrockDataAutomationProject#sensitive_data_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationImage.property.modalityProcessing">modality_processing</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationImageModalityProcessing">BedrockDataAutomationProjectOverrideConfigurationImageModalityProcessing</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#modality_processing BedrockDataAutomationProject#modality_processing}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationImage.property.sensitiveDataConfiguration">sensitive_data_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationImageSensitiveDataConfiguration">BedrockDataAutomationProjectOverrideConfigurationImageSensitiveDataConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#sensitive_data_configuration BedrockDataAutomationProject#sensitive_data_configuration}. |
 
 ---
 
@@ -2297,7 +2297,7 @@ modality_processing: BedrockDataAutomationProjectOverrideConfigurationImageModal
 
 - *Type:* <a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationImageModalityProcessing">BedrockDataAutomationProjectOverrideConfigurationImageModalityProcessing</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#modality_processing BedrockDataAutomationProject#modality_processing}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#modality_processing BedrockDataAutomationProject#modality_processing}.
 
 ---
 
@@ -2309,7 +2309,7 @@ sensitive_data_configuration: BedrockDataAutomationProjectOverrideConfigurationI
 
 - *Type:* <a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationImageSensitiveDataConfiguration">BedrockDataAutomationProjectOverrideConfigurationImageSensitiveDataConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#sensitive_data_configuration BedrockDataAutomationProject#sensitive_data_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#sensitive_data_configuration BedrockDataAutomationProject#sensitive_data_configuration}.
 
 ---
 
@@ -2329,7 +2329,7 @@ bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationIm
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationImageModalityProcessing.property.state">state</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationImageModalityProcessing.property.state">state</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}. |
 
 ---
 
@@ -2341,7 +2341,7 @@ state: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}.
 
 ---
 
@@ -2363,9 +2363,9 @@ bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationIm
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationImageSensitiveDataConfiguration.property.detectionMode">detection_mode</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#detection_mode BedrockDataAutomationProject#detection_mode}. |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationImageSensitiveDataConfiguration.property.detectionScope">detection_scope</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#detection_scope BedrockDataAutomationProject#detection_scope}. |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationImageSensitiveDataConfiguration.property.piiEntitiesConfiguration">pii_entities_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationImageSensitiveDataConfigurationPiiEntitiesConfiguration">BedrockDataAutomationProjectOverrideConfigurationImageSensitiveDataConfigurationPiiEntitiesConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#pii_entities_configuration BedrockDataAutomationProject#pii_entities_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationImageSensitiveDataConfiguration.property.detectionMode">detection_mode</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#detection_mode BedrockDataAutomationProject#detection_mode}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationImageSensitiveDataConfiguration.property.detectionScope">detection_scope</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#detection_scope BedrockDataAutomationProject#detection_scope}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationImageSensitiveDataConfiguration.property.piiEntitiesConfiguration">pii_entities_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationImageSensitiveDataConfigurationPiiEntitiesConfiguration">BedrockDataAutomationProjectOverrideConfigurationImageSensitiveDataConfigurationPiiEntitiesConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#pii_entities_configuration BedrockDataAutomationProject#pii_entities_configuration}. |
 
 ---
 
@@ -2377,7 +2377,7 @@ detection_mode: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#detection_mode BedrockDataAutomationProject#detection_mode}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#detection_mode BedrockDataAutomationProject#detection_mode}.
 
 ---
 
@@ -2389,7 +2389,7 @@ detection_scope: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#detection_scope BedrockDataAutomationProject#detection_scope}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#detection_scope BedrockDataAutomationProject#detection_scope}.
 
 ---
 
@@ -2401,7 +2401,7 @@ pii_entities_configuration: BedrockDataAutomationProjectOverrideConfigurationIma
 
 - *Type:* <a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationImageSensitiveDataConfigurationPiiEntitiesConfiguration">BedrockDataAutomationProjectOverrideConfigurationImageSensitiveDataConfigurationPiiEntitiesConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#pii_entities_configuration BedrockDataAutomationProject#pii_entities_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#pii_entities_configuration BedrockDataAutomationProject#pii_entities_configuration}.
 
 ---
 
@@ -2422,8 +2422,8 @@ bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationIm
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationImageSensitiveDataConfigurationPiiEntitiesConfiguration.property.piiEntityTypes">pii_entity_types</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#pii_entity_types BedrockDataAutomationProject#pii_entity_types}. |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationImageSensitiveDataConfigurationPiiEntitiesConfiguration.property.redactionMaskMode">redaction_mask_mode</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#redaction_mask_mode BedrockDataAutomationProject#redaction_mask_mode}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationImageSensitiveDataConfigurationPiiEntitiesConfiguration.property.piiEntityTypes">pii_entity_types</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#pii_entity_types BedrockDataAutomationProject#pii_entity_types}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationImageSensitiveDataConfigurationPiiEntitiesConfiguration.property.redactionMaskMode">redaction_mask_mode</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#redaction_mask_mode BedrockDataAutomationProject#redaction_mask_mode}. |
 
 ---
 
@@ -2435,7 +2435,7 @@ pii_entity_types: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#pii_entity_types BedrockDataAutomationProject#pii_entity_types}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#pii_entity_types BedrockDataAutomationProject#pii_entity_types}.
 
 ---
 
@@ -2447,7 +2447,7 @@ redaction_mask_mode: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#redaction_mask_mode BedrockDataAutomationProject#redaction_mask_mode}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#redaction_mask_mode BedrockDataAutomationProject#redaction_mask_mode}.
 
 ---
 
@@ -2470,10 +2470,10 @@ bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationMo
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationModalityRouting.property.jpeg">jpeg</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#jpeg BedrockDataAutomationProject#jpeg}. |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationModalityRouting.property.mov">mov</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#mov BedrockDataAutomationProject#mov}. |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationModalityRouting.property.mp4">mp4</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#mp_4 BedrockDataAutomationProject#mp_4}. |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationModalityRouting.property.png">png</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#png BedrockDataAutomationProject#png}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationModalityRouting.property.jpeg">jpeg</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#jpeg BedrockDataAutomationProject#jpeg}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationModalityRouting.property.mov">mov</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#mov BedrockDataAutomationProject#mov}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationModalityRouting.property.mp4">mp4</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#mp_4 BedrockDataAutomationProject#mp_4}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationModalityRouting.property.png">png</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#png BedrockDataAutomationProject#png}. |
 
 ---
 
@@ -2485,7 +2485,7 @@ jpeg: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#jpeg BedrockDataAutomationProject#jpeg}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#jpeg BedrockDataAutomationProject#jpeg}.
 
 ---
 
@@ -2497,7 +2497,7 @@ mov: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#mov BedrockDataAutomationProject#mov}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#mov BedrockDataAutomationProject#mov}.
 
 ---
 
@@ -2509,7 +2509,7 @@ mp4: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#mp_4 BedrockDataAutomationProject#mp_4}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#mp_4 BedrockDataAutomationProject#mp_4}.
 
 ---
 
@@ -2521,7 +2521,7 @@ png: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#png BedrockDataAutomationProject#png}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#png BedrockDataAutomationProject#png}.
 
 ---
 
@@ -2542,8 +2542,8 @@ bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationVi
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationVideo.property.modalityProcessing">modality_processing</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationVideoModalityProcessing">BedrockDataAutomationProjectOverrideConfigurationVideoModalityProcessing</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#modality_processing BedrockDataAutomationProject#modality_processing}. |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationVideo.property.sensitiveDataConfiguration">sensitive_data_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationVideoSensitiveDataConfiguration">BedrockDataAutomationProjectOverrideConfigurationVideoSensitiveDataConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#sensitive_data_configuration BedrockDataAutomationProject#sensitive_data_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationVideo.property.modalityProcessing">modality_processing</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationVideoModalityProcessing">BedrockDataAutomationProjectOverrideConfigurationVideoModalityProcessing</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#modality_processing BedrockDataAutomationProject#modality_processing}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationVideo.property.sensitiveDataConfiguration">sensitive_data_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationVideoSensitiveDataConfiguration">BedrockDataAutomationProjectOverrideConfigurationVideoSensitiveDataConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#sensitive_data_configuration BedrockDataAutomationProject#sensitive_data_configuration}. |
 
 ---
 
@@ -2555,7 +2555,7 @@ modality_processing: BedrockDataAutomationProjectOverrideConfigurationVideoModal
 
 - *Type:* <a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationVideoModalityProcessing">BedrockDataAutomationProjectOverrideConfigurationVideoModalityProcessing</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#modality_processing BedrockDataAutomationProject#modality_processing}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#modality_processing BedrockDataAutomationProject#modality_processing}.
 
 ---
 
@@ -2567,7 +2567,7 @@ sensitive_data_configuration: BedrockDataAutomationProjectOverrideConfigurationV
 
 - *Type:* <a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationVideoSensitiveDataConfiguration">BedrockDataAutomationProjectOverrideConfigurationVideoSensitiveDataConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#sensitive_data_configuration BedrockDataAutomationProject#sensitive_data_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#sensitive_data_configuration BedrockDataAutomationProject#sensitive_data_configuration}.
 
 ---
 
@@ -2587,7 +2587,7 @@ bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationVi
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationVideoModalityProcessing.property.state">state</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationVideoModalityProcessing.property.state">state</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}. |
 
 ---
 
@@ -2599,7 +2599,7 @@ state: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}.
 
 ---
 
@@ -2621,9 +2621,9 @@ bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationVi
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationVideoSensitiveDataConfiguration.property.detectionMode">detection_mode</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#detection_mode BedrockDataAutomationProject#detection_mode}. |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationVideoSensitiveDataConfiguration.property.detectionScope">detection_scope</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#detection_scope BedrockDataAutomationProject#detection_scope}. |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationVideoSensitiveDataConfiguration.property.piiEntitiesConfiguration">pii_entities_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationVideoSensitiveDataConfigurationPiiEntitiesConfiguration">BedrockDataAutomationProjectOverrideConfigurationVideoSensitiveDataConfigurationPiiEntitiesConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#pii_entities_configuration BedrockDataAutomationProject#pii_entities_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationVideoSensitiveDataConfiguration.property.detectionMode">detection_mode</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#detection_mode BedrockDataAutomationProject#detection_mode}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationVideoSensitiveDataConfiguration.property.detectionScope">detection_scope</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#detection_scope BedrockDataAutomationProject#detection_scope}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationVideoSensitiveDataConfiguration.property.piiEntitiesConfiguration">pii_entities_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationVideoSensitiveDataConfigurationPiiEntitiesConfiguration">BedrockDataAutomationProjectOverrideConfigurationVideoSensitiveDataConfigurationPiiEntitiesConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#pii_entities_configuration BedrockDataAutomationProject#pii_entities_configuration}. |
 
 ---
 
@@ -2635,7 +2635,7 @@ detection_mode: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#detection_mode BedrockDataAutomationProject#detection_mode}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#detection_mode BedrockDataAutomationProject#detection_mode}.
 
 ---
 
@@ -2647,7 +2647,7 @@ detection_scope: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#detection_scope BedrockDataAutomationProject#detection_scope}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#detection_scope BedrockDataAutomationProject#detection_scope}.
 
 ---
 
@@ -2659,7 +2659,7 @@ pii_entities_configuration: BedrockDataAutomationProjectOverrideConfigurationVid
 
 - *Type:* <a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationVideoSensitiveDataConfigurationPiiEntitiesConfiguration">BedrockDataAutomationProjectOverrideConfigurationVideoSensitiveDataConfigurationPiiEntitiesConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#pii_entities_configuration BedrockDataAutomationProject#pii_entities_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#pii_entities_configuration BedrockDataAutomationProject#pii_entities_configuration}.
 
 ---
 
@@ -2680,8 +2680,8 @@ bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationVi
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationVideoSensitiveDataConfigurationPiiEntitiesConfiguration.property.piiEntityTypes">pii_entity_types</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#pii_entity_types BedrockDataAutomationProject#pii_entity_types}. |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationVideoSensitiveDataConfigurationPiiEntitiesConfiguration.property.redactionMaskMode">redaction_mask_mode</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#redaction_mask_mode BedrockDataAutomationProject#redaction_mask_mode}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationVideoSensitiveDataConfigurationPiiEntitiesConfiguration.property.piiEntityTypes">pii_entity_types</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#pii_entity_types BedrockDataAutomationProject#pii_entity_types}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationVideoSensitiveDataConfigurationPiiEntitiesConfiguration.property.redactionMaskMode">redaction_mask_mode</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#redaction_mask_mode BedrockDataAutomationProject#redaction_mask_mode}. |
 
 ---
 
@@ -2693,7 +2693,7 @@ pii_entity_types: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#pii_entity_types BedrockDataAutomationProject#pii_entity_types}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#pii_entity_types BedrockDataAutomationProject#pii_entity_types}.
 
 ---
 
@@ -2705,7 +2705,7 @@ redaction_mask_mode: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#redaction_mask_mode BedrockDataAutomationProject#redaction_mask_mode}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#redaction_mask_mode BedrockDataAutomationProject#redaction_mask_mode}.
 
 ---
 
@@ -2728,10 +2728,10 @@ bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigura
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfiguration.property.audio">audio</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationAudio">BedrockDataAutomationProjectStandardOutputConfigurationAudio</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#audio BedrockDataAutomationProject#audio}. |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfiguration.property.document">document</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationDocument">BedrockDataAutomationProjectStandardOutputConfigurationDocument</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#document BedrockDataAutomationProject#document}. |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfiguration.property.image">image</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationImage">BedrockDataAutomationProjectStandardOutputConfigurationImage</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#image BedrockDataAutomationProject#image}. |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfiguration.property.video">video</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationVideo">BedrockDataAutomationProjectStandardOutputConfigurationVideo</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#video BedrockDataAutomationProject#video}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfiguration.property.audio">audio</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationAudio">BedrockDataAutomationProjectStandardOutputConfigurationAudio</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#audio BedrockDataAutomationProject#audio}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfiguration.property.document">document</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationDocument">BedrockDataAutomationProjectStandardOutputConfigurationDocument</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#document BedrockDataAutomationProject#document}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfiguration.property.image">image</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationImage">BedrockDataAutomationProjectStandardOutputConfigurationImage</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#image BedrockDataAutomationProject#image}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfiguration.property.video">video</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationVideo">BedrockDataAutomationProjectStandardOutputConfigurationVideo</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#video BedrockDataAutomationProject#video}. |
 
 ---
 
@@ -2743,7 +2743,7 @@ audio: BedrockDataAutomationProjectStandardOutputConfigurationAudio
 
 - *Type:* <a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationAudio">BedrockDataAutomationProjectStandardOutputConfigurationAudio</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#audio BedrockDataAutomationProject#audio}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#audio BedrockDataAutomationProject#audio}.
 
 ---
 
@@ -2755,7 +2755,7 @@ document: BedrockDataAutomationProjectStandardOutputConfigurationDocument
 
 - *Type:* <a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationDocument">BedrockDataAutomationProjectStandardOutputConfigurationDocument</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#document BedrockDataAutomationProject#document}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#document BedrockDataAutomationProject#document}.
 
 ---
 
@@ -2767,7 +2767,7 @@ image: BedrockDataAutomationProjectStandardOutputConfigurationImage
 
 - *Type:* <a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationImage">BedrockDataAutomationProjectStandardOutputConfigurationImage</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#image BedrockDataAutomationProject#image}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#image BedrockDataAutomationProject#image}.
 
 ---
 
@@ -2779,7 +2779,7 @@ video: BedrockDataAutomationProjectStandardOutputConfigurationVideo
 
 - *Type:* <a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationVideo">BedrockDataAutomationProjectStandardOutputConfigurationVideo</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#video BedrockDataAutomationProject#video}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#video BedrockDataAutomationProject#video}.
 
 ---
 
@@ -2800,8 +2800,8 @@ bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigura
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationAudio.property.extraction">extraction</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationAudioExtraction">BedrockDataAutomationProjectStandardOutputConfigurationAudioExtraction</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#extraction BedrockDataAutomationProject#extraction}. |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationAudio.property.generativeField">generative_field</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationAudioGenerativeField">BedrockDataAutomationProjectStandardOutputConfigurationAudioGenerativeField</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#generative_field BedrockDataAutomationProject#generative_field}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationAudio.property.extraction">extraction</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationAudioExtraction">BedrockDataAutomationProjectStandardOutputConfigurationAudioExtraction</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#extraction BedrockDataAutomationProject#extraction}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationAudio.property.generativeField">generative_field</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationAudioGenerativeField">BedrockDataAutomationProjectStandardOutputConfigurationAudioGenerativeField</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#generative_field BedrockDataAutomationProject#generative_field}. |
 
 ---
 
@@ -2813,7 +2813,7 @@ extraction: BedrockDataAutomationProjectStandardOutputConfigurationAudioExtracti
 
 - *Type:* <a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationAudioExtraction">BedrockDataAutomationProjectStandardOutputConfigurationAudioExtraction</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#extraction BedrockDataAutomationProject#extraction}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#extraction BedrockDataAutomationProject#extraction}.
 
 ---
 
@@ -2825,7 +2825,7 @@ generative_field: BedrockDataAutomationProjectStandardOutputConfigurationAudioGe
 
 - *Type:* <a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationAudioGenerativeField">BedrockDataAutomationProjectStandardOutputConfigurationAudioGenerativeField</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#generative_field BedrockDataAutomationProject#generative_field}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#generative_field BedrockDataAutomationProject#generative_field}.
 
 ---
 
@@ -2845,7 +2845,7 @@ bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigura
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationAudioExtraction.property.category">category</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategory">BedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategory</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#category BedrockDataAutomationProject#category}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationAudioExtraction.property.category">category</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategory">BedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategory</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#category BedrockDataAutomationProject#category}. |
 
 ---
 
@@ -2857,7 +2857,7 @@ category: BedrockDataAutomationProjectStandardOutputConfigurationAudioExtraction
 
 - *Type:* <a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategory">BedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategory</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#category BedrockDataAutomationProject#category}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#category BedrockDataAutomationProject#category}.
 
 ---
 
@@ -2879,9 +2879,9 @@ bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigura
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategory.property.state">state</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}. |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategory.property.typeConfiguration">type_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfiguration">BedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#type_configuration BedrockDataAutomationProject#type_configuration}. |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategory.property.types">types</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#types BedrockDataAutomationProject#types}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategory.property.state">state</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategory.property.typeConfiguration">type_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfiguration">BedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#type_configuration BedrockDataAutomationProject#type_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategory.property.types">types</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#types BedrockDataAutomationProject#types}. |
 
 ---
 
@@ -2893,7 +2893,7 @@ state: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}.
 
 ---
 
@@ -2905,7 +2905,7 @@ type_configuration: BedrockDataAutomationProjectStandardOutputConfigurationAudio
 
 - *Type:* <a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfiguration">BedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#type_configuration BedrockDataAutomationProject#type_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#type_configuration BedrockDataAutomationProject#type_configuration}.
 
 ---
 
@@ -2917,7 +2917,7 @@ types: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#types BedrockDataAutomationProject#types}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#types BedrockDataAutomationProject#types}.
 
 ---
 
@@ -2937,7 +2937,7 @@ bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigura
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfiguration.property.transcript">transcript</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationTranscript">BedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationTranscript</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#transcript BedrockDataAutomationProject#transcript}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfiguration.property.transcript">transcript</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationTranscript">BedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationTranscript</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#transcript BedrockDataAutomationProject#transcript}. |
 
 ---
 
@@ -2949,7 +2949,7 @@ transcript: BedrockDataAutomationProjectStandardOutputConfigurationAudioExtracti
 
 - *Type:* <a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationTranscript">BedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationTranscript</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#transcript BedrockDataAutomationProject#transcript}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#transcript BedrockDataAutomationProject#transcript}.
 
 ---
 
@@ -2970,8 +2970,8 @@ bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigura
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationTranscript.property.channelLabeling">channel_labeling</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationTranscriptChannelLabeling">BedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationTranscriptChannelLabeling</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#channel_labeling BedrockDataAutomationProject#channel_labeling}. |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationTranscript.property.speakerLabeling">speaker_labeling</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationTranscriptSpeakerLabeling">BedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationTranscriptSpeakerLabeling</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#speaker_labeling BedrockDataAutomationProject#speaker_labeling}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationTranscript.property.channelLabeling">channel_labeling</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationTranscriptChannelLabeling">BedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationTranscriptChannelLabeling</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#channel_labeling BedrockDataAutomationProject#channel_labeling}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationTranscript.property.speakerLabeling">speaker_labeling</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationTranscriptSpeakerLabeling">BedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationTranscriptSpeakerLabeling</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#speaker_labeling BedrockDataAutomationProject#speaker_labeling}. |
 
 ---
 
@@ -2983,7 +2983,7 @@ channel_labeling: BedrockDataAutomationProjectStandardOutputConfigurationAudioEx
 
 - *Type:* <a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationTranscriptChannelLabeling">BedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationTranscriptChannelLabeling</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#channel_labeling BedrockDataAutomationProject#channel_labeling}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#channel_labeling BedrockDataAutomationProject#channel_labeling}.
 
 ---
 
@@ -2995,7 +2995,7 @@ speaker_labeling: BedrockDataAutomationProjectStandardOutputConfigurationAudioEx
 
 - *Type:* <a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationTranscriptSpeakerLabeling">BedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationTranscriptSpeakerLabeling</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#speaker_labeling BedrockDataAutomationProject#speaker_labeling}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#speaker_labeling BedrockDataAutomationProject#speaker_labeling}.
 
 ---
 
@@ -3015,7 +3015,7 @@ bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigura
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationTranscriptChannelLabeling.property.state">state</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationTranscriptChannelLabeling.property.state">state</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}. |
 
 ---
 
@@ -3027,7 +3027,7 @@ state: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}.
 
 ---
 
@@ -3047,7 +3047,7 @@ bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigura
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationTranscriptSpeakerLabeling.property.state">state</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationTranscriptSpeakerLabeling.property.state">state</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}. |
 
 ---
 
@@ -3059,7 +3059,7 @@ state: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}.
 
 ---
 
@@ -3080,8 +3080,8 @@ bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigura
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationAudioGenerativeField.property.state">state</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}. |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationAudioGenerativeField.property.types">types</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#types BedrockDataAutomationProject#types}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationAudioGenerativeField.property.state">state</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationAudioGenerativeField.property.types">types</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#types BedrockDataAutomationProject#types}. |
 
 ---
 
@@ -3093,7 +3093,7 @@ state: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}.
 
 ---
 
@@ -3105,7 +3105,7 @@ types: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#types BedrockDataAutomationProject#types}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#types BedrockDataAutomationProject#types}.
 
 ---
 
@@ -3127,9 +3127,9 @@ bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigura
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationDocument.property.extraction">extraction</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationDocumentExtraction">BedrockDataAutomationProjectStandardOutputConfigurationDocumentExtraction</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#extraction BedrockDataAutomationProject#extraction}. |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationDocument.property.generativeField">generative_field</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationDocumentGenerativeField">BedrockDataAutomationProjectStandardOutputConfigurationDocumentGenerativeField</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#generative_field BedrockDataAutomationProject#generative_field}. |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationDocument.property.outputFormat">output_format</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationDocumentOutputFormat">BedrockDataAutomationProjectStandardOutputConfigurationDocumentOutputFormat</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#output_format BedrockDataAutomationProject#output_format}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationDocument.property.extraction">extraction</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationDocumentExtraction">BedrockDataAutomationProjectStandardOutputConfigurationDocumentExtraction</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#extraction BedrockDataAutomationProject#extraction}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationDocument.property.generativeField">generative_field</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationDocumentGenerativeField">BedrockDataAutomationProjectStandardOutputConfigurationDocumentGenerativeField</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#generative_field BedrockDataAutomationProject#generative_field}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationDocument.property.outputFormat">output_format</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationDocumentOutputFormat">BedrockDataAutomationProjectStandardOutputConfigurationDocumentOutputFormat</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#output_format BedrockDataAutomationProject#output_format}. |
 
 ---
 
@@ -3141,7 +3141,7 @@ extraction: BedrockDataAutomationProjectStandardOutputConfigurationDocumentExtra
 
 - *Type:* <a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationDocumentExtraction">BedrockDataAutomationProjectStandardOutputConfigurationDocumentExtraction</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#extraction BedrockDataAutomationProject#extraction}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#extraction BedrockDataAutomationProject#extraction}.
 
 ---
 
@@ -3153,7 +3153,7 @@ generative_field: BedrockDataAutomationProjectStandardOutputConfigurationDocumen
 
 - *Type:* <a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationDocumentGenerativeField">BedrockDataAutomationProjectStandardOutputConfigurationDocumentGenerativeField</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#generative_field BedrockDataAutomationProject#generative_field}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#generative_field BedrockDataAutomationProject#generative_field}.
 
 ---
 
@@ -3165,7 +3165,7 @@ output_format: BedrockDataAutomationProjectStandardOutputConfigurationDocumentOu
 
 - *Type:* <a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationDocumentOutputFormat">BedrockDataAutomationProjectStandardOutputConfigurationDocumentOutputFormat</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#output_format BedrockDataAutomationProject#output_format}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#output_format BedrockDataAutomationProject#output_format}.
 
 ---
 
@@ -3186,8 +3186,8 @@ bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigura
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationDocumentExtraction.property.boundingBox">bounding_box</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationDocumentExtractionBoundingBox">BedrockDataAutomationProjectStandardOutputConfigurationDocumentExtractionBoundingBox</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#bounding_box BedrockDataAutomationProject#bounding_box}. |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationDocumentExtraction.property.granularity">granularity</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationDocumentExtractionGranularity">BedrockDataAutomationProjectStandardOutputConfigurationDocumentExtractionGranularity</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#granularity BedrockDataAutomationProject#granularity}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationDocumentExtraction.property.boundingBox">bounding_box</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationDocumentExtractionBoundingBox">BedrockDataAutomationProjectStandardOutputConfigurationDocumentExtractionBoundingBox</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#bounding_box BedrockDataAutomationProject#bounding_box}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationDocumentExtraction.property.granularity">granularity</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationDocumentExtractionGranularity">BedrockDataAutomationProjectStandardOutputConfigurationDocumentExtractionGranularity</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#granularity BedrockDataAutomationProject#granularity}. |
 
 ---
 
@@ -3199,7 +3199,7 @@ bounding_box: BedrockDataAutomationProjectStandardOutputConfigurationDocumentExt
 
 - *Type:* <a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationDocumentExtractionBoundingBox">BedrockDataAutomationProjectStandardOutputConfigurationDocumentExtractionBoundingBox</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#bounding_box BedrockDataAutomationProject#bounding_box}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#bounding_box BedrockDataAutomationProject#bounding_box}.
 
 ---
 
@@ -3211,7 +3211,7 @@ granularity: BedrockDataAutomationProjectStandardOutputConfigurationDocumentExtr
 
 - *Type:* <a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationDocumentExtractionGranularity">BedrockDataAutomationProjectStandardOutputConfigurationDocumentExtractionGranularity</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#granularity BedrockDataAutomationProject#granularity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#granularity BedrockDataAutomationProject#granularity}.
 
 ---
 
@@ -3231,7 +3231,7 @@ bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigura
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationDocumentExtractionBoundingBox.property.state">state</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationDocumentExtractionBoundingBox.property.state">state</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}. |
 
 ---
 
@@ -3243,7 +3243,7 @@ state: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}.
 
 ---
 
@@ -3263,7 +3263,7 @@ bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigura
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationDocumentExtractionGranularity.property.types">types</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#types BedrockDataAutomationProject#types}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationDocumentExtractionGranularity.property.types">types</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#types BedrockDataAutomationProject#types}. |
 
 ---
 
@@ -3275,7 +3275,7 @@ types: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#types BedrockDataAutomationProject#types}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#types BedrockDataAutomationProject#types}.
 
 ---
 
@@ -3295,7 +3295,7 @@ bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigura
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationDocumentGenerativeField.property.state">state</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationDocumentGenerativeField.property.state">state</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}. |
 
 ---
 
@@ -3307,7 +3307,7 @@ state: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}.
 
 ---
 
@@ -3328,8 +3328,8 @@ bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigura
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationDocumentOutputFormat.property.additionalFileFormat">additional_file_format</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationDocumentOutputFormatAdditionalFileFormat">BedrockDataAutomationProjectStandardOutputConfigurationDocumentOutputFormatAdditionalFileFormat</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#additional_file_format BedrockDataAutomationProject#additional_file_format}. |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationDocumentOutputFormat.property.textFormat">text_format</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationDocumentOutputFormatTextFormat">BedrockDataAutomationProjectStandardOutputConfigurationDocumentOutputFormatTextFormat</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#text_format BedrockDataAutomationProject#text_format}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationDocumentOutputFormat.property.additionalFileFormat">additional_file_format</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationDocumentOutputFormatAdditionalFileFormat">BedrockDataAutomationProjectStandardOutputConfigurationDocumentOutputFormatAdditionalFileFormat</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#additional_file_format BedrockDataAutomationProject#additional_file_format}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationDocumentOutputFormat.property.textFormat">text_format</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationDocumentOutputFormatTextFormat">BedrockDataAutomationProjectStandardOutputConfigurationDocumentOutputFormatTextFormat</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#text_format BedrockDataAutomationProject#text_format}. |
 
 ---
 
@@ -3341,7 +3341,7 @@ additional_file_format: BedrockDataAutomationProjectStandardOutputConfigurationD
 
 - *Type:* <a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationDocumentOutputFormatAdditionalFileFormat">BedrockDataAutomationProjectStandardOutputConfigurationDocumentOutputFormatAdditionalFileFormat</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#additional_file_format BedrockDataAutomationProject#additional_file_format}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#additional_file_format BedrockDataAutomationProject#additional_file_format}.
 
 ---
 
@@ -3353,7 +3353,7 @@ text_format: BedrockDataAutomationProjectStandardOutputConfigurationDocumentOutp
 
 - *Type:* <a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationDocumentOutputFormatTextFormat">BedrockDataAutomationProjectStandardOutputConfigurationDocumentOutputFormatTextFormat</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#text_format BedrockDataAutomationProject#text_format}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#text_format BedrockDataAutomationProject#text_format}.
 
 ---
 
@@ -3373,7 +3373,7 @@ bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigura
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationDocumentOutputFormatAdditionalFileFormat.property.state">state</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationDocumentOutputFormatAdditionalFileFormat.property.state">state</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}. |
 
 ---
 
@@ -3385,7 +3385,7 @@ state: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}.
 
 ---
 
@@ -3405,7 +3405,7 @@ bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigura
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationDocumentOutputFormatTextFormat.property.types">types</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#types BedrockDataAutomationProject#types}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationDocumentOutputFormatTextFormat.property.types">types</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#types BedrockDataAutomationProject#types}. |
 
 ---
 
@@ -3417,7 +3417,7 @@ types: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#types BedrockDataAutomationProject#types}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#types BedrockDataAutomationProject#types}.
 
 ---
 
@@ -3438,8 +3438,8 @@ bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigura
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationImage.property.extraction">extraction</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationImageExtraction">BedrockDataAutomationProjectStandardOutputConfigurationImageExtraction</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#extraction BedrockDataAutomationProject#extraction}. |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationImage.property.generativeField">generative_field</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationImageGenerativeField">BedrockDataAutomationProjectStandardOutputConfigurationImageGenerativeField</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#generative_field BedrockDataAutomationProject#generative_field}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationImage.property.extraction">extraction</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationImageExtraction">BedrockDataAutomationProjectStandardOutputConfigurationImageExtraction</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#extraction BedrockDataAutomationProject#extraction}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationImage.property.generativeField">generative_field</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationImageGenerativeField">BedrockDataAutomationProjectStandardOutputConfigurationImageGenerativeField</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#generative_field BedrockDataAutomationProject#generative_field}. |
 
 ---
 
@@ -3451,7 +3451,7 @@ extraction: BedrockDataAutomationProjectStandardOutputConfigurationImageExtracti
 
 - *Type:* <a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationImageExtraction">BedrockDataAutomationProjectStandardOutputConfigurationImageExtraction</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#extraction BedrockDataAutomationProject#extraction}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#extraction BedrockDataAutomationProject#extraction}.
 
 ---
 
@@ -3463,7 +3463,7 @@ generative_field: BedrockDataAutomationProjectStandardOutputConfigurationImageGe
 
 - *Type:* <a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationImageGenerativeField">BedrockDataAutomationProjectStandardOutputConfigurationImageGenerativeField</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#generative_field BedrockDataAutomationProject#generative_field}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#generative_field BedrockDataAutomationProject#generative_field}.
 
 ---
 
@@ -3484,8 +3484,8 @@ bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigura
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationImageExtraction.property.boundingBox">bounding_box</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationImageExtractionBoundingBox">BedrockDataAutomationProjectStandardOutputConfigurationImageExtractionBoundingBox</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#bounding_box BedrockDataAutomationProject#bounding_box}. |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationImageExtraction.property.category">category</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationImageExtractionCategory">BedrockDataAutomationProjectStandardOutputConfigurationImageExtractionCategory</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#category BedrockDataAutomationProject#category}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationImageExtraction.property.boundingBox">bounding_box</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationImageExtractionBoundingBox">BedrockDataAutomationProjectStandardOutputConfigurationImageExtractionBoundingBox</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#bounding_box BedrockDataAutomationProject#bounding_box}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationImageExtraction.property.category">category</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationImageExtractionCategory">BedrockDataAutomationProjectStandardOutputConfigurationImageExtractionCategory</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#category BedrockDataAutomationProject#category}. |
 
 ---
 
@@ -3497,7 +3497,7 @@ bounding_box: BedrockDataAutomationProjectStandardOutputConfigurationImageExtrac
 
 - *Type:* <a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationImageExtractionBoundingBox">BedrockDataAutomationProjectStandardOutputConfigurationImageExtractionBoundingBox</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#bounding_box BedrockDataAutomationProject#bounding_box}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#bounding_box BedrockDataAutomationProject#bounding_box}.
 
 ---
 
@@ -3509,7 +3509,7 @@ category: BedrockDataAutomationProjectStandardOutputConfigurationImageExtraction
 
 - *Type:* <a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationImageExtractionCategory">BedrockDataAutomationProjectStandardOutputConfigurationImageExtractionCategory</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#category BedrockDataAutomationProject#category}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#category BedrockDataAutomationProject#category}.
 
 ---
 
@@ -3529,7 +3529,7 @@ bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigura
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationImageExtractionBoundingBox.property.state">state</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationImageExtractionBoundingBox.property.state">state</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}. |
 
 ---
 
@@ -3541,7 +3541,7 @@ state: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}.
 
 ---
 
@@ -3562,8 +3562,8 @@ bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigura
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationImageExtractionCategory.property.state">state</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}. |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationImageExtractionCategory.property.types">types</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#types BedrockDataAutomationProject#types}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationImageExtractionCategory.property.state">state</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationImageExtractionCategory.property.types">types</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#types BedrockDataAutomationProject#types}. |
 
 ---
 
@@ -3575,7 +3575,7 @@ state: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}.
 
 ---
 
@@ -3587,7 +3587,7 @@ types: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#types BedrockDataAutomationProject#types}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#types BedrockDataAutomationProject#types}.
 
 ---
 
@@ -3608,8 +3608,8 @@ bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigura
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationImageGenerativeField.property.state">state</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}. |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationImageGenerativeField.property.types">types</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#types BedrockDataAutomationProject#types}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationImageGenerativeField.property.state">state</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationImageGenerativeField.property.types">types</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#types BedrockDataAutomationProject#types}. |
 
 ---
 
@@ -3621,7 +3621,7 @@ state: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}.
 
 ---
 
@@ -3633,7 +3633,7 @@ types: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#types BedrockDataAutomationProject#types}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#types BedrockDataAutomationProject#types}.
 
 ---
 
@@ -3654,8 +3654,8 @@ bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigura
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationVideo.property.extraction">extraction</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationVideoExtraction">BedrockDataAutomationProjectStandardOutputConfigurationVideoExtraction</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#extraction BedrockDataAutomationProject#extraction}. |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationVideo.property.generativeField">generative_field</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationVideoGenerativeField">BedrockDataAutomationProjectStandardOutputConfigurationVideoGenerativeField</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#generative_field BedrockDataAutomationProject#generative_field}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationVideo.property.extraction">extraction</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationVideoExtraction">BedrockDataAutomationProjectStandardOutputConfigurationVideoExtraction</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#extraction BedrockDataAutomationProject#extraction}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationVideo.property.generativeField">generative_field</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationVideoGenerativeField">BedrockDataAutomationProjectStandardOutputConfigurationVideoGenerativeField</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#generative_field BedrockDataAutomationProject#generative_field}. |
 
 ---
 
@@ -3667,7 +3667,7 @@ extraction: BedrockDataAutomationProjectStandardOutputConfigurationVideoExtracti
 
 - *Type:* <a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationVideoExtraction">BedrockDataAutomationProjectStandardOutputConfigurationVideoExtraction</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#extraction BedrockDataAutomationProject#extraction}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#extraction BedrockDataAutomationProject#extraction}.
 
 ---
 
@@ -3679,7 +3679,7 @@ generative_field: BedrockDataAutomationProjectStandardOutputConfigurationVideoGe
 
 - *Type:* <a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationVideoGenerativeField">BedrockDataAutomationProjectStandardOutputConfigurationVideoGenerativeField</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#generative_field BedrockDataAutomationProject#generative_field}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#generative_field BedrockDataAutomationProject#generative_field}.
 
 ---
 
@@ -3700,8 +3700,8 @@ bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigura
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationVideoExtraction.property.boundingBox">bounding_box</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationVideoExtractionBoundingBox">BedrockDataAutomationProjectStandardOutputConfigurationVideoExtractionBoundingBox</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#bounding_box BedrockDataAutomationProject#bounding_box}. |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationVideoExtraction.property.category">category</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationVideoExtractionCategory">BedrockDataAutomationProjectStandardOutputConfigurationVideoExtractionCategory</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#category BedrockDataAutomationProject#category}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationVideoExtraction.property.boundingBox">bounding_box</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationVideoExtractionBoundingBox">BedrockDataAutomationProjectStandardOutputConfigurationVideoExtractionBoundingBox</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#bounding_box BedrockDataAutomationProject#bounding_box}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationVideoExtraction.property.category">category</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationVideoExtractionCategory">BedrockDataAutomationProjectStandardOutputConfigurationVideoExtractionCategory</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#category BedrockDataAutomationProject#category}. |
 
 ---
 
@@ -3713,7 +3713,7 @@ bounding_box: BedrockDataAutomationProjectStandardOutputConfigurationVideoExtrac
 
 - *Type:* <a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationVideoExtractionBoundingBox">BedrockDataAutomationProjectStandardOutputConfigurationVideoExtractionBoundingBox</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#bounding_box BedrockDataAutomationProject#bounding_box}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#bounding_box BedrockDataAutomationProject#bounding_box}.
 
 ---
 
@@ -3725,7 +3725,7 @@ category: BedrockDataAutomationProjectStandardOutputConfigurationVideoExtraction
 
 - *Type:* <a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationVideoExtractionCategory">BedrockDataAutomationProjectStandardOutputConfigurationVideoExtractionCategory</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#category BedrockDataAutomationProject#category}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#category BedrockDataAutomationProject#category}.
 
 ---
 
@@ -3745,7 +3745,7 @@ bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigura
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationVideoExtractionBoundingBox.property.state">state</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationVideoExtractionBoundingBox.property.state">state</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}. |
 
 ---
 
@@ -3757,7 +3757,7 @@ state: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}.
 
 ---
 
@@ -3778,8 +3778,8 @@ bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigura
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationVideoExtractionCategory.property.state">state</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}. |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationVideoExtractionCategory.property.types">types</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#types BedrockDataAutomationProject#types}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationVideoExtractionCategory.property.state">state</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationVideoExtractionCategory.property.types">types</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#types BedrockDataAutomationProject#types}. |
 
 ---
 
@@ -3791,7 +3791,7 @@ state: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}.
 
 ---
 
@@ -3803,7 +3803,7 @@ types: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#types BedrockDataAutomationProject#types}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#types BedrockDataAutomationProject#types}.
 
 ---
 
@@ -3824,8 +3824,8 @@ bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigura
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationVideoGenerativeField.property.state">state</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}. |
-| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationVideoGenerativeField.property.types">types</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#types BedrockDataAutomationProject#types}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationVideoGenerativeField.property.state">state</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationVideoGenerativeField.property.types">types</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#types BedrockDataAutomationProject#types}. |
 
 ---
 
@@ -3837,7 +3837,7 @@ state: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}.
 
 ---
 
@@ -3849,7 +3849,7 @@ types: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#types BedrockDataAutomationProject#types}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#types BedrockDataAutomationProject#types}.
 
 ---
 
@@ -3885,7 +3885,7 @@ key: str
 
 Key for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#key BedrockDataAutomationProject#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#key BedrockDataAutomationProject#key}
 
 ---
 
@@ -3899,7 +3899,7 @@ value: str
 
 Value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#value BedrockDataAutomationProject#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#value BedrockDataAutomationProject#value}
 
 ---
 
@@ -5686,7 +5686,7 @@ def put_language_configuration(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#generative_output_language BedrockDataAutomationProject#generative_output_language}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#generative_output_language BedrockDataAutomationProject#generative_output_language}.
 
 ---
 
@@ -5694,7 +5694,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#identify_multiple_languages BedrockDataAutomationProject#identify_multiple_languages}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#identify_multiple_languages BedrockDataAutomationProject#identify_multiple_languages}.
 
 ---
 
@@ -5702,7 +5702,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#input_languages BedrockDataAutomationProject#input_languages}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#input_languages BedrockDataAutomationProject#input_languages}.
 
 ---
 
@@ -5718,7 +5718,7 @@ def put_modality_processing(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}.
 
 ---
 
@@ -5736,7 +5736,7 @@ def put_sensitive_data_configuration(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#detection_mode BedrockDataAutomationProject#detection_mode}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#detection_mode BedrockDataAutomationProject#detection_mode}.
 
 ---
 
@@ -5744,7 +5744,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#detection_scope BedrockDataAutomationProject#detection_scope}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#detection_scope BedrockDataAutomationProject#detection_scope}.
 
 ---
 
@@ -5752,7 +5752,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationAudioSensitiveDataConfigurationPiiEntitiesConfiguration">BedrockDataAutomationProjectOverrideConfigurationAudioSensitiveDataConfigurationPiiEntitiesConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#pii_entities_configuration BedrockDataAutomationProject#pii_entities_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#pii_entities_configuration BedrockDataAutomationProject#pii_entities_configuration}.
 
 ---
 
@@ -6131,7 +6131,7 @@ def put_pii_entities_configuration(
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#pii_entity_types BedrockDataAutomationProject#pii_entity_types}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#pii_entity_types BedrockDataAutomationProject#pii_entity_types}.
 
 ---
 
@@ -6139,7 +6139,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#redaction_mask_mode BedrockDataAutomationProject#redaction_mask_mode}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#redaction_mask_mode BedrockDataAutomationProject#redaction_mask_mode}.
 
 ---
 
@@ -7154,7 +7154,7 @@ def put_modality_processing(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}.
 
 ---
 
@@ -7172,7 +7172,7 @@ def put_sensitive_data_configuration(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#detection_mode BedrockDataAutomationProject#detection_mode}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#detection_mode BedrockDataAutomationProject#detection_mode}.
 
 ---
 
@@ -7180,7 +7180,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#detection_scope BedrockDataAutomationProject#detection_scope}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#detection_scope BedrockDataAutomationProject#detection_scope}.
 
 ---
 
@@ -7188,7 +7188,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationDocumentSensitiveDataConfigurationPiiEntitiesConfiguration">BedrockDataAutomationProjectOverrideConfigurationDocumentSensitiveDataConfigurationPiiEntitiesConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#pii_entities_configuration BedrockDataAutomationProject#pii_entities_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#pii_entities_configuration BedrockDataAutomationProject#pii_entities_configuration}.
 
 ---
 
@@ -7204,7 +7204,7 @@ def put_splitter(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}.
 
 ---
 
@@ -7583,7 +7583,7 @@ def put_pii_entities_configuration(
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#pii_entity_types BedrockDataAutomationProject#pii_entity_types}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#pii_entity_types BedrockDataAutomationProject#pii_entity_types}.
 
 ---
 
@@ -7591,7 +7591,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#redaction_mask_mode BedrockDataAutomationProject#redaction_mask_mode}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#redaction_mask_mode BedrockDataAutomationProject#redaction_mask_mode}.
 
 ---
 
@@ -8907,7 +8907,7 @@ def put_modality_processing(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}.
 
 ---
 
@@ -8925,7 +8925,7 @@ def put_sensitive_data_configuration(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#detection_mode BedrockDataAutomationProject#detection_mode}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#detection_mode BedrockDataAutomationProject#detection_mode}.
 
 ---
 
@@ -8933,7 +8933,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#detection_scope BedrockDataAutomationProject#detection_scope}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#detection_scope BedrockDataAutomationProject#detection_scope}.
 
 ---
 
@@ -8941,7 +8941,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationImageSensitiveDataConfigurationPiiEntitiesConfiguration">BedrockDataAutomationProjectOverrideConfigurationImageSensitiveDataConfigurationPiiEntitiesConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#pii_entities_configuration BedrockDataAutomationProject#pii_entities_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#pii_entities_configuration BedrockDataAutomationProject#pii_entities_configuration}.
 
 ---
 
@@ -9292,7 +9292,7 @@ def put_pii_entities_configuration(
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#pii_entity_types BedrockDataAutomationProject#pii_entity_types}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#pii_entity_types BedrockDataAutomationProject#pii_entity_types}.
 
 ---
 
@@ -9300,7 +9300,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#redaction_mask_mode BedrockDataAutomationProject#redaction_mask_mode}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#redaction_mask_mode BedrockDataAutomationProject#redaction_mask_mode}.
 
 ---
 
@@ -10408,7 +10408,7 @@ def put_audio(
 
 - *Type:* <a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationAudioLanguageConfiguration">BedrockDataAutomationProjectOverrideConfigurationAudioLanguageConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#language_configuration BedrockDataAutomationProject#language_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#language_configuration BedrockDataAutomationProject#language_configuration}.
 
 ---
 
@@ -10416,7 +10416,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationAudioModalityProcessing">BedrockDataAutomationProjectOverrideConfigurationAudioModalityProcessing</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#modality_processing BedrockDataAutomationProject#modality_processing}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#modality_processing BedrockDataAutomationProject#modality_processing}.
 
 ---
 
@@ -10424,7 +10424,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationAudioSensitiveDataConfiguration">BedrockDataAutomationProjectOverrideConfigurationAudioSensitiveDataConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#sensitive_data_configuration BedrockDataAutomationProject#sensitive_data_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#sensitive_data_configuration BedrockDataAutomationProject#sensitive_data_configuration}.
 
 ---
 
@@ -10442,7 +10442,7 @@ def put_document(
 
 - *Type:* <a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationDocumentModalityProcessing">BedrockDataAutomationProjectOverrideConfigurationDocumentModalityProcessing</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#modality_processing BedrockDataAutomationProject#modality_processing}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#modality_processing BedrockDataAutomationProject#modality_processing}.
 
 ---
 
@@ -10450,7 +10450,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationDocumentSensitiveDataConfiguration">BedrockDataAutomationProjectOverrideConfigurationDocumentSensitiveDataConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#sensitive_data_configuration BedrockDataAutomationProject#sensitive_data_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#sensitive_data_configuration BedrockDataAutomationProject#sensitive_data_configuration}.
 
 ---
 
@@ -10458,7 +10458,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationDocumentSplitter">BedrockDataAutomationProjectOverrideConfigurationDocumentSplitter</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#splitter BedrockDataAutomationProject#splitter}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#splitter BedrockDataAutomationProject#splitter}.
 
 ---
 
@@ -10475,7 +10475,7 @@ def put_image(
 
 - *Type:* <a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationImageModalityProcessing">BedrockDataAutomationProjectOverrideConfigurationImageModalityProcessing</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#modality_processing BedrockDataAutomationProject#modality_processing}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#modality_processing BedrockDataAutomationProject#modality_processing}.
 
 ---
 
@@ -10483,7 +10483,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationImageSensitiveDataConfiguration">BedrockDataAutomationProjectOverrideConfigurationImageSensitiveDataConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#sensitive_data_configuration BedrockDataAutomationProject#sensitive_data_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#sensitive_data_configuration BedrockDataAutomationProject#sensitive_data_configuration}.
 
 ---
 
@@ -10502,7 +10502,7 @@ def put_modality_routing(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#jpeg BedrockDataAutomationProject#jpeg}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#jpeg BedrockDataAutomationProject#jpeg}.
 
 ---
 
@@ -10510,7 +10510,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#mov BedrockDataAutomationProject#mov}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#mov BedrockDataAutomationProject#mov}.
 
 ---
 
@@ -10518,7 +10518,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#mp_4 BedrockDataAutomationProject#mp_4}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#mp_4 BedrockDataAutomationProject#mp_4}.
 
 ---
 
@@ -10526,7 +10526,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#png BedrockDataAutomationProject#png}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#png BedrockDataAutomationProject#png}.
 
 ---
 
@@ -10543,7 +10543,7 @@ def put_video(
 
 - *Type:* <a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationVideoModalityProcessing">BedrockDataAutomationProjectOverrideConfigurationVideoModalityProcessing</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#modality_processing BedrockDataAutomationProject#modality_processing}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#modality_processing BedrockDataAutomationProject#modality_processing}.
 
 ---
 
@@ -10551,7 +10551,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationVideoSensitiveDataConfiguration">BedrockDataAutomationProjectOverrideConfigurationVideoSensitiveDataConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#sensitive_data_configuration BedrockDataAutomationProject#sensitive_data_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#sensitive_data_configuration BedrockDataAutomationProject#sensitive_data_configuration}.
 
 ---
 
@@ -11288,7 +11288,7 @@ def put_modality_processing(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}.
 
 ---
 
@@ -11306,7 +11306,7 @@ def put_sensitive_data_configuration(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#detection_mode BedrockDataAutomationProject#detection_mode}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#detection_mode BedrockDataAutomationProject#detection_mode}.
 
 ---
 
@@ -11314,7 +11314,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#detection_scope BedrockDataAutomationProject#detection_scope}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#detection_scope BedrockDataAutomationProject#detection_scope}.
 
 ---
 
@@ -11322,7 +11322,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectOverrideConfigurationVideoSensitiveDataConfigurationPiiEntitiesConfiguration">BedrockDataAutomationProjectOverrideConfigurationVideoSensitiveDataConfigurationPiiEntitiesConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#pii_entities_configuration BedrockDataAutomationProject#pii_entities_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#pii_entities_configuration BedrockDataAutomationProject#pii_entities_configuration}.
 
 ---
 
@@ -11673,7 +11673,7 @@ def put_pii_entities_configuration(
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#pii_entity_types BedrockDataAutomationProject#pii_entity_types}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#pii_entity_types BedrockDataAutomationProject#pii_entity_types}.
 
 ---
 
@@ -11681,7 +11681,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#redaction_mask_mode BedrockDataAutomationProject#redaction_mask_mode}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#redaction_mask_mode BedrockDataAutomationProject#redaction_mask_mode}.
 
 ---
 
@@ -12391,7 +12391,7 @@ def put_type_configuration(
 
 - *Type:* <a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationTranscript">BedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationTranscript</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#transcript BedrockDataAutomationProject#transcript}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#transcript BedrockDataAutomationProject#transcript}.
 
 ---
 
@@ -12768,7 +12768,7 @@ def put_transcript(
 
 - *Type:* <a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationTranscriptChannelLabeling">BedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationTranscriptChannelLabeling</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#channel_labeling BedrockDataAutomationProject#channel_labeling}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#channel_labeling BedrockDataAutomationProject#channel_labeling}.
 
 ---
 
@@ -12776,7 +12776,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationTranscriptSpeakerLabeling">BedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationTranscriptSpeakerLabeling</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#speaker_labeling BedrockDataAutomationProject#speaker_labeling}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#speaker_labeling BedrockDataAutomationProject#speaker_labeling}.
 
 ---
 
@@ -13401,7 +13401,7 @@ def put_channel_labeling(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}.
 
 ---
 
@@ -13417,7 +13417,7 @@ def put_speaker_labeling(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}.
 
 ---
 
@@ -14070,7 +14070,7 @@ def put_category(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}.
 
 ---
 
@@ -14078,7 +14078,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfiguration">BedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#type_configuration BedrockDataAutomationProject#type_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#type_configuration BedrockDataAutomationProject#type_configuration}.
 
 ---
 
@@ -14086,7 +14086,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#types BedrockDataAutomationProject#types}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#types BedrockDataAutomationProject#types}.
 
 ---
 
@@ -14740,7 +14740,7 @@ def put_extraction(
 
 - *Type:* <a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategory">BedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategory</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#category BedrockDataAutomationProject#category}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#category BedrockDataAutomationProject#category}.
 
 ---
 
@@ -14757,7 +14757,7 @@ def put_generative_field(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}.
 
 ---
 
@@ -14765,7 +14765,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#types BedrockDataAutomationProject#types}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#types BedrockDataAutomationProject#types}.
 
 ---
 
@@ -15721,7 +15721,7 @@ def put_bounding_box(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}.
 
 ---
 
@@ -15737,7 +15737,7 @@ def put_granularity(
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#types BedrockDataAutomationProject#types}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#types BedrockDataAutomationProject#types}.
 
 ---
 
@@ -16693,7 +16693,7 @@ def put_additional_file_format(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}.
 
 ---
 
@@ -16709,7 +16709,7 @@ def put_text_format(
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#types BedrockDataAutomationProject#types}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#types BedrockDataAutomationProject#types}.
 
 ---
 
@@ -17365,7 +17365,7 @@ def put_extraction(
 
 - *Type:* <a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationDocumentExtractionBoundingBox">BedrockDataAutomationProjectStandardOutputConfigurationDocumentExtractionBoundingBox</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#bounding_box BedrockDataAutomationProject#bounding_box}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#bounding_box BedrockDataAutomationProject#bounding_box}.
 
 ---
 
@@ -17373,7 +17373,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationDocumentExtractionGranularity">BedrockDataAutomationProjectStandardOutputConfigurationDocumentExtractionGranularity</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#granularity BedrockDataAutomationProject#granularity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#granularity BedrockDataAutomationProject#granularity}.
 
 ---
 
@@ -17389,7 +17389,7 @@ def put_generative_field(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}.
 
 ---
 
@@ -17406,7 +17406,7 @@ def put_output_format(
 
 - *Type:* <a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationDocumentOutputFormatAdditionalFileFormat">BedrockDataAutomationProjectStandardOutputConfigurationDocumentOutputFormatAdditionalFileFormat</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#additional_file_format BedrockDataAutomationProject#additional_file_format}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#additional_file_format BedrockDataAutomationProject#additional_file_format}.
 
 ---
 
@@ -17414,7 +17414,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationDocumentOutputFormatTextFormat">BedrockDataAutomationProjectStandardOutputConfigurationDocumentOutputFormatTextFormat</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#text_format BedrockDataAutomationProject#text_format}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#text_format BedrockDataAutomationProject#text_format}.
 
 ---
 
@@ -18427,7 +18427,7 @@ def put_bounding_box(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}.
 
 ---
 
@@ -18444,7 +18444,7 @@ def put_category(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}.
 
 ---
 
@@ -18452,7 +18452,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#types BedrockDataAutomationProject#types}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#types BedrockDataAutomationProject#types}.
 
 ---
 
@@ -19135,7 +19135,7 @@ def put_extraction(
 
 - *Type:* <a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationImageExtractionBoundingBox">BedrockDataAutomationProjectStandardOutputConfigurationImageExtractionBoundingBox</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#bounding_box BedrockDataAutomationProject#bounding_box}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#bounding_box BedrockDataAutomationProject#bounding_box}.
 
 ---
 
@@ -19143,7 +19143,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationImageExtractionCategory">BedrockDataAutomationProjectStandardOutputConfigurationImageExtractionCategory</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#category BedrockDataAutomationProject#category}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#category BedrockDataAutomationProject#category}.
 
 ---
 
@@ -19160,7 +19160,7 @@ def put_generative_field(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}.
 
 ---
 
@@ -19168,7 +19168,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#types BedrockDataAutomationProject#types}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#types BedrockDataAutomationProject#types}.
 
 ---
 
@@ -19523,7 +19523,7 @@ def put_audio(
 
 - *Type:* <a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationAudioExtraction">BedrockDataAutomationProjectStandardOutputConfigurationAudioExtraction</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#extraction BedrockDataAutomationProject#extraction}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#extraction BedrockDataAutomationProject#extraction}.
 
 ---
 
@@ -19531,7 +19531,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationAudioGenerativeField">BedrockDataAutomationProjectStandardOutputConfigurationAudioGenerativeField</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#generative_field BedrockDataAutomationProject#generative_field}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#generative_field BedrockDataAutomationProject#generative_field}.
 
 ---
 
@@ -19549,7 +19549,7 @@ def put_document(
 
 - *Type:* <a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationDocumentExtraction">BedrockDataAutomationProjectStandardOutputConfigurationDocumentExtraction</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#extraction BedrockDataAutomationProject#extraction}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#extraction BedrockDataAutomationProject#extraction}.
 
 ---
 
@@ -19557,7 +19557,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationDocumentGenerativeField">BedrockDataAutomationProjectStandardOutputConfigurationDocumentGenerativeField</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#generative_field BedrockDataAutomationProject#generative_field}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#generative_field BedrockDataAutomationProject#generative_field}.
 
 ---
 
@@ -19565,7 +19565,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationDocumentOutputFormat">BedrockDataAutomationProjectStandardOutputConfigurationDocumentOutputFormat</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#output_format BedrockDataAutomationProject#output_format}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#output_format BedrockDataAutomationProject#output_format}.
 
 ---
 
@@ -19582,7 +19582,7 @@ def put_image(
 
 - *Type:* <a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationImageExtraction">BedrockDataAutomationProjectStandardOutputConfigurationImageExtraction</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#extraction BedrockDataAutomationProject#extraction}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#extraction BedrockDataAutomationProject#extraction}.
 
 ---
 
@@ -19590,7 +19590,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationImageGenerativeField">BedrockDataAutomationProjectStandardOutputConfigurationImageGenerativeField</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#generative_field BedrockDataAutomationProject#generative_field}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#generative_field BedrockDataAutomationProject#generative_field}.
 
 ---
 
@@ -19607,7 +19607,7 @@ def put_video(
 
 - *Type:* <a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationVideoExtraction">BedrockDataAutomationProjectStandardOutputConfigurationVideoExtraction</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#extraction BedrockDataAutomationProject#extraction}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#extraction BedrockDataAutomationProject#extraction}.
 
 ---
 
@@ -19615,7 +19615,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationVideoGenerativeField">BedrockDataAutomationProjectStandardOutputConfigurationVideoGenerativeField</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#generative_field BedrockDataAutomationProject#generative_field}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#generative_field BedrockDataAutomationProject#generative_field}.
 
 ---
 
@@ -20656,7 +20656,7 @@ def put_bounding_box(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}.
 
 ---
 
@@ -20673,7 +20673,7 @@ def put_category(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}.
 
 ---
 
@@ -20681,7 +20681,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#types BedrockDataAutomationProject#types}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#types BedrockDataAutomationProject#types}.
 
 ---
 
@@ -21364,7 +21364,7 @@ def put_extraction(
 
 - *Type:* <a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationVideoExtractionBoundingBox">BedrockDataAutomationProjectStandardOutputConfigurationVideoExtractionBoundingBox</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#bounding_box BedrockDataAutomationProject#bounding_box}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#bounding_box BedrockDataAutomationProject#bounding_box}.
 
 ---
 
@@ -21372,7 +21372,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.bedrockDataAutomationProject.BedrockDataAutomationProjectStandardOutputConfigurationVideoExtractionCategory">BedrockDataAutomationProjectStandardOutputConfigurationVideoExtractionCategory</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#category BedrockDataAutomationProject#category}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#category BedrockDataAutomationProject#category}.
 
 ---
 
@@ -21389,7 +21389,7 @@ def put_generative_field(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}.
 
 ---
 
@@ -21397,7 +21397,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#types BedrockDataAutomationProject#types}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#types BedrockDataAutomationProject#types}.
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### DataAwsccGuarddutyFilter <a name="DataAwsccGuarddutyFilter" id="@cdktn/provider-awscc.dataAwsccGuarddutyFilter.DataAwsccGuarddutyFilter"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/guardduty_filter awscc_guardduty_filter}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/guardduty_filter awscc_guardduty_filter}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGuarddutyFilter.DataAwsccGuarddutyFilter.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccGuarddutyFilter t
 
 The id of the existing DataAwsccGuarddutyFilter that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/guardduty_filter#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/guardduty_filter#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -773,7 +773,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/guardduty_filter#id DataAwsccGuarddutyFilter#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/guardduty_filter#id DataAwsccGuarddutyFilter#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1186,8 +1186,10 @@ Returns a reversible string representation.
 | <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyFilter.DataAwsccGuarddutyFilterFindingCriteriaCriterionOutputReference.property.lessThanOrEqual">LessThanOrEqual</a></code> | <code>*f64</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyFilter.DataAwsccGuarddutyFilterFindingCriteriaCriterionOutputReference.property.lt">Lt</a></code> | <code>*f64</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyFilter.DataAwsccGuarddutyFilterFindingCriteriaCriterionOutputReference.property.lte">Lte</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyFilter.DataAwsccGuarddutyFilterFindingCriteriaCriterionOutputReference.property.matches">Matches</a></code> | <code>*[]*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyFilter.DataAwsccGuarddutyFilterFindingCriteriaCriterionOutputReference.property.neq">Neq</a></code> | <code>*[]*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyFilter.DataAwsccGuarddutyFilterFindingCriteriaCriterionOutputReference.property.notEquals">NotEquals</a></code> | <code>*[]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyFilter.DataAwsccGuarddutyFilterFindingCriteriaCriterionOutputReference.property.notMatches">NotMatches</a></code> | <code>*[]*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyFilter.DataAwsccGuarddutyFilterFindingCriteriaCriterionOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyFilter.DataAwsccGuarddutyFilterFindingCriteriaCriterion">DataAwsccGuarddutyFilterFindingCriteriaCriterion</a></code> | *No description.* |
 
 ---
@@ -1316,6 +1318,16 @@ func Lte() *f64
 
 ---
 
+##### `Matches`<sup>Required</sup> <a name="Matches" id="@cdktn/provider-awscc.dataAwsccGuarddutyFilter.DataAwsccGuarddutyFilterFindingCriteriaCriterionOutputReference.property.matches"></a>
+
+```go
+func Matches() *[]*string
+```
+
+- *Type:* *[]*string
+
+---
+
 ##### `Neq`<sup>Required</sup> <a name="Neq" id="@cdktn/provider-awscc.dataAwsccGuarddutyFilter.DataAwsccGuarddutyFilterFindingCriteriaCriterionOutputReference.property.neq"></a>
 
 ```go
@@ -1330,6 +1342,16 @@ func Neq() *[]*string
 
 ```go
 func NotEquals() *[]*string
+```
+
+- *Type:* *[]*string
+
+---
+
+##### `NotMatches`<sup>Required</sup> <a name="NotMatches" id="@cdktn/provider-awscc.dataAwsccGuarddutyFilter.DataAwsccGuarddutyFilterFindingCriteriaCriterionOutputReference.property.notMatches"></a>
+
+```go
+func NotMatches() *[]*string
 ```
 
 - *Type:* *[]*string

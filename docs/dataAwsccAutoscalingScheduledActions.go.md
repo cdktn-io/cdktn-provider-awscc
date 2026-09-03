@@ -4,7 +4,7 @@
 
 ### DataAwsccAutoscalingScheduledActions <a name="DataAwsccAutoscalingScheduledActions" id="@cdktn/provider-awscc.dataAwsccAutoscalingScheduledActions.DataAwsccAutoscalingScheduledActions"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/autoscaling_scheduled_actions awscc_autoscaling_scheduled_actions}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/autoscaling_scheduled_actions awscc_autoscaling_scheduled_actions}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAutoscalingScheduledActions.DataAwsccAutoscalingScheduledActions.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccAutoscalingSchedu
 
 The id of the existing DataAwsccAutoscalingScheduledActions that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/autoscaling_scheduled_actions#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/autoscaling_scheduled_actions#import import section} in the documentation of this resource for the id to use
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### MediaconnectFlow <a name="MediaconnectFlow" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow awscc_mediaconnect_flow}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow awscc_mediaconnect_flow}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.Initializer"></a>
 
@@ -24,10 +24,14 @@ mediaconnectFlow.MediaconnectFlow(
   name: str,
   source: MediaconnectFlowSource,
   availability_zone: str = None,
+  encoding_config: MediaconnectFlowEncodingConfig = None,
+  flow_size: str = None,
   maintenance: MediaconnectFlowMaintenance = None,
   media_streams: IResolvable | typing.List[MediaconnectFlowMediaStreams] = None,
+  ndi_config: MediaconnectFlowNdiConfig = None,
   source_failover_config: MediaconnectFlowSourceFailoverConfig = None,
   source_monitoring_config: MediaconnectFlowSourceMonitoringConfig = None,
+  tags: IResolvable | typing.List[MediaconnectFlowTags] = None,
   vpc_interfaces: IResolvable | typing.List[MediaconnectFlowVpcInterfaces] = None
 )
 ```
@@ -46,10 +50,14 @@ mediaconnectFlow.MediaconnectFlow(
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.Initializer.parameter.name">name</a></code> | <code>str</code> | The name of the flow. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.Initializer.parameter.source">source</a></code> | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSource">MediaconnectFlowSource</a></code> | The source of the flow. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.Initializer.parameter.availabilityZone">availability_zone</a></code> | <code>str</code> | The Availability Zone that you want to create the flow in. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.Initializer.parameter.encodingConfig">encoding_config</a></code> | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowEncodingConfig">MediaconnectFlowEncodingConfig</a></code> | The encoding configuration to apply to the NDI source content when transcoding it to a transport stream (TS) for downstream distribution. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.Initializer.parameter.flowSize">flow_size</a></code> | <code>str</code> | Determines the processing capacity and feature set of the flow. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.Initializer.parameter.maintenance">maintenance</a></code> | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMaintenance">MediaconnectFlowMaintenance</a></code> | The maintenance settings you want to use for the flow. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.Initializer.parameter.mediaStreams">media_streams</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreams">MediaconnectFlowMediaStreams</a>]</code> | The media streams associated with the flow. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.Initializer.parameter.ndiConfig">ndi_config</a></code> | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfig">MediaconnectFlowNdiConfig</a></code> | Specifies the configuration settings for NDI sources and outputs. Required when the flow includes NDI sources or outputs. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.Initializer.parameter.sourceFailoverConfig">source_failover_config</a></code> | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceFailoverConfig">MediaconnectFlowSourceFailoverConfig</a></code> | The source failover config of the flow. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.Initializer.parameter.sourceMonitoringConfig">source_monitoring_config</a></code> | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceMonitoringConfig">MediaconnectFlowSourceMonitoringConfig</a></code> | The source monitoring config of the flow. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.Initializer.parameter.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTags">MediaconnectFlowTags</a>]</code> | Key-value pairs that can be used to tag this flow. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.Initializer.parameter.vpcInterfaces">vpc_interfaces</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfaces">MediaconnectFlowVpcInterfaces</a>]</code> | The VPC interfaces that you added to this flow. |
 
 ---
@@ -120,7 +128,7 @@ Must be unique amongst siblings in the same scope
 
 The name of the flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#name MediaconnectFlow#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#name MediaconnectFlow#name}
 
 ---
 
@@ -130,7 +138,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The source of the flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#source MediaconnectFlow#source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#source MediaconnectFlow#source}
 
 ---
 
@@ -142,7 +150,31 @@ The Availability Zone that you want to create the flow in.
 
 These options are limited to the Availability Zones within the current AWS.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#availability_zone MediaconnectFlow#availability_zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#availability_zone MediaconnectFlow#availability_zone}
+
+---
+
+##### `encoding_config`<sup>Optional</sup> <a name="encoding_config" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.Initializer.parameter.encodingConfig"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowEncodingConfig">MediaconnectFlowEncodingConfig</a>
+
+The encoding configuration to apply to the NDI source content when transcoding it to a transport stream (TS) for downstream distribution.
+
+You can choose between several predefined encoding profiles based on common use cases.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#encoding_config MediaconnectFlow#encoding_config}
+
+---
+
+##### `flow_size`<sup>Optional</sup> <a name="flow_size" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.Initializer.parameter.flowSize"></a>
+
+- *Type:* str
+
+Determines the processing capacity and feature set of the flow.
+
+Set this optional parameter to LARGE if you want to enable NDI sources or outputs on the flow.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#flow_size MediaconnectFlow#flow_size}
 
 ---
 
@@ -152,7 +184,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The maintenance settings you want to use for the flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#maintenance MediaconnectFlow#maintenance}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#maintenance MediaconnectFlow#maintenance}
 
 ---
 
@@ -164,7 +196,17 @@ The media streams associated with the flow.
 
 You can associate any of these media streams with sources and outputs on the flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#media_streams MediaconnectFlow#media_streams}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#media_streams MediaconnectFlow#media_streams}
+
+---
+
+##### `ndi_config`<sup>Optional</sup> <a name="ndi_config" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.Initializer.parameter.ndiConfig"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfig">MediaconnectFlowNdiConfig</a>
+
+Specifies the configuration settings for NDI sources and outputs. Required when the flow includes NDI sources or outputs.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#ndi_config MediaconnectFlow#ndi_config}
 
 ---
 
@@ -174,7 +216,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The source failover config of the flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#source_failover_config MediaconnectFlow#source_failover_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#source_failover_config MediaconnectFlow#source_failover_config}
 
 ---
 
@@ -184,7 +226,17 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The source monitoring config of the flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#source_monitoring_config MediaconnectFlow#source_monitoring_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#source_monitoring_config MediaconnectFlow#source_monitoring_config}
+
+---
+
+##### `tags`<sup>Optional</sup> <a name="tags" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.Initializer.parameter.tags"></a>
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTags">MediaconnectFlowTags</a>]
+
+Key-value pairs that can be used to tag this flow.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#tags MediaconnectFlow#tags}
 
 ---
 
@@ -194,7 +246,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The VPC interfaces that you added to this flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#vpc_interfaces MediaconnectFlow#vpc_interfaces}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#vpc_interfaces MediaconnectFlow#vpc_interfaces}
 
 ---
 
@@ -226,17 +278,24 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.moveFromId">move_from_id</a></code> | Move the resource corresponding to "id" to this resource. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.moveTo">move_to</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.moveToId">move_to_id</a></code> | Moves this resource to the resource corresponding to "id". |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.putEncodingConfig">put_encoding_config</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.putMaintenance">put_maintenance</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.putMediaStreams">put_media_streams</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.putNdiConfig">put_ndi_config</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.putSource">put_source</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.putSourceFailoverConfig">put_source_failover_config</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.putSourceMonitoringConfig">put_source_monitoring_config</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.putTags">put_tags</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.putVpcInterfaces">put_vpc_interfaces</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.resetAvailabilityZone">reset_availability_zone</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.resetEncodingConfig">reset_encoding_config</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.resetFlowSize">reset_flow_size</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.resetMaintenance">reset_maintenance</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.resetMediaStreams">reset_media_streams</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.resetNdiConfig">reset_ndi_config</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.resetSourceFailoverConfig">reset_source_failover_config</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.resetSourceMonitoringConfig">reset_source_monitoring_config</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.resetTags">reset_tags</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.resetVpcInterfaces">reset_vpc_interfaces</a></code> | *No description.* |
 
 ---
@@ -589,6 +648,39 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 
 ---
 
+##### `put_encoding_config` <a name="put_encoding_config" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.putEncodingConfig"></a>
+
+```python
+def put_encoding_config(
+  encoding_profile: str = None,
+  video_max_bitrate: typing.Union[int, float] = None
+) -> None
+```
+
+###### `encoding_profile`<sup>Optional</sup> <a name="encoding_profile" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.putEncodingConfig.parameter.encodingProfile"></a>
+
+- *Type:* str
+
+The encoding profile to use when transcoding the NDI source to a Transport Stream.
+
+You can change this value while a flow is running.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#encoding_profile MediaconnectFlow#encoding_profile}
+
+---
+
+###### `video_max_bitrate`<sup>Optional</sup> <a name="video_max_bitrate" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.putEncodingConfig.parameter.videoMaxBitrate"></a>
+
+- *Type:* typing.Union[int, float]
+
+The maximum video bitrate to use when transcoding the NDI source to a Transport Stream.
+
+This parameter enables you to override the default video bitrate within the encoding profile's supported range. The supported range is 10,000,000 - 50,000,000 bits per second (bps). If you do not specify a value, MediaConnect uses the default value of 20,000,000 bps.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#video_max_bitrate MediaconnectFlow#video_max_bitrate}
+
+---
+
 ##### `put_maintenance` <a name="put_maintenance" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.putMaintenance"></a>
 
 ```python
@@ -604,7 +696,7 @@ def put_maintenance(
 
 A day of a week when the maintenance will happen. Use Monday/Tuesday/Wednesday/Thursday/Friday/Saturday/Sunday.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#maintenance_day MediaconnectFlow#maintenance_day}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#maintenance_day MediaconnectFlow#maintenance_day}
 
 ---
 
@@ -616,7 +708,7 @@ UTC time when the maintenance will happen.
 
 Use 24-hour HH:MM format. Minutes must be 00. Example: 13:00. The default value is 02:00.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#maintenance_start_hour MediaconnectFlow#maintenance_start_hour}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#maintenance_start_hour MediaconnectFlow#maintenance_start_hour}
 
 ---
 
@@ -631,6 +723,52 @@ def put_media_streams(
 ###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.putMediaStreams.parameter.value"></a>
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreams">MediaconnectFlowMediaStreams</a>]
+
+---
+
+##### `put_ndi_config` <a name="put_ndi_config" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.putNdiConfig"></a>
+
+```python
+def put_ndi_config(
+  machine_name: str = None,
+  ndi_discovery_servers: IResolvable | typing.List[MediaconnectFlowNdiConfigNdiDiscoveryServers] = None,
+  ndi_state: str = None
+) -> None
+```
+
+###### `machine_name`<sup>Optional</sup> <a name="machine_name" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.putNdiConfig.parameter.machineName"></a>
+
+- *Type:* str
+
+A prefix for the names of the NDI sources that the flow creates.
+
+If a custom name isn't specified, MediaConnect generates a unique 12-character ID as the prefix.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#machine_name MediaconnectFlow#machine_name}
+
+---
+
+###### `ndi_discovery_servers`<sup>Optional</sup> <a name="ndi_discovery_servers" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.putNdiConfig.parameter.ndiDiscoveryServers"></a>
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServers">MediaconnectFlowNdiConfigNdiDiscoveryServers</a>]
+
+A list of up to three NDI discovery server configurations.
+
+While not required by the API, this configuration is necessary for NDI functionality to work properly.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#ndi_discovery_servers MediaconnectFlow#ndi_discovery_servers}
+
+---
+
+###### `ndi_state`<sup>Optional</sup> <a name="ndi_state" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.putNdiConfig.parameter.ndiState"></a>
+
+- *Type:* str
+
+A setting that controls whether NDI sources or outputs can be used in the flow.
+
+The default value is DISABLED. This value must be set as ENABLED for your flow to support NDI sources or outputs.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#ndi_state MediaconnectFlow#ndi_state}
 
 ---
 
@@ -649,12 +787,16 @@ def put_source(
   media_stream_source_configurations: IResolvable | typing.List[MediaconnectFlowSourceMediaStreamSourceConfigurations] = None,
   min_latency: typing.Union[int, float] = None,
   name: str = None,
+  ndi_source_settings: MediaconnectFlowSourceNdiSourceSettings = None,
   protocol: str = None,
+  router_integration_state: str = None,
+  router_integration_transit_decryption: MediaconnectFlowSourceRouterIntegrationTransitDecryption = None,
   sender_control_port: typing.Union[int, float] = None,
   sender_ip_address: str = None,
   source_listener_address: str = None,
   source_listener_port: typing.Union[int, float] = None,
   stream_id: str = None,
+  tags: IResolvable | typing.List[MediaconnectFlowSourceTags] = None,
   vpc_interface_name: str = None,
   whitelist_cidr: str = None
 ) -> None
@@ -666,7 +808,7 @@ def put_source(
 
 The type of decryption that is used on the content ingested from this source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#decryption MediaconnectFlow#decryption}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#decryption MediaconnectFlow#decryption}
 
 ---
 
@@ -678,7 +820,7 @@ A description for the source.
 
 This value is not used or seen outside of the current AWS Elemental MediaConnect account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#description MediaconnectFlow#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#description MediaconnectFlow#description}
 
 ---
 
@@ -690,7 +832,7 @@ The ARN of the entitlement that allows you to subscribe to content that comes fr
 
 The entitlement is set by the content originator and the ARN is generated as part of the originator's flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#entitlement_arn MediaconnectFlow#entitlement_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#entitlement_arn MediaconnectFlow#entitlement_arn}
 
 ---
 
@@ -700,7 +842,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The source configuration for cloud flows receiving a stream from a bridge.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#gateway_bridge_source MediaconnectFlow#gateway_bridge_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#gateway_bridge_source MediaconnectFlow#gateway_bridge_source}
 
 ---
 
@@ -710,7 +852,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The port that the flow will be listening on for incoming content.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#ingest_port MediaconnectFlow#ingest_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#ingest_port MediaconnectFlow#ingest_port}
 
 ---
 
@@ -720,7 +862,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The smoothing max bitrate for RIST, RTP, and RTP-FEC streams.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#max_bitrate MediaconnectFlow#max_bitrate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#max_bitrate MediaconnectFlow#max_bitrate}
 
 ---
 
@@ -730,7 +872,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The maximum latency in milliseconds. This parameter applies only to RIST-based and Zixi-based streams.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#max_latency MediaconnectFlow#max_latency}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#max_latency MediaconnectFlow#max_latency}
 
 ---
 
@@ -740,7 +882,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The size of the buffer (in milliseconds) to use to sync incoming source data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#max_sync_buffer MediaconnectFlow#max_sync_buffer}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#max_sync_buffer MediaconnectFlow#max_sync_buffer}
 
 ---
 
@@ -750,7 +892,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The media stream that is associated with the source, and the parameters for that association.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#media_stream_source_configurations MediaconnectFlow#media_stream_source_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#media_stream_source_configurations MediaconnectFlow#media_stream_source_configurations}
 
 ---
 
@@ -760,7 +902,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The minimum latency in milliseconds.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#min_latency MediaconnectFlow#min_latency}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#min_latency MediaconnectFlow#min_latency}
 
 ---
 
@@ -770,7 +912,19 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#name MediaconnectFlow#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#name MediaconnectFlow#name}
+
+---
+
+###### `ndi_source_settings`<sup>Optional</sup> <a name="ndi_source_settings" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.putSource.parameter.ndiSourceSettings"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceNdiSourceSettings">MediaconnectFlowSourceNdiSourceSettings</a>
+
+The settings for the NDI flow source.
+
+This includes the exact name of the upstream NDI sender that you want to connect to your flow source.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#ndi_source_settings MediaconnectFlow#ndi_source_settings}
 
 ---
 
@@ -780,7 +934,25 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The protocol that is used by the source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#protocol MediaconnectFlow#protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#protocol MediaconnectFlow#protocol}
+
+---
+
+###### `router_integration_state`<sup>Optional</sup> <a name="router_integration_state" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.putSource.parameter.routerIntegrationState"></a>
+
+- *Type:* str
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#router_integration_state MediaconnectFlow#router_integration_state}.
+
+---
+
+###### `router_integration_transit_decryption`<sup>Optional</sup> <a name="router_integration_transit_decryption" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.putSource.parameter.routerIntegrationTransitDecryption"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryption">MediaconnectFlowSourceRouterIntegrationTransitDecryption</a>
+
+The configuration that defines how content is encrypted during transit between the MediaConnect router and a MediaConnect flow.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#router_integration_transit_decryption MediaconnectFlow#router_integration_transit_decryption}
 
 ---
 
@@ -790,7 +962,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The port that the flow uses to send outbound requests to initiate connection with the sender for fujitsu-qos protocol.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#sender_control_port MediaconnectFlow#sender_control_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#sender_control_port MediaconnectFlow#sender_control_port}
 
 ---
 
@@ -800,7 +972,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The IP address that the flow communicates with to initiate connection with the sender for fujitsu-qos protocol.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#sender_ip_address MediaconnectFlow#sender_ip_address}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#sender_ip_address MediaconnectFlow#sender_ip_address}
 
 ---
 
@@ -810,7 +982,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Source IP or domain name for SRT-caller protocol.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#source_listener_address MediaconnectFlow#source_listener_address}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#source_listener_address MediaconnectFlow#source_listener_address}
 
 ---
 
@@ -820,7 +992,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Source port for SRT-caller protocol.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#source_listener_port MediaconnectFlow#source_listener_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#source_listener_port MediaconnectFlow#source_listener_port}
 
 ---
 
@@ -830,7 +1002,17 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The stream ID that you want to use for this transport. This parameter applies only to Zixi-based streams.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#stream_id MediaconnectFlow#stream_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#stream_id MediaconnectFlow#stream_id}
+
+---
+
+###### `tags`<sup>Optional</sup> <a name="tags" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.putSource.parameter.tags"></a>
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTags">MediaconnectFlowSourceTags</a>]
+
+Key-value pairs that can be used to tag this source.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#tags MediaconnectFlow#tags}
 
 ---
 
@@ -840,7 +1022,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the VPC Interface this Source is configured with.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#vpc_interface_name MediaconnectFlow#vpc_interface_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#vpc_interface_name MediaconnectFlow#vpc_interface_name}
 
 ---
 
@@ -852,7 +1034,7 @@ The range of IP addresses that should be allowed to contribute content to your s
 
 These IP addresses should be in the form of a Classless Inter-Domain Routing (CIDR) block; for example, 10.0.0.0/16.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#whitelist_cidr MediaconnectFlow#whitelist_cidr}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#whitelist_cidr MediaconnectFlow#whitelist_cidr}
 
 ---
 
@@ -875,7 +1057,7 @@ The type of failover you choose for this flow.
 
 MERGE combines the source streams into a single stream, allowing graceful recovery from any single-source loss. FAILOVER allows switching between different streams.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#failover_mode MediaconnectFlow#failover_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#failover_mode MediaconnectFlow#failover_mode}
 
 ---
 
@@ -885,7 +1067,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Search window time to look for dash-7 packets.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#recovery_window MediaconnectFlow#recovery_window}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#recovery_window MediaconnectFlow#recovery_window}
 
 ---
 
@@ -897,7 +1079,7 @@ The priority you want to assign to a source.
 
 You can have a primary stream and a backup stream or two equally prioritized streams.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#source_priority MediaconnectFlow#source_priority}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#source_priority MediaconnectFlow#source_priority}
 
 ---
 
@@ -905,7 +1087,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#state MediaconnectFlow#state}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#state MediaconnectFlow#state}.
 
 ---
 
@@ -926,7 +1108,7 @@ def put_source_monitoring_config(
 
 Contains the settings for audio stream metrics monitoring.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#audio_monitoring_settings MediaconnectFlow#audio_monitoring_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#audio_monitoring_settings MediaconnectFlow#audio_monitoring_settings}
 
 ---
 
@@ -936,7 +1118,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Indicates whether content quality analysis is enabled or disabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#content_quality_analysis_state MediaconnectFlow#content_quality_analysis_state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#content_quality_analysis_state MediaconnectFlow#content_quality_analysis_state}
 
 ---
 
@@ -946,7 +1128,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The state of thumbnail monitoring.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#thumbnail_state MediaconnectFlow#thumbnail_state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#thumbnail_state MediaconnectFlow#thumbnail_state}
 
 ---
 
@@ -956,7 +1138,21 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Contains the settings for video stream metrics monitoring.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#video_monitoring_settings MediaconnectFlow#video_monitoring_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#video_monitoring_settings MediaconnectFlow#video_monitoring_settings}
+
+---
+
+##### `put_tags` <a name="put_tags" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.putTags"></a>
+
+```python
+def put_tags(
+  value: IResolvable | typing.List[MediaconnectFlowTags]
+) -> None
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.putTags.parameter.value"></a>
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTags">MediaconnectFlowTags</a>]
 
 ---
 
@@ -980,6 +1176,18 @@ def put_vpc_interfaces(
 def reset_availability_zone() -> None
 ```
 
+##### `reset_encoding_config` <a name="reset_encoding_config" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.resetEncodingConfig"></a>
+
+```python
+def reset_encoding_config() -> None
+```
+
+##### `reset_flow_size` <a name="reset_flow_size" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.resetFlowSize"></a>
+
+```python
+def reset_flow_size() -> None
+```
+
 ##### `reset_maintenance` <a name="reset_maintenance" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.resetMaintenance"></a>
 
 ```python
@@ -992,6 +1200,12 @@ def reset_maintenance() -> None
 def reset_media_streams() -> None
 ```
 
+##### `reset_ndi_config` <a name="reset_ndi_config" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.resetNdiConfig"></a>
+
+```python
+def reset_ndi_config() -> None
+```
+
 ##### `reset_source_failover_config` <a name="reset_source_failover_config" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.resetSourceFailoverConfig"></a>
 
 ```python
@@ -1002,6 +1216,12 @@ def reset_source_failover_config() -> None
 
 ```python
 def reset_source_monitoring_config() -> None
+```
+
+##### `reset_tags` <a name="reset_tags" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.resetTags"></a>
+
+```python
+def reset_tags() -> None
 ```
 
 ##### `reset_vpc_interfaces` <a name="reset_vpc_interfaces" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.resetVpcInterfaces"></a>
@@ -1124,7 +1344,7 @@ The construct id used in the generated config for the MediaconnectFlow to import
 
 The id of the existing MediaconnectFlow that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1155,24 +1375,33 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.property.egressIp">egress_ip</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.property.encodingConfig">encoding_config</a></code> | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowEncodingConfigOutputReference">MediaconnectFlowEncodingConfigOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.property.flowArn">flow_arn</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.property.flowAvailabilityZone">flow_availability_zone</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.property.flowNdiMachineName">flow_ndi_machine_name</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.property.id">id</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.property.maintenance">maintenance</a></code> | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMaintenanceOutputReference">MediaconnectFlowMaintenanceOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.property.mediaStreams">media_streams</a></code> | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsList">MediaconnectFlowMediaStreamsList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.property.ndiConfig">ndi_config</a></code> | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigOutputReference">MediaconnectFlowNdiConfigOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.property.source">source</a></code> | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceOutputReference">MediaconnectFlowSourceOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.property.sourceFailoverConfig">source_failover_config</a></code> | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceFailoverConfigOutputReference">MediaconnectFlowSourceFailoverConfigOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.property.sourceMonitoringConfig">source_monitoring_config</a></code> | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceMonitoringConfigOutputReference">MediaconnectFlowSourceMonitoringConfigOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.property.tags">tags</a></code> | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsList">MediaconnectFlowTagsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.property.vpcInterfaces">vpc_interfaces</a></code> | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesList">MediaconnectFlowVpcInterfacesList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.property.availabilityZoneInput">availability_zone_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.property.encodingConfigInput">encoding_config_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowEncodingConfig">MediaconnectFlowEncodingConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.property.flowSizeInput">flow_size_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.property.maintenanceInput">maintenance_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMaintenance">MediaconnectFlowMaintenance</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.property.mediaStreamsInput">media_streams_input</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreams">MediaconnectFlowMediaStreams</a>]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.property.nameInput">name_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.property.ndiConfigInput">ndi_config_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfig">MediaconnectFlowNdiConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.property.sourceFailoverConfigInput">source_failover_config_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceFailoverConfig">MediaconnectFlowSourceFailoverConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.property.sourceInput">source_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSource">MediaconnectFlowSource</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.property.sourceMonitoringConfigInput">source_monitoring_config_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceMonitoringConfig">MediaconnectFlowSourceMonitoringConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.property.tagsInput">tags_input</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTags">MediaconnectFlowTags</a>]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.property.vpcInterfacesInput">vpc_interfaces_input</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfaces">MediaconnectFlowVpcInterfaces</a>]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.property.availabilityZone">availability_zone</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.property.flowSize">flow_size</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.property.name">name</a></code> | <code>str</code> | *No description.* |
 
 ---
@@ -1329,6 +1558,16 @@ egress_ip: str
 
 ---
 
+##### `encoding_config`<sup>Required</sup> <a name="encoding_config" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.property.encodingConfig"></a>
+
+```python
+encoding_config: MediaconnectFlowEncodingConfigOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowEncodingConfigOutputReference">MediaconnectFlowEncodingConfigOutputReference</a>
+
+---
+
 ##### `flow_arn`<sup>Required</sup> <a name="flow_arn" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.property.flowArn"></a>
 
 ```python
@@ -1343,6 +1582,16 @@ flow_arn: str
 
 ```python
 flow_availability_zone: str
+```
+
+- *Type:* str
+
+---
+
+##### `flow_ndi_machine_name`<sup>Required</sup> <a name="flow_ndi_machine_name" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.property.flowNdiMachineName"></a>
+
+```python
+flow_ndi_machine_name: str
 ```
 
 - *Type:* str
@@ -1379,6 +1628,16 @@ media_streams: MediaconnectFlowMediaStreamsList
 
 ---
 
+##### `ndi_config`<sup>Required</sup> <a name="ndi_config" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.property.ndiConfig"></a>
+
+```python
+ndi_config: MediaconnectFlowNdiConfigOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigOutputReference">MediaconnectFlowNdiConfigOutputReference</a>
+
+---
+
 ##### `source`<sup>Required</sup> <a name="source" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.property.source"></a>
 
 ```python
@@ -1409,6 +1668,16 @@ source_monitoring_config: MediaconnectFlowSourceMonitoringConfigOutputReference
 
 ---
 
+##### `tags`<sup>Required</sup> <a name="tags" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.property.tags"></a>
+
+```python
+tags: MediaconnectFlowTagsList
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsList">MediaconnectFlowTagsList</a>
+
+---
+
 ##### `vpc_interfaces`<sup>Required</sup> <a name="vpc_interfaces" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.property.vpcInterfaces"></a>
 
 ```python
@@ -1423,6 +1692,26 @@ vpc_interfaces: MediaconnectFlowVpcInterfacesList
 
 ```python
 availability_zone_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `encoding_config_input`<sup>Optional</sup> <a name="encoding_config_input" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.property.encodingConfigInput"></a>
+
+```python
+encoding_config_input: IResolvable | MediaconnectFlowEncodingConfig
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowEncodingConfig">MediaconnectFlowEncodingConfig</a>
+
+---
+
+##### `flow_size_input`<sup>Optional</sup> <a name="flow_size_input" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.property.flowSizeInput"></a>
+
+```python
+flow_size_input: str
 ```
 
 - *Type:* str
@@ -1459,6 +1748,16 @@ name_input: str
 
 ---
 
+##### `ndi_config_input`<sup>Optional</sup> <a name="ndi_config_input" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.property.ndiConfigInput"></a>
+
+```python
+ndi_config_input: IResolvable | MediaconnectFlowNdiConfig
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfig">MediaconnectFlowNdiConfig</a>
+
+---
+
 ##### `source_failover_config_input`<sup>Optional</sup> <a name="source_failover_config_input" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.property.sourceFailoverConfigInput"></a>
 
 ```python
@@ -1489,6 +1788,16 @@ source_monitoring_config_input: IResolvable | MediaconnectFlowSourceMonitoringCo
 
 ---
 
+##### `tags_input`<sup>Optional</sup> <a name="tags_input" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.property.tagsInput"></a>
+
+```python
+tags_input: IResolvable | typing.List[MediaconnectFlowTags]
+```
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTags">MediaconnectFlowTags</a>]
+
+---
+
 ##### `vpc_interfaces_input`<sup>Optional</sup> <a name="vpc_interfaces_input" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.property.vpcInterfacesInput"></a>
 
 ```python
@@ -1503,6 +1812,16 @@ vpc_interfaces_input: IResolvable | typing.List[MediaconnectFlowVpcInterfaces]
 
 ```python
 availability_zone: str
+```
+
+- *Type:* str
+
+---
+
+##### `flow_size`<sup>Required</sup> <a name="flow_size" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.property.flowSize"></a>
+
+```python
+flow_size: str
 ```
 
 - *Type:* str
@@ -1557,10 +1876,14 @@ mediaconnectFlow.MediaconnectFlowConfig(
   name: str,
   source: MediaconnectFlowSource,
   availability_zone: str = None,
+  encoding_config: MediaconnectFlowEncodingConfig = None,
+  flow_size: str = None,
   maintenance: MediaconnectFlowMaintenance = None,
   media_streams: IResolvable | typing.List[MediaconnectFlowMediaStreams] = None,
+  ndi_config: MediaconnectFlowNdiConfig = None,
   source_failover_config: MediaconnectFlowSourceFailoverConfig = None,
   source_monitoring_config: MediaconnectFlowSourceMonitoringConfig = None,
+  tags: IResolvable | typing.List[MediaconnectFlowTags] = None,
   vpc_interfaces: IResolvable | typing.List[MediaconnectFlowVpcInterfaces] = None
 )
 ```
@@ -1579,10 +1902,14 @@ mediaconnectFlow.MediaconnectFlowConfig(
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowConfig.property.name">name</a></code> | <code>str</code> | The name of the flow. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowConfig.property.source">source</a></code> | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSource">MediaconnectFlowSource</a></code> | The source of the flow. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowConfig.property.availabilityZone">availability_zone</a></code> | <code>str</code> | The Availability Zone that you want to create the flow in. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowConfig.property.encodingConfig">encoding_config</a></code> | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowEncodingConfig">MediaconnectFlowEncodingConfig</a></code> | The encoding configuration to apply to the NDI source content when transcoding it to a transport stream (TS) for downstream distribution. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowConfig.property.flowSize">flow_size</a></code> | <code>str</code> | Determines the processing capacity and feature set of the flow. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowConfig.property.maintenance">maintenance</a></code> | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMaintenance">MediaconnectFlowMaintenance</a></code> | The maintenance settings you want to use for the flow. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowConfig.property.mediaStreams">media_streams</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreams">MediaconnectFlowMediaStreams</a>]</code> | The media streams associated with the flow. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowConfig.property.ndiConfig">ndi_config</a></code> | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfig">MediaconnectFlowNdiConfig</a></code> | Specifies the configuration settings for NDI sources and outputs. Required when the flow includes NDI sources or outputs. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowConfig.property.sourceFailoverConfig">source_failover_config</a></code> | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceFailoverConfig">MediaconnectFlowSourceFailoverConfig</a></code> | The source failover config of the flow. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowConfig.property.sourceMonitoringConfig">source_monitoring_config</a></code> | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceMonitoringConfig">MediaconnectFlowSourceMonitoringConfig</a></code> | The source monitoring config of the flow. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTags">MediaconnectFlowTags</a>]</code> | Key-value pairs that can be used to tag this flow. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowConfig.property.vpcInterfaces">vpc_interfaces</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfaces">MediaconnectFlowVpcInterfaces</a>]</code> | The VPC interfaces that you added to this flow. |
 
 ---
@@ -1667,7 +1994,7 @@ name: str
 
 The name of the flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#name MediaconnectFlow#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#name MediaconnectFlow#name}
 
 ---
 
@@ -1681,7 +2008,7 @@ source: MediaconnectFlowSource
 
 The source of the flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#source MediaconnectFlow#source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#source MediaconnectFlow#source}
 
 ---
 
@@ -1697,7 +2024,39 @@ The Availability Zone that you want to create the flow in.
 
 These options are limited to the Availability Zones within the current AWS.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#availability_zone MediaconnectFlow#availability_zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#availability_zone MediaconnectFlow#availability_zone}
+
+---
+
+##### `encoding_config`<sup>Optional</sup> <a name="encoding_config" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowConfig.property.encodingConfig"></a>
+
+```python
+encoding_config: MediaconnectFlowEncodingConfig
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowEncodingConfig">MediaconnectFlowEncodingConfig</a>
+
+The encoding configuration to apply to the NDI source content when transcoding it to a transport stream (TS) for downstream distribution.
+
+You can choose between several predefined encoding profiles based on common use cases.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#encoding_config MediaconnectFlow#encoding_config}
+
+---
+
+##### `flow_size`<sup>Optional</sup> <a name="flow_size" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowConfig.property.flowSize"></a>
+
+```python
+flow_size: str
+```
+
+- *Type:* str
+
+Determines the processing capacity and feature set of the flow.
+
+Set this optional parameter to LARGE if you want to enable NDI sources or outputs on the flow.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#flow_size MediaconnectFlow#flow_size}
 
 ---
 
@@ -1711,7 +2070,7 @@ maintenance: MediaconnectFlowMaintenance
 
 The maintenance settings you want to use for the flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#maintenance MediaconnectFlow#maintenance}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#maintenance MediaconnectFlow#maintenance}
 
 ---
 
@@ -1727,7 +2086,21 @@ The media streams associated with the flow.
 
 You can associate any of these media streams with sources and outputs on the flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#media_streams MediaconnectFlow#media_streams}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#media_streams MediaconnectFlow#media_streams}
+
+---
+
+##### `ndi_config`<sup>Optional</sup> <a name="ndi_config" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowConfig.property.ndiConfig"></a>
+
+```python
+ndi_config: MediaconnectFlowNdiConfig
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfig">MediaconnectFlowNdiConfig</a>
+
+Specifies the configuration settings for NDI sources and outputs. Required when the flow includes NDI sources or outputs.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#ndi_config MediaconnectFlow#ndi_config}
 
 ---
 
@@ -1741,7 +2114,7 @@ source_failover_config: MediaconnectFlowSourceFailoverConfig
 
 The source failover config of the flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#source_failover_config MediaconnectFlow#source_failover_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#source_failover_config MediaconnectFlow#source_failover_config}
 
 ---
 
@@ -1755,7 +2128,21 @@ source_monitoring_config: MediaconnectFlowSourceMonitoringConfig
 
 The source monitoring config of the flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#source_monitoring_config MediaconnectFlow#source_monitoring_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#source_monitoring_config MediaconnectFlow#source_monitoring_config}
+
+---
+
+##### `tags`<sup>Optional</sup> <a name="tags" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowConfig.property.tags"></a>
+
+```python
+tags: IResolvable | typing.List[MediaconnectFlowTags]
+```
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTags">MediaconnectFlowTags</a>]
+
+Key-value pairs that can be used to tag this flow.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#tags MediaconnectFlow#tags}
 
 ---
 
@@ -1769,7 +2156,61 @@ vpc_interfaces: IResolvable | typing.List[MediaconnectFlowVpcInterfaces]
 
 The VPC interfaces that you added to this flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#vpc_interfaces MediaconnectFlow#vpc_interfaces}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#vpc_interfaces MediaconnectFlow#vpc_interfaces}
+
+---
+
+### MediaconnectFlowEncodingConfig <a name="MediaconnectFlowEncodingConfig" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowEncodingConfig"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowEncodingConfig.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import mediaconnect_flow
+
+mediaconnectFlow.MediaconnectFlowEncodingConfig(
+  encoding_profile: str = None,
+  video_max_bitrate: typing.Union[int, float] = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowEncodingConfig.property.encodingProfile">encoding_profile</a></code> | <code>str</code> | The encoding profile to use when transcoding the NDI source to a Transport Stream. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowEncodingConfig.property.videoMaxBitrate">video_max_bitrate</a></code> | <code>typing.Union[int, float]</code> | The maximum video bitrate to use when transcoding the NDI source to a Transport Stream. |
+
+---
+
+##### `encoding_profile`<sup>Optional</sup> <a name="encoding_profile" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowEncodingConfig.property.encodingProfile"></a>
+
+```python
+encoding_profile: str
+```
+
+- *Type:* str
+
+The encoding profile to use when transcoding the NDI source to a Transport Stream.
+
+You can change this value while a flow is running.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#encoding_profile MediaconnectFlow#encoding_profile}
+
+---
+
+##### `video_max_bitrate`<sup>Optional</sup> <a name="video_max_bitrate" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowEncodingConfig.property.videoMaxBitrate"></a>
+
+```python
+video_max_bitrate: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+The maximum video bitrate to use when transcoding the NDI source to a Transport Stream.
+
+This parameter enables you to override the default video bitrate within the encoding profile's supported range. The supported range is 10,000,000 - 50,000,000 bits per second (bps). If you do not specify a value, MediaConnect uses the default value of 20,000,000 bps.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#video_max_bitrate MediaconnectFlow#video_max_bitrate}
 
 ---
 
@@ -1805,7 +2246,7 @@ maintenance_day: str
 
 A day of a week when the maintenance will happen. Use Monday/Tuesday/Wednesday/Thursday/Friday/Saturday/Sunday.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#maintenance_day MediaconnectFlow#maintenance_day}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#maintenance_day MediaconnectFlow#maintenance_day}
 
 ---
 
@@ -1821,7 +2262,7 @@ UTC time when the maintenance will happen.
 
 Use 24-hour HH:MM format. Minutes must be 00. Example: 13:00. The default value is 02:00.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#maintenance_start_hour MediaconnectFlow#maintenance_start_hour}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#maintenance_start_hour MediaconnectFlow#maintenance_start_hour}
 
 ---
 
@@ -1840,6 +2281,7 @@ mediaconnectFlow.MediaconnectFlowMediaStreams(
   media_stream_id: typing.Union[int, float] = None,
   media_stream_name: str = None,
   media_stream_type: str = None,
+  tags: IResolvable | typing.List[MediaconnectFlowMediaStreamsTags] = None,
   video_format: str = None
 )
 ```
@@ -1855,6 +2297,7 @@ mediaconnectFlow.MediaconnectFlowMediaStreams(
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreams.property.mediaStreamId">media_stream_id</a></code> | <code>typing.Union[int, float]</code> | A unique identifier for the media stream. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreams.property.mediaStreamName">media_stream_name</a></code> | <code>str</code> | A name that helps you distinguish one media stream from another. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreams.property.mediaStreamType">media_stream_type</a></code> | <code>str</code> | The type of media stream. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreams.property.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTags">MediaconnectFlowMediaStreamsTags</a>]</code> | Key-value pairs that can be used to tag this media stream. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreams.property.videoFormat">video_format</a></code> | <code>str</code> | The resolution of the video. |
 
 ---
@@ -1869,7 +2312,7 @@ attributes: MediaconnectFlowMediaStreamsAttributes
 
 Attributes that are related to the media stream.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#attributes MediaconnectFlow#attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#attributes MediaconnectFlow#attributes}
 
 ---
 
@@ -1883,7 +2326,7 @@ clock_rate: typing.Union[int, float]
 
 The sample rate for the stream. This value in measured in kHz.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#clock_rate MediaconnectFlow#clock_rate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#clock_rate MediaconnectFlow#clock_rate}
 
 ---
 
@@ -1897,7 +2340,7 @@ description: str
 
 A description that can help you quickly identify what your media stream is used for.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#description MediaconnectFlow#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#description MediaconnectFlow#description}
 
 ---
 
@@ -1913,7 +2356,7 @@ The format type number (sometimes referred to as RTP payload type) of the media 
 
 MediaConnect assigns this value to the media stream. For ST 2110 JPEG XS outputs, you need to provide this value to the receiver.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#fmt MediaconnectFlow#fmt}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#fmt MediaconnectFlow#fmt}
 
 ---
 
@@ -1927,7 +2370,7 @@ media_stream_id: typing.Union[int, float]
 
 A unique identifier for the media stream.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#media_stream_id MediaconnectFlow#media_stream_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#media_stream_id MediaconnectFlow#media_stream_id}
 
 ---
 
@@ -1941,7 +2384,7 @@ media_stream_name: str
 
 A name that helps you distinguish one media stream from another.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#media_stream_name MediaconnectFlow#media_stream_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#media_stream_name MediaconnectFlow#media_stream_name}
 
 ---
 
@@ -1955,7 +2398,21 @@ media_stream_type: str
 
 The type of media stream.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#media_stream_type MediaconnectFlow#media_stream_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#media_stream_type MediaconnectFlow#media_stream_type}
+
+---
+
+##### `tags`<sup>Optional</sup> <a name="tags" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreams.property.tags"></a>
+
+```python
+tags: IResolvable | typing.List[MediaconnectFlowMediaStreamsTags]
+```
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTags">MediaconnectFlowMediaStreamsTags</a>]
+
+Key-value pairs that can be used to tag this media stream.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#tags MediaconnectFlow#tags}
 
 ---
 
@@ -1969,7 +2426,7 @@ video_format: str
 
 The resolution of the video.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#video_format MediaconnectFlow#video_format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#video_format MediaconnectFlow#video_format}
 
 ---
 
@@ -2005,7 +2462,7 @@ fmtp: MediaconnectFlowMediaStreamsAttributesFmtp
 
 A set of parameters that define the media stream.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#fmtp MediaconnectFlow#fmtp}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#fmtp MediaconnectFlow#fmtp}
 
 ---
 
@@ -2019,7 +2476,7 @@ lang: str
 
 The audio language, in a format that is recognized by the receiver.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#lang MediaconnectFlow#lang}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#lang MediaconnectFlow#lang}
 
 ---
 
@@ -2065,7 +2522,7 @@ channel_order: str
 
 The format of the audio channel.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#channel_order MediaconnectFlow#channel_order}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#channel_order MediaconnectFlow#channel_order}
 
 ---
 
@@ -2079,7 +2536,7 @@ colorimetry: str
 
 The format used for the representation of color.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#colorimetry MediaconnectFlow#colorimetry}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#colorimetry MediaconnectFlow#colorimetry}
 
 ---
 
@@ -2093,7 +2550,7 @@ exact_framerate: str
 
 The frame rate for the video stream, in frames/second. For example: 60000/1001.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#exact_framerate MediaconnectFlow#exact_framerate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#exact_framerate MediaconnectFlow#exact_framerate}
 
 ---
 
@@ -2107,7 +2564,7 @@ par: str
 
 The pixel aspect ratio (PAR) of the video.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#par MediaconnectFlow#par}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#par MediaconnectFlow#par}
 
 ---
 
@@ -2121,7 +2578,7 @@ range: str
 
 The encoding range of the video.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#range MediaconnectFlow#range}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#range MediaconnectFlow#range}
 
 ---
 
@@ -2135,7 +2592,7 @@ scan_mode: str
 
 The type of compression that was used to smooth the video's appearance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#scan_mode MediaconnectFlow#scan_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#scan_mode MediaconnectFlow#scan_mode}
 
 ---
 
@@ -2149,7 +2606,191 @@ tcs: str
 
 The transfer characteristic system (TCS) that is used in the video.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#tcs MediaconnectFlow#tcs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#tcs MediaconnectFlow#tcs}
+
+---
+
+### MediaconnectFlowMediaStreamsTags <a name="MediaconnectFlowMediaStreamsTags" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTags"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTags.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import mediaconnect_flow
+
+mediaconnectFlow.MediaconnectFlowMediaStreamsTags(
+  key: str = None,
+  value: str = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTags.property.key">key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#key MediaconnectFlow#key}. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTags.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#value MediaconnectFlow#value}. |
+
+---
+
+##### `key`<sup>Optional</sup> <a name="key" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTags.property.key"></a>
+
+```python
+key: str
+```
+
+- *Type:* str
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#key MediaconnectFlow#key}.
+
+---
+
+##### `value`<sup>Optional</sup> <a name="value" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTags.property.value"></a>
+
+```python
+value: str
+```
+
+- *Type:* str
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#value MediaconnectFlow#value}.
+
+---
+
+### MediaconnectFlowNdiConfig <a name="MediaconnectFlowNdiConfig" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfig"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfig.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import mediaconnect_flow
+
+mediaconnectFlow.MediaconnectFlowNdiConfig(
+  machine_name: str = None,
+  ndi_discovery_servers: IResolvable | typing.List[MediaconnectFlowNdiConfigNdiDiscoveryServers] = None,
+  ndi_state: str = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfig.property.machineName">machine_name</a></code> | <code>str</code> | A prefix for the names of the NDI sources that the flow creates. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfig.property.ndiDiscoveryServers">ndi_discovery_servers</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServers">MediaconnectFlowNdiConfigNdiDiscoveryServers</a>]</code> | A list of up to three NDI discovery server configurations. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfig.property.ndiState">ndi_state</a></code> | <code>str</code> | A setting that controls whether NDI sources or outputs can be used in the flow. |
+
+---
+
+##### `machine_name`<sup>Optional</sup> <a name="machine_name" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfig.property.machineName"></a>
+
+```python
+machine_name: str
+```
+
+- *Type:* str
+
+A prefix for the names of the NDI sources that the flow creates.
+
+If a custom name isn't specified, MediaConnect generates a unique 12-character ID as the prefix.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#machine_name MediaconnectFlow#machine_name}
+
+---
+
+##### `ndi_discovery_servers`<sup>Optional</sup> <a name="ndi_discovery_servers" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfig.property.ndiDiscoveryServers"></a>
+
+```python
+ndi_discovery_servers: IResolvable | typing.List[MediaconnectFlowNdiConfigNdiDiscoveryServers]
+```
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServers">MediaconnectFlowNdiConfigNdiDiscoveryServers</a>]
+
+A list of up to three NDI discovery server configurations.
+
+While not required by the API, this configuration is necessary for NDI functionality to work properly.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#ndi_discovery_servers MediaconnectFlow#ndi_discovery_servers}
+
+---
+
+##### `ndi_state`<sup>Optional</sup> <a name="ndi_state" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfig.property.ndiState"></a>
+
+```python
+ndi_state: str
+```
+
+- *Type:* str
+
+A setting that controls whether NDI sources or outputs can be used in the flow.
+
+The default value is DISABLED. This value must be set as ENABLED for your flow to support NDI sources or outputs.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#ndi_state MediaconnectFlow#ndi_state}
+
+---
+
+### MediaconnectFlowNdiConfigNdiDiscoveryServers <a name="MediaconnectFlowNdiConfigNdiDiscoveryServers" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServers"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServers.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import mediaconnect_flow
+
+mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServers(
+  discovery_server_address: str = None,
+  discovery_server_port: typing.Union[int, float] = None,
+  vpc_interface_adapter: str = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServers.property.discoveryServerAddress">discovery_server_address</a></code> | <code>str</code> | The unique network address of the NDI discovery server. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServers.property.discoveryServerPort">discovery_server_port</a></code> | <code>typing.Union[int, float]</code> | The port for the NDI discovery server. Defaults to 5959 if a custom port isn't specified. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServers.property.vpcInterfaceAdapter">vpc_interface_adapter</a></code> | <code>str</code> | The identifier for the Virtual Private Cloud (VPC) network interface used by the flow. |
+
+---
+
+##### `discovery_server_address`<sup>Optional</sup> <a name="discovery_server_address" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServers.property.discoveryServerAddress"></a>
+
+```python
+discovery_server_address: str
+```
+
+- *Type:* str
+
+The unique network address of the NDI discovery server.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#discovery_server_address MediaconnectFlow#discovery_server_address}
+
+---
+
+##### `discovery_server_port`<sup>Optional</sup> <a name="discovery_server_port" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServers.property.discoveryServerPort"></a>
+
+```python
+discovery_server_port: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+The port for the NDI discovery server. Defaults to 5959 if a custom port isn't specified.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#discovery_server_port MediaconnectFlow#discovery_server_port}
+
+---
+
+##### `vpc_interface_adapter`<sup>Optional</sup> <a name="vpc_interface_adapter" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServers.property.vpcInterfaceAdapter"></a>
+
+```python
+vpc_interface_adapter: str
+```
+
+- *Type:* str
+
+The identifier for the Virtual Private Cloud (VPC) network interface used by the flow.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#vpc_interface_adapter MediaconnectFlow#vpc_interface_adapter}
 
 ---
 
@@ -2172,12 +2813,16 @@ mediaconnectFlow.MediaconnectFlowSource(
   media_stream_source_configurations: IResolvable | typing.List[MediaconnectFlowSourceMediaStreamSourceConfigurations] = None,
   min_latency: typing.Union[int, float] = None,
   name: str = None,
+  ndi_source_settings: MediaconnectFlowSourceNdiSourceSettings = None,
   protocol: str = None,
+  router_integration_state: str = None,
+  router_integration_transit_decryption: MediaconnectFlowSourceRouterIntegrationTransitDecryption = None,
   sender_control_port: typing.Union[int, float] = None,
   sender_ip_address: str = None,
   source_listener_address: str = None,
   source_listener_port: typing.Union[int, float] = None,
   stream_id: str = None,
+  tags: IResolvable | typing.List[MediaconnectFlowSourceTags] = None,
   vpc_interface_name: str = None,
   whitelist_cidr: str = None
 )
@@ -2198,12 +2843,16 @@ mediaconnectFlow.MediaconnectFlowSource(
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSource.property.mediaStreamSourceConfigurations">media_stream_source_configurations</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceMediaStreamSourceConfigurations">MediaconnectFlowSourceMediaStreamSourceConfigurations</a>]</code> | The media stream that is associated with the source, and the parameters for that association. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSource.property.minLatency">min_latency</a></code> | <code>typing.Union[int, float]</code> | The minimum latency in milliseconds. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSource.property.name">name</a></code> | <code>str</code> | The name of the source. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSource.property.ndiSourceSettings">ndi_source_settings</a></code> | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceNdiSourceSettings">MediaconnectFlowSourceNdiSourceSettings</a></code> | The settings for the NDI flow source. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSource.property.protocol">protocol</a></code> | <code>str</code> | The protocol that is used by the source. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSource.property.routerIntegrationState">router_integration_state</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#router_integration_state MediaconnectFlow#router_integration_state}. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSource.property.routerIntegrationTransitDecryption">router_integration_transit_decryption</a></code> | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryption">MediaconnectFlowSourceRouterIntegrationTransitDecryption</a></code> | The configuration that defines how content is encrypted during transit between the MediaConnect router and a MediaConnect flow. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSource.property.senderControlPort">sender_control_port</a></code> | <code>typing.Union[int, float]</code> | The port that the flow uses to send outbound requests to initiate connection with the sender for fujitsu-qos protocol. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSource.property.senderIpAddress">sender_ip_address</a></code> | <code>str</code> | The IP address that the flow communicates with to initiate connection with the sender for fujitsu-qos protocol. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSource.property.sourceListenerAddress">source_listener_address</a></code> | <code>str</code> | Source IP or domain name for SRT-caller protocol. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSource.property.sourceListenerPort">source_listener_port</a></code> | <code>typing.Union[int, float]</code> | Source port for SRT-caller protocol. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSource.property.streamId">stream_id</a></code> | <code>str</code> | The stream ID that you want to use for this transport. This parameter applies only to Zixi-based streams. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSource.property.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTags">MediaconnectFlowSourceTags</a>]</code> | Key-value pairs that can be used to tag this source. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSource.property.vpcInterfaceName">vpc_interface_name</a></code> | <code>str</code> | The name of the VPC Interface this Source is configured with. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSource.property.whitelistCidr">whitelist_cidr</a></code> | <code>str</code> | The range of IP addresses that should be allowed to contribute content to your source. |
 
@@ -2219,7 +2868,7 @@ decryption: MediaconnectFlowSourceDecryption
 
 The type of decryption that is used on the content ingested from this source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#decryption MediaconnectFlow#decryption}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#decryption MediaconnectFlow#decryption}
 
 ---
 
@@ -2235,7 +2884,7 @@ A description for the source.
 
 This value is not used or seen outside of the current AWS Elemental MediaConnect account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#description MediaconnectFlow#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#description MediaconnectFlow#description}
 
 ---
 
@@ -2251,7 +2900,7 @@ The ARN of the entitlement that allows you to subscribe to content that comes fr
 
 The entitlement is set by the content originator and the ARN is generated as part of the originator's flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#entitlement_arn MediaconnectFlow#entitlement_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#entitlement_arn MediaconnectFlow#entitlement_arn}
 
 ---
 
@@ -2265,7 +2914,7 @@ gateway_bridge_source: MediaconnectFlowSourceGatewayBridgeSource
 
 The source configuration for cloud flows receiving a stream from a bridge.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#gateway_bridge_source MediaconnectFlow#gateway_bridge_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#gateway_bridge_source MediaconnectFlow#gateway_bridge_source}
 
 ---
 
@@ -2279,7 +2928,7 @@ ingest_port: typing.Union[int, float]
 
 The port that the flow will be listening on for incoming content.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#ingest_port MediaconnectFlow#ingest_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#ingest_port MediaconnectFlow#ingest_port}
 
 ---
 
@@ -2293,7 +2942,7 @@ max_bitrate: typing.Union[int, float]
 
 The smoothing max bitrate for RIST, RTP, and RTP-FEC streams.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#max_bitrate MediaconnectFlow#max_bitrate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#max_bitrate MediaconnectFlow#max_bitrate}
 
 ---
 
@@ -2307,7 +2956,7 @@ max_latency: typing.Union[int, float]
 
 The maximum latency in milliseconds. This parameter applies only to RIST-based and Zixi-based streams.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#max_latency MediaconnectFlow#max_latency}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#max_latency MediaconnectFlow#max_latency}
 
 ---
 
@@ -2321,7 +2970,7 @@ max_sync_buffer: typing.Union[int, float]
 
 The size of the buffer (in milliseconds) to use to sync incoming source data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#max_sync_buffer MediaconnectFlow#max_sync_buffer}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#max_sync_buffer MediaconnectFlow#max_sync_buffer}
 
 ---
 
@@ -2335,7 +2984,7 @@ media_stream_source_configurations: IResolvable | typing.List[MediaconnectFlowSo
 
 The media stream that is associated with the source, and the parameters for that association.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#media_stream_source_configurations MediaconnectFlow#media_stream_source_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#media_stream_source_configurations MediaconnectFlow#media_stream_source_configurations}
 
 ---
 
@@ -2349,7 +2998,7 @@ min_latency: typing.Union[int, float]
 
 The minimum latency in milliseconds.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#min_latency MediaconnectFlow#min_latency}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#min_latency MediaconnectFlow#min_latency}
 
 ---
 
@@ -2363,7 +3012,23 @@ name: str
 
 The name of the source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#name MediaconnectFlow#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#name MediaconnectFlow#name}
+
+---
+
+##### `ndi_source_settings`<sup>Optional</sup> <a name="ndi_source_settings" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSource.property.ndiSourceSettings"></a>
+
+```python
+ndi_source_settings: MediaconnectFlowSourceNdiSourceSettings
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceNdiSourceSettings">MediaconnectFlowSourceNdiSourceSettings</a>
+
+The settings for the NDI flow source.
+
+This includes the exact name of the upstream NDI sender that you want to connect to your flow source.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#ndi_source_settings MediaconnectFlow#ndi_source_settings}
 
 ---
 
@@ -2377,7 +3042,33 @@ protocol: str
 
 The protocol that is used by the source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#protocol MediaconnectFlow#protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#protocol MediaconnectFlow#protocol}
+
+---
+
+##### `router_integration_state`<sup>Optional</sup> <a name="router_integration_state" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSource.property.routerIntegrationState"></a>
+
+```python
+router_integration_state: str
+```
+
+- *Type:* str
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#router_integration_state MediaconnectFlow#router_integration_state}.
+
+---
+
+##### `router_integration_transit_decryption`<sup>Optional</sup> <a name="router_integration_transit_decryption" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSource.property.routerIntegrationTransitDecryption"></a>
+
+```python
+router_integration_transit_decryption: MediaconnectFlowSourceRouterIntegrationTransitDecryption
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryption">MediaconnectFlowSourceRouterIntegrationTransitDecryption</a>
+
+The configuration that defines how content is encrypted during transit between the MediaConnect router and a MediaConnect flow.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#router_integration_transit_decryption MediaconnectFlow#router_integration_transit_decryption}
 
 ---
 
@@ -2391,7 +3082,7 @@ sender_control_port: typing.Union[int, float]
 
 The port that the flow uses to send outbound requests to initiate connection with the sender for fujitsu-qos protocol.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#sender_control_port MediaconnectFlow#sender_control_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#sender_control_port MediaconnectFlow#sender_control_port}
 
 ---
 
@@ -2405,7 +3096,7 @@ sender_ip_address: str
 
 The IP address that the flow communicates with to initiate connection with the sender for fujitsu-qos protocol.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#sender_ip_address MediaconnectFlow#sender_ip_address}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#sender_ip_address MediaconnectFlow#sender_ip_address}
 
 ---
 
@@ -2419,7 +3110,7 @@ source_listener_address: str
 
 Source IP or domain name for SRT-caller protocol.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#source_listener_address MediaconnectFlow#source_listener_address}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#source_listener_address MediaconnectFlow#source_listener_address}
 
 ---
 
@@ -2433,7 +3124,7 @@ source_listener_port: typing.Union[int, float]
 
 Source port for SRT-caller protocol.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#source_listener_port MediaconnectFlow#source_listener_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#source_listener_port MediaconnectFlow#source_listener_port}
 
 ---
 
@@ -2447,7 +3138,21 @@ stream_id: str
 
 The stream ID that you want to use for this transport. This parameter applies only to Zixi-based streams.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#stream_id MediaconnectFlow#stream_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#stream_id MediaconnectFlow#stream_id}
+
+---
+
+##### `tags`<sup>Optional</sup> <a name="tags" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSource.property.tags"></a>
+
+```python
+tags: IResolvable | typing.List[MediaconnectFlowSourceTags]
+```
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTags">MediaconnectFlowSourceTags</a>]
+
+Key-value pairs that can be used to tag this source.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#tags MediaconnectFlow#tags}
 
 ---
 
@@ -2461,7 +3166,7 @@ vpc_interface_name: str
 
 The name of the VPC Interface this Source is configured with.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#vpc_interface_name MediaconnectFlow#vpc_interface_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#vpc_interface_name MediaconnectFlow#vpc_interface_name}
 
 ---
 
@@ -2477,7 +3182,7 @@ The range of IP addresses that should be allowed to contribute content to your s
 
 These IP addresses should be in the form of a Classless Inter-Domain Routing (CIDR) block; for example, 10.0.0.0/16.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#whitelist_cidr MediaconnectFlow#whitelist_cidr}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#whitelist_cidr MediaconnectFlow#whitelist_cidr}
 
 ---
 
@@ -2527,7 +3232,7 @@ algorithm: str
 
 The type of algorithm that is used for the encryption (such as aes128, aes192, or aes256).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#algorithm MediaconnectFlow#algorithm}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#algorithm MediaconnectFlow#algorithm}
 
 ---
 
@@ -2543,7 +3248,7 @@ A 128-bit, 16-byte hex value represented by a 32-character string, to be used wi
 
 This parameter is not valid for static key encryption.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#constant_initialization_vector MediaconnectFlow#constant_initialization_vector}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#constant_initialization_vector MediaconnectFlow#constant_initialization_vector}
 
 ---
 
@@ -2559,7 +3264,7 @@ The value of one of the devices that you configured with your digital rights man
 
 This parameter is required for SPEKE encryption and is not valid for static key encryption.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#device_id MediaconnectFlow#device_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#device_id MediaconnectFlow#device_id}
 
 ---
 
@@ -2575,7 +3280,7 @@ The type of key that is used for the encryption.
 
 If no keyType is provided, the service will use the default setting (static-key).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#key_type MediaconnectFlow#key_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#key_type MediaconnectFlow#key_type}
 
 ---
 
@@ -2591,7 +3296,7 @@ The AWS Region that the API Gateway proxy endpoint was created in.
 
 This parameter is required for SPEKE encryption and is not valid for static key encryption.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#region MediaconnectFlow#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#region MediaconnectFlow#region}
 
 ---
 
@@ -2607,7 +3312,7 @@ An identifier for the content.
 
 The service sends this value to the key server to identify the current endpoint. The resource ID is also known as the content ID. This parameter is required for SPEKE encryption and is not valid for static key encryption.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#resource_id MediaconnectFlow#resource_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#resource_id MediaconnectFlow#resource_id}
 
 ---
 
@@ -2621,7 +3326,7 @@ role_arn: str
 
 The ARN of the role that you created during setup (when you set up AWS Elemental MediaConnect as a trusted entity).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#role_arn MediaconnectFlow#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#role_arn MediaconnectFlow#role_arn}
 
 ---
 
@@ -2637,7 +3342,7 @@ The ARN of the secret that you created in AWS Secrets Manager to store the encry
 
 This parameter is required for static key encryption and is not valid for SPEKE encryption.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#secret_arn MediaconnectFlow#secret_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#secret_arn MediaconnectFlow#secret_arn}
 
 ---
 
@@ -2653,7 +3358,7 @@ The URL from the API Gateway proxy that you set up to talk to your key server.
 
 This parameter is required for SPEKE encryption and is not valid for static key encryption.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#url MediaconnectFlow#url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#url MediaconnectFlow#url}
 
 ---
 
@@ -2679,7 +3384,7 @@ mediaconnectFlow.MediaconnectFlowSourceFailoverConfig(
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceFailoverConfig.property.failoverMode">failover_mode</a></code> | <code>str</code> | The type of failover you choose for this flow. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceFailoverConfig.property.recoveryWindow">recovery_window</a></code> | <code>typing.Union[int, float]</code> | Search window time to look for dash-7 packets. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceFailoverConfig.property.sourcePriority">source_priority</a></code> | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceFailoverConfigSourcePriority">MediaconnectFlowSourceFailoverConfigSourcePriority</a></code> | The priority you want to assign to a source. |
-| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceFailoverConfig.property.state">state</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#state MediaconnectFlow#state}. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceFailoverConfig.property.state">state</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#state MediaconnectFlow#state}. |
 
 ---
 
@@ -2695,7 +3400,7 @@ The type of failover you choose for this flow.
 
 MERGE combines the source streams into a single stream, allowing graceful recovery from any single-source loss. FAILOVER allows switching between different streams.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#failover_mode MediaconnectFlow#failover_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#failover_mode MediaconnectFlow#failover_mode}
 
 ---
 
@@ -2709,7 +3414,7 @@ recovery_window: typing.Union[int, float]
 
 Search window time to look for dash-7 packets.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#recovery_window MediaconnectFlow#recovery_window}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#recovery_window MediaconnectFlow#recovery_window}
 
 ---
 
@@ -2725,7 +3430,7 @@ The priority you want to assign to a source.
 
 You can have a primary stream and a backup stream or two equally prioritized streams.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#source_priority MediaconnectFlow#source_priority}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#source_priority MediaconnectFlow#source_priority}
 
 ---
 
@@ -2737,7 +3442,7 @@ state: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#state MediaconnectFlow#state}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#state MediaconnectFlow#state}.
 
 ---
 
@@ -2771,7 +3476,7 @@ primary_source: str
 
 The name of the source you choose as the primary source for this flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#primary_source MediaconnectFlow#primary_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#primary_source MediaconnectFlow#primary_source}
 
 ---
 
@@ -2807,7 +3512,7 @@ bridge_arn: str
 
 The ARN of the bridge feeding this flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#bridge_arn MediaconnectFlow#bridge_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#bridge_arn MediaconnectFlow#bridge_arn}
 
 ---
 
@@ -2821,7 +3526,7 @@ vpc_interface_attachment: MediaconnectFlowSourceGatewayBridgeSourceVpcInterfaceA
 
 The name of the VPC interface attachment to use for this bridge source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#vpc_interface_attachment MediaconnectFlow#vpc_interface_attachment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#vpc_interface_attachment MediaconnectFlow#vpc_interface_attachment}
 
 ---
 
@@ -2855,7 +3560,7 @@ vpc_interface_name: str
 
 The name of the VPC interface to use for this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#vpc_interface_name MediaconnectFlow#vpc_interface_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#vpc_interface_name MediaconnectFlow#vpc_interface_name}
 
 ---
 
@@ -2895,7 +3600,7 @@ The format that was used to encode the data.
 
 For ancillary data streams, set the encoding name to smpte291. For audio streams, set the encoding name to pcm. For video, 2110 streams, set the encoding name to raw. For video, JPEG XS streams, set the encoding name to jxsv.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#encoding_name MediaconnectFlow#encoding_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#encoding_name MediaconnectFlow#encoding_name}
 
 ---
 
@@ -2909,7 +3614,7 @@ input_configurations: IResolvable | typing.List[MediaconnectFlowSourceMediaStrea
 
 The media streams that you want to associate with the source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#input_configurations MediaconnectFlow#input_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#input_configurations MediaconnectFlow#input_configurations}
 
 ---
 
@@ -2923,7 +3628,7 @@ media_stream_name: str
 
 A name that helps you distinguish one media stream from another.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#media_stream_name MediaconnectFlow#media_stream_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#media_stream_name MediaconnectFlow#media_stream_name}
 
 ---
 
@@ -2959,7 +3664,7 @@ input_port: typing.Union[int, float]
 
 The port that the flow listens on for an incoming media stream.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#input_port MediaconnectFlow#input_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#input_port MediaconnectFlow#input_port}
 
 ---
 
@@ -2973,7 +3678,7 @@ interface: MediaconnectFlowSourceMediaStreamSourceConfigurationsInputConfigurati
 
 The VPC interface where the media stream comes in from.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#interface MediaconnectFlow#interface}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#interface MediaconnectFlow#interface}
 
 ---
 
@@ -3007,7 +3712,7 @@ name: str
 
 The name of the VPC interface that you want to use for the media stream associated with the output.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#name MediaconnectFlow#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#name MediaconnectFlow#name}
 
 ---
 
@@ -3047,7 +3752,7 @@ audio_monitoring_settings: IResolvable | typing.List[MediaconnectFlowSourceMonit
 
 Contains the settings for audio stream metrics monitoring.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#audio_monitoring_settings MediaconnectFlow#audio_monitoring_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#audio_monitoring_settings MediaconnectFlow#audio_monitoring_settings}
 
 ---
 
@@ -3061,7 +3766,7 @@ content_quality_analysis_state: str
 
 Indicates whether content quality analysis is enabled or disabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#content_quality_analysis_state MediaconnectFlow#content_quality_analysis_state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#content_quality_analysis_state MediaconnectFlow#content_quality_analysis_state}
 
 ---
 
@@ -3075,7 +3780,7 @@ thumbnail_state: str
 
 The state of thumbnail monitoring.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#thumbnail_state MediaconnectFlow#thumbnail_state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#thumbnail_state MediaconnectFlow#thumbnail_state}
 
 ---
 
@@ -3089,7 +3794,7 @@ video_monitoring_settings: IResolvable | typing.List[MediaconnectFlowSourceMonit
 
 Contains the settings for video stream metrics monitoring.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#video_monitoring_settings MediaconnectFlow#video_monitoring_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#video_monitoring_settings MediaconnectFlow#video_monitoring_settings}
 
 ---
 
@@ -3123,7 +3828,7 @@ silent_audio: MediaconnectFlowSourceMonitoringConfigAudioMonitoringSettingsSilen
 
 Configures settings for the SilentAudio metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#silent_audio MediaconnectFlow#silent_audio}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#silent_audio MediaconnectFlow#silent_audio}
 
 ---
 
@@ -3159,7 +3864,7 @@ state: str
 
 Indicates whether the SilentAudio metric is enabled or disabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#state MediaconnectFlow#state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#state MediaconnectFlow#state}
 
 ---
 
@@ -3173,7 +3878,7 @@ threshold_seconds: typing.Union[int, float]
 
 Specifies the number of consecutive seconds of silence that triggers an event or alert.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#threshold_seconds MediaconnectFlow#threshold_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#threshold_seconds MediaconnectFlow#threshold_seconds}
 
 ---
 
@@ -3209,7 +3914,7 @@ black_frames: MediaconnectFlowSourceMonitoringConfigVideoMonitoringSettingsBlack
 
 Configures settings for the BlackFrames metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#black_frames MediaconnectFlow#black_frames}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#black_frames MediaconnectFlow#black_frames}
 
 ---
 
@@ -3223,7 +3928,7 @@ frozen_frames: MediaconnectFlowSourceMonitoringConfigVideoMonitoringSettingsFroz
 
 Configures settings for the FrozenFrames metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#frozen_frames MediaconnectFlow#frozen_frames}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#frozen_frames MediaconnectFlow#frozen_frames}
 
 ---
 
@@ -3259,7 +3964,7 @@ state: str
 
 Indicates whether the BlackFrames metric is enabled or disabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#state MediaconnectFlow#state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#state MediaconnectFlow#state}
 
 ---
 
@@ -3273,7 +3978,7 @@ threshold_seconds: typing.Union[int, float]
 
 Specifies the number of consecutive seconds of black frames that triggers an event or alert.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#threshold_seconds MediaconnectFlow#threshold_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#threshold_seconds MediaconnectFlow#threshold_seconds}
 
 ---
 
@@ -3309,7 +4014,7 @@ state: str
 
 Indicates whether the FrozenFrames metric is enabled or disabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#state MediaconnectFlow#state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#state MediaconnectFlow#state}
 
 ---
 
@@ -3323,7 +4028,279 @@ threshold_seconds: typing.Union[int, float]
 
 Specifies the number of consecutive seconds of a static image that triggers an event or alert.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#threshold_seconds MediaconnectFlow#threshold_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#threshold_seconds MediaconnectFlow#threshold_seconds}
+
+---
+
+### MediaconnectFlowSourceNdiSourceSettings <a name="MediaconnectFlowSourceNdiSourceSettings" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceNdiSourceSettings"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceNdiSourceSettings.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import mediaconnect_flow
+
+mediaconnectFlow.MediaconnectFlowSourceNdiSourceSettings(
+  source_name: str = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceNdiSourceSettings.property.sourceName">source_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#source_name MediaconnectFlow#source_name}. |
+
+---
+
+##### `source_name`<sup>Optional</sup> <a name="source_name" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceNdiSourceSettings.property.sourceName"></a>
+
+```python
+source_name: str
+```
+
+- *Type:* str
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#source_name MediaconnectFlow#source_name}.
+
+---
+
+### MediaconnectFlowSourceRouterIntegrationTransitDecryption <a name="MediaconnectFlowSourceRouterIntegrationTransitDecryption" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryption"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryption.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import mediaconnect_flow
+
+mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryption(
+  encryption_key_configuration: MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfiguration = None,
+  encryption_key_type: str = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryption.property.encryptionKeyConfiguration">encryption_key_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfiguration">MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfiguration</a></code> | Configuration settings for flow transit encryption keys. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryption.property.encryptionKeyType">encryption_key_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#encryption_key_type MediaconnectFlow#encryption_key_type}. |
+
+---
+
+##### `encryption_key_configuration`<sup>Optional</sup> <a name="encryption_key_configuration" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryption.property.encryptionKeyConfiguration"></a>
+
+```python
+encryption_key_configuration: MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfiguration
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfiguration">MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfiguration</a>
+
+Configuration settings for flow transit encryption keys.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#encryption_key_configuration MediaconnectFlow#encryption_key_configuration}
+
+---
+
+##### `encryption_key_type`<sup>Optional</sup> <a name="encryption_key_type" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryption.property.encryptionKeyType"></a>
+
+```python
+encryption_key_type: str
+```
+
+- *Type:* str
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#encryption_key_type MediaconnectFlow#encryption_key_type}.
+
+---
+
+### MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfiguration <a name="MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfiguration" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfiguration"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfiguration.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import mediaconnect_flow
+
+mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfiguration(
+  automatic: str = None,
+  secrets_manager: MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManager = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfiguration.property.automatic">automatic</a></code> | <code>str</code> | Configuration settings for automatic encryption key management, where MediaConnect handles key creation and rotation. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfiguration.property.secretsManager">secrets_manager</a></code> | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManager">MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManager</a></code> | The configuration settings for transit encryption of a flow source using AWS Secrets Manager, including the secret ARN and role ARN. |
+
+---
+
+##### `automatic`<sup>Optional</sup> <a name="automatic" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfiguration.property.automatic"></a>
+
+```python
+automatic: str
+```
+
+- *Type:* str
+
+Configuration settings for automatic encryption key management, where MediaConnect handles key creation and rotation.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#automatic MediaconnectFlow#automatic}
+
+---
+
+##### `secrets_manager`<sup>Optional</sup> <a name="secrets_manager" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfiguration.property.secretsManager"></a>
+
+```python
+secrets_manager: MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManager
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManager">MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManager</a>
+
+The configuration settings for transit encryption of a flow source using AWS Secrets Manager, including the secret ARN and role ARN.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#secrets_manager MediaconnectFlow#secrets_manager}
+
+---
+
+### MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManager <a name="MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManager" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManager"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManager.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import mediaconnect_flow
+
+mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManager(
+  role_arn: str = None,
+  secret_arn: str = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManager.property.roleArn">role_arn</a></code> | <code>str</code> | The ARN of the IAM role used for transit encryption from the router output using AWS Secrets Manager. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManager.property.secretArn">secret_arn</a></code> | <code>str</code> | The ARN of the AWS Secrets Manager secret used for transit encryption from the router output. |
+
+---
+
+##### `role_arn`<sup>Optional</sup> <a name="role_arn" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManager.property.roleArn"></a>
+
+```python
+role_arn: str
+```
+
+- *Type:* str
+
+The ARN of the IAM role used for transit encryption from the router output using AWS Secrets Manager.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#role_arn MediaconnectFlow#role_arn}
+
+---
+
+##### `secret_arn`<sup>Optional</sup> <a name="secret_arn" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManager.property.secretArn"></a>
+
+```python
+secret_arn: str
+```
+
+- *Type:* str
+
+The ARN of the AWS Secrets Manager secret used for transit encryption from the router output.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#secret_arn MediaconnectFlow#secret_arn}
+
+---
+
+### MediaconnectFlowSourceTags <a name="MediaconnectFlowSourceTags" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTags"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTags.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import mediaconnect_flow
+
+mediaconnectFlow.MediaconnectFlowSourceTags(
+  key: str = None,
+  value: str = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTags.property.key">key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#key MediaconnectFlow#key}. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTags.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#value MediaconnectFlow#value}. |
+
+---
+
+##### `key`<sup>Optional</sup> <a name="key" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTags.property.key"></a>
+
+```python
+key: str
+```
+
+- *Type:* str
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#key MediaconnectFlow#key}.
+
+---
+
+##### `value`<sup>Optional</sup> <a name="value" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTags.property.value"></a>
+
+```python
+value: str
+```
+
+- *Type:* str
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#value MediaconnectFlow#value}.
+
+---
+
+### MediaconnectFlowTags <a name="MediaconnectFlowTags" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTags"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTags.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import mediaconnect_flow
+
+mediaconnectFlow.MediaconnectFlowTags(
+  key: str = None,
+  value: str = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTags.property.key">key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#key MediaconnectFlow#key}. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTags.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#value MediaconnectFlow#value}. |
+
+---
+
+##### `key`<sup>Optional</sup> <a name="key" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTags.property.key"></a>
+
+```python
+key: str
+```
+
+- *Type:* str
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#key MediaconnectFlow#key}.
+
+---
+
+##### `value`<sup>Optional</sup> <a name="value" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTags.property.value"></a>
+
+```python
+value: str
+```
+
+- *Type:* str
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#value MediaconnectFlow#value}.
 
 ---
 
@@ -3340,7 +4317,8 @@ mediaconnectFlow.MediaconnectFlowVpcInterfaces(
   network_interface_type: str = None,
   role_arn: str = None,
   security_group_ids: typing.List[str] = None,
-  subnet_id: str = None
+  subnet_id: str = None,
+  tags: IResolvable | typing.List[MediaconnectFlowVpcInterfacesTags] = None
 )
 ```
 
@@ -3354,6 +4332,7 @@ mediaconnectFlow.MediaconnectFlowVpcInterfaces(
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfaces.property.roleArn">role_arn</a></code> | <code>str</code> | Role Arn MediaConnect can assume to create ENIs in customer's account. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfaces.property.securityGroupIds">security_group_ids</a></code> | <code>typing.List[str]</code> | Security Group IDs to be used on ENI. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfaces.property.subnetId">subnet_id</a></code> | <code>str</code> | Subnet must be in the AZ of the Flow. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfaces.property.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTags">MediaconnectFlowVpcInterfacesTags</a>]</code> | Key-value pairs that can be used to tag this VPC interface. |
 
 ---
 
@@ -3367,7 +4346,7 @@ name: str
 
 Immutable and has to be a unique against other VpcInterfaces in this Flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#name MediaconnectFlow#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#name MediaconnectFlow#name}
 
 ---
 
@@ -3381,7 +4360,7 @@ network_interface_ids: typing.List[str]
 
 IDs of the network interfaces created in customer's account by MediaConnect.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#network_interface_ids MediaconnectFlow#network_interface_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#network_interface_ids MediaconnectFlow#network_interface_ids}
 
 ---
 
@@ -3397,7 +4376,7 @@ The type of network adapter that you want MediaConnect to use on this interface.
 
 If you don't set this value, it defaults to ENA.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#network_interface_type MediaconnectFlow#network_interface_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#network_interface_type MediaconnectFlow#network_interface_type}
 
 ---
 
@@ -3411,7 +4390,7 @@ role_arn: str
 
 Role Arn MediaConnect can assume to create ENIs in customer's account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#role_arn MediaconnectFlow#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#role_arn MediaconnectFlow#role_arn}
 
 ---
 
@@ -3425,7 +4404,7 @@ security_group_ids: typing.List[str]
 
 Security Group IDs to be used on ENI.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#security_group_ids MediaconnectFlow#security_group_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#security_group_ids MediaconnectFlow#security_group_ids}
 
 ---
 
@@ -3439,11 +4418,403 @@ subnet_id: str
 
 Subnet must be in the AZ of the Flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#subnet_id MediaconnectFlow#subnet_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#subnet_id MediaconnectFlow#subnet_id}
+
+---
+
+##### `tags`<sup>Optional</sup> <a name="tags" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfaces.property.tags"></a>
+
+```python
+tags: IResolvable | typing.List[MediaconnectFlowVpcInterfacesTags]
+```
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTags">MediaconnectFlowVpcInterfacesTags</a>]
+
+Key-value pairs that can be used to tag this VPC interface.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#tags MediaconnectFlow#tags}
+
+---
+
+### MediaconnectFlowVpcInterfacesTags <a name="MediaconnectFlowVpcInterfacesTags" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTags"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTags.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import mediaconnect_flow
+
+mediaconnectFlow.MediaconnectFlowVpcInterfacesTags(
+  key: str = None,
+  value: str = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTags.property.key">key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#key MediaconnectFlow#key}. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTags.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#value MediaconnectFlow#value}. |
+
+---
+
+##### `key`<sup>Optional</sup> <a name="key" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTags.property.key"></a>
+
+```python
+key: str
+```
+
+- *Type:* str
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#key MediaconnectFlow#key}.
+
+---
+
+##### `value`<sup>Optional</sup> <a name="value" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTags.property.value"></a>
+
+```python
+value: str
+```
+
+- *Type:* str
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#value MediaconnectFlow#value}.
 
 ---
 
 ## Classes <a name="Classes" id="Classes"></a>
+
+### MediaconnectFlowEncodingConfigOutputReference <a name="MediaconnectFlowEncodingConfigOutputReference" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowEncodingConfigOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowEncodingConfigOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import mediaconnect_flow
+
+mediaconnectFlow.MediaconnectFlowEncodingConfigOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowEncodingConfigOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowEncodingConfigOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowEncodingConfigOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowEncodingConfigOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowEncodingConfigOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowEncodingConfigOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowEncodingConfigOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowEncodingConfigOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowEncodingConfigOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowEncodingConfigOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowEncodingConfigOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowEncodingConfigOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowEncodingConfigOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowEncodingConfigOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowEncodingConfigOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowEncodingConfigOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowEncodingConfigOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowEncodingConfigOutputReference.resetEncodingProfile">reset_encoding_profile</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowEncodingConfigOutputReference.resetVideoMaxBitrate">reset_video_max_bitrate</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowEncodingConfigOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowEncodingConfigOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowEncodingConfigOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowEncodingConfigOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowEncodingConfigOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowEncodingConfigOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowEncodingConfigOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowEncodingConfigOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowEncodingConfigOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowEncodingConfigOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowEncodingConfigOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowEncodingConfigOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowEncodingConfigOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowEncodingConfigOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowEncodingConfigOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowEncodingConfigOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowEncodingConfigOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowEncodingConfigOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowEncodingConfigOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowEncodingConfigOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowEncodingConfigOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowEncodingConfigOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowEncodingConfigOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowEncodingConfigOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `reset_encoding_profile` <a name="reset_encoding_profile" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowEncodingConfigOutputReference.resetEncodingProfile"></a>
+
+```python
+def reset_encoding_profile() -> None
+```
+
+##### `reset_video_max_bitrate` <a name="reset_video_max_bitrate" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowEncodingConfigOutputReference.resetVideoMaxBitrate"></a>
+
+```python
+def reset_video_max_bitrate() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowEncodingConfigOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowEncodingConfigOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowEncodingConfigOutputReference.property.encodingProfileInput">encoding_profile_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowEncodingConfigOutputReference.property.videoMaxBitrateInput">video_max_bitrate_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowEncodingConfigOutputReference.property.encodingProfile">encoding_profile</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowEncodingConfigOutputReference.property.videoMaxBitrate">video_max_bitrate</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowEncodingConfigOutputReference.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowEncodingConfig">MediaconnectFlowEncodingConfig</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowEncodingConfigOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowEncodingConfigOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `encoding_profile_input`<sup>Optional</sup> <a name="encoding_profile_input" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowEncodingConfigOutputReference.property.encodingProfileInput"></a>
+
+```python
+encoding_profile_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `video_max_bitrate_input`<sup>Optional</sup> <a name="video_max_bitrate_input" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowEncodingConfigOutputReference.property.videoMaxBitrateInput"></a>
+
+```python
+video_max_bitrate_input: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+---
+
+##### `encoding_profile`<sup>Required</sup> <a name="encoding_profile" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowEncodingConfigOutputReference.property.encodingProfile"></a>
+
+```python
+encoding_profile: str
+```
+
+- *Type:* str
+
+---
+
+##### `video_max_bitrate`<sup>Required</sup> <a name="video_max_bitrate" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowEncodingConfigOutputReference.property.videoMaxBitrate"></a>
+
+```python
+video_max_bitrate: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowEncodingConfigOutputReference.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | MediaconnectFlowEncodingConfig
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowEncodingConfig">MediaconnectFlowEncodingConfig</a>
+
+---
+
 
 ### MediaconnectFlowMaintenanceOutputReference <a name="MediaconnectFlowMaintenanceOutputReference" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMaintenanceOutputReference"></a>
 
@@ -4505,7 +5876,7 @@ def put_fmtp(
 
 The format of the audio channel.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#channel_order MediaconnectFlow#channel_order}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#channel_order MediaconnectFlow#channel_order}
 
 ---
 
@@ -4515,7 +5886,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The format used for the representation of color.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#colorimetry MediaconnectFlow#colorimetry}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#colorimetry MediaconnectFlow#colorimetry}
 
 ---
 
@@ -4525,7 +5896,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The frame rate for the video stream, in frames/second. For example: 60000/1001.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#exact_framerate MediaconnectFlow#exact_framerate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#exact_framerate MediaconnectFlow#exact_framerate}
 
 ---
 
@@ -4535,7 +5906,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The pixel aspect ratio (PAR) of the video.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#par MediaconnectFlow#par}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#par MediaconnectFlow#par}
 
 ---
 
@@ -4545,7 +5916,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The encoding range of the video.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#range MediaconnectFlow#range}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#range MediaconnectFlow#range}
 
 ---
 
@@ -4555,7 +5926,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The type of compression that was used to smooth the video's appearance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#scan_mode MediaconnectFlow#scan_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#scan_mode MediaconnectFlow#scan_mode}
 
 ---
 
@@ -4565,7 +5936,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The transfer characteristic system (TCS) that is used in the video.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#tcs MediaconnectFlow#tcs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#tcs MediaconnectFlow#tcs}
 
 ---
 
@@ -4915,6 +6286,7 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsOutputReference.putAttributes">put_attributes</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsOutputReference.putTags">put_tags</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsOutputReference.resetAttributes">reset_attributes</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsOutputReference.resetClockRate">reset_clock_rate</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsOutputReference.resetDescription">reset_description</a></code> | *No description.* |
@@ -4922,6 +6294,7 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsOutputReference.resetMediaStreamId">reset_media_stream_id</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsOutputReference.resetMediaStreamName">reset_media_stream_name</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsOutputReference.resetMediaStreamType">reset_media_stream_type</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsOutputReference.resetTags">reset_tags</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsOutputReference.resetVideoFormat">reset_video_format</a></code> | *No description.* |
 
 ---
@@ -5113,7 +6486,7 @@ def put_attributes(
 
 A set of parameters that define the media stream.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#fmtp MediaconnectFlow#fmtp}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#fmtp MediaconnectFlow#fmtp}
 
 ---
 
@@ -5123,7 +6496,21 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The audio language, in a format that is recognized by the receiver.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#lang MediaconnectFlow#lang}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#lang MediaconnectFlow#lang}
+
+---
+
+##### `put_tags` <a name="put_tags" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsOutputReference.putTags"></a>
+
+```python
+def put_tags(
+  value: IResolvable | typing.List[MediaconnectFlowMediaStreamsTags]
+) -> None
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsOutputReference.putTags.parameter.value"></a>
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTags">MediaconnectFlowMediaStreamsTags</a>]
 
 ---
 
@@ -5169,6 +6556,12 @@ def reset_media_stream_name() -> None
 def reset_media_stream_type() -> None
 ```
 
+##### `reset_tags` <a name="reset_tags" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsOutputReference.resetTags"></a>
+
+```python
+def reset_tags() -> None
+```
+
 ##### `reset_video_format` <a name="reset_video_format" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsOutputReference.resetVideoFormat"></a>
 
 ```python
@@ -5183,6 +6576,7 @@ def reset_video_format() -> None
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsOutputReference.property.attributes">attributes</a></code> | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsAttributesOutputReference">MediaconnectFlowMediaStreamsAttributesOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsOutputReference.property.tags">tags</a></code> | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsList">MediaconnectFlowMediaStreamsTagsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsOutputReference.property.attributesInput">attributes_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsAttributes">MediaconnectFlowMediaStreamsAttributes</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsOutputReference.property.clockRateInput">clock_rate_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsOutputReference.property.descriptionInput">description_input</a></code> | <code>str</code> | *No description.* |
@@ -5190,6 +6584,7 @@ def reset_video_format() -> None
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsOutputReference.property.mediaStreamIdInput">media_stream_id_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsOutputReference.property.mediaStreamNameInput">media_stream_name_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsOutputReference.property.mediaStreamTypeInput">media_stream_type_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsOutputReference.property.tagsInput">tags_input</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTags">MediaconnectFlowMediaStreamsTags</a>]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsOutputReference.property.videoFormatInput">video_format_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsOutputReference.property.clockRate">clock_rate</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsOutputReference.property.description">description</a></code> | <code>str</code> | *No description.* |
@@ -5233,6 +6628,16 @@ attributes: MediaconnectFlowMediaStreamsAttributesOutputReference
 ```
 
 - *Type:* <a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsAttributesOutputReference">MediaconnectFlowMediaStreamsAttributesOutputReference</a>
+
+---
+
+##### `tags`<sup>Required</sup> <a name="tags" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsOutputReference.property.tags"></a>
+
+```python
+tags: MediaconnectFlowMediaStreamsTagsList
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsList">MediaconnectFlowMediaStreamsTagsList</a>
 
 ---
 
@@ -5303,6 +6708,16 @@ media_stream_type_input: str
 ```
 
 - *Type:* str
+
+---
+
+##### `tags_input`<sup>Optional</sup> <a name="tags_input" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsOutputReference.property.tagsInput"></a>
+
+```python
+tags_input: IResolvable | typing.List[MediaconnectFlowMediaStreamsTags]
+```
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTags">MediaconnectFlowMediaStreamsTags</a>]
 
 ---
 
@@ -5393,6 +6808,1455 @@ internal_value: IResolvable | MediaconnectFlowMediaStreams
 ```
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreams">MediaconnectFlowMediaStreams</a>
+
+---
+
+
+### MediaconnectFlowMediaStreamsTagsList <a name="MediaconnectFlowMediaStreamsTagsList" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsList.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import mediaconnect_flow
+
+mediaconnectFlow.MediaconnectFlowMediaStreamsTagsList(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  wraps_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsList.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsList.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsList.Initializer.parameter.wrapsSet">wraps_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wraps_set`<sup>Required</sup> <a name="wraps_set" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsList.allWithMapKey">all_with_map_key</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsList.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsList.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsList.get">get</a></code> | *No description.* |
+
+---
+
+##### `all_with_map_key` <a name="all_with_map_key" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsList.allWithMapKey"></a>
+
+```python
+def all_with_map_key(
+  map_key_attribute_name: str
+) -> DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `map_key_attribute_name`<sup>Required</sup> <a name="map_key_attribute_name" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* str
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsList.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsList.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsList.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsList.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `get` <a name="get" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsList.get"></a>
+
+```python
+def get(
+  index: typing.Union[int, float]
+) -> MediaconnectFlowMediaStreamsTagsOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsList.get.parameter.index"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsList.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsList.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsList.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTags">MediaconnectFlowMediaStreamsTags</a>]</code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsList.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsList.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsList.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | typing.List[MediaconnectFlowMediaStreamsTags]
+```
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTags">MediaconnectFlowMediaStreamsTags</a>]
+
+---
+
+
+### MediaconnectFlowMediaStreamsTagsOutputReference <a name="MediaconnectFlowMediaStreamsTagsOutputReference" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import mediaconnect_flow
+
+mediaconnectFlow.MediaconnectFlowMediaStreamsTagsOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  complex_object_index: typing.Union[int, float],
+  complex_object_is_from_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsOutputReference.Initializer.parameter.complexObjectIndex">complex_object_index</a></code> | <code>typing.Union[int, float]</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsOutputReference.Initializer.parameter.complexObjectIsFromSet">complex_object_is_from_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complex_object_index`<sup>Required</sup> <a name="complex_object_index" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of this item in the list.
+
+---
+
+##### `complex_object_is_from_set`<sup>Required</sup> <a name="complex_object_is_from_set" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsOutputReference.resetKey">reset_key</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsOutputReference.resetValue">reset_value</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `reset_key` <a name="reset_key" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsOutputReference.resetKey"></a>
+
+```python
+def reset_key() -> None
+```
+
+##### `reset_value` <a name="reset_value" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsOutputReference.resetValue"></a>
+
+```python
+def reset_value() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsOutputReference.property.keyInput">key_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsOutputReference.property.valueInput">value_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsOutputReference.property.key">key</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsOutputReference.property.value">value</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsOutputReference.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTags">MediaconnectFlowMediaStreamsTags</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `key_input`<sup>Optional</sup> <a name="key_input" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsOutputReference.property.keyInput"></a>
+
+```python
+key_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `value_input`<sup>Optional</sup> <a name="value_input" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsOutputReference.property.valueInput"></a>
+
+```python
+value_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `key`<sup>Required</sup> <a name="key" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsOutputReference.property.key"></a>
+
+```python
+key: str
+```
+
+- *Type:* str
+
+---
+
+##### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsOutputReference.property.value"></a>
+
+```python
+value: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTagsOutputReference.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | MediaconnectFlowMediaStreamsTags
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowMediaStreamsTags">MediaconnectFlowMediaStreamsTags</a>
+
+---
+
+
+### MediaconnectFlowNdiConfigNdiDiscoveryServersList <a name="MediaconnectFlowNdiConfigNdiDiscoveryServersList" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersList.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import mediaconnect_flow
+
+mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersList(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  wraps_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersList.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersList.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersList.Initializer.parameter.wrapsSet">wraps_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wraps_set`<sup>Required</sup> <a name="wraps_set" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersList.allWithMapKey">all_with_map_key</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersList.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersList.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersList.get">get</a></code> | *No description.* |
+
+---
+
+##### `all_with_map_key` <a name="all_with_map_key" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersList.allWithMapKey"></a>
+
+```python
+def all_with_map_key(
+  map_key_attribute_name: str
+) -> DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `map_key_attribute_name`<sup>Required</sup> <a name="map_key_attribute_name" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* str
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersList.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersList.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersList.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersList.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `get` <a name="get" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersList.get"></a>
+
+```python
+def get(
+  index: typing.Union[int, float]
+) -> MediaconnectFlowNdiConfigNdiDiscoveryServersOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersList.get.parameter.index"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersList.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersList.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersList.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServers">MediaconnectFlowNdiConfigNdiDiscoveryServers</a>]</code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersList.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersList.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersList.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | typing.List[MediaconnectFlowNdiConfigNdiDiscoveryServers]
+```
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServers">MediaconnectFlowNdiConfigNdiDiscoveryServers</a>]
+
+---
+
+
+### MediaconnectFlowNdiConfigNdiDiscoveryServersOutputReference <a name="MediaconnectFlowNdiConfigNdiDiscoveryServersOutputReference" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import mediaconnect_flow
+
+mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  complex_object_index: typing.Union[int, float],
+  complex_object_is_from_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersOutputReference.Initializer.parameter.complexObjectIndex">complex_object_index</a></code> | <code>typing.Union[int, float]</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersOutputReference.Initializer.parameter.complexObjectIsFromSet">complex_object_is_from_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complex_object_index`<sup>Required</sup> <a name="complex_object_index" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of this item in the list.
+
+---
+
+##### `complex_object_is_from_set`<sup>Required</sup> <a name="complex_object_is_from_set" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersOutputReference.resetDiscoveryServerAddress">reset_discovery_server_address</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersOutputReference.resetDiscoveryServerPort">reset_discovery_server_port</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersOutputReference.resetVpcInterfaceAdapter">reset_vpc_interface_adapter</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `reset_discovery_server_address` <a name="reset_discovery_server_address" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersOutputReference.resetDiscoveryServerAddress"></a>
+
+```python
+def reset_discovery_server_address() -> None
+```
+
+##### `reset_discovery_server_port` <a name="reset_discovery_server_port" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersOutputReference.resetDiscoveryServerPort"></a>
+
+```python
+def reset_discovery_server_port() -> None
+```
+
+##### `reset_vpc_interface_adapter` <a name="reset_vpc_interface_adapter" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersOutputReference.resetVpcInterfaceAdapter"></a>
+
+```python
+def reset_vpc_interface_adapter() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersOutputReference.property.discoveryServerAddressInput">discovery_server_address_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersOutputReference.property.discoveryServerPortInput">discovery_server_port_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersOutputReference.property.vpcInterfaceAdapterInput">vpc_interface_adapter_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersOutputReference.property.discoveryServerAddress">discovery_server_address</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersOutputReference.property.discoveryServerPort">discovery_server_port</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersOutputReference.property.vpcInterfaceAdapter">vpc_interface_adapter</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersOutputReference.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServers">MediaconnectFlowNdiConfigNdiDiscoveryServers</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `discovery_server_address_input`<sup>Optional</sup> <a name="discovery_server_address_input" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersOutputReference.property.discoveryServerAddressInput"></a>
+
+```python
+discovery_server_address_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `discovery_server_port_input`<sup>Optional</sup> <a name="discovery_server_port_input" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersOutputReference.property.discoveryServerPortInput"></a>
+
+```python
+discovery_server_port_input: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+---
+
+##### `vpc_interface_adapter_input`<sup>Optional</sup> <a name="vpc_interface_adapter_input" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersOutputReference.property.vpcInterfaceAdapterInput"></a>
+
+```python
+vpc_interface_adapter_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `discovery_server_address`<sup>Required</sup> <a name="discovery_server_address" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersOutputReference.property.discoveryServerAddress"></a>
+
+```python
+discovery_server_address: str
+```
+
+- *Type:* str
+
+---
+
+##### `discovery_server_port`<sup>Required</sup> <a name="discovery_server_port" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersOutputReference.property.discoveryServerPort"></a>
+
+```python
+discovery_server_port: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+---
+
+##### `vpc_interface_adapter`<sup>Required</sup> <a name="vpc_interface_adapter" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersOutputReference.property.vpcInterfaceAdapter"></a>
+
+```python
+vpc_interface_adapter: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersOutputReference.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | MediaconnectFlowNdiConfigNdiDiscoveryServers
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServers">MediaconnectFlowNdiConfigNdiDiscoveryServers</a>
+
+---
+
+
+### MediaconnectFlowNdiConfigOutputReference <a name="MediaconnectFlowNdiConfigOutputReference" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import mediaconnect_flow
+
+mediaconnectFlow.MediaconnectFlowNdiConfigOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigOutputReference.putNdiDiscoveryServers">put_ndi_discovery_servers</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigOutputReference.resetMachineName">reset_machine_name</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigOutputReference.resetNdiDiscoveryServers">reset_ndi_discovery_servers</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigOutputReference.resetNdiState">reset_ndi_state</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `put_ndi_discovery_servers` <a name="put_ndi_discovery_servers" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigOutputReference.putNdiDiscoveryServers"></a>
+
+```python
+def put_ndi_discovery_servers(
+  value: IResolvable | typing.List[MediaconnectFlowNdiConfigNdiDiscoveryServers]
+) -> None
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigOutputReference.putNdiDiscoveryServers.parameter.value"></a>
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServers">MediaconnectFlowNdiConfigNdiDiscoveryServers</a>]
+
+---
+
+##### `reset_machine_name` <a name="reset_machine_name" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigOutputReference.resetMachineName"></a>
+
+```python
+def reset_machine_name() -> None
+```
+
+##### `reset_ndi_discovery_servers` <a name="reset_ndi_discovery_servers" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigOutputReference.resetNdiDiscoveryServers"></a>
+
+```python
+def reset_ndi_discovery_servers() -> None
+```
+
+##### `reset_ndi_state` <a name="reset_ndi_state" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigOutputReference.resetNdiState"></a>
+
+```python
+def reset_ndi_state() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigOutputReference.property.ndiDiscoveryServers">ndi_discovery_servers</a></code> | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersList">MediaconnectFlowNdiConfigNdiDiscoveryServersList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigOutputReference.property.machineNameInput">machine_name_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigOutputReference.property.ndiDiscoveryServersInput">ndi_discovery_servers_input</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServers">MediaconnectFlowNdiConfigNdiDiscoveryServers</a>]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigOutputReference.property.ndiStateInput">ndi_state_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigOutputReference.property.machineName">machine_name</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigOutputReference.property.ndiState">ndi_state</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigOutputReference.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfig">MediaconnectFlowNdiConfig</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `ndi_discovery_servers`<sup>Required</sup> <a name="ndi_discovery_servers" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigOutputReference.property.ndiDiscoveryServers"></a>
+
+```python
+ndi_discovery_servers: MediaconnectFlowNdiConfigNdiDiscoveryServersList
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServersList">MediaconnectFlowNdiConfigNdiDiscoveryServersList</a>
+
+---
+
+##### `machine_name_input`<sup>Optional</sup> <a name="machine_name_input" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigOutputReference.property.machineNameInput"></a>
+
+```python
+machine_name_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `ndi_discovery_servers_input`<sup>Optional</sup> <a name="ndi_discovery_servers_input" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigOutputReference.property.ndiDiscoveryServersInput"></a>
+
+```python
+ndi_discovery_servers_input: IResolvable | typing.List[MediaconnectFlowNdiConfigNdiDiscoveryServers]
+```
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigNdiDiscoveryServers">MediaconnectFlowNdiConfigNdiDiscoveryServers</a>]
+
+---
+
+##### `ndi_state_input`<sup>Optional</sup> <a name="ndi_state_input" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigOutputReference.property.ndiStateInput"></a>
+
+```python
+ndi_state_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `machine_name`<sup>Required</sup> <a name="machine_name" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigOutputReference.property.machineName"></a>
+
+```python
+machine_name: str
+```
+
+- *Type:* str
+
+---
+
+##### `ndi_state`<sup>Required</sup> <a name="ndi_state" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigOutputReference.property.ndiState"></a>
+
+```python
+ndi_state: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfigOutputReference.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | MediaconnectFlowNdiConfig
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowNdiConfig">MediaconnectFlowNdiConfig</a>
 
 ---
 
@@ -6179,7 +9043,7 @@ def put_source_priority(
 
 The name of the source you choose as the primary source for this flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#primary_source MediaconnectFlow#primary_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#primary_source MediaconnectFlow#primary_source}
 
 ---
 
@@ -6889,7 +9753,7 @@ def put_vpc_interface_attachment(
 
 The name of the VPC interface to use for this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#vpc_interface_name MediaconnectFlow#vpc_interface_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#vpc_interface_name MediaconnectFlow#vpc_interface_name}
 
 ---
 
@@ -8036,7 +10900,7 @@ def put_interface(
 
 The name of the VPC interface that you want to use for the media stream associated with the output.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#name MediaconnectFlow#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#name MediaconnectFlow#name}
 
 ---
 
@@ -9143,7 +12007,7 @@ def put_silent_audio(
 
 Indicates whether the SilentAudio metric is enabled or disabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#state MediaconnectFlow#state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#state MediaconnectFlow#state}
 
 ---
 
@@ -9153,7 +12017,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Specifies the number of consecutive seconds of silence that triggers an event or alert.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#threshold_seconds MediaconnectFlow#threshold_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#threshold_seconds MediaconnectFlow#threshold_seconds}
 
 ---
 
@@ -11084,7 +13948,7 @@ def put_black_frames(
 
 Indicates whether the BlackFrames metric is enabled or disabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#state MediaconnectFlow#state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#state MediaconnectFlow#state}
 
 ---
 
@@ -11094,7 +13958,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Specifies the number of consecutive seconds of black frames that triggers an event or alert.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#threshold_seconds MediaconnectFlow#threshold_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#threshold_seconds MediaconnectFlow#threshold_seconds}
 
 ---
 
@@ -11113,7 +13977,7 @@ def put_frozen_frames(
 
 Indicates whether the FrozenFrames metric is enabled or disabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#state MediaconnectFlow#state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#state MediaconnectFlow#state}
 
 ---
 
@@ -11123,7 +13987,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Specifies the number of consecutive seconds of a static image that triggers an event or alert.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#threshold_seconds MediaconnectFlow#threshold_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#threshold_seconds MediaconnectFlow#threshold_seconds}
 
 ---
 
@@ -11229,6 +14093,309 @@ internal_value: IResolvable | MediaconnectFlowSourceMonitoringConfigVideoMonitor
 ---
 
 
+### MediaconnectFlowSourceNdiSourceSettingsOutputReference <a name="MediaconnectFlowSourceNdiSourceSettingsOutputReference" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceNdiSourceSettingsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceNdiSourceSettingsOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import mediaconnect_flow
+
+mediaconnectFlow.MediaconnectFlowSourceNdiSourceSettingsOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceNdiSourceSettingsOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceNdiSourceSettingsOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceNdiSourceSettingsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceNdiSourceSettingsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceNdiSourceSettingsOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceNdiSourceSettingsOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceNdiSourceSettingsOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceNdiSourceSettingsOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceNdiSourceSettingsOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceNdiSourceSettingsOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceNdiSourceSettingsOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceNdiSourceSettingsOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceNdiSourceSettingsOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceNdiSourceSettingsOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceNdiSourceSettingsOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceNdiSourceSettingsOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceNdiSourceSettingsOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceNdiSourceSettingsOutputReference.resetSourceName">reset_source_name</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceNdiSourceSettingsOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceNdiSourceSettingsOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceNdiSourceSettingsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceNdiSourceSettingsOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceNdiSourceSettingsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceNdiSourceSettingsOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceNdiSourceSettingsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceNdiSourceSettingsOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceNdiSourceSettingsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceNdiSourceSettingsOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceNdiSourceSettingsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceNdiSourceSettingsOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceNdiSourceSettingsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceNdiSourceSettingsOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceNdiSourceSettingsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceNdiSourceSettingsOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceNdiSourceSettingsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceNdiSourceSettingsOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceNdiSourceSettingsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceNdiSourceSettingsOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceNdiSourceSettingsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceNdiSourceSettingsOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceNdiSourceSettingsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceNdiSourceSettingsOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `reset_source_name` <a name="reset_source_name" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceNdiSourceSettingsOutputReference.resetSourceName"></a>
+
+```python
+def reset_source_name() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceNdiSourceSettingsOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceNdiSourceSettingsOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceNdiSourceSettingsOutputReference.property.sourceNameInput">source_name_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceNdiSourceSettingsOutputReference.property.sourceName">source_name</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceNdiSourceSettingsOutputReference.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceNdiSourceSettings">MediaconnectFlowSourceNdiSourceSettings</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceNdiSourceSettingsOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceNdiSourceSettingsOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `source_name_input`<sup>Optional</sup> <a name="source_name_input" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceNdiSourceSettingsOutputReference.property.sourceNameInput"></a>
+
+```python
+source_name_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `source_name`<sup>Required</sup> <a name="source_name" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceNdiSourceSettingsOutputReference.property.sourceName"></a>
+
+```python
+source_name: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceNdiSourceSettingsOutputReference.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | MediaconnectFlowSourceNdiSourceSettings
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceNdiSourceSettings">MediaconnectFlowSourceNdiSourceSettings</a>
+
+---
+
+
 ### MediaconnectFlowSourceOutputReference <a name="MediaconnectFlowSourceOutputReference" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceOutputReference.Initializer"></a>
@@ -11285,6 +14452,9 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceOutputReference.putDecryption">put_decryption</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceOutputReference.putGatewayBridgeSource">put_gateway_bridge_source</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceOutputReference.putMediaStreamSourceConfigurations">put_media_stream_source_configurations</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceOutputReference.putNdiSourceSettings">put_ndi_source_settings</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceOutputReference.putRouterIntegrationTransitDecryption">put_router_integration_transit_decryption</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceOutputReference.putTags">put_tags</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceOutputReference.resetDecryption">reset_decryption</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceOutputReference.resetDescription">reset_description</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceOutputReference.resetEntitlementArn">reset_entitlement_arn</a></code> | *No description.* |
@@ -11296,12 +14466,16 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceOutputReference.resetMediaStreamSourceConfigurations">reset_media_stream_source_configurations</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceOutputReference.resetMinLatency">reset_min_latency</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceOutputReference.resetName">reset_name</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceOutputReference.resetNdiSourceSettings">reset_ndi_source_settings</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceOutputReference.resetProtocol">reset_protocol</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceOutputReference.resetRouterIntegrationState">reset_router_integration_state</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceOutputReference.resetRouterIntegrationTransitDecryption">reset_router_integration_transit_decryption</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceOutputReference.resetSenderControlPort">reset_sender_control_port</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceOutputReference.resetSenderIpAddress">reset_sender_ip_address</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceOutputReference.resetSourceListenerAddress">reset_source_listener_address</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceOutputReference.resetSourceListenerPort">reset_source_listener_port</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceOutputReference.resetStreamId">reset_stream_id</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceOutputReference.resetTags">reset_tags</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceOutputReference.resetVpcInterfaceName">reset_vpc_interface_name</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceOutputReference.resetWhitelistCidr">reset_whitelist_cidr</a></code> | *No description.* |
 
@@ -11501,7 +14675,7 @@ def put_decryption(
 
 The type of algorithm that is used for the encryption (such as aes128, aes192, or aes256).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#algorithm MediaconnectFlow#algorithm}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#algorithm MediaconnectFlow#algorithm}
 
 ---
 
@@ -11513,7 +14687,7 @@ A 128-bit, 16-byte hex value represented by a 32-character string, to be used wi
 
 This parameter is not valid for static key encryption.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#constant_initialization_vector MediaconnectFlow#constant_initialization_vector}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#constant_initialization_vector MediaconnectFlow#constant_initialization_vector}
 
 ---
 
@@ -11525,7 +14699,7 @@ The value of one of the devices that you configured with your digital rights man
 
 This parameter is required for SPEKE encryption and is not valid for static key encryption.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#device_id MediaconnectFlow#device_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#device_id MediaconnectFlow#device_id}
 
 ---
 
@@ -11537,7 +14711,7 @@ The type of key that is used for the encryption.
 
 If no keyType is provided, the service will use the default setting (static-key).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#key_type MediaconnectFlow#key_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#key_type MediaconnectFlow#key_type}
 
 ---
 
@@ -11549,7 +14723,7 @@ The AWS Region that the API Gateway proxy endpoint was created in.
 
 This parameter is required for SPEKE encryption and is not valid for static key encryption.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#region MediaconnectFlow#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#region MediaconnectFlow#region}
 
 ---
 
@@ -11561,7 +14735,7 @@ An identifier for the content.
 
 The service sends this value to the key server to identify the current endpoint. The resource ID is also known as the content ID. This parameter is required for SPEKE encryption and is not valid for static key encryption.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#resource_id MediaconnectFlow#resource_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#resource_id MediaconnectFlow#resource_id}
 
 ---
 
@@ -11571,7 +14745,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The ARN of the role that you created during setup (when you set up AWS Elemental MediaConnect as a trusted entity).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#role_arn MediaconnectFlow#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#role_arn MediaconnectFlow#role_arn}
 
 ---
 
@@ -11583,7 +14757,7 @@ The ARN of the secret that you created in AWS Secrets Manager to store the encry
 
 This parameter is required for static key encryption and is not valid for SPEKE encryption.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#secret_arn MediaconnectFlow#secret_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#secret_arn MediaconnectFlow#secret_arn}
 
 ---
 
@@ -11595,7 +14769,7 @@ The URL from the API Gateway proxy that you set up to talk to your key server.
 
 This parameter is required for SPEKE encryption and is not valid for static key encryption.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#url MediaconnectFlow#url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#url MediaconnectFlow#url}
 
 ---
 
@@ -11614,7 +14788,7 @@ def put_gateway_bridge_source(
 
 The ARN of the bridge feeding this flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#bridge_arn MediaconnectFlow#bridge_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#bridge_arn MediaconnectFlow#bridge_arn}
 
 ---
 
@@ -11624,7 +14798,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the VPC interface attachment to use for this bridge source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#vpc_interface_attachment MediaconnectFlow#vpc_interface_attachment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#vpc_interface_attachment MediaconnectFlow#vpc_interface_attachment}
 
 ---
 
@@ -11639,6 +14813,63 @@ def put_media_stream_source_configurations(
 ###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceOutputReference.putMediaStreamSourceConfigurations.parameter.value"></a>
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceMediaStreamSourceConfigurations">MediaconnectFlowSourceMediaStreamSourceConfigurations</a>]
+
+---
+
+##### `put_ndi_source_settings` <a name="put_ndi_source_settings" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceOutputReference.putNdiSourceSettings"></a>
+
+```python
+def put_ndi_source_settings(
+  source_name: str = None
+) -> None
+```
+
+###### `source_name`<sup>Optional</sup> <a name="source_name" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceOutputReference.putNdiSourceSettings.parameter.sourceName"></a>
+
+- *Type:* str
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#source_name MediaconnectFlow#source_name}.
+
+---
+
+##### `put_router_integration_transit_decryption` <a name="put_router_integration_transit_decryption" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceOutputReference.putRouterIntegrationTransitDecryption"></a>
+
+```python
+def put_router_integration_transit_decryption(
+  encryption_key_configuration: MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfiguration = None,
+  encryption_key_type: str = None
+) -> None
+```
+
+###### `encryption_key_configuration`<sup>Optional</sup> <a name="encryption_key_configuration" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceOutputReference.putRouterIntegrationTransitDecryption.parameter.encryptionKeyConfiguration"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfiguration">MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfiguration</a>
+
+Configuration settings for flow transit encryption keys.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#encryption_key_configuration MediaconnectFlow#encryption_key_configuration}
+
+---
+
+###### `encryption_key_type`<sup>Optional</sup> <a name="encryption_key_type" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceOutputReference.putRouterIntegrationTransitDecryption.parameter.encryptionKeyType"></a>
+
+- *Type:* str
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#encryption_key_type MediaconnectFlow#encryption_key_type}.
+
+---
+
+##### `put_tags` <a name="put_tags" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceOutputReference.putTags"></a>
+
+```python
+def put_tags(
+  value: IResolvable | typing.List[MediaconnectFlowSourceTags]
+) -> None
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceOutputReference.putTags.parameter.value"></a>
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTags">MediaconnectFlowSourceTags</a>]
 
 ---
 
@@ -11708,10 +14939,28 @@ def reset_min_latency() -> None
 def reset_name() -> None
 ```
 
+##### `reset_ndi_source_settings` <a name="reset_ndi_source_settings" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceOutputReference.resetNdiSourceSettings"></a>
+
+```python
+def reset_ndi_source_settings() -> None
+```
+
 ##### `reset_protocol` <a name="reset_protocol" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceOutputReference.resetProtocol"></a>
 
 ```python
 def reset_protocol() -> None
+```
+
+##### `reset_router_integration_state` <a name="reset_router_integration_state" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceOutputReference.resetRouterIntegrationState"></a>
+
+```python
+def reset_router_integration_state() -> None
+```
+
+##### `reset_router_integration_transit_decryption` <a name="reset_router_integration_transit_decryption" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceOutputReference.resetRouterIntegrationTransitDecryption"></a>
+
+```python
+def reset_router_integration_transit_decryption() -> None
 ```
 
 ##### `reset_sender_control_port` <a name="reset_sender_control_port" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceOutputReference.resetSenderControlPort"></a>
@@ -11744,6 +14993,12 @@ def reset_source_listener_port() -> None
 def reset_stream_id() -> None
 ```
 
+##### `reset_tags` <a name="reset_tags" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceOutputReference.resetTags"></a>
+
+```python
+def reset_tags() -> None
+```
+
 ##### `reset_vpc_interface_name` <a name="reset_vpc_interface_name" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceOutputReference.resetVpcInterfaceName"></a>
 
 ```python
@@ -11767,8 +15022,11 @@ def reset_whitelist_cidr() -> None
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceOutputReference.property.gatewayBridgeSource">gateway_bridge_source</a></code> | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceGatewayBridgeSourceOutputReference">MediaconnectFlowSourceGatewayBridgeSourceOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceOutputReference.property.ingestIp">ingest_ip</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceOutputReference.property.mediaStreamSourceConfigurations">media_stream_source_configurations</a></code> | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceMediaStreamSourceConfigurationsList">MediaconnectFlowSourceMediaStreamSourceConfigurationsList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceOutputReference.property.ndiSourceSettings">ndi_source_settings</a></code> | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceNdiSourceSettingsOutputReference">MediaconnectFlowSourceNdiSourceSettingsOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceOutputReference.property.routerIntegrationTransitDecryption">router_integration_transit_decryption</a></code> | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionOutputReference">MediaconnectFlowSourceRouterIntegrationTransitDecryptionOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceOutputReference.property.sourceArn">source_arn</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceOutputReference.property.sourceIngestPort">source_ingest_port</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceOutputReference.property.tags">tags</a></code> | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsList">MediaconnectFlowSourceTagsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceOutputReference.property.decryptionInput">decryption_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceDecryption">MediaconnectFlowSourceDecryption</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceOutputReference.property.descriptionInput">description_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceOutputReference.property.entitlementArnInput">entitlement_arn_input</a></code> | <code>str</code> | *No description.* |
@@ -11780,12 +15038,16 @@ def reset_whitelist_cidr() -> None
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceOutputReference.property.mediaStreamSourceConfigurationsInput">media_stream_source_configurations_input</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceMediaStreamSourceConfigurations">MediaconnectFlowSourceMediaStreamSourceConfigurations</a>]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceOutputReference.property.minLatencyInput">min_latency_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceOutputReference.property.nameInput">name_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceOutputReference.property.ndiSourceSettingsInput">ndi_source_settings_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceNdiSourceSettings">MediaconnectFlowSourceNdiSourceSettings</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceOutputReference.property.protocolInput">protocol_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceOutputReference.property.routerIntegrationStateInput">router_integration_state_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceOutputReference.property.routerIntegrationTransitDecryptionInput">router_integration_transit_decryption_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryption">MediaconnectFlowSourceRouterIntegrationTransitDecryption</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceOutputReference.property.senderControlPortInput">sender_control_port_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceOutputReference.property.senderIpAddressInput">sender_ip_address_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceOutputReference.property.sourceListenerAddressInput">source_listener_address_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceOutputReference.property.sourceListenerPortInput">source_listener_port_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceOutputReference.property.streamIdInput">stream_id_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceOutputReference.property.tagsInput">tags_input</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTags">MediaconnectFlowSourceTags</a>]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceOutputReference.property.vpcInterfaceNameInput">vpc_interface_name_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceOutputReference.property.whitelistCidrInput">whitelist_cidr_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceOutputReference.property.description">description</a></code> | <code>str</code> | *No description.* |
@@ -11797,6 +15059,7 @@ def reset_whitelist_cidr() -> None
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceOutputReference.property.minLatency">min_latency</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceOutputReference.property.name">name</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceOutputReference.property.protocol">protocol</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceOutputReference.property.routerIntegrationState">router_integration_state</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceOutputReference.property.senderControlPort">sender_control_port</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceOutputReference.property.senderIpAddress">sender_ip_address</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceOutputReference.property.sourceListenerAddress">source_listener_address</a></code> | <code>str</code> | *No description.* |
@@ -11872,6 +15135,26 @@ media_stream_source_configurations: MediaconnectFlowSourceMediaStreamSourceConfi
 
 ---
 
+##### `ndi_source_settings`<sup>Required</sup> <a name="ndi_source_settings" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceOutputReference.property.ndiSourceSettings"></a>
+
+```python
+ndi_source_settings: MediaconnectFlowSourceNdiSourceSettingsOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceNdiSourceSettingsOutputReference">MediaconnectFlowSourceNdiSourceSettingsOutputReference</a>
+
+---
+
+##### `router_integration_transit_decryption`<sup>Required</sup> <a name="router_integration_transit_decryption" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceOutputReference.property.routerIntegrationTransitDecryption"></a>
+
+```python
+router_integration_transit_decryption: MediaconnectFlowSourceRouterIntegrationTransitDecryptionOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionOutputReference">MediaconnectFlowSourceRouterIntegrationTransitDecryptionOutputReference</a>
+
+---
+
 ##### `source_arn`<sup>Required</sup> <a name="source_arn" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceOutputReference.property.sourceArn"></a>
 
 ```python
@@ -11889,6 +15172,16 @@ source_ingest_port: str
 ```
 
 - *Type:* str
+
+---
+
+##### `tags`<sup>Required</sup> <a name="tags" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceOutputReference.property.tags"></a>
+
+```python
+tags: MediaconnectFlowSourceTagsList
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsList">MediaconnectFlowSourceTagsList</a>
 
 ---
 
@@ -12002,6 +15295,16 @@ name_input: str
 
 ---
 
+##### `ndi_source_settings_input`<sup>Optional</sup> <a name="ndi_source_settings_input" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceOutputReference.property.ndiSourceSettingsInput"></a>
+
+```python
+ndi_source_settings_input: IResolvable | MediaconnectFlowSourceNdiSourceSettings
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceNdiSourceSettings">MediaconnectFlowSourceNdiSourceSettings</a>
+
+---
+
 ##### `protocol_input`<sup>Optional</sup> <a name="protocol_input" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceOutputReference.property.protocolInput"></a>
 
 ```python
@@ -12009,6 +15312,26 @@ protocol_input: str
 ```
 
 - *Type:* str
+
+---
+
+##### `router_integration_state_input`<sup>Optional</sup> <a name="router_integration_state_input" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceOutputReference.property.routerIntegrationStateInput"></a>
+
+```python
+router_integration_state_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `router_integration_transit_decryption_input`<sup>Optional</sup> <a name="router_integration_transit_decryption_input" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceOutputReference.property.routerIntegrationTransitDecryptionInput"></a>
+
+```python
+router_integration_transit_decryption_input: IResolvable | MediaconnectFlowSourceRouterIntegrationTransitDecryption
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryption">MediaconnectFlowSourceRouterIntegrationTransitDecryption</a>
 
 ---
 
@@ -12059,6 +15382,16 @@ stream_id_input: str
 ```
 
 - *Type:* str
+
+---
+
+##### `tags_input`<sup>Optional</sup> <a name="tags_input" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceOutputReference.property.tagsInput"></a>
+
+```python
+tags_input: IResolvable | typing.List[MediaconnectFlowSourceTags]
+```
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTags">MediaconnectFlowSourceTags</a>]
 
 ---
 
@@ -12172,6 +15505,16 @@ protocol: str
 
 ---
 
+##### `router_integration_state`<sup>Required</sup> <a name="router_integration_state" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceOutputReference.property.routerIntegrationState"></a>
+
+```python
+router_integration_state: str
+```
+
+- *Type:* str
+
+---
+
 ##### `sender_control_port`<sup>Required</sup> <a name="sender_control_port" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceOutputReference.property.senderControlPort"></a>
 
 ```python
@@ -12249,6 +15592,2106 @@ internal_value: IResolvable | MediaconnectFlowSource
 ```
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSource">MediaconnectFlowSource</a>
+
+---
+
+
+### MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationOutputReference <a name="MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationOutputReference" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import mediaconnect_flow
+
+mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationOutputReference.putSecretsManager">put_secrets_manager</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationOutputReference.resetAutomatic">reset_automatic</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationOutputReference.resetSecretsManager">reset_secrets_manager</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `put_secrets_manager` <a name="put_secrets_manager" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationOutputReference.putSecretsManager"></a>
+
+```python
+def put_secrets_manager(
+  role_arn: str = None,
+  secret_arn: str = None
+) -> None
+```
+
+###### `role_arn`<sup>Optional</sup> <a name="role_arn" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationOutputReference.putSecretsManager.parameter.roleArn"></a>
+
+- *Type:* str
+
+The ARN of the IAM role used for transit encryption from the router output using AWS Secrets Manager.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#role_arn MediaconnectFlow#role_arn}
+
+---
+
+###### `secret_arn`<sup>Optional</sup> <a name="secret_arn" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationOutputReference.putSecretsManager.parameter.secretArn"></a>
+
+- *Type:* str
+
+The ARN of the AWS Secrets Manager secret used for transit encryption from the router output.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#secret_arn MediaconnectFlow#secret_arn}
+
+---
+
+##### `reset_automatic` <a name="reset_automatic" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationOutputReference.resetAutomatic"></a>
+
+```python
+def reset_automatic() -> None
+```
+
+##### `reset_secrets_manager` <a name="reset_secrets_manager" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationOutputReference.resetSecretsManager"></a>
+
+```python
+def reset_secrets_manager() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationOutputReference.property.secretsManager">secrets_manager</a></code> | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManagerOutputReference">MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManagerOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationOutputReference.property.automaticInput">automatic_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationOutputReference.property.secretsManagerInput">secrets_manager_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManager">MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManager</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationOutputReference.property.automatic">automatic</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationOutputReference.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfiguration">MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfiguration</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `secrets_manager`<sup>Required</sup> <a name="secrets_manager" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationOutputReference.property.secretsManager"></a>
+
+```python
+secrets_manager: MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManagerOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManagerOutputReference">MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManagerOutputReference</a>
+
+---
+
+##### `automatic_input`<sup>Optional</sup> <a name="automatic_input" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationOutputReference.property.automaticInput"></a>
+
+```python
+automatic_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `secrets_manager_input`<sup>Optional</sup> <a name="secrets_manager_input" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationOutputReference.property.secretsManagerInput"></a>
+
+```python
+secrets_manager_input: IResolvable | MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManager
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManager">MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManager</a>
+
+---
+
+##### `automatic`<sup>Required</sup> <a name="automatic" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationOutputReference.property.automatic"></a>
+
+```python
+automatic: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationOutputReference.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfiguration
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfiguration">MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfiguration</a>
+
+---
+
+
+### MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManagerOutputReference <a name="MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManagerOutputReference" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManagerOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManagerOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import mediaconnect_flow
+
+mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManagerOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManagerOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManagerOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManagerOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManagerOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManagerOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManagerOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManagerOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManagerOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManagerOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManagerOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManagerOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManagerOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManagerOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManagerOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManagerOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManagerOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManagerOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManagerOutputReference.resetRoleArn">reset_role_arn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManagerOutputReference.resetSecretArn">reset_secret_arn</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManagerOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManagerOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManagerOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManagerOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManagerOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManagerOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManagerOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManagerOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManagerOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManagerOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManagerOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManagerOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManagerOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManagerOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManagerOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManagerOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManagerOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManagerOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManagerOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManagerOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManagerOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManagerOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManagerOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManagerOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `reset_role_arn` <a name="reset_role_arn" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManagerOutputReference.resetRoleArn"></a>
+
+```python
+def reset_role_arn() -> None
+```
+
+##### `reset_secret_arn` <a name="reset_secret_arn" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManagerOutputReference.resetSecretArn"></a>
+
+```python
+def reset_secret_arn() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManagerOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManagerOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManagerOutputReference.property.roleArnInput">role_arn_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManagerOutputReference.property.secretArnInput">secret_arn_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManagerOutputReference.property.roleArn">role_arn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManagerOutputReference.property.secretArn">secret_arn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManagerOutputReference.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManager">MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManager</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManagerOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManagerOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `role_arn_input`<sup>Optional</sup> <a name="role_arn_input" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManagerOutputReference.property.roleArnInput"></a>
+
+```python
+role_arn_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `secret_arn_input`<sup>Optional</sup> <a name="secret_arn_input" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManagerOutputReference.property.secretArnInput"></a>
+
+```python
+secret_arn_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `role_arn`<sup>Required</sup> <a name="role_arn" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManagerOutputReference.property.roleArn"></a>
+
+```python
+role_arn: str
+```
+
+- *Type:* str
+
+---
+
+##### `secret_arn`<sup>Required</sup> <a name="secret_arn" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManagerOutputReference.property.secretArn"></a>
+
+```python
+secret_arn: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManagerOutputReference.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManager
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManager">MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManager</a>
+
+---
+
+
+### MediaconnectFlowSourceRouterIntegrationTransitDecryptionOutputReference <a name="MediaconnectFlowSourceRouterIntegrationTransitDecryptionOutputReference" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import mediaconnect_flow
+
+mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionOutputReference.putEncryptionKeyConfiguration">put_encryption_key_configuration</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionOutputReference.resetEncryptionKeyConfiguration">reset_encryption_key_configuration</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionOutputReference.resetEncryptionKeyType">reset_encryption_key_type</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `put_encryption_key_configuration` <a name="put_encryption_key_configuration" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionOutputReference.putEncryptionKeyConfiguration"></a>
+
+```python
+def put_encryption_key_configuration(
+  automatic: str = None,
+  secrets_manager: MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManager = None
+) -> None
+```
+
+###### `automatic`<sup>Optional</sup> <a name="automatic" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionOutputReference.putEncryptionKeyConfiguration.parameter.automatic"></a>
+
+- *Type:* str
+
+Configuration settings for automatic encryption key management, where MediaConnect handles key creation and rotation.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#automatic MediaconnectFlow#automatic}
+
+---
+
+###### `secrets_manager`<sup>Optional</sup> <a name="secrets_manager" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionOutputReference.putEncryptionKeyConfiguration.parameter.secretsManager"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManager">MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManager</a>
+
+The configuration settings for transit encryption of a flow source using AWS Secrets Manager, including the secret ARN and role ARN.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#secrets_manager MediaconnectFlow#secrets_manager}
+
+---
+
+##### `reset_encryption_key_configuration` <a name="reset_encryption_key_configuration" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionOutputReference.resetEncryptionKeyConfiguration"></a>
+
+```python
+def reset_encryption_key_configuration() -> None
+```
+
+##### `reset_encryption_key_type` <a name="reset_encryption_key_type" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionOutputReference.resetEncryptionKeyType"></a>
+
+```python
+def reset_encryption_key_type() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionOutputReference.property.encryptionKeyConfiguration">encryption_key_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationOutputReference">MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionOutputReference.property.encryptionKeyConfigurationInput">encryption_key_configuration_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfiguration">MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfiguration</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionOutputReference.property.encryptionKeyTypeInput">encryption_key_type_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionOutputReference.property.encryptionKeyType">encryption_key_type</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionOutputReference.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryption">MediaconnectFlowSourceRouterIntegrationTransitDecryption</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `encryption_key_configuration`<sup>Required</sup> <a name="encryption_key_configuration" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionOutputReference.property.encryptionKeyConfiguration"></a>
+
+```python
+encryption_key_configuration: MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationOutputReference">MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationOutputReference</a>
+
+---
+
+##### `encryption_key_configuration_input`<sup>Optional</sup> <a name="encryption_key_configuration_input" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionOutputReference.property.encryptionKeyConfigurationInput"></a>
+
+```python
+encryption_key_configuration_input: IResolvable | MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfiguration
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfiguration">MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfiguration</a>
+
+---
+
+##### `encryption_key_type_input`<sup>Optional</sup> <a name="encryption_key_type_input" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionOutputReference.property.encryptionKeyTypeInput"></a>
+
+```python
+encryption_key_type_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `encryption_key_type`<sup>Required</sup> <a name="encryption_key_type" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionOutputReference.property.encryptionKeyType"></a>
+
+```python
+encryption_key_type: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryptionOutputReference.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | MediaconnectFlowSourceRouterIntegrationTransitDecryption
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceRouterIntegrationTransitDecryption">MediaconnectFlowSourceRouterIntegrationTransitDecryption</a>
+
+---
+
+
+### MediaconnectFlowSourceTagsList <a name="MediaconnectFlowSourceTagsList" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsList.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import mediaconnect_flow
+
+mediaconnectFlow.MediaconnectFlowSourceTagsList(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  wraps_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsList.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsList.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsList.Initializer.parameter.wrapsSet">wraps_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wraps_set`<sup>Required</sup> <a name="wraps_set" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsList.allWithMapKey">all_with_map_key</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsList.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsList.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsList.get">get</a></code> | *No description.* |
+
+---
+
+##### `all_with_map_key` <a name="all_with_map_key" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsList.allWithMapKey"></a>
+
+```python
+def all_with_map_key(
+  map_key_attribute_name: str
+) -> DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `map_key_attribute_name`<sup>Required</sup> <a name="map_key_attribute_name" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* str
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsList.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsList.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsList.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsList.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `get` <a name="get" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsList.get"></a>
+
+```python
+def get(
+  index: typing.Union[int, float]
+) -> MediaconnectFlowSourceTagsOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsList.get.parameter.index"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsList.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsList.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsList.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTags">MediaconnectFlowSourceTags</a>]</code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsList.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsList.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsList.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | typing.List[MediaconnectFlowSourceTags]
+```
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTags">MediaconnectFlowSourceTags</a>]
+
+---
+
+
+### MediaconnectFlowSourceTagsOutputReference <a name="MediaconnectFlowSourceTagsOutputReference" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import mediaconnect_flow
+
+mediaconnectFlow.MediaconnectFlowSourceTagsOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  complex_object_index: typing.Union[int, float],
+  complex_object_is_from_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsOutputReference.Initializer.parameter.complexObjectIndex">complex_object_index</a></code> | <code>typing.Union[int, float]</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsOutputReference.Initializer.parameter.complexObjectIsFromSet">complex_object_is_from_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complex_object_index`<sup>Required</sup> <a name="complex_object_index" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of this item in the list.
+
+---
+
+##### `complex_object_is_from_set`<sup>Required</sup> <a name="complex_object_is_from_set" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsOutputReference.resetKey">reset_key</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsOutputReference.resetValue">reset_value</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `reset_key` <a name="reset_key" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsOutputReference.resetKey"></a>
+
+```python
+def reset_key() -> None
+```
+
+##### `reset_value` <a name="reset_value" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsOutputReference.resetValue"></a>
+
+```python
+def reset_value() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsOutputReference.property.keyInput">key_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsOutputReference.property.valueInput">value_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsOutputReference.property.key">key</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsOutputReference.property.value">value</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsOutputReference.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTags">MediaconnectFlowSourceTags</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `key_input`<sup>Optional</sup> <a name="key_input" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsOutputReference.property.keyInput"></a>
+
+```python
+key_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `value_input`<sup>Optional</sup> <a name="value_input" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsOutputReference.property.valueInput"></a>
+
+```python
+value_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `key`<sup>Required</sup> <a name="key" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsOutputReference.property.key"></a>
+
+```python
+key: str
+```
+
+- *Type:* str
+
+---
+
+##### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsOutputReference.property.value"></a>
+
+```python
+value: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTagsOutputReference.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | MediaconnectFlowSourceTags
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceTags">MediaconnectFlowSourceTags</a>
+
+---
+
+
+### MediaconnectFlowTagsList <a name="MediaconnectFlowTagsList" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsList.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import mediaconnect_flow
+
+mediaconnectFlow.MediaconnectFlowTagsList(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  wraps_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsList.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsList.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsList.Initializer.parameter.wrapsSet">wraps_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wraps_set`<sup>Required</sup> <a name="wraps_set" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsList.allWithMapKey">all_with_map_key</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsList.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsList.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsList.get">get</a></code> | *No description.* |
+
+---
+
+##### `all_with_map_key` <a name="all_with_map_key" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsList.allWithMapKey"></a>
+
+```python
+def all_with_map_key(
+  map_key_attribute_name: str
+) -> DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `map_key_attribute_name`<sup>Required</sup> <a name="map_key_attribute_name" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* str
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsList.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsList.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsList.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsList.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `get` <a name="get" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsList.get"></a>
+
+```python
+def get(
+  index: typing.Union[int, float]
+) -> MediaconnectFlowTagsOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsList.get.parameter.index"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsList.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsList.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsList.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTags">MediaconnectFlowTags</a>]</code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsList.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsList.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsList.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | typing.List[MediaconnectFlowTags]
+```
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTags">MediaconnectFlowTags</a>]
+
+---
+
+
+### MediaconnectFlowTagsOutputReference <a name="MediaconnectFlowTagsOutputReference" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import mediaconnect_flow
+
+mediaconnectFlow.MediaconnectFlowTagsOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  complex_object_index: typing.Union[int, float],
+  complex_object_is_from_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsOutputReference.Initializer.parameter.complexObjectIndex">complex_object_index</a></code> | <code>typing.Union[int, float]</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsOutputReference.Initializer.parameter.complexObjectIsFromSet">complex_object_is_from_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complex_object_index`<sup>Required</sup> <a name="complex_object_index" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of this item in the list.
+
+---
+
+##### `complex_object_is_from_set`<sup>Required</sup> <a name="complex_object_is_from_set" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsOutputReference.resetKey">reset_key</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsOutputReference.resetValue">reset_value</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `reset_key` <a name="reset_key" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsOutputReference.resetKey"></a>
+
+```python
+def reset_key() -> None
+```
+
+##### `reset_value` <a name="reset_value" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsOutputReference.resetValue"></a>
+
+```python
+def reset_value() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsOutputReference.property.keyInput">key_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsOutputReference.property.valueInput">value_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsOutputReference.property.key">key</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsOutputReference.property.value">value</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsOutputReference.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTags">MediaconnectFlowTags</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `key_input`<sup>Optional</sup> <a name="key_input" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsOutputReference.property.keyInput"></a>
+
+```python
+key_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `value_input`<sup>Optional</sup> <a name="value_input" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsOutputReference.property.valueInput"></a>
+
+```python
+value_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `key`<sup>Required</sup> <a name="key" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsOutputReference.property.key"></a>
+
+```python
+key: str
+```
+
+- *Type:* str
+
+---
+
+##### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsOutputReference.property.value"></a>
+
+```python
+value: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTagsOutputReference.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | MediaconnectFlowTags
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowTags">MediaconnectFlowTags</a>
 
 ---
 
@@ -12496,12 +17939,14 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesOutputReference.putTags">put_tags</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesOutputReference.resetName">reset_name</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesOutputReference.resetNetworkInterfaceIds">reset_network_interface_ids</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesOutputReference.resetNetworkInterfaceType">reset_network_interface_type</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesOutputReference.resetRoleArn">reset_role_arn</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesOutputReference.resetSecurityGroupIds">reset_security_group_ids</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesOutputReference.resetSubnetId">reset_subnet_id</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesOutputReference.resetTags">reset_tags</a></code> | *No description.* |
 
 ---
 
@@ -12677,6 +18122,20 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
+##### `put_tags` <a name="put_tags" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesOutputReference.putTags"></a>
+
+```python
+def put_tags(
+  value: IResolvable | typing.List[MediaconnectFlowVpcInterfacesTags]
+) -> None
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesOutputReference.putTags.parameter.value"></a>
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTags">MediaconnectFlowVpcInterfacesTags</a>]
+
+---
+
 ##### `reset_name` <a name="reset_name" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesOutputReference.resetName"></a>
 
 ```python
@@ -12713,6 +18172,12 @@ def reset_security_group_ids() -> None
 def reset_subnet_id() -> None
 ```
 
+##### `reset_tags` <a name="reset_tags" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesOutputReference.resetTags"></a>
+
+```python
+def reset_tags() -> None
+```
+
 
 #### Properties <a name="Properties" id="Properties"></a>
 
@@ -12720,12 +18185,14 @@ def reset_subnet_id() -> None
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesOutputReference.property.tags">tags</a></code> | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsList">MediaconnectFlowVpcInterfacesTagsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesOutputReference.property.nameInput">name_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesOutputReference.property.networkInterfaceIdsInput">network_interface_ids_input</a></code> | <code>typing.List[str]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesOutputReference.property.networkInterfaceTypeInput">network_interface_type_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesOutputReference.property.roleArnInput">role_arn_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesOutputReference.property.securityGroupIdsInput">security_group_ids_input</a></code> | <code>typing.List[str]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesOutputReference.property.subnetIdInput">subnet_id_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesOutputReference.property.tagsInput">tags_input</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTags">MediaconnectFlowVpcInterfacesTags</a>]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesOutputReference.property.name">name</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesOutputReference.property.networkInterfaceIds">network_interface_ids</a></code> | <code>typing.List[str]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesOutputReference.property.networkInterfaceType">network_interface_type</a></code> | <code>str</code> | *No description.* |
@@ -12757,6 +18224,16 @@ fqn: str
 ```
 
 - *Type:* str
+
+---
+
+##### `tags`<sup>Required</sup> <a name="tags" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesOutputReference.property.tags"></a>
+
+```python
+tags: MediaconnectFlowVpcInterfacesTagsList
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsList">MediaconnectFlowVpcInterfacesTagsList</a>
 
 ---
 
@@ -12817,6 +18294,16 @@ subnet_id_input: str
 ```
 
 - *Type:* str
+
+---
+
+##### `tags_input`<sup>Optional</sup> <a name="tags_input" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesOutputReference.property.tagsInput"></a>
+
+```python
+tags_input: IResolvable | typing.List[MediaconnectFlowVpcInterfacesTags]
+```
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTags">MediaconnectFlowVpcInterfacesTags</a>]
 
 ---
 
@@ -12887,6 +18374,528 @@ internal_value: IResolvable | MediaconnectFlowVpcInterfaces
 ```
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfaces">MediaconnectFlowVpcInterfaces</a>
+
+---
+
+
+### MediaconnectFlowVpcInterfacesTagsList <a name="MediaconnectFlowVpcInterfacesTagsList" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsList.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import mediaconnect_flow
+
+mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsList(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  wraps_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsList.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsList.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsList.Initializer.parameter.wrapsSet">wraps_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wraps_set`<sup>Required</sup> <a name="wraps_set" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsList.allWithMapKey">all_with_map_key</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsList.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsList.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsList.get">get</a></code> | *No description.* |
+
+---
+
+##### `all_with_map_key` <a name="all_with_map_key" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsList.allWithMapKey"></a>
+
+```python
+def all_with_map_key(
+  map_key_attribute_name: str
+) -> DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `map_key_attribute_name`<sup>Required</sup> <a name="map_key_attribute_name" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* str
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsList.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsList.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsList.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsList.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `get` <a name="get" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsList.get"></a>
+
+```python
+def get(
+  index: typing.Union[int, float]
+) -> MediaconnectFlowVpcInterfacesTagsOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsList.get.parameter.index"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsList.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsList.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsList.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTags">MediaconnectFlowVpcInterfacesTags</a>]</code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsList.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsList.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsList.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | typing.List[MediaconnectFlowVpcInterfacesTags]
+```
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTags">MediaconnectFlowVpcInterfacesTags</a>]
+
+---
+
+
+### MediaconnectFlowVpcInterfacesTagsOutputReference <a name="MediaconnectFlowVpcInterfacesTagsOutputReference" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import mediaconnect_flow
+
+mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  complex_object_index: typing.Union[int, float],
+  complex_object_is_from_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsOutputReference.Initializer.parameter.complexObjectIndex">complex_object_index</a></code> | <code>typing.Union[int, float]</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsOutputReference.Initializer.parameter.complexObjectIsFromSet">complex_object_is_from_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complex_object_index`<sup>Required</sup> <a name="complex_object_index" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of this item in the list.
+
+---
+
+##### `complex_object_is_from_set`<sup>Required</sup> <a name="complex_object_is_from_set" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsOutputReference.resetKey">reset_key</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsOutputReference.resetValue">reset_value</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `reset_key` <a name="reset_key" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsOutputReference.resetKey"></a>
+
+```python
+def reset_key() -> None
+```
+
+##### `reset_value` <a name="reset_value" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsOutputReference.resetValue"></a>
+
+```python
+def reset_value() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsOutputReference.property.keyInput">key_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsOutputReference.property.valueInput">value_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsOutputReference.property.key">key</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsOutputReference.property.value">value</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsOutputReference.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTags">MediaconnectFlowVpcInterfacesTags</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `key_input`<sup>Optional</sup> <a name="key_input" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsOutputReference.property.keyInput"></a>
+
+```python
+key_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `value_input`<sup>Optional</sup> <a name="value_input" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsOutputReference.property.valueInput"></a>
+
+```python
+value_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `key`<sup>Required</sup> <a name="key" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsOutputReference.property.key"></a>
+
+```python
+key: str
+```
+
+- *Type:* str
+
+---
+
+##### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsOutputReference.property.value"></a>
+
+```python
+value: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTagsOutputReference.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | MediaconnectFlowVpcInterfacesTags
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowVpcInterfacesTags">MediaconnectFlowVpcInterfacesTags</a>
 
 ---
 

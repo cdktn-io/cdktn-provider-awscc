@@ -4,7 +4,7 @@
 
 ### LocationRouteCalculator <a name="LocationRouteCalculator" id="@cdktn/provider-awscc.locationRouteCalculator.LocationRouteCalculator"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/location_route_calculator awscc_location_route_calculator}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/location_route_calculator awscc_location_route_calculator}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.locationRouteCalculator.LocationRouteCalculator.Initializer"></a>
 
@@ -523,7 +523,7 @@ The construct id used in the generated config for the LocationRouteCalculator to
 
 The id of the existing LocationRouteCalculator that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/location_route_calculator#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/location_route_calculator#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -904,10 +904,10 @@ const locationRouteCalculatorConfig: locationRouteCalculator.LocationRouteCalcul
 | <code><a href="#@cdktn/provider-awscc.locationRouteCalculator.LocationRouteCalculatorConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.locationRouteCalculator.LocationRouteCalculatorConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.locationRouteCalculator.LocationRouteCalculatorConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.locationRouteCalculator.LocationRouteCalculatorConfig.property.calculatorName">calculatorName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/location_route_calculator#calculator_name LocationRouteCalculator#calculator_name}. |
-| <code><a href="#@cdktn/provider-awscc.locationRouteCalculator.LocationRouteCalculatorConfig.property.dataSource">dataSource</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/location_route_calculator#data_source LocationRouteCalculator#data_source}. |
-| <code><a href="#@cdktn/provider-awscc.locationRouteCalculator.LocationRouteCalculatorConfig.property.description">description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/location_route_calculator#description LocationRouteCalculator#description}. |
-| <code><a href="#@cdktn/provider-awscc.locationRouteCalculator.LocationRouteCalculatorConfig.property.pricingPlan">pricingPlan</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/location_route_calculator#pricing_plan LocationRouteCalculator#pricing_plan}. |
+| <code><a href="#@cdktn/provider-awscc.locationRouteCalculator.LocationRouteCalculatorConfig.property.calculatorName">calculatorName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/location_route_calculator#calculator_name LocationRouteCalculator#calculator_name}. |
+| <code><a href="#@cdktn/provider-awscc.locationRouteCalculator.LocationRouteCalculatorConfig.property.dataSource">dataSource</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/location_route_calculator#data_source LocationRouteCalculator#data_source}. |
+| <code><a href="#@cdktn/provider-awscc.locationRouteCalculator.LocationRouteCalculatorConfig.property.description">description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/location_route_calculator#description LocationRouteCalculator#description}. |
+| <code><a href="#@cdktn/provider-awscc.locationRouteCalculator.LocationRouteCalculatorConfig.property.pricingPlan">pricingPlan</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/location_route_calculator#pricing_plan LocationRouteCalculator#pricing_plan}. |
 | <code><a href="#@cdktn/provider-awscc.locationRouteCalculator.LocationRouteCalculatorConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.locationRouteCalculator.LocationRouteCalculatorTags">LocationRouteCalculatorTags</a>[]</code> | An array of key-value pairs to apply to this resource. |
 
 ---
@@ -990,7 +990,7 @@ public readonly calculatorName: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/location_route_calculator#calculator_name LocationRouteCalculator#calculator_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/location_route_calculator#calculator_name LocationRouteCalculator#calculator_name}.
 
 ---
 
@@ -1002,7 +1002,7 @@ public readonly dataSource: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/location_route_calculator#data_source LocationRouteCalculator#data_source}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/location_route_calculator#data_source LocationRouteCalculator#data_source}.
 
 ---
 
@@ -1014,7 +1014,7 @@ public readonly description: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/location_route_calculator#description LocationRouteCalculator#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/location_route_calculator#description LocationRouteCalculator#description}.
 
 ---
 
@@ -1026,7 +1026,7 @@ public readonly pricingPlan: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/location_route_calculator#pricing_plan LocationRouteCalculator#pricing_plan}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/location_route_calculator#pricing_plan LocationRouteCalculator#pricing_plan}.
 
 ---
 
@@ -1040,7 +1040,7 @@ public readonly tags: IResolvable | LocationRouteCalculatorTags[];
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/location_route_calculator#tags LocationRouteCalculator#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/location_route_calculator#tags LocationRouteCalculator#tags}
 
 ---
 
@@ -1075,7 +1075,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/location_route_calculator#key LocationRouteCalculator#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/location_route_calculator#key LocationRouteCalculator#key}
 
 ---
 
@@ -1091,7 +1091,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/location_route_calculator#value LocationRouteCalculator#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/location_route_calculator#value LocationRouteCalculator#value}
 
 ---
 

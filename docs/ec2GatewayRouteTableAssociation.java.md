@@ -4,7 +4,7 @@
 
 ### Ec2GatewayRouteTableAssociation <a name="Ec2GatewayRouteTableAssociation" id="@cdktn/provider-awscc.ec2GatewayRouteTableAssociation.Ec2GatewayRouteTableAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_gateway_route_table_association awscc_ec2_gateway_route_table_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_gateway_route_table_association awscc_ec2_gateway_route_table_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2GatewayRouteTableAssociation.Ec2GatewayRouteTableAssociation.Initializer"></a>
 
@@ -106,7 +106,7 @@ Must be unique amongst siblings in the same scope
 
 The ID of the gateway.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_gateway_route_table_association#gateway_id Ec2GatewayRouteTableAssociation#gateway_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_gateway_route_table_association#gateway_id Ec2GatewayRouteTableAssociation#gateway_id}
 
 ---
 
@@ -116,7 +116,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The ID of the route table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_gateway_route_table_association#route_table_id Ec2GatewayRouteTableAssociation#route_table_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_gateway_route_table_association#route_table_id Ec2GatewayRouteTableAssociation#route_table_id}
 
 ---
 
@@ -565,7 +565,7 @@ The construct id used in the generated config for the Ec2GatewayRouteTableAssoci
 
 The id of the existing Ec2GatewayRouteTableAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_gateway_route_table_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_gateway_route_table_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -942,7 +942,7 @@ public java.lang.String getGatewayId();
 
 The ID of the gateway.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_gateway_route_table_association#gateway_id Ec2GatewayRouteTableAssociation#gateway_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_gateway_route_table_association#gateway_id Ec2GatewayRouteTableAssociation#gateway_id}
 
 ---
 
@@ -956,7 +956,7 @@ public java.lang.String getRouteTableId();
 
 The ID of the route table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_gateway_route_table_association#route_table_id Ec2GatewayRouteTableAssociation#route_table_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_gateway_route_table_association#route_table_id Ec2GatewayRouteTableAssociation#route_table_id}
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### DataAwsccEcsDaemons <a name="DataAwsccEcsDaemons" id="@cdktn/provider-awscc.dataAwsccEcsDaemons.DataAwsccEcsDaemons"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ecs_daemons awscc_ecs_daemons}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ecs_daemons awscc_ecs_daemons}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsDaemons.DataAwsccEcsDaemons.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccEcsDaemons to imp
 
 The id of the existing DataAwsccEcsDaemons that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ecs_daemons#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ecs_daemons#import import section} in the documentation of this resource for the id to use
 
 ---
 

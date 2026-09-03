@@ -4,7 +4,7 @@
 
 ### DataAwsccApigatewayv2Apis <a name="DataAwsccApigatewayv2Apis" id="@cdktn/provider-awscc.dataAwsccApigatewayv2Apis.DataAwsccApigatewayv2Apis"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/apigatewayv2_apis awscc_apigatewayv2_apis}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/apigatewayv2_apis awscc_apigatewayv2_apis}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApigatewayv2Apis.DataAwsccApigatewayv2Apis.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccApigatewayv2Apis 
 
 The id of the existing DataAwsccApigatewayv2Apis that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/apigatewayv2_apis#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/apigatewayv2_apis#import import section} in the documentation of this resource for the id to use
 
 ---
 

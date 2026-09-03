@@ -4,7 +4,7 @@
 
 ### MemorydbSubnetGroup <a name="MemorydbSubnetGroup" id="@cdktn/provider-awscc.memorydbSubnetGroup.MemorydbSubnetGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/memorydb_subnet_group awscc_memorydb_subnet_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/memorydb_subnet_group awscc_memorydb_subnet_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.memorydbSubnetGroup.MemorydbSubnetGroup.Initializer"></a>
 
@@ -516,7 +516,7 @@ The construct id used in the generated config for the MemorydbSubnetGroup to imp
 
 The id of the existing MemorydbSubnetGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/memorydb_subnet_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/memorydb_subnet_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -954,7 +954,7 @@ The name of the subnet group.
 
 This value must be unique as it also serves as the subnet group identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/memorydb_subnet_group#subnet_group_name MemorydbSubnetGroup#subnet_group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/memorydb_subnet_group#subnet_group_name MemorydbSubnetGroup#subnet_group_name}
 
 ---
 
@@ -968,7 +968,7 @@ public string[] SubnetIds { get; set; }
 
 A list of VPC subnet IDs for the subnet group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/memorydb_subnet_group#subnet_ids MemorydbSubnetGroup#subnet_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/memorydb_subnet_group#subnet_ids MemorydbSubnetGroup#subnet_ids}
 
 ---
 
@@ -982,7 +982,7 @@ public string Description { get; set; }
 
 An optional description of the subnet group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/memorydb_subnet_group#description MemorydbSubnetGroup#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/memorydb_subnet_group#description MemorydbSubnetGroup#description}
 
 ---
 
@@ -996,7 +996,7 @@ public IResolvable|MemorydbSubnetGroupTags[] Tags { get; set; }
 
 An array of key-value pairs to apply to this subnet group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/memorydb_subnet_group#tags MemorydbSubnetGroup#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/memorydb_subnet_group#tags MemorydbSubnetGroup#tags}
 
 ---
 
@@ -1032,7 +1032,7 @@ public string Key { get; set; }
 
 The key for the tag. May not be null.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/memorydb_subnet_group#key MemorydbSubnetGroup#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/memorydb_subnet_group#key MemorydbSubnetGroup#key}
 
 ---
 
@@ -1046,7 +1046,7 @@ public string Value { get; set; }
 
 The tag's value. May be null.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/memorydb_subnet_group#value MemorydbSubnetGroup#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/memorydb_subnet_group#value MemorydbSubnetGroup#value}
 
 ---
 

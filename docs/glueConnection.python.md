@@ -4,7 +4,7 @@
 
 ### GlueConnection <a name="GlueConnection" id="@cdktn/provider-awscc.glueConnection.GlueConnection"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_connection awscc_glue_connection}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_connection awscc_glue_connection}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueConnection.GlueConnection.Initializer"></a>
 
@@ -112,7 +112,7 @@ The ID of the data catalog to create the catalog object in.
 
 Currently, this should be the AWS account ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_connection#catalog_id GlueConnection#catalog_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_connection#catalog_id GlueConnection#catalog_id}
 
 ---
 
@@ -122,7 +122,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The connection properties used for this connection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_connection#connection_input GlueConnection#connection_input}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_connection#connection_input GlueConnection#connection_input}
 
 ---
 
@@ -132,7 +132,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The collection of tags. Each tag element is associated with a given resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_connection#tags GlueConnection#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_connection#tags GlueConnection#tags}
 
 ---
 
@@ -542,7 +542,7 @@ def put_connection_input(
 
 The type of the connection that needs to be created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_connection#connection_type GlueConnection#connection_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_connection#connection_type GlueConnection#connection_type}
 
 ---
 
@@ -552,7 +552,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Connection properties specific to the Athena compute environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_connection#athena_properties GlueConnection#athena_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_connection#athena_properties GlueConnection#athena_properties}
 
 ---
 
@@ -562,7 +562,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The authentication configuration used to connect to the connection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_connection#authentication_configuration GlueConnection#authentication_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_connection#authentication_configuration GlueConnection#authentication_configuration}
 
 ---
 
@@ -572,7 +572,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A map of key-value pairs used as parameters for this connection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_connection#connection_properties GlueConnection#connection_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_connection#connection_properties GlueConnection#connection_properties}
 
 ---
 
@@ -582,7 +582,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A description of the connection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_connection#description GlueConnection#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_connection#description GlueConnection#description}
 
 ---
 
@@ -592,7 +592,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A list of criteria that can be used in selecting this connection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_connection#match_criteria GlueConnection#match_criteria}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_connection#match_criteria GlueConnection#match_criteria}
 
 ---
 
@@ -602,7 +602,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the connection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_connection#name GlueConnection#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_connection#name GlueConnection#name}
 
 ---
 
@@ -612,7 +612,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The physical connection requirements.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_connection#physical_connection_requirements GlueConnection#physical_connection_requirements}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_connection#physical_connection_requirements GlueConnection#physical_connection_requirements}
 
 ---
 
@@ -622,7 +622,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Connection properties specific to the Python compute environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_connection#python_properties GlueConnection#python_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_connection#python_properties GlueConnection#python_properties}
 
 ---
 
@@ -632,7 +632,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Connection properties specific to the Spark compute environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_connection#spark_properties GlueConnection#spark_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_connection#spark_properties GlueConnection#spark_properties}
 
 ---
 
@@ -642,7 +642,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A flag to validate the credentials during create connection. Default is true.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_connection#validate_credentials GlueConnection#validate_credentials}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_connection#validate_credentials GlueConnection#validate_credentials}
 
 ---
 
@@ -650,7 +650,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_connection#validate_for_compute_environments GlueConnection#validate_for_compute_environments}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_connection#validate_for_compute_environments GlueConnection#validate_for_compute_environments}.
 
 ---
 
@@ -774,7 +774,7 @@ The construct id used in the generated config for the GlueConnection to import.
 
 The id of the existing GlueConnection that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_connection#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_connection#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1177,7 +1177,7 @@ The ID of the data catalog to create the catalog object in.
 
 Currently, this should be the AWS account ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_connection#catalog_id GlueConnection#catalog_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_connection#catalog_id GlueConnection#catalog_id}
 
 ---
 
@@ -1191,7 +1191,7 @@ connection_input: GlueConnectionConnectionInput
 
 The connection properties used for this connection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_connection#connection_input GlueConnection#connection_input}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_connection#connection_input GlueConnection#connection_input}
 
 ---
 
@@ -1205,7 +1205,7 @@ tags: str
 
 The collection of tags. Each tag element is associated with a given resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_connection#tags GlueConnection#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_connection#tags GlueConnection#tags}
 
 ---
 
@@ -1247,7 +1247,7 @@ glueConnection.GlueConnectionConnectionInput(
 | <code><a href="#@cdktn/provider-awscc.glueConnection.GlueConnectionConnectionInput.property.pythonProperties">python_properties</a></code> | <code>str</code> | Connection properties specific to the Python compute environment. |
 | <code><a href="#@cdktn/provider-awscc.glueConnection.GlueConnectionConnectionInput.property.sparkProperties">spark_properties</a></code> | <code>str</code> | Connection properties specific to the Spark compute environment. |
 | <code><a href="#@cdktn/provider-awscc.glueConnection.GlueConnectionConnectionInput.property.validateCredentials">validate_credentials</a></code> | <code>bool \| cdktn.IResolvable</code> | A flag to validate the credentials during create connection. Default is true. |
-| <code><a href="#@cdktn/provider-awscc.glueConnection.GlueConnectionConnectionInput.property.validateForComputeEnvironments">validate_for_compute_environments</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_connection#validate_for_compute_environments GlueConnection#validate_for_compute_environments}. |
+| <code><a href="#@cdktn/provider-awscc.glueConnection.GlueConnectionConnectionInput.property.validateForComputeEnvironments">validate_for_compute_environments</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_connection#validate_for_compute_environments GlueConnection#validate_for_compute_environments}. |
 
 ---
 
@@ -1261,7 +1261,7 @@ connection_type: str
 
 The type of the connection that needs to be created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_connection#connection_type GlueConnection#connection_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_connection#connection_type GlueConnection#connection_type}
 
 ---
 
@@ -1275,7 +1275,7 @@ athena_properties: str
 
 Connection properties specific to the Athena compute environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_connection#athena_properties GlueConnection#athena_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_connection#athena_properties GlueConnection#athena_properties}
 
 ---
 
@@ -1289,7 +1289,7 @@ authentication_configuration: GlueConnectionConnectionInputAuthenticationConfigu
 
 The authentication configuration used to connect to the connection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_connection#authentication_configuration GlueConnection#authentication_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_connection#authentication_configuration GlueConnection#authentication_configuration}
 
 ---
 
@@ -1303,7 +1303,7 @@ connection_properties: str
 
 A map of key-value pairs used as parameters for this connection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_connection#connection_properties GlueConnection#connection_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_connection#connection_properties GlueConnection#connection_properties}
 
 ---
 
@@ -1317,7 +1317,7 @@ description: str
 
 A description of the connection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_connection#description GlueConnection#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_connection#description GlueConnection#description}
 
 ---
 
@@ -1331,7 +1331,7 @@ match_criteria: typing.List[str]
 
 A list of criteria that can be used in selecting this connection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_connection#match_criteria GlueConnection#match_criteria}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_connection#match_criteria GlueConnection#match_criteria}
 
 ---
 
@@ -1345,7 +1345,7 @@ name: str
 
 The name of the connection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_connection#name GlueConnection#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_connection#name GlueConnection#name}
 
 ---
 
@@ -1359,7 +1359,7 @@ physical_connection_requirements: GlueConnectionConnectionInputPhysicalConnectio
 
 The physical connection requirements.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_connection#physical_connection_requirements GlueConnection#physical_connection_requirements}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_connection#physical_connection_requirements GlueConnection#physical_connection_requirements}
 
 ---
 
@@ -1373,7 +1373,7 @@ python_properties: str
 
 Connection properties specific to the Python compute environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_connection#python_properties GlueConnection#python_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_connection#python_properties GlueConnection#python_properties}
 
 ---
 
@@ -1387,7 +1387,7 @@ spark_properties: str
 
 Connection properties specific to the Spark compute environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_connection#spark_properties GlueConnection#spark_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_connection#spark_properties GlueConnection#spark_properties}
 
 ---
 
@@ -1401,7 +1401,7 @@ validate_credentials: bool | IResolvable
 
 A flag to validate the credentials during create connection. Default is true.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_connection#validate_credentials GlueConnection#validate_credentials}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_connection#validate_credentials GlueConnection#validate_credentials}
 
 ---
 
@@ -1413,7 +1413,7 @@ validate_for_compute_environments: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_connection#validate_for_compute_environments GlueConnection#validate_for_compute_environments}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_connection#validate_for_compute_environments GlueConnection#validate_for_compute_environments}.
 
 ---
 
@@ -1457,7 +1457,7 @@ authentication_type: str
 
 A structure containing the authentication configuration in the CreateConnection request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_connection#authentication_type GlueConnection#authentication_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_connection#authentication_type GlueConnection#authentication_type}
 
 ---
 
@@ -1471,7 +1471,7 @@ basic_authentication_credentials: GlueConnectionConnectionInputAuthenticationCon
 
 For supplying basic auth credentials when not providing a SecretArn value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_connection#basic_authentication_credentials GlueConnection#basic_authentication_credentials}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_connection#basic_authentication_credentials GlueConnection#basic_authentication_credentials}
 
 ---
 
@@ -1485,7 +1485,7 @@ custom_authentication_credentials: str
 
 A structure containing the authentication credentials in the CreateConnection request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_connection#custom_authentication_credentials GlueConnection#custom_authentication_credentials}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_connection#custom_authentication_credentials GlueConnection#custom_authentication_credentials}
 
 ---
 
@@ -1499,7 +1499,7 @@ kms_key_arn: str
 
 The Amazon Resource Name (ARN) of the KMS key used in the authentication configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_connection#kms_key_arn GlueConnection#kms_key_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_connection#kms_key_arn GlueConnection#kms_key_arn}
 
 ---
 
@@ -1513,7 +1513,7 @@ o_auth2_properties: GlueConnectionConnectionInputAuthenticationConfigurationOAut
 
 A structure containing properties for OAuth2 in the CreateConnection request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_connection#o_auth_2_properties GlueConnection#o_auth_2_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_connection#o_auth_2_properties GlueConnection#o_auth_2_properties}
 
 ---
 
@@ -1527,7 +1527,7 @@ secret_arn: str
 
 The secret manager ARN to store credentials in the CreateConnection request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_connection#secret_arn GlueConnection#secret_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_connection#secret_arn GlueConnection#secret_arn}
 
 ---
 
@@ -1563,7 +1563,7 @@ password: str
 
 The password used in the authentication configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_connection#password GlueConnection#password}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_connection#password GlueConnection#password}
 
 ---
 
@@ -1577,7 +1577,7 @@ username: str
 
 The username used in the authentication configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_connection#username GlueConnection#username}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_connection#username GlueConnection#username}
 
 ---
 
@@ -1621,7 +1621,7 @@ authorization_code_properties: GlueConnectionConnectionInputAuthenticationConfig
 
 The set of properties required for the the OAuth2 AUTHORIZATION_CODE grant type workflow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_connection#authorization_code_properties GlueConnection#authorization_code_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_connection#authorization_code_properties GlueConnection#authorization_code_properties}
 
 ---
 
@@ -1635,7 +1635,7 @@ o_auth2_client_application: GlueConnectionConnectionInputAuthenticationConfigura
 
 The OAuth2 client app used for the connection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_connection#o_auth_2_client_application GlueConnection#o_auth_2_client_application}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_connection#o_auth_2_client_application GlueConnection#o_auth_2_client_application}
 
 ---
 
@@ -1649,7 +1649,7 @@ o_auth2_credentials: GlueConnectionConnectionInputAuthenticationConfigurationOAu
 
 A structure containing the OAuth2 credentials used in the authentication configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_connection#o_auth_2_credentials GlueConnection#o_auth_2_credentials}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_connection#o_auth_2_credentials GlueConnection#o_auth_2_credentials}
 
 ---
 
@@ -1663,7 +1663,7 @@ o_auth2_grant_type: str
 
 The grant type used in the authentication configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_connection#o_auth_2_grant_type GlueConnection#o_auth_2_grant_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_connection#o_auth_2_grant_type GlueConnection#o_auth_2_grant_type}
 
 ---
 
@@ -1677,7 +1677,7 @@ token_url: str
 
 The URL used in the authentication configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_connection#token_url GlueConnection#token_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_connection#token_url GlueConnection#token_url}
 
 ---
 
@@ -1691,7 +1691,7 @@ token_url_parameters_map: str
 
 A map of key-value pairs used in the authentication configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_connection#token_url_parameters_map GlueConnection#token_url_parameters_map}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_connection#token_url_parameters_map GlueConnection#token_url_parameters_map}
 
 ---
 
@@ -1727,7 +1727,7 @@ authorization_code: str
 
 The authorization code used in the authentication configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_connection#authorization_code GlueConnection#authorization_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_connection#authorization_code GlueConnection#authorization_code}
 
 ---
 
@@ -1741,7 +1741,7 @@ redirect_uri: str
 
 The redirect URI where the user gets redirected to by authorization server when issuing an authorization code.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_connection#redirect_uri GlueConnection#redirect_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_connection#redirect_uri GlueConnection#redirect_uri}
 
 ---
 
@@ -1777,7 +1777,7 @@ aws_managed_client_application_reference: str
 
 The reference to the SaaS-side client app that is AWS managed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_connection#aws_managed_client_application_reference GlueConnection#aws_managed_client_application_reference}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_connection#aws_managed_client_application_reference GlueConnection#aws_managed_client_application_reference}
 
 ---
 
@@ -1791,7 +1791,7 @@ user_managed_client_application_client_id: str
 
 The client application clientID if the ClientAppType is USER_MANAGED.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_connection#user_managed_client_application_client_id GlueConnection#user_managed_client_application_client_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_connection#user_managed_client_application_client_id GlueConnection#user_managed_client_application_client_id}
 
 ---
 
@@ -1831,7 +1831,7 @@ access_token: str
 
 The access token used in the authentication configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_connection#access_token GlueConnection#access_token}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_connection#access_token GlueConnection#access_token}
 
 ---
 
@@ -1845,7 +1845,7 @@ jwt_token: str
 
 The JSON Web Token (JWT) used when the authentication type is OAuth2.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_connection#jwt_token GlueConnection#jwt_token}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_connection#jwt_token GlueConnection#jwt_token}
 
 ---
 
@@ -1859,7 +1859,7 @@ refresh_token: str
 
 The refresh token used when the authentication type is OAuth2.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_connection#refresh_token GlueConnection#refresh_token}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_connection#refresh_token GlueConnection#refresh_token}
 
 ---
 
@@ -1873,7 +1873,7 @@ user_managed_client_application_client_secret: str
 
 The client application client secret if the client application is user managed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_connection#user_managed_client_application_client_secret GlueConnection#user_managed_client_application_client_secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_connection#user_managed_client_application_client_secret GlueConnection#user_managed_client_application_client_secret}
 
 ---
 
@@ -1911,7 +1911,7 @@ availability_zone: str
 
 The availability zone where the connection is located.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_connection#availability_zone GlueConnection#availability_zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_connection#availability_zone GlueConnection#availability_zone}
 
 ---
 
@@ -1925,7 +1925,7 @@ security_group_id_list: typing.List[str]
 
 The security group ID list used by the connection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_connection#security_group_id_list GlueConnection#security_group_id_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_connection#security_group_id_list GlueConnection#security_group_id_list}
 
 ---
 
@@ -1939,7 +1939,7 @@ subnet_id: str
 
 The subnet ID used by the connection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_connection#subnet_id GlueConnection#subnet_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_connection#subnet_id GlueConnection#subnet_id}
 
 ---
 
@@ -3583,7 +3583,7 @@ def put_authorization_code_properties(
 
 The authorization code used in the authentication configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_connection#authorization_code GlueConnection#authorization_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_connection#authorization_code GlueConnection#authorization_code}
 
 ---
 
@@ -3593,7 +3593,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The redirect URI where the user gets redirected to by authorization server when issuing an authorization code.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_connection#redirect_uri GlueConnection#redirect_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_connection#redirect_uri GlueConnection#redirect_uri}
 
 ---
 
@@ -3612,7 +3612,7 @@ def put_o_auth2_client_application(
 
 The reference to the SaaS-side client app that is AWS managed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_connection#aws_managed_client_application_reference GlueConnection#aws_managed_client_application_reference}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_connection#aws_managed_client_application_reference GlueConnection#aws_managed_client_application_reference}
 
 ---
 
@@ -3622,7 +3622,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The client application clientID if the ClientAppType is USER_MANAGED.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_connection#user_managed_client_application_client_id GlueConnection#user_managed_client_application_client_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_connection#user_managed_client_application_client_id GlueConnection#user_managed_client_application_client_id}
 
 ---
 
@@ -3643,7 +3643,7 @@ def put_o_auth2_credentials(
 
 The access token used in the authentication configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_connection#access_token GlueConnection#access_token}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_connection#access_token GlueConnection#access_token}
 
 ---
 
@@ -3653,7 +3653,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The JSON Web Token (JWT) used when the authentication type is OAuth2.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_connection#jwt_token GlueConnection#jwt_token}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_connection#jwt_token GlueConnection#jwt_token}
 
 ---
 
@@ -3663,7 +3663,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The refresh token used when the authentication type is OAuth2.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_connection#refresh_token GlueConnection#refresh_token}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_connection#refresh_token GlueConnection#refresh_token}
 
 ---
 
@@ -3673,7 +3673,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The client application client secret if the client application is user managed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_connection#user_managed_client_application_client_secret GlueConnection#user_managed_client_application_client_secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_connection#user_managed_client_application_client_secret GlueConnection#user_managed_client_application_client_secret}
 
 ---
 
@@ -4142,7 +4142,7 @@ def put_basic_authentication_credentials(
 
 The password used in the authentication configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_connection#password GlueConnection#password}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_connection#password GlueConnection#password}
 
 ---
 
@@ -4152,7 +4152,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The username used in the authentication configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_connection#username GlueConnection#username}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_connection#username GlueConnection#username}
 
 ---
 
@@ -4175,7 +4175,7 @@ def put_o_auth2_properties(
 
 The set of properties required for the the OAuth2 AUTHORIZATION_CODE grant type workflow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_connection#authorization_code_properties GlueConnection#authorization_code_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_connection#authorization_code_properties GlueConnection#authorization_code_properties}
 
 ---
 
@@ -4185,7 +4185,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The OAuth2 client app used for the connection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_connection#o_auth_2_client_application GlueConnection#o_auth_2_client_application}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_connection#o_auth_2_client_application GlueConnection#o_auth_2_client_application}
 
 ---
 
@@ -4195,7 +4195,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A structure containing the OAuth2 credentials used in the authentication configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_connection#o_auth_2_credentials GlueConnection#o_auth_2_credentials}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_connection#o_auth_2_credentials GlueConnection#o_auth_2_credentials}
 
 ---
 
@@ -4205,7 +4205,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The grant type used in the authentication configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_connection#o_auth_2_grant_type GlueConnection#o_auth_2_grant_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_connection#o_auth_2_grant_type GlueConnection#o_auth_2_grant_type}
 
 ---
 
@@ -4215,7 +4215,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The URL used in the authentication configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_connection#token_url GlueConnection#token_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_connection#token_url GlueConnection#token_url}
 
 ---
 
@@ -4225,7 +4225,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A map of key-value pairs used in the authentication configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_connection#token_url_parameters_map GlueConnection#token_url_parameters_map}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_connection#token_url_parameters_map GlueConnection#token_url_parameters_map}
 
 ---
 
@@ -4703,7 +4703,7 @@ def put_authentication_configuration(
 
 A structure containing the authentication configuration in the CreateConnection request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_connection#authentication_type GlueConnection#authentication_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_connection#authentication_type GlueConnection#authentication_type}
 
 ---
 
@@ -4713,7 +4713,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 For supplying basic auth credentials when not providing a SecretArn value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_connection#basic_authentication_credentials GlueConnection#basic_authentication_credentials}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_connection#basic_authentication_credentials GlueConnection#basic_authentication_credentials}
 
 ---
 
@@ -4723,7 +4723,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A structure containing the authentication credentials in the CreateConnection request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_connection#custom_authentication_credentials GlueConnection#custom_authentication_credentials}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_connection#custom_authentication_credentials GlueConnection#custom_authentication_credentials}
 
 ---
 
@@ -4733,7 +4733,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The Amazon Resource Name (ARN) of the KMS key used in the authentication configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_connection#kms_key_arn GlueConnection#kms_key_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_connection#kms_key_arn GlueConnection#kms_key_arn}
 
 ---
 
@@ -4743,7 +4743,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A structure containing properties for OAuth2 in the CreateConnection request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_connection#o_auth_2_properties GlueConnection#o_auth_2_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_connection#o_auth_2_properties GlueConnection#o_auth_2_properties}
 
 ---
 
@@ -4753,7 +4753,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The secret manager ARN to store credentials in the CreateConnection request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_connection#secret_arn GlueConnection#secret_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_connection#secret_arn GlueConnection#secret_arn}
 
 ---
 
@@ -4773,7 +4773,7 @@ def put_physical_connection_requirements(
 
 The availability zone where the connection is located.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_connection#availability_zone GlueConnection#availability_zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_connection#availability_zone GlueConnection#availability_zone}
 
 ---
 
@@ -4783,7 +4783,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The security group ID list used by the connection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_connection#security_group_id_list GlueConnection#security_group_id_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_connection#security_group_id_list GlueConnection#security_group_id_list}
 
 ---
 
@@ -4793,7 +4793,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The subnet ID used by the connection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_connection#subnet_id GlueConnection#subnet_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_connection#subnet_id GlueConnection#subnet_id}
 
 ---
 

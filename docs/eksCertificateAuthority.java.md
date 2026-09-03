@@ -4,7 +4,7 @@
 
 ### EksCertificateAuthority <a name="EksCertificateAuthority" id="@cdktn/provider-awscc.eksCertificateAuthority.EksCertificateAuthority"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_certificate_authority awscc_eks_certificate_authority}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_certificate_authority awscc_eks_certificate_authority}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eksCertificateAuthority.EksCertificateAuthority.Initializer"></a>
 
@@ -104,7 +104,7 @@ Must be unique amongst siblings in the same scope
 
 The name of the EKS cluster that the certificate authority belongs to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_certificate_authority#cluster_name EksCertificateAuthority#cluster_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_certificate_authority#cluster_name EksCertificateAuthority#cluster_name}
 
 ---
 
@@ -553,7 +553,7 @@ The construct id used in the generated config for the EksCertificateAuthority to
 
 The id of the existing EksCertificateAuthority that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_certificate_authority#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_certificate_authority#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1016,7 +1016,7 @@ public java.lang.String getClusterName();
 
 The name of the EKS cluster that the certificate authority belongs to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_certificate_authority#cluster_name EksCertificateAuthority#cluster_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_certificate_authority#cluster_name EksCertificateAuthority#cluster_name}
 
 ---
 

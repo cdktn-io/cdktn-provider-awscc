@@ -4,7 +4,7 @@
 
 ### DataAwsccQuicksightOAuthClientApplications <a name="DataAwsccQuicksightOAuthClientApplications" id="@cdktn/provider-awscc.dataAwsccQuicksightOAuthClientApplications.DataAwsccQuicksightOAuthClientApplications"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/quicksight_o_auth_client_applications awscc_quicksight_o_auth_client_applications}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/quicksight_o_auth_client_applications awscc_quicksight_o_auth_client_applications}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightOAuthClientApplications.DataAwsccQuicksightOAuthClientApplications.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccQuicksightOAuthCl
 
 The id of the existing DataAwsccQuicksightOAuthClientApplications that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/quicksight_o_auth_client_applications#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/quicksight_o_auth_client_applications#import import section} in the documentation of this resource for the id to use
 
 ---
 
