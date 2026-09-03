@@ -4,7 +4,7 @@
 
 ### DataAwsccSecurityhubAutomationRuleV2S <a name="DataAwsccSecurityhubAutomationRuleV2S" id="@cdktn/provider-awscc.dataAwsccSecurityhubAutomationRuleV2S.DataAwsccSecurityhubAutomationRuleV2S"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/securityhub_automation_rule_v2s awscc_securityhub_automation_rule_v2s}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/securityhub_automation_rule_v2s awscc_securityhub_automation_rule_v2s}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubAutomationRuleV2S.DataAwsccSecurityhubAutomationRuleV2S.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccSecurityhubAutoma
 
 The id of the existing DataAwsccSecurityhubAutomationRuleV2S that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/securityhub_automation_rule_v2s#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/securityhub_automation_rule_v2s#import import section} in the documentation of this resource for the id to use
 
 ---
 

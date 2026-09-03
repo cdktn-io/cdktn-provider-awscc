@@ -4,7 +4,7 @@
 
 ### Ec2SecurityGroupVpcAssociation <a name="Ec2SecurityGroupVpcAssociation" id="@cdktn/provider-awscc.ec2SecurityGroupVpcAssociation.Ec2SecurityGroupVpcAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_security_group_vpc_association awscc_ec2_security_group_vpc_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_security_group_vpc_association awscc_ec2_security_group_vpc_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2SecurityGroupVpcAssociation.Ec2SecurityGroupVpcAssociation.Initializer"></a>
 
@@ -489,7 +489,7 @@ The construct id used in the generated config for the Ec2SecurityGroupVpcAssocia
 
 The id of the existing Ec2SecurityGroupVpcAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_security_group_vpc_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_security_group_vpc_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -888,7 +888,7 @@ public string GroupId { get; set; }
 
 The group ID of the specified security group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_security_group_vpc_association#group_id Ec2SecurityGroupVpcAssociation#group_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_security_group_vpc_association#group_id Ec2SecurityGroupVpcAssociation#group_id}
 
 ---
 
@@ -902,7 +902,7 @@ public string VpcId { get; set; }
 
 The ID of the VPC in the security group vpc association.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_security_group_vpc_association#vpc_id Ec2SecurityGroupVpcAssociation#vpc_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_security_group_vpc_association#vpc_id Ec2SecurityGroupVpcAssociation#vpc_id}
 
 ---
 

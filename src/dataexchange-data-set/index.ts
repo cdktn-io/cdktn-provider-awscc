@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/dataexchange_data_set
+// https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/dataexchange_data_set
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,35 +15,35 @@ export interface DataexchangeDataSetConfig extends cdktn.TerraformMetaArguments 
   /**
   * The type of asset that is added to a data set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/dataexchange_data_set#asset_type DataexchangeDataSet#asset_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/dataexchange_data_set#asset_type DataexchangeDataSet#asset_type}
   */
   readonly assetType: string;
   /**
   * A description for the data set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/dataexchange_data_set#description DataexchangeDataSet#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/dataexchange_data_set#description DataexchangeDataSet#description}
   */
   readonly description: string;
   /**
   * The name of the data set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/dataexchange_data_set#name DataexchangeDataSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/dataexchange_data_set#name DataexchangeDataSet#name}
   */
   readonly name: string;
   /**
   * Tags for the data set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/dataexchange_data_set#tags DataexchangeDataSet#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/dataexchange_data_set#tags DataexchangeDataSet#tags}
   */
   readonly tags?: DataexchangeDataSetTags[] | cdktn.IResolvable;
 }
 export interface DataexchangeDataSetTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/dataexchange_data_set#key DataexchangeDataSet#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/dataexchange_data_set#key DataexchangeDataSet#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/dataexchange_data_set#value DataexchangeDataSet#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/dataexchange_data_set#value DataexchangeDataSet#value}
   */
   readonly value?: string;
 }
@@ -188,7 +188,7 @@ export class DataexchangeDataSetTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/dataexchange_data_set awscc_dataexchange_data_set}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/dataexchange_data_set awscc_dataexchange_data_set}
 */
 export class DataexchangeDataSet extends cdktn.TerraformResource {
 
@@ -204,7 +204,7 @@ export class DataexchangeDataSet extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a DataexchangeDataSet resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataexchangeDataSet to import
-  * @param importFromId The id of the existing DataexchangeDataSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/dataexchange_data_set#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataexchangeDataSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/dataexchange_data_set#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataexchangeDataSet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -216,7 +216,7 @@ export class DataexchangeDataSet extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/dataexchange_data_set awscc_dataexchange_data_set} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/dataexchange_data_set awscc_dataexchange_data_set} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -227,7 +227,7 @@ export class DataexchangeDataSet extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_dataexchange_data_set',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.99.0',
+        providerVersion: '1.100.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

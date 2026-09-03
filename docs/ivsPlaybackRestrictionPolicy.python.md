@@ -4,7 +4,7 @@
 
 ### IvsPlaybackRestrictionPolicy <a name="IvsPlaybackRestrictionPolicy" id="@cdktn/provider-awscc.ivsPlaybackRestrictionPolicy.IvsPlaybackRestrictionPolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ivs_playback_restriction_policy awscc_ivs_playback_restriction_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ivs_playback_restriction_policy awscc_ivs_playback_restriction_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ivsPlaybackRestrictionPolicy.IvsPlaybackRestrictionPolicy.Initializer"></a>
 
@@ -116,7 +116,7 @@ A list of country codes that control geoblocking restriction.
 
 Allowed values are the officially assigned ISO 3166-1 alpha-2 codes. Default: All countries (an empty array).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ivs_playback_restriction_policy#allowed_countries IvsPlaybackRestrictionPolicy#allowed_countries}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ivs_playback_restriction_policy#allowed_countries IvsPlaybackRestrictionPolicy#allowed_countries}
 
 ---
 
@@ -128,7 +128,7 @@ A list of origin sites that control CORS restriction.
 
 Allowed values are the same as valid values of the Origin header defined at https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Origin
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ivs_playback_restriction_policy#allowed_origins IvsPlaybackRestrictionPolicy#allowed_origins}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ivs_playback_restriction_policy#allowed_origins IvsPlaybackRestrictionPolicy#allowed_origins}
 
 ---
 
@@ -138,7 +138,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Whether channel playback is constrained by origin site.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ivs_playback_restriction_policy#enable_strict_origin_enforcement IvsPlaybackRestrictionPolicy#enable_strict_origin_enforcement}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ivs_playback_restriction_policy#enable_strict_origin_enforcement IvsPlaybackRestrictionPolicy#enable_strict_origin_enforcement}
 
 ---
 
@@ -148,7 +148,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Playback-restriction-policy name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ivs_playback_restriction_policy#name IvsPlaybackRestrictionPolicy#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ivs_playback_restriction_policy#name IvsPlaybackRestrictionPolicy#name}
 
 ---
 
@@ -158,7 +158,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ivs_playback_restriction_policy#tags IvsPlaybackRestrictionPolicy#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ivs_playback_restriction_policy#tags IvsPlaybackRestrictionPolicy#tags}
 
 ---
 
@@ -705,7 +705,7 @@ The construct id used in the generated config for the IvsPlaybackRestrictionPoli
 
 The id of the existing IvsPlaybackRestrictionPolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ivs_playback_restriction_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ivs_playback_restriction_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1156,7 +1156,7 @@ A list of country codes that control geoblocking restriction.
 
 Allowed values are the officially assigned ISO 3166-1 alpha-2 codes. Default: All countries (an empty array).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ivs_playback_restriction_policy#allowed_countries IvsPlaybackRestrictionPolicy#allowed_countries}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ivs_playback_restriction_policy#allowed_countries IvsPlaybackRestrictionPolicy#allowed_countries}
 
 ---
 
@@ -1172,7 +1172,7 @@ A list of origin sites that control CORS restriction.
 
 Allowed values are the same as valid values of the Origin header defined at https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Origin
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ivs_playback_restriction_policy#allowed_origins IvsPlaybackRestrictionPolicy#allowed_origins}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ivs_playback_restriction_policy#allowed_origins IvsPlaybackRestrictionPolicy#allowed_origins}
 
 ---
 
@@ -1186,7 +1186,7 @@ enable_strict_origin_enforcement: bool | IResolvable
 
 Whether channel playback is constrained by origin site.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ivs_playback_restriction_policy#enable_strict_origin_enforcement IvsPlaybackRestrictionPolicy#enable_strict_origin_enforcement}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ivs_playback_restriction_policy#enable_strict_origin_enforcement IvsPlaybackRestrictionPolicy#enable_strict_origin_enforcement}
 
 ---
 
@@ -1200,7 +1200,7 @@ name: str
 
 Playback-restriction-policy name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ivs_playback_restriction_policy#name IvsPlaybackRestrictionPolicy#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ivs_playback_restriction_policy#name IvsPlaybackRestrictionPolicy#name}
 
 ---
 
@@ -1214,7 +1214,7 @@ tags: IResolvable | typing.List[IvsPlaybackRestrictionPolicyTags]
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ivs_playback_restriction_policy#tags IvsPlaybackRestrictionPolicy#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ivs_playback_restriction_policy#tags IvsPlaybackRestrictionPolicy#tags}
 
 ---
 
@@ -1252,7 +1252,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ivs_playback_restriction_policy#key IvsPlaybackRestrictionPolicy#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ivs_playback_restriction_policy#key IvsPlaybackRestrictionPolicy#key}
 
 ---
 
@@ -1268,7 +1268,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ivs_playback_restriction_policy#value IvsPlaybackRestrictionPolicy#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ivs_playback_restriction_policy#value IvsPlaybackRestrictionPolicy#value}
 
 ---
 

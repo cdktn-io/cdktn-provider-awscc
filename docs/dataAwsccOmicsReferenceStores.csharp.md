@@ -4,7 +4,7 @@
 
 ### DataAwsccOmicsReferenceStores <a name="DataAwsccOmicsReferenceStores" id="@cdktn/provider-awscc.dataAwsccOmicsReferenceStores.DataAwsccOmicsReferenceStores"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/omics_reference_stores awscc_omics_reference_stores}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/omics_reference_stores awscc_omics_reference_stores}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOmicsReferenceStores.DataAwsccOmicsReferenceStores.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccOmicsReferenceSto
 
 The id of the existing DataAwsccOmicsReferenceStores that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/omics_reference_stores#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/omics_reference_stores#import import section} in the documentation of this resource for the id to use
 
 ---
 

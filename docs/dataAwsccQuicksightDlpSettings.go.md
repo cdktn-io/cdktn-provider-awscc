@@ -4,7 +4,7 @@
 
 ### DataAwsccQuicksightDlpSettings <a name="DataAwsccQuicksightDlpSettings" id="@cdktn/provider-awscc.dataAwsccQuicksightDlpSettings.DataAwsccQuicksightDlpSettings"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/quicksight_dlp_settings awscc_quicksight_dlp_settings}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/quicksight_dlp_settings awscc_quicksight_dlp_settings}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDlpSettings.DataAwsccQuicksightDlpSettings.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccQuicksightDlpSett
 
 The id of the existing DataAwsccQuicksightDlpSettings that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/quicksight_dlp_settings#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/quicksight_dlp_settings#import import section} in the documentation of this resource for the id to use
 
 ---
 

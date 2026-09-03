@@ -4,7 +4,7 @@
 
 ### DataAwsccConnectWorkspaces <a name="DataAwsccConnectWorkspaces" id="@cdktn/provider-awscc.dataAwsccConnectWorkspaces.DataAwsccConnectWorkspaces"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/connect_workspaces awscc_connect_workspaces}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/connect_workspaces awscc_connect_workspaces}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectWorkspaces.DataAwsccConnectWorkspaces.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccConnectWorkspaces
 
 The id of the existing DataAwsccConnectWorkspaces that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/connect_workspaces#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/connect_workspaces#import import section} in the documentation of this resource for the id to use
 
 ---
 

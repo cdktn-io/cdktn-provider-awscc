@@ -4,7 +4,7 @@
 
 ### ApsResourcePolicy <a name="ApsResourcePolicy" id="@cdktn/provider-awscc.apsResourcePolicy.ApsResourcePolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/aps_resource_policy awscc_aps_resource_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/aps_resource_policy awscc_aps_resource_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apsResourcePolicy.ApsResourcePolicy.Initializer"></a>
 
@@ -106,7 +106,7 @@ Must be unique amongst siblings in the same scope
 
 The JSON to use as the Resource-based Policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/aps_resource_policy#policy_document ApsResourcePolicy#policy_document}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/aps_resource_policy#policy_document ApsResourcePolicy#policy_document}
 
 ---
 
@@ -116,7 +116,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The Arn of an APS Workspace that the PolicyDocument will be attached to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/aps_resource_policy#workspace_arn ApsResourcePolicy#workspace_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/aps_resource_policy#workspace_arn ApsResourcePolicy#workspace_arn}
 
 ---
 
@@ -565,7 +565,7 @@ The construct id used in the generated config for the ApsResourcePolicy to impor
 
 The id of the existing ApsResourcePolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/aps_resource_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/aps_resource_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -931,7 +931,7 @@ public java.lang.String getPolicyDocument();
 
 The JSON to use as the Resource-based Policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/aps_resource_policy#policy_document ApsResourcePolicy#policy_document}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/aps_resource_policy#policy_document ApsResourcePolicy#policy_document}
 
 ---
 
@@ -945,7 +945,7 @@ public java.lang.String getWorkspaceArn();
 
 The Arn of an APS Workspace that the PolicyDocument will be attached to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/aps_resource_policy#workspace_arn ApsResourcePolicy#workspace_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/aps_resource_policy#workspace_arn ApsResourcePolicy#workspace_arn}
 
 ---
 

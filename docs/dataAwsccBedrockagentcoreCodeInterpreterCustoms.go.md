@@ -4,7 +4,7 @@
 
 ### DataAwsccBedrockagentcoreCodeInterpreterCustoms <a name="DataAwsccBedrockagentcoreCodeInterpreterCustoms" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreCodeInterpreterCustoms.DataAwsccBedrockagentcoreCodeInterpreterCustoms"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/bedrockagentcore_code_interpreter_customs awscc_bedrockagentcore_code_interpreter_customs}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/bedrockagentcore_code_interpreter_customs awscc_bedrockagentcore_code_interpreter_customs}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreCodeInterpreterCustoms.DataAwsccBedrockagentcoreCodeInterpreterCustoms.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccBedrockagentcoreC
 
 The id of the existing DataAwsccBedrockagentcoreCodeInterpreterCustoms that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/bedrockagentcore_code_interpreter_customs#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/bedrockagentcore_code_interpreter_customs#import import section} in the documentation of this resource for the id to use
 
 ---
 

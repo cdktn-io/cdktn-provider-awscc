@@ -4,7 +4,7 @@
 
 ### DataAwsccConnectApprovedOrigins <a name="DataAwsccConnectApprovedOrigins" id="@cdktn/provider-awscc.dataAwsccConnectApprovedOrigins.DataAwsccConnectApprovedOrigins"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/connect_approved_origins awscc_connect_approved_origins}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/connect_approved_origins awscc_connect_approved_origins}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectApprovedOrigins.DataAwsccConnectApprovedOrigins.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccConnectApprovedOr
 
 The id of the existing DataAwsccConnectApprovedOrigins that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/connect_approved_origins#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/connect_approved_origins#import import section} in the documentation of this resource for the id to use
 
 ---
 

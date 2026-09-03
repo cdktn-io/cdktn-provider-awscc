@@ -4,7 +4,7 @@
 
 ### DataAwsccResiliencehubv2Policies <a name="DataAwsccResiliencehubv2Policies" id="@cdktn/provider-awscc.dataAwsccResiliencehubv2Policies.DataAwsccResiliencehubv2Policies"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/resiliencehubv2_policies awscc_resiliencehubv2_policies}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/resiliencehubv2_policies awscc_resiliencehubv2_policies}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccResiliencehubv2Policies.DataAwsccResiliencehubv2Policies.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccResiliencehubv2Po
 
 The id of the existing DataAwsccResiliencehubv2Policies that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/resiliencehubv2_policies#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/resiliencehubv2_policies#import import section} in the documentation of this resource for the id to use
 
 ---
 

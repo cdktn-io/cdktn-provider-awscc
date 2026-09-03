@@ -4,7 +4,7 @@
 
 ### OmicsReferenceStore <a name="OmicsReferenceStore" id="@cdktn/provider-awscc.omicsReferenceStore.OmicsReferenceStore"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/omics_reference_store awscc_omics_reference_store}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/omics_reference_store awscc_omics_reference_store}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.omicsReferenceStore.OmicsReferenceStore.Initializer"></a>
 
@@ -523,7 +523,7 @@ The construct id used in the generated config for the OmicsReferenceStore to imp
 
 The id of the existing OmicsReferenceStore that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/omics_reference_store#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/omics_reference_store#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -874,7 +874,7 @@ const omicsReferenceStoreConfig: omicsReferenceStore.OmicsReferenceStoreConfig =
 | <code><a href="#@cdktn/provider-awscc.omicsReferenceStore.OmicsReferenceStoreConfig.property.name">name</a></code> | <code>string</code> | A name for the store. |
 | <code><a href="#@cdktn/provider-awscc.omicsReferenceStore.OmicsReferenceStoreConfig.property.description">description</a></code> | <code>string</code> | A description for the store. |
 | <code><a href="#@cdktn/provider-awscc.omicsReferenceStore.OmicsReferenceStoreConfig.property.sseConfig">sseConfig</a></code> | <code><a href="#@cdktn/provider-awscc.omicsReferenceStore.OmicsReferenceStoreSseConfig">OmicsReferenceStoreSseConfig</a></code> | Server-side encryption (SSE) settings for a store. |
-| <code><a href="#@cdktn/provider-awscc.omicsReferenceStore.OmicsReferenceStoreConfig.property.tags">tags</a></code> | <code>{[ key: string ]: string}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/omics_reference_store#tags OmicsReferenceStore#tags}. |
+| <code><a href="#@cdktn/provider-awscc.omicsReferenceStore.OmicsReferenceStoreConfig.property.tags">tags</a></code> | <code>{[ key: string ]: string}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/omics_reference_store#tags OmicsReferenceStore#tags}. |
 
 ---
 
@@ -958,7 +958,7 @@ public readonly name: string;
 
 A name for the store.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/omics_reference_store#name OmicsReferenceStore#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/omics_reference_store#name OmicsReferenceStore#name}
 
 ---
 
@@ -972,7 +972,7 @@ public readonly description: string;
 
 A description for the store.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/omics_reference_store#description OmicsReferenceStore#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/omics_reference_store#description OmicsReferenceStore#description}
 
 ---
 
@@ -986,7 +986,7 @@ public readonly sseConfig: OmicsReferenceStoreSseConfig;
 
 Server-side encryption (SSE) settings for a store.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/omics_reference_store#sse_config OmicsReferenceStore#sse_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/omics_reference_store#sse_config OmicsReferenceStore#sse_config}
 
 ---
 
@@ -998,7 +998,7 @@ public readonly tags: {[ key: string ]: string};
 
 - *Type:* {[ key: string ]: string}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/omics_reference_store#tags OmicsReferenceStore#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/omics_reference_store#tags OmicsReferenceStore#tags}.
 
 ---
 
@@ -1017,7 +1017,7 @@ const omicsReferenceStoreSseConfig: omicsReferenceStore.OmicsReferenceStoreSseCo
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.omicsReferenceStore.OmicsReferenceStoreSseConfig.property.keyArn">keyArn</a></code> | <code>string</code> | An encryption key ARN. |
-| <code><a href="#@cdktn/provider-awscc.omicsReferenceStore.OmicsReferenceStoreSseConfig.property.type">type</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/omics_reference_store#type OmicsReferenceStore#type}. |
+| <code><a href="#@cdktn/provider-awscc.omicsReferenceStore.OmicsReferenceStoreSseConfig.property.type">type</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/omics_reference_store#type OmicsReferenceStore#type}. |
 
 ---
 
@@ -1031,7 +1031,7 @@ public readonly keyArn: string;
 
 An encryption key ARN.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/omics_reference_store#key_arn OmicsReferenceStore#key_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/omics_reference_store#key_arn OmicsReferenceStore#key_arn}
 
 ---
 
@@ -1043,7 +1043,7 @@ public readonly type: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/omics_reference_store#type OmicsReferenceStore#type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/omics_reference_store#type OmicsReferenceStore#type}.
 
 ---
 

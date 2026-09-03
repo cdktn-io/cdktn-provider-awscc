@@ -4,7 +4,7 @@
 
 ### S3VectorsVectorBucketPolicy <a name="S3VectorsVectorBucketPolicy" id="@cdktn/provider-awscc.s3VectorsVectorBucketPolicy.S3VectorsVectorBucketPolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3vectors_vector_bucket_policy awscc_s3vectors_vector_bucket_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/s3vectors_vector_bucket_policy awscc_s3vectors_vector_bucket_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3VectorsVectorBucketPolicy.S3VectorsVectorBucketPolicy.Initializer"></a>
 
@@ -503,7 +503,7 @@ The construct id used in the generated config for the S3VectorsVectorBucketPolic
 
 The id of the existing S3VectorsVectorBucketPolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3vectors_vector_bucket_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/s3vectors_vector_bucket_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -884,7 +884,7 @@ A policy document containing permissions to add to the specified vector bucket.
 
 In IAM, you must provide policy documents in JSON format. However, in CloudFormation you can provide the policy in JSON or YAML format because CloudFormation converts YAML to JSON before submitting it to IAM.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3vectors_vector_bucket_policy#policy S3VectorsVectorBucketPolicy#policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/s3vectors_vector_bucket_policy#policy S3VectorsVectorBucketPolicy#policy}
 
 ---
 
@@ -898,7 +898,7 @@ public readonly vectorBucketArn: string;
 
 The Amazon Resource Name (ARN) of the vector bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3vectors_vector_bucket_policy#vector_bucket_arn S3VectorsVectorBucketPolicy#vector_bucket_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/s3vectors_vector_bucket_policy#vector_bucket_arn S3VectorsVectorBucketPolicy#vector_bucket_arn}
 
 ---
 
@@ -912,7 +912,7 @@ public readonly vectorBucketName: string;
 
 The name of the vector bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3vectors_vector_bucket_policy#vector_bucket_name S3VectorsVectorBucketPolicy#vector_bucket_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/s3vectors_vector_bucket_policy#vector_bucket_name S3VectorsVectorBucketPolicy#vector_bucket_name}
 
 ---
 

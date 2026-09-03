@@ -4,7 +4,7 @@
 
 ### IotsitewiseGateway <a name="IotsitewiseGateway" id="@cdktn/provider-awscc.iotsitewiseGateway.IotsitewiseGateway"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_gateway awscc_iotsitewise_gateway}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotsitewise_gateway awscc_iotsitewise_gateway}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseGateway.IotsitewiseGateway.Initializer"></a>
 
@@ -549,7 +549,7 @@ The construct id used in the generated config for the IotsitewiseGateway to impo
 
 The id of the existing IotsitewiseGateway that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_gateway#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotsitewise_gateway#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -985,7 +985,7 @@ public readonly gatewayName: string;
 
 A unique, friendly name for the gateway.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_gateway#gateway_name IotsitewiseGateway#gateway_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotsitewise_gateway#gateway_name IotsitewiseGateway#gateway_name}
 
 ---
 
@@ -999,7 +999,7 @@ public readonly gatewayPlatform: IotsitewiseGatewayGatewayPlatform;
 
 The gateway's platform. You can only specify one platform in a gateway.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_gateway#gateway_platform IotsitewiseGateway#gateway_platform}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotsitewise_gateway#gateway_platform IotsitewiseGateway#gateway_platform}
 
 ---
 
@@ -1013,7 +1013,7 @@ public readonly gatewayCapabilitySummaries: IResolvable | IotsitewiseGatewayGate
 
 A list of gateway capability summaries that each contain a namespace and status.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_gateway#gateway_capability_summaries IotsitewiseGateway#gateway_capability_summaries}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotsitewise_gateway#gateway_capability_summaries IotsitewiseGateway#gateway_capability_summaries}
 
 ---
 
@@ -1027,7 +1027,7 @@ public readonly gatewayVersion: string;
 
 The version of the gateway you want to create.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_gateway#gateway_version IotsitewiseGateway#gateway_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotsitewise_gateway#gateway_version IotsitewiseGateway#gateway_version}
 
 ---
 
@@ -1041,7 +1041,7 @@ public readonly tags: IResolvable | IotsitewiseGatewayTags[];
 
 A list of key-value pairs that contain metadata for the gateway.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_gateway#tags IotsitewiseGateway#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotsitewise_gateway#tags IotsitewiseGateway#tags}
 
 ---
 
@@ -1074,7 +1074,7 @@ public readonly capabilityConfiguration: string;
 
 The JSON document that defines the gateway capability's configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_gateway#capability_configuration IotsitewiseGateway#capability_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotsitewise_gateway#capability_configuration IotsitewiseGateway#capability_configuration}
 
 ---
 
@@ -1088,7 +1088,7 @@ public readonly capabilityNamespace: string;
 
 The namespace of the capability configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_gateway#capability_namespace IotsitewiseGateway#capability_namespace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotsitewise_gateway#capability_namespace IotsitewiseGateway#capability_namespace}
 
 ---
 
@@ -1121,7 +1121,7 @@ public readonly greengrassV2: IotsitewiseGatewayGatewayPlatformGreengrassV2;
 
 A gateway that runs on AWS IoT Greengrass V2.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_gateway#greengrass_v2 IotsitewiseGateway#greengrass_v2}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotsitewise_gateway#greengrass_v2 IotsitewiseGateway#greengrass_v2}
 
 ---
 
@@ -1135,7 +1135,7 @@ public readonly siemensIe: IotsitewiseGatewayGatewayPlatformSiemensIe;
 
 A gateway that runs on Siemens Industrial Edge.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_gateway#siemens_ie IotsitewiseGateway#siemens_ie}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotsitewise_gateway#siemens_ie IotsitewiseGateway#siemens_ie}
 
 ---
 
@@ -1168,7 +1168,7 @@ public readonly coreDeviceOperatingSystem: string;
 
 The operating system of the core device in AWS IoT Greengrass V2.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_gateway#core_device_operating_system IotsitewiseGateway#core_device_operating_system}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotsitewise_gateway#core_device_operating_system IotsitewiseGateway#core_device_operating_system}
 
 ---
 
@@ -1182,7 +1182,7 @@ public readonly coreDeviceThingName: string;
 
 The name of the CoreDevice in GreenGrass V2.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_gateway#core_device_thing_name IotsitewiseGateway#core_device_thing_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotsitewise_gateway#core_device_thing_name IotsitewiseGateway#core_device_thing_name}
 
 ---
 
@@ -1214,7 +1214,7 @@ public readonly iotCoreThingName: string;
 
 The name of the IoT Core Thing.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_gateway#iot_core_thing_name IotsitewiseGateway#iot_core_thing_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotsitewise_gateway#iot_core_thing_name IotsitewiseGateway#iot_core_thing_name}
 
 ---
 
@@ -1232,8 +1232,8 @@ const iotsitewiseGatewayTags: iotsitewiseGateway.IotsitewiseGatewayTags = { ... 
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.iotsitewiseGateway.IotsitewiseGatewayTags.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_gateway#key IotsitewiseGateway#key}. |
-| <code><a href="#@cdktn/provider-awscc.iotsitewiseGateway.IotsitewiseGatewayTags.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_gateway#value IotsitewiseGateway#value}. |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseGateway.IotsitewiseGatewayTags.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotsitewise_gateway#key IotsitewiseGateway#key}. |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseGateway.IotsitewiseGatewayTags.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotsitewise_gateway#value IotsitewiseGateway#value}. |
 
 ---
 
@@ -1245,7 +1245,7 @@ public readonly key: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_gateway#key IotsitewiseGateway#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotsitewise_gateway#key IotsitewiseGateway#key}.
 
 ---
 
@@ -1257,7 +1257,7 @@ public readonly value: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_gateway#value IotsitewiseGateway#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotsitewise_gateway#value IotsitewiseGateway#value}.
 
 ---
 

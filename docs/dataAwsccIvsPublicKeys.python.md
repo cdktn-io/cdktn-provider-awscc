@@ -4,7 +4,7 @@
 
 ### DataAwsccIvsPublicKeys <a name="DataAwsccIvsPublicKeys" id="@cdktn/provider-awscc.dataAwsccIvsPublicKeys.DataAwsccIvsPublicKeys"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ivs_public_keys awscc_ivs_public_keys}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ivs_public_keys awscc_ivs_public_keys}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIvsPublicKeys.DataAwsccIvsPublicKeys.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccIvsPublicKeys to 
 
 The id of the existing DataAwsccIvsPublicKeys that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ivs_public_keys#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ivs_public_keys#import import section} in the documentation of this resource for the id to use
 
 ---
 

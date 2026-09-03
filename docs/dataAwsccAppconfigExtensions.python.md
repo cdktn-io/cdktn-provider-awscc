@@ -4,7 +4,7 @@
 
 ### DataAwsccAppconfigExtensions <a name="DataAwsccAppconfigExtensions" id="@cdktn/provider-awscc.dataAwsccAppconfigExtensions.DataAwsccAppconfigExtensions"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/appconfig_extensions awscc_appconfig_extensions}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/appconfig_extensions awscc_appconfig_extensions}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppconfigExtensions.DataAwsccAppconfigExtensions.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccAppconfigExtensio
 
 The id of the existing DataAwsccAppconfigExtensions that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/appconfig_extensions#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/appconfig_extensions#import import section} in the documentation of this resource for the id to use
 
 ---
 

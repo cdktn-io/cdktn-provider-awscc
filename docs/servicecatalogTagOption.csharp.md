@@ -4,7 +4,7 @@
 
 ### ServicecatalogTagOption <a name="ServicecatalogTagOption" id="@cdktn/provider-awscc.servicecatalogTagOption.ServicecatalogTagOption"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicecatalog_tag_option awscc_servicecatalog_tag_option}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/servicecatalog_tag_option awscc_servicecatalog_tag_option}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.servicecatalogTagOption.ServicecatalogTagOption.Initializer"></a>
 
@@ -496,7 +496,7 @@ The construct id used in the generated config for the ServicecatalogTagOption to
 
 The id of the existing ServicecatalogTagOption that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicecatalog_tag_option#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/servicecatalog_tag_option#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -897,7 +897,7 @@ public string Key { get; set; }
 
 The TagOption key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicecatalog_tag_option#key ServicecatalogTagOption#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/servicecatalog_tag_option#key ServicecatalogTagOption#key}
 
 ---
 
@@ -911,7 +911,7 @@ public string Value { get; set; }
 
 The TagOption value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicecatalog_tag_option#value ServicecatalogTagOption#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/servicecatalog_tag_option#value ServicecatalogTagOption#value}
 
 ---
 
@@ -925,7 +925,7 @@ public bool|IResolvable Active { get; set; }
 
 The TagOption active state.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicecatalog_tag_option#active ServicecatalogTagOption#active}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/servicecatalog_tag_option#active ServicecatalogTagOption#active}
 
 ---
 

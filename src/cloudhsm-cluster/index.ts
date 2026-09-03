@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudhsm_cluster
+// https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudhsm_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,37 +15,37 @@ export interface CloudhsmClusterConfig extends cdktn.TerraformMetaArguments {
   /**
   * A policy that defines how the service retains backups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudhsm_cluster#backup_retention_policy CloudhsmCluster#backup_retention_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudhsm_cluster#backup_retention_policy CloudhsmCluster#backup_retention_policy}
   */
   readonly backupRetentionPolicy?: CloudhsmClusterBackupRetentionPolicy;
   /**
   * The type of HSM to use in the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudhsm_cluster#hsm_type CloudhsmCluster#hsm_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudhsm_cluster#hsm_type CloudhsmCluster#hsm_type}
   */
   readonly hsmType: string;
   /**
   * The mode to use in the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudhsm_cluster#mode CloudhsmCluster#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudhsm_cluster#mode CloudhsmCluster#mode}
   */
   readonly mode?: string;
   /**
   * The NetworkType to create a cluster with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudhsm_cluster#network_type CloudhsmCluster#network_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudhsm_cluster#network_type CloudhsmCluster#network_type}
   */
   readonly networkType?: string;
   /**
   * The identifiers (IDs) of the subnets where the cluster is created. You must specify at least one subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudhsm_cluster#subnet_ids CloudhsmCluster#subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudhsm_cluster#subnet_ids CloudhsmCluster#subnet_ids}
   */
   readonly subnetIds?: string[];
   /**
   * Tags to apply to the CloudHSM cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudhsm_cluster#tags CloudhsmCluster#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudhsm_cluster#tags CloudhsmCluster#tags}
   */
   readonly tags?: CloudhsmClusterTags[] | cdktn.IResolvable;
 }
@@ -53,13 +53,13 @@ export interface CloudhsmClusterBackupRetentionPolicy {
   /**
   * The type of backup retention policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudhsm_cluster#type CloudhsmCluster#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudhsm_cluster#type CloudhsmCluster#type}
   */
   readonly type?: string;
   /**
   * Use a value between 7 - 379.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudhsm_cluster#value CloudhsmCluster#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudhsm_cluster#value CloudhsmCluster#value}
   */
   readonly value?: string;
 }
@@ -184,13 +184,13 @@ export interface CloudhsmClusterTags {
   /**
   * The key of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudhsm_cluster#key CloudhsmCluster#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudhsm_cluster#key CloudhsmCluster#key}
   */
   readonly key?: string;
   /**
   * The value of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudhsm_cluster#value CloudhsmCluster#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudhsm_cluster#value CloudhsmCluster#value}
   */
   readonly value?: string;
 }
@@ -335,7 +335,7 @@ export class CloudhsmClusterTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudhsm_cluster awscc_cloudhsm_cluster}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudhsm_cluster awscc_cloudhsm_cluster}
 */
 export class CloudhsmCluster extends cdktn.TerraformResource {
 
@@ -351,7 +351,7 @@ export class CloudhsmCluster extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a CloudhsmCluster resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudhsmCluster to import
-  * @param importFromId The id of the existing CloudhsmCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudhsm_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudhsmCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudhsm_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudhsmCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -363,7 +363,7 @@ export class CloudhsmCluster extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudhsm_cluster awscc_cloudhsm_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudhsm_cluster awscc_cloudhsm_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -374,7 +374,7 @@ export class CloudhsmCluster extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_cloudhsm_cluster',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.99.0',
+        providerVersion: '1.100.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

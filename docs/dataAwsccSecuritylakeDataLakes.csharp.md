@@ -4,7 +4,7 @@
 
 ### DataAwsccSecuritylakeDataLakes <a name="DataAwsccSecuritylakeDataLakes" id="@cdktn/provider-awscc.dataAwsccSecuritylakeDataLakes.DataAwsccSecuritylakeDataLakes"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/securitylake_data_lakes awscc_securitylake_data_lakes}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/securitylake_data_lakes awscc_securitylake_data_lakes}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecuritylakeDataLakes.DataAwsccSecuritylakeDataLakes.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSecuritylakeDataL
 
 The id of the existing DataAwsccSecuritylakeDataLakes that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/securitylake_data_lakes#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/securitylake_data_lakes#import import section} in the documentation of this resource for the id to use
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### DataAwsccOdbCloudExadataInfrastructures <a name="DataAwsccOdbCloudExadataInfrastructures" id="@cdktn/provider-awscc.dataAwsccOdbCloudExadataInfrastructures.DataAwsccOdbCloudExadataInfrastructures"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/odb_cloud_exadata_infrastructures awscc_odb_cloud_exadata_infrastructures}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/odb_cloud_exadata_infrastructures awscc_odb_cloud_exadata_infrastructures}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOdbCloudExadataInfrastructures.DataAwsccOdbCloudExadataInfrastructures.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccOdbCloudExadataIn
 
 The id of the existing DataAwsccOdbCloudExadataInfrastructures that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/odb_cloud_exadata_infrastructures#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/odb_cloud_exadata_infrastructures#import import section} in the documentation of this resource for the id to use
 
 ---
 

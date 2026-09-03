@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/serverlessrepo_application
+// https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/serverlessrepo_application
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,73 +15,73 @@ export interface ServerlessrepoApplicationConfig extends cdktn.TerraformMetaArgu
   /**
   * The name of the author publishing the app.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/serverlessrepo_application#author ServerlessrepoApplication#author}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/serverlessrepo_application#author ServerlessrepoApplication#author}
   */
   readonly author: string;
   /**
   * The description of the application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/serverlessrepo_application#description ServerlessrepoApplication#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/serverlessrepo_application#description ServerlessrepoApplication#description}
   */
   readonly description: string;
   /**
   * A URL with more information about the application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/serverlessrepo_application#home_page_url ServerlessrepoApplication#home_page_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/serverlessrepo_application#home_page_url ServerlessrepoApplication#home_page_url}
   */
   readonly homePageUrl?: string;
   /**
   * Labels to improve discovery of apps in search results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/serverlessrepo_application#labels ServerlessrepoApplication#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/serverlessrepo_application#labels ServerlessrepoApplication#labels}
   */
   readonly labels?: string[];
   /**
   * A local text file that contains the license of the app.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/serverlessrepo_application#license_body ServerlessrepoApplication#license_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/serverlessrepo_application#license_body ServerlessrepoApplication#license_body}
   */
   readonly licenseBody?: string;
   /**
   * The name of the application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/serverlessrepo_application#name ServerlessrepoApplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/serverlessrepo_application#name ServerlessrepoApplication#name}
   */
   readonly name: string;
   /**
   * A text readme file in Markdown language that contains a more detailed description of the application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/serverlessrepo_application#readme_body ServerlessrepoApplication#readme_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/serverlessrepo_application#readme_body ServerlessrepoApplication#readme_body}
   */
   readonly readmeBody?: string;
   /**
   * The semantic version of the application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/serverlessrepo_application#semantic_version ServerlessrepoApplication#semantic_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/serverlessrepo_application#semantic_version ServerlessrepoApplication#semantic_version}
   */
   readonly semanticVersion?: string;
   /**
   * A link to a public repository for the source code of your application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/serverlessrepo_application#source_code_url ServerlessrepoApplication#source_code_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/serverlessrepo_application#source_code_url ServerlessrepoApplication#source_code_url}
   */
   readonly sourceCodeUrl?: string;
   /**
   * A valid identifier from https://spdx.org/licenses/.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/serverlessrepo_application#spdx_license_id ServerlessrepoApplication#spdx_license_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/serverlessrepo_application#spdx_license_id ServerlessrepoApplication#spdx_license_id}
   */
   readonly spdxLicenseId?: string;
   /**
   * The local raw packaged AWS SAM template file of your application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/serverlessrepo_application#template_body ServerlessrepoApplication#template_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/serverlessrepo_application#template_body ServerlessrepoApplication#template_body}
   */
   readonly templateBody?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/serverlessrepo_application awscc_serverlessrepo_application}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/serverlessrepo_application awscc_serverlessrepo_application}
 */
 export class ServerlessrepoApplication extends cdktn.TerraformResource {
 
@@ -97,7 +97,7 @@ export class ServerlessrepoApplication extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ServerlessrepoApplication resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServerlessrepoApplication to import
-  * @param importFromId The id of the existing ServerlessrepoApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/serverlessrepo_application#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServerlessrepoApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/serverlessrepo_application#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServerlessrepoApplication to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -109,7 +109,7 @@ export class ServerlessrepoApplication extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/serverlessrepo_application awscc_serverlessrepo_application} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/serverlessrepo_application awscc_serverlessrepo_application} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -120,7 +120,7 @@ export class ServerlessrepoApplication extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_serverlessrepo_application',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.99.0',
+        providerVersion: '1.100.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

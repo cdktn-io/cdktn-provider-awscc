@@ -4,7 +4,7 @@
 
 ### DataAwsccDmsDataProviders <a name="DataAwsccDmsDataProviders" id="@cdktn/provider-awscc.dataAwsccDmsDataProviders.DataAwsccDmsDataProviders"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/dms_data_providers awscc_dms_data_providers}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/dms_data_providers awscc_dms_data_providers}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDmsDataProviders.DataAwsccDmsDataProviders.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccDmsDataProviders 
 
 The id of the existing DataAwsccDmsDataProviders that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/dms_data_providers#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/dms_data_providers#import import section} in the documentation of this resource for the id to use
 
 ---
 

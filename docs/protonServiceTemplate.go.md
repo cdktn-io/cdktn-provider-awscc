@@ -4,7 +4,7 @@
 
 ### ProtonServiceTemplate <a name="ProtonServiceTemplate" id="@cdktn/provider-awscc.protonServiceTemplate.ProtonServiceTemplate"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/proton_service_template awscc_proton_service_template}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/proton_service_template awscc_proton_service_template}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.protonServiceTemplate.ProtonServiceTemplate.Initializer"></a>
 
@@ -544,7 +544,7 @@ The construct id used in the generated config for the ProtonServiceTemplate to i
 
 The id of the existing ProtonServiceTemplate that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/proton_service_template#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/proton_service_template#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -931,8 +931,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/protonservicetemplate"
 | <code><a href="#@cdktn/provider-awscc.protonServiceTemplate.ProtonServiceTemplateConfig.property.description">Description</a></code> | <code>*string</code> | <p>A description of the service template.</p>. |
 | <code><a href="#@cdktn/provider-awscc.protonServiceTemplate.ProtonServiceTemplateConfig.property.displayName">DisplayName</a></code> | <code>*string</code> | <p>The name of the service template as displayed in the developer interface.</p>. |
 | <code><a href="#@cdktn/provider-awscc.protonServiceTemplate.ProtonServiceTemplateConfig.property.encryptionKey">EncryptionKey</a></code> | <code>*string</code> | <p>A customer provided encryption key that's used to encrypt data.</p>. |
-| <code><a href="#@cdktn/provider-awscc.protonServiceTemplate.ProtonServiceTemplateConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/proton_service_template#name ProtonServiceTemplate#name}. |
-| <code><a href="#@cdktn/provider-awscc.protonServiceTemplate.ProtonServiceTemplateConfig.property.pipelineProvisioning">PipelineProvisioning</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/proton_service_template#pipeline_provisioning ProtonServiceTemplate#pipeline_provisioning}. |
+| <code><a href="#@cdktn/provider-awscc.protonServiceTemplate.ProtonServiceTemplateConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/proton_service_template#name ProtonServiceTemplate#name}. |
+| <code><a href="#@cdktn/provider-awscc.protonServiceTemplate.ProtonServiceTemplateConfig.property.pipelineProvisioning">PipelineProvisioning</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/proton_service_template#pipeline_provisioning ProtonServiceTemplate#pipeline_provisioning}. |
 | <code><a href="#@cdktn/provider-awscc.protonServiceTemplate.ProtonServiceTemplateConfig.property.tags">Tags</a></code> | <code>interface{}</code> | <p>An optional list of metadata items that you can associate with the Proton service template. |
 
 ---
@@ -1017,7 +1017,7 @@ Description *string
 
 <p>A description of the service template.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/proton_service_template#description ProtonServiceTemplate#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/proton_service_template#description ProtonServiceTemplate#description}
 
 ---
 
@@ -1031,7 +1031,7 @@ DisplayName *string
 
 <p>The name of the service template as displayed in the developer interface.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/proton_service_template#display_name ProtonServiceTemplate#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/proton_service_template#display_name ProtonServiceTemplate#display_name}
 
 ---
 
@@ -1045,7 +1045,7 @@ EncryptionKey *string
 
 <p>A customer provided encryption key that's used to encrypt data.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/proton_service_template#encryption_key ProtonServiceTemplate#encryption_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/proton_service_template#encryption_key ProtonServiceTemplate#encryption_key}
 
 ---
 
@@ -1057,7 +1057,7 @@ Name *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/proton_service_template#name ProtonServiceTemplate#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/proton_service_template#name ProtonServiceTemplate#name}.
 
 ---
 
@@ -1069,7 +1069,7 @@ PipelineProvisioning *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/proton_service_template#pipeline_provisioning ProtonServiceTemplate#pipeline_provisioning}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/proton_service_template#pipeline_provisioning ProtonServiceTemplate#pipeline_provisioning}.
 
 ---
 
@@ -1087,7 +1087,7 @@ A tag is a key-value pair.</p>
 <p>For more information, see <a href="https://docs.aws.amazon.com/proton/latest/userguide/resources.html">Proton resources and tagging</a> in the
 <i>Proton User Guide</i>.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/proton_service_template#tags ProtonServiceTemplate#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/proton_service_template#tags ProtonServiceTemplate#tags}
 
 ---
 
@@ -1123,7 +1123,7 @@ Key *string
 
 <p>The key of the resource tag.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/proton_service_template#key ProtonServiceTemplate#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/proton_service_template#key ProtonServiceTemplate#key}
 
 ---
 
@@ -1137,7 +1137,7 @@ Value *string
 
 <p>The value of the resource tag.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/proton_service_template#value ProtonServiceTemplate#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/proton_service_template#value ProtonServiceTemplate#value}
 
 ---
 

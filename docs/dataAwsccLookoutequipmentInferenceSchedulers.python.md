@@ -4,7 +4,7 @@
 
 ### DataAwsccLookoutequipmentInferenceSchedulers <a name="DataAwsccLookoutequipmentInferenceSchedulers" id="@cdktn/provider-awscc.dataAwsccLookoutequipmentInferenceSchedulers.DataAwsccLookoutequipmentInferenceSchedulers"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/lookoutequipment_inference_schedulers awscc_lookoutequipment_inference_schedulers}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/lookoutequipment_inference_schedulers awscc_lookoutequipment_inference_schedulers}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLookoutequipmentInferenceSchedulers.DataAwsccLookoutequipmentInferenceSchedulers.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccLookoutequipmentI
 
 The id of the existing DataAwsccLookoutequipmentInferenceSchedulers that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/lookoutequipment_inference_schedulers#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/lookoutequipment_inference_schedulers#import import section} in the documentation of this resource for the id to use
 
 ---
 

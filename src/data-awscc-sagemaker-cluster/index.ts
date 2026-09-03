@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/sagemaker_cluster
+// https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/sagemaker_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccSagemakerClusterConfig extends cdktn.TerraformMetaArgu
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/sagemaker_cluster#id DataAwsccSagemakerCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/sagemaker_cluster#id DataAwsccSagemakerCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -81,6 +81,446 @@ export class DataAwsccSagemakerClusterAutoScalingOutputReference extends cdktn.C
     return this.getStringAttribute('mode');
   }
 }
+export interface DataAwsccSagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigAutoRollbackConfiguration {
+}
+
+export function dataAwsccSagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigAutoRollbackConfigurationToTerraform(struct?: DataAwsccSagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigAutoRollbackConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccSagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigAutoRollbackConfigurationToHclTerraform(struct?: DataAwsccSagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigAutoRollbackConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccSagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigAutoRollbackConfigurationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataAwsccSagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigAutoRollbackConfiguration | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccSagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigAutoRollbackConfiguration | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // alarm_name - computed: true, optional: false, required: false
+  public get alarmName() {
+    return this.getStringAttribute('alarm_name');
+  }
+}
+
+export class DataAwsccSagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigAutoRollbackConfigurationList extends cdktn.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataAwsccSagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigAutoRollbackConfigurationOutputReference {
+    return new DataAwsccSagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigAutoRollbackConfigurationOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataAwsccSagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigRollingUpdatePolicyMaximumBatchSize {
+}
+
+export function dataAwsccSagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigRollingUpdatePolicyMaximumBatchSizeToTerraform(struct?: DataAwsccSagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigRollingUpdatePolicyMaximumBatchSize): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccSagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigRollingUpdatePolicyMaximumBatchSizeToHclTerraform(struct?: DataAwsccSagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigRollingUpdatePolicyMaximumBatchSize): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccSagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigRollingUpdatePolicyMaximumBatchSizeOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccSagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigRollingUpdatePolicyMaximumBatchSize | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccSagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigRollingUpdatePolicyMaximumBatchSize | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // type - computed: true, optional: false, required: false
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+
+  // value - computed: true, optional: false, required: false
+  public get value() {
+    return this.getNumberAttribute('value');
+  }
+}
+export interface DataAwsccSagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigRollingUpdatePolicyRollbackMaximumBatchSize {
+}
+
+export function dataAwsccSagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigRollingUpdatePolicyRollbackMaximumBatchSizeToTerraform(struct?: DataAwsccSagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigRollingUpdatePolicyRollbackMaximumBatchSize): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccSagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigRollingUpdatePolicyRollbackMaximumBatchSizeToHclTerraform(struct?: DataAwsccSagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigRollingUpdatePolicyRollbackMaximumBatchSize): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccSagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigRollingUpdatePolicyRollbackMaximumBatchSizeOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccSagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigRollingUpdatePolicyRollbackMaximumBatchSize | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccSagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigRollingUpdatePolicyRollbackMaximumBatchSize | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // type - computed: true, optional: false, required: false
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+
+  // value - computed: true, optional: false, required: false
+  public get value() {
+    return this.getNumberAttribute('value');
+  }
+}
+export interface DataAwsccSagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigRollingUpdatePolicy {
+}
+
+export function dataAwsccSagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigRollingUpdatePolicyToTerraform(struct?: DataAwsccSagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigRollingUpdatePolicy): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccSagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigRollingUpdatePolicyToHclTerraform(struct?: DataAwsccSagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigRollingUpdatePolicy): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccSagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigRollingUpdatePolicyOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccSagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigRollingUpdatePolicy | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccSagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigRollingUpdatePolicy | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // maximum_batch_size - computed: true, optional: false, required: false
+  private _maximumBatchSize = new DataAwsccSagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigRollingUpdatePolicyMaximumBatchSizeOutputReference(this, "maximum_batch_size");
+  public get maximumBatchSize() {
+    return this._maximumBatchSize;
+  }
+
+  // rollback_maximum_batch_size - computed: true, optional: false, required: false
+  private _rollbackMaximumBatchSize = new DataAwsccSagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigRollingUpdatePolicyRollbackMaximumBatchSizeOutputReference(this, "rollback_maximum_batch_size");
+  public get rollbackMaximumBatchSize() {
+    return this._rollbackMaximumBatchSize;
+  }
+}
+export interface DataAwsccSagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfig {
+}
+
+export function dataAwsccSagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigToTerraform(struct?: DataAwsccSagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccSagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigToHclTerraform(struct?: DataAwsccSagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccSagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccSagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccSagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // auto_rollback_configuration - computed: true, optional: false, required: false
+  private _autoRollbackConfiguration = new DataAwsccSagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigAutoRollbackConfigurationList(this, "auto_rollback_configuration", false);
+  public get autoRollbackConfiguration() {
+    return this._autoRollbackConfiguration;
+  }
+
+  // rolling_update_policy - computed: true, optional: false, required: false
+  private _rollingUpdatePolicy = new DataAwsccSagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigRollingUpdatePolicyOutputReference(this, "rolling_update_policy");
+  public get rollingUpdatePolicy() {
+    return this._rollingUpdatePolicy;
+  }
+
+  // wait_interval_in_seconds - computed: true, optional: false, required: false
+  public get waitIntervalInSeconds() {
+    return this.getNumberAttribute('wait_interval_in_seconds');
+  }
+}
+export interface DataAwsccSagemakerClusterInstanceGroupsAutoPatchConfigPatchSchedule {
+}
+
+export function dataAwsccSagemakerClusterInstanceGroupsAutoPatchConfigPatchScheduleToTerraform(struct?: DataAwsccSagemakerClusterInstanceGroupsAutoPatchConfigPatchSchedule): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccSagemakerClusterInstanceGroupsAutoPatchConfigPatchScheduleToHclTerraform(struct?: DataAwsccSagemakerClusterInstanceGroupsAutoPatchConfigPatchSchedule): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccSagemakerClusterInstanceGroupsAutoPatchConfigPatchScheduleOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccSagemakerClusterInstanceGroupsAutoPatchConfigPatchSchedule | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccSagemakerClusterInstanceGroupsAutoPatchConfigPatchSchedule | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // next_patch_date - computed: true, optional: false, required: false
+  public get nextPatchDate() {
+    return this.getStringAttribute('next_patch_date');
+  }
+}
+export interface DataAwsccSagemakerClusterInstanceGroupsAutoPatchConfig {
+}
+
+export function dataAwsccSagemakerClusterInstanceGroupsAutoPatchConfigToTerraform(struct?: DataAwsccSagemakerClusterInstanceGroupsAutoPatchConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccSagemakerClusterInstanceGroupsAutoPatchConfigToHclTerraform(struct?: DataAwsccSagemakerClusterInstanceGroupsAutoPatchConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccSagemakerClusterInstanceGroupsAutoPatchConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccSagemakerClusterInstanceGroupsAutoPatchConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccSagemakerClusterInstanceGroupsAutoPatchConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // deployment_config - computed: true, optional: false, required: false
+  private _deploymentConfig = new DataAwsccSagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigOutputReference(this, "deployment_config");
+  public get deploymentConfig() {
+    return this._deploymentConfig;
+  }
+
+  // patch_schedule - computed: true, optional: false, required: false
+  private _patchSchedule = new DataAwsccSagemakerClusterInstanceGroupsAutoPatchConfigPatchScheduleOutputReference(this, "patch_schedule");
+  public get patchSchedule() {
+    return this._patchSchedule;
+  }
+
+  // patching_strategy - computed: true, optional: false, required: false
+  public get patchingStrategy() {
+    return this.getStringAttribute('patching_strategy');
+  }
+}
 export interface DataAwsccSagemakerClusterInstanceGroupsCapacityRequirements {
 }
 
@@ -138,6 +578,60 @@ export class DataAwsccSagemakerClusterInstanceGroupsCapacityRequirementsOutputRe
   // spot - computed: true, optional: false, required: false
   public get spot() {
     return this.getStringAttribute('spot');
+  }
+}
+export interface DataAwsccSagemakerClusterInstanceGroupsInstanceRequirements {
+}
+
+export function dataAwsccSagemakerClusterInstanceGroupsInstanceRequirementsToTerraform(struct?: DataAwsccSagemakerClusterInstanceGroupsInstanceRequirements): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccSagemakerClusterInstanceGroupsInstanceRequirementsToHclTerraform(struct?: DataAwsccSagemakerClusterInstanceGroupsInstanceRequirements): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccSagemakerClusterInstanceGroupsInstanceRequirementsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccSagemakerClusterInstanceGroupsInstanceRequirements | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccSagemakerClusterInstanceGroupsInstanceRequirements | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // instance_types - computed: true, optional: false, required: false
+  public get instanceTypes() {
+    return this.getListAttribute('instance_types');
   }
 }
 export interface DataAwsccSagemakerClusterInstanceGroupsInstanceStorageConfigsEbsVolumeConfig {
@@ -204,6 +698,129 @@ export class DataAwsccSagemakerClusterInstanceGroupsInstanceStorageConfigsEbsVol
     return this.getNumberAttribute('volume_size_in_gb');
   }
 }
+export interface DataAwsccSagemakerClusterInstanceGroupsInstanceStorageConfigsFsxLustreConfig {
+}
+
+export function dataAwsccSagemakerClusterInstanceGroupsInstanceStorageConfigsFsxLustreConfigToTerraform(struct?: DataAwsccSagemakerClusterInstanceGroupsInstanceStorageConfigsFsxLustreConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccSagemakerClusterInstanceGroupsInstanceStorageConfigsFsxLustreConfigToHclTerraform(struct?: DataAwsccSagemakerClusterInstanceGroupsInstanceStorageConfigsFsxLustreConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccSagemakerClusterInstanceGroupsInstanceStorageConfigsFsxLustreConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccSagemakerClusterInstanceGroupsInstanceStorageConfigsFsxLustreConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccSagemakerClusterInstanceGroupsInstanceStorageConfigsFsxLustreConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // dns_name - computed: true, optional: false, required: false
+  public get dnsName() {
+    return this.getStringAttribute('dns_name');
+  }
+
+  // mount_name - computed: true, optional: false, required: false
+  public get mountName() {
+    return this.getStringAttribute('mount_name');
+  }
+
+  // mount_path - computed: true, optional: false, required: false
+  public get mountPath() {
+    return this.getStringAttribute('mount_path');
+  }
+}
+export interface DataAwsccSagemakerClusterInstanceGroupsInstanceStorageConfigsFsxOpenZfsConfig {
+}
+
+export function dataAwsccSagemakerClusterInstanceGroupsInstanceStorageConfigsFsxOpenZfsConfigToTerraform(struct?: DataAwsccSagemakerClusterInstanceGroupsInstanceStorageConfigsFsxOpenZfsConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccSagemakerClusterInstanceGroupsInstanceStorageConfigsFsxOpenZfsConfigToHclTerraform(struct?: DataAwsccSagemakerClusterInstanceGroupsInstanceStorageConfigsFsxOpenZfsConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccSagemakerClusterInstanceGroupsInstanceStorageConfigsFsxOpenZfsConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccSagemakerClusterInstanceGroupsInstanceStorageConfigsFsxOpenZfsConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccSagemakerClusterInstanceGroupsInstanceStorageConfigsFsxOpenZfsConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // dns_name - computed: true, optional: false, required: false
+  public get dnsName() {
+    return this.getStringAttribute('dns_name');
+  }
+
+  // mount_path - computed: true, optional: false, required: false
+  public get mountPath() {
+    return this.getStringAttribute('mount_path');
+  }
+}
 export interface DataAwsccSagemakerClusterInstanceGroupsInstanceStorageConfigs {
 }
 
@@ -259,6 +876,18 @@ export class DataAwsccSagemakerClusterInstanceGroupsInstanceStorageConfigsOutput
   private _ebsVolumeConfig = new DataAwsccSagemakerClusterInstanceGroupsInstanceStorageConfigsEbsVolumeConfigOutputReference(this, "ebs_volume_config");
   public get ebsVolumeConfig() {
     return this._ebsVolumeConfig;
+  }
+
+  // fsx_lustre_config - computed: true, optional: false, required: false
+  private _fsxLustreConfig = new DataAwsccSagemakerClusterInstanceGroupsInstanceStorageConfigsFsxLustreConfigOutputReference(this, "fsx_lustre_config");
+  public get fsxLustreConfig() {
+    return this._fsxLustreConfig;
+  }
+
+  // fsx_open_zfs_config - computed: true, optional: false, required: false
+  private _fsxOpenZfsConfig = new DataAwsccSagemakerClusterInstanceGroupsInstanceStorageConfigsFsxOpenZfsConfigOutputReference(this, "fsx_open_zfs_config");
+  public get fsxOpenZfsConfig() {
+    return this._fsxOpenZfsConfig;
   }
 }
 
@@ -480,9 +1109,68 @@ export class DataAwsccSagemakerClusterInstanceGroupsLifeCycleConfigOutputReferen
     return this.getStringAttribute('on_create');
   }
 
+  // on_init_complete - computed: true, optional: false, required: false
+  public get onInitComplete() {
+    return this.getStringAttribute('on_init_complete');
+  }
+
   // source_s3_uri - computed: true, optional: false, required: false
   public get sourceS3Uri() {
     return this.getStringAttribute('source_s3_uri');
+  }
+}
+export interface DataAwsccSagemakerClusterInstanceGroupsNetworkInterface {
+}
+
+export function dataAwsccSagemakerClusterInstanceGroupsNetworkInterfaceToTerraform(struct?: DataAwsccSagemakerClusterInstanceGroupsNetworkInterface): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccSagemakerClusterInstanceGroupsNetworkInterfaceToHclTerraform(struct?: DataAwsccSagemakerClusterInstanceGroupsNetworkInterface): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccSagemakerClusterInstanceGroupsNetworkInterfaceOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccSagemakerClusterInstanceGroupsNetworkInterface | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccSagemakerClusterInstanceGroupsNetworkInterface | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // interface_type - computed: true, optional: false, required: false
+  public get interfaceType() {
+    return this.getStringAttribute('interface_type');
   }
 }
 export interface DataAwsccSagemakerClusterInstanceGroupsOverrideVpcConfig {
@@ -924,6 +1612,65 @@ export class DataAwsccSagemakerClusterInstanceGroupsScheduledUpdateConfigOutputR
     return this.getStringAttribute('schedule_expression');
   }
 }
+export interface DataAwsccSagemakerClusterInstanceGroupsSlurmConfig {
+}
+
+export function dataAwsccSagemakerClusterInstanceGroupsSlurmConfigToTerraform(struct?: DataAwsccSagemakerClusterInstanceGroupsSlurmConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccSagemakerClusterInstanceGroupsSlurmConfigToHclTerraform(struct?: DataAwsccSagemakerClusterInstanceGroupsSlurmConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccSagemakerClusterInstanceGroupsSlurmConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccSagemakerClusterInstanceGroupsSlurmConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccSagemakerClusterInstanceGroupsSlurmConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // node_type - computed: true, optional: false, required: false
+  public get nodeType() {
+    return this.getStringAttribute('node_type');
+  }
+
+  // partition_names - computed: true, optional: false, required: false
+  public get partitionNames() {
+    return this.getListAttribute('partition_names');
+  }
+}
 export interface DataAwsccSagemakerClusterInstanceGroups {
 }
 
@@ -975,6 +1722,12 @@ export class DataAwsccSagemakerClusterInstanceGroupsOutputReference extends cdkt
     }
   }
 
+  // auto_patch_config - computed: true, optional: false, required: false
+  private _autoPatchConfig = new DataAwsccSagemakerClusterInstanceGroupsAutoPatchConfigOutputReference(this, "auto_patch_config");
+  public get autoPatchConfig() {
+    return this._autoPatchConfig;
+  }
+
   // capacity_requirements - computed: true, optional: false, required: false
   private _capacityRequirements = new DataAwsccSagemakerClusterInstanceGroupsCapacityRequirementsOutputReference(this, "capacity_requirements");
   public get capacityRequirements() {
@@ -1006,6 +1759,12 @@ export class DataAwsccSagemakerClusterInstanceGroupsOutputReference extends cdkt
     return this.getStringAttribute('instance_group_name');
   }
 
+  // instance_requirements - computed: true, optional: false, required: false
+  private _instanceRequirements = new DataAwsccSagemakerClusterInstanceGroupsInstanceRequirementsOutputReference(this, "instance_requirements");
+  public get instanceRequirements() {
+    return this._instanceRequirements;
+  }
+
   // instance_storage_configs - computed: true, optional: false, required: false
   private _instanceStorageConfigs = new DataAwsccSagemakerClusterInstanceGroupsInstanceStorageConfigsList(this, "instance_storage_configs", false);
   public get instanceStorageConfigs() {
@@ -1034,6 +1793,12 @@ export class DataAwsccSagemakerClusterInstanceGroupsOutputReference extends cdkt
     return this.getNumberAttribute('min_instance_count');
   }
 
+  // network_interface - computed: true, optional: false, required: false
+  private _networkInterface = new DataAwsccSagemakerClusterInstanceGroupsNetworkInterfaceOutputReference(this, "network_interface");
+  public get networkInterface() {
+    return this._networkInterface;
+  }
+
   // on_start_deep_health_checks - computed: true, optional: false, required: false
   public get onStartDeepHealthChecks() {
     return this.getListAttribute('on_start_deep_health_checks');
@@ -1049,6 +1814,12 @@ export class DataAwsccSagemakerClusterInstanceGroupsOutputReference extends cdkt
   private _scheduledUpdateConfig = new DataAwsccSagemakerClusterInstanceGroupsScheduledUpdateConfigOutputReference(this, "scheduled_update_config");
   public get scheduledUpdateConfig() {
     return this._scheduledUpdateConfig;
+  }
+
+  // slurm_config - computed: true, optional: false, required: false
+  private _slurmConfig = new DataAwsccSagemakerClusterInstanceGroupsSlurmConfigOutputReference(this, "slurm_config");
+  public get slurmConfig() {
+    return this._slurmConfig;
   }
 
   // threads_per_core - computed: true, optional: false, required: false
@@ -1134,6 +1905,60 @@ export class DataAwsccSagemakerClusterOrchestratorEksOutputReference extends cdk
     return this.getStringAttribute('cluster_arn');
   }
 }
+export interface DataAwsccSagemakerClusterOrchestratorSlurm {
+}
+
+export function dataAwsccSagemakerClusterOrchestratorSlurmToTerraform(struct?: DataAwsccSagemakerClusterOrchestratorSlurm): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccSagemakerClusterOrchestratorSlurmToHclTerraform(struct?: DataAwsccSagemakerClusterOrchestratorSlurm): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccSagemakerClusterOrchestratorSlurmOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccSagemakerClusterOrchestratorSlurm | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccSagemakerClusterOrchestratorSlurm | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // slurm_config_strategy - computed: true, optional: false, required: false
+  public get slurmConfigStrategy() {
+    return this.getStringAttribute('slurm_config_strategy');
+  }
+}
 export interface DataAwsccSagemakerClusterOrchestrator {
 }
 
@@ -1187,6 +2012,12 @@ export class DataAwsccSagemakerClusterOrchestratorOutputReference extends cdktn.
   private _eks = new DataAwsccSagemakerClusterOrchestratorEksOutputReference(this, "eks");
   public get eks() {
     return this._eks;
+  }
+
+  // slurm - computed: true, optional: false, required: false
+  private _slurm = new DataAwsccSagemakerClusterOrchestratorSlurmOutputReference(this, "slurm");
+  public get slurm() {
+    return this._slurm;
   }
 }
 export interface DataAwsccSagemakerClusterRestrictedInstanceGroupsEnvironmentConfigFsxLustreConfig {
@@ -1367,6 +2198,129 @@ export class DataAwsccSagemakerClusterRestrictedInstanceGroupsInstanceStorageCon
     return this.getNumberAttribute('volume_size_in_gb');
   }
 }
+export interface DataAwsccSagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsFsxLustreConfig {
+}
+
+export function dataAwsccSagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsFsxLustreConfigToTerraform(struct?: DataAwsccSagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsFsxLustreConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccSagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsFsxLustreConfigToHclTerraform(struct?: DataAwsccSagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsFsxLustreConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccSagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsFsxLustreConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccSagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsFsxLustreConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccSagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsFsxLustreConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // dns_name - computed: true, optional: false, required: false
+  public get dnsName() {
+    return this.getStringAttribute('dns_name');
+  }
+
+  // mount_name - computed: true, optional: false, required: false
+  public get mountName() {
+    return this.getStringAttribute('mount_name');
+  }
+
+  // mount_path - computed: true, optional: false, required: false
+  public get mountPath() {
+    return this.getStringAttribute('mount_path');
+  }
+}
+export interface DataAwsccSagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsFsxOpenZfsConfig {
+}
+
+export function dataAwsccSagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsFsxOpenZfsConfigToTerraform(struct?: DataAwsccSagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsFsxOpenZfsConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccSagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsFsxOpenZfsConfigToHclTerraform(struct?: DataAwsccSagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsFsxOpenZfsConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccSagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsFsxOpenZfsConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccSagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsFsxOpenZfsConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccSagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsFsxOpenZfsConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // dns_name - computed: true, optional: false, required: false
+  public get dnsName() {
+    return this.getStringAttribute('dns_name');
+  }
+
+  // mount_path - computed: true, optional: false, required: false
+  public get mountPath() {
+    return this.getStringAttribute('mount_path');
+  }
+}
 export interface DataAwsccSagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigs {
 }
 
@@ -1422,6 +2376,18 @@ export class DataAwsccSagemakerClusterRestrictedInstanceGroupsInstanceStorageCon
   private _ebsVolumeConfig = new DataAwsccSagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsEbsVolumeConfigOutputReference(this, "ebs_volume_config");
   public get ebsVolumeConfig() {
     return this._ebsVolumeConfig;
+  }
+
+  // fsx_lustre_config - computed: true, optional: false, required: false
+  private _fsxLustreConfig = new DataAwsccSagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsFsxLustreConfigOutputReference(this, "fsx_lustre_config");
+  public get fsxLustreConfig() {
+    return this._fsxLustreConfig;
+  }
+
+  // fsx_open_zfs_config - computed: true, optional: false, required: false
+  private _fsxOpenZfsConfig = new DataAwsccSagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsFsxOpenZfsConfigOutputReference(this, "fsx_open_zfs_config");
+  public get fsxOpenZfsConfig() {
+    return this._fsxOpenZfsConfig;
   }
 }
 
@@ -1630,6 +2596,180 @@ export class DataAwsccSagemakerClusterRestrictedInstanceGroupsList extends cdktn
     return new DataAwsccSagemakerClusterRestrictedInstanceGroupsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface DataAwsccSagemakerClusterRestrictedInstanceGroupsConfigSharedEnvironmentConfigFsxLustreConfig {
+}
+
+export function dataAwsccSagemakerClusterRestrictedInstanceGroupsConfigSharedEnvironmentConfigFsxLustreConfigToTerraform(struct?: DataAwsccSagemakerClusterRestrictedInstanceGroupsConfigSharedEnvironmentConfigFsxLustreConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccSagemakerClusterRestrictedInstanceGroupsConfigSharedEnvironmentConfigFsxLustreConfigToHclTerraform(struct?: DataAwsccSagemakerClusterRestrictedInstanceGroupsConfigSharedEnvironmentConfigFsxLustreConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccSagemakerClusterRestrictedInstanceGroupsConfigSharedEnvironmentConfigFsxLustreConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccSagemakerClusterRestrictedInstanceGroupsConfigSharedEnvironmentConfigFsxLustreConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccSagemakerClusterRestrictedInstanceGroupsConfigSharedEnvironmentConfigFsxLustreConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // per_unit_storage_throughput - computed: true, optional: false, required: false
+  public get perUnitStorageThroughput() {
+    return this.getNumberAttribute('per_unit_storage_throughput');
+  }
+
+  // size_in_gi_b - computed: true, optional: false, required: false
+  public get sizeInGiB() {
+    return this.getNumberAttribute('size_in_gi_b');
+  }
+}
+export interface DataAwsccSagemakerClusterRestrictedInstanceGroupsConfigSharedEnvironmentConfig {
+}
+
+export function dataAwsccSagemakerClusterRestrictedInstanceGroupsConfigSharedEnvironmentConfigToTerraform(struct?: DataAwsccSagemakerClusterRestrictedInstanceGroupsConfigSharedEnvironmentConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccSagemakerClusterRestrictedInstanceGroupsConfigSharedEnvironmentConfigToHclTerraform(struct?: DataAwsccSagemakerClusterRestrictedInstanceGroupsConfigSharedEnvironmentConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccSagemakerClusterRestrictedInstanceGroupsConfigSharedEnvironmentConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccSagemakerClusterRestrictedInstanceGroupsConfigSharedEnvironmentConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccSagemakerClusterRestrictedInstanceGroupsConfigSharedEnvironmentConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // fsx_lustre_config - computed: true, optional: false, required: false
+  private _fsxLustreConfig = new DataAwsccSagemakerClusterRestrictedInstanceGroupsConfigSharedEnvironmentConfigFsxLustreConfigOutputReference(this, "fsx_lustre_config");
+  public get fsxLustreConfig() {
+    return this._fsxLustreConfig;
+  }
+
+  // fsx_lustre_deletion_policy - computed: true, optional: false, required: false
+  public get fsxLustreDeletionPolicy() {
+    return this.getStringAttribute('fsx_lustre_deletion_policy');
+  }
+}
+export interface DataAwsccSagemakerClusterRestrictedInstanceGroupsConfig {
+}
+
+export function dataAwsccSagemakerClusterRestrictedInstanceGroupsConfigToTerraform(struct?: DataAwsccSagemakerClusterRestrictedInstanceGroupsConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccSagemakerClusterRestrictedInstanceGroupsConfigToHclTerraform(struct?: DataAwsccSagemakerClusterRestrictedInstanceGroupsConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccSagemakerClusterRestrictedInstanceGroupsConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccSagemakerClusterRestrictedInstanceGroupsConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccSagemakerClusterRestrictedInstanceGroupsConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // shared_environment_config - computed: true, optional: false, required: false
+  private _sharedEnvironmentConfig = new DataAwsccSagemakerClusterRestrictedInstanceGroupsConfigSharedEnvironmentConfigOutputReference(this, "shared_environment_config");
+  public get sharedEnvironmentConfig() {
+    return this._sharedEnvironmentConfig;
+  }
+}
 export interface DataAwsccSagemakerClusterTags {
 }
 
@@ -1830,7 +2970,7 @@ export class DataAwsccSagemakerClusterVpcConfigOutputReference extends cdktn.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/sagemaker_cluster awscc_sagemaker_cluster}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/sagemaker_cluster awscc_sagemaker_cluster}
 */
 export class DataAwsccSagemakerCluster extends cdktn.TerraformDataSource {
 
@@ -1846,7 +2986,7 @@ export class DataAwsccSagemakerCluster extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAwsccSagemakerCluster resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccSagemakerCluster to import
-  * @param importFromId The id of the existing DataAwsccSagemakerCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/sagemaker_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccSagemakerCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/sagemaker_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccSagemakerCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1858,7 +2998,7 @@ export class DataAwsccSagemakerCluster extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/sagemaker_cluster awscc_sagemaker_cluster} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/sagemaker_cluster awscc_sagemaker_cluster} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1869,7 +3009,7 @@ export class DataAwsccSagemakerCluster extends cdktn.TerraformDataSource {
       terraformResourceType: 'awscc_sagemaker_cluster',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.99.0',
+        providerVersion: '1.100.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -1962,6 +3102,12 @@ export class DataAwsccSagemakerCluster extends cdktn.TerraformDataSource {
   private _restrictedInstanceGroups = new DataAwsccSagemakerClusterRestrictedInstanceGroupsList(this, "restricted_instance_groups", false);
   public get restrictedInstanceGroups() {
     return this._restrictedInstanceGroups;
+  }
+
+  // restricted_instance_groups_config - computed: true, optional: false, required: false
+  private _restrictedInstanceGroupsConfig = new DataAwsccSagemakerClusterRestrictedInstanceGroupsConfigOutputReference(this, "restricted_instance_groups_config");
+  public get restrictedInstanceGroupsConfig() {
+    return this._restrictedInstanceGroupsConfig;
   }
 
   // tags - computed: true, optional: false, required: false

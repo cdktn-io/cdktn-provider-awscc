@@ -4,7 +4,7 @@
 
 ### DataAwsccRdsDbSubnetGroups <a name="DataAwsccRdsDbSubnetGroups" id="@cdktn/provider-awscc.dataAwsccRdsDbSubnetGroups.DataAwsccRdsDbSubnetGroups"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/rds_db_subnet_groups awscc_rds_db_subnet_groups}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/rds_db_subnet_groups awscc_rds_db_subnet_groups}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRdsDbSubnetGroups.DataAwsccRdsDbSubnetGroups.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccRdsDbSubnetGroups
 
 The id of the existing DataAwsccRdsDbSubnetGroups that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/rds_db_subnet_groups#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/rds_db_subnet_groups#import import section} in the documentation of this resource for the id to use
 
 ---
 

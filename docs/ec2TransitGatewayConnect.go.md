@@ -4,7 +4,7 @@
 
 ### Ec2TransitGatewayConnect <a name="Ec2TransitGatewayConnect" id="@cdktn/provider-awscc.ec2TransitGatewayConnect.Ec2TransitGatewayConnect"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_transit_gateway_connect awscc_ec2_transit_gateway_connect}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_transit_gateway_connect awscc_ec2_transit_gateway_connect}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2TransitGatewayConnect.Ec2TransitGatewayConnect.Initializer"></a>
 
@@ -522,7 +522,7 @@ The construct id used in the generated config for the Ec2TransitGatewayConnect t
 
 The id of the existing Ec2TransitGatewayConnect that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_transit_gateway_connect#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_transit_gateway_connect#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -956,7 +956,7 @@ Options Ec2TransitGatewayConnectOptions
 
 The Connect attachment options.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_transit_gateway_connect#options Ec2TransitGatewayConnect#options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_transit_gateway_connect#options Ec2TransitGatewayConnect#options}
 
 ---
 
@@ -970,7 +970,7 @@ TransportTransitGatewayAttachmentId *string
 
 The ID of the attachment from which the Connect attachment was created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_transit_gateway_connect#transport_transit_gateway_attachment_id Ec2TransitGatewayConnect#transport_transit_gateway_attachment_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_transit_gateway_connect#transport_transit_gateway_attachment_id Ec2TransitGatewayConnect#transport_transit_gateway_attachment_id}
 
 ---
 
@@ -984,7 +984,7 @@ Tags interface{}
 
 The tags for the attachment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_transit_gateway_connect#tags Ec2TransitGatewayConnect#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_transit_gateway_connect#tags Ec2TransitGatewayConnect#tags}
 
 ---
 
@@ -1018,7 +1018,7 @@ Protocol *string
 
 The tunnel protocol.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_transit_gateway_connect#protocol Ec2TransitGatewayConnect#protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_transit_gateway_connect#protocol Ec2TransitGatewayConnect#protocol}
 
 ---
 
@@ -1056,7 +1056,7 @@ The key of the tag.
 
 Constraints: Tag keys are case-sensitive and accept a maximum of 127 Unicode characters. May not begin with aws:.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_transit_gateway_connect#key Ec2TransitGatewayConnect#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_transit_gateway_connect#key Ec2TransitGatewayConnect#key}
 
 ---
 
@@ -1070,7 +1070,7 @@ Value *string
 
 The value of the tag. Constraints: Tag values are case-sensitive and accept a maximum of 255 Unicode characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_transit_gateway_connect#value Ec2TransitGatewayConnect#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_transit_gateway_connect#value Ec2TransitGatewayConnect#value}
 
 ---
 

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/textract_adapter
+// https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/textract_adapter
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,31 +15,31 @@ export interface TextractAdapterConfig extends cdktn.TerraformMetaArguments {
   /**
   * The name to be assigned to the adapter being created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/textract_adapter#adapter_name TextractAdapter#adapter_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/textract_adapter#adapter_name TextractAdapter#adapter_name}
   */
   readonly adapterName: string;
   /**
   * Controls whether or not the adapter should automatically update.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/textract_adapter#auto_update TextractAdapter#auto_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/textract_adapter#auto_update TextractAdapter#auto_update}
   */
   readonly autoUpdate?: string;
   /**
   * The description to be assigned to the adapter being created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/textract_adapter#description TextractAdapter#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/textract_adapter#description TextractAdapter#description}
   */
   readonly description?: string;
   /**
   * The type of feature that the adapter is being trained on. Currently, supported feature types are: QUERIES
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/textract_adapter#feature_types TextractAdapter#feature_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/textract_adapter#feature_types TextractAdapter#feature_types}
   */
   readonly featureTypes: string[];
   /**
   * A list of tags to be added to the adapter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/textract_adapter#tags TextractAdapter#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/textract_adapter#tags TextractAdapter#tags}
   */
   readonly tags?: TextractAdapterTags[] | cdktn.IResolvable;
 }
@@ -47,13 +47,13 @@ export interface TextractAdapterTags {
   /**
   * The key name of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/textract_adapter#key TextractAdapter#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/textract_adapter#key TextractAdapter#key}
   */
   readonly key?: string;
   /**
   * The value for the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/textract_adapter#value TextractAdapter#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/textract_adapter#value TextractAdapter#value}
   */
   readonly value?: string;
 }
@@ -198,7 +198,7 @@ export class TextractAdapterTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/textract_adapter awscc_textract_adapter}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/textract_adapter awscc_textract_adapter}
 */
 export class TextractAdapter extends cdktn.TerraformResource {
 
@@ -214,7 +214,7 @@ export class TextractAdapter extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a TextractAdapter resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TextractAdapter to import
-  * @param importFromId The id of the existing TextractAdapter that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/textract_adapter#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TextractAdapter that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/textract_adapter#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TextractAdapter to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -226,7 +226,7 @@ export class TextractAdapter extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/textract_adapter awscc_textract_adapter} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/textract_adapter awscc_textract_adapter} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -237,7 +237,7 @@ export class TextractAdapter extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_textract_adapter',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.99.0',
+        providerVersion: '1.100.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

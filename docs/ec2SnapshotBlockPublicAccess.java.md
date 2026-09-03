@@ -4,7 +4,7 @@
 
 ### Ec2SnapshotBlockPublicAccess <a name="Ec2SnapshotBlockPublicAccess" id="@cdktn/provider-awscc.ec2SnapshotBlockPublicAccess.Ec2SnapshotBlockPublicAccess"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_snapshot_block_public_access awscc_ec2_snapshot_block_public_access}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_snapshot_block_public_access awscc_ec2_snapshot_block_public_access}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2SnapshotBlockPublicAccess.Ec2SnapshotBlockPublicAccess.Initializer"></a>
 
@@ -104,7 +104,7 @@ Must be unique amongst siblings in the same scope
 
 The state of EBS Snapshot Block Public Access.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_snapshot_block_public_access#state Ec2SnapshotBlockPublicAccess#state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_snapshot_block_public_access#state Ec2SnapshotBlockPublicAccess#state}
 
 ---
 
@@ -553,7 +553,7 @@ The construct id used in the generated config for the Ec2SnapshotBlockPublicAcce
 
 The id of the existing Ec2SnapshotBlockPublicAccess that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_snapshot_block_public_access#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_snapshot_block_public_access#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -906,7 +906,7 @@ public java.lang.String getState();
 
 The state of EBS Snapshot Block Public Access.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_snapshot_block_public_access#state Ec2SnapshotBlockPublicAccess#state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_snapshot_block_public_access#state Ec2SnapshotBlockPublicAccess#state}
 
 ---
 

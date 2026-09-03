@@ -4,7 +4,7 @@
 
 ### S3OutpostsBucketPolicy <a name="S3OutpostsBucketPolicy" id="@cdktn/provider-awscc.s3OutpostsBucketPolicy.S3OutpostsBucketPolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3outposts_bucket_policy awscc_s3outposts_bucket_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/s3outposts_bucket_policy awscc_s3outposts_bucket_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3OutpostsBucketPolicy.S3OutpostsBucketPolicy.Initializer"></a>
 
@@ -106,7 +106,7 @@ Must be unique amongst siblings in the same scope
 
 The Amazon Resource Name (ARN) of the specified bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3outposts_bucket_policy#bucket S3OutpostsBucketPolicy#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/s3outposts_bucket_policy#bucket S3OutpostsBucketPolicy#bucket}
 
 ---
 
@@ -116,7 +116,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A policy document containing permissions to add to the specified bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3outposts_bucket_policy#policy_document S3OutpostsBucketPolicy#policy_document}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/s3outposts_bucket_policy#policy_document S3OutpostsBucketPolicy#policy_document}
 
 ---
 
@@ -565,7 +565,7 @@ The construct id used in the generated config for the S3OutpostsBucketPolicy to 
 
 The id of the existing S3OutpostsBucketPolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3outposts_bucket_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/s3outposts_bucket_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -931,7 +931,7 @@ public java.lang.String getBucket();
 
 The Amazon Resource Name (ARN) of the specified bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3outposts_bucket_policy#bucket S3OutpostsBucketPolicy#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/s3outposts_bucket_policy#bucket S3OutpostsBucketPolicy#bucket}
 
 ---
 
@@ -945,7 +945,7 @@ public java.lang.String getPolicyDocument();
 
 A policy document containing permissions to add to the specified bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3outposts_bucket_policy#policy_document S3OutpostsBucketPolicy#policy_document}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/s3outposts_bucket_policy#policy_document S3OutpostsBucketPolicy#policy_document}
 
 ---
 

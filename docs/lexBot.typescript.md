@@ -4,7 +4,7 @@
 
 ### LexBot <a name="LexBot" id="@cdktn/provider-awscc.lexBot.LexBot"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot awscc_lex_bot}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot awscc_lex_bot}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBot.Initializer"></a>
 
@@ -616,7 +616,7 @@ The construct id used in the generated config for the LexBot to import.
 
 The id of the existing LexBot that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1118,7 +1118,7 @@ An Amazon S3 bucket in the same AWS Region as your function.
 
 The bucket can be in a different AWS account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#s3_bucket LexBot#s3_bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#s3_bucket LexBot#s3_bucket}
 
 ---
 
@@ -1132,7 +1132,7 @@ public readonly s3ObjectKey: string;
 
 The Amazon S3 key of the deployment package.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#s3_object_key LexBot#s3_object_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#s3_object_key LexBot#s3_object_key}
 
 ---
 
@@ -1148,7 +1148,7 @@ For versioned objects, the version of the deployment package object to use.
 
 If not specified, the current object version will be used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#s3_object_version LexBot#s3_object_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#s3_object_version LexBot#s3_object_version}
 
 ---
 
@@ -1186,7 +1186,7 @@ public readonly customVocabulary: LexBotBotLocalesCustomVocabulary;
 
 A custom vocabulary is a list of specific phrases that you want Amazon Lex V2 to recognize in the audio input.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#custom_vocabulary LexBot#custom_vocabulary}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#custom_vocabulary LexBot#custom_vocabulary}
 
 ---
 
@@ -1200,7 +1200,7 @@ public readonly description: string;
 
 A description of the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#description LexBot#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#description LexBot#description}
 
 ---
 
@@ -1214,7 +1214,7 @@ public readonly intents: IResolvable | LexBotBotLocalesIntents[];
 
 List of intents.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#intents LexBot#intents}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#intents LexBot#intents}
 
 ---
 
@@ -1228,7 +1228,7 @@ public readonly localeId: string;
 
 The identifier of the language and locale that the bot will be used in.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#locale_id LexBot#locale_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#locale_id LexBot#locale_id}
 
 ---
 
@@ -1242,7 +1242,7 @@ public readonly nluConfidenceThreshold: number;
 
 The specified confidence threshold for inserting the AMAZON.FallbackIntent and AMAZON.KendraSearchIntent intents.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#nlu_confidence_threshold LexBot#nlu_confidence_threshold}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#nlu_confidence_threshold LexBot#nlu_confidence_threshold}
 
 ---
 
@@ -1256,7 +1256,7 @@ public readonly slotTypes: IResolvable | LexBotBotLocalesSlotTypes[];
 
 List of SlotTypes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#slot_types LexBot#slot_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#slot_types LexBot#slot_types}
 
 ---
 
@@ -1270,7 +1270,7 @@ public readonly voiceSettings: LexBotBotLocalesVoiceSettings;
 
 Settings for using an Amazon Polly voice to communicate with a user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#voice_settings LexBot#voice_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#voice_settings LexBot#voice_settings}
 
 ---
 
@@ -1288,7 +1288,7 @@ const lexBotBotLocalesCustomVocabulary: lexBot.LexBotBotLocalesCustomVocabulary 
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.lexBot.LexBotBotLocalesCustomVocabulary.property.customVocabularyItems">customVocabularyItems</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.lexBot.LexBotBotLocalesCustomVocabularyCustomVocabularyItems">LexBotBotLocalesCustomVocabularyCustomVocabularyItems</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#custom_vocabulary_items LexBot#custom_vocabulary_items}. |
+| <code><a href="#@cdktn/provider-awscc.lexBot.LexBotBotLocalesCustomVocabulary.property.customVocabularyItems">customVocabularyItems</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.lexBot.LexBotBotLocalesCustomVocabularyCustomVocabularyItems">LexBotBotLocalesCustomVocabularyCustomVocabularyItems</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#custom_vocabulary_items LexBot#custom_vocabulary_items}. |
 
 ---
 
@@ -1300,7 +1300,7 @@ public readonly customVocabularyItems: IResolvable | LexBotBotLocalesCustomVocab
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.lexBot.LexBotBotLocalesCustomVocabularyCustomVocabularyItems">LexBotBotLocalesCustomVocabularyCustomVocabularyItems</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#custom_vocabulary_items LexBot#custom_vocabulary_items}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#custom_vocabulary_items LexBot#custom_vocabulary_items}.
 
 ---
 
@@ -1333,7 +1333,7 @@ public readonly phrase: string;
 
 Phrase that should be recognized.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#phrase LexBot#phrase}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#phrase LexBot#phrase}
 
 ---
 
@@ -1347,7 +1347,7 @@ public readonly weight: number;
 
 The degree to which the phrase recognition is boosted.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#weight LexBot#weight}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#weight LexBot#weight}
 
 ---
 
@@ -1391,7 +1391,7 @@ public readonly description: string;
 
 A description of the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#description LexBot#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#description LexBot#description}
 
 ---
 
@@ -1405,7 +1405,7 @@ public readonly dialogCodeHook: LexBotBotLocalesIntentsDialogCodeHook;
 
 Settings that determine the Lambda function that Amazon Lex uses for processing user responses.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#dialog_code_hook LexBot#dialog_code_hook}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#dialog_code_hook LexBot#dialog_code_hook}
 
 ---
 
@@ -1419,7 +1419,7 @@ public readonly fulfillmentCodeHook: LexBotBotLocalesIntentsFulfillmentCodeHook;
 
 Settings that determine if a Lambda function should be invoked to fulfill a specific intent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#fulfillment_code_hook LexBot#fulfillment_code_hook}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#fulfillment_code_hook LexBot#fulfillment_code_hook}
 
 ---
 
@@ -1433,7 +1433,7 @@ public readonly inputContexts: IResolvable | LexBotBotLocalesIntentsInputContext
 
 The list of input contexts specified for the intent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#input_contexts LexBot#input_contexts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#input_contexts LexBot#input_contexts}
 
 ---
 
@@ -1447,7 +1447,7 @@ public readonly intentClosingSetting: LexBotBotLocalesIntentsIntentClosingSettin
 
 Response that Amazon Lex sends to the user when the intent is closed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#intent_closing_setting LexBot#intent_closing_setting}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#intent_closing_setting LexBot#intent_closing_setting}
 
 ---
 
@@ -1461,7 +1461,7 @@ public readonly intentConfirmationSetting: LexBotBotLocalesIntentsIntentConfirma
 
 Prompts that Amazon Lex sends to the user to confirm the completion of an intent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#intent_confirmation_setting LexBot#intent_confirmation_setting}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#intent_confirmation_setting LexBot#intent_confirmation_setting}
 
 ---
 
@@ -1475,7 +1475,7 @@ public readonly kendraConfiguration: LexBotBotLocalesIntentsKendraConfiguration;
 
 Configuration for searching a Amazon Kendra index specified for the intent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#kendra_configuration LexBot#kendra_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#kendra_configuration LexBot#kendra_configuration}
 
 ---
 
@@ -1489,7 +1489,7 @@ public readonly name: string;
 
 Unique name for a resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#name LexBot#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#name LexBot#name}
 
 ---
 
@@ -1503,7 +1503,7 @@ public readonly outputContexts: IResolvable | LexBotBotLocalesIntentsOutputConte
 
 A list of contexts that the intent activates when it is fulfilled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#output_contexts LexBot#output_contexts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#output_contexts LexBot#output_contexts}
 
 ---
 
@@ -1517,7 +1517,7 @@ public readonly parentIntentSignature: string;
 
 A unique identifier for the built-in intent to base this intent on.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#parent_intent_signature LexBot#parent_intent_signature}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#parent_intent_signature LexBot#parent_intent_signature}
 
 ---
 
@@ -1531,7 +1531,7 @@ public readonly sampleUtterances: IResolvable | LexBotBotLocalesIntentsSampleUtt
 
 An array of sample utterances.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#sample_utterances LexBot#sample_utterances}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#sample_utterances LexBot#sample_utterances}
 
 ---
 
@@ -1545,7 +1545,7 @@ public readonly slotPriorities: IResolvable | LexBotBotLocalesIntentsSlotPriorit
 
 List for slot priorities.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#slot_priorities LexBot#slot_priorities}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#slot_priorities LexBot#slot_priorities}
 
 ---
 
@@ -1559,7 +1559,7 @@ public readonly slots: IResolvable | LexBotBotLocalesIntentsSlots[];
 
 List of slots.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#slots LexBot#slots}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#slots LexBot#slots}
 
 ---
 
@@ -1577,7 +1577,7 @@ const lexBotBotLocalesIntentsDialogCodeHook: lexBot.LexBotBotLocalesIntentsDialo
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsDialogCodeHook.property.enabled">enabled</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#enabled LexBot#enabled}. |
+| <code><a href="#@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsDialogCodeHook.property.enabled">enabled</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#enabled LexBot#enabled}. |
 
 ---
 
@@ -1589,7 +1589,7 @@ public readonly enabled: boolean | IResolvable;
 
 - *Type:* boolean | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#enabled LexBot#enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#enabled LexBot#enabled}.
 
 ---
 
@@ -1607,7 +1607,7 @@ const lexBotBotLocalesIntentsFulfillmentCodeHook: lexBot.LexBotBotLocalesIntents
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHook.property.enabled">enabled</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#enabled LexBot#enabled}. |
+| <code><a href="#@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHook.property.enabled">enabled</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#enabled LexBot#enabled}. |
 | <code><a href="#@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHook.property.fulfillmentUpdatesSpecification">fulfillmentUpdatesSpecification</a></code> | <code><a href="#@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecification">LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecification</a></code> | Provides information for updating the user on the progress of fulfilling an intent. |
 | <code><a href="#@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHook.property.postFulfillmentStatusSpecification">postFulfillmentStatusSpecification</a></code> | <code><a href="#@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecification">LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecification</a></code> | Provides information for updating the user on the progress of fulfilling an intent. |
 
@@ -1621,7 +1621,7 @@ public readonly enabled: boolean | IResolvable;
 
 - *Type:* boolean | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#enabled LexBot#enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#enabled LexBot#enabled}.
 
 ---
 
@@ -1635,7 +1635,7 @@ public readonly fulfillmentUpdatesSpecification: LexBotBotLocalesIntentsFulfillm
 
 Provides information for updating the user on the progress of fulfilling an intent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#fulfillment_updates_specification LexBot#fulfillment_updates_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#fulfillment_updates_specification LexBot#fulfillment_updates_specification}
 
 ---
 
@@ -1649,7 +1649,7 @@ public readonly postFulfillmentStatusSpecification: LexBotBotLocalesIntentsFulfi
 
 Provides information for updating the user on the progress of fulfilling an intent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#post_fulfillment_status_specification LexBot#post_fulfillment_status_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#post_fulfillment_status_specification LexBot#post_fulfillment_status_specification}
 
 ---
 
@@ -1684,7 +1684,7 @@ public readonly active: boolean | IResolvable;
 
 Determines whether fulfillment updates are sent to the user. When this field is true, updates are sent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#active LexBot#active}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#active LexBot#active}
 
 ---
 
@@ -1698,7 +1698,7 @@ public readonly startResponse: LexBotBotLocalesIntentsFulfillmentCodeHookFulfill
 
 Provides settings for a message that is sent to the user when a fulfillment Lambda function starts running.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#start_response LexBot#start_response}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#start_response LexBot#start_response}
 
 ---
 
@@ -1712,7 +1712,7 @@ public readonly timeoutInSeconds: number;
 
 The length of time that the fulfillment Lambda function should run before it times out.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#timeout_in_seconds LexBot#timeout_in_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#timeout_in_seconds LexBot#timeout_in_seconds}
 
 ---
 
@@ -1726,7 +1726,7 @@ public readonly updateResponse: LexBotBotLocalesIntentsFulfillmentCodeHookFulfil
 
 Provides settings for a message that is sent periodically to the user while a fulfillment Lambda function is running.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#update_response LexBot#update_response}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#update_response LexBot#update_response}
 
 ---
 
@@ -1760,7 +1760,7 @@ public readonly allowInterrupt: boolean | IResolvable;
 
 Determines whether the user can interrupt the start message while it is playing.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#allow_interrupt LexBot#allow_interrupt}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#allow_interrupt LexBot#allow_interrupt}
 
 ---
 
@@ -1776,7 +1776,7 @@ The delay between when the Lambda fulfillment function starts running and the st
 
 If the Lambda function returns before the delay is over, the start message isn't played.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#delay_in_seconds LexBot#delay_in_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#delay_in_seconds LexBot#delay_in_seconds}
 
 ---
 
@@ -1792,7 +1792,7 @@ One to 5 message groups that contain update messages.
 
 Amazon Lex chooses one of the messages to play to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#message_groups LexBot#message_groups}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#message_groups LexBot#message_groups}
 
 ---
 
@@ -1825,7 +1825,7 @@ public readonly message: LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUp
 
 The primary message that Amazon Lex should send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#message LexBot#message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#message LexBot#message}
 
 ---
 
@@ -1839,7 +1839,7 @@ public readonly variations: IResolvable | LexBotBotLocalesIntentsFulfillmentCode
 
 Message variations to send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#variations LexBot#variations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#variations LexBot#variations}
 
 ---
 
@@ -1874,7 +1874,7 @@ public readonly customPayload: LexBotBotLocalesIntentsFulfillmentCodeHookFulfill
 
 A message in a custom format defined by the client application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
 
 ---
 
@@ -1888,7 +1888,7 @@ public readonly imageResponseCard: LexBotBotLocalesIntentsFulfillmentCodeHookFul
 
 A message that defines a response card that the client application can show to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
 
 ---
 
@@ -1902,7 +1902,7 @@ public readonly plainTextMessage: LexBotBotLocalesIntentsFulfillmentCodeHookFulf
 
 A message in plain text format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
 
 ---
 
@@ -1916,7 +1916,7 @@ public readonly ssmlMessage: LexBotBotLocalesIntentsFulfillmentCodeHookFulfillme
 
 A message in Speech Synthesis Markup Language (SSML).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
 
 ---
 
@@ -1948,7 +1948,7 @@ public readonly value: string;
 
 The string that is sent to your application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -1983,7 +1983,7 @@ public readonly buttons: IResolvable | LexBotBotLocalesIntentsFulfillmentCodeHoo
 
 A list of buttons that should be displayed on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#buttons LexBot#buttons}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#buttons LexBot#buttons}
 
 ---
 
@@ -1997,7 +1997,7 @@ public readonly imageUrl: string;
 
 The URL of an image to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#image_url LexBot#image_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#image_url LexBot#image_url}
 
 ---
 
@@ -2011,7 +2011,7 @@ public readonly subtitle: string;
 
 The subtitle to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
 
 ---
 
@@ -2025,7 +2025,7 @@ public readonly title: string;
 
 The title to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#title LexBot#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#title LexBot#title}
 
 ---
 
@@ -2058,7 +2058,7 @@ public readonly text: string;
 
 The text that appears on the button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#text LexBot#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#text LexBot#text}
 
 ---
 
@@ -2072,7 +2072,7 @@ public readonly value: string;
 
 The value returned to Amazon Lex when the user chooses this button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -2104,7 +2104,7 @@ public readonly value: string;
 
 The message to send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -2136,7 +2136,7 @@ public readonly value: string;
 
 The SSML text that defines the prompt.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -2171,7 +2171,7 @@ public readonly customPayload: LexBotBotLocalesIntentsFulfillmentCodeHookFulfill
 
 A message in a custom format defined by the client application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
 
 ---
 
@@ -2185,7 +2185,7 @@ public readonly imageResponseCard: LexBotBotLocalesIntentsFulfillmentCodeHookFul
 
 A message that defines a response card that the client application can show to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
 
 ---
 
@@ -2199,7 +2199,7 @@ public readonly plainTextMessage: LexBotBotLocalesIntentsFulfillmentCodeHookFulf
 
 A message in plain text format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
 
 ---
 
@@ -2213,7 +2213,7 @@ public readonly ssmlMessage: LexBotBotLocalesIntentsFulfillmentCodeHookFulfillme
 
 A message in Speech Synthesis Markup Language (SSML).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
 
 ---
 
@@ -2245,7 +2245,7 @@ public readonly value: string;
 
 The string that is sent to your application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -2280,7 +2280,7 @@ public readonly buttons: IResolvable | LexBotBotLocalesIntentsFulfillmentCodeHoo
 
 A list of buttons that should be displayed on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#buttons LexBot#buttons}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#buttons LexBot#buttons}
 
 ---
 
@@ -2294,7 +2294,7 @@ public readonly imageUrl: string;
 
 The URL of an image to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#image_url LexBot#image_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#image_url LexBot#image_url}
 
 ---
 
@@ -2308,7 +2308,7 @@ public readonly subtitle: string;
 
 The subtitle to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
 
 ---
 
@@ -2322,7 +2322,7 @@ public readonly title: string;
 
 The title to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#title LexBot#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#title LexBot#title}
 
 ---
 
@@ -2355,7 +2355,7 @@ public readonly text: string;
 
 The text that appears on the button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#text LexBot#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#text LexBot#text}
 
 ---
 
@@ -2369,7 +2369,7 @@ public readonly value: string;
 
 The value returned to Amazon Lex when the user chooses this button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -2401,7 +2401,7 @@ public readonly value: string;
 
 The message to send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -2433,7 +2433,7 @@ public readonly value: string;
 
 The SSML text that defines the prompt.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -2467,7 +2467,7 @@ public readonly allowInterrupt: boolean | IResolvable;
 
 Determines whether the user can interrupt an update message while it is playing.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#allow_interrupt LexBot#allow_interrupt}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#allow_interrupt LexBot#allow_interrupt}
 
 ---
 
@@ -2483,7 +2483,7 @@ The frequency that a message is sent to the user.
 
 When the period ends, Amazon Lex chooses a message from the message groups and plays it to the user. If the fulfillment Lambda returns before the first period ends, an update message is not played to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#frequency_in_seconds LexBot#frequency_in_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#frequency_in_seconds LexBot#frequency_in_seconds}
 
 ---
 
@@ -2499,7 +2499,7 @@ One to 5 message groups that contain update messages.
 
 Amazon Lex chooses one of the messages to play to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#message_groups LexBot#message_groups}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#message_groups LexBot#message_groups}
 
 ---
 
@@ -2532,7 +2532,7 @@ public readonly message: LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUp
 
 The primary message that Amazon Lex should send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#message LexBot#message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#message LexBot#message}
 
 ---
 
@@ -2546,7 +2546,7 @@ public readonly variations: IResolvable | LexBotBotLocalesIntentsFulfillmentCode
 
 Message variations to send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#variations LexBot#variations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#variations LexBot#variations}
 
 ---
 
@@ -2581,7 +2581,7 @@ public readonly customPayload: LexBotBotLocalesIntentsFulfillmentCodeHookFulfill
 
 A message in a custom format defined by the client application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
 
 ---
 
@@ -2595,7 +2595,7 @@ public readonly imageResponseCard: LexBotBotLocalesIntentsFulfillmentCodeHookFul
 
 A message that defines a response card that the client application can show to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
 
 ---
 
@@ -2609,7 +2609,7 @@ public readonly plainTextMessage: LexBotBotLocalesIntentsFulfillmentCodeHookFulf
 
 A message in plain text format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
 
 ---
 
@@ -2623,7 +2623,7 @@ public readonly ssmlMessage: LexBotBotLocalesIntentsFulfillmentCodeHookFulfillme
 
 A message in Speech Synthesis Markup Language (SSML).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
 
 ---
 
@@ -2655,7 +2655,7 @@ public readonly value: string;
 
 The string that is sent to your application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -2690,7 +2690,7 @@ public readonly buttons: IResolvable | LexBotBotLocalesIntentsFulfillmentCodeHoo
 
 A list of buttons that should be displayed on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#buttons LexBot#buttons}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#buttons LexBot#buttons}
 
 ---
 
@@ -2704,7 +2704,7 @@ public readonly imageUrl: string;
 
 The URL of an image to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#image_url LexBot#image_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#image_url LexBot#image_url}
 
 ---
 
@@ -2718,7 +2718,7 @@ public readonly subtitle: string;
 
 The subtitle to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
 
 ---
 
@@ -2732,7 +2732,7 @@ public readonly title: string;
 
 The title to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#title LexBot#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#title LexBot#title}
 
 ---
 
@@ -2765,7 +2765,7 @@ public readonly text: string;
 
 The text that appears on the button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#text LexBot#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#text LexBot#text}
 
 ---
 
@@ -2779,7 +2779,7 @@ public readonly value: string;
 
 The value returned to Amazon Lex when the user chooses this button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -2811,7 +2811,7 @@ public readonly value: string;
 
 The message to send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -2843,7 +2843,7 @@ public readonly value: string;
 
 The SSML text that defines the prompt.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -2878,7 +2878,7 @@ public readonly customPayload: LexBotBotLocalesIntentsFulfillmentCodeHookFulfill
 
 A message in a custom format defined by the client application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
 
 ---
 
@@ -2892,7 +2892,7 @@ public readonly imageResponseCard: LexBotBotLocalesIntentsFulfillmentCodeHookFul
 
 A message that defines a response card that the client application can show to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
 
 ---
 
@@ -2906,7 +2906,7 @@ public readonly plainTextMessage: LexBotBotLocalesIntentsFulfillmentCodeHookFulf
 
 A message in plain text format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
 
 ---
 
@@ -2920,7 +2920,7 @@ public readonly ssmlMessage: LexBotBotLocalesIntentsFulfillmentCodeHookFulfillme
 
 A message in Speech Synthesis Markup Language (SSML).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
 
 ---
 
@@ -2952,7 +2952,7 @@ public readonly value: string;
 
 The string that is sent to your application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -2987,7 +2987,7 @@ public readonly buttons: IResolvable | LexBotBotLocalesIntentsFulfillmentCodeHoo
 
 A list of buttons that should be displayed on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#buttons LexBot#buttons}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#buttons LexBot#buttons}
 
 ---
 
@@ -3001,7 +3001,7 @@ public readonly imageUrl: string;
 
 The URL of an image to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#image_url LexBot#image_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#image_url LexBot#image_url}
 
 ---
 
@@ -3015,7 +3015,7 @@ public readonly subtitle: string;
 
 The subtitle to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
 
 ---
 
@@ -3029,7 +3029,7 @@ public readonly title: string;
 
 The title to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#title LexBot#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#title LexBot#title}
 
 ---
 
@@ -3062,7 +3062,7 @@ public readonly text: string;
 
 The text that appears on the button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#text LexBot#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#text LexBot#text}
 
 ---
 
@@ -3076,7 +3076,7 @@ public readonly value: string;
 
 The value returned to Amazon Lex when the user chooses this button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -3108,7 +3108,7 @@ public readonly value: string;
 
 The message to send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -3140,7 +3140,7 @@ public readonly value: string;
 
 The SSML text that defines the prompt.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -3174,7 +3174,7 @@ public readonly failureResponse: LexBotBotLocalesIntentsFulfillmentCodeHookPostF
 
 A list of message groups that Amazon Lex uses to respond the user input.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#failure_response LexBot#failure_response}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#failure_response LexBot#failure_response}
 
 ---
 
@@ -3188,7 +3188,7 @@ public readonly successResponse: LexBotBotLocalesIntentsFulfillmentCodeHookPostF
 
 A list of message groups that Amazon Lex uses to respond the user input.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#success_response LexBot#success_response}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#success_response LexBot#success_response}
 
 ---
 
@@ -3202,7 +3202,7 @@ public readonly timeoutResponse: LexBotBotLocalesIntentsFulfillmentCodeHookPostF
 
 A list of message groups that Amazon Lex uses to respond the user input.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#timeout_response LexBot#timeout_response}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#timeout_response LexBot#timeout_response}
 
 ---
 
@@ -3235,7 +3235,7 @@ public readonly allowInterrupt: boolean | IResolvable;
 
 Indicates whether the user can interrupt a speech prompt from the bot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#allow_interrupt LexBot#allow_interrupt}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#allow_interrupt LexBot#allow_interrupt}
 
 ---
 
@@ -3251,7 +3251,7 @@ One to 5 message groups that contain update messages.
 
 Amazon Lex chooses one of the messages to play to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#message_groups_list LexBot#message_groups_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#message_groups_list LexBot#message_groups_list}
 
 ---
 
@@ -3286,7 +3286,7 @@ public readonly customPayload: LexBotBotLocalesIntentsFulfillmentCodeHookPostFul
 
 A message in a custom format defined by the client application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
 
 ---
 
@@ -3300,7 +3300,7 @@ public readonly imageResponseCard: LexBotBotLocalesIntentsFulfillmentCodeHookPos
 
 A message that defines a response card that the client application can show to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
 
 ---
 
@@ -3314,7 +3314,7 @@ public readonly plainTextMessage: LexBotBotLocalesIntentsFulfillmentCodeHookPost
 
 A message in plain text format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
 
 ---
 
@@ -3328,7 +3328,7 @@ public readonly ssmlMessage: LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfi
 
 A message in Speech Synthesis Markup Language (SSML).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
 
 ---
 
@@ -3360,7 +3360,7 @@ public readonly value: string;
 
 The string that is sent to your application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -3395,7 +3395,7 @@ public readonly buttons: IResolvable | LexBotBotLocalesIntentsFulfillmentCodeHoo
 
 A list of buttons that should be displayed on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#buttons LexBot#buttons}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#buttons LexBot#buttons}
 
 ---
 
@@ -3409,7 +3409,7 @@ public readonly imageUrl: string;
 
 The URL of an image to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#image_url LexBot#image_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#image_url LexBot#image_url}
 
 ---
 
@@ -3423,7 +3423,7 @@ public readonly subtitle: string;
 
 The subtitle to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
 
 ---
 
@@ -3437,7 +3437,7 @@ public readonly title: string;
 
 The title to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#title LexBot#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#title LexBot#title}
 
 ---
 
@@ -3470,7 +3470,7 @@ public readonly text: string;
 
 The text that appears on the button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#text LexBot#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#text LexBot#text}
 
 ---
 
@@ -3484,7 +3484,7 @@ public readonly value: string;
 
 The value returned to Amazon Lex when the user chooses this button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -3516,7 +3516,7 @@ public readonly value: string;
 
 The message to send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -3548,7 +3548,7 @@ public readonly value: string;
 
 The SSML text that defines the prompt.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -3581,7 +3581,7 @@ public readonly message: LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillme
 
 The primary message that Amazon Lex should send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#message LexBot#message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#message LexBot#message}
 
 ---
 
@@ -3595,7 +3595,7 @@ public readonly variations: IResolvable | LexBotBotLocalesIntentsFulfillmentCode
 
 Message variations to send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#variations LexBot#variations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#variations LexBot#variations}
 
 ---
 
@@ -3630,7 +3630,7 @@ public readonly customPayload: LexBotBotLocalesIntentsFulfillmentCodeHookPostFul
 
 A message in a custom format defined by the client application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
 
 ---
 
@@ -3644,7 +3644,7 @@ public readonly imageResponseCard: LexBotBotLocalesIntentsFulfillmentCodeHookPos
 
 A message that defines a response card that the client application can show to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
 
 ---
 
@@ -3658,7 +3658,7 @@ public readonly plainTextMessage: LexBotBotLocalesIntentsFulfillmentCodeHookPost
 
 A message in plain text format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
 
 ---
 
@@ -3672,7 +3672,7 @@ public readonly ssmlMessage: LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfi
 
 A message in Speech Synthesis Markup Language (SSML).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
 
 ---
 
@@ -3704,7 +3704,7 @@ public readonly value: string;
 
 The string that is sent to your application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -3739,7 +3739,7 @@ public readonly buttons: IResolvable | LexBotBotLocalesIntentsFulfillmentCodeHoo
 
 A list of buttons that should be displayed on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#buttons LexBot#buttons}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#buttons LexBot#buttons}
 
 ---
 
@@ -3753,7 +3753,7 @@ public readonly imageUrl: string;
 
 The URL of an image to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#image_url LexBot#image_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#image_url LexBot#image_url}
 
 ---
 
@@ -3767,7 +3767,7 @@ public readonly subtitle: string;
 
 The subtitle to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
 
 ---
 
@@ -3781,7 +3781,7 @@ public readonly title: string;
 
 The title to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#title LexBot#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#title LexBot#title}
 
 ---
 
@@ -3814,7 +3814,7 @@ public readonly text: string;
 
 The text that appears on the button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#text LexBot#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#text LexBot#text}
 
 ---
 
@@ -3828,7 +3828,7 @@ public readonly value: string;
 
 The value returned to Amazon Lex when the user chooses this button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -3860,7 +3860,7 @@ public readonly value: string;
 
 The message to send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -3892,7 +3892,7 @@ public readonly value: string;
 
 The SSML text that defines the prompt.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -3925,7 +3925,7 @@ public readonly allowInterrupt: boolean | IResolvable;
 
 Indicates whether the user can interrupt a speech prompt from the bot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#allow_interrupt LexBot#allow_interrupt}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#allow_interrupt LexBot#allow_interrupt}
 
 ---
 
@@ -3941,7 +3941,7 @@ One to 5 message groups that contain update messages.
 
 Amazon Lex chooses one of the messages to play to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#message_groups_list LexBot#message_groups_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#message_groups_list LexBot#message_groups_list}
 
 ---
 
@@ -3976,7 +3976,7 @@ public readonly customPayload: LexBotBotLocalesIntentsFulfillmentCodeHookPostFul
 
 A message in a custom format defined by the client application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
 
 ---
 
@@ -3990,7 +3990,7 @@ public readonly imageResponseCard: LexBotBotLocalesIntentsFulfillmentCodeHookPos
 
 A message that defines a response card that the client application can show to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
 
 ---
 
@@ -4004,7 +4004,7 @@ public readonly plainTextMessage: LexBotBotLocalesIntentsFulfillmentCodeHookPost
 
 A message in plain text format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
 
 ---
 
@@ -4018,7 +4018,7 @@ public readonly ssmlMessage: LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfi
 
 A message in Speech Synthesis Markup Language (SSML).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
 
 ---
 
@@ -4050,7 +4050,7 @@ public readonly value: string;
 
 The string that is sent to your application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -4085,7 +4085,7 @@ public readonly buttons: IResolvable | LexBotBotLocalesIntentsFulfillmentCodeHoo
 
 A list of buttons that should be displayed on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#buttons LexBot#buttons}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#buttons LexBot#buttons}
 
 ---
 
@@ -4099,7 +4099,7 @@ public readonly imageUrl: string;
 
 The URL of an image to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#image_url LexBot#image_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#image_url LexBot#image_url}
 
 ---
 
@@ -4113,7 +4113,7 @@ public readonly subtitle: string;
 
 The subtitle to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
 
 ---
 
@@ -4127,7 +4127,7 @@ public readonly title: string;
 
 The title to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#title LexBot#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#title LexBot#title}
 
 ---
 
@@ -4160,7 +4160,7 @@ public readonly text: string;
 
 The text that appears on the button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#text LexBot#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#text LexBot#text}
 
 ---
 
@@ -4174,7 +4174,7 @@ public readonly value: string;
 
 The value returned to Amazon Lex when the user chooses this button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -4206,7 +4206,7 @@ public readonly value: string;
 
 The message to send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -4238,7 +4238,7 @@ public readonly value: string;
 
 The SSML text that defines the prompt.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -4271,7 +4271,7 @@ public readonly message: LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillme
 
 The primary message that Amazon Lex should send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#message LexBot#message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#message LexBot#message}
 
 ---
 
@@ -4285,7 +4285,7 @@ public readonly variations: IResolvable | LexBotBotLocalesIntentsFulfillmentCode
 
 Message variations to send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#variations LexBot#variations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#variations LexBot#variations}
 
 ---
 
@@ -4320,7 +4320,7 @@ public readonly customPayload: LexBotBotLocalesIntentsFulfillmentCodeHookPostFul
 
 A message in a custom format defined by the client application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
 
 ---
 
@@ -4334,7 +4334,7 @@ public readonly imageResponseCard: LexBotBotLocalesIntentsFulfillmentCodeHookPos
 
 A message that defines a response card that the client application can show to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
 
 ---
 
@@ -4348,7 +4348,7 @@ public readonly plainTextMessage: LexBotBotLocalesIntentsFulfillmentCodeHookPost
 
 A message in plain text format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
 
 ---
 
@@ -4362,7 +4362,7 @@ public readonly ssmlMessage: LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfi
 
 A message in Speech Synthesis Markup Language (SSML).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
 
 ---
 
@@ -4394,7 +4394,7 @@ public readonly value: string;
 
 The string that is sent to your application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -4429,7 +4429,7 @@ public readonly buttons: IResolvable | LexBotBotLocalesIntentsFulfillmentCodeHoo
 
 A list of buttons that should be displayed on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#buttons LexBot#buttons}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#buttons LexBot#buttons}
 
 ---
 
@@ -4443,7 +4443,7 @@ public readonly imageUrl: string;
 
 The URL of an image to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#image_url LexBot#image_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#image_url LexBot#image_url}
 
 ---
 
@@ -4457,7 +4457,7 @@ public readonly subtitle: string;
 
 The subtitle to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
 
 ---
 
@@ -4471,7 +4471,7 @@ public readonly title: string;
 
 The title to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#title LexBot#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#title LexBot#title}
 
 ---
 
@@ -4504,7 +4504,7 @@ public readonly text: string;
 
 The text that appears on the button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#text LexBot#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#text LexBot#text}
 
 ---
 
@@ -4518,7 +4518,7 @@ public readonly value: string;
 
 The value returned to Amazon Lex when the user chooses this button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -4550,7 +4550,7 @@ public readonly value: string;
 
 The message to send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -4582,7 +4582,7 @@ public readonly value: string;
 
 The SSML text that defines the prompt.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -4615,7 +4615,7 @@ public readonly allowInterrupt: boolean | IResolvable;
 
 Indicates whether the user can interrupt a speech prompt from the bot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#allow_interrupt LexBot#allow_interrupt}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#allow_interrupt LexBot#allow_interrupt}
 
 ---
 
@@ -4631,7 +4631,7 @@ One to 5 message groups that contain update messages.
 
 Amazon Lex chooses one of the messages to play to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#message_groups_list LexBot#message_groups_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#message_groups_list LexBot#message_groups_list}
 
 ---
 
@@ -4666,7 +4666,7 @@ public readonly customPayload: LexBotBotLocalesIntentsFulfillmentCodeHookPostFul
 
 A message in a custom format defined by the client application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
 
 ---
 
@@ -4680,7 +4680,7 @@ public readonly imageResponseCard: LexBotBotLocalesIntentsFulfillmentCodeHookPos
 
 A message that defines a response card that the client application can show to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
 
 ---
 
@@ -4694,7 +4694,7 @@ public readonly plainTextMessage: LexBotBotLocalesIntentsFulfillmentCodeHookPost
 
 A message in plain text format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
 
 ---
 
@@ -4708,7 +4708,7 @@ public readonly ssmlMessage: LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfi
 
 A message in Speech Synthesis Markup Language (SSML).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
 
 ---
 
@@ -4740,7 +4740,7 @@ public readonly value: string;
 
 The string that is sent to your application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -4775,7 +4775,7 @@ public readonly buttons: IResolvable | LexBotBotLocalesIntentsFulfillmentCodeHoo
 
 A list of buttons that should be displayed on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#buttons LexBot#buttons}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#buttons LexBot#buttons}
 
 ---
 
@@ -4789,7 +4789,7 @@ public readonly imageUrl: string;
 
 The URL of an image to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#image_url LexBot#image_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#image_url LexBot#image_url}
 
 ---
 
@@ -4803,7 +4803,7 @@ public readonly subtitle: string;
 
 The subtitle to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
 
 ---
 
@@ -4817,7 +4817,7 @@ public readonly title: string;
 
 The title to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#title LexBot#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#title LexBot#title}
 
 ---
 
@@ -4850,7 +4850,7 @@ public readonly text: string;
 
 The text that appears on the button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#text LexBot#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#text LexBot#text}
 
 ---
 
@@ -4864,7 +4864,7 @@ public readonly value: string;
 
 The value returned to Amazon Lex when the user chooses this button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -4896,7 +4896,7 @@ public readonly value: string;
 
 The message to send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -4928,7 +4928,7 @@ public readonly value: string;
 
 The SSML text that defines the prompt.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -4961,7 +4961,7 @@ public readonly message: LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillme
 
 The primary message that Amazon Lex should send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#message LexBot#message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#message LexBot#message}
 
 ---
 
@@ -4975,7 +4975,7 @@ public readonly variations: IResolvable | LexBotBotLocalesIntentsFulfillmentCode
 
 Message variations to send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#variations LexBot#variations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#variations LexBot#variations}
 
 ---
 
@@ -5010,7 +5010,7 @@ public readonly customPayload: LexBotBotLocalesIntentsFulfillmentCodeHookPostFul
 
 A message in a custom format defined by the client application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
 
 ---
 
@@ -5024,7 +5024,7 @@ public readonly imageResponseCard: LexBotBotLocalesIntentsFulfillmentCodeHookPos
 
 A message that defines a response card that the client application can show to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
 
 ---
 
@@ -5038,7 +5038,7 @@ public readonly plainTextMessage: LexBotBotLocalesIntentsFulfillmentCodeHookPost
 
 A message in plain text format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
 
 ---
 
@@ -5052,7 +5052,7 @@ public readonly ssmlMessage: LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfi
 
 A message in Speech Synthesis Markup Language (SSML).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
 
 ---
 
@@ -5084,7 +5084,7 @@ public readonly value: string;
 
 The string that is sent to your application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -5119,7 +5119,7 @@ public readonly buttons: IResolvable | LexBotBotLocalesIntentsFulfillmentCodeHoo
 
 A list of buttons that should be displayed on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#buttons LexBot#buttons}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#buttons LexBot#buttons}
 
 ---
 
@@ -5133,7 +5133,7 @@ public readonly imageUrl: string;
 
 The URL of an image to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#image_url LexBot#image_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#image_url LexBot#image_url}
 
 ---
 
@@ -5147,7 +5147,7 @@ public readonly subtitle: string;
 
 The subtitle to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
 
 ---
 
@@ -5161,7 +5161,7 @@ public readonly title: string;
 
 The title to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#title LexBot#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#title LexBot#title}
 
 ---
 
@@ -5194,7 +5194,7 @@ public readonly text: string;
 
 The text that appears on the button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#text LexBot#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#text LexBot#text}
 
 ---
 
@@ -5208,7 +5208,7 @@ public readonly value: string;
 
 The value returned to Amazon Lex when the user chooses this button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -5240,7 +5240,7 @@ public readonly value: string;
 
 The message to send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -5272,7 +5272,7 @@ public readonly value: string;
 
 The SSML text that defines the prompt.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -5304,7 +5304,7 @@ public readonly name: string;
 
 The name of the context.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#name LexBot#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#name LexBot#name}
 
 ---
 
@@ -5323,7 +5323,7 @@ const lexBotBotLocalesIntentsIntentClosingSetting: lexBot.LexBotBotLocalesIntent
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentClosingSetting.property.closingResponse">closingResponse</a></code> | <code><a href="#@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentClosingSettingClosingResponse">LexBotBotLocalesIntentsIntentClosingSettingClosingResponse</a></code> | A list of message groups that Amazon Lex uses to respond the user input. |
-| <code><a href="#@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentClosingSetting.property.isActive">isActive</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#is_active LexBot#is_active}. |
+| <code><a href="#@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentClosingSetting.property.isActive">isActive</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#is_active LexBot#is_active}. |
 
 ---
 
@@ -5337,7 +5337,7 @@ public readonly closingResponse: LexBotBotLocalesIntentsIntentClosingSettingClos
 
 A list of message groups that Amazon Lex uses to respond the user input.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#closing_response LexBot#closing_response}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#closing_response LexBot#closing_response}
 
 ---
 
@@ -5349,7 +5349,7 @@ public readonly isActive: boolean | IResolvable;
 
 - *Type:* boolean | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#is_active LexBot#is_active}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#is_active LexBot#is_active}.
 
 ---
 
@@ -5382,7 +5382,7 @@ public readonly allowInterrupt: boolean | IResolvable;
 
 Indicates whether the user can interrupt a speech prompt from the bot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#allow_interrupt LexBot#allow_interrupt}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#allow_interrupt LexBot#allow_interrupt}
 
 ---
 
@@ -5398,7 +5398,7 @@ One to 5 message groups that contain update messages.
 
 Amazon Lex chooses one of the messages to play to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#message_groups_list LexBot#message_groups_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#message_groups_list LexBot#message_groups_list}
 
 ---
 
@@ -5433,7 +5433,7 @@ public readonly customPayload: LexBotBotLocalesIntentsIntentClosingSettingClosin
 
 A message in a custom format defined by the client application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
 
 ---
 
@@ -5447,7 +5447,7 @@ public readonly imageResponseCard: LexBotBotLocalesIntentsIntentClosingSettingCl
 
 A message that defines a response card that the client application can show to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
 
 ---
 
@@ -5461,7 +5461,7 @@ public readonly plainTextMessage: LexBotBotLocalesIntentsIntentClosingSettingClo
 
 A message in plain text format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
 
 ---
 
@@ -5475,7 +5475,7 @@ public readonly ssmlMessage: LexBotBotLocalesIntentsIntentClosingSettingClosingR
 
 A message in Speech Synthesis Markup Language (SSML).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
 
 ---
 
@@ -5507,7 +5507,7 @@ public readonly value: string;
 
 The string that is sent to your application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -5542,7 +5542,7 @@ public readonly buttons: IResolvable | LexBotBotLocalesIntentsIntentClosingSetti
 
 A list of buttons that should be displayed on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#buttons LexBot#buttons}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#buttons LexBot#buttons}
 
 ---
 
@@ -5556,7 +5556,7 @@ public readonly imageUrl: string;
 
 The URL of an image to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#image_url LexBot#image_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#image_url LexBot#image_url}
 
 ---
 
@@ -5570,7 +5570,7 @@ public readonly subtitle: string;
 
 The subtitle to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
 
 ---
 
@@ -5584,7 +5584,7 @@ public readonly title: string;
 
 The title to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#title LexBot#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#title LexBot#title}
 
 ---
 
@@ -5617,7 +5617,7 @@ public readonly text: string;
 
 The text that appears on the button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#text LexBot#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#text LexBot#text}
 
 ---
 
@@ -5631,7 +5631,7 @@ public readonly value: string;
 
 The value returned to Amazon Lex when the user chooses this button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -5663,7 +5663,7 @@ public readonly value: string;
 
 The message to send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -5695,7 +5695,7 @@ public readonly value: string;
 
 The SSML text that defines the prompt.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -5728,7 +5728,7 @@ public readonly message: LexBotBotLocalesIntentsIntentClosingSettingClosingRespo
 
 The primary message that Amazon Lex should send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#message LexBot#message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#message LexBot#message}
 
 ---
 
@@ -5742,7 +5742,7 @@ public readonly variations: IResolvable | LexBotBotLocalesIntentsIntentClosingSe
 
 Message variations to send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#variations LexBot#variations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#variations LexBot#variations}
 
 ---
 
@@ -5777,7 +5777,7 @@ public readonly customPayload: LexBotBotLocalesIntentsIntentClosingSettingClosin
 
 A message in a custom format defined by the client application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
 
 ---
 
@@ -5791,7 +5791,7 @@ public readonly imageResponseCard: LexBotBotLocalesIntentsIntentClosingSettingCl
 
 A message that defines a response card that the client application can show to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
 
 ---
 
@@ -5805,7 +5805,7 @@ public readonly plainTextMessage: LexBotBotLocalesIntentsIntentClosingSettingClo
 
 A message in plain text format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
 
 ---
 
@@ -5819,7 +5819,7 @@ public readonly ssmlMessage: LexBotBotLocalesIntentsIntentClosingSettingClosingR
 
 A message in Speech Synthesis Markup Language (SSML).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
 
 ---
 
@@ -5851,7 +5851,7 @@ public readonly value: string;
 
 The string that is sent to your application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -5886,7 +5886,7 @@ public readonly buttons: IResolvable | LexBotBotLocalesIntentsIntentClosingSetti
 
 A list of buttons that should be displayed on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#buttons LexBot#buttons}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#buttons LexBot#buttons}
 
 ---
 
@@ -5900,7 +5900,7 @@ public readonly imageUrl: string;
 
 The URL of an image to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#image_url LexBot#image_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#image_url LexBot#image_url}
 
 ---
 
@@ -5914,7 +5914,7 @@ public readonly subtitle: string;
 
 The subtitle to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
 
 ---
 
@@ -5928,7 +5928,7 @@ public readonly title: string;
 
 The title to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#title LexBot#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#title LexBot#title}
 
 ---
 
@@ -5961,7 +5961,7 @@ public readonly text: string;
 
 The text that appears on the button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#text LexBot#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#text LexBot#text}
 
 ---
 
@@ -5975,7 +5975,7 @@ public readonly value: string;
 
 The value returned to Amazon Lex when the user chooses this button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -6007,7 +6007,7 @@ public readonly value: string;
 
 The message to send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -6039,7 +6039,7 @@ public readonly value: string;
 
 The SSML text that defines the prompt.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -6058,7 +6058,7 @@ const lexBotBotLocalesIntentsIntentConfirmationSetting: lexBot.LexBotBotLocalesI
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSetting.property.declinationResponse">declinationResponse</a></code> | <code><a href="#@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponse">LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponse</a></code> | A list of message groups that Amazon Lex uses to respond the user input. |
-| <code><a href="#@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSetting.property.isActive">isActive</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#is_active LexBot#is_active}. |
+| <code><a href="#@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSetting.property.isActive">isActive</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#is_active LexBot#is_active}. |
 | <code><a href="#@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSetting.property.promptSpecification">promptSpecification</a></code> | <code><a href="#@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecification">LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecification</a></code> | Prompts the user to confirm the intent. |
 
 ---
@@ -6073,7 +6073,7 @@ public readonly declinationResponse: LexBotBotLocalesIntentsIntentConfirmationSe
 
 A list of message groups that Amazon Lex uses to respond the user input.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#declination_response LexBot#declination_response}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#declination_response LexBot#declination_response}
 
 ---
 
@@ -6085,7 +6085,7 @@ public readonly isActive: boolean | IResolvable;
 
 - *Type:* boolean | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#is_active LexBot#is_active}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#is_active LexBot#is_active}.
 
 ---
 
@@ -6099,7 +6099,7 @@ public readonly promptSpecification: LexBotBotLocalesIntentsIntentConfirmationSe
 
 Prompts the user to confirm the intent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#prompt_specification LexBot#prompt_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#prompt_specification LexBot#prompt_specification}
 
 ---
 
@@ -6132,7 +6132,7 @@ public readonly allowInterrupt: boolean | IResolvable;
 
 Indicates whether the user can interrupt a speech prompt from the bot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#allow_interrupt LexBot#allow_interrupt}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#allow_interrupt LexBot#allow_interrupt}
 
 ---
 
@@ -6148,7 +6148,7 @@ One to 5 message groups that contain update messages.
 
 Amazon Lex chooses one of the messages to play to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#message_groups_list LexBot#message_groups_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#message_groups_list LexBot#message_groups_list}
 
 ---
 
@@ -6183,7 +6183,7 @@ public readonly customPayload: LexBotBotLocalesIntentsIntentConfirmationSettingD
 
 A message in a custom format defined by the client application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
 
 ---
 
@@ -6197,7 +6197,7 @@ public readonly imageResponseCard: LexBotBotLocalesIntentsIntentConfirmationSett
 
 A message that defines a response card that the client application can show to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
 
 ---
 
@@ -6211,7 +6211,7 @@ public readonly plainTextMessage: LexBotBotLocalesIntentsIntentConfirmationSetti
 
 A message in plain text format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
 
 ---
 
@@ -6225,7 +6225,7 @@ public readonly ssmlMessage: LexBotBotLocalesIntentsIntentConfirmationSettingDec
 
 A message in Speech Synthesis Markup Language (SSML).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
 
 ---
 
@@ -6257,7 +6257,7 @@ public readonly value: string;
 
 The string that is sent to your application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -6292,7 +6292,7 @@ public readonly buttons: IResolvable | LexBotBotLocalesIntentsIntentConfirmation
 
 A list of buttons that should be displayed on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#buttons LexBot#buttons}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#buttons LexBot#buttons}
 
 ---
 
@@ -6306,7 +6306,7 @@ public readonly imageUrl: string;
 
 The URL of an image to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#image_url LexBot#image_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#image_url LexBot#image_url}
 
 ---
 
@@ -6320,7 +6320,7 @@ public readonly subtitle: string;
 
 The subtitle to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
 
 ---
 
@@ -6334,7 +6334,7 @@ public readonly title: string;
 
 The title to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#title LexBot#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#title LexBot#title}
 
 ---
 
@@ -6367,7 +6367,7 @@ public readonly text: string;
 
 The text that appears on the button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#text LexBot#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#text LexBot#text}
 
 ---
 
@@ -6381,7 +6381,7 @@ public readonly value: string;
 
 The value returned to Amazon Lex when the user chooses this button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -6413,7 +6413,7 @@ public readonly value: string;
 
 The message to send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -6445,7 +6445,7 @@ public readonly value: string;
 
 The SSML text that defines the prompt.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -6478,7 +6478,7 @@ public readonly message: LexBotBotLocalesIntentsIntentConfirmationSettingDeclina
 
 The primary message that Amazon Lex should send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#message LexBot#message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#message LexBot#message}
 
 ---
 
@@ -6492,7 +6492,7 @@ public readonly variations: IResolvable | LexBotBotLocalesIntentsIntentConfirmat
 
 Message variations to send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#variations LexBot#variations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#variations LexBot#variations}
 
 ---
 
@@ -6527,7 +6527,7 @@ public readonly customPayload: LexBotBotLocalesIntentsIntentConfirmationSettingD
 
 A message in a custom format defined by the client application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
 
 ---
 
@@ -6541,7 +6541,7 @@ public readonly imageResponseCard: LexBotBotLocalesIntentsIntentConfirmationSett
 
 A message that defines a response card that the client application can show to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
 
 ---
 
@@ -6555,7 +6555,7 @@ public readonly plainTextMessage: LexBotBotLocalesIntentsIntentConfirmationSetti
 
 A message in plain text format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
 
 ---
 
@@ -6569,7 +6569,7 @@ public readonly ssmlMessage: LexBotBotLocalesIntentsIntentConfirmationSettingDec
 
 A message in Speech Synthesis Markup Language (SSML).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
 
 ---
 
@@ -6601,7 +6601,7 @@ public readonly value: string;
 
 The string that is sent to your application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -6636,7 +6636,7 @@ public readonly buttons: IResolvable | LexBotBotLocalesIntentsIntentConfirmation
 
 A list of buttons that should be displayed on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#buttons LexBot#buttons}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#buttons LexBot#buttons}
 
 ---
 
@@ -6650,7 +6650,7 @@ public readonly imageUrl: string;
 
 The URL of an image to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#image_url LexBot#image_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#image_url LexBot#image_url}
 
 ---
 
@@ -6664,7 +6664,7 @@ public readonly subtitle: string;
 
 The subtitle to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
 
 ---
 
@@ -6678,7 +6678,7 @@ public readonly title: string;
 
 The title to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#title LexBot#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#title LexBot#title}
 
 ---
 
@@ -6711,7 +6711,7 @@ public readonly text: string;
 
 The text that appears on the button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#text LexBot#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#text LexBot#text}
 
 ---
 
@@ -6725,7 +6725,7 @@ public readonly value: string;
 
 The value returned to Amazon Lex when the user chooses this button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -6757,7 +6757,7 @@ public readonly value: string;
 
 The message to send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -6789,7 +6789,7 @@ public readonly value: string;
 
 The SSML text that defines the prompt.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -6825,7 +6825,7 @@ public readonly allowInterrupt: boolean | IResolvable;
 
 Indicates whether the user can interrupt a speech prompt from the bot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#allow_interrupt LexBot#allow_interrupt}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#allow_interrupt LexBot#allow_interrupt}
 
 ---
 
@@ -6839,7 +6839,7 @@ public readonly maxRetries: number;
 
 The maximum number of times the bot tries to elicit a resonse from the user using this prompt.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#max_retries LexBot#max_retries}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#max_retries LexBot#max_retries}
 
 ---
 
@@ -6855,7 +6855,7 @@ One to 5 message groups that contain update messages.
 
 Amazon Lex chooses one of the messages to play to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#message_groups_list LexBot#message_groups_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#message_groups_list LexBot#message_groups_list}
 
 ---
 
@@ -6869,7 +6869,7 @@ public readonly messageSelectionStrategy: string;
 
 Indicates how a message is selected from a message group among retries.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#message_selection_strategy LexBot#message_selection_strategy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#message_selection_strategy LexBot#message_selection_strategy}
 
 ---
 
@@ -6883,7 +6883,7 @@ public readonly promptAttemptsSpecification: IResolvable | {[ key: string ]: Lex
 
 Specifies the advanced settings on each attempt of the prompt.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#prompt_attempts_specification LexBot#prompt_attempts_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#prompt_attempts_specification LexBot#prompt_attempts_specification}
 
 ---
 
@@ -6918,7 +6918,7 @@ public readonly customPayload: LexBotBotLocalesIntentsIntentConfirmationSettingP
 
 A message in a custom format defined by the client application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
 
 ---
 
@@ -6932,7 +6932,7 @@ public readonly imageResponseCard: LexBotBotLocalesIntentsIntentConfirmationSett
 
 A message that defines a response card that the client application can show to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
 
 ---
 
@@ -6946,7 +6946,7 @@ public readonly plainTextMessage: LexBotBotLocalesIntentsIntentConfirmationSetti
 
 A message in plain text format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
 
 ---
 
@@ -6960,7 +6960,7 @@ public readonly ssmlMessage: LexBotBotLocalesIntentsIntentConfirmationSettingPro
 
 A message in Speech Synthesis Markup Language (SSML).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
 
 ---
 
@@ -6992,7 +6992,7 @@ public readonly value: string;
 
 The string that is sent to your application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -7027,7 +7027,7 @@ public readonly buttons: IResolvable | LexBotBotLocalesIntentsIntentConfirmation
 
 A list of buttons that should be displayed on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#buttons LexBot#buttons}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#buttons LexBot#buttons}
 
 ---
 
@@ -7041,7 +7041,7 @@ public readonly imageUrl: string;
 
 The URL of an image to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#image_url LexBot#image_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#image_url LexBot#image_url}
 
 ---
 
@@ -7055,7 +7055,7 @@ public readonly subtitle: string;
 
 The subtitle to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
 
 ---
 
@@ -7069,7 +7069,7 @@ public readonly title: string;
 
 The title to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#title LexBot#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#title LexBot#title}
 
 ---
 
@@ -7102,7 +7102,7 @@ public readonly text: string;
 
 The text that appears on the button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#text LexBot#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#text LexBot#text}
 
 ---
 
@@ -7116,7 +7116,7 @@ public readonly value: string;
 
 The value returned to Amazon Lex when the user chooses this button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -7148,7 +7148,7 @@ public readonly value: string;
 
 The message to send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -7180,7 +7180,7 @@ public readonly value: string;
 
 The SSML text that defines the prompt.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -7213,7 +7213,7 @@ public readonly message: LexBotBotLocalesIntentsIntentConfirmationSettingPromptS
 
 The primary message that Amazon Lex should send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#message LexBot#message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#message LexBot#message}
 
 ---
 
@@ -7227,7 +7227,7 @@ public readonly variations: IResolvable | LexBotBotLocalesIntentsIntentConfirmat
 
 Message variations to send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#variations LexBot#variations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#variations LexBot#variations}
 
 ---
 
@@ -7262,7 +7262,7 @@ public readonly customPayload: LexBotBotLocalesIntentsIntentConfirmationSettingP
 
 A message in a custom format defined by the client application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
 
 ---
 
@@ -7276,7 +7276,7 @@ public readonly imageResponseCard: LexBotBotLocalesIntentsIntentConfirmationSett
 
 A message that defines a response card that the client application can show to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
 
 ---
 
@@ -7290,7 +7290,7 @@ public readonly plainTextMessage: LexBotBotLocalesIntentsIntentConfirmationSetti
 
 A message in plain text format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
 
 ---
 
@@ -7304,7 +7304,7 @@ public readonly ssmlMessage: LexBotBotLocalesIntentsIntentConfirmationSettingPro
 
 A message in Speech Synthesis Markup Language (SSML).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
 
 ---
 
@@ -7336,7 +7336,7 @@ public readonly value: string;
 
 The string that is sent to your application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -7371,7 +7371,7 @@ public readonly buttons: IResolvable | LexBotBotLocalesIntentsIntentConfirmation
 
 A list of buttons that should be displayed on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#buttons LexBot#buttons}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#buttons LexBot#buttons}
 
 ---
 
@@ -7385,7 +7385,7 @@ public readonly imageUrl: string;
 
 The URL of an image to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#image_url LexBot#image_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#image_url LexBot#image_url}
 
 ---
 
@@ -7399,7 +7399,7 @@ public readonly subtitle: string;
 
 The subtitle to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
 
 ---
 
@@ -7413,7 +7413,7 @@ public readonly title: string;
 
 The title to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#title LexBot#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#title LexBot#title}
 
 ---
 
@@ -7446,7 +7446,7 @@ public readonly text: string;
 
 The text that appears on the button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#text LexBot#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#text LexBot#text}
 
 ---
 
@@ -7460,7 +7460,7 @@ public readonly value: string;
 
 The value returned to Amazon Lex when the user chooses this button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -7492,7 +7492,7 @@ public readonly value: string;
 
 The message to send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -7524,7 +7524,7 @@ public readonly value: string;
 
 The SSML text that defines the prompt.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -7559,7 +7559,7 @@ public readonly allowedInputTypes: LexBotBotLocalesIntentsIntentConfirmationSett
 
 Specifies the allowed input types.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#allowed_input_types LexBot#allowed_input_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#allowed_input_types LexBot#allowed_input_types}
 
 ---
 
@@ -7573,7 +7573,7 @@ public readonly allowInterrupt: boolean | IResolvable;
 
 Indicates whether the user can interrupt a speech prompt attempt from the bot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#allow_interrupt LexBot#allow_interrupt}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#allow_interrupt LexBot#allow_interrupt}
 
 ---
 
@@ -7587,7 +7587,7 @@ public readonly audioAndDtmfInputSpecification: LexBotBotLocalesIntentsIntentCon
 
 Specifies the audio and DTMF input specification.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#audio_and_dtmf_input_specification LexBot#audio_and_dtmf_input_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#audio_and_dtmf_input_specification LexBot#audio_and_dtmf_input_specification}
 
 ---
 
@@ -7601,7 +7601,7 @@ public readonly textInputSpecification: LexBotBotLocalesIntentsIntentConfirmatio
 
 Specifies the text input specifications.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#text_input_specification LexBot#text_input_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#text_input_specification LexBot#text_input_specification}
 
 ---
 
@@ -7634,7 +7634,7 @@ public readonly allowAudioInput: boolean | IResolvable;
 
 Indicates whether audio input is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#allow_audio_input LexBot#allow_audio_input}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#allow_audio_input LexBot#allow_audio_input}
 
 ---
 
@@ -7648,7 +7648,7 @@ public readonly allowDtmfInput: boolean | IResolvable;
 
 Indicates whether DTMF input is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#allow_dtmf_input LexBot#allow_dtmf_input}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#allow_dtmf_input LexBot#allow_dtmf_input}
 
 ---
 
@@ -7682,7 +7682,7 @@ public readonly audioSpecification: LexBotBotLocalesIntentsIntentConfirmationSet
 
 Specifies the audio input specifications.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#audio_specification LexBot#audio_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#audio_specification LexBot#audio_specification}
 
 ---
 
@@ -7696,7 +7696,7 @@ public readonly dtmfSpecification: LexBotBotLocalesIntentsIntentConfirmationSett
 
 Specifies the settings on DTMF input.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#dtmf_specification LexBot#dtmf_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#dtmf_specification LexBot#dtmf_specification}
 
 ---
 
@@ -7712,7 +7712,7 @@ Time for which a bot waits before assuming that the customer isn't going to spea
 
 This timeout is shared between Audio and DTMF inputs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#start_timeout_ms LexBot#start_timeout_ms}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#start_timeout_ms LexBot#start_timeout_ms}
 
 ---
 
@@ -7745,7 +7745,7 @@ public readonly endTimeoutMs: number;
 
 Time for which a bot waits after the customer stops speaking to assume the utterance is finished.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#end_timeout_ms LexBot#end_timeout_ms}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#end_timeout_ms LexBot#end_timeout_ms}
 
 ---
 
@@ -7759,7 +7759,7 @@ public readonly maxLengthMs: number;
 
 Time for how long Amazon Lex waits before speech input is truncated and the speech is returned to application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#max_length_ms LexBot#max_length_ms}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#max_length_ms LexBot#max_length_ms}
 
 ---
 
@@ -7794,7 +7794,7 @@ public readonly deletionCharacter: string;
 
 The DTMF character that clears the accumulated DTMF digits and immediately ends the input.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#deletion_character LexBot#deletion_character}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#deletion_character LexBot#deletion_character}
 
 ---
 
@@ -7810,7 +7810,7 @@ The DTMF character that immediately ends input.
 
 If the user does not press this character, the input ends after the end timeout.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#end_character LexBot#end_character}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#end_character LexBot#end_character}
 
 ---
 
@@ -7824,7 +7824,7 @@ public readonly endTimeoutMs: number;
 
 How long the bot should wait after the last DTMF character input before assuming that the input has concluded.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#end_timeout_ms LexBot#end_timeout_ms}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#end_timeout_ms LexBot#end_timeout_ms}
 
 ---
 
@@ -7838,7 +7838,7 @@ public readonly maxLength: number;
 
 The maximum number of DTMF digits allowed in an utterance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#max_length LexBot#max_length}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#max_length LexBot#max_length}
 
 ---
 
@@ -7870,7 +7870,7 @@ public readonly startTimeoutMs: number;
 
 Time for which a bot waits before re-prompting a customer for text input.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#start_timeout_ms LexBot#start_timeout_ms}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#start_timeout_ms LexBot#start_timeout_ms}
 
 ---
 
@@ -7904,7 +7904,7 @@ public readonly kendraIndex: string;
 
 The Amazon Resource Name (ARN) of the Amazon Kendra index that you want the AMAZON.KendraSearchIntent intent to search.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#kendra_index LexBot#kendra_index}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#kendra_index LexBot#kendra_index}
 
 ---
 
@@ -7918,7 +7918,7 @@ public readonly queryFilterString: string;
 
 A query filter that Amazon Lex sends to Amazon Kendra to filter the response from a query.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#query_filter_string LexBot#query_filter_string}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#query_filter_string LexBot#query_filter_string}
 
 ---
 
@@ -7932,7 +7932,7 @@ public readonly queryFilterStringEnabled: boolean | IResolvable;
 
 Determines whether the AMAZON.KendraSearchIntent intent uses a custom query string to query the Amazon Kendra index.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#query_filter_string_enabled LexBot#query_filter_string_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#query_filter_string_enabled LexBot#query_filter_string_enabled}
 
 ---
 
@@ -7966,7 +7966,7 @@ public readonly name: string;
 
 Unique name for a resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#name LexBot#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#name LexBot#name}
 
 ---
 
@@ -7980,7 +7980,7 @@ public readonly timeToLiveInSeconds: number;
 
 The amount of time, in seconds, that the output context should remain active.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#time_to_live_in_seconds LexBot#time_to_live_in_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#time_to_live_in_seconds LexBot#time_to_live_in_seconds}
 
 ---
 
@@ -7994,7 +7994,7 @@ public readonly turnsToLive: number;
 
 The number of conversation turns that the output context should remain active.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#turns_to_live LexBot#turns_to_live}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#turns_to_live LexBot#turns_to_live}
 
 ---
 
@@ -8026,7 +8026,7 @@ public readonly utterance: string;
 
 The sample utterance that Amazon Lex uses to build its machine-learning model to recognize intents/slots.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#utterance LexBot#utterance}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#utterance LexBot#utterance}
 
 ---
 
@@ -8059,7 +8059,7 @@ public readonly priority: number;
 
 The priority that a slot should be elicited.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#priority LexBot#priority}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#priority LexBot#priority}
 
 ---
 
@@ -8073,7 +8073,7 @@ public readonly slotName: string;
 
 The name of the slot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#slot_name LexBot#slot_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#slot_name LexBot#slot_name}
 
 ---
 
@@ -8110,7 +8110,7 @@ public readonly description: string;
 
 A description of the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#description LexBot#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#description LexBot#description}
 
 ---
 
@@ -8124,7 +8124,7 @@ public readonly multipleValuesSetting: LexBotBotLocalesIntentsSlotsMultipleValue
 
 Indicates whether a slot can return multiple values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#multiple_values_setting LexBot#multiple_values_setting}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#multiple_values_setting LexBot#multiple_values_setting}
 
 ---
 
@@ -8138,7 +8138,7 @@ public readonly name: string;
 
 Unique name for a resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#name LexBot#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#name LexBot#name}
 
 ---
 
@@ -8152,7 +8152,7 @@ public readonly obfuscationSetting: LexBotBotLocalesIntentsSlotsObfuscationSetti
 
 Determines whether Amazon Lex obscures slot values in conversation logs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#obfuscation_setting LexBot#obfuscation_setting}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#obfuscation_setting LexBot#obfuscation_setting}
 
 ---
 
@@ -8166,7 +8166,7 @@ public readonly slotTypeName: string;
 
 The slot type name that is used in the slot. Allows for custom and built-in slot type names.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#slot_type_name LexBot#slot_type_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#slot_type_name LexBot#slot_type_name}
 
 ---
 
@@ -8180,7 +8180,7 @@ public readonly valueElicitationSetting: LexBotBotLocalesIntentsSlotsValueElicit
 
 Settings that you can use for eliciting a slot value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value_elicitation_setting LexBot#value_elicitation_setting}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value_elicitation_setting LexBot#value_elicitation_setting}
 
 ---
 
@@ -8198,7 +8198,7 @@ const lexBotBotLocalesIntentsSlotsMultipleValuesSetting: lexBot.LexBotBotLocales
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsMultipleValuesSetting.property.allowMultipleValues">allowMultipleValues</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#allow_multiple_values LexBot#allow_multiple_values}. |
+| <code><a href="#@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsMultipleValuesSetting.property.allowMultipleValues">allowMultipleValues</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#allow_multiple_values LexBot#allow_multiple_values}. |
 
 ---
 
@@ -8210,7 +8210,7 @@ public readonly allowMultipleValues: boolean | IResolvable;
 
 - *Type:* boolean | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#allow_multiple_values LexBot#allow_multiple_values}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#allow_multiple_values LexBot#allow_multiple_values}.
 
 ---
 
@@ -8242,7 +8242,7 @@ public readonly obfuscationSettingType: string;
 
 Value that determines whether Amazon Lex obscures slot values in conversation logs. The default is to obscure the values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#obfuscation_setting_type LexBot#obfuscation_setting_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#obfuscation_setting_type LexBot#obfuscation_setting_type}
 
 ---
 
@@ -8278,7 +8278,7 @@ public readonly defaultValueSpecification: LexBotBotLocalesIntentsSlotsValueElic
 
 A list of default values for a slot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#default_value_specification LexBot#default_value_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#default_value_specification LexBot#default_value_specification}
 
 ---
 
@@ -8292,7 +8292,7 @@ public readonly promptSpecification: LexBotBotLocalesIntentsSlotsValueElicitatio
 
 The prompt that Amazon Lex uses to elicit the slot value from the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#prompt_specification LexBot#prompt_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#prompt_specification LexBot#prompt_specification}
 
 ---
 
@@ -8306,7 +8306,7 @@ public readonly sampleUtterances: IResolvable | LexBotBotLocalesIntentsSlotsValu
 
 If you know a specific pattern that users might respond to an Amazon Lex request for a slot value, you can provide those utterances to improve accuracy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#sample_utterances LexBot#sample_utterances}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#sample_utterances LexBot#sample_utterances}
 
 ---
 
@@ -8320,7 +8320,7 @@ public readonly slotConstraint: string;
 
 Specifies whether the slot is required or optional.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#slot_constraint LexBot#slot_constraint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#slot_constraint LexBot#slot_constraint}
 
 ---
 
@@ -8334,7 +8334,7 @@ public readonly waitAndContinueSpecification: LexBotBotLocalesIntentsSlotsValueE
 
 Specifies the prompts that Amazon Lex uses while a bot is waiting for customer input.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#wait_and_continue_specification LexBot#wait_and_continue_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#wait_and_continue_specification LexBot#wait_and_continue_specification}
 
 ---
 
@@ -8366,7 +8366,7 @@ public readonly defaultValueList: IResolvable | LexBotBotLocalesIntentsSlotsValu
 
 A list of slot default values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#default_value_list LexBot#default_value_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#default_value_list LexBot#default_value_list}
 
 ---
 
@@ -8398,7 +8398,7 @@ public readonly defaultValue: string;
 
 The default value to use when a user doesn't provide a value for a slot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#default_value LexBot#default_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#default_value LexBot#default_value}
 
 ---
 
@@ -8434,7 +8434,7 @@ public readonly allowInterrupt: boolean | IResolvable;
 
 Indicates whether the user can interrupt a speech prompt from the bot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#allow_interrupt LexBot#allow_interrupt}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#allow_interrupt LexBot#allow_interrupt}
 
 ---
 
@@ -8448,7 +8448,7 @@ public readonly maxRetries: number;
 
 The maximum number of times the bot tries to elicit a resonse from the user using this prompt.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#max_retries LexBot#max_retries}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#max_retries LexBot#max_retries}
 
 ---
 
@@ -8464,7 +8464,7 @@ One to 5 message groups that contain update messages.
 
 Amazon Lex chooses one of the messages to play to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#message_groups_list LexBot#message_groups_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#message_groups_list LexBot#message_groups_list}
 
 ---
 
@@ -8478,7 +8478,7 @@ public readonly messageSelectionStrategy: string;
 
 Indicates how a message is selected from a message group among retries.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#message_selection_strategy LexBot#message_selection_strategy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#message_selection_strategy LexBot#message_selection_strategy}
 
 ---
 
@@ -8492,7 +8492,7 @@ public readonly promptAttemptsSpecification: IResolvable | {[ key: string ]: Lex
 
 Specifies the advanced settings on each attempt of the prompt.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#prompt_attempts_specification LexBot#prompt_attempts_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#prompt_attempts_specification LexBot#prompt_attempts_specification}
 
 ---
 
@@ -8527,7 +8527,7 @@ public readonly customPayload: LexBotBotLocalesIntentsSlotsValueElicitationSetti
 
 A message in a custom format defined by the client application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
 
 ---
 
@@ -8541,7 +8541,7 @@ public readonly imageResponseCard: LexBotBotLocalesIntentsSlotsValueElicitationS
 
 A message that defines a response card that the client application can show to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
 
 ---
 
@@ -8555,7 +8555,7 @@ public readonly plainTextMessage: LexBotBotLocalesIntentsSlotsValueElicitationSe
 
 A message in plain text format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
 
 ---
 
@@ -8569,7 +8569,7 @@ public readonly ssmlMessage: LexBotBotLocalesIntentsSlotsValueElicitationSetting
 
 A message in Speech Synthesis Markup Language (SSML).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
 
 ---
 
@@ -8601,7 +8601,7 @@ public readonly value: string;
 
 The string that is sent to your application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -8636,7 +8636,7 @@ public readonly buttons: IResolvable | LexBotBotLocalesIntentsSlotsValueElicitat
 
 A list of buttons that should be displayed on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#buttons LexBot#buttons}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#buttons LexBot#buttons}
 
 ---
 
@@ -8650,7 +8650,7 @@ public readonly imageUrl: string;
 
 The URL of an image to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#image_url LexBot#image_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#image_url LexBot#image_url}
 
 ---
 
@@ -8664,7 +8664,7 @@ public readonly subtitle: string;
 
 The subtitle to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
 
 ---
 
@@ -8678,7 +8678,7 @@ public readonly title: string;
 
 The title to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#title LexBot#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#title LexBot#title}
 
 ---
 
@@ -8711,7 +8711,7 @@ public readonly text: string;
 
 The text that appears on the button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#text LexBot#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#text LexBot#text}
 
 ---
 
@@ -8725,7 +8725,7 @@ public readonly value: string;
 
 The value returned to Amazon Lex when the user chooses this button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -8757,7 +8757,7 @@ public readonly value: string;
 
 The message to send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -8789,7 +8789,7 @@ public readonly value: string;
 
 The SSML text that defines the prompt.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -8822,7 +8822,7 @@ public readonly message: LexBotBotLocalesIntentsSlotsValueElicitationSettingProm
 
 The primary message that Amazon Lex should send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#message LexBot#message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#message LexBot#message}
 
 ---
 
@@ -8836,7 +8836,7 @@ public readonly variations: IResolvable | LexBotBotLocalesIntentsSlotsValueElici
 
 Message variations to send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#variations LexBot#variations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#variations LexBot#variations}
 
 ---
 
@@ -8871,7 +8871,7 @@ public readonly customPayload: LexBotBotLocalesIntentsSlotsValueElicitationSetti
 
 A message in a custom format defined by the client application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
 
 ---
 
@@ -8885,7 +8885,7 @@ public readonly imageResponseCard: LexBotBotLocalesIntentsSlotsValueElicitationS
 
 A message that defines a response card that the client application can show to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
 
 ---
 
@@ -8899,7 +8899,7 @@ public readonly plainTextMessage: LexBotBotLocalesIntentsSlotsValueElicitationSe
 
 A message in plain text format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
 
 ---
 
@@ -8913,7 +8913,7 @@ public readonly ssmlMessage: LexBotBotLocalesIntentsSlotsValueElicitationSetting
 
 A message in Speech Synthesis Markup Language (SSML).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
 
 ---
 
@@ -8945,7 +8945,7 @@ public readonly value: string;
 
 The string that is sent to your application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -8980,7 +8980,7 @@ public readonly buttons: IResolvable | LexBotBotLocalesIntentsSlotsValueElicitat
 
 A list of buttons that should be displayed on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#buttons LexBot#buttons}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#buttons LexBot#buttons}
 
 ---
 
@@ -8994,7 +8994,7 @@ public readonly imageUrl: string;
 
 The URL of an image to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#image_url LexBot#image_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#image_url LexBot#image_url}
 
 ---
 
@@ -9008,7 +9008,7 @@ public readonly subtitle: string;
 
 The subtitle to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
 
 ---
 
@@ -9022,7 +9022,7 @@ public readonly title: string;
 
 The title to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#title LexBot#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#title LexBot#title}
 
 ---
 
@@ -9055,7 +9055,7 @@ public readonly text: string;
 
 The text that appears on the button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#text LexBot#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#text LexBot#text}
 
 ---
 
@@ -9069,7 +9069,7 @@ public readonly value: string;
 
 The value returned to Amazon Lex when the user chooses this button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -9101,7 +9101,7 @@ public readonly value: string;
 
 The message to send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -9133,7 +9133,7 @@ public readonly value: string;
 
 The SSML text that defines the prompt.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -9168,7 +9168,7 @@ public readonly allowedInputTypes: LexBotBotLocalesIntentsSlotsValueElicitationS
 
 Specifies the allowed input types.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#allowed_input_types LexBot#allowed_input_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#allowed_input_types LexBot#allowed_input_types}
 
 ---
 
@@ -9182,7 +9182,7 @@ public readonly allowInterrupt: boolean | IResolvable;
 
 Indicates whether the user can interrupt a speech prompt attempt from the bot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#allow_interrupt LexBot#allow_interrupt}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#allow_interrupt LexBot#allow_interrupt}
 
 ---
 
@@ -9196,7 +9196,7 @@ public readonly audioAndDtmfInputSpecification: LexBotBotLocalesIntentsSlotsValu
 
 Specifies the audio and DTMF input specification.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#audio_and_dtmf_input_specification LexBot#audio_and_dtmf_input_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#audio_and_dtmf_input_specification LexBot#audio_and_dtmf_input_specification}
 
 ---
 
@@ -9210,7 +9210,7 @@ public readonly textInputSpecification: LexBotBotLocalesIntentsSlotsValueElicita
 
 Specifies the text input specifications.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#text_input_specification LexBot#text_input_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#text_input_specification LexBot#text_input_specification}
 
 ---
 
@@ -9243,7 +9243,7 @@ public readonly allowAudioInput: boolean | IResolvable;
 
 Indicates whether audio input is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#allow_audio_input LexBot#allow_audio_input}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#allow_audio_input LexBot#allow_audio_input}
 
 ---
 
@@ -9257,7 +9257,7 @@ public readonly allowDtmfInput: boolean | IResolvable;
 
 Indicates whether DTMF input is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#allow_dtmf_input LexBot#allow_dtmf_input}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#allow_dtmf_input LexBot#allow_dtmf_input}
 
 ---
 
@@ -9291,7 +9291,7 @@ public readonly audioSpecification: LexBotBotLocalesIntentsSlotsValueElicitation
 
 Specifies the audio input specifications.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#audio_specification LexBot#audio_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#audio_specification LexBot#audio_specification}
 
 ---
 
@@ -9305,7 +9305,7 @@ public readonly dtmfSpecification: LexBotBotLocalesIntentsSlotsValueElicitationS
 
 Specifies the settings on DTMF input.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#dtmf_specification LexBot#dtmf_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#dtmf_specification LexBot#dtmf_specification}
 
 ---
 
@@ -9321,7 +9321,7 @@ Time for which a bot waits before assuming that the customer isn't going to spea
 
 This timeout is shared between Audio and DTMF inputs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#start_timeout_ms LexBot#start_timeout_ms}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#start_timeout_ms LexBot#start_timeout_ms}
 
 ---
 
@@ -9354,7 +9354,7 @@ public readonly endTimeoutMs: number;
 
 Time for which a bot waits after the customer stops speaking to assume the utterance is finished.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#end_timeout_ms LexBot#end_timeout_ms}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#end_timeout_ms LexBot#end_timeout_ms}
 
 ---
 
@@ -9368,7 +9368,7 @@ public readonly maxLengthMs: number;
 
 Time for how long Amazon Lex waits before speech input is truncated and the speech is returned to application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#max_length_ms LexBot#max_length_ms}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#max_length_ms LexBot#max_length_ms}
 
 ---
 
@@ -9403,7 +9403,7 @@ public readonly deletionCharacter: string;
 
 The DTMF character that clears the accumulated DTMF digits and immediately ends the input.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#deletion_character LexBot#deletion_character}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#deletion_character LexBot#deletion_character}
 
 ---
 
@@ -9419,7 +9419,7 @@ The DTMF character that immediately ends input.
 
 If the user does not press this character, the input ends after the end timeout.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#end_character LexBot#end_character}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#end_character LexBot#end_character}
 
 ---
 
@@ -9433,7 +9433,7 @@ public readonly endTimeoutMs: number;
 
 How long the bot should wait after the last DTMF character input before assuming that the input has concluded.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#end_timeout_ms LexBot#end_timeout_ms}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#end_timeout_ms LexBot#end_timeout_ms}
 
 ---
 
@@ -9447,7 +9447,7 @@ public readonly maxLength: number;
 
 The maximum number of DTMF digits allowed in an utterance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#max_length LexBot#max_length}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#max_length LexBot#max_length}
 
 ---
 
@@ -9479,7 +9479,7 @@ public readonly startTimeoutMs: number;
 
 Time for which a bot waits before re-prompting a customer for text input.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#start_timeout_ms LexBot#start_timeout_ms}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#start_timeout_ms LexBot#start_timeout_ms}
 
 ---
 
@@ -9511,7 +9511,7 @@ public readonly utterance: string;
 
 The sample utterance that Amazon Lex uses to build its machine-learning model to recognize intents/slots.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#utterance LexBot#utterance}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#utterance LexBot#utterance}
 
 ---
 
@@ -9546,7 +9546,7 @@ public readonly continueResponse: LexBotBotLocalesIntentsSlotsValueElicitationSe
 
 The response that Amazon Lex sends to indicate that the bot is ready to continue the conversation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#continue_response LexBot#continue_response}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#continue_response LexBot#continue_response}
 
 ---
 
@@ -9560,7 +9560,7 @@ public readonly isActive: boolean | IResolvable;
 
 Specifies whether the bot will wait for a user to respond.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#is_active LexBot#is_active}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#is_active LexBot#is_active}
 
 ---
 
@@ -9574,7 +9574,7 @@ public readonly stillWaitingResponse: LexBotBotLocalesIntentsSlotsValueElicitati
 
 The response that Amazon Lex sends periodically to the user to indicate that the bot is still waiting for input from the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#still_waiting_response LexBot#still_waiting_response}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#still_waiting_response LexBot#still_waiting_response}
 
 ---
 
@@ -9588,7 +9588,7 @@ public readonly waitingResponse: LexBotBotLocalesIntentsSlotsValueElicitationSet
 
 The response that Amazon Lex sends to indicate that the bot is waiting for the conversation to continue.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#waiting_response LexBot#waiting_response}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#waiting_response LexBot#waiting_response}
 
 ---
 
@@ -9621,7 +9621,7 @@ public readonly allowInterrupt: boolean | IResolvable;
 
 Indicates whether the user can interrupt a speech prompt from the bot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#allow_interrupt LexBot#allow_interrupt}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#allow_interrupt LexBot#allow_interrupt}
 
 ---
 
@@ -9637,7 +9637,7 @@ One to 5 message groups that contain update messages.
 
 Amazon Lex chooses one of the messages to play to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#message_groups_list LexBot#message_groups_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#message_groups_list LexBot#message_groups_list}
 
 ---
 
@@ -9672,7 +9672,7 @@ public readonly customPayload: LexBotBotLocalesIntentsSlotsValueElicitationSetti
 
 A message in a custom format defined by the client application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
 
 ---
 
@@ -9686,7 +9686,7 @@ public readonly imageResponseCard: LexBotBotLocalesIntentsSlotsValueElicitationS
 
 A message that defines a response card that the client application can show to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
 
 ---
 
@@ -9700,7 +9700,7 @@ public readonly plainTextMessage: LexBotBotLocalesIntentsSlotsValueElicitationSe
 
 A message in plain text format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
 
 ---
 
@@ -9714,7 +9714,7 @@ public readonly ssmlMessage: LexBotBotLocalesIntentsSlotsValueElicitationSetting
 
 A message in Speech Synthesis Markup Language (SSML).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
 
 ---
 
@@ -9746,7 +9746,7 @@ public readonly value: string;
 
 The string that is sent to your application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -9781,7 +9781,7 @@ public readonly buttons: IResolvable | LexBotBotLocalesIntentsSlotsValueElicitat
 
 A list of buttons that should be displayed on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#buttons LexBot#buttons}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#buttons LexBot#buttons}
 
 ---
 
@@ -9795,7 +9795,7 @@ public readonly imageUrl: string;
 
 The URL of an image to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#image_url LexBot#image_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#image_url LexBot#image_url}
 
 ---
 
@@ -9809,7 +9809,7 @@ public readonly subtitle: string;
 
 The subtitle to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
 
 ---
 
@@ -9823,7 +9823,7 @@ public readonly title: string;
 
 The title to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#title LexBot#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#title LexBot#title}
 
 ---
 
@@ -9856,7 +9856,7 @@ public readonly text: string;
 
 The text that appears on the button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#text LexBot#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#text LexBot#text}
 
 ---
 
@@ -9870,7 +9870,7 @@ public readonly value: string;
 
 The value returned to Amazon Lex when the user chooses this button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -9902,7 +9902,7 @@ public readonly value: string;
 
 The message to send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -9934,7 +9934,7 @@ public readonly value: string;
 
 The SSML text that defines the prompt.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -9967,7 +9967,7 @@ public readonly message: LexBotBotLocalesIntentsSlotsValueElicitationSettingWait
 
 The primary message that Amazon Lex should send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#message LexBot#message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#message LexBot#message}
 
 ---
 
@@ -9981,7 +9981,7 @@ public readonly variations: IResolvable | LexBotBotLocalesIntentsSlotsValueElici
 
 Message variations to send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#variations LexBot#variations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#variations LexBot#variations}
 
 ---
 
@@ -10016,7 +10016,7 @@ public readonly customPayload: LexBotBotLocalesIntentsSlotsValueElicitationSetti
 
 A message in a custom format defined by the client application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
 
 ---
 
@@ -10030,7 +10030,7 @@ public readonly imageResponseCard: LexBotBotLocalesIntentsSlotsValueElicitationS
 
 A message that defines a response card that the client application can show to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
 
 ---
 
@@ -10044,7 +10044,7 @@ public readonly plainTextMessage: LexBotBotLocalesIntentsSlotsValueElicitationSe
 
 A message in plain text format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
 
 ---
 
@@ -10058,7 +10058,7 @@ public readonly ssmlMessage: LexBotBotLocalesIntentsSlotsValueElicitationSetting
 
 A message in Speech Synthesis Markup Language (SSML).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
 
 ---
 
@@ -10090,7 +10090,7 @@ public readonly value: string;
 
 The string that is sent to your application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -10125,7 +10125,7 @@ public readonly buttons: IResolvable | LexBotBotLocalesIntentsSlotsValueElicitat
 
 A list of buttons that should be displayed on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#buttons LexBot#buttons}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#buttons LexBot#buttons}
 
 ---
 
@@ -10139,7 +10139,7 @@ public readonly imageUrl: string;
 
 The URL of an image to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#image_url LexBot#image_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#image_url LexBot#image_url}
 
 ---
 
@@ -10153,7 +10153,7 @@ public readonly subtitle: string;
 
 The subtitle to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
 
 ---
 
@@ -10167,7 +10167,7 @@ public readonly title: string;
 
 The title to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#title LexBot#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#title LexBot#title}
 
 ---
 
@@ -10200,7 +10200,7 @@ public readonly text: string;
 
 The text that appears on the button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#text LexBot#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#text LexBot#text}
 
 ---
 
@@ -10214,7 +10214,7 @@ public readonly value: string;
 
 The value returned to Amazon Lex when the user chooses this button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -10246,7 +10246,7 @@ public readonly value: string;
 
 The message to send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -10278,7 +10278,7 @@ public readonly value: string;
 
 The SSML text that defines the prompt.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -10313,7 +10313,7 @@ public readonly allowInterrupt: boolean | IResolvable;
 
 Indicates whether the user can interrupt a speech prompt from the bot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#allow_interrupt LexBot#allow_interrupt}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#allow_interrupt LexBot#allow_interrupt}
 
 ---
 
@@ -10327,7 +10327,7 @@ public readonly frequencyInSeconds: number;
 
 How often a message should be sent to the user in seconds.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#frequency_in_seconds LexBot#frequency_in_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#frequency_in_seconds LexBot#frequency_in_seconds}
 
 ---
 
@@ -10343,7 +10343,7 @@ One to 5 message groups that contain update messages.
 
 Amazon Lex chooses one of the messages to play to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#message_groups_list LexBot#message_groups_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#message_groups_list LexBot#message_groups_list}
 
 ---
 
@@ -10357,7 +10357,7 @@ public readonly timeoutInSeconds: number;
 
 If Amazon Lex waits longer than this length of time in seconds for a response, it will stop sending messages.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#timeout_in_seconds LexBot#timeout_in_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#timeout_in_seconds LexBot#timeout_in_seconds}
 
 ---
 
@@ -10392,7 +10392,7 @@ public readonly customPayload: LexBotBotLocalesIntentsSlotsValueElicitationSetti
 
 A message in a custom format defined by the client application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
 
 ---
 
@@ -10406,7 +10406,7 @@ public readonly imageResponseCard: LexBotBotLocalesIntentsSlotsValueElicitationS
 
 A message that defines a response card that the client application can show to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
 
 ---
 
@@ -10420,7 +10420,7 @@ public readonly plainTextMessage: LexBotBotLocalesIntentsSlotsValueElicitationSe
 
 A message in plain text format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
 
 ---
 
@@ -10434,7 +10434,7 @@ public readonly ssmlMessage: LexBotBotLocalesIntentsSlotsValueElicitationSetting
 
 A message in Speech Synthesis Markup Language (SSML).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
 
 ---
 
@@ -10466,7 +10466,7 @@ public readonly value: string;
 
 The string that is sent to your application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -10501,7 +10501,7 @@ public readonly buttons: IResolvable | LexBotBotLocalesIntentsSlotsValueElicitat
 
 A list of buttons that should be displayed on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#buttons LexBot#buttons}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#buttons LexBot#buttons}
 
 ---
 
@@ -10515,7 +10515,7 @@ public readonly imageUrl: string;
 
 The URL of an image to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#image_url LexBot#image_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#image_url LexBot#image_url}
 
 ---
 
@@ -10529,7 +10529,7 @@ public readonly subtitle: string;
 
 The subtitle to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
 
 ---
 
@@ -10543,7 +10543,7 @@ public readonly title: string;
 
 The title to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#title LexBot#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#title LexBot#title}
 
 ---
 
@@ -10576,7 +10576,7 @@ public readonly text: string;
 
 The text that appears on the button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#text LexBot#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#text LexBot#text}
 
 ---
 
@@ -10590,7 +10590,7 @@ public readonly value: string;
 
 The value returned to Amazon Lex when the user chooses this button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -10622,7 +10622,7 @@ public readonly value: string;
 
 The message to send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -10654,7 +10654,7 @@ public readonly value: string;
 
 The SSML text that defines the prompt.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -10687,7 +10687,7 @@ public readonly message: LexBotBotLocalesIntentsSlotsValueElicitationSettingWait
 
 The primary message that Amazon Lex should send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#message LexBot#message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#message LexBot#message}
 
 ---
 
@@ -10701,7 +10701,7 @@ public readonly variations: IResolvable | LexBotBotLocalesIntentsSlotsValueElici
 
 Message variations to send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#variations LexBot#variations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#variations LexBot#variations}
 
 ---
 
@@ -10736,7 +10736,7 @@ public readonly customPayload: LexBotBotLocalesIntentsSlotsValueElicitationSetti
 
 A message in a custom format defined by the client application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
 
 ---
 
@@ -10750,7 +10750,7 @@ public readonly imageResponseCard: LexBotBotLocalesIntentsSlotsValueElicitationS
 
 A message that defines a response card that the client application can show to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
 
 ---
 
@@ -10764,7 +10764,7 @@ public readonly plainTextMessage: LexBotBotLocalesIntentsSlotsValueElicitationSe
 
 A message in plain text format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
 
 ---
 
@@ -10778,7 +10778,7 @@ public readonly ssmlMessage: LexBotBotLocalesIntentsSlotsValueElicitationSetting
 
 A message in Speech Synthesis Markup Language (SSML).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
 
 ---
 
@@ -10810,7 +10810,7 @@ public readonly value: string;
 
 The string that is sent to your application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -10845,7 +10845,7 @@ public readonly buttons: IResolvable | LexBotBotLocalesIntentsSlotsValueElicitat
 
 A list of buttons that should be displayed on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#buttons LexBot#buttons}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#buttons LexBot#buttons}
 
 ---
 
@@ -10859,7 +10859,7 @@ public readonly imageUrl: string;
 
 The URL of an image to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#image_url LexBot#image_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#image_url LexBot#image_url}
 
 ---
 
@@ -10873,7 +10873,7 @@ public readonly subtitle: string;
 
 The subtitle to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
 
 ---
 
@@ -10887,7 +10887,7 @@ public readonly title: string;
 
 The title to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#title LexBot#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#title LexBot#title}
 
 ---
 
@@ -10920,7 +10920,7 @@ public readonly text: string;
 
 The text that appears on the button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#text LexBot#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#text LexBot#text}
 
 ---
 
@@ -10934,7 +10934,7 @@ public readonly value: string;
 
 The value returned to Amazon Lex when the user chooses this button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -10966,7 +10966,7 @@ public readonly value: string;
 
 The message to send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -10998,7 +10998,7 @@ public readonly value: string;
 
 The SSML text that defines the prompt.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -11031,7 +11031,7 @@ public readonly allowInterrupt: boolean | IResolvable;
 
 Indicates whether the user can interrupt a speech prompt from the bot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#allow_interrupt LexBot#allow_interrupt}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#allow_interrupt LexBot#allow_interrupt}
 
 ---
 
@@ -11047,7 +11047,7 @@ One to 5 message groups that contain update messages.
 
 Amazon Lex chooses one of the messages to play to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#message_groups_list LexBot#message_groups_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#message_groups_list LexBot#message_groups_list}
 
 ---
 
@@ -11082,7 +11082,7 @@ public readonly customPayload: LexBotBotLocalesIntentsSlotsValueElicitationSetti
 
 A message in a custom format defined by the client application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
 
 ---
 
@@ -11096,7 +11096,7 @@ public readonly imageResponseCard: LexBotBotLocalesIntentsSlotsValueElicitationS
 
 A message that defines a response card that the client application can show to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
 
 ---
 
@@ -11110,7 +11110,7 @@ public readonly plainTextMessage: LexBotBotLocalesIntentsSlotsValueElicitationSe
 
 A message in plain text format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
 
 ---
 
@@ -11124,7 +11124,7 @@ public readonly ssmlMessage: LexBotBotLocalesIntentsSlotsValueElicitationSetting
 
 A message in Speech Synthesis Markup Language (SSML).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
 
 ---
 
@@ -11156,7 +11156,7 @@ public readonly value: string;
 
 The string that is sent to your application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -11191,7 +11191,7 @@ public readonly buttons: IResolvable | LexBotBotLocalesIntentsSlotsValueElicitat
 
 A list of buttons that should be displayed on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#buttons LexBot#buttons}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#buttons LexBot#buttons}
 
 ---
 
@@ -11205,7 +11205,7 @@ public readonly imageUrl: string;
 
 The URL of an image to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#image_url LexBot#image_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#image_url LexBot#image_url}
 
 ---
 
@@ -11219,7 +11219,7 @@ public readonly subtitle: string;
 
 The subtitle to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
 
 ---
 
@@ -11233,7 +11233,7 @@ public readonly title: string;
 
 The title to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#title LexBot#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#title LexBot#title}
 
 ---
 
@@ -11266,7 +11266,7 @@ public readonly text: string;
 
 The text that appears on the button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#text LexBot#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#text LexBot#text}
 
 ---
 
@@ -11280,7 +11280,7 @@ public readonly value: string;
 
 The value returned to Amazon Lex when the user chooses this button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -11312,7 +11312,7 @@ public readonly value: string;
 
 The message to send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -11344,7 +11344,7 @@ public readonly value: string;
 
 The SSML text that defines the prompt.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -11377,7 +11377,7 @@ public readonly message: LexBotBotLocalesIntentsSlotsValueElicitationSettingWait
 
 The primary message that Amazon Lex should send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#message LexBot#message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#message LexBot#message}
 
 ---
 
@@ -11391,7 +11391,7 @@ public readonly variations: IResolvable | LexBotBotLocalesIntentsSlotsValueElici
 
 Message variations to send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#variations LexBot#variations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#variations LexBot#variations}
 
 ---
 
@@ -11426,7 +11426,7 @@ public readonly customPayload: LexBotBotLocalesIntentsSlotsValueElicitationSetti
 
 A message in a custom format defined by the client application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
 
 ---
 
@@ -11440,7 +11440,7 @@ public readonly imageResponseCard: LexBotBotLocalesIntentsSlotsValueElicitationS
 
 A message that defines a response card that the client application can show to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
 
 ---
 
@@ -11454,7 +11454,7 @@ public readonly plainTextMessage: LexBotBotLocalesIntentsSlotsValueElicitationSe
 
 A message in plain text format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
 
 ---
 
@@ -11468,7 +11468,7 @@ public readonly ssmlMessage: LexBotBotLocalesIntentsSlotsValueElicitationSetting
 
 A message in Speech Synthesis Markup Language (SSML).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
 
 ---
 
@@ -11500,7 +11500,7 @@ public readonly value: string;
 
 The string that is sent to your application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -11535,7 +11535,7 @@ public readonly buttons: IResolvable | LexBotBotLocalesIntentsSlotsValueElicitat
 
 A list of buttons that should be displayed on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#buttons LexBot#buttons}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#buttons LexBot#buttons}
 
 ---
 
@@ -11549,7 +11549,7 @@ public readonly imageUrl: string;
 
 The URL of an image to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#image_url LexBot#image_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#image_url LexBot#image_url}
 
 ---
 
@@ -11563,7 +11563,7 @@ public readonly subtitle: string;
 
 The subtitle to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
 
 ---
 
@@ -11577,7 +11577,7 @@ public readonly title: string;
 
 The title to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#title LexBot#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#title LexBot#title}
 
 ---
 
@@ -11610,7 +11610,7 @@ public readonly text: string;
 
 The text that appears on the button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#text LexBot#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#text LexBot#text}
 
 ---
 
@@ -11624,7 +11624,7 @@ public readonly value: string;
 
 The value returned to Amazon Lex when the user chooses this button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -11656,7 +11656,7 @@ public readonly value: string;
 
 The message to send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -11688,7 +11688,7 @@ public readonly value: string;
 
 The SSML text that defines the prompt.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -11725,7 +11725,7 @@ public readonly description: string;
 
 A description of the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#description LexBot#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#description LexBot#description}
 
 ---
 
@@ -11739,7 +11739,7 @@ public readonly externalSourceSetting: LexBotBotLocalesSlotTypesExternalSourceSe
 
 Provides information about the external source of the slot type's definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#external_source_setting LexBot#external_source_setting}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#external_source_setting LexBot#external_source_setting}
 
 ---
 
@@ -11753,7 +11753,7 @@ public readonly name: string;
 
 Unique name for a resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#name LexBot#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#name LexBot#name}
 
 ---
 
@@ -11767,7 +11767,7 @@ public readonly parentSlotTypeSignature: string;
 
 The built-in slot type used as a parent of this slot type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#parent_slot_type_signature LexBot#parent_slot_type_signature}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#parent_slot_type_signature LexBot#parent_slot_type_signature}
 
 ---
 
@@ -11781,7 +11781,7 @@ public readonly slotTypeValues: IResolvable | LexBotBotLocalesSlotTypesSlotTypeV
 
 A List of slot type values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#slot_type_values LexBot#slot_type_values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#slot_type_values LexBot#slot_type_values}
 
 ---
 
@@ -11795,7 +11795,7 @@ public readonly valueSelectionSetting: LexBotBotLocalesSlotTypesValueSelectionSe
 
 Contains settings used by Amazon Lex to select a slot value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value_selection_setting LexBot#value_selection_setting}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value_selection_setting LexBot#value_selection_setting}
 
 ---
 
@@ -11827,7 +11827,7 @@ public readonly grammarSlotTypeSetting: LexBotBotLocalesSlotTypesExternalSourceS
 
 Settings required for a slot type based on a grammar that you provide.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#grammar_slot_type_setting LexBot#grammar_slot_type_setting}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#grammar_slot_type_setting LexBot#grammar_slot_type_setting}
 
 ---
 
@@ -11859,7 +11859,7 @@ public readonly source: LexBotBotLocalesSlotTypesExternalSourceSettingGrammarSlo
 
 Describes the Amazon S3 bucket name and location for the grammar that is the source for the slot type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#source LexBot#source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#source LexBot#source}
 
 ---
 
@@ -11893,7 +11893,7 @@ public readonly kmsKeyArn: string;
 
 The Amazon KMS key required to decrypt the contents of the grammar, if any.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#kms_key_arn LexBot#kms_key_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#kms_key_arn LexBot#kms_key_arn}
 
 ---
 
@@ -11907,7 +11907,7 @@ public readonly s3BucketName: string;
 
 The name of the S3 bucket that contains the grammar source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#s3_bucket_name LexBot#s3_bucket_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#s3_bucket_name LexBot#s3_bucket_name}
 
 ---
 
@@ -11921,7 +11921,7 @@ public readonly s3ObjectKey: string;
 
 The path to the grammar in the S3 bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#s3_object_key LexBot#s3_object_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#s3_object_key LexBot#s3_object_key}
 
 ---
 
@@ -11954,7 +11954,7 @@ public readonly sampleValue: LexBotBotLocalesSlotTypesSlotTypeValuesSampleValue;
 
 Defines one of the values for a slot type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#sample_value LexBot#sample_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#sample_value LexBot#sample_value}
 
 ---
 
@@ -11968,7 +11968,7 @@ public readonly synonyms: IResolvable | LexBotBotLocalesSlotTypesSlotTypeValuesS
 
 Additional values related to the slot type entry.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#synonyms LexBot#synonyms}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#synonyms LexBot#synonyms}
 
 ---
 
@@ -12000,7 +12000,7 @@ public readonly value: string;
 
 The value that can be used for a slot type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -12032,7 +12032,7 @@ public readonly value: string;
 
 The value that can be used for a slot type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -12052,7 +12052,7 @@ const lexBotBotLocalesSlotTypesValueSelectionSetting: lexBot.LexBotBotLocalesSlo
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.lexBot.LexBotBotLocalesSlotTypesValueSelectionSetting.property.advancedRecognitionSetting">advancedRecognitionSetting</a></code> | <code><a href="#@cdktn/provider-awscc.lexBot.LexBotBotLocalesSlotTypesValueSelectionSettingAdvancedRecognitionSetting">LexBotBotLocalesSlotTypesValueSelectionSettingAdvancedRecognitionSetting</a></code> | Provides settings that enable advanced recognition settings for slot values. |
 | <code><a href="#@cdktn/provider-awscc.lexBot.LexBotBotLocalesSlotTypesValueSelectionSetting.property.regexFilter">regexFilter</a></code> | <code><a href="#@cdktn/provider-awscc.lexBot.LexBotBotLocalesSlotTypesValueSelectionSettingRegexFilter">LexBotBotLocalesSlotTypesValueSelectionSettingRegexFilter</a></code> | A regular expression used to validate the value of a slot. |
-| <code><a href="#@cdktn/provider-awscc.lexBot.LexBotBotLocalesSlotTypesValueSelectionSetting.property.resolutionStrategy">resolutionStrategy</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#resolution_strategy LexBot#resolution_strategy}. |
+| <code><a href="#@cdktn/provider-awscc.lexBot.LexBotBotLocalesSlotTypesValueSelectionSetting.property.resolutionStrategy">resolutionStrategy</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#resolution_strategy LexBot#resolution_strategy}. |
 
 ---
 
@@ -12066,7 +12066,7 @@ public readonly advancedRecognitionSetting: LexBotBotLocalesSlotTypesValueSelect
 
 Provides settings that enable advanced recognition settings for slot values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#advanced_recognition_setting LexBot#advanced_recognition_setting}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#advanced_recognition_setting LexBot#advanced_recognition_setting}
 
 ---
 
@@ -12080,7 +12080,7 @@ public readonly regexFilter: LexBotBotLocalesSlotTypesValueSelectionSettingRegex
 
 A regular expression used to validate the value of a slot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#regex_filter LexBot#regex_filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#regex_filter LexBot#regex_filter}
 
 ---
 
@@ -12092,7 +12092,7 @@ public readonly resolutionStrategy: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#resolution_strategy LexBot#resolution_strategy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#resolution_strategy LexBot#resolution_strategy}.
 
 ---
 
@@ -12124,7 +12124,7 @@ public readonly audioRecognitionStrategy: string;
 
 Enables using slot values as a custom vocabulary when recognizing user utterances.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#audio_recognition_strategy LexBot#audio_recognition_strategy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#audio_recognition_strategy LexBot#audio_recognition_strategy}
 
 ---
 
@@ -12156,7 +12156,7 @@ public readonly pattern: string;
 
 Regex pattern.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#pattern LexBot#pattern}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#pattern LexBot#pattern}
 
 ---
 
@@ -12191,7 +12191,7 @@ Indicates the type of Amazon Polly voice that Amazon Lex should use for voice in
 
 For more information, see the engine parameter of the SynthesizeSpeech operation in the Amazon Polly developer guide.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#engine LexBot#engine}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#engine LexBot#engine}
 
 ---
 
@@ -12205,7 +12205,7 @@ public readonly voiceId: string;
 
 The Amazon Polly voice ID that Amazon Lex uses for voice interaction with the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#voice_id LexBot#voice_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#voice_id LexBot#voice_id}
 
 ---
 
@@ -12240,7 +12240,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#key LexBot#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#key LexBot#key}
 
 ---
 
@@ -12256,7 +12256,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -12375,7 +12375,7 @@ public readonly dataPrivacy: LexBotDataPrivacy;
 
 Data privacy setting of the Bot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#data_privacy LexBot#data_privacy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#data_privacy LexBot#data_privacy}
 
 ---
 
@@ -12389,7 +12389,7 @@ public readonly idleSessionTtlInSeconds: number;
 
 IdleSessionTTLInSeconds of the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#idle_session_ttl_in_seconds LexBot#idle_session_ttl_in_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#idle_session_ttl_in_seconds LexBot#idle_session_ttl_in_seconds}
 
 ---
 
@@ -12403,7 +12403,7 @@ public readonly name: string;
 
 Unique name for a resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#name LexBot#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#name LexBot#name}
 
 ---
 
@@ -12417,7 +12417,7 @@ public readonly roleArn: string;
 
 The Amazon Resource Name (ARN) of an IAM role that has permission to access the bot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#role_arn LexBot#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#role_arn LexBot#role_arn}
 
 ---
 
@@ -12431,7 +12431,7 @@ public readonly autoBuildBotLocales: boolean | IResolvable;
 
 Specifies whether to build the bot locales after bot creation completes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#auto_build_bot_locales LexBot#auto_build_bot_locales}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#auto_build_bot_locales LexBot#auto_build_bot_locales}
 
 ---
 
@@ -12445,7 +12445,7 @@ public readonly botFileS3Location: LexBotBotFileS3Location;
 
 S3 location of bot definitions zip file, if it's not defined inline in CloudFormation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#bot_file_s3_location LexBot#bot_file_s3_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#bot_file_s3_location LexBot#bot_file_s3_location}
 
 ---
 
@@ -12459,7 +12459,7 @@ public readonly botLocales: IResolvable | LexBotBotLocales[];
 
 List of bot locales.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#bot_locales LexBot#bot_locales}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#bot_locales LexBot#bot_locales}
 
 ---
 
@@ -12473,7 +12473,7 @@ public readonly botTags: IResolvable | LexBotBotTags[];
 
 A list of tags to add to the bot, which can only be added at bot creation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#bot_tags LexBot#bot_tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#bot_tags LexBot#bot_tags}
 
 ---
 
@@ -12487,7 +12487,7 @@ public readonly description: string;
 
 A description of the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#description LexBot#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#description LexBot#description}
 
 ---
 
@@ -12501,7 +12501,7 @@ public readonly testBotAliasSettings: LexBotTestBotAliasSettings;
 
 Configuring the test bot alias settings for a given bot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#test_bot_alias_settings LexBot#test_bot_alias_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#test_bot_alias_settings LexBot#test_bot_alias_settings}
 
 ---
 
@@ -12515,7 +12515,7 @@ public readonly testBotAliasTags: IResolvable | LexBotTestBotAliasTags[];
 
 A list of tags to add to the test alias for a bot, , which can only be added at bot/bot alias creation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#test_bot_alias_tags LexBot#test_bot_alias_tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#test_bot_alias_tags LexBot#test_bot_alias_tags}
 
 ---
 
@@ -12533,7 +12533,7 @@ const lexBotDataPrivacy: lexBot.LexBotDataPrivacy = { ... }
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.lexBot.LexBotDataPrivacy.property.childDirected">childDirected</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#child_directed LexBot#child_directed}. |
+| <code><a href="#@cdktn/provider-awscc.lexBot.LexBotDataPrivacy.property.childDirected">childDirected</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#child_directed LexBot#child_directed}. |
 
 ---
 
@@ -12545,7 +12545,7 @@ public readonly childDirected: boolean | IResolvable;
 
 - *Type:* boolean | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#child_directed LexBot#child_directed}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#child_directed LexBot#child_directed}.
 
 ---
 
@@ -12580,7 +12580,7 @@ public readonly botAliasLocaleSettings: IResolvable | LexBotTestBotAliasSettings
 
 A list of bot alias locale settings to add to the bot alias.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#bot_alias_locale_settings LexBot#bot_alias_locale_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#bot_alias_locale_settings LexBot#bot_alias_locale_settings}
 
 ---
 
@@ -12594,7 +12594,7 @@ public readonly conversationLogSettings: LexBotTestBotAliasSettingsConversationL
 
 Contains information about code hooks that Amazon Lex calls during a conversation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#conversation_log_settings LexBot#conversation_log_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#conversation_log_settings LexBot#conversation_log_settings}
 
 ---
 
@@ -12608,7 +12608,7 @@ public readonly description: string;
 
 A description of the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#description LexBot#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#description LexBot#description}
 
 ---
 
@@ -12622,7 +12622,7 @@ public readonly sentimentAnalysisSettings: LexBotTestBotAliasSettingsSentimentAn
 
 Determines whether Amazon Lex will use Amazon Comprehend to detect the sentiment of user utterances.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#sentiment_analysis_settings LexBot#sentiment_analysis_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#sentiment_analysis_settings LexBot#sentiment_analysis_settings}
 
 ---
 
@@ -12655,7 +12655,7 @@ public readonly botAliasLocaleSetting: LexBotTestBotAliasSettingsBotAliasLocaleS
 
 You can use this parameter to specify a specific Lambda function to run different functions in different locales.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#bot_alias_locale_setting LexBot#bot_alias_locale_setting}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#bot_alias_locale_setting LexBot#bot_alias_locale_setting}
 
 ---
 
@@ -12669,7 +12669,7 @@ public readonly localeId: string;
 
 A string used to identify the locale.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#locale_id LexBot#locale_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#locale_id LexBot#locale_id}
 
 ---
 
@@ -12702,7 +12702,7 @@ public readonly codeHookSpecification: LexBotTestBotAliasSettingsBotAliasLocaleS
 
 Contains information about code hooks that Amazon Lex calls during a conversation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#code_hook_specification LexBot#code_hook_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#code_hook_specification LexBot#code_hook_specification}
 
 ---
 
@@ -12716,7 +12716,7 @@ public readonly enabled: boolean | IResolvable;
 
 Whether the Lambda code hook is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#enabled LexBot#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#enabled LexBot#enabled}
 
 ---
 
@@ -12748,7 +12748,7 @@ public readonly lambdaCodeHook: LexBotTestBotAliasSettingsBotAliasLocaleSettings
 
 Contains information about code hooks that Amazon Lex calls during a conversation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#lambda_code_hook LexBot#lambda_code_hook}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#lambda_code_hook LexBot#lambda_code_hook}
 
 ---
 
@@ -12781,7 +12781,7 @@ public readonly codeHookInterfaceVersion: string;
 
 The version of the request-response that you want Amazon Lex to use to invoke your Lambda function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#code_hook_interface_version LexBot#code_hook_interface_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#code_hook_interface_version LexBot#code_hook_interface_version}
 
 ---
 
@@ -12795,7 +12795,7 @@ public readonly lambdaArn: string;
 
 The Amazon Resource Name (ARN) of the Lambda function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#lambda_arn LexBot#lambda_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#lambda_arn LexBot#lambda_arn}
 
 ---
 
@@ -12828,7 +12828,7 @@ public readonly audioLogSettings: IResolvable | LexBotTestBotAliasSettingsConver
 
 List of audio log settings that pertain to the conversation log settings for the bot's TestBotAlias.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#audio_log_settings LexBot#audio_log_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#audio_log_settings LexBot#audio_log_settings}
 
 ---
 
@@ -12842,7 +12842,7 @@ public readonly textLogSettings: IResolvable | LexBotTestBotAliasSettingsConvers
 
 List of text log settings that pertain to the conversation log settings for the bot's TestBotAlias.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#text_log_settings LexBot#text_log_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#text_log_settings LexBot#text_log_settings}
 
 ---
 
@@ -12861,7 +12861,7 @@ const lexBotTestBotAliasSettingsConversationLogSettingsAudioLogSettings: lexBot.
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.lexBot.LexBotTestBotAliasSettingsConversationLogSettingsAudioLogSettings.property.destination">destination</a></code> | <code><a href="#@cdktn/provider-awscc.lexBot.LexBotTestBotAliasSettingsConversationLogSettingsAudioLogSettingsDestination">LexBotTestBotAliasSettingsConversationLogSettingsAudioLogSettingsDestination</a></code> | The location of audio log files collected when conversation logging is enabled for a bot. |
-| <code><a href="#@cdktn/provider-awscc.lexBot.LexBotTestBotAliasSettingsConversationLogSettingsAudioLogSettings.property.enabled">enabled</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#enabled LexBot#enabled}. |
+| <code><a href="#@cdktn/provider-awscc.lexBot.LexBotTestBotAliasSettingsConversationLogSettingsAudioLogSettings.property.enabled">enabled</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#enabled LexBot#enabled}. |
 
 ---
 
@@ -12875,7 +12875,7 @@ public readonly destination: LexBotTestBotAliasSettingsConversationLogSettingsAu
 
 The location of audio log files collected when conversation logging is enabled for a bot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#destination LexBot#destination}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#destination LexBot#destination}
 
 ---
 
@@ -12887,7 +12887,7 @@ public readonly enabled: boolean | IResolvable;
 
 - *Type:* boolean | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#enabled LexBot#enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#enabled LexBot#enabled}.
 
 ---
 
@@ -12919,7 +12919,7 @@ public readonly s3Bucket: LexBotTestBotAliasSettingsConversationLogSettingsAudio
 
 Specifies an Amazon S3 bucket for logging audio conversations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#s3_bucket LexBot#s3_bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#s3_bucket LexBot#s3_bucket}
 
 ---
 
@@ -12953,7 +12953,7 @@ public readonly kmsKeyArn: string;
 
 The Amazon Resource Name (ARN) of an AWS Key Management Service (KMS) key for encrypting audio log files stored in an S3 bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#kms_key_arn LexBot#kms_key_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#kms_key_arn LexBot#kms_key_arn}
 
 ---
 
@@ -12967,7 +12967,7 @@ public readonly logPrefix: string;
 
 The Amazon S3 key of the deployment package.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#log_prefix LexBot#log_prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#log_prefix LexBot#log_prefix}
 
 ---
 
@@ -12981,7 +12981,7 @@ public readonly s3BucketArn: string;
 
 The Amazon Resource Name (ARN) of an Amazon S3 bucket where audio log files are stored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#s3_bucket_arn LexBot#s3_bucket_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#s3_bucket_arn LexBot#s3_bucket_arn}
 
 ---
 
@@ -13000,7 +13000,7 @@ const lexBotTestBotAliasSettingsConversationLogSettingsTextLogSettings: lexBot.L
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.lexBot.LexBotTestBotAliasSettingsConversationLogSettingsTextLogSettings.property.destination">destination</a></code> | <code><a href="#@cdktn/provider-awscc.lexBot.LexBotTestBotAliasSettingsConversationLogSettingsTextLogSettingsDestination">LexBotTestBotAliasSettingsConversationLogSettingsTextLogSettingsDestination</a></code> | Defines the Amazon CloudWatch Logs destination log group for conversation text logs. |
-| <code><a href="#@cdktn/provider-awscc.lexBot.LexBotTestBotAliasSettingsConversationLogSettingsTextLogSettings.property.enabled">enabled</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#enabled LexBot#enabled}. |
+| <code><a href="#@cdktn/provider-awscc.lexBot.LexBotTestBotAliasSettingsConversationLogSettingsTextLogSettings.property.enabled">enabled</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#enabled LexBot#enabled}. |
 
 ---
 
@@ -13014,7 +13014,7 @@ public readonly destination: LexBotTestBotAliasSettingsConversationLogSettingsTe
 
 Defines the Amazon CloudWatch Logs destination log group for conversation text logs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#destination LexBot#destination}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#destination LexBot#destination}
 
 ---
 
@@ -13026,7 +13026,7 @@ public readonly enabled: boolean | IResolvable;
 
 - *Type:* boolean | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#enabled LexBot#enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#enabled LexBot#enabled}.
 
 ---
 
@@ -13044,7 +13044,7 @@ const lexBotTestBotAliasSettingsConversationLogSettingsTextLogSettingsDestinatio
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.lexBot.LexBotTestBotAliasSettingsConversationLogSettingsTextLogSettingsDestination.property.cloudwatch">cloudwatch</a></code> | <code><a href="#@cdktn/provider-awscc.lexBot.LexBotTestBotAliasSettingsConversationLogSettingsTextLogSettingsDestinationCloudwatch">LexBotTestBotAliasSettingsConversationLogSettingsTextLogSettingsDestinationCloudwatch</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#cloudwatch LexBot#cloudwatch}. |
+| <code><a href="#@cdktn/provider-awscc.lexBot.LexBotTestBotAliasSettingsConversationLogSettingsTextLogSettingsDestination.property.cloudwatch">cloudwatch</a></code> | <code><a href="#@cdktn/provider-awscc.lexBot.LexBotTestBotAliasSettingsConversationLogSettingsTextLogSettingsDestinationCloudwatch">LexBotTestBotAliasSettingsConversationLogSettingsTextLogSettingsDestinationCloudwatch</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#cloudwatch LexBot#cloudwatch}. |
 
 ---
 
@@ -13056,7 +13056,7 @@ public readonly cloudwatch: LexBotTestBotAliasSettingsConversationLogSettingsTex
 
 - *Type:* <a href="#@cdktn/provider-awscc.lexBot.LexBotTestBotAliasSettingsConversationLogSettingsTextLogSettingsDestinationCloudwatch">LexBotTestBotAliasSettingsConversationLogSettingsTextLogSettingsDestinationCloudwatch</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#cloudwatch LexBot#cloudwatch}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#cloudwatch LexBot#cloudwatch}.
 
 ---
 
@@ -13089,7 +13089,7 @@ public readonly cloudwatchLogGroupArn: string;
 
 A string used to identify the groupArn for the Cloudwatch Log Group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#cloudwatch_log_group_arn LexBot#cloudwatch_log_group_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#cloudwatch_log_group_arn LexBot#cloudwatch_log_group_arn}
 
 ---
 
@@ -13103,7 +13103,7 @@ public readonly logPrefix: string;
 
 A string containing the value for the Log Prefix.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#log_prefix LexBot#log_prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#log_prefix LexBot#log_prefix}
 
 ---
 
@@ -13135,7 +13135,7 @@ public readonly detectSentiment: boolean | IResolvable;
 
 Enable to call Amazon Comprehend for Sentiment natively within Lex.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#detect_sentiment LexBot#detect_sentiment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#detect_sentiment LexBot#detect_sentiment}
 
 ---
 
@@ -13170,7 +13170,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#key LexBot#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#key LexBot#key}
 
 ---
 
@@ -13186,7 +13186,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 

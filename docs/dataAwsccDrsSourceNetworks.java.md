@@ -4,7 +4,7 @@
 
 ### DataAwsccDrsSourceNetworks <a name="DataAwsccDrsSourceNetworks" id="@cdktn/provider-awscc.dataAwsccDrsSourceNetworks.DataAwsccDrsSourceNetworks"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/drs_source_networks awscc_drs_source_networks}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/drs_source_networks awscc_drs_source_networks}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDrsSourceNetworks.DataAwsccDrsSourceNetworks.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccDrsSourceNetworks
 
 The id of the existing DataAwsccDrsSourceNetworks that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/drs_source_networks#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/drs_source_networks#import import section} in the documentation of this resource for the id to use
 
 ---
 

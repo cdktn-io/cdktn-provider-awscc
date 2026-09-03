@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_public_type_version
+// https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudformation_public_type_version
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,25 +15,25 @@ export interface CloudformationPublicTypeVersionConfig extends cdktn.TerraformMe
   /**
   * The Amazon Resource Number (ARN) of the extension.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_public_type_version#arn CloudformationPublicTypeVersion#arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudformation_public_type_version#arn CloudformationPublicTypeVersion#arn}
   */
   readonly arn?: string;
   /**
   * A url to the S3 bucket where logs for the testType run will be available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_public_type_version#log_delivery_bucket CloudformationPublicTypeVersion#log_delivery_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudformation_public_type_version#log_delivery_bucket CloudformationPublicTypeVersion#log_delivery_bucket}
   */
   readonly logDeliveryBucket?: string;
   /**
   * The version number of a public third-party extension
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_public_type_version#public_version_number CloudformationPublicTypeVersion#public_version_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudformation_public_type_version#public_version_number CloudformationPublicTypeVersion#public_version_number}
   */
   readonly publicVersionNumber?: string;
   /**
   * The kind of extension
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_public_type_version#type CloudformationPublicTypeVersion#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudformation_public_type_version#type CloudformationPublicTypeVersion#type}
   */
   readonly type?: string;
   /**
@@ -41,13 +41,13 @@ export interface CloudformationPublicTypeVersionConfig extends cdktn.TerraformMe
   * 
   * We recommend that type names adhere to the following pattern: company_or_organization::service::type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_public_type_version#type_name CloudformationPublicTypeVersion#type_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudformation_public_type_version#type_name CloudformationPublicTypeVersion#type_name}
   */
   readonly typeName?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_public_type_version awscc_cloudformation_public_type_version}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudformation_public_type_version awscc_cloudformation_public_type_version}
 */
 export class CloudformationPublicTypeVersion extends cdktn.TerraformResource {
 
@@ -63,7 +63,7 @@ export class CloudformationPublicTypeVersion extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a CloudformationPublicTypeVersion resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudformationPublicTypeVersion to import
-  * @param importFromId The id of the existing CloudformationPublicTypeVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_public_type_version#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudformationPublicTypeVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudformation_public_type_version#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudformationPublicTypeVersion to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -75,7 +75,7 @@ export class CloudformationPublicTypeVersion extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_public_type_version awscc_cloudformation_public_type_version} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudformation_public_type_version awscc_cloudformation_public_type_version} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,7 +86,7 @@ export class CloudformationPublicTypeVersion extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_cloudformation_public_type_version',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.99.0',
+        providerVersion: '1.100.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

@@ -4,7 +4,7 @@
 
 ### DataAwsccResiliencehubApps <a name="DataAwsccResiliencehubApps" id="@cdktn/provider-awscc.dataAwsccResiliencehubApps.DataAwsccResiliencehubApps"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/resiliencehub_apps awscc_resiliencehub_apps}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/resiliencehub_apps awscc_resiliencehub_apps}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccResiliencehubApps.DataAwsccResiliencehubApps.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccResiliencehubApps
 
 The id of the existing DataAwsccResiliencehubApps that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/resiliencehub_apps#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/resiliencehub_apps#import import section} in the documentation of this resource for the id to use
 
 ---
 

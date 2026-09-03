@@ -4,7 +4,7 @@
 
 ### RbinRule <a name="RbinRule" id="@cdktn/provider-awscc.rbinRule.RbinRule"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rbin_rule awscc_rbin_rule}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rbin_rule awscc_rbin_rule}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.rbinRule.RbinRule.Initializer"></a>
 
@@ -596,7 +596,7 @@ The construct id used in the generated config for the RbinRule to import.
 
 The id of the existing RbinRule that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rbin_rule#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rbin_rule#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1139,7 +1139,7 @@ public string ResourceType { get; set; }
 
 The resource type retained by the retention rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rbin_rule#resource_type RbinRule#resource_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rbin_rule#resource_type RbinRule#resource_type}
 
 ---
 
@@ -1153,7 +1153,7 @@ public RbinRuleRetentionPeriod RetentionPeriod { get; set; }
 
 Information about the retention period for which the retention rule is to retain resources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rbin_rule#retention_period RbinRule#retention_period}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rbin_rule#retention_period RbinRule#retention_period}
 
 ---
 
@@ -1167,7 +1167,7 @@ public string Description { get; set; }
 
 The description of the retention rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rbin_rule#description RbinRule#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rbin_rule#description RbinRule#description}
 
 ---
 
@@ -1181,7 +1181,7 @@ public IResolvable|RbinRuleExcludeResourceTags[] ExcludeResourceTags { get; set;
 
 Information about the exclude resource tags used to identify resources that are excluded by the retention rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rbin_rule#exclude_resource_tags RbinRule#exclude_resource_tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rbin_rule#exclude_resource_tags RbinRule#exclude_resource_tags}
 
 ---
 
@@ -1195,7 +1195,7 @@ public RbinRuleLockConfiguration LockConfiguration { get; set; }
 
 Information about the retention rule lock configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rbin_rule#lock_configuration RbinRule#lock_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rbin_rule#lock_configuration RbinRule#lock_configuration}
 
 ---
 
@@ -1209,7 +1209,7 @@ public IResolvable|RbinRuleResourceTags[] ResourceTags { get; set; }
 
 Information about the resource tags used to identify resources that are retained by the retention rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rbin_rule#resource_tags RbinRule#resource_tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rbin_rule#resource_tags RbinRule#resource_tags}
 
 ---
 
@@ -1223,7 +1223,7 @@ public string Status { get; set; }
 
 The state of the retention rule. Only retention rules that are in the available state retain resources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rbin_rule#status RbinRule#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rbin_rule#status RbinRule#status}
 
 ---
 
@@ -1237,7 +1237,7 @@ public IResolvable|RbinRuleTags[] Tags { get; set; }
 
 Information about the tags assigned to the retention rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rbin_rule#tags RbinRule#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rbin_rule#tags RbinRule#tags}
 
 ---
 
@@ -1273,7 +1273,7 @@ public string ResourceTagKey { get; set; }
 
 The tag key of the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rbin_rule#resource_tag_key RbinRule#resource_tag_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rbin_rule#resource_tag_key RbinRule#resource_tag_key}
 
 ---
 
@@ -1287,7 +1287,7 @@ public string ResourceTagValue { get; set; }
 
 The tag value of the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rbin_rule#resource_tag_value RbinRule#resource_tag_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rbin_rule#resource_tag_value RbinRule#resource_tag_value}
 
 ---
 
@@ -1325,7 +1325,7 @@ The unit of time in which to measure the unlock delay.
 
 Currently, the unlock delay can be measure only in days.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rbin_rule#unlock_delay_unit RbinRule#unlock_delay_unit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rbin_rule#unlock_delay_unit RbinRule#unlock_delay_unit}
 
 ---
 
@@ -1339,7 +1339,7 @@ public double UnlockDelayValue { get; set; }
 
 The unlock delay period, measured in the unit specified for UnlockDelayUnit.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rbin_rule#unlock_delay_value RbinRule#unlock_delay_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rbin_rule#unlock_delay_value RbinRule#unlock_delay_value}
 
 ---
 
@@ -1375,7 +1375,7 @@ public string ResourceTagKey { get; set; }
 
 The tag key of the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rbin_rule#resource_tag_key RbinRule#resource_tag_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rbin_rule#resource_tag_key RbinRule#resource_tag_key}
 
 ---
 
@@ -1389,7 +1389,7 @@ public string ResourceTagValue { get; set; }
 
 The tag value of the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rbin_rule#resource_tag_value RbinRule#resource_tag_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rbin_rule#resource_tag_value RbinRule#resource_tag_value}
 
 ---
 
@@ -1425,7 +1425,7 @@ public string RetentionPeriodUnit { get; set; }
 
 The retention period unit of the rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rbin_rule#retention_period_unit RbinRule#retention_period_unit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rbin_rule#retention_period_unit RbinRule#retention_period_unit}
 
 ---
 
@@ -1439,7 +1439,7 @@ public double RetentionPeriodValue { get; set; }
 
 The retention period value of the rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rbin_rule#retention_period_value RbinRule#retention_period_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rbin_rule#retention_period_value RbinRule#retention_period_value}
 
 ---
 
@@ -1475,7 +1475,7 @@ public string Key { get; set; }
 
 A unique identifier for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rbin_rule#key RbinRule#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rbin_rule#key RbinRule#key}
 
 ---
 
@@ -1489,7 +1489,7 @@ public string Value { get; set; }
 
 String which you can use to describe or define the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rbin_rule#value RbinRule#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rbin_rule#value RbinRule#value}
 
 ---
 

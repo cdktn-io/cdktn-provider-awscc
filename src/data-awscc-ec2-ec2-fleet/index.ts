@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_ec2_fleet
+// https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_ec2_fleet
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccEc2Ec2FleetConfig extends cdktn.TerraformMetaArguments
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_ec2_fleet#id DataAwsccEc2Ec2Fleet#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_ec2_fleet#id DataAwsccEc2Ec2Fleet#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2042,6 +2042,119 @@ export class DataAwsccEc2Ec2FleetOnDemandOptionsOutputReference extends cdktn.Co
     return this.getBooleanAttribute('single_instance_type');
   }
 }
+export interface DataAwsccEc2Ec2FleetReservedCapacityOptionsCapacityReservationTarget {
+}
+
+export function dataAwsccEc2Ec2FleetReservedCapacityOptionsCapacityReservationTargetToTerraform(struct?: DataAwsccEc2Ec2FleetReservedCapacityOptionsCapacityReservationTarget): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccEc2Ec2FleetReservedCapacityOptionsCapacityReservationTargetToHclTerraform(struct?: DataAwsccEc2Ec2FleetReservedCapacityOptionsCapacityReservationTarget): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccEc2Ec2FleetReservedCapacityOptionsCapacityReservationTargetOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccEc2Ec2FleetReservedCapacityOptionsCapacityReservationTarget | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccEc2Ec2FleetReservedCapacityOptionsCapacityReservationTarget | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // capacity_reservation_ids - computed: true, optional: false, required: false
+  public get capacityReservationIds() {
+    return this.getListAttribute('capacity_reservation_ids');
+  }
+
+  // capacity_reservation_resource_group_arns - computed: true, optional: false, required: false
+  public get capacityReservationResourceGroupArns() {
+    return this.getListAttribute('capacity_reservation_resource_group_arns');
+  }
+}
+export interface DataAwsccEc2Ec2FleetReservedCapacityOptionsReservedCapacityFallbackOptions {
+}
+
+export function dataAwsccEc2Ec2FleetReservedCapacityOptionsReservedCapacityFallbackOptionsToTerraform(struct?: DataAwsccEc2Ec2FleetReservedCapacityOptionsReservedCapacityFallbackOptions): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccEc2Ec2FleetReservedCapacityOptionsReservedCapacityFallbackOptionsToHclTerraform(struct?: DataAwsccEc2Ec2FleetReservedCapacityOptionsReservedCapacityFallbackOptions): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccEc2Ec2FleetReservedCapacityOptionsReservedCapacityFallbackOptionsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccEc2Ec2FleetReservedCapacityOptionsReservedCapacityFallbackOptions | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccEc2Ec2FleetReservedCapacityOptionsReservedCapacityFallbackOptions | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // market_types - computed: true, optional: false, required: false
+  public get marketTypes() {
+    return this.getListAttribute('market_types');
+  }
+}
 export interface DataAwsccEc2Ec2FleetReservedCapacityOptions {
 }
 
@@ -2091,9 +2204,26 @@ export class DataAwsccEc2Ec2FleetReservedCapacityOptionsOutputReference extends 
     }
   }
 
+  // allocation_strategy - computed: true, optional: false, required: false
+  public get allocationStrategy() {
+    return this.getStringAttribute('allocation_strategy');
+  }
+
+  // capacity_reservation_target - computed: true, optional: false, required: false
+  private _capacityReservationTarget = new DataAwsccEc2Ec2FleetReservedCapacityOptionsCapacityReservationTargetOutputReference(this, "capacity_reservation_target");
+  public get capacityReservationTarget() {
+    return this._capacityReservationTarget;
+  }
+
   // reservation_types - computed: true, optional: false, required: false
   public get reservationTypes() {
     return this.getListAttribute('reservation_types');
+  }
+
+  // reserved_capacity_fallback_options - computed: true, optional: false, required: false
+  private _reservedCapacityFallbackOptions = new DataAwsccEc2Ec2FleetReservedCapacityOptionsReservedCapacityFallbackOptionsOutputReference(this, "reserved_capacity_fallback_options");
+  public get reservedCapacityFallbackOptions() {
+    return this._reservedCapacityFallbackOptions;
   }
 }
 export interface DataAwsccEc2Ec2FleetSpotOptionsMaintenanceStrategiesCapacityRebalance {
@@ -2537,7 +2667,7 @@ export class DataAwsccEc2Ec2FleetTargetCapacitySpecificationOutputReference exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_ec2_fleet awscc_ec2_ec2_fleet}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_ec2_fleet awscc_ec2_ec2_fleet}
 */
 export class DataAwsccEc2Ec2Fleet extends cdktn.TerraformDataSource {
 
@@ -2553,7 +2683,7 @@ export class DataAwsccEc2Ec2Fleet extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAwsccEc2Ec2Fleet resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccEc2Ec2Fleet to import
-  * @param importFromId The id of the existing DataAwsccEc2Ec2Fleet that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_ec2_fleet#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccEc2Ec2Fleet that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_ec2_fleet#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccEc2Ec2Fleet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -2565,7 +2695,7 @@ export class DataAwsccEc2Ec2Fleet extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_ec2_fleet awscc_ec2_ec2_fleet} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_ec2_fleet awscc_ec2_ec2_fleet} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2576,7 +2706,7 @@ export class DataAwsccEc2Ec2Fleet extends cdktn.TerraformDataSource {
       terraformResourceType: 'awscc_ec2_ec2_fleet',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.99.0',
+        providerVersion: '1.100.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

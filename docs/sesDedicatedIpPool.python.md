@@ -4,7 +4,7 @@
 
 ### SesDedicatedIpPool <a name="SesDedicatedIpPool" id="@cdktn/provider-awscc.sesDedicatedIpPool.SesDedicatedIpPool"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_dedicated_ip_pool awscc_ses_dedicated_ip_pool}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ses_dedicated_ip_pool awscc_ses_dedicated_ip_pool}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sesDedicatedIpPool.SesDedicatedIpPool.Initializer"></a>
 
@@ -110,7 +110,7 @@ Must be unique amongst siblings in the same scope
 
 The name of the dedicated IP pool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_dedicated_ip_pool#pool_name SesDedicatedIpPool#pool_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ses_dedicated_ip_pool#pool_name SesDedicatedIpPool#pool_name}
 
 ---
 
@@ -120,7 +120,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Specifies whether the dedicated IP pool is managed or not. The default value is STANDARD.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_dedicated_ip_pool#scaling_mode SesDedicatedIpPool#scaling_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ses_dedicated_ip_pool#scaling_mode SesDedicatedIpPool#scaling_mode}
 
 ---
 
@@ -130,7 +130,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The tags (keys and values) associated with the dedicated IP pool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_dedicated_ip_pool#tags SesDedicatedIpPool#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ses_dedicated_ip_pool#tags SesDedicatedIpPool#tags}
 
 ---
 
@@ -663,7 +663,7 @@ The construct id used in the generated config for the SesDedicatedIpPool to impo
 
 The id of the existing SesDedicatedIpPool that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_dedicated_ip_pool#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ses_dedicated_ip_pool#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1053,7 +1053,7 @@ pool_name: str
 
 The name of the dedicated IP pool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_dedicated_ip_pool#pool_name SesDedicatedIpPool#pool_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ses_dedicated_ip_pool#pool_name SesDedicatedIpPool#pool_name}
 
 ---
 
@@ -1067,7 +1067,7 @@ scaling_mode: str
 
 Specifies whether the dedicated IP pool is managed or not. The default value is STANDARD.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_dedicated_ip_pool#scaling_mode SesDedicatedIpPool#scaling_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ses_dedicated_ip_pool#scaling_mode SesDedicatedIpPool#scaling_mode}
 
 ---
 
@@ -1081,7 +1081,7 @@ tags: IResolvable | typing.List[SesDedicatedIpPoolTags]
 
 The tags (keys and values) associated with the dedicated IP pool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_dedicated_ip_pool#tags SesDedicatedIpPool#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ses_dedicated_ip_pool#tags SesDedicatedIpPool#tags}
 
 ---
 
@@ -1102,8 +1102,8 @@ sesDedicatedIpPool.SesDedicatedIpPoolTags(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sesDedicatedIpPool.SesDedicatedIpPoolTags.property.key">key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_dedicated_ip_pool#key SesDedicatedIpPool#key}. |
-| <code><a href="#@cdktn/provider-awscc.sesDedicatedIpPool.SesDedicatedIpPoolTags.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_dedicated_ip_pool#value SesDedicatedIpPool#value}. |
+| <code><a href="#@cdktn/provider-awscc.sesDedicatedIpPool.SesDedicatedIpPoolTags.property.key">key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ses_dedicated_ip_pool#key SesDedicatedIpPool#key}. |
+| <code><a href="#@cdktn/provider-awscc.sesDedicatedIpPool.SesDedicatedIpPoolTags.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ses_dedicated_ip_pool#value SesDedicatedIpPool#value}. |
 
 ---
 
@@ -1115,7 +1115,7 @@ key: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_dedicated_ip_pool#key SesDedicatedIpPool#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ses_dedicated_ip_pool#key SesDedicatedIpPool#key}.
 
 ---
 
@@ -1127,7 +1127,7 @@ value: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_dedicated_ip_pool#value SesDedicatedIpPool#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ses_dedicated_ip_pool#value SesDedicatedIpPool#value}.
 
 ---
 

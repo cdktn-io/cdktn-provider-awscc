@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/opensearch_data_source
+// https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/opensearch_data_source
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,25 +15,25 @@ export interface OpensearchDataSourceConfig extends cdktn.TerraformMetaArguments
   /**
   * The type of data source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/opensearch_data_source#data_source_type OpensearchDataSource#data_source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/opensearch_data_source#data_source_type OpensearchDataSource#data_source_type}
   */
   readonly dataSourceType: OpensearchDataSourceDataSourceType;
   /**
   * A description of the data source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/opensearch_data_source#description OpensearchDataSource#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/opensearch_data_source#description OpensearchDataSource#description}
   */
   readonly description?: string;
   /**
   * The name of the OpenSearch Service domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/opensearch_data_source#domain_name OpensearchDataSource#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/opensearch_data_source#domain_name OpensearchDataSource#domain_name}
   */
   readonly domainName: string;
   /**
   * The name of the data source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/opensearch_data_source#name OpensearchDataSource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/opensearch_data_source#name OpensearchDataSource#name}
   */
   readonly name: string;
 }
@@ -41,7 +41,7 @@ export interface OpensearchDataSourceDataSourceTypeS3GlueDataCatalog {
   /**
   * The ARN of the IAM role that grants OpenSearch Service permission to access the Glue Data Catalog.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/opensearch_data_source#role_arn OpensearchDataSource#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/opensearch_data_source#role_arn OpensearchDataSource#role_arn}
   */
   readonly roleArn?: string;
 }
@@ -137,7 +137,7 @@ export interface OpensearchDataSourceDataSourceType {
   /**
   * Configuration for an S3 Glue Data Catalog data source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/opensearch_data_source#s3_glue_data_catalog OpensearchDataSource#s3_glue_data_catalog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/opensearch_data_source#s3_glue_data_catalog OpensearchDataSource#s3_glue_data_catalog}
   */
   readonly s3GlueDataCatalog?: OpensearchDataSourceDataSourceTypeS3GlueDataCatalog;
 }
@@ -231,7 +231,7 @@ export class OpensearchDataSourceDataSourceTypeOutputReference extends cdktn.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/opensearch_data_source awscc_opensearch_data_source}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/opensearch_data_source awscc_opensearch_data_source}
 */
 export class OpensearchDataSource extends cdktn.TerraformResource {
 
@@ -247,7 +247,7 @@ export class OpensearchDataSource extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a OpensearchDataSource resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OpensearchDataSource to import
-  * @param importFromId The id of the existing OpensearchDataSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/opensearch_data_source#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OpensearchDataSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/opensearch_data_source#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OpensearchDataSource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -259,7 +259,7 @@ export class OpensearchDataSource extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/opensearch_data_source awscc_opensearch_data_source} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/opensearch_data_source awscc_opensearch_data_source} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -270,7 +270,7 @@ export class OpensearchDataSource extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_opensearch_data_source',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.99.0',
+        providerVersion: '1.100.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

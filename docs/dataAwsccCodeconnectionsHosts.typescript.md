@@ -4,7 +4,7 @@
 
 ### DataAwsccCodeconnectionsHosts <a name="DataAwsccCodeconnectionsHosts" id="@cdktn/provider-awscc.dataAwsccCodeconnectionsHosts.DataAwsccCodeconnectionsHosts"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/codeconnections_hosts awscc_codeconnections_hosts}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/codeconnections_hosts awscc_codeconnections_hosts}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodeconnectionsHosts.DataAwsccCodeconnectionsHosts.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCodeconnectionsHo
 
 The id of the existing DataAwsccCodeconnectionsHosts that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/codeconnections_hosts#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/codeconnections_hosts#import import section} in the documentation of this resource for the id to use
 
 ---
 

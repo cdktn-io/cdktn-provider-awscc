@@ -4,7 +4,7 @@
 
 ### SecretsmanagerSecret <a name="SecretsmanagerSecret" id="@cdktn/provider-awscc.secretsmanagerSecret.SecretsmanagerSecret"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/secretsmanager_secret awscc_secretsmanager_secret}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/secretsmanager_secret awscc_secretsmanager_secret}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.secretsmanagerSecret.SecretsmanagerSecret.Initializer"></a>
 
@@ -118,7 +118,7 @@ Must be unique amongst siblings in the same scope
 
 The description of the secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/secretsmanager_secret#description SecretsmanagerSecret#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/secretsmanager_secret#description SecretsmanagerSecret#description}
 
 ---
 
@@ -131,7 +131,7 @@ A structure that specifies how to generate a password to encrypt and store in th
 To include a specific string in the secret, use `SecretString` instead. If you omit both `GenerateSecretString` and `SecretString`, you create an empty secret. When you make a change to this property, a new secret version is created.
 We recommend that you specify the maximum length and include every character type that the system you are generating a password for can support.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/secretsmanager_secret#generate_secret_string SecretsmanagerSecret#generate_secret_string}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/secretsmanager_secret#generate_secret_string SecretsmanagerSecret#generate_secret_string}
 
 ---
 
@@ -146,7 +146,7 @@ To use a KMS key in a different account, use the key ARN or the alias ARN.
 If you don't specify this value, then Secrets Manager uses the key `aws/secretsmanager`. If that key doesn't yet exist, then Secrets Manager creates it for you automatically the first time it encrypts the secret value.
 If the secret is in a different AWS account from the credentials calling the API, then you can't use `aws/secretsmanager` to encrypt the secret, and you must create and use a customer managed KMS key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/secretsmanager_secret#kms_key_id SecretsmanagerSecret#kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/secretsmanager_secret#kms_key_id SecretsmanagerSecret#kms_key_id}
 
 ---
 
@@ -159,7 +159,7 @@ The name of the new secret.
 The secret name can contain ASCII letters, numbers, and the following characters: /_+=.@-
 Do not end your secret name with a hyphen followed by six characters. If you do so, you risk confusion and unexpected results when searching for a secret by partial ARN. Secrets Manager automatically adds a hyphen and six random characters after the secret name at the end of the ARN.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/secretsmanager_secret#name SecretsmanagerSecret#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/secretsmanager_secret#name SecretsmanagerSecret#name}
 
 ---
 
@@ -169,7 +169,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A custom type that specifies a ``Region`` and the ``KmsKeyId`` for a replica secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/secretsmanager_secret#replica_regions SecretsmanagerSecret#replica_regions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/secretsmanager_secret#replica_regions SecretsmanagerSecret#replica_regions}
 
 ---
 
@@ -181,7 +181,7 @@ The text to encrypt and store in the secret.
 
 We recommend you use a JSON structure of key/value pairs for your secret value. To generate a random password, use `GenerateSecretString` instead. If you omit both `GenerateSecretString` and `SecretString`, you create an empty secret. When you make a change to this property, a new secret version is created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/secretsmanager_secret#secret_string SecretsmanagerSecret#secret_string}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/secretsmanager_secret#secret_string SecretsmanagerSecret#secret_string}
 
 ---
 
@@ -216,7 +216,7 @@ The exact string that identifies the third-party partner that holds the external
 
 For more information, see [Managed external secret partners](https://docs.aws.amazon.com/secretsmanager/latest/userguide/mes-partners.html).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/secretsmanager_secret#type SecretsmanagerSecret#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/secretsmanager_secret#type SecretsmanagerSecret#type}
 
 ---
 
@@ -760,7 +760,7 @@ The construct id used in the generated config for the SecretsmanagerSecret to im
 
 The id of the existing SecretsmanagerSecret that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/secretsmanager_secret#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/secretsmanager_secret#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1281,7 +1281,7 @@ public java.lang.String getDescription();
 
 The description of the secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/secretsmanager_secret#description SecretsmanagerSecret#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/secretsmanager_secret#description SecretsmanagerSecret#description}
 
 ---
 
@@ -1298,7 +1298,7 @@ A structure that specifies how to generate a password to encrypt and store in th
 To include a specific string in the secret, use `SecretString` instead. If you omit both `GenerateSecretString` and `SecretString`, you create an empty secret. When you make a change to this property, a new secret version is created.
 We recommend that you specify the maximum length and include every character type that the system you are generating a password for can support.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/secretsmanager_secret#generate_secret_string SecretsmanagerSecret#generate_secret_string}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/secretsmanager_secret#generate_secret_string SecretsmanagerSecret#generate_secret_string}
 
 ---
 
@@ -1317,7 +1317,7 @@ To use a KMS key in a different account, use the key ARN or the alias ARN.
 If you don't specify this value, then Secrets Manager uses the key `aws/secretsmanager`. If that key doesn't yet exist, then Secrets Manager creates it for you automatically the first time it encrypts the secret value.
 If the secret is in a different AWS account from the credentials calling the API, then you can't use `aws/secretsmanager` to encrypt the secret, and you must create and use a customer managed KMS key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/secretsmanager_secret#kms_key_id SecretsmanagerSecret#kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/secretsmanager_secret#kms_key_id SecretsmanagerSecret#kms_key_id}
 
 ---
 
@@ -1334,7 +1334,7 @@ The name of the new secret.
 The secret name can contain ASCII letters, numbers, and the following characters: /_+=.@-
 Do not end your secret name with a hyphen followed by six characters. If you do so, you risk confusion and unexpected results when searching for a secret by partial ARN. Secrets Manager automatically adds a hyphen and six random characters after the secret name at the end of the ARN.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/secretsmanager_secret#name SecretsmanagerSecret#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/secretsmanager_secret#name SecretsmanagerSecret#name}
 
 ---
 
@@ -1348,7 +1348,7 @@ public IResolvable|java.util.List<SecretsmanagerSecretReplicaRegions> getReplica
 
 A custom type that specifies a ``Region`` and the ``KmsKeyId`` for a replica secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/secretsmanager_secret#replica_regions SecretsmanagerSecret#replica_regions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/secretsmanager_secret#replica_regions SecretsmanagerSecret#replica_regions}
 
 ---
 
@@ -1364,7 +1364,7 @@ The text to encrypt and store in the secret.
 
 We recommend you use a JSON structure of key/value pairs for your secret value. To generate a random password, use `GenerateSecretString` instead. If you omit both `GenerateSecretString` and `SecretString`, you create an empty secret. When you make a change to this property, a new secret version is created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/secretsmanager_secret#secret_string SecretsmanagerSecret#secret_string}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/secretsmanager_secret#secret_string SecretsmanagerSecret#secret_string}
 
 ---
 
@@ -1407,7 +1407,7 @@ The exact string that identifies the third-party partner that holds the external
 
 For more information, see [Managed external secret partners](https://docs.aws.amazon.com/secretsmanager/latest/userguide/mes-partners.html).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/secretsmanager_secret#type SecretsmanagerSecret#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/secretsmanager_secret#type SecretsmanagerSecret#type}
 
 ---
 
@@ -1459,7 +1459,7 @@ public java.lang.String getExcludeCharacters();
 
 A string of the characters that you don't want in the password.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/secretsmanager_secret#exclude_characters SecretsmanagerSecret#exclude_characters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/secretsmanager_secret#exclude_characters SecretsmanagerSecret#exclude_characters}
 
 ---
 
@@ -1475,7 +1475,7 @@ Specifies whether to exclude lowercase letters from the password.
 
 If you don't include this switch, the password can contain lowercase letters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/secretsmanager_secret#exclude_lowercase SecretsmanagerSecret#exclude_lowercase}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/secretsmanager_secret#exclude_lowercase SecretsmanagerSecret#exclude_lowercase}
 
 ---
 
@@ -1489,7 +1489,7 @@ public java.lang.Boolean|IResolvable getExcludeNumbers();
 
 Specifies whether to exclude numbers from the password. If you don't include this switch, the password can contain numbers.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/secretsmanager_secret#exclude_numbers SecretsmanagerSecret#exclude_numbers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/secretsmanager_secret#exclude_numbers SecretsmanagerSecret#exclude_numbers}
 
 ---
 
@@ -1505,7 +1505,7 @@ Specifies whether to exclude the following punctuation characters from the passw
 
 " # $ % & ' ( ) * + , - . / : ; < = > ? @ [ \ ] ^ _ ` { | } ~``. If you don't include this switch, the password can contain punctuation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/secretsmanager_secret#exclude_punctuation SecretsmanagerSecret#exclude_punctuation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/secretsmanager_secret#exclude_punctuation SecretsmanagerSecret#exclude_punctuation}
 
 ---
 
@@ -1521,7 +1521,7 @@ Specifies whether to exclude uppercase letters from the password.
 
 If you don't include this switch, the password can contain uppercase letters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/secretsmanager_secret#exclude_uppercase SecretsmanagerSecret#exclude_uppercase}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/secretsmanager_secret#exclude_uppercase SecretsmanagerSecret#exclude_uppercase}
 
 ---
 
@@ -1537,7 +1537,7 @@ The JSON key name for the key/value pair, where the value is the generated passw
 
 This pair is added to the JSON structure specified by the `SecretStringTemplate` parameter. If you specify this parameter, then you must also specify `SecretStringTemplate`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/secretsmanager_secret#generate_string_key SecretsmanagerSecret#generate_string_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/secretsmanager_secret#generate_string_key SecretsmanagerSecret#generate_string_key}
 
 ---
 
@@ -1551,7 +1551,7 @@ public java.lang.Boolean|IResolvable getIncludeSpace();
 
 Specifies whether to include the space character. If you include this switch, the password can contain space characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/secretsmanager_secret#include_space SecretsmanagerSecret#include_space}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/secretsmanager_secret#include_space SecretsmanagerSecret#include_space}
 
 ---
 
@@ -1565,7 +1565,7 @@ public java.lang.Number getPasswordLength();
 
 The length of the password. If you don't include this parameter, the default length is 32 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/secretsmanager_secret#password_length SecretsmanagerSecret#password_length}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/secretsmanager_secret#password_length SecretsmanagerSecret#password_length}
 
 ---
 
@@ -1581,7 +1581,7 @@ Specifies whether to include at least one upper and lowercase letter, one number
 
 If you don't include this switch, the password contains at least one of every character type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/secretsmanager_secret#require_each_included_type SecretsmanagerSecret#require_each_included_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/secretsmanager_secret#require_each_included_type SecretsmanagerSecret#require_each_included_type}
 
 ---
 
@@ -1597,7 +1597,7 @@ A template that the generated string must match.
 
 When you make a change to this property, a new secret version is created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/secretsmanager_secret#secret_string_template SecretsmanagerSecret#secret_string_template}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/secretsmanager_secret#secret_string_template SecretsmanagerSecret#secret_string_template}
 
 ---
 
@@ -1635,7 +1635,7 @@ The ARN, key ID, or alias of the KMS key to encrypt the secret.
 
 If you don't include this field, Secrets Manager uses `aws/secretsmanager`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/secretsmanager_secret#kms_key_id SecretsmanagerSecret#kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/secretsmanager_secret#kms_key_id SecretsmanagerSecret#kms_key_id}
 
 ---
 
@@ -1649,7 +1649,7 @@ public java.lang.String getRegion();
 
 A string that represents a ``Region``, for example "us-east-1".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/secretsmanager_secret#region SecretsmanagerSecret#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/secretsmanager_secret#region SecretsmanagerSecret#region}
 
 ---
 
@@ -1685,7 +1685,7 @@ public java.lang.String getKey();
 
 The key identifier, or name, of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/secretsmanager_secret#key SecretsmanagerSecret#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/secretsmanager_secret#key SecretsmanagerSecret#key}
 
 ---
 
@@ -1699,7 +1699,7 @@ public java.lang.String getValue();
 
 The string value associated with the key of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/secretsmanager_secret#value SecretsmanagerSecret#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/secretsmanager_secret#value SecretsmanagerSecret#value}
 
 ---
 

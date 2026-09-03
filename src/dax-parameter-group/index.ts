@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/dax_parameter_group
+// https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/dax_parameter_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,25 +15,25 @@ export interface DaxParameterGroupConfig extends cdktn.TerraformMetaArguments {
   /**
   * A description of the parameter group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/dax_parameter_group#description DaxParameterGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/dax_parameter_group#description DaxParameterGroup#description}
   */
   readonly description?: string;
   /**
   * The name of the parameter group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/dax_parameter_group#parameter_group_name DaxParameterGroup#parameter_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/dax_parameter_group#parameter_group_name DaxParameterGroup#parameter_group_name}
   */
   readonly parameterGroupName?: string;
   /**
   * An array of name-value pairs for the parameters in the group. Each element in the array represents a single parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/dax_parameter_group#parameter_name_values DaxParameterGroup#parameter_name_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/dax_parameter_group#parameter_name_values DaxParameterGroup#parameter_name_values}
   */
   readonly parameterNameValues?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/dax_parameter_group awscc_dax_parameter_group}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/dax_parameter_group awscc_dax_parameter_group}
 */
 export class DaxParameterGroup extends cdktn.TerraformResource {
 
@@ -49,7 +49,7 @@ export class DaxParameterGroup extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a DaxParameterGroup resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DaxParameterGroup to import
-  * @param importFromId The id of the existing DaxParameterGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/dax_parameter_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DaxParameterGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/dax_parameter_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DaxParameterGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -61,7 +61,7 @@ export class DaxParameterGroup extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/dax_parameter_group awscc_dax_parameter_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/dax_parameter_group awscc_dax_parameter_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -72,7 +72,7 @@ export class DaxParameterGroup extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_dax_parameter_group',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.99.0',
+        providerVersion: '1.100.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

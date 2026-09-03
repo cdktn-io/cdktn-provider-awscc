@@ -4,7 +4,7 @@
 
 ### DmsCertificate <a name="DmsCertificate" id="@cdktn/provider-awscc.dmsCertificate.DmsCertificate"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/dms_certificate awscc_dms_certificate}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/dms_certificate awscc_dms_certificate}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dmsCertificate.DmsCertificate.Initializer"></a>
 
@@ -108,7 +108,7 @@ Must be unique amongst siblings in the same scope
 
 The certificate Identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/dms_certificate#certificate_identifier DmsCertificate#certificate_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/dms_certificate#certificate_identifier DmsCertificate#certificate_identifier}
 
 ---
 
@@ -118,7 +118,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The certificate Pem.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/dms_certificate#certificate_pem DmsCertificate#certificate_pem}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/dms_certificate#certificate_pem DmsCertificate#certificate_pem}
 
 ---
 
@@ -128,7 +128,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The certificate Wallet.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/dms_certificate#certificate_wallet DmsCertificate#certificate_wallet}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/dms_certificate#certificate_wallet DmsCertificate#certificate_wallet}
 
 ---
 
@@ -598,7 +598,7 @@ The construct id used in the generated config for the DmsCertificate to import.
 
 The id of the existing DmsCertificate that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/dms_certificate#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/dms_certificate#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -999,7 +999,7 @@ public java.lang.String getCertificateIdentifier();
 
 The certificate Identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/dms_certificate#certificate_identifier DmsCertificate#certificate_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/dms_certificate#certificate_identifier DmsCertificate#certificate_identifier}
 
 ---
 
@@ -1013,7 +1013,7 @@ public java.lang.String getCertificatePem();
 
 The certificate Pem.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/dms_certificate#certificate_pem DmsCertificate#certificate_pem}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/dms_certificate#certificate_pem DmsCertificate#certificate_pem}
 
 ---
 
@@ -1027,7 +1027,7 @@ public java.lang.String getCertificateWallet();
 
 The certificate Wallet.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/dms_certificate#certificate_wallet DmsCertificate#certificate_wallet}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/dms_certificate#certificate_wallet DmsCertificate#certificate_wallet}
 
 ---
 

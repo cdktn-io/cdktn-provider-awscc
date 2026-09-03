@@ -4,7 +4,7 @@
 
 ### DataAwsccStepfunctionsStateMachines <a name="DataAwsccStepfunctionsStateMachines" id="@cdktn/provider-awscc.dataAwsccStepfunctionsStateMachines.DataAwsccStepfunctionsStateMachines"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/stepfunctions_state_machines awscc_stepfunctions_state_machines}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/stepfunctions_state_machines awscc_stepfunctions_state_machines}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccStepfunctionsStateMachines.DataAwsccStepfunctionsStateMachines.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccStepfunctionsStat
 
 The id of the existing DataAwsccStepfunctionsStateMachines that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/stepfunctions_state_machines#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/stepfunctions_state_machines#import import section} in the documentation of this resource for the id to use
 
 ---
 

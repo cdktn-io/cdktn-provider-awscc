@@ -4,7 +4,7 @@
 
 ### ServicediscoveryPrivateDnsNamespace <a name="ServicediscoveryPrivateDnsNamespace" id="@cdktn/provider-awscc.servicediscoveryPrivateDnsNamespace.ServicediscoveryPrivateDnsNamespace"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicediscovery_private_dns_namespace awscc_servicediscovery_private_dns_namespace}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/servicediscovery_private_dns_namespace awscc_servicediscovery_private_dns_namespace}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.servicediscoveryPrivateDnsNamespace.ServicediscoveryPrivateDnsNamespace.Initializer"></a>
 
@@ -543,7 +543,7 @@ The construct id used in the generated config for the ServicediscoveryPrivateDns
 
 The id of the existing ServicediscoveryPrivateDnsNamespace that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicediscovery_private_dns_namespace#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/servicediscovery_private_dns_namespace#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1016,7 +1016,7 @@ The name that you want to assign to this namespace.
 
 When you create a private DNS namespace, AWS Cloud Map automatically creates an Amazon Route 53 private hosted zone that has the same name as the namespace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicediscovery_private_dns_namespace#name ServicediscoveryPrivateDnsNamespace#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/servicediscovery_private_dns_namespace#name ServicediscoveryPrivateDnsNamespace#name}
 
 ---
 
@@ -1030,7 +1030,7 @@ Description *string
 
 A description of the namespace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicediscovery_private_dns_namespace#description ServicediscoveryPrivateDnsNamespace#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/servicediscovery_private_dns_namespace#description ServicediscoveryPrivateDnsNamespace#description}
 
 ---
 
@@ -1044,7 +1044,7 @@ Properties ServicediscoveryPrivateDnsNamespaceProperties
 
 Properties of the private DNS namespace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicediscovery_private_dns_namespace#properties ServicediscoveryPrivateDnsNamespace#properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/servicediscovery_private_dns_namespace#properties ServicediscoveryPrivateDnsNamespace#properties}
 
 ---
 
@@ -1060,7 +1060,7 @@ The tags for the namespace.
 
 Each tag consists of a key and an optional value, both of which you define. Tag keys can have a maximum character length of 128 characters, and tag values can have a maximum length of 256 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicediscovery_private_dns_namespace#tags ServicediscoveryPrivateDnsNamespace#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/servicediscovery_private_dns_namespace#tags ServicediscoveryPrivateDnsNamespace#tags}
 
 ---
 
@@ -1074,7 +1074,7 @@ Vpc *string
 
 The ID of the Amazon VPC that you want to associate the namespace with.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicediscovery_private_dns_namespace#vpc ServicediscoveryPrivateDnsNamespace#vpc}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/servicediscovery_private_dns_namespace#vpc ServicediscoveryPrivateDnsNamespace#vpc}
 
 ---
 
@@ -1094,7 +1094,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/servicediscoveryprivat
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.servicediscoveryPrivateDnsNamespace.ServicediscoveryPrivateDnsNamespaceProperties.property.dnsProperties">DnsProperties</a></code> | <code><a href="#@cdktn/provider-awscc.servicediscoveryPrivateDnsNamespace.ServicediscoveryPrivateDnsNamespacePropertiesDnsProperties">ServicediscoveryPrivateDnsNamespacePropertiesDnsProperties</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicediscovery_private_dns_namespace#dns_properties ServicediscoveryPrivateDnsNamespace#dns_properties}. |
+| <code><a href="#@cdktn/provider-awscc.servicediscoveryPrivateDnsNamespace.ServicediscoveryPrivateDnsNamespaceProperties.property.dnsProperties">DnsProperties</a></code> | <code><a href="#@cdktn/provider-awscc.servicediscoveryPrivateDnsNamespace.ServicediscoveryPrivateDnsNamespacePropertiesDnsProperties">ServicediscoveryPrivateDnsNamespacePropertiesDnsProperties</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/servicediscovery_private_dns_namespace#dns_properties ServicediscoveryPrivateDnsNamespace#dns_properties}. |
 
 ---
 
@@ -1106,7 +1106,7 @@ DnsProperties ServicediscoveryPrivateDnsNamespacePropertiesDnsProperties
 
 - *Type:* <a href="#@cdktn/provider-awscc.servicediscoveryPrivateDnsNamespace.ServicediscoveryPrivateDnsNamespacePropertiesDnsProperties">ServicediscoveryPrivateDnsNamespacePropertiesDnsProperties</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicediscovery_private_dns_namespace#dns_properties ServicediscoveryPrivateDnsNamespace#dns_properties}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/servicediscovery_private_dns_namespace#dns_properties ServicediscoveryPrivateDnsNamespace#dns_properties}.
 
 ---
 
@@ -1126,7 +1126,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/servicediscoveryprivat
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.servicediscoveryPrivateDnsNamespace.ServicediscoveryPrivateDnsNamespacePropertiesDnsProperties.property.soa">Soa</a></code> | <code><a href="#@cdktn/provider-awscc.servicediscoveryPrivateDnsNamespace.ServicediscoveryPrivateDnsNamespacePropertiesDnsPropertiesSoa">ServicediscoveryPrivateDnsNamespacePropertiesDnsPropertiesSoa</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicediscovery_private_dns_namespace#soa ServicediscoveryPrivateDnsNamespace#soa}. |
+| <code><a href="#@cdktn/provider-awscc.servicediscoveryPrivateDnsNamespace.ServicediscoveryPrivateDnsNamespacePropertiesDnsProperties.property.soa">Soa</a></code> | <code><a href="#@cdktn/provider-awscc.servicediscoveryPrivateDnsNamespace.ServicediscoveryPrivateDnsNamespacePropertiesDnsPropertiesSoa">ServicediscoveryPrivateDnsNamespacePropertiesDnsPropertiesSoa</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/servicediscovery_private_dns_namespace#soa ServicediscoveryPrivateDnsNamespace#soa}. |
 
 ---
 
@@ -1138,7 +1138,7 @@ Soa ServicediscoveryPrivateDnsNamespacePropertiesDnsPropertiesSoa
 
 - *Type:* <a href="#@cdktn/provider-awscc.servicediscoveryPrivateDnsNamespace.ServicediscoveryPrivateDnsNamespacePropertiesDnsPropertiesSoa">ServicediscoveryPrivateDnsNamespacePropertiesDnsPropertiesSoa</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicediscovery_private_dns_namespace#soa ServicediscoveryPrivateDnsNamespace#soa}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/servicediscovery_private_dns_namespace#soa ServicediscoveryPrivateDnsNamespace#soa}.
 
 ---
 
@@ -1158,7 +1158,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/servicediscoveryprivat
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.servicediscoveryPrivateDnsNamespace.ServicediscoveryPrivateDnsNamespacePropertiesDnsPropertiesSoa.property.ttl">Ttl</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicediscovery_private_dns_namespace#ttl ServicediscoveryPrivateDnsNamespace#ttl}. |
+| <code><a href="#@cdktn/provider-awscc.servicediscoveryPrivateDnsNamespace.ServicediscoveryPrivateDnsNamespacePropertiesDnsPropertiesSoa.property.ttl">Ttl</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/servicediscovery_private_dns_namespace#ttl ServicediscoveryPrivateDnsNamespace#ttl}. |
 
 ---
 
@@ -1170,7 +1170,7 @@ Ttl *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicediscovery_private_dns_namespace#ttl ServicediscoveryPrivateDnsNamespace#ttl}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/servicediscovery_private_dns_namespace#ttl ServicediscoveryPrivateDnsNamespace#ttl}.
 
 ---
 
@@ -1191,8 +1191,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/servicediscoveryprivat
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.servicediscoveryPrivateDnsNamespace.ServicediscoveryPrivateDnsNamespaceTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicediscovery_private_dns_namespace#key ServicediscoveryPrivateDnsNamespace#key}. |
-| <code><a href="#@cdktn/provider-awscc.servicediscoveryPrivateDnsNamespace.ServicediscoveryPrivateDnsNamespaceTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicediscovery_private_dns_namespace#value ServicediscoveryPrivateDnsNamespace#value}. |
+| <code><a href="#@cdktn/provider-awscc.servicediscoveryPrivateDnsNamespace.ServicediscoveryPrivateDnsNamespaceTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/servicediscovery_private_dns_namespace#key ServicediscoveryPrivateDnsNamespace#key}. |
+| <code><a href="#@cdktn/provider-awscc.servicediscoveryPrivateDnsNamespace.ServicediscoveryPrivateDnsNamespaceTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/servicediscovery_private_dns_namespace#value ServicediscoveryPrivateDnsNamespace#value}. |
 
 ---
 
@@ -1204,7 +1204,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicediscovery_private_dns_namespace#key ServicediscoveryPrivateDnsNamespace#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/servicediscovery_private_dns_namespace#key ServicediscoveryPrivateDnsNamespace#key}.
 
 ---
 
@@ -1216,7 +1216,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicediscovery_private_dns_namespace#value ServicediscoveryPrivateDnsNamespace#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/servicediscovery_private_dns_namespace#value ServicediscoveryPrivateDnsNamespace#value}.
 
 ---
 

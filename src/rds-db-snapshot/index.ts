@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_snapshot
+// https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rds_db_snapshot
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,19 +15,19 @@ export interface RdsDbSnapshotConfig extends cdktn.TerraformMetaArguments {
   /**
   * The identifier of the DB instance that you want to create the snapshot of.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_snapshot#db_instance_identifier RdsDbSnapshot#db_instance_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rds_db_snapshot#db_instance_identifier RdsDbSnapshot#db_instance_identifier}
   */
   readonly dbInstanceIdentifier: string;
   /**
   * The identifier for the DB snapshot. Must contain from 1 to 255 letters, numbers, or hyphens. First character must be a letter. Can't end with a hyphen or contain two consecutive hyphens.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_snapshot#db_snapshot_identifier RdsDbSnapshot#db_snapshot_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rds_db_snapshot#db_snapshot_identifier RdsDbSnapshot#db_snapshot_identifier}
   */
   readonly dbSnapshotIdentifier: string;
   /**
   * The tags to be assigned to the DB snapshot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_snapshot#tags RdsDbSnapshot#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rds_db_snapshot#tags RdsDbSnapshot#tags}
   */
   readonly tags?: RdsDbSnapshotTags[] | cdktn.IResolvable;
 }
@@ -35,13 +35,13 @@ export interface RdsDbSnapshotTags {
   /**
   * The key name of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_snapshot#key RdsDbSnapshot#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rds_db_snapshot#key RdsDbSnapshot#key}
   */
   readonly key?: string;
   /**
   * The value for the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_snapshot#value RdsDbSnapshot#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rds_db_snapshot#value RdsDbSnapshot#value}
   */
   readonly value?: string;
 }
@@ -186,7 +186,7 @@ export class RdsDbSnapshotTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_snapshot awscc_rds_db_snapshot}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rds_db_snapshot awscc_rds_db_snapshot}
 */
 export class RdsDbSnapshot extends cdktn.TerraformResource {
 
@@ -202,7 +202,7 @@ export class RdsDbSnapshot extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a RdsDbSnapshot resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RdsDbSnapshot to import
-  * @param importFromId The id of the existing RdsDbSnapshot that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_snapshot#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RdsDbSnapshot that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rds_db_snapshot#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RdsDbSnapshot to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -214,7 +214,7 @@ export class RdsDbSnapshot extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_snapshot awscc_rds_db_snapshot} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rds_db_snapshot awscc_rds_db_snapshot} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -225,7 +225,7 @@ export class RdsDbSnapshot extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_rds_db_snapshot',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.99.0',
+        providerVersion: '1.100.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

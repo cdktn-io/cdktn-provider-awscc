@@ -4,7 +4,7 @@
 
 ### SupportauthzSupportPermit <a name="SupportauthzSupportPermit" id="@cdktn/provider-awscc.supportauthzSupportPermit.SupportauthzSupportPermit"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/supportauthz_support_permit awscc_supportauthz_support_permit}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/supportauthz_support_permit awscc_supportauthz_support_permit}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.supportauthzSupportPermit.SupportauthzSupportPermit.Initializer"></a>
 
@@ -549,7 +549,7 @@ The construct id used in the generated config for the SupportauthzSupportPermit 
 
 The id of the existing SupportauthzSupportPermit that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/supportauthz_support_permit#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/supportauthz_support_permit#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1041,7 +1041,7 @@ public readonly name: string;
 
 The name of the support permit.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/supportauthz_support_permit#name SupportauthzSupportPermit#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/supportauthz_support_permit#name SupportauthzSupportPermit#name}
 
 ---
 
@@ -1055,7 +1055,7 @@ public readonly permit: SupportauthzSupportPermitPermit;
 
 The grant definition: which actions on which resources, optionally constrained by time conditions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/supportauthz_support_permit#permit SupportauthzSupportPermit#permit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/supportauthz_support_permit#permit SupportauthzSupportPermit#permit}
 
 ---
 
@@ -1069,7 +1069,7 @@ public readonly signingKeyInfo: SupportauthzSupportPermitSigningKeyInfo;
 
 The signing key used by the permit. Exactly one key type must be provided.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/supportauthz_support_permit#signing_key_info SupportauthzSupportPermit#signing_key_info}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/supportauthz_support_permit#signing_key_info SupportauthzSupportPermit#signing_key_info}
 
 ---
 
@@ -1083,7 +1083,7 @@ public readonly description: string;
 
 An optional description of the support permit.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/supportauthz_support_permit#description SupportauthzSupportPermit#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/supportauthz_support_permit#description SupportauthzSupportPermit#description}
 
 ---
 
@@ -1099,7 +1099,7 @@ The support case display identifier associated with the permit.
 
 When provided, the permit is linked to the specified AWS Support case.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/supportauthz_support_permit#support_case_display_id SupportauthzSupportPermit#support_case_display_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/supportauthz_support_permit#support_case_display_id SupportauthzSupportPermit#support_case_display_id}
 
 ---
 
@@ -1113,7 +1113,7 @@ public readonly tags: IResolvable | SupportauthzSupportPermitTags[];
 
 A list of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/supportauthz_support_permit#tags SupportauthzSupportPermit#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/supportauthz_support_permit#tags SupportauthzSupportPermit#tags}
 
 ---
 
@@ -1147,7 +1147,7 @@ public readonly actions: SupportauthzSupportPermitPermitActions;
 
 The set of actions a support permit grants. Exactly one of AllActions or Actions must be provided.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/supportauthz_support_permit#actions SupportauthzSupportPermit#actions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/supportauthz_support_permit#actions SupportauthzSupportPermit#actions}
 
 ---
 
@@ -1161,7 +1161,7 @@ public readonly resources: SupportauthzSupportPermitPermitResources;
 
 The set of resources a support permit applies to. Exactly one of AllResourcesInRegion or Resources must be provided.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/supportauthz_support_permit#resources SupportauthzSupportPermit#resources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/supportauthz_support_permit#resources SupportauthzSupportPermit#resources}
 
 ---
 
@@ -1175,7 +1175,7 @@ public readonly conditions: IResolvable | SupportauthzSupportPermitPermitConditi
 
 Optional time-bound conditions (at most two).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/supportauthz_support_permit#conditions SupportauthzSupportPermit#conditions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/supportauthz_support_permit#conditions SupportauthzSupportPermit#conditions}
 
 ---
 
@@ -1208,7 +1208,7 @@ public readonly actions: string[];
 
 An explicit list of actions to grant.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/supportauthz_support_permit#actions SupportauthzSupportPermit#actions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/supportauthz_support_permit#actions SupportauthzSupportPermit#actions}
 
 ---
 
@@ -1222,7 +1222,7 @@ public readonly allActions: string;
 
 Grants all actions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/supportauthz_support_permit#all_actions SupportauthzSupportPermit#all_actions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/supportauthz_support_permit#all_actions SupportauthzSupportPermit#all_actions}
 
 ---
 
@@ -1255,7 +1255,7 @@ public readonly allowAfter: string;
 
 The permit is active only after this time.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/supportauthz_support_permit#allow_after SupportauthzSupportPermit#allow_after}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/supportauthz_support_permit#allow_after SupportauthzSupportPermit#allow_after}
 
 ---
 
@@ -1269,7 +1269,7 @@ public readonly allowBefore: string;
 
 The permit is active only before this time.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/supportauthz_support_permit#allow_before SupportauthzSupportPermit#allow_before}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/supportauthz_support_permit#allow_before SupportauthzSupportPermit#allow_before}
 
 ---
 
@@ -1302,7 +1302,7 @@ public readonly allResourcesInRegion: string;
 
 Applies to all resources in the region.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/supportauthz_support_permit#all_resources_in_region SupportauthzSupportPermit#all_resources_in_region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/supportauthz_support_permit#all_resources_in_region SupportauthzSupportPermit#all_resources_in_region}
 
 ---
 
@@ -1316,7 +1316,7 @@ public readonly resources: string[];
 
 An explicit list of resource ARNs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/supportauthz_support_permit#resources SupportauthzSupportPermit#resources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/supportauthz_support_permit#resources SupportauthzSupportPermit#resources}
 
 ---
 
@@ -1348,7 +1348,7 @@ public readonly kmsKey: string;
 
 The ARN of the KMS key used to sign permit grants.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/supportauthz_support_permit#kms_key SupportauthzSupportPermit#kms_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/supportauthz_support_permit#kms_key SupportauthzSupportPermit#kms_key}
 
 ---
 
@@ -1383,7 +1383,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/supportauthz_support_permit#key SupportauthzSupportPermit#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/supportauthz_support_permit#key SupportauthzSupportPermit#key}
 
 ---
 
@@ -1397,7 +1397,7 @@ public readonly value: string;
 
 The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/supportauthz_support_permit#value SupportauthzSupportPermit#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/supportauthz_support_permit#value SupportauthzSupportPermit#value}
 
 ---
 

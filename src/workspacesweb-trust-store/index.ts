@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/workspacesweb_trust_store
+// https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/workspacesweb_trust_store
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,21 +13,21 @@ import * as cdktn from 'cdktn';
 
 export interface WorkspaceswebTrustStoreConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/workspacesweb_trust_store#certificate_list WorkspaceswebTrustStore#certificate_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/workspacesweb_trust_store#certificate_list WorkspaceswebTrustStore#certificate_list}
   */
   readonly certificateList: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/workspacesweb_trust_store#tags WorkspaceswebTrustStore#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/workspacesweb_trust_store#tags WorkspaceswebTrustStore#tags}
   */
   readonly tags?: WorkspaceswebTrustStoreTags[] | cdktn.IResolvable;
 }
 export interface WorkspaceswebTrustStoreTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/workspacesweb_trust_store#key WorkspaceswebTrustStore#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/workspacesweb_trust_store#key WorkspaceswebTrustStore#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/workspacesweb_trust_store#value WorkspaceswebTrustStore#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/workspacesweb_trust_store#value WorkspaceswebTrustStore#value}
   */
   readonly value?: string;
 }
@@ -172,7 +172,7 @@ export class WorkspaceswebTrustStoreTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/workspacesweb_trust_store awscc_workspacesweb_trust_store}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/workspacesweb_trust_store awscc_workspacesweb_trust_store}
 */
 export class WorkspaceswebTrustStore extends cdktn.TerraformResource {
 
@@ -188,7 +188,7 @@ export class WorkspaceswebTrustStore extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a WorkspaceswebTrustStore resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkspaceswebTrustStore to import
-  * @param importFromId The id of the existing WorkspaceswebTrustStore that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/workspacesweb_trust_store#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkspaceswebTrustStore that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/workspacesweb_trust_store#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkspaceswebTrustStore to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -200,7 +200,7 @@ export class WorkspaceswebTrustStore extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/workspacesweb_trust_store awscc_workspacesweb_trust_store} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/workspacesweb_trust_store awscc_workspacesweb_trust_store} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -211,7 +211,7 @@ export class WorkspaceswebTrustStore extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_workspacesweb_trust_store',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.99.0',
+        providerVersion: '1.100.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

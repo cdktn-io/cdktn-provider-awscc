@@ -4,7 +4,7 @@
 
 ### GameliftBuild <a name="GameliftBuild" id="@cdktn/provider-awscc.gameliftBuild.GameliftBuild"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_build awscc_gamelift_build}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_build awscc_gamelift_build}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.gameliftBuild.GameliftBuild.Initializer"></a>
 
@@ -557,7 +557,7 @@ The construct id used in the generated config for the GameliftBuild to import.
 
 The id of the existing GameliftBuild that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_build#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_build#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1027,7 +1027,7 @@ public readonly name: string;
 
 A descriptive label that is associated with a build. Build names do not need to be unique.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_build#name GameliftBuild#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_build#name GameliftBuild#name}
 
 ---
 
@@ -1043,7 +1043,7 @@ The operating system that the game server binaries are built to run on.
 
 This value determines the type of fleet resources that you can use for this build. If your game build contains multiple executables, they all must run on the same operating system. If an operating system is not specified when creating a build, Amazon GameLift uses the default value (WINDOWS_2012). This value cannot be changed later.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_build#operating_system GameliftBuild#operating_system}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_build#operating_system GameliftBuild#operating_system}
 
 ---
 
@@ -1059,7 +1059,7 @@ A server SDK version you used when integrating your game server build with Amazo
 
 By default Amazon GameLift sets this value to 4.0.2.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_build#server_sdk_version GameliftBuild#server_sdk_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_build#server_sdk_version GameliftBuild#server_sdk_version}
 
 ---
 
@@ -1075,7 +1075,7 @@ Information indicating where your game build files are stored.
 
 Use this parameter only when creating a build with files stored in an Amazon S3 bucket that you own. The storage location must specify an Amazon S3 bucket name and key. The location must also specify a role ARN that you set up to allow Amazon GameLift to access your Amazon S3 bucket. The S3 bucket and your new build must be in the same Region.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_build#storage_location GameliftBuild#storage_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_build#storage_location GameliftBuild#storage_location}
 
 ---
 
@@ -1089,7 +1089,7 @@ public readonly tags: IResolvable | GameliftBuildTags[];
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_build#tags GameliftBuild#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_build#tags GameliftBuild#tags}
 
 ---
 
@@ -1103,7 +1103,7 @@ public readonly version: string;
 
 Version information that is associated with this build. Version strings do not need to be unique.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_build#version GameliftBuild#version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_build#version GameliftBuild#version}
 
 ---
 
@@ -1138,7 +1138,7 @@ public readonly bucket: string;
 
 An Amazon S3 bucket identifier. This is the name of the S3 bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_build#bucket GameliftBuild#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_build#bucket GameliftBuild#bucket}
 
 ---
 
@@ -1152,7 +1152,7 @@ public readonly key: string;
 
 The name of the zip file that contains the build files or script files.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_build#key GameliftBuild#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_build#key GameliftBuild#key}
 
 ---
 
@@ -1168,7 +1168,7 @@ The version of the file, if object versioning is turned on for the bucket.
 
 Amazon GameLift uses this information when retrieving files from your S3 bucket. To retrieve a specific version of the file, provide an object version. To retrieve the latest version of the file, do not set this parameter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_build#object_version GameliftBuild#object_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_build#object_version GameliftBuild#object_version}
 
 ---
 
@@ -1182,7 +1182,7 @@ public readonly roleArn: string;
 
 The Amazon Resource Name (ARN) for an IAM role that allows Amazon GameLift to access the S3 bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_build#role_arn GameliftBuild#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_build#role_arn GameliftBuild#role_arn}
 
 ---
 
@@ -1217,7 +1217,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_build#key GameliftBuild#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_build#key GameliftBuild#key}
 
 ---
 
@@ -1231,7 +1231,7 @@ public readonly value: string;
 
 The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_build#value GameliftBuild#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_build#value GameliftBuild#value}
 
 ---
 

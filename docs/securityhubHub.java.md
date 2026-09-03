@@ -4,7 +4,7 @@
 
 ### SecurityhubHub <a name="SecurityhubHub" id="@cdktn/provider-awscc.securityhubHub.SecurityhubHub"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_hub awscc_securityhub_hub}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/securityhub_hub awscc_securityhub_hub}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubHub.SecurityhubHub.Initializer"></a>
 
@@ -110,7 +110,7 @@ Must be unique amongst siblings in the same scope
 
 Whether to automatically enable new controls when they are added to standards that are enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_hub#auto_enable_controls SecurityhubHub#auto_enable_controls}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/securityhub_hub#auto_enable_controls SecurityhubHub#auto_enable_controls}
 
 ---
 
@@ -122,7 +122,7 @@ This field, used when enabling Security Hub, specifies whether the calling accou
 
 If the value for this field is set to SECURITY_CONTROL, Security Hub generates a single finding for a control check even when the check applies to multiple enabled standards.  If the value for this field is set to STANDARD_CONTROL, Security Hub generates separate findings for a control check when the check applies to multiple enabled standards.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_hub#control_finding_generator SecurityhubHub#control_finding_generator}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/securityhub_hub#control_finding_generator SecurityhubHub#control_finding_generator}
 
 ---
 
@@ -132,7 +132,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Whether to enable the security standards that Security Hub has designated as automatically enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_hub#enable_default_standards SecurityhubHub#enable_default_standards}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/securityhub_hub#enable_default_standards SecurityhubHub#enable_default_standards}
 
 ---
 
@@ -142,7 +142,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A key-value pair to associate with a resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_hub#tags SecurityhubHub#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/securityhub_hub#tags SecurityhubHub#tags}
 
 ---
 
@@ -619,7 +619,7 @@ The construct id used in the generated config for the SecurityhubHub to import.
 
 The id of the existing SecurityhubHub that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_hub#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/securityhub_hub#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1055,7 +1055,7 @@ public java.lang.Boolean|IResolvable getAutoEnableControls();
 
 Whether to automatically enable new controls when they are added to standards that are enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_hub#auto_enable_controls SecurityhubHub#auto_enable_controls}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/securityhub_hub#auto_enable_controls SecurityhubHub#auto_enable_controls}
 
 ---
 
@@ -1071,7 +1071,7 @@ This field, used when enabling Security Hub, specifies whether the calling accou
 
 If the value for this field is set to SECURITY_CONTROL, Security Hub generates a single finding for a control check even when the check applies to multiple enabled standards.  If the value for this field is set to STANDARD_CONTROL, Security Hub generates separate findings for a control check when the check applies to multiple enabled standards.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_hub#control_finding_generator SecurityhubHub#control_finding_generator}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/securityhub_hub#control_finding_generator SecurityhubHub#control_finding_generator}
 
 ---
 
@@ -1085,7 +1085,7 @@ public java.lang.Boolean|IResolvable getEnableDefaultStandards();
 
 Whether to enable the security standards that Security Hub has designated as automatically enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_hub#enable_default_standards SecurityhubHub#enable_default_standards}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/securityhub_hub#enable_default_standards SecurityhubHub#enable_default_standards}
 
 ---
 
@@ -1099,7 +1099,7 @@ public java.util.Map<java.lang.String, java.lang.String> getTags();
 
 A key-value pair to associate with a resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_hub#tags SecurityhubHub#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/securityhub_hub#tags SecurityhubHub#tags}
 
 ---
 

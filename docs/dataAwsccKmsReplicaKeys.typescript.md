@@ -4,7 +4,7 @@
 
 ### DataAwsccKmsReplicaKeys <a name="DataAwsccKmsReplicaKeys" id="@cdktn/provider-awscc.dataAwsccKmsReplicaKeys.DataAwsccKmsReplicaKeys"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/kms_replica_keys awscc_kms_replica_keys}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/kms_replica_keys awscc_kms_replica_keys}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKmsReplicaKeys.DataAwsccKmsReplicaKeys.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccKmsReplicaKeys to
 
 The id of the existing DataAwsccKmsReplicaKeys that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/kms_replica_keys#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/kms_replica_keys#import import section} in the documentation of this resource for the id to use
 
 ---
 

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/logs_scheduled_queries
+// https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/logs_scheduled_queries
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccLogsScheduledQueriesConfig extends cdktn.TerraformMeta
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/logs_scheduled_queries awscc_logs_scheduled_queries}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/logs_scheduled_queries awscc_logs_scheduled_queries}
 */
 export class DataAwsccLogsScheduledQueries extends cdktn.TerraformDataSource {
 
@@ -31,7 +31,7 @@ export class DataAwsccLogsScheduledQueries extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAwsccLogsScheduledQueries resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccLogsScheduledQueries to import
-  * @param importFromId The id of the existing DataAwsccLogsScheduledQueries that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/logs_scheduled_queries#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccLogsScheduledQueries that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/logs_scheduled_queries#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccLogsScheduledQueries to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -43,7 +43,7 @@ export class DataAwsccLogsScheduledQueries extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/logs_scheduled_queries awscc_logs_scheduled_queries} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/logs_scheduled_queries awscc_logs_scheduled_queries} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -54,7 +54,7 @@ export class DataAwsccLogsScheduledQueries extends cdktn.TerraformDataSource {
       terraformResourceType: 'awscc_logs_scheduled_queries',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.99.0',
+        providerVersion: '1.100.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

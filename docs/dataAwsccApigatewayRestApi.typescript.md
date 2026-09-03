@@ -4,7 +4,7 @@
 
 ### DataAwsccApigatewayRestApi <a name="DataAwsccApigatewayRestApi" id="@cdktn/provider-awscc.dataAwsccApigatewayRestApi.DataAwsccApigatewayRestApi"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/apigateway_rest_api awscc_apigateway_rest_api}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/apigateway_rest_api awscc_apigateway_rest_api}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApigatewayRestApi.DataAwsccApigatewayRestApi.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccApigatewayRestApi
 
 The id of the existing DataAwsccApigatewayRestApi that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/apigateway_rest_api#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/apigateway_rest_api#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -434,6 +434,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99
 | <code><a href="#@cdktn/provider-awscc.dataAwsccApigatewayRestApi.DataAwsccApigatewayRestApi.property.rootResourceId">rootResourceId</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccApigatewayRestApi.DataAwsccApigatewayRestApi.property.securityPolicy">securityPolicy</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccApigatewayRestApi.DataAwsccApigatewayRestApi.property.tags">tags</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccApigatewayRestApi.DataAwsccApigatewayRestApiTagsList">DataAwsccApigatewayRestApiTagsList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccApigatewayRestApi.DataAwsccApigatewayRestApi.property.version">version</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccApigatewayRestApi.DataAwsccApigatewayRestApi.property.idInput">idInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccApigatewayRestApi.DataAwsccApigatewayRestApi.property.id">id</a></code> | <code>string</code> | *No description.* |
 
@@ -751,6 +752,16 @@ public readonly tags: DataAwsccApigatewayRestApiTagsList;
 
 ---
 
+##### `version`<sup>Required</sup> <a name="version" id="@cdktn/provider-awscc.dataAwsccApigatewayRestApi.DataAwsccApigatewayRestApi.property.version"></a>
+
+```typescript
+public readonly version: string;
+```
+
+- *Type:* string
+
+---
+
 ##### `idInput`<sup>Optional</sup> <a name="idInput" id="@cdktn/provider-awscc.dataAwsccApigatewayRestApi.DataAwsccApigatewayRestApi.property.idInput"></a>
 
 ```typescript
@@ -907,7 +918,7 @@ public readonly id: string;
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/apigateway_rest_api#id DataAwsccApigatewayRestApi#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/apigateway_rest_api#id DataAwsccApigatewayRestApi#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

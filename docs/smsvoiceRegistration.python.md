@@ -4,7 +4,7 @@
 
 ### SmsvoiceRegistration <a name="SmsvoiceRegistration" id="@cdktn/provider-awscc.smsvoiceRegistration.SmsvoiceRegistration"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/smsvoice_registration awscc_smsvoice_registration}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/smsvoice_registration awscc_smsvoice_registration}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.smsvoiceRegistration.SmsvoiceRegistration.Initializer"></a>
 
@@ -108,7 +108,7 @@ Must be unique amongst siblings in the same scope
 
 The type of registration form to create.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/smsvoice_registration#registration_type SmsvoiceRegistration#registration_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/smsvoice_registration#registration_type SmsvoiceRegistration#registration_type}
 
 ---
 
@@ -118,7 +118,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An array of tags (key and value pairs) to associate with the registration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/smsvoice_registration#tags SmsvoiceRegistration#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/smsvoice_registration#tags SmsvoiceRegistration#tags}
 
 ---
 
@@ -637,7 +637,7 @@ The construct id used in the generated config for the SmsvoiceRegistration to im
 
 The id of the existing SmsvoiceRegistration that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/smsvoice_registration#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/smsvoice_registration#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1058,7 +1058,7 @@ registration_type: str
 
 The type of registration form to create.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/smsvoice_registration#registration_type SmsvoiceRegistration#registration_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/smsvoice_registration#registration_type SmsvoiceRegistration#registration_type}
 
 ---
 
@@ -1072,7 +1072,7 @@ tags: IResolvable | typing.List[SmsvoiceRegistrationTags]
 
 An array of tags (key and value pairs) to associate with the registration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/smsvoice_registration#tags SmsvoiceRegistration#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/smsvoice_registration#tags SmsvoiceRegistration#tags}
 
 ---
 
@@ -1108,7 +1108,7 @@ key: str
 
 The key identifier, or name, of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/smsvoice_registration#key SmsvoiceRegistration#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/smsvoice_registration#key SmsvoiceRegistration#key}
 
 ---
 
@@ -1122,7 +1122,7 @@ value: str
 
 The string value associated with the key of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/smsvoice_registration#value SmsvoiceRegistration#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/smsvoice_registration#value SmsvoiceRegistration#value}
 
 ---
 

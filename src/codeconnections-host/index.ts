@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codeconnections_host
+// https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codeconnections_host
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,31 +15,31 @@ export interface CodeconnectionsHostConfig extends cdktn.TerraformMetaArguments 
   /**
   * The name of the host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codeconnections_host#name CodeconnectionsHost#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codeconnections_host#name CodeconnectionsHost#name}
   */
   readonly name: string;
   /**
   * The endpoint of the infrastructure where your provider type is installed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codeconnections_host#provider_endpoint CodeconnectionsHost#provider_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codeconnections_host#provider_endpoint CodeconnectionsHost#provider_endpoint}
   */
   readonly providerEndpoint: string;
   /**
   * The name of the installed provider to be associated with your connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codeconnections_host#provider_type CodeconnectionsHost#provider_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codeconnections_host#provider_type CodeconnectionsHost#provider_type}
   */
   readonly providerType: string;
   /**
   * Tags to apply to the host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codeconnections_host#tags CodeconnectionsHost#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codeconnections_host#tags CodeconnectionsHost#tags}
   */
   readonly tags?: CodeconnectionsHostTags[] | cdktn.IResolvable;
   /**
   * The VPC configuration provisioned for the host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codeconnections_host#vpc_configuration CodeconnectionsHost#vpc_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codeconnections_host#vpc_configuration CodeconnectionsHost#vpc_configuration}
   */
   readonly vpcConfiguration?: CodeconnectionsHostVpcConfiguration;
 }
@@ -47,13 +47,13 @@ export interface CodeconnectionsHostTags {
   /**
   * The tag's key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codeconnections_host#key CodeconnectionsHost#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codeconnections_host#key CodeconnectionsHost#key}
   */
   readonly key?: string;
   /**
   * The tag's value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codeconnections_host#value CodeconnectionsHost#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codeconnections_host#value CodeconnectionsHost#value}
   */
   readonly value?: string;
 }
@@ -200,25 +200,25 @@ export interface CodeconnectionsHostVpcConfiguration {
   /**
   * The ID of the security group or security groups associated with the Amazon VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codeconnections_host#security_group_ids CodeconnectionsHost#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codeconnections_host#security_group_ids CodeconnectionsHost#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
   * The ID of the subnet or subnets associated with the Amazon VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codeconnections_host#subnet_ids CodeconnectionsHost#subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codeconnections_host#subnet_ids CodeconnectionsHost#subnet_ids}
   */
   readonly subnetIds?: string[];
   /**
   * The value of the Transport Layer Security (TLS) certificate associated with the infrastructure where your provider type is installed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codeconnections_host#tls_certificate CodeconnectionsHost#tls_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codeconnections_host#tls_certificate CodeconnectionsHost#tls_certificate}
   */
   readonly tlsCertificate?: string;
   /**
   * The ID of the Amazon VPC connected to the infrastructure where your provider type is installed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codeconnections_host#vpc_id CodeconnectionsHost#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codeconnections_host#vpc_id CodeconnectionsHost#vpc_id}
   */
   readonly vpcId?: string;
 }
@@ -399,7 +399,7 @@ export class CodeconnectionsHostVpcConfigurationOutputReference extends cdktn.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codeconnections_host awscc_codeconnections_host}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codeconnections_host awscc_codeconnections_host}
 */
 export class CodeconnectionsHost extends cdktn.TerraformResource {
 
@@ -415,7 +415,7 @@ export class CodeconnectionsHost extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a CodeconnectionsHost resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CodeconnectionsHost to import
-  * @param importFromId The id of the existing CodeconnectionsHost that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codeconnections_host#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CodeconnectionsHost that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codeconnections_host#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CodeconnectionsHost to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -427,7 +427,7 @@ export class CodeconnectionsHost extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codeconnections_host awscc_codeconnections_host} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codeconnections_host awscc_codeconnections_host} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -438,7 +438,7 @@ export class CodeconnectionsHost extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_codeconnections_host',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.99.0',
+        providerVersion: '1.100.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

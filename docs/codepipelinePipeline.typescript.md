@@ -4,7 +4,7 @@
 
 ### CodepipelinePipeline <a name="CodepipelinePipeline" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipeline"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline awscc_codepipeline_pipeline}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline awscc_codepipeline_pipeline}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipeline.Initializer"></a>
 
@@ -650,7 +650,7 @@ The construct id used in the generated config for the CodepipelinePipeline to im
 
 The id of the existing CodepipelinePipeline that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1172,7 +1172,7 @@ public readonly encryptionKey: CodepipelinePipelineArtifactStoreEncryptionKey;
 
 Represents information about the key used to encrypt data in the artifact store, such as an AWS Key Management Service (AWS KMS) key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#encryption_key CodepipelinePipeline#encryption_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#encryption_key CodepipelinePipeline#encryption_key}
 
 ---
 
@@ -1188,7 +1188,7 @@ The S3 bucket used for storing the artifacts for a pipeline.
 
 You can specify the name of an S3 bucket but not a folder in the bucket. A folder to contain the pipeline artifacts is created for you based on the name of the pipeline. You can use any S3 bucket in the same AWS Region as the pipeline to store your pipeline artifacts.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#location CodepipelinePipeline#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#location CodepipelinePipeline#location}
 
 ---
 
@@ -1202,7 +1202,7 @@ public readonly type: string;
 
 The type of the artifact store, such as S3.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#type CodepipelinePipeline#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#type CodepipelinePipeline#type}
 
 ---
 
@@ -1237,7 +1237,7 @@ The ID used to identify the key.
 
 For an AWS KMS key, you can use the key ID, the key ARN, or the alias ARN.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#id CodepipelinePipeline#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#id CodepipelinePipeline#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1256,7 +1256,7 @@ The type of encryption key, such as an AWS KMS key.
 
 When creating or updating a pipeline, the value must be set to 'KMS'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#type CodepipelinePipeline#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#type CodepipelinePipeline#type}
 
 ---
 
@@ -1289,7 +1289,7 @@ public readonly artifactStore: CodepipelinePipelineArtifactStoresArtifactStore;
 
 The S3 bucket where artifacts for the pipeline are stored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#artifact_store CodepipelinePipeline#artifact_store}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#artifact_store CodepipelinePipeline#artifact_store}
 
 ---
 
@@ -1303,7 +1303,7 @@ public readonly region: string;
 
 The action declaration's AWS Region, such as us-east-1.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#region CodepipelinePipeline#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#region CodepipelinePipeline#region}
 
 ---
 
@@ -1337,7 +1337,7 @@ public readonly encryptionKey: CodepipelinePipelineArtifactStoresArtifactStoreEn
 
 Represents information about the key used to encrypt data in the artifact store, such as an AWS Key Management Service (AWS KMS) key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#encryption_key CodepipelinePipeline#encryption_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#encryption_key CodepipelinePipeline#encryption_key}
 
 ---
 
@@ -1353,7 +1353,7 @@ The S3 bucket used for storing the artifacts for a pipeline.
 
 You can specify the name of an S3 bucket but not a folder in the bucket. A folder to contain the pipeline artifacts is created for you based on the name of the pipeline. You can use any S3 bucket in the same AWS Region as the pipeline to store your pipeline artifacts.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#location CodepipelinePipeline#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#location CodepipelinePipeline#location}
 
 ---
 
@@ -1367,7 +1367,7 @@ public readonly type: string;
 
 The type of the artifact store, such as S3.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#type CodepipelinePipeline#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#type CodepipelinePipeline#type}
 
 ---
 
@@ -1402,7 +1402,7 @@ The ID used to identify the key.
 
 For an AWS KMS key, you can use the key ID, the key ARN, or the alias ARN.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#id CodepipelinePipeline#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#id CodepipelinePipeline#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1421,7 +1421,7 @@ The type of encryption key, such as an AWS KMS key.
 
 When creating or updating a pipeline, the value must be set to 'KMS'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#type CodepipelinePipeline#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#type CodepipelinePipeline#type}
 
 ---
 
@@ -1541,7 +1541,7 @@ public readonly roleArn: string;
 
 The Amazon Resource Name (ARN) for CodePipeline to use to either perform actions with no actionRoleArn, or to use to assume roles for actions with an actionRoleArn.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#role_arn CodepipelinePipeline#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#role_arn CodepipelinePipeline#role_arn}
 
 ---
 
@@ -1555,7 +1555,7 @@ public readonly stages: IResolvable | CodepipelinePipelineStages[];
 
 Represents information about a stage and its definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#stages CodepipelinePipeline#stages}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#stages CodepipelinePipeline#stages}
 
 ---
 
@@ -1569,7 +1569,7 @@ public readonly artifactStore: CodepipelinePipelineArtifactStore;
 
 The S3 bucket where artifacts for the pipeline are stored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#artifact_store CodepipelinePipeline#artifact_store}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#artifact_store CodepipelinePipeline#artifact_store}
 
 ---
 
@@ -1585,7 +1585,7 @@ A mapping of artifactStore objects and their corresponding AWS Regions.
 
 There must be an artifact store for the pipeline Region and for each cross-region action in the pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#artifact_stores CodepipelinePipeline#artifact_stores}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#artifact_stores CodepipelinePipeline#artifact_stores}
 
 ---
 
@@ -1599,7 +1599,7 @@ public readonly disableInboundStageTransitions: IResolvable | CodepipelinePipeli
 
 Represents the input of a DisableStageTransition action.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#disable_inbound_stage_transitions CodepipelinePipeline#disable_inbound_stage_transitions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#disable_inbound_stage_transitions CodepipelinePipeline#disable_inbound_stage_transitions}
 
 ---
 
@@ -1613,7 +1613,7 @@ public readonly executionMode: string;
 
 The method that the pipeline will use to handle multiple executions. The default mode is SUPERSEDED.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#execution_mode CodepipelinePipeline#execution_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#execution_mode CodepipelinePipeline#execution_mode}
 
 ---
 
@@ -1627,7 +1627,7 @@ public readonly name: string;
 
 The name of the pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#name CodepipelinePipeline#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#name CodepipelinePipeline#name}
 
 ---
 
@@ -1641,7 +1641,7 @@ public readonly pipelineType: string;
 
 CodePipeline provides the following pipeline types, which differ in characteristics and price, so that you can tailor your pipeline features and cost to the needs of your applications.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#pipeline_type CodepipelinePipeline#pipeline_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#pipeline_type CodepipelinePipeline#pipeline_type}
 
 ---
 
@@ -1655,7 +1655,7 @@ public readonly restartExecutionOnUpdate: boolean | IResolvable;
 
 Indicates whether to rerun the CodePipeline pipeline after you update it.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#restart_execution_on_update CodepipelinePipeline#restart_execution_on_update}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#restart_execution_on_update CodepipelinePipeline#restart_execution_on_update}
 
 ---
 
@@ -1669,7 +1669,7 @@ public readonly tags: IResolvable | CodepipelinePipelineTags[];
 
 Specifies the tags applied to the pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#tags CodepipelinePipeline#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#tags CodepipelinePipeline#tags}
 
 ---
 
@@ -1683,7 +1683,7 @@ public readonly triggers: IResolvable | CodepipelinePipelineTriggers[];
 
 The trigger configuration specifying a type of event, such as Git tags, that starts the pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#triggers CodepipelinePipeline#triggers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#triggers CodepipelinePipeline#triggers}
 
 ---
 
@@ -1699,7 +1699,7 @@ A list that defines the pipeline variables for a pipeline resource.
 
 Variable names can have alphanumeric and underscore characters, and the values must match [A-Za-z0-9@\-_]+.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#variables CodepipelinePipeline#variables}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#variables CodepipelinePipeline#variables}
 
 ---
 
@@ -1734,7 +1734,7 @@ The reason given to the user that a stage is disabled, such as waiting for manua
 
 This message is displayed in the pipeline console UI.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#reason CodepipelinePipeline#reason}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#reason CodepipelinePipeline#reason}
 
 ---
 
@@ -1748,7 +1748,7 @@ public readonly stageName: string;
 
 The name of the stage where you want to disable the inbound or outbound transition of artifacts.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#stage_name CodepipelinePipeline#stage_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#stage_name CodepipelinePipeline#stage_name}
 
 ---
 
@@ -1766,10 +1766,10 @@ const codepipelinePipelineStages: codepipelinePipeline.CodepipelinePipelineStage
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStages.property.actions">actions</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesActions">CodepipelinePipelineStagesActions</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#actions CodepipelinePipeline#actions}. |
+| <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStages.property.actions">actions</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesActions">CodepipelinePipelineStagesActions</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#actions CodepipelinePipeline#actions}. |
 | <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStages.property.name">name</a></code> | <code>string</code> | The name of the stage. |
 | <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStages.property.beforeEntry">beforeEntry</a></code> | <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesBeforeEntry">CodepipelinePipelineStagesBeforeEntry</a></code> | The method to use before stage runs. |
-| <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStages.property.blockers">blockers</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesBlockers">CodepipelinePipelineStagesBlockers</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#blockers CodepipelinePipeline#blockers}. |
+| <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStages.property.blockers">blockers</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesBlockers">CodepipelinePipelineStagesBlockers</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#blockers CodepipelinePipeline#blockers}. |
 | <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStages.property.onFailure">onFailure</a></code> | <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnFailure">CodepipelinePipelineStagesOnFailure</a></code> | The method to use when a stage has not completed successfully. |
 | <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStages.property.onSuccess">onSuccess</a></code> | <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnSuccess">CodepipelinePipelineStagesOnSuccess</a></code> | The method to use when a stage has completed successfully. |
 
@@ -1783,7 +1783,7 @@ public readonly actions: IResolvable | CodepipelinePipelineStagesActions[];
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesActions">CodepipelinePipelineStagesActions</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#actions CodepipelinePipeline#actions}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#actions CodepipelinePipeline#actions}.
 
 ---
 
@@ -1797,7 +1797,7 @@ public readonly name: string;
 
 The name of the stage.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#name CodepipelinePipeline#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#name CodepipelinePipeline#name}
 
 ---
 
@@ -1811,7 +1811,7 @@ public readonly beforeEntry: CodepipelinePipelineStagesBeforeEntry;
 
 The method to use before stage runs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#before_entry CodepipelinePipeline#before_entry}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#before_entry CodepipelinePipeline#before_entry}
 
 ---
 
@@ -1823,7 +1823,7 @@ public readonly blockers: IResolvable | CodepipelinePipelineStagesBlockers[];
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesBlockers">CodepipelinePipelineStagesBlockers</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#blockers CodepipelinePipeline#blockers}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#blockers CodepipelinePipeline#blockers}.
 
 ---
 
@@ -1837,7 +1837,7 @@ public readonly onFailure: CodepipelinePipelineStagesOnFailure;
 
 The method to use when a stage has not completed successfully.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#on_failure CodepipelinePipeline#on_failure}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#on_failure CodepipelinePipeline#on_failure}
 
 ---
 
@@ -1851,7 +1851,7 @@ public readonly onSuccess: CodepipelinePipelineStagesOnSuccess;
 
 The method to use when a stage has completed successfully.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#on_success CodepipelinePipeline#on_success}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#on_success CodepipelinePipeline#on_success}
 
 ---
 
@@ -1874,9 +1874,9 @@ const codepipelinePipelineStagesActions: codepipelinePipeline.CodepipelinePipeli
 | <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesActions.property.commands">commands</a></code> | <code>string[]</code> | The shell commands to run with your compute action in CodePipeline. |
 | <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesActions.property.configuration">configuration</a></code> | <code>string</code> | The action's configuration. These are key-value pairs that specify input values for an action. |
 | <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesActions.property.environmentVariables">environmentVariables</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesActionsEnvironmentVariables">CodepipelinePipelineStagesActionsEnvironmentVariables</a>[]</code> | The list of environment variables that are input to a compute based action. |
-| <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesActions.property.inputArtifacts">inputArtifacts</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesActionsInputArtifacts">CodepipelinePipelineStagesActionsInputArtifacts</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#input_artifacts CodepipelinePipeline#input_artifacts}. |
+| <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesActions.property.inputArtifacts">inputArtifacts</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesActionsInputArtifacts">CodepipelinePipelineStagesActionsInputArtifacts</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#input_artifacts CodepipelinePipeline#input_artifacts}. |
 | <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesActions.property.namespace">namespace</a></code> | <code>string</code> | The variable namespace associated with the action. All variables produced as output by this action fall under this namespace. |
-| <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesActions.property.outputArtifacts">outputArtifacts</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesActionsOutputArtifacts">CodepipelinePipelineStagesActionsOutputArtifacts</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#output_artifacts CodepipelinePipeline#output_artifacts}. |
+| <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesActions.property.outputArtifacts">outputArtifacts</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesActionsOutputArtifacts">CodepipelinePipelineStagesActionsOutputArtifacts</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#output_artifacts CodepipelinePipeline#output_artifacts}. |
 | <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesActions.property.outputVariables">outputVariables</a></code> | <code>string[]</code> | The list of variables that are to be exported from the compute action. |
 | <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesActions.property.region">region</a></code> | <code>string</code> | The action declaration's AWS Region, such as us-east-1. |
 | <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesActions.property.roleArn">roleArn</a></code> | <code>string</code> | The ARN of the IAM service role that performs the declared action. |
@@ -1895,7 +1895,7 @@ public readonly actionTypeId: CodepipelinePipelineStagesActionsActionTypeId;
 
 Represents information about an action type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#action_type_id CodepipelinePipeline#action_type_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#action_type_id CodepipelinePipeline#action_type_id}
 
 ---
 
@@ -1909,7 +1909,7 @@ public readonly name: string;
 
 The action declaration's name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#name CodepipelinePipeline#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#name CodepipelinePipeline#name}
 
 ---
 
@@ -1923,7 +1923,7 @@ public readonly commands: string[];
 
 The shell commands to run with your compute action in CodePipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#commands CodepipelinePipeline#commands}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#commands CodepipelinePipeline#commands}
 
 ---
 
@@ -1937,7 +1937,7 @@ public readonly configuration: string;
 
 The action's configuration. These are key-value pairs that specify input values for an action.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#configuration CodepipelinePipeline#configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#configuration CodepipelinePipeline#configuration}
 
 ---
 
@@ -1951,7 +1951,7 @@ public readonly environmentVariables: IResolvable | CodepipelinePipelineStagesAc
 
 The list of environment variables that are input to a compute based action.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#environment_variables CodepipelinePipeline#environment_variables}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#environment_variables CodepipelinePipeline#environment_variables}
 
 ---
 
@@ -1963,7 +1963,7 @@ public readonly inputArtifacts: IResolvable | CodepipelinePipelineStagesActionsI
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesActionsInputArtifacts">CodepipelinePipelineStagesActionsInputArtifacts</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#input_artifacts CodepipelinePipeline#input_artifacts}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#input_artifacts CodepipelinePipeline#input_artifacts}.
 
 ---
 
@@ -1977,7 +1977,7 @@ public readonly namespace: string;
 
 The variable namespace associated with the action. All variables produced as output by this action fall under this namespace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#namespace CodepipelinePipeline#namespace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#namespace CodepipelinePipeline#namespace}
 
 ---
 
@@ -1989,7 +1989,7 @@ public readonly outputArtifacts: IResolvable | CodepipelinePipelineStagesActions
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesActionsOutputArtifacts">CodepipelinePipelineStagesActionsOutputArtifacts</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#output_artifacts CodepipelinePipeline#output_artifacts}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#output_artifacts CodepipelinePipeline#output_artifacts}.
 
 ---
 
@@ -2003,7 +2003,7 @@ public readonly outputVariables: string[];
 
 The list of variables that are to be exported from the compute action.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#output_variables CodepipelinePipeline#output_variables}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#output_variables CodepipelinePipeline#output_variables}
 
 ---
 
@@ -2017,7 +2017,7 @@ public readonly region: string;
 
 The action declaration's AWS Region, such as us-east-1.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#region CodepipelinePipeline#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#region CodepipelinePipeline#region}
 
 ---
 
@@ -2033,7 +2033,7 @@ The ARN of the IAM service role that performs the declared action.
 
 This is assumed through the roleArn for the pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#role_arn CodepipelinePipeline#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#role_arn CodepipelinePipeline#role_arn}
 
 ---
 
@@ -2047,7 +2047,7 @@ public readonly runOrder: number;
 
 The order in which actions are run.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#run_order CodepipelinePipeline#run_order}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#run_order CodepipelinePipeline#run_order}
 
 ---
 
@@ -2061,7 +2061,7 @@ public readonly timeoutInMinutes: number;
 
 A timeout duration in minutes that can be applied against the ActionType?s default timeout value specified in Quotas for AWS CodePipeline. This attribute is available only to the manual approval ActionType.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#timeout_in_minutes CodepipelinePipeline#timeout_in_minutes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#timeout_in_minutes CodepipelinePipeline#timeout_in_minutes}
 
 ---
 
@@ -2098,7 +2098,7 @@ A category defines what kind of action can be taken in the stage, and constrains
 
 Valid categories are limited to one of the values below.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#category CodepipelinePipeline#category}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#category CodepipelinePipeline#category}
 
 ---
 
@@ -2114,7 +2114,7 @@ The creator of the action being called.
 
 There are three valid values for the Owner field in the action category section within your pipeline structure: AWS, ThirdParty, and Custom.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#owner CodepipelinePipeline#owner}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#owner CodepipelinePipeline#owner}
 
 ---
 
@@ -2130,7 +2130,7 @@ The provider of the service being called by the action.
 
 Valid providers are determined by the action category. For example, an action in the Deploy category type might have a provider of CodeDeploy, which would be specified as CodeDeploy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#provider CodepipelinePipeline#provider}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#provider CodepipelinePipeline#provider}
 
 ---
 
@@ -2144,7 +2144,7 @@ public readonly version: string;
 
 A string that describes the action version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#version CodepipelinePipeline#version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#version CodepipelinePipeline#version}
 
 ---
 
@@ -2178,7 +2178,7 @@ public readonly name: string;
 
 The name of the environment variable.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#name CodepipelinePipeline#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#name CodepipelinePipeline#name}
 
 ---
 
@@ -2192,7 +2192,7 @@ public readonly type: string;
 
 The type of the environment variable.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#type CodepipelinePipeline#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#type CodepipelinePipeline#type}
 
 ---
 
@@ -2206,7 +2206,7 @@ public readonly value: string;
 
 The value of the environment variable.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#value CodepipelinePipeline#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#value CodepipelinePipeline#value}
 
 ---
 
@@ -2238,7 +2238,7 @@ public readonly name: string;
 
 The name of the artifact to be worked on (for example, "My App").
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#name CodepipelinePipeline#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#name CodepipelinePipeline#name}
 
 ---
 
@@ -2271,7 +2271,7 @@ public readonly files: string[];
 
 The files that you want to associate with the output artifact that will be exported from the compute action.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#files CodepipelinePipeline#files}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#files CodepipelinePipeline#files}
 
 ---
 
@@ -2285,7 +2285,7 @@ public readonly name: string;
 
 The name of the output of an artifact, such as "My App".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#name CodepipelinePipeline#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#name CodepipelinePipeline#name}
 
 ---
 
@@ -2303,7 +2303,7 @@ const codepipelinePipelineStagesBeforeEntry: codepipelinePipeline.CodepipelinePi
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesBeforeEntry.property.conditions">conditions</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesBeforeEntryConditions">CodepipelinePipelineStagesBeforeEntryConditions</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#conditions CodepipelinePipeline#conditions}. |
+| <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesBeforeEntry.property.conditions">conditions</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesBeforeEntryConditions">CodepipelinePipelineStagesBeforeEntryConditions</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#conditions CodepipelinePipeline#conditions}. |
 
 ---
 
@@ -2315,7 +2315,7 @@ public readonly conditions: IResolvable | CodepipelinePipelineStagesBeforeEntryC
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesBeforeEntryConditions">CodepipelinePipelineStagesBeforeEntryConditions</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#conditions CodepipelinePipeline#conditions}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#conditions CodepipelinePipeline#conditions}.
 
 ---
 
@@ -2334,7 +2334,7 @@ const codepipelinePipelineStagesBeforeEntryConditions: codepipelinePipeline.Code
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesBeforeEntryConditions.property.result">result</a></code> | <code>string</code> | The specified result for when the failure conditions are met, such as rolling back the stage. |
-| <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesBeforeEntryConditions.property.rules">rules</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesBeforeEntryConditionsRules">CodepipelinePipelineStagesBeforeEntryConditionsRules</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#rules CodepipelinePipeline#rules}. |
+| <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesBeforeEntryConditions.property.rules">rules</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesBeforeEntryConditionsRules">CodepipelinePipelineStagesBeforeEntryConditionsRules</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#rules CodepipelinePipeline#rules}. |
 
 ---
 
@@ -2348,7 +2348,7 @@ public readonly result: string;
 
 The specified result for when the failure conditions are met, such as rolling back the stage.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#result CodepipelinePipeline#result}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#result CodepipelinePipeline#result}
 
 ---
 
@@ -2360,7 +2360,7 @@ public readonly rules: IResolvable | CodepipelinePipelineStagesBeforeEntryCondit
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesBeforeEntryConditionsRules">CodepipelinePipelineStagesBeforeEntryConditionsRules</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#rules CodepipelinePipeline#rules}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#rules CodepipelinePipeline#rules}.
 
 ---
 
@@ -2380,7 +2380,7 @@ const codepipelinePipelineStagesBeforeEntryConditionsRules: codepipelinePipeline
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesBeforeEntryConditionsRules.property.commands">commands</a></code> | <code>string[]</code> | The shell commands to run with your compute action in CodePipeline. |
 | <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesBeforeEntryConditionsRules.property.configuration">configuration</a></code> | <code>string</code> | The rule's configuration. These are key-value pairs that specify input values for a rule. |
-| <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesBeforeEntryConditionsRules.property.inputArtifacts">inputArtifacts</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesBeforeEntryConditionsRulesInputArtifacts">CodepipelinePipelineStagesBeforeEntryConditionsRulesInputArtifacts</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#input_artifacts CodepipelinePipeline#input_artifacts}. |
+| <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesBeforeEntryConditionsRules.property.inputArtifacts">inputArtifacts</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesBeforeEntryConditionsRulesInputArtifacts">CodepipelinePipelineStagesBeforeEntryConditionsRulesInputArtifacts</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#input_artifacts CodepipelinePipeline#input_artifacts}. |
 | <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesBeforeEntryConditionsRules.property.name">name</a></code> | <code>string</code> | The rule declaration's name. |
 | <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesBeforeEntryConditionsRules.property.region">region</a></code> | <code>string</code> | The rule declaration's AWS Region, such as us-east-1. |
 | <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesBeforeEntryConditionsRules.property.roleArn">roleArn</a></code> | <code>string</code> | The ARN of the IAM service role that performs the declared rule. |
@@ -2398,7 +2398,7 @@ public readonly commands: string[];
 
 The shell commands to run with your compute action in CodePipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#commands CodepipelinePipeline#commands}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#commands CodepipelinePipeline#commands}
 
 ---
 
@@ -2412,7 +2412,7 @@ public readonly configuration: string;
 
 The rule's configuration. These are key-value pairs that specify input values for a rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#configuration CodepipelinePipeline#configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#configuration CodepipelinePipeline#configuration}
 
 ---
 
@@ -2424,7 +2424,7 @@ public readonly inputArtifacts: IResolvable | CodepipelinePipelineStagesBeforeEn
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesBeforeEntryConditionsRulesInputArtifacts">CodepipelinePipelineStagesBeforeEntryConditionsRulesInputArtifacts</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#input_artifacts CodepipelinePipeline#input_artifacts}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#input_artifacts CodepipelinePipeline#input_artifacts}.
 
 ---
 
@@ -2438,7 +2438,7 @@ public readonly name: string;
 
 The rule declaration's name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#name CodepipelinePipeline#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#name CodepipelinePipeline#name}
 
 ---
 
@@ -2452,7 +2452,7 @@ public readonly region: string;
 
 The rule declaration's AWS Region, such as us-east-1.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#region CodepipelinePipeline#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#region CodepipelinePipeline#region}
 
 ---
 
@@ -2468,7 +2468,7 @@ The ARN of the IAM service role that performs the declared rule.
 
 This is assumed through the roleArn for the pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#role_arn CodepipelinePipeline#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#role_arn CodepipelinePipeline#role_arn}
 
 ---
 
@@ -2482,7 +2482,7 @@ public readonly ruleTypeId: CodepipelinePipelineStagesBeforeEntryConditionsRules
 
 Represents information about a rule type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#rule_type_id CodepipelinePipeline#rule_type_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#rule_type_id CodepipelinePipeline#rule_type_id}
 
 ---
 
@@ -2514,7 +2514,7 @@ public readonly name: string;
 
 The name of the artifact to be worked on (for example, "My App").
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#name CodepipelinePipeline#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#name CodepipelinePipeline#name}
 
 ---
 
@@ -2549,7 +2549,7 @@ public readonly category: string;
 
 A category for the provider type for the rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#category CodepipelinePipeline#category}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#category CodepipelinePipeline#category}
 
 ---
 
@@ -2563,7 +2563,7 @@ public readonly owner: string;
 
 The creator of the rule being called. Only AWS is supported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#owner CodepipelinePipeline#owner}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#owner CodepipelinePipeline#owner}
 
 ---
 
@@ -2577,7 +2577,7 @@ public readonly provider: string;
 
 The provider of the service being called by the rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#provider CodepipelinePipeline#provider}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#provider CodepipelinePipeline#provider}
 
 ---
 
@@ -2591,7 +2591,7 @@ public readonly version: string;
 
 A string that describes the rule version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#version CodepipelinePipeline#version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#version CodepipelinePipeline#version}
 
 ---
 
@@ -2624,7 +2624,7 @@ public readonly name: string;
 
 Reserved for future use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#name CodepipelinePipeline#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#name CodepipelinePipeline#name}
 
 ---
 
@@ -2638,7 +2638,7 @@ public readonly type: string;
 
 Reserved for future use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#type CodepipelinePipeline#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#type CodepipelinePipeline#type}
 
 ---
 
@@ -2656,7 +2656,7 @@ const codepipelinePipelineStagesOnFailure: codepipelinePipeline.CodepipelinePipe
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnFailure.property.conditions">conditions</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnFailureConditions">CodepipelinePipelineStagesOnFailureConditions</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#conditions CodepipelinePipeline#conditions}. |
+| <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnFailure.property.conditions">conditions</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnFailureConditions">CodepipelinePipelineStagesOnFailureConditions</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#conditions CodepipelinePipeline#conditions}. |
 | <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnFailure.property.result">result</a></code> | <code>string</code> | The specified result for when the failure conditions are met, such as rolling back the stage. |
 | <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnFailure.property.retryConfiguration">retryConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnFailureRetryConfiguration">CodepipelinePipelineStagesOnFailureRetryConfiguration</a></code> | The configuration that specifies the retry configuration for a stage. |
 
@@ -2670,7 +2670,7 @@ public readonly conditions: IResolvable | CodepipelinePipelineStagesOnFailureCon
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnFailureConditions">CodepipelinePipelineStagesOnFailureConditions</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#conditions CodepipelinePipeline#conditions}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#conditions CodepipelinePipeline#conditions}.
 
 ---
 
@@ -2684,7 +2684,7 @@ public readonly result: string;
 
 The specified result for when the failure conditions are met, such as rolling back the stage.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#result CodepipelinePipeline#result}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#result CodepipelinePipeline#result}
 
 ---
 
@@ -2698,7 +2698,7 @@ public readonly retryConfiguration: CodepipelinePipelineStagesOnFailureRetryConf
 
 The configuration that specifies the retry configuration for a stage.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#retry_configuration CodepipelinePipeline#retry_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#retry_configuration CodepipelinePipeline#retry_configuration}
 
 ---
 
@@ -2717,7 +2717,7 @@ const codepipelinePipelineStagesOnFailureConditions: codepipelinePipeline.Codepi
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnFailureConditions.property.result">result</a></code> | <code>string</code> | The specified result for when the failure conditions are met, such as rolling back the stage. |
-| <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnFailureConditions.property.rules">rules</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnFailureConditionsRules">CodepipelinePipelineStagesOnFailureConditionsRules</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#rules CodepipelinePipeline#rules}. |
+| <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnFailureConditions.property.rules">rules</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnFailureConditionsRules">CodepipelinePipelineStagesOnFailureConditionsRules</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#rules CodepipelinePipeline#rules}. |
 
 ---
 
@@ -2731,7 +2731,7 @@ public readonly result: string;
 
 The specified result for when the failure conditions are met, such as rolling back the stage.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#result CodepipelinePipeline#result}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#result CodepipelinePipeline#result}
 
 ---
 
@@ -2743,7 +2743,7 @@ public readonly rules: IResolvable | CodepipelinePipelineStagesOnFailureConditio
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnFailureConditionsRules">CodepipelinePipelineStagesOnFailureConditionsRules</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#rules CodepipelinePipeline#rules}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#rules CodepipelinePipeline#rules}.
 
 ---
 
@@ -2763,7 +2763,7 @@ const codepipelinePipelineStagesOnFailureConditionsRules: codepipelinePipeline.C
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnFailureConditionsRules.property.commands">commands</a></code> | <code>string[]</code> | The shell commands to run with your compute action in CodePipeline. |
 | <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnFailureConditionsRules.property.configuration">configuration</a></code> | <code>string</code> | The rule's configuration. These are key-value pairs that specify input values for a rule. |
-| <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnFailureConditionsRules.property.inputArtifacts">inputArtifacts</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnFailureConditionsRulesInputArtifacts">CodepipelinePipelineStagesOnFailureConditionsRulesInputArtifacts</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#input_artifacts CodepipelinePipeline#input_artifacts}. |
+| <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnFailureConditionsRules.property.inputArtifacts">inputArtifacts</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnFailureConditionsRulesInputArtifacts">CodepipelinePipelineStagesOnFailureConditionsRulesInputArtifacts</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#input_artifacts CodepipelinePipeline#input_artifacts}. |
 | <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnFailureConditionsRules.property.name">name</a></code> | <code>string</code> | The rule declaration's name. |
 | <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnFailureConditionsRules.property.region">region</a></code> | <code>string</code> | The rule declaration's AWS Region, such as us-east-1. |
 | <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnFailureConditionsRules.property.roleArn">roleArn</a></code> | <code>string</code> | The ARN of the IAM service role that performs the declared rule. |
@@ -2781,7 +2781,7 @@ public readonly commands: string[];
 
 The shell commands to run with your compute action in CodePipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#commands CodepipelinePipeline#commands}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#commands CodepipelinePipeline#commands}
 
 ---
 
@@ -2795,7 +2795,7 @@ public readonly configuration: string;
 
 The rule's configuration. These are key-value pairs that specify input values for a rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#configuration CodepipelinePipeline#configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#configuration CodepipelinePipeline#configuration}
 
 ---
 
@@ -2807,7 +2807,7 @@ public readonly inputArtifacts: IResolvable | CodepipelinePipelineStagesOnFailur
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnFailureConditionsRulesInputArtifacts">CodepipelinePipelineStagesOnFailureConditionsRulesInputArtifacts</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#input_artifacts CodepipelinePipeline#input_artifacts}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#input_artifacts CodepipelinePipeline#input_artifacts}.
 
 ---
 
@@ -2821,7 +2821,7 @@ public readonly name: string;
 
 The rule declaration's name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#name CodepipelinePipeline#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#name CodepipelinePipeline#name}
 
 ---
 
@@ -2835,7 +2835,7 @@ public readonly region: string;
 
 The rule declaration's AWS Region, such as us-east-1.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#region CodepipelinePipeline#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#region CodepipelinePipeline#region}
 
 ---
 
@@ -2851,7 +2851,7 @@ The ARN of the IAM service role that performs the declared rule.
 
 This is assumed through the roleArn for the pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#role_arn CodepipelinePipeline#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#role_arn CodepipelinePipeline#role_arn}
 
 ---
 
@@ -2865,7 +2865,7 @@ public readonly ruleTypeId: CodepipelinePipelineStagesOnFailureConditionsRulesRu
 
 Represents information about a rule type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#rule_type_id CodepipelinePipeline#rule_type_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#rule_type_id CodepipelinePipeline#rule_type_id}
 
 ---
 
@@ -2897,7 +2897,7 @@ public readonly name: string;
 
 The name of the artifact to be worked on (for example, "My App").
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#name CodepipelinePipeline#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#name CodepipelinePipeline#name}
 
 ---
 
@@ -2932,7 +2932,7 @@ public readonly category: string;
 
 A category for the provider type for the rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#category CodepipelinePipeline#category}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#category CodepipelinePipeline#category}
 
 ---
 
@@ -2946,7 +2946,7 @@ public readonly owner: string;
 
 The creator of the rule being called. Only AWS is supported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#owner CodepipelinePipeline#owner}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#owner CodepipelinePipeline#owner}
 
 ---
 
@@ -2960,7 +2960,7 @@ public readonly provider: string;
 
 The provider of the service being called by the rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#provider CodepipelinePipeline#provider}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#provider CodepipelinePipeline#provider}
 
 ---
 
@@ -2974,7 +2974,7 @@ public readonly version: string;
 
 A string that describes the rule version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#version CodepipelinePipeline#version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#version CodepipelinePipeline#version}
 
 ---
 
@@ -3008,7 +3008,7 @@ The specified retry mode type for the given stage.
 
 FAILED_ACTIONS will retry only the failed actions. ALL_ACTIONS will retry both failed and successful
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#retry_mode CodepipelinePipeline#retry_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#retry_mode CodepipelinePipeline#retry_mode}
 
 ---
 
@@ -3026,7 +3026,7 @@ const codepipelinePipelineStagesOnSuccess: codepipelinePipeline.CodepipelinePipe
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnSuccess.property.conditions">conditions</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnSuccessConditions">CodepipelinePipelineStagesOnSuccessConditions</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#conditions CodepipelinePipeline#conditions}. |
+| <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnSuccess.property.conditions">conditions</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnSuccessConditions">CodepipelinePipelineStagesOnSuccessConditions</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#conditions CodepipelinePipeline#conditions}. |
 
 ---
 
@@ -3038,7 +3038,7 @@ public readonly conditions: IResolvable | CodepipelinePipelineStagesOnSuccessCon
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnSuccessConditions">CodepipelinePipelineStagesOnSuccessConditions</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#conditions CodepipelinePipeline#conditions}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#conditions CodepipelinePipeline#conditions}.
 
 ---
 
@@ -3057,7 +3057,7 @@ const codepipelinePipelineStagesOnSuccessConditions: codepipelinePipeline.Codepi
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnSuccessConditions.property.result">result</a></code> | <code>string</code> | The specified result for when the failure conditions are met, such as rolling back the stage. |
-| <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnSuccessConditions.property.rules">rules</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnSuccessConditionsRules">CodepipelinePipelineStagesOnSuccessConditionsRules</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#rules CodepipelinePipeline#rules}. |
+| <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnSuccessConditions.property.rules">rules</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnSuccessConditionsRules">CodepipelinePipelineStagesOnSuccessConditionsRules</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#rules CodepipelinePipeline#rules}. |
 
 ---
 
@@ -3071,7 +3071,7 @@ public readonly result: string;
 
 The specified result for when the failure conditions are met, such as rolling back the stage.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#result CodepipelinePipeline#result}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#result CodepipelinePipeline#result}
 
 ---
 
@@ -3083,7 +3083,7 @@ public readonly rules: IResolvable | CodepipelinePipelineStagesOnSuccessConditio
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnSuccessConditionsRules">CodepipelinePipelineStagesOnSuccessConditionsRules</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#rules CodepipelinePipeline#rules}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#rules CodepipelinePipeline#rules}.
 
 ---
 
@@ -3103,7 +3103,7 @@ const codepipelinePipelineStagesOnSuccessConditionsRules: codepipelinePipeline.C
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnSuccessConditionsRules.property.commands">commands</a></code> | <code>string[]</code> | The shell commands to run with your compute action in CodePipeline. |
 | <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnSuccessConditionsRules.property.configuration">configuration</a></code> | <code>string</code> | The rule's configuration. These are key-value pairs that specify input values for a rule. |
-| <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnSuccessConditionsRules.property.inputArtifacts">inputArtifacts</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnSuccessConditionsRulesInputArtifacts">CodepipelinePipelineStagesOnSuccessConditionsRulesInputArtifacts</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#input_artifacts CodepipelinePipeline#input_artifacts}. |
+| <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnSuccessConditionsRules.property.inputArtifacts">inputArtifacts</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnSuccessConditionsRulesInputArtifacts">CodepipelinePipelineStagesOnSuccessConditionsRulesInputArtifacts</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#input_artifacts CodepipelinePipeline#input_artifacts}. |
 | <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnSuccessConditionsRules.property.name">name</a></code> | <code>string</code> | The rule declaration's name. |
 | <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnSuccessConditionsRules.property.region">region</a></code> | <code>string</code> | The rule declaration's AWS Region, such as us-east-1. |
 | <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnSuccessConditionsRules.property.roleArn">roleArn</a></code> | <code>string</code> | The ARN of the IAM service role that performs the declared rule. |
@@ -3121,7 +3121,7 @@ public readonly commands: string[];
 
 The shell commands to run with your compute action in CodePipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#commands CodepipelinePipeline#commands}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#commands CodepipelinePipeline#commands}
 
 ---
 
@@ -3135,7 +3135,7 @@ public readonly configuration: string;
 
 The rule's configuration. These are key-value pairs that specify input values for a rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#configuration CodepipelinePipeline#configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#configuration CodepipelinePipeline#configuration}
 
 ---
 
@@ -3147,7 +3147,7 @@ public readonly inputArtifacts: IResolvable | CodepipelinePipelineStagesOnSucces
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnSuccessConditionsRulesInputArtifacts">CodepipelinePipelineStagesOnSuccessConditionsRulesInputArtifacts</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#input_artifacts CodepipelinePipeline#input_artifacts}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#input_artifacts CodepipelinePipeline#input_artifacts}.
 
 ---
 
@@ -3161,7 +3161,7 @@ public readonly name: string;
 
 The rule declaration's name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#name CodepipelinePipeline#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#name CodepipelinePipeline#name}
 
 ---
 
@@ -3175,7 +3175,7 @@ public readonly region: string;
 
 The rule declaration's AWS Region, such as us-east-1.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#region CodepipelinePipeline#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#region CodepipelinePipeline#region}
 
 ---
 
@@ -3191,7 +3191,7 @@ The ARN of the IAM service role that performs the declared rule.
 
 This is assumed through the roleArn for the pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#role_arn CodepipelinePipeline#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#role_arn CodepipelinePipeline#role_arn}
 
 ---
 
@@ -3205,7 +3205,7 @@ public readonly ruleTypeId: CodepipelinePipelineStagesOnSuccessConditionsRulesRu
 
 Represents information about a rule type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#rule_type_id CodepipelinePipeline#rule_type_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#rule_type_id CodepipelinePipeline#rule_type_id}
 
 ---
 
@@ -3237,7 +3237,7 @@ public readonly name: string;
 
 The name of the artifact to be worked on (for example, "My App").
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#name CodepipelinePipeline#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#name CodepipelinePipeline#name}
 
 ---
 
@@ -3272,7 +3272,7 @@ public readonly category: string;
 
 A category for the provider type for the rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#category CodepipelinePipeline#category}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#category CodepipelinePipeline#category}
 
 ---
 
@@ -3286,7 +3286,7 @@ public readonly owner: string;
 
 The creator of the rule being called. Only AWS is supported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#owner CodepipelinePipeline#owner}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#owner CodepipelinePipeline#owner}
 
 ---
 
@@ -3300,7 +3300,7 @@ public readonly provider: string;
 
 The provider of the service being called by the rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#provider CodepipelinePipeline#provider}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#provider CodepipelinePipeline#provider}
 
 ---
 
@@ -3314,7 +3314,7 @@ public readonly version: string;
 
 A string that describes the rule version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#version CodepipelinePipeline#version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#version CodepipelinePipeline#version}
 
 ---
 
@@ -3347,7 +3347,7 @@ public readonly key: string;
 
 The tag's key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#key CodepipelinePipeline#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#key CodepipelinePipeline#key}
 
 ---
 
@@ -3361,7 +3361,7 @@ public readonly value: string;
 
 The tag's value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#value CodepipelinePipeline#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#value CodepipelinePipeline#value}
 
 ---
 
@@ -3394,7 +3394,7 @@ public readonly gitConfiguration: CodepipelinePipelineTriggersGitConfiguration;
 
 A type of trigger configuration for Git-based source actions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#git_configuration CodepipelinePipeline#git_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#git_configuration CodepipelinePipeline#git_configuration}
 
 ---
 
@@ -3408,7 +3408,7 @@ public readonly providerType: string;
 
 The source provider for the event, such as connections configured for a repository with Git tags, for the specified trigger configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#provider_type CodepipelinePipeline#provider_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#provider_type CodepipelinePipeline#provider_type}
 
 ---
 
@@ -3442,7 +3442,7 @@ public readonly pullRequest: IResolvable | CodepipelinePipelineTriggersGitConfig
 
 The field where the repository event that will start the pipeline is specified as pull requests.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#pull_request CodepipelinePipeline#pull_request}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#pull_request CodepipelinePipeline#pull_request}
 
 ---
 
@@ -3456,7 +3456,7 @@ public readonly push: IResolvable | CodepipelinePipelineTriggersGitConfiguration
 
 The field where the repository event that will start the pipeline, such as pushing Git tags, is specified with details.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#push CodepipelinePipeline#push}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#push CodepipelinePipeline#push}
 
 ---
 
@@ -3472,7 +3472,7 @@ The name of the pipeline source action where the trigger configuration, such as 
 
 The trigger configuration will start the pipeline upon the specified change only.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#source_action_name CodepipelinePipeline#source_action_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#source_action_name CodepipelinePipeline#source_action_name}
 
 ---
 
@@ -3506,7 +3506,7 @@ public readonly branches: CodepipelinePipelineTriggersGitConfigurationPullReques
 
 The Git repository branches specified as filter criteria to start the pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#branches CodepipelinePipeline#branches}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#branches CodepipelinePipeline#branches}
 
 ---
 
@@ -3520,7 +3520,7 @@ public readonly events: string[];
 
 The field that specifies which pull request events to filter on (opened, updated, closed) for the trigger configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#events CodepipelinePipeline#events}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#events CodepipelinePipeline#events}
 
 ---
 
@@ -3534,7 +3534,7 @@ public readonly filePaths: CodepipelinePipelineTriggersGitConfigurationPullReque
 
 The Git repository file paths specified as filter criteria to start the pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#file_paths CodepipelinePipeline#file_paths}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#file_paths CodepipelinePipeline#file_paths}
 
 ---
 
@@ -3567,7 +3567,7 @@ public readonly excludes: string[];
 
 The list of patterns of Git branches that, when a commit is pushed, are to be excluded from starting the pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#excludes CodepipelinePipeline#excludes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#excludes CodepipelinePipeline#excludes}
 
 ---
 
@@ -3581,7 +3581,7 @@ public readonly includes: string[];
 
 The list of patterns of Git branches that, when a commit is pushed, are to be included as criteria that starts the pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#includes CodepipelinePipeline#includes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#includes CodepipelinePipeline#includes}
 
 ---
 
@@ -3614,7 +3614,7 @@ public readonly excludes: string[];
 
 The list of patterns of Git repository file paths that, when a commit is pushed, are to be excluded from starting the pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#excludes CodepipelinePipeline#excludes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#excludes CodepipelinePipeline#excludes}
 
 ---
 
@@ -3628,7 +3628,7 @@ public readonly includes: string[];
 
 The list of patterns of Git repository file paths that, when a commit is pushed, are to be included as criteria that starts the pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#includes CodepipelinePipeline#includes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#includes CodepipelinePipeline#includes}
 
 ---
 
@@ -3662,7 +3662,7 @@ public readonly branches: CodepipelinePipelineTriggersGitConfigurationPushBranch
 
 The Git repository branches specified as filter criteria to start the pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#branches CodepipelinePipeline#branches}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#branches CodepipelinePipeline#branches}
 
 ---
 
@@ -3676,7 +3676,7 @@ public readonly filePaths: CodepipelinePipelineTriggersGitConfigurationPushFileP
 
 The Git repository file paths specified as filter criteria to start the pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#file_paths CodepipelinePipeline#file_paths}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#file_paths CodepipelinePipeline#file_paths}
 
 ---
 
@@ -3690,7 +3690,7 @@ public readonly tags: CodepipelinePipelineTriggersGitConfigurationPushTags;
 
 The Git tags specified as filter criteria for whether a Git tag repository event will start the pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#tags CodepipelinePipeline#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#tags CodepipelinePipeline#tags}
 
 ---
 
@@ -3723,7 +3723,7 @@ public readonly excludes: string[];
 
 The list of patterns of Git branches that, when a commit is pushed, are to be excluded from starting the pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#excludes CodepipelinePipeline#excludes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#excludes CodepipelinePipeline#excludes}
 
 ---
 
@@ -3737,7 +3737,7 @@ public readonly includes: string[];
 
 The list of patterns of Git branches that, when a commit is pushed, are to be included as criteria that starts the pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#includes CodepipelinePipeline#includes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#includes CodepipelinePipeline#includes}
 
 ---
 
@@ -3770,7 +3770,7 @@ public readonly excludes: string[];
 
 The list of patterns of Git repository file paths that, when a commit is pushed, are to be excluded from starting the pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#excludes CodepipelinePipeline#excludes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#excludes CodepipelinePipeline#excludes}
 
 ---
 
@@ -3784,7 +3784,7 @@ public readonly includes: string[];
 
 The list of patterns of Git repository file paths that, when a commit is pushed, are to be included as criteria that starts the pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#includes CodepipelinePipeline#includes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#includes CodepipelinePipeline#includes}
 
 ---
 
@@ -3817,7 +3817,7 @@ public readonly excludes: string[];
 
 The list of patterns of Git tags that, when pushed, are to be excluded from starting the pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#excludes CodepipelinePipeline#excludes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#excludes CodepipelinePipeline#excludes}
 
 ---
 
@@ -3831,7 +3831,7 @@ public readonly includes: string[];
 
 The list of patterns of Git tags that, when pushed, are to be included as criteria that starts the pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#includes CodepipelinePipeline#includes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#includes CodepipelinePipeline#includes}
 
 ---
 
@@ -3865,7 +3865,7 @@ public readonly defaultValue: string;
 
 The value of a pipeline-level variable.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#default_value CodepipelinePipeline#default_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#default_value CodepipelinePipeline#default_value}
 
 ---
 
@@ -3881,7 +3881,7 @@ The description of a pipeline-level variable.
 
 It's used to add additional context about the variable, and not being used at time when pipeline executes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#description CodepipelinePipeline#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#description CodepipelinePipeline#description}
 
 ---
 
@@ -3895,7 +3895,7 @@ public readonly name: string;
 
 The name of a pipeline-level variable.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_pipeline#name CodepipelinePipeline#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#name CodepipelinePipeline#name}
 
 ---
 

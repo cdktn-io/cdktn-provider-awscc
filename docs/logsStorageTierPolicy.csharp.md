@@ -4,7 +4,7 @@
 
 ### LogsStorageTierPolicy <a name="LogsStorageTierPolicy" id="@cdktn/provider-awscc.logsStorageTierPolicy.LogsStorageTierPolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/logs_storage_tier_policy awscc_logs_storage_tier_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/logs_storage_tier_policy awscc_logs_storage_tier_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.logsStorageTierPolicy.LogsStorageTierPolicy.Initializer"></a>
 
@@ -489,7 +489,7 @@ The construct id used in the generated config for the LogsStorageTierPolicy to i
 
 The id of the existing LogsStorageTierPolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/logs_storage_tier_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/logs_storage_tier_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -853,7 +853,7 @@ public string StorageTier { get; set; }
 
 The storage tier to apply. Only INTELLIGENT_TIERING is accepted for creation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/logs_storage_tier_policy#storage_tier LogsStorageTierPolicy#storage_tier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/logs_storage_tier_policy#storage_tier LogsStorageTierPolicy#storage_tier}
 
 ---
 

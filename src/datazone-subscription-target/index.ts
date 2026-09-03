@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_subscription_target
+// https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datazone_subscription_target
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,55 +15,55 @@ export interface DatazoneSubscriptionTargetConfig extends cdktn.TerraformMetaArg
   /**
   * The asset types that can be included in the subscription target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_subscription_target#applicable_asset_types DatazoneSubscriptionTarget#applicable_asset_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datazone_subscription_target#applicable_asset_types DatazoneSubscriptionTarget#applicable_asset_types}
   */
   readonly applicableAssetTypes: string[];
   /**
   * The authorized principals of the subscription target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_subscription_target#authorized_principals DatazoneSubscriptionTarget#authorized_principals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datazone_subscription_target#authorized_principals DatazoneSubscriptionTarget#authorized_principals}
   */
   readonly authorizedPrincipals: string[];
   /**
   * The ID of the Amazon DataZone domain in which subscription target would be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_subscription_target#domain_identifier DatazoneSubscriptionTarget#domain_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datazone_subscription_target#domain_identifier DatazoneSubscriptionTarget#domain_identifier}
   */
   readonly domainIdentifier: string;
   /**
   * The ID of the environment in which subscription target would be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_subscription_target#environment_identifier DatazoneSubscriptionTarget#environment_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datazone_subscription_target#environment_identifier DatazoneSubscriptionTarget#environment_identifier}
   */
   readonly environmentIdentifier: string;
   /**
   * The manage access role that is used to create the subscription target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_subscription_target#manage_access_role DatazoneSubscriptionTarget#manage_access_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datazone_subscription_target#manage_access_role DatazoneSubscriptionTarget#manage_access_role}
   */
   readonly manageAccessRole?: string;
   /**
   * The name of the subscription target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_subscription_target#name DatazoneSubscriptionTarget#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datazone_subscription_target#name DatazoneSubscriptionTarget#name}
   */
   readonly name: string;
   /**
   * The provider of the subscription target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_subscription_target#provider_name DatazoneSubscriptionTarget#provider_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datazone_subscription_target#provider_name DatazoneSubscriptionTarget#provider_name}
   */
   readonly providerName?: string;
   /**
   * The configuration of the subscription target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_subscription_target#subscription_target_config DatazoneSubscriptionTarget#subscription_target_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datazone_subscription_target#subscription_target_config DatazoneSubscriptionTarget#subscription_target_config}
   */
   readonly subscriptionTargetConfig: DatazoneSubscriptionTargetSubscriptionTargetConfig[] | cdktn.IResolvable;
   /**
   * The type of the subscription target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_subscription_target#type DatazoneSubscriptionTarget#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datazone_subscription_target#type DatazoneSubscriptionTarget#type}
   */
   readonly type: string;
 }
@@ -71,13 +71,13 @@ export interface DatazoneSubscriptionTargetSubscriptionTargetConfig {
   /**
   * The content of the subscription target configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_subscription_target#content DatazoneSubscriptionTarget#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datazone_subscription_target#content DatazoneSubscriptionTarget#content}
   */
   readonly content: string;
   /**
   * The form name included in the subscription target configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_subscription_target#form_name DatazoneSubscriptionTarget#form_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datazone_subscription_target#form_name DatazoneSubscriptionTarget#form_name}
   */
   readonly formName: string;
 }
@@ -216,7 +216,7 @@ export class DatazoneSubscriptionTargetSubscriptionTargetConfigList extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_subscription_target awscc_datazone_subscription_target}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datazone_subscription_target awscc_datazone_subscription_target}
 */
 export class DatazoneSubscriptionTarget extends cdktn.TerraformResource {
 
@@ -232,7 +232,7 @@ export class DatazoneSubscriptionTarget extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a DatazoneSubscriptionTarget resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatazoneSubscriptionTarget to import
-  * @param importFromId The id of the existing DatazoneSubscriptionTarget that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_subscription_target#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatazoneSubscriptionTarget that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datazone_subscription_target#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatazoneSubscriptionTarget to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -244,7 +244,7 @@ export class DatazoneSubscriptionTarget extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_subscription_target awscc_datazone_subscription_target} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datazone_subscription_target awscc_datazone_subscription_target} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -255,7 +255,7 @@ export class DatazoneSubscriptionTarget extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_datazone_subscription_target',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.99.0',
+        providerVersion: '1.100.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory
+// https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,53 +15,53 @@ export interface BedrockagentcoreMemoryConfig extends cdktn.TerraformMetaArgumen
   /**
   * Description of the Memory resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#description BedrockagentcoreMemory#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#description BedrockagentcoreMemory#description}
   */
   readonly description?: string;
   /**
   * ARN format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#encryption_key_arn BedrockagentcoreMemory#encryption_key_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#encryption_key_arn BedrockagentcoreMemory#encryption_key_arn}
   */
   readonly encryptionKeyArn?: string;
   /**
   * Duration in days until memory events expire
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#event_expiry_duration BedrockagentcoreMemory#event_expiry_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#event_expiry_duration BedrockagentcoreMemory#event_expiry_duration}
   */
   readonly eventExpiryDuration: number;
   /**
   * List of indexed keys for the memory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#indexed_keys BedrockagentcoreMemory#indexed_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#indexed_keys BedrockagentcoreMemory#indexed_keys}
   */
   readonly indexedKeys?: BedrockagentcoreMemoryIndexedKeys[] | cdktn.IResolvable;
   /**
   * ARN format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#memory_execution_role_arn BedrockagentcoreMemory#memory_execution_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#memory_execution_role_arn BedrockagentcoreMemory#memory_execution_role_arn}
   */
   readonly memoryExecutionRoleArn?: string;
   /**
   * List of memory strategies attached to this memory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#memory_strategies BedrockagentcoreMemory#memory_strategies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#memory_strategies BedrockagentcoreMemory#memory_strategies}
   */
   readonly memoryStrategies?: BedrockagentcoreMemoryMemoryStrategies[] | cdktn.IResolvable;
   /**
   * Name of the Memory resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#name BedrockagentcoreMemory#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#name BedrockagentcoreMemory#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#stream_delivery_resources BedrockagentcoreMemory#stream_delivery_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#stream_delivery_resources BedrockagentcoreMemory#stream_delivery_resources}
   */
   readonly streamDeliveryResources?: BedrockagentcoreMemoryStreamDeliveryResources;
   /**
   * A map of tag keys and values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#tags BedrockagentcoreMemory#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#tags BedrockagentcoreMemory#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -69,13 +69,13 @@ export interface BedrockagentcoreMemoryIndexedKeys {
   /**
   * Key name for metadata fields
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#key BedrockagentcoreMemory#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#key BedrockagentcoreMemory#key}
   */
   readonly key?: string;
   /**
   * Supported data types for metadata values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#type BedrockagentcoreMemory#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#type BedrockagentcoreMemory#type}
   */
   readonly type?: string;
 }
@@ -222,11 +222,11 @@ export interface BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfi
   /**
   * Text prompt for model instructions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#append_to_prompt BedrockagentcoreMemory#append_to_prompt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#append_to_prompt BedrockagentcoreMemory#append_to_prompt}
   */
   readonly appendToPrompt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#model_id BedrockagentcoreMemory#model_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#model_id BedrockagentcoreMemory#model_id}
   */
   readonly modelId?: string;
 }
@@ -351,11 +351,11 @@ export interface BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfi
   /**
   * Text prompt for model instructions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#append_to_prompt BedrockagentcoreMemory#append_to_prompt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#append_to_prompt BedrockagentcoreMemory#append_to_prompt}
   */
   readonly appendToPrompt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#model_id BedrockagentcoreMemory#model_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#model_id BedrockagentcoreMemory#model_id}
   */
   readonly modelId?: string;
 }
@@ -478,11 +478,11 @@ export class BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigura
 }
 export interface BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigurationEpisodicOverrideReflectionMemoryRecordSchemaMetadataSchemaExtractionConfigLlmExtractionConfigValidationNumberValidation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#max_value BedrockagentcoreMemory#max_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#max_value BedrockagentcoreMemory#max_value}
   */
   readonly maxValue?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#min_value BedrockagentcoreMemory#min_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#min_value BedrockagentcoreMemory#min_value}
   */
   readonly minValue?: number;
 }
@@ -605,11 +605,11 @@ export class BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigura
 }
 export interface BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigurationEpisodicOverrideReflectionMemoryRecordSchemaMetadataSchemaExtractionConfigLlmExtractionConfigValidationStringListValidation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#allowed_values BedrockagentcoreMemory#allowed_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#allowed_values BedrockagentcoreMemory#allowed_values}
   */
   readonly allowedValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#max_items BedrockagentcoreMemory#max_items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#max_items BedrockagentcoreMemory#max_items}
   */
   readonly maxItems?: number;
 }
@@ -732,7 +732,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigura
 }
 export interface BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigurationEpisodicOverrideReflectionMemoryRecordSchemaMetadataSchemaExtractionConfigLlmExtractionConfigValidationStringValidation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#allowed_values BedrockagentcoreMemory#allowed_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#allowed_values BedrockagentcoreMemory#allowed_values}
   */
   readonly allowedValues?: string[];
 }
@@ -826,15 +826,15 @@ export class BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigura
 }
 export interface BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigurationEpisodicOverrideReflectionMemoryRecordSchemaMetadataSchemaExtractionConfigLlmExtractionConfigValidation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#number_validation BedrockagentcoreMemory#number_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#number_validation BedrockagentcoreMemory#number_validation}
   */
   readonly numberValidation?: BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigurationEpisodicOverrideReflectionMemoryRecordSchemaMetadataSchemaExtractionConfigLlmExtractionConfigValidationNumberValidation;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#string_list_validation BedrockagentcoreMemory#string_list_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#string_list_validation BedrockagentcoreMemory#string_list_validation}
   */
   readonly stringListValidation?: BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigurationEpisodicOverrideReflectionMemoryRecordSchemaMetadataSchemaExtractionConfigLlmExtractionConfigValidationStringListValidation;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#string_validation BedrockagentcoreMemory#string_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#string_validation BedrockagentcoreMemory#string_validation}
   */
   readonly stringValidation?: BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigurationEpisodicOverrideReflectionMemoryRecordSchemaMetadataSchemaExtractionConfigLlmExtractionConfigValidationStringValidation;
 }
@@ -988,17 +988,17 @@ export interface BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfi
   /**
   * Definition for the metadata schema entry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#definition BedrockagentcoreMemory#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#definition BedrockagentcoreMemory#definition}
   */
   readonly definition?: string;
   /**
   * LLM extraction instruction
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#llm_extraction_instruction BedrockagentcoreMemory#llm_extraction_instruction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#llm_extraction_instruction BedrockagentcoreMemory#llm_extraction_instruction}
   */
   readonly llmExtractionInstruction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#validation BedrockagentcoreMemory#validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#validation BedrockagentcoreMemory#validation}
   */
   readonly validation?: BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigurationEpisodicOverrideReflectionMemoryRecordSchemaMetadataSchemaExtractionConfigLlmExtractionConfigValidation;
 }
@@ -1150,7 +1150,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigura
 }
 export interface BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigurationEpisodicOverrideReflectionMemoryRecordSchemaMetadataSchemaExtractionConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#llm_extraction_config BedrockagentcoreMemory#llm_extraction_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#llm_extraction_config BedrockagentcoreMemory#llm_extraction_config}
   */
   readonly llmExtractionConfig?: BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigurationEpisodicOverrideReflectionMemoryRecordSchemaMetadataSchemaExtractionConfigLlmExtractionConfig;
 }
@@ -1244,25 +1244,25 @@ export class BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigura
 }
 export interface BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigurationEpisodicOverrideReflectionMemoryRecordSchemaMetadataSchema {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#extraction_config BedrockagentcoreMemory#extraction_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#extraction_config BedrockagentcoreMemory#extraction_config}
   */
   readonly extractionConfig?: BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigurationEpisodicOverrideReflectionMemoryRecordSchemaMetadataSchemaExtractionConfig;
   /**
   * Specifies whether the metadata value is extracted by the LLM or passed through deterministically from the event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#extraction_type BedrockagentcoreMemory#extraction_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#extraction_type BedrockagentcoreMemory#extraction_type}
   */
   readonly extractionType?: string;
   /**
   * Key name for metadata fields
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#key BedrockagentcoreMemory#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#key BedrockagentcoreMemory#key}
   */
   readonly key?: string;
   /**
   * Supported data types for metadata values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#type BedrockagentcoreMemory#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#type BedrockagentcoreMemory#type}
   */
   readonly type?: string;
 }
@@ -1467,7 +1467,7 @@ export interface BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfi
   /**
   * List of metadata schema entries
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#metadata_schema BedrockagentcoreMemory#metadata_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#metadata_schema BedrockagentcoreMemory#metadata_schema}
   */
   readonly metadataSchema?: BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigurationEpisodicOverrideReflectionMemoryRecordSchemaMetadataSchema[] | cdktn.IResolvable;
 }
@@ -1563,27 +1563,27 @@ export interface BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfi
   /**
   * Text prompt for model instructions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#append_to_prompt BedrockagentcoreMemory#append_to_prompt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#append_to_prompt BedrockagentcoreMemory#append_to_prompt}
   */
   readonly appendToPrompt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#memory_record_schema BedrockagentcoreMemory#memory_record_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#memory_record_schema BedrockagentcoreMemory#memory_record_schema}
   */
   readonly memoryRecordSchema?: BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigurationEpisodicOverrideReflectionMemoryRecordSchema;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#model_id BedrockagentcoreMemory#model_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#model_id BedrockagentcoreMemory#model_id}
   */
   readonly modelId?: string;
   /**
   * List of namespaces for memory strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#namespace_templates BedrockagentcoreMemory#namespace_templates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#namespace_templates BedrockagentcoreMemory#namespace_templates}
   */
   readonly namespaceTemplates?: string[];
   /**
   * List of namespaces for memory strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#namespaces BedrockagentcoreMemory#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#namespaces BedrockagentcoreMemory#namespaces}
   */
   readonly namespaces?: string[];
 }
@@ -1793,15 +1793,15 @@ export class BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigura
 }
 export interface BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigurationEpisodicOverride {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#consolidation BedrockagentcoreMemory#consolidation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#consolidation BedrockagentcoreMemory#consolidation}
   */
   readonly consolidation?: BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigurationEpisodicOverrideConsolidation;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#extraction BedrockagentcoreMemory#extraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#extraction BedrockagentcoreMemory#extraction}
   */
   readonly extraction?: BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigurationEpisodicOverrideExtraction;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#reflection BedrockagentcoreMemory#reflection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#reflection BedrockagentcoreMemory#reflection}
   */
   readonly reflection?: BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigurationEpisodicOverrideReflection;
 }
@@ -1953,13 +1953,13 @@ export class BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigura
 }
 export interface BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigurationSelfManagedConfigurationInvocationConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#payload_delivery_bucket_name BedrockagentcoreMemory#payload_delivery_bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#payload_delivery_bucket_name BedrockagentcoreMemory#payload_delivery_bucket_name}
   */
   readonly payloadDeliveryBucketName?: string;
   /**
   * ARN format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#topic_arn BedrockagentcoreMemory#topic_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#topic_arn BedrockagentcoreMemory#topic_arn}
   */
   readonly topicArn?: string;
 }
@@ -2082,7 +2082,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigura
 }
 export interface BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigurationSelfManagedConfigurationTriggerConditionsMessageBasedTrigger {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#message_count BedrockagentcoreMemory#message_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#message_count BedrockagentcoreMemory#message_count}
   */
   readonly messageCount?: number;
 }
@@ -2176,7 +2176,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigura
 }
 export interface BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigurationSelfManagedConfigurationTriggerConditionsTimeBasedTrigger {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#idle_session_timeout BedrockagentcoreMemory#idle_session_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#idle_session_timeout BedrockagentcoreMemory#idle_session_timeout}
   */
   readonly idleSessionTimeout?: number;
 }
@@ -2270,7 +2270,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigura
 }
 export interface BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigurationSelfManagedConfigurationTriggerConditionsTokenBasedTrigger {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#token_count BedrockagentcoreMemory#token_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#token_count BedrockagentcoreMemory#token_count}
   */
   readonly tokenCount?: number;
 }
@@ -2364,15 +2364,15 @@ export class BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigura
 }
 export interface BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigurationSelfManagedConfigurationTriggerConditions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#message_based_trigger BedrockagentcoreMemory#message_based_trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#message_based_trigger BedrockagentcoreMemory#message_based_trigger}
   */
   readonly messageBasedTrigger?: BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigurationSelfManagedConfigurationTriggerConditionsMessageBasedTrigger;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#time_based_trigger BedrockagentcoreMemory#time_based_trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#time_based_trigger BedrockagentcoreMemory#time_based_trigger}
   */
   readonly timeBasedTrigger?: BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigurationSelfManagedConfigurationTriggerConditionsTimeBasedTrigger;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#token_based_trigger BedrockagentcoreMemory#token_based_trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#token_based_trigger BedrockagentcoreMemory#token_based_trigger}
   */
   readonly tokenBasedTrigger?: BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigurationSelfManagedConfigurationTriggerConditionsTokenBasedTrigger;
 }
@@ -2546,15 +2546,15 @@ export class BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigura
 }
 export interface BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigurationSelfManagedConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#historical_context_window_size BedrockagentcoreMemory#historical_context_window_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#historical_context_window_size BedrockagentcoreMemory#historical_context_window_size}
   */
   readonly historicalContextWindowSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#invocation_configuration BedrockagentcoreMemory#invocation_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#invocation_configuration BedrockagentcoreMemory#invocation_configuration}
   */
   readonly invocationConfiguration?: BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigurationSelfManagedConfigurationInvocationConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#trigger_conditions BedrockagentcoreMemory#trigger_conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#trigger_conditions BedrockagentcoreMemory#trigger_conditions}
   */
   readonly triggerConditions?: BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigurationSelfManagedConfigurationTriggerConditions[] | cdktn.IResolvable;
 }
@@ -2708,11 +2708,11 @@ export interface BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfi
   /**
   * Text prompt for model instructions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#append_to_prompt BedrockagentcoreMemory#append_to_prompt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#append_to_prompt BedrockagentcoreMemory#append_to_prompt}
   */
   readonly appendToPrompt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#model_id BedrockagentcoreMemory#model_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#model_id BedrockagentcoreMemory#model_id}
   */
   readonly modelId?: string;
 }
@@ -2837,11 +2837,11 @@ export interface BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfi
   /**
   * Text prompt for model instructions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#append_to_prompt BedrockagentcoreMemory#append_to_prompt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#append_to_prompt BedrockagentcoreMemory#append_to_prompt}
   */
   readonly appendToPrompt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#model_id BedrockagentcoreMemory#model_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#model_id BedrockagentcoreMemory#model_id}
   */
   readonly modelId?: string;
 }
@@ -2964,11 +2964,11 @@ export class BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigura
 }
 export interface BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigurationSemanticOverride {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#consolidation BedrockagentcoreMemory#consolidation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#consolidation BedrockagentcoreMemory#consolidation}
   */
   readonly consolidation?: BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigurationSemanticOverrideConsolidation;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#extraction BedrockagentcoreMemory#extraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#extraction BedrockagentcoreMemory#extraction}
   */
   readonly extraction?: BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigurationSemanticOverrideExtraction;
 }
@@ -3093,11 +3093,11 @@ export interface BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfi
   /**
   * Text prompt for model instructions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#append_to_prompt BedrockagentcoreMemory#append_to_prompt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#append_to_prompt BedrockagentcoreMemory#append_to_prompt}
   */
   readonly appendToPrompt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#model_id BedrockagentcoreMemory#model_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#model_id BedrockagentcoreMemory#model_id}
   */
   readonly modelId?: string;
 }
@@ -3220,7 +3220,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigura
 }
 export interface BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigurationSummaryOverride {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#consolidation BedrockagentcoreMemory#consolidation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#consolidation BedrockagentcoreMemory#consolidation}
   */
   readonly consolidation?: BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigurationSummaryOverrideConsolidation;
 }
@@ -3316,11 +3316,11 @@ export interface BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfi
   /**
   * Text prompt for model instructions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#append_to_prompt BedrockagentcoreMemory#append_to_prompt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#append_to_prompt BedrockagentcoreMemory#append_to_prompt}
   */
   readonly appendToPrompt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#model_id BedrockagentcoreMemory#model_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#model_id BedrockagentcoreMemory#model_id}
   */
   readonly modelId?: string;
 }
@@ -3445,11 +3445,11 @@ export interface BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfi
   /**
   * Text prompt for model instructions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#append_to_prompt BedrockagentcoreMemory#append_to_prompt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#append_to_prompt BedrockagentcoreMemory#append_to_prompt}
   */
   readonly appendToPrompt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#model_id BedrockagentcoreMemory#model_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#model_id BedrockagentcoreMemory#model_id}
   */
   readonly modelId?: string;
 }
@@ -3572,11 +3572,11 @@ export class BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigura
 }
 export interface BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigurationUserPreferenceOverride {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#consolidation BedrockagentcoreMemory#consolidation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#consolidation BedrockagentcoreMemory#consolidation}
   */
   readonly consolidation?: BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigurationUserPreferenceOverrideConsolidation;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#extraction BedrockagentcoreMemory#extraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#extraction BedrockagentcoreMemory#extraction}
   */
   readonly extraction?: BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigurationUserPreferenceOverrideExtraction;
 }
@@ -3699,23 +3699,23 @@ export class BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigura
 }
 export interface BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#episodic_override BedrockagentcoreMemory#episodic_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#episodic_override BedrockagentcoreMemory#episodic_override}
   */
   readonly episodicOverride?: BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigurationEpisodicOverride;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#self_managed_configuration BedrockagentcoreMemory#self_managed_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#self_managed_configuration BedrockagentcoreMemory#self_managed_configuration}
   */
   readonly selfManagedConfiguration?: BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigurationSelfManagedConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#semantic_override BedrockagentcoreMemory#semantic_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#semantic_override BedrockagentcoreMemory#semantic_override}
   */
   readonly semanticOverride?: BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigurationSemanticOverride;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#summary_override BedrockagentcoreMemory#summary_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#summary_override BedrockagentcoreMemory#summary_override}
   */
   readonly summaryOverride?: BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigurationSummaryOverride;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#user_preference_override BedrockagentcoreMemory#user_preference_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#user_preference_override BedrockagentcoreMemory#user_preference_override}
   */
   readonly userPreferenceOverride?: BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigurationUserPreferenceOverride;
 }
@@ -3925,11 +3925,11 @@ export class BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigura
 }
 export interface BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyMemoryRecordSchemaMetadataSchemaExtractionConfigLlmExtractionConfigValidationNumberValidation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#max_value BedrockagentcoreMemory#max_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#max_value BedrockagentcoreMemory#max_value}
   */
   readonly maxValue?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#min_value BedrockagentcoreMemory#min_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#min_value BedrockagentcoreMemory#min_value}
   */
   readonly minValue?: number;
 }
@@ -4052,11 +4052,11 @@ export class BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyMemoryRec
 }
 export interface BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyMemoryRecordSchemaMetadataSchemaExtractionConfigLlmExtractionConfigValidationStringListValidation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#allowed_values BedrockagentcoreMemory#allowed_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#allowed_values BedrockagentcoreMemory#allowed_values}
   */
   readonly allowedValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#max_items BedrockagentcoreMemory#max_items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#max_items BedrockagentcoreMemory#max_items}
   */
   readonly maxItems?: number;
 }
@@ -4179,7 +4179,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyMemoryRec
 }
 export interface BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyMemoryRecordSchemaMetadataSchemaExtractionConfigLlmExtractionConfigValidationStringValidation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#allowed_values BedrockagentcoreMemory#allowed_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#allowed_values BedrockagentcoreMemory#allowed_values}
   */
   readonly allowedValues?: string[];
 }
@@ -4273,15 +4273,15 @@ export class BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyMemoryRec
 }
 export interface BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyMemoryRecordSchemaMetadataSchemaExtractionConfigLlmExtractionConfigValidation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#number_validation BedrockagentcoreMemory#number_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#number_validation BedrockagentcoreMemory#number_validation}
   */
   readonly numberValidation?: BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyMemoryRecordSchemaMetadataSchemaExtractionConfigLlmExtractionConfigValidationNumberValidation;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#string_list_validation BedrockagentcoreMemory#string_list_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#string_list_validation BedrockagentcoreMemory#string_list_validation}
   */
   readonly stringListValidation?: BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyMemoryRecordSchemaMetadataSchemaExtractionConfigLlmExtractionConfigValidationStringListValidation;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#string_validation BedrockagentcoreMemory#string_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#string_validation BedrockagentcoreMemory#string_validation}
   */
   readonly stringValidation?: BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyMemoryRecordSchemaMetadataSchemaExtractionConfigLlmExtractionConfigValidationStringValidation;
 }
@@ -4435,17 +4435,17 @@ export interface BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyMemor
   /**
   * Definition for the metadata schema entry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#definition BedrockagentcoreMemory#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#definition BedrockagentcoreMemory#definition}
   */
   readonly definition?: string;
   /**
   * LLM extraction instruction
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#llm_extraction_instruction BedrockagentcoreMemory#llm_extraction_instruction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#llm_extraction_instruction BedrockagentcoreMemory#llm_extraction_instruction}
   */
   readonly llmExtractionInstruction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#validation BedrockagentcoreMemory#validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#validation BedrockagentcoreMemory#validation}
   */
   readonly validation?: BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyMemoryRecordSchemaMetadataSchemaExtractionConfigLlmExtractionConfigValidation;
 }
@@ -4597,7 +4597,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyMemoryRec
 }
 export interface BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyMemoryRecordSchemaMetadataSchemaExtractionConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#llm_extraction_config BedrockagentcoreMemory#llm_extraction_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#llm_extraction_config BedrockagentcoreMemory#llm_extraction_config}
   */
   readonly llmExtractionConfig?: BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyMemoryRecordSchemaMetadataSchemaExtractionConfigLlmExtractionConfig;
 }
@@ -4691,25 +4691,25 @@ export class BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyMemoryRec
 }
 export interface BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyMemoryRecordSchemaMetadataSchema {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#extraction_config BedrockagentcoreMemory#extraction_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#extraction_config BedrockagentcoreMemory#extraction_config}
   */
   readonly extractionConfig?: BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyMemoryRecordSchemaMetadataSchemaExtractionConfig;
   /**
   * Specifies whether the metadata value is extracted by the LLM or passed through deterministically from the event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#extraction_type BedrockagentcoreMemory#extraction_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#extraction_type BedrockagentcoreMemory#extraction_type}
   */
   readonly extractionType?: string;
   /**
   * Key name for metadata fields
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#key BedrockagentcoreMemory#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#key BedrockagentcoreMemory#key}
   */
   readonly key?: string;
   /**
   * Supported data types for metadata values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#type BedrockagentcoreMemory#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#type BedrockagentcoreMemory#type}
   */
   readonly type?: string;
 }
@@ -4914,7 +4914,7 @@ export interface BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyMemor
   /**
   * List of metadata schema entries
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#metadata_schema BedrockagentcoreMemory#metadata_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#metadata_schema BedrockagentcoreMemory#metadata_schema}
   */
   readonly metadataSchema?: BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyMemoryRecordSchemaMetadataSchema[] | cdktn.IResolvable;
 }
@@ -5008,65 +5008,65 @@ export class BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyMemoryRec
 }
 export interface BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#configuration BedrockagentcoreMemory#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#configuration BedrockagentcoreMemory#configuration}
   */
   readonly configuration?: BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfiguration;
   /**
   * Creation timestamp of the memory strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#created_at BedrockagentcoreMemory#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#created_at BedrockagentcoreMemory#created_at}
   */
   readonly createdAt?: string;
   /**
   * Description of the Memory resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#description BedrockagentcoreMemory#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#description BedrockagentcoreMemory#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#memory_record_schema BedrockagentcoreMemory#memory_record_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#memory_record_schema BedrockagentcoreMemory#memory_record_schema}
   */
   readonly memoryRecordSchema?: BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyMemoryRecordSchema;
   /**
   * Name of the Memory resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#name BedrockagentcoreMemory#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#name BedrockagentcoreMemory#name}
   */
   readonly name?: string;
   /**
   * List of namespaces for memory strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#namespace_templates BedrockagentcoreMemory#namespace_templates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#namespace_templates BedrockagentcoreMemory#namespace_templates}
   */
   readonly namespaceTemplates?: string[];
   /**
   * List of namespaces for memory strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#namespaces BedrockagentcoreMemory#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#namespaces BedrockagentcoreMemory#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * Status of the memory strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#status BedrockagentcoreMemory#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#status BedrockagentcoreMemory#status}
   */
   readonly status?: string;
   /**
   * Unique identifier for the memory strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#strategy_id BedrockagentcoreMemory#strategy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#strategy_id BedrockagentcoreMemory#strategy_id}
   */
   readonly strategyId?: string;
   /**
   * Type of memory strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#type BedrockagentcoreMemory#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#type BedrockagentcoreMemory#type}
   */
   readonly type?: string;
   /**
   * Last update timestamp of the memory strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#updated_at BedrockagentcoreMemory#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#updated_at BedrockagentcoreMemory#updated_at}
   */
   readonly updatedAt?: string;
 }
@@ -5450,11 +5450,11 @@ export class BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyOutputRef
 }
 export interface BedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyMemoryRecordSchemaMetadataSchemaExtractionConfigLlmExtractionConfigValidationNumberValidation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#max_value BedrockagentcoreMemory#max_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#max_value BedrockagentcoreMemory#max_value}
   */
   readonly maxValue?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#min_value BedrockagentcoreMemory#min_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#min_value BedrockagentcoreMemory#min_value}
   */
   readonly minValue?: number;
 }
@@ -5577,11 +5577,11 @@ export class BedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyMemoryR
 }
 export interface BedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyMemoryRecordSchemaMetadataSchemaExtractionConfigLlmExtractionConfigValidationStringListValidation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#allowed_values BedrockagentcoreMemory#allowed_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#allowed_values BedrockagentcoreMemory#allowed_values}
   */
   readonly allowedValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#max_items BedrockagentcoreMemory#max_items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#max_items BedrockagentcoreMemory#max_items}
   */
   readonly maxItems?: number;
 }
@@ -5704,7 +5704,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyMemoryR
 }
 export interface BedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyMemoryRecordSchemaMetadataSchemaExtractionConfigLlmExtractionConfigValidationStringValidation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#allowed_values BedrockagentcoreMemory#allowed_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#allowed_values BedrockagentcoreMemory#allowed_values}
   */
   readonly allowedValues?: string[];
 }
@@ -5798,15 +5798,15 @@ export class BedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyMemoryR
 }
 export interface BedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyMemoryRecordSchemaMetadataSchemaExtractionConfigLlmExtractionConfigValidation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#number_validation BedrockagentcoreMemory#number_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#number_validation BedrockagentcoreMemory#number_validation}
   */
   readonly numberValidation?: BedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyMemoryRecordSchemaMetadataSchemaExtractionConfigLlmExtractionConfigValidationNumberValidation;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#string_list_validation BedrockagentcoreMemory#string_list_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#string_list_validation BedrockagentcoreMemory#string_list_validation}
   */
   readonly stringListValidation?: BedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyMemoryRecordSchemaMetadataSchemaExtractionConfigLlmExtractionConfigValidationStringListValidation;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#string_validation BedrockagentcoreMemory#string_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#string_validation BedrockagentcoreMemory#string_validation}
   */
   readonly stringValidation?: BedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyMemoryRecordSchemaMetadataSchemaExtractionConfigLlmExtractionConfigValidationStringValidation;
 }
@@ -5960,17 +5960,17 @@ export interface BedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyMem
   /**
   * Definition for the metadata schema entry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#definition BedrockagentcoreMemory#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#definition BedrockagentcoreMemory#definition}
   */
   readonly definition?: string;
   /**
   * LLM extraction instruction
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#llm_extraction_instruction BedrockagentcoreMemory#llm_extraction_instruction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#llm_extraction_instruction BedrockagentcoreMemory#llm_extraction_instruction}
   */
   readonly llmExtractionInstruction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#validation BedrockagentcoreMemory#validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#validation BedrockagentcoreMemory#validation}
   */
   readonly validation?: BedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyMemoryRecordSchemaMetadataSchemaExtractionConfigLlmExtractionConfigValidation;
 }
@@ -6122,7 +6122,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyMemoryR
 }
 export interface BedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyMemoryRecordSchemaMetadataSchemaExtractionConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#llm_extraction_config BedrockagentcoreMemory#llm_extraction_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#llm_extraction_config BedrockagentcoreMemory#llm_extraction_config}
   */
   readonly llmExtractionConfig?: BedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyMemoryRecordSchemaMetadataSchemaExtractionConfigLlmExtractionConfig;
 }
@@ -6216,25 +6216,25 @@ export class BedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyMemoryR
 }
 export interface BedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyMemoryRecordSchemaMetadataSchema {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#extraction_config BedrockagentcoreMemory#extraction_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#extraction_config BedrockagentcoreMemory#extraction_config}
   */
   readonly extractionConfig?: BedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyMemoryRecordSchemaMetadataSchemaExtractionConfig;
   /**
   * Specifies whether the metadata value is extracted by the LLM or passed through deterministically from the event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#extraction_type BedrockagentcoreMemory#extraction_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#extraction_type BedrockagentcoreMemory#extraction_type}
   */
   readonly extractionType?: string;
   /**
   * Key name for metadata fields
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#key BedrockagentcoreMemory#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#key BedrockagentcoreMemory#key}
   */
   readonly key?: string;
   /**
   * Supported data types for metadata values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#type BedrockagentcoreMemory#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#type BedrockagentcoreMemory#type}
   */
   readonly type?: string;
 }
@@ -6439,7 +6439,7 @@ export interface BedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyMem
   /**
   * List of metadata schema entries
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#metadata_schema BedrockagentcoreMemory#metadata_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#metadata_schema BedrockagentcoreMemory#metadata_schema}
   */
   readonly metadataSchema?: BedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyMemoryRecordSchemaMetadataSchema[] | cdktn.IResolvable;
 }
@@ -6533,11 +6533,11 @@ export class BedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyMemoryR
 }
 export interface BedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyReflectionConfigurationMemoryRecordSchemaMetadataSchemaExtractionConfigLlmExtractionConfigValidationNumberValidation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#max_value BedrockagentcoreMemory#max_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#max_value BedrockagentcoreMemory#max_value}
   */
   readonly maxValue?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#min_value BedrockagentcoreMemory#min_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#min_value BedrockagentcoreMemory#min_value}
   */
   readonly minValue?: number;
 }
@@ -6660,11 +6660,11 @@ export class BedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyReflect
 }
 export interface BedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyReflectionConfigurationMemoryRecordSchemaMetadataSchemaExtractionConfigLlmExtractionConfigValidationStringListValidation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#allowed_values BedrockagentcoreMemory#allowed_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#allowed_values BedrockagentcoreMemory#allowed_values}
   */
   readonly allowedValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#max_items BedrockagentcoreMemory#max_items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#max_items BedrockagentcoreMemory#max_items}
   */
   readonly maxItems?: number;
 }
@@ -6787,7 +6787,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyReflect
 }
 export interface BedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyReflectionConfigurationMemoryRecordSchemaMetadataSchemaExtractionConfigLlmExtractionConfigValidationStringValidation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#allowed_values BedrockagentcoreMemory#allowed_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#allowed_values BedrockagentcoreMemory#allowed_values}
   */
   readonly allowedValues?: string[];
 }
@@ -6881,15 +6881,15 @@ export class BedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyReflect
 }
 export interface BedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyReflectionConfigurationMemoryRecordSchemaMetadataSchemaExtractionConfigLlmExtractionConfigValidation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#number_validation BedrockagentcoreMemory#number_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#number_validation BedrockagentcoreMemory#number_validation}
   */
   readonly numberValidation?: BedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyReflectionConfigurationMemoryRecordSchemaMetadataSchemaExtractionConfigLlmExtractionConfigValidationNumberValidation;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#string_list_validation BedrockagentcoreMemory#string_list_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#string_list_validation BedrockagentcoreMemory#string_list_validation}
   */
   readonly stringListValidation?: BedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyReflectionConfigurationMemoryRecordSchemaMetadataSchemaExtractionConfigLlmExtractionConfigValidationStringListValidation;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#string_validation BedrockagentcoreMemory#string_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#string_validation BedrockagentcoreMemory#string_validation}
   */
   readonly stringValidation?: BedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyReflectionConfigurationMemoryRecordSchemaMetadataSchemaExtractionConfigLlmExtractionConfigValidationStringValidation;
 }
@@ -7043,17 +7043,17 @@ export interface BedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyRef
   /**
   * Definition for the metadata schema entry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#definition BedrockagentcoreMemory#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#definition BedrockagentcoreMemory#definition}
   */
   readonly definition?: string;
   /**
   * LLM extraction instruction
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#llm_extraction_instruction BedrockagentcoreMemory#llm_extraction_instruction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#llm_extraction_instruction BedrockagentcoreMemory#llm_extraction_instruction}
   */
   readonly llmExtractionInstruction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#validation BedrockagentcoreMemory#validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#validation BedrockagentcoreMemory#validation}
   */
   readonly validation?: BedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyReflectionConfigurationMemoryRecordSchemaMetadataSchemaExtractionConfigLlmExtractionConfigValidation;
 }
@@ -7205,7 +7205,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyReflect
 }
 export interface BedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyReflectionConfigurationMemoryRecordSchemaMetadataSchemaExtractionConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#llm_extraction_config BedrockagentcoreMemory#llm_extraction_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#llm_extraction_config BedrockagentcoreMemory#llm_extraction_config}
   */
   readonly llmExtractionConfig?: BedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyReflectionConfigurationMemoryRecordSchemaMetadataSchemaExtractionConfigLlmExtractionConfig;
 }
@@ -7299,25 +7299,25 @@ export class BedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyReflect
 }
 export interface BedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyReflectionConfigurationMemoryRecordSchemaMetadataSchema {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#extraction_config BedrockagentcoreMemory#extraction_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#extraction_config BedrockagentcoreMemory#extraction_config}
   */
   readonly extractionConfig?: BedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyReflectionConfigurationMemoryRecordSchemaMetadataSchemaExtractionConfig;
   /**
   * Specifies whether the metadata value is extracted by the LLM or passed through deterministically from the event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#extraction_type BedrockagentcoreMemory#extraction_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#extraction_type BedrockagentcoreMemory#extraction_type}
   */
   readonly extractionType?: string;
   /**
   * Key name for metadata fields
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#key BedrockagentcoreMemory#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#key BedrockagentcoreMemory#key}
   */
   readonly key?: string;
   /**
   * Supported data types for metadata values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#type BedrockagentcoreMemory#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#type BedrockagentcoreMemory#type}
   */
   readonly type?: string;
 }
@@ -7522,7 +7522,7 @@ export interface BedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyRef
   /**
   * List of metadata schema entries
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#metadata_schema BedrockagentcoreMemory#metadata_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#metadata_schema BedrockagentcoreMemory#metadata_schema}
   */
   readonly metadataSchema?: BedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyReflectionConfigurationMemoryRecordSchemaMetadataSchema[] | cdktn.IResolvable;
 }
@@ -7616,19 +7616,19 @@ export class BedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyReflect
 }
 export interface BedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyReflectionConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#memory_record_schema BedrockagentcoreMemory#memory_record_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#memory_record_schema BedrockagentcoreMemory#memory_record_schema}
   */
   readonly memoryRecordSchema?: BedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyReflectionConfigurationMemoryRecordSchema;
   /**
   * List of namespaces for memory strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#namespace_templates BedrockagentcoreMemory#namespace_templates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#namespace_templates BedrockagentcoreMemory#namespace_templates}
   */
   readonly namespaceTemplates?: string[];
   /**
   * List of namespaces for memory strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#namespaces BedrockagentcoreMemory#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#namespaces BedrockagentcoreMemory#namespaces}
   */
   readonly namespaces?: string[];
 }
@@ -7782,63 +7782,63 @@ export interface BedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategy {
   /**
   * Creation timestamp of the memory strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#created_at BedrockagentcoreMemory#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#created_at BedrockagentcoreMemory#created_at}
   */
   readonly createdAt?: string;
   /**
   * Description of the Memory resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#description BedrockagentcoreMemory#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#description BedrockagentcoreMemory#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#memory_record_schema BedrockagentcoreMemory#memory_record_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#memory_record_schema BedrockagentcoreMemory#memory_record_schema}
   */
   readonly memoryRecordSchema?: BedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyMemoryRecordSchema;
   /**
   * Name of the Memory resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#name BedrockagentcoreMemory#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#name BedrockagentcoreMemory#name}
   */
   readonly name?: string;
   /**
   * List of namespaces for memory strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#namespace_templates BedrockagentcoreMemory#namespace_templates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#namespace_templates BedrockagentcoreMemory#namespace_templates}
   */
   readonly namespaceTemplates?: string[];
   /**
   * List of namespaces for memory strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#namespaces BedrockagentcoreMemory#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#namespaces BedrockagentcoreMemory#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#reflection_configuration BedrockagentcoreMemory#reflection_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#reflection_configuration BedrockagentcoreMemory#reflection_configuration}
   */
   readonly reflectionConfiguration?: BedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyReflectionConfiguration;
   /**
   * Status of the memory strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#status BedrockagentcoreMemory#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#status BedrockagentcoreMemory#status}
   */
   readonly status?: string;
   /**
   * Unique identifier for the memory strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#strategy_id BedrockagentcoreMemory#strategy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#strategy_id BedrockagentcoreMemory#strategy_id}
   */
   readonly strategyId?: string;
   /**
   * Type of memory strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#type BedrockagentcoreMemory#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#type BedrockagentcoreMemory#type}
   */
   readonly type?: string;
   /**
   * Last update timestamp of the memory strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#updated_at BedrockagentcoreMemory#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#updated_at BedrockagentcoreMemory#updated_at}
   */
   readonly updatedAt?: string;
 }
@@ -8222,11 +8222,11 @@ export class BedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyOutputR
 }
 export interface BedrockagentcoreMemoryMemoryStrategiesSemanticMemoryStrategyMemoryRecordSchemaMetadataSchemaExtractionConfigLlmExtractionConfigValidationNumberValidation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#max_value BedrockagentcoreMemory#max_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#max_value BedrockagentcoreMemory#max_value}
   */
   readonly maxValue?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#min_value BedrockagentcoreMemory#min_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#min_value BedrockagentcoreMemory#min_value}
   */
   readonly minValue?: number;
 }
@@ -8349,11 +8349,11 @@ export class BedrockagentcoreMemoryMemoryStrategiesSemanticMemoryStrategyMemoryR
 }
 export interface BedrockagentcoreMemoryMemoryStrategiesSemanticMemoryStrategyMemoryRecordSchemaMetadataSchemaExtractionConfigLlmExtractionConfigValidationStringListValidation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#allowed_values BedrockagentcoreMemory#allowed_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#allowed_values BedrockagentcoreMemory#allowed_values}
   */
   readonly allowedValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#max_items BedrockagentcoreMemory#max_items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#max_items BedrockagentcoreMemory#max_items}
   */
   readonly maxItems?: number;
 }
@@ -8476,7 +8476,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesSemanticMemoryStrategyMemoryR
 }
 export interface BedrockagentcoreMemoryMemoryStrategiesSemanticMemoryStrategyMemoryRecordSchemaMetadataSchemaExtractionConfigLlmExtractionConfigValidationStringValidation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#allowed_values BedrockagentcoreMemory#allowed_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#allowed_values BedrockagentcoreMemory#allowed_values}
   */
   readonly allowedValues?: string[];
 }
@@ -8570,15 +8570,15 @@ export class BedrockagentcoreMemoryMemoryStrategiesSemanticMemoryStrategyMemoryR
 }
 export interface BedrockagentcoreMemoryMemoryStrategiesSemanticMemoryStrategyMemoryRecordSchemaMetadataSchemaExtractionConfigLlmExtractionConfigValidation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#number_validation BedrockagentcoreMemory#number_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#number_validation BedrockagentcoreMemory#number_validation}
   */
   readonly numberValidation?: BedrockagentcoreMemoryMemoryStrategiesSemanticMemoryStrategyMemoryRecordSchemaMetadataSchemaExtractionConfigLlmExtractionConfigValidationNumberValidation;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#string_list_validation BedrockagentcoreMemory#string_list_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#string_list_validation BedrockagentcoreMemory#string_list_validation}
   */
   readonly stringListValidation?: BedrockagentcoreMemoryMemoryStrategiesSemanticMemoryStrategyMemoryRecordSchemaMetadataSchemaExtractionConfigLlmExtractionConfigValidationStringListValidation;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#string_validation BedrockagentcoreMemory#string_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#string_validation BedrockagentcoreMemory#string_validation}
   */
   readonly stringValidation?: BedrockagentcoreMemoryMemoryStrategiesSemanticMemoryStrategyMemoryRecordSchemaMetadataSchemaExtractionConfigLlmExtractionConfigValidationStringValidation;
 }
@@ -8732,17 +8732,17 @@ export interface BedrockagentcoreMemoryMemoryStrategiesSemanticMemoryStrategyMem
   /**
   * Definition for the metadata schema entry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#definition BedrockagentcoreMemory#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#definition BedrockagentcoreMemory#definition}
   */
   readonly definition?: string;
   /**
   * LLM extraction instruction
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#llm_extraction_instruction BedrockagentcoreMemory#llm_extraction_instruction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#llm_extraction_instruction BedrockagentcoreMemory#llm_extraction_instruction}
   */
   readonly llmExtractionInstruction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#validation BedrockagentcoreMemory#validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#validation BedrockagentcoreMemory#validation}
   */
   readonly validation?: BedrockagentcoreMemoryMemoryStrategiesSemanticMemoryStrategyMemoryRecordSchemaMetadataSchemaExtractionConfigLlmExtractionConfigValidation;
 }
@@ -8894,7 +8894,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesSemanticMemoryStrategyMemoryR
 }
 export interface BedrockagentcoreMemoryMemoryStrategiesSemanticMemoryStrategyMemoryRecordSchemaMetadataSchemaExtractionConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#llm_extraction_config BedrockagentcoreMemory#llm_extraction_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#llm_extraction_config BedrockagentcoreMemory#llm_extraction_config}
   */
   readonly llmExtractionConfig?: BedrockagentcoreMemoryMemoryStrategiesSemanticMemoryStrategyMemoryRecordSchemaMetadataSchemaExtractionConfigLlmExtractionConfig;
 }
@@ -8988,25 +8988,25 @@ export class BedrockagentcoreMemoryMemoryStrategiesSemanticMemoryStrategyMemoryR
 }
 export interface BedrockagentcoreMemoryMemoryStrategiesSemanticMemoryStrategyMemoryRecordSchemaMetadataSchema {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#extraction_config BedrockagentcoreMemory#extraction_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#extraction_config BedrockagentcoreMemory#extraction_config}
   */
   readonly extractionConfig?: BedrockagentcoreMemoryMemoryStrategiesSemanticMemoryStrategyMemoryRecordSchemaMetadataSchemaExtractionConfig;
   /**
   * Specifies whether the metadata value is extracted by the LLM or passed through deterministically from the event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#extraction_type BedrockagentcoreMemory#extraction_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#extraction_type BedrockagentcoreMemory#extraction_type}
   */
   readonly extractionType?: string;
   /**
   * Key name for metadata fields
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#key BedrockagentcoreMemory#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#key BedrockagentcoreMemory#key}
   */
   readonly key?: string;
   /**
   * Supported data types for metadata values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#type BedrockagentcoreMemory#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#type BedrockagentcoreMemory#type}
   */
   readonly type?: string;
 }
@@ -9211,7 +9211,7 @@ export interface BedrockagentcoreMemoryMemoryStrategiesSemanticMemoryStrategyMem
   /**
   * List of metadata schema entries
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#metadata_schema BedrockagentcoreMemory#metadata_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#metadata_schema BedrockagentcoreMemory#metadata_schema}
   */
   readonly metadataSchema?: BedrockagentcoreMemoryMemoryStrategiesSemanticMemoryStrategyMemoryRecordSchemaMetadataSchema[] | cdktn.IResolvable;
 }
@@ -9307,59 +9307,59 @@ export interface BedrockagentcoreMemoryMemoryStrategiesSemanticMemoryStrategy {
   /**
   * Creation timestamp of the memory strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#created_at BedrockagentcoreMemory#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#created_at BedrockagentcoreMemory#created_at}
   */
   readonly createdAt?: string;
   /**
   * Description of the Memory resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#description BedrockagentcoreMemory#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#description BedrockagentcoreMemory#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#memory_record_schema BedrockagentcoreMemory#memory_record_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#memory_record_schema BedrockagentcoreMemory#memory_record_schema}
   */
   readonly memoryRecordSchema?: BedrockagentcoreMemoryMemoryStrategiesSemanticMemoryStrategyMemoryRecordSchema;
   /**
   * Name of the Memory resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#name BedrockagentcoreMemory#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#name BedrockagentcoreMemory#name}
   */
   readonly name?: string;
   /**
   * List of namespaces for memory strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#namespace_templates BedrockagentcoreMemory#namespace_templates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#namespace_templates BedrockagentcoreMemory#namespace_templates}
   */
   readonly namespaceTemplates?: string[];
   /**
   * List of namespaces for memory strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#namespaces BedrockagentcoreMemory#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#namespaces BedrockagentcoreMemory#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * Status of the memory strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#status BedrockagentcoreMemory#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#status BedrockagentcoreMemory#status}
   */
   readonly status?: string;
   /**
   * Unique identifier for the memory strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#strategy_id BedrockagentcoreMemory#strategy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#strategy_id BedrockagentcoreMemory#strategy_id}
   */
   readonly strategyId?: string;
   /**
   * Type of memory strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#type BedrockagentcoreMemory#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#type BedrockagentcoreMemory#type}
   */
   readonly type?: string;
   /**
   * Last update timestamp of the memory strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#updated_at BedrockagentcoreMemory#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#updated_at BedrockagentcoreMemory#updated_at}
   */
   readonly updatedAt?: string;
 }
@@ -9714,11 +9714,11 @@ export class BedrockagentcoreMemoryMemoryStrategiesSemanticMemoryStrategyOutputR
 }
 export interface BedrockagentcoreMemoryMemoryStrategiesSummaryMemoryStrategyMemoryRecordSchemaMetadataSchemaExtractionConfigLlmExtractionConfigValidationNumberValidation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#max_value BedrockagentcoreMemory#max_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#max_value BedrockagentcoreMemory#max_value}
   */
   readonly maxValue?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#min_value BedrockagentcoreMemory#min_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#min_value BedrockagentcoreMemory#min_value}
   */
   readonly minValue?: number;
 }
@@ -9841,11 +9841,11 @@ export class BedrockagentcoreMemoryMemoryStrategiesSummaryMemoryStrategyMemoryRe
 }
 export interface BedrockagentcoreMemoryMemoryStrategiesSummaryMemoryStrategyMemoryRecordSchemaMetadataSchemaExtractionConfigLlmExtractionConfigValidationStringListValidation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#allowed_values BedrockagentcoreMemory#allowed_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#allowed_values BedrockagentcoreMemory#allowed_values}
   */
   readonly allowedValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#max_items BedrockagentcoreMemory#max_items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#max_items BedrockagentcoreMemory#max_items}
   */
   readonly maxItems?: number;
 }
@@ -9968,7 +9968,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesSummaryMemoryStrategyMemoryRe
 }
 export interface BedrockagentcoreMemoryMemoryStrategiesSummaryMemoryStrategyMemoryRecordSchemaMetadataSchemaExtractionConfigLlmExtractionConfigValidationStringValidation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#allowed_values BedrockagentcoreMemory#allowed_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#allowed_values BedrockagentcoreMemory#allowed_values}
   */
   readonly allowedValues?: string[];
 }
@@ -10062,15 +10062,15 @@ export class BedrockagentcoreMemoryMemoryStrategiesSummaryMemoryStrategyMemoryRe
 }
 export interface BedrockagentcoreMemoryMemoryStrategiesSummaryMemoryStrategyMemoryRecordSchemaMetadataSchemaExtractionConfigLlmExtractionConfigValidation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#number_validation BedrockagentcoreMemory#number_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#number_validation BedrockagentcoreMemory#number_validation}
   */
   readonly numberValidation?: BedrockagentcoreMemoryMemoryStrategiesSummaryMemoryStrategyMemoryRecordSchemaMetadataSchemaExtractionConfigLlmExtractionConfigValidationNumberValidation;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#string_list_validation BedrockagentcoreMemory#string_list_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#string_list_validation BedrockagentcoreMemory#string_list_validation}
   */
   readonly stringListValidation?: BedrockagentcoreMemoryMemoryStrategiesSummaryMemoryStrategyMemoryRecordSchemaMetadataSchemaExtractionConfigLlmExtractionConfigValidationStringListValidation;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#string_validation BedrockagentcoreMemory#string_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#string_validation BedrockagentcoreMemory#string_validation}
   */
   readonly stringValidation?: BedrockagentcoreMemoryMemoryStrategiesSummaryMemoryStrategyMemoryRecordSchemaMetadataSchemaExtractionConfigLlmExtractionConfigValidationStringValidation;
 }
@@ -10224,17 +10224,17 @@ export interface BedrockagentcoreMemoryMemoryStrategiesSummaryMemoryStrategyMemo
   /**
   * Definition for the metadata schema entry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#definition BedrockagentcoreMemory#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#definition BedrockagentcoreMemory#definition}
   */
   readonly definition?: string;
   /**
   * LLM extraction instruction
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#llm_extraction_instruction BedrockagentcoreMemory#llm_extraction_instruction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#llm_extraction_instruction BedrockagentcoreMemory#llm_extraction_instruction}
   */
   readonly llmExtractionInstruction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#validation BedrockagentcoreMemory#validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#validation BedrockagentcoreMemory#validation}
   */
   readonly validation?: BedrockagentcoreMemoryMemoryStrategiesSummaryMemoryStrategyMemoryRecordSchemaMetadataSchemaExtractionConfigLlmExtractionConfigValidation;
 }
@@ -10386,7 +10386,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesSummaryMemoryStrategyMemoryRe
 }
 export interface BedrockagentcoreMemoryMemoryStrategiesSummaryMemoryStrategyMemoryRecordSchemaMetadataSchemaExtractionConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#llm_extraction_config BedrockagentcoreMemory#llm_extraction_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#llm_extraction_config BedrockagentcoreMemory#llm_extraction_config}
   */
   readonly llmExtractionConfig?: BedrockagentcoreMemoryMemoryStrategiesSummaryMemoryStrategyMemoryRecordSchemaMetadataSchemaExtractionConfigLlmExtractionConfig;
 }
@@ -10480,25 +10480,25 @@ export class BedrockagentcoreMemoryMemoryStrategiesSummaryMemoryStrategyMemoryRe
 }
 export interface BedrockagentcoreMemoryMemoryStrategiesSummaryMemoryStrategyMemoryRecordSchemaMetadataSchema {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#extraction_config BedrockagentcoreMemory#extraction_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#extraction_config BedrockagentcoreMemory#extraction_config}
   */
   readonly extractionConfig?: BedrockagentcoreMemoryMemoryStrategiesSummaryMemoryStrategyMemoryRecordSchemaMetadataSchemaExtractionConfig;
   /**
   * Specifies whether the metadata value is extracted by the LLM or passed through deterministically from the event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#extraction_type BedrockagentcoreMemory#extraction_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#extraction_type BedrockagentcoreMemory#extraction_type}
   */
   readonly extractionType?: string;
   /**
   * Key name for metadata fields
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#key BedrockagentcoreMemory#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#key BedrockagentcoreMemory#key}
   */
   readonly key?: string;
   /**
   * Supported data types for metadata values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#type BedrockagentcoreMemory#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#type BedrockagentcoreMemory#type}
   */
   readonly type?: string;
 }
@@ -10703,7 +10703,7 @@ export interface BedrockagentcoreMemoryMemoryStrategiesSummaryMemoryStrategyMemo
   /**
   * List of metadata schema entries
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#metadata_schema BedrockagentcoreMemory#metadata_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#metadata_schema BedrockagentcoreMemory#metadata_schema}
   */
   readonly metadataSchema?: BedrockagentcoreMemoryMemoryStrategiesSummaryMemoryStrategyMemoryRecordSchemaMetadataSchema[] | cdktn.IResolvable;
 }
@@ -10799,59 +10799,59 @@ export interface BedrockagentcoreMemoryMemoryStrategiesSummaryMemoryStrategy {
   /**
   * Creation timestamp of the memory strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#created_at BedrockagentcoreMemory#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#created_at BedrockagentcoreMemory#created_at}
   */
   readonly createdAt?: string;
   /**
   * Description of the Memory resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#description BedrockagentcoreMemory#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#description BedrockagentcoreMemory#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#memory_record_schema BedrockagentcoreMemory#memory_record_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#memory_record_schema BedrockagentcoreMemory#memory_record_schema}
   */
   readonly memoryRecordSchema?: BedrockagentcoreMemoryMemoryStrategiesSummaryMemoryStrategyMemoryRecordSchema;
   /**
   * Name of the Memory resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#name BedrockagentcoreMemory#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#name BedrockagentcoreMemory#name}
   */
   readonly name?: string;
   /**
   * List of namespaces for memory strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#namespace_templates BedrockagentcoreMemory#namespace_templates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#namespace_templates BedrockagentcoreMemory#namespace_templates}
   */
   readonly namespaceTemplates?: string[];
   /**
   * List of namespaces for memory strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#namespaces BedrockagentcoreMemory#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#namespaces BedrockagentcoreMemory#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * Status of the memory strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#status BedrockagentcoreMemory#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#status BedrockagentcoreMemory#status}
   */
   readonly status?: string;
   /**
   * Unique identifier for the memory strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#strategy_id BedrockagentcoreMemory#strategy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#strategy_id BedrockagentcoreMemory#strategy_id}
   */
   readonly strategyId?: string;
   /**
   * Type of memory strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#type BedrockagentcoreMemory#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#type BedrockagentcoreMemory#type}
   */
   readonly type?: string;
   /**
   * Last update timestamp of the memory strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#updated_at BedrockagentcoreMemory#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#updated_at BedrockagentcoreMemory#updated_at}
   */
   readonly updatedAt?: string;
 }
@@ -11206,11 +11206,11 @@ export class BedrockagentcoreMemoryMemoryStrategiesSummaryMemoryStrategyOutputRe
 }
 export interface BedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyMemoryRecordSchemaMetadataSchemaExtractionConfigLlmExtractionConfigValidationNumberValidation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#max_value BedrockagentcoreMemory#max_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#max_value BedrockagentcoreMemory#max_value}
   */
   readonly maxValue?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#min_value BedrockagentcoreMemory#min_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#min_value BedrockagentcoreMemory#min_value}
   */
   readonly minValue?: number;
 }
@@ -11333,11 +11333,11 @@ export class BedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyM
 }
 export interface BedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyMemoryRecordSchemaMetadataSchemaExtractionConfigLlmExtractionConfigValidationStringListValidation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#allowed_values BedrockagentcoreMemory#allowed_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#allowed_values BedrockagentcoreMemory#allowed_values}
   */
   readonly allowedValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#max_items BedrockagentcoreMemory#max_items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#max_items BedrockagentcoreMemory#max_items}
   */
   readonly maxItems?: number;
 }
@@ -11460,7 +11460,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyM
 }
 export interface BedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyMemoryRecordSchemaMetadataSchemaExtractionConfigLlmExtractionConfigValidationStringValidation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#allowed_values BedrockagentcoreMemory#allowed_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#allowed_values BedrockagentcoreMemory#allowed_values}
   */
   readonly allowedValues?: string[];
 }
@@ -11554,15 +11554,15 @@ export class BedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyM
 }
 export interface BedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyMemoryRecordSchemaMetadataSchemaExtractionConfigLlmExtractionConfigValidation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#number_validation BedrockagentcoreMemory#number_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#number_validation BedrockagentcoreMemory#number_validation}
   */
   readonly numberValidation?: BedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyMemoryRecordSchemaMetadataSchemaExtractionConfigLlmExtractionConfigValidationNumberValidation;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#string_list_validation BedrockagentcoreMemory#string_list_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#string_list_validation BedrockagentcoreMemory#string_list_validation}
   */
   readonly stringListValidation?: BedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyMemoryRecordSchemaMetadataSchemaExtractionConfigLlmExtractionConfigValidationStringListValidation;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#string_validation BedrockagentcoreMemory#string_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#string_validation BedrockagentcoreMemory#string_validation}
   */
   readonly stringValidation?: BedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyMemoryRecordSchemaMetadataSchemaExtractionConfigLlmExtractionConfigValidationStringValidation;
 }
@@ -11716,17 +11716,17 @@ export interface BedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrat
   /**
   * Definition for the metadata schema entry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#definition BedrockagentcoreMemory#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#definition BedrockagentcoreMemory#definition}
   */
   readonly definition?: string;
   /**
   * LLM extraction instruction
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#llm_extraction_instruction BedrockagentcoreMemory#llm_extraction_instruction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#llm_extraction_instruction BedrockagentcoreMemory#llm_extraction_instruction}
   */
   readonly llmExtractionInstruction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#validation BedrockagentcoreMemory#validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#validation BedrockagentcoreMemory#validation}
   */
   readonly validation?: BedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyMemoryRecordSchemaMetadataSchemaExtractionConfigLlmExtractionConfigValidation;
 }
@@ -11878,7 +11878,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyM
 }
 export interface BedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyMemoryRecordSchemaMetadataSchemaExtractionConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#llm_extraction_config BedrockagentcoreMemory#llm_extraction_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#llm_extraction_config BedrockagentcoreMemory#llm_extraction_config}
   */
   readonly llmExtractionConfig?: BedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyMemoryRecordSchemaMetadataSchemaExtractionConfigLlmExtractionConfig;
 }
@@ -11972,25 +11972,25 @@ export class BedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyM
 }
 export interface BedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyMemoryRecordSchemaMetadataSchema {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#extraction_config BedrockagentcoreMemory#extraction_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#extraction_config BedrockagentcoreMemory#extraction_config}
   */
   readonly extractionConfig?: BedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyMemoryRecordSchemaMetadataSchemaExtractionConfig;
   /**
   * Specifies whether the metadata value is extracted by the LLM or passed through deterministically from the event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#extraction_type BedrockagentcoreMemory#extraction_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#extraction_type BedrockagentcoreMemory#extraction_type}
   */
   readonly extractionType?: string;
   /**
   * Key name for metadata fields
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#key BedrockagentcoreMemory#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#key BedrockagentcoreMemory#key}
   */
   readonly key?: string;
   /**
   * Supported data types for metadata values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#type BedrockagentcoreMemory#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#type BedrockagentcoreMemory#type}
   */
   readonly type?: string;
 }
@@ -12195,7 +12195,7 @@ export interface BedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrat
   /**
   * List of metadata schema entries
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#metadata_schema BedrockagentcoreMemory#metadata_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#metadata_schema BedrockagentcoreMemory#metadata_schema}
   */
   readonly metadataSchema?: BedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyMemoryRecordSchemaMetadataSchema[] | cdktn.IResolvable;
 }
@@ -12291,59 +12291,59 @@ export interface BedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrat
   /**
   * Creation timestamp of the memory strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#created_at BedrockagentcoreMemory#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#created_at BedrockagentcoreMemory#created_at}
   */
   readonly createdAt?: string;
   /**
   * Description of the Memory resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#description BedrockagentcoreMemory#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#description BedrockagentcoreMemory#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#memory_record_schema BedrockagentcoreMemory#memory_record_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#memory_record_schema BedrockagentcoreMemory#memory_record_schema}
   */
   readonly memoryRecordSchema?: BedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyMemoryRecordSchema;
   /**
   * Name of the Memory resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#name BedrockagentcoreMemory#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#name BedrockagentcoreMemory#name}
   */
   readonly name?: string;
   /**
   * List of namespaces for memory strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#namespace_templates BedrockagentcoreMemory#namespace_templates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#namespace_templates BedrockagentcoreMemory#namespace_templates}
   */
   readonly namespaceTemplates?: string[];
   /**
   * List of namespaces for memory strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#namespaces BedrockagentcoreMemory#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#namespaces BedrockagentcoreMemory#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * Status of the memory strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#status BedrockagentcoreMemory#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#status BedrockagentcoreMemory#status}
   */
   readonly status?: string;
   /**
   * Unique identifier for the memory strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#strategy_id BedrockagentcoreMemory#strategy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#strategy_id BedrockagentcoreMemory#strategy_id}
   */
   readonly strategyId?: string;
   /**
   * Type of memory strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#type BedrockagentcoreMemory#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#type BedrockagentcoreMemory#type}
   */
   readonly type?: string;
   /**
   * Last update timestamp of the memory strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#updated_at BedrockagentcoreMemory#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#updated_at BedrockagentcoreMemory#updated_at}
   */
   readonly updatedAt?: string;
 }
@@ -12698,23 +12698,23 @@ export class BedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyO
 }
 export interface BedrockagentcoreMemoryMemoryStrategies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#custom_memory_strategy BedrockagentcoreMemory#custom_memory_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#custom_memory_strategy BedrockagentcoreMemory#custom_memory_strategy}
   */
   readonly customMemoryStrategy?: BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategy;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#episodic_memory_strategy BedrockagentcoreMemory#episodic_memory_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#episodic_memory_strategy BedrockagentcoreMemory#episodic_memory_strategy}
   */
   readonly episodicMemoryStrategy?: BedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategy;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#semantic_memory_strategy BedrockagentcoreMemory#semantic_memory_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#semantic_memory_strategy BedrockagentcoreMemory#semantic_memory_strategy}
   */
   readonly semanticMemoryStrategy?: BedrockagentcoreMemoryMemoryStrategiesSemanticMemoryStrategy;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#summary_memory_strategy BedrockagentcoreMemory#summary_memory_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#summary_memory_strategy BedrockagentcoreMemory#summary_memory_strategy}
   */
   readonly summaryMemoryStrategy?: BedrockagentcoreMemoryMemoryStrategiesSummaryMemoryStrategy;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#user_preference_memory_strategy BedrockagentcoreMemory#user_preference_memory_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#user_preference_memory_strategy BedrockagentcoreMemory#user_preference_memory_strategy}
   */
   readonly userPreferenceMemoryStrategy?: BedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategy;
 }
@@ -12948,13 +12948,13 @@ export interface BedrockagentcoreMemoryStreamDeliveryResourcesResourcesKinesisCo
   /**
   * The level of content detail to deliver
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#level BedrockagentcoreMemory#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#level BedrockagentcoreMemory#level}
   */
   readonly level?: string;
   /**
   * The type of content to deliver
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#type BedrockagentcoreMemory#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#type BedrockagentcoreMemory#type}
   */
   readonly type?: string;
 }
@@ -13099,13 +13099,13 @@ export class BedrockagentcoreMemoryStreamDeliveryResourcesResourcesKinesisConten
 }
 export interface BedrockagentcoreMemoryStreamDeliveryResourcesResourcesKinesis {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#content_configurations BedrockagentcoreMemory#content_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#content_configurations BedrockagentcoreMemory#content_configurations}
   */
   readonly contentConfigurations?: BedrockagentcoreMemoryStreamDeliveryResourcesResourcesKinesisContentConfigurations[] | cdktn.IResolvable;
   /**
   * ARN format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#data_stream_arn BedrockagentcoreMemory#data_stream_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#data_stream_arn BedrockagentcoreMemory#data_stream_arn}
   */
   readonly dataStreamArn?: string;
 }
@@ -13228,7 +13228,7 @@ export class BedrockagentcoreMemoryStreamDeliveryResourcesResourcesKinesisOutput
 }
 export interface BedrockagentcoreMemoryStreamDeliveryResourcesResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#kinesis BedrockagentcoreMemory#kinesis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#kinesis BedrockagentcoreMemory#kinesis}
   */
   readonly kinesis?: BedrockagentcoreMemoryStreamDeliveryResourcesResourcesKinesis;
 }
@@ -13344,7 +13344,7 @@ export class BedrockagentcoreMemoryStreamDeliveryResourcesResourcesList extends 
 }
 export interface BedrockagentcoreMemoryStreamDeliveryResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#resources BedrockagentcoreMemory#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#resources BedrockagentcoreMemory#resources}
   */
   readonly resources?: BedrockagentcoreMemoryStreamDeliveryResourcesResources[] | cdktn.IResolvable;
 }
@@ -13438,7 +13438,7 @@ export class BedrockagentcoreMemoryStreamDeliveryResourcesOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory awscc_bedrockagentcore_memory}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory awscc_bedrockagentcore_memory}
 */
 export class BedrockagentcoreMemory extends cdktn.TerraformResource {
 
@@ -13454,7 +13454,7 @@ export class BedrockagentcoreMemory extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a BedrockagentcoreMemory resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BedrockagentcoreMemory to import
-  * @param importFromId The id of the existing BedrockagentcoreMemory that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BedrockagentcoreMemory that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BedrockagentcoreMemory to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -13466,7 +13466,7 @@ export class BedrockagentcoreMemory extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory awscc_bedrockagentcore_memory} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory awscc_bedrockagentcore_memory} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -13477,7 +13477,7 @@ export class BedrockagentcoreMemory extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_bedrockagentcore_memory',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.99.0',
+        providerVersion: '1.100.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

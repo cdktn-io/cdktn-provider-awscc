@@ -4,7 +4,7 @@
 
 ### DataAwsccApigatewayUsagePlans <a name="DataAwsccApigatewayUsagePlans" id="@cdktn/provider-awscc.dataAwsccApigatewayUsagePlans.DataAwsccApigatewayUsagePlans"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/apigateway_usage_plans awscc_apigateway_usage_plans}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/apigateway_usage_plans awscc_apigateway_usage_plans}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApigatewayUsagePlans.DataAwsccApigatewayUsagePlans.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccApigatewayUsagePl
 
 The id of the existing DataAwsccApigatewayUsagePlans that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/apigateway_usage_plans#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/apigateway_usage_plans#import import section} in the documentation of this resource for the id to use
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### DataAwsccXrayResourcePolicies <a name="DataAwsccXrayResourcePolicies" id="@cdktn/provider-awscc.dataAwsccXrayResourcePolicies.DataAwsccXrayResourcePolicies"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/xray_resource_policies awscc_xray_resource_policies}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/xray_resource_policies awscc_xray_resource_policies}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccXrayResourcePolicies.DataAwsccXrayResourcePolicies.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccXrayResourcePolic
 
 The id of the existing DataAwsccXrayResourcePolicies that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/xray_resource_policies#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/xray_resource_policies#import import section} in the documentation of this resource for the id to use
 
 ---
 

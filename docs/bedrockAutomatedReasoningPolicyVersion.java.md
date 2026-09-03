@@ -4,7 +4,7 @@
 
 ### BedrockAutomatedReasoningPolicyVersion <a name="BedrockAutomatedReasoningPolicyVersion" id="@cdktn/provider-awscc.bedrockAutomatedReasoningPolicyVersion.BedrockAutomatedReasoningPolicyVersion"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_automated_reasoning_policy_version awscc_bedrock_automated_reasoning_policy_version}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_automated_reasoning_policy_version awscc_bedrock_automated_reasoning_policy_version}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockAutomatedReasoningPolicyVersion.BedrockAutomatedReasoningPolicyVersion.Initializer"></a>
 
@@ -38,7 +38,7 @@ BedrockAutomatedReasoningPolicyVersion.Builder.create(Construct scope, java.lang
 | <code><a href="#@cdktn/provider-awscc.bedrockAutomatedReasoningPolicyVersion.BedrockAutomatedReasoningPolicyVersion.Initializer.parameter.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.bedrockAutomatedReasoningPolicyVersion.BedrockAutomatedReasoningPolicyVersion.Initializer.parameter.policyArn">policyArn</a></code> | <code>java.lang.String</code> | Arn of the policy. |
 | <code><a href="#@cdktn/provider-awscc.bedrockAutomatedReasoningPolicyVersion.BedrockAutomatedReasoningPolicyVersion.Initializer.parameter.lastUpdatedDefinitionHash">lastUpdatedDefinitionHash</a></code> | <code>java.lang.String</code> | The hash for this version. |
-| <code><a href="#@cdktn/provider-awscc.bedrockAutomatedReasoningPolicyVersion.BedrockAutomatedReasoningPolicyVersion.Initializer.parameter.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.bedrockAutomatedReasoningPolicyVersion.BedrockAutomatedReasoningPolicyVersionTags">BedrockAutomatedReasoningPolicyVersionTags</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_automated_reasoning_policy_version#tags BedrockAutomatedReasoningPolicyVersion#tags}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockAutomatedReasoningPolicyVersion.BedrockAutomatedReasoningPolicyVersion.Initializer.parameter.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.bedrockAutomatedReasoningPolicyVersion.BedrockAutomatedReasoningPolicyVersionTags">BedrockAutomatedReasoningPolicyVersionTags</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_automated_reasoning_policy_version#tags BedrockAutomatedReasoningPolicyVersion#tags}. |
 
 ---
 
@@ -108,7 +108,7 @@ Must be unique amongst siblings in the same scope
 
 Arn of the policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_automated_reasoning_policy_version#policy_arn BedrockAutomatedReasoningPolicyVersion#policy_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_automated_reasoning_policy_version#policy_arn BedrockAutomatedReasoningPolicyVersion#policy_arn}
 
 ---
 
@@ -118,7 +118,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The hash for this version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_automated_reasoning_policy_version#last_updated_definition_hash BedrockAutomatedReasoningPolicyVersion#last_updated_definition_hash}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_automated_reasoning_policy_version#last_updated_definition_hash BedrockAutomatedReasoningPolicyVersion#last_updated_definition_hash}
 
 ---
 
@@ -126,7 +126,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-awscc.bedrockAutomatedReasoningPolicyVersion.BedrockAutomatedReasoningPolicyVersionTags">BedrockAutomatedReasoningPolicyVersionTags</a>>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_automated_reasoning_policy_version#tags BedrockAutomatedReasoningPolicyVersion#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_automated_reasoning_policy_version#tags BedrockAutomatedReasoningPolicyVersion#tags}.
 
 ---
 
@@ -602,7 +602,7 @@ The construct id used in the generated config for the BedrockAutomatedReasoningP
 
 The id of the existing BedrockAutomatedReasoningPolicyVersion that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_automated_reasoning_policy_version#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_automated_reasoning_policy_version#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -985,7 +985,7 @@ BedrockAutomatedReasoningPolicyVersionConfig.builder()
 | <code><a href="#@cdktn/provider-awscc.bedrockAutomatedReasoningPolicyVersion.BedrockAutomatedReasoningPolicyVersionConfig.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.bedrockAutomatedReasoningPolicyVersion.BedrockAutomatedReasoningPolicyVersionConfig.property.policyArn">policyArn</a></code> | <code>java.lang.String</code> | Arn of the policy. |
 | <code><a href="#@cdktn/provider-awscc.bedrockAutomatedReasoningPolicyVersion.BedrockAutomatedReasoningPolicyVersionConfig.property.lastUpdatedDefinitionHash">lastUpdatedDefinitionHash</a></code> | <code>java.lang.String</code> | The hash for this version. |
-| <code><a href="#@cdktn/provider-awscc.bedrockAutomatedReasoningPolicyVersion.BedrockAutomatedReasoningPolicyVersionConfig.property.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.bedrockAutomatedReasoningPolicyVersion.BedrockAutomatedReasoningPolicyVersionTags">BedrockAutomatedReasoningPolicyVersionTags</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_automated_reasoning_policy_version#tags BedrockAutomatedReasoningPolicyVersion#tags}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockAutomatedReasoningPolicyVersion.BedrockAutomatedReasoningPolicyVersionConfig.property.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.bedrockAutomatedReasoningPolicyVersion.BedrockAutomatedReasoningPolicyVersionTags">BedrockAutomatedReasoningPolicyVersionTags</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_automated_reasoning_policy_version#tags BedrockAutomatedReasoningPolicyVersion#tags}. |
 
 ---
 
@@ -1069,7 +1069,7 @@ public java.lang.String getPolicyArn();
 
 Arn of the policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_automated_reasoning_policy_version#policy_arn BedrockAutomatedReasoningPolicyVersion#policy_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_automated_reasoning_policy_version#policy_arn BedrockAutomatedReasoningPolicyVersion#policy_arn}
 
 ---
 
@@ -1083,7 +1083,7 @@ public java.lang.String getLastUpdatedDefinitionHash();
 
 The hash for this version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_automated_reasoning_policy_version#last_updated_definition_hash BedrockAutomatedReasoningPolicyVersion#last_updated_definition_hash}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_automated_reasoning_policy_version#last_updated_definition_hash BedrockAutomatedReasoningPolicyVersion#last_updated_definition_hash}
 
 ---
 
@@ -1095,7 +1095,7 @@ public IResolvable|java.util.List<BedrockAutomatedReasoningPolicyVersionTags> ge
 
 - *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-awscc.bedrockAutomatedReasoningPolicyVersion.BedrockAutomatedReasoningPolicyVersionTags">BedrockAutomatedReasoningPolicyVersionTags</a>>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_automated_reasoning_policy_version#tags BedrockAutomatedReasoningPolicyVersion#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_automated_reasoning_policy_version#tags BedrockAutomatedReasoningPolicyVersion#tags}.
 
 ---
 
@@ -1131,7 +1131,7 @@ public java.lang.String getKey();
 
 Tag Key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_automated_reasoning_policy_version#key BedrockAutomatedReasoningPolicyVersion#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_automated_reasoning_policy_version#key BedrockAutomatedReasoningPolicyVersion#key}
 
 ---
 
@@ -1145,7 +1145,7 @@ public java.lang.String getValue();
 
 Tag Value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_automated_reasoning_policy_version#value BedrockAutomatedReasoningPolicyVersion#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_automated_reasoning_policy_version#value BedrockAutomatedReasoningPolicyVersion#value}
 
 ---
 

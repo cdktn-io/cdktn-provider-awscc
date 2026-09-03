@@ -4,7 +4,7 @@
 
 ### QuicksightSpace <a name="QuicksightSpace" id="@cdktn/provider-awscc.quicksightSpace.QuicksightSpace"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_space awscc_quicksight_space}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/quicksight_space awscc_quicksight_space}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.quicksightSpace.QuicksightSpace.Initializer"></a>
 
@@ -556,7 +556,7 @@ The construct id used in the generated config for the QuicksightSpace to import.
 
 The id of the existing QuicksightSpace that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_space#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/quicksight_space#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1071,7 +1071,7 @@ public readonly awsAccountId: string;
 
 The ID of the Amazon Web Services account where the space is being created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_space#aws_account_id QuicksightSpace#aws_account_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/quicksight_space#aws_account_id QuicksightSpace#aws_account_id}
 
 ---
 
@@ -1085,7 +1085,7 @@ public readonly name: string;
 
 The display name of the space.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_space#name QuicksightSpace#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/quicksight_space#name QuicksightSpace#name}
 
 ---
 
@@ -1099,7 +1099,7 @@ public readonly spaceId: string;
 
 The unique identifier for the space.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_space#space_id QuicksightSpace#space_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/quicksight_space#space_id QuicksightSpace#space_id}
 
 ---
 
@@ -1113,7 +1113,7 @@ public readonly description: string;
 
 A description of the space.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_space#description QuicksightSpace#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/quicksight_space#description QuicksightSpace#description}
 
 ---
 
@@ -1127,7 +1127,7 @@ public readonly permissions: IResolvable | QuicksightSpacePermissions[];
 
 A list of permissions granted on the space.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_space#permissions QuicksightSpace#permissions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/quicksight_space#permissions QuicksightSpace#permissions}
 
 ---
 
@@ -1141,7 +1141,7 @@ public readonly resources: IResolvable | QuicksightSpaceResources[];
 
 A list of QuickSight resources attached to the space.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_space#resources QuicksightSpace#resources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/quicksight_space#resources QuicksightSpace#resources}
 
 ---
 
@@ -1155,7 +1155,7 @@ public readonly tags: IResolvable | QuicksightSpaceTags[];
 
 A list of key-value pairs to associate with the space resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_space#tags QuicksightSpace#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/quicksight_space#tags QuicksightSpace#tags}
 
 ---
 
@@ -1188,7 +1188,7 @@ public readonly actions: string[];
 
 The list of actions granted to the principal.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_space#actions QuicksightSpace#actions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/quicksight_space#actions QuicksightSpace#actions}
 
 ---
 
@@ -1202,7 +1202,7 @@ public readonly principal: string;
 
 The ARN of the principal (user or group) receiving the permission.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_space#principal QuicksightSpace#principal}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/quicksight_space#principal QuicksightSpace#principal}
 
 ---
 
@@ -1235,7 +1235,7 @@ public readonly resourceArn: string;
 
 The ARN of the QuickSight resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_space#resource_arn QuicksightSpace#resource_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/quicksight_space#resource_arn QuicksightSpace#resource_arn}
 
 ---
 
@@ -1249,7 +1249,7 @@ public readonly resourceType: string;
 
 The type of QuickSight resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_space#resource_type QuicksightSpace#resource_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/quicksight_space#resource_type QuicksightSpace#resource_type}
 
 ---
 
@@ -1282,7 +1282,7 @@ public readonly key: string;
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_space#key QuicksightSpace#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/quicksight_space#key QuicksightSpace#key}
 
 ---
 
@@ -1296,7 +1296,7 @@ public readonly value: string;
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_space#value QuicksightSpace#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/quicksight_space#value QuicksightSpace#value}
 
 ---
 

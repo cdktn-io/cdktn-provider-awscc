@@ -4,7 +4,7 @@
 
 ### DataAwsccElasticloadbalancingv2Listeners <a name="DataAwsccElasticloadbalancingv2Listeners" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2Listeners.DataAwsccElasticloadbalancingv2Listeners"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/elasticloadbalancingv2_listeners awscc_elasticloadbalancingv2_listeners}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/elasticloadbalancingv2_listeners awscc_elasticloadbalancingv2_listeners}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2Listeners.DataAwsccElasticloadbalancingv2Listeners.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccElasticloadbalanc
 
 The id of the existing DataAwsccElasticloadbalancingv2Listeners that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/elasticloadbalancingv2_listeners#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/elasticloadbalancingv2_listeners#import import section} in the documentation of this resource for the id to use
 
 ---
 

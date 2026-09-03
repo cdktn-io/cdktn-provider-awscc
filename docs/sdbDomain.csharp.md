@@ -4,7 +4,7 @@
 
 ### SdbDomain <a name="SdbDomain" id="@cdktn/provider-awscc.sdbDomain.SdbDomain"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sdb_domain awscc_sdb_domain}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sdb_domain awscc_sdb_domain}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sdbDomain.SdbDomain.Initializer"></a>
 
@@ -496,7 +496,7 @@ The construct id used in the generated config for the SdbDomain to import.
 
 The id of the existing SdbDomain that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sdb_domain#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sdb_domain#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -849,7 +849,7 @@ public string Description { get; set; }
 
 Information about the SimpleDB domain.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sdb_domain#description SdbDomain#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sdb_domain#description SdbDomain#description}
 
 ---
 

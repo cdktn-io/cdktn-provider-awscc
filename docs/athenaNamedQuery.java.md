@@ -4,7 +4,7 @@
 
 ### AthenaNamedQuery <a name="AthenaNamedQuery" id="@cdktn/provider-awscc.athenaNamedQuery.AthenaNamedQuery"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/athena_named_query awscc_athena_named_query}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/athena_named_query awscc_athena_named_query}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.athenaNamedQuery.AthenaNamedQuery.Initializer"></a>
 
@@ -112,7 +112,7 @@ Must be unique amongst siblings in the same scope
 
 The database to which the query belongs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/athena_named_query#database AthenaNamedQuery#database}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/athena_named_query#database AthenaNamedQuery#database}
 
 ---
 
@@ -122,7 +122,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The contents of the query with all query statements.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/athena_named_query#query_string AthenaNamedQuery#query_string}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/athena_named_query#query_string AthenaNamedQuery#query_string}
 
 ---
 
@@ -132,7 +132,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The query description.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/athena_named_query#description AthenaNamedQuery#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/athena_named_query#description AthenaNamedQuery#description}
 
 ---
 
@@ -142,7 +142,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The query name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/athena_named_query#name AthenaNamedQuery#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/athena_named_query#name AthenaNamedQuery#name}
 
 ---
 
@@ -152,7 +152,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the workgroup that contains the named query.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/athena_named_query#work_group AthenaNamedQuery#work_group}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/athena_named_query#work_group AthenaNamedQuery#work_group}
 
 ---
 
@@ -622,7 +622,7 @@ The construct id used in the generated config for the AthenaNamedQuery to import
 
 The id of the existing AthenaNamedQuery that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/athena_named_query#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/athena_named_query#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1071,7 +1071,7 @@ public java.lang.String getDatabase();
 
 The database to which the query belongs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/athena_named_query#database AthenaNamedQuery#database}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/athena_named_query#database AthenaNamedQuery#database}
 
 ---
 
@@ -1085,7 +1085,7 @@ public java.lang.String getQueryString();
 
 The contents of the query with all query statements.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/athena_named_query#query_string AthenaNamedQuery#query_string}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/athena_named_query#query_string AthenaNamedQuery#query_string}
 
 ---
 
@@ -1099,7 +1099,7 @@ public java.lang.String getDescription();
 
 The query description.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/athena_named_query#description AthenaNamedQuery#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/athena_named_query#description AthenaNamedQuery#description}
 
 ---
 
@@ -1113,7 +1113,7 @@ public java.lang.String getName();
 
 The query name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/athena_named_query#name AthenaNamedQuery#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/athena_named_query#name AthenaNamedQuery#name}
 
 ---
 
@@ -1127,7 +1127,7 @@ public java.lang.String getWorkGroup();
 
 The name of the workgroup that contains the named query.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/athena_named_query#work_group AthenaNamedQuery#work_group}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/athena_named_query#work_group AthenaNamedQuery#work_group}
 
 ---
 

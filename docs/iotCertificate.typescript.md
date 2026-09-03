@@ -4,7 +4,7 @@
 
 ### IotCertificate <a name="IotCertificate" id="@cdktn/provider-awscc.iotCertificate.IotCertificate"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_certificate awscc_iot_certificate}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_certificate awscc_iot_certificate}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotCertificate.IotCertificate.Initializer"></a>
 
@@ -517,7 +517,7 @@ The construct id used in the generated config for the IotCertificate to import.
 
 The id of the existing IotCertificate that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_certificate#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_certificate#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -876,11 +876,11 @@ const iotCertificateConfig: iotCertificate.IotCertificateConfig = { ... }
 | <code><a href="#@cdktn/provider-awscc.iotCertificate.IotCertificateConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.iotCertificate.IotCertificateConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.iotCertificate.IotCertificateConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.iotCertificate.IotCertificateConfig.property.status">status</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_certificate#status IotCertificate#status}. |
-| <code><a href="#@cdktn/provider-awscc.iotCertificate.IotCertificateConfig.property.caCertificatePem">caCertificatePem</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_certificate#ca_certificate_pem IotCertificate#ca_certificate_pem}. |
-| <code><a href="#@cdktn/provider-awscc.iotCertificate.IotCertificateConfig.property.certificateMode">certificateMode</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_certificate#certificate_mode IotCertificate#certificate_mode}. |
-| <code><a href="#@cdktn/provider-awscc.iotCertificate.IotCertificateConfig.property.certificatePem">certificatePem</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_certificate#certificate_pem IotCertificate#certificate_pem}. |
-| <code><a href="#@cdktn/provider-awscc.iotCertificate.IotCertificateConfig.property.certificateSigningRequest">certificateSigningRequest</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_certificate#certificate_signing_request IotCertificate#certificate_signing_request}. |
+| <code><a href="#@cdktn/provider-awscc.iotCertificate.IotCertificateConfig.property.status">status</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_certificate#status IotCertificate#status}. |
+| <code><a href="#@cdktn/provider-awscc.iotCertificate.IotCertificateConfig.property.caCertificatePem">caCertificatePem</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_certificate#ca_certificate_pem IotCertificate#ca_certificate_pem}. |
+| <code><a href="#@cdktn/provider-awscc.iotCertificate.IotCertificateConfig.property.certificateMode">certificateMode</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_certificate#certificate_mode IotCertificate#certificate_mode}. |
+| <code><a href="#@cdktn/provider-awscc.iotCertificate.IotCertificateConfig.property.certificatePem">certificatePem</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_certificate#certificate_pem IotCertificate#certificate_pem}. |
+| <code><a href="#@cdktn/provider-awscc.iotCertificate.IotCertificateConfig.property.certificateSigningRequest">certificateSigningRequest</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_certificate#certificate_signing_request IotCertificate#certificate_signing_request}. |
 
 ---
 
@@ -962,7 +962,7 @@ public readonly status: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_certificate#status IotCertificate#status}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_certificate#status IotCertificate#status}.
 
 ---
 
@@ -974,7 +974,7 @@ public readonly caCertificatePem: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_certificate#ca_certificate_pem IotCertificate#ca_certificate_pem}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_certificate#ca_certificate_pem IotCertificate#ca_certificate_pem}.
 
 ---
 
@@ -986,7 +986,7 @@ public readonly certificateMode: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_certificate#certificate_mode IotCertificate#certificate_mode}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_certificate#certificate_mode IotCertificate#certificate_mode}.
 
 ---
 
@@ -998,7 +998,7 @@ public readonly certificatePem: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_certificate#certificate_pem IotCertificate#certificate_pem}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_certificate#certificate_pem IotCertificate#certificate_pem}.
 
 ---
 
@@ -1010,7 +1010,7 @@ public readonly certificateSigningRequest: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_certificate#certificate_signing_request IotCertificate#certificate_signing_request}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_certificate#certificate_signing_request IotCertificate#certificate_signing_request}.
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### DataAwsccIamInstanceProfiles <a name="DataAwsccIamInstanceProfiles" id="@cdktn/provider-awscc.dataAwsccIamInstanceProfiles.DataAwsccIamInstanceProfiles"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/iam_instance_profiles awscc_iam_instance_profiles}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/iam_instance_profiles awscc_iam_instance_profiles}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIamInstanceProfiles.DataAwsccIamInstanceProfiles.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccIamInstanceProfil
 
 The id of the existing DataAwsccIamInstanceProfiles that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/iam_instance_profiles#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/iam_instance_profiles#import import section} in the documentation of this resource for the id to use
 
 ---
 

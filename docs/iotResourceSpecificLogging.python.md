@@ -4,7 +4,7 @@
 
 ### IotResourceSpecificLogging <a name="IotResourceSpecificLogging" id="@cdktn/provider-awscc.iotResourceSpecificLogging.IotResourceSpecificLogging"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_resource_specific_logging awscc_iot_resource_specific_logging}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_resource_specific_logging awscc_iot_resource_specific_logging}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotResourceSpecificLogging.IotResourceSpecificLogging.Initializer"></a>
 
@@ -110,7 +110,7 @@ Must be unique amongst siblings in the same scope
 
 The log level for a specific target. Valid values are: ERROR, WARN, INFO, DEBUG, or DISABLED.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_resource_specific_logging#log_level IotResourceSpecificLogging#log_level}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_resource_specific_logging#log_level IotResourceSpecificLogging#log_level}
 
 ---
 
@@ -120,7 +120,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The target name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_resource_specific_logging#target_name IotResourceSpecificLogging#target_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_resource_specific_logging#target_name IotResourceSpecificLogging#target_name}
 
 ---
 
@@ -130,7 +130,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The target type. Value must be THING_GROUP, CLIENT_ID, SOURCE_IP, PRINCIPAL_ID, or EVENT_TYPE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_resource_specific_logging#target_type IotResourceSpecificLogging#target_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_resource_specific_logging#target_type IotResourceSpecificLogging#target_type}
 
 ---
 
@@ -627,7 +627,7 @@ The construct id used in the generated config for the IotResourceSpecificLogging
 
 The id of the existing IotResourceSpecificLogging that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_resource_specific_logging#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_resource_specific_logging#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1028,7 +1028,7 @@ log_level: str
 
 The log level for a specific target. Valid values are: ERROR, WARN, INFO, DEBUG, or DISABLED.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_resource_specific_logging#log_level IotResourceSpecificLogging#log_level}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_resource_specific_logging#log_level IotResourceSpecificLogging#log_level}
 
 ---
 
@@ -1042,7 +1042,7 @@ target_name: str
 
 The target name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_resource_specific_logging#target_name IotResourceSpecificLogging#target_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_resource_specific_logging#target_name IotResourceSpecificLogging#target_name}
 
 ---
 
@@ -1056,7 +1056,7 @@ target_type: str
 
 The target type. Value must be THING_GROUP, CLIENT_ID, SOURCE_IP, PRINCIPAL_ID, or EVENT_TYPE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_resource_specific_logging#target_type IotResourceSpecificLogging#target_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_resource_specific_logging#target_type IotResourceSpecificLogging#target_type}
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### DataAwsccBedrockagentcorePaymentCredentialProviders <a name="DataAwsccBedrockagentcorePaymentCredentialProviders" id="@cdktn/provider-awscc.dataAwsccBedrockagentcorePaymentCredentialProviders.DataAwsccBedrockagentcorePaymentCredentialProviders"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/bedrockagentcore_payment_credential_providers awscc_bedrockagentcore_payment_credential_providers}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/bedrockagentcore_payment_credential_providers awscc_bedrockagentcore_payment_credential_providers}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockagentcorePaymentCredentialProviders.DataAwsccBedrockagentcorePaymentCredentialProviders.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccBedrockagentcoreP
 
 The id of the existing DataAwsccBedrockagentcorePaymentCredentialProviders that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/bedrockagentcore_payment_credential_providers#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/bedrockagentcore_payment_credential_providers#import import section} in the documentation of this resource for the id to use
 
 ---
 

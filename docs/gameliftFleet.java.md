@@ -4,7 +4,7 @@
 
 ### GameliftFleet <a name="GameliftFleet" id="@cdktn/provider-awscc.gameliftFleet.GameliftFleet"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet awscc_gamelift_fleet}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet awscc_gamelift_fleet}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.gameliftFleet.GameliftFleet.Initializer"></a>
 
@@ -76,7 +76,7 @@ GameliftFleet.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktn/provider-awscc.gameliftFleet.GameliftFleet.Initializer.parameter.fleetType">fleetType</a></code> | <code>java.lang.String</code> | Indicates whether to use On-Demand instances or Spot instances for this fleet. |
 | <code><a href="#@cdktn/provider-awscc.gameliftFleet.GameliftFleet.Initializer.parameter.instanceRoleArn">instanceRoleArn</a></code> | <code>java.lang.String</code> | A unique identifier for an AWS IAM role that manages access to your AWS services. |
 | <code><a href="#@cdktn/provider-awscc.gameliftFleet.GameliftFleet.Initializer.parameter.instanceRoleCredentialsProvider">instanceRoleCredentialsProvider</a></code> | <code>java.lang.String</code> | Credentials provider implementation that loads credentials from the Amazon EC2 Instance Metadata Service. |
-| <code><a href="#@cdktn/provider-awscc.gameliftFleet.GameliftFleet.Initializer.parameter.locations">locations</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.gameliftFleet.GameliftFleetLocations">GameliftFleetLocations</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#locations GameliftFleet#locations}. |
+| <code><a href="#@cdktn/provider-awscc.gameliftFleet.GameliftFleet.Initializer.parameter.locations">locations</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.gameliftFleet.GameliftFleetLocations">GameliftFleetLocations</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#locations GameliftFleet#locations}. |
 | <code><a href="#@cdktn/provider-awscc.gameliftFleet.GameliftFleet.Initializer.parameter.logPaths">logPaths</a></code> | <code>java.util.List<java.lang.String></code> | This parameter is no longer used. |
 | <code><a href="#@cdktn/provider-awscc.gameliftFleet.GameliftFleet.Initializer.parameter.maxSize">maxSize</a></code> | <code>java.lang.Number</code> | [DEPRECATED] The maximum value that is allowed for the fleet's instance count. |
 | <code><a href="#@cdktn/provider-awscc.gameliftFleet.GameliftFleet.Initializer.parameter.metricGroups">metricGroups</a></code> | <code>java.util.List<java.lang.String></code> | The name of an Amazon CloudWatch metric group. |
@@ -162,7 +162,7 @@ Must be unique amongst siblings in the same scope
 
 A descriptive label that is associated with a fleet. Fleet names do not need to be unique.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#name GameliftFleet#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#name GameliftFleet#name}
 
 ---
 
@@ -172,7 +172,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Configuration for Anywhere fleet.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#anywhere_configuration GameliftFleet#anywhere_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#anywhere_configuration GameliftFleet#anywhere_configuration}
 
 ---
 
@@ -184,7 +184,7 @@ Determines when and how to apply fleet or location capacities.
 
 Allowed options are ON_UPDATE (default), ON_CREATE_AND_UPDATE and ON_CREATE_AND_UPDATE_WITH_AUTOSCALING. If you choose ON_CREATE_AND_UPDATE_WITH_AUTOSCALING, MinSize and MaxSize will still be applied on creation and on updates, but DesiredEC2Instances will only be applied once on fleet creation and will be ignored during updates to prevent conflicts with auto-scaling. During updates with ON_CREATE_AND_UPDATE_WITH_AUTOSCALING chosen, if current desired instance is lower than the new MinSize, it will be increased to the new MinSize; if current desired instance is larger than the new MaxSize, it will be decreased to the new MaxSize.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#apply_capacity GameliftFleet#apply_capacity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#apply_capacity GameliftFleet#apply_capacity}
 
 ---
 
@@ -196,7 +196,7 @@ A unique identifier for a build to be deployed on the new fleet.
 
 If you are deploying the fleet with a custom game build, you must specify this property. The build must have been successfully uploaded to Amazon GameLift and be in a READY status. This fleet setting cannot be changed once the fleet is created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#build_id GameliftFleet#build_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#build_id GameliftFleet#build_id}
 
 ---
 
@@ -208,7 +208,7 @@ Indicates whether to generate a TLS/SSL certificate for the new fleet.
 
 TLS certificates are used for encrypting traffic between game clients and game servers running on GameLift. If this parameter is not set, certificate generation is disabled. This fleet setting cannot be changed once the fleet is created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#certificate_configuration GameliftFleet#certificate_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#certificate_configuration GameliftFleet#certificate_configuration}
 
 ---
 
@@ -218,7 +218,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ComputeType to differentiate EC2 hardware managed by GameLift and Anywhere hardware managed by the customer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#compute_type GameliftFleet#compute_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#compute_type GameliftFleet#compute_type}
 
 ---
 
@@ -228,7 +228,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A human-readable description of a fleet.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#description GameliftFleet#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#description GameliftFleet#description}
 
 ---
 
@@ -240,7 +240,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 When creating a new fleet, GameLift automatically sets this value to "1" and initiates a single instance. Once the fleet is active, update this value to trigger GameLift to add or remove instances from the fleet.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#desired_ec2_instances GameliftFleet#desired_ec2_instances}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#desired_ec2_instances GameliftFleet#desired_ec2_instances}
 
 ---
 
@@ -250,7 +250,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A range of IP addresses and port settings that allow inbound traffic to connect to server processes on an Amazon GameLift server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#ec2_inbound_permissions GameliftFleet#ec2_inbound_permissions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#ec2_inbound_permissions GameliftFleet#ec2_inbound_permissions}
 
 ---
 
@@ -262,7 +262,7 @@ The name of an EC2 instance type that is supported in Amazon GameLift.
 
 A fleet instance type determines the computing resources of each instance in the fleet, including CPU, memory, storage, and networking capacity. Amazon GameLift supports the following EC2 instance types. See Amazon EC2 Instance Types for detailed descriptions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#ec2_instance_type GameliftFleet#ec2_instance_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#ec2_instance_type GameliftFleet#ec2_instance_type}
 
 ---
 
@@ -274,7 +274,7 @@ Indicates whether to use On-Demand instances or Spot instances for this fleet.
 
 If empty, the default is ON_DEMAND. Both categories of instances use identical hardware and configurations based on the instance type selected for this fleet.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#fleet_type GameliftFleet#fleet_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#fleet_type GameliftFleet#fleet_type}
 
 ---
 
@@ -286,7 +286,7 @@ A unique identifier for an AWS IAM role that manages access to your AWS services
 
 With an instance role ARN set, any application that runs on an instance in this fleet can assume the role, including install scripts, server processes, and daemons (background processes). Create a role or look up a role's ARN from the IAM dashboard in the AWS Management Console.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#instance_role_arn GameliftFleet#instance_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#instance_role_arn GameliftFleet#instance_role_arn}
 
 ---
 
@@ -296,7 +296,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Credentials provider implementation that loads credentials from the Amazon EC2 Instance Metadata Service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#instance_role_credentials_provider GameliftFleet#instance_role_credentials_provider}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#instance_role_credentials_provider GameliftFleet#instance_role_credentials_provider}
 
 ---
 
@@ -304,7 +304,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-awscc.gameliftFleet.GameliftFleetLocations">GameliftFleetLocations</a>>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#locations GameliftFleet#locations}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#locations GameliftFleet#locations}.
 
 ---
 
@@ -316,7 +316,7 @@ This parameter is no longer used.
 
 When hosting a custom game build, specify where Amazon GameLift should store log files using the Amazon GameLift server API call ProcessReady()
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#log_paths GameliftFleet#log_paths}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#log_paths GameliftFleet#log_paths}
 
 ---
 
@@ -328,7 +328,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 When creating a new fleet, GameLift automatically sets this value to "1". Once the fleet is active, you can change this value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#max_size GameliftFleet#max_size}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#max_size GameliftFleet#max_size}
 
 ---
 
@@ -340,7 +340,7 @@ The name of an Amazon CloudWatch metric group.
 
 A metric group aggregates the metrics for all fleets in the group. Specify a string containing the metric group name. You can use an existing name or use a new name to create a new metric group. Currently, this parameter can have only one string.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#metric_groups GameliftFleet#metric_groups}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#metric_groups GameliftFleet#metric_groups}
 
 ---
 
@@ -352,7 +352,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 When creating a new fleet, GameLift automatically sets this value to "0". After the fleet is active, you can change this value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#min_size GameliftFleet#min_size}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#min_size GameliftFleet#min_size}
 
 ---
 
@@ -364,7 +364,7 @@ A game session protection policy to apply to all game sessions hosted on instanc
 
 When protected, active game sessions cannot be terminated during a scale-down event. If this parameter is not set, instances in this fleet default to no protection. You can change a fleet's protection policy to affect future game sessions on the fleet. You can also set protection for individual game sessions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#new_game_session_protection_policy GameliftFleet#new_game_session_protection_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#new_game_session_protection_policy GameliftFleet#new_game_session_protection_policy}
 
 ---
 
@@ -376,7 +376,7 @@ A unique identifier for the AWS account with the VPC that you want to peer your 
 
 You can find your account ID in the AWS Management Console under account settings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#peer_vpc_aws_account_id GameliftFleet#peer_vpc_aws_account_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#peer_vpc_aws_account_id GameliftFleet#peer_vpc_aws_account_id}
 
 ---
 
@@ -388,7 +388,7 @@ A unique identifier for a VPC with resources to be accessed by your Amazon GameL
 
 The VPC must be in the same Region as your fleet. To look up a VPC ID, use the VPC Dashboard in the AWS Management Console.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#peer_vpc_id GameliftFleet#peer_vpc_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#peer_vpc_id GameliftFleet#peer_vpc_id}
 
 ---
 
@@ -398,7 +398,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Configuration for player gateway.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#player_gateway_configuration GameliftFleet#player_gateway_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#player_gateway_configuration GameliftFleet#player_gateway_configuration}
 
 ---
 
@@ -408,7 +408,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The player gateway mode for the fleet.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#player_gateway_mode GameliftFleet#player_gateway_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#player_gateway_mode GameliftFleet#player_gateway_mode}
 
 ---
 
@@ -418,7 +418,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A policy that limits the number of game sessions an individual player can create over a span of time for this fleet.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#resource_creation_limit_policy GameliftFleet#resource_creation_limit_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#resource_creation_limit_policy GameliftFleet#resource_creation_limit_policy}
 
 ---
 
@@ -432,7 +432,7 @@ Server processes run either a custom game build executable or a Realtime script.
 
 This parameter is required unless the parameters ServerLaunchPath and ServerLaunchParameters are defined. Runtime configuration has replaced these parameters, but fleets that use them will continue to work.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#runtime_configuration GameliftFleet#runtime_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#runtime_configuration GameliftFleet#runtime_configuration}
 
 ---
 
@@ -442,7 +442,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A list of rules that control how a fleet is scaled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#scaling_policies GameliftFleet#scaling_policies}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#scaling_policies GameliftFleet#scaling_policies}
 
 ---
 
@@ -456,7 +456,7 @@ The script must have been successfully uploaded to Amazon GameLift. This fleet s
 
 Note: It is not currently possible to use the !Ref command to reference a script created with a CloudFormation template for the fleet property ScriptId. Instead, use Fn::GetAtt Script.Arn or Fn::GetAtt Script.Id to retrieve either of these properties as input for ScriptId. Alternatively, enter a ScriptId string manually.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#script_id GameliftFleet#script_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#script_id GameliftFleet#script_id}
 
 ---
 
@@ -468,7 +468,7 @@ This parameter is no longer used but is retained for backward compatibility.
 
 Instead, specify server launch parameters in the RuntimeConfiguration parameter. A request must specify either a runtime configuration or values for both ServerLaunchParameters and ServerLaunchPath.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#server_launch_parameters GameliftFleet#server_launch_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#server_launch_parameters GameliftFleet#server_launch_parameters}
 
 ---
 
@@ -480,7 +480,7 @@ This parameter is no longer used.
 
 Instead, specify a server launch path using the RuntimeConfiguration parameter. Requests that specify a server launch path and launch parameters instead of a runtime configuration will continue to work.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#server_launch_path GameliftFleet#server_launch_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#server_launch_path GameliftFleet#server_launch_path}
 
 ---
 
@@ -490,7 +490,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#tags GameliftFleet#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#tags GameliftFleet#tags}
 
 ---
 
@@ -1259,7 +1259,7 @@ The construct id used in the generated config for the GameliftFleet to import.
 
 The id of the existing GameliftFleet that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -2177,7 +2177,7 @@ public java.lang.String getCost();
 
 Cost of compute can be specified on Anywhere Fleets to prioritize placement across Queue destinations based on Cost.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#cost GameliftFleet#cost}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#cost GameliftFleet#cost}
 
 ---
 
@@ -2197,7 +2197,7 @@ GameliftFleetCertificateConfiguration.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.gameliftFleet.GameliftFleetCertificateConfiguration.property.certificateType">certificateType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#certificate_type GameliftFleet#certificate_type}. |
+| <code><a href="#@cdktn/provider-awscc.gameliftFleet.GameliftFleetCertificateConfiguration.property.certificateType">certificateType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#certificate_type GameliftFleet#certificate_type}. |
 
 ---
 
@@ -2209,7 +2209,7 @@ public java.lang.String getCertificateType();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#certificate_type GameliftFleet#certificate_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#certificate_type GameliftFleet#certificate_type}.
 
 ---
 
@@ -2285,7 +2285,7 @@ GameliftFleetConfig.builder()
 | <code><a href="#@cdktn/provider-awscc.gameliftFleet.GameliftFleetConfig.property.fleetType">fleetType</a></code> | <code>java.lang.String</code> | Indicates whether to use On-Demand instances or Spot instances for this fleet. |
 | <code><a href="#@cdktn/provider-awscc.gameliftFleet.GameliftFleetConfig.property.instanceRoleArn">instanceRoleArn</a></code> | <code>java.lang.String</code> | A unique identifier for an AWS IAM role that manages access to your AWS services. |
 | <code><a href="#@cdktn/provider-awscc.gameliftFleet.GameliftFleetConfig.property.instanceRoleCredentialsProvider">instanceRoleCredentialsProvider</a></code> | <code>java.lang.String</code> | Credentials provider implementation that loads credentials from the Amazon EC2 Instance Metadata Service. |
-| <code><a href="#@cdktn/provider-awscc.gameliftFleet.GameliftFleetConfig.property.locations">locations</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.gameliftFleet.GameliftFleetLocations">GameliftFleetLocations</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#locations GameliftFleet#locations}. |
+| <code><a href="#@cdktn/provider-awscc.gameliftFleet.GameliftFleetConfig.property.locations">locations</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.gameliftFleet.GameliftFleetLocations">GameliftFleetLocations</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#locations GameliftFleet#locations}. |
 | <code><a href="#@cdktn/provider-awscc.gameliftFleet.GameliftFleetConfig.property.logPaths">logPaths</a></code> | <code>java.util.List<java.lang.String></code> | This parameter is no longer used. |
 | <code><a href="#@cdktn/provider-awscc.gameliftFleet.GameliftFleetConfig.property.maxSize">maxSize</a></code> | <code>java.lang.Number</code> | [DEPRECATED] The maximum value that is allowed for the fleet's instance count. |
 | <code><a href="#@cdktn/provider-awscc.gameliftFleet.GameliftFleetConfig.property.metricGroups">metricGroups</a></code> | <code>java.util.List<java.lang.String></code> | The name of an Amazon CloudWatch metric group. |
@@ -2385,7 +2385,7 @@ public java.lang.String getName();
 
 A descriptive label that is associated with a fleet. Fleet names do not need to be unique.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#name GameliftFleet#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#name GameliftFleet#name}
 
 ---
 
@@ -2399,7 +2399,7 @@ public GameliftFleetAnywhereConfiguration getAnywhereConfiguration();
 
 Configuration for Anywhere fleet.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#anywhere_configuration GameliftFleet#anywhere_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#anywhere_configuration GameliftFleet#anywhere_configuration}
 
 ---
 
@@ -2415,7 +2415,7 @@ Determines when and how to apply fleet or location capacities.
 
 Allowed options are ON_UPDATE (default), ON_CREATE_AND_UPDATE and ON_CREATE_AND_UPDATE_WITH_AUTOSCALING. If you choose ON_CREATE_AND_UPDATE_WITH_AUTOSCALING, MinSize and MaxSize will still be applied on creation and on updates, but DesiredEC2Instances will only be applied once on fleet creation and will be ignored during updates to prevent conflicts with auto-scaling. During updates with ON_CREATE_AND_UPDATE_WITH_AUTOSCALING chosen, if current desired instance is lower than the new MinSize, it will be increased to the new MinSize; if current desired instance is larger than the new MaxSize, it will be decreased to the new MaxSize.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#apply_capacity GameliftFleet#apply_capacity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#apply_capacity GameliftFleet#apply_capacity}
 
 ---
 
@@ -2431,7 +2431,7 @@ A unique identifier for a build to be deployed on the new fleet.
 
 If you are deploying the fleet with a custom game build, you must specify this property. The build must have been successfully uploaded to Amazon GameLift and be in a READY status. This fleet setting cannot be changed once the fleet is created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#build_id GameliftFleet#build_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#build_id GameliftFleet#build_id}
 
 ---
 
@@ -2447,7 +2447,7 @@ Indicates whether to generate a TLS/SSL certificate for the new fleet.
 
 TLS certificates are used for encrypting traffic between game clients and game servers running on GameLift. If this parameter is not set, certificate generation is disabled. This fleet setting cannot be changed once the fleet is created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#certificate_configuration GameliftFleet#certificate_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#certificate_configuration GameliftFleet#certificate_configuration}
 
 ---
 
@@ -2461,7 +2461,7 @@ public java.lang.String getComputeType();
 
 ComputeType to differentiate EC2 hardware managed by GameLift and Anywhere hardware managed by the customer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#compute_type GameliftFleet#compute_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#compute_type GameliftFleet#compute_type}
 
 ---
 
@@ -2475,7 +2475,7 @@ public java.lang.String getDescription();
 
 A human-readable description of a fleet.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#description GameliftFleet#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#description GameliftFleet#description}
 
 ---
 
@@ -2491,7 +2491,7 @@ public java.lang.Number getDesiredEc2Instances();
 
 When creating a new fleet, GameLift automatically sets this value to "1" and initiates a single instance. Once the fleet is active, update this value to trigger GameLift to add or remove instances from the fleet.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#desired_ec2_instances GameliftFleet#desired_ec2_instances}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#desired_ec2_instances GameliftFleet#desired_ec2_instances}
 
 ---
 
@@ -2505,7 +2505,7 @@ public IResolvable|java.util.List<GameliftFleetEc2InboundPermissions> getEc2Inbo
 
 A range of IP addresses and port settings that allow inbound traffic to connect to server processes on an Amazon GameLift server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#ec2_inbound_permissions GameliftFleet#ec2_inbound_permissions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#ec2_inbound_permissions GameliftFleet#ec2_inbound_permissions}
 
 ---
 
@@ -2521,7 +2521,7 @@ The name of an EC2 instance type that is supported in Amazon GameLift.
 
 A fleet instance type determines the computing resources of each instance in the fleet, including CPU, memory, storage, and networking capacity. Amazon GameLift supports the following EC2 instance types. See Amazon EC2 Instance Types for detailed descriptions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#ec2_instance_type GameliftFleet#ec2_instance_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#ec2_instance_type GameliftFleet#ec2_instance_type}
 
 ---
 
@@ -2537,7 +2537,7 @@ Indicates whether to use On-Demand instances or Spot instances for this fleet.
 
 If empty, the default is ON_DEMAND. Both categories of instances use identical hardware and configurations based on the instance type selected for this fleet.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#fleet_type GameliftFleet#fleet_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#fleet_type GameliftFleet#fleet_type}
 
 ---
 
@@ -2553,7 +2553,7 @@ A unique identifier for an AWS IAM role that manages access to your AWS services
 
 With an instance role ARN set, any application that runs on an instance in this fleet can assume the role, including install scripts, server processes, and daemons (background processes). Create a role or look up a role's ARN from the IAM dashboard in the AWS Management Console.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#instance_role_arn GameliftFleet#instance_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#instance_role_arn GameliftFleet#instance_role_arn}
 
 ---
 
@@ -2567,7 +2567,7 @@ public java.lang.String getInstanceRoleCredentialsProvider();
 
 Credentials provider implementation that loads credentials from the Amazon EC2 Instance Metadata Service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#instance_role_credentials_provider GameliftFleet#instance_role_credentials_provider}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#instance_role_credentials_provider GameliftFleet#instance_role_credentials_provider}
 
 ---
 
@@ -2579,7 +2579,7 @@ public IResolvable|java.util.List<GameliftFleetLocations> getLocations();
 
 - *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-awscc.gameliftFleet.GameliftFleetLocations">GameliftFleetLocations</a>>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#locations GameliftFleet#locations}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#locations GameliftFleet#locations}.
 
 ---
 
@@ -2595,7 +2595,7 @@ This parameter is no longer used.
 
 When hosting a custom game build, specify where Amazon GameLift should store log files using the Amazon GameLift server API call ProcessReady()
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#log_paths GameliftFleet#log_paths}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#log_paths GameliftFleet#log_paths}
 
 ---
 
@@ -2611,7 +2611,7 @@ public java.lang.Number getMaxSize();
 
 When creating a new fleet, GameLift automatically sets this value to "1". Once the fleet is active, you can change this value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#max_size GameliftFleet#max_size}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#max_size GameliftFleet#max_size}
 
 ---
 
@@ -2627,7 +2627,7 @@ The name of an Amazon CloudWatch metric group.
 
 A metric group aggregates the metrics for all fleets in the group. Specify a string containing the metric group name. You can use an existing name or use a new name to create a new metric group. Currently, this parameter can have only one string.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#metric_groups GameliftFleet#metric_groups}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#metric_groups GameliftFleet#metric_groups}
 
 ---
 
@@ -2643,7 +2643,7 @@ public java.lang.Number getMinSize();
 
 When creating a new fleet, GameLift automatically sets this value to "0". After the fleet is active, you can change this value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#min_size GameliftFleet#min_size}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#min_size GameliftFleet#min_size}
 
 ---
 
@@ -2659,7 +2659,7 @@ A game session protection policy to apply to all game sessions hosted on instanc
 
 When protected, active game sessions cannot be terminated during a scale-down event. If this parameter is not set, instances in this fleet default to no protection. You can change a fleet's protection policy to affect future game sessions on the fleet. You can also set protection for individual game sessions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#new_game_session_protection_policy GameliftFleet#new_game_session_protection_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#new_game_session_protection_policy GameliftFleet#new_game_session_protection_policy}
 
 ---
 
@@ -2675,7 +2675,7 @@ A unique identifier for the AWS account with the VPC that you want to peer your 
 
 You can find your account ID in the AWS Management Console under account settings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#peer_vpc_aws_account_id GameliftFleet#peer_vpc_aws_account_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#peer_vpc_aws_account_id GameliftFleet#peer_vpc_aws_account_id}
 
 ---
 
@@ -2691,7 +2691,7 @@ A unique identifier for a VPC with resources to be accessed by your Amazon GameL
 
 The VPC must be in the same Region as your fleet. To look up a VPC ID, use the VPC Dashboard in the AWS Management Console.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#peer_vpc_id GameliftFleet#peer_vpc_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#peer_vpc_id GameliftFleet#peer_vpc_id}
 
 ---
 
@@ -2705,7 +2705,7 @@ public GameliftFleetPlayerGatewayConfiguration getPlayerGatewayConfiguration();
 
 Configuration for player gateway.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#player_gateway_configuration GameliftFleet#player_gateway_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#player_gateway_configuration GameliftFleet#player_gateway_configuration}
 
 ---
 
@@ -2719,7 +2719,7 @@ public java.lang.String getPlayerGatewayMode();
 
 The player gateway mode for the fleet.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#player_gateway_mode GameliftFleet#player_gateway_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#player_gateway_mode GameliftFleet#player_gateway_mode}
 
 ---
 
@@ -2733,7 +2733,7 @@ public GameliftFleetResourceCreationLimitPolicy getResourceCreationLimitPolicy()
 
 A policy that limits the number of game sessions an individual player can create over a span of time for this fleet.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#resource_creation_limit_policy GameliftFleet#resource_creation_limit_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#resource_creation_limit_policy GameliftFleet#resource_creation_limit_policy}
 
 ---
 
@@ -2751,7 +2751,7 @@ Server processes run either a custom game build executable or a Realtime script.
 
 This parameter is required unless the parameters ServerLaunchPath and ServerLaunchParameters are defined. Runtime configuration has replaced these parameters, but fleets that use them will continue to work.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#runtime_configuration GameliftFleet#runtime_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#runtime_configuration GameliftFleet#runtime_configuration}
 
 ---
 
@@ -2765,7 +2765,7 @@ public IResolvable|java.util.List<GameliftFleetScalingPolicies> getScalingPolici
 
 A list of rules that control how a fleet is scaled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#scaling_policies GameliftFleet#scaling_policies}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#scaling_policies GameliftFleet#scaling_policies}
 
 ---
 
@@ -2783,7 +2783,7 @@ The script must have been successfully uploaded to Amazon GameLift. This fleet s
 
 Note: It is not currently possible to use the !Ref command to reference a script created with a CloudFormation template for the fleet property ScriptId. Instead, use Fn::GetAtt Script.Arn or Fn::GetAtt Script.Id to retrieve either of these properties as input for ScriptId. Alternatively, enter a ScriptId string manually.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#script_id GameliftFleet#script_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#script_id GameliftFleet#script_id}
 
 ---
 
@@ -2799,7 +2799,7 @@ This parameter is no longer used but is retained for backward compatibility.
 
 Instead, specify server launch parameters in the RuntimeConfiguration parameter. A request must specify either a runtime configuration or values for both ServerLaunchParameters and ServerLaunchPath.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#server_launch_parameters GameliftFleet#server_launch_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#server_launch_parameters GameliftFleet#server_launch_parameters}
 
 ---
 
@@ -2815,7 +2815,7 @@ This parameter is no longer used.
 
 Instead, specify a server launch path using the RuntimeConfiguration parameter. Requests that specify a server launch path and launch parameters instead of a runtime configuration will continue to work.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#server_launch_path GameliftFleet#server_launch_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#server_launch_path GameliftFleet#server_launch_path}
 
 ---
 
@@ -2829,7 +2829,7 @@ public IResolvable|java.util.List<GameliftFleetTags> getTags();
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#tags GameliftFleet#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#tags GameliftFleet#tags}
 
 ---
 
@@ -2869,7 +2869,7 @@ public java.lang.Number getFromPort();
 
 A starting value for a range of allowed port numbers.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#from_port GameliftFleet#from_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#from_port GameliftFleet#from_port}
 
 ---
 
@@ -2885,7 +2885,7 @@ A range of allowed IP addresses.
 
 This value must be expressed in CIDR notation. Example: "000.000.000.000/[subnet mask]" or optionally the shortened version "0.0.0.0/[subnet mask]".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#ip_range GameliftFleet#ip_range}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#ip_range GameliftFleet#ip_range}
 
 ---
 
@@ -2899,7 +2899,7 @@ public java.lang.String getProtocol();
 
 The network communication protocol used by the fleet.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#protocol GameliftFleet#protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#protocol GameliftFleet#protocol}
 
 ---
 
@@ -2915,7 +2915,7 @@ An ending value for a range of allowed port numbers.
 
 Port numbers are end-inclusive. This value must be higher than FromPort.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#to_port GameliftFleet#to_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#to_port GameliftFleet#to_port}
 
 ---
 
@@ -2937,7 +2937,7 @@ GameliftFleetLocations.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.gameliftFleet.GameliftFleetLocations.property.location">location</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#location GameliftFleet#location}. |
+| <code><a href="#@cdktn/provider-awscc.gameliftFleet.GameliftFleetLocations.property.location">location</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#location GameliftFleet#location}. |
 | <code><a href="#@cdktn/provider-awscc.gameliftFleet.GameliftFleetLocations.property.locationCapacity">locationCapacity</a></code> | <code><a href="#@cdktn/provider-awscc.gameliftFleet.GameliftFleetLocationsLocationCapacity">GameliftFleetLocationsLocationCapacity</a></code> | Current resource capacity settings in a specified fleet or location. |
 | <code><a href="#@cdktn/provider-awscc.gameliftFleet.GameliftFleetLocations.property.playerGatewayStatus">playerGatewayStatus</a></code> | <code>java.lang.String</code> | The player gateway status for the location. |
 
@@ -2951,7 +2951,7 @@ public java.lang.String getLocation();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#location GameliftFleet#location}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#location GameliftFleet#location}.
 
 ---
 
@@ -2967,7 +2967,7 @@ Current resource capacity settings in a specified fleet or location.
 
 The location value might refer to a fleet's remote location or its home Region.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#location_capacity GameliftFleet#location_capacity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#location_capacity GameliftFleet#location_capacity}
 
 ---
 
@@ -2981,7 +2981,7 @@ public java.lang.String getPlayerGatewayStatus();
 
 The player gateway status for the location.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#player_gateway_status GameliftFleet#player_gateway_status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#player_gateway_status GameliftFleet#player_gateway_status}
 
 ---
 
@@ -3023,7 +3023,7 @@ Defaults to MinSize if not defined.
 
 The number of EC2 instances you want to maintain in the specified fleet location. This value must fall between the minimum and maximum size limits.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#desired_ec2_instances GameliftFleet#desired_ec2_instances}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#desired_ec2_instances GameliftFleet#desired_ec2_instances}
 
 ---
 
@@ -3037,7 +3037,7 @@ public GameliftFleetLocationsLocationCapacityManagedCapacityConfiguration getMan
 
 Configuration options for Amazon GameLift Servers-managed capacity behavior.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#managed_capacity_configuration GameliftFleet#managed_capacity_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#managed_capacity_configuration GameliftFleet#managed_capacity_configuration}
 
 ---
 
@@ -3053,7 +3053,7 @@ The maximum value that is allowed for the fleet's instance count for a location.
 
 When creating a new fleet, GameLift automatically sets this value to "1". Once the fleet is active, you can change this value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#max_size GameliftFleet#max_size}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#max_size GameliftFleet#max_size}
 
 ---
 
@@ -3069,7 +3069,7 @@ The minimum value allowed for the fleet's instance count for a location.
 
 When creating a new fleet, GameLift automatically sets this value to "0". After the fleet is active, you can change this value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#min_size GameliftFleet#min_size}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#min_size GameliftFleet#min_size}
 
 ---
 
@@ -3105,7 +3105,7 @@ public java.lang.Number getScaleInAfterInactivityMinutes();
 
 Length of time, in minutes, that Amazon GameLift Servers will wait before scaling in your MinSize and DesiredInstances to 0 after a period with no game session activity.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#scale_in_after_inactivity_minutes GameliftFleet#scale_in_after_inactivity_minutes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#scale_in_after_inactivity_minutes GameliftFleet#scale_in_after_inactivity_minutes}
 
 ---
 
@@ -3121,7 +3121,7 @@ The strategy Amazon GameLift Servers will use to automatically scale your capaci
 
 Game session activity refers to any active running sessions or game session requests. When set to SCALE_TO_AND_FROM_ZERO, MinSize must not be specified and will be managed automatically. When set to MANUAL, MinSize is required.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#zero_capacity_strategy GameliftFleet#zero_capacity_strategy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#zero_capacity_strategy GameliftFleet#zero_capacity_strategy}
 
 ---
 
@@ -3155,7 +3155,7 @@ public java.lang.String getGameServerIpProtocolSupported();
 
 The IP protocol supported by the game server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#game_server_ip_protocol_supported GameliftFleet#game_server_ip_protocol_supported}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#game_server_ip_protocol_supported GameliftFleet#game_server_ip_protocol_supported}
 
 ---
 
@@ -3191,7 +3191,7 @@ public java.lang.Number getNewGameSessionsPerCreator();
 
 The maximum number of game sessions that an individual can create during the policy period.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#new_game_sessions_per_creator GameliftFleet#new_game_sessions_per_creator}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#new_game_sessions_per_creator GameliftFleet#new_game_sessions_per_creator}
 
 ---
 
@@ -3205,7 +3205,7 @@ public java.lang.Number getPolicyPeriodInMinutes();
 
 The time span used in evaluating the resource creation limit policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#policy_period_in_minutes GameliftFleet#policy_period_in_minutes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#policy_period_in_minutes GameliftFleet#policy_period_in_minutes}
 
 ---
 
@@ -3245,7 +3245,7 @@ The maximum amount of time (in seconds) that a game session can remain in status
 
 If the game session is not active before the timeout, activation is terminated and the game session status is changed to TERMINATED.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#game_session_activation_timeout_seconds GameliftFleet#game_session_activation_timeout_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#game_session_activation_timeout_seconds GameliftFleet#game_session_activation_timeout_seconds}
 
 ---
 
@@ -3261,7 +3261,7 @@ The maximum number of game sessions with status ACTIVATING to allow on an instan
 
 This setting limits the amount of instance resources that can be used for new game activations at any one time.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#max_concurrent_game_session_activations GameliftFleet#max_concurrent_game_session_activations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#max_concurrent_game_session_activations GameliftFleet#max_concurrent_game_session_activations}
 
 ---
 
@@ -3275,7 +3275,7 @@ public IResolvable|java.util.List<GameliftFleetRuntimeConfigurationServerProcess
 
 A collection of server process configurations that describe which server processes to run on each instance in a fleet.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#server_processes GameliftFleet#server_processes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#server_processes GameliftFleet#server_processes}
 
 ---
 
@@ -3313,7 +3313,7 @@ public java.lang.Number getConcurrentExecutions();
 
 The number of server processes that use this configuration to run concurrently on an instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#concurrent_executions GameliftFleet#concurrent_executions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#concurrent_executions GameliftFleet#concurrent_executions}
 
 ---
 
@@ -3333,7 +3333,7 @@ Windows (for custom game builds only): C:\game. Example: "C:\game\MyGame\server.
 
 Linux: /local/game. Examples: "/local/game/MyGame/server.exe" or "/local/game/MyRealtimeScript.js"
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#launch_path GameliftFleet#launch_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#launch_path GameliftFleet#launch_path}
 
 ---
 
@@ -3347,7 +3347,7 @@ public java.lang.String getParameters();
 
 An optional list of parameters to pass to the server executable or Realtime script on launch.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#parameters GameliftFleet#parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#parameters GameliftFleet#parameters}
 
 ---
 
@@ -3380,7 +3380,7 @@ GameliftFleetScalingPolicies.builder()
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.gameliftFleet.GameliftFleetScalingPolicies.property.comparisonOperator">comparisonOperator</a></code> | <code>java.lang.String</code> | Comparison operator to use when measuring a metric against the threshold value. |
 | <code><a href="#@cdktn/provider-awscc.gameliftFleet.GameliftFleetScalingPolicies.property.evaluationPeriods">evaluationPeriods</a></code> | <code>java.lang.Number</code> | Length of time (in minutes) the metric must be at or beyond the threshold before a scaling event is triggered. |
-| <code><a href="#@cdktn/provider-awscc.gameliftFleet.GameliftFleetScalingPolicies.property.location">location</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#location GameliftFleet#location}. |
+| <code><a href="#@cdktn/provider-awscc.gameliftFleet.GameliftFleetScalingPolicies.property.location">location</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#location GameliftFleet#location}. |
 | <code><a href="#@cdktn/provider-awscc.gameliftFleet.GameliftFleetScalingPolicies.property.metricName">metricName</a></code> | <code>java.lang.String</code> | Name of the Amazon GameLift-defined metric that is used to trigger a scaling adjustment. |
 | <code><a href="#@cdktn/provider-awscc.gameliftFleet.GameliftFleetScalingPolicies.property.name">name</a></code> | <code>java.lang.String</code> | A descriptive label that is associated with a fleet's scaling policy. Policy names do not need to be unique. |
 | <code><a href="#@cdktn/provider-awscc.gameliftFleet.GameliftFleetScalingPolicies.property.policyType">policyType</a></code> | <code>java.lang.String</code> | The type of scaling policy to create. |
@@ -3403,7 +3403,7 @@ public java.lang.String getComparisonOperator();
 
 Comparison operator to use when measuring a metric against the threshold value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#comparison_operator GameliftFleet#comparison_operator}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#comparison_operator GameliftFleet#comparison_operator}
 
 ---
 
@@ -3417,7 +3417,7 @@ public java.lang.Number getEvaluationPeriods();
 
 Length of time (in minutes) the metric must be at or beyond the threshold before a scaling event is triggered.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#evaluation_periods GameliftFleet#evaluation_periods}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#evaluation_periods GameliftFleet#evaluation_periods}
 
 ---
 
@@ -3429,7 +3429,7 @@ public java.lang.String getLocation();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#location GameliftFleet#location}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#location GameliftFleet#location}.
 
 ---
 
@@ -3445,7 +3445,7 @@ Name of the Amazon GameLift-defined metric that is used to trigger a scaling adj
 
 This is required for RuleBased and TargetBased policies.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#metric_name GameliftFleet#metric_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#metric_name GameliftFleet#metric_name}
 
 ---
 
@@ -3459,7 +3459,7 @@ public java.lang.String getName();
 
 A descriptive label that is associated with a fleet's scaling policy. Policy names do not need to be unique.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#name GameliftFleet#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#name GameliftFleet#name}
 
 ---
 
@@ -3475,7 +3475,7 @@ The type of scaling policy to create.
 
 For a target-based policy, set the parameter MetricName to 'PercentAvailableGameSessions' and specify a TargetConfiguration. For a rule-based policy set the following parameters: MetricName, ComparisonOperator, Threshold, EvaluationPeriods, ScalingAdjustmentType, and ScalingAdjustment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#policy_type GameliftFleet#policy_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#policy_type GameliftFleet#policy_type}
 
 ---
 
@@ -3489,7 +3489,7 @@ public java.lang.Number getScalingAdjustment();
 
 Amount of adjustment to make, based on the scaling adjustment type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#scaling_adjustment GameliftFleet#scaling_adjustment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#scaling_adjustment GameliftFleet#scaling_adjustment}
 
 ---
 
@@ -3503,7 +3503,7 @@ public java.lang.String getScalingAdjustmentType();
 
 The type of adjustment to make to a fleet's instance count.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#scaling_adjustment_type GameliftFleet#scaling_adjustment_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#scaling_adjustment_type GameliftFleet#scaling_adjustment_type}
 
 ---
 
@@ -3519,7 +3519,7 @@ Current status of the scaling policy.
 
 The scaling policy can be in force only when in an ACTIVE status. Scaling policies can be suspended for individual fleets. If the policy is suspended for a fleet, the policy status does not change.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#status GameliftFleet#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#status GameliftFleet#status}
 
 ---
 
@@ -3533,7 +3533,7 @@ public GameliftFleetScalingPoliciesTargetConfiguration getTargetConfiguration();
 
 An object that contains settings for a target-based scaling policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#target_configuration GameliftFleet#target_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#target_configuration GameliftFleet#target_configuration}
 
 ---
 
@@ -3547,7 +3547,7 @@ public java.lang.Number getThreshold();
 
 Metric value used to trigger a scaling event.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#threshold GameliftFleet#threshold}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#threshold GameliftFleet#threshold}
 
 ---
 
@@ -3563,7 +3563,7 @@ The current status of the fleet's scaling policies in a requested fleet location
 
 The status PENDING_UPDATE indicates that an update was requested for the fleet but has not yet been completed for the location.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#update_status GameliftFleet#update_status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#update_status GameliftFleet#update_status}
 
 ---
 
@@ -3599,7 +3599,7 @@ Desired value to use with a target-based scaling policy.
 
 The value must be relevant for whatever metric the scaling policy is using. For example, in a policy using the metric PercentAvailableGameSessions, the target value should be the preferred size of the fleet's buffer (the percent of capacity that should be idle and ready for new game sessions).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#target_value GameliftFleet#target_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#target_value GameliftFleet#target_value}
 
 ---
 
@@ -3637,7 +3637,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#key GameliftFleet#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#key GameliftFleet#key}
 
 ---
 
@@ -3651,7 +3651,7 @@ public java.lang.String getValue();
 
 The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#value GameliftFleet#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_fleet#value GameliftFleet#value}
 
 ---
 

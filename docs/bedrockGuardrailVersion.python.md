@@ -4,7 +4,7 @@
 
 ### BedrockGuardrailVersion <a name="BedrockGuardrailVersion" id="@cdktn/provider-awscc.bedrockGuardrailVersion.BedrockGuardrailVersion"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_guardrail_version awscc_bedrock_guardrail_version}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_guardrail_version awscc_bedrock_guardrail_version}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockGuardrailVersion.BedrockGuardrailVersion.Initializer"></a>
 
@@ -108,7 +108,7 @@ Must be unique amongst siblings in the same scope
 
 Identifier (GuardrailId or GuardrailArn) for the guardrail.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_guardrail_version#guardrail_identifier BedrockGuardrailVersion#guardrail_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_guardrail_version#guardrail_identifier BedrockGuardrailVersion#guardrail_identifier}
 
 ---
 
@@ -118,7 +118,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Description of the Guardrail version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_guardrail_version#description BedrockGuardrailVersion#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_guardrail_version#description BedrockGuardrailVersion#description}
 
 ---
 
@@ -622,7 +622,7 @@ The construct id used in the generated config for the BedrockGuardrailVersion to
 
 The id of the existing BedrockGuardrailVersion that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_guardrail_version#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_guardrail_version#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1021,7 +1021,7 @@ guardrail_identifier: str
 
 Identifier (GuardrailId or GuardrailArn) for the guardrail.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_guardrail_version#guardrail_identifier BedrockGuardrailVersion#guardrail_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_guardrail_version#guardrail_identifier BedrockGuardrailVersion#guardrail_identifier}
 
 ---
 
@@ -1035,7 +1035,7 @@ description: str
 
 Description of the Guardrail version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_guardrail_version#description BedrockGuardrailVersion#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_guardrail_version#description BedrockGuardrailVersion#description}
 
 ---
 

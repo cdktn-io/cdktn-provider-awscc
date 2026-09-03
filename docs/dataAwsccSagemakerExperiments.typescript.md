@@ -4,7 +4,7 @@
 
 ### DataAwsccSagemakerExperiments <a name="DataAwsccSagemakerExperiments" id="@cdktn/provider-awscc.dataAwsccSagemakerExperiments.DataAwsccSagemakerExperiments"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/sagemaker_experiments awscc_sagemaker_experiments}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/sagemaker_experiments awscc_sagemaker_experiments}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerExperiments.DataAwsccSagemakerExperiments.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSagemakerExperime
 
 The id of the existing DataAwsccSagemakerExperiments that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/sagemaker_experiments#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/sagemaker_experiments#import import section} in the documentation of this resource for the id to use
 
 ---
 

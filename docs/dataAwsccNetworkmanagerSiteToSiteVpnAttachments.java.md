@@ -4,7 +4,7 @@
 
 ### DataAwsccNetworkmanagerSiteToSiteVpnAttachments <a name="DataAwsccNetworkmanagerSiteToSiteVpnAttachments" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerSiteToSiteVpnAttachments.DataAwsccNetworkmanagerSiteToSiteVpnAttachments"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/networkmanager_site_to_site_vpn_attachments awscc_networkmanager_site_to_site_vpn_attachments}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/networkmanager_site_to_site_vpn_attachments awscc_networkmanager_site_to_site_vpn_attachments}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerSiteToSiteVpnAttachments.DataAwsccNetworkmanagerSiteToSiteVpnAttachments.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccNetworkmanagerSit
 
 The id of the existing DataAwsccNetworkmanagerSiteToSiteVpnAttachments that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/networkmanager_site_to_site_vpn_attachments#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/networkmanager_site_to_site_vpn_attachments#import import section} in the documentation of this resource for the id to use
 
 ---
 

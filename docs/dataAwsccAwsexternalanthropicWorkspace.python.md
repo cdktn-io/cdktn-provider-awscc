@@ -4,7 +4,7 @@
 
 ### DataAwsccAwsexternalanthropicWorkspace <a name="DataAwsccAwsexternalanthropicWorkspace" id="@cdktn/provider-awscc.dataAwsccAwsexternalanthropicWorkspace.DataAwsccAwsexternalanthropicWorkspace"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/awsexternalanthropic_workspace awscc_awsexternalanthropic_workspace}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/awsexternalanthropic_workspace awscc_awsexternalanthropic_workspace}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAwsexternalanthropicWorkspace.DataAwsccAwsexternalanthropicWorkspace.Initializer"></a>
 
@@ -106,7 +106,7 @@ Must be unique amongst siblings in the same scope
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/awsexternalanthropic_workspace#id DataAwsccAwsexternalanthropicWorkspace#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/awsexternalanthropic_workspace#id DataAwsccAwsexternalanthropicWorkspace#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -492,7 +492,7 @@ The construct id used in the generated config for the DataAwsccAwsexternalanthro
 
 The id of the existing DataAwsccAwsexternalanthropicWorkspace that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/awsexternalanthropic_workspace#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/awsexternalanthropic_workspace#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -867,7 +867,7 @@ id: str
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/awsexternalanthropic_workspace#id DataAwsccAwsexternalanthropicWorkspace#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/awsexternalanthropic_workspace#id DataAwsccAwsexternalanthropicWorkspace#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

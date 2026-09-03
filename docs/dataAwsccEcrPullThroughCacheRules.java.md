@@ -4,7 +4,7 @@
 
 ### DataAwsccEcrPullThroughCacheRules <a name="DataAwsccEcrPullThroughCacheRules" id="@cdktn/provider-awscc.dataAwsccEcrPullThroughCacheRules.DataAwsccEcrPullThroughCacheRules"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ecr_pull_through_cache_rules awscc_ecr_pull_through_cache_rules}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ecr_pull_through_cache_rules awscc_ecr_pull_through_cache_rules}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcrPullThroughCacheRules.DataAwsccEcrPullThroughCacheRules.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccEcrPullThroughCac
 
 The id of the existing DataAwsccEcrPullThroughCacheRules that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ecr_pull_through_cache_rules#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ecr_pull_through_cache_rules#import import section} in the documentation of this resource for the id to use
 
 ---
 

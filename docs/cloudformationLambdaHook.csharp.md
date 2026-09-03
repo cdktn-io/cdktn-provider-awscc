@@ -4,7 +4,7 @@
 
 ### CloudformationLambdaHook <a name="CloudformationLambdaHook" id="@cdktn/provider-awscc.cloudformationLambdaHook.CloudformationLambdaHook"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_lambda_hook awscc_cloudformation_lambda_hook}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudformation_lambda_hook awscc_cloudformation_lambda_hook}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudformationLambdaHook.CloudformationLambdaHook.Initializer"></a>
 
@@ -563,7 +563,7 @@ The construct id used in the generated config for the CloudformationLambdaHook t
 
 The id of the existing CloudformationLambdaHook that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_lambda_hook#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudformation_lambda_hook#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1132,7 +1132,7 @@ public string Alias { get; set; }
 
 The typename alias for the hook.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_lambda_hook#alias CloudformationLambdaHook#alias}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudformation_lambda_hook#alias CloudformationLambdaHook#alias}
 
 ---
 
@@ -1146,7 +1146,7 @@ public string ExecutionRole { get; set; }
 
 The execution role ARN assumed by Hooks to invoke Lambda.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_lambda_hook#execution_role CloudformationLambdaHook#execution_role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudformation_lambda_hook#execution_role CloudformationLambdaHook#execution_role}
 
 ---
 
@@ -1160,7 +1160,7 @@ public string FailureMode { get; set; }
 
 Attribute to specify CloudFormation behavior on hook failure.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_lambda_hook#failure_mode CloudformationLambdaHook#failure_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudformation_lambda_hook#failure_mode CloudformationLambdaHook#failure_mode}
 
 ---
 
@@ -1174,7 +1174,7 @@ public string LambdaFunction { get; set; }
 
 Amazon Resource Name (ARN), Partial ARN, name, version, or alias of the Lambda function to invoke with this hook.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_lambda_hook#lambda_function CloudformationLambdaHook#lambda_function}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudformation_lambda_hook#lambda_function CloudformationLambdaHook#lambda_function}
 
 ---
 
@@ -1188,7 +1188,7 @@ public string[] TargetOperations { get; set; }
 
 Which operations should this Hook run against? Resource changes, stacks or change sets.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_lambda_hook#target_operations CloudformationLambdaHook#target_operations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudformation_lambda_hook#target_operations CloudformationLambdaHook#target_operations}
 
 ---
 
@@ -1202,7 +1202,7 @@ public bool|IResolvable AutoUpdate { get; set; }
 
 Whether to automatically update the extension in this account and Region when a new minor version is published by the extension publisher.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_lambda_hook#auto_update CloudformationLambdaHook#auto_update}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudformation_lambda_hook#auto_update CloudformationLambdaHook#auto_update}
 
 ---
 
@@ -1216,7 +1216,7 @@ public string HookStatus { get; set; }
 
 Attribute to specify which stacks this hook applies to or should get invoked for.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_lambda_hook#hook_status CloudformationLambdaHook#hook_status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudformation_lambda_hook#hook_status CloudformationLambdaHook#hook_status}
 
 ---
 
@@ -1230,7 +1230,7 @@ public CloudformationLambdaHookLoggingConfig LoggingConfig { get; set; }
 
 Contains logging configuration information for the hook.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_lambda_hook#logging_config CloudformationLambdaHook#logging_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudformation_lambda_hook#logging_config CloudformationLambdaHook#logging_config}
 
 ---
 
@@ -1244,7 +1244,7 @@ public CloudformationLambdaHookStackFilters StackFilters { get; set; }
 
 Filters to allow hooks to target specific stack attributes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_lambda_hook#stack_filters CloudformationLambdaHook#stack_filters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudformation_lambda_hook#stack_filters CloudformationLambdaHook#stack_filters}
 
 ---
 
@@ -1258,7 +1258,7 @@ public CloudformationLambdaHookTargetFilters TargetFilters { get; set; }
 
 Attribute to specify which targets should invoke the hook.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_lambda_hook#target_filters CloudformationLambdaHook#target_filters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudformation_lambda_hook#target_filters CloudformationLambdaHook#target_filters}
 
 ---
 
@@ -1294,7 +1294,7 @@ public string LogGroupName { get; set; }
 
 The Amazon CloudWatch Logs group to which CloudFormation sends error logging information when invoking the extension's handlers.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_lambda_hook#log_group_name CloudformationLambdaHook#log_group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudformation_lambda_hook#log_group_name CloudformationLambdaHook#log_group_name}
 
 ---
 
@@ -1308,7 +1308,7 @@ public string LogRoleArn { get; set; }
 
 The ARN of the role that CloudFormation should assume when sending log entries to CloudWatch Logs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_lambda_hook#log_role_arn CloudformationLambdaHook#log_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudformation_lambda_hook#log_role_arn CloudformationLambdaHook#log_role_arn}
 
 ---
 
@@ -1348,7 +1348,7 @@ Attribute to specify the filtering behavior.
 
 ANY will make the Hook pass if one filter matches. ALL will make the Hook pass if all filters match
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_lambda_hook#filtering_criteria CloudformationLambdaHook#filtering_criteria}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudformation_lambda_hook#filtering_criteria CloudformationLambdaHook#filtering_criteria}
 
 ---
 
@@ -1362,7 +1362,7 @@ public CloudformationLambdaHookStackFiltersStackNames StackNames { get; set; }
 
 List of stack names as filters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_lambda_hook#stack_names CloudformationLambdaHook#stack_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudformation_lambda_hook#stack_names CloudformationLambdaHook#stack_names}
 
 ---
 
@@ -1376,7 +1376,7 @@ public CloudformationLambdaHookStackFiltersStackRoles StackRoles { get; set; }
 
 List of stack roles that are performing the stack operations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_lambda_hook#stack_roles CloudformationLambdaHook#stack_roles}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudformation_lambda_hook#stack_roles CloudformationLambdaHook#stack_roles}
 
 ---
 
@@ -1412,7 +1412,7 @@ public string[] Exclude { get; set; }
 
 List of stack names that the hook is going to be excluded from.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_lambda_hook#exclude CloudformationLambdaHook#exclude}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudformation_lambda_hook#exclude CloudformationLambdaHook#exclude}
 
 ---
 
@@ -1426,7 +1426,7 @@ public string[] Include { get; set; }
 
 List of stack names that the hook is going to target.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_lambda_hook#include CloudformationLambdaHook#include}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudformation_lambda_hook#include CloudformationLambdaHook#include}
 
 ---
 
@@ -1462,7 +1462,7 @@ public string[] Exclude { get; set; }
 
 List of stack roles that the hook is going to be excluded from.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_lambda_hook#exclude CloudformationLambdaHook#exclude}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudformation_lambda_hook#exclude CloudformationLambdaHook#exclude}
 
 ---
 
@@ -1476,7 +1476,7 @@ public string[] Include { get; set; }
 
 List of stack roles that the hook is going to target.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_lambda_hook#include CloudformationLambdaHook#include}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudformation_lambda_hook#include CloudformationLambdaHook#include}
 
 ---
 
@@ -1516,7 +1516,7 @@ public string[] Actions { get; set; }
 
 List of actions that the hook is going to target.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_lambda_hook#actions CloudformationLambdaHook#actions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudformation_lambda_hook#actions CloudformationLambdaHook#actions}
 
 ---
 
@@ -1530,7 +1530,7 @@ public string[] InvocationPoints { get; set; }
 
 List of invocation points that the hook is going to target.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_lambda_hook#invocation_points CloudformationLambdaHook#invocation_points}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudformation_lambda_hook#invocation_points CloudformationLambdaHook#invocation_points}
 
 ---
 
@@ -1544,7 +1544,7 @@ public string[] TargetNames { get; set; }
 
 List of type names that the hook is going to target.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_lambda_hook#target_names CloudformationLambdaHook#target_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudformation_lambda_hook#target_names CloudformationLambdaHook#target_names}
 
 ---
 
@@ -1558,7 +1558,7 @@ public IResolvable|CloudformationLambdaHookTargetFiltersTargets[] Targets { get;
 
 List of hook targets.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_lambda_hook#targets CloudformationLambdaHook#targets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudformation_lambda_hook#targets CloudformationLambdaHook#targets}
 
 ---
 
@@ -1596,7 +1596,7 @@ public string Action { get; set; }
 
 Target actions are the type of operation hooks will be executed at.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_lambda_hook#action CloudformationLambdaHook#action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudformation_lambda_hook#action CloudformationLambdaHook#action}
 
 ---
 
@@ -1610,7 +1610,7 @@ public string InvocationPoint { get; set; }
 
 Invocation points are the point in provisioning workflow where hooks will be executed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_lambda_hook#invocation_point CloudformationLambdaHook#invocation_point}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudformation_lambda_hook#invocation_point CloudformationLambdaHook#invocation_point}
 
 ---
 
@@ -1624,7 +1624,7 @@ public string TargetName { get; set; }
 
 Type name of hook target. Hook targets are the destination where hooks will be invoked against.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_lambda_hook#target_name CloudformationLambdaHook#target_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudformation_lambda_hook#target_name CloudformationLambdaHook#target_name}
 
 ---
 

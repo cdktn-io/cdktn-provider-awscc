@@ -4,7 +4,7 @@
 
 ### LambdaLayerVersion <a name="LambdaLayerVersion" id="@cdktn/provider-awscc.lambdaLayerVersion.LambdaLayerVersion"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lambda_layer_version awscc_lambda_layer_version}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lambda_layer_version awscc_lambda_layer_version}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lambdaLayerVersion.LambdaLayerVersion.Initializer"></a>
 
@@ -537,7 +537,7 @@ The construct id used in the generated config for the LambdaLayerVersion to impo
 
 The id of the existing LambdaLayerVersion that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lambda_layer_version#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lambda_layer_version#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1010,7 +1010,7 @@ Content LambdaLayerVersionContent
 
 The function layer archive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lambda_layer_version#content LambdaLayerVersion#content}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lambda_layer_version#content LambdaLayerVersion#content}
 
 ---
 
@@ -1024,7 +1024,7 @@ CompatibleArchitectures *[]*string
 
 A list of compatible instruction set architectures.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lambda_layer_version#compatible_architectures LambdaLayerVersion#compatible_architectures}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lambda_layer_version#compatible_architectures LambdaLayerVersion#compatible_architectures}
 
 ---
 
@@ -1038,7 +1038,7 @@ CompatibleRuntimes *[]*string
 
 A list of compatible function runtimes. Used for filtering with ListLayers and ListLayerVersions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lambda_layer_version#compatible_runtimes LambdaLayerVersion#compatible_runtimes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lambda_layer_version#compatible_runtimes LambdaLayerVersion#compatible_runtimes}
 
 ---
 
@@ -1052,7 +1052,7 @@ Description *string
 
 The description of the version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lambda_layer_version#description LambdaLayerVersion#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lambda_layer_version#description LambdaLayerVersion#description}
 
 ---
 
@@ -1066,7 +1066,7 @@ LayerName *string
 
 The name or Amazon Resource Name (ARN) of the layer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lambda_layer_version#layer_name LambdaLayerVersion#layer_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lambda_layer_version#layer_name LambdaLayerVersion#layer_name}
 
 ---
 
@@ -1080,7 +1080,7 @@ LicenseInfo *string
 
 The layer's software license.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lambda_layer_version#license_info LambdaLayerVersion#license_info}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lambda_layer_version#license_info LambdaLayerVersion#license_info}
 
 ---
 
@@ -1120,7 +1120,7 @@ S3Bucket *string
 
 The Amazon S3 bucket of the layer archive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lambda_layer_version#s3_bucket LambdaLayerVersion#s3_bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lambda_layer_version#s3_bucket LambdaLayerVersion#s3_bucket}
 
 ---
 
@@ -1134,7 +1134,7 @@ S3Key *string
 
 The Amazon S3 key of the layer archive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lambda_layer_version#s3_key LambdaLayerVersion#s3_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lambda_layer_version#s3_key LambdaLayerVersion#s3_key}
 
 ---
 
@@ -1148,7 +1148,7 @@ S3ObjectStorageMode *string
 
 Specifies whether Lambda should copy the deployment package to its internal storage (COPY) or reference it directly from your S3 bucket (REFERENCE).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lambda_layer_version#s3_object_storage_mode LambdaLayerVersion#s3_object_storage_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lambda_layer_version#s3_object_storage_mode LambdaLayerVersion#s3_object_storage_mode}
 
 ---
 
@@ -1162,7 +1162,7 @@ S3ObjectVersion *string
 
 For versioned objects, the version of the layer archive object to use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lambda_layer_version#s3_object_version LambdaLayerVersion#s3_object_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lambda_layer_version#s3_object_version LambdaLayerVersion#s3_object_version}
 
 ---
 

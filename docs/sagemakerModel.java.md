@@ -4,7 +4,7 @@
 
 ### SagemakerModel <a name="SagemakerModel" id="@cdktn/provider-awscc.sagemakerModel.SagemakerModel"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_model awscc_sagemaker_model}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_model awscc_sagemaker_model}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sagemakerModel.SagemakerModel.Initializer"></a>
 
@@ -118,7 +118,7 @@ Must be unique amongst siblings in the same scope
 
 Specifies the containers in the inference pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_model#containers SagemakerModel#containers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_model#containers SagemakerModel#containers}
 
 ---
 
@@ -128,7 +128,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Isolates the model container. No inbound or outbound network calls can be made to or from the model container.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_model#enable_network_isolation SagemakerModel#enable_network_isolation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_model#enable_network_isolation SagemakerModel#enable_network_isolation}
 
 ---
 
@@ -138,7 +138,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The Amazon Resource Name (ARN) of the IAM role that you specified for the model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_model#execution_role_arn SagemakerModel#execution_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_model#execution_role_arn SagemakerModel#execution_role_arn}
 
 ---
 
@@ -148,7 +148,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Specifies details about how containers in a multi-container endpoint are run.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_model#inference_execution_config SagemakerModel#inference_execution_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_model#inference_execution_config SagemakerModel#inference_execution_config}
 
 ---
 
@@ -158,7 +158,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the new model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_model#model_name SagemakerModel#model_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_model#model_name SagemakerModel#model_name}
 
 ---
 
@@ -168,7 +168,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Describes the container, as part of model definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_model#primary_container SagemakerModel#primary_container}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_model#primary_container SagemakerModel#primary_container}
 
 ---
 
@@ -180,7 +180,7 @@ An array of key-value pairs.
 
 You can use tags to categorize your AWS resources in different ways, for example, by purpose, owner, or environment. For more information, see [Tagging AWS Resources](https://docs.aws.amazon.com/general/latest/gr/aws_tagging.html).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_model#tags SagemakerModel#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_model#tags SagemakerModel#tags}
 
 ---
 
@@ -192,7 +192,7 @@ Specifies an Amazon Virtual Private Cloud (VPC) that your SageMaker jobs, hosted
 
 You can control access to and from your resources by configuring a VPC. For more information, see [Give SageMaker Access to Resources in your Amazon VPC](https://docs.aws.amazon.com/sagemaker/latest/dg/infrastructure-give-access.html).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_model#vpc_config SagemakerModel#vpc_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_model#vpc_config SagemakerModel#vpc_config}
 
 ---
 
@@ -762,7 +762,7 @@ The construct id used in the generated config for the SagemakerModel to import.
 
 The id of the existing SagemakerModel that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_model#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_model#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1283,7 +1283,7 @@ public IResolvable|java.util.List<SagemakerModelContainers> getContainers();
 
 Specifies the containers in the inference pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_model#containers SagemakerModel#containers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_model#containers SagemakerModel#containers}
 
 ---
 
@@ -1297,7 +1297,7 @@ public java.lang.Boolean|IResolvable getEnableNetworkIsolation();
 
 Isolates the model container. No inbound or outbound network calls can be made to or from the model container.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_model#enable_network_isolation SagemakerModel#enable_network_isolation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_model#enable_network_isolation SagemakerModel#enable_network_isolation}
 
 ---
 
@@ -1311,7 +1311,7 @@ public java.lang.String getExecutionRoleArn();
 
 The Amazon Resource Name (ARN) of the IAM role that you specified for the model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_model#execution_role_arn SagemakerModel#execution_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_model#execution_role_arn SagemakerModel#execution_role_arn}
 
 ---
 
@@ -1325,7 +1325,7 @@ public SagemakerModelInferenceExecutionConfig getInferenceExecutionConfig();
 
 Specifies details about how containers in a multi-container endpoint are run.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_model#inference_execution_config SagemakerModel#inference_execution_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_model#inference_execution_config SagemakerModel#inference_execution_config}
 
 ---
 
@@ -1339,7 +1339,7 @@ public java.lang.String getModelName();
 
 The name of the new model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_model#model_name SagemakerModel#model_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_model#model_name SagemakerModel#model_name}
 
 ---
 
@@ -1353,7 +1353,7 @@ public SagemakerModelPrimaryContainer getPrimaryContainer();
 
 Describes the container, as part of model definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_model#primary_container SagemakerModel#primary_container}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_model#primary_container SagemakerModel#primary_container}
 
 ---
 
@@ -1369,7 +1369,7 @@ An array of key-value pairs.
 
 You can use tags to categorize your AWS resources in different ways, for example, by purpose, owner, or environment. For more information, see [Tagging AWS Resources](https://docs.aws.amazon.com/general/latest/gr/aws_tagging.html).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_model#tags SagemakerModel#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_model#tags SagemakerModel#tags}
 
 ---
 
@@ -1385,7 +1385,7 @@ Specifies an Amazon Virtual Private Cloud (VPC) that your SageMaker jobs, hosted
 
 You can control access to and from your resources by configuring a VPC. For more information, see [Give SageMaker Access to Resources in your Amazon VPC](https://docs.aws.amazon.com/sagemaker/latest/dg/infrastructure-give-access.html).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_model#vpc_config SagemakerModel#vpc_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_model#vpc_config SagemakerModel#vpc_config}
 
 ---
 
@@ -1439,7 +1439,7 @@ This parameter is ignored for models that contain only a PrimaryContainer.
 
 When a ContainerDefinition is part of an inference pipeline, the value of the parameter uniquely identifies the container for the purposes of logging and metrics. For information, see [Use Logs and Metrics to Monitor an Inference Pipeline](https://docs.aws.amazon.com/sagemaker/latest/dg/inference-pipeline-logs-metrics.html). If you don't specify a value for this parameter for a ContainerDefinition that is part of an inference pipeline, a unique name is automatically assigned based on the position of the ContainerDefinition in the pipeline. If you specify a value for the ContainerHostName for any ContainerDefinition that is part of an inference pipeline, you must specify a value for the ContainerHostName parameter of every ContainerDefinition in that pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_model#container_hostname SagemakerModel#container_hostname}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_model#container_hostname SagemakerModel#container_hostname}
 
 ---
 
@@ -1455,7 +1455,7 @@ The environment variables to set in the Docker container. Don't include any sens
 
 The maximum length of each key and value in the Environment map is 1024 bytes. The maximum length of all keys and values in the map, combined, is 32 KB. If you pass multiple containers to a CreateModel request, then the maximum length of all of their maps, combined, is also 32 KB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_model#environment SagemakerModel#environment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_model#environment SagemakerModel#environment}
 
 ---
 
@@ -1471,7 +1471,7 @@ The path where inference code is stored.
 
 This can be either in Amazon EC2 Container Registry or in a Docker registry that is accessible from the same VPC that you configure for your endpoint. If you are using your own custom algorithm instead of an algorithm provided by SageMaker, the inference code must meet SageMaker requirements. SageMaker supports both registry/repository[:tag] and registry/repository[@digest] image path formats. For more information, see [Using Your Own Algorithms with Amazon SageMaker](https://docs.aws.amazon.com/sagemaker/latest/dg/your-algorithms.html).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_model#image SagemakerModel#image}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_model#image SagemakerModel#image}
 
 ---
 
@@ -1485,7 +1485,7 @@ public SagemakerModelContainersImageConfig getImageConfig();
 
 Specifies whether the model container is in Amazon ECR or a private Docker registry accessible from your Amazon Virtual Private Cloud (VPC).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_model#image_config SagemakerModel#image_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_model#image_config SagemakerModel#image_config}
 
 ---
 
@@ -1499,7 +1499,7 @@ public java.lang.String getInferenceSpecificationName();
 
 The inference specification name in the model package version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_model#inference_specification_name SagemakerModel#inference_specification_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_model#inference_specification_name SagemakerModel#inference_specification_name}
 
 ---
 
@@ -1513,7 +1513,7 @@ public java.lang.String getMode();
 
 Whether the container hosts a single model or multiple models.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_model#mode SagemakerModel#mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_model#mode SagemakerModel#mode}
 
 ---
 
@@ -1529,7 +1529,7 @@ Specifies the location of ML model data to deploy.
 
 If specified, you must specify one and only one of the available data sources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_model#model_data_source SagemakerModel#model_data_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_model#model_data_source SagemakerModel#model_data_source}
 
 ---
 
@@ -1547,7 +1547,7 @@ This path must point to a single gzip compressed tar archive (.tar.gz suffix). T
 
 If you provide a value for this parameter, SageMaker uses AWS Security Token Service to download model artifacts from the S3 path you provide. AWS STS is activated in your AWS account by default. If you previously deactivated AWS STS for a region, you need to reactivate AWS STS for that region. For more information, see [Activating and Deactivating AWS STS in an AWS Region](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_temp_enable-regions.html) in the AWS Identity and Access Management User Guide
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_model#model_data_url SagemakerModel#model_data_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_model#model_data_url SagemakerModel#model_data_url}
 
 ---
 
@@ -1561,7 +1561,7 @@ public java.lang.String getModelPackageName();
 
 The name or Amazon Resource Name (ARN) of the model package to use to create the model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_model#model_package_name SagemakerModel#model_package_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_model#model_package_name SagemakerModel#model_package_name}
 
 ---
 
@@ -1575,7 +1575,7 @@ public SagemakerModelContainersMultiModelConfig getMultiModelConfig();
 
 Specifies additional configuration for multi-model endpoints.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_model#multi_model_config SagemakerModel#multi_model_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_model#multi_model_config SagemakerModel#multi_model_config}
 
 ---
 
@@ -1613,7 +1613,7 @@ Set this to one of the following values: Platform - The model image is hosted in
 
 Vpc - The model image is hosted in a private Docker registry in your VPC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_model#repository_access_mode SagemakerModel#repository_access_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_model#repository_access_mode SagemakerModel#repository_access_mode}
 
 ---
 
@@ -1629,7 +1629,7 @@ Specifies an authentication configuration for the private docker registry where 
 
 Specify a value for this property only if you specified `Vpc` as the value for the `RepositoryAccessMode` field of the `ImageConfig` object that you passed to a call to `CreateModel` and the private Docker registry where the model image is hosted requires authentication.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_model#repository_auth_config SagemakerModel#repository_auth_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_model#repository_auth_config SagemakerModel#repository_auth_config}
 
 ---
 
@@ -1665,7 +1665,7 @@ The Amazon Resource Name (ARN) of an AWS Lambda function that provides credentia
 
 For information about how to create an AWS Lambda function, see [Create a Lambda function with the console](https://docs.aws.amazon.com/lambda/latest/dg/getting-started-create-function.html) in the AWS Lambda Developer Guide
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_model#repository_credentials_provider_arn SagemakerModel#repository_credentials_provider_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_model#repository_credentials_provider_arn SagemakerModel#repository_credentials_provider_arn}
 
 ---
 
@@ -1699,7 +1699,7 @@ public SagemakerModelContainersModelDataSourceS3DataSource getS3DataSource();
 
 Specifies the S3 location of ML model data to deploy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_model#s3_data_source SagemakerModel#s3_data_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_model#s3_data_source SagemakerModel#s3_data_source}
 
 ---
 
@@ -1741,7 +1741,7 @@ public java.lang.String getCompressionType();
 
 Specifies how the ML model data is prepared.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_model#compression_type SagemakerModel#compression_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_model#compression_type SagemakerModel#compression_type}
 
 ---
 
@@ -1755,7 +1755,7 @@ public SagemakerModelContainersModelDataSourceS3DataSourceHubAccessConfig getHub
 
 Configuration information specifying which hub contents have accessible deployment options.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_model#hub_access_config SagemakerModel#hub_access_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_model#hub_access_config SagemakerModel#hub_access_config}
 
 ---
 
@@ -1771,7 +1771,7 @@ The access configuration file to control access to the ML model.
 
 You can explicitly accept the model end-user license agreement (EULA) within the `ModelAccessConfig`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_model#model_access_config SagemakerModel#model_access_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_model#model_access_config SagemakerModel#model_access_config}
 
 ---
 
@@ -1785,7 +1785,7 @@ public java.lang.String getS3DataType();
 
 Specifies the type of ML model data to deploy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_model#s3_data_type SagemakerModel#s3_data_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_model#s3_data_type SagemakerModel#s3_data_type}
 
 ---
 
@@ -1799,7 +1799,7 @@ public java.lang.String getS3Uri();
 
 Specifies the S3 path of ML model data to deploy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_model#s3_uri SagemakerModel#s3_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_model#s3_uri SagemakerModel#s3_uri}
 
 ---
 
@@ -1833,7 +1833,7 @@ public java.lang.String getHubContentArn();
 
 The ARN of the hub content for which deployment access is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_model#hub_content_arn SagemakerModel#hub_content_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_model#hub_content_arn SagemakerModel#hub_content_arn}
 
 ---
 
@@ -1869,7 +1869,7 @@ Specifies agreement to the model end-user license agreement (EULA).
 
 The `AcceptEula` value must be explicitly defined as `True` in order to accept the EULA that this model requires. You are responsible for reviewing and complying with any applicable license terms and making sure they are acceptable for your use case before downloading or using a model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_model#accept_eula SagemakerModel#accept_eula}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_model#accept_eula SagemakerModel#accept_eula}
 
 ---
 
@@ -1905,7 +1905,7 @@ Whether to cache models for a multi-model endpoint.
 
 By default, multi-model endpoints cache models so that a model does not have to be loaded into memory each time it is invoked. Some use cases do not benefit from model caching. For example, if an endpoint hosts a large number of models that are each invoked infrequently, the endpoint might perform better if you disable model caching. To disable model caching, set the value of this parameter to `Disabled`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_model#model_cache_setting SagemakerModel#model_cache_setting}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_model#model_cache_setting SagemakerModel#model_cache_setting}
 
 ---
 
@@ -1939,7 +1939,7 @@ public java.lang.String getMode();
 
 How containers in a multi-container are run.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_model#mode SagemakerModel#mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_model#mode SagemakerModel#mode}
 
 ---
 
@@ -1993,7 +1993,7 @@ This parameter is ignored for models that contain only a PrimaryContainer.
 
 When a ContainerDefinition is part of an inference pipeline, the value of the parameter uniquely identifies the container for the purposes of logging and metrics. For information, see [Use Logs and Metrics to Monitor an Inference Pipeline](https://docs.aws.amazon.com/sagemaker/latest/dg/inference-pipeline-logs-metrics.html). If you don't specify a value for this parameter for a ContainerDefinition that is part of an inference pipeline, a unique name is automatically assigned based on the position of the ContainerDefinition in the pipeline. If you specify a value for the ContainerHostName for any ContainerDefinition that is part of an inference pipeline, you must specify a value for the ContainerHostName parameter of every ContainerDefinition in that pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_model#container_hostname SagemakerModel#container_hostname}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_model#container_hostname SagemakerModel#container_hostname}
 
 ---
 
@@ -2009,7 +2009,7 @@ The environment variables to set in the Docker container. Don't include any sens
 
 The maximum length of each key and value in the Environment map is 1024 bytes. The maximum length of all keys and values in the map, combined, is 32 KB. If you pass multiple containers to a CreateModel request, then the maximum length of all of their maps, combined, is also 32 KB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_model#environment SagemakerModel#environment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_model#environment SagemakerModel#environment}
 
 ---
 
@@ -2025,7 +2025,7 @@ The path where inference code is stored.
 
 This can be either in Amazon EC2 Container Registry or in a Docker registry that is accessible from the same VPC that you configure for your endpoint. If you are using your own custom algorithm instead of an algorithm provided by SageMaker, the inference code must meet SageMaker requirements. SageMaker supports both registry/repository[:tag] and registry/repository[@digest] image path formats. For more information, see [Using Your Own Algorithms with Amazon SageMaker](https://docs.aws.amazon.com/sagemaker/latest/dg/your-algorithms.html).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_model#image SagemakerModel#image}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_model#image SagemakerModel#image}
 
 ---
 
@@ -2039,7 +2039,7 @@ public SagemakerModelPrimaryContainerImageConfig getImageConfig();
 
 Specifies whether the model container is in Amazon ECR or a private Docker registry accessible from your Amazon Virtual Private Cloud (VPC).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_model#image_config SagemakerModel#image_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_model#image_config SagemakerModel#image_config}
 
 ---
 
@@ -2053,7 +2053,7 @@ public java.lang.String getInferenceSpecificationName();
 
 The inference specification name in the model package version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_model#inference_specification_name SagemakerModel#inference_specification_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_model#inference_specification_name SagemakerModel#inference_specification_name}
 
 ---
 
@@ -2067,7 +2067,7 @@ public java.lang.String getMode();
 
 Whether the container hosts a single model or multiple models.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_model#mode SagemakerModel#mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_model#mode SagemakerModel#mode}
 
 ---
 
@@ -2083,7 +2083,7 @@ Specifies the location of ML model data to deploy.
 
 If specified, you must specify one and only one of the available data sources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_model#model_data_source SagemakerModel#model_data_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_model#model_data_source SagemakerModel#model_data_source}
 
 ---
 
@@ -2101,7 +2101,7 @@ This path must point to a single gzip compressed tar archive (.tar.gz suffix). T
 
 If you provide a value for this parameter, SageMaker uses AWS Security Token Service to download model artifacts from the S3 path you provide. AWS STS is activated in your AWS account by default. If you previously deactivated AWS STS for a region, you need to reactivate AWS STS for that region. For more information, see [Activating and Deactivating AWS STS in an AWS Region](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_temp_enable-regions.html) in the AWS Identity and Access Management User Guide
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_model#model_data_url SagemakerModel#model_data_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_model#model_data_url SagemakerModel#model_data_url}
 
 ---
 
@@ -2115,7 +2115,7 @@ public java.lang.String getModelPackageName();
 
 The name or Amazon Resource Name (ARN) of the model package to use to create the model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_model#model_package_name SagemakerModel#model_package_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_model#model_package_name SagemakerModel#model_package_name}
 
 ---
 
@@ -2129,7 +2129,7 @@ public SagemakerModelPrimaryContainerMultiModelConfig getMultiModelConfig();
 
 Specifies additional configuration for multi-model endpoints.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_model#multi_model_config SagemakerModel#multi_model_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_model#multi_model_config SagemakerModel#multi_model_config}
 
 ---
 
@@ -2167,7 +2167,7 @@ Set this to one of the following values: Platform - The model image is hosted in
 
 Vpc - The model image is hosted in a private Docker registry in your VPC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_model#repository_access_mode SagemakerModel#repository_access_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_model#repository_access_mode SagemakerModel#repository_access_mode}
 
 ---
 
@@ -2183,7 +2183,7 @@ Specifies an authentication configuration for the private docker registry where 
 
 Specify a value for this property only if you specified `Vpc` as the value for the `RepositoryAccessMode` field of the `ImageConfig` object that you passed to a call to `CreateModel` and the private Docker registry where the model image is hosted requires authentication.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_model#repository_auth_config SagemakerModel#repository_auth_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_model#repository_auth_config SagemakerModel#repository_auth_config}
 
 ---
 
@@ -2219,7 +2219,7 @@ The Amazon Resource Name (ARN) of an AWS Lambda function that provides credentia
 
 For information about how to create an AWS Lambda function, see [Create a Lambda function with the console](https://docs.aws.amazon.com/lambda/latest/dg/getting-started-create-function.html) in the AWS Lambda Developer Guide
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_model#repository_credentials_provider_arn SagemakerModel#repository_credentials_provider_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_model#repository_credentials_provider_arn SagemakerModel#repository_credentials_provider_arn}
 
 ---
 
@@ -2253,7 +2253,7 @@ public SagemakerModelPrimaryContainerModelDataSourceS3DataSource getS3DataSource
 
 Specifies the S3 location of ML model data to deploy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_model#s3_data_source SagemakerModel#s3_data_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_model#s3_data_source SagemakerModel#s3_data_source}
 
 ---
 
@@ -2295,7 +2295,7 @@ public java.lang.String getCompressionType();
 
 Specifies how the ML model data is prepared.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_model#compression_type SagemakerModel#compression_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_model#compression_type SagemakerModel#compression_type}
 
 ---
 
@@ -2309,7 +2309,7 @@ public SagemakerModelPrimaryContainerModelDataSourceS3DataSourceHubAccessConfig 
 
 Configuration information specifying which hub contents have accessible deployment options.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_model#hub_access_config SagemakerModel#hub_access_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_model#hub_access_config SagemakerModel#hub_access_config}
 
 ---
 
@@ -2325,7 +2325,7 @@ The access configuration file to control access to the ML model.
 
 You can explicitly accept the model end-user license agreement (EULA) within the `ModelAccessConfig`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_model#model_access_config SagemakerModel#model_access_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_model#model_access_config SagemakerModel#model_access_config}
 
 ---
 
@@ -2339,7 +2339,7 @@ public java.lang.String getS3DataType();
 
 Specifies the type of ML model data to deploy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_model#s3_data_type SagemakerModel#s3_data_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_model#s3_data_type SagemakerModel#s3_data_type}
 
 ---
 
@@ -2353,7 +2353,7 @@ public java.lang.String getS3Uri();
 
 Specifies the S3 path of ML model data to deploy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_model#s3_uri SagemakerModel#s3_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_model#s3_uri SagemakerModel#s3_uri}
 
 ---
 
@@ -2387,7 +2387,7 @@ public java.lang.String getHubContentArn();
 
 The ARN of the hub content for which deployment access is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_model#hub_content_arn SagemakerModel#hub_content_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_model#hub_content_arn SagemakerModel#hub_content_arn}
 
 ---
 
@@ -2423,7 +2423,7 @@ Specifies agreement to the model end-user license agreement (EULA).
 
 The `AcceptEula` value must be explicitly defined as `True` in order to accept the EULA that this model requires. You are responsible for reviewing and complying with any applicable license terms and making sure they are acceptable for your use case before downloading or using a model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_model#accept_eula SagemakerModel#accept_eula}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_model#accept_eula SagemakerModel#accept_eula}
 
 ---
 
@@ -2459,7 +2459,7 @@ Whether to cache models for a multi-model endpoint.
 
 By default, multi-model endpoints cache models so that a model does not have to be loaded into memory each time it is invoked. Some use cases do not benefit from model caching. For example, if an endpoint hosts a large number of models that are each invoked infrequently, the endpoint might perform better if you disable model caching. To disable model caching, set the value of this parameter to `Disabled`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_model#model_cache_setting SagemakerModel#model_cache_setting}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_model#model_cache_setting SagemakerModel#model_cache_setting}
 
 ---
 
@@ -2495,7 +2495,7 @@ public java.lang.String getKey();
 
 The tag value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_model#key SagemakerModel#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_model#key SagemakerModel#key}
 
 ---
 
@@ -2509,7 +2509,7 @@ public java.lang.String getValue();
 
 The tag key. Tag keys must be unique per resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_model#value SagemakerModel#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_model#value SagemakerModel#value}
 
 ---
 
@@ -2547,7 +2547,7 @@ The VPC security group IDs, in the form `sg-xxxxxxxx`.
 
 Specify the security groups for the VPC that is specified in the `Subnets` field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_model#security_group_ids SagemakerModel#security_group_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_model#security_group_ids SagemakerModel#security_group_ids}
 
 ---
 
@@ -2563,7 +2563,7 @@ The ID of the subnets in the VPC to which you want to connect your training job 
 
 For information about the availability of specific instance types, see [Supported Instance Types and Availability Zones](https://docs.aws.amazon.com/sagemaker/latest/dg/instance-types-az.html).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_model#subnets SagemakerModel#subnets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_model#subnets SagemakerModel#subnets}
 
 ---
 

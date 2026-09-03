@@ -4,7 +4,7 @@
 
 ### DataAwsccCloudtrailChannels <a name="DataAwsccCloudtrailChannels" id="@cdktn/provider-awscc.dataAwsccCloudtrailChannels.DataAwsccCloudtrailChannels"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/cloudtrail_channels awscc_cloudtrail_channels}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/cloudtrail_channels awscc_cloudtrail_channels}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudtrailChannels.DataAwsccCloudtrailChannels.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccCloudtrailChannel
 
 The id of the existing DataAwsccCloudtrailChannels that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/cloudtrail_channels#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/cloudtrail_channels#import import section} in the documentation of this resource for the id to use
 
 ---
 

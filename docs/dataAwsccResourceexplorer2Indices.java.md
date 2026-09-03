@@ -4,7 +4,7 @@
 
 ### DataAwsccResourceexplorer2Indices <a name="DataAwsccResourceexplorer2Indices" id="@cdktn/provider-awscc.dataAwsccResourceexplorer2Indices.DataAwsccResourceexplorer2Indices"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/resourceexplorer2_indices awscc_resourceexplorer2_indices}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/resourceexplorer2_indices awscc_resourceexplorer2_indices}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccResourceexplorer2Indices.DataAwsccResourceexplorer2Indices.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccResourceexplorer2
 
 The id of the existing DataAwsccResourceexplorer2Indices that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/resourceexplorer2_indices#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/resourceexplorer2_indices#import import section} in the documentation of this resource for the id to use
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### DataAwsccEc2CapacityReservations <a name="DataAwsccEc2CapacityReservations" id="@cdktn/provider-awscc.dataAwsccEc2CapacityReservations.DataAwsccEc2CapacityReservations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_capacity_reservations awscc_ec2_capacity_reservations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_capacity_reservations awscc_ec2_capacity_reservations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2CapacityReservations.DataAwsccEc2CapacityReservations.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccEc2CapacityReserv
 
 The id of the existing DataAwsccEc2CapacityReservations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_capacity_reservations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_capacity_reservations#import import section} in the documentation of this resource for the id to use
 
 ---
 

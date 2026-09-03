@@ -4,7 +4,7 @@
 
 ### DataAwsccLightsailInstances <a name="DataAwsccLightsailInstances" id="@cdktn/provider-awscc.dataAwsccLightsailInstances.DataAwsccLightsailInstances"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/lightsail_instances awscc_lightsail_instances}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/lightsail_instances awscc_lightsail_instances}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLightsailInstances.DataAwsccLightsailInstances.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccLightsailInstance
 
 The id of the existing DataAwsccLightsailInstances that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/lightsail_instances#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/lightsail_instances#import import section} in the documentation of this resource for the id to use
 
 ---
 

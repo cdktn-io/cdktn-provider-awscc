@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cassandra_table
+// https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cassandra_table
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,105 +15,105 @@ export interface CassandraTableConfig extends cdktn.TerraformMetaArguments {
   /**
   * Represents the read and write settings used for AutoScaling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cassandra_table#auto_scaling_specifications CassandraTable#auto_scaling_specifications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cassandra_table#auto_scaling_specifications CassandraTable#auto_scaling_specifications}
   */
   readonly autoScalingSpecifications?: CassandraTableAutoScalingSpecifications;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cassandra_table#billing_mode CassandraTable#billing_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cassandra_table#billing_mode CassandraTable#billing_mode}
   */
   readonly billingMode?: CassandraTableBillingMode;
   /**
   * Represents the CDC configuration for the table
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cassandra_table#cdc_specification CassandraTable#cdc_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cassandra_table#cdc_specification CassandraTable#cdc_specification}
   */
   readonly cdcSpecification?: CassandraTableCdcSpecification;
   /**
   * Indicates whether client side timestamps are enabled (true) or disabled (false) on the table. False by default, once it is enabled it cannot be disabled again.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cassandra_table#client_side_timestamps_enabled CassandraTable#client_side_timestamps_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cassandra_table#client_side_timestamps_enabled CassandraTable#client_side_timestamps_enabled}
   */
   readonly clientSideTimestampsEnabled?: boolean | cdktn.IResolvable;
   /**
   * Clustering key columns of the table
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cassandra_table#clustering_key_columns CassandraTable#clustering_key_columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cassandra_table#clustering_key_columns CassandraTable#clustering_key_columns}
   */
   readonly clusteringKeyColumns?: CassandraTableClusteringKeyColumns[] | cdktn.IResolvable;
   /**
   * Default TTL (Time To Live) in seconds, where zero is disabled. If the value is greater than zero, TTL is enabled for the entire table and an expiration timestamp is added to each column.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cassandra_table#default_time_to_live CassandraTable#default_time_to_live}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cassandra_table#default_time_to_live CassandraTable#default_time_to_live}
   */
   readonly defaultTimeToLive?: number;
   /**
   * Represents the settings used to enable server-side encryption
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cassandra_table#encryption_specification CassandraTable#encryption_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cassandra_table#encryption_specification CassandraTable#encryption_specification}
   */
   readonly encryptionSpecification?: CassandraTableEncryptionSpecification;
   /**
   * Name for Cassandra keyspace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cassandra_table#keyspace_name CassandraTable#keyspace_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cassandra_table#keyspace_name CassandraTable#keyspace_name}
   */
   readonly keyspaceName: string;
   /**
   * Partition key columns of the table
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cassandra_table#partition_key_columns CassandraTable#partition_key_columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cassandra_table#partition_key_columns CassandraTable#partition_key_columns}
   */
   readonly partitionKeyColumns: CassandraTablePartitionKeyColumns[] | cdktn.IResolvable;
   /**
   * Indicates whether point in time recovery is enabled (true) or disabled (false) on the table
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cassandra_table#point_in_time_recovery_enabled CassandraTable#point_in_time_recovery_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cassandra_table#point_in_time_recovery_enabled CassandraTable#point_in_time_recovery_enabled}
   */
   readonly pointInTimeRecoveryEnabled?: boolean | cdktn.IResolvable;
   /**
   * Non-key columns of the table
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cassandra_table#regular_columns CassandraTable#regular_columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cassandra_table#regular_columns CassandraTable#regular_columns}
   */
   readonly regularColumns?: CassandraTableRegularColumns[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cassandra_table#replica_specifications CassandraTable#replica_specifications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cassandra_table#replica_specifications CassandraTable#replica_specifications}
   */
   readonly replicaSpecifications?: CassandraTableReplicaSpecifications[] | cdktn.IResolvable;
   /**
   * Name for Cassandra table
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cassandra_table#table_name CassandraTable#table_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cassandra_table#table_name CassandraTable#table_name}
   */
   readonly tableName?: string;
   /**
   * An array of key-value pairs to apply to this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cassandra_table#tags CassandraTable#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cassandra_table#tags CassandraTable#tags}
   */
   readonly tags?: CassandraTableTags[] | cdktn.IResolvable;
   /**
   * Warm throughput configuration for the table
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cassandra_table#warm_throughput CassandraTable#warm_throughput}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cassandra_table#warm_throughput CassandraTable#warm_throughput}
   */
   readonly warmThroughput?: CassandraTableWarmThroughput;
 }
 export interface CassandraTableAutoScalingSpecificationsReadCapacityAutoScalingScalingPolicyTargetTrackingScalingPolicyConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cassandra_table#disable_scale_in CassandraTable#disable_scale_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cassandra_table#disable_scale_in CassandraTable#disable_scale_in}
   */
   readonly disableScaleIn?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cassandra_table#scale_in_cooldown CassandraTable#scale_in_cooldown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cassandra_table#scale_in_cooldown CassandraTable#scale_in_cooldown}
   */
   readonly scaleInCooldown?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cassandra_table#scale_out_cooldown CassandraTable#scale_out_cooldown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cassandra_table#scale_out_cooldown CassandraTable#scale_out_cooldown}
   */
   readonly scaleOutCooldown?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cassandra_table#target_value CassandraTable#target_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cassandra_table#target_value CassandraTable#target_value}
   */
   readonly targetValue?: number;
 }
@@ -296,7 +296,7 @@ export interface CassandraTableAutoScalingSpecificationsReadCapacityAutoScalingS
   /**
   * Represents configuration for target tracking scaling policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cassandra_table#target_tracking_scaling_policy_configuration CassandraTable#target_tracking_scaling_policy_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cassandra_table#target_tracking_scaling_policy_configuration CassandraTable#target_tracking_scaling_policy_configuration}
   */
   readonly targetTrackingScalingPolicyConfiguration?: CassandraTableAutoScalingSpecificationsReadCapacityAutoScalingScalingPolicyTargetTrackingScalingPolicyConfiguration;
 }
@@ -390,21 +390,21 @@ export class CassandraTableAutoScalingSpecificationsReadCapacityAutoScalingScali
 }
 export interface CassandraTableAutoScalingSpecificationsReadCapacityAutoScaling {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cassandra_table#auto_scaling_disabled CassandraTable#auto_scaling_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cassandra_table#auto_scaling_disabled CassandraTable#auto_scaling_disabled}
   */
   readonly autoScalingDisabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cassandra_table#maximum_units CassandraTable#maximum_units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cassandra_table#maximum_units CassandraTable#maximum_units}
   */
   readonly maximumUnits?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cassandra_table#minimum_units CassandraTable#minimum_units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cassandra_table#minimum_units CassandraTable#minimum_units}
   */
   readonly minimumUnits?: number;
   /**
   * Represents scaling policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cassandra_table#scaling_policy CassandraTable#scaling_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cassandra_table#scaling_policy CassandraTable#scaling_policy}
   */
   readonly scalingPolicy?: CassandraTableAutoScalingSpecificationsReadCapacityAutoScalingScalingPolicy;
 }
@@ -585,19 +585,19 @@ export class CassandraTableAutoScalingSpecificationsReadCapacityAutoScalingOutpu
 }
 export interface CassandraTableAutoScalingSpecificationsWriteCapacityAutoScalingScalingPolicyTargetTrackingScalingPolicyConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cassandra_table#disable_scale_in CassandraTable#disable_scale_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cassandra_table#disable_scale_in CassandraTable#disable_scale_in}
   */
   readonly disableScaleIn?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cassandra_table#scale_in_cooldown CassandraTable#scale_in_cooldown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cassandra_table#scale_in_cooldown CassandraTable#scale_in_cooldown}
   */
   readonly scaleInCooldown?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cassandra_table#scale_out_cooldown CassandraTable#scale_out_cooldown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cassandra_table#scale_out_cooldown CassandraTable#scale_out_cooldown}
   */
   readonly scaleOutCooldown?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cassandra_table#target_value CassandraTable#target_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cassandra_table#target_value CassandraTable#target_value}
   */
   readonly targetValue?: number;
 }
@@ -780,7 +780,7 @@ export interface CassandraTableAutoScalingSpecificationsWriteCapacityAutoScaling
   /**
   * Represents configuration for target tracking scaling policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cassandra_table#target_tracking_scaling_policy_configuration CassandraTable#target_tracking_scaling_policy_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cassandra_table#target_tracking_scaling_policy_configuration CassandraTable#target_tracking_scaling_policy_configuration}
   */
   readonly targetTrackingScalingPolicyConfiguration?: CassandraTableAutoScalingSpecificationsWriteCapacityAutoScalingScalingPolicyTargetTrackingScalingPolicyConfiguration;
 }
@@ -874,21 +874,21 @@ export class CassandraTableAutoScalingSpecificationsWriteCapacityAutoScalingScal
 }
 export interface CassandraTableAutoScalingSpecificationsWriteCapacityAutoScaling {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cassandra_table#auto_scaling_disabled CassandraTable#auto_scaling_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cassandra_table#auto_scaling_disabled CassandraTable#auto_scaling_disabled}
   */
   readonly autoScalingDisabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cassandra_table#maximum_units CassandraTable#maximum_units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cassandra_table#maximum_units CassandraTable#maximum_units}
   */
   readonly maximumUnits?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cassandra_table#minimum_units CassandraTable#minimum_units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cassandra_table#minimum_units CassandraTable#minimum_units}
   */
   readonly minimumUnits?: number;
   /**
   * Represents scaling policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cassandra_table#scaling_policy CassandraTable#scaling_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cassandra_table#scaling_policy CassandraTable#scaling_policy}
   */
   readonly scalingPolicy?: CassandraTableAutoScalingSpecificationsWriteCapacityAutoScalingScalingPolicy;
 }
@@ -1071,13 +1071,13 @@ export interface CassandraTableAutoScalingSpecifications {
   /**
   * Represents configuration for auto scaling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cassandra_table#read_capacity_auto_scaling CassandraTable#read_capacity_auto_scaling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cassandra_table#read_capacity_auto_scaling CassandraTable#read_capacity_auto_scaling}
   */
   readonly readCapacityAutoScaling?: CassandraTableAutoScalingSpecificationsReadCapacityAutoScaling;
   /**
   * Represents configuration for auto scaling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cassandra_table#write_capacity_auto_scaling CassandraTable#write_capacity_auto_scaling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cassandra_table#write_capacity_auto_scaling CassandraTable#write_capacity_auto_scaling}
   */
   readonly writeCapacityAutoScaling?: CassandraTableAutoScalingSpecificationsWriteCapacityAutoScaling;
 }
@@ -1200,11 +1200,11 @@ export class CassandraTableAutoScalingSpecificationsOutputReference extends cdkt
 }
 export interface CassandraTableBillingModeProvisionedThroughput {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cassandra_table#read_capacity_units CassandraTable#read_capacity_units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cassandra_table#read_capacity_units CassandraTable#read_capacity_units}
   */
   readonly readCapacityUnits?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cassandra_table#write_capacity_units CassandraTable#write_capacity_units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cassandra_table#write_capacity_units CassandraTable#write_capacity_units}
   */
   readonly writeCapacityUnits?: number;
 }
@@ -1329,13 +1329,13 @@ export interface CassandraTableBillingMode {
   /**
   * Capacity mode for the specified table
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cassandra_table#mode CassandraTable#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cassandra_table#mode CassandraTable#mode}
   */
   readonly mode?: string;
   /**
   * Throughput for the specified table, which consists of values for ReadCapacityUnits and WriteCapacityUnits
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cassandra_table#provisioned_throughput CassandraTable#provisioned_throughput}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cassandra_table#provisioned_throughput CassandraTable#provisioned_throughput}
   */
   readonly provisionedThroughput?: CassandraTableBillingModeProvisionedThroughput;
 }
@@ -1458,11 +1458,11 @@ export class CassandraTableBillingModeOutputReference extends cdktn.ComplexObjec
 }
 export interface CassandraTableCdcSpecificationTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cassandra_table#key CassandraTable#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cassandra_table#key CassandraTable#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cassandra_table#value CassandraTable#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cassandra_table#value CassandraTable#value}
   */
   readonly value?: string;
 }
@@ -1609,19 +1609,19 @@ export interface CassandraTableCdcSpecification {
   /**
   * Indicates whether CDC is enabled or disabled for the table
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cassandra_table#status CassandraTable#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cassandra_table#status CassandraTable#status}
   */
   readonly status?: string;
   /**
   * An array of key-value pairs to apply to the CDC stream resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cassandra_table#tags CassandraTable#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cassandra_table#tags CassandraTable#tags}
   */
   readonly tags?: CassandraTableCdcSpecificationTags[] | cdktn.IResolvable;
   /**
   * Specifies what data should be captured in the change data stream
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cassandra_table#view_type CassandraTable#view_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cassandra_table#view_type CassandraTable#view_type}
   */
   readonly viewType?: string;
 }
@@ -1773,11 +1773,11 @@ export class CassandraTableCdcSpecificationOutputReference extends cdktn.Complex
 }
 export interface CassandraTableClusteringKeyColumnsColumn {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cassandra_table#column_name CassandraTable#column_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cassandra_table#column_name CassandraTable#column_name}
   */
   readonly columnName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cassandra_table#column_type CassandraTable#column_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cassandra_table#column_type CassandraTable#column_type}
   */
   readonly columnType?: string;
 }
@@ -1900,11 +1900,11 @@ export class CassandraTableClusteringKeyColumnsColumnOutputReference extends cdk
 }
 export interface CassandraTableClusteringKeyColumns {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cassandra_table#column CassandraTable#column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cassandra_table#column CassandraTable#column}
   */
   readonly column?: CassandraTableClusteringKeyColumnsColumn;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cassandra_table#order_by CassandraTable#order_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cassandra_table#order_by CassandraTable#order_by}
   */
   readonly orderBy?: string;
 }
@@ -2051,13 +2051,13 @@ export interface CassandraTableEncryptionSpecification {
   /**
   * Server-side encryption type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cassandra_table#encryption_type CassandraTable#encryption_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cassandra_table#encryption_type CassandraTable#encryption_type}
   */
   readonly encryptionType?: string;
   /**
   * The AWS KMS customer master key (CMK) that should be used for the AWS KMS encryption. To specify a CMK, use its key ID, Amazon Resource Name (ARN), alias name, or alias ARN. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cassandra_table#kms_key_identifier CassandraTable#kms_key_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cassandra_table#kms_key_identifier CassandraTable#kms_key_identifier}
   */
   readonly kmsKeyIdentifier?: string;
 }
@@ -2180,11 +2180,11 @@ export class CassandraTableEncryptionSpecificationOutputReference extends cdktn.
 }
 export interface CassandraTablePartitionKeyColumns {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cassandra_table#column_name CassandraTable#column_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cassandra_table#column_name CassandraTable#column_name}
   */
   readonly columnName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cassandra_table#column_type CassandraTable#column_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cassandra_table#column_type CassandraTable#column_type}
   */
   readonly columnType: string;
 }
@@ -2323,11 +2323,11 @@ export class CassandraTablePartitionKeyColumnsList extends cdktn.ComplexList {
 }
 export interface CassandraTableRegularColumns {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cassandra_table#column_name CassandraTable#column_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cassandra_table#column_name CassandraTable#column_name}
   */
   readonly columnName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cassandra_table#column_type CassandraTable#column_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cassandra_table#column_type CassandraTable#column_type}
   */
   readonly columnType?: string;
 }
@@ -2472,19 +2472,19 @@ export class CassandraTableRegularColumnsList extends cdktn.ComplexList {
 }
 export interface CassandraTableReplicaSpecificationsReadCapacityAutoScalingScalingPolicyTargetTrackingScalingPolicyConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cassandra_table#disable_scale_in CassandraTable#disable_scale_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cassandra_table#disable_scale_in CassandraTable#disable_scale_in}
   */
   readonly disableScaleIn?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cassandra_table#scale_in_cooldown CassandraTable#scale_in_cooldown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cassandra_table#scale_in_cooldown CassandraTable#scale_in_cooldown}
   */
   readonly scaleInCooldown?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cassandra_table#scale_out_cooldown CassandraTable#scale_out_cooldown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cassandra_table#scale_out_cooldown CassandraTable#scale_out_cooldown}
   */
   readonly scaleOutCooldown?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cassandra_table#target_value CassandraTable#target_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cassandra_table#target_value CassandraTable#target_value}
   */
   readonly targetValue?: number;
 }
@@ -2667,7 +2667,7 @@ export interface CassandraTableReplicaSpecificationsReadCapacityAutoScalingScali
   /**
   * Represents configuration for target tracking scaling policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cassandra_table#target_tracking_scaling_policy_configuration CassandraTable#target_tracking_scaling_policy_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cassandra_table#target_tracking_scaling_policy_configuration CassandraTable#target_tracking_scaling_policy_configuration}
   */
   readonly targetTrackingScalingPolicyConfiguration?: CassandraTableReplicaSpecificationsReadCapacityAutoScalingScalingPolicyTargetTrackingScalingPolicyConfiguration;
 }
@@ -2761,21 +2761,21 @@ export class CassandraTableReplicaSpecificationsReadCapacityAutoScalingScalingPo
 }
 export interface CassandraTableReplicaSpecificationsReadCapacityAutoScaling {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cassandra_table#auto_scaling_disabled CassandraTable#auto_scaling_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cassandra_table#auto_scaling_disabled CassandraTable#auto_scaling_disabled}
   */
   readonly autoScalingDisabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cassandra_table#maximum_units CassandraTable#maximum_units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cassandra_table#maximum_units CassandraTable#maximum_units}
   */
   readonly maximumUnits?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cassandra_table#minimum_units CassandraTable#minimum_units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cassandra_table#minimum_units CassandraTable#minimum_units}
   */
   readonly minimumUnits?: number;
   /**
   * Represents scaling policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cassandra_table#scaling_policy CassandraTable#scaling_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cassandra_table#scaling_policy CassandraTable#scaling_policy}
   */
   readonly scalingPolicy?: CassandraTableReplicaSpecificationsReadCapacityAutoScalingScalingPolicy;
 }
@@ -2958,15 +2958,15 @@ export interface CassandraTableReplicaSpecifications {
   /**
   * Represents configuration for auto scaling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cassandra_table#read_capacity_auto_scaling CassandraTable#read_capacity_auto_scaling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cassandra_table#read_capacity_auto_scaling CassandraTable#read_capacity_auto_scaling}
   */
   readonly readCapacityAutoScaling?: CassandraTableReplicaSpecificationsReadCapacityAutoScaling;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cassandra_table#read_capacity_units CassandraTable#read_capacity_units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cassandra_table#read_capacity_units CassandraTable#read_capacity_units}
   */
   readonly readCapacityUnits?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cassandra_table#region CassandraTable#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cassandra_table#region CassandraTable#region}
   */
   readonly region?: string;
 }
@@ -3140,11 +3140,11 @@ export class CassandraTableReplicaSpecificationsList extends cdktn.ComplexList {
 }
 export interface CassandraTableTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cassandra_table#key CassandraTable#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cassandra_table#key CassandraTable#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cassandra_table#value CassandraTable#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cassandra_table#value CassandraTable#value}
   */
   readonly value?: string;
 }
@@ -3289,11 +3289,11 @@ export class CassandraTableTagsList extends cdktn.ComplexList {
 }
 export interface CassandraTableWarmThroughput {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cassandra_table#read_units_per_second CassandraTable#read_units_per_second}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cassandra_table#read_units_per_second CassandraTable#read_units_per_second}
   */
   readonly readUnitsPerSecond?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cassandra_table#write_units_per_second CassandraTable#write_units_per_second}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cassandra_table#write_units_per_second CassandraTable#write_units_per_second}
   */
   readonly writeUnitsPerSecond?: number;
 }
@@ -3416,7 +3416,7 @@ export class CassandraTableWarmThroughputOutputReference extends cdktn.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cassandra_table awscc_cassandra_table}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cassandra_table awscc_cassandra_table}
 */
 export class CassandraTable extends cdktn.TerraformResource {
 
@@ -3432,7 +3432,7 @@ export class CassandraTable extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a CassandraTable resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CassandraTable to import
-  * @param importFromId The id of the existing CassandraTable that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cassandra_table#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CassandraTable that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cassandra_table#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CassandraTable to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -3444,7 +3444,7 @@ export class CassandraTable extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cassandra_table awscc_cassandra_table} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cassandra_table awscc_cassandra_table} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3455,7 +3455,7 @@ export class CassandraTable extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_cassandra_table',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.99.0',
+        providerVersion: '1.100.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

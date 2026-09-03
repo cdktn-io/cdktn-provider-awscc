@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/networkmanager_connect_peers
+// https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/networkmanager_connect_peers
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccNetworkmanagerConnectPeersConfig extends cdktn.Terrafo
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/networkmanager_connect_peers awscc_networkmanager_connect_peers}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/networkmanager_connect_peers awscc_networkmanager_connect_peers}
 */
 export class DataAwsccNetworkmanagerConnectPeers extends cdktn.TerraformDataSource {
 
@@ -31,7 +31,7 @@ export class DataAwsccNetworkmanagerConnectPeers extends cdktn.TerraformDataSour
   * Generates CDKTN code for importing a DataAwsccNetworkmanagerConnectPeers resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccNetworkmanagerConnectPeers to import
-  * @param importFromId The id of the existing DataAwsccNetworkmanagerConnectPeers that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/networkmanager_connect_peers#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccNetworkmanagerConnectPeers that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/networkmanager_connect_peers#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccNetworkmanagerConnectPeers to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -43,7 +43,7 @@ export class DataAwsccNetworkmanagerConnectPeers extends cdktn.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/networkmanager_connect_peers awscc_networkmanager_connect_peers} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/networkmanager_connect_peers awscc_networkmanager_connect_peers} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -54,7 +54,7 @@ export class DataAwsccNetworkmanagerConnectPeers extends cdktn.TerraformDataSour
       terraformResourceType: 'awscc_networkmanager_connect_peers',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.99.0',
+        providerVersion: '1.100.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

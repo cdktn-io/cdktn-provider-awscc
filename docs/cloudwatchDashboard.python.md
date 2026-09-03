@@ -4,7 +4,7 @@
 
 ### CloudwatchDashboard <a name="CloudwatchDashboard" id="@cdktn/provider-awscc.cloudwatchDashboard.CloudwatchDashboard"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudwatch_dashboard awscc_cloudwatch_dashboard}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudwatch_dashboard awscc_cloudwatch_dashboard}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudwatchDashboard.CloudwatchDashboard.Initializer"></a>
 
@@ -110,7 +110,7 @@ Must be unique amongst siblings in the same scope
 
 The detailed information about the dashboard in JSON format, including the widgets to include and their location on the dashboard.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudwatch_dashboard#dashboard_body CloudwatchDashboard#dashboard_body}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudwatch_dashboard#dashboard_body CloudwatchDashboard#dashboard_body}
 
 ---
 
@@ -122,7 +122,7 @@ The name of the dashboard.
 
 The name must be between 1 and 255 characters. If you do not specify a name, one will be generated automatically.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudwatch_dashboard#dashboard_name CloudwatchDashboard#dashboard_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudwatch_dashboard#dashboard_name CloudwatchDashboard#dashboard_name}
 
 ---
 
@@ -134,7 +134,7 @@ A list of key-value pairs to associate with the cloudwatch dashboard.
 
 You can associate up to 50 tags with a dashboard
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudwatch_dashboard#tags CloudwatchDashboard#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudwatch_dashboard#tags CloudwatchDashboard#tags}
 
 ---
 
@@ -660,7 +660,7 @@ The construct id used in the generated config for the CloudwatchDashboard to imp
 
 The id of the existing CloudwatchDashboard that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudwatch_dashboard#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudwatch_dashboard#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1050,7 +1050,7 @@ dashboard_body: str
 
 The detailed information about the dashboard in JSON format, including the widgets to include and their location on the dashboard.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudwatch_dashboard#dashboard_body CloudwatchDashboard#dashboard_body}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudwatch_dashboard#dashboard_body CloudwatchDashboard#dashboard_body}
 
 ---
 
@@ -1066,7 +1066,7 @@ The name of the dashboard.
 
 The name must be between 1 and 255 characters. If you do not specify a name, one will be generated automatically.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudwatch_dashboard#dashboard_name CloudwatchDashboard#dashboard_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudwatch_dashboard#dashboard_name CloudwatchDashboard#dashboard_name}
 
 ---
 
@@ -1082,7 +1082,7 @@ A list of key-value pairs to associate with the cloudwatch dashboard.
 
 You can associate up to 50 tags with a dashboard
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudwatch_dashboard#tags CloudwatchDashboard#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudwatch_dashboard#tags CloudwatchDashboard#tags}
 
 ---
 
@@ -1120,7 +1120,7 @@ A unique identifier for the tag.
 
 The combination of tag keys and values can help you organize and categorize your resources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudwatch_dashboard#key CloudwatchDashboard#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudwatch_dashboard#key CloudwatchDashboard#key}
 
 ---
 
@@ -1134,7 +1134,7 @@ value: str
 
 The value for the specified tag key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudwatch_dashboard#value CloudwatchDashboard#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudwatch_dashboard#value CloudwatchDashboard#value}
 
 ---
 

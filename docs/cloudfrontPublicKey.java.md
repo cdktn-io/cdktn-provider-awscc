@@ -4,7 +4,7 @@
 
 ### CloudfrontPublicKey <a name="CloudfrontPublicKey" id="@cdktn/provider-awscc.cloudfrontPublicKey.CloudfrontPublicKey"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudfront_public_key awscc_cloudfront_public_key}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudfront_public_key awscc_cloudfront_public_key}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudfrontPublicKey.CloudfrontPublicKey.Initializer"></a>
 
@@ -104,7 +104,7 @@ Must be unique amongst siblings in the same scope
 
 Configuration information about a public key that you can use with [signed URLs and signed cookies](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/PrivateContent.html), or with [field-level encryption](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/field-level-encryption.html).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudfront_public_key#public_key_config CloudfrontPublicKey#public_key_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudfront_public_key#public_key_config CloudfrontPublicKey#public_key_config}
 
 ---
 
@@ -566,7 +566,7 @@ The construct id used in the generated config for the CloudfrontPublicKey to imp
 
 The id of the existing CloudfrontPublicKey that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudfront_public_key#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudfront_public_key#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -930,7 +930,7 @@ public CloudfrontPublicKeyPublicKeyConfig getPublicKeyConfig();
 
 Configuration information about a public key that you can use with [signed URLs and signed cookies](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/PrivateContent.html), or with [field-level encryption](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/field-level-encryption.html).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudfront_public_key#public_key_config CloudfrontPublicKey#public_key_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudfront_public_key#public_key_config CloudfrontPublicKey#public_key_config}
 
 ---
 
@@ -970,7 +970,7 @@ public java.lang.String getCallerReference();
 
 A string included in the request to help make sure that the request can't be replayed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudfront_public_key#caller_reference CloudfrontPublicKey#caller_reference}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudfront_public_key#caller_reference CloudfrontPublicKey#caller_reference}
 
 ---
 
@@ -984,7 +984,7 @@ public java.lang.String getEncodedKey();
 
 The public key that you can use with [signed URLs and signed cookies](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/PrivateContent.html), or with [field-level encryption](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/field-level-encryption.html).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudfront_public_key#encoded_key CloudfrontPublicKey#encoded_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudfront_public_key#encoded_key CloudfrontPublicKey#encoded_key}
 
 ---
 
@@ -998,7 +998,7 @@ public java.lang.String getName();
 
 A name to help identify the public key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudfront_public_key#name CloudfrontPublicKey#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudfront_public_key#name CloudfrontPublicKey#name}
 
 ---
 
@@ -1012,7 +1012,7 @@ public java.lang.String getComment();
 
 A comment to describe the public key. The comment cannot be longer than 128 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudfront_public_key#comment CloudfrontPublicKey#comment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudfront_public_key#comment CloudfrontPublicKey#comment}
 
 ---
 

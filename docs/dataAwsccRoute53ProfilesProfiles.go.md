@@ -4,7 +4,7 @@
 
 ### DataAwsccRoute53ProfilesProfiles <a name="DataAwsccRoute53ProfilesProfiles" id="@cdktn/provider-awscc.dataAwsccRoute53ProfilesProfiles.DataAwsccRoute53ProfilesProfiles"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/route53profiles_profiles awscc_route53profiles_profiles}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/route53profiles_profiles awscc_route53profiles_profiles}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRoute53ProfilesProfiles.DataAwsccRoute53ProfilesProfiles.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccRoute53ProfilesPr
 
 The id of the existing DataAwsccRoute53ProfilesProfiles that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/route53profiles_profiles#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/route53profiles_profiles#import import section} in the documentation of this resource for the id to use
 
 ---
 

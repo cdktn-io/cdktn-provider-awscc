@@ -4,7 +4,7 @@
 
 ### CodeconnectionsHost <a name="CodeconnectionsHost" id="@cdktn/provider-awscc.codeconnectionsHost.CodeconnectionsHost"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codeconnections_host awscc_codeconnections_host}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codeconnections_host awscc_codeconnections_host}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codeconnectionsHost.CodeconnectionsHost.Initializer"></a>
 
@@ -529,7 +529,7 @@ The construct id used in the generated config for the CodeconnectionsHost to imp
 
 The id of the existing CodeconnectionsHost that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codeconnections_host#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codeconnections_host#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1000,7 +1000,7 @@ Name *string
 
 The name of the host.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codeconnections_host#name CodeconnectionsHost#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codeconnections_host#name CodeconnectionsHost#name}
 
 ---
 
@@ -1014,7 +1014,7 @@ ProviderEndpoint *string
 
 The endpoint of the infrastructure where your provider type is installed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codeconnections_host#provider_endpoint CodeconnectionsHost#provider_endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codeconnections_host#provider_endpoint CodeconnectionsHost#provider_endpoint}
 
 ---
 
@@ -1028,7 +1028,7 @@ ProviderType *string
 
 The name of the installed provider to be associated with your connection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codeconnections_host#provider_type CodeconnectionsHost#provider_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codeconnections_host#provider_type CodeconnectionsHost#provider_type}
 
 ---
 
@@ -1042,7 +1042,7 @@ Tags interface{}
 
 Tags to apply to the host.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codeconnections_host#tags CodeconnectionsHost#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codeconnections_host#tags CodeconnectionsHost#tags}
 
 ---
 
@@ -1056,7 +1056,7 @@ VpcConfiguration CodeconnectionsHostVpcConfiguration
 
 The VPC configuration provisioned for the host.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codeconnections_host#vpc_configuration CodeconnectionsHost#vpc_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codeconnections_host#vpc_configuration CodeconnectionsHost#vpc_configuration}
 
 ---
 
@@ -1092,7 +1092,7 @@ Key *string
 
 The tag's key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codeconnections_host#key CodeconnectionsHost#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codeconnections_host#key CodeconnectionsHost#key}
 
 ---
 
@@ -1106,7 +1106,7 @@ Value *string
 
 The tag's value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codeconnections_host#value CodeconnectionsHost#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codeconnections_host#value CodeconnectionsHost#value}
 
 ---
 
@@ -1146,7 +1146,7 @@ SecurityGroupIds *[]*string
 
 The ID of the security group or security groups associated with the Amazon VPC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codeconnections_host#security_group_ids CodeconnectionsHost#security_group_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codeconnections_host#security_group_ids CodeconnectionsHost#security_group_ids}
 
 ---
 
@@ -1160,7 +1160,7 @@ SubnetIds *[]*string
 
 The ID of the subnet or subnets associated with the Amazon VPC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codeconnections_host#subnet_ids CodeconnectionsHost#subnet_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codeconnections_host#subnet_ids CodeconnectionsHost#subnet_ids}
 
 ---
 
@@ -1174,7 +1174,7 @@ TlsCertificate *string
 
 The value of the Transport Layer Security (TLS) certificate associated with the infrastructure where your provider type is installed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codeconnections_host#tls_certificate CodeconnectionsHost#tls_certificate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codeconnections_host#tls_certificate CodeconnectionsHost#tls_certificate}
 
 ---
 
@@ -1188,7 +1188,7 @@ VpcId *string
 
 The ID of the Amazon VPC connected to the infrastructure where your provider type is installed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codeconnections_host#vpc_id CodeconnectionsHost#vpc_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codeconnections_host#vpc_id CodeconnectionsHost#vpc_id}
 
 ---
 

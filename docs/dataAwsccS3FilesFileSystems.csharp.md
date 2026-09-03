@@ -4,7 +4,7 @@
 
 ### DataAwsccS3FilesFileSystems <a name="DataAwsccS3FilesFileSystems" id="@cdktn/provider-awscc.dataAwsccS3FilesFileSystems.DataAwsccS3FilesFileSystems"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/s3files_file_systems awscc_s3files_file_systems}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/s3files_file_systems awscc_s3files_file_systems}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3FilesFileSystems.DataAwsccS3FilesFileSystems.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccS3FilesFileSystem
 
 The id of the existing DataAwsccS3FilesFileSystems that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/s3files_file_systems#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/s3files_file_systems#import import section} in the documentation of this resource for the id to use
 
 ---
 

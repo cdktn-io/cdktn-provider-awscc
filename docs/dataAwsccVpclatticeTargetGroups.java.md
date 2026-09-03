@@ -4,7 +4,7 @@
 
 ### DataAwsccVpclatticeTargetGroups <a name="DataAwsccVpclatticeTargetGroups" id="@cdktn/provider-awscc.dataAwsccVpclatticeTargetGroups.DataAwsccVpclatticeTargetGroups"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/vpclattice_target_groups awscc_vpclattice_target_groups}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/vpclattice_target_groups awscc_vpclattice_target_groups}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccVpclatticeTargetGroups.DataAwsccVpclatticeTargetGroups.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccVpclatticeTargetG
 
 The id of the existing DataAwsccVpclatticeTargetGroups that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/vpclattice_target_groups#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/vpclattice_target_groups#import import section} in the documentation of this resource for the id to use
 
 ---
 

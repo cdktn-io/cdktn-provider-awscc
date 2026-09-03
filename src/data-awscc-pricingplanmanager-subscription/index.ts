@@ -1,0 +1,170 @@
+/**
+ * Copyright IBM Corp. 2021, 2026
+ * SPDX-License-Identifier: MPL-2.0
+ */
+
+// https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/pricingplanmanager_subscription
+// generated from terraform resource schema
+
+import { Construct } from 'constructs';
+import * as cdktn from 'cdktn';
+
+// Configuration
+
+export interface DataAwsccPricingplanmanagerSubscriptionConfig extends cdktn.TerraformMetaArguments {
+  /**
+  * Uniquely identifies the resource.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/pricingplanmanager_subscription#id DataAwsccPricingplanmanagerSubscription#id}
+  *
+  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+  */
+  readonly id: string;
+}
+
+/**
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/pricingplanmanager_subscription awscc_pricingplanmanager_subscription}
+*/
+export class DataAwsccPricingplanmanagerSubscription extends cdktn.TerraformDataSource {
+
+  // =================
+  // STATIC PROPERTIES
+  // =================
+  public static readonly tfResourceType = "awscc_pricingplanmanager_subscription";
+
+  // ==============
+  // STATIC Methods
+  // ==============
+  /**
+  * Generates CDKTN code for importing a DataAwsccPricingplanmanagerSubscription resource upon running "cdktn plan <stack-name>"
+  * @param scope The scope in which to define this construct
+  * @param importToId The construct id used in the generated config for the DataAwsccPricingplanmanagerSubscription to import
+  * @param importFromId The id of the existing DataAwsccPricingplanmanagerSubscription that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/pricingplanmanager_subscription#import import section} in the documentation of this resource for the id to use
+  * @param provider? Optional instance of the provider where the DataAwsccPricingplanmanagerSubscription to import is found
+  */
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "awscc_pricingplanmanager_subscription", importId: importFromId, provider });
+      }
+
+  // ===========
+  // INITIALIZER
+  // ===========
+
+  /**
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/pricingplanmanager_subscription awscc_pricingplanmanager_subscription} Data Source
+  *
+  * @param scope The scope in which to define this construct
+  * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
+  * @param options DataAwsccPricingplanmanagerSubscriptionConfig
+  */
+  public constructor(scope: Construct, id: string, config: DataAwsccPricingplanmanagerSubscriptionConfig) {
+    super(scope, id, {
+      terraformResourceType: 'awscc_pricingplanmanager_subscription',
+      terraformGeneratorMetadata: {
+        providerName: 'awscc',
+        providerVersion: '1.100.0',
+        providerVersionConstraint: '~> 1.0'
+      },
+      provider: config.provider,
+      dependsOn: config.dependsOn,
+      count: config.count,
+      lifecycle: config.lifecycle,
+      provisioners: config.provisioners,
+      connection: config.connection,
+      forEach: config.forEach
+    });
+    this._id = config.id;
+  }
+
+  // ==========
+  // ATTRIBUTES
+  // ==========
+
+  // arn - computed: true, optional: false, required: false
+  public get arn() {
+    return this.getStringAttribute('arn');
+  }
+
+  // created_at - computed: true, optional: false, required: false
+  public get createdAt() {
+    return this.getStringAttribute('created_at');
+  }
+
+  // current_plan_tier - computed: true, optional: false, required: false
+  public get currentPlanTier() {
+    return this.getStringAttribute('current_plan_tier');
+  }
+
+  // id - computed: false, optional: false, required: true
+  private _id?: string; 
+  public get id() {
+    return this.getStringAttribute('id');
+  }
+  public set id(value: string) {
+    this._id = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get idInput() {
+    return this._id;
+  }
+
+  // plan_family - computed: true, optional: false, required: false
+  public get planFamily() {
+    return this.getStringAttribute('plan_family');
+  }
+
+  // plan_tier - computed: true, optional: false, required: false
+  public get planTier() {
+    return this.getStringAttribute('plan_tier');
+  }
+
+  // resource_arns - computed: true, optional: false, required: false
+  public get resourceArns() {
+    return this.getListAttribute('resource_arns');
+  }
+
+  // status - computed: true, optional: false, required: false
+  public get status() {
+    return this.getStringAttribute('status');
+  }
+
+  // status_reason - computed: true, optional: false, required: false
+  public get statusReason() {
+    return this.getStringAttribute('status_reason');
+  }
+
+  // updated_at - computed: true, optional: false, required: false
+  public get updatedAt() {
+    return this.getStringAttribute('updated_at');
+  }
+
+  // usage_level - computed: true, optional: false, required: false
+  public get usageLevel() {
+    return this.getStringAttribute('usage_level');
+  }
+
+  // =========
+  // SYNTHESIS
+  // =========
+
+  protected synthesizeAttributes(): { [name: string]: any } {
+    return {
+      id: cdktn.stringToTerraform(this._id),
+    };
+  }
+
+  protected synthesizeHclAttributes(): { [name: string]: any } {
+    const attrs = {
+      id: {
+        value: cdktn.stringToHclTerraform(this._id),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+    };
+
+    // remove undefined attributes
+    return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined ))
+  }
+}

@@ -4,7 +4,7 @@
 
 ### DataAwsccRedshiftClusters <a name="DataAwsccRedshiftClusters" id="@cdktn/provider-awscc.dataAwsccRedshiftClusters.DataAwsccRedshiftClusters"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/redshift_clusters awscc_redshift_clusters}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/redshift_clusters awscc_redshift_clusters}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRedshiftClusters.DataAwsccRedshiftClusters.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccRedshiftClusters 
 
 The id of the existing DataAwsccRedshiftClusters that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/redshift_clusters#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/redshift_clusters#import import section} in the documentation of this resource for the id to use
 
 ---
 

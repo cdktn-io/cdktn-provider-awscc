@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cases_template
+// https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cases_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,49 +15,49 @@ export interface CasesTemplateConfig extends cdktn.TerraformMetaArguments {
   /**
   * A description explaining the purpose and use case for this template. Should indicate what types of cases this template is designed for and any specific workflow it supports.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cases_template#description CasesTemplate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cases_template#description CasesTemplate#description}
   */
   readonly description?: string;
   /**
   * The unique identifier of the Cases domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cases_template#domain_id CasesTemplate#domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cases_template#domain_id CasesTemplate#domain_id}
   */
   readonly domainId?: string;
   /**
   * Specifies the default layout to use when displaying cases created from this template. The layout determines which fields are visible and their arrangement in the agent interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cases_template#layout_configuration CasesTemplate#layout_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cases_template#layout_configuration CasesTemplate#layout_configuration}
   */
   readonly layoutConfiguration?: CasesTemplateLayoutConfiguration;
   /**
   * A name for the template. It must be unique per domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cases_template#name CasesTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cases_template#name CasesTemplate#name}
   */
   readonly name: string;
   /**
   * A list of fields that must contain a value for a case to be successfully created with this template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cases_template#required_fields CasesTemplate#required_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cases_template#required_fields CasesTemplate#required_fields}
   */
   readonly requiredFields?: CasesTemplateRequiredFields[] | cdktn.IResolvable;
   /**
   * A list of case rules (also known as case field conditions) on a template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cases_template#rules CasesTemplate#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cases_template#rules CasesTemplate#rules}
   */
   readonly rules?: CasesTemplateRules[] | cdktn.IResolvable;
   /**
   * The current status of the template. Active templates can be used to create new cases, while Inactive templates are disabled but preserved for existing cases.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cases_template#status CasesTemplate#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cases_template#status CasesTemplate#status}
   */
   readonly status?: string;
   /**
   * The tags that you attach to this template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cases_template#tags CasesTemplate#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cases_template#tags CasesTemplate#tags}
   */
   readonly tags?: CasesTemplateTags[] | cdktn.IResolvable;
 }
@@ -65,7 +65,7 @@ export interface CasesTemplateLayoutConfiguration {
   /**
   * The unique identifier of a layout.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cases_template#default_layout CasesTemplate#default_layout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cases_template#default_layout CasesTemplate#default_layout}
   */
   readonly defaultLayout?: string;
 }
@@ -161,7 +161,7 @@ export interface CasesTemplateRequiredFields {
   /**
   * The unique identifier of a field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cases_template#field_id CasesTemplate#field_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cases_template#field_id CasesTemplate#field_id}
   */
   readonly fieldId?: string;
 }
@@ -279,13 +279,13 @@ export interface CasesTemplateRules {
   /**
   * The unique identifier of a case rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cases_template#case_rule_id CasesTemplate#case_rule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cases_template#case_rule_id CasesTemplate#case_rule_id}
   */
   readonly caseRuleId?: string;
   /**
   * The ID of the field that this rule applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cases_template#field_id CasesTemplate#field_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cases_template#field_id CasesTemplate#field_id}
   */
   readonly fieldId?: string;
 }
@@ -432,13 +432,13 @@ export interface CasesTemplateTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cases_template#key CasesTemplate#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cases_template#key CasesTemplate#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cases_template#value CasesTemplate#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cases_template#value CasesTemplate#value}
   */
   readonly value?: string;
 }
@@ -583,7 +583,7 @@ export class CasesTemplateTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cases_template awscc_cases_template}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cases_template awscc_cases_template}
 */
 export class CasesTemplate extends cdktn.TerraformResource {
 
@@ -599,7 +599,7 @@ export class CasesTemplate extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a CasesTemplate resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CasesTemplate to import
-  * @param importFromId The id of the existing CasesTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cases_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CasesTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cases_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CasesTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -611,7 +611,7 @@ export class CasesTemplate extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cases_template awscc_cases_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cases_template awscc_cases_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -622,7 +622,7 @@ export class CasesTemplate extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_cases_template',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.99.0',
+        providerVersion: '1.100.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_ml_transform
+// https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_ml_transform
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,79 +15,79 @@ export interface GlueMlTransformConfig extends cdktn.TerraformMetaArguments {
   /**
   * A user-defined, long-form description text for the machine learning transform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_ml_transform#description GlueMlTransform#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_ml_transform#description GlueMlTransform#description}
   */
   readonly description?: string;
   /**
   * The version of AWS Glue this machine learning transform is compatible with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_ml_transform#glue_version GlueMlTransform#glue_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_ml_transform#glue_version GlueMlTransform#glue_version}
   */
   readonly glueVersion?: string;
   /**
   * A list of AWS Glue table definitions used by the transform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_ml_transform#input_record_tables GlueMlTransform#input_record_tables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_ml_transform#input_record_tables GlueMlTransform#input_record_tables}
   */
   readonly inputRecordTables: GlueMlTransformInputRecordTables;
   /**
   * The number of AWS Glue DPUs allocated to task runs for this transform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_ml_transform#max_capacity GlueMlTransform#max_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_ml_transform#max_capacity GlueMlTransform#max_capacity}
   */
   readonly maxCapacity?: number;
   /**
   * The maximum number of times to retry after an MLTaskRun fails.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_ml_transform#max_retries GlueMlTransform#max_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_ml_transform#max_retries GlueMlTransform#max_retries}
   */
   readonly maxRetries?: number;
   /**
   * A user-defined name for the machine learning transform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_ml_transform#name GlueMlTransform#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_ml_transform#name GlueMlTransform#name}
   */
   readonly name?: string;
   /**
   * The number of workers of a defined workerType that are allocated when a task runs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_ml_transform#number_of_workers GlueMlTransform#number_of_workers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_ml_transform#number_of_workers GlueMlTransform#number_of_workers}
   */
   readonly numberOfWorkers?: number;
   /**
   * The name or ARN of the IAM role with the required permissions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_ml_transform#role GlueMlTransform#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_ml_transform#role GlueMlTransform#role}
   */
   readonly role: string;
   /**
   * The tags to use with this machine learning transform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_ml_transform#tags GlueMlTransform#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_ml_transform#tags GlueMlTransform#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The timeout in minutes of the machine learning transform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_ml_transform#timeout GlueMlTransform#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_ml_transform#timeout GlueMlTransform#timeout}
   */
   readonly timeout?: number;
   /**
   * The encryption-at-rest settings of the transform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_ml_transform#transform_encryption GlueMlTransform#transform_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_ml_transform#transform_encryption GlueMlTransform#transform_encryption}
   */
   readonly transformEncryption?: GlueMlTransformTransformEncryption;
   /**
   * The algorithm-specific parameters that are associated with the machine learning transform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_ml_transform#transform_parameters GlueMlTransform#transform_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_ml_transform#transform_parameters GlueMlTransform#transform_parameters}
   */
   readonly transformParameters: GlueMlTransformTransformParameters;
   /**
   * The type of predefined worker that is allocated when a task runs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_ml_transform#worker_type GlueMlTransform#worker_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_ml_transform#worker_type GlueMlTransform#worker_type}
   */
   readonly workerType?: string;
 }
@@ -95,25 +95,25 @@ export interface GlueMlTransformInputRecordTablesGlueTables {
   /**
   * A unique identifier for the AWS Glue Data Catalog.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_ml_transform#catalog_id GlueMlTransform#catalog_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_ml_transform#catalog_id GlueMlTransform#catalog_id}
   */
   readonly catalogId?: string;
   /**
   * The name of the connection to the AWS Glue Data Catalog.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_ml_transform#connection_name GlueMlTransform#connection_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_ml_transform#connection_name GlueMlTransform#connection_name}
   */
   readonly connectionName?: string;
   /**
   * A database name in the AWS Glue Data Catalog.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_ml_transform#database_name GlueMlTransform#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_ml_transform#database_name GlueMlTransform#database_name}
   */
   readonly databaseName?: string;
   /**
   * A table name in the AWS Glue Data Catalog.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_ml_transform#table_name GlueMlTransform#table_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_ml_transform#table_name GlueMlTransform#table_name}
   */
   readonly tableName?: string;
 }
@@ -318,7 +318,7 @@ export interface GlueMlTransformInputRecordTables {
   /**
   * The database and table in the AWS Glue Data Catalog that is used for input or output data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_ml_transform#glue_tables GlueMlTransform#glue_tables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_ml_transform#glue_tables GlueMlTransform#glue_tables}
   */
   readonly glueTables?: GlueMlTransformInputRecordTablesGlueTables[] | cdktn.IResolvable;
 }
@@ -414,13 +414,13 @@ export interface GlueMlTransformTransformEncryptionMlUserDataEncryption {
   /**
   * The ID for the customer-provided KMS key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_ml_transform#kms_key_id GlueMlTransform#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_ml_transform#kms_key_id GlueMlTransform#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
   * The encryption mode applied to user data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_ml_transform#ml_user_data_encryption_mode GlueMlTransform#ml_user_data_encryption_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_ml_transform#ml_user_data_encryption_mode GlueMlTransform#ml_user_data_encryption_mode}
   */
   readonly mlUserDataEncryptionMode?: string;
 }
@@ -545,13 +545,13 @@ export interface GlueMlTransformTransformEncryption {
   /**
   * The encryption-at-rest settings of the transform that apply to accessing user data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_ml_transform#ml_user_data_encryption GlueMlTransform#ml_user_data_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_ml_transform#ml_user_data_encryption GlueMlTransform#ml_user_data_encryption}
   */
   readonly mlUserDataEncryption?: GlueMlTransformTransformEncryptionMlUserDataEncryption;
   /**
   * The name of the security configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_ml_transform#task_run_security_configuration_name GlueMlTransform#task_run_security_configuration_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_ml_transform#task_run_security_configuration_name GlueMlTransform#task_run_security_configuration_name}
   */
   readonly taskRunSecurityConfigurationName?: string;
 }
@@ -676,25 +676,25 @@ export interface GlueMlTransformTransformParametersFindMatchesParameters {
   /**
   * The value for accuracy and cost tradeoff. A value of 0.5 means balance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_ml_transform#accuracy_cost_tradeoff GlueMlTransform#accuracy_cost_tradeoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_ml_transform#accuracy_cost_tradeoff GlueMlTransform#accuracy_cost_tradeoff}
   */
   readonly accuracyCostTradeoff?: number;
   /**
   * If true, forces the output to match the provided labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_ml_transform#enforce_provided_labels GlueMlTransform#enforce_provided_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_ml_transform#enforce_provided_labels GlueMlTransform#enforce_provided_labels}
   */
   readonly enforceProvidedLabels?: boolean | cdktn.IResolvable;
   /**
   * The value for precision and recall tradeoff. A value of 0.5 means no preference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_ml_transform#precision_recall_tradeoff GlueMlTransform#precision_recall_tradeoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_ml_transform#precision_recall_tradeoff GlueMlTransform#precision_recall_tradeoff}
   */
   readonly precisionRecallTradeoff?: number;
   /**
   * The name of a column that uniquely identifies rows in the source table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_ml_transform#primary_key_column_name GlueMlTransform#primary_key_column_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_ml_transform#primary_key_column_name GlueMlTransform#primary_key_column_name}
   */
   readonly primaryKeyColumnName?: string;
 }
@@ -877,13 +877,13 @@ export interface GlueMlTransformTransformParameters {
   /**
   * The parameters to configure the find matches transform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_ml_transform#find_matches_parameters GlueMlTransform#find_matches_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_ml_transform#find_matches_parameters GlueMlTransform#find_matches_parameters}
   */
   readonly findMatchesParameters?: GlueMlTransformTransformParametersFindMatchesParameters;
   /**
   * The type of machine learning transform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_ml_transform#transform_type GlueMlTransform#transform_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_ml_transform#transform_type GlueMlTransform#transform_type}
   */
   readonly transformType: string;
 }
@@ -1003,7 +1003,7 @@ export class GlueMlTransformTransformParametersOutputReference extends cdktn.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_ml_transform awscc_glue_ml_transform}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_ml_transform awscc_glue_ml_transform}
 */
 export class GlueMlTransform extends cdktn.TerraformResource {
 
@@ -1019,7 +1019,7 @@ export class GlueMlTransform extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GlueMlTransform resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GlueMlTransform to import
-  * @param importFromId The id of the existing GlueMlTransform that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_ml_transform#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GlueMlTransform that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_ml_transform#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GlueMlTransform to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1031,7 +1031,7 @@ export class GlueMlTransform extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_ml_transform awscc_glue_ml_transform} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_ml_transform awscc_glue_ml_transform} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1042,7 +1042,7 @@ export class GlueMlTransform extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_glue_ml_transform',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.99.0',
+        providerVersion: '1.100.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

@@ -4,7 +4,7 @@
 
 ### DataAwsccWorkspacesConnectionAliases <a name="DataAwsccWorkspacesConnectionAliases" id="@cdktn/provider-awscc.dataAwsccWorkspacesConnectionAliases.DataAwsccWorkspacesConnectionAliases"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/workspaces_connection_aliases awscc_workspaces_connection_aliases}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/workspaces_connection_aliases awscc_workspaces_connection_aliases}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspacesConnectionAliases.DataAwsccWorkspacesConnectionAliases.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccWorkspacesConnect
 
 The id of the existing DataAwsccWorkspacesConnectionAliases that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/workspaces_connection_aliases#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/workspaces_connection_aliases#import import section} in the documentation of this resource for the id to use
 
 ---
 

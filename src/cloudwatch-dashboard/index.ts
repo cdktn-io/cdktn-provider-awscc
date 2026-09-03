@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudwatch_dashboard
+// https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudwatch_dashboard
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,19 +15,19 @@ export interface CloudwatchDashboardConfig extends cdktn.TerraformMetaArguments 
   /**
   * The detailed information about the dashboard in JSON format, including the widgets to include and their location on the dashboard
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudwatch_dashboard#dashboard_body CloudwatchDashboard#dashboard_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudwatch_dashboard#dashboard_body CloudwatchDashboard#dashboard_body}
   */
   readonly dashboardBody: string;
   /**
   * The name of the dashboard. The name must be between 1 and 255 characters. If you do not specify a name, one will be generated automatically.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudwatch_dashboard#dashboard_name CloudwatchDashboard#dashboard_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudwatch_dashboard#dashboard_name CloudwatchDashboard#dashboard_name}
   */
   readonly dashboardName?: string;
   /**
   * A list of key-value pairs to associate with the cloudwatch dashboard. You can associate up to 50 tags with a dashboard
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudwatch_dashboard#tags CloudwatchDashboard#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudwatch_dashboard#tags CloudwatchDashboard#tags}
   */
   readonly tags?: CloudwatchDashboardTags[] | cdktn.IResolvable;
 }
@@ -35,13 +35,13 @@ export interface CloudwatchDashboardTags {
   /**
   * A unique identifier for the tag. The combination of tag keys and values can help you organize and categorize your resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudwatch_dashboard#key CloudwatchDashboard#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudwatch_dashboard#key CloudwatchDashboard#key}
   */
   readonly key?: string;
   /**
   * The value for the specified tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudwatch_dashboard#value CloudwatchDashboard#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudwatch_dashboard#value CloudwatchDashboard#value}
   */
   readonly value?: string;
 }
@@ -186,7 +186,7 @@ export class CloudwatchDashboardTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudwatch_dashboard awscc_cloudwatch_dashboard}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudwatch_dashboard awscc_cloudwatch_dashboard}
 */
 export class CloudwatchDashboard extends cdktn.TerraformResource {
 
@@ -202,7 +202,7 @@ export class CloudwatchDashboard extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a CloudwatchDashboard resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudwatchDashboard to import
-  * @param importFromId The id of the existing CloudwatchDashboard that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudwatch_dashboard#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudwatchDashboard that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudwatch_dashboard#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudwatchDashboard to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -214,7 +214,7 @@ export class CloudwatchDashboard extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudwatch_dashboard awscc_cloudwatch_dashboard} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudwatch_dashboard awscc_cloudwatch_dashboard} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -225,7 +225,7 @@ export class CloudwatchDashboard extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_cloudwatch_dashboard',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.99.0',
+        providerVersion: '1.100.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

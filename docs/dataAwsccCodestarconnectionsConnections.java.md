@@ -4,7 +4,7 @@
 
 ### DataAwsccCodestarconnectionsConnections <a name="DataAwsccCodestarconnectionsConnections" id="@cdktn/provider-awscc.dataAwsccCodestarconnectionsConnections.DataAwsccCodestarconnectionsConnections"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/codestarconnections_connections awscc_codestarconnections_connections}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/codestarconnections_connections awscc_codestarconnections_connections}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodestarconnectionsConnections.DataAwsccCodestarconnectionsConnections.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccCodestarconnectio
 
 The id of the existing DataAwsccCodestarconnectionsConnections that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/codestarconnections_connections#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/codestarconnections_connections#import import section} in the documentation of this resource for the id to use
 
 ---
 

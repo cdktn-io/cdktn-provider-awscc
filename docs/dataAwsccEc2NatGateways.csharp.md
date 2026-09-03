@@ -4,7 +4,7 @@
 
 ### DataAwsccEc2NatGateways <a name="DataAwsccEc2NatGateways" id="@cdktn/provider-awscc.dataAwsccEc2NatGateways.DataAwsccEc2NatGateways"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_nat_gateways awscc_ec2_nat_gateways}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_nat_gateways awscc_ec2_nat_gateways}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2NatGateways.DataAwsccEc2NatGateways.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2NatGateways to
 
 The id of the existing DataAwsccEc2NatGateways that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_nat_gateways#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_nat_gateways#import import section} in the documentation of this resource for the id to use
 
 ---
 

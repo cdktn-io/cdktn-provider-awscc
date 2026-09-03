@@ -4,7 +4,7 @@
 
 ### DataAwsccComprehendFlywheels <a name="DataAwsccComprehendFlywheels" id="@cdktn/provider-awscc.dataAwsccComprehendFlywheels.DataAwsccComprehendFlywheels"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/comprehend_flywheels awscc_comprehend_flywheels}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/comprehend_flywheels awscc_comprehend_flywheels}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccComprehendFlywheels.DataAwsccComprehendFlywheels.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccComprehendFlywhee
 
 The id of the existing DataAwsccComprehendFlywheels that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/comprehend_flywheels#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/comprehend_flywheels#import import section} in the documentation of this resource for the id to use
 
 ---
 

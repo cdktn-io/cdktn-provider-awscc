@@ -4,7 +4,7 @@
 
 ### ApplicationinsightsApplication <a name="ApplicationinsightsApplication" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplication"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application awscc_applicationinsights_application}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application awscc_applicationinsights_application}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplication.Initializer"></a>
 
@@ -126,7 +126,7 @@ Must be unique amongst siblings in the same scope
 
 The name of the resource group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#resource_group_name ApplicationinsightsApplication#resource_group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#resource_group_name ApplicationinsightsApplication#resource_group_name}
 
 ---
 
@@ -136,7 +136,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 If set to true, the managed policies for SSM and CW will be attached to the instance roles if they are missing.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#attach_missing_permission ApplicationinsightsApplication#attach_missing_permission}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#attach_missing_permission ApplicationinsightsApplication#attach_missing_permission}
 
 ---
 
@@ -146,7 +146,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 If set to true, application will be configured with recommended monitoring configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#auto_configuration_enabled ApplicationinsightsApplication#auto_configuration_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#auto_configuration_enabled ApplicationinsightsApplication#auto_configuration_enabled}
 
 ---
 
@@ -156,7 +156,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The monitoring settings of the components.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#component_monitoring_settings ApplicationinsightsApplication#component_monitoring_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#component_monitoring_settings ApplicationinsightsApplication#component_monitoring_settings}
 
 ---
 
@@ -166,7 +166,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The custom grouped components.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#custom_components ApplicationinsightsApplication#custom_components}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#custom_components ApplicationinsightsApplication#custom_components}
 
 ---
 
@@ -176,7 +176,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Indicates whether Application Insights can listen to CloudWatch events for the application resources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#cwe_monitor_enabled ApplicationinsightsApplication#cwe_monitor_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#cwe_monitor_enabled ApplicationinsightsApplication#cwe_monitor_enabled}
 
 ---
 
@@ -186,7 +186,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The grouping type of the application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#grouping_type ApplicationinsightsApplication#grouping_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#grouping_type ApplicationinsightsApplication#grouping_type}
 
 ---
 
@@ -196,7 +196,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The log pattern sets.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#log_pattern_sets ApplicationinsightsApplication#log_pattern_sets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#log_pattern_sets ApplicationinsightsApplication#log_pattern_sets}
 
 ---
 
@@ -206,7 +206,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 When set to true, creates opsItems for any problems detected on an application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#ops_center_enabled ApplicationinsightsApplication#ops_center_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#ops_center_enabled ApplicationinsightsApplication#ops_center_enabled}
 
 ---
 
@@ -216,7 +216,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The SNS topic provided to Application Insights that is associated to the created opsItem.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#ops_item_sns_topic_arn ApplicationinsightsApplication#ops_item_sns_topic_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#ops_item_sns_topic_arn ApplicationinsightsApplication#ops_item_sns_topic_arn}
 
 ---
 
@@ -226,7 +226,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Application Insights sends notifications to this SNS topic whenever there is a problem update in the associated application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#sns_notification_arn ApplicationinsightsApplication#sns_notification_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#sns_notification_arn ApplicationinsightsApplication#sns_notification_arn}
 
 ---
 
@@ -236,7 +236,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The tags of Application Insights application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#tags ApplicationinsightsApplication#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#tags ApplicationinsightsApplication#tags}
 
 ---
 
@@ -814,7 +814,7 @@ The construct id used in the generated config for the ApplicationinsightsApplica
 
 The id of the existing ApplicationinsightsApplication that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1335,7 +1335,7 @@ public java.lang.String getComponentArn();
 
 The ARN of the compnonent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#component_arn ApplicationinsightsApplication#component_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#component_arn ApplicationinsightsApplication#component_arn}
 
 ---
 
@@ -1349,7 +1349,7 @@ public java.lang.String getComponentConfigurationMode();
 
 The component monitoring configuration mode.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#component_configuration_mode ApplicationinsightsApplication#component_configuration_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#component_configuration_mode ApplicationinsightsApplication#component_configuration_mode}
 
 ---
 
@@ -1363,7 +1363,7 @@ public java.lang.String getComponentName();
 
 The name of the component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#component_name ApplicationinsightsApplication#component_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#component_name ApplicationinsightsApplication#component_name}
 
 ---
 
@@ -1377,7 +1377,7 @@ public ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentC
 
 The monitoring configuration of the component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#custom_component_configuration ApplicationinsightsApplication#custom_component_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#custom_component_configuration ApplicationinsightsApplication#custom_component_configuration}
 
 ---
 
@@ -1391,7 +1391,7 @@ public ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwrite
 
 The overwritten settings on default component monitoring configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#default_overwrite_component_configuration ApplicationinsightsApplication#default_overwrite_component_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#default_overwrite_component_configuration ApplicationinsightsApplication#default_overwrite_component_configuration}
 
 ---
 
@@ -1405,7 +1405,7 @@ public java.lang.String getTier();
 
 The tier of the application component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#tier ApplicationinsightsApplication#tier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#tier ApplicationinsightsApplication#tier}
 
 ---
 
@@ -1441,7 +1441,7 @@ public ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentC
 
 The configuration settings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#configuration_details ApplicationinsightsApplication#configuration_details}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#configuration_details ApplicationinsightsApplication#configuration_details}
 
 ---
 
@@ -1455,7 +1455,7 @@ public IResolvable|java.util.List<ApplicationinsightsApplicationComponentMonitor
 
 Sub component configurations of the component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#sub_component_type_configurations ApplicationinsightsApplication#sub_component_type_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#sub_component_type_configurations ApplicationinsightsApplication#sub_component_type_configurations}
 
 ---
 
@@ -1507,7 +1507,7 @@ public IResolvable|java.util.List<ApplicationinsightsApplicationComponentMonitor
 
 A list of metrics to monitor for the component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#alarm_metrics ApplicationinsightsApplication#alarm_metrics}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#alarm_metrics ApplicationinsightsApplication#alarm_metrics}
 
 ---
 
@@ -1521,7 +1521,7 @@ public IResolvable|java.util.List<ApplicationinsightsApplicationComponentMonitor
 
 A list of alarms to monitor for the component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#alarms ApplicationinsightsApplication#alarms}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#alarms ApplicationinsightsApplication#alarms}
 
 ---
 
@@ -1535,7 +1535,7 @@ public ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentC
 
 The HA cluster Prometheus Exporter settings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#ha_cluster_prometheus_exporter ApplicationinsightsApplication#ha_cluster_prometheus_exporter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#ha_cluster_prometheus_exporter ApplicationinsightsApplication#ha_cluster_prometheus_exporter}
 
 ---
 
@@ -1549,7 +1549,7 @@ public ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentC
 
 The HANA DB Prometheus Exporter settings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#hana_prometheus_exporter ApplicationinsightsApplication#hana_prometheus_exporter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#hana_prometheus_exporter ApplicationinsightsApplication#hana_prometheus_exporter}
 
 ---
 
@@ -1563,7 +1563,7 @@ public ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentC
 
 The JMX Prometheus Exporter settings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#jmx_prometheus_exporter ApplicationinsightsApplication#jmx_prometheus_exporter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#jmx_prometheus_exporter ApplicationinsightsApplication#jmx_prometheus_exporter}
 
 ---
 
@@ -1577,7 +1577,7 @@ public IResolvable|java.util.List<ApplicationinsightsApplicationComponentMonitor
 
 A list of logs to monitor for the component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#logs ApplicationinsightsApplication#logs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#logs ApplicationinsightsApplication#logs}
 
 ---
 
@@ -1591,7 +1591,7 @@ public ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentC
 
 The NetWeaver Prometheus Exporter settings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#net_weaver_prometheus_exporter ApplicationinsightsApplication#net_weaver_prometheus_exporter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#net_weaver_prometheus_exporter ApplicationinsightsApplication#net_weaver_prometheus_exporter}
 
 ---
 
@@ -1605,7 +1605,7 @@ public IResolvable|java.util.List<ApplicationinsightsApplicationComponentMonitor
 
 A list of processes to monitor for the component. Only Windows EC2 instances can have a processes section.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#processes ApplicationinsightsApplication#processes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#processes ApplicationinsightsApplication#processes}
 
 ---
 
@@ -1619,7 +1619,7 @@ public ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentC
 
 The SQL Prometheus Exporter settings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#sql_server_prometheus_exporter ApplicationinsightsApplication#sql_server_prometheus_exporter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#sql_server_prometheus_exporter ApplicationinsightsApplication#sql_server_prometheus_exporter}
 
 ---
 
@@ -1633,7 +1633,7 @@ public IResolvable|java.util.List<ApplicationinsightsApplicationComponentMonitor
 
 A list of Windows Events to log.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#windows_events ApplicationinsightsApplication#windows_events}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#windows_events ApplicationinsightsApplication#windows_events}
 
 ---
 
@@ -1667,7 +1667,7 @@ public java.lang.String getAlarmMetricName();
 
 The name of the metric to be monitored for the component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#alarm_metric_name ApplicationinsightsApplication#alarm_metric_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#alarm_metric_name ApplicationinsightsApplication#alarm_metric_name}
 
 ---
 
@@ -1703,7 +1703,7 @@ public java.lang.String getAlarmName();
 
 The name of the CloudWatch alarm to be monitored for the component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#alarm_name ApplicationinsightsApplication#alarm_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#alarm_name ApplicationinsightsApplication#alarm_name}
 
 ---
 
@@ -1717,7 +1717,7 @@ public java.lang.String getSeverity();
 
 Indicates the degree of outage when the alarm goes off.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#severity ApplicationinsightsApplication#severity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#severity ApplicationinsightsApplication#severity}
 
 ---
 
@@ -1751,7 +1751,7 @@ public java.lang.String getPrometheusPort();
 
 Prometheus exporter port.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#prometheus_port ApplicationinsightsApplication#prometheus_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#prometheus_port ApplicationinsightsApplication#prometheus_port}
 
 ---
 
@@ -1793,7 +1793,7 @@ public java.lang.Boolean|IResolvable getAgreeToInstallHanadbClient();
 
 A flag which indicates agreeing to install SAP HANA DB client.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#agree_to_install_hanadb_client ApplicationinsightsApplication#agree_to_install_hanadb_client}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#agree_to_install_hanadb_client ApplicationinsightsApplication#agree_to_install_hanadb_client}
 
 ---
 
@@ -1807,7 +1807,7 @@ public java.lang.String getHanaPort();
 
 The HANA DB port.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#hana_port ApplicationinsightsApplication#hana_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#hana_port ApplicationinsightsApplication#hana_port}
 
 ---
 
@@ -1821,7 +1821,7 @@ public java.lang.String getHanaSecretName();
 
 The secret name which manages the HANA DB credentials e.g. {   "username": "<>",   "password": "<>" }.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#hana_secret_name ApplicationinsightsApplication#hana_secret_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#hana_secret_name ApplicationinsightsApplication#hana_secret_name}
 
 ---
 
@@ -1835,7 +1835,7 @@ public java.lang.String getHanasid();
 
 HANA DB SID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#hanasid ApplicationinsightsApplication#hanasid}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#hanasid ApplicationinsightsApplication#hanasid}
 
 ---
 
@@ -1849,7 +1849,7 @@ public java.lang.String getPrometheusPort();
 
 Prometheus exporter port.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#prometheus_port ApplicationinsightsApplication#prometheus_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#prometheus_port ApplicationinsightsApplication#prometheus_port}
 
 ---
 
@@ -1887,7 +1887,7 @@ public java.lang.String getHostPort();
 
 Java agent host port.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#host_port ApplicationinsightsApplication#host_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#host_port ApplicationinsightsApplication#host_port}
 
 ---
 
@@ -1901,7 +1901,7 @@ public java.lang.String getJmxurl();
 
 JMX service URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#jmxurl ApplicationinsightsApplication#jmxurl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#jmxurl ApplicationinsightsApplication#jmxurl}
 
 ---
 
@@ -1915,7 +1915,7 @@ public java.lang.String getPrometheusPort();
 
 Prometheus exporter port.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#prometheus_port ApplicationinsightsApplication#prometheus_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#prometheus_port ApplicationinsightsApplication#prometheus_port}
 
 ---
 
@@ -1957,7 +1957,7 @@ public java.lang.String getEncoding();
 
 The type of encoding of the logs to be monitored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#encoding ApplicationinsightsApplication#encoding}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#encoding ApplicationinsightsApplication#encoding}
 
 ---
 
@@ -1971,7 +1971,7 @@ public java.lang.String getLogGroupName();
 
 The CloudWatch log group name to be associated to the monitored log.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#log_group_name ApplicationinsightsApplication#log_group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#log_group_name ApplicationinsightsApplication#log_group_name}
 
 ---
 
@@ -1985,7 +1985,7 @@ public java.lang.String getLogPath();
 
 The path of the logs to be monitored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#log_path ApplicationinsightsApplication#log_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#log_path ApplicationinsightsApplication#log_path}
 
 ---
 
@@ -1999,7 +1999,7 @@ public java.lang.String getLogType();
 
 The log type decides the log patterns against which Application Insights analyzes the log.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#log_type ApplicationinsightsApplication#log_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#log_type ApplicationinsightsApplication#log_type}
 
 ---
 
@@ -2013,7 +2013,7 @@ public java.lang.String getPatternSet();
 
 The name of the log pattern set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#pattern_set ApplicationinsightsApplication#pattern_set}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#pattern_set ApplicationinsightsApplication#pattern_set}
 
 ---
 
@@ -2051,7 +2051,7 @@ public java.util.List<java.lang.String> getInstanceNumbers();
 
 SAP instance numbers for ASCS, ERS, and App Servers.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#instance_numbers ApplicationinsightsApplication#instance_numbers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#instance_numbers ApplicationinsightsApplication#instance_numbers}
 
 ---
 
@@ -2065,7 +2065,7 @@ public java.lang.String getPrometheusPort();
 
 Prometheus exporter port.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#prometheus_port ApplicationinsightsApplication#prometheus_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#prometheus_port ApplicationinsightsApplication#prometheus_port}
 
 ---
 
@@ -2079,7 +2079,7 @@ public java.lang.String getSapsid();
 
 SAP NetWeaver SID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#sapsid ApplicationinsightsApplication#sapsid}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#sapsid ApplicationinsightsApplication#sapsid}
 
 ---
 
@@ -2115,7 +2115,7 @@ public IResolvable|java.util.List<ApplicationinsightsApplicationComponentMonitor
 
 A list of metrics to monitor for the component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#alarm_metrics ApplicationinsightsApplication#alarm_metrics}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#alarm_metrics ApplicationinsightsApplication#alarm_metrics}
 
 ---
 
@@ -2129,7 +2129,7 @@ public java.lang.String getProcessName();
 
 The name of the process to be monitored for the component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#process_name ApplicationinsightsApplication#process_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#process_name ApplicationinsightsApplication#process_name}
 
 ---
 
@@ -2163,7 +2163,7 @@ public java.lang.String getAlarmMetricName();
 
 The name of the metric to be monitored for the component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#alarm_metric_name ApplicationinsightsApplication#alarm_metric_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#alarm_metric_name ApplicationinsightsApplication#alarm_metric_name}
 
 ---
 
@@ -2199,7 +2199,7 @@ public java.lang.String getPrometheusPort();
 
 Prometheus exporter port.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#prometheus_port ApplicationinsightsApplication#prometheus_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#prometheus_port ApplicationinsightsApplication#prometheus_port}
 
 ---
 
@@ -2213,7 +2213,7 @@ public java.lang.String getSqlSecretName();
 
 Secret name which managers SQL exporter connection. e.g. {"data_source_name": "sqlserver://<USERNAME>:<PASSWORD>@localhost:1433"}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#sql_secret_name ApplicationinsightsApplication#sql_secret_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#sql_secret_name ApplicationinsightsApplication#sql_secret_name}
 
 ---
 
@@ -2253,7 +2253,7 @@ public java.util.List<java.lang.String> getEventLevels();
 
 The levels of event to log.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#event_levels ApplicationinsightsApplication#event_levels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#event_levels ApplicationinsightsApplication#event_levels}
 
 ---
 
@@ -2267,7 +2267,7 @@ public java.lang.String getEventName();
 
 The type of Windows Events to log.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#event_name ApplicationinsightsApplication#event_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#event_name ApplicationinsightsApplication#event_name}
 
 ---
 
@@ -2281,7 +2281,7 @@ public java.lang.String getLogGroupName();
 
 The CloudWatch log group name to be associated to the monitored log.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#log_group_name ApplicationinsightsApplication#log_group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#log_group_name ApplicationinsightsApplication#log_group_name}
 
 ---
 
@@ -2295,7 +2295,7 @@ public java.lang.String getPatternSet();
 
 The name of the log pattern set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#pattern_set ApplicationinsightsApplication#pattern_set}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#pattern_set ApplicationinsightsApplication#pattern_set}
 
 ---
 
@@ -2331,7 +2331,7 @@ public ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentC
 
 The configuration settings of sub components.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#sub_component_configuration_details ApplicationinsightsApplication#sub_component_configuration_details}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#sub_component_configuration_details ApplicationinsightsApplication#sub_component_configuration_details}
 
 ---
 
@@ -2345,7 +2345,7 @@ public java.lang.String getSubComponentType();
 
 The sub component type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#sub_component_type ApplicationinsightsApplication#sub_component_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#sub_component_type ApplicationinsightsApplication#sub_component_type}
 
 ---
 
@@ -2385,7 +2385,7 @@ public IResolvable|java.util.List<ApplicationinsightsApplicationComponentMonitor
 
 A list of metrics to monitor for the component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#alarm_metrics ApplicationinsightsApplication#alarm_metrics}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#alarm_metrics ApplicationinsightsApplication#alarm_metrics}
 
 ---
 
@@ -2399,7 +2399,7 @@ public IResolvable|java.util.List<ApplicationinsightsApplicationComponentMonitor
 
 A list of logs to monitor for the component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#logs ApplicationinsightsApplication#logs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#logs ApplicationinsightsApplication#logs}
 
 ---
 
@@ -2413,7 +2413,7 @@ public IResolvable|java.util.List<ApplicationinsightsApplicationComponentMonitor
 
 A list of processes to monitor for the component. Only Windows EC2 instances can have a processes section.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#processes ApplicationinsightsApplication#processes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#processes ApplicationinsightsApplication#processes}
 
 ---
 
@@ -2427,7 +2427,7 @@ public IResolvable|java.util.List<ApplicationinsightsApplicationComponentMonitor
 
 A list of Windows Events to log.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#windows_events ApplicationinsightsApplication#windows_events}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#windows_events ApplicationinsightsApplication#windows_events}
 
 ---
 
@@ -2461,7 +2461,7 @@ public java.lang.String getAlarmMetricName();
 
 The name of the metric to be monitored for the component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#alarm_metric_name ApplicationinsightsApplication#alarm_metric_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#alarm_metric_name ApplicationinsightsApplication#alarm_metric_name}
 
 ---
 
@@ -2503,7 +2503,7 @@ public java.lang.String getEncoding();
 
 The type of encoding of the logs to be monitored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#encoding ApplicationinsightsApplication#encoding}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#encoding ApplicationinsightsApplication#encoding}
 
 ---
 
@@ -2517,7 +2517,7 @@ public java.lang.String getLogGroupName();
 
 The CloudWatch log group name to be associated to the monitored log.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#log_group_name ApplicationinsightsApplication#log_group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#log_group_name ApplicationinsightsApplication#log_group_name}
 
 ---
 
@@ -2531,7 +2531,7 @@ public java.lang.String getLogPath();
 
 The path of the logs to be monitored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#log_path ApplicationinsightsApplication#log_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#log_path ApplicationinsightsApplication#log_path}
 
 ---
 
@@ -2545,7 +2545,7 @@ public java.lang.String getLogType();
 
 The log type decides the log patterns against which Application Insights analyzes the log.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#log_type ApplicationinsightsApplication#log_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#log_type ApplicationinsightsApplication#log_type}
 
 ---
 
@@ -2559,7 +2559,7 @@ public java.lang.String getPatternSet();
 
 The name of the log pattern set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#pattern_set ApplicationinsightsApplication#pattern_set}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#pattern_set ApplicationinsightsApplication#pattern_set}
 
 ---
 
@@ -2595,7 +2595,7 @@ public IResolvable|java.util.List<ApplicationinsightsApplicationComponentMonitor
 
 A list of metrics to monitor for the component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#alarm_metrics ApplicationinsightsApplication#alarm_metrics}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#alarm_metrics ApplicationinsightsApplication#alarm_metrics}
 
 ---
 
@@ -2609,7 +2609,7 @@ public java.lang.String getProcessName();
 
 The name of the process to be monitored for the component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#process_name ApplicationinsightsApplication#process_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#process_name ApplicationinsightsApplication#process_name}
 
 ---
 
@@ -2643,7 +2643,7 @@ public java.lang.String getAlarmMetricName();
 
 The name of the metric to be monitored for the component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#alarm_metric_name ApplicationinsightsApplication#alarm_metric_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#alarm_metric_name ApplicationinsightsApplication#alarm_metric_name}
 
 ---
 
@@ -2683,7 +2683,7 @@ public java.util.List<java.lang.String> getEventLevels();
 
 The levels of event to log.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#event_levels ApplicationinsightsApplication#event_levels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#event_levels ApplicationinsightsApplication#event_levels}
 
 ---
 
@@ -2697,7 +2697,7 @@ public java.lang.String getEventName();
 
 The type of Windows Events to log.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#event_name ApplicationinsightsApplication#event_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#event_name ApplicationinsightsApplication#event_name}
 
 ---
 
@@ -2711,7 +2711,7 @@ public java.lang.String getLogGroupName();
 
 The CloudWatch log group name to be associated to the monitored log.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#log_group_name ApplicationinsightsApplication#log_group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#log_group_name ApplicationinsightsApplication#log_group_name}
 
 ---
 
@@ -2725,7 +2725,7 @@ public java.lang.String getPatternSet();
 
 The name of the log pattern set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#pattern_set ApplicationinsightsApplication#pattern_set}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#pattern_set ApplicationinsightsApplication#pattern_set}
 
 ---
 
@@ -2761,7 +2761,7 @@ public ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwrite
 
 The configuration settings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#configuration_details ApplicationinsightsApplication#configuration_details}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#configuration_details ApplicationinsightsApplication#configuration_details}
 
 ---
 
@@ -2775,7 +2775,7 @@ public IResolvable|java.util.List<ApplicationinsightsApplicationComponentMonitor
 
 Sub component configurations of the component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#sub_component_type_configurations ApplicationinsightsApplication#sub_component_type_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#sub_component_type_configurations ApplicationinsightsApplication#sub_component_type_configurations}
 
 ---
 
@@ -2827,7 +2827,7 @@ public IResolvable|java.util.List<ApplicationinsightsApplicationComponentMonitor
 
 A list of metrics to monitor for the component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#alarm_metrics ApplicationinsightsApplication#alarm_metrics}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#alarm_metrics ApplicationinsightsApplication#alarm_metrics}
 
 ---
 
@@ -2841,7 +2841,7 @@ public IResolvable|java.util.List<ApplicationinsightsApplicationComponentMonitor
 
 A list of alarms to monitor for the component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#alarms ApplicationinsightsApplication#alarms}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#alarms ApplicationinsightsApplication#alarms}
 
 ---
 
@@ -2855,7 +2855,7 @@ public ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwrite
 
 The HA cluster Prometheus Exporter settings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#ha_cluster_prometheus_exporter ApplicationinsightsApplication#ha_cluster_prometheus_exporter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#ha_cluster_prometheus_exporter ApplicationinsightsApplication#ha_cluster_prometheus_exporter}
 
 ---
 
@@ -2869,7 +2869,7 @@ public ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwrite
 
 The HANA DB Prometheus Exporter settings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#hana_prometheus_exporter ApplicationinsightsApplication#hana_prometheus_exporter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#hana_prometheus_exporter ApplicationinsightsApplication#hana_prometheus_exporter}
 
 ---
 
@@ -2883,7 +2883,7 @@ public ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwrite
 
 The JMX Prometheus Exporter settings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#jmx_prometheus_exporter ApplicationinsightsApplication#jmx_prometheus_exporter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#jmx_prometheus_exporter ApplicationinsightsApplication#jmx_prometheus_exporter}
 
 ---
 
@@ -2897,7 +2897,7 @@ public IResolvable|java.util.List<ApplicationinsightsApplicationComponentMonitor
 
 A list of logs to monitor for the component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#logs ApplicationinsightsApplication#logs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#logs ApplicationinsightsApplication#logs}
 
 ---
 
@@ -2911,7 +2911,7 @@ public ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwrite
 
 The NetWeaver Prometheus Exporter settings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#net_weaver_prometheus_exporter ApplicationinsightsApplication#net_weaver_prometheus_exporter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#net_weaver_prometheus_exporter ApplicationinsightsApplication#net_weaver_prometheus_exporter}
 
 ---
 
@@ -2925,7 +2925,7 @@ public IResolvable|java.util.List<ApplicationinsightsApplicationComponentMonitor
 
 A list of processes to monitor for the component. Only Windows EC2 instances can have a processes section.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#processes ApplicationinsightsApplication#processes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#processes ApplicationinsightsApplication#processes}
 
 ---
 
@@ -2939,7 +2939,7 @@ public ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwrite
 
 The SQL Prometheus Exporter settings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#sql_server_prometheus_exporter ApplicationinsightsApplication#sql_server_prometheus_exporter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#sql_server_prometheus_exporter ApplicationinsightsApplication#sql_server_prometheus_exporter}
 
 ---
 
@@ -2953,7 +2953,7 @@ public IResolvable|java.util.List<ApplicationinsightsApplicationComponentMonitor
 
 A list of Windows Events to log.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#windows_events ApplicationinsightsApplication#windows_events}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#windows_events ApplicationinsightsApplication#windows_events}
 
 ---
 
@@ -2987,7 +2987,7 @@ public java.lang.String getAlarmMetricName();
 
 The name of the metric to be monitored for the component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#alarm_metric_name ApplicationinsightsApplication#alarm_metric_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#alarm_metric_name ApplicationinsightsApplication#alarm_metric_name}
 
 ---
 
@@ -3023,7 +3023,7 @@ public java.lang.String getAlarmName();
 
 The name of the CloudWatch alarm to be monitored for the component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#alarm_name ApplicationinsightsApplication#alarm_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#alarm_name ApplicationinsightsApplication#alarm_name}
 
 ---
 
@@ -3037,7 +3037,7 @@ public java.lang.String getSeverity();
 
 Indicates the degree of outage when the alarm goes off.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#severity ApplicationinsightsApplication#severity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#severity ApplicationinsightsApplication#severity}
 
 ---
 
@@ -3071,7 +3071,7 @@ public java.lang.String getPrometheusPort();
 
 Prometheus exporter port.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#prometheus_port ApplicationinsightsApplication#prometheus_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#prometheus_port ApplicationinsightsApplication#prometheus_port}
 
 ---
 
@@ -3113,7 +3113,7 @@ public java.lang.Boolean|IResolvable getAgreeToInstallHanadbClient();
 
 A flag which indicates agreeing to install SAP HANA DB client.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#agree_to_install_hanadb_client ApplicationinsightsApplication#agree_to_install_hanadb_client}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#agree_to_install_hanadb_client ApplicationinsightsApplication#agree_to_install_hanadb_client}
 
 ---
 
@@ -3127,7 +3127,7 @@ public java.lang.String getHanaPort();
 
 The HANA DB port.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#hana_port ApplicationinsightsApplication#hana_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#hana_port ApplicationinsightsApplication#hana_port}
 
 ---
 
@@ -3141,7 +3141,7 @@ public java.lang.String getHanaSecretName();
 
 The secret name which manages the HANA DB credentials e.g. {   "username": "<>",   "password": "<>" }.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#hana_secret_name ApplicationinsightsApplication#hana_secret_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#hana_secret_name ApplicationinsightsApplication#hana_secret_name}
 
 ---
 
@@ -3155,7 +3155,7 @@ public java.lang.String getHanasid();
 
 HANA DB SID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#hanasid ApplicationinsightsApplication#hanasid}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#hanasid ApplicationinsightsApplication#hanasid}
 
 ---
 
@@ -3169,7 +3169,7 @@ public java.lang.String getPrometheusPort();
 
 Prometheus exporter port.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#prometheus_port ApplicationinsightsApplication#prometheus_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#prometheus_port ApplicationinsightsApplication#prometheus_port}
 
 ---
 
@@ -3207,7 +3207,7 @@ public java.lang.String getHostPort();
 
 Java agent host port.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#host_port ApplicationinsightsApplication#host_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#host_port ApplicationinsightsApplication#host_port}
 
 ---
 
@@ -3221,7 +3221,7 @@ public java.lang.String getJmxurl();
 
 JMX service URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#jmxurl ApplicationinsightsApplication#jmxurl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#jmxurl ApplicationinsightsApplication#jmxurl}
 
 ---
 
@@ -3235,7 +3235,7 @@ public java.lang.String getPrometheusPort();
 
 Prometheus exporter port.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#prometheus_port ApplicationinsightsApplication#prometheus_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#prometheus_port ApplicationinsightsApplication#prometheus_port}
 
 ---
 
@@ -3277,7 +3277,7 @@ public java.lang.String getEncoding();
 
 The type of encoding of the logs to be monitored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#encoding ApplicationinsightsApplication#encoding}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#encoding ApplicationinsightsApplication#encoding}
 
 ---
 
@@ -3291,7 +3291,7 @@ public java.lang.String getLogGroupName();
 
 The CloudWatch log group name to be associated to the monitored log.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#log_group_name ApplicationinsightsApplication#log_group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#log_group_name ApplicationinsightsApplication#log_group_name}
 
 ---
 
@@ -3305,7 +3305,7 @@ public java.lang.String getLogPath();
 
 The path of the logs to be monitored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#log_path ApplicationinsightsApplication#log_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#log_path ApplicationinsightsApplication#log_path}
 
 ---
 
@@ -3319,7 +3319,7 @@ public java.lang.String getLogType();
 
 The log type decides the log patterns against which Application Insights analyzes the log.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#log_type ApplicationinsightsApplication#log_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#log_type ApplicationinsightsApplication#log_type}
 
 ---
 
@@ -3333,7 +3333,7 @@ public java.lang.String getPatternSet();
 
 The name of the log pattern set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#pattern_set ApplicationinsightsApplication#pattern_set}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#pattern_set ApplicationinsightsApplication#pattern_set}
 
 ---
 
@@ -3371,7 +3371,7 @@ public java.util.List<java.lang.String> getInstanceNumbers();
 
 SAP instance numbers for ASCS, ERS, and App Servers.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#instance_numbers ApplicationinsightsApplication#instance_numbers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#instance_numbers ApplicationinsightsApplication#instance_numbers}
 
 ---
 
@@ -3385,7 +3385,7 @@ public java.lang.String getPrometheusPort();
 
 Prometheus exporter port.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#prometheus_port ApplicationinsightsApplication#prometheus_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#prometheus_port ApplicationinsightsApplication#prometheus_port}
 
 ---
 
@@ -3399,7 +3399,7 @@ public java.lang.String getSapsid();
 
 SAP NetWeaver SID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#sapsid ApplicationinsightsApplication#sapsid}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#sapsid ApplicationinsightsApplication#sapsid}
 
 ---
 
@@ -3435,7 +3435,7 @@ public IResolvable|java.util.List<ApplicationinsightsApplicationComponentMonitor
 
 A list of metrics to monitor for the component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#alarm_metrics ApplicationinsightsApplication#alarm_metrics}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#alarm_metrics ApplicationinsightsApplication#alarm_metrics}
 
 ---
 
@@ -3449,7 +3449,7 @@ public java.lang.String getProcessName();
 
 The name of the process to be monitored for the component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#process_name ApplicationinsightsApplication#process_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#process_name ApplicationinsightsApplication#process_name}
 
 ---
 
@@ -3483,7 +3483,7 @@ public java.lang.String getAlarmMetricName();
 
 The name of the metric to be monitored for the component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#alarm_metric_name ApplicationinsightsApplication#alarm_metric_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#alarm_metric_name ApplicationinsightsApplication#alarm_metric_name}
 
 ---
 
@@ -3519,7 +3519,7 @@ public java.lang.String getPrometheusPort();
 
 Prometheus exporter port.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#prometheus_port ApplicationinsightsApplication#prometheus_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#prometheus_port ApplicationinsightsApplication#prometheus_port}
 
 ---
 
@@ -3533,7 +3533,7 @@ public java.lang.String getSqlSecretName();
 
 Secret name which managers SQL exporter connection. e.g. {"data_source_name": "sqlserver://<USERNAME>:<PASSWORD>@localhost:1433"}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#sql_secret_name ApplicationinsightsApplication#sql_secret_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#sql_secret_name ApplicationinsightsApplication#sql_secret_name}
 
 ---
 
@@ -3573,7 +3573,7 @@ public java.util.List<java.lang.String> getEventLevels();
 
 The levels of event to log.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#event_levels ApplicationinsightsApplication#event_levels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#event_levels ApplicationinsightsApplication#event_levels}
 
 ---
 
@@ -3587,7 +3587,7 @@ public java.lang.String getEventName();
 
 The type of Windows Events to log.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#event_name ApplicationinsightsApplication#event_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#event_name ApplicationinsightsApplication#event_name}
 
 ---
 
@@ -3601,7 +3601,7 @@ public java.lang.String getLogGroupName();
 
 The CloudWatch log group name to be associated to the monitored log.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#log_group_name ApplicationinsightsApplication#log_group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#log_group_name ApplicationinsightsApplication#log_group_name}
 
 ---
 
@@ -3615,7 +3615,7 @@ public java.lang.String getPatternSet();
 
 The name of the log pattern set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#pattern_set ApplicationinsightsApplication#pattern_set}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#pattern_set ApplicationinsightsApplication#pattern_set}
 
 ---
 
@@ -3651,7 +3651,7 @@ public ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwrite
 
 The configuration settings of sub components.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#sub_component_configuration_details ApplicationinsightsApplication#sub_component_configuration_details}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#sub_component_configuration_details ApplicationinsightsApplication#sub_component_configuration_details}
 
 ---
 
@@ -3665,7 +3665,7 @@ public java.lang.String getSubComponentType();
 
 The sub component type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#sub_component_type ApplicationinsightsApplication#sub_component_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#sub_component_type ApplicationinsightsApplication#sub_component_type}
 
 ---
 
@@ -3705,7 +3705,7 @@ public IResolvable|java.util.List<ApplicationinsightsApplicationComponentMonitor
 
 A list of metrics to monitor for the component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#alarm_metrics ApplicationinsightsApplication#alarm_metrics}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#alarm_metrics ApplicationinsightsApplication#alarm_metrics}
 
 ---
 
@@ -3719,7 +3719,7 @@ public IResolvable|java.util.List<ApplicationinsightsApplicationComponentMonitor
 
 A list of logs to monitor for the component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#logs ApplicationinsightsApplication#logs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#logs ApplicationinsightsApplication#logs}
 
 ---
 
@@ -3733,7 +3733,7 @@ public IResolvable|java.util.List<ApplicationinsightsApplicationComponentMonitor
 
 A list of processes to monitor for the component. Only Windows EC2 instances can have a processes section.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#processes ApplicationinsightsApplication#processes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#processes ApplicationinsightsApplication#processes}
 
 ---
 
@@ -3747,7 +3747,7 @@ public IResolvable|java.util.List<ApplicationinsightsApplicationComponentMonitor
 
 A list of Windows Events to log.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#windows_events ApplicationinsightsApplication#windows_events}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#windows_events ApplicationinsightsApplication#windows_events}
 
 ---
 
@@ -3781,7 +3781,7 @@ public java.lang.String getAlarmMetricName();
 
 The name of the metric to be monitored for the component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#alarm_metric_name ApplicationinsightsApplication#alarm_metric_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#alarm_metric_name ApplicationinsightsApplication#alarm_metric_name}
 
 ---
 
@@ -3823,7 +3823,7 @@ public java.lang.String getEncoding();
 
 The type of encoding of the logs to be monitored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#encoding ApplicationinsightsApplication#encoding}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#encoding ApplicationinsightsApplication#encoding}
 
 ---
 
@@ -3837,7 +3837,7 @@ public java.lang.String getLogGroupName();
 
 The CloudWatch log group name to be associated to the monitored log.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#log_group_name ApplicationinsightsApplication#log_group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#log_group_name ApplicationinsightsApplication#log_group_name}
 
 ---
 
@@ -3851,7 +3851,7 @@ public java.lang.String getLogPath();
 
 The path of the logs to be monitored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#log_path ApplicationinsightsApplication#log_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#log_path ApplicationinsightsApplication#log_path}
 
 ---
 
@@ -3865,7 +3865,7 @@ public java.lang.String getLogType();
 
 The log type decides the log patterns against which Application Insights analyzes the log.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#log_type ApplicationinsightsApplication#log_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#log_type ApplicationinsightsApplication#log_type}
 
 ---
 
@@ -3879,7 +3879,7 @@ public java.lang.String getPatternSet();
 
 The name of the log pattern set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#pattern_set ApplicationinsightsApplication#pattern_set}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#pattern_set ApplicationinsightsApplication#pattern_set}
 
 ---
 
@@ -3915,7 +3915,7 @@ public IResolvable|java.util.List<ApplicationinsightsApplicationComponentMonitor
 
 A list of metrics to monitor for the component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#alarm_metrics ApplicationinsightsApplication#alarm_metrics}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#alarm_metrics ApplicationinsightsApplication#alarm_metrics}
 
 ---
 
@@ -3929,7 +3929,7 @@ public java.lang.String getProcessName();
 
 The name of the process to be monitored for the component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#process_name ApplicationinsightsApplication#process_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#process_name ApplicationinsightsApplication#process_name}
 
 ---
 
@@ -3963,7 +3963,7 @@ public java.lang.String getAlarmMetricName();
 
 The name of the metric to be monitored for the component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#alarm_metric_name ApplicationinsightsApplication#alarm_metric_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#alarm_metric_name ApplicationinsightsApplication#alarm_metric_name}
 
 ---
 
@@ -4003,7 +4003,7 @@ public java.util.List<java.lang.String> getEventLevels();
 
 The levels of event to log.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#event_levels ApplicationinsightsApplication#event_levels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#event_levels ApplicationinsightsApplication#event_levels}
 
 ---
 
@@ -4017,7 +4017,7 @@ public java.lang.String getEventName();
 
 The type of Windows Events to log.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#event_name ApplicationinsightsApplication#event_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#event_name ApplicationinsightsApplication#event_name}
 
 ---
 
@@ -4031,7 +4031,7 @@ public java.lang.String getLogGroupName();
 
 The CloudWatch log group name to be associated to the monitored log.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#log_group_name ApplicationinsightsApplication#log_group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#log_group_name ApplicationinsightsApplication#log_group_name}
 
 ---
 
@@ -4045,7 +4045,7 @@ public java.lang.String getPatternSet();
 
 The name of the log pattern set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#pattern_set ApplicationinsightsApplication#pattern_set}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#pattern_set ApplicationinsightsApplication#pattern_set}
 
 ---
 
@@ -4185,7 +4185,7 @@ public java.lang.String getResourceGroupName();
 
 The name of the resource group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#resource_group_name ApplicationinsightsApplication#resource_group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#resource_group_name ApplicationinsightsApplication#resource_group_name}
 
 ---
 
@@ -4199,7 +4199,7 @@ public java.lang.Boolean|IResolvable getAttachMissingPermission();
 
 If set to true, the managed policies for SSM and CW will be attached to the instance roles if they are missing.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#attach_missing_permission ApplicationinsightsApplication#attach_missing_permission}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#attach_missing_permission ApplicationinsightsApplication#attach_missing_permission}
 
 ---
 
@@ -4213,7 +4213,7 @@ public java.lang.Boolean|IResolvable getAutoConfigurationEnabled();
 
 If set to true, application will be configured with recommended monitoring configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#auto_configuration_enabled ApplicationinsightsApplication#auto_configuration_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#auto_configuration_enabled ApplicationinsightsApplication#auto_configuration_enabled}
 
 ---
 
@@ -4227,7 +4227,7 @@ public IResolvable|java.util.List<ApplicationinsightsApplicationComponentMonitor
 
 The monitoring settings of the components.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#component_monitoring_settings ApplicationinsightsApplication#component_monitoring_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#component_monitoring_settings ApplicationinsightsApplication#component_monitoring_settings}
 
 ---
 
@@ -4241,7 +4241,7 @@ public IResolvable|java.util.List<ApplicationinsightsApplicationCustomComponents
 
 The custom grouped components.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#custom_components ApplicationinsightsApplication#custom_components}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#custom_components ApplicationinsightsApplication#custom_components}
 
 ---
 
@@ -4255,7 +4255,7 @@ public java.lang.Boolean|IResolvable getCweMonitorEnabled();
 
 Indicates whether Application Insights can listen to CloudWatch events for the application resources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#cwe_monitor_enabled ApplicationinsightsApplication#cwe_monitor_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#cwe_monitor_enabled ApplicationinsightsApplication#cwe_monitor_enabled}
 
 ---
 
@@ -4269,7 +4269,7 @@ public java.lang.String getGroupingType();
 
 The grouping type of the application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#grouping_type ApplicationinsightsApplication#grouping_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#grouping_type ApplicationinsightsApplication#grouping_type}
 
 ---
 
@@ -4283,7 +4283,7 @@ public IResolvable|java.util.List<ApplicationinsightsApplicationLogPatternSets> 
 
 The log pattern sets.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#log_pattern_sets ApplicationinsightsApplication#log_pattern_sets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#log_pattern_sets ApplicationinsightsApplication#log_pattern_sets}
 
 ---
 
@@ -4297,7 +4297,7 @@ public java.lang.Boolean|IResolvable getOpsCenterEnabled();
 
 When set to true, creates opsItems for any problems detected on an application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#ops_center_enabled ApplicationinsightsApplication#ops_center_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#ops_center_enabled ApplicationinsightsApplication#ops_center_enabled}
 
 ---
 
@@ -4311,7 +4311,7 @@ public java.lang.String getOpsItemSnsTopicArn();
 
 The SNS topic provided to Application Insights that is associated to the created opsItem.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#ops_item_sns_topic_arn ApplicationinsightsApplication#ops_item_sns_topic_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#ops_item_sns_topic_arn ApplicationinsightsApplication#ops_item_sns_topic_arn}
 
 ---
 
@@ -4325,7 +4325,7 @@ public java.lang.String getSnsNotificationArn();
 
 Application Insights sends notifications to this SNS topic whenever there is a problem update in the associated application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#sns_notification_arn ApplicationinsightsApplication#sns_notification_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#sns_notification_arn ApplicationinsightsApplication#sns_notification_arn}
 
 ---
 
@@ -4339,7 +4339,7 @@ public IResolvable|java.util.List<ApplicationinsightsApplicationTags> getTags();
 
 The tags of Application Insights application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#tags ApplicationinsightsApplication#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#tags ApplicationinsightsApplication#tags}
 
 ---
 
@@ -4375,7 +4375,7 @@ public java.lang.String getComponentName();
 
 The name of the component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#component_name ApplicationinsightsApplication#component_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#component_name ApplicationinsightsApplication#component_name}
 
 ---
 
@@ -4389,7 +4389,7 @@ public java.util.List<java.lang.String> getResourceList();
 
 The list of resource ARNs that belong to the component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#resource_list ApplicationinsightsApplication#resource_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#resource_list ApplicationinsightsApplication#resource_list}
 
 ---
 
@@ -4425,7 +4425,7 @@ public IResolvable|java.util.List<ApplicationinsightsApplicationLogPatternSetsLo
 
 The log patterns of a set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#log_patterns ApplicationinsightsApplication#log_patterns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#log_patterns ApplicationinsightsApplication#log_patterns}
 
 ---
 
@@ -4439,7 +4439,7 @@ public java.lang.String getPatternSetName();
 
 The name of the log pattern set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#pattern_set_name ApplicationinsightsApplication#pattern_set_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#pattern_set_name ApplicationinsightsApplication#pattern_set_name}
 
 ---
 
@@ -4477,7 +4477,7 @@ public java.lang.String getPattern();
 
 The log pattern.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#pattern ApplicationinsightsApplication#pattern}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#pattern ApplicationinsightsApplication#pattern}
 
 ---
 
@@ -4491,7 +4491,7 @@ public java.lang.String getPatternName();
 
 The name of the log pattern.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#pattern_name ApplicationinsightsApplication#pattern_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#pattern_name ApplicationinsightsApplication#pattern_name}
 
 ---
 
@@ -4505,7 +4505,7 @@ public java.lang.Number getRank();
 
 Rank of the log pattern.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#rank ApplicationinsightsApplication#rank}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#rank ApplicationinsightsApplication#rank}
 
 ---
 
@@ -4543,7 +4543,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#key ApplicationinsightsApplication#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#key ApplicationinsightsApplication#key}
 
 ---
 
@@ -4559,7 +4559,7 @@ The value for the tag.
 
 You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationinsights_application#value ApplicationinsightsApplication#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationinsights_application#value ApplicationinsightsApplication#value}
 
 ---
 

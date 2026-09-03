@@ -4,7 +4,7 @@
 
 ### ConnectQuickConnect <a name="ConnectQuickConnect" id="@cdktn/provider-awscc.connectQuickConnect.ConnectQuickConnect"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_quick_connect awscc_connect_quick_connect}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/connect_quick_connect awscc_connect_quick_connect}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectQuickConnect.ConnectQuickConnect.Initializer"></a>
 
@@ -529,7 +529,7 @@ The construct id used in the generated config for the ConnectQuickConnect to imp
 
 The id of the existing ConnectQuickConnect that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_quick_connect#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/connect_quick_connect#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -976,7 +976,7 @@ public readonly instanceArn: string;
 
 The identifier of the Amazon Connect instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_quick_connect#instance_arn ConnectQuickConnect#instance_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/connect_quick_connect#instance_arn ConnectQuickConnect#instance_arn}
 
 ---
 
@@ -990,7 +990,7 @@ public readonly name: string;
 
 The name of the quick connect.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_quick_connect#name ConnectQuickConnect#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/connect_quick_connect#name ConnectQuickConnect#name}
 
 ---
 
@@ -1004,7 +1004,7 @@ public readonly quickConnectConfig: ConnectQuickConnectQuickConnectConfig;
 
 Configuration settings for the quick connect.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_quick_connect#quick_connect_config ConnectQuickConnect#quick_connect_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/connect_quick_connect#quick_connect_config ConnectQuickConnect#quick_connect_config}
 
 ---
 
@@ -1018,7 +1018,7 @@ public readonly description: string;
 
 The description of the quick connect.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_quick_connect#description ConnectQuickConnect#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/connect_quick_connect#description ConnectQuickConnect#description}
 
 ---
 
@@ -1032,7 +1032,7 @@ public readonly tags: IResolvable | ConnectQuickConnectTags[];
 
 One or more tags.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_quick_connect#tags ConnectQuickConnect#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/connect_quick_connect#tags ConnectQuickConnect#tags}
 
 ---
 
@@ -1070,7 +1070,7 @@ The type of quick connect.
 
 In the Amazon Connect console, when you create a quick connect, you are prompted to assign one of the following types: Agent (USER), External (PHONE_NUMBER), or Queue (QUEUE).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_quick_connect#quick_connect_type ConnectQuickConnect#quick_connect_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/connect_quick_connect#quick_connect_type ConnectQuickConnect#quick_connect_type}
 
 ---
 
@@ -1084,7 +1084,7 @@ public readonly flowConfig: ConnectQuickConnectQuickConnectConfigFlowConfig;
 
 The flow configuration. This is required only if QuickConnectType is FLOW.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_quick_connect#flow_config ConnectQuickConnect#flow_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/connect_quick_connect#flow_config ConnectQuickConnect#flow_config}
 
 ---
 
@@ -1098,7 +1098,7 @@ public readonly phoneConfig: ConnectQuickConnectQuickConnectConfigPhoneConfig;
 
 The phone configuration. This is required only if QuickConnectType is PHONE_NUMBER.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_quick_connect#phone_config ConnectQuickConnect#phone_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/connect_quick_connect#phone_config ConnectQuickConnect#phone_config}
 
 ---
 
@@ -1112,7 +1112,7 @@ public readonly queueConfig: ConnectQuickConnectQuickConnectConfigQueueConfig;
 
 The queue configuration. This is required only if QuickConnectType is QUEUE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_quick_connect#queue_config ConnectQuickConnect#queue_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/connect_quick_connect#queue_config ConnectQuickConnect#queue_config}
 
 ---
 
@@ -1126,7 +1126,7 @@ public readonly userConfig: ConnectQuickConnectQuickConnectConfigUserConfig;
 
 The user configuration. This is required only if QuickConnectType is USER.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_quick_connect#user_config ConnectQuickConnect#user_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/connect_quick_connect#user_config ConnectQuickConnect#user_config}
 
 ---
 
@@ -1158,7 +1158,7 @@ public readonly contactFlowArn: string;
 
 The identifier of the contact flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_quick_connect#contact_flow_arn ConnectQuickConnect#contact_flow_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/connect_quick_connect#contact_flow_arn ConnectQuickConnect#contact_flow_arn}
 
 ---
 
@@ -1190,7 +1190,7 @@ public readonly phoneNumber: string;
 
 The phone number in E.164 format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_quick_connect#phone_number ConnectQuickConnect#phone_number}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/connect_quick_connect#phone_number ConnectQuickConnect#phone_number}
 
 ---
 
@@ -1223,7 +1223,7 @@ public readonly contactFlowArn: string;
 
 The identifier of the contact flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_quick_connect#contact_flow_arn ConnectQuickConnect#contact_flow_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/connect_quick_connect#contact_flow_arn ConnectQuickConnect#contact_flow_arn}
 
 ---
 
@@ -1237,7 +1237,7 @@ public readonly queueArn: string;
 
 The identifier for the queue.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_quick_connect#queue_arn ConnectQuickConnect#queue_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/connect_quick_connect#queue_arn ConnectQuickConnect#queue_arn}
 
 ---
 
@@ -1270,7 +1270,7 @@ public readonly contactFlowArn: string;
 
 The identifier of the contact flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_quick_connect#contact_flow_arn ConnectQuickConnect#contact_flow_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/connect_quick_connect#contact_flow_arn ConnectQuickConnect#contact_flow_arn}
 
 ---
 
@@ -1284,7 +1284,7 @@ public readonly userArn: string;
 
 The identifier of the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_quick_connect#user_arn ConnectQuickConnect#user_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/connect_quick_connect#user_arn ConnectQuickConnect#user_arn}
 
 ---
 
@@ -1319,7 +1319,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_quick_connect#key ConnectQuickConnect#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/connect_quick_connect#key ConnectQuickConnect#key}
 
 ---
 
@@ -1335,7 +1335,7 @@ The value for the tag.
 
 You can specify a value that is maximum of 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_quick_connect#value ConnectQuickConnect#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/connect_quick_connect#value ConnectQuickConnect#value}
 
 ---
 

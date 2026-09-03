@@ -4,7 +4,7 @@
 
 ### DataAwsccIotProvisioningTemplates <a name="DataAwsccIotProvisioningTemplates" id="@cdktn/provider-awscc.dataAwsccIotProvisioningTemplates.DataAwsccIotProvisioningTemplates"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/iot_provisioning_templates awscc_iot_provisioning_templates}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/iot_provisioning_templates awscc_iot_provisioning_templates}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotProvisioningTemplates.DataAwsccIotProvisioningTemplates.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIotProvisioningTe
 
 The id of the existing DataAwsccIotProvisioningTemplates that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/iot_provisioning_templates#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/iot_provisioning_templates#import import section} in the documentation of this resource for the id to use
 
 ---
 

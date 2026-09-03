@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/accountaccess_entitlement
+// https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/accountaccess_entitlement
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,13 +15,13 @@ export interface AccountaccessEntitlementConfig extends cdktn.TerraformMetaArgum
   /**
   * The ARN of the application
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/accountaccess_entitlement#application_arn AccountaccessEntitlement#application_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/accountaccess_entitlement#application_arn AccountaccessEntitlement#application_arn}
   */
   readonly applicationArn: string;
   /**
   * The entitlement details
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/accountaccess_entitlement#entitlement AccountaccessEntitlement#entitlement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/accountaccess_entitlement#entitlement AccountaccessEntitlement#entitlement}
   */
   readonly entitlement: AccountaccessEntitlementEntitlement;
 }
@@ -29,13 +29,13 @@ export interface AccountaccessEntitlementEntitlementPrincipalRolePrincipalIdenti
   /**
   * The ID of the group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/accountaccess_entitlement#group_id AccountaccessEntitlement#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/accountaccess_entitlement#group_id AccountaccessEntitlement#group_id}
   */
   readonly groupId?: string;
   /**
   * The ID of the user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/accountaccess_entitlement#user_id AccountaccessEntitlement#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/accountaccess_entitlement#user_id AccountaccessEntitlement#user_id}
   */
   readonly userId?: string;
 }
@@ -158,7 +158,7 @@ export class AccountaccessEntitlementEntitlementPrincipalRolePrincipalIdentityCe
 }
 export interface AccountaccessEntitlementEntitlementPrincipalRolePrincipal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/accountaccess_entitlement#identity_center AccountaccessEntitlement#identity_center}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/accountaccess_entitlement#identity_center AccountaccessEntitlement#identity_center}
   */
   readonly identityCenter: AccountaccessEntitlementEntitlementPrincipalRolePrincipalIdentityCenter;
 }
@@ -249,13 +249,13 @@ export class AccountaccessEntitlementEntitlementPrincipalRolePrincipalOutputRefe
 }
 export interface AccountaccessEntitlementEntitlementPrincipalRole {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/accountaccess_entitlement#principal AccountaccessEntitlement#principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/accountaccess_entitlement#principal AccountaccessEntitlement#principal}
   */
   readonly principal: AccountaccessEntitlementEntitlementPrincipalRolePrincipal;
   /**
   * The ARN of the IAM role
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/accountaccess_entitlement#role_arn AccountaccessEntitlement#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/accountaccess_entitlement#role_arn AccountaccessEntitlement#role_arn}
   */
   readonly roleArn: string;
 }
@@ -377,7 +377,7 @@ export class AccountaccessEntitlementEntitlementPrincipalRoleOutputReference ext
 }
 export interface AccountaccessEntitlementEntitlement {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/accountaccess_entitlement#principal_role AccountaccessEntitlement#principal_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/accountaccess_entitlement#principal_role AccountaccessEntitlement#principal_role}
   */
   readonly principalRole: AccountaccessEntitlementEntitlementPrincipalRole;
 }
@@ -468,7 +468,7 @@ export class AccountaccessEntitlementEntitlementOutputReference extends cdktn.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/accountaccess_entitlement awscc_accountaccess_entitlement}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/accountaccess_entitlement awscc_accountaccess_entitlement}
 */
 export class AccountaccessEntitlement extends cdktn.TerraformResource {
 
@@ -484,7 +484,7 @@ export class AccountaccessEntitlement extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a AccountaccessEntitlement resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AccountaccessEntitlement to import
-  * @param importFromId The id of the existing AccountaccessEntitlement that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/accountaccess_entitlement#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AccountaccessEntitlement that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/accountaccess_entitlement#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AccountaccessEntitlement to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -496,7 +496,7 @@ export class AccountaccessEntitlement extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/accountaccess_entitlement awscc_accountaccess_entitlement} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/accountaccess_entitlement awscc_accountaccess_entitlement} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -507,7 +507,7 @@ export class AccountaccessEntitlement extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_accountaccess_entitlement',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.99.0',
+        providerVersion: '1.100.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

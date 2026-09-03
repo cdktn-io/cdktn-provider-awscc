@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_receipt_rule_set
+// https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ses_receipt_rule_set
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,13 +15,13 @@ export interface SesReceiptRuleSetConfig extends cdktn.TerraformMetaArguments {
   /**
   * The name of the rule set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_receipt_rule_set#rule_set_name SesReceiptRuleSet#rule_set_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ses_receipt_rule_set#rule_set_name SesReceiptRuleSet#rule_set_name}
   */
   readonly ruleSetName?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_receipt_rule_set awscc_ses_receipt_rule_set}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ses_receipt_rule_set awscc_ses_receipt_rule_set}
 */
 export class SesReceiptRuleSet extends cdktn.TerraformResource {
 
@@ -37,7 +37,7 @@ export class SesReceiptRuleSet extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a SesReceiptRuleSet resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SesReceiptRuleSet to import
-  * @param importFromId The id of the existing SesReceiptRuleSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_receipt_rule_set#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SesReceiptRuleSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ses_receipt_rule_set#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SesReceiptRuleSet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -49,7 +49,7 @@ export class SesReceiptRuleSet extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_receipt_rule_set awscc_ses_receipt_rule_set} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ses_receipt_rule_set awscc_ses_receipt_rule_set} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -60,7 +60,7 @@ export class SesReceiptRuleSet extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_ses_receipt_rule_set',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.99.0',
+        providerVersion: '1.100.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

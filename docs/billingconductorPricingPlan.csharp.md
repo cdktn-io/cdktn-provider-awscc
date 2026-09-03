@@ -4,7 +4,7 @@
 
 ### BillingconductorPricingPlan <a name="BillingconductorPricingPlan" id="@cdktn/provider-awscc.billingconductorPricingPlan.BillingconductorPricingPlan"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/billingconductor_pricing_plan awscc_billingconductor_pricing_plan}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/billingconductor_pricing_plan awscc_billingconductor_pricing_plan}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.billingconductorPricingPlan.BillingconductorPricingPlan.Initializer"></a>
 
@@ -523,7 +523,7 @@ The construct id used in the generated config for the BillingconductorPricingPla
 
 The id of the existing BillingconductorPricingPlan that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/billingconductor_pricing_plan#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/billingconductor_pricing_plan#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -894,10 +894,10 @@ new BillingconductorPricingPlanConfig {
 | <code><a href="#@cdktn/provider-awscc.billingconductorPricingPlan.BillingconductorPricingPlanConfig.property.lifecycle">Lifecycle</a></code> | <code>Io.Cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.billingconductorPricingPlan.BillingconductorPricingPlanConfig.property.provider">Provider</a></code> | <code>Io.Cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.billingconductorPricingPlan.BillingconductorPricingPlanConfig.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.billingconductorPricingPlan.BillingconductorPricingPlanConfig.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/billingconductor_pricing_plan#name BillingconductorPricingPlan#name}. |
-| <code><a href="#@cdktn/provider-awscc.billingconductorPricingPlan.BillingconductorPricingPlanConfig.property.description">Description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/billingconductor_pricing_plan#description BillingconductorPricingPlan#description}. |
-| <code><a href="#@cdktn/provider-awscc.billingconductorPricingPlan.BillingconductorPricingPlanConfig.property.pricingRuleArns">PricingRuleArns</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/billingconductor_pricing_plan#pricing_rule_arns BillingconductorPricingPlan#pricing_rule_arns}. |
-| <code><a href="#@cdktn/provider-awscc.billingconductorPricingPlan.BillingconductorPricingPlanConfig.property.tags">Tags</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.billingconductorPricingPlan.BillingconductorPricingPlanTags">BillingconductorPricingPlanTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/billingconductor_pricing_plan#tags BillingconductorPricingPlan#tags}. |
+| <code><a href="#@cdktn/provider-awscc.billingconductorPricingPlan.BillingconductorPricingPlanConfig.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/billingconductor_pricing_plan#name BillingconductorPricingPlan#name}. |
+| <code><a href="#@cdktn/provider-awscc.billingconductorPricingPlan.BillingconductorPricingPlanConfig.property.description">Description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/billingconductor_pricing_plan#description BillingconductorPricingPlan#description}. |
+| <code><a href="#@cdktn/provider-awscc.billingconductorPricingPlan.BillingconductorPricingPlanConfig.property.pricingRuleArns">PricingRuleArns</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/billingconductor_pricing_plan#pricing_rule_arns BillingconductorPricingPlan#pricing_rule_arns}. |
+| <code><a href="#@cdktn/provider-awscc.billingconductorPricingPlan.BillingconductorPricingPlanConfig.property.tags">Tags</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.billingconductorPricingPlan.BillingconductorPricingPlanTags">BillingconductorPricingPlanTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/billingconductor_pricing_plan#tags BillingconductorPricingPlan#tags}. |
 
 ---
 
@@ -979,7 +979,7 @@ public string Name { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/billingconductor_pricing_plan#name BillingconductorPricingPlan#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/billingconductor_pricing_plan#name BillingconductorPricingPlan#name}.
 
 ---
 
@@ -991,7 +991,7 @@ public string Description { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/billingconductor_pricing_plan#description BillingconductorPricingPlan#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/billingconductor_pricing_plan#description BillingconductorPricingPlan#description}.
 
 ---
 
@@ -1003,7 +1003,7 @@ public string[] PricingRuleArns { get; set; }
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/billingconductor_pricing_plan#pricing_rule_arns BillingconductorPricingPlan#pricing_rule_arns}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/billingconductor_pricing_plan#pricing_rule_arns BillingconductorPricingPlan#pricing_rule_arns}.
 
 ---
 
@@ -1015,7 +1015,7 @@ public IResolvable|BillingconductorPricingPlanTags[] Tags { get; set; }
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.billingconductorPricingPlan.BillingconductorPricingPlanTags">BillingconductorPricingPlanTags</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/billingconductor_pricing_plan#tags BillingconductorPricingPlan#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/billingconductor_pricing_plan#tags BillingconductorPricingPlan#tags}.
 
 ---
 
@@ -1036,8 +1036,8 @@ new BillingconductorPricingPlanTags {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.billingconductorPricingPlan.BillingconductorPricingPlanTags.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/billingconductor_pricing_plan#key BillingconductorPricingPlan#key}. |
-| <code><a href="#@cdktn/provider-awscc.billingconductorPricingPlan.BillingconductorPricingPlanTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/billingconductor_pricing_plan#value BillingconductorPricingPlan#value}. |
+| <code><a href="#@cdktn/provider-awscc.billingconductorPricingPlan.BillingconductorPricingPlanTags.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/billingconductor_pricing_plan#key BillingconductorPricingPlan#key}. |
+| <code><a href="#@cdktn/provider-awscc.billingconductorPricingPlan.BillingconductorPricingPlanTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/billingconductor_pricing_plan#value BillingconductorPricingPlan#value}. |
 
 ---
 
@@ -1049,7 +1049,7 @@ public string Key { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/billingconductor_pricing_plan#key BillingconductorPricingPlan#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/billingconductor_pricing_plan#key BillingconductorPricingPlan#key}.
 
 ---
 
@@ -1061,7 +1061,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/billingconductor_pricing_plan#value BillingconductorPricingPlan#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/billingconductor_pricing_plan#value BillingconductorPricingPlan#value}.
 
 ---
 

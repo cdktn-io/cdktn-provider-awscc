@@ -4,7 +4,7 @@
 
 ### PersonalizeMetricAttribution <a name="PersonalizeMetricAttribution" id="@cdktn/provider-awscc.personalizeMetricAttribution.PersonalizeMetricAttribution"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/personalize_metric_attribution awscc_personalize_metric_attribution}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/personalize_metric_attribution awscc_personalize_metric_attribution}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.personalizeMetricAttribution.PersonalizeMetricAttribution.Initializer"></a>
 
@@ -515,7 +515,7 @@ The construct id used in the generated config for the PersonalizeMetricAttributi
 
 The id of the existing PersonalizeMetricAttribution that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/personalize_metric_attribution#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/personalize_metric_attribution#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -951,7 +951,7 @@ public string DatasetGroupArn { get; set; }
 
 The ARN of the destination dataset group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/personalize_metric_attribution#dataset_group_arn PersonalizeMetricAttribution#dataset_group_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/personalize_metric_attribution#dataset_group_arn PersonalizeMetricAttribution#dataset_group_arn}
 
 ---
 
@@ -965,7 +965,7 @@ public IResolvable|PersonalizeMetricAttributionMetrics[] Metrics { get; set; }
 
 A list of metric attributes for the metric attribution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/personalize_metric_attribution#metrics PersonalizeMetricAttribution#metrics}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/personalize_metric_attribution#metrics PersonalizeMetricAttribution#metrics}
 
 ---
 
@@ -979,7 +979,7 @@ public PersonalizeMetricAttributionMetricsOutputConfig MetricsOutputConfig { get
 
 The output configuration details for the metric attribution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/personalize_metric_attribution#metrics_output_config PersonalizeMetricAttribution#metrics_output_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/personalize_metric_attribution#metrics_output_config PersonalizeMetricAttribution#metrics_output_config}
 
 ---
 
@@ -993,7 +993,7 @@ public string Name { get; set; }
 
 The name of the metric attribution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/personalize_metric_attribution#name PersonalizeMetricAttribution#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/personalize_metric_attribution#name PersonalizeMetricAttribution#name}
 
 ---
 
@@ -1031,7 +1031,7 @@ public string EventType { get; set; }
 
 The metric's event type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/personalize_metric_attribution#event_type PersonalizeMetricAttribution#event_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/personalize_metric_attribution#event_type PersonalizeMetricAttribution#event_type}
 
 ---
 
@@ -1045,7 +1045,7 @@ public string Expression { get; set; }
 
 The attribute's expression.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/personalize_metric_attribution#expression PersonalizeMetricAttribution#expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/personalize_metric_attribution#expression PersonalizeMetricAttribution#expression}
 
 ---
 
@@ -1059,7 +1059,7 @@ public string MetricName { get; set; }
 
 The metric's name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/personalize_metric_attribution#metric_name PersonalizeMetricAttribution#metric_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/personalize_metric_attribution#metric_name PersonalizeMetricAttribution#metric_name}
 
 ---
 
@@ -1095,7 +1095,7 @@ public string RoleArn { get; set; }
 
 The ARN of the IAM role for the metric attribution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/personalize_metric_attribution#role_arn PersonalizeMetricAttribution#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/personalize_metric_attribution#role_arn PersonalizeMetricAttribution#role_arn}
 
 ---
 
@@ -1109,7 +1109,7 @@ public PersonalizeMetricAttributionMetricsOutputConfigS3DataDestination S3DataDe
 
 The configuration details of an Amazon S3 output bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/personalize_metric_attribution#s3_data_destination PersonalizeMetricAttribution#s3_data_destination}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/personalize_metric_attribution#s3_data_destination PersonalizeMetricAttribution#s3_data_destination}
 
 ---
 
@@ -1145,7 +1145,7 @@ public string KmsKeyArn { get; set; }
 
 The ARN of the KMS key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/personalize_metric_attribution#kms_key_arn PersonalizeMetricAttribution#kms_key_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/personalize_metric_attribution#kms_key_arn PersonalizeMetricAttribution#kms_key_arn}
 
 ---
 
@@ -1159,7 +1159,7 @@ public string Path { get; set; }
 
 The file path of the Amazon S3 bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/personalize_metric_attribution#path PersonalizeMetricAttribution#path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/personalize_metric_attribution#path PersonalizeMetricAttribution#path}
 
 ---
 

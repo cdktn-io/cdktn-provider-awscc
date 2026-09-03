@@ -4,7 +4,7 @@
 
 ### Wafv2LoggingConfiguration <a name="Wafv2LoggingConfiguration" id="@cdktn/provider-awscc.wafv2LoggingConfiguration.Wafv2LoggingConfiguration"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wafv2_logging_configuration awscc_wafv2_logging_configuration}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/wafv2_logging_configuration awscc_wafv2_logging_configuration}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.wafv2LoggingConfiguration.Wafv2LoggingConfiguration.Initializer"></a>
 
@@ -110,7 +110,7 @@ Must be unique amongst siblings in the same scope
 
 The Amazon Resource Names (ARNs) of the logging destinations that you want to associate with the web ACL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wafv2_logging_configuration#log_destination_configs Wafv2LoggingConfiguration#log_destination_configs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/wafv2_logging_configuration#log_destination_configs Wafv2LoggingConfiguration#log_destination_configs}
 
 ---
 
@@ -120,7 +120,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The Amazon Resource Name (ARN) of the web ACL that you want to associate with LogDestinationConfigs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wafv2_logging_configuration#resource_arn Wafv2LoggingConfiguration#resource_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/wafv2_logging_configuration#resource_arn Wafv2LoggingConfiguration#resource_arn}
 
 ---
 
@@ -132,7 +132,7 @@ Filtering that specifies which web requests are kept in the logs and which are d
 
 You can filter on the rule action and on the web request labels that were applied by matching rules during web ACL evaluation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wafv2_logging_configuration#logging_filter Wafv2LoggingConfiguration#logging_filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/wafv2_logging_configuration#logging_filter Wafv2LoggingConfiguration#logging_filter}
 
 ---
 
@@ -144,7 +144,7 @@ The parts of the request that you want to keep out of the logs.
 
 For example, if you redact the HEADER field, the HEADER field in the firehose will be xxx.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wafv2_logging_configuration#redacted_fields Wafv2LoggingConfiguration#redacted_fields}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/wafv2_logging_configuration#redacted_fields Wafv2LoggingConfiguration#redacted_fields}
 
 ---
 
@@ -633,7 +633,7 @@ The construct id used in the generated config for the Wafv2LoggingConfiguration 
 
 The id of the existing Wafv2LoggingConfiguration that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wafv2_logging_configuration#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/wafv2_logging_configuration#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1058,7 +1058,7 @@ public java.util.List<java.lang.String> getLogDestinationConfigs();
 
 The Amazon Resource Names (ARNs) of the logging destinations that you want to associate with the web ACL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wafv2_logging_configuration#log_destination_configs Wafv2LoggingConfiguration#log_destination_configs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/wafv2_logging_configuration#log_destination_configs Wafv2LoggingConfiguration#log_destination_configs}
 
 ---
 
@@ -1072,7 +1072,7 @@ public java.lang.String getResourceArn();
 
 The Amazon Resource Name (ARN) of the web ACL that you want to associate with LogDestinationConfigs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wafv2_logging_configuration#resource_arn Wafv2LoggingConfiguration#resource_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/wafv2_logging_configuration#resource_arn Wafv2LoggingConfiguration#resource_arn}
 
 ---
 
@@ -1088,7 +1088,7 @@ Filtering that specifies which web requests are kept in the logs and which are d
 
 You can filter on the rule action and on the web request labels that were applied by matching rules during web ACL evaluation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wafv2_logging_configuration#logging_filter Wafv2LoggingConfiguration#logging_filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/wafv2_logging_configuration#logging_filter Wafv2LoggingConfiguration#logging_filter}
 
 ---
 
@@ -1104,7 +1104,7 @@ The parts of the request that you want to keep out of the logs.
 
 For example, if you redact the HEADER field, the HEADER field in the firehose will be xxx.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wafv2_logging_configuration#redacted_fields Wafv2LoggingConfiguration#redacted_fields}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/wafv2_logging_configuration#redacted_fields Wafv2LoggingConfiguration#redacted_fields}
 
 ---
 
@@ -1140,7 +1140,7 @@ public java.lang.String getDefaultBehavior();
 
 Default handling for logs that don't match any of the specified filtering conditions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wafv2_logging_configuration#default_behavior Wafv2LoggingConfiguration#default_behavior}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/wafv2_logging_configuration#default_behavior Wafv2LoggingConfiguration#default_behavior}
 
 ---
 
@@ -1154,7 +1154,7 @@ public IResolvable|java.util.List<Wafv2LoggingConfigurationLoggingFilterFilters>
 
 The filters that you want to apply to the logs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wafv2_logging_configuration#filters Wafv2LoggingConfiguration#filters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/wafv2_logging_configuration#filters Wafv2LoggingConfiguration#filters}
 
 ---
 
@@ -1192,7 +1192,7 @@ public java.lang.String getBehavior();
 
 How to handle logs that satisfy the filter's conditions and requirement.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wafv2_logging_configuration#behavior Wafv2LoggingConfiguration#behavior}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/wafv2_logging_configuration#behavior Wafv2LoggingConfiguration#behavior}
 
 ---
 
@@ -1206,7 +1206,7 @@ public IResolvable|java.util.List<Wafv2LoggingConfigurationLoggingFilterFiltersC
 
 Match conditions for the filter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wafv2_logging_configuration#conditions Wafv2LoggingConfiguration#conditions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/wafv2_logging_configuration#conditions Wafv2LoggingConfiguration#conditions}
 
 ---
 
@@ -1222,7 +1222,7 @@ Logic to apply to the filtering conditions.
 
 You can specify that, in order to satisfy the filter, a log must match all conditions or must match at least one condition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wafv2_logging_configuration#requirement Wafv2LoggingConfiguration#requirement}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/wafv2_logging_configuration#requirement Wafv2LoggingConfiguration#requirement}
 
 ---
 
@@ -1258,7 +1258,7 @@ public Wafv2LoggingConfigurationLoggingFilterFiltersConditionsActionCondition ge
 
 A single action condition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wafv2_logging_configuration#action_condition Wafv2LoggingConfiguration#action_condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/wafv2_logging_configuration#action_condition Wafv2LoggingConfiguration#action_condition}
 
 ---
 
@@ -1272,7 +1272,7 @@ public Wafv2LoggingConfigurationLoggingFilterFiltersConditionsLabelNameCondition
 
 A single label name condition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wafv2_logging_configuration#label_name_condition Wafv2LoggingConfiguration#label_name_condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/wafv2_logging_configuration#label_name_condition Wafv2LoggingConfiguration#label_name_condition}
 
 ---
 
@@ -1308,7 +1308,7 @@ Logic to apply to the filtering conditions.
 
 You can specify that, in order to satisfy the filter, a log must match all conditions or must match at least one condition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wafv2_logging_configuration#action Wafv2LoggingConfiguration#action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/wafv2_logging_configuration#action Wafv2LoggingConfiguration#action}
 
 ---
 
@@ -1344,7 +1344,7 @@ The label name that a log record must contain in order to meet the condition.
 
 This must be a fully qualified label name. Fully qualified labels have a prefix, optional namespaces, and label name. The prefix identifies the rule group or web ACL context of the rule that added the label.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wafv2_logging_configuration#label_name Wafv2LoggingConfiguration#label_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/wafv2_logging_configuration#label_name Wafv2LoggingConfiguration#label_name}
 
 ---
 
@@ -1386,7 +1386,7 @@ Inspect the HTTP method.
 
 The method indicates the type of operation that the request is asking the origin to perform.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wafv2_logging_configuration#method Wafv2LoggingConfiguration#method}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/wafv2_logging_configuration#method Wafv2LoggingConfiguration#method}
 
 ---
 
@@ -1402,7 +1402,7 @@ Inspect the query string.
 
 This is the part of a URL that appears after a ? character, if any.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wafv2_logging_configuration#query_string Wafv2LoggingConfiguration#query_string}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/wafv2_logging_configuration#query_string Wafv2LoggingConfiguration#query_string}
 
 ---
 
@@ -1418,7 +1418,7 @@ Inspect a single header.
 
 Provide the name of the header to inspect, for example, User-Agent or Referer. This setting isn't case sensitive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wafv2_logging_configuration#single_header Wafv2LoggingConfiguration#single_header}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/wafv2_logging_configuration#single_header Wafv2LoggingConfiguration#single_header}
 
 ---
 
@@ -1434,7 +1434,7 @@ Inspect the request URI path.
 
 This is the part of a web request that identifies a resource, for example, /images/daily-ad.jpg.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wafv2_logging_configuration#uri_path Wafv2LoggingConfiguration#uri_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/wafv2_logging_configuration#uri_path Wafv2LoggingConfiguration#uri_path}
 
 ---
 
@@ -1468,7 +1468,7 @@ public java.lang.String getName();
 
 The name of the query header to inspect.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wafv2_logging_configuration#name Wafv2LoggingConfiguration#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/wafv2_logging_configuration#name Wafv2LoggingConfiguration#name}
 
 ---
 

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/dms_replication_subnet_group
+// https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/dms_replication_subnet_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,35 +15,35 @@ export interface DmsReplicationSubnetGroupConfig extends cdktn.TerraformMetaArgu
   /**
   * The description for the subnet group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/dms_replication_subnet_group#replication_subnet_group_description DmsReplicationSubnetGroup#replication_subnet_group_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/dms_replication_subnet_group#replication_subnet_group_description DmsReplicationSubnetGroup#replication_subnet_group_description}
   */
   readonly replicationSubnetGroupDescription: string;
   /**
   * The name for the replication subnet group. This value is stored as a lowercase string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/dms_replication_subnet_group#replication_subnet_group_identifier DmsReplicationSubnetGroup#replication_subnet_group_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/dms_replication_subnet_group#replication_subnet_group_identifier DmsReplicationSubnetGroup#replication_subnet_group_identifier}
   */
   readonly replicationSubnetGroupIdentifier?: string;
   /**
   * One or more subnet IDs to be assigned to the replication subnet group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/dms_replication_subnet_group#subnet_ids DmsReplicationSubnetGroup#subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/dms_replication_subnet_group#subnet_ids DmsReplicationSubnetGroup#subnet_ids}
   */
   readonly subnetIds: string[];
   /**
   * One or more tags to be assigned to the replication subnet group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/dms_replication_subnet_group#tags DmsReplicationSubnetGroup#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/dms_replication_subnet_group#tags DmsReplicationSubnetGroup#tags}
   */
   readonly tags?: DmsReplicationSubnetGroupTags[] | cdktn.IResolvable;
 }
 export interface DmsReplicationSubnetGroupTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/dms_replication_subnet_group#key DmsReplicationSubnetGroup#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/dms_replication_subnet_group#key DmsReplicationSubnetGroup#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/dms_replication_subnet_group#value DmsReplicationSubnetGroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/dms_replication_subnet_group#value DmsReplicationSubnetGroup#value}
   */
   readonly value?: string;
 }
@@ -188,7 +188,7 @@ export class DmsReplicationSubnetGroupTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/dms_replication_subnet_group awscc_dms_replication_subnet_group}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/dms_replication_subnet_group awscc_dms_replication_subnet_group}
 */
 export class DmsReplicationSubnetGroup extends cdktn.TerraformResource {
 
@@ -204,7 +204,7 @@ export class DmsReplicationSubnetGroup extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a DmsReplicationSubnetGroup resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DmsReplicationSubnetGroup to import
-  * @param importFromId The id of the existing DmsReplicationSubnetGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/dms_replication_subnet_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DmsReplicationSubnetGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/dms_replication_subnet_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DmsReplicationSubnetGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -216,7 +216,7 @@ export class DmsReplicationSubnetGroup extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/dms_replication_subnet_group awscc_dms_replication_subnet_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/dms_replication_subnet_group awscc_dms_replication_subnet_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -227,7 +227,7 @@ export class DmsReplicationSubnetGroup extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_dms_replication_subnet_group',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.99.0',
+        providerVersion: '1.100.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

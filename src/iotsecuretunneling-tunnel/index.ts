@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsecuretunneling_tunnel
+// https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotsecuretunneling_tunnel
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,25 +15,25 @@ export interface IotsecuretunnelingTunnelConfig extends cdktn.TerraformMetaArgum
   /**
   * A short text description of the tunnel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsecuretunneling_tunnel#description IotsecuretunnelingTunnel#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotsecuretunneling_tunnel#description IotsecuretunnelingTunnel#description}
   */
   readonly description?: string;
   /**
   * The destination configuration for the tunnel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsecuretunneling_tunnel#destination_config IotsecuretunnelingTunnel#destination_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotsecuretunneling_tunnel#destination_config IotsecuretunnelingTunnel#destination_config}
   */
   readonly destinationConfig?: IotsecuretunnelingTunnelDestinationConfig;
   /**
   * A collection of tag metadata.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsecuretunneling_tunnel#tags IotsecuretunnelingTunnel#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotsecuretunneling_tunnel#tags IotsecuretunnelingTunnel#tags}
   */
   readonly tags?: IotsecuretunnelingTunnelTags[] | cdktn.IResolvable;
   /**
   * Timeout configuration for the tunnel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsecuretunneling_tunnel#timeout_config IotsecuretunnelingTunnel#timeout_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotsecuretunneling_tunnel#timeout_config IotsecuretunnelingTunnel#timeout_config}
   */
   readonly timeoutConfig?: IotsecuretunnelingTunnelTimeoutConfig;
 }
@@ -41,13 +41,13 @@ export interface IotsecuretunnelingTunnelDestinationConfig {
   /**
   * A list of service names that identify the target application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsecuretunneling_tunnel#services IotsecuretunnelingTunnel#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotsecuretunneling_tunnel#services IotsecuretunnelingTunnel#services}
   */
   readonly services?: string[];
   /**
   * The name of the IoT thing to which you want to connect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsecuretunneling_tunnel#thing_name IotsecuretunnelingTunnel#thing_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotsecuretunneling_tunnel#thing_name IotsecuretunnelingTunnel#thing_name}
   */
   readonly thingName?: string;
 }
@@ -172,13 +172,13 @@ export interface IotsecuretunnelingTunnelTags {
   /**
   * The key of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsecuretunneling_tunnel#key IotsecuretunnelingTunnel#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotsecuretunneling_tunnel#key IotsecuretunnelingTunnel#key}
   */
   readonly key?: string;
   /**
   * The value of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsecuretunneling_tunnel#value IotsecuretunnelingTunnel#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotsecuretunneling_tunnel#value IotsecuretunnelingTunnel#value}
   */
   readonly value?: string;
 }
@@ -325,7 +325,7 @@ export interface IotsecuretunnelingTunnelTimeoutConfig {
   /**
   * The maximum amount of time (in minutes) a tunnel can remain open.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsecuretunneling_tunnel#max_lifetime_timeout_minutes IotsecuretunnelingTunnel#max_lifetime_timeout_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotsecuretunneling_tunnel#max_lifetime_timeout_minutes IotsecuretunnelingTunnel#max_lifetime_timeout_minutes}
   */
   readonly maxLifetimeTimeoutMinutes?: number;
 }
@@ -419,7 +419,7 @@ export class IotsecuretunnelingTunnelTimeoutConfigOutputReference extends cdktn.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsecuretunneling_tunnel awscc_iotsecuretunneling_tunnel}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotsecuretunneling_tunnel awscc_iotsecuretunneling_tunnel}
 */
 export class IotsecuretunnelingTunnel extends cdktn.TerraformResource {
 
@@ -435,7 +435,7 @@ export class IotsecuretunnelingTunnel extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a IotsecuretunnelingTunnel resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IotsecuretunnelingTunnel to import
-  * @param importFromId The id of the existing IotsecuretunnelingTunnel that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsecuretunneling_tunnel#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IotsecuretunnelingTunnel that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotsecuretunneling_tunnel#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IotsecuretunnelingTunnel to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -447,7 +447,7 @@ export class IotsecuretunnelingTunnel extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsecuretunneling_tunnel awscc_iotsecuretunneling_tunnel} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotsecuretunneling_tunnel awscc_iotsecuretunneling_tunnel} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -458,7 +458,7 @@ export class IotsecuretunnelingTunnel extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_iotsecuretunneling_tunnel',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.99.0',
+        providerVersion: '1.100.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

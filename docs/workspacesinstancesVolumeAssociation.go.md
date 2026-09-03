@@ -4,7 +4,7 @@
 
 ### WorkspacesinstancesVolumeAssociation <a name="WorkspacesinstancesVolumeAssociation" id="@cdktn/provider-awscc.workspacesinstancesVolumeAssociation.WorkspacesinstancesVolumeAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/workspacesinstances_volume_association awscc_workspacesinstances_volume_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/workspacesinstances_volume_association awscc_workspacesinstances_volume_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.workspacesinstancesVolumeAssociation.WorkspacesinstancesVolumeAssociation.Initializer"></a>
 
@@ -496,7 +496,7 @@ The construct id used in the generated config for the WorkspacesinstancesVolumeA
 
 The id of the existing WorkspacesinstancesVolumeAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/workspacesinstances_volume_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/workspacesinstances_volume_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -910,7 +910,7 @@ Device *string
 
 The device name for the volume attachment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/workspacesinstances_volume_association#device WorkspacesinstancesVolumeAssociation#device}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/workspacesinstances_volume_association#device WorkspacesinstancesVolumeAssociation#device}
 
 ---
 
@@ -924,7 +924,7 @@ VolumeId *string
 
 ID of the volume to attach to the workspace instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/workspacesinstances_volume_association#volume_id WorkspacesinstancesVolumeAssociation#volume_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/workspacesinstances_volume_association#volume_id WorkspacesinstancesVolumeAssociation#volume_id}
 
 ---
 
@@ -938,7 +938,7 @@ WorkspaceInstanceId *string
 
 ID of the workspace instance to associate with the volume.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/workspacesinstances_volume_association#workspace_instance_id WorkspacesinstancesVolumeAssociation#workspace_instance_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/workspacesinstances_volume_association#workspace_instance_id WorkspacesinstancesVolumeAssociation#workspace_instance_id}
 
 ---
 
@@ -952,7 +952,7 @@ DisassociateMode *string
 
 Mode to use when disassociating the volume.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/workspacesinstances_volume_association#disassociate_mode WorkspacesinstancesVolumeAssociation#disassociate_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/workspacesinstances_volume_association#disassociate_mode WorkspacesinstancesVolumeAssociation#disassociate_mode}
 
 ---
 

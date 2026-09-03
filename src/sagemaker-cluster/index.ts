@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_cluster
+// https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,67 +15,73 @@ export interface SagemakerClusterConfig extends cdktn.TerraformMetaArguments {
   /**
   * Configuration for cluster auto-scaling
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_cluster#auto_scaling SagemakerCluster#auto_scaling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#auto_scaling SagemakerCluster#auto_scaling}
   */
   readonly autoScaling?: SagemakerClusterAutoScaling;
   /**
   * The name of the HyperPod Cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_cluster#cluster_name SagemakerCluster#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#cluster_name SagemakerCluster#cluster_name}
   */
   readonly clusterName?: string;
   /**
   * The cluster role for the autoscaler to assume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_cluster#cluster_role SagemakerCluster#cluster_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#cluster_role SagemakerCluster#cluster_role}
   */
   readonly clusterRole?: string;
   /**
   * The instance groups of the SageMaker HyperPod cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_cluster#instance_groups SagemakerCluster#instance_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#instance_groups SagemakerCluster#instance_groups}
   */
   readonly instanceGroups?: SagemakerClusterInstanceGroups[] | cdktn.IResolvable;
   /**
   * Determines the scaling strategy for the SageMaker HyperPod cluster. When set to 'Continuous', enables continuous scaling which dynamically manages node provisioning. If the parameter is omitted, uses the standard scaling approach in previous release.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_cluster#node_provisioning_mode SagemakerCluster#node_provisioning_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#node_provisioning_mode SagemakerCluster#node_provisioning_mode}
   */
   readonly nodeProvisioningMode?: string;
   /**
   * If node auto-recovery is set to true, faulty nodes will be replaced or rebooted when a failure is detected. If set to false, nodes will be labelled when a fault is detected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_cluster#node_recovery SagemakerCluster#node_recovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#node_recovery SagemakerCluster#node_recovery}
   */
   readonly nodeRecovery?: string;
   /**
-  * Specifies parameter(s) specific to the orchestrator, e.g. specify the EKS cluster.
+  * Specifies parameter(s) specific to the orchestrator, e.g. specify the EKS cluster or Slurm configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_cluster#orchestrator SagemakerCluster#orchestrator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#orchestrator SagemakerCluster#orchestrator}
   */
   readonly orchestrator?: SagemakerClusterOrchestrator;
   /**
   * The restricted instance groups of the SageMaker HyperPod cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_cluster#restricted_instance_groups SagemakerCluster#restricted_instance_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#restricted_instance_groups SagemakerCluster#restricted_instance_groups}
   */
   readonly restrictedInstanceGroups?: SagemakerClusterRestrictedInstanceGroups[] | cdktn.IResolvable;
   /**
+  * The cluster-level configuration for restricted instance groups, including shared environment settings for inter-RIG communication and FSx Lustre sharing.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#restricted_instance_groups_config SagemakerCluster#restricted_instance_groups_config}
+  */
+  readonly restrictedInstanceGroupsConfig?: SagemakerClusterRestrictedInstanceGroupsConfig;
+  /**
   * Custom tags for managing the SageMaker HyperPod cluster as an AWS resource. You can add tags to your cluster in the same way you add them in other AWS services that support tagging.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_cluster#tags SagemakerCluster#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#tags SagemakerCluster#tags}
   */
   readonly tags?: SagemakerClusterTags[] | cdktn.IResolvable;
   /**
   * Configuration for tiered storage in the SageMaker HyperPod cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_cluster#tiered_storage_config SagemakerCluster#tiered_storage_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#tiered_storage_config SagemakerCluster#tiered_storage_config}
   */
   readonly tieredStorageConfig?: SagemakerClusterTieredStorageConfig;
   /**
   * Specifies an Amazon Virtual Private Cloud (VPC) that your SageMaker jobs, hosted models, and compute resources have access to. You can control access to and from your resources by configuring a VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_cluster#vpc_config SagemakerCluster#vpc_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#vpc_config SagemakerCluster#vpc_config}
   */
   readonly vpcConfig?: SagemakerClusterVpcConfig;
 }
@@ -83,13 +89,13 @@ export interface SagemakerClusterAutoScaling {
   /**
   * The type of auto-scaler to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_cluster#auto_scaler_type SagemakerCluster#auto_scaler_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#auto_scaler_type SagemakerCluster#auto_scaler_type}
   */
   readonly autoScalerType?: string;
   /**
   * The auto-scaling mode for the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_cluster#mode SagemakerCluster#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#mode SagemakerCluster#mode}
   */
   readonly mode?: string;
 }
@@ -210,17 +216,956 @@ export class SagemakerClusterAutoScalingOutputReference extends cdktn.ComplexObj
     return this._mode;
   }
 }
+export interface SagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigAutoRollbackConfiguration {
+  /**
+  * The name of the alarm.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#alarm_name SagemakerCluster#alarm_name}
+  */
+  readonly alarmName?: string;
+}
+
+export function sagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigAutoRollbackConfigurationToTerraform(struct?: SagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigAutoRollbackConfiguration | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    alarm_name: cdktn.stringToTerraform(struct!.alarmName),
+  }
+}
+
+
+export function sagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigAutoRollbackConfigurationToHclTerraform(struct?: SagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigAutoRollbackConfiguration | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    alarm_name: {
+      value: cdktn.stringToHclTerraform(struct!.alarmName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigAutoRollbackConfigurationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): SagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigAutoRollbackConfiguration | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._alarmName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.alarmName = this._alarmName;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigAutoRollbackConfiguration | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._alarmName = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._alarmName = value.alarmName;
+    }
+  }
+
+  // alarm_name - computed: true, optional: true, required: false
+  private _alarmName?: string; 
+  public get alarmName() {
+    return this.getStringAttribute('alarm_name');
+  }
+  public set alarmName(value: string) {
+    this._alarmName = value;
+  }
+  public resetAlarmName() {
+    this._alarmName = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get alarmNameInput() {
+    return this._alarmName;
+  }
+}
+
+export class SagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigAutoRollbackConfigurationList extends cdktn.ComplexList {
+  public internalValue? : SagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigAutoRollbackConfiguration[] | cdktn.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): SagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigAutoRollbackConfigurationOutputReference {
+    return new SagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigAutoRollbackConfigurationOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface SagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigRollingUpdatePolicyMaximumBatchSize {
+  /**
+  * Specifies whether SageMaker should process the update by amount or percentage of instances.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#type SagemakerCluster#type}
+  */
+  readonly type?: string;
+  /**
+  * Specifies the amount or percentage of instances SageMaker updates at a time.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#value SagemakerCluster#value}
+  */
+  readonly value?: number;
+}
+
+export function sagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigRollingUpdatePolicyMaximumBatchSizeToTerraform(struct?: SagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigRollingUpdatePolicyMaximumBatchSize | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    type: cdktn.stringToTerraform(struct!.type),
+    value: cdktn.numberToTerraform(struct!.value),
+  }
+}
+
+
+export function sagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigRollingUpdatePolicyMaximumBatchSizeToHclTerraform(struct?: SagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigRollingUpdatePolicyMaximumBatchSize | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    type: {
+      value: cdktn.stringToHclTerraform(struct!.type),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    value: {
+      value: cdktn.numberToHclTerraform(struct!.value),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigRollingUpdatePolicyMaximumBatchSizeOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): SagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigRollingUpdatePolicyMaximumBatchSize | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._type !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.type = this._type;
+    }
+    if (this._value !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.value = this._value;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigRollingUpdatePolicyMaximumBatchSize | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._type = undefined;
+      this._value = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._type = value.type;
+      this._value = value.value;
+    }
+  }
+
+  // type - computed: true, optional: true, required: false
+  private _type?: string; 
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+  public set type(value: string) {
+    this._type = value;
+  }
+  public resetType() {
+    this._type = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get typeInput() {
+    return this._type;
+  }
+
+  // value - computed: true, optional: true, required: false
+  private _value?: number; 
+  public get value() {
+    return this.getNumberAttribute('value');
+  }
+  public set value(value: number) {
+    this._value = value;
+  }
+  public resetValue() {
+    this._value = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get valueInput() {
+    return this._value;
+  }
+}
+export interface SagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigRollingUpdatePolicyRollbackMaximumBatchSize {
+  /**
+  * Specifies whether SageMaker should process the update by amount or percentage of instances.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#type SagemakerCluster#type}
+  */
+  readonly type?: string;
+  /**
+  * Specifies the amount or percentage of instances SageMaker updates at a time.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#value SagemakerCluster#value}
+  */
+  readonly value?: number;
+}
+
+export function sagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigRollingUpdatePolicyRollbackMaximumBatchSizeToTerraform(struct?: SagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigRollingUpdatePolicyRollbackMaximumBatchSize | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    type: cdktn.stringToTerraform(struct!.type),
+    value: cdktn.numberToTerraform(struct!.value),
+  }
+}
+
+
+export function sagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigRollingUpdatePolicyRollbackMaximumBatchSizeToHclTerraform(struct?: SagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigRollingUpdatePolicyRollbackMaximumBatchSize | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    type: {
+      value: cdktn.stringToHclTerraform(struct!.type),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    value: {
+      value: cdktn.numberToHclTerraform(struct!.value),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigRollingUpdatePolicyRollbackMaximumBatchSizeOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): SagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigRollingUpdatePolicyRollbackMaximumBatchSize | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._type !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.type = this._type;
+    }
+    if (this._value !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.value = this._value;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigRollingUpdatePolicyRollbackMaximumBatchSize | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._type = undefined;
+      this._value = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._type = value.type;
+      this._value = value.value;
+    }
+  }
+
+  // type - computed: true, optional: true, required: false
+  private _type?: string; 
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+  public set type(value: string) {
+    this._type = value;
+  }
+  public resetType() {
+    this._type = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get typeInput() {
+    return this._type;
+  }
+
+  // value - computed: true, optional: true, required: false
+  private _value?: number; 
+  public get value() {
+    return this.getNumberAttribute('value');
+  }
+  public set value(value: number) {
+    this._value = value;
+  }
+  public resetValue() {
+    this._value = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get valueInput() {
+    return this._value;
+  }
+}
+export interface SagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigRollingUpdatePolicy {
+  /**
+  * The configuration of the size measurements of the AMI update. Using this configuration, you can specify whether SageMaker should update your instance group by an amount or percentage of instances.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#maximum_batch_size SagemakerCluster#maximum_batch_size}
+  */
+  readonly maximumBatchSize?: SagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigRollingUpdatePolicyMaximumBatchSize;
+  /**
+  * The configuration of the size measurements of the AMI update. Using this configuration, you can specify whether SageMaker should update your instance group by an amount or percentage of instances.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#rollback_maximum_batch_size SagemakerCluster#rollback_maximum_batch_size}
+  */
+  readonly rollbackMaximumBatchSize?: SagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigRollingUpdatePolicyRollbackMaximumBatchSize;
+}
+
+export function sagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigRollingUpdatePolicyToTerraform(struct?: SagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigRollingUpdatePolicy | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    maximum_batch_size: sagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigRollingUpdatePolicyMaximumBatchSizeToTerraform(struct!.maximumBatchSize),
+    rollback_maximum_batch_size: sagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigRollingUpdatePolicyRollbackMaximumBatchSizeToTerraform(struct!.rollbackMaximumBatchSize),
+  }
+}
+
+
+export function sagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigRollingUpdatePolicyToHclTerraform(struct?: SagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigRollingUpdatePolicy | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    maximum_batch_size: {
+      value: sagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigRollingUpdatePolicyMaximumBatchSizeToHclTerraform(struct!.maximumBatchSize),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "SagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigRollingUpdatePolicyMaximumBatchSize",
+    },
+    rollback_maximum_batch_size: {
+      value: sagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigRollingUpdatePolicyRollbackMaximumBatchSizeToHclTerraform(struct!.rollbackMaximumBatchSize),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "SagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigRollingUpdatePolicyRollbackMaximumBatchSize",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigRollingUpdatePolicyOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): SagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigRollingUpdatePolicy | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._maximumBatchSize?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.maximumBatchSize = this._maximumBatchSize?.internalValue;
+    }
+    if (this._rollbackMaximumBatchSize?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.rollbackMaximumBatchSize = this._rollbackMaximumBatchSize?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigRollingUpdatePolicy | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._maximumBatchSize.internalValue = undefined;
+      this._rollbackMaximumBatchSize.internalValue = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._maximumBatchSize.internalValue = value.maximumBatchSize;
+      this._rollbackMaximumBatchSize.internalValue = value.rollbackMaximumBatchSize;
+    }
+  }
+
+  // maximum_batch_size - computed: true, optional: true, required: false
+  private _maximumBatchSize = new SagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigRollingUpdatePolicyMaximumBatchSizeOutputReference(this, "maximum_batch_size");
+  public get maximumBatchSize() {
+    return this._maximumBatchSize;
+  }
+  public putMaximumBatchSize(value: SagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigRollingUpdatePolicyMaximumBatchSize) {
+    this._maximumBatchSize.internalValue = value;
+  }
+  public resetMaximumBatchSize() {
+    this._maximumBatchSize.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maximumBatchSizeInput() {
+    return this._maximumBatchSize.internalValue;
+  }
+
+  // rollback_maximum_batch_size - computed: true, optional: true, required: false
+  private _rollbackMaximumBatchSize = new SagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigRollingUpdatePolicyRollbackMaximumBatchSizeOutputReference(this, "rollback_maximum_batch_size");
+  public get rollbackMaximumBatchSize() {
+    return this._rollbackMaximumBatchSize;
+  }
+  public putRollbackMaximumBatchSize(value: SagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigRollingUpdatePolicyRollbackMaximumBatchSize) {
+    this._rollbackMaximumBatchSize.internalValue = value;
+  }
+  public resetRollbackMaximumBatchSize() {
+    this._rollbackMaximumBatchSize.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get rollbackMaximumBatchSizeInput() {
+    return this._rollbackMaximumBatchSize.internalValue;
+  }
+}
+export interface SagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfig {
+  /**
+  * An array that contains the alarms that SageMaker monitors to know whether to roll back the AMI update.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#auto_rollback_configuration SagemakerCluster#auto_rollback_configuration}
+  */
+  readonly autoRollbackConfiguration?: SagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigAutoRollbackConfiguration[] | cdktn.IResolvable;
+  /**
+  * The policy that SageMaker uses when updating the AMI versions of the cluster.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#rolling_update_policy SagemakerCluster#rolling_update_policy}
+  */
+  readonly rollingUpdatePolicy?: SagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigRollingUpdatePolicy;
+  /**
+  * The duration in seconds that SageMaker waits before updating more instances in the cluster.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#wait_interval_in_seconds SagemakerCluster#wait_interval_in_seconds}
+  */
+  readonly waitIntervalInSeconds?: number;
+}
+
+export function sagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigToTerraform(struct?: SagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfig | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    auto_rollback_configuration: cdktn.listMapper(sagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigAutoRollbackConfigurationToTerraform, false)(struct!.autoRollbackConfiguration),
+    rolling_update_policy: sagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigRollingUpdatePolicyToTerraform(struct!.rollingUpdatePolicy),
+    wait_interval_in_seconds: cdktn.numberToTerraform(struct!.waitIntervalInSeconds),
+  }
+}
+
+
+export function sagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigToHclTerraform(struct?: SagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfig | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    auto_rollback_configuration: {
+      value: cdktn.listMapperHcl(sagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigAutoRollbackConfigurationToHclTerraform, false)(struct!.autoRollbackConfiguration),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigAutoRollbackConfigurationList",
+    },
+    rolling_update_policy: {
+      value: sagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigRollingUpdatePolicyToHclTerraform(struct!.rollingUpdatePolicy),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "SagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigRollingUpdatePolicy",
+    },
+    wait_interval_in_seconds: {
+      value: cdktn.numberToHclTerraform(struct!.waitIntervalInSeconds),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): SagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfig | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._autoRollbackConfiguration?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.autoRollbackConfiguration = this._autoRollbackConfiguration?.internalValue;
+    }
+    if (this._rollingUpdatePolicy?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.rollingUpdatePolicy = this._rollingUpdatePolicy?.internalValue;
+    }
+    if (this._waitIntervalInSeconds !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.waitIntervalInSeconds = this._waitIntervalInSeconds;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfig | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._autoRollbackConfiguration.internalValue = undefined;
+      this._rollingUpdatePolicy.internalValue = undefined;
+      this._waitIntervalInSeconds = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._autoRollbackConfiguration.internalValue = value.autoRollbackConfiguration;
+      this._rollingUpdatePolicy.internalValue = value.rollingUpdatePolicy;
+      this._waitIntervalInSeconds = value.waitIntervalInSeconds;
+    }
+  }
+
+  // auto_rollback_configuration - computed: true, optional: true, required: false
+  private _autoRollbackConfiguration = new SagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigAutoRollbackConfigurationList(this, "auto_rollback_configuration", false);
+  public get autoRollbackConfiguration() {
+    return this._autoRollbackConfiguration;
+  }
+  public putAutoRollbackConfiguration(value: SagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigAutoRollbackConfiguration[] | cdktn.IResolvable) {
+    this._autoRollbackConfiguration.internalValue = value;
+  }
+  public resetAutoRollbackConfiguration() {
+    this._autoRollbackConfiguration.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get autoRollbackConfigurationInput() {
+    return this._autoRollbackConfiguration.internalValue;
+  }
+
+  // rolling_update_policy - computed: true, optional: true, required: false
+  private _rollingUpdatePolicy = new SagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigRollingUpdatePolicyOutputReference(this, "rolling_update_policy");
+  public get rollingUpdatePolicy() {
+    return this._rollingUpdatePolicy;
+  }
+  public putRollingUpdatePolicy(value: SagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigRollingUpdatePolicy) {
+    this._rollingUpdatePolicy.internalValue = value;
+  }
+  public resetRollingUpdatePolicy() {
+    this._rollingUpdatePolicy.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get rollingUpdatePolicyInput() {
+    return this._rollingUpdatePolicy.internalValue;
+  }
+
+  // wait_interval_in_seconds - computed: true, optional: true, required: false
+  private _waitIntervalInSeconds?: number; 
+  public get waitIntervalInSeconds() {
+    return this.getNumberAttribute('wait_interval_in_seconds');
+  }
+  public set waitIntervalInSeconds(value: number) {
+    this._waitIntervalInSeconds = value;
+  }
+  public resetWaitIntervalInSeconds() {
+    this._waitIntervalInSeconds = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get waitIntervalInSecondsInput() {
+    return this._waitIntervalInSeconds;
+  }
+}
+export interface SagemakerClusterInstanceGroupsAutoPatchConfigPatchSchedule {
+  /**
+  * The date and time of the next scheduled patch, set by the system when a patch AMI is detected.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#next_patch_date SagemakerCluster#next_patch_date}
+  */
+  readonly nextPatchDate?: string;
+}
+
+export function sagemakerClusterInstanceGroupsAutoPatchConfigPatchScheduleToTerraform(struct?: SagemakerClusterInstanceGroupsAutoPatchConfigPatchSchedule | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    next_patch_date: cdktn.stringToTerraform(struct!.nextPatchDate),
+  }
+}
+
+
+export function sagemakerClusterInstanceGroupsAutoPatchConfigPatchScheduleToHclTerraform(struct?: SagemakerClusterInstanceGroupsAutoPatchConfigPatchSchedule | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    next_patch_date: {
+      value: cdktn.stringToHclTerraform(struct!.nextPatchDate),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SagemakerClusterInstanceGroupsAutoPatchConfigPatchScheduleOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): SagemakerClusterInstanceGroupsAutoPatchConfigPatchSchedule | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._nextPatchDate !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.nextPatchDate = this._nextPatchDate;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SagemakerClusterInstanceGroupsAutoPatchConfigPatchSchedule | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._nextPatchDate = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._nextPatchDate = value.nextPatchDate;
+    }
+  }
+
+  // next_patch_date - computed: true, optional: true, required: false
+  private _nextPatchDate?: string; 
+  public get nextPatchDate() {
+    return this.getStringAttribute('next_patch_date');
+  }
+  public set nextPatchDate(value: string) {
+    this._nextPatchDate = value;
+  }
+  public resetNextPatchDate() {
+    this._nextPatchDate = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nextPatchDateInput() {
+    return this._nextPatchDate;
+  }
+}
+export interface SagemakerClusterInstanceGroupsAutoPatchConfig {
+  /**
+  * The configuration to use when updating the AMI versions.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#deployment_config SagemakerCluster#deployment_config}
+  */
+  readonly deploymentConfig?: SagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfig;
+  /**
+  * The schedule configuration for automatic patching.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#patch_schedule SagemakerCluster#patch_schedule}
+  */
+  readonly patchSchedule?: SagemakerClusterInstanceGroupsAutoPatchConfigPatchSchedule;
+  /**
+  * The patching strategy that determines when and how instances are patched. WhenIdle patches instances as they become idle. WhenAllIdle patches all instances when they are all idle.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#patching_strategy SagemakerCluster#patching_strategy}
+  */
+  readonly patchingStrategy?: string;
+}
+
+export function sagemakerClusterInstanceGroupsAutoPatchConfigToTerraform(struct?: SagemakerClusterInstanceGroupsAutoPatchConfig | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    deployment_config: sagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigToTerraform(struct!.deploymentConfig),
+    patch_schedule: sagemakerClusterInstanceGroupsAutoPatchConfigPatchScheduleToTerraform(struct!.patchSchedule),
+    patching_strategy: cdktn.stringToTerraform(struct!.patchingStrategy),
+  }
+}
+
+
+export function sagemakerClusterInstanceGroupsAutoPatchConfigToHclTerraform(struct?: SagemakerClusterInstanceGroupsAutoPatchConfig | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    deployment_config: {
+      value: sagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigToHclTerraform(struct!.deploymentConfig),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "SagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfig",
+    },
+    patch_schedule: {
+      value: sagemakerClusterInstanceGroupsAutoPatchConfigPatchScheduleToHclTerraform(struct!.patchSchedule),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "SagemakerClusterInstanceGroupsAutoPatchConfigPatchSchedule",
+    },
+    patching_strategy: {
+      value: cdktn.stringToHclTerraform(struct!.patchingStrategy),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SagemakerClusterInstanceGroupsAutoPatchConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): SagemakerClusterInstanceGroupsAutoPatchConfig | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._deploymentConfig?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.deploymentConfig = this._deploymentConfig?.internalValue;
+    }
+    if (this._patchSchedule?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.patchSchedule = this._patchSchedule?.internalValue;
+    }
+    if (this._patchingStrategy !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.patchingStrategy = this._patchingStrategy;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SagemakerClusterInstanceGroupsAutoPatchConfig | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._deploymentConfig.internalValue = undefined;
+      this._patchSchedule.internalValue = undefined;
+      this._patchingStrategy = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._deploymentConfig.internalValue = value.deploymentConfig;
+      this._patchSchedule.internalValue = value.patchSchedule;
+      this._patchingStrategy = value.patchingStrategy;
+    }
+  }
+
+  // deployment_config - computed: true, optional: true, required: false
+  private _deploymentConfig = new SagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfigOutputReference(this, "deployment_config");
+  public get deploymentConfig() {
+    return this._deploymentConfig;
+  }
+  public putDeploymentConfig(value: SagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfig) {
+    this._deploymentConfig.internalValue = value;
+  }
+  public resetDeploymentConfig() {
+    this._deploymentConfig.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get deploymentConfigInput() {
+    return this._deploymentConfig.internalValue;
+  }
+
+  // patch_schedule - computed: true, optional: true, required: false
+  private _patchSchedule = new SagemakerClusterInstanceGroupsAutoPatchConfigPatchScheduleOutputReference(this, "patch_schedule");
+  public get patchSchedule() {
+    return this._patchSchedule;
+  }
+  public putPatchSchedule(value: SagemakerClusterInstanceGroupsAutoPatchConfigPatchSchedule) {
+    this._patchSchedule.internalValue = value;
+  }
+  public resetPatchSchedule() {
+    this._patchSchedule.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get patchScheduleInput() {
+    return this._patchSchedule.internalValue;
+  }
+
+  // patching_strategy - computed: true, optional: true, required: false
+  private _patchingStrategy?: string; 
+  public get patchingStrategy() {
+    return this.getStringAttribute('patching_strategy');
+  }
+  public set patchingStrategy(value: string) {
+    this._patchingStrategy = value;
+  }
+  public resetPatchingStrategy() {
+    this._patchingStrategy = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get patchingStrategyInput() {
+    return this._patchingStrategy;
+  }
+}
 export interface SagemakerClusterInstanceGroupsCapacityRequirements {
   /**
   * Options for OnDemand capacity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_cluster#on_demand SagemakerCluster#on_demand}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#on_demand SagemakerCluster#on_demand}
   */
   readonly onDemand?: string;
   /**
   * Options for Spot capacity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_cluster#spot SagemakerCluster#spot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#spot SagemakerCluster#spot}
   */
   readonly spot?: string;
 }
@@ -341,19 +1286,115 @@ export class SagemakerClusterInstanceGroupsCapacityRequirementsOutputReference e
     return this._spot;
   }
 }
+export interface SagemakerClusterInstanceGroupsInstanceRequirements {
+  /**
+  * A list of instance types that can be used for this instance group.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#instance_types SagemakerCluster#instance_types}
+  */
+  readonly instanceTypes?: string[];
+}
+
+export function sagemakerClusterInstanceGroupsInstanceRequirementsToTerraform(struct?: SagemakerClusterInstanceGroupsInstanceRequirements | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    instance_types: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.instanceTypes),
+  }
+}
+
+
+export function sagemakerClusterInstanceGroupsInstanceRequirementsToHclTerraform(struct?: SagemakerClusterInstanceGroupsInstanceRequirements | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    instance_types: {
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.instanceTypes),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SagemakerClusterInstanceGroupsInstanceRequirementsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): SagemakerClusterInstanceGroupsInstanceRequirements | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._instanceTypes !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.instanceTypes = this._instanceTypes;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SagemakerClusterInstanceGroupsInstanceRequirements | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._instanceTypes = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._instanceTypes = value.instanceTypes;
+    }
+  }
+
+  // instance_types - computed: true, optional: true, required: false
+  private _instanceTypes?: string[]; 
+  public get instanceTypes() {
+    return this.getListAttribute('instance_types');
+  }
+  public set instanceTypes(value: string[]) {
+    this._instanceTypes = value;
+  }
+  public resetInstanceTypes() {
+    this._instanceTypes = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get instanceTypesInput() {
+    return this._instanceTypes;
+  }
+}
 export interface SagemakerClusterInstanceGroupsInstanceStorageConfigsEbsVolumeConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_cluster#root_volume SagemakerCluster#root_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#root_volume SagemakerCluster#root_volume}
   */
   readonly rootVolume?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_cluster#volume_kms_key_id SagemakerCluster#volume_kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#volume_kms_key_id SagemakerCluster#volume_kms_key_id}
   */
   readonly volumeKmsKeyId?: string;
   /**
   * The size in gigabytes (GB) of the additional EBS volume to be attached to the instances in the SageMaker HyperPod cluster instance group. The additional EBS volume is attached to each instance within the SageMaker HyperPod cluster instance group and mounted to /opt/sagemaker.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_cluster#volume_size_in_gb SagemakerCluster#volume_size_in_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#volume_size_in_gb SagemakerCluster#volume_size_in_gb}
   */
   readonly volumeSizeInGb?: number;
 }
@@ -503,13 +1544,322 @@ export class SagemakerClusterInstanceGroupsInstanceStorageConfigsEbsVolumeConfig
     return this._volumeSizeInGb;
   }
 }
+export interface SagemakerClusterInstanceGroupsInstanceStorageConfigsFsxLustreConfig {
+  /**
+  * The DNS name of the FSx for Lustre file system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#dns_name SagemakerCluster#dns_name}
+  */
+  readonly dnsName?: string;
+  /**
+  * The mount name of the FSx for Lustre file system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#mount_name SagemakerCluster#mount_name}
+  */
+  readonly mountName?: string;
+  /**
+  * The mount path for the FSx for Lustre file system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#mount_path SagemakerCluster#mount_path}
+  */
+  readonly mountPath?: string;
+}
+
+export function sagemakerClusterInstanceGroupsInstanceStorageConfigsFsxLustreConfigToTerraform(struct?: SagemakerClusterInstanceGroupsInstanceStorageConfigsFsxLustreConfig | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    dns_name: cdktn.stringToTerraform(struct!.dnsName),
+    mount_name: cdktn.stringToTerraform(struct!.mountName),
+    mount_path: cdktn.stringToTerraform(struct!.mountPath),
+  }
+}
+
+
+export function sagemakerClusterInstanceGroupsInstanceStorageConfigsFsxLustreConfigToHclTerraform(struct?: SagemakerClusterInstanceGroupsInstanceStorageConfigsFsxLustreConfig | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    dns_name: {
+      value: cdktn.stringToHclTerraform(struct!.dnsName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    mount_name: {
+      value: cdktn.stringToHclTerraform(struct!.mountName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    mount_path: {
+      value: cdktn.stringToHclTerraform(struct!.mountPath),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SagemakerClusterInstanceGroupsInstanceStorageConfigsFsxLustreConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): SagemakerClusterInstanceGroupsInstanceStorageConfigsFsxLustreConfig | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._dnsName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dnsName = this._dnsName;
+    }
+    if (this._mountName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.mountName = this._mountName;
+    }
+    if (this._mountPath !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.mountPath = this._mountPath;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SagemakerClusterInstanceGroupsInstanceStorageConfigsFsxLustreConfig | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._dnsName = undefined;
+      this._mountName = undefined;
+      this._mountPath = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._dnsName = value.dnsName;
+      this._mountName = value.mountName;
+      this._mountPath = value.mountPath;
+    }
+  }
+
+  // dns_name - computed: true, optional: true, required: false
+  private _dnsName?: string; 
+  public get dnsName() {
+    return this.getStringAttribute('dns_name');
+  }
+  public set dnsName(value: string) {
+    this._dnsName = value;
+  }
+  public resetDnsName() {
+    this._dnsName = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dnsNameInput() {
+    return this._dnsName;
+  }
+
+  // mount_name - computed: true, optional: true, required: false
+  private _mountName?: string; 
+  public get mountName() {
+    return this.getStringAttribute('mount_name');
+  }
+  public set mountName(value: string) {
+    this._mountName = value;
+  }
+  public resetMountName() {
+    this._mountName = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get mountNameInput() {
+    return this._mountName;
+  }
+
+  // mount_path - computed: true, optional: true, required: false
+  private _mountPath?: string; 
+  public get mountPath() {
+    return this.getStringAttribute('mount_path');
+  }
+  public set mountPath(value: string) {
+    this._mountPath = value;
+  }
+  public resetMountPath() {
+    this._mountPath = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get mountPathInput() {
+    return this._mountPath;
+  }
+}
+export interface SagemakerClusterInstanceGroupsInstanceStorageConfigsFsxOpenZfsConfig {
+  /**
+  * The DNS name of the FSx for OpenZFS file system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#dns_name SagemakerCluster#dns_name}
+  */
+  readonly dnsName?: string;
+  /**
+  * The mount path for the FSx for OpenZFS file system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#mount_path SagemakerCluster#mount_path}
+  */
+  readonly mountPath?: string;
+}
+
+export function sagemakerClusterInstanceGroupsInstanceStorageConfigsFsxOpenZfsConfigToTerraform(struct?: SagemakerClusterInstanceGroupsInstanceStorageConfigsFsxOpenZfsConfig | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    dns_name: cdktn.stringToTerraform(struct!.dnsName),
+    mount_path: cdktn.stringToTerraform(struct!.mountPath),
+  }
+}
+
+
+export function sagemakerClusterInstanceGroupsInstanceStorageConfigsFsxOpenZfsConfigToHclTerraform(struct?: SagemakerClusterInstanceGroupsInstanceStorageConfigsFsxOpenZfsConfig | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    dns_name: {
+      value: cdktn.stringToHclTerraform(struct!.dnsName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    mount_path: {
+      value: cdktn.stringToHclTerraform(struct!.mountPath),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SagemakerClusterInstanceGroupsInstanceStorageConfigsFsxOpenZfsConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): SagemakerClusterInstanceGroupsInstanceStorageConfigsFsxOpenZfsConfig | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._dnsName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dnsName = this._dnsName;
+    }
+    if (this._mountPath !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.mountPath = this._mountPath;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SagemakerClusterInstanceGroupsInstanceStorageConfigsFsxOpenZfsConfig | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._dnsName = undefined;
+      this._mountPath = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._dnsName = value.dnsName;
+      this._mountPath = value.mountPath;
+    }
+  }
+
+  // dns_name - computed: true, optional: true, required: false
+  private _dnsName?: string; 
+  public get dnsName() {
+    return this.getStringAttribute('dns_name');
+  }
+  public set dnsName(value: string) {
+    this._dnsName = value;
+  }
+  public resetDnsName() {
+    this._dnsName = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dnsNameInput() {
+    return this._dnsName;
+  }
+
+  // mount_path - computed: true, optional: true, required: false
+  private _mountPath?: string; 
+  public get mountPath() {
+    return this.getStringAttribute('mount_path');
+  }
+  public set mountPath(value: string) {
+    this._mountPath = value;
+  }
+  public resetMountPath() {
+    this._mountPath = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get mountPathInput() {
+    return this._mountPath;
+  }
+}
 export interface SagemakerClusterInstanceGroupsInstanceStorageConfigs {
   /**
   * Defines the configuration for attaching additional Amazon Elastic Block Store (EBS) volumes to the instances in the SageMaker HyperPod cluster instance group. The additional EBS volume is attached to each instance within the SageMaker HyperPod cluster instance group and mounted to /opt/sagemaker.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_cluster#ebs_volume_config SagemakerCluster#ebs_volume_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#ebs_volume_config SagemakerCluster#ebs_volume_config}
   */
   readonly ebsVolumeConfig?: SagemakerClusterInstanceGroupsInstanceStorageConfigsEbsVolumeConfig;
+  /**
+  * Configuration for mounting an Amazon FSx Lustre file system to the instances in the SageMaker HyperPod cluster instance group.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#fsx_lustre_config SagemakerCluster#fsx_lustre_config}
+  */
+  readonly fsxLustreConfig?: SagemakerClusterInstanceGroupsInstanceStorageConfigsFsxLustreConfig;
+  /**
+  * Configuration for mounting an Amazon FSx OpenZFS file system to the instances in the SageMaker HyperPod cluster instance group.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#fsx_open_zfs_config SagemakerCluster#fsx_open_zfs_config}
+  */
+  readonly fsxOpenZfsConfig?: SagemakerClusterInstanceGroupsInstanceStorageConfigsFsxOpenZfsConfig;
 }
 
 export function sagemakerClusterInstanceGroupsInstanceStorageConfigsToTerraform(struct?: SagemakerClusterInstanceGroupsInstanceStorageConfigs | cdktn.IResolvable): any {
@@ -519,6 +1869,8 @@ export function sagemakerClusterInstanceGroupsInstanceStorageConfigsToTerraform(
   }
   return {
     ebs_volume_config: sagemakerClusterInstanceGroupsInstanceStorageConfigsEbsVolumeConfigToTerraform(struct!.ebsVolumeConfig),
+    fsx_lustre_config: sagemakerClusterInstanceGroupsInstanceStorageConfigsFsxLustreConfigToTerraform(struct!.fsxLustreConfig),
+    fsx_open_zfs_config: sagemakerClusterInstanceGroupsInstanceStorageConfigsFsxOpenZfsConfigToTerraform(struct!.fsxOpenZfsConfig),
   }
 }
 
@@ -534,6 +1886,18 @@ export function sagemakerClusterInstanceGroupsInstanceStorageConfigsToHclTerrafo
       isBlock: true,
       type: "struct",
       storageClassType: "SagemakerClusterInstanceGroupsInstanceStorageConfigsEbsVolumeConfig",
+    },
+    fsx_lustre_config: {
+      value: sagemakerClusterInstanceGroupsInstanceStorageConfigsFsxLustreConfigToHclTerraform(struct!.fsxLustreConfig),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "SagemakerClusterInstanceGroupsInstanceStorageConfigsFsxLustreConfig",
+    },
+    fsx_open_zfs_config: {
+      value: sagemakerClusterInstanceGroupsInstanceStorageConfigsFsxOpenZfsConfigToHclTerraform(struct!.fsxOpenZfsConfig),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "SagemakerClusterInstanceGroupsInstanceStorageConfigsFsxOpenZfsConfig",
     },
   };
 
@@ -565,6 +1929,14 @@ export class SagemakerClusterInstanceGroupsInstanceStorageConfigsOutputReference
       hasAnyValues = true;
       internalValueResult.ebsVolumeConfig = this._ebsVolumeConfig?.internalValue;
     }
+    if (this._fsxLustreConfig?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.fsxLustreConfig = this._fsxLustreConfig?.internalValue;
+    }
+    if (this._fsxOpenZfsConfig?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.fsxOpenZfsConfig = this._fsxOpenZfsConfig?.internalValue;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -573,6 +1945,8 @@ export class SagemakerClusterInstanceGroupsInstanceStorageConfigsOutputReference
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._ebsVolumeConfig.internalValue = undefined;
+      this._fsxLustreConfig.internalValue = undefined;
+      this._fsxOpenZfsConfig.internalValue = undefined;
     }
     else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -582,6 +1956,8 @@ export class SagemakerClusterInstanceGroupsInstanceStorageConfigsOutputReference
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
       this._ebsVolumeConfig.internalValue = value.ebsVolumeConfig;
+      this._fsxLustreConfig.internalValue = value.fsxLustreConfig;
+      this._fsxOpenZfsConfig.internalValue = value.fsxOpenZfsConfig;
     }
   }
 
@@ -599,6 +1975,38 @@ export class SagemakerClusterInstanceGroupsInstanceStorageConfigsOutputReference
   // Temporarily expose input value. Use with caution.
   public get ebsVolumeConfigInput() {
     return this._ebsVolumeConfig.internalValue;
+  }
+
+  // fsx_lustre_config - computed: true, optional: true, required: false
+  private _fsxLustreConfig = new SagemakerClusterInstanceGroupsInstanceStorageConfigsFsxLustreConfigOutputReference(this, "fsx_lustre_config");
+  public get fsxLustreConfig() {
+    return this._fsxLustreConfig;
+  }
+  public putFsxLustreConfig(value: SagemakerClusterInstanceGroupsInstanceStorageConfigsFsxLustreConfig) {
+    this._fsxLustreConfig.internalValue = value;
+  }
+  public resetFsxLustreConfig() {
+    this._fsxLustreConfig.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fsxLustreConfigInput() {
+    return this._fsxLustreConfig.internalValue;
+  }
+
+  // fsx_open_zfs_config - computed: true, optional: true, required: false
+  private _fsxOpenZfsConfig = new SagemakerClusterInstanceGroupsInstanceStorageConfigsFsxOpenZfsConfigOutputReference(this, "fsx_open_zfs_config");
+  public get fsxOpenZfsConfig() {
+    return this._fsxOpenZfsConfig;
+  }
+  public putFsxOpenZfsConfig(value: SagemakerClusterInstanceGroupsInstanceStorageConfigsFsxOpenZfsConfig) {
+    this._fsxOpenZfsConfig.internalValue = value;
+  }
+  public resetFsxOpenZfsConfig() {
+    this._fsxOpenZfsConfig.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fsxOpenZfsConfigInput() {
+    return this._fsxOpenZfsConfig.internalValue;
   }
 }
 
@@ -625,19 +2033,19 @@ export interface SagemakerClusterInstanceGroupsKubernetesConfigTaints {
   /**
   * The effect of the taint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_cluster#effect SagemakerCluster#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#effect SagemakerCluster#effect}
   */
   readonly effect?: string;
   /**
   * The key of the taint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_cluster#key SagemakerCluster#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#key SagemakerCluster#key}
   */
   readonly key?: string;
   /**
   * The value of the taint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_cluster#value SagemakerCluster#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#value SagemakerCluster#value}
   */
   readonly value?: string;
 }
@@ -813,13 +2221,13 @@ export interface SagemakerClusterInstanceGroupsKubernetesConfig {
   /**
   * A map of Kubernetes labels to apply to cluster nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_cluster#labels SagemakerCluster#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#labels SagemakerCluster#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * A list of Kubernetes taints to apply to cluster nodes. Maximum of 50 taints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_cluster#taints SagemakerCluster#taints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#taints SagemakerCluster#taints}
   */
   readonly taints?: SagemakerClusterInstanceGroupsKubernetesConfigTaints[] | cdktn.IResolvable;
 }
@@ -942,15 +2350,21 @@ export class SagemakerClusterInstanceGroupsKubernetesConfigOutputReference exten
 }
 export interface SagemakerClusterInstanceGroupsLifeCycleConfig {
   /**
-  * The file name of the entrypoint script of lifecycle scripts under SourceS3Uri. This entrypoint script runs during cluster creation.
+  * The file name of the entrypoint script of lifecycle scripts under SourceS3Uri. This entrypoint script runs during cluster creation. Mutually exclusive with OnInitComplete.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_cluster#on_create SagemakerCluster#on_create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#on_create SagemakerCluster#on_create}
   */
   readonly onCreate?: string;
   /**
+  * The file name of the extension script under SourceS3Uri. This script runs after HyperPod configures the default software on the instance. Mutually exclusive with OnCreate.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#on_init_complete SagemakerCluster#on_init_complete}
+  */
+  readonly onInitComplete?: string;
+  /**
   * An Amazon S3 bucket path where your lifecycle scripts are stored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_cluster#source_s3_uri SagemakerCluster#source_s3_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#source_s3_uri SagemakerCluster#source_s3_uri}
   */
   readonly sourceS3Uri?: string;
 }
@@ -962,6 +2376,7 @@ export function sagemakerClusterInstanceGroupsLifeCycleConfigToTerraform(struct?
   }
   return {
     on_create: cdktn.stringToTerraform(struct!.onCreate),
+    on_init_complete: cdktn.stringToTerraform(struct!.onInitComplete),
     source_s3_uri: cdktn.stringToTerraform(struct!.sourceS3Uri),
   }
 }
@@ -975,6 +2390,12 @@ export function sagemakerClusterInstanceGroupsLifeCycleConfigToHclTerraform(stru
   const attrs = {
     on_create: {
       value: cdktn.stringToHclTerraform(struct!.onCreate),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    on_init_complete: {
+      value: cdktn.stringToHclTerraform(struct!.onInitComplete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1013,6 +2434,10 @@ export class SagemakerClusterInstanceGroupsLifeCycleConfigOutputReference extend
       hasAnyValues = true;
       internalValueResult.onCreate = this._onCreate;
     }
+    if (this._onInitComplete !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.onInitComplete = this._onInitComplete;
+    }
     if (this._sourceS3Uri !== undefined) {
       hasAnyValues = true;
       internalValueResult.sourceS3Uri = this._sourceS3Uri;
@@ -1025,6 +2450,7 @@ export class SagemakerClusterInstanceGroupsLifeCycleConfigOutputReference extend
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._onCreate = undefined;
+      this._onInitComplete = undefined;
       this._sourceS3Uri = undefined;
     }
     else if (cdktn.Tokenization.isResolvable(value)) {
@@ -1035,6 +2461,7 @@ export class SagemakerClusterInstanceGroupsLifeCycleConfigOutputReference extend
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
       this._onCreate = value.onCreate;
+      this._onInitComplete = value.onInitComplete;
       this._sourceS3Uri = value.sourceS3Uri;
     }
   }
@@ -1055,6 +2482,22 @@ export class SagemakerClusterInstanceGroupsLifeCycleConfigOutputReference extend
     return this._onCreate;
   }
 
+  // on_init_complete - computed: true, optional: true, required: false
+  private _onInitComplete?: string; 
+  public get onInitComplete() {
+    return this.getStringAttribute('on_init_complete');
+  }
+  public set onInitComplete(value: string) {
+    this._onInitComplete = value;
+  }
+  public resetOnInitComplete() {
+    this._onInitComplete = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get onInitCompleteInput() {
+    return this._onInitComplete;
+  }
+
   // source_s3_uri - computed: true, optional: true, required: false
   private _sourceS3Uri?: string; 
   public get sourceS3Uri() {
@@ -1071,17 +2514,113 @@ export class SagemakerClusterInstanceGroupsLifeCycleConfigOutputReference extend
     return this._sourceS3Uri;
   }
 }
+export interface SagemakerClusterInstanceGroupsNetworkInterface {
+  /**
+  * The type of network interface.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#interface_type SagemakerCluster#interface_type}
+  */
+  readonly interfaceType?: string;
+}
+
+export function sagemakerClusterInstanceGroupsNetworkInterfaceToTerraform(struct?: SagemakerClusterInstanceGroupsNetworkInterface | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    interface_type: cdktn.stringToTerraform(struct!.interfaceType),
+  }
+}
+
+
+export function sagemakerClusterInstanceGroupsNetworkInterfaceToHclTerraform(struct?: SagemakerClusterInstanceGroupsNetworkInterface | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    interface_type: {
+      value: cdktn.stringToHclTerraform(struct!.interfaceType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SagemakerClusterInstanceGroupsNetworkInterfaceOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): SagemakerClusterInstanceGroupsNetworkInterface | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._interfaceType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.interfaceType = this._interfaceType;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SagemakerClusterInstanceGroupsNetworkInterface | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._interfaceType = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._interfaceType = value.interfaceType;
+    }
+  }
+
+  // interface_type - computed: true, optional: true, required: false
+  private _interfaceType?: string; 
+  public get interfaceType() {
+    return this.getStringAttribute('interface_type');
+  }
+  public set interfaceType(value: string) {
+    this._interfaceType = value;
+  }
+  public resetInterfaceType() {
+    this._interfaceType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get interfaceTypeInput() {
+    return this._interfaceType;
+  }
+}
 export interface SagemakerClusterInstanceGroupsOverrideVpcConfig {
   /**
   * The VPC security group IDs, in the form sg-xxxxxxxx. Specify the security groups for the VPC that is specified in the Subnets field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_cluster#security_group_ids SagemakerCluster#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#security_group_ids SagemakerCluster#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
   * The ID of the subnets in the VPC to which you want to connect your training job or model.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_cluster#subnets SagemakerCluster#subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#subnets SagemakerCluster#subnets}
   */
   readonly subnets?: string[];
 }
@@ -1206,7 +2745,7 @@ export interface SagemakerClusterInstanceGroupsScheduledUpdateConfigDeploymentCo
   /**
   * The name of the alarm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_cluster#alarm_name SagemakerCluster#alarm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#alarm_name SagemakerCluster#alarm_name}
   */
   readonly alarmName?: string;
 }
@@ -1324,13 +2863,13 @@ export interface SagemakerClusterInstanceGroupsScheduledUpdateConfigDeploymentCo
   /**
   * Specifies whether SageMaker should process the update by amount or percentage of instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_cluster#type SagemakerCluster#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#type SagemakerCluster#type}
   */
   readonly type?: string;
   /**
   * Specifies the amount or percentage of instances SageMaker updates at a time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_cluster#value SagemakerCluster#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#value SagemakerCluster#value}
   */
   readonly value?: number;
 }
@@ -1455,13 +2994,13 @@ export interface SagemakerClusterInstanceGroupsScheduledUpdateConfigDeploymentCo
   /**
   * Specifies whether SageMaker should process the update by amount or percentage of instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_cluster#type SagemakerCluster#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#type SagemakerCluster#type}
   */
   readonly type?: string;
   /**
   * Specifies the amount or percentage of instances SageMaker updates at a time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_cluster#value SagemakerCluster#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#value SagemakerCluster#value}
   */
   readonly value?: number;
 }
@@ -1586,13 +3125,13 @@ export interface SagemakerClusterInstanceGroupsScheduledUpdateConfigDeploymentCo
   /**
   * The configuration of the size measurements of the AMI update. Using this configuration, you can specify whether SageMaker should update your instance group by an amount or percentage of instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_cluster#maximum_batch_size SagemakerCluster#maximum_batch_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#maximum_batch_size SagemakerCluster#maximum_batch_size}
   */
   readonly maximumBatchSize?: SagemakerClusterInstanceGroupsScheduledUpdateConfigDeploymentConfigRollingUpdatePolicyMaximumBatchSize;
   /**
   * The configuration of the size measurements of the AMI update. Using this configuration, you can specify whether SageMaker should update your instance group by an amount or percentage of instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_cluster#rollback_maximum_batch_size SagemakerCluster#rollback_maximum_batch_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#rollback_maximum_batch_size SagemakerCluster#rollback_maximum_batch_size}
   */
   readonly rollbackMaximumBatchSize?: SagemakerClusterInstanceGroupsScheduledUpdateConfigDeploymentConfigRollingUpdatePolicyRollbackMaximumBatchSize;
 }
@@ -1717,19 +3256,19 @@ export interface SagemakerClusterInstanceGroupsScheduledUpdateConfigDeploymentCo
   /**
   * An array that contains the alarms that SageMaker monitors to know whether to roll back the AMI update.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_cluster#auto_rollback_configuration SagemakerCluster#auto_rollback_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#auto_rollback_configuration SagemakerCluster#auto_rollback_configuration}
   */
   readonly autoRollbackConfiguration?: SagemakerClusterInstanceGroupsScheduledUpdateConfigDeploymentConfigAutoRollbackConfiguration[] | cdktn.IResolvable;
   /**
   * The policy that SageMaker uses when updating the AMI versions of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_cluster#rolling_update_policy SagemakerCluster#rolling_update_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#rolling_update_policy SagemakerCluster#rolling_update_policy}
   */
   readonly rollingUpdatePolicy?: SagemakerClusterInstanceGroupsScheduledUpdateConfigDeploymentConfigRollingUpdatePolicy;
   /**
   * The duration in seconds that SageMaker waits before updating more instances in the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_cluster#wait_interval_in_seconds SagemakerCluster#wait_interval_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#wait_interval_in_seconds SagemakerCluster#wait_interval_in_seconds}
   */
   readonly waitIntervalInSeconds?: number;
 }
@@ -1883,13 +3422,13 @@ export interface SagemakerClusterInstanceGroupsScheduledUpdateConfig {
   /**
   * The configuration to use when updating the AMI versions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_cluster#deployment_config SagemakerCluster#deployment_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#deployment_config SagemakerCluster#deployment_config}
   */
   readonly deploymentConfig?: SagemakerClusterInstanceGroupsScheduledUpdateConfigDeploymentConfig;
   /**
   * A cron expression that specifies the schedule that SageMaker follows when updating the AMI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_cluster#schedule_expression SagemakerCluster#schedule_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#schedule_expression SagemakerCluster#schedule_expression}
   */
   readonly scheduleExpression?: string;
 }
@@ -2010,101 +3549,256 @@ export class SagemakerClusterInstanceGroupsScheduledUpdateConfigOutputReference 
     return this._scheduleExpression;
   }
 }
+export interface SagemakerClusterInstanceGroupsSlurmConfig {
+  /**
+  * The type of Slurm node for this instance group.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#node_type SagemakerCluster#node_type}
+  */
+  readonly nodeType?: string;
+  /**
+  * The Slurm partitions that this instance group belongs to. Maximum of 1 partition.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#partition_names SagemakerCluster#partition_names}
+  */
+  readonly partitionNames?: string[];
+}
+
+export function sagemakerClusterInstanceGroupsSlurmConfigToTerraform(struct?: SagemakerClusterInstanceGroupsSlurmConfig | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    node_type: cdktn.stringToTerraform(struct!.nodeType),
+    partition_names: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.partitionNames),
+  }
+}
+
+
+export function sagemakerClusterInstanceGroupsSlurmConfigToHclTerraform(struct?: SagemakerClusterInstanceGroupsSlurmConfig | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    node_type: {
+      value: cdktn.stringToHclTerraform(struct!.nodeType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    partition_names: {
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.partitionNames),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SagemakerClusterInstanceGroupsSlurmConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): SagemakerClusterInstanceGroupsSlurmConfig | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._nodeType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.nodeType = this._nodeType;
+    }
+    if (this._partitionNames !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.partitionNames = this._partitionNames;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SagemakerClusterInstanceGroupsSlurmConfig | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._nodeType = undefined;
+      this._partitionNames = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._nodeType = value.nodeType;
+      this._partitionNames = value.partitionNames;
+    }
+  }
+
+  // node_type - computed: true, optional: true, required: false
+  private _nodeType?: string; 
+  public get nodeType() {
+    return this.getStringAttribute('node_type');
+  }
+  public set nodeType(value: string) {
+    this._nodeType = value;
+  }
+  public resetNodeType() {
+    this._nodeType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nodeTypeInput() {
+    return this._nodeType;
+  }
+
+  // partition_names - computed: true, optional: true, required: false
+  private _partitionNames?: string[]; 
+  public get partitionNames() {
+    return this.getListAttribute('partition_names');
+  }
+  public set partitionNames(value: string[]) {
+    this._partitionNames = value;
+  }
+  public resetPartitionNames() {
+    this._partitionNames = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get partitionNamesInput() {
+    return this._partitionNames;
+  }
+}
 export interface SagemakerClusterInstanceGroups {
+  /**
+  * The configuration for automatic patching of the instance group. Enables workload-aware, patch-level AMI updates.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#auto_patch_config SagemakerCluster#auto_patch_config}
+  */
+  readonly autoPatchConfig?: SagemakerClusterInstanceGroupsAutoPatchConfig;
   /**
   * Specifies the capacity requirements configuration for an instance group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_cluster#capacity_requirements SagemakerCluster#capacity_requirements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#capacity_requirements SagemakerCluster#capacity_requirements}
   */
   readonly capacityRequirements?: SagemakerClusterInstanceGroupsCapacityRequirements;
   /**
   * The number of instances that are currently in the instance group of a SageMaker HyperPod cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_cluster#current_count SagemakerCluster#current_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#current_count SagemakerCluster#current_count}
   */
   readonly currentCount?: number;
   /**
   * The execution role for the instance group to assume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_cluster#execution_role SagemakerCluster#execution_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#execution_role SagemakerCluster#execution_role}
   */
   readonly executionRole?: string;
   /**
   * AMI Id to be used for launching EC2 instances - HyperPodPublicAmiId or CustomAmiId
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_cluster#image_id SagemakerCluster#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#image_id SagemakerCluster#image_id}
   */
   readonly imageId?: string;
   /**
   * The number of instances you specified to add to the instance group of a SageMaker HyperPod cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_cluster#instance_count SagemakerCluster#instance_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#instance_count SagemakerCluster#instance_count}
   */
   readonly instanceCount?: number;
   /**
   * The name of the instance group of a SageMaker HyperPod cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_cluster#instance_group_name SagemakerCluster#instance_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#instance_group_name SagemakerCluster#instance_group_name}
   */
   readonly instanceGroupName?: string;
   /**
+  * The instance requirements for the instance group. Specifies a list of instance types that can be used.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#instance_requirements SagemakerCluster#instance_requirements}
+  */
+  readonly instanceRequirements?: SagemakerClusterInstanceGroupsInstanceRequirements;
+  /**
   * The instance storage configuration for the instance group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_cluster#instance_storage_configs SagemakerCluster#instance_storage_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#instance_storage_configs SagemakerCluster#instance_storage_configs}
   */
   readonly instanceStorageConfigs?: SagemakerClusterInstanceGroupsInstanceStorageConfigs[] | cdktn.IResolvable;
   /**
   * The instance type of the instance group of a SageMaker HyperPod cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_cluster#instance_type SagemakerCluster#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#instance_type SagemakerCluster#instance_type}
   */
   readonly instanceType?: string;
   /**
   * Kubernetes configuration for cluster nodes including labels and taints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_cluster#kubernetes_config SagemakerCluster#kubernetes_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#kubernetes_config SagemakerCluster#kubernetes_config}
   */
   readonly kubernetesConfig?: SagemakerClusterInstanceGroupsKubernetesConfig;
   /**
-  * The lifecycle configuration for a SageMaker HyperPod cluster.
+  * The lifecycle configuration for a SageMaker HyperPod cluster. When omitted, the instance group uses Bootstrap mode. When provided with SourceS3Uri and OnCreate, uses Customer Managed mode. When provided with SourceS3Uri and OnInitComplete, uses Extended mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_cluster#life_cycle_config SagemakerCluster#life_cycle_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#life_cycle_config SagemakerCluster#life_cycle_config}
   */
   readonly lifeCycleConfig?: SagemakerClusterInstanceGroupsLifeCycleConfig;
   /**
   * The minimum number of instances required for the instance group to be InService. MinInstanceCount must be less than or equal to InstanceCount.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_cluster#min_instance_count SagemakerCluster#min_instance_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#min_instance_count SagemakerCluster#min_instance_count}
   */
   readonly minInstanceCount?: number;
   /**
+  * Specifies the network interface configuration for the instance group.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#network_interface SagemakerCluster#network_interface}
+  */
+  readonly networkInterface?: SagemakerClusterInstanceGroupsNetworkInterface;
+  /**
   * Nodes will undergo advanced stress test to detect and replace faulty instances, based on the type of deep health check(s) passed in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_cluster#on_start_deep_health_checks SagemakerCluster#on_start_deep_health_checks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#on_start_deep_health_checks SagemakerCluster#on_start_deep_health_checks}
   */
   readonly onStartDeepHealthChecks?: string[];
   /**
   * Specifies an Amazon Virtual Private Cloud (VPC) that your SageMaker jobs, hosted models, and compute resources have access to. You can control access to and from your resources by configuring a VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_cluster#override_vpc_config SagemakerCluster#override_vpc_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#override_vpc_config SagemakerCluster#override_vpc_config}
   */
   readonly overrideVpcConfig?: SagemakerClusterInstanceGroupsOverrideVpcConfig;
   /**
   * The configuration object of the schedule that SageMaker follows when updating the AMI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_cluster#scheduled_update_config SagemakerCluster#scheduled_update_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#scheduled_update_config SagemakerCluster#scheduled_update_config}
   */
   readonly scheduledUpdateConfig?: SagemakerClusterInstanceGroupsScheduledUpdateConfig;
   /**
+  * Slurm configuration for the instance group.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#slurm_config SagemakerCluster#slurm_config}
+  */
+  readonly slurmConfig?: SagemakerClusterInstanceGroupsSlurmConfig;
+  /**
   * The number you specified to TreadsPerCore in CreateCluster for enabling or disabling multithreading. For instance types that support multithreading, you can specify 1 for disabling multithreading and 2 for enabling multithreading.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_cluster#threads_per_core SagemakerCluster#threads_per_core}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#threads_per_core SagemakerCluster#threads_per_core}
   */
   readonly threadsPerCore?: number;
   /**
   * The Amazon Resource Name (ARN) of the training plan to use for this cluster instance group. For more information about how to reserve GPU capacity for your SageMaker HyperPod clusters using Amazon SageMaker Training Plan, see CreateTrainingPlan.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_cluster#training_plan_arn SagemakerCluster#training_plan_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#training_plan_arn SagemakerCluster#training_plan_arn}
   */
   readonly trainingPlanArn?: string;
 }
@@ -2115,20 +3809,24 @@ export function sagemakerClusterInstanceGroupsToTerraform(struct?: SagemakerClus
     throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
+    auto_patch_config: sagemakerClusterInstanceGroupsAutoPatchConfigToTerraform(struct!.autoPatchConfig),
     capacity_requirements: sagemakerClusterInstanceGroupsCapacityRequirementsToTerraform(struct!.capacityRequirements),
     current_count: cdktn.numberToTerraform(struct!.currentCount),
     execution_role: cdktn.stringToTerraform(struct!.executionRole),
     image_id: cdktn.stringToTerraform(struct!.imageId),
     instance_count: cdktn.numberToTerraform(struct!.instanceCount),
     instance_group_name: cdktn.stringToTerraform(struct!.instanceGroupName),
+    instance_requirements: sagemakerClusterInstanceGroupsInstanceRequirementsToTerraform(struct!.instanceRequirements),
     instance_storage_configs: cdktn.listMapper(sagemakerClusterInstanceGroupsInstanceStorageConfigsToTerraform, false)(struct!.instanceStorageConfigs),
     instance_type: cdktn.stringToTerraform(struct!.instanceType),
     kubernetes_config: sagemakerClusterInstanceGroupsKubernetesConfigToTerraform(struct!.kubernetesConfig),
     life_cycle_config: sagemakerClusterInstanceGroupsLifeCycleConfigToTerraform(struct!.lifeCycleConfig),
     min_instance_count: cdktn.numberToTerraform(struct!.minInstanceCount),
+    network_interface: sagemakerClusterInstanceGroupsNetworkInterfaceToTerraform(struct!.networkInterface),
     on_start_deep_health_checks: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.onStartDeepHealthChecks),
     override_vpc_config: sagemakerClusterInstanceGroupsOverrideVpcConfigToTerraform(struct!.overrideVpcConfig),
     scheduled_update_config: sagemakerClusterInstanceGroupsScheduledUpdateConfigToTerraform(struct!.scheduledUpdateConfig),
+    slurm_config: sagemakerClusterInstanceGroupsSlurmConfigToTerraform(struct!.slurmConfig),
     threads_per_core: cdktn.numberToTerraform(struct!.threadsPerCore),
     training_plan_arn: cdktn.stringToTerraform(struct!.trainingPlanArn),
   }
@@ -2141,6 +3839,12 @@ export function sagemakerClusterInstanceGroupsToHclTerraform(struct?: SagemakerC
     throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
+    auto_patch_config: {
+      value: sagemakerClusterInstanceGroupsAutoPatchConfigToHclTerraform(struct!.autoPatchConfig),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "SagemakerClusterInstanceGroupsAutoPatchConfig",
+    },
     capacity_requirements: {
       value: sagemakerClusterInstanceGroupsCapacityRequirementsToHclTerraform(struct!.capacityRequirements),
       isBlock: true,
@@ -2177,6 +3881,12 @@ export function sagemakerClusterInstanceGroupsToHclTerraform(struct?: SagemakerC
       type: "simple",
       storageClassType: "string",
     },
+    instance_requirements: {
+      value: sagemakerClusterInstanceGroupsInstanceRequirementsToHclTerraform(struct!.instanceRequirements),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "SagemakerClusterInstanceGroupsInstanceRequirements",
+    },
     instance_storage_configs: {
       value: cdktn.listMapperHcl(sagemakerClusterInstanceGroupsInstanceStorageConfigsToHclTerraform, false)(struct!.instanceStorageConfigs),
       isBlock: true,
@@ -2207,6 +3917,12 @@ export function sagemakerClusterInstanceGroupsToHclTerraform(struct?: SagemakerC
       type: "simple",
       storageClassType: "number",
     },
+    network_interface: {
+      value: sagemakerClusterInstanceGroupsNetworkInterfaceToHclTerraform(struct!.networkInterface),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "SagemakerClusterInstanceGroupsNetworkInterface",
+    },
     on_start_deep_health_checks: {
       value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.onStartDeepHealthChecks),
       isBlock: false,
@@ -2224,6 +3940,12 @@ export function sagemakerClusterInstanceGroupsToHclTerraform(struct?: SagemakerC
       isBlock: true,
       type: "struct",
       storageClassType: "SagemakerClusterInstanceGroupsScheduledUpdateConfig",
+    },
+    slurm_config: {
+      value: sagemakerClusterInstanceGroupsSlurmConfigToHclTerraform(struct!.slurmConfig),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "SagemakerClusterInstanceGroupsSlurmConfig",
     },
     threads_per_core: {
       value: cdktn.numberToHclTerraform(struct!.threadsPerCore),
@@ -2263,6 +3985,10 @@ export class SagemakerClusterInstanceGroupsOutputReference extends cdktn.Complex
     }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._autoPatchConfig?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.autoPatchConfig = this._autoPatchConfig?.internalValue;
+    }
     if (this._capacityRequirements?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.capacityRequirements = this._capacityRequirements?.internalValue;
@@ -2287,6 +4013,10 @@ export class SagemakerClusterInstanceGroupsOutputReference extends cdktn.Complex
       hasAnyValues = true;
       internalValueResult.instanceGroupName = this._instanceGroupName;
     }
+    if (this._instanceRequirements?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.instanceRequirements = this._instanceRequirements?.internalValue;
+    }
     if (this._instanceStorageConfigs?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.instanceStorageConfigs = this._instanceStorageConfigs?.internalValue;
@@ -2307,6 +4037,10 @@ export class SagemakerClusterInstanceGroupsOutputReference extends cdktn.Complex
       hasAnyValues = true;
       internalValueResult.minInstanceCount = this._minInstanceCount;
     }
+    if (this._networkInterface?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.networkInterface = this._networkInterface?.internalValue;
+    }
     if (this._onStartDeepHealthChecks !== undefined) {
       hasAnyValues = true;
       internalValueResult.onStartDeepHealthChecks = this._onStartDeepHealthChecks;
@@ -2318,6 +4052,10 @@ export class SagemakerClusterInstanceGroupsOutputReference extends cdktn.Complex
     if (this._scheduledUpdateConfig?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.scheduledUpdateConfig = this._scheduledUpdateConfig?.internalValue;
+    }
+    if (this._slurmConfig?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.slurmConfig = this._slurmConfig?.internalValue;
     }
     if (this._threadsPerCore !== undefined) {
       hasAnyValues = true;
@@ -2334,20 +4072,24 @@ export class SagemakerClusterInstanceGroupsOutputReference extends cdktn.Complex
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
+      this._autoPatchConfig.internalValue = undefined;
       this._capacityRequirements.internalValue = undefined;
       this._currentCount = undefined;
       this._executionRole = undefined;
       this._imageId = undefined;
       this._instanceCount = undefined;
       this._instanceGroupName = undefined;
+      this._instanceRequirements.internalValue = undefined;
       this._instanceStorageConfigs.internalValue = undefined;
       this._instanceType = undefined;
       this._kubernetesConfig.internalValue = undefined;
       this._lifeCycleConfig.internalValue = undefined;
       this._minInstanceCount = undefined;
+      this._networkInterface.internalValue = undefined;
       this._onStartDeepHealthChecks = undefined;
       this._overrideVpcConfig.internalValue = undefined;
       this._scheduledUpdateConfig.internalValue = undefined;
+      this._slurmConfig.internalValue = undefined;
       this._threadsPerCore = undefined;
       this._trainingPlanArn = undefined;
     }
@@ -2358,23 +4100,43 @@ export class SagemakerClusterInstanceGroupsOutputReference extends cdktn.Complex
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
+      this._autoPatchConfig.internalValue = value.autoPatchConfig;
       this._capacityRequirements.internalValue = value.capacityRequirements;
       this._currentCount = value.currentCount;
       this._executionRole = value.executionRole;
       this._imageId = value.imageId;
       this._instanceCount = value.instanceCount;
       this._instanceGroupName = value.instanceGroupName;
+      this._instanceRequirements.internalValue = value.instanceRequirements;
       this._instanceStorageConfigs.internalValue = value.instanceStorageConfigs;
       this._instanceType = value.instanceType;
       this._kubernetesConfig.internalValue = value.kubernetesConfig;
       this._lifeCycleConfig.internalValue = value.lifeCycleConfig;
       this._minInstanceCount = value.minInstanceCount;
+      this._networkInterface.internalValue = value.networkInterface;
       this._onStartDeepHealthChecks = value.onStartDeepHealthChecks;
       this._overrideVpcConfig.internalValue = value.overrideVpcConfig;
       this._scheduledUpdateConfig.internalValue = value.scheduledUpdateConfig;
+      this._slurmConfig.internalValue = value.slurmConfig;
       this._threadsPerCore = value.threadsPerCore;
       this._trainingPlanArn = value.trainingPlanArn;
     }
+  }
+
+  // auto_patch_config - computed: true, optional: true, required: false
+  private _autoPatchConfig = new SagemakerClusterInstanceGroupsAutoPatchConfigOutputReference(this, "auto_patch_config");
+  public get autoPatchConfig() {
+    return this._autoPatchConfig;
+  }
+  public putAutoPatchConfig(value: SagemakerClusterInstanceGroupsAutoPatchConfig) {
+    this._autoPatchConfig.internalValue = value;
+  }
+  public resetAutoPatchConfig() {
+    this._autoPatchConfig.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get autoPatchConfigInput() {
+    return this._autoPatchConfig.internalValue;
   }
 
   // capacity_requirements - computed: true, optional: true, required: false
@@ -2473,6 +4235,22 @@ export class SagemakerClusterInstanceGroupsOutputReference extends cdktn.Complex
     return this._instanceGroupName;
   }
 
+  // instance_requirements - computed: true, optional: true, required: false
+  private _instanceRequirements = new SagemakerClusterInstanceGroupsInstanceRequirementsOutputReference(this, "instance_requirements");
+  public get instanceRequirements() {
+    return this._instanceRequirements;
+  }
+  public putInstanceRequirements(value: SagemakerClusterInstanceGroupsInstanceRequirements) {
+    this._instanceRequirements.internalValue = value;
+  }
+  public resetInstanceRequirements() {
+    this._instanceRequirements.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get instanceRequirementsInput() {
+    return this._instanceRequirements.internalValue;
+  }
+
   // instance_storage_configs - computed: true, optional: true, required: false
   private _instanceStorageConfigs = new SagemakerClusterInstanceGroupsInstanceStorageConfigsList(this, "instance_storage_configs", false);
   public get instanceStorageConfigs() {
@@ -2553,6 +4331,22 @@ export class SagemakerClusterInstanceGroupsOutputReference extends cdktn.Complex
     return this._minInstanceCount;
   }
 
+  // network_interface - computed: true, optional: true, required: false
+  private _networkInterface = new SagemakerClusterInstanceGroupsNetworkInterfaceOutputReference(this, "network_interface");
+  public get networkInterface() {
+    return this._networkInterface;
+  }
+  public putNetworkInterface(value: SagemakerClusterInstanceGroupsNetworkInterface) {
+    this._networkInterface.internalValue = value;
+  }
+  public resetNetworkInterface() {
+    this._networkInterface.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get networkInterfaceInput() {
+    return this._networkInterface.internalValue;
+  }
+
   // on_start_deep_health_checks - computed: true, optional: true, required: false
   private _onStartDeepHealthChecks?: string[]; 
   public get onStartDeepHealthChecks() {
@@ -2599,6 +4393,22 @@ export class SagemakerClusterInstanceGroupsOutputReference extends cdktn.Complex
   // Temporarily expose input value. Use with caution.
   public get scheduledUpdateConfigInput() {
     return this._scheduledUpdateConfig.internalValue;
+  }
+
+  // slurm_config - computed: true, optional: true, required: false
+  private _slurmConfig = new SagemakerClusterInstanceGroupsSlurmConfigOutputReference(this, "slurm_config");
+  public get slurmConfig() {
+    return this._slurmConfig;
+  }
+  public putSlurmConfig(value: SagemakerClusterInstanceGroupsSlurmConfig) {
+    this._slurmConfig.internalValue = value;
+  }
+  public resetSlurmConfig() {
+    this._slurmConfig.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get slurmConfigInput() {
+    return this._slurmConfig.internalValue;
   }
 
   // threads_per_core - computed: true, optional: true, required: false
@@ -2657,7 +4467,7 @@ export interface SagemakerClusterOrchestratorEks {
   /**
   * The ARN of the EKS cluster, such as arn:aws:eks:us-west-2:123456789012:cluster/my-eks-cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_cluster#cluster_arn SagemakerCluster#cluster_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#cluster_arn SagemakerCluster#cluster_arn}
   */
   readonly clusterArn?: string;
 }
@@ -2749,13 +4559,115 @@ export class SagemakerClusterOrchestratorEksOutputReference extends cdktn.Comple
     return this._clusterArn;
   }
 }
+export interface SagemakerClusterOrchestratorSlurm {
+  /**
+  * The strategy for managing Slurm configuration on the cluster.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#slurm_config_strategy SagemakerCluster#slurm_config_strategy}
+  */
+  readonly slurmConfigStrategy?: string;
+}
+
+export function sagemakerClusterOrchestratorSlurmToTerraform(struct?: SagemakerClusterOrchestratorSlurm | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    slurm_config_strategy: cdktn.stringToTerraform(struct!.slurmConfigStrategy),
+  }
+}
+
+
+export function sagemakerClusterOrchestratorSlurmToHclTerraform(struct?: SagemakerClusterOrchestratorSlurm | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    slurm_config_strategy: {
+      value: cdktn.stringToHclTerraform(struct!.slurmConfigStrategy),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SagemakerClusterOrchestratorSlurmOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): SagemakerClusterOrchestratorSlurm | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._slurmConfigStrategy !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.slurmConfigStrategy = this._slurmConfigStrategy;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SagemakerClusterOrchestratorSlurm | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._slurmConfigStrategy = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._slurmConfigStrategy = value.slurmConfigStrategy;
+    }
+  }
+
+  // slurm_config_strategy - computed: true, optional: true, required: false
+  private _slurmConfigStrategy?: string; 
+  public get slurmConfigStrategy() {
+    return this.getStringAttribute('slurm_config_strategy');
+  }
+  public set slurmConfigStrategy(value: string) {
+    this._slurmConfigStrategy = value;
+  }
+  public resetSlurmConfigStrategy() {
+    this._slurmConfigStrategy = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get slurmConfigStrategyInput() {
+    return this._slurmConfigStrategy;
+  }
+}
 export interface SagemakerClusterOrchestrator {
   /**
   * Specifies parameter(s) related to EKS as orchestrator, e.g. the EKS cluster nodes will attach to,
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_cluster#eks SagemakerCluster#eks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#eks SagemakerCluster#eks}
   */
   readonly eks?: SagemakerClusterOrchestratorEks;
+  /**
+  * Specifies parameter(s) related to Slurm as orchestrator.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#slurm SagemakerCluster#slurm}
+  */
+  readonly slurm?: SagemakerClusterOrchestratorSlurm;
 }
 
 export function sagemakerClusterOrchestratorToTerraform(struct?: SagemakerClusterOrchestrator | cdktn.IResolvable): any {
@@ -2765,6 +4677,7 @@ export function sagemakerClusterOrchestratorToTerraform(struct?: SagemakerCluste
   }
   return {
     eks: sagemakerClusterOrchestratorEksToTerraform(struct!.eks),
+    slurm: sagemakerClusterOrchestratorSlurmToTerraform(struct!.slurm),
   }
 }
 
@@ -2780,6 +4693,12 @@ export function sagemakerClusterOrchestratorToHclTerraform(struct?: SagemakerClu
       isBlock: true,
       type: "struct",
       storageClassType: "SagemakerClusterOrchestratorEks",
+    },
+    slurm: {
+      value: sagemakerClusterOrchestratorSlurmToHclTerraform(struct!.slurm),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "SagemakerClusterOrchestratorSlurm",
     },
   };
 
@@ -2809,6 +4728,10 @@ export class SagemakerClusterOrchestratorOutputReference extends cdktn.ComplexOb
       hasAnyValues = true;
       internalValueResult.eks = this._eks?.internalValue;
     }
+    if (this._slurm?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.slurm = this._slurm?.internalValue;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -2817,6 +4740,7 @@ export class SagemakerClusterOrchestratorOutputReference extends cdktn.ComplexOb
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._eks.internalValue = undefined;
+      this._slurm.internalValue = undefined;
     }
     else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -2826,6 +4750,7 @@ export class SagemakerClusterOrchestratorOutputReference extends cdktn.ComplexOb
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
       this._eks.internalValue = value.eks;
+      this._slurm.internalValue = value.slurm;
     }
   }
 
@@ -2844,18 +4769,34 @@ export class SagemakerClusterOrchestratorOutputReference extends cdktn.ComplexOb
   public get eksInput() {
     return this._eks.internalValue;
   }
+
+  // slurm - computed: true, optional: true, required: false
+  private _slurm = new SagemakerClusterOrchestratorSlurmOutputReference(this, "slurm");
+  public get slurm() {
+    return this._slurm;
+  }
+  public putSlurm(value: SagemakerClusterOrchestratorSlurm) {
+    this._slurm.internalValue = value;
+  }
+  public resetSlurm() {
+    this._slurm.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get slurmInput() {
+    return this._slurm.internalValue;
+  }
 }
 export interface SagemakerClusterRestrictedInstanceGroupsEnvironmentConfigFsxLustreConfig {
   /**
   * The throughput capacity of the FSx for Lustre file system, measured in MB/s per TiB of storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_cluster#per_unit_storage_throughput SagemakerCluster#per_unit_storage_throughput}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#per_unit_storage_throughput SagemakerCluster#per_unit_storage_throughput}
   */
   readonly perUnitStorageThroughput?: number;
   /**
   * The storage capacity of the FSx for Lustre file system, specified in gibibytes (GiB).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_cluster#size_in_gi_b SagemakerCluster#size_in_gi_b}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#size_in_gi_b SagemakerCluster#size_in_gi_b}
   */
   readonly sizeInGiB?: number;
 }
@@ -2980,7 +4921,7 @@ export interface SagemakerClusterRestrictedInstanceGroupsEnvironmentConfig {
   /**
   * Configuration settings for an Amazon FSx for Lustre file system to be used with the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_cluster#fsx_lustre_config SagemakerCluster#fsx_lustre_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#fsx_lustre_config SagemakerCluster#fsx_lustre_config}
   */
   readonly fsxLustreConfig?: SagemakerClusterRestrictedInstanceGroupsEnvironmentConfigFsxLustreConfig;
 }
@@ -3074,17 +5015,17 @@ export class SagemakerClusterRestrictedInstanceGroupsEnvironmentConfigOutputRefe
 }
 export interface SagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsEbsVolumeConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_cluster#root_volume SagemakerCluster#root_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#root_volume SagemakerCluster#root_volume}
   */
   readonly rootVolume?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_cluster#volume_kms_key_id SagemakerCluster#volume_kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#volume_kms_key_id SagemakerCluster#volume_kms_key_id}
   */
   readonly volumeKmsKeyId?: string;
   /**
   * The size in gigabytes (GB) of the additional EBS volume to be attached to the instances in the SageMaker HyperPod cluster instance group. The additional EBS volume is attached to each instance within the SageMaker HyperPod cluster instance group and mounted to /opt/sagemaker.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_cluster#volume_size_in_gb SagemakerCluster#volume_size_in_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#volume_size_in_gb SagemakerCluster#volume_size_in_gb}
   */
   readonly volumeSizeInGb?: number;
 }
@@ -3234,13 +5175,322 @@ export class SagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsEbsVo
     return this._volumeSizeInGb;
   }
 }
+export interface SagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsFsxLustreConfig {
+  /**
+  * The DNS name of the FSx for Lustre file system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#dns_name SagemakerCluster#dns_name}
+  */
+  readonly dnsName?: string;
+  /**
+  * The mount name of the FSx for Lustre file system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#mount_name SagemakerCluster#mount_name}
+  */
+  readonly mountName?: string;
+  /**
+  * The mount path for the FSx for Lustre file system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#mount_path SagemakerCluster#mount_path}
+  */
+  readonly mountPath?: string;
+}
+
+export function sagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsFsxLustreConfigToTerraform(struct?: SagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsFsxLustreConfig | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    dns_name: cdktn.stringToTerraform(struct!.dnsName),
+    mount_name: cdktn.stringToTerraform(struct!.mountName),
+    mount_path: cdktn.stringToTerraform(struct!.mountPath),
+  }
+}
+
+
+export function sagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsFsxLustreConfigToHclTerraform(struct?: SagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsFsxLustreConfig | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    dns_name: {
+      value: cdktn.stringToHclTerraform(struct!.dnsName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    mount_name: {
+      value: cdktn.stringToHclTerraform(struct!.mountName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    mount_path: {
+      value: cdktn.stringToHclTerraform(struct!.mountPath),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsFsxLustreConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): SagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsFsxLustreConfig | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._dnsName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dnsName = this._dnsName;
+    }
+    if (this._mountName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.mountName = this._mountName;
+    }
+    if (this._mountPath !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.mountPath = this._mountPath;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsFsxLustreConfig | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._dnsName = undefined;
+      this._mountName = undefined;
+      this._mountPath = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._dnsName = value.dnsName;
+      this._mountName = value.mountName;
+      this._mountPath = value.mountPath;
+    }
+  }
+
+  // dns_name - computed: true, optional: true, required: false
+  private _dnsName?: string; 
+  public get dnsName() {
+    return this.getStringAttribute('dns_name');
+  }
+  public set dnsName(value: string) {
+    this._dnsName = value;
+  }
+  public resetDnsName() {
+    this._dnsName = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dnsNameInput() {
+    return this._dnsName;
+  }
+
+  // mount_name - computed: true, optional: true, required: false
+  private _mountName?: string; 
+  public get mountName() {
+    return this.getStringAttribute('mount_name');
+  }
+  public set mountName(value: string) {
+    this._mountName = value;
+  }
+  public resetMountName() {
+    this._mountName = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get mountNameInput() {
+    return this._mountName;
+  }
+
+  // mount_path - computed: true, optional: true, required: false
+  private _mountPath?: string; 
+  public get mountPath() {
+    return this.getStringAttribute('mount_path');
+  }
+  public set mountPath(value: string) {
+    this._mountPath = value;
+  }
+  public resetMountPath() {
+    this._mountPath = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get mountPathInput() {
+    return this._mountPath;
+  }
+}
+export interface SagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsFsxOpenZfsConfig {
+  /**
+  * The DNS name of the FSx for OpenZFS file system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#dns_name SagemakerCluster#dns_name}
+  */
+  readonly dnsName?: string;
+  /**
+  * The mount path for the FSx for OpenZFS file system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#mount_path SagemakerCluster#mount_path}
+  */
+  readonly mountPath?: string;
+}
+
+export function sagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsFsxOpenZfsConfigToTerraform(struct?: SagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsFsxOpenZfsConfig | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    dns_name: cdktn.stringToTerraform(struct!.dnsName),
+    mount_path: cdktn.stringToTerraform(struct!.mountPath),
+  }
+}
+
+
+export function sagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsFsxOpenZfsConfigToHclTerraform(struct?: SagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsFsxOpenZfsConfig | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    dns_name: {
+      value: cdktn.stringToHclTerraform(struct!.dnsName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    mount_path: {
+      value: cdktn.stringToHclTerraform(struct!.mountPath),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsFsxOpenZfsConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): SagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsFsxOpenZfsConfig | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._dnsName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dnsName = this._dnsName;
+    }
+    if (this._mountPath !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.mountPath = this._mountPath;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsFsxOpenZfsConfig | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._dnsName = undefined;
+      this._mountPath = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._dnsName = value.dnsName;
+      this._mountPath = value.mountPath;
+    }
+  }
+
+  // dns_name - computed: true, optional: true, required: false
+  private _dnsName?: string; 
+  public get dnsName() {
+    return this.getStringAttribute('dns_name');
+  }
+  public set dnsName(value: string) {
+    this._dnsName = value;
+  }
+  public resetDnsName() {
+    this._dnsName = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dnsNameInput() {
+    return this._dnsName;
+  }
+
+  // mount_path - computed: true, optional: true, required: false
+  private _mountPath?: string; 
+  public get mountPath() {
+    return this.getStringAttribute('mount_path');
+  }
+  public set mountPath(value: string) {
+    this._mountPath = value;
+  }
+  public resetMountPath() {
+    this._mountPath = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get mountPathInput() {
+    return this._mountPath;
+  }
+}
 export interface SagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigs {
   /**
   * Defines the configuration for attaching additional Amazon Elastic Block Store (EBS) volumes to the instances in the SageMaker HyperPod cluster instance group. The additional EBS volume is attached to each instance within the SageMaker HyperPod cluster instance group and mounted to /opt/sagemaker.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_cluster#ebs_volume_config SagemakerCluster#ebs_volume_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#ebs_volume_config SagemakerCluster#ebs_volume_config}
   */
   readonly ebsVolumeConfig?: SagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsEbsVolumeConfig;
+  /**
+  * Configuration for mounting an Amazon FSx Lustre file system to the instances in the SageMaker HyperPod cluster instance group.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#fsx_lustre_config SagemakerCluster#fsx_lustre_config}
+  */
+  readonly fsxLustreConfig?: SagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsFsxLustreConfig;
+  /**
+  * Configuration for mounting an Amazon FSx OpenZFS file system to the instances in the SageMaker HyperPod cluster instance group.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#fsx_open_zfs_config SagemakerCluster#fsx_open_zfs_config}
+  */
+  readonly fsxOpenZfsConfig?: SagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsFsxOpenZfsConfig;
 }
 
 export function sagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsToTerraform(struct?: SagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigs | cdktn.IResolvable): any {
@@ -3250,6 +5500,8 @@ export function sagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsTo
   }
   return {
     ebs_volume_config: sagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsEbsVolumeConfigToTerraform(struct!.ebsVolumeConfig),
+    fsx_lustre_config: sagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsFsxLustreConfigToTerraform(struct!.fsxLustreConfig),
+    fsx_open_zfs_config: sagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsFsxOpenZfsConfigToTerraform(struct!.fsxOpenZfsConfig),
   }
 }
 
@@ -3265,6 +5517,18 @@ export function sagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsTo
       isBlock: true,
       type: "struct",
       storageClassType: "SagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsEbsVolumeConfig",
+    },
+    fsx_lustre_config: {
+      value: sagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsFsxLustreConfigToHclTerraform(struct!.fsxLustreConfig),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "SagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsFsxLustreConfig",
+    },
+    fsx_open_zfs_config: {
+      value: sagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsFsxOpenZfsConfigToHclTerraform(struct!.fsxOpenZfsConfig),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "SagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsFsxOpenZfsConfig",
     },
   };
 
@@ -3296,6 +5560,14 @@ export class SagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsOutpu
       hasAnyValues = true;
       internalValueResult.ebsVolumeConfig = this._ebsVolumeConfig?.internalValue;
     }
+    if (this._fsxLustreConfig?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.fsxLustreConfig = this._fsxLustreConfig?.internalValue;
+    }
+    if (this._fsxOpenZfsConfig?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.fsxOpenZfsConfig = this._fsxOpenZfsConfig?.internalValue;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -3304,6 +5576,8 @@ export class SagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsOutpu
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._ebsVolumeConfig.internalValue = undefined;
+      this._fsxLustreConfig.internalValue = undefined;
+      this._fsxOpenZfsConfig.internalValue = undefined;
     }
     else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -3313,6 +5587,8 @@ export class SagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsOutpu
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
       this._ebsVolumeConfig.internalValue = value.ebsVolumeConfig;
+      this._fsxLustreConfig.internalValue = value.fsxLustreConfig;
+      this._fsxOpenZfsConfig.internalValue = value.fsxOpenZfsConfig;
     }
   }
 
@@ -3330,6 +5606,38 @@ export class SagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsOutpu
   // Temporarily expose input value. Use with caution.
   public get ebsVolumeConfigInput() {
     return this._ebsVolumeConfig.internalValue;
+  }
+
+  // fsx_lustre_config - computed: true, optional: true, required: false
+  private _fsxLustreConfig = new SagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsFsxLustreConfigOutputReference(this, "fsx_lustre_config");
+  public get fsxLustreConfig() {
+    return this._fsxLustreConfig;
+  }
+  public putFsxLustreConfig(value: SagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsFsxLustreConfig) {
+    this._fsxLustreConfig.internalValue = value;
+  }
+  public resetFsxLustreConfig() {
+    this._fsxLustreConfig.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fsxLustreConfigInput() {
+    return this._fsxLustreConfig.internalValue;
+  }
+
+  // fsx_open_zfs_config - computed: true, optional: true, required: false
+  private _fsxOpenZfsConfig = new SagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsFsxOpenZfsConfigOutputReference(this, "fsx_open_zfs_config");
+  public get fsxOpenZfsConfig() {
+    return this._fsxOpenZfsConfig;
+  }
+  public putFsxOpenZfsConfig(value: SagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsFsxOpenZfsConfig) {
+    this._fsxOpenZfsConfig.internalValue = value;
+  }
+  public resetFsxOpenZfsConfig() {
+    this._fsxOpenZfsConfig.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fsxOpenZfsConfigInput() {
+    return this._fsxOpenZfsConfig.internalValue;
   }
 }
 
@@ -3356,13 +5664,13 @@ export interface SagemakerClusterRestrictedInstanceGroupsOverrideVpcConfig {
   /**
   * The VPC security group IDs, in the form sg-xxxxxxxx. Specify the security groups for the VPC that is specified in the Subnets field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_cluster#security_group_ids SagemakerCluster#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#security_group_ids SagemakerCluster#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
   * The ID of the subnets in the VPC to which you want to connect your training job or model.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_cluster#subnets SagemakerCluster#subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#subnets SagemakerCluster#subnets}
   */
   readonly subnets?: string[];
 }
@@ -3487,67 +5795,67 @@ export interface SagemakerClusterRestrictedInstanceGroups {
   /**
   * The number of instances that are currently in the restricted instance group of a SageMaker HyperPod cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_cluster#current_count SagemakerCluster#current_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#current_count SagemakerCluster#current_count}
   */
   readonly currentCount?: number;
   /**
   * The configuration for the restricted instance groups (RIG) environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_cluster#environment_config SagemakerCluster#environment_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#environment_config SagemakerCluster#environment_config}
   */
   readonly environmentConfig?: SagemakerClusterRestrictedInstanceGroupsEnvironmentConfig;
   /**
   * The execution role for the instance group to assume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_cluster#execution_role SagemakerCluster#execution_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#execution_role SagemakerCluster#execution_role}
   */
   readonly executionRole?: string;
   /**
   * The number of instances you specified to add to the restricted instance group of a SageMaker HyperPod cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_cluster#instance_count SagemakerCluster#instance_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#instance_count SagemakerCluster#instance_count}
   */
   readonly instanceCount?: number;
   /**
   * The name of the instance group of a SageMaker HyperPod cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_cluster#instance_group_name SagemakerCluster#instance_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#instance_group_name SagemakerCluster#instance_group_name}
   */
   readonly instanceGroupName?: string;
   /**
   * The instance storage configuration for the instance group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_cluster#instance_storage_configs SagemakerCluster#instance_storage_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#instance_storage_configs SagemakerCluster#instance_storage_configs}
   */
   readonly instanceStorageConfigs?: SagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigs[] | cdktn.IResolvable;
   /**
   * The instance type of the instance group of a SageMaker HyperPod cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_cluster#instance_type SagemakerCluster#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#instance_type SagemakerCluster#instance_type}
   */
   readonly instanceType?: string;
   /**
   * Nodes will undergo advanced stress test to detect and replace faulty instances, based on the type of deep health check(s) passed in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_cluster#on_start_deep_health_checks SagemakerCluster#on_start_deep_health_checks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#on_start_deep_health_checks SagemakerCluster#on_start_deep_health_checks}
   */
   readonly onStartDeepHealthChecks?: string[];
   /**
   * Specifies an Amazon Virtual Private Cloud (VPC) that your SageMaker jobs, hosted models, and compute resources have access to. You can control access to and from your resources by configuring a VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_cluster#override_vpc_config SagemakerCluster#override_vpc_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#override_vpc_config SagemakerCluster#override_vpc_config}
   */
   readonly overrideVpcConfig?: SagemakerClusterRestrictedInstanceGroupsOverrideVpcConfig;
   /**
   * The number you specified to TreadsPerCore in CreateCluster for enabling or disabling multithreading. For instance types that support multithreading, you can specify 1 for disabling multithreading and 2 for enabling multithreading.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_cluster#threads_per_core SagemakerCluster#threads_per_core}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#threads_per_core SagemakerCluster#threads_per_core}
   */
   readonly threadsPerCore?: number;
   /**
   * The Amazon Resource Name (ARN) of the training plan to use for this cluster restricted instance group. For more information about how to reserve GPU capacity for your SageMaker HyperPod clusters using Amazon SageMaker Training Plan, see CreateTrainingPlan.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_cluster#training_plan_arn SagemakerCluster#training_plan_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#training_plan_arn SagemakerCluster#training_plan_arn}
   */
   readonly trainingPlanArn?: string;
 }
@@ -3951,17 +6259,375 @@ export class SagemakerClusterRestrictedInstanceGroupsList extends cdktn.ComplexL
     return new SagemakerClusterRestrictedInstanceGroupsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface SagemakerClusterRestrictedInstanceGroupsConfigSharedEnvironmentConfigFsxLustreConfig {
+  /**
+  * The throughput capacity of the FSx for Lustre file system, measured in MB/s per TiB of storage.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#per_unit_storage_throughput SagemakerCluster#per_unit_storage_throughput}
+  */
+  readonly perUnitStorageThroughput?: number;
+  /**
+  * The storage capacity of the FSx for Lustre file system, specified in gibibytes (GiB).
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#size_in_gi_b SagemakerCluster#size_in_gi_b}
+  */
+  readonly sizeInGiB?: number;
+}
+
+export function sagemakerClusterRestrictedInstanceGroupsConfigSharedEnvironmentConfigFsxLustreConfigToTerraform(struct?: SagemakerClusterRestrictedInstanceGroupsConfigSharedEnvironmentConfigFsxLustreConfig | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    per_unit_storage_throughput: cdktn.numberToTerraform(struct!.perUnitStorageThroughput),
+    size_in_gi_b: cdktn.numberToTerraform(struct!.sizeInGiB),
+  }
+}
+
+
+export function sagemakerClusterRestrictedInstanceGroupsConfigSharedEnvironmentConfigFsxLustreConfigToHclTerraform(struct?: SagemakerClusterRestrictedInstanceGroupsConfigSharedEnvironmentConfigFsxLustreConfig | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    per_unit_storage_throughput: {
+      value: cdktn.numberToHclTerraform(struct!.perUnitStorageThroughput),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    size_in_gi_b: {
+      value: cdktn.numberToHclTerraform(struct!.sizeInGiB),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SagemakerClusterRestrictedInstanceGroupsConfigSharedEnvironmentConfigFsxLustreConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): SagemakerClusterRestrictedInstanceGroupsConfigSharedEnvironmentConfigFsxLustreConfig | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._perUnitStorageThroughput !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.perUnitStorageThroughput = this._perUnitStorageThroughput;
+    }
+    if (this._sizeInGiB !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sizeInGiB = this._sizeInGiB;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SagemakerClusterRestrictedInstanceGroupsConfigSharedEnvironmentConfigFsxLustreConfig | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._perUnitStorageThroughput = undefined;
+      this._sizeInGiB = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._perUnitStorageThroughput = value.perUnitStorageThroughput;
+      this._sizeInGiB = value.sizeInGiB;
+    }
+  }
+
+  // per_unit_storage_throughput - computed: true, optional: true, required: false
+  private _perUnitStorageThroughput?: number; 
+  public get perUnitStorageThroughput() {
+    return this.getNumberAttribute('per_unit_storage_throughput');
+  }
+  public set perUnitStorageThroughput(value: number) {
+    this._perUnitStorageThroughput = value;
+  }
+  public resetPerUnitStorageThroughput() {
+    this._perUnitStorageThroughput = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get perUnitStorageThroughputInput() {
+    return this._perUnitStorageThroughput;
+  }
+
+  // size_in_gi_b - computed: true, optional: true, required: false
+  private _sizeInGiB?: number; 
+  public get sizeInGiB() {
+    return this.getNumberAttribute('size_in_gi_b');
+  }
+  public set sizeInGiB(value: number) {
+    this._sizeInGiB = value;
+  }
+  public resetSizeInGiB() {
+    this._sizeInGiB = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sizeInGiBInput() {
+    return this._sizeInGiB;
+  }
+}
+export interface SagemakerClusterRestrictedInstanceGroupsConfigSharedEnvironmentConfig {
+  /**
+  * Configuration settings for an Amazon FSx for Lustre file system to be used with the cluster.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#fsx_lustre_config SagemakerCluster#fsx_lustre_config}
+  */
+  readonly fsxLustreConfig?: SagemakerClusterRestrictedInstanceGroupsConfigSharedEnvironmentConfigFsxLustreConfig;
+  /**
+  * The deletion policy for the shared FSx Lustre file system. Keep retains the FSx when RIGs are deleted. DeleteIfNotUsed deletes the FSx when no RIGs reference it.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#fsx_lustre_deletion_policy SagemakerCluster#fsx_lustre_deletion_policy}
+  */
+  readonly fsxLustreDeletionPolicy?: string;
+}
+
+export function sagemakerClusterRestrictedInstanceGroupsConfigSharedEnvironmentConfigToTerraform(struct?: SagemakerClusterRestrictedInstanceGroupsConfigSharedEnvironmentConfig | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    fsx_lustre_config: sagemakerClusterRestrictedInstanceGroupsConfigSharedEnvironmentConfigFsxLustreConfigToTerraform(struct!.fsxLustreConfig),
+    fsx_lustre_deletion_policy: cdktn.stringToTerraform(struct!.fsxLustreDeletionPolicy),
+  }
+}
+
+
+export function sagemakerClusterRestrictedInstanceGroupsConfigSharedEnvironmentConfigToHclTerraform(struct?: SagemakerClusterRestrictedInstanceGroupsConfigSharedEnvironmentConfig | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    fsx_lustre_config: {
+      value: sagemakerClusterRestrictedInstanceGroupsConfigSharedEnvironmentConfigFsxLustreConfigToHclTerraform(struct!.fsxLustreConfig),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "SagemakerClusterRestrictedInstanceGroupsConfigSharedEnvironmentConfigFsxLustreConfig",
+    },
+    fsx_lustre_deletion_policy: {
+      value: cdktn.stringToHclTerraform(struct!.fsxLustreDeletionPolicy),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SagemakerClusterRestrictedInstanceGroupsConfigSharedEnvironmentConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): SagemakerClusterRestrictedInstanceGroupsConfigSharedEnvironmentConfig | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._fsxLustreConfig?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.fsxLustreConfig = this._fsxLustreConfig?.internalValue;
+    }
+    if (this._fsxLustreDeletionPolicy !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.fsxLustreDeletionPolicy = this._fsxLustreDeletionPolicy;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SagemakerClusterRestrictedInstanceGroupsConfigSharedEnvironmentConfig | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._fsxLustreConfig.internalValue = undefined;
+      this._fsxLustreDeletionPolicy = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._fsxLustreConfig.internalValue = value.fsxLustreConfig;
+      this._fsxLustreDeletionPolicy = value.fsxLustreDeletionPolicy;
+    }
+  }
+
+  // fsx_lustre_config - computed: true, optional: true, required: false
+  private _fsxLustreConfig = new SagemakerClusterRestrictedInstanceGroupsConfigSharedEnvironmentConfigFsxLustreConfigOutputReference(this, "fsx_lustre_config");
+  public get fsxLustreConfig() {
+    return this._fsxLustreConfig;
+  }
+  public putFsxLustreConfig(value: SagemakerClusterRestrictedInstanceGroupsConfigSharedEnvironmentConfigFsxLustreConfig) {
+    this._fsxLustreConfig.internalValue = value;
+  }
+  public resetFsxLustreConfig() {
+    this._fsxLustreConfig.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fsxLustreConfigInput() {
+    return this._fsxLustreConfig.internalValue;
+  }
+
+  // fsx_lustre_deletion_policy - computed: true, optional: true, required: false
+  private _fsxLustreDeletionPolicy?: string; 
+  public get fsxLustreDeletionPolicy() {
+    return this.getStringAttribute('fsx_lustre_deletion_policy');
+  }
+  public set fsxLustreDeletionPolicy(value: string) {
+    this._fsxLustreDeletionPolicy = value;
+  }
+  public resetFsxLustreDeletionPolicy() {
+    this._fsxLustreDeletionPolicy = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fsxLustreDeletionPolicyInput() {
+    return this._fsxLustreDeletionPolicy;
+  }
+}
+export interface SagemakerClusterRestrictedInstanceGroupsConfig {
+  /**
+  * The shared environment configuration for restricted instance groups that use cluster-level shared FSx Lustre storage.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#shared_environment_config SagemakerCluster#shared_environment_config}
+  */
+  readonly sharedEnvironmentConfig?: SagemakerClusterRestrictedInstanceGroupsConfigSharedEnvironmentConfig;
+}
+
+export function sagemakerClusterRestrictedInstanceGroupsConfigToTerraform(struct?: SagemakerClusterRestrictedInstanceGroupsConfig | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    shared_environment_config: sagemakerClusterRestrictedInstanceGroupsConfigSharedEnvironmentConfigToTerraform(struct!.sharedEnvironmentConfig),
+  }
+}
+
+
+export function sagemakerClusterRestrictedInstanceGroupsConfigToHclTerraform(struct?: SagemakerClusterRestrictedInstanceGroupsConfig | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    shared_environment_config: {
+      value: sagemakerClusterRestrictedInstanceGroupsConfigSharedEnvironmentConfigToHclTerraform(struct!.sharedEnvironmentConfig),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "SagemakerClusterRestrictedInstanceGroupsConfigSharedEnvironmentConfig",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SagemakerClusterRestrictedInstanceGroupsConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): SagemakerClusterRestrictedInstanceGroupsConfig | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._sharedEnvironmentConfig?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sharedEnvironmentConfig = this._sharedEnvironmentConfig?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SagemakerClusterRestrictedInstanceGroupsConfig | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._sharedEnvironmentConfig.internalValue = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._sharedEnvironmentConfig.internalValue = value.sharedEnvironmentConfig;
+    }
+  }
+
+  // shared_environment_config - computed: true, optional: true, required: false
+  private _sharedEnvironmentConfig = new SagemakerClusterRestrictedInstanceGroupsConfigSharedEnvironmentConfigOutputReference(this, "shared_environment_config");
+  public get sharedEnvironmentConfig() {
+    return this._sharedEnvironmentConfig;
+  }
+  public putSharedEnvironmentConfig(value: SagemakerClusterRestrictedInstanceGroupsConfigSharedEnvironmentConfig) {
+    this._sharedEnvironmentConfig.internalValue = value;
+  }
+  public resetSharedEnvironmentConfig() {
+    this._sharedEnvironmentConfig.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sharedEnvironmentConfigInput() {
+    return this._sharedEnvironmentConfig.internalValue;
+  }
+}
 export interface SagemakerClusterTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_cluster#key SagemakerCluster#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#key SagemakerCluster#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_cluster#value SagemakerCluster#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#value SagemakerCluster#value}
   */
   readonly value?: string;
 }
@@ -4108,13 +6774,13 @@ export interface SagemakerClusterTieredStorageConfig {
   /**
   * The percentage of instance memory to allocate for tiered storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_cluster#instance_memory_allocation_percentage SagemakerCluster#instance_memory_allocation_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#instance_memory_allocation_percentage SagemakerCluster#instance_memory_allocation_percentage}
   */
   readonly instanceMemoryAllocationPercentage?: number;
   /**
   * The mode of tiered storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_cluster#mode SagemakerCluster#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#mode SagemakerCluster#mode}
   */
   readonly mode?: string;
 }
@@ -4239,13 +6905,13 @@ export interface SagemakerClusterVpcConfig {
   /**
   * The VPC security group IDs, in the form sg-xxxxxxxx. Specify the security groups for the VPC that is specified in the Subnets field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_cluster#security_group_ids SagemakerCluster#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#security_group_ids SagemakerCluster#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
   * The ID of the subnets in the VPC to which you want to connect your training job or model.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_cluster#subnets SagemakerCluster#subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#subnets SagemakerCluster#subnets}
   */
   readonly subnets?: string[];
 }
@@ -4368,7 +7034,7 @@ export class SagemakerClusterVpcConfigOutputReference extends cdktn.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_cluster awscc_sagemaker_cluster}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster awscc_sagemaker_cluster}
 */
 export class SagemakerCluster extends cdktn.TerraformResource {
 
@@ -4384,7 +7050,7 @@ export class SagemakerCluster extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a SagemakerCluster resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SagemakerCluster to import
-  * @param importFromId The id of the existing SagemakerCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SagemakerCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SagemakerCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -4396,7 +7062,7 @@ export class SagemakerCluster extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_cluster awscc_sagemaker_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster awscc_sagemaker_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4407,7 +7073,7 @@ export class SagemakerCluster extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_sagemaker_cluster',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.99.0',
+        providerVersion: '1.100.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -4426,6 +7092,7 @@ export class SagemakerCluster extends cdktn.TerraformResource {
     this._nodeRecovery = config.nodeRecovery;
     this._orchestrator.internalValue = config.orchestrator;
     this._restrictedInstanceGroups.internalValue = config.restrictedInstanceGroups;
+    this._restrictedInstanceGroupsConfig.internalValue = config.restrictedInstanceGroupsConfig;
     this._tags.internalValue = config.tags;
     this._tieredStorageConfig.internalValue = config.tieredStorageConfig;
     this._vpcConfig.internalValue = config.vpcConfig;
@@ -4588,6 +7255,22 @@ export class SagemakerCluster extends cdktn.TerraformResource {
     return this._restrictedInstanceGroups.internalValue;
   }
 
+  // restricted_instance_groups_config - computed: true, optional: true, required: false
+  private _restrictedInstanceGroupsConfig = new SagemakerClusterRestrictedInstanceGroupsConfigOutputReference(this, "restricted_instance_groups_config");
+  public get restrictedInstanceGroupsConfig() {
+    return this._restrictedInstanceGroupsConfig;
+  }
+  public putRestrictedInstanceGroupsConfig(value: SagemakerClusterRestrictedInstanceGroupsConfig) {
+    this._restrictedInstanceGroupsConfig.internalValue = value;
+  }
+  public resetRestrictedInstanceGroupsConfig() {
+    this._restrictedInstanceGroupsConfig.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get restrictedInstanceGroupsConfigInput() {
+    return this._restrictedInstanceGroupsConfig.internalValue;
+  }
+
   // tags - computed: true, optional: true, required: false
   private _tags = new SagemakerClusterTagsList(this, "tags", true);
   public get tags() {
@@ -4650,6 +7333,7 @@ export class SagemakerCluster extends cdktn.TerraformResource {
       node_recovery: cdktn.stringToTerraform(this._nodeRecovery),
       orchestrator: sagemakerClusterOrchestratorToTerraform(this._orchestrator.internalValue),
       restricted_instance_groups: cdktn.listMapper(sagemakerClusterRestrictedInstanceGroupsToTerraform, false)(this._restrictedInstanceGroups.internalValue),
+      restricted_instance_groups_config: sagemakerClusterRestrictedInstanceGroupsConfigToTerraform(this._restrictedInstanceGroupsConfig.internalValue),
       tags: cdktn.listMapper(sagemakerClusterTagsToTerraform, false)(this._tags.internalValue),
       tiered_storage_config: sagemakerClusterTieredStorageConfigToTerraform(this._tieredStorageConfig.internalValue),
       vpc_config: sagemakerClusterVpcConfigToTerraform(this._vpcConfig.internalValue),
@@ -4705,6 +7389,12 @@ export class SagemakerCluster extends cdktn.TerraformResource {
         isBlock: true,
         type: "list",
         storageClassType: "SagemakerClusterRestrictedInstanceGroupsList",
+      },
+      restricted_instance_groups_config: {
+        value: sagemakerClusterRestrictedInstanceGroupsConfigToHclTerraform(this._restrictedInstanceGroupsConfig.internalValue),
+        isBlock: true,
+        type: "struct",
+        storageClassType: "SagemakerClusterRestrictedInstanceGroupsConfig",
       },
       tags: {
         value: cdktn.listMapperHcl(sagemakerClusterTagsToHclTerraform, false)(this._tags.internalValue),

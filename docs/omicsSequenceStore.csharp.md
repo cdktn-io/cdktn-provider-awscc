@@ -4,7 +4,7 @@
 
 ### OmicsSequenceStore <a name="OmicsSequenceStore" id="@cdktn/provider-awscc.omicsSequenceStore.OmicsSequenceStore"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/omics_sequence_store awscc_omics_sequence_store}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/omics_sequence_store awscc_omics_sequence_store}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.omicsSequenceStore.OmicsSequenceStore.Initializer"></a>
 
@@ -558,7 +558,7 @@ The construct id used in the generated config for the OmicsSequenceStore to impo
 
 The id of the existing OmicsSequenceStore that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/omics_sequence_store#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/omics_sequence_store#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1091,12 +1091,12 @@ new OmicsSequenceStoreConfig {
 | <code><a href="#@cdktn/provider-awscc.omicsSequenceStore.OmicsSequenceStoreConfig.property.name">Name</a></code> | <code>string</code> | A name for the store. |
 | <code><a href="#@cdktn/provider-awscc.omicsSequenceStore.OmicsSequenceStoreConfig.property.accessLogLocation">AccessLogLocation</a></code> | <code>string</code> | Location of the access logs. |
 | <code><a href="#@cdktn/provider-awscc.omicsSequenceStore.OmicsSequenceStoreConfig.property.description">Description</a></code> | <code>string</code> | A description for the store. |
-| <code><a href="#@cdktn/provider-awscc.omicsSequenceStore.OmicsSequenceStoreConfig.property.eTagAlgorithmFamily">ETagAlgorithmFamily</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/omics_sequence_store#e_tag_algorithm_family OmicsSequenceStore#e_tag_algorithm_family}. |
+| <code><a href="#@cdktn/provider-awscc.omicsSequenceStore.OmicsSequenceStoreConfig.property.eTagAlgorithmFamily">ETagAlgorithmFamily</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/omics_sequence_store#e_tag_algorithm_family OmicsSequenceStore#e_tag_algorithm_family}. |
 | <code><a href="#@cdktn/provider-awscc.omicsSequenceStore.OmicsSequenceStoreConfig.property.fallbackLocation">FallbackLocation</a></code> | <code>string</code> | An S3 location that is used to store files that have failed a direct upload. |
 | <code><a href="#@cdktn/provider-awscc.omicsSequenceStore.OmicsSequenceStoreConfig.property.propagatedSetLevelTags">PropagatedSetLevelTags</a></code> | <code>string[]</code> | The tags keys to propagate to the S3 objects associated with read sets in the sequence store. |
 | <code><a href="#@cdktn/provider-awscc.omicsSequenceStore.OmicsSequenceStoreConfig.property.s3AccessPolicy">S3AccessPolicy</a></code> | <code>string</code> | The resource policy that controls S3 access on the store. |
 | <code><a href="#@cdktn/provider-awscc.omicsSequenceStore.OmicsSequenceStoreConfig.property.sseConfig">SseConfig</a></code> | <code><a href="#@cdktn/provider-awscc.omicsSequenceStore.OmicsSequenceStoreSseConfig">OmicsSequenceStoreSseConfig</a></code> | Server-side encryption (SSE) settings for a store. |
-| <code><a href="#@cdktn/provider-awscc.omicsSequenceStore.OmicsSequenceStoreConfig.property.tags">Tags</a></code> | <code>System.Collections.Generic.IDictionary<string, string></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/omics_sequence_store#tags OmicsSequenceStore#tags}. |
+| <code><a href="#@cdktn/provider-awscc.omicsSequenceStore.OmicsSequenceStoreConfig.property.tags">Tags</a></code> | <code>System.Collections.Generic.IDictionary<string, string></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/omics_sequence_store#tags OmicsSequenceStore#tags}. |
 
 ---
 
@@ -1180,7 +1180,7 @@ public string Name { get; set; }
 
 A name for the store.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/omics_sequence_store#name OmicsSequenceStore#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/omics_sequence_store#name OmicsSequenceStore#name}
 
 ---
 
@@ -1194,7 +1194,7 @@ public string AccessLogLocation { get; set; }
 
 Location of the access logs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/omics_sequence_store#access_log_location OmicsSequenceStore#access_log_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/omics_sequence_store#access_log_location OmicsSequenceStore#access_log_location}
 
 ---
 
@@ -1208,7 +1208,7 @@ public string Description { get; set; }
 
 A description for the store.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/omics_sequence_store#description OmicsSequenceStore#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/omics_sequence_store#description OmicsSequenceStore#description}
 
 ---
 
@@ -1220,7 +1220,7 @@ public string ETagAlgorithmFamily { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/omics_sequence_store#e_tag_algorithm_family OmicsSequenceStore#e_tag_algorithm_family}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/omics_sequence_store#e_tag_algorithm_family OmicsSequenceStore#e_tag_algorithm_family}.
 
 ---
 
@@ -1234,7 +1234,7 @@ public string FallbackLocation { get; set; }
 
 An S3 location that is used to store files that have failed a direct upload.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/omics_sequence_store#fallback_location OmicsSequenceStore#fallback_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/omics_sequence_store#fallback_location OmicsSequenceStore#fallback_location}
 
 ---
 
@@ -1248,7 +1248,7 @@ public string[] PropagatedSetLevelTags { get; set; }
 
 The tags keys to propagate to the S3 objects associated with read sets in the sequence store.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/omics_sequence_store#propagated_set_level_tags OmicsSequenceStore#propagated_set_level_tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/omics_sequence_store#propagated_set_level_tags OmicsSequenceStore#propagated_set_level_tags}
 
 ---
 
@@ -1262,7 +1262,7 @@ public string S3AccessPolicy { get; set; }
 
 The resource policy that controls S3 access on the store.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/omics_sequence_store#s3_access_policy OmicsSequenceStore#s3_access_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/omics_sequence_store#s3_access_policy OmicsSequenceStore#s3_access_policy}
 
 ---
 
@@ -1276,7 +1276,7 @@ public OmicsSequenceStoreSseConfig SseConfig { get; set; }
 
 Server-side encryption (SSE) settings for a store.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/omics_sequence_store#sse_config OmicsSequenceStore#sse_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/omics_sequence_store#sse_config OmicsSequenceStore#sse_config}
 
 ---
 
@@ -1288,7 +1288,7 @@ public System.Collections.Generic.IDictionary<string, string> Tags { get; set; }
 
 - *Type:* System.Collections.Generic.IDictionary<string, string>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/omics_sequence_store#tags OmicsSequenceStore#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/omics_sequence_store#tags OmicsSequenceStore#tags}.
 
 ---
 
@@ -1310,7 +1310,7 @@ new OmicsSequenceStoreSseConfig {
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.omicsSequenceStore.OmicsSequenceStoreSseConfig.property.keyArn">KeyArn</a></code> | <code>string</code> | An encryption key ARN. |
-| <code><a href="#@cdktn/provider-awscc.omicsSequenceStore.OmicsSequenceStoreSseConfig.property.type">Type</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/omics_sequence_store#type OmicsSequenceStore#type}. |
+| <code><a href="#@cdktn/provider-awscc.omicsSequenceStore.OmicsSequenceStoreSseConfig.property.type">Type</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/omics_sequence_store#type OmicsSequenceStore#type}. |
 
 ---
 
@@ -1324,7 +1324,7 @@ public string KeyArn { get; set; }
 
 An encryption key ARN.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/omics_sequence_store#key_arn OmicsSequenceStore#key_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/omics_sequence_store#key_arn OmicsSequenceStore#key_arn}
 
 ---
 
@@ -1336,7 +1336,7 @@ public string Type { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/omics_sequence_store#type OmicsSequenceStore#type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/omics_sequence_store#type OmicsSequenceStore#type}.
 
 ---
 

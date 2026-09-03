@@ -4,7 +4,7 @@
 
 ### DataAwsccDatasyncLocationEfsPlural <a name="DataAwsccDatasyncLocationEfsPlural" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationEfsPlural.DataAwsccDatasyncLocationEfsPlural"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/datasync_location_efs_plural awscc_datasync_location_efs_plural}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/datasync_location_efs_plural awscc_datasync_location_efs_plural}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationEfsPlural.DataAwsccDatasyncLocationEfsPlural.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccDatasyncLocationE
 
 The id of the existing DataAwsccDatasyncLocationEfsPlural that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/datasync_location_efs_plural#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/datasync_location_efs_plural#import import section} in the documentation of this resource for the id to use
 
 ---
 

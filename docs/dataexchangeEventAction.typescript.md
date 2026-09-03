@@ -4,7 +4,7 @@
 
 ### DataexchangeEventAction <a name="DataexchangeEventAction" id="@cdktn/provider-awscc.dataexchangeEventAction.DataexchangeEventAction"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/dataexchange_event_action awscc_dataexchange_event_action}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/dataexchange_event_action awscc_dataexchange_event_action}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataexchangeEventAction.DataexchangeEventAction.Initializer"></a>
 
@@ -535,7 +535,7 @@ The construct id used in the generated config for the DataexchangeEventAction to
 
 The id of the existing DataexchangeEventAction that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/dataexchange_event_action#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/dataexchange_event_action#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -879,7 +879,7 @@ public readonly exportRevisionToS3: DataexchangeEventActionActionExportRevisionT
 
 Details of the operation to be performed by the job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/dataexchange_event_action#export_revision_to_s3 DataexchangeEventAction#export_revision_to_s3}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/dataexchange_event_action#export_revision_to_s3 DataexchangeEventAction#export_revision_to_s3}
 
 ---
 
@@ -912,7 +912,7 @@ public readonly encryption: DataexchangeEventActionActionExportRevisionToS3Encry
 
 Encryption configuration of the export job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/dataexchange_event_action#encryption DataexchangeEventAction#encryption}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/dataexchange_event_action#encryption DataexchangeEventAction#encryption}
 
 ---
 
@@ -926,7 +926,7 @@ public readonly revisionDestination: DataexchangeEventActionActionExportRevision
 
 A revision destination is the Amazon S3 bucket folder destination to where the export will be sent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/dataexchange_event_action#revision_destination DataexchangeEventAction#revision_destination}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/dataexchange_event_action#revision_destination DataexchangeEventAction#revision_destination}
 
 ---
 
@@ -959,7 +959,7 @@ public readonly kmsKeyArn: string;
 
 The Amazon Resource Name (ARN) of the AWS KMS key you want to use to encrypt the Amazon S3 objects.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/dataexchange_event_action#kms_key_arn DataexchangeEventAction#kms_key_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/dataexchange_event_action#kms_key_arn DataexchangeEventAction#kms_key_arn}
 
 ---
 
@@ -973,7 +973,7 @@ public readonly type: string;
 
 The type of server side encryption used for encrypting the objects in Amazon S3.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/dataexchange_event_action#type DataexchangeEventAction#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/dataexchange_event_action#type DataexchangeEventAction#type}
 
 ---
 
@@ -1006,7 +1006,7 @@ public readonly bucket: string;
 
 The Amazon S3 bucket that is the destination for the event action.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/dataexchange_event_action#bucket DataexchangeEventAction#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/dataexchange_event_action#bucket DataexchangeEventAction#bucket}
 
 ---
 
@@ -1020,7 +1020,7 @@ public readonly keyPattern: string;
 
 A string representing the pattern for generated names of the individual assets in the revision.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/dataexchange_event_action#key_pattern DataexchangeEventAction#key_pattern}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/dataexchange_event_action#key_pattern DataexchangeEventAction#key_pattern}
 
 ---
 
@@ -1131,7 +1131,7 @@ public readonly action: DataexchangeEventActionAction;
 
 What occurs after a certain event.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/dataexchange_event_action#action DataexchangeEventAction#action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/dataexchange_event_action#action DataexchangeEventAction#action}
 
 ---
 
@@ -1145,7 +1145,7 @@ public readonly event: DataexchangeEventActionEvent;
 
 What occurs to start an action.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/dataexchange_event_action#event DataexchangeEventAction#event}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/dataexchange_event_action#event DataexchangeEventAction#event}
 
 ---
 
@@ -1159,7 +1159,7 @@ public readonly tags: IResolvable | DataexchangeEventActionTags[];
 
 The tags for the event action.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/dataexchange_event_action#tags DataexchangeEventAction#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/dataexchange_event_action#tags DataexchangeEventAction#tags}
 
 ---
 
@@ -1191,7 +1191,7 @@ public readonly revisionPublished: DataexchangeEventActionEventRevisionPublished
 
 Information about the published revision.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/dataexchange_event_action#revision_published DataexchangeEventAction#revision_published}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/dataexchange_event_action#revision_published DataexchangeEventAction#revision_published}
 
 ---
 
@@ -1223,7 +1223,7 @@ public readonly dataSetId: string;
 
 The data set ID of the published revision.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/dataexchange_event_action#data_set_id DataexchangeEventAction#data_set_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/dataexchange_event_action#data_set_id DataexchangeEventAction#data_set_id}
 
 ---
 
@@ -1256,7 +1256,7 @@ public readonly key: string;
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/dataexchange_event_action#key DataexchangeEventAction#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/dataexchange_event_action#key DataexchangeEventAction#key}
 
 ---
 
@@ -1270,7 +1270,7 @@ public readonly value: string;
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/dataexchange_event_action#value DataexchangeEventAction#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/dataexchange_event_action#value DataexchangeEventAction#value}
 
 ---
 

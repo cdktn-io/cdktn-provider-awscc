@@ -4,7 +4,7 @@
 
 ### DataAwsccOrganizationsOrganizations <a name="DataAwsccOrganizationsOrganizations" id="@cdktn/provider-awscc.dataAwsccOrganizationsOrganizations.DataAwsccOrganizationsOrganizations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/organizations_organizations awscc_organizations_organizations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/organizations_organizations awscc_organizations_organizations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOrganizationsOrganizations.DataAwsccOrganizationsOrganizations.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccOrganizationsOrga
 
 The id of the existing DataAwsccOrganizationsOrganizations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/organizations_organizations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/organizations_organizations#import import section} in the documentation of this resource for the id to use
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### DataAwsccCloudformationPublishers <a name="DataAwsccCloudformationPublishers" id="@cdktn/provider-awscc.dataAwsccCloudformationPublishers.DataAwsccCloudformationPublishers"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/cloudformation_publishers awscc_cloudformation_publishers}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/cloudformation_publishers awscc_cloudformation_publishers}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudformationPublishers.DataAwsccCloudformationPublishers.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccCloudformationPub
 
 The id of the existing DataAwsccCloudformationPublishers that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/cloudformation_publishers#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/cloudformation_publishers#import import section} in the documentation of this resource for the id to use
 
 ---
 

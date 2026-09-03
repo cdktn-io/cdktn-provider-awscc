@@ -4,7 +4,7 @@
 
 ### DataAwsccTimestreamInfluxDbClusters <a name="DataAwsccTimestreamInfluxDbClusters" id="@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbClusters.DataAwsccTimestreamInfluxDbClusters"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/timestream_influx_db_clusters awscc_timestream_influx_db_clusters}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/timestream_influx_db_clusters awscc_timestream_influx_db_clusters}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbClusters.DataAwsccTimestreamInfluxDbClusters.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccTimestreamInfluxD
 
 The id of the existing DataAwsccTimestreamInfluxDbClusters that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/timestream_influx_db_clusters#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/timestream_influx_db_clusters#import import section} in the documentation of this resource for the id to use
 
 ---
 

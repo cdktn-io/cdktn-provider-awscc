@@ -4,7 +4,7 @@
 
 ### DataAwsccBackupFrameworks <a name="DataAwsccBackupFrameworks" id="@cdktn/provider-awscc.dataAwsccBackupFrameworks.DataAwsccBackupFrameworks"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/backup_frameworks awscc_backup_frameworks}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/backup_frameworks awscc_backup_frameworks}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBackupFrameworks.DataAwsccBackupFrameworks.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccBackupFrameworks 
 
 The id of the existing DataAwsccBackupFrameworks that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/backup_frameworks#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/backup_frameworks#import import section} in the documentation of this resource for the id to use
 
 ---
 

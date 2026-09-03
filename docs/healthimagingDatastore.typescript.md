@@ -4,7 +4,7 @@
 
 ### HealthimagingDatastore <a name="HealthimagingDatastore" id="@cdktn/provider-awscc.healthimagingDatastore.HealthimagingDatastore"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/healthimaging_datastore awscc_healthimaging_datastore}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/healthimaging_datastore awscc_healthimaging_datastore}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.healthimagingDatastore.HealthimagingDatastore.Initializer"></a>
 
@@ -510,7 +510,7 @@ The construct id used in the generated config for the HealthimagingDatastore to 
 
 The id of the existing HealthimagingDatastore that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/healthimaging_datastore#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/healthimaging_datastore#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -944,7 +944,7 @@ public readonly datastoreName: string;
 
 User friendly name for Datastore.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/healthimaging_datastore#datastore_name HealthimagingDatastore#datastore_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/healthimaging_datastore#datastore_name HealthimagingDatastore#datastore_name}
 
 ---
 
@@ -958,7 +958,7 @@ public readonly kmsKeyArn: string;
 
 ARN referencing a KMS key or KMS key alias.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/healthimaging_datastore#kms_key_arn HealthimagingDatastore#kms_key_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/healthimaging_datastore#kms_key_arn HealthimagingDatastore#kms_key_arn}
 
 ---
 
@@ -972,7 +972,7 @@ public readonly tags: {[ key: string ]: string};
 
 A Map of key value pairs for Tags.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/healthimaging_datastore#tags HealthimagingDatastore#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/healthimaging_datastore#tags HealthimagingDatastore#tags}
 
 ---
 

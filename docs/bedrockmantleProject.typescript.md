@@ -4,7 +4,7 @@
 
 ### BedrockmantleProject <a name="BedrockmantleProject" id="@cdktn/provider-awscc.bedrockmantleProject.BedrockmantleProject"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockmantle_project awscc_bedrockmantle_project}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockmantle_project awscc_bedrockmantle_project}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockmantleProject.BedrockmantleProject.Initializer"></a>
 
@@ -509,7 +509,7 @@ The construct id used in the generated config for the BedrockmantleProject to im
 
 The id of the existing BedrockmantleProject that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockmantle_project#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockmantle_project#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -898,7 +898,7 @@ public readonly name: string;
 
 The name of the project.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockmantle_project#name BedrockmantleProject#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockmantle_project#name BedrockmantleProject#name}
 
 ---
 
@@ -912,7 +912,7 @@ public readonly tags: IResolvable | BedrockmantleProjectTags[];
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockmantle_project#tags BedrockmantleProject#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockmantle_project#tags BedrockmantleProject#tags}
 
 ---
 
@@ -945,7 +945,7 @@ public readonly key: string;
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockmantle_project#key BedrockmantleProject#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockmantle_project#key BedrockmantleProject#key}
 
 ---
 
@@ -959,7 +959,7 @@ public readonly value: string;
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockmantle_project#value BedrockmantleProject#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockmantle_project#value BedrockmantleProject#value}
 
 ---
 

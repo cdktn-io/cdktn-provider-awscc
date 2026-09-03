@@ -4,7 +4,7 @@
 
 ### IvsPlaybackKeyPair <a name="IvsPlaybackKeyPair" id="@cdktn/provider-awscc.ivsPlaybackKeyPair.IvsPlaybackKeyPair"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ivs_playback_key_pair awscc_ivs_playback_key_pair}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ivs_playback_key_pair awscc_ivs_playback_key_pair}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ivsPlaybackKeyPair.IvsPlaybackKeyPair.Initializer"></a>
 
@@ -112,7 +112,7 @@ An arbitrary string (a nickname) assigned to a playback key pair that helps the 
 
 The value does not need to be unique.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ivs_playback_key_pair#name IvsPlaybackKeyPair#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ivs_playback_key_pair#name IvsPlaybackKeyPair#name}
 
 ---
 
@@ -122,7 +122,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The public portion of a customer-generated key pair. This field is required to create the AWS::IVS::PlaybackKeyPair resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ivs_playback_key_pair#public_key_material IvsPlaybackKeyPair#public_key_material}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ivs_playback_key_pair#public_key_material IvsPlaybackKeyPair#public_key_material}
 
 ---
 
@@ -132,7 +132,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A list of key-value pairs that contain metadata for the asset model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ivs_playback_key_pair#tags IvsPlaybackKeyPair#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ivs_playback_key_pair#tags IvsPlaybackKeyPair#tags}
 
 ---
 
@@ -665,7 +665,7 @@ The construct id used in the generated config for the IvsPlaybackKeyPair to impo
 
 The id of the existing IvsPlaybackKeyPair that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ivs_playback_key_pair#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ivs_playback_key_pair#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1079,7 +1079,7 @@ An arbitrary string (a nickname) assigned to a playback key pair that helps the 
 
 The value does not need to be unique.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ivs_playback_key_pair#name IvsPlaybackKeyPair#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ivs_playback_key_pair#name IvsPlaybackKeyPair#name}
 
 ---
 
@@ -1093,7 +1093,7 @@ public_key_material: str
 
 The public portion of a customer-generated key pair. This field is required to create the AWS::IVS::PlaybackKeyPair resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ivs_playback_key_pair#public_key_material IvsPlaybackKeyPair#public_key_material}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ivs_playback_key_pair#public_key_material IvsPlaybackKeyPair#public_key_material}
 
 ---
 
@@ -1107,7 +1107,7 @@ tags: IResolvable | typing.List[IvsPlaybackKeyPairTags]
 
 A list of key-value pairs that contain metadata for the asset model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ivs_playback_key_pair#tags IvsPlaybackKeyPair#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ivs_playback_key_pair#tags IvsPlaybackKeyPair#tags}
 
 ---
 
@@ -1128,8 +1128,8 @@ ivsPlaybackKeyPair.IvsPlaybackKeyPairTags(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ivsPlaybackKeyPair.IvsPlaybackKeyPairTags.property.key">key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ivs_playback_key_pair#key IvsPlaybackKeyPair#key}. |
-| <code><a href="#@cdktn/provider-awscc.ivsPlaybackKeyPair.IvsPlaybackKeyPairTags.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ivs_playback_key_pair#value IvsPlaybackKeyPair#value}. |
+| <code><a href="#@cdktn/provider-awscc.ivsPlaybackKeyPair.IvsPlaybackKeyPairTags.property.key">key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ivs_playback_key_pair#key IvsPlaybackKeyPair#key}. |
+| <code><a href="#@cdktn/provider-awscc.ivsPlaybackKeyPair.IvsPlaybackKeyPairTags.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ivs_playback_key_pair#value IvsPlaybackKeyPair#value}. |
 
 ---
 
@@ -1141,7 +1141,7 @@ key: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ivs_playback_key_pair#key IvsPlaybackKeyPair#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ivs_playback_key_pair#key IvsPlaybackKeyPair#key}.
 
 ---
 
@@ -1153,7 +1153,7 @@ value: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ivs_playback_key_pair#value IvsPlaybackKeyPair#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ivs_playback_key_pair#value IvsPlaybackKeyPair#value}.
 
 ---
 

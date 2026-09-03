@@ -4,7 +4,7 @@
 
 ### DataAwsccAutoscalingAutoScalingGroups <a name="DataAwsccAutoscalingAutoScalingGroups" id="@cdktn/provider-awscc.dataAwsccAutoscalingAutoScalingGroups.DataAwsccAutoscalingAutoScalingGroups"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/autoscaling_auto_scaling_groups awscc_autoscaling_auto_scaling_groups}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/autoscaling_auto_scaling_groups awscc_autoscaling_auto_scaling_groups}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAutoscalingAutoScalingGroups.DataAwsccAutoscalingAutoScalingGroups.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccAutoscalingAutoSc
 
 The id of the existing DataAwsccAutoscalingAutoScalingGroups that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/autoscaling_auto_scaling_groups#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/autoscaling_auto_scaling_groups#import import section} in the documentation of this resource for the id to use
 
 ---
 

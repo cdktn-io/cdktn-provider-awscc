@@ -4,7 +4,7 @@
 
 ### DataAwsccSsmAssociations <a name="DataAwsccSsmAssociations" id="@cdktn/provider-awscc.dataAwsccSsmAssociations.DataAwsccSsmAssociations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ssm_associations awscc_ssm_associations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ssm_associations awscc_ssm_associations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsmAssociations.DataAwsccSsmAssociations.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccSsmAssociations t
 
 The id of the existing DataAwsccSsmAssociations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ssm_associations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ssm_associations#import import section} in the documentation of this resource for the id to use
 
 ---
 

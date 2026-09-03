@@ -4,7 +4,7 @@
 
 ### DataAwsccEc2LocalGatewayRouteTableVpcAssociations <a name="DataAwsccEc2LocalGatewayRouteTableVpcAssociations" id="@cdktn/provider-awscc.dataAwsccEc2LocalGatewayRouteTableVpcAssociations.DataAwsccEc2LocalGatewayRouteTableVpcAssociations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_local_gateway_route_table_vpc_associations awscc_ec2_local_gateway_route_table_vpc_associations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_local_gateway_route_table_vpc_associations awscc_ec2_local_gateway_route_table_vpc_associations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2LocalGatewayRouteTableVpcAssociations.DataAwsccEc2LocalGatewayRouteTableVpcAssociations.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccEc2LocalGatewayRo
 
 The id of the existing DataAwsccEc2LocalGatewayRouteTableVpcAssociations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_local_gateway_route_table_vpc_associations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_local_gateway_route_table_vpc_associations#import import section} in the documentation of this resource for the id to use
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### AppstreamUser <a name="AppstreamUser" id="@cdktn/provider-awscc.appstreamUser.AppstreamUser"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appstream_user awscc_appstream_user}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appstream_user awscc_appstream_user}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.appstreamUser.AppstreamUser.Initializer"></a>
 
@@ -510,7 +510,7 @@ The construct id used in the generated config for the AppstreamUser to import.
 
 The id of the existing AppstreamUser that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appstream_user#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appstream_user#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -959,7 +959,7 @@ AuthenticationType *string
 
 The authentication type for the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appstream_user#authentication_type AppstreamUser#authentication_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appstream_user#authentication_type AppstreamUser#authentication_type}
 
 ---
 
@@ -973,7 +973,7 @@ UserName *string
 
 The email address of the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appstream_user#user_name AppstreamUser#user_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appstream_user#user_name AppstreamUser#user_name}
 
 ---
 
@@ -987,7 +987,7 @@ FirstName *string
 
 The first name, or given name, of the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appstream_user#first_name AppstreamUser#first_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appstream_user#first_name AppstreamUser#first_name}
 
 ---
 
@@ -1001,7 +1001,7 @@ LastName *string
 
 The last name, or surname, of the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appstream_user#last_name AppstreamUser#last_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appstream_user#last_name AppstreamUser#last_name}
 
 ---
 
@@ -1017,7 +1017,7 @@ The action to take for the welcome email that is sent to a user after the user i
 
 If you specify SUPPRESS, no email is sent. If you specify RESEND, do not specify the first name or last name of the user. If the value is null, the email is sent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appstream_user#message_action AppstreamUser#message_action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appstream_user#message_action AppstreamUser#message_action}
 
 ---
 

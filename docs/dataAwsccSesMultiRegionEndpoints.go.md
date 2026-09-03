@@ -4,7 +4,7 @@
 
 ### DataAwsccSesMultiRegionEndpoints <a name="DataAwsccSesMultiRegionEndpoints" id="@cdktn/provider-awscc.dataAwsccSesMultiRegionEndpoints.DataAwsccSesMultiRegionEndpoints"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ses_multi_region_endpoints awscc_ses_multi_region_endpoints}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ses_multi_region_endpoints awscc_ses_multi_region_endpoints}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesMultiRegionEndpoints.DataAwsccSesMultiRegionEndpoints.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSesMultiRegionEnd
 
 The id of the existing DataAwsccSesMultiRegionEndpoints that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ses_multi_region_endpoints#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ses_multi_region_endpoints#import import section} in the documentation of this resource for the id to use
 
 ---
 

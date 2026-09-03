@@ -4,7 +4,7 @@
 
 ### DataAwsccNotificationsNotificationHubs <a name="DataAwsccNotificationsNotificationHubs" id="@cdktn/provider-awscc.dataAwsccNotificationsNotificationHubs.DataAwsccNotificationsNotificationHubs"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/notifications_notification_hubs awscc_notifications_notification_hubs}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/notifications_notification_hubs awscc_notifications_notification_hubs}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNotificationsNotificationHubs.DataAwsccNotificationsNotificationHubs.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccNotificationsNoti
 
 The id of the existing DataAwsccNotificationsNotificationHubs that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/notifications_notification_hubs#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/notifications_notification_hubs#import import section} in the documentation of this resource for the id to use
 
 ---
 

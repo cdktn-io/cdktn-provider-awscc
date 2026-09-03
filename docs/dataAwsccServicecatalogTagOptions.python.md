@@ -4,7 +4,7 @@
 
 ### DataAwsccServicecatalogTagOptions <a name="DataAwsccServicecatalogTagOptions" id="@cdktn/provider-awscc.dataAwsccServicecatalogTagOptions.DataAwsccServicecatalogTagOptions"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/servicecatalog_tag_options awscc_servicecatalog_tag_options}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/servicecatalog_tag_options awscc_servicecatalog_tag_options}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccServicecatalogTagOptions.DataAwsccServicecatalogTagOptions.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccServicecatalogTag
 
 The id of the existing DataAwsccServicecatalogTagOptions that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/servicecatalog_tag_options#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/servicecatalog_tag_options#import import section} in the documentation of this resource for the id to use
 
 ---
 

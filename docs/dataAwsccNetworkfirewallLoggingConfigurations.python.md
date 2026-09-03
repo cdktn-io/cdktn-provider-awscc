@@ -4,7 +4,7 @@
 
 ### DataAwsccNetworkfirewallLoggingConfigurations <a name="DataAwsccNetworkfirewallLoggingConfigurations" id="@cdktn/provider-awscc.dataAwsccNetworkfirewallLoggingConfigurations.DataAwsccNetworkfirewallLoggingConfigurations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/networkfirewall_logging_configurations awscc_networkfirewall_logging_configurations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/networkfirewall_logging_configurations awscc_networkfirewall_logging_configurations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNetworkfirewallLoggingConfigurations.DataAwsccNetworkfirewallLoggingConfigurations.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccNetworkfirewallLo
 
 The id of the existing DataAwsccNetworkfirewallLoggingConfigurations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/networkfirewall_logging_configurations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/networkfirewall_logging_configurations#import import section} in the documentation of this resource for the id to use
 
 ---
 

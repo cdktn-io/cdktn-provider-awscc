@@ -4,7 +4,7 @@
 
 ### EksCluster <a name="EksCluster" id="@cdktn/provider-awscc.eksCluster.EksCluster"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_cluster awscc_eks_cluster}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_cluster awscc_eks_cluster}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eksCluster.EksCluster.Initializer"></a>
 
@@ -857,7 +857,7 @@ The construct id used in the generated config for the EksCluster to import.
 
 The id of the existing EksCluster that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_cluster#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_cluster#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1675,7 +1675,7 @@ public readonly authenticationMode: string;
 
 Specify the authentication mode that should be used to create your cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_cluster#authentication_mode EksCluster#authentication_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_cluster#authentication_mode EksCluster#authentication_mode}
 
 ---
 
@@ -1689,7 +1689,7 @@ public readonly bootstrapClusterCreatorAdminPermissions: boolean | IResolvable;
 
 Set this value to false to avoid creating a default cluster admin Access Entry using the IAM principal used to create the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_cluster#bootstrap_cluster_creator_admin_permissions EksCluster#bootstrap_cluster_creator_admin_permissions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_cluster#bootstrap_cluster_creator_admin_permissions EksCluster#bootstrap_cluster_creator_admin_permissions}
 
 ---
 
@@ -1723,7 +1723,7 @@ public readonly enabled: boolean | IResolvable;
 
 Todo: add description.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_cluster#enabled EksCluster#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_cluster#enabled EksCluster#enabled}
 
 ---
 
@@ -1737,7 +1737,7 @@ public readonly nodePools: string[];
 
 Todo: add description.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_cluster#node_pools EksCluster#node_pools}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_cluster#node_pools EksCluster#node_pools}
 
 ---
 
@@ -1751,7 +1751,7 @@ public readonly nodeRoleArn: string;
 
 Todo: add description.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_cluster#node_role_arn EksCluster#node_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_cluster#node_role_arn EksCluster#node_role_arn}
 
 ---
 
@@ -1783,7 +1783,7 @@ const eksClusterConfig: eksCluster.EksClusterConfig = { ... }
 | <code><a href="#@cdktn/provider-awscc.eksCluster.EksClusterConfig.property.computeConfig">computeConfig</a></code> | <code><a href="#@cdktn/provider-awscc.eksCluster.EksClusterComputeConfig">EksClusterComputeConfig</a></code> | Todo: add description. |
 | <code><a href="#@cdktn/provider-awscc.eksCluster.EksClusterConfig.property.controlPlaneScalingConfig">controlPlaneScalingConfig</a></code> | <code><a href="#@cdktn/provider-awscc.eksCluster.EksClusterControlPlaneScalingConfig">EksClusterControlPlaneScalingConfig</a></code> | Configuration for provisioned control plane scaling. |
 | <code><a href="#@cdktn/provider-awscc.eksCluster.EksClusterConfig.property.deletionProtection">deletionProtection</a></code> | <code>boolean \| cdktn.IResolvable</code> | Set this value to true to enable deletion protection for the cluster. |
-| <code><a href="#@cdktn/provider-awscc.eksCluster.EksClusterConfig.property.encryptionConfig">encryptionConfig</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.eksCluster.EksClusterEncryptionConfig">EksClusterEncryptionConfig</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_cluster#encryption_config EksCluster#encryption_config}. |
+| <code><a href="#@cdktn/provider-awscc.eksCluster.EksClusterConfig.property.encryptionConfig">encryptionConfig</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.eksCluster.EksClusterEncryptionConfig">EksClusterEncryptionConfig</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_cluster#encryption_config EksCluster#encryption_config}. |
 | <code><a href="#@cdktn/provider-awscc.eksCluster.EksClusterConfig.property.force">force</a></code> | <code>boolean \| cdktn.IResolvable</code> | Force cluster version update. |
 | <code><a href="#@cdktn/provider-awscc.eksCluster.EksClusterConfig.property.kubeApiServerConfig">kubeApiServerConfig</a></code> | <code><a href="#@cdktn/provider-awscc.eksCluster.EksClusterKubeApiServerConfig">EksClusterKubeApiServerConfig</a></code> | The configuration for the Kubernetes API server on an Amazon EKS cluster. |
 | <code><a href="#@cdktn/provider-awscc.eksCluster.EksClusterConfig.property.kubeControllerManagerConfig">kubeControllerManagerConfig</a></code> | <code><a href="#@cdktn/provider-awscc.eksCluster.EksClusterKubeControllerManagerConfig">EksClusterKubeControllerManagerConfig</a></code> | The configuration for the Kubernetes controller manager on an Amazon EKS cluster. |
@@ -1882,7 +1882,7 @@ public readonly resourcesVpcConfig: EksClusterResourcesVpcConfig;
 
 An object representing the VPC configuration to use for an Amazon EKS cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_cluster#resources_vpc_config EksCluster#resources_vpc_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_cluster#resources_vpc_config EksCluster#resources_vpc_config}
 
 ---
 
@@ -1896,7 +1896,7 @@ public readonly roleArn: string;
 
 The Amazon Resource Name (ARN) of the IAM role that provides permissions for the Kubernetes control plane to make calls to AWS API operations on your behalf.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_cluster#role_arn EksCluster#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_cluster#role_arn EksCluster#role_arn}
 
 ---
 
@@ -1910,7 +1910,7 @@ public readonly accessConfig: EksClusterAccessConfig;
 
 An object representing the Access Config to use for the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_cluster#access_config EksCluster#access_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_cluster#access_config EksCluster#access_config}
 
 ---
 
@@ -1924,7 +1924,7 @@ public readonly bootstrapSelfManagedAddons: boolean | IResolvable;
 
 Set this value to false to avoid creating the default networking add-ons when the cluster is created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_cluster#bootstrap_self_managed_addons EksCluster#bootstrap_self_managed_addons}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_cluster#bootstrap_self_managed_addons EksCluster#bootstrap_self_managed_addons}
 
 ---
 
@@ -1938,7 +1938,7 @@ public readonly computeConfig: EksClusterComputeConfig;
 
 Todo: add description.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_cluster#compute_config EksCluster#compute_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_cluster#compute_config EksCluster#compute_config}
 
 ---
 
@@ -1952,7 +1952,7 @@ public readonly controlPlaneScalingConfig: EksClusterControlPlaneScalingConfig;
 
 Configuration for provisioned control plane scaling.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_cluster#control_plane_scaling_config EksCluster#control_plane_scaling_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_cluster#control_plane_scaling_config EksCluster#control_plane_scaling_config}
 
 ---
 
@@ -1966,7 +1966,7 @@ public readonly deletionProtection: boolean | IResolvable;
 
 Set this value to true to enable deletion protection for the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_cluster#deletion_protection EksCluster#deletion_protection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_cluster#deletion_protection EksCluster#deletion_protection}
 
 ---
 
@@ -1978,7 +1978,7 @@ public readonly encryptionConfig: IResolvable | EksClusterEncryptionConfig[];
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.eksCluster.EksClusterEncryptionConfig">EksClusterEncryptionConfig</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_cluster#encryption_config EksCluster#encryption_config}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_cluster#encryption_config EksCluster#encryption_config}.
 
 ---
 
@@ -1992,7 +1992,7 @@ public readonly force: boolean | IResolvable;
 
 Force cluster version update.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_cluster#force EksCluster#force}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_cluster#force EksCluster#force}
 
 ---
 
@@ -2006,7 +2006,7 @@ public readonly kubeApiServerConfig: EksClusterKubeApiServerConfig;
 
 The configuration for the Kubernetes API server on an Amazon EKS cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_cluster#kube_api_server_config EksCluster#kube_api_server_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_cluster#kube_api_server_config EksCluster#kube_api_server_config}
 
 ---
 
@@ -2020,7 +2020,7 @@ public readonly kubeControllerManagerConfig: EksClusterKubeControllerManagerConf
 
 The configuration for the Kubernetes controller manager on an Amazon EKS cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_cluster#kube_controller_manager_config EksCluster#kube_controller_manager_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_cluster#kube_controller_manager_config EksCluster#kube_controller_manager_config}
 
 ---
 
@@ -2034,7 +2034,7 @@ public readonly kubernetesNetworkConfig: EksClusterKubernetesNetworkConfig;
 
 The Kubernetes network configuration for the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_cluster#kubernetes_network_config EksCluster#kubernetes_network_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_cluster#kubernetes_network_config EksCluster#kubernetes_network_config}
 
 ---
 
@@ -2048,7 +2048,7 @@ public readonly kubeSchedulerConfig: EksClusterKubeSchedulerConfig;
 
 The configuration for the Kubernetes scheduler on an Amazon EKS cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_cluster#kube_scheduler_config EksCluster#kube_scheduler_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_cluster#kube_scheduler_config EksCluster#kube_scheduler_config}
 
 ---
 
@@ -2064,7 +2064,7 @@ Enable exporting the Kubernetes control plane logs for your cluster to CloudWatc
 
 By default, cluster control plane logs aren't exported to CloudWatch Logs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_cluster#logging EksCluster#logging}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_cluster#logging EksCluster#logging}
 
 ---
 
@@ -2078,7 +2078,7 @@ public readonly name: string;
 
 The unique name to give to your cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_cluster#name EksCluster#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_cluster#name EksCluster#name}
 
 ---
 
@@ -2092,7 +2092,7 @@ public readonly outpostConfig: EksClusterOutpostConfig;
 
 An object representing the Outpost configuration to use for AWS EKS outpost cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_cluster#outpost_config EksCluster#outpost_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_cluster#outpost_config EksCluster#outpost_config}
 
 ---
 
@@ -2106,7 +2106,7 @@ public readonly remoteNetworkConfig: EksClusterRemoteNetworkConfig;
 
 Configuration fields for specifying on-premises node and pod CIDRs that are external to the VPC passed during cluster creation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_cluster#remote_network_config EksCluster#remote_network_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_cluster#remote_network_config EksCluster#remote_network_config}
 
 ---
 
@@ -2120,7 +2120,7 @@ public readonly rollbackConfig: EksClusterRollbackConfig;
 
 The rollback configuration to use for the cluster version rollback.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_cluster#rollback_config EksCluster#rollback_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_cluster#rollback_config EksCluster#rollback_config}
 
 ---
 
@@ -2134,7 +2134,7 @@ public readonly storageConfig: EksClusterStorageConfig;
 
 Todo: add description.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_cluster#storage_config EksCluster#storage_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_cluster#storage_config EksCluster#storage_config}
 
 ---
 
@@ -2148,7 +2148,7 @@ public readonly tags: IResolvable | EksClusterTags[];
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_cluster#tags EksCluster#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_cluster#tags EksCluster#tags}
 
 ---
 
@@ -2162,7 +2162,7 @@ public readonly upgradePolicy: EksClusterUpgradePolicy;
 
 An object representing the Upgrade Policy to use for the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_cluster#upgrade_policy EksCluster#upgrade_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_cluster#upgrade_policy EksCluster#upgrade_policy}
 
 ---
 
@@ -2178,7 +2178,7 @@ The desired Kubernetes version for your cluster.
 
 If you don't specify a value here, the latest version available in Amazon EKS is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_cluster#version EksCluster#version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_cluster#version EksCluster#version}
 
 ---
 
@@ -2192,7 +2192,7 @@ public readonly zonalShiftConfig: EksClusterZonalShiftConfig;
 
 The current zonal shift configuration to use for the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_cluster#zonal_shift_config EksCluster#zonal_shift_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_cluster#zonal_shift_config EksCluster#zonal_shift_config}
 
 ---
 
@@ -2224,7 +2224,7 @@ public readonly tier: string;
 
 The scaling tier for the provisioned control plane.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_cluster#tier EksCluster#tier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_cluster#tier EksCluster#tier}
 
 ---
 
@@ -2257,7 +2257,7 @@ public readonly provider: EksClusterEncryptionConfigProvider;
 
 The encryption provider for the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_cluster#provider EksCluster#provider}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_cluster#provider EksCluster#provider}
 
 ---
 
@@ -2271,7 +2271,7 @@ public readonly resources: string[];
 
 Specifies the resources to be encrypted. The only supported value is "secrets".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_cluster#resources EksCluster#resources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_cluster#resources EksCluster#resources}
 
 ---
 
@@ -2305,7 +2305,7 @@ Amazon Resource Name (ARN) or alias of the KMS key.
 
 The KMS key must be symmetric, created in the same region as the cluster, and if the KMS key was created in a different account, the user must have access to the KMS key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_cluster#key_arn EksCluster#key_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_cluster#key_arn EksCluster#key_arn}
 
 ---
 
@@ -2338,7 +2338,7 @@ public readonly eventTtl: string;
 
 The duration that Kubernetes events are retained (e.g., 30m, 1h).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_cluster#event_ttl EksCluster#event_ttl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_cluster#event_ttl EksCluster#event_ttl}
 
 ---
 
@@ -2352,7 +2352,7 @@ public readonly serviceNodePortRange: EksClusterKubeApiServerConfigServiceNodePo
 
 The port range for Kubernetes NodePort services.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_cluster#service_node_port_range EksCluster#service_node_port_range}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_cluster#service_node_port_range EksCluster#service_node_port_range}
 
 ---
 
@@ -2385,7 +2385,7 @@ public readonly maxPort: number;
 
 The maximum port number in the range.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_cluster#max_port EksCluster#max_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_cluster#max_port EksCluster#max_port}
 
 ---
 
@@ -2399,7 +2399,7 @@ public readonly minPort: number;
 
 The minimum port number in the range.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_cluster#min_port EksCluster#min_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_cluster#min_port EksCluster#min_port}
 
 ---
 
@@ -2431,7 +2431,7 @@ public readonly horizontalPodAutoscalerControllerConfig: EksClusterKubeControlle
 
 The horizontal pod autoscaler controller configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_cluster#horizontal_pod_autoscaler_controller_config EksCluster#horizontal_pod_autoscaler_controller_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_cluster#horizontal_pod_autoscaler_controller_config EksCluster#horizontal_pod_autoscaler_controller_config}
 
 ---
 
@@ -2463,7 +2463,7 @@ public readonly horizontalPodAutoscalerSyncPeriod: string;
 
 The interval between each sync of the horizontal pod autoscaler (e.g., 15s, 1m).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_cluster#horizontal_pod_autoscaler_sync_period EksCluster#horizontal_pod_autoscaler_sync_period}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_cluster#horizontal_pod_autoscaler_sync_period EksCluster#horizontal_pod_autoscaler_sync_period}
 
 ---
 
@@ -2497,7 +2497,7 @@ public readonly elasticLoadBalancing: EksClusterKubernetesNetworkConfigElasticLo
 
 Todo: add description.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_cluster#elastic_load_balancing EksCluster#elastic_load_balancing}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_cluster#elastic_load_balancing EksCluster#elastic_load_balancing}
 
 ---
 
@@ -2513,7 +2513,7 @@ Ipv4 or Ipv6.
 
 You can only specify ipv6 for 1.21 and later clusters that use version 1.10.1 or later of the Amazon VPC CNI add-on
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_cluster#ip_family EksCluster#ip_family}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_cluster#ip_family EksCluster#ip_family}
 
 ---
 
@@ -2529,7 +2529,7 @@ The CIDR block to assign Kubernetes service IP addresses from.
 
 If you don't specify a block, Kubernetes assigns addresses from either the 10.100.0.0/16 or 172.20.0.0/16 CIDR blocks. We recommend that you specify a block that does not overlap with resources in other networks that are peered or connected to your VPC. 
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_cluster#service_ipv_4_cidr EksCluster#service_ipv_4_cidr}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_cluster#service_ipv_4_cidr EksCluster#service_ipv_4_cidr}
 
 ---
 
@@ -2561,7 +2561,7 @@ public readonly enabled: boolean | IResolvable;
 
 Todo: add description.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_cluster#enabled EksCluster#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_cluster#enabled EksCluster#enabled}
 
 ---
 
@@ -2593,7 +2593,7 @@ public readonly nodeResourcesFit: EksClusterKubeSchedulerConfigNodeResourcesFit;
 
 The NodeResourcesFit plugin configuration for the Kubernetes scheduler.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_cluster#node_resources_fit EksCluster#node_resources_fit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_cluster#node_resources_fit EksCluster#node_resources_fit}
 
 ---
 
@@ -2625,7 +2625,7 @@ public readonly scoringStrategy: EksClusterKubeSchedulerConfigNodeResourcesFitSc
 
 The scoring strategy configuration for the NodeResourcesFit scheduler plugin.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_cluster#scoring_strategy EksCluster#scoring_strategy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_cluster#scoring_strategy EksCluster#scoring_strategy}
 
 ---
 
@@ -2658,7 +2658,7 @@ public readonly resources: IResolvable | EksClusterKubeSchedulerConfigNodeResour
 
 The resource weights used for scoring nodes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_cluster#resources EksCluster#resources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_cluster#resources EksCluster#resources}
 
 ---
 
@@ -2672,7 +2672,7 @@ public readonly type: string;
 
 The scoring strategy type (LeastAllocated or MostAllocated).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_cluster#type EksCluster#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_cluster#type EksCluster#type}
 
 ---
 
@@ -2705,7 +2705,7 @@ public readonly name: string;
 
 The name of the resource (for example, cpu or memory).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_cluster#name EksCluster#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_cluster#name EksCluster#name}
 
 ---
 
@@ -2719,7 +2719,7 @@ public readonly weight: number;
 
 The weight assigned to the resource for scoring. Must be between 1 and 100.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_cluster#weight EksCluster#weight}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_cluster#weight EksCluster#weight}
 
 ---
 
@@ -2751,7 +2751,7 @@ public readonly clusterLogging: EksClusterLoggingClusterLogging;
 
 The cluster control plane logging configuration for your cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_cluster#cluster_logging EksCluster#cluster_logging}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_cluster#cluster_logging EksCluster#cluster_logging}
 
 ---
 
@@ -2783,7 +2783,7 @@ public readonly enabledTypes: IResolvable | EksClusterLoggingClusterLoggingEnabl
 
 Enable control plane logs for your cluster, all log types will be disabled if the array is empty.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_cluster#enabled_types EksCluster#enabled_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_cluster#enabled_types EksCluster#enabled_types}
 
 ---
 
@@ -2815,7 +2815,7 @@ public readonly type: string;
 
 name of the log type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_cluster#type EksCluster#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_cluster#type EksCluster#type}
 
 ---
 
@@ -2853,7 +2853,7 @@ The EC2 instance type for the Kubernetes control plane instances of your local A
 
 This instance type applies to all control plane instances and cannot be changed after cluster creation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_cluster#control_plane_instance_type EksCluster#control_plane_instance_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_cluster#control_plane_instance_type EksCluster#control_plane_instance_type}
 
 ---
 
@@ -2867,7 +2867,7 @@ public readonly controlPlanePlacement: EksClusterOutpostConfigControlPlanePlacem
 
 An object representing the placement configuration for all the control plane instances of your local Amazon EKS cluster on an AWS Outpost.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_cluster#control_plane_placement EksCluster#control_plane_placement}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_cluster#control_plane_placement EksCluster#control_plane_placement}
 
 ---
 
@@ -2883,7 +2883,7 @@ The EC2 instance type for etcd instances of your local Amazon EKS cluster on AWS
 
 This instance type applies to all etcd instances and cannot be changed after cluster creation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_cluster#etcd_instance_type EksCluster#etcd_instance_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_cluster#etcd_instance_type EksCluster#etcd_instance_type}
 
 ---
 
@@ -2897,7 +2897,7 @@ public readonly etcdPlacement: EksClusterOutpostConfigEtcdPlacement;
 
 An object representing the placement configuration for the etcd instances of your local Amazon EKS cluster on an AWS Outpost.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_cluster#etcd_placement EksCluster#etcd_placement}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_cluster#etcd_placement EksCluster#etcd_placement}
 
 ---
 
@@ -2913,7 +2913,7 @@ The ARN of the Outpost that you want to use for your local Amazon EKS cluster on
 
 Only a single Outpost ARN is supported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_cluster#outpost_arns EksCluster#outpost_arns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_cluster#outpost_arns EksCluster#outpost_arns}
 
 ---
 
@@ -2948,7 +2948,7 @@ The name of the placement group for the Kubernetes control plane instances.
 
 This setting can't be changed after cluster creation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_cluster#group_name EksCluster#group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_cluster#group_name EksCluster#group_name}
 
 ---
 
@@ -2964,7 +2964,7 @@ Optional parameter to specify the placement group spread level for control plane
 
 If not provided, EKS will deploy control plane instances without a placement group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_cluster#spread_level EksCluster#spread_level}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_cluster#spread_level EksCluster#spread_level}
 
 ---
 
@@ -2998,7 +2998,7 @@ Optional parameter to specify the placement group spread level for etcd instance
 
 If not provided, EKS will deploy etcd instances without a placement group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_cluster#spread_level EksCluster#spread_level}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_cluster#spread_level EksCluster#spread_level}
 
 ---
 
@@ -3031,7 +3031,7 @@ public readonly remoteNodeNetworks: IResolvable | EksClusterRemoteNetworkConfigR
 
 Network configuration of nodes run on-premises with EKS Hybrid Nodes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_cluster#remote_node_networks EksCluster#remote_node_networks}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_cluster#remote_node_networks EksCluster#remote_node_networks}
 
 ---
 
@@ -3045,7 +3045,7 @@ public readonly remotePodNetworks: IResolvable | EksClusterRemoteNetworkConfigRe
 
 Network configuration of pods run on-premises with EKS Hybrid Nodes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_cluster#remote_pod_networks EksCluster#remote_pod_networks}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_cluster#remote_pod_networks EksCluster#remote_pod_networks}
 
 ---
 
@@ -3077,7 +3077,7 @@ public readonly cidrs: string[];
 
 Specifies the list of remote node CIDRs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_cluster#cidrs EksCluster#cidrs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_cluster#cidrs EksCluster#cidrs}
 
 ---
 
@@ -3109,7 +3109,7 @@ public readonly cidrs: string[];
 
 Specifies the list of remote pod CIDRs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_cluster#cidrs EksCluster#cidrs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_cluster#cidrs EksCluster#cidrs}
 
 ---
 
@@ -3148,7 +3148,7 @@ Specify subnets for your Amazon EKS nodes.
 
 Amazon EKS creates cross-account elastic network interfaces in these subnets to allow communication between your nodes and the Kubernetes control plane.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_cluster#subnet_ids EksCluster#subnet_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_cluster#subnet_ids EksCluster#subnet_ids}
 
 ---
 
@@ -3164,7 +3164,7 @@ Specify the egress mode for the cluster control plane.
 
 If you set this to CUSTOMER_ROUTED, the control plane routes traffic through your VPC subnets instead of using AWS managed networking.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_cluster#control_plane_egress_mode EksCluster#control_plane_egress_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_cluster#control_plane_egress_mode EksCluster#control_plane_egress_mode}
 
 ---
 
@@ -3180,7 +3180,7 @@ Set this value to true to enable private access for your cluster's Kubernetes AP
 
 If you enable private access, Kubernetes API requests from within your cluster's VPC use the private VPC endpoint. The default value for this parameter is false, which disables private access for your Kubernetes API server. If you disable private access and you have nodes or AWS Fargate pods in the cluster, then ensure that publicAccessCidrs includes the necessary CIDR blocks for communication with the nodes or Fargate pods.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_cluster#endpoint_private_access EksCluster#endpoint_private_access}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_cluster#endpoint_private_access EksCluster#endpoint_private_access}
 
 ---
 
@@ -3196,7 +3196,7 @@ Set this value to false to disable public access to your cluster's Kubernetes AP
 
 If you disable public access, your cluster's Kubernetes API server can only receive requests from within the cluster VPC. The default value for this parameter is true, which enables public access for your Kubernetes API server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_cluster#endpoint_public_access EksCluster#endpoint_public_access}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_cluster#endpoint_public_access EksCluster#endpoint_public_access}
 
 ---
 
@@ -3212,7 +3212,7 @@ The CIDR blocks that are allowed access to your cluster's public Kubernetes API 
 
 Communication to the endpoint from addresses outside of the CIDR blocks that you specify is denied. The default value is 0.0.0.0/0. If you've disabled private endpoint access and you have nodes or AWS Fargate pods in the cluster, then ensure that you specify the necessary CIDR blocks.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_cluster#public_access_cidrs EksCluster#public_access_cidrs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_cluster#public_access_cidrs EksCluster#public_access_cidrs}
 
 ---
 
@@ -3228,7 +3228,7 @@ Specify one or more security groups for the cross-account elastic network interf
 
 If you don't specify a security group, the default security group for your VPC is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_cluster#security_group_ids EksCluster#security_group_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_cluster#security_group_ids EksCluster#security_group_ids}
 
 ---
 
@@ -3260,7 +3260,7 @@ public readonly timeoutMinutes: number;
 
 The timeout in minutes for the version rollback operation. If not specified, defaults to 720 minutes (12 hours).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_cluster#timeout_minutes EksCluster#timeout_minutes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_cluster#timeout_minutes EksCluster#timeout_minutes}
 
 ---
 
@@ -3292,7 +3292,7 @@ public readonly blockStorage: EksClusterStorageConfigBlockStorage;
 
 Todo: add description.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_cluster#block_storage EksCluster#block_storage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_cluster#block_storage EksCluster#block_storage}
 
 ---
 
@@ -3324,7 +3324,7 @@ public readonly enabled: boolean | IResolvable;
 
 Todo: add description.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_cluster#enabled EksCluster#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_cluster#enabled EksCluster#enabled}
 
 ---
 
@@ -3359,7 +3359,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_cluster#key EksCluster#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_cluster#key EksCluster#key}
 
 ---
 
@@ -3375,7 +3375,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_cluster#value EksCluster#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_cluster#value EksCluster#value}
 
 ---
 
@@ -3407,7 +3407,7 @@ public readonly supportType: string;
 
 Specify the support type for your cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_cluster#support_type EksCluster#support_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_cluster#support_type EksCluster#support_type}
 
 ---
 
@@ -3439,7 +3439,7 @@ public readonly enabled: boolean | IResolvable;
 
 Set this value to true to enable zonal shift for the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_cluster#enabled EksCluster#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_cluster#enabled EksCluster#enabled}
 
 ---
 

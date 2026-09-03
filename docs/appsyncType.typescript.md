@@ -4,7 +4,7 @@
 
 ### AppsyncType <a name="AppsyncType" id="@cdktn/provider-awscc.appsyncType.AppsyncType"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appsync_type awscc_appsync_type}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appsync_type awscc_appsync_type}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.appsyncType.AppsyncType.Initializer"></a>
 
@@ -489,7 +489,7 @@ The construct id used in the generated config for the AppsyncType to import.
 
 The id of the existing AppsyncType that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appsync_type#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appsync_type#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -890,7 +890,7 @@ public readonly apiId: string;
 
 The API ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appsync_type#api_id AppsyncType#api_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appsync_type#api_id AppsyncType#api_id}
 
 ---
 
@@ -904,7 +904,7 @@ public readonly definition: string;
 
 The type definition, in GraphQL Schema Definition Language (SDL) format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appsync_type#definition AppsyncType#definition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appsync_type#definition AppsyncType#definition}
 
 ---
 
@@ -918,7 +918,7 @@ public readonly format: string;
 
 The type format: SDL or JSON.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appsync_type#format AppsyncType#format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appsync_type#format AppsyncType#format}
 
 ---
 

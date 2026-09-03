@@ -4,7 +4,7 @@
 
 ### CertificatemanagerAccount <a name="CertificatemanagerAccount" id="@cdktn/provider-awscc.certificatemanagerAccount.CertificatemanagerAccount"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/certificatemanager_account awscc_certificatemanager_account}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/certificatemanager_account awscc_certificatemanager_account}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.certificatemanagerAccount.CertificatemanagerAccount.Initializer"></a>
 
@@ -36,7 +36,7 @@ certificatemanagerAccount.CertificatemanagerAccount(
 | <code><a href="#@cdktn/provider-awscc.certificatemanagerAccount.CertificatemanagerAccount.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.certificatemanagerAccount.CertificatemanagerAccount.Initializer.parameter.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.certificatemanagerAccount.CertificatemanagerAccount.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.certificatemanagerAccount.CertificatemanagerAccount.Initializer.parameter.expiryEventsConfiguration">expiry_events_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.certificatemanagerAccount.CertificatemanagerAccountExpiryEventsConfiguration">CertificatemanagerAccountExpiryEventsConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/certificatemanager_account#expiry_events_configuration CertificatemanagerAccount#expiry_events_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.certificatemanagerAccount.CertificatemanagerAccount.Initializer.parameter.expiryEventsConfiguration">expiry_events_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.certificatemanagerAccount.CertificatemanagerAccountExpiryEventsConfiguration">CertificatemanagerAccountExpiryEventsConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/certificatemanager_account#expiry_events_configuration CertificatemanagerAccount#expiry_events_configuration}. |
 
 ---
 
@@ -104,7 +104,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* <a href="#@cdktn/provider-awscc.certificatemanagerAccount.CertificatemanagerAccountExpiryEventsConfiguration">CertificatemanagerAccountExpiryEventsConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/certificatemanager_account#expiry_events_configuration CertificatemanagerAccount#expiry_events_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/certificatemanager_account#expiry_events_configuration CertificatemanagerAccount#expiry_events_configuration}.
 
 ---
 
@@ -500,7 +500,7 @@ def put_expiry_events_configuration(
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/certificatemanager_account#days_before_expiry CertificatemanagerAccount#days_before_expiry}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/certificatemanager_account#days_before_expiry CertificatemanagerAccount#days_before_expiry}.
 
 ---
 
@@ -618,7 +618,7 @@ The construct id used in the generated config for the CertificatemanagerAccount 
 
 The id of the existing CertificatemanagerAccount that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/certificatemanager_account#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/certificatemanager_account#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -887,7 +887,7 @@ certificatemanagerAccount.CertificatemanagerAccountConfig(
 | <code><a href="#@cdktn/provider-awscc.certificatemanagerAccount.CertificatemanagerAccountConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.certificatemanagerAccount.CertificatemanagerAccountConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.certificatemanagerAccount.CertificatemanagerAccountConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.certificatemanagerAccount.CertificatemanagerAccountConfig.property.expiryEventsConfiguration">expiry_events_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.certificatemanagerAccount.CertificatemanagerAccountExpiryEventsConfiguration">CertificatemanagerAccountExpiryEventsConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/certificatemanager_account#expiry_events_configuration CertificatemanagerAccount#expiry_events_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.certificatemanagerAccount.CertificatemanagerAccountConfig.property.expiryEventsConfiguration">expiry_events_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.certificatemanagerAccount.CertificatemanagerAccountExpiryEventsConfiguration">CertificatemanagerAccountExpiryEventsConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/certificatemanager_account#expiry_events_configuration CertificatemanagerAccount#expiry_events_configuration}. |
 
 ---
 
@@ -969,7 +969,7 @@ expiry_events_configuration: CertificatemanagerAccountExpiryEventsConfiguration
 
 - *Type:* <a href="#@cdktn/provider-awscc.certificatemanagerAccount.CertificatemanagerAccountExpiryEventsConfiguration">CertificatemanagerAccountExpiryEventsConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/certificatemanager_account#expiry_events_configuration CertificatemanagerAccount#expiry_events_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/certificatemanager_account#expiry_events_configuration CertificatemanagerAccount#expiry_events_configuration}.
 
 ---
 
@@ -989,7 +989,7 @@ certificatemanagerAccount.CertificatemanagerAccountExpiryEventsConfiguration(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.certificatemanagerAccount.CertificatemanagerAccountExpiryEventsConfiguration.property.daysBeforeExpiry">days_before_expiry</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/certificatemanager_account#days_before_expiry CertificatemanagerAccount#days_before_expiry}. |
+| <code><a href="#@cdktn/provider-awscc.certificatemanagerAccount.CertificatemanagerAccountExpiryEventsConfiguration.property.daysBeforeExpiry">days_before_expiry</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/certificatemanager_account#days_before_expiry CertificatemanagerAccount#days_before_expiry}. |
 
 ---
 
@@ -1001,7 +1001,7 @@ days_before_expiry: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/certificatemanager_account#days_before_expiry CertificatemanagerAccount#days_before_expiry}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/certificatemanager_account#days_before_expiry CertificatemanagerAccount#days_before_expiry}.
 
 ---
 

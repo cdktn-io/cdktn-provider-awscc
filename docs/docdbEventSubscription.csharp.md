@@ -4,7 +4,7 @@
 
 ### DocdbEventSubscription <a name="DocdbEventSubscription" id="@cdktn/provider-awscc.docdbEventSubscription.DocdbEventSubscription"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/docdb_event_subscription awscc_docdb_event_subscription}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/docdb_event_subscription awscc_docdb_event_subscription}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.docdbEventSubscription.DocdbEventSubscription.Initializer"></a>
 
@@ -524,7 +524,7 @@ The construct id used in the generated config for the DocdbEventSubscription to 
 
 The id of the existing DocdbEventSubscription that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/docdb_event_subscription#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/docdb_event_subscription#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -988,7 +988,7 @@ The Amazon Resource Name (ARN) of the SNS topic created for event notification.
 
 Amazon SNS creates the ARN when you create a topic and subscribe to it.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/docdb_event_subscription#sns_topic_arn DocdbEventSubscription#sns_topic_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/docdb_event_subscription#sns_topic_arn DocdbEventSubscription#sns_topic_arn}
 
 ---
 
@@ -1004,7 +1004,7 @@ A Boolean value;
 
 set to true to activate the subscription, set to false to create the subscription but not active it.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/docdb_event_subscription#enabled DocdbEventSubscription#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/docdb_event_subscription#enabled DocdbEventSubscription#enabled}
 
 ---
 
@@ -1018,7 +1018,7 @@ public string[] EventCategories { get; set; }
 
 A list of event categories for a SourceType that you want to subscribe to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/docdb_event_subscription#event_categories DocdbEventSubscription#event_categories}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/docdb_event_subscription#event_categories DocdbEventSubscription#event_categories}
 
 ---
 
@@ -1032,7 +1032,7 @@ public string[] SourceIds { get; set; }
 
 The list of identifiers of the event sources for which events are returned.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/docdb_event_subscription#source_ids DocdbEventSubscription#source_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/docdb_event_subscription#source_ids DocdbEventSubscription#source_ids}
 
 ---
 
@@ -1046,7 +1046,7 @@ public string SourceType { get; set; }
 
 The type of source that is generating the events.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/docdb_event_subscription#source_type DocdbEventSubscription#source_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/docdb_event_subscription#source_type DocdbEventSubscription#source_type}
 
 ---
 
@@ -1060,7 +1060,7 @@ public string SubscriptionName { get; set; }
 
 The name of the subscription.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/docdb_event_subscription#subscription_name DocdbEventSubscription#subscription_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/docdb_event_subscription#subscription_name DocdbEventSubscription#subscription_name}
 
 ---
 

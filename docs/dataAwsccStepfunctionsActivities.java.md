@@ -4,7 +4,7 @@
 
 ### DataAwsccStepfunctionsActivities <a name="DataAwsccStepfunctionsActivities" id="@cdktn/provider-awscc.dataAwsccStepfunctionsActivities.DataAwsccStepfunctionsActivities"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/stepfunctions_activities awscc_stepfunctions_activities}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/stepfunctions_activities awscc_stepfunctions_activities}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccStepfunctionsActivities.DataAwsccStepfunctionsActivities.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccStepfunctionsActi
 
 The id of the existing DataAwsccStepfunctionsActivities that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/stepfunctions_activities#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/stepfunctions_activities#import import section} in the documentation of this resource for the id to use
 
 ---
 

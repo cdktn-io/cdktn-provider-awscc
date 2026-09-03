@@ -4,7 +4,7 @@
 
 ### KendraDataSource <a name="KendraDataSource" id="@cdktn/provider-awscc.kendraDataSource.KendraDataSource"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source awscc_kendra_data_source}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source awscc_kendra_data_source}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.kendraDataSource.KendraDataSource.Initializer"></a>
 
@@ -46,8 +46,8 @@ KendraDataSource.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSource.Initializer.parameter.indexId">indexId</a></code> | <code>java.lang.String</code> | ID of Index. |
 | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSource.Initializer.parameter.name">name</a></code> | <code>java.lang.String</code> | Name of data source. |
 | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSource.Initializer.parameter.type">type</a></code> | <code>java.lang.String</code> | Data source type. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSource.Initializer.parameter.customDocumentEnrichmentConfiguration">customDocumentEnrichmentConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfiguration">KendraDataSourceCustomDocumentEnrichmentConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#custom_document_enrichment_configuration KendraDataSource#custom_document_enrichment_configuration}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSource.Initializer.parameter.dataSourceConfiguration">dataSourceConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfiguration">KendraDataSourceDataSourceConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#data_source_configuration KendraDataSource#data_source_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSource.Initializer.parameter.customDocumentEnrichmentConfiguration">customDocumentEnrichmentConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfiguration">KendraDataSourceCustomDocumentEnrichmentConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#custom_document_enrichment_configuration KendraDataSource#custom_document_enrichment_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSource.Initializer.parameter.dataSourceConfiguration">dataSourceConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfiguration">KendraDataSourceDataSourceConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#data_source_configuration KendraDataSource#data_source_configuration}. |
 | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSource.Initializer.parameter.description">description</a></code> | <code>java.lang.String</code> | Description of data source. |
 | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSource.Initializer.parameter.languageCode">languageCode</a></code> | <code>java.lang.String</code> | The code for a language. |
 | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSource.Initializer.parameter.roleArn">roleArn</a></code> | <code>java.lang.String</code> | Role ARN. |
@@ -122,7 +122,7 @@ Must be unique amongst siblings in the same scope
 
 ID of Index.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#index_id KendraDataSource#index_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#index_id KendraDataSource#index_id}
 
 ---
 
@@ -132,7 +132,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Name of data source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#name KendraDataSource#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#name KendraDataSource#name}
 
 ---
 
@@ -142,7 +142,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Data source type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#type KendraDataSource#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#type KendraDataSource#type}
 
 ---
 
@@ -150,7 +150,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfiguration">KendraDataSourceCustomDocumentEnrichmentConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#custom_document_enrichment_configuration KendraDataSource#custom_document_enrichment_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#custom_document_enrichment_configuration KendraDataSource#custom_document_enrichment_configuration}.
 
 ---
 
@@ -158,7 +158,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfiguration">KendraDataSourceDataSourceConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#data_source_configuration KendraDataSource#data_source_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#data_source_configuration KendraDataSource#data_source_configuration}.
 
 ---
 
@@ -168,7 +168,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Description of data source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#description KendraDataSource#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#description KendraDataSource#description}
 
 ---
 
@@ -178,7 +178,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The code for a language.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#language_code KendraDataSource#language_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#language_code KendraDataSource#language_code}
 
 ---
 
@@ -188,7 +188,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Role ARN.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#role_arn KendraDataSource#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#role_arn KendraDataSource#role_arn}
 
 ---
 
@@ -198,7 +198,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Schedule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#schedule KendraDataSource#schedule}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#schedule KendraDataSource#schedule}
 
 ---
 
@@ -208,7 +208,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Tags for labeling the data source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#tags KendraDataSource#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#tags KendraDataSource#tags}
 
 ---
 
@@ -745,7 +745,7 @@ The construct id used in the generated config for the KendraDataSource to import
 
 The id of the existing KendraDataSource that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1235,8 +1235,8 @@ KendraDataSourceConfig.builder()
 | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceConfig.property.indexId">indexId</a></code> | <code>java.lang.String</code> | ID of Index. |
 | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceConfig.property.name">name</a></code> | <code>java.lang.String</code> | Name of data source. |
 | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceConfig.property.type">type</a></code> | <code>java.lang.String</code> | Data source type. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceConfig.property.customDocumentEnrichmentConfiguration">customDocumentEnrichmentConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfiguration">KendraDataSourceCustomDocumentEnrichmentConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#custom_document_enrichment_configuration KendraDataSource#custom_document_enrichment_configuration}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceConfig.property.dataSourceConfiguration">dataSourceConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfiguration">KendraDataSourceDataSourceConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#data_source_configuration KendraDataSource#data_source_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceConfig.property.customDocumentEnrichmentConfiguration">customDocumentEnrichmentConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfiguration">KendraDataSourceCustomDocumentEnrichmentConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#custom_document_enrichment_configuration KendraDataSource#custom_document_enrichment_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceConfig.property.dataSourceConfiguration">dataSourceConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfiguration">KendraDataSourceDataSourceConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#data_source_configuration KendraDataSource#data_source_configuration}. |
 | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceConfig.property.description">description</a></code> | <code>java.lang.String</code> | Description of data source. |
 | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceConfig.property.languageCode">languageCode</a></code> | <code>java.lang.String</code> | The code for a language. |
 | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceConfig.property.roleArn">roleArn</a></code> | <code>java.lang.String</code> | Role ARN. |
@@ -1325,7 +1325,7 @@ public java.lang.String getIndexId();
 
 ID of Index.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#index_id KendraDataSource#index_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#index_id KendraDataSource#index_id}
 
 ---
 
@@ -1339,7 +1339,7 @@ public java.lang.String getName();
 
 Name of data source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#name KendraDataSource#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#name KendraDataSource#name}
 
 ---
 
@@ -1353,7 +1353,7 @@ public java.lang.String getType();
 
 Data source type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#type KendraDataSource#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#type KendraDataSource#type}
 
 ---
 
@@ -1365,7 +1365,7 @@ public KendraDataSourceCustomDocumentEnrichmentConfiguration getCustomDocumentEn
 
 - *Type:* <a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfiguration">KendraDataSourceCustomDocumentEnrichmentConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#custom_document_enrichment_configuration KendraDataSource#custom_document_enrichment_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#custom_document_enrichment_configuration KendraDataSource#custom_document_enrichment_configuration}.
 
 ---
 
@@ -1377,7 +1377,7 @@ public KendraDataSourceDataSourceConfiguration getDataSourceConfiguration();
 
 - *Type:* <a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfiguration">KendraDataSourceDataSourceConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#data_source_configuration KendraDataSource#data_source_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#data_source_configuration KendraDataSource#data_source_configuration}.
 
 ---
 
@@ -1391,7 +1391,7 @@ public java.lang.String getDescription();
 
 Description of data source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#description KendraDataSource#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#description KendraDataSource#description}
 
 ---
 
@@ -1405,7 +1405,7 @@ public java.lang.String getLanguageCode();
 
 The code for a language.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#language_code KendraDataSource#language_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#language_code KendraDataSource#language_code}
 
 ---
 
@@ -1419,7 +1419,7 @@ public java.lang.String getRoleArn();
 
 Role ARN.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#role_arn KendraDataSource#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#role_arn KendraDataSource#role_arn}
 
 ---
 
@@ -1433,7 +1433,7 @@ public java.lang.String getSchedule();
 
 Schedule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#schedule KendraDataSource#schedule}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#schedule KendraDataSource#schedule}
 
 ---
 
@@ -1447,7 +1447,7 @@ public IResolvable|java.util.List<KendraDataSourceTags> getTags();
 
 Tags for labeling the data source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#tags KendraDataSource#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#tags KendraDataSource#tags}
 
 ---
 
@@ -1471,8 +1471,8 @@ KendraDataSourceCustomDocumentEnrichmentConfiguration.builder()
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfiguration.property.inlineConfigurations">inlineConfigurations</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurations">KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurations</a>></code> | List of InlineCustomDocumentEnrichmentConfigurations. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfiguration.property.postExtractionHookConfiguration">postExtractionHookConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationPostExtractionHookConfiguration">KendraDataSourceCustomDocumentEnrichmentConfigurationPostExtractionHookConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#post_extraction_hook_configuration KendraDataSource#post_extraction_hook_configuration}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfiguration.property.preExtractionHookConfiguration">preExtractionHookConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionHookConfiguration">KendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionHookConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#pre_extraction_hook_configuration KendraDataSource#pre_extraction_hook_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfiguration.property.postExtractionHookConfiguration">postExtractionHookConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationPostExtractionHookConfiguration">KendraDataSourceCustomDocumentEnrichmentConfigurationPostExtractionHookConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#post_extraction_hook_configuration KendraDataSource#post_extraction_hook_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfiguration.property.preExtractionHookConfiguration">preExtractionHookConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionHookConfiguration">KendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionHookConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#pre_extraction_hook_configuration KendraDataSource#pre_extraction_hook_configuration}. |
 | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfiguration.property.roleArn">roleArn</a></code> | <code>java.lang.String</code> | Role ARN. |
 
 ---
@@ -1487,7 +1487,7 @@ public IResolvable|java.util.List<KendraDataSourceCustomDocumentEnrichmentConfig
 
 List of InlineCustomDocumentEnrichmentConfigurations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#inline_configurations KendraDataSource#inline_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#inline_configurations KendraDataSource#inline_configurations}
 
 ---
 
@@ -1499,7 +1499,7 @@ public KendraDataSourceCustomDocumentEnrichmentConfigurationPostExtractionHookCo
 
 - *Type:* <a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationPostExtractionHookConfiguration">KendraDataSourceCustomDocumentEnrichmentConfigurationPostExtractionHookConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#post_extraction_hook_configuration KendraDataSource#post_extraction_hook_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#post_extraction_hook_configuration KendraDataSource#post_extraction_hook_configuration}.
 
 ---
 
@@ -1511,7 +1511,7 @@ public KendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionHookCon
 
 - *Type:* <a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionHookConfiguration">KendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionHookConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#pre_extraction_hook_configuration KendraDataSource#pre_extraction_hook_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#pre_extraction_hook_configuration KendraDataSource#pre_extraction_hook_configuration}.
 
 ---
 
@@ -1525,7 +1525,7 @@ public java.lang.String getRoleArn();
 
 Role ARN.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#role_arn KendraDataSource#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#role_arn KendraDataSource#role_arn}
 
 ---
 
@@ -1547,9 +1547,9 @@ KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurations.builde
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurations.property.condition">condition</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsCondition">KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsCondition</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#condition KendraDataSource#condition}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurations.property.documentContentDeletion">documentContentDeletion</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#document_content_deletion KendraDataSource#document_content_deletion}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurations.property.target">target</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsTarget">KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsTarget</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#target KendraDataSource#target}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurations.property.condition">condition</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsCondition">KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsCondition</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#condition KendraDataSource#condition}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurations.property.documentContentDeletion">documentContentDeletion</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#document_content_deletion KendraDataSource#document_content_deletion}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurations.property.target">target</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsTarget">KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsTarget</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#target KendraDataSource#target}. |
 
 ---
 
@@ -1561,7 +1561,7 @@ public KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurations
 
 - *Type:* <a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsCondition">KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsCondition</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#condition KendraDataSource#condition}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#condition KendraDataSource#condition}.
 
 ---
 
@@ -1573,7 +1573,7 @@ public java.lang.Boolean|IResolvable getDocumentContentDeletion();
 
 - *Type:* java.lang.Boolean|io.cdktn.cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#document_content_deletion KendraDataSource#document_content_deletion}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#document_content_deletion KendraDataSource#document_content_deletion}.
 
 ---
 
@@ -1585,7 +1585,7 @@ public KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurations
 
 - *Type:* <a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsTarget">KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsTarget</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#target KendraDataSource#target}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#target KendraDataSource#target}.
 
 ---
 
@@ -1607,9 +1607,9 @@ KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsConditi
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsCondition.property.conditionDocumentAttributeKey">conditionDocumentAttributeKey</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#condition_document_attribute_key KendraDataSource#condition_document_attribute_key}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsCondition.property.conditionOnValue">conditionOnValue</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsConditionConditionOnValue">KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsConditionConditionOnValue</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#condition_on_value KendraDataSource#condition_on_value}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsCondition.property.operator">operator</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#operator KendraDataSource#operator}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsCondition.property.conditionDocumentAttributeKey">conditionDocumentAttributeKey</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#condition_document_attribute_key KendraDataSource#condition_document_attribute_key}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsCondition.property.conditionOnValue">conditionOnValue</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsConditionConditionOnValue">KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsConditionConditionOnValue</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#condition_on_value KendraDataSource#condition_on_value}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsCondition.property.operator">operator</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#operator KendraDataSource#operator}. |
 
 ---
 
@@ -1621,7 +1621,7 @@ public java.lang.String getConditionDocumentAttributeKey();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#condition_document_attribute_key KendraDataSource#condition_document_attribute_key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#condition_document_attribute_key KendraDataSource#condition_document_attribute_key}.
 
 ---
 
@@ -1633,7 +1633,7 @@ public KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurations
 
 - *Type:* <a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsConditionConditionOnValue">KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsConditionConditionOnValue</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#condition_on_value KendraDataSource#condition_on_value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#condition_on_value KendraDataSource#condition_on_value}.
 
 ---
 
@@ -1645,7 +1645,7 @@ public java.lang.String getOperator();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#operator KendraDataSource#operator}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#operator KendraDataSource#operator}.
 
 ---
 
@@ -1668,10 +1668,10 @@ KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsConditi
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsConditionConditionOnValue.property.dateValue">dateValue</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#date_value KendraDataSource#date_value}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsConditionConditionOnValue.property.longValue">longValue</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#long_value KendraDataSource#long_value}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsConditionConditionOnValue.property.stringListValue">stringListValue</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#string_list_value KendraDataSource#string_list_value}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsConditionConditionOnValue.property.stringValue">stringValue</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#string_value KendraDataSource#string_value}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsConditionConditionOnValue.property.dateValue">dateValue</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#date_value KendraDataSource#date_value}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsConditionConditionOnValue.property.longValue">longValue</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#long_value KendraDataSource#long_value}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsConditionConditionOnValue.property.stringListValue">stringListValue</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#string_list_value KendraDataSource#string_list_value}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsConditionConditionOnValue.property.stringValue">stringValue</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#string_value KendraDataSource#string_value}. |
 
 ---
 
@@ -1683,7 +1683,7 @@ public java.lang.String getDateValue();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#date_value KendraDataSource#date_value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#date_value KendraDataSource#date_value}.
 
 ---
 
@@ -1695,7 +1695,7 @@ public java.lang.Number getLongValue();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#long_value KendraDataSource#long_value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#long_value KendraDataSource#long_value}.
 
 ---
 
@@ -1707,7 +1707,7 @@ public java.util.List<java.lang.String> getStringListValue();
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#string_list_value KendraDataSource#string_list_value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#string_list_value KendraDataSource#string_list_value}.
 
 ---
 
@@ -1719,7 +1719,7 @@ public java.lang.String getStringValue();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#string_value KendraDataSource#string_value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#string_value KendraDataSource#string_value}.
 
 ---
 
@@ -1741,9 +1741,9 @@ KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsTarget.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsTarget.property.targetDocumentAttributeKey">targetDocumentAttributeKey</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#target_document_attribute_key KendraDataSource#target_document_attribute_key}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsTarget.property.targetDocumentAttributeValue">targetDocumentAttributeValue</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsTargetTargetDocumentAttributeValue">KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsTargetTargetDocumentAttributeValue</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#target_document_attribute_value KendraDataSource#target_document_attribute_value}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsTarget.property.targetDocumentAttributeValueDeletion">targetDocumentAttributeValueDeletion</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#target_document_attribute_value_deletion KendraDataSource#target_document_attribute_value_deletion}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsTarget.property.targetDocumentAttributeKey">targetDocumentAttributeKey</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#target_document_attribute_key KendraDataSource#target_document_attribute_key}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsTarget.property.targetDocumentAttributeValue">targetDocumentAttributeValue</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsTargetTargetDocumentAttributeValue">KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsTargetTargetDocumentAttributeValue</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#target_document_attribute_value KendraDataSource#target_document_attribute_value}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsTarget.property.targetDocumentAttributeValueDeletion">targetDocumentAttributeValueDeletion</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#target_document_attribute_value_deletion KendraDataSource#target_document_attribute_value_deletion}. |
 
 ---
 
@@ -1755,7 +1755,7 @@ public java.lang.String getTargetDocumentAttributeKey();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#target_document_attribute_key KendraDataSource#target_document_attribute_key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#target_document_attribute_key KendraDataSource#target_document_attribute_key}.
 
 ---
 
@@ -1767,7 +1767,7 @@ public KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurations
 
 - *Type:* <a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsTargetTargetDocumentAttributeValue">KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsTargetTargetDocumentAttributeValue</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#target_document_attribute_value KendraDataSource#target_document_attribute_value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#target_document_attribute_value KendraDataSource#target_document_attribute_value}.
 
 ---
 
@@ -1779,7 +1779,7 @@ public java.lang.Boolean|IResolvable getTargetDocumentAttributeValueDeletion();
 
 - *Type:* java.lang.Boolean|io.cdktn.cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#target_document_attribute_value_deletion KendraDataSource#target_document_attribute_value_deletion}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#target_document_attribute_value_deletion KendraDataSource#target_document_attribute_value_deletion}.
 
 ---
 
@@ -1802,10 +1802,10 @@ KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsTargetT
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsTargetTargetDocumentAttributeValue.property.dateValue">dateValue</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#date_value KendraDataSource#date_value}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsTargetTargetDocumentAttributeValue.property.longValue">longValue</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#long_value KendraDataSource#long_value}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsTargetTargetDocumentAttributeValue.property.stringListValue">stringListValue</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#string_list_value KendraDataSource#string_list_value}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsTargetTargetDocumentAttributeValue.property.stringValue">stringValue</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#string_value KendraDataSource#string_value}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsTargetTargetDocumentAttributeValue.property.dateValue">dateValue</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#date_value KendraDataSource#date_value}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsTargetTargetDocumentAttributeValue.property.longValue">longValue</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#long_value KendraDataSource#long_value}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsTargetTargetDocumentAttributeValue.property.stringListValue">stringListValue</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#string_list_value KendraDataSource#string_list_value}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsTargetTargetDocumentAttributeValue.property.stringValue">stringValue</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#string_value KendraDataSource#string_value}. |
 
 ---
 
@@ -1817,7 +1817,7 @@ public java.lang.String getDateValue();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#date_value KendraDataSource#date_value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#date_value KendraDataSource#date_value}.
 
 ---
 
@@ -1829,7 +1829,7 @@ public java.lang.Number getLongValue();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#long_value KendraDataSource#long_value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#long_value KendraDataSource#long_value}.
 
 ---
 
@@ -1841,7 +1841,7 @@ public java.util.List<java.lang.String> getStringListValue();
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#string_list_value KendraDataSource#string_list_value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#string_list_value KendraDataSource#string_list_value}.
 
 ---
 
@@ -1853,7 +1853,7 @@ public java.lang.String getStringValue();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#string_value KendraDataSource#string_value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#string_value KendraDataSource#string_value}.
 
 ---
 
@@ -1875,9 +1875,9 @@ KendraDataSourceCustomDocumentEnrichmentConfigurationPostExtractionHookConfigura
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationPostExtractionHookConfiguration.property.invocationCondition">invocationCondition</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationPostExtractionHookConfigurationInvocationCondition">KendraDataSourceCustomDocumentEnrichmentConfigurationPostExtractionHookConfigurationInvocationCondition</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#invocation_condition KendraDataSource#invocation_condition}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationPostExtractionHookConfiguration.property.lambdaArn">lambdaArn</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#lambda_arn KendraDataSource#lambda_arn}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationPostExtractionHookConfiguration.property.s3Bucket">s3Bucket</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#s3_bucket KendraDataSource#s3_bucket}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationPostExtractionHookConfiguration.property.invocationCondition">invocationCondition</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationPostExtractionHookConfigurationInvocationCondition">KendraDataSourceCustomDocumentEnrichmentConfigurationPostExtractionHookConfigurationInvocationCondition</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#invocation_condition KendraDataSource#invocation_condition}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationPostExtractionHookConfiguration.property.lambdaArn">lambdaArn</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#lambda_arn KendraDataSource#lambda_arn}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationPostExtractionHookConfiguration.property.s3Bucket">s3Bucket</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#s3_bucket KendraDataSource#s3_bucket}. |
 
 ---
 
@@ -1889,7 +1889,7 @@ public KendraDataSourceCustomDocumentEnrichmentConfigurationPostExtractionHookCo
 
 - *Type:* <a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationPostExtractionHookConfigurationInvocationCondition">KendraDataSourceCustomDocumentEnrichmentConfigurationPostExtractionHookConfigurationInvocationCondition</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#invocation_condition KendraDataSource#invocation_condition}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#invocation_condition KendraDataSource#invocation_condition}.
 
 ---
 
@@ -1901,7 +1901,7 @@ public java.lang.String getLambdaArn();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#lambda_arn KendraDataSource#lambda_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#lambda_arn KendraDataSource#lambda_arn}.
 
 ---
 
@@ -1913,7 +1913,7 @@ public java.lang.String getS3Bucket();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#s3_bucket KendraDataSource#s3_bucket}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#s3_bucket KendraDataSource#s3_bucket}.
 
 ---
 
@@ -1935,9 +1935,9 @@ KendraDataSourceCustomDocumentEnrichmentConfigurationPostExtractionHookConfigura
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationPostExtractionHookConfigurationInvocationCondition.property.conditionDocumentAttributeKey">conditionDocumentAttributeKey</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#condition_document_attribute_key KendraDataSource#condition_document_attribute_key}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationPostExtractionHookConfigurationInvocationCondition.property.conditionOnValue">conditionOnValue</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationPostExtractionHookConfigurationInvocationConditionConditionOnValue">KendraDataSourceCustomDocumentEnrichmentConfigurationPostExtractionHookConfigurationInvocationConditionConditionOnValue</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#condition_on_value KendraDataSource#condition_on_value}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationPostExtractionHookConfigurationInvocationCondition.property.operator">operator</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#operator KendraDataSource#operator}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationPostExtractionHookConfigurationInvocationCondition.property.conditionDocumentAttributeKey">conditionDocumentAttributeKey</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#condition_document_attribute_key KendraDataSource#condition_document_attribute_key}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationPostExtractionHookConfigurationInvocationCondition.property.conditionOnValue">conditionOnValue</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationPostExtractionHookConfigurationInvocationConditionConditionOnValue">KendraDataSourceCustomDocumentEnrichmentConfigurationPostExtractionHookConfigurationInvocationConditionConditionOnValue</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#condition_on_value KendraDataSource#condition_on_value}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationPostExtractionHookConfigurationInvocationCondition.property.operator">operator</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#operator KendraDataSource#operator}. |
 
 ---
 
@@ -1949,7 +1949,7 @@ public java.lang.String getConditionDocumentAttributeKey();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#condition_document_attribute_key KendraDataSource#condition_document_attribute_key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#condition_document_attribute_key KendraDataSource#condition_document_attribute_key}.
 
 ---
 
@@ -1961,7 +1961,7 @@ public KendraDataSourceCustomDocumentEnrichmentConfigurationPostExtractionHookCo
 
 - *Type:* <a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationPostExtractionHookConfigurationInvocationConditionConditionOnValue">KendraDataSourceCustomDocumentEnrichmentConfigurationPostExtractionHookConfigurationInvocationConditionConditionOnValue</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#condition_on_value KendraDataSource#condition_on_value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#condition_on_value KendraDataSource#condition_on_value}.
 
 ---
 
@@ -1973,7 +1973,7 @@ public java.lang.String getOperator();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#operator KendraDataSource#operator}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#operator KendraDataSource#operator}.
 
 ---
 
@@ -1996,10 +1996,10 @@ KendraDataSourceCustomDocumentEnrichmentConfigurationPostExtractionHookConfigura
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationPostExtractionHookConfigurationInvocationConditionConditionOnValue.property.dateValue">dateValue</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#date_value KendraDataSource#date_value}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationPostExtractionHookConfigurationInvocationConditionConditionOnValue.property.longValue">longValue</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#long_value KendraDataSource#long_value}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationPostExtractionHookConfigurationInvocationConditionConditionOnValue.property.stringListValue">stringListValue</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#string_list_value KendraDataSource#string_list_value}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationPostExtractionHookConfigurationInvocationConditionConditionOnValue.property.stringValue">stringValue</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#string_value KendraDataSource#string_value}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationPostExtractionHookConfigurationInvocationConditionConditionOnValue.property.dateValue">dateValue</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#date_value KendraDataSource#date_value}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationPostExtractionHookConfigurationInvocationConditionConditionOnValue.property.longValue">longValue</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#long_value KendraDataSource#long_value}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationPostExtractionHookConfigurationInvocationConditionConditionOnValue.property.stringListValue">stringListValue</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#string_list_value KendraDataSource#string_list_value}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationPostExtractionHookConfigurationInvocationConditionConditionOnValue.property.stringValue">stringValue</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#string_value KendraDataSource#string_value}. |
 
 ---
 
@@ -2011,7 +2011,7 @@ public java.lang.String getDateValue();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#date_value KendraDataSource#date_value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#date_value KendraDataSource#date_value}.
 
 ---
 
@@ -2023,7 +2023,7 @@ public java.lang.Number getLongValue();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#long_value KendraDataSource#long_value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#long_value KendraDataSource#long_value}.
 
 ---
 
@@ -2035,7 +2035,7 @@ public java.util.List<java.lang.String> getStringListValue();
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#string_list_value KendraDataSource#string_list_value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#string_list_value KendraDataSource#string_list_value}.
 
 ---
 
@@ -2047,7 +2047,7 @@ public java.lang.String getStringValue();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#string_value KendraDataSource#string_value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#string_value KendraDataSource#string_value}.
 
 ---
 
@@ -2069,9 +2069,9 @@ KendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionHookConfigurat
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionHookConfiguration.property.invocationCondition">invocationCondition</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionHookConfigurationInvocationCondition">KendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionHookConfigurationInvocationCondition</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#invocation_condition KendraDataSource#invocation_condition}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionHookConfiguration.property.lambdaArn">lambdaArn</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#lambda_arn KendraDataSource#lambda_arn}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionHookConfiguration.property.s3Bucket">s3Bucket</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#s3_bucket KendraDataSource#s3_bucket}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionHookConfiguration.property.invocationCondition">invocationCondition</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionHookConfigurationInvocationCondition">KendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionHookConfigurationInvocationCondition</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#invocation_condition KendraDataSource#invocation_condition}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionHookConfiguration.property.lambdaArn">lambdaArn</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#lambda_arn KendraDataSource#lambda_arn}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionHookConfiguration.property.s3Bucket">s3Bucket</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#s3_bucket KendraDataSource#s3_bucket}. |
 
 ---
 
@@ -2083,7 +2083,7 @@ public KendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionHookCon
 
 - *Type:* <a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionHookConfigurationInvocationCondition">KendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionHookConfigurationInvocationCondition</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#invocation_condition KendraDataSource#invocation_condition}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#invocation_condition KendraDataSource#invocation_condition}.
 
 ---
 
@@ -2095,7 +2095,7 @@ public java.lang.String getLambdaArn();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#lambda_arn KendraDataSource#lambda_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#lambda_arn KendraDataSource#lambda_arn}.
 
 ---
 
@@ -2107,7 +2107,7 @@ public java.lang.String getS3Bucket();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#s3_bucket KendraDataSource#s3_bucket}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#s3_bucket KendraDataSource#s3_bucket}.
 
 ---
 
@@ -2129,9 +2129,9 @@ KendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionHookConfigurat
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionHookConfigurationInvocationCondition.property.conditionDocumentAttributeKey">conditionDocumentAttributeKey</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#condition_document_attribute_key KendraDataSource#condition_document_attribute_key}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionHookConfigurationInvocationCondition.property.conditionOnValue">conditionOnValue</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionHookConfigurationInvocationConditionConditionOnValue">KendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionHookConfigurationInvocationConditionConditionOnValue</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#condition_on_value KendraDataSource#condition_on_value}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionHookConfigurationInvocationCondition.property.operator">operator</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#operator KendraDataSource#operator}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionHookConfigurationInvocationCondition.property.conditionDocumentAttributeKey">conditionDocumentAttributeKey</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#condition_document_attribute_key KendraDataSource#condition_document_attribute_key}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionHookConfigurationInvocationCondition.property.conditionOnValue">conditionOnValue</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionHookConfigurationInvocationConditionConditionOnValue">KendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionHookConfigurationInvocationConditionConditionOnValue</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#condition_on_value KendraDataSource#condition_on_value}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionHookConfigurationInvocationCondition.property.operator">operator</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#operator KendraDataSource#operator}. |
 
 ---
 
@@ -2143,7 +2143,7 @@ public java.lang.String getConditionDocumentAttributeKey();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#condition_document_attribute_key KendraDataSource#condition_document_attribute_key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#condition_document_attribute_key KendraDataSource#condition_document_attribute_key}.
 
 ---
 
@@ -2155,7 +2155,7 @@ public KendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionHookCon
 
 - *Type:* <a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionHookConfigurationInvocationConditionConditionOnValue">KendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionHookConfigurationInvocationConditionConditionOnValue</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#condition_on_value KendraDataSource#condition_on_value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#condition_on_value KendraDataSource#condition_on_value}.
 
 ---
 
@@ -2167,7 +2167,7 @@ public java.lang.String getOperator();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#operator KendraDataSource#operator}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#operator KendraDataSource#operator}.
 
 ---
 
@@ -2190,10 +2190,10 @@ KendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionHookConfigurat
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionHookConfigurationInvocationConditionConditionOnValue.property.dateValue">dateValue</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#date_value KendraDataSource#date_value}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionHookConfigurationInvocationConditionConditionOnValue.property.longValue">longValue</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#long_value KendraDataSource#long_value}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionHookConfigurationInvocationConditionConditionOnValue.property.stringListValue">stringListValue</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#string_list_value KendraDataSource#string_list_value}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionHookConfigurationInvocationConditionConditionOnValue.property.stringValue">stringValue</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#string_value KendraDataSource#string_value}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionHookConfigurationInvocationConditionConditionOnValue.property.dateValue">dateValue</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#date_value KendraDataSource#date_value}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionHookConfigurationInvocationConditionConditionOnValue.property.longValue">longValue</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#long_value KendraDataSource#long_value}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionHookConfigurationInvocationConditionConditionOnValue.property.stringListValue">stringListValue</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#string_list_value KendraDataSource#string_list_value}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionHookConfigurationInvocationConditionConditionOnValue.property.stringValue">stringValue</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#string_value KendraDataSource#string_value}. |
 
 ---
 
@@ -2205,7 +2205,7 @@ public java.lang.String getDateValue();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#date_value KendraDataSource#date_value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#date_value KendraDataSource#date_value}.
 
 ---
 
@@ -2217,7 +2217,7 @@ public java.lang.Number getLongValue();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#long_value KendraDataSource#long_value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#long_value KendraDataSource#long_value}.
 
 ---
 
@@ -2229,7 +2229,7 @@ public java.util.List<java.lang.String> getStringListValue();
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#string_list_value KendraDataSource#string_list_value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#string_list_value KendraDataSource#string_list_value}.
 
 ---
 
@@ -2241,7 +2241,7 @@ public java.lang.String getStringValue();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#string_value KendraDataSource#string_value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#string_value KendraDataSource#string_value}.
 
 ---
 
@@ -2271,17 +2271,17 @@ KendraDataSourceDataSourceConfiguration.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfiguration.property.confluenceConfiguration">confluenceConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfiguration">KendraDataSourceDataSourceConfigurationConfluenceConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#confluence_configuration KendraDataSource#confluence_configuration}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfiguration.property.databaseConfiguration">databaseConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationDatabaseConfiguration">KendraDataSourceDataSourceConfigurationDatabaseConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#database_configuration KendraDataSource#database_configuration}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfiguration.property.googleDriveConfiguration">googleDriveConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationGoogleDriveConfiguration">KendraDataSourceDataSourceConfigurationGoogleDriveConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#google_drive_configuration KendraDataSource#google_drive_configuration}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfiguration.property.oneDriveConfiguration">oneDriveConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationOneDriveConfiguration">KendraDataSourceDataSourceConfigurationOneDriveConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#one_drive_configuration KendraDataSource#one_drive_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfiguration.property.confluenceConfiguration">confluenceConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfiguration">KendraDataSourceDataSourceConfigurationConfluenceConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#confluence_configuration KendraDataSource#confluence_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfiguration.property.databaseConfiguration">databaseConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationDatabaseConfiguration">KendraDataSourceDataSourceConfigurationDatabaseConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#database_configuration KendraDataSource#database_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfiguration.property.googleDriveConfiguration">googleDriveConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationGoogleDriveConfiguration">KendraDataSourceDataSourceConfigurationGoogleDriveConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#google_drive_configuration KendraDataSource#google_drive_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfiguration.property.oneDriveConfiguration">oneDriveConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationOneDriveConfiguration">KendraDataSourceDataSourceConfigurationOneDriveConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#one_drive_configuration KendraDataSource#one_drive_configuration}. |
 | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfiguration.property.s3Configuration">s3Configuration</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationS3Configuration">KendraDataSourceDataSourceConfigurationS3Configuration</a></code> | S3 data source configuration. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfiguration.property.salesforceConfiguration">salesforceConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfiguration">KendraDataSourceDataSourceConfigurationSalesforceConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#salesforce_configuration KendraDataSource#salesforce_configuration}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfiguration.property.serviceNowConfiguration">serviceNowConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationServiceNowConfiguration">KendraDataSourceDataSourceConfigurationServiceNowConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#service_now_configuration KendraDataSource#service_now_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfiguration.property.salesforceConfiguration">salesforceConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfiguration">KendraDataSourceDataSourceConfigurationSalesforceConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#salesforce_configuration KendraDataSource#salesforce_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfiguration.property.serviceNowConfiguration">serviceNowConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationServiceNowConfiguration">KendraDataSourceDataSourceConfigurationServiceNowConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#service_now_configuration KendraDataSource#service_now_configuration}. |
 | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfiguration.property.sharePointConfiguration">sharePointConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSharePointConfiguration">KendraDataSourceDataSourceConfigurationSharePointConfiguration</a></code> | SharePoint configuration. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfiguration.property.templateConfiguration">templateConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationTemplateConfiguration">KendraDataSourceDataSourceConfigurationTemplateConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#template_configuration KendraDataSource#template_configuration}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfiguration.property.webCrawlerConfiguration">webCrawlerConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationWebCrawlerConfiguration">KendraDataSourceDataSourceConfigurationWebCrawlerConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#web_crawler_configuration KendraDataSource#web_crawler_configuration}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfiguration.property.workDocsConfiguration">workDocsConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationWorkDocsConfiguration">KendraDataSourceDataSourceConfigurationWorkDocsConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#work_docs_configuration KendraDataSource#work_docs_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfiguration.property.templateConfiguration">templateConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationTemplateConfiguration">KendraDataSourceDataSourceConfigurationTemplateConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#template_configuration KendraDataSource#template_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfiguration.property.webCrawlerConfiguration">webCrawlerConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationWebCrawlerConfiguration">KendraDataSourceDataSourceConfigurationWebCrawlerConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#web_crawler_configuration KendraDataSource#web_crawler_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfiguration.property.workDocsConfiguration">workDocsConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationWorkDocsConfiguration">KendraDataSourceDataSourceConfigurationWorkDocsConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#work_docs_configuration KendraDataSource#work_docs_configuration}. |
 
 ---
 
@@ -2293,7 +2293,7 @@ public KendraDataSourceDataSourceConfigurationConfluenceConfiguration getConflue
 
 - *Type:* <a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfiguration">KendraDataSourceDataSourceConfigurationConfluenceConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#confluence_configuration KendraDataSource#confluence_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#confluence_configuration KendraDataSource#confluence_configuration}.
 
 ---
 
@@ -2305,7 +2305,7 @@ public KendraDataSourceDataSourceConfigurationDatabaseConfiguration getDatabaseC
 
 - *Type:* <a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationDatabaseConfiguration">KendraDataSourceDataSourceConfigurationDatabaseConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#database_configuration KendraDataSource#database_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#database_configuration KendraDataSource#database_configuration}.
 
 ---
 
@@ -2317,7 +2317,7 @@ public KendraDataSourceDataSourceConfigurationGoogleDriveConfiguration getGoogle
 
 - *Type:* <a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationGoogleDriveConfiguration">KendraDataSourceDataSourceConfigurationGoogleDriveConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#google_drive_configuration KendraDataSource#google_drive_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#google_drive_configuration KendraDataSource#google_drive_configuration}.
 
 ---
 
@@ -2329,7 +2329,7 @@ public KendraDataSourceDataSourceConfigurationOneDriveConfiguration getOneDriveC
 
 - *Type:* <a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationOneDriveConfiguration">KendraDataSourceDataSourceConfigurationOneDriveConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#one_drive_configuration KendraDataSource#one_drive_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#one_drive_configuration KendraDataSource#one_drive_configuration}.
 
 ---
 
@@ -2343,7 +2343,7 @@ public KendraDataSourceDataSourceConfigurationS3Configuration getS3Configuration
 
 S3 data source configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#s3_configuration KendraDataSource#s3_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#s3_configuration KendraDataSource#s3_configuration}
 
 ---
 
@@ -2355,7 +2355,7 @@ public KendraDataSourceDataSourceConfigurationSalesforceConfiguration getSalesfo
 
 - *Type:* <a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfiguration">KendraDataSourceDataSourceConfigurationSalesforceConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#salesforce_configuration KendraDataSource#salesforce_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#salesforce_configuration KendraDataSource#salesforce_configuration}.
 
 ---
 
@@ -2367,7 +2367,7 @@ public KendraDataSourceDataSourceConfigurationServiceNowConfiguration getService
 
 - *Type:* <a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationServiceNowConfiguration">KendraDataSourceDataSourceConfigurationServiceNowConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#service_now_configuration KendraDataSource#service_now_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#service_now_configuration KendraDataSource#service_now_configuration}.
 
 ---
 
@@ -2381,7 +2381,7 @@ public KendraDataSourceDataSourceConfigurationSharePointConfiguration getSharePo
 
 SharePoint configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#share_point_configuration KendraDataSource#share_point_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#share_point_configuration KendraDataSource#share_point_configuration}
 
 ---
 
@@ -2393,7 +2393,7 @@ public KendraDataSourceDataSourceConfigurationTemplateConfiguration getTemplateC
 
 - *Type:* <a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationTemplateConfiguration">KendraDataSourceDataSourceConfigurationTemplateConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#template_configuration KendraDataSource#template_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#template_configuration KendraDataSource#template_configuration}.
 
 ---
 
@@ -2405,7 +2405,7 @@ public KendraDataSourceDataSourceConfigurationWebCrawlerConfiguration getWebCraw
 
 - *Type:* <a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationWebCrawlerConfiguration">KendraDataSourceDataSourceConfigurationWebCrawlerConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#web_crawler_configuration KendraDataSource#web_crawler_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#web_crawler_configuration KendraDataSource#web_crawler_configuration}.
 
 ---
 
@@ -2417,7 +2417,7 @@ public KendraDataSourceDataSourceConfigurationWorkDocsConfiguration getWorkDocsC
 
 - *Type:* <a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationWorkDocsConfiguration">KendraDataSourceDataSourceConfigurationWorkDocsConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#work_docs_configuration KendraDataSource#work_docs_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#work_docs_configuration KendraDataSource#work_docs_configuration}.
 
 ---
 
@@ -2446,16 +2446,16 @@ KendraDataSourceDataSourceConfigurationConfluenceConfiguration.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfiguration.property.attachmentConfiguration">attachmentConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfigurationAttachmentConfiguration">KendraDataSourceDataSourceConfigurationConfluenceConfigurationAttachmentConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#attachment_configuration KendraDataSource#attachment_configuration}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfiguration.property.blogConfiguration">blogConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfigurationBlogConfiguration">KendraDataSourceDataSourceConfigurationConfluenceConfigurationBlogConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#blog_configuration KendraDataSource#blog_configuration}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfiguration.property.exclusionPatterns">exclusionPatterns</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#exclusion_patterns KendraDataSource#exclusion_patterns}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfiguration.property.inclusionPatterns">inclusionPatterns</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#inclusion_patterns KendraDataSource#inclusion_patterns}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfiguration.property.pageConfiguration">pageConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfigurationPageConfiguration">KendraDataSourceDataSourceConfigurationConfluenceConfigurationPageConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#page_configuration KendraDataSource#page_configuration}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfiguration.property.secretArn">secretArn</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#secret_arn KendraDataSource#secret_arn}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfiguration.property.serverUrl">serverUrl</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#server_url KendraDataSource#server_url}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfiguration.property.spaceConfiguration">spaceConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfigurationSpaceConfiguration">KendraDataSourceDataSourceConfigurationConfluenceConfigurationSpaceConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#space_configuration KendraDataSource#space_configuration}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfiguration.property.version">version</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#version KendraDataSource#version}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfiguration.property.vpcConfiguration">vpcConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfigurationVpcConfiguration">KendraDataSourceDataSourceConfigurationConfluenceConfigurationVpcConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#vpc_configuration KendraDataSource#vpc_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfiguration.property.attachmentConfiguration">attachmentConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfigurationAttachmentConfiguration">KendraDataSourceDataSourceConfigurationConfluenceConfigurationAttachmentConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#attachment_configuration KendraDataSource#attachment_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfiguration.property.blogConfiguration">blogConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfigurationBlogConfiguration">KendraDataSourceDataSourceConfigurationConfluenceConfigurationBlogConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#blog_configuration KendraDataSource#blog_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfiguration.property.exclusionPatterns">exclusionPatterns</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#exclusion_patterns KendraDataSource#exclusion_patterns}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfiguration.property.inclusionPatterns">inclusionPatterns</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#inclusion_patterns KendraDataSource#inclusion_patterns}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfiguration.property.pageConfiguration">pageConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfigurationPageConfiguration">KendraDataSourceDataSourceConfigurationConfluenceConfigurationPageConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#page_configuration KendraDataSource#page_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfiguration.property.secretArn">secretArn</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#secret_arn KendraDataSource#secret_arn}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfiguration.property.serverUrl">serverUrl</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#server_url KendraDataSource#server_url}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfiguration.property.spaceConfiguration">spaceConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfigurationSpaceConfiguration">KendraDataSourceDataSourceConfigurationConfluenceConfigurationSpaceConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#space_configuration KendraDataSource#space_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfiguration.property.version">version</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#version KendraDataSource#version}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfiguration.property.vpcConfiguration">vpcConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfigurationVpcConfiguration">KendraDataSourceDataSourceConfigurationConfluenceConfigurationVpcConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#vpc_configuration KendraDataSource#vpc_configuration}. |
 
 ---
 
@@ -2467,7 +2467,7 @@ public KendraDataSourceDataSourceConfigurationConfluenceConfigurationAttachmentC
 
 - *Type:* <a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfigurationAttachmentConfiguration">KendraDataSourceDataSourceConfigurationConfluenceConfigurationAttachmentConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#attachment_configuration KendraDataSource#attachment_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#attachment_configuration KendraDataSource#attachment_configuration}.
 
 ---
 
@@ -2479,7 +2479,7 @@ public KendraDataSourceDataSourceConfigurationConfluenceConfigurationBlogConfigu
 
 - *Type:* <a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfigurationBlogConfiguration">KendraDataSourceDataSourceConfigurationConfluenceConfigurationBlogConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#blog_configuration KendraDataSource#blog_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#blog_configuration KendraDataSource#blog_configuration}.
 
 ---
 
@@ -2491,7 +2491,7 @@ public java.util.List<java.lang.String> getExclusionPatterns();
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#exclusion_patterns KendraDataSource#exclusion_patterns}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#exclusion_patterns KendraDataSource#exclusion_patterns}.
 
 ---
 
@@ -2503,7 +2503,7 @@ public java.util.List<java.lang.String> getInclusionPatterns();
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#inclusion_patterns KendraDataSource#inclusion_patterns}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#inclusion_patterns KendraDataSource#inclusion_patterns}.
 
 ---
 
@@ -2515,7 +2515,7 @@ public KendraDataSourceDataSourceConfigurationConfluenceConfigurationPageConfigu
 
 - *Type:* <a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfigurationPageConfiguration">KendraDataSourceDataSourceConfigurationConfluenceConfigurationPageConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#page_configuration KendraDataSource#page_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#page_configuration KendraDataSource#page_configuration}.
 
 ---
 
@@ -2527,7 +2527,7 @@ public java.lang.String getSecretArn();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#secret_arn KendraDataSource#secret_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#secret_arn KendraDataSource#secret_arn}.
 
 ---
 
@@ -2539,7 +2539,7 @@ public java.lang.String getServerUrl();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#server_url KendraDataSource#server_url}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#server_url KendraDataSource#server_url}.
 
 ---
 
@@ -2551,7 +2551,7 @@ public KendraDataSourceDataSourceConfigurationConfluenceConfigurationSpaceConfig
 
 - *Type:* <a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfigurationSpaceConfiguration">KendraDataSourceDataSourceConfigurationConfluenceConfigurationSpaceConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#space_configuration KendraDataSource#space_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#space_configuration KendraDataSource#space_configuration}.
 
 ---
 
@@ -2563,7 +2563,7 @@ public java.lang.String getVersion();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#version KendraDataSource#version}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#version KendraDataSource#version}.
 
 ---
 
@@ -2575,7 +2575,7 @@ public KendraDataSourceDataSourceConfigurationConfluenceConfigurationVpcConfigur
 
 - *Type:* <a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfigurationVpcConfiguration">KendraDataSourceDataSourceConfigurationConfluenceConfigurationVpcConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#vpc_configuration KendraDataSource#vpc_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#vpc_configuration KendraDataSource#vpc_configuration}.
 
 ---
 
@@ -2596,8 +2596,8 @@ KendraDataSourceDataSourceConfigurationConfluenceConfigurationAttachmentConfigur
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfigurationAttachmentConfiguration.property.attachmentFieldMappings">attachmentFieldMappings</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfigurationAttachmentConfigurationAttachmentFieldMappings">KendraDataSourceDataSourceConfigurationConfluenceConfigurationAttachmentConfigurationAttachmentFieldMappings</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#attachment_field_mappings KendraDataSource#attachment_field_mappings}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfigurationAttachmentConfiguration.property.crawlAttachments">crawlAttachments</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#crawl_attachments KendraDataSource#crawl_attachments}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfigurationAttachmentConfiguration.property.attachmentFieldMappings">attachmentFieldMappings</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfigurationAttachmentConfigurationAttachmentFieldMappings">KendraDataSourceDataSourceConfigurationConfluenceConfigurationAttachmentConfigurationAttachmentFieldMappings</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#attachment_field_mappings KendraDataSource#attachment_field_mappings}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfigurationAttachmentConfiguration.property.crawlAttachments">crawlAttachments</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#crawl_attachments KendraDataSource#crawl_attachments}. |
 
 ---
 
@@ -2609,7 +2609,7 @@ public IResolvable|java.util.List<KendraDataSourceDataSourceConfigurationConflue
 
 - *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfigurationAttachmentConfigurationAttachmentFieldMappings">KendraDataSourceDataSourceConfigurationConfluenceConfigurationAttachmentConfigurationAttachmentFieldMappings</a>>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#attachment_field_mappings KendraDataSource#attachment_field_mappings}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#attachment_field_mappings KendraDataSource#attachment_field_mappings}.
 
 ---
 
@@ -2621,7 +2621,7 @@ public java.lang.Boolean|IResolvable getCrawlAttachments();
 
 - *Type:* java.lang.Boolean|io.cdktn.cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#crawl_attachments KendraDataSource#crawl_attachments}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#crawl_attachments KendraDataSource#crawl_attachments}.
 
 ---
 
@@ -2643,9 +2643,9 @@ KendraDataSourceDataSourceConfigurationConfluenceConfigurationAttachmentConfigur
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfigurationAttachmentConfigurationAttachmentFieldMappings.property.dataSourceFieldName">dataSourceFieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfigurationAttachmentConfigurationAttachmentFieldMappings.property.dateFieldFormat">dateFieldFormat</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfigurationAttachmentConfigurationAttachmentFieldMappings.property.indexFieldName">indexFieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfigurationAttachmentConfigurationAttachmentFieldMappings.property.dataSourceFieldName">dataSourceFieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfigurationAttachmentConfigurationAttachmentFieldMappings.property.dateFieldFormat">dateFieldFormat</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfigurationAttachmentConfigurationAttachmentFieldMappings.property.indexFieldName">indexFieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}. |
 
 ---
 
@@ -2657,7 +2657,7 @@ public java.lang.String getDataSourceFieldName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}.
 
 ---
 
@@ -2669,7 +2669,7 @@ public java.lang.String getDateFieldFormat();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}.
 
 ---
 
@@ -2681,7 +2681,7 @@ public java.lang.String getIndexFieldName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}.
 
 ---
 
@@ -2701,7 +2701,7 @@ KendraDataSourceDataSourceConfigurationConfluenceConfigurationBlogConfiguration.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfigurationBlogConfiguration.property.blogFieldMappings">blogFieldMappings</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfigurationBlogConfigurationBlogFieldMappings">KendraDataSourceDataSourceConfigurationConfluenceConfigurationBlogConfigurationBlogFieldMappings</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#blog_field_mappings KendraDataSource#blog_field_mappings}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfigurationBlogConfiguration.property.blogFieldMappings">blogFieldMappings</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfigurationBlogConfigurationBlogFieldMappings">KendraDataSourceDataSourceConfigurationConfluenceConfigurationBlogConfigurationBlogFieldMappings</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#blog_field_mappings KendraDataSource#blog_field_mappings}. |
 
 ---
 
@@ -2713,7 +2713,7 @@ public IResolvable|java.util.List<KendraDataSourceDataSourceConfigurationConflue
 
 - *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfigurationBlogConfigurationBlogFieldMappings">KendraDataSourceDataSourceConfigurationConfluenceConfigurationBlogConfigurationBlogFieldMappings</a>>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#blog_field_mappings KendraDataSource#blog_field_mappings}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#blog_field_mappings KendraDataSource#blog_field_mappings}.
 
 ---
 
@@ -2735,9 +2735,9 @@ KendraDataSourceDataSourceConfigurationConfluenceConfigurationBlogConfigurationB
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfigurationBlogConfigurationBlogFieldMappings.property.dataSourceFieldName">dataSourceFieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfigurationBlogConfigurationBlogFieldMappings.property.dateFieldFormat">dateFieldFormat</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfigurationBlogConfigurationBlogFieldMappings.property.indexFieldName">indexFieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfigurationBlogConfigurationBlogFieldMappings.property.dataSourceFieldName">dataSourceFieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfigurationBlogConfigurationBlogFieldMappings.property.dateFieldFormat">dateFieldFormat</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfigurationBlogConfigurationBlogFieldMappings.property.indexFieldName">indexFieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}. |
 
 ---
 
@@ -2749,7 +2749,7 @@ public java.lang.String getDataSourceFieldName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}.
 
 ---
 
@@ -2761,7 +2761,7 @@ public java.lang.String getDateFieldFormat();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}.
 
 ---
 
@@ -2773,7 +2773,7 @@ public java.lang.String getIndexFieldName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}.
 
 ---
 
@@ -2793,7 +2793,7 @@ KendraDataSourceDataSourceConfigurationConfluenceConfigurationPageConfiguration.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfigurationPageConfiguration.property.pageFieldMappings">pageFieldMappings</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfigurationPageConfigurationPageFieldMappings">KendraDataSourceDataSourceConfigurationConfluenceConfigurationPageConfigurationPageFieldMappings</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#page_field_mappings KendraDataSource#page_field_mappings}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfigurationPageConfiguration.property.pageFieldMappings">pageFieldMappings</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfigurationPageConfigurationPageFieldMappings">KendraDataSourceDataSourceConfigurationConfluenceConfigurationPageConfigurationPageFieldMappings</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#page_field_mappings KendraDataSource#page_field_mappings}. |
 
 ---
 
@@ -2805,7 +2805,7 @@ public IResolvable|java.util.List<KendraDataSourceDataSourceConfigurationConflue
 
 - *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfigurationPageConfigurationPageFieldMappings">KendraDataSourceDataSourceConfigurationConfluenceConfigurationPageConfigurationPageFieldMappings</a>>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#page_field_mappings KendraDataSource#page_field_mappings}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#page_field_mappings KendraDataSource#page_field_mappings}.
 
 ---
 
@@ -2827,9 +2827,9 @@ KendraDataSourceDataSourceConfigurationConfluenceConfigurationPageConfigurationP
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfigurationPageConfigurationPageFieldMappings.property.dataSourceFieldName">dataSourceFieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfigurationPageConfigurationPageFieldMappings.property.dateFieldFormat">dateFieldFormat</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfigurationPageConfigurationPageFieldMappings.property.indexFieldName">indexFieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfigurationPageConfigurationPageFieldMappings.property.dataSourceFieldName">dataSourceFieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfigurationPageConfigurationPageFieldMappings.property.dateFieldFormat">dateFieldFormat</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfigurationPageConfigurationPageFieldMappings.property.indexFieldName">indexFieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}. |
 
 ---
 
@@ -2841,7 +2841,7 @@ public java.lang.String getDataSourceFieldName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}.
 
 ---
 
@@ -2853,7 +2853,7 @@ public java.lang.String getDateFieldFormat();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}.
 
 ---
 
@@ -2865,7 +2865,7 @@ public java.lang.String getIndexFieldName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}.
 
 ---
 
@@ -2889,11 +2889,11 @@ KendraDataSourceDataSourceConfigurationConfluenceConfigurationSpaceConfiguration
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfigurationSpaceConfiguration.property.crawlArchivedSpaces">crawlArchivedSpaces</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#crawl_archived_spaces KendraDataSource#crawl_archived_spaces}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfigurationSpaceConfiguration.property.crawlPersonalSpaces">crawlPersonalSpaces</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#crawl_personal_spaces KendraDataSource#crawl_personal_spaces}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfigurationSpaceConfiguration.property.excludeSpaces">excludeSpaces</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#exclude_spaces KendraDataSource#exclude_spaces}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfigurationSpaceConfiguration.property.includeSpaces">includeSpaces</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#include_spaces KendraDataSource#include_spaces}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfigurationSpaceConfiguration.property.spaceFieldMappings">spaceFieldMappings</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfigurationSpaceConfigurationSpaceFieldMappings">KendraDataSourceDataSourceConfigurationConfluenceConfigurationSpaceConfigurationSpaceFieldMappings</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#space_field_mappings KendraDataSource#space_field_mappings}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfigurationSpaceConfiguration.property.crawlArchivedSpaces">crawlArchivedSpaces</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#crawl_archived_spaces KendraDataSource#crawl_archived_spaces}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfigurationSpaceConfiguration.property.crawlPersonalSpaces">crawlPersonalSpaces</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#crawl_personal_spaces KendraDataSource#crawl_personal_spaces}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfigurationSpaceConfiguration.property.excludeSpaces">excludeSpaces</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#exclude_spaces KendraDataSource#exclude_spaces}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfigurationSpaceConfiguration.property.includeSpaces">includeSpaces</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#include_spaces KendraDataSource#include_spaces}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfigurationSpaceConfiguration.property.spaceFieldMappings">spaceFieldMappings</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfigurationSpaceConfigurationSpaceFieldMappings">KendraDataSourceDataSourceConfigurationConfluenceConfigurationSpaceConfigurationSpaceFieldMappings</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#space_field_mappings KendraDataSource#space_field_mappings}. |
 
 ---
 
@@ -2905,7 +2905,7 @@ public java.lang.Boolean|IResolvable getCrawlArchivedSpaces();
 
 - *Type:* java.lang.Boolean|io.cdktn.cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#crawl_archived_spaces KendraDataSource#crawl_archived_spaces}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#crawl_archived_spaces KendraDataSource#crawl_archived_spaces}.
 
 ---
 
@@ -2917,7 +2917,7 @@ public java.lang.Boolean|IResolvable getCrawlPersonalSpaces();
 
 - *Type:* java.lang.Boolean|io.cdktn.cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#crawl_personal_spaces KendraDataSource#crawl_personal_spaces}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#crawl_personal_spaces KendraDataSource#crawl_personal_spaces}.
 
 ---
 
@@ -2929,7 +2929,7 @@ public java.util.List<java.lang.String> getExcludeSpaces();
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#exclude_spaces KendraDataSource#exclude_spaces}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#exclude_spaces KendraDataSource#exclude_spaces}.
 
 ---
 
@@ -2941,7 +2941,7 @@ public java.util.List<java.lang.String> getIncludeSpaces();
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#include_spaces KendraDataSource#include_spaces}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#include_spaces KendraDataSource#include_spaces}.
 
 ---
 
@@ -2953,7 +2953,7 @@ public IResolvable|java.util.List<KendraDataSourceDataSourceConfigurationConflue
 
 - *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfigurationSpaceConfigurationSpaceFieldMappings">KendraDataSourceDataSourceConfigurationConfluenceConfigurationSpaceConfigurationSpaceFieldMappings</a>>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#space_field_mappings KendraDataSource#space_field_mappings}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#space_field_mappings KendraDataSource#space_field_mappings}.
 
 ---
 
@@ -2975,9 +2975,9 @@ KendraDataSourceDataSourceConfigurationConfluenceConfigurationSpaceConfiguration
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfigurationSpaceConfigurationSpaceFieldMappings.property.dataSourceFieldName">dataSourceFieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfigurationSpaceConfigurationSpaceFieldMappings.property.dateFieldFormat">dateFieldFormat</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfigurationSpaceConfigurationSpaceFieldMappings.property.indexFieldName">indexFieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfigurationSpaceConfigurationSpaceFieldMappings.property.dataSourceFieldName">dataSourceFieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfigurationSpaceConfigurationSpaceFieldMappings.property.dateFieldFormat">dateFieldFormat</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfigurationSpaceConfigurationSpaceFieldMappings.property.indexFieldName">indexFieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}. |
 
 ---
 
@@ -2989,7 +2989,7 @@ public java.lang.String getDataSourceFieldName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}.
 
 ---
 
@@ -3001,7 +3001,7 @@ public java.lang.String getDateFieldFormat();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}.
 
 ---
 
@@ -3013,7 +3013,7 @@ public java.lang.String getIndexFieldName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}.
 
 ---
 
@@ -3034,8 +3034,8 @@ KendraDataSourceDataSourceConfigurationConfluenceConfigurationVpcConfiguration.b
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfigurationVpcConfiguration.property.securityGroupIds">securityGroupIds</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#security_group_ids KendraDataSource#security_group_ids}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfigurationVpcConfiguration.property.subnetIds">subnetIds</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#subnet_ids KendraDataSource#subnet_ids}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfigurationVpcConfiguration.property.securityGroupIds">securityGroupIds</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#security_group_ids KendraDataSource#security_group_ids}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationConfluenceConfigurationVpcConfiguration.property.subnetIds">subnetIds</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#subnet_ids KendraDataSource#subnet_ids}. |
 
 ---
 
@@ -3047,7 +3047,7 @@ public java.util.List<java.lang.String> getSecurityGroupIds();
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#security_group_ids KendraDataSource#security_group_ids}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#security_group_ids KendraDataSource#security_group_ids}.
 
 ---
 
@@ -3059,7 +3059,7 @@ public java.util.List<java.lang.String> getSubnetIds();
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#subnet_ids KendraDataSource#subnet_ids}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#subnet_ids KendraDataSource#subnet_ids}.
 
 ---
 
@@ -3084,12 +3084,12 @@ KendraDataSourceDataSourceConfigurationDatabaseConfiguration.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationDatabaseConfiguration.property.aclConfiguration">aclConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationDatabaseConfigurationAclConfiguration">KendraDataSourceDataSourceConfigurationDatabaseConfigurationAclConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#acl_configuration KendraDataSource#acl_configuration}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationDatabaseConfiguration.property.columnConfiguration">columnConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationDatabaseConfigurationColumnConfiguration">KendraDataSourceDataSourceConfigurationDatabaseConfigurationColumnConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#column_configuration KendraDataSource#column_configuration}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationDatabaseConfiguration.property.connectionConfiguration">connectionConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationDatabaseConfigurationConnectionConfiguration">KendraDataSourceDataSourceConfigurationDatabaseConfigurationConnectionConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#connection_configuration KendraDataSource#connection_configuration}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationDatabaseConfiguration.property.databaseEngineType">databaseEngineType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#database_engine_type KendraDataSource#database_engine_type}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationDatabaseConfiguration.property.sqlConfiguration">sqlConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationDatabaseConfigurationSqlConfiguration">KendraDataSourceDataSourceConfigurationDatabaseConfigurationSqlConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#sql_configuration KendraDataSource#sql_configuration}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationDatabaseConfiguration.property.vpcConfiguration">vpcConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationDatabaseConfigurationVpcConfiguration">KendraDataSourceDataSourceConfigurationDatabaseConfigurationVpcConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#vpc_configuration KendraDataSource#vpc_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationDatabaseConfiguration.property.aclConfiguration">aclConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationDatabaseConfigurationAclConfiguration">KendraDataSourceDataSourceConfigurationDatabaseConfigurationAclConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#acl_configuration KendraDataSource#acl_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationDatabaseConfiguration.property.columnConfiguration">columnConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationDatabaseConfigurationColumnConfiguration">KendraDataSourceDataSourceConfigurationDatabaseConfigurationColumnConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#column_configuration KendraDataSource#column_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationDatabaseConfiguration.property.connectionConfiguration">connectionConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationDatabaseConfigurationConnectionConfiguration">KendraDataSourceDataSourceConfigurationDatabaseConfigurationConnectionConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#connection_configuration KendraDataSource#connection_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationDatabaseConfiguration.property.databaseEngineType">databaseEngineType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#database_engine_type KendraDataSource#database_engine_type}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationDatabaseConfiguration.property.sqlConfiguration">sqlConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationDatabaseConfigurationSqlConfiguration">KendraDataSourceDataSourceConfigurationDatabaseConfigurationSqlConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#sql_configuration KendraDataSource#sql_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationDatabaseConfiguration.property.vpcConfiguration">vpcConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationDatabaseConfigurationVpcConfiguration">KendraDataSourceDataSourceConfigurationDatabaseConfigurationVpcConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#vpc_configuration KendraDataSource#vpc_configuration}. |
 
 ---
 
@@ -3101,7 +3101,7 @@ public KendraDataSourceDataSourceConfigurationDatabaseConfigurationAclConfigurat
 
 - *Type:* <a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationDatabaseConfigurationAclConfiguration">KendraDataSourceDataSourceConfigurationDatabaseConfigurationAclConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#acl_configuration KendraDataSource#acl_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#acl_configuration KendraDataSource#acl_configuration}.
 
 ---
 
@@ -3113,7 +3113,7 @@ public KendraDataSourceDataSourceConfigurationDatabaseConfigurationColumnConfigu
 
 - *Type:* <a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationDatabaseConfigurationColumnConfiguration">KendraDataSourceDataSourceConfigurationDatabaseConfigurationColumnConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#column_configuration KendraDataSource#column_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#column_configuration KendraDataSource#column_configuration}.
 
 ---
 
@@ -3125,7 +3125,7 @@ public KendraDataSourceDataSourceConfigurationDatabaseConfigurationConnectionCon
 
 - *Type:* <a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationDatabaseConfigurationConnectionConfiguration">KendraDataSourceDataSourceConfigurationDatabaseConfigurationConnectionConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#connection_configuration KendraDataSource#connection_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#connection_configuration KendraDataSource#connection_configuration}.
 
 ---
 
@@ -3137,7 +3137,7 @@ public java.lang.String getDatabaseEngineType();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#database_engine_type KendraDataSource#database_engine_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#database_engine_type KendraDataSource#database_engine_type}.
 
 ---
 
@@ -3149,7 +3149,7 @@ public KendraDataSourceDataSourceConfigurationDatabaseConfigurationSqlConfigurat
 
 - *Type:* <a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationDatabaseConfigurationSqlConfiguration">KendraDataSourceDataSourceConfigurationDatabaseConfigurationSqlConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#sql_configuration KendraDataSource#sql_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#sql_configuration KendraDataSource#sql_configuration}.
 
 ---
 
@@ -3161,7 +3161,7 @@ public KendraDataSourceDataSourceConfigurationDatabaseConfigurationVpcConfigurat
 
 - *Type:* <a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationDatabaseConfigurationVpcConfiguration">KendraDataSourceDataSourceConfigurationDatabaseConfigurationVpcConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#vpc_configuration KendraDataSource#vpc_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#vpc_configuration KendraDataSource#vpc_configuration}.
 
 ---
 
@@ -3181,7 +3181,7 @@ KendraDataSourceDataSourceConfigurationDatabaseConfigurationAclConfiguration.bui
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationDatabaseConfigurationAclConfiguration.property.allowedGroupsColumnName">allowedGroupsColumnName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#allowed_groups_column_name KendraDataSource#allowed_groups_column_name}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationDatabaseConfigurationAclConfiguration.property.allowedGroupsColumnName">allowedGroupsColumnName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#allowed_groups_column_name KendraDataSource#allowed_groups_column_name}. |
 
 ---
 
@@ -3193,7 +3193,7 @@ public java.lang.String getAllowedGroupsColumnName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#allowed_groups_column_name KendraDataSource#allowed_groups_column_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#allowed_groups_column_name KendraDataSource#allowed_groups_column_name}.
 
 ---
 
@@ -3217,11 +3217,11 @@ KendraDataSourceDataSourceConfigurationDatabaseConfigurationColumnConfiguration.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationDatabaseConfigurationColumnConfiguration.property.changeDetectingColumns">changeDetectingColumns</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#change_detecting_columns KendraDataSource#change_detecting_columns}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationDatabaseConfigurationColumnConfiguration.property.documentDataColumnName">documentDataColumnName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#document_data_column_name KendraDataSource#document_data_column_name}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationDatabaseConfigurationColumnConfiguration.property.documentIdColumnName">documentIdColumnName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#document_id_column_name KendraDataSource#document_id_column_name}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationDatabaseConfigurationColumnConfiguration.property.documentTitleColumnName">documentTitleColumnName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#document_title_column_name KendraDataSource#document_title_column_name}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationDatabaseConfigurationColumnConfiguration.property.fieldMappings">fieldMappings</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationDatabaseConfigurationColumnConfigurationFieldMappings">KendraDataSourceDataSourceConfigurationDatabaseConfigurationColumnConfigurationFieldMappings</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#field_mappings KendraDataSource#field_mappings}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationDatabaseConfigurationColumnConfiguration.property.changeDetectingColumns">changeDetectingColumns</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#change_detecting_columns KendraDataSource#change_detecting_columns}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationDatabaseConfigurationColumnConfiguration.property.documentDataColumnName">documentDataColumnName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#document_data_column_name KendraDataSource#document_data_column_name}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationDatabaseConfigurationColumnConfiguration.property.documentIdColumnName">documentIdColumnName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#document_id_column_name KendraDataSource#document_id_column_name}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationDatabaseConfigurationColumnConfiguration.property.documentTitleColumnName">documentTitleColumnName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#document_title_column_name KendraDataSource#document_title_column_name}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationDatabaseConfigurationColumnConfiguration.property.fieldMappings">fieldMappings</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationDatabaseConfigurationColumnConfigurationFieldMappings">KendraDataSourceDataSourceConfigurationDatabaseConfigurationColumnConfigurationFieldMappings</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#field_mappings KendraDataSource#field_mappings}. |
 
 ---
 
@@ -3233,7 +3233,7 @@ public java.util.List<java.lang.String> getChangeDetectingColumns();
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#change_detecting_columns KendraDataSource#change_detecting_columns}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#change_detecting_columns KendraDataSource#change_detecting_columns}.
 
 ---
 
@@ -3245,7 +3245,7 @@ public java.lang.String getDocumentDataColumnName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#document_data_column_name KendraDataSource#document_data_column_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#document_data_column_name KendraDataSource#document_data_column_name}.
 
 ---
 
@@ -3257,7 +3257,7 @@ public java.lang.String getDocumentIdColumnName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#document_id_column_name KendraDataSource#document_id_column_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#document_id_column_name KendraDataSource#document_id_column_name}.
 
 ---
 
@@ -3269,7 +3269,7 @@ public java.lang.String getDocumentTitleColumnName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#document_title_column_name KendraDataSource#document_title_column_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#document_title_column_name KendraDataSource#document_title_column_name}.
 
 ---
 
@@ -3281,7 +3281,7 @@ public IResolvable|java.util.List<KendraDataSourceDataSourceConfigurationDatabas
 
 - *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationDatabaseConfigurationColumnConfigurationFieldMappings">KendraDataSourceDataSourceConfigurationDatabaseConfigurationColumnConfigurationFieldMappings</a>>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#field_mappings KendraDataSource#field_mappings}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#field_mappings KendraDataSource#field_mappings}.
 
 ---
 
@@ -3303,9 +3303,9 @@ KendraDataSourceDataSourceConfigurationDatabaseConfigurationColumnConfigurationF
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationDatabaseConfigurationColumnConfigurationFieldMappings.property.dataSourceFieldName">dataSourceFieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationDatabaseConfigurationColumnConfigurationFieldMappings.property.dateFieldFormat">dateFieldFormat</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationDatabaseConfigurationColumnConfigurationFieldMappings.property.indexFieldName">indexFieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationDatabaseConfigurationColumnConfigurationFieldMappings.property.dataSourceFieldName">dataSourceFieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationDatabaseConfigurationColumnConfigurationFieldMappings.property.dateFieldFormat">dateFieldFormat</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationDatabaseConfigurationColumnConfigurationFieldMappings.property.indexFieldName">indexFieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}. |
 
 ---
 
@@ -3317,7 +3317,7 @@ public java.lang.String getDataSourceFieldName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}.
 
 ---
 
@@ -3329,7 +3329,7 @@ public java.lang.String getDateFieldFormat();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}.
 
 ---
 
@@ -3341,7 +3341,7 @@ public java.lang.String getIndexFieldName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}.
 
 ---
 
@@ -3365,11 +3365,11 @@ KendraDataSourceDataSourceConfigurationDatabaseConfigurationConnectionConfigurat
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationDatabaseConfigurationConnectionConfiguration.property.databaseHost">databaseHost</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#database_host KendraDataSource#database_host}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationDatabaseConfigurationConnectionConfiguration.property.databaseName">databaseName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#database_name KendraDataSource#database_name}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationDatabaseConfigurationConnectionConfiguration.property.databasePort">databasePort</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#database_port KendraDataSource#database_port}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationDatabaseConfigurationConnectionConfiguration.property.secretArn">secretArn</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#secret_arn KendraDataSource#secret_arn}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationDatabaseConfigurationConnectionConfiguration.property.tableName">tableName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#table_name KendraDataSource#table_name}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationDatabaseConfigurationConnectionConfiguration.property.databaseHost">databaseHost</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#database_host KendraDataSource#database_host}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationDatabaseConfigurationConnectionConfiguration.property.databaseName">databaseName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#database_name KendraDataSource#database_name}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationDatabaseConfigurationConnectionConfiguration.property.databasePort">databasePort</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#database_port KendraDataSource#database_port}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationDatabaseConfigurationConnectionConfiguration.property.secretArn">secretArn</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#secret_arn KendraDataSource#secret_arn}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationDatabaseConfigurationConnectionConfiguration.property.tableName">tableName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#table_name KendraDataSource#table_name}. |
 
 ---
 
@@ -3381,7 +3381,7 @@ public java.lang.String getDatabaseHost();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#database_host KendraDataSource#database_host}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#database_host KendraDataSource#database_host}.
 
 ---
 
@@ -3393,7 +3393,7 @@ public java.lang.String getDatabaseName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#database_name KendraDataSource#database_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#database_name KendraDataSource#database_name}.
 
 ---
 
@@ -3405,7 +3405,7 @@ public java.lang.Number getDatabasePort();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#database_port KendraDataSource#database_port}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#database_port KendraDataSource#database_port}.
 
 ---
 
@@ -3417,7 +3417,7 @@ public java.lang.String getSecretArn();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#secret_arn KendraDataSource#secret_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#secret_arn KendraDataSource#secret_arn}.
 
 ---
 
@@ -3429,7 +3429,7 @@ public java.lang.String getTableName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#table_name KendraDataSource#table_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#table_name KendraDataSource#table_name}.
 
 ---
 
@@ -3449,7 +3449,7 @@ KendraDataSourceDataSourceConfigurationDatabaseConfigurationSqlConfiguration.bui
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationDatabaseConfigurationSqlConfiguration.property.queryIdentifiersEnclosingOption">queryIdentifiersEnclosingOption</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#query_identifiers_enclosing_option KendraDataSource#query_identifiers_enclosing_option}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationDatabaseConfigurationSqlConfiguration.property.queryIdentifiersEnclosingOption">queryIdentifiersEnclosingOption</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#query_identifiers_enclosing_option KendraDataSource#query_identifiers_enclosing_option}. |
 
 ---
 
@@ -3461,7 +3461,7 @@ public java.lang.String getQueryIdentifiersEnclosingOption();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#query_identifiers_enclosing_option KendraDataSource#query_identifiers_enclosing_option}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#query_identifiers_enclosing_option KendraDataSource#query_identifiers_enclosing_option}.
 
 ---
 
@@ -3482,8 +3482,8 @@ KendraDataSourceDataSourceConfigurationDatabaseConfigurationVpcConfiguration.bui
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationDatabaseConfigurationVpcConfiguration.property.securityGroupIds">securityGroupIds</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#security_group_ids KendraDataSource#security_group_ids}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationDatabaseConfigurationVpcConfiguration.property.subnetIds">subnetIds</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#subnet_ids KendraDataSource#subnet_ids}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationDatabaseConfigurationVpcConfiguration.property.securityGroupIds">securityGroupIds</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#security_group_ids KendraDataSource#security_group_ids}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationDatabaseConfigurationVpcConfiguration.property.subnetIds">subnetIds</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#subnet_ids KendraDataSource#subnet_ids}. |
 
 ---
 
@@ -3495,7 +3495,7 @@ public java.util.List<java.lang.String> getSecurityGroupIds();
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#security_group_ids KendraDataSource#security_group_ids}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#security_group_ids KendraDataSource#security_group_ids}.
 
 ---
 
@@ -3507,7 +3507,7 @@ public java.util.List<java.lang.String> getSubnetIds();
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#subnet_ids KendraDataSource#subnet_ids}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#subnet_ids KendraDataSource#subnet_ids}.
 
 ---
 
@@ -3533,13 +3533,13 @@ KendraDataSourceDataSourceConfigurationGoogleDriveConfiguration.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationGoogleDriveConfiguration.property.excludeMimeTypes">excludeMimeTypes</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#exclude_mime_types KendraDataSource#exclude_mime_types}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationGoogleDriveConfiguration.property.excludeSharedDrives">excludeSharedDrives</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#exclude_shared_drives KendraDataSource#exclude_shared_drives}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationGoogleDriveConfiguration.property.excludeUserAccounts">excludeUserAccounts</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#exclude_user_accounts KendraDataSource#exclude_user_accounts}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationGoogleDriveConfiguration.property.exclusionPatterns">exclusionPatterns</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#exclusion_patterns KendraDataSource#exclusion_patterns}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationGoogleDriveConfiguration.property.fieldMappings">fieldMappings</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationGoogleDriveConfigurationFieldMappings">KendraDataSourceDataSourceConfigurationGoogleDriveConfigurationFieldMappings</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#field_mappings KendraDataSource#field_mappings}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationGoogleDriveConfiguration.property.inclusionPatterns">inclusionPatterns</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#inclusion_patterns KendraDataSource#inclusion_patterns}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationGoogleDriveConfiguration.property.secretArn">secretArn</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#secret_arn KendraDataSource#secret_arn}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationGoogleDriveConfiguration.property.excludeMimeTypes">excludeMimeTypes</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#exclude_mime_types KendraDataSource#exclude_mime_types}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationGoogleDriveConfiguration.property.excludeSharedDrives">excludeSharedDrives</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#exclude_shared_drives KendraDataSource#exclude_shared_drives}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationGoogleDriveConfiguration.property.excludeUserAccounts">excludeUserAccounts</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#exclude_user_accounts KendraDataSource#exclude_user_accounts}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationGoogleDriveConfiguration.property.exclusionPatterns">exclusionPatterns</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#exclusion_patterns KendraDataSource#exclusion_patterns}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationGoogleDriveConfiguration.property.fieldMappings">fieldMappings</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationGoogleDriveConfigurationFieldMappings">KendraDataSourceDataSourceConfigurationGoogleDriveConfigurationFieldMappings</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#field_mappings KendraDataSource#field_mappings}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationGoogleDriveConfiguration.property.inclusionPatterns">inclusionPatterns</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#inclusion_patterns KendraDataSource#inclusion_patterns}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationGoogleDriveConfiguration.property.secretArn">secretArn</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#secret_arn KendraDataSource#secret_arn}. |
 
 ---
 
@@ -3551,7 +3551,7 @@ public java.util.List<java.lang.String> getExcludeMimeTypes();
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#exclude_mime_types KendraDataSource#exclude_mime_types}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#exclude_mime_types KendraDataSource#exclude_mime_types}.
 
 ---
 
@@ -3563,7 +3563,7 @@ public java.util.List<java.lang.String> getExcludeSharedDrives();
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#exclude_shared_drives KendraDataSource#exclude_shared_drives}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#exclude_shared_drives KendraDataSource#exclude_shared_drives}.
 
 ---
 
@@ -3575,7 +3575,7 @@ public java.util.List<java.lang.String> getExcludeUserAccounts();
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#exclude_user_accounts KendraDataSource#exclude_user_accounts}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#exclude_user_accounts KendraDataSource#exclude_user_accounts}.
 
 ---
 
@@ -3587,7 +3587,7 @@ public java.util.List<java.lang.String> getExclusionPatterns();
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#exclusion_patterns KendraDataSource#exclusion_patterns}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#exclusion_patterns KendraDataSource#exclusion_patterns}.
 
 ---
 
@@ -3599,7 +3599,7 @@ public IResolvable|java.util.List<KendraDataSourceDataSourceConfigurationGoogleD
 
 - *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationGoogleDriveConfigurationFieldMappings">KendraDataSourceDataSourceConfigurationGoogleDriveConfigurationFieldMappings</a>>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#field_mappings KendraDataSource#field_mappings}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#field_mappings KendraDataSource#field_mappings}.
 
 ---
 
@@ -3611,7 +3611,7 @@ public java.util.List<java.lang.String> getInclusionPatterns();
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#inclusion_patterns KendraDataSource#inclusion_patterns}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#inclusion_patterns KendraDataSource#inclusion_patterns}.
 
 ---
 
@@ -3623,7 +3623,7 @@ public java.lang.String getSecretArn();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#secret_arn KendraDataSource#secret_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#secret_arn KendraDataSource#secret_arn}.
 
 ---
 
@@ -3645,9 +3645,9 @@ KendraDataSourceDataSourceConfigurationGoogleDriveConfigurationFieldMappings.bui
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationGoogleDriveConfigurationFieldMappings.property.dataSourceFieldName">dataSourceFieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationGoogleDriveConfigurationFieldMappings.property.dateFieldFormat">dateFieldFormat</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationGoogleDriveConfigurationFieldMappings.property.indexFieldName">indexFieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationGoogleDriveConfigurationFieldMappings.property.dataSourceFieldName">dataSourceFieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationGoogleDriveConfigurationFieldMappings.property.dateFieldFormat">dateFieldFormat</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationGoogleDriveConfigurationFieldMappings.property.indexFieldName">indexFieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}. |
 
 ---
 
@@ -3659,7 +3659,7 @@ public java.lang.String getDataSourceFieldName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}.
 
 ---
 
@@ -3671,7 +3671,7 @@ public java.lang.String getDateFieldFormat();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}.
 
 ---
 
@@ -3683,7 +3683,7 @@ public java.lang.String getIndexFieldName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}.
 
 ---
 
@@ -3709,13 +3709,13 @@ KendraDataSourceDataSourceConfigurationOneDriveConfiguration.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationOneDriveConfiguration.property.disableLocalGroups">disableLocalGroups</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#disable_local_groups KendraDataSource#disable_local_groups}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationOneDriveConfiguration.property.exclusionPatterns">exclusionPatterns</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#exclusion_patterns KendraDataSource#exclusion_patterns}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationOneDriveConfiguration.property.fieldMappings">fieldMappings</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationOneDriveConfigurationFieldMappings">KendraDataSourceDataSourceConfigurationOneDriveConfigurationFieldMappings</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#field_mappings KendraDataSource#field_mappings}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationOneDriveConfiguration.property.inclusionPatterns">inclusionPatterns</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#inclusion_patterns KendraDataSource#inclusion_patterns}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationOneDriveConfiguration.property.oneDriveUsers">oneDriveUsers</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationOneDriveConfigurationOneDriveUsers">KendraDataSourceDataSourceConfigurationOneDriveConfigurationOneDriveUsers</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#one_drive_users KendraDataSource#one_drive_users}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationOneDriveConfiguration.property.secretArn">secretArn</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#secret_arn KendraDataSource#secret_arn}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationOneDriveConfiguration.property.tenantDomain">tenantDomain</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#tenant_domain KendraDataSource#tenant_domain}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationOneDriveConfiguration.property.disableLocalGroups">disableLocalGroups</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#disable_local_groups KendraDataSource#disable_local_groups}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationOneDriveConfiguration.property.exclusionPatterns">exclusionPatterns</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#exclusion_patterns KendraDataSource#exclusion_patterns}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationOneDriveConfiguration.property.fieldMappings">fieldMappings</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationOneDriveConfigurationFieldMappings">KendraDataSourceDataSourceConfigurationOneDriveConfigurationFieldMappings</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#field_mappings KendraDataSource#field_mappings}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationOneDriveConfiguration.property.inclusionPatterns">inclusionPatterns</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#inclusion_patterns KendraDataSource#inclusion_patterns}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationOneDriveConfiguration.property.oneDriveUsers">oneDriveUsers</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationOneDriveConfigurationOneDriveUsers">KendraDataSourceDataSourceConfigurationOneDriveConfigurationOneDriveUsers</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#one_drive_users KendraDataSource#one_drive_users}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationOneDriveConfiguration.property.secretArn">secretArn</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#secret_arn KendraDataSource#secret_arn}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationOneDriveConfiguration.property.tenantDomain">tenantDomain</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#tenant_domain KendraDataSource#tenant_domain}. |
 
 ---
 
@@ -3727,7 +3727,7 @@ public java.lang.Boolean|IResolvable getDisableLocalGroups();
 
 - *Type:* java.lang.Boolean|io.cdktn.cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#disable_local_groups KendraDataSource#disable_local_groups}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#disable_local_groups KendraDataSource#disable_local_groups}.
 
 ---
 
@@ -3739,7 +3739,7 @@ public java.util.List<java.lang.String> getExclusionPatterns();
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#exclusion_patterns KendraDataSource#exclusion_patterns}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#exclusion_patterns KendraDataSource#exclusion_patterns}.
 
 ---
 
@@ -3751,7 +3751,7 @@ public IResolvable|java.util.List<KendraDataSourceDataSourceConfigurationOneDriv
 
 - *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationOneDriveConfigurationFieldMappings">KendraDataSourceDataSourceConfigurationOneDriveConfigurationFieldMappings</a>>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#field_mappings KendraDataSource#field_mappings}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#field_mappings KendraDataSource#field_mappings}.
 
 ---
 
@@ -3763,7 +3763,7 @@ public java.util.List<java.lang.String> getInclusionPatterns();
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#inclusion_patterns KendraDataSource#inclusion_patterns}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#inclusion_patterns KendraDataSource#inclusion_patterns}.
 
 ---
 
@@ -3775,7 +3775,7 @@ public KendraDataSourceDataSourceConfigurationOneDriveConfigurationOneDriveUsers
 
 - *Type:* <a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationOneDriveConfigurationOneDriveUsers">KendraDataSourceDataSourceConfigurationOneDriveConfigurationOneDriveUsers</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#one_drive_users KendraDataSource#one_drive_users}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#one_drive_users KendraDataSource#one_drive_users}.
 
 ---
 
@@ -3787,7 +3787,7 @@ public java.lang.String getSecretArn();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#secret_arn KendraDataSource#secret_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#secret_arn KendraDataSource#secret_arn}.
 
 ---
 
@@ -3799,7 +3799,7 @@ public java.lang.String getTenantDomain();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#tenant_domain KendraDataSource#tenant_domain}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#tenant_domain KendraDataSource#tenant_domain}.
 
 ---
 
@@ -3821,9 +3821,9 @@ KendraDataSourceDataSourceConfigurationOneDriveConfigurationFieldMappings.builde
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationOneDriveConfigurationFieldMappings.property.dataSourceFieldName">dataSourceFieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationOneDriveConfigurationFieldMappings.property.dateFieldFormat">dateFieldFormat</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationOneDriveConfigurationFieldMappings.property.indexFieldName">indexFieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationOneDriveConfigurationFieldMappings.property.dataSourceFieldName">dataSourceFieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationOneDriveConfigurationFieldMappings.property.dateFieldFormat">dateFieldFormat</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationOneDriveConfigurationFieldMappings.property.indexFieldName">indexFieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}. |
 
 ---
 
@@ -3835,7 +3835,7 @@ public java.lang.String getDataSourceFieldName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}.
 
 ---
 
@@ -3847,7 +3847,7 @@ public java.lang.String getDateFieldFormat();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}.
 
 ---
 
@@ -3859,7 +3859,7 @@ public java.lang.String getIndexFieldName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}.
 
 ---
 
@@ -3880,8 +3880,8 @@ KendraDataSourceDataSourceConfigurationOneDriveConfigurationOneDriveUsers.builde
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationOneDriveConfigurationOneDriveUsers.property.oneDriveUserList">oneDriveUserList</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#one_drive_user_list KendraDataSource#one_drive_user_list}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationOneDriveConfigurationOneDriveUsers.property.oneDriveUserS3Path">oneDriveUserS3Path</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationOneDriveConfigurationOneDriveUsersOneDriveUserS3Path">KendraDataSourceDataSourceConfigurationOneDriveConfigurationOneDriveUsersOneDriveUserS3Path</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#one_drive_user_s3_path KendraDataSource#one_drive_user_s3_path}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationOneDriveConfigurationOneDriveUsers.property.oneDriveUserList">oneDriveUserList</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#one_drive_user_list KendraDataSource#one_drive_user_list}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationOneDriveConfigurationOneDriveUsers.property.oneDriveUserS3Path">oneDriveUserS3Path</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationOneDriveConfigurationOneDriveUsersOneDriveUserS3Path">KendraDataSourceDataSourceConfigurationOneDriveConfigurationOneDriveUsersOneDriveUserS3Path</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#one_drive_user_s3_path KendraDataSource#one_drive_user_s3_path}. |
 
 ---
 
@@ -3893,7 +3893,7 @@ public java.util.List<java.lang.String> getOneDriveUserList();
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#one_drive_user_list KendraDataSource#one_drive_user_list}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#one_drive_user_list KendraDataSource#one_drive_user_list}.
 
 ---
 
@@ -3905,7 +3905,7 @@ public KendraDataSourceDataSourceConfigurationOneDriveConfigurationOneDriveUsers
 
 - *Type:* <a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationOneDriveConfigurationOneDriveUsersOneDriveUserS3Path">KendraDataSourceDataSourceConfigurationOneDriveConfigurationOneDriveUsersOneDriveUserS3Path</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#one_drive_user_s3_path KendraDataSource#one_drive_user_s3_path}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#one_drive_user_s3_path KendraDataSource#one_drive_user_s3_path}.
 
 ---
 
@@ -3926,8 +3926,8 @@ KendraDataSourceDataSourceConfigurationOneDriveConfigurationOneDriveUsersOneDriv
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationOneDriveConfigurationOneDriveUsersOneDriveUserS3Path.property.bucket">bucket</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#bucket KendraDataSource#bucket}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationOneDriveConfigurationOneDriveUsersOneDriveUserS3Path.property.key">key</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#key KendraDataSource#key}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationOneDriveConfigurationOneDriveUsersOneDriveUserS3Path.property.bucket">bucket</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#bucket KendraDataSource#bucket}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationOneDriveConfigurationOneDriveUsersOneDriveUserS3Path.property.key">key</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#key KendraDataSource#key}. |
 
 ---
 
@@ -3939,7 +3939,7 @@ public java.lang.String getBucket();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#bucket KendraDataSource#bucket}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#bucket KendraDataSource#bucket}.
 
 ---
 
@@ -3951,7 +3951,7 @@ public java.lang.String getKey();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#key KendraDataSource#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#key KendraDataSource#key}.
 
 ---
 
@@ -3976,12 +3976,12 @@ KendraDataSourceDataSourceConfigurationS3Configuration.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationS3Configuration.property.accessControlListConfiguration">accessControlListConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationS3ConfigurationAccessControlListConfiguration">KendraDataSourceDataSourceConfigurationS3ConfigurationAccessControlListConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#access_control_list_configuration KendraDataSource#access_control_list_configuration}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationS3Configuration.property.bucketName">bucketName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#bucket_name KendraDataSource#bucket_name}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationS3Configuration.property.documentsMetadataConfiguration">documentsMetadataConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationS3ConfigurationDocumentsMetadataConfiguration">KendraDataSourceDataSourceConfigurationS3ConfigurationDocumentsMetadataConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#documents_metadata_configuration KendraDataSource#documents_metadata_configuration}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationS3Configuration.property.exclusionPatterns">exclusionPatterns</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#exclusion_patterns KendraDataSource#exclusion_patterns}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationS3Configuration.property.inclusionPatterns">inclusionPatterns</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#inclusion_patterns KendraDataSource#inclusion_patterns}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationS3Configuration.property.inclusionPrefixes">inclusionPrefixes</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#inclusion_prefixes KendraDataSource#inclusion_prefixes}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationS3Configuration.property.accessControlListConfiguration">accessControlListConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationS3ConfigurationAccessControlListConfiguration">KendraDataSourceDataSourceConfigurationS3ConfigurationAccessControlListConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#access_control_list_configuration KendraDataSource#access_control_list_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationS3Configuration.property.bucketName">bucketName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#bucket_name KendraDataSource#bucket_name}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationS3Configuration.property.documentsMetadataConfiguration">documentsMetadataConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationS3ConfigurationDocumentsMetadataConfiguration">KendraDataSourceDataSourceConfigurationS3ConfigurationDocumentsMetadataConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#documents_metadata_configuration KendraDataSource#documents_metadata_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationS3Configuration.property.exclusionPatterns">exclusionPatterns</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#exclusion_patterns KendraDataSource#exclusion_patterns}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationS3Configuration.property.inclusionPatterns">inclusionPatterns</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#inclusion_patterns KendraDataSource#inclusion_patterns}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationS3Configuration.property.inclusionPrefixes">inclusionPrefixes</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#inclusion_prefixes KendraDataSource#inclusion_prefixes}. |
 
 ---
 
@@ -3993,7 +3993,7 @@ public KendraDataSourceDataSourceConfigurationS3ConfigurationAccessControlListCo
 
 - *Type:* <a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationS3ConfigurationAccessControlListConfiguration">KendraDataSourceDataSourceConfigurationS3ConfigurationAccessControlListConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#access_control_list_configuration KendraDataSource#access_control_list_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#access_control_list_configuration KendraDataSource#access_control_list_configuration}.
 
 ---
 
@@ -4005,7 +4005,7 @@ public java.lang.String getBucketName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#bucket_name KendraDataSource#bucket_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#bucket_name KendraDataSource#bucket_name}.
 
 ---
 
@@ -4017,7 +4017,7 @@ public KendraDataSourceDataSourceConfigurationS3ConfigurationDocumentsMetadataCo
 
 - *Type:* <a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationS3ConfigurationDocumentsMetadataConfiguration">KendraDataSourceDataSourceConfigurationS3ConfigurationDocumentsMetadataConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#documents_metadata_configuration KendraDataSource#documents_metadata_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#documents_metadata_configuration KendraDataSource#documents_metadata_configuration}.
 
 ---
 
@@ -4029,7 +4029,7 @@ public java.util.List<java.lang.String> getExclusionPatterns();
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#exclusion_patterns KendraDataSource#exclusion_patterns}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#exclusion_patterns KendraDataSource#exclusion_patterns}.
 
 ---
 
@@ -4041,7 +4041,7 @@ public java.util.List<java.lang.String> getInclusionPatterns();
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#inclusion_patterns KendraDataSource#inclusion_patterns}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#inclusion_patterns KendraDataSource#inclusion_patterns}.
 
 ---
 
@@ -4053,7 +4053,7 @@ public java.util.List<java.lang.String> getInclusionPrefixes();
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#inclusion_prefixes KendraDataSource#inclusion_prefixes}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#inclusion_prefixes KendraDataSource#inclusion_prefixes}.
 
 ---
 
@@ -4073,7 +4073,7 @@ KendraDataSourceDataSourceConfigurationS3ConfigurationAccessControlListConfigura
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationS3ConfigurationAccessControlListConfiguration.property.keyPath">keyPath</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#key_path KendraDataSource#key_path}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationS3ConfigurationAccessControlListConfiguration.property.keyPath">keyPath</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#key_path KendraDataSource#key_path}. |
 
 ---
 
@@ -4085,7 +4085,7 @@ public java.lang.String getKeyPath();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#key_path KendraDataSource#key_path}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#key_path KendraDataSource#key_path}.
 
 ---
 
@@ -4105,7 +4105,7 @@ KendraDataSourceDataSourceConfigurationS3ConfigurationDocumentsMetadataConfigura
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationS3ConfigurationDocumentsMetadataConfiguration.property.s3Prefix">s3Prefix</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#s3_prefix KendraDataSource#s3_prefix}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationS3ConfigurationDocumentsMetadataConfiguration.property.s3Prefix">s3Prefix</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#s3_prefix KendraDataSource#s3_prefix}. |
 
 ---
 
@@ -4117,7 +4117,7 @@ public java.lang.String getS3Prefix();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#s3_prefix KendraDataSource#s3_prefix}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#s3_prefix KendraDataSource#s3_prefix}.
 
 ---
 
@@ -4145,15 +4145,15 @@ KendraDataSourceDataSourceConfigurationSalesforceConfiguration.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfiguration.property.chatterFeedConfiguration">chatterFeedConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationChatterFeedConfiguration">KendraDataSourceDataSourceConfigurationSalesforceConfigurationChatterFeedConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#chatter_feed_configuration KendraDataSource#chatter_feed_configuration}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfiguration.property.crawlAttachments">crawlAttachments</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#crawl_attachments KendraDataSource#crawl_attachments}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfiguration.property.excludeAttachmentFilePatterns">excludeAttachmentFilePatterns</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#exclude_attachment_file_patterns KendraDataSource#exclude_attachment_file_patterns}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfiguration.property.includeAttachmentFilePatterns">includeAttachmentFilePatterns</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#include_attachment_file_patterns KendraDataSource#include_attachment_file_patterns}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfiguration.property.knowledgeArticleConfiguration">knowledgeArticleConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfiguration">KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#knowledge_article_configuration KendraDataSource#knowledge_article_configuration}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfiguration.property.secretArn">secretArn</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#secret_arn KendraDataSource#secret_arn}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfiguration.property.serverUrl">serverUrl</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#server_url KendraDataSource#server_url}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfiguration.property.standardObjectAttachmentConfiguration">standardObjectAttachmentConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationStandardObjectAttachmentConfiguration">KendraDataSourceDataSourceConfigurationSalesforceConfigurationStandardObjectAttachmentConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#standard_object_attachment_configuration KendraDataSource#standard_object_attachment_configuration}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfiguration.property.standardObjectConfigurations">standardObjectConfigurations</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationStandardObjectConfigurations">KendraDataSourceDataSourceConfigurationSalesforceConfigurationStandardObjectConfigurations</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#standard_object_configurations KendraDataSource#standard_object_configurations}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfiguration.property.chatterFeedConfiguration">chatterFeedConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationChatterFeedConfiguration">KendraDataSourceDataSourceConfigurationSalesforceConfigurationChatterFeedConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#chatter_feed_configuration KendraDataSource#chatter_feed_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfiguration.property.crawlAttachments">crawlAttachments</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#crawl_attachments KendraDataSource#crawl_attachments}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfiguration.property.excludeAttachmentFilePatterns">excludeAttachmentFilePatterns</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#exclude_attachment_file_patterns KendraDataSource#exclude_attachment_file_patterns}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfiguration.property.includeAttachmentFilePatterns">includeAttachmentFilePatterns</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#include_attachment_file_patterns KendraDataSource#include_attachment_file_patterns}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfiguration.property.knowledgeArticleConfiguration">knowledgeArticleConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfiguration">KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#knowledge_article_configuration KendraDataSource#knowledge_article_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfiguration.property.secretArn">secretArn</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#secret_arn KendraDataSource#secret_arn}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfiguration.property.serverUrl">serverUrl</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#server_url KendraDataSource#server_url}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfiguration.property.standardObjectAttachmentConfiguration">standardObjectAttachmentConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationStandardObjectAttachmentConfiguration">KendraDataSourceDataSourceConfigurationSalesforceConfigurationStandardObjectAttachmentConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#standard_object_attachment_configuration KendraDataSource#standard_object_attachment_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfiguration.property.standardObjectConfigurations">standardObjectConfigurations</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationStandardObjectConfigurations">KendraDataSourceDataSourceConfigurationSalesforceConfigurationStandardObjectConfigurations</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#standard_object_configurations KendraDataSource#standard_object_configurations}. |
 
 ---
 
@@ -4165,7 +4165,7 @@ public KendraDataSourceDataSourceConfigurationSalesforceConfigurationChatterFeed
 
 - *Type:* <a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationChatterFeedConfiguration">KendraDataSourceDataSourceConfigurationSalesforceConfigurationChatterFeedConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#chatter_feed_configuration KendraDataSource#chatter_feed_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#chatter_feed_configuration KendraDataSource#chatter_feed_configuration}.
 
 ---
 
@@ -4177,7 +4177,7 @@ public java.lang.Boolean|IResolvable getCrawlAttachments();
 
 - *Type:* java.lang.Boolean|io.cdktn.cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#crawl_attachments KendraDataSource#crawl_attachments}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#crawl_attachments KendraDataSource#crawl_attachments}.
 
 ---
 
@@ -4189,7 +4189,7 @@ public java.util.List<java.lang.String> getExcludeAttachmentFilePatterns();
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#exclude_attachment_file_patterns KendraDataSource#exclude_attachment_file_patterns}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#exclude_attachment_file_patterns KendraDataSource#exclude_attachment_file_patterns}.
 
 ---
 
@@ -4201,7 +4201,7 @@ public java.util.List<java.lang.String> getIncludeAttachmentFilePatterns();
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#include_attachment_file_patterns KendraDataSource#include_attachment_file_patterns}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#include_attachment_file_patterns KendraDataSource#include_attachment_file_patterns}.
 
 ---
 
@@ -4213,7 +4213,7 @@ public KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeAr
 
 - *Type:* <a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfiguration">KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#knowledge_article_configuration KendraDataSource#knowledge_article_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#knowledge_article_configuration KendraDataSource#knowledge_article_configuration}.
 
 ---
 
@@ -4225,7 +4225,7 @@ public java.lang.String getSecretArn();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#secret_arn KendraDataSource#secret_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#secret_arn KendraDataSource#secret_arn}.
 
 ---
 
@@ -4237,7 +4237,7 @@ public java.lang.String getServerUrl();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#server_url KendraDataSource#server_url}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#server_url KendraDataSource#server_url}.
 
 ---
 
@@ -4249,7 +4249,7 @@ public KendraDataSourceDataSourceConfigurationSalesforceConfigurationStandardObj
 
 - *Type:* <a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationStandardObjectAttachmentConfiguration">KendraDataSourceDataSourceConfigurationSalesforceConfigurationStandardObjectAttachmentConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#standard_object_attachment_configuration KendraDataSource#standard_object_attachment_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#standard_object_attachment_configuration KendraDataSource#standard_object_attachment_configuration}.
 
 ---
 
@@ -4261,7 +4261,7 @@ public IResolvable|java.util.List<KendraDataSourceDataSourceConfigurationSalesfo
 
 - *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationStandardObjectConfigurations">KendraDataSourceDataSourceConfigurationSalesforceConfigurationStandardObjectConfigurations</a>>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#standard_object_configurations KendraDataSource#standard_object_configurations}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#standard_object_configurations KendraDataSource#standard_object_configurations}.
 
 ---
 
@@ -4284,10 +4284,10 @@ KendraDataSourceDataSourceConfigurationSalesforceConfigurationChatterFeedConfigu
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationChatterFeedConfiguration.property.documentDataFieldName">documentDataFieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#document_data_field_name KendraDataSource#document_data_field_name}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationChatterFeedConfiguration.property.documentTitleFieldName">documentTitleFieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#document_title_field_name KendraDataSource#document_title_field_name}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationChatterFeedConfiguration.property.fieldMappings">fieldMappings</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationChatterFeedConfigurationFieldMappings">KendraDataSourceDataSourceConfigurationSalesforceConfigurationChatterFeedConfigurationFieldMappings</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#field_mappings KendraDataSource#field_mappings}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationChatterFeedConfiguration.property.includeFilterTypes">includeFilterTypes</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#include_filter_types KendraDataSource#include_filter_types}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationChatterFeedConfiguration.property.documentDataFieldName">documentDataFieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#document_data_field_name KendraDataSource#document_data_field_name}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationChatterFeedConfiguration.property.documentTitleFieldName">documentTitleFieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#document_title_field_name KendraDataSource#document_title_field_name}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationChatterFeedConfiguration.property.fieldMappings">fieldMappings</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationChatterFeedConfigurationFieldMappings">KendraDataSourceDataSourceConfigurationSalesforceConfigurationChatterFeedConfigurationFieldMappings</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#field_mappings KendraDataSource#field_mappings}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationChatterFeedConfiguration.property.includeFilterTypes">includeFilterTypes</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#include_filter_types KendraDataSource#include_filter_types}. |
 
 ---
 
@@ -4299,7 +4299,7 @@ public java.lang.String getDocumentDataFieldName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#document_data_field_name KendraDataSource#document_data_field_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#document_data_field_name KendraDataSource#document_data_field_name}.
 
 ---
 
@@ -4311,7 +4311,7 @@ public java.lang.String getDocumentTitleFieldName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#document_title_field_name KendraDataSource#document_title_field_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#document_title_field_name KendraDataSource#document_title_field_name}.
 
 ---
 
@@ -4323,7 +4323,7 @@ public IResolvable|java.util.List<KendraDataSourceDataSourceConfigurationSalesfo
 
 - *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationChatterFeedConfigurationFieldMappings">KendraDataSourceDataSourceConfigurationSalesforceConfigurationChatterFeedConfigurationFieldMappings</a>>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#field_mappings KendraDataSource#field_mappings}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#field_mappings KendraDataSource#field_mappings}.
 
 ---
 
@@ -4335,7 +4335,7 @@ public java.util.List<java.lang.String> getIncludeFilterTypes();
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#include_filter_types KendraDataSource#include_filter_types}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#include_filter_types KendraDataSource#include_filter_types}.
 
 ---
 
@@ -4357,9 +4357,9 @@ KendraDataSourceDataSourceConfigurationSalesforceConfigurationChatterFeedConfigu
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationChatterFeedConfigurationFieldMappings.property.dataSourceFieldName">dataSourceFieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationChatterFeedConfigurationFieldMappings.property.dateFieldFormat">dateFieldFormat</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationChatterFeedConfigurationFieldMappings.property.indexFieldName">indexFieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationChatterFeedConfigurationFieldMappings.property.dataSourceFieldName">dataSourceFieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationChatterFeedConfigurationFieldMappings.property.dateFieldFormat">dateFieldFormat</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationChatterFeedConfigurationFieldMappings.property.indexFieldName">indexFieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}. |
 
 ---
 
@@ -4371,7 +4371,7 @@ public java.lang.String getDataSourceFieldName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}.
 
 ---
 
@@ -4383,7 +4383,7 @@ public java.lang.String getDateFieldFormat();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}.
 
 ---
 
@@ -4395,7 +4395,7 @@ public java.lang.String getIndexFieldName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}.
 
 ---
 
@@ -4417,9 +4417,9 @@ KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleCo
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfiguration.property.customKnowledgeArticleTypeConfigurations">customKnowledgeArticleTypeConfigurations</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfigurationCustomKnowledgeArticleTypeConfigurations">KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfigurationCustomKnowledgeArticleTypeConfigurations</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#custom_knowledge_article_type_configurations KendraDataSource#custom_knowledge_article_type_configurations}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfiguration.property.includedStates">includedStates</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#included_states KendraDataSource#included_states}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfiguration.property.standardKnowledgeArticleTypeConfiguration">standardKnowledgeArticleTypeConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfigurationStandardKnowledgeArticleTypeConfiguration">KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfigurationStandardKnowledgeArticleTypeConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#standard_knowledge_article_type_configuration KendraDataSource#standard_knowledge_article_type_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfiguration.property.customKnowledgeArticleTypeConfigurations">customKnowledgeArticleTypeConfigurations</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfigurationCustomKnowledgeArticleTypeConfigurations">KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfigurationCustomKnowledgeArticleTypeConfigurations</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#custom_knowledge_article_type_configurations KendraDataSource#custom_knowledge_article_type_configurations}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfiguration.property.includedStates">includedStates</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#included_states KendraDataSource#included_states}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfiguration.property.standardKnowledgeArticleTypeConfiguration">standardKnowledgeArticleTypeConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfigurationStandardKnowledgeArticleTypeConfiguration">KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfigurationStandardKnowledgeArticleTypeConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#standard_knowledge_article_type_configuration KendraDataSource#standard_knowledge_article_type_configuration}. |
 
 ---
 
@@ -4431,7 +4431,7 @@ public IResolvable|java.util.List<KendraDataSourceDataSourceConfigurationSalesfo
 
 - *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfigurationCustomKnowledgeArticleTypeConfigurations">KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfigurationCustomKnowledgeArticleTypeConfigurations</a>>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#custom_knowledge_article_type_configurations KendraDataSource#custom_knowledge_article_type_configurations}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#custom_knowledge_article_type_configurations KendraDataSource#custom_knowledge_article_type_configurations}.
 
 ---
 
@@ -4443,7 +4443,7 @@ public java.util.List<java.lang.String> getIncludedStates();
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#included_states KendraDataSource#included_states}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#included_states KendraDataSource#included_states}.
 
 ---
 
@@ -4455,7 +4455,7 @@ public KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeAr
 
 - *Type:* <a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfigurationStandardKnowledgeArticleTypeConfiguration">KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfigurationStandardKnowledgeArticleTypeConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#standard_knowledge_article_type_configuration KendraDataSource#standard_knowledge_article_type_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#standard_knowledge_article_type_configuration KendraDataSource#standard_knowledge_article_type_configuration}.
 
 ---
 
@@ -4478,10 +4478,10 @@ KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleCo
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfigurationCustomKnowledgeArticleTypeConfigurations.property.documentDataFieldName">documentDataFieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#document_data_field_name KendraDataSource#document_data_field_name}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfigurationCustomKnowledgeArticleTypeConfigurations.property.documentTitleFieldName">documentTitleFieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#document_title_field_name KendraDataSource#document_title_field_name}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfigurationCustomKnowledgeArticleTypeConfigurations.property.fieldMappings">fieldMappings</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfigurationCustomKnowledgeArticleTypeConfigurationsFieldMappings">KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfigurationCustomKnowledgeArticleTypeConfigurationsFieldMappings</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#field_mappings KendraDataSource#field_mappings}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfigurationCustomKnowledgeArticleTypeConfigurations.property.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#name KendraDataSource#name}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfigurationCustomKnowledgeArticleTypeConfigurations.property.documentDataFieldName">documentDataFieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#document_data_field_name KendraDataSource#document_data_field_name}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfigurationCustomKnowledgeArticleTypeConfigurations.property.documentTitleFieldName">documentTitleFieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#document_title_field_name KendraDataSource#document_title_field_name}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfigurationCustomKnowledgeArticleTypeConfigurations.property.fieldMappings">fieldMappings</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfigurationCustomKnowledgeArticleTypeConfigurationsFieldMappings">KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfigurationCustomKnowledgeArticleTypeConfigurationsFieldMappings</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#field_mappings KendraDataSource#field_mappings}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfigurationCustomKnowledgeArticleTypeConfigurations.property.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#name KendraDataSource#name}. |
 
 ---
 
@@ -4493,7 +4493,7 @@ public java.lang.String getDocumentDataFieldName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#document_data_field_name KendraDataSource#document_data_field_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#document_data_field_name KendraDataSource#document_data_field_name}.
 
 ---
 
@@ -4505,7 +4505,7 @@ public java.lang.String getDocumentTitleFieldName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#document_title_field_name KendraDataSource#document_title_field_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#document_title_field_name KendraDataSource#document_title_field_name}.
 
 ---
 
@@ -4517,7 +4517,7 @@ public IResolvable|java.util.List<KendraDataSourceDataSourceConfigurationSalesfo
 
 - *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfigurationCustomKnowledgeArticleTypeConfigurationsFieldMappings">KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfigurationCustomKnowledgeArticleTypeConfigurationsFieldMappings</a>>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#field_mappings KendraDataSource#field_mappings}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#field_mappings KendraDataSource#field_mappings}.
 
 ---
 
@@ -4529,7 +4529,7 @@ public java.lang.String getName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#name KendraDataSource#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#name KendraDataSource#name}.
 
 ---
 
@@ -4551,9 +4551,9 @@ KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleCo
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfigurationCustomKnowledgeArticleTypeConfigurationsFieldMappings.property.dataSourceFieldName">dataSourceFieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfigurationCustomKnowledgeArticleTypeConfigurationsFieldMappings.property.dateFieldFormat">dateFieldFormat</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfigurationCustomKnowledgeArticleTypeConfigurationsFieldMappings.property.indexFieldName">indexFieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfigurationCustomKnowledgeArticleTypeConfigurationsFieldMappings.property.dataSourceFieldName">dataSourceFieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfigurationCustomKnowledgeArticleTypeConfigurationsFieldMappings.property.dateFieldFormat">dateFieldFormat</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfigurationCustomKnowledgeArticleTypeConfigurationsFieldMappings.property.indexFieldName">indexFieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}. |
 
 ---
 
@@ -4565,7 +4565,7 @@ public java.lang.String getDataSourceFieldName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}.
 
 ---
 
@@ -4577,7 +4577,7 @@ public java.lang.String getDateFieldFormat();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}.
 
 ---
 
@@ -4589,7 +4589,7 @@ public java.lang.String getIndexFieldName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}.
 
 ---
 
@@ -4611,9 +4611,9 @@ KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleCo
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfigurationStandardKnowledgeArticleTypeConfiguration.property.documentDataFieldName">documentDataFieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#document_data_field_name KendraDataSource#document_data_field_name}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfigurationStandardKnowledgeArticleTypeConfiguration.property.documentTitleFieldName">documentTitleFieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#document_title_field_name KendraDataSource#document_title_field_name}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfigurationStandardKnowledgeArticleTypeConfiguration.property.fieldMappings">fieldMappings</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfigurationStandardKnowledgeArticleTypeConfigurationFieldMappings">KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfigurationStandardKnowledgeArticleTypeConfigurationFieldMappings</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#field_mappings KendraDataSource#field_mappings}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfigurationStandardKnowledgeArticleTypeConfiguration.property.documentDataFieldName">documentDataFieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#document_data_field_name KendraDataSource#document_data_field_name}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfigurationStandardKnowledgeArticleTypeConfiguration.property.documentTitleFieldName">documentTitleFieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#document_title_field_name KendraDataSource#document_title_field_name}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfigurationStandardKnowledgeArticleTypeConfiguration.property.fieldMappings">fieldMappings</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfigurationStandardKnowledgeArticleTypeConfigurationFieldMappings">KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfigurationStandardKnowledgeArticleTypeConfigurationFieldMappings</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#field_mappings KendraDataSource#field_mappings}. |
 
 ---
 
@@ -4625,7 +4625,7 @@ public java.lang.String getDocumentDataFieldName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#document_data_field_name KendraDataSource#document_data_field_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#document_data_field_name KendraDataSource#document_data_field_name}.
 
 ---
 
@@ -4637,7 +4637,7 @@ public java.lang.String getDocumentTitleFieldName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#document_title_field_name KendraDataSource#document_title_field_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#document_title_field_name KendraDataSource#document_title_field_name}.
 
 ---
 
@@ -4649,7 +4649,7 @@ public IResolvable|java.util.List<KendraDataSourceDataSourceConfigurationSalesfo
 
 - *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfigurationStandardKnowledgeArticleTypeConfigurationFieldMappings">KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfigurationStandardKnowledgeArticleTypeConfigurationFieldMappings</a>>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#field_mappings KendraDataSource#field_mappings}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#field_mappings KendraDataSource#field_mappings}.
 
 ---
 
@@ -4671,9 +4671,9 @@ KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleCo
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfigurationStandardKnowledgeArticleTypeConfigurationFieldMappings.property.dataSourceFieldName">dataSourceFieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfigurationStandardKnowledgeArticleTypeConfigurationFieldMappings.property.dateFieldFormat">dateFieldFormat</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfigurationStandardKnowledgeArticleTypeConfigurationFieldMappings.property.indexFieldName">indexFieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfigurationStandardKnowledgeArticleTypeConfigurationFieldMappings.property.dataSourceFieldName">dataSourceFieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfigurationStandardKnowledgeArticleTypeConfigurationFieldMappings.property.dateFieldFormat">dateFieldFormat</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfigurationStandardKnowledgeArticleTypeConfigurationFieldMappings.property.indexFieldName">indexFieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}. |
 
 ---
 
@@ -4685,7 +4685,7 @@ public java.lang.String getDataSourceFieldName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}.
 
 ---
 
@@ -4697,7 +4697,7 @@ public java.lang.String getDateFieldFormat();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}.
 
 ---
 
@@ -4709,7 +4709,7 @@ public java.lang.String getIndexFieldName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}.
 
 ---
 
@@ -4730,8 +4730,8 @@ KendraDataSourceDataSourceConfigurationSalesforceConfigurationStandardObjectAtta
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationStandardObjectAttachmentConfiguration.property.documentTitleFieldName">documentTitleFieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#document_title_field_name KendraDataSource#document_title_field_name}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationStandardObjectAttachmentConfiguration.property.fieldMappings">fieldMappings</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationStandardObjectAttachmentConfigurationFieldMappings">KendraDataSourceDataSourceConfigurationSalesforceConfigurationStandardObjectAttachmentConfigurationFieldMappings</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#field_mappings KendraDataSource#field_mappings}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationStandardObjectAttachmentConfiguration.property.documentTitleFieldName">documentTitleFieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#document_title_field_name KendraDataSource#document_title_field_name}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationStandardObjectAttachmentConfiguration.property.fieldMappings">fieldMappings</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationStandardObjectAttachmentConfigurationFieldMappings">KendraDataSourceDataSourceConfigurationSalesforceConfigurationStandardObjectAttachmentConfigurationFieldMappings</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#field_mappings KendraDataSource#field_mappings}. |
 
 ---
 
@@ -4743,7 +4743,7 @@ public java.lang.String getDocumentTitleFieldName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#document_title_field_name KendraDataSource#document_title_field_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#document_title_field_name KendraDataSource#document_title_field_name}.
 
 ---
 
@@ -4755,7 +4755,7 @@ public IResolvable|java.util.List<KendraDataSourceDataSourceConfigurationSalesfo
 
 - *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationStandardObjectAttachmentConfigurationFieldMappings">KendraDataSourceDataSourceConfigurationSalesforceConfigurationStandardObjectAttachmentConfigurationFieldMappings</a>>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#field_mappings KendraDataSource#field_mappings}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#field_mappings KendraDataSource#field_mappings}.
 
 ---
 
@@ -4777,9 +4777,9 @@ KendraDataSourceDataSourceConfigurationSalesforceConfigurationStandardObjectAtta
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationStandardObjectAttachmentConfigurationFieldMappings.property.dataSourceFieldName">dataSourceFieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationStandardObjectAttachmentConfigurationFieldMappings.property.dateFieldFormat">dateFieldFormat</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationStandardObjectAttachmentConfigurationFieldMappings.property.indexFieldName">indexFieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationStandardObjectAttachmentConfigurationFieldMappings.property.dataSourceFieldName">dataSourceFieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationStandardObjectAttachmentConfigurationFieldMappings.property.dateFieldFormat">dateFieldFormat</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationStandardObjectAttachmentConfigurationFieldMappings.property.indexFieldName">indexFieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}. |
 
 ---
 
@@ -4791,7 +4791,7 @@ public java.lang.String getDataSourceFieldName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}.
 
 ---
 
@@ -4803,7 +4803,7 @@ public java.lang.String getDateFieldFormat();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}.
 
 ---
 
@@ -4815,7 +4815,7 @@ public java.lang.String getIndexFieldName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}.
 
 ---
 
@@ -4838,10 +4838,10 @@ KendraDataSourceDataSourceConfigurationSalesforceConfigurationStandardObjectConf
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationStandardObjectConfigurations.property.documentDataFieldName">documentDataFieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#document_data_field_name KendraDataSource#document_data_field_name}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationStandardObjectConfigurations.property.documentTitleFieldName">documentTitleFieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#document_title_field_name KendraDataSource#document_title_field_name}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationStandardObjectConfigurations.property.fieldMappings">fieldMappings</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationStandardObjectConfigurationsFieldMappings">KendraDataSourceDataSourceConfigurationSalesforceConfigurationStandardObjectConfigurationsFieldMappings</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#field_mappings KendraDataSource#field_mappings}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationStandardObjectConfigurations.property.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#name KendraDataSource#name}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationStandardObjectConfigurations.property.documentDataFieldName">documentDataFieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#document_data_field_name KendraDataSource#document_data_field_name}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationStandardObjectConfigurations.property.documentTitleFieldName">documentTitleFieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#document_title_field_name KendraDataSource#document_title_field_name}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationStandardObjectConfigurations.property.fieldMappings">fieldMappings</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationStandardObjectConfigurationsFieldMappings">KendraDataSourceDataSourceConfigurationSalesforceConfigurationStandardObjectConfigurationsFieldMappings</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#field_mappings KendraDataSource#field_mappings}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationStandardObjectConfigurations.property.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#name KendraDataSource#name}. |
 
 ---
 
@@ -4853,7 +4853,7 @@ public java.lang.String getDocumentDataFieldName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#document_data_field_name KendraDataSource#document_data_field_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#document_data_field_name KendraDataSource#document_data_field_name}.
 
 ---
 
@@ -4865,7 +4865,7 @@ public java.lang.String getDocumentTitleFieldName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#document_title_field_name KendraDataSource#document_title_field_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#document_title_field_name KendraDataSource#document_title_field_name}.
 
 ---
 
@@ -4877,7 +4877,7 @@ public IResolvable|java.util.List<KendraDataSourceDataSourceConfigurationSalesfo
 
 - *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationStandardObjectConfigurationsFieldMappings">KendraDataSourceDataSourceConfigurationSalesforceConfigurationStandardObjectConfigurationsFieldMappings</a>>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#field_mappings KendraDataSource#field_mappings}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#field_mappings KendraDataSource#field_mappings}.
 
 ---
 
@@ -4889,7 +4889,7 @@ public java.lang.String getName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#name KendraDataSource#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#name KendraDataSource#name}.
 
 ---
 
@@ -4911,9 +4911,9 @@ KendraDataSourceDataSourceConfigurationSalesforceConfigurationStandardObjectConf
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationStandardObjectConfigurationsFieldMappings.property.dataSourceFieldName">dataSourceFieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationStandardObjectConfigurationsFieldMappings.property.dateFieldFormat">dateFieldFormat</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationStandardObjectConfigurationsFieldMappings.property.indexFieldName">indexFieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationStandardObjectConfigurationsFieldMappings.property.dataSourceFieldName">dataSourceFieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationStandardObjectConfigurationsFieldMappings.property.dateFieldFormat">dateFieldFormat</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSalesforceConfigurationStandardObjectConfigurationsFieldMappings.property.indexFieldName">indexFieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}. |
 
 ---
 
@@ -4925,7 +4925,7 @@ public java.lang.String getDataSourceFieldName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}.
 
 ---
 
@@ -4937,7 +4937,7 @@ public java.lang.String getDateFieldFormat();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}.
 
 ---
 
@@ -4949,7 +4949,7 @@ public java.lang.String getIndexFieldName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}.
 
 ---
 
@@ -4974,12 +4974,12 @@ KendraDataSourceDataSourceConfigurationServiceNowConfiguration.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationServiceNowConfiguration.property.authenticationType">authenticationType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#authentication_type KendraDataSource#authentication_type}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationServiceNowConfiguration.property.hostUrl">hostUrl</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#host_url KendraDataSource#host_url}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationServiceNowConfiguration.property.knowledgeArticleConfiguration">knowledgeArticleConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationServiceNowConfigurationKnowledgeArticleConfiguration">KendraDataSourceDataSourceConfigurationServiceNowConfigurationKnowledgeArticleConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#knowledge_article_configuration KendraDataSource#knowledge_article_configuration}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationServiceNowConfiguration.property.secretArn">secretArn</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#secret_arn KendraDataSource#secret_arn}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationServiceNowConfiguration.property.serviceCatalogConfiguration">serviceCatalogConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationServiceNowConfigurationServiceCatalogConfiguration">KendraDataSourceDataSourceConfigurationServiceNowConfigurationServiceCatalogConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#service_catalog_configuration KendraDataSource#service_catalog_configuration}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationServiceNowConfiguration.property.serviceNowBuildVersion">serviceNowBuildVersion</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#service_now_build_version KendraDataSource#service_now_build_version}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationServiceNowConfiguration.property.authenticationType">authenticationType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#authentication_type KendraDataSource#authentication_type}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationServiceNowConfiguration.property.hostUrl">hostUrl</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#host_url KendraDataSource#host_url}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationServiceNowConfiguration.property.knowledgeArticleConfiguration">knowledgeArticleConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationServiceNowConfigurationKnowledgeArticleConfiguration">KendraDataSourceDataSourceConfigurationServiceNowConfigurationKnowledgeArticleConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#knowledge_article_configuration KendraDataSource#knowledge_article_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationServiceNowConfiguration.property.secretArn">secretArn</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#secret_arn KendraDataSource#secret_arn}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationServiceNowConfiguration.property.serviceCatalogConfiguration">serviceCatalogConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationServiceNowConfigurationServiceCatalogConfiguration">KendraDataSourceDataSourceConfigurationServiceNowConfigurationServiceCatalogConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#service_catalog_configuration KendraDataSource#service_catalog_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationServiceNowConfiguration.property.serviceNowBuildVersion">serviceNowBuildVersion</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#service_now_build_version KendraDataSource#service_now_build_version}. |
 
 ---
 
@@ -4991,7 +4991,7 @@ public java.lang.String getAuthenticationType();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#authentication_type KendraDataSource#authentication_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#authentication_type KendraDataSource#authentication_type}.
 
 ---
 
@@ -5003,7 +5003,7 @@ public java.lang.String getHostUrl();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#host_url KendraDataSource#host_url}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#host_url KendraDataSource#host_url}.
 
 ---
 
@@ -5015,7 +5015,7 @@ public KendraDataSourceDataSourceConfigurationServiceNowConfigurationKnowledgeAr
 
 - *Type:* <a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationServiceNowConfigurationKnowledgeArticleConfiguration">KendraDataSourceDataSourceConfigurationServiceNowConfigurationKnowledgeArticleConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#knowledge_article_configuration KendraDataSource#knowledge_article_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#knowledge_article_configuration KendraDataSource#knowledge_article_configuration}.
 
 ---
 
@@ -5027,7 +5027,7 @@ public java.lang.String getSecretArn();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#secret_arn KendraDataSource#secret_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#secret_arn KendraDataSource#secret_arn}.
 
 ---
 
@@ -5039,7 +5039,7 @@ public KendraDataSourceDataSourceConfigurationServiceNowConfigurationServiceCata
 
 - *Type:* <a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationServiceNowConfigurationServiceCatalogConfiguration">KendraDataSourceDataSourceConfigurationServiceNowConfigurationServiceCatalogConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#service_catalog_configuration KendraDataSource#service_catalog_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#service_catalog_configuration KendraDataSource#service_catalog_configuration}.
 
 ---
 
@@ -5051,7 +5051,7 @@ public java.lang.String getServiceNowBuildVersion();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#service_now_build_version KendraDataSource#service_now_build_version}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#service_now_build_version KendraDataSource#service_now_build_version}.
 
 ---
 
@@ -5077,13 +5077,13 @@ KendraDataSourceDataSourceConfigurationServiceNowConfigurationKnowledgeArticleCo
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationServiceNowConfigurationKnowledgeArticleConfiguration.property.crawlAttachments">crawlAttachments</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#crawl_attachments KendraDataSource#crawl_attachments}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationServiceNowConfigurationKnowledgeArticleConfiguration.property.documentDataFieldName">documentDataFieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#document_data_field_name KendraDataSource#document_data_field_name}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationServiceNowConfigurationKnowledgeArticleConfiguration.property.documentTitleFieldName">documentTitleFieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#document_title_field_name KendraDataSource#document_title_field_name}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationServiceNowConfigurationKnowledgeArticleConfiguration.property.excludeAttachmentFilePatterns">excludeAttachmentFilePatterns</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#exclude_attachment_file_patterns KendraDataSource#exclude_attachment_file_patterns}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationServiceNowConfigurationKnowledgeArticleConfiguration.property.fieldMappings">fieldMappings</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationServiceNowConfigurationKnowledgeArticleConfigurationFieldMappings">KendraDataSourceDataSourceConfigurationServiceNowConfigurationKnowledgeArticleConfigurationFieldMappings</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#field_mappings KendraDataSource#field_mappings}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationServiceNowConfigurationKnowledgeArticleConfiguration.property.filterQuery">filterQuery</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#filter_query KendraDataSource#filter_query}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationServiceNowConfigurationKnowledgeArticleConfiguration.property.includeAttachmentFilePatterns">includeAttachmentFilePatterns</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#include_attachment_file_patterns KendraDataSource#include_attachment_file_patterns}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationServiceNowConfigurationKnowledgeArticleConfiguration.property.crawlAttachments">crawlAttachments</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#crawl_attachments KendraDataSource#crawl_attachments}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationServiceNowConfigurationKnowledgeArticleConfiguration.property.documentDataFieldName">documentDataFieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#document_data_field_name KendraDataSource#document_data_field_name}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationServiceNowConfigurationKnowledgeArticleConfiguration.property.documentTitleFieldName">documentTitleFieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#document_title_field_name KendraDataSource#document_title_field_name}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationServiceNowConfigurationKnowledgeArticleConfiguration.property.excludeAttachmentFilePatterns">excludeAttachmentFilePatterns</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#exclude_attachment_file_patterns KendraDataSource#exclude_attachment_file_patterns}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationServiceNowConfigurationKnowledgeArticleConfiguration.property.fieldMappings">fieldMappings</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationServiceNowConfigurationKnowledgeArticleConfigurationFieldMappings">KendraDataSourceDataSourceConfigurationServiceNowConfigurationKnowledgeArticleConfigurationFieldMappings</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#field_mappings KendraDataSource#field_mappings}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationServiceNowConfigurationKnowledgeArticleConfiguration.property.filterQuery">filterQuery</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#filter_query KendraDataSource#filter_query}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationServiceNowConfigurationKnowledgeArticleConfiguration.property.includeAttachmentFilePatterns">includeAttachmentFilePatterns</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#include_attachment_file_patterns KendraDataSource#include_attachment_file_patterns}. |
 
 ---
 
@@ -5095,7 +5095,7 @@ public java.lang.Boolean|IResolvable getCrawlAttachments();
 
 - *Type:* java.lang.Boolean|io.cdktn.cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#crawl_attachments KendraDataSource#crawl_attachments}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#crawl_attachments KendraDataSource#crawl_attachments}.
 
 ---
 
@@ -5107,7 +5107,7 @@ public java.lang.String getDocumentDataFieldName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#document_data_field_name KendraDataSource#document_data_field_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#document_data_field_name KendraDataSource#document_data_field_name}.
 
 ---
 
@@ -5119,7 +5119,7 @@ public java.lang.String getDocumentTitleFieldName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#document_title_field_name KendraDataSource#document_title_field_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#document_title_field_name KendraDataSource#document_title_field_name}.
 
 ---
 
@@ -5131,7 +5131,7 @@ public java.util.List<java.lang.String> getExcludeAttachmentFilePatterns();
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#exclude_attachment_file_patterns KendraDataSource#exclude_attachment_file_patterns}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#exclude_attachment_file_patterns KendraDataSource#exclude_attachment_file_patterns}.
 
 ---
 
@@ -5143,7 +5143,7 @@ public IResolvable|java.util.List<KendraDataSourceDataSourceConfigurationService
 
 - *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationServiceNowConfigurationKnowledgeArticleConfigurationFieldMappings">KendraDataSourceDataSourceConfigurationServiceNowConfigurationKnowledgeArticleConfigurationFieldMappings</a>>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#field_mappings KendraDataSource#field_mappings}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#field_mappings KendraDataSource#field_mappings}.
 
 ---
 
@@ -5155,7 +5155,7 @@ public java.lang.String getFilterQuery();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#filter_query KendraDataSource#filter_query}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#filter_query KendraDataSource#filter_query}.
 
 ---
 
@@ -5167,7 +5167,7 @@ public java.util.List<java.lang.String> getIncludeAttachmentFilePatterns();
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#include_attachment_file_patterns KendraDataSource#include_attachment_file_patterns}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#include_attachment_file_patterns KendraDataSource#include_attachment_file_patterns}.
 
 ---
 
@@ -5189,9 +5189,9 @@ KendraDataSourceDataSourceConfigurationServiceNowConfigurationKnowledgeArticleCo
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationServiceNowConfigurationKnowledgeArticleConfigurationFieldMappings.property.dataSourceFieldName">dataSourceFieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationServiceNowConfigurationKnowledgeArticleConfigurationFieldMappings.property.dateFieldFormat">dateFieldFormat</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationServiceNowConfigurationKnowledgeArticleConfigurationFieldMappings.property.indexFieldName">indexFieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationServiceNowConfigurationKnowledgeArticleConfigurationFieldMappings.property.dataSourceFieldName">dataSourceFieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationServiceNowConfigurationKnowledgeArticleConfigurationFieldMappings.property.dateFieldFormat">dateFieldFormat</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationServiceNowConfigurationKnowledgeArticleConfigurationFieldMappings.property.indexFieldName">indexFieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}. |
 
 ---
 
@@ -5203,7 +5203,7 @@ public java.lang.String getDataSourceFieldName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}.
 
 ---
 
@@ -5215,7 +5215,7 @@ public java.lang.String getDateFieldFormat();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}.
 
 ---
 
@@ -5227,7 +5227,7 @@ public java.lang.String getIndexFieldName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}.
 
 ---
 
@@ -5252,12 +5252,12 @@ KendraDataSourceDataSourceConfigurationServiceNowConfigurationServiceCatalogConf
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationServiceNowConfigurationServiceCatalogConfiguration.property.crawlAttachments">crawlAttachments</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#crawl_attachments KendraDataSource#crawl_attachments}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationServiceNowConfigurationServiceCatalogConfiguration.property.documentDataFieldName">documentDataFieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#document_data_field_name KendraDataSource#document_data_field_name}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationServiceNowConfigurationServiceCatalogConfiguration.property.documentTitleFieldName">documentTitleFieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#document_title_field_name KendraDataSource#document_title_field_name}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationServiceNowConfigurationServiceCatalogConfiguration.property.excludeAttachmentFilePatterns">excludeAttachmentFilePatterns</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#exclude_attachment_file_patterns KendraDataSource#exclude_attachment_file_patterns}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationServiceNowConfigurationServiceCatalogConfiguration.property.fieldMappings">fieldMappings</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationServiceNowConfigurationServiceCatalogConfigurationFieldMappings">KendraDataSourceDataSourceConfigurationServiceNowConfigurationServiceCatalogConfigurationFieldMappings</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#field_mappings KendraDataSource#field_mappings}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationServiceNowConfigurationServiceCatalogConfiguration.property.includeAttachmentFilePatterns">includeAttachmentFilePatterns</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#include_attachment_file_patterns KendraDataSource#include_attachment_file_patterns}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationServiceNowConfigurationServiceCatalogConfiguration.property.crawlAttachments">crawlAttachments</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#crawl_attachments KendraDataSource#crawl_attachments}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationServiceNowConfigurationServiceCatalogConfiguration.property.documentDataFieldName">documentDataFieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#document_data_field_name KendraDataSource#document_data_field_name}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationServiceNowConfigurationServiceCatalogConfiguration.property.documentTitleFieldName">documentTitleFieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#document_title_field_name KendraDataSource#document_title_field_name}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationServiceNowConfigurationServiceCatalogConfiguration.property.excludeAttachmentFilePatterns">excludeAttachmentFilePatterns</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#exclude_attachment_file_patterns KendraDataSource#exclude_attachment_file_patterns}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationServiceNowConfigurationServiceCatalogConfiguration.property.fieldMappings">fieldMappings</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationServiceNowConfigurationServiceCatalogConfigurationFieldMappings">KendraDataSourceDataSourceConfigurationServiceNowConfigurationServiceCatalogConfigurationFieldMappings</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#field_mappings KendraDataSource#field_mappings}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationServiceNowConfigurationServiceCatalogConfiguration.property.includeAttachmentFilePatterns">includeAttachmentFilePatterns</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#include_attachment_file_patterns KendraDataSource#include_attachment_file_patterns}. |
 
 ---
 
@@ -5269,7 +5269,7 @@ public java.lang.Boolean|IResolvable getCrawlAttachments();
 
 - *Type:* java.lang.Boolean|io.cdktn.cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#crawl_attachments KendraDataSource#crawl_attachments}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#crawl_attachments KendraDataSource#crawl_attachments}.
 
 ---
 
@@ -5281,7 +5281,7 @@ public java.lang.String getDocumentDataFieldName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#document_data_field_name KendraDataSource#document_data_field_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#document_data_field_name KendraDataSource#document_data_field_name}.
 
 ---
 
@@ -5293,7 +5293,7 @@ public java.lang.String getDocumentTitleFieldName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#document_title_field_name KendraDataSource#document_title_field_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#document_title_field_name KendraDataSource#document_title_field_name}.
 
 ---
 
@@ -5305,7 +5305,7 @@ public java.util.List<java.lang.String> getExcludeAttachmentFilePatterns();
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#exclude_attachment_file_patterns KendraDataSource#exclude_attachment_file_patterns}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#exclude_attachment_file_patterns KendraDataSource#exclude_attachment_file_patterns}.
 
 ---
 
@@ -5317,7 +5317,7 @@ public IResolvable|java.util.List<KendraDataSourceDataSourceConfigurationService
 
 - *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationServiceNowConfigurationServiceCatalogConfigurationFieldMappings">KendraDataSourceDataSourceConfigurationServiceNowConfigurationServiceCatalogConfigurationFieldMappings</a>>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#field_mappings KendraDataSource#field_mappings}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#field_mappings KendraDataSource#field_mappings}.
 
 ---
 
@@ -5329,7 +5329,7 @@ public java.util.List<java.lang.String> getIncludeAttachmentFilePatterns();
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#include_attachment_file_patterns KendraDataSource#include_attachment_file_patterns}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#include_attachment_file_patterns KendraDataSource#include_attachment_file_patterns}.
 
 ---
 
@@ -5351,9 +5351,9 @@ KendraDataSourceDataSourceConfigurationServiceNowConfigurationServiceCatalogConf
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationServiceNowConfigurationServiceCatalogConfigurationFieldMappings.property.dataSourceFieldName">dataSourceFieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationServiceNowConfigurationServiceCatalogConfigurationFieldMappings.property.dateFieldFormat">dateFieldFormat</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationServiceNowConfigurationServiceCatalogConfigurationFieldMappings.property.indexFieldName">indexFieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationServiceNowConfigurationServiceCatalogConfigurationFieldMappings.property.dataSourceFieldName">dataSourceFieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationServiceNowConfigurationServiceCatalogConfigurationFieldMappings.property.dateFieldFormat">dateFieldFormat</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationServiceNowConfigurationServiceCatalogConfigurationFieldMappings.property.indexFieldName">indexFieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}. |
 
 ---
 
@@ -5365,7 +5365,7 @@ public java.lang.String getDataSourceFieldName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}.
 
 ---
 
@@ -5377,7 +5377,7 @@ public java.lang.String getDateFieldFormat();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}.
 
 ---
 
@@ -5389,7 +5389,7 @@ public java.lang.String getIndexFieldName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}.
 
 ---
 
@@ -5420,18 +5420,18 @@ KendraDataSourceDataSourceConfigurationSharePointConfiguration.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSharePointConfiguration.property.crawlAttachments">crawlAttachments</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#crawl_attachments KendraDataSource#crawl_attachments}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSharePointConfiguration.property.disableLocalGroups">disableLocalGroups</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#disable_local_groups KendraDataSource#disable_local_groups}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSharePointConfiguration.property.documentTitleFieldName">documentTitleFieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#document_title_field_name KendraDataSource#document_title_field_name}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSharePointConfiguration.property.exclusionPatterns">exclusionPatterns</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#exclusion_patterns KendraDataSource#exclusion_patterns}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSharePointConfiguration.property.fieldMappings">fieldMappings</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSharePointConfigurationFieldMappings">KendraDataSourceDataSourceConfigurationSharePointConfigurationFieldMappings</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#field_mappings KendraDataSource#field_mappings}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSharePointConfiguration.property.inclusionPatterns">inclusionPatterns</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#inclusion_patterns KendraDataSource#inclusion_patterns}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSharePointConfiguration.property.secretArn">secretArn</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#secret_arn KendraDataSource#secret_arn}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSharePointConfiguration.property.sharePointVersion">sharePointVersion</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#share_point_version KendraDataSource#share_point_version}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSharePointConfiguration.property.sslCertificateS3Path">sslCertificateS3Path</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSharePointConfigurationSslCertificateS3Path">KendraDataSourceDataSourceConfigurationSharePointConfigurationSslCertificateS3Path</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#ssl_certificate_s3_path KendraDataSource#ssl_certificate_s3_path}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSharePointConfiguration.property.urls">urls</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#urls KendraDataSource#urls}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSharePointConfiguration.property.useChangeLog">useChangeLog</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#use_change_log KendraDataSource#use_change_log}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSharePointConfiguration.property.vpcConfiguration">vpcConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSharePointConfigurationVpcConfiguration">KendraDataSourceDataSourceConfigurationSharePointConfigurationVpcConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#vpc_configuration KendraDataSource#vpc_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSharePointConfiguration.property.crawlAttachments">crawlAttachments</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#crawl_attachments KendraDataSource#crawl_attachments}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSharePointConfiguration.property.disableLocalGroups">disableLocalGroups</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#disable_local_groups KendraDataSource#disable_local_groups}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSharePointConfiguration.property.documentTitleFieldName">documentTitleFieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#document_title_field_name KendraDataSource#document_title_field_name}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSharePointConfiguration.property.exclusionPatterns">exclusionPatterns</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#exclusion_patterns KendraDataSource#exclusion_patterns}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSharePointConfiguration.property.fieldMappings">fieldMappings</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSharePointConfigurationFieldMappings">KendraDataSourceDataSourceConfigurationSharePointConfigurationFieldMappings</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#field_mappings KendraDataSource#field_mappings}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSharePointConfiguration.property.inclusionPatterns">inclusionPatterns</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#inclusion_patterns KendraDataSource#inclusion_patterns}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSharePointConfiguration.property.secretArn">secretArn</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#secret_arn KendraDataSource#secret_arn}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSharePointConfiguration.property.sharePointVersion">sharePointVersion</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#share_point_version KendraDataSource#share_point_version}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSharePointConfiguration.property.sslCertificateS3Path">sslCertificateS3Path</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSharePointConfigurationSslCertificateS3Path">KendraDataSourceDataSourceConfigurationSharePointConfigurationSslCertificateS3Path</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#ssl_certificate_s3_path KendraDataSource#ssl_certificate_s3_path}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSharePointConfiguration.property.urls">urls</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#urls KendraDataSource#urls}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSharePointConfiguration.property.useChangeLog">useChangeLog</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#use_change_log KendraDataSource#use_change_log}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSharePointConfiguration.property.vpcConfiguration">vpcConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSharePointConfigurationVpcConfiguration">KendraDataSourceDataSourceConfigurationSharePointConfigurationVpcConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#vpc_configuration KendraDataSource#vpc_configuration}. |
 
 ---
 
@@ -5443,7 +5443,7 @@ public java.lang.Boolean|IResolvable getCrawlAttachments();
 
 - *Type:* java.lang.Boolean|io.cdktn.cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#crawl_attachments KendraDataSource#crawl_attachments}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#crawl_attachments KendraDataSource#crawl_attachments}.
 
 ---
 
@@ -5455,7 +5455,7 @@ public java.lang.Boolean|IResolvable getDisableLocalGroups();
 
 - *Type:* java.lang.Boolean|io.cdktn.cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#disable_local_groups KendraDataSource#disable_local_groups}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#disable_local_groups KendraDataSource#disable_local_groups}.
 
 ---
 
@@ -5467,7 +5467,7 @@ public java.lang.String getDocumentTitleFieldName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#document_title_field_name KendraDataSource#document_title_field_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#document_title_field_name KendraDataSource#document_title_field_name}.
 
 ---
 
@@ -5479,7 +5479,7 @@ public java.util.List<java.lang.String> getExclusionPatterns();
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#exclusion_patterns KendraDataSource#exclusion_patterns}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#exclusion_patterns KendraDataSource#exclusion_patterns}.
 
 ---
 
@@ -5491,7 +5491,7 @@ public IResolvable|java.util.List<KendraDataSourceDataSourceConfigurationSharePo
 
 - *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSharePointConfigurationFieldMappings">KendraDataSourceDataSourceConfigurationSharePointConfigurationFieldMappings</a>>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#field_mappings KendraDataSource#field_mappings}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#field_mappings KendraDataSource#field_mappings}.
 
 ---
 
@@ -5503,7 +5503,7 @@ public java.util.List<java.lang.String> getInclusionPatterns();
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#inclusion_patterns KendraDataSource#inclusion_patterns}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#inclusion_patterns KendraDataSource#inclusion_patterns}.
 
 ---
 
@@ -5515,7 +5515,7 @@ public java.lang.String getSecretArn();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#secret_arn KendraDataSource#secret_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#secret_arn KendraDataSource#secret_arn}.
 
 ---
 
@@ -5527,7 +5527,7 @@ public java.lang.String getSharePointVersion();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#share_point_version KendraDataSource#share_point_version}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#share_point_version KendraDataSource#share_point_version}.
 
 ---
 
@@ -5539,7 +5539,7 @@ public KendraDataSourceDataSourceConfigurationSharePointConfigurationSslCertific
 
 - *Type:* <a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSharePointConfigurationSslCertificateS3Path">KendraDataSourceDataSourceConfigurationSharePointConfigurationSslCertificateS3Path</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#ssl_certificate_s3_path KendraDataSource#ssl_certificate_s3_path}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#ssl_certificate_s3_path KendraDataSource#ssl_certificate_s3_path}.
 
 ---
 
@@ -5551,7 +5551,7 @@ public java.util.List<java.lang.String> getUrls();
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#urls KendraDataSource#urls}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#urls KendraDataSource#urls}.
 
 ---
 
@@ -5563,7 +5563,7 @@ public java.lang.Boolean|IResolvable getUseChangeLog();
 
 - *Type:* java.lang.Boolean|io.cdktn.cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#use_change_log KendraDataSource#use_change_log}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#use_change_log KendraDataSource#use_change_log}.
 
 ---
 
@@ -5575,7 +5575,7 @@ public KendraDataSourceDataSourceConfigurationSharePointConfigurationVpcConfigur
 
 - *Type:* <a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSharePointConfigurationVpcConfiguration">KendraDataSourceDataSourceConfigurationSharePointConfigurationVpcConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#vpc_configuration KendraDataSource#vpc_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#vpc_configuration KendraDataSource#vpc_configuration}.
 
 ---
 
@@ -5597,9 +5597,9 @@ KendraDataSourceDataSourceConfigurationSharePointConfigurationFieldMappings.buil
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSharePointConfigurationFieldMappings.property.dataSourceFieldName">dataSourceFieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSharePointConfigurationFieldMappings.property.dateFieldFormat">dateFieldFormat</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSharePointConfigurationFieldMappings.property.indexFieldName">indexFieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSharePointConfigurationFieldMappings.property.dataSourceFieldName">dataSourceFieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSharePointConfigurationFieldMappings.property.dateFieldFormat">dateFieldFormat</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSharePointConfigurationFieldMappings.property.indexFieldName">indexFieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}. |
 
 ---
 
@@ -5611,7 +5611,7 @@ public java.lang.String getDataSourceFieldName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}.
 
 ---
 
@@ -5623,7 +5623,7 @@ public java.lang.String getDateFieldFormat();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}.
 
 ---
 
@@ -5635,7 +5635,7 @@ public java.lang.String getIndexFieldName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}.
 
 ---
 
@@ -5656,8 +5656,8 @@ KendraDataSourceDataSourceConfigurationSharePointConfigurationSslCertificateS3Pa
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSharePointConfigurationSslCertificateS3Path.property.bucket">bucket</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#bucket KendraDataSource#bucket}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSharePointConfigurationSslCertificateS3Path.property.key">key</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#key KendraDataSource#key}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSharePointConfigurationSslCertificateS3Path.property.bucket">bucket</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#bucket KendraDataSource#bucket}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSharePointConfigurationSslCertificateS3Path.property.key">key</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#key KendraDataSource#key}. |
 
 ---
 
@@ -5669,7 +5669,7 @@ public java.lang.String getBucket();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#bucket KendraDataSource#bucket}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#bucket KendraDataSource#bucket}.
 
 ---
 
@@ -5681,7 +5681,7 @@ public java.lang.String getKey();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#key KendraDataSource#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#key KendraDataSource#key}.
 
 ---
 
@@ -5702,8 +5702,8 @@ KendraDataSourceDataSourceConfigurationSharePointConfigurationVpcConfiguration.b
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSharePointConfigurationVpcConfiguration.property.securityGroupIds">securityGroupIds</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#security_group_ids KendraDataSource#security_group_ids}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSharePointConfigurationVpcConfiguration.property.subnetIds">subnetIds</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#subnet_ids KendraDataSource#subnet_ids}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSharePointConfigurationVpcConfiguration.property.securityGroupIds">securityGroupIds</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#security_group_ids KendraDataSource#security_group_ids}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationSharePointConfigurationVpcConfiguration.property.subnetIds">subnetIds</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#subnet_ids KendraDataSource#subnet_ids}. |
 
 ---
 
@@ -5715,7 +5715,7 @@ public java.util.List<java.lang.String> getSecurityGroupIds();
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#security_group_ids KendraDataSource#security_group_ids}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#security_group_ids KendraDataSource#security_group_ids}.
 
 ---
 
@@ -5727,7 +5727,7 @@ public java.util.List<java.lang.String> getSubnetIds();
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#subnet_ids KendraDataSource#subnet_ids}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#subnet_ids KendraDataSource#subnet_ids}.
 
 ---
 
@@ -5747,7 +5747,7 @@ KendraDataSourceDataSourceConfigurationTemplateConfiguration.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationTemplateConfiguration.property.template">template</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#template KendraDataSource#template}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationTemplateConfiguration.property.template">template</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#template KendraDataSource#template}. |
 
 ---
 
@@ -5759,7 +5759,7 @@ public java.lang.String getTemplate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#template KendraDataSource#template}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#template KendraDataSource#template}.
 
 ---
 
@@ -5787,15 +5787,15 @@ KendraDataSourceDataSourceConfigurationWebCrawlerConfiguration.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationWebCrawlerConfiguration.property.authenticationConfiguration">authenticationConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationAuthenticationConfiguration">KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationAuthenticationConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#authentication_configuration KendraDataSource#authentication_configuration}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationWebCrawlerConfiguration.property.crawlDepth">crawlDepth</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#crawl_depth KendraDataSource#crawl_depth}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationWebCrawlerConfiguration.property.maxContentSizePerPageInMegaBytes">maxContentSizePerPageInMegaBytes</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#max_content_size_per_page_in_mega_bytes KendraDataSource#max_content_size_per_page_in_mega_bytes}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationWebCrawlerConfiguration.property.maxLinksPerPage">maxLinksPerPage</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#max_links_per_page KendraDataSource#max_links_per_page}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationWebCrawlerConfiguration.property.maxUrlsPerMinuteCrawlRate">maxUrlsPerMinuteCrawlRate</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#max_urls_per_minute_crawl_rate KendraDataSource#max_urls_per_minute_crawl_rate}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationWebCrawlerConfiguration.property.proxyConfiguration">proxyConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationProxyConfiguration">KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationProxyConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#proxy_configuration KendraDataSource#proxy_configuration}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationWebCrawlerConfiguration.property.urlExclusionPatterns">urlExclusionPatterns</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#url_exclusion_patterns KendraDataSource#url_exclusion_patterns}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationWebCrawlerConfiguration.property.urlInclusionPatterns">urlInclusionPatterns</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#url_inclusion_patterns KendraDataSource#url_inclusion_patterns}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationWebCrawlerConfiguration.property.urls">urls</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationUrls">KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationUrls</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#urls KendraDataSource#urls}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationWebCrawlerConfiguration.property.authenticationConfiguration">authenticationConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationAuthenticationConfiguration">KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationAuthenticationConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#authentication_configuration KendraDataSource#authentication_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationWebCrawlerConfiguration.property.crawlDepth">crawlDepth</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#crawl_depth KendraDataSource#crawl_depth}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationWebCrawlerConfiguration.property.maxContentSizePerPageInMegaBytes">maxContentSizePerPageInMegaBytes</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#max_content_size_per_page_in_mega_bytes KendraDataSource#max_content_size_per_page_in_mega_bytes}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationWebCrawlerConfiguration.property.maxLinksPerPage">maxLinksPerPage</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#max_links_per_page KendraDataSource#max_links_per_page}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationWebCrawlerConfiguration.property.maxUrlsPerMinuteCrawlRate">maxUrlsPerMinuteCrawlRate</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#max_urls_per_minute_crawl_rate KendraDataSource#max_urls_per_minute_crawl_rate}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationWebCrawlerConfiguration.property.proxyConfiguration">proxyConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationProxyConfiguration">KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationProxyConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#proxy_configuration KendraDataSource#proxy_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationWebCrawlerConfiguration.property.urlExclusionPatterns">urlExclusionPatterns</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#url_exclusion_patterns KendraDataSource#url_exclusion_patterns}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationWebCrawlerConfiguration.property.urlInclusionPatterns">urlInclusionPatterns</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#url_inclusion_patterns KendraDataSource#url_inclusion_patterns}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationWebCrawlerConfiguration.property.urls">urls</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationUrls">KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationUrls</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#urls KendraDataSource#urls}. |
 
 ---
 
@@ -5807,7 +5807,7 @@ public KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationAuthenticat
 
 - *Type:* <a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationAuthenticationConfiguration">KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationAuthenticationConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#authentication_configuration KendraDataSource#authentication_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#authentication_configuration KendraDataSource#authentication_configuration}.
 
 ---
 
@@ -5819,7 +5819,7 @@ public java.lang.Number getCrawlDepth();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#crawl_depth KendraDataSource#crawl_depth}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#crawl_depth KendraDataSource#crawl_depth}.
 
 ---
 
@@ -5831,7 +5831,7 @@ public java.lang.Number getMaxContentSizePerPageInMegaBytes();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#max_content_size_per_page_in_mega_bytes KendraDataSource#max_content_size_per_page_in_mega_bytes}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#max_content_size_per_page_in_mega_bytes KendraDataSource#max_content_size_per_page_in_mega_bytes}.
 
 ---
 
@@ -5843,7 +5843,7 @@ public java.lang.Number getMaxLinksPerPage();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#max_links_per_page KendraDataSource#max_links_per_page}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#max_links_per_page KendraDataSource#max_links_per_page}.
 
 ---
 
@@ -5855,7 +5855,7 @@ public java.lang.Number getMaxUrlsPerMinuteCrawlRate();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#max_urls_per_minute_crawl_rate KendraDataSource#max_urls_per_minute_crawl_rate}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#max_urls_per_minute_crawl_rate KendraDataSource#max_urls_per_minute_crawl_rate}.
 
 ---
 
@@ -5867,7 +5867,7 @@ public KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationProxyConfig
 
 - *Type:* <a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationProxyConfiguration">KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationProxyConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#proxy_configuration KendraDataSource#proxy_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#proxy_configuration KendraDataSource#proxy_configuration}.
 
 ---
 
@@ -5879,7 +5879,7 @@ public java.util.List<java.lang.String> getUrlExclusionPatterns();
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#url_exclusion_patterns KendraDataSource#url_exclusion_patterns}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#url_exclusion_patterns KendraDataSource#url_exclusion_patterns}.
 
 ---
 
@@ -5891,7 +5891,7 @@ public java.util.List<java.lang.String> getUrlInclusionPatterns();
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#url_inclusion_patterns KendraDataSource#url_inclusion_patterns}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#url_inclusion_patterns KendraDataSource#url_inclusion_patterns}.
 
 ---
 
@@ -5903,7 +5903,7 @@ public KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationUrls getUrl
 
 - *Type:* <a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationUrls">KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationUrls</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#urls KendraDataSource#urls}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#urls KendraDataSource#urls}.
 
 ---
 
@@ -5923,7 +5923,7 @@ KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationAuthenticationConf
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationAuthenticationConfiguration.property.basicAuthentication">basicAuthentication</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationAuthenticationConfigurationBasicAuthentication">KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationAuthenticationConfigurationBasicAuthentication</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#basic_authentication KendraDataSource#basic_authentication}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationAuthenticationConfiguration.property.basicAuthentication">basicAuthentication</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationAuthenticationConfigurationBasicAuthentication">KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationAuthenticationConfigurationBasicAuthentication</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#basic_authentication KendraDataSource#basic_authentication}. |
 
 ---
 
@@ -5935,7 +5935,7 @@ public IResolvable|java.util.List<KendraDataSourceDataSourceConfigurationWebCraw
 
 - *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationAuthenticationConfigurationBasicAuthentication">KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationAuthenticationConfigurationBasicAuthentication</a>>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#basic_authentication KendraDataSource#basic_authentication}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#basic_authentication KendraDataSource#basic_authentication}.
 
 ---
 
@@ -5957,9 +5957,9 @@ KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationAuthenticationConf
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationAuthenticationConfigurationBasicAuthentication.property.credentials">credentials</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#credentials KendraDataSource#credentials}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationAuthenticationConfigurationBasicAuthentication.property.host">host</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#host KendraDataSource#host}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationAuthenticationConfigurationBasicAuthentication.property.port">port</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#port KendraDataSource#port}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationAuthenticationConfigurationBasicAuthentication.property.credentials">credentials</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#credentials KendraDataSource#credentials}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationAuthenticationConfigurationBasicAuthentication.property.host">host</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#host KendraDataSource#host}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationAuthenticationConfigurationBasicAuthentication.property.port">port</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#port KendraDataSource#port}. |
 
 ---
 
@@ -5971,7 +5971,7 @@ public java.lang.String getCredentials();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#credentials KendraDataSource#credentials}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#credentials KendraDataSource#credentials}.
 
 ---
 
@@ -5983,7 +5983,7 @@ public java.lang.String getHost();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#host KendraDataSource#host}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#host KendraDataSource#host}.
 
 ---
 
@@ -5995,7 +5995,7 @@ public java.lang.Number getPort();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#port KendraDataSource#port}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#port KendraDataSource#port}.
 
 ---
 
@@ -6017,9 +6017,9 @@ KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationProxyConfiguration
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationProxyConfiguration.property.credentials">credentials</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#credentials KendraDataSource#credentials}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationProxyConfiguration.property.host">host</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#host KendraDataSource#host}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationProxyConfiguration.property.port">port</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#port KendraDataSource#port}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationProxyConfiguration.property.credentials">credentials</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#credentials KendraDataSource#credentials}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationProxyConfiguration.property.host">host</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#host KendraDataSource#host}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationProxyConfiguration.property.port">port</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#port KendraDataSource#port}. |
 
 ---
 
@@ -6031,7 +6031,7 @@ public java.lang.String getCredentials();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#credentials KendraDataSource#credentials}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#credentials KendraDataSource#credentials}.
 
 ---
 
@@ -6043,7 +6043,7 @@ public java.lang.String getHost();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#host KendraDataSource#host}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#host KendraDataSource#host}.
 
 ---
 
@@ -6055,7 +6055,7 @@ public java.lang.Number getPort();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#port KendraDataSource#port}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#port KendraDataSource#port}.
 
 ---
 
@@ -6076,8 +6076,8 @@ KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationUrls.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationUrls.property.seedUrlConfiguration">seedUrlConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationUrlsSeedUrlConfiguration">KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationUrlsSeedUrlConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#seed_url_configuration KendraDataSource#seed_url_configuration}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationUrls.property.siteMapsConfiguration">siteMapsConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationUrlsSiteMapsConfiguration">KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationUrlsSiteMapsConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#site_maps_configuration KendraDataSource#site_maps_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationUrls.property.seedUrlConfiguration">seedUrlConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationUrlsSeedUrlConfiguration">KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationUrlsSeedUrlConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#seed_url_configuration KendraDataSource#seed_url_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationUrls.property.siteMapsConfiguration">siteMapsConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationUrlsSiteMapsConfiguration">KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationUrlsSiteMapsConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#site_maps_configuration KendraDataSource#site_maps_configuration}. |
 
 ---
 
@@ -6089,7 +6089,7 @@ public KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationUrlsSeedUrl
 
 - *Type:* <a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationUrlsSeedUrlConfiguration">KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationUrlsSeedUrlConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#seed_url_configuration KendraDataSource#seed_url_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#seed_url_configuration KendraDataSource#seed_url_configuration}.
 
 ---
 
@@ -6101,7 +6101,7 @@ public KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationUrlsSiteMap
 
 - *Type:* <a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationUrlsSiteMapsConfiguration">KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationUrlsSiteMapsConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#site_maps_configuration KendraDataSource#site_maps_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#site_maps_configuration KendraDataSource#site_maps_configuration}.
 
 ---
 
@@ -6122,8 +6122,8 @@ KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationUrlsSeedUrlConfigu
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationUrlsSeedUrlConfiguration.property.seedUrls">seedUrls</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#seed_urls KendraDataSource#seed_urls}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationUrlsSeedUrlConfiguration.property.webCrawlerMode">webCrawlerMode</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#web_crawler_mode KendraDataSource#web_crawler_mode}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationUrlsSeedUrlConfiguration.property.seedUrls">seedUrls</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#seed_urls KendraDataSource#seed_urls}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationUrlsSeedUrlConfiguration.property.webCrawlerMode">webCrawlerMode</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#web_crawler_mode KendraDataSource#web_crawler_mode}. |
 
 ---
 
@@ -6135,7 +6135,7 @@ public java.util.List<java.lang.String> getSeedUrls();
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#seed_urls KendraDataSource#seed_urls}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#seed_urls KendraDataSource#seed_urls}.
 
 ---
 
@@ -6147,7 +6147,7 @@ public java.lang.String getWebCrawlerMode();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#web_crawler_mode KendraDataSource#web_crawler_mode}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#web_crawler_mode KendraDataSource#web_crawler_mode}.
 
 ---
 
@@ -6167,7 +6167,7 @@ KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationUrlsSiteMapsConfig
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationUrlsSiteMapsConfiguration.property.siteMaps">siteMaps</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#site_maps KendraDataSource#site_maps}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationUrlsSiteMapsConfiguration.property.siteMaps">siteMaps</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#site_maps KendraDataSource#site_maps}. |
 
 ---
 
@@ -6179,7 +6179,7 @@ public java.util.List<java.lang.String> getSiteMaps();
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#site_maps KendraDataSource#site_maps}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#site_maps KendraDataSource#site_maps}.
 
 ---
 
@@ -6204,12 +6204,12 @@ KendraDataSourceDataSourceConfigurationWorkDocsConfiguration.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationWorkDocsConfiguration.property.crawlComments">crawlComments</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#crawl_comments KendraDataSource#crawl_comments}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationWorkDocsConfiguration.property.exclusionPatterns">exclusionPatterns</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#exclusion_patterns KendraDataSource#exclusion_patterns}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationWorkDocsConfiguration.property.fieldMappings">fieldMappings</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationWorkDocsConfigurationFieldMappings">KendraDataSourceDataSourceConfigurationWorkDocsConfigurationFieldMappings</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#field_mappings KendraDataSource#field_mappings}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationWorkDocsConfiguration.property.inclusionPatterns">inclusionPatterns</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#inclusion_patterns KendraDataSource#inclusion_patterns}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationWorkDocsConfiguration.property.organizationId">organizationId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#organization_id KendraDataSource#organization_id}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationWorkDocsConfiguration.property.useChangeLog">useChangeLog</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#use_change_log KendraDataSource#use_change_log}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationWorkDocsConfiguration.property.crawlComments">crawlComments</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#crawl_comments KendraDataSource#crawl_comments}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationWorkDocsConfiguration.property.exclusionPatterns">exclusionPatterns</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#exclusion_patterns KendraDataSource#exclusion_patterns}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationWorkDocsConfiguration.property.fieldMappings">fieldMappings</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationWorkDocsConfigurationFieldMappings">KendraDataSourceDataSourceConfigurationWorkDocsConfigurationFieldMappings</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#field_mappings KendraDataSource#field_mappings}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationWorkDocsConfiguration.property.inclusionPatterns">inclusionPatterns</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#inclusion_patterns KendraDataSource#inclusion_patterns}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationWorkDocsConfiguration.property.organizationId">organizationId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#organization_id KendraDataSource#organization_id}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationWorkDocsConfiguration.property.useChangeLog">useChangeLog</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#use_change_log KendraDataSource#use_change_log}. |
 
 ---
 
@@ -6221,7 +6221,7 @@ public java.lang.Boolean|IResolvable getCrawlComments();
 
 - *Type:* java.lang.Boolean|io.cdktn.cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#crawl_comments KendraDataSource#crawl_comments}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#crawl_comments KendraDataSource#crawl_comments}.
 
 ---
 
@@ -6233,7 +6233,7 @@ public java.util.List<java.lang.String> getExclusionPatterns();
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#exclusion_patterns KendraDataSource#exclusion_patterns}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#exclusion_patterns KendraDataSource#exclusion_patterns}.
 
 ---
 
@@ -6245,7 +6245,7 @@ public IResolvable|java.util.List<KendraDataSourceDataSourceConfigurationWorkDoc
 
 - *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationWorkDocsConfigurationFieldMappings">KendraDataSourceDataSourceConfigurationWorkDocsConfigurationFieldMappings</a>>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#field_mappings KendraDataSource#field_mappings}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#field_mappings KendraDataSource#field_mappings}.
 
 ---
 
@@ -6257,7 +6257,7 @@ public java.util.List<java.lang.String> getInclusionPatterns();
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#inclusion_patterns KendraDataSource#inclusion_patterns}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#inclusion_patterns KendraDataSource#inclusion_patterns}.
 
 ---
 
@@ -6269,7 +6269,7 @@ public java.lang.String getOrganizationId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#organization_id KendraDataSource#organization_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#organization_id KendraDataSource#organization_id}.
 
 ---
 
@@ -6281,7 +6281,7 @@ public java.lang.Boolean|IResolvable getUseChangeLog();
 
 - *Type:* java.lang.Boolean|io.cdktn.cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#use_change_log KendraDataSource#use_change_log}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#use_change_log KendraDataSource#use_change_log}.
 
 ---
 
@@ -6303,9 +6303,9 @@ KendraDataSourceDataSourceConfigurationWorkDocsConfigurationFieldMappings.builde
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationWorkDocsConfigurationFieldMappings.property.dataSourceFieldName">dataSourceFieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationWorkDocsConfigurationFieldMappings.property.dateFieldFormat">dateFieldFormat</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}. |
-| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationWorkDocsConfigurationFieldMappings.property.indexFieldName">indexFieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationWorkDocsConfigurationFieldMappings.property.dataSourceFieldName">dataSourceFieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationWorkDocsConfigurationFieldMappings.property.dateFieldFormat">dateFieldFormat</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}. |
+| <code><a href="#@cdktn/provider-awscc.kendraDataSource.KendraDataSourceDataSourceConfigurationWorkDocsConfigurationFieldMappings.property.indexFieldName">indexFieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}. |
 
 ---
 
@@ -6317,7 +6317,7 @@ public java.lang.String getDataSourceFieldName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}.
 
 ---
 
@@ -6329,7 +6329,7 @@ public java.lang.String getDateFieldFormat();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}.
 
 ---
 
@@ -6341,7 +6341,7 @@ public java.lang.String getIndexFieldName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}.
 
 ---
 
@@ -6377,7 +6377,7 @@ public java.lang.String getKey();
 
 A string used to identify this tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#key KendraDataSource#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#key KendraDataSource#key}
 
 ---
 
@@ -6391,7 +6391,7 @@ public java.lang.String getValue();
 
 A string containing the value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#value KendraDataSource#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#value KendraDataSource#value}
 
 ---
 

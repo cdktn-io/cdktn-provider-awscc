@@ -4,7 +4,7 @@
 
 ### DataAwsccEc2TransitGatewayMulticastGroupMember <a name="DataAwsccEc2TransitGatewayMulticastGroupMember" id="@cdktn/provider-awscc.dataAwsccEc2TransitGatewayMulticastGroupMember.DataAwsccEc2TransitGatewayMulticastGroupMember"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_transit_gateway_multicast_group_member awscc_ec2_transit_gateway_multicast_group_member}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_transit_gateway_multicast_group_member awscc_ec2_transit_gateway_multicast_group_member}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2TransitGatewayMulticastGroupMember.DataAwsccEc2TransitGatewayMulticastGroupMember.Initializer"></a>
 
@@ -106,7 +106,7 @@ Must be unique amongst siblings in the same scope
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_transit_gateway_multicast_group_member#id DataAwsccEc2TransitGatewayMulticastGroupMember#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_transit_gateway_multicast_group_member#id DataAwsccEc2TransitGatewayMulticastGroupMember#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -492,7 +492,7 @@ The construct id used in the generated config for the DataAwsccEc2TransitGateway
 
 The id of the existing DataAwsccEc2TransitGatewayMulticastGroupMember that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_transit_gateway_multicast_group_member#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_transit_gateway_multicast_group_member#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -911,7 +911,7 @@ id: str
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_transit_gateway_multicast_group_member#id DataAwsccEc2TransitGatewayMulticastGroupMember#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_transit_gateway_multicast_group_member#id DataAwsccEc2TransitGatewayMulticastGroupMember#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

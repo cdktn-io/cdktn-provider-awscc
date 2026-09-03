@@ -4,7 +4,7 @@
 
 ### AppsyncResolver <a name="AppsyncResolver" id="@cdktn/provider-awscc.appsyncResolver.AppsyncResolver"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appsync_resolver awscc_appsync_resolver}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appsync_resolver awscc_appsync_resolver}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.appsyncResolver.AppsyncResolver.Initializer"></a>
 
@@ -138,7 +138,7 @@ Must be unique amongst siblings in the same scope
 
 The APSYlong GraphQL API to which you want to attach this resolver.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appsync_resolver#api_id AppsyncResolver#api_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appsync_resolver#api_id AppsyncResolver#api_id}
 
 ---
 
@@ -148,7 +148,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The GraphQL field on a type that invokes the resolver.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appsync_resolver#field_name AppsyncResolver#field_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appsync_resolver#field_name AppsyncResolver#field_name}
 
 ---
 
@@ -158,7 +158,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The GraphQL type that invokes this resolver.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appsync_resolver#type_name AppsyncResolver#type_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appsync_resolver#type_name AppsyncResolver#type_name}
 
 ---
 
@@ -168,7 +168,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The caching configuration for the resolver.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appsync_resolver#caching_config AppsyncResolver#caching_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appsync_resolver#caching_config AppsyncResolver#caching_config}
 
 ---
 
@@ -180,7 +180,7 @@ The ``resolver`` code that contains the request and response functions.
 
 When code is used, the `runtime` is required. The runtime value must be `APPSYNC_JS`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appsync_resolver#code AppsyncResolver#code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appsync_resolver#code AppsyncResolver#code}
 
 ---
 
@@ -190,7 +190,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The Amazon S3 endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appsync_resolver#code_s3_location AppsyncResolver#code_s3_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appsync_resolver#code_s3_location AppsyncResolver#code_s3_location}
 
 ---
 
@@ -200,7 +200,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The resolver data source name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appsync_resolver#data_source_name AppsyncResolver#data_source_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appsync_resolver#data_source_name AppsyncResolver#data_source_name}
 
 ---
 
@@ -213,7 +213,7 @@ The resolver type.
 * *UNIT*: A UNIT resolver type. A UNIT resolver is the default resolver type. You can use a UNIT resolver to run a GraphQL query against a single data source.
 * *PIPELINE*: A PIPELINE resolver type. You can use a PIPELINE resolver to invoke a series of `Function` objects in a serial manner. You can use a pipeline resolver to run a GraphQL query against multiple data sources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appsync_resolver#kind AppsyncResolver#kind}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appsync_resolver#kind AppsyncResolver#kind}
 
 ---
 
@@ -223,7 +223,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The maximum number of resolver request inputs that will be sent to a single LAMlong function in a ``BatchInvoke`` operation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appsync_resolver#max_batch_size AppsyncResolver#max_batch_size}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appsync_resolver#max_batch_size AppsyncResolver#max_batch_size}
 
 ---
 
@@ -235,7 +235,7 @@ Enables or disables enhanced resolver metrics for specified resolvers.
 
 Note that `MetricsConfig` won't be used unless the `resolverLevelMetricsBehavior` value is set to `PER_RESOLVER_METRICS`. If the `resolverLevelMetricsBehavior` is set to `FULL_REQUEST_RESOLVER_METRICS` instead, `MetricsConfig` will be ignored. However, you can still set its value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appsync_resolver#metrics_config AppsyncResolver#metrics_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appsync_resolver#metrics_config AppsyncResolver#metrics_config}
 
 ---
 
@@ -245,7 +245,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Functions linked with the pipeline resolver.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appsync_resolver#pipeline_config AppsyncResolver#pipeline_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appsync_resolver#pipeline_config AppsyncResolver#pipeline_config}
 
 ---
 
@@ -257,7 +257,7 @@ The request mapping template.
 
 Request mapping templates are optional when using a Lambda data source. For all other data sources, a request mapping template is required.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appsync_resolver#request_mapping_template AppsyncResolver#request_mapping_template}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appsync_resolver#request_mapping_template AppsyncResolver#request_mapping_template}
 
 ---
 
@@ -269,7 +269,7 @@ The location of a request mapping template in an S3 bucket.
 
 Use this if you want to provision with a template file in S3 rather than embedding it in your CFNshort template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appsync_resolver#request_mapping_template_s3_location AppsyncResolver#request_mapping_template_s3_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appsync_resolver#request_mapping_template_s3_location AppsyncResolver#request_mapping_template_s3_location}
 
 ---
 
@@ -279,7 +279,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The response mapping template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appsync_resolver#response_mapping_template AppsyncResolver#response_mapping_template}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appsync_resolver#response_mapping_template AppsyncResolver#response_mapping_template}
 
 ---
 
@@ -291,7 +291,7 @@ The location of a response mapping template in an S3 bucket.
 
 Use this if you want to provision with a template file in S3 rather than embedding it in your CFNshort template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appsync_resolver#response_mapping_template_s3_location AppsyncResolver#response_mapping_template_s3_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appsync_resolver#response_mapping_template_s3_location AppsyncResolver#response_mapping_template_s3_location}
 
 ---
 
@@ -303,7 +303,7 @@ Describes a runtime used by an APSYlong resolver or APSYlong function.
 
 Specifies the name and version of the runtime to use. Note that if a runtime is specified, code must also be specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appsync_resolver#runtime AppsyncResolver#runtime}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appsync_resolver#runtime AppsyncResolver#runtime}
 
 ---
 
@@ -313,7 +313,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The ``SyncConfig`` for a resolver attached to a versioned data source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appsync_resolver#sync_config AppsyncResolver#sync_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appsync_resolver#sync_config AppsyncResolver#sync_config}
 
 ---
 
@@ -731,7 +731,7 @@ The caching keys for a resolver that has caching activated.
 
 Valid values are entries from the `$context.arguments`, `$context.source`, and `$context.identity` maps.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appsync_resolver#caching_keys AppsyncResolver#caching_keys}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appsync_resolver#caching_keys AppsyncResolver#caching_keys}
 
 ---
 
@@ -741,7 +741,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The TTL in seconds for a resolver that has caching activated.  Valid values are 1?3,600 seconds.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appsync_resolver#ttl AppsyncResolver#ttl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appsync_resolver#ttl AppsyncResolver#ttl}
 
 ---
 
@@ -759,7 +759,7 @@ def put_pipeline_config(
 
 A list of ``Function`` objects.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appsync_resolver#functions AppsyncResolver#functions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appsync_resolver#functions AppsyncResolver#functions}
 
 ---
 
@@ -778,7 +778,7 @@ def put_runtime(
 
 The ``name`` of the runtime to use. Currently, the only allowed value is ``APPSYNC_JS``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appsync_resolver#name AppsyncResolver#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appsync_resolver#name AppsyncResolver#name}
 
 ---
 
@@ -788,7 +788,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The ``version`` of the runtime to use. Currently, the only allowed version is ``1.0.0``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appsync_resolver#runtime_version AppsyncResolver#runtime_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appsync_resolver#runtime_version AppsyncResolver#runtime_version}
 
 ---
 
@@ -811,7 +811,7 @@ The Conflict Detection strategy to use.
 * *VERSION*: Detect conflicts based on object versions for this resolver.
 * *NONE*: Do not detect conflicts when invoking this resolver.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appsync_resolver#conflict_detection AppsyncResolver#conflict_detection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appsync_resolver#conflict_detection AppsyncResolver#conflict_detection}
 
 ---
 
@@ -825,7 +825,7 @@ The Conflict Resolution strategy to perform in the event of a conflict.
 * *AUTOMERGE*: Resolve conflicts with the Automerge conflict resolution strategy.
 * *LAMBDA*: Resolve conflicts with an LAMlong function supplied in the `LambdaConflictHandlerConfig`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appsync_resolver#conflict_handler AppsyncResolver#conflict_handler}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appsync_resolver#conflict_handler AppsyncResolver#conflict_handler}
 
 ---
 
@@ -835,7 +835,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The ``LambdaConflictHandlerConfig`` when configuring ``LAMBDA`` as the Conflict Handler.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appsync_resolver#lambda_conflict_handler_config AppsyncResolver#lambda_conflict_handler_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appsync_resolver#lambda_conflict_handler_config AppsyncResolver#lambda_conflict_handler_config}
 
 ---
 
@@ -1037,7 +1037,7 @@ The construct id used in the generated config for the AppsyncResolver to import.
 
 The id of the existing AppsyncResolver that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appsync_resolver#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appsync_resolver#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1662,7 +1662,7 @@ The caching keys for a resolver that has caching activated.
 
 Valid values are entries from the `$context.arguments`, `$context.source`, and `$context.identity` maps.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appsync_resolver#caching_keys AppsyncResolver#caching_keys}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appsync_resolver#caching_keys AppsyncResolver#caching_keys}
 
 ---
 
@@ -1676,7 +1676,7 @@ ttl: typing.Union[int, float]
 
 The TTL in seconds for a resolver that has caching activated.  Valid values are 1?3,600 seconds.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appsync_resolver#ttl AppsyncResolver#ttl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appsync_resolver#ttl AppsyncResolver#ttl}
 
 ---
 
@@ -1826,7 +1826,7 @@ api_id: str
 
 The APSYlong GraphQL API to which you want to attach this resolver.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appsync_resolver#api_id AppsyncResolver#api_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appsync_resolver#api_id AppsyncResolver#api_id}
 
 ---
 
@@ -1840,7 +1840,7 @@ field_name: str
 
 The GraphQL field on a type that invokes the resolver.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appsync_resolver#field_name AppsyncResolver#field_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appsync_resolver#field_name AppsyncResolver#field_name}
 
 ---
 
@@ -1854,7 +1854,7 @@ type_name: str
 
 The GraphQL type that invokes this resolver.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appsync_resolver#type_name AppsyncResolver#type_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appsync_resolver#type_name AppsyncResolver#type_name}
 
 ---
 
@@ -1868,7 +1868,7 @@ caching_config: AppsyncResolverCachingConfig
 
 The caching configuration for the resolver.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appsync_resolver#caching_config AppsyncResolver#caching_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appsync_resolver#caching_config AppsyncResolver#caching_config}
 
 ---
 
@@ -1884,7 +1884,7 @@ The ``resolver`` code that contains the request and response functions.
 
 When code is used, the `runtime` is required. The runtime value must be `APPSYNC_JS`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appsync_resolver#code AppsyncResolver#code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appsync_resolver#code AppsyncResolver#code}
 
 ---
 
@@ -1898,7 +1898,7 @@ code_s3_location: str
 
 The Amazon S3 endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appsync_resolver#code_s3_location AppsyncResolver#code_s3_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appsync_resolver#code_s3_location AppsyncResolver#code_s3_location}
 
 ---
 
@@ -1912,7 +1912,7 @@ data_source_name: str
 
 The resolver data source name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appsync_resolver#data_source_name AppsyncResolver#data_source_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appsync_resolver#data_source_name AppsyncResolver#data_source_name}
 
 ---
 
@@ -1929,7 +1929,7 @@ The resolver type.
 * *UNIT*: A UNIT resolver type. A UNIT resolver is the default resolver type. You can use a UNIT resolver to run a GraphQL query against a single data source.
 * *PIPELINE*: A PIPELINE resolver type. You can use a PIPELINE resolver to invoke a series of `Function` objects in a serial manner. You can use a pipeline resolver to run a GraphQL query against multiple data sources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appsync_resolver#kind AppsyncResolver#kind}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appsync_resolver#kind AppsyncResolver#kind}
 
 ---
 
@@ -1943,7 +1943,7 @@ max_batch_size: typing.Union[int, float]
 
 The maximum number of resolver request inputs that will be sent to a single LAMlong function in a ``BatchInvoke`` operation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appsync_resolver#max_batch_size AppsyncResolver#max_batch_size}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appsync_resolver#max_batch_size AppsyncResolver#max_batch_size}
 
 ---
 
@@ -1959,7 +1959,7 @@ Enables or disables enhanced resolver metrics for specified resolvers.
 
 Note that `MetricsConfig` won't be used unless the `resolverLevelMetricsBehavior` value is set to `PER_RESOLVER_METRICS`. If the `resolverLevelMetricsBehavior` is set to `FULL_REQUEST_RESOLVER_METRICS` instead, `MetricsConfig` will be ignored. However, you can still set its value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appsync_resolver#metrics_config AppsyncResolver#metrics_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appsync_resolver#metrics_config AppsyncResolver#metrics_config}
 
 ---
 
@@ -1973,7 +1973,7 @@ pipeline_config: AppsyncResolverPipelineConfig
 
 Functions linked with the pipeline resolver.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appsync_resolver#pipeline_config AppsyncResolver#pipeline_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appsync_resolver#pipeline_config AppsyncResolver#pipeline_config}
 
 ---
 
@@ -1989,7 +1989,7 @@ The request mapping template.
 
 Request mapping templates are optional when using a Lambda data source. For all other data sources, a request mapping template is required.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appsync_resolver#request_mapping_template AppsyncResolver#request_mapping_template}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appsync_resolver#request_mapping_template AppsyncResolver#request_mapping_template}
 
 ---
 
@@ -2005,7 +2005,7 @@ The location of a request mapping template in an S3 bucket.
 
 Use this if you want to provision with a template file in S3 rather than embedding it in your CFNshort template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appsync_resolver#request_mapping_template_s3_location AppsyncResolver#request_mapping_template_s3_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appsync_resolver#request_mapping_template_s3_location AppsyncResolver#request_mapping_template_s3_location}
 
 ---
 
@@ -2019,7 +2019,7 @@ response_mapping_template: str
 
 The response mapping template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appsync_resolver#response_mapping_template AppsyncResolver#response_mapping_template}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appsync_resolver#response_mapping_template AppsyncResolver#response_mapping_template}
 
 ---
 
@@ -2035,7 +2035,7 @@ The location of a response mapping template in an S3 bucket.
 
 Use this if you want to provision with a template file in S3 rather than embedding it in your CFNshort template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appsync_resolver#response_mapping_template_s3_location AppsyncResolver#response_mapping_template_s3_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appsync_resolver#response_mapping_template_s3_location AppsyncResolver#response_mapping_template_s3_location}
 
 ---
 
@@ -2051,7 +2051,7 @@ Describes a runtime used by an APSYlong resolver or APSYlong function.
 
 Specifies the name and version of the runtime to use. Note that if a runtime is specified, code must also be specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appsync_resolver#runtime AppsyncResolver#runtime}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appsync_resolver#runtime AppsyncResolver#runtime}
 
 ---
 
@@ -2065,7 +2065,7 @@ sync_config: AppsyncResolverSyncConfig
 
 The ``SyncConfig`` for a resolver attached to a versioned data source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appsync_resolver#sync_config AppsyncResolver#sync_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appsync_resolver#sync_config AppsyncResolver#sync_config}
 
 ---
 
@@ -2099,7 +2099,7 @@ functions: typing.List[str]
 
 A list of ``Function`` objects.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appsync_resolver#functions AppsyncResolver#functions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appsync_resolver#functions AppsyncResolver#functions}
 
 ---
 
@@ -2135,7 +2135,7 @@ name: str
 
 The ``name`` of the runtime to use. Currently, the only allowed value is ``APPSYNC_JS``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appsync_resolver#name AppsyncResolver#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appsync_resolver#name AppsyncResolver#name}
 
 ---
 
@@ -2149,7 +2149,7 @@ runtime_version: str
 
 The ``version`` of the runtime to use. Currently, the only allowed version is ``1.0.0``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appsync_resolver#runtime_version AppsyncResolver#runtime_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appsync_resolver#runtime_version AppsyncResolver#runtime_version}
 
 ---
 
@@ -2190,7 +2190,7 @@ The Conflict Detection strategy to use.
 * *VERSION*: Detect conflicts based on object versions for this resolver.
 * *NONE*: Do not detect conflicts when invoking this resolver.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appsync_resolver#conflict_detection AppsyncResolver#conflict_detection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appsync_resolver#conflict_detection AppsyncResolver#conflict_detection}
 
 ---
 
@@ -2208,7 +2208,7 @@ The Conflict Resolution strategy to perform in the event of a conflict.
 * *AUTOMERGE*: Resolve conflicts with the Automerge conflict resolution strategy.
 * *LAMBDA*: Resolve conflicts with an LAMlong function supplied in the `LambdaConflictHandlerConfig`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appsync_resolver#conflict_handler AppsyncResolver#conflict_handler}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appsync_resolver#conflict_handler AppsyncResolver#conflict_handler}
 
 ---
 
@@ -2222,7 +2222,7 @@ lambda_conflict_handler_config: AppsyncResolverSyncConfigLambdaConflictHandlerCo
 
 The ``LambdaConflictHandlerConfig`` when configuring ``LAMBDA`` as the Conflict Handler.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appsync_resolver#lambda_conflict_handler_config AppsyncResolver#lambda_conflict_handler_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appsync_resolver#lambda_conflict_handler_config AppsyncResolver#lambda_conflict_handler_config}
 
 ---
 
@@ -2256,7 +2256,7 @@ lambda_conflict_handler_arn: str
 
 The Amazon Resource Name (ARN) for the Lambda function to use as the Conflict Handler.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appsync_resolver#lambda_conflict_handler_arn AppsyncResolver#lambda_conflict_handler_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appsync_resolver#lambda_conflict_handler_arn AppsyncResolver#lambda_conflict_handler_arn}
 
 ---
 
@@ -3778,7 +3778,7 @@ def put_lambda_conflict_handler_config(
 
 The Amazon Resource Name (ARN) for the Lambda function to use as the Conflict Handler.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appsync_resolver#lambda_conflict_handler_arn AppsyncResolver#lambda_conflict_handler_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appsync_resolver#lambda_conflict_handler_arn AppsyncResolver#lambda_conflict_handler_arn}
 
 ---
 

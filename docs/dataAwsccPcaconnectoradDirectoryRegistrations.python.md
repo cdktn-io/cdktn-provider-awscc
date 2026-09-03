@@ -4,7 +4,7 @@
 
 ### DataAwsccPcaconnectoradDirectoryRegistrations <a name="DataAwsccPcaconnectoradDirectoryRegistrations" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradDirectoryRegistrations.DataAwsccPcaconnectoradDirectoryRegistrations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/pcaconnectorad_directory_registrations awscc_pcaconnectorad_directory_registrations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/pcaconnectorad_directory_registrations awscc_pcaconnectorad_directory_registrations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradDirectoryRegistrations.DataAwsccPcaconnectoradDirectoryRegistrations.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccPcaconnectoradDir
 
 The id of the existing DataAwsccPcaconnectoradDirectoryRegistrations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/pcaconnectorad_directory_registrations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/pcaconnectorad_directory_registrations#import import section} in the documentation of this resource for the id to use
 
 ---
 

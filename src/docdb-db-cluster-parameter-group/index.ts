@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/docdb_db_cluster_parameter_group
+// https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/docdb_db_cluster_parameter_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,31 +15,31 @@ export interface DocdbDbClusterParameterGroupConfig extends cdktn.TerraformMetaA
   /**
   * The description for the DB cluster parameter group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/docdb_db_cluster_parameter_group#description DocdbDbClusterParameterGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/docdb_db_cluster_parameter_group#description DocdbDbClusterParameterGroup#description}
   */
   readonly description: string;
   /**
   * The DB cluster parameter group family name (e.g. docdb5.0).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/docdb_db_cluster_parameter_group#family DocdbDbClusterParameterGroup#family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/docdb_db_cluster_parameter_group#family DocdbDbClusterParameterGroup#family}
   */
   readonly family: string;
   /**
   * The name of the DB cluster parameter group. If omitted, CloudFormation generates a unique name. The name is stored as lowercase.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/docdb_db_cluster_parameter_group#name DocdbDbClusterParameterGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/docdb_db_cluster_parameter_group#name DocdbDbClusterParameterGroup#name}
   */
   readonly name?: string;
   /**
   * An object containing key-value pairs of parameters to set for the DB cluster parameter group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/docdb_db_cluster_parameter_group#parameters DocdbDbClusterParameterGroup#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/docdb_db_cluster_parameter_group#parameters DocdbDbClusterParameterGroup#parameters}
   */
   readonly parameters: string;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/docdb_db_cluster_parameter_group#tags DocdbDbClusterParameterGroup#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/docdb_db_cluster_parameter_group#tags DocdbDbClusterParameterGroup#tags}
   */
   readonly tags?: DocdbDbClusterParameterGroupTags[] | cdktn.IResolvable;
 }
@@ -47,13 +47,13 @@ export interface DocdbDbClusterParameterGroupTags {
   /**
   * The key name of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/docdb_db_cluster_parameter_group#key DocdbDbClusterParameterGroup#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/docdb_db_cluster_parameter_group#key DocdbDbClusterParameterGroup#key}
   */
   readonly key?: string;
   /**
   * The value for the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/docdb_db_cluster_parameter_group#value DocdbDbClusterParameterGroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/docdb_db_cluster_parameter_group#value DocdbDbClusterParameterGroup#value}
   */
   readonly value?: string;
 }
@@ -198,7 +198,7 @@ export class DocdbDbClusterParameterGroupTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/docdb_db_cluster_parameter_group awscc_docdb_db_cluster_parameter_group}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/docdb_db_cluster_parameter_group awscc_docdb_db_cluster_parameter_group}
 */
 export class DocdbDbClusterParameterGroup extends cdktn.TerraformResource {
 
@@ -214,7 +214,7 @@ export class DocdbDbClusterParameterGroup extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a DocdbDbClusterParameterGroup resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DocdbDbClusterParameterGroup to import
-  * @param importFromId The id of the existing DocdbDbClusterParameterGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/docdb_db_cluster_parameter_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DocdbDbClusterParameterGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/docdb_db_cluster_parameter_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DocdbDbClusterParameterGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -226,7 +226,7 @@ export class DocdbDbClusterParameterGroup extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/docdb_db_cluster_parameter_group awscc_docdb_db_cluster_parameter_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/docdb_db_cluster_parameter_group awscc_docdb_db_cluster_parameter_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -237,7 +237,7 @@ export class DocdbDbClusterParameterGroup extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_docdb_db_cluster_parameter_group',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.99.0',
+        providerVersion: '1.100.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

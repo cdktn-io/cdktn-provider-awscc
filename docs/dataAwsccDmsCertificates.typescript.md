@@ -4,7 +4,7 @@
 
 ### DataAwsccDmsCertificates <a name="DataAwsccDmsCertificates" id="@cdktn/provider-awscc.dataAwsccDmsCertificates.DataAwsccDmsCertificates"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/dms_certificates awscc_dms_certificates}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/dms_certificates awscc_dms_certificates}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDmsCertificates.DataAwsccDmsCertificates.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccDmsCertificates t
 
 The id of the existing DataAwsccDmsCertificates that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/dms_certificates#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/dms_certificates#import import section} in the documentation of this resource for the id to use
 
 ---
 

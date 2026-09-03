@@ -4,7 +4,7 @@
 
 ### DataAwsccIotanalyticsDatasets <a name="DataAwsccIotanalyticsDatasets" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDatasets.DataAwsccIotanalyticsDatasets"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/iotanalytics_datasets awscc_iotanalytics_datasets}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/iotanalytics_datasets awscc_iotanalytics_datasets}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDatasets.DataAwsccIotanalyticsDatasets.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccIotanalyticsDatas
 
 The id of the existing DataAwsccIotanalyticsDatasets that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/iotanalytics_datasets#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/iotanalytics_datasets#import import section} in the documentation of this resource for the id to use
 
 ---
 

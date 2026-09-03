@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service
+// https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,43 +15,43 @@ export interface DevopsagentServiceConfig extends cdktn.TerraformMetaArguments {
   /**
   * The name of the private connection to use for OAuth token exchange requests only. Cannot be specified when PrivateConnectionName is provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#exchange_url_private_connection_name DevopsagentService#exchange_url_private_connection_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#exchange_url_private_connection_name DevopsagentService#exchange_url_private_connection_name}
   */
   readonly exchangeUrlPrivateConnectionName?: string;
   /**
   * The ARN of the KMS key to use for encryption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#kms_key_arn DevopsagentService#kms_key_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#kms_key_arn DevopsagentService#kms_key_arn}
   */
   readonly kmsKeyArn?: string;
   /**
   * The name of the private connection to use for VPC connectivity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#private_connection_name DevopsagentService#private_connection_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#private_connection_name DevopsagentService#private_connection_name}
   */
   readonly privateConnectionName?: string;
   /**
   * Service-specific configuration details for create operation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#service_details DevopsagentService#service_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#service_details DevopsagentService#service_details}
   */
   readonly serviceDetails?: DevopsagentServiceServiceDetails;
   /**
   * The type of service being registered
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#service_type DevopsagentService#service_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#service_type DevopsagentService#service_type}
   */
   readonly serviceType: string;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#tags DevopsagentService#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#tags DevopsagentService#tags}
   */
   readonly tags?: DevopsagentServiceTags[] | cdktn.IResolvable;
   /**
   * The name of the private connection to use for API calls (target URL) only. Cannot be specified when PrivateConnectionName is provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#target_url_private_connection_name DevopsagentService#target_url_private_connection_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#target_url_private_connection_name DevopsagentService#target_url_private_connection_name}
   */
   readonly targetUrlPrivateConnectionName?: string;
 }
@@ -834,25 +834,25 @@ export interface DevopsagentServiceServiceDetailsAzureIdentity {
   /**
   * Azure AD application client ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#client_id DevopsagentService#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#client_id DevopsagentService#client_id}
   */
   readonly clientId?: string;
   /**
   * Azure AD tenant ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#tenant_id DevopsagentService#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#tenant_id DevopsagentService#tenant_id}
   */
   readonly tenantId?: string;
   /**
   * ARN of the IAM role for web identity token exchange
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#web_identity_role_arn DevopsagentService#web_identity_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#web_identity_role_arn DevopsagentService#web_identity_role_arn}
   */
   readonly webIdentityRoleArn?: string;
   /**
   * List of audiences for the web identity token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#web_identity_token_audiences DevopsagentService#web_identity_token_audiences}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#web_identity_token_audiences DevopsagentService#web_identity_token_audiences}
   */
   readonly webIdentityTokenAudiences?: string[];
 }
@@ -1035,25 +1035,25 @@ export interface DevopsagentServiceServiceDetailsDynatraceAuthorizationConfigOAu
   /**
   * OAuth client ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#client_id DevopsagentService#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#client_id DevopsagentService#client_id}
   */
   readonly clientId?: string;
   /**
   * User friendly OAuth client name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#client_name DevopsagentService#client_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#client_name DevopsagentService#client_name}
   */
   readonly clientName?: string;
   /**
   * OAuth client secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#client_secret DevopsagentService#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#client_secret DevopsagentService#client_secret}
   */
   readonly clientSecret?: string;
   /**
   * OAuth token exchange parameters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#exchange_parameters DevopsagentService#exchange_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#exchange_parameters DevopsagentService#exchange_parameters}
   */
   readonly exchangeParameters?: string;
 }
@@ -1236,7 +1236,7 @@ export interface DevopsagentServiceServiceDetailsDynatraceAuthorizationConfig {
   /**
   * OAuth client credentials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#o_auth_client_credentials DevopsagentService#o_auth_client_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#o_auth_client_credentials DevopsagentService#o_auth_client_credentials}
   */
   readonly oAuthClientCredentials?: DevopsagentServiceServiceDetailsDynatraceAuthorizationConfigOAuthClientCredentials;
 }
@@ -1332,13 +1332,13 @@ export interface DevopsagentServiceServiceDetailsDynatrace {
   /**
   * Dynatrace resource account URN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#account_urn DevopsagentService#account_urn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#account_urn DevopsagentService#account_urn}
   */
   readonly accountUrn?: string;
   /**
   * Dynatrace OAuth authorization configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#authorization_config DevopsagentService#authorization_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#authorization_config DevopsagentService#authorization_config}
   */
   readonly authorizationConfig?: DevopsagentServiceServiceDetailsDynatraceAuthorizationConfig;
 }
@@ -1463,25 +1463,25 @@ export interface DevopsagentServiceServiceDetailsGitLab {
   /**
   * Optional GitLab group ID for group-level access tokens
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#group_id DevopsagentService#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#group_id DevopsagentService#group_id}
   */
   readonly groupId?: string;
   /**
   * GitLab instance URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#target_url DevopsagentService#target_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#target_url DevopsagentService#target_url}
   */
   readonly targetUrl?: string;
   /**
   * Type of GitLab access token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#token_type DevopsagentService#token_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#token_type DevopsagentService#token_type}
   */
   readonly tokenType?: string;
   /**
   * GitLab access token value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#token_value DevopsagentService#token_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#token_value DevopsagentService#token_value}
   */
   readonly tokenValue?: string;
 }
@@ -1664,19 +1664,19 @@ export interface DevopsagentServiceServiceDetailsMcpServerAuthorizationConfigApi
   /**
   * HTTP header name to send the API key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#api_key_header DevopsagentService#api_key_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#api_key_header DevopsagentService#api_key_header}
   */
   readonly apiKeyHeader?: string;
   /**
   * User friendly API key name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#api_key_name DevopsagentService#api_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#api_key_name DevopsagentService#api_key_name}
   */
   readonly apiKeyName?: string;
   /**
   * API key value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#api_key_value DevopsagentService#api_key_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#api_key_value DevopsagentService#api_key_value}
   */
   readonly apiKeyValue?: string;
 }
@@ -1830,19 +1830,19 @@ export interface DevopsagentServiceServiceDetailsMcpServerAuthorizationConfigBea
   /**
   * HTTP header name to send the bearer token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#authorization_header DevopsagentService#authorization_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#authorization_header DevopsagentService#authorization_header}
   */
   readonly authorizationHeader?: string;
   /**
   * User friendly bearer token name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#token_name DevopsagentService#token_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#token_name DevopsagentService#token_name}
   */
   readonly tokenName?: string;
   /**
   * Bearer token value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#token_value DevopsagentService#token_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#token_value DevopsagentService#token_value}
   */
   readonly tokenValue?: string;
 }
@@ -1996,37 +1996,37 @@ export interface DevopsagentServiceServiceDetailsMcpServerAuthorizationConfigOAu
   /**
   * OAuth client ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#client_id DevopsagentService#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#client_id DevopsagentService#client_id}
   */
   readonly clientId?: string;
   /**
   * User friendly OAuth client name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#client_name DevopsagentService#client_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#client_name DevopsagentService#client_name}
   */
   readonly clientName?: string;
   /**
   * OAuth client secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#client_secret DevopsagentService#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#client_secret DevopsagentService#client_secret}
   */
   readonly clientSecret?: string;
   /**
   * OAuth token exchange parameters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#exchange_parameters DevopsagentService#exchange_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#exchange_parameters DevopsagentService#exchange_parameters}
   */
   readonly exchangeParameters?: string;
   /**
   * OAuth token exchange URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#exchange_url DevopsagentService#exchange_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#exchange_url DevopsagentService#exchange_url}
   */
   readonly exchangeUrl?: string;
   /**
   * OAuth scopes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#scopes DevopsagentService#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#scopes DevopsagentService#scopes}
   */
   readonly scopes?: string[];
 }
@@ -2267,19 +2267,19 @@ export interface DevopsagentServiceServiceDetailsMcpServerAuthorizationConfig {
   /**
   * API key authentication details
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#api_key DevopsagentService#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#api_key DevopsagentService#api_key}
   */
   readonly apiKey?: DevopsagentServiceServiceDetailsMcpServerAuthorizationConfigApiKey;
   /**
   * Bearer token authentication details
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#bearer_token DevopsagentService#bearer_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#bearer_token DevopsagentService#bearer_token}
   */
   readonly bearerToken?: DevopsagentServiceServiceDetailsMcpServerAuthorizationConfigBearerToken;
   /**
   * MCP server OAuth client credentials configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#o_auth_client_credentials DevopsagentService#o_auth_client_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#o_auth_client_credentials DevopsagentService#o_auth_client_credentials}
   */
   readonly oAuthClientCredentials?: DevopsagentServiceServiceDetailsMcpServerAuthorizationConfigOAuthClientCredentials;
 }
@@ -2433,25 +2433,25 @@ export interface DevopsagentServiceServiceDetailsMcpServer {
   /**
   * MCP server authorization configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#authorization_config DevopsagentService#authorization_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#authorization_config DevopsagentService#authorization_config}
   */
   readonly authorizationConfig?: DevopsagentServiceServiceDetailsMcpServerAuthorizationConfig;
   /**
   * Optional description for the MCP server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#description DevopsagentService#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#description DevopsagentService#description}
   */
   readonly description?: string;
   /**
   * MCP server endpoint URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#endpoint DevopsagentService#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#endpoint DevopsagentService#endpoint}
   */
   readonly endpoint?: string;
   /**
   * MCP server name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#name DevopsagentService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#name DevopsagentService#name}
   */
   readonly name?: string;
 }
@@ -2634,19 +2634,19 @@ export interface DevopsagentServiceServiceDetailsMcpServerGrafanaAuthorizationCo
   /**
   * HTTP header name to send the bearer token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#authorization_header DevopsagentService#authorization_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#authorization_header DevopsagentService#authorization_header}
   */
   readonly authorizationHeader?: string;
   /**
   * User friendly bearer token name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#token_name DevopsagentService#token_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#token_name DevopsagentService#token_name}
   */
   readonly tokenName?: string;
   /**
   * Bearer token value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#token_value DevopsagentService#token_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#token_value DevopsagentService#token_value}
   */
   readonly tokenValue?: string;
 }
@@ -2800,7 +2800,7 @@ export interface DevopsagentServiceServiceDetailsMcpServerGrafanaAuthorizationCo
   /**
   * Bearer token authentication details
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#bearer_token DevopsagentService#bearer_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#bearer_token DevopsagentService#bearer_token}
   */
   readonly bearerToken?: DevopsagentServiceServiceDetailsMcpServerGrafanaAuthorizationConfigBearerToken;
 }
@@ -2896,25 +2896,25 @@ export interface DevopsagentServiceServiceDetailsMcpServerGrafana {
   /**
   * Grafana MCP server authorization configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#authorization_config DevopsagentService#authorization_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#authorization_config DevopsagentService#authorization_config}
   */
   readonly authorizationConfig?: DevopsagentServiceServiceDetailsMcpServerGrafanaAuthorizationConfig;
   /**
   * Optional description for the MCP server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#description DevopsagentService#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#description DevopsagentService#description}
   */
   readonly description?: string;
   /**
   * MCP server endpoint URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#endpoint DevopsagentService#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#endpoint DevopsagentService#endpoint}
   */
   readonly endpoint?: string;
   /**
   * MCP server name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#name DevopsagentService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#name DevopsagentService#name}
   */
   readonly name?: string;
 }
@@ -3097,37 +3097,37 @@ export interface DevopsagentServiceServiceDetailsMcpServerNewRelicAuthorizationC
   /**
   * New Relic Account ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#account_id DevopsagentService#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#account_id DevopsagentService#account_id}
   */
   readonly accountId?: string;
   /**
   * List of alert policy IDs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#alert_policy_ids DevopsagentService#alert_policy_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#alert_policy_ids DevopsagentService#alert_policy_ids}
   */
   readonly alertPolicyIds?: string[];
   /**
   * New Relic User API Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#api_key DevopsagentService#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#api_key DevopsagentService#api_key}
   */
   readonly apiKey?: string;
   /**
   * List of monitored APM application IDs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#application_ids DevopsagentService#application_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#application_ids DevopsagentService#application_ids}
   */
   readonly applicationIds?: string[];
   /**
   * List of globally unique IDs for New Relic resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#entity_guids DevopsagentService#entity_guids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#entity_guids DevopsagentService#entity_guids}
   */
   readonly entityGuids?: string[];
   /**
   * New Relic region
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#region DevopsagentService#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#region DevopsagentService#region}
   */
   readonly region?: string;
 }
@@ -3368,7 +3368,7 @@ export interface DevopsagentServiceServiceDetailsMcpServerNewRelicAuthorizationC
   /**
   * New Relic API key configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#api_key DevopsagentService#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#api_key DevopsagentService#api_key}
   */
   readonly apiKey?: DevopsagentServiceServiceDetailsMcpServerNewRelicAuthorizationConfigApiKey;
 }
@@ -3464,7 +3464,7 @@ export interface DevopsagentServiceServiceDetailsMcpServerNewRelic {
   /**
   * New Relic authorization configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#authorization_config DevopsagentService#authorization_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#authorization_config DevopsagentService#authorization_config}
   */
   readonly authorizationConfig?: DevopsagentServiceServiceDetailsMcpServerNewRelicAuthorizationConfig;
 }
@@ -3560,31 +3560,31 @@ export interface DevopsagentServiceServiceDetailsMcpServerSigV4AuthorizationConf
   /**
   * Custom headers for the SigV4 MCP server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#custom_headers DevopsagentService#custom_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#custom_headers DevopsagentService#custom_headers}
   */
   readonly customHeaders?: { [key: string]: string };
   /**
   * IAM role ARN to assume for SigV4 signing. Optional - when omitted, credentials are resolved at runtime via a monitor account association.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#mcp_role_arn DevopsagentService#mcp_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#mcp_role_arn DevopsagentService#mcp_role_arn}
   */
   readonly mcpRoleArn?: string;
   /**
   * AWS region for SigV4 signing. Use '*' for SigV4a multi-region signing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#region DevopsagentService#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#region DevopsagentService#region}
   */
   readonly region?: string;
   /**
   * Deprecated - use McpRoleArn instead. IAM role ARN to assume for SigV4 signing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#role_arn DevopsagentService#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#role_arn DevopsagentService#role_arn}
   */
   readonly roleArn?: string;
   /**
   * AWS service name for SigV4 signing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#service DevopsagentService#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#service DevopsagentService#service}
   */
   readonly service?: string;
 }
@@ -3796,25 +3796,25 @@ export interface DevopsagentServiceServiceDetailsMcpServerSigV4 {
   /**
   * SigV4 authorization configuration for MCP server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#authorization_config DevopsagentService#authorization_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#authorization_config DevopsagentService#authorization_config}
   */
   readonly authorizationConfig?: DevopsagentServiceServiceDetailsMcpServerSigV4AuthorizationConfig;
   /**
   * Optional description for the MCP server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#description DevopsagentService#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#description DevopsagentService#description}
   */
   readonly description?: string;
   /**
   * MCP server endpoint URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#endpoint DevopsagentService#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#endpoint DevopsagentService#endpoint}
   */
   readonly endpoint?: string;
   /**
   * MCP server name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#name DevopsagentService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#name DevopsagentService#name}
   */
   readonly name?: string;
 }
@@ -3997,19 +3997,19 @@ export interface DevopsagentServiceServiceDetailsMcpServerSplunkAuthorizationCon
   /**
   * HTTP header name to send the bearer token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#authorization_header DevopsagentService#authorization_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#authorization_header DevopsagentService#authorization_header}
   */
   readonly authorizationHeader?: string;
   /**
   * User friendly bearer token name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#token_name DevopsagentService#token_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#token_name DevopsagentService#token_name}
   */
   readonly tokenName?: string;
   /**
   * Bearer token value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#token_value DevopsagentService#token_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#token_value DevopsagentService#token_value}
   */
   readonly tokenValue?: string;
 }
@@ -4163,7 +4163,7 @@ export interface DevopsagentServiceServiceDetailsMcpServerSplunkAuthorizationCon
   /**
   * Bearer token authentication details
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#bearer_token DevopsagentService#bearer_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#bearer_token DevopsagentService#bearer_token}
   */
   readonly bearerToken?: DevopsagentServiceServiceDetailsMcpServerSplunkAuthorizationConfigBearerToken;
 }
@@ -4259,25 +4259,25 @@ export interface DevopsagentServiceServiceDetailsMcpServerSplunk {
   /**
   * MCP server splunk authorization configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#authorization_config DevopsagentService#authorization_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#authorization_config DevopsagentService#authorization_config}
   */
   readonly authorizationConfig?: DevopsagentServiceServiceDetailsMcpServerSplunkAuthorizationConfig;
   /**
   * Optional description for the MCP server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#description DevopsagentService#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#description DevopsagentService#description}
   */
   readonly description?: string;
   /**
   * MCP server endpoint URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#endpoint DevopsagentService#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#endpoint DevopsagentService#endpoint}
   */
   readonly endpoint?: string;
   /**
   * MCP server name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#name DevopsagentService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#name DevopsagentService#name}
   */
   readonly name?: string;
 }
@@ -4460,25 +4460,25 @@ export interface DevopsagentServiceServiceDetailsPagerDutyAuthorizationConfigOAu
   /**
   * OAuth client ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#client_id DevopsagentService#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#client_id DevopsagentService#client_id}
   */
   readonly clientId?: string;
   /**
   * User friendly OAuth client name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#client_name DevopsagentService#client_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#client_name DevopsagentService#client_name}
   */
   readonly clientName?: string;
   /**
   * OAuth client secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#client_secret DevopsagentService#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#client_secret DevopsagentService#client_secret}
   */
   readonly clientSecret?: string;
   /**
   * OAuth token exchange parameters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#exchange_parameters DevopsagentService#exchange_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#exchange_parameters DevopsagentService#exchange_parameters}
   */
   readonly exchangeParameters?: string;
 }
@@ -4661,7 +4661,7 @@ export interface DevopsagentServiceServiceDetailsPagerDutyAuthorizationConfig {
   /**
   * OAuth client credentials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#o_auth_client_credentials DevopsagentService#o_auth_client_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#o_auth_client_credentials DevopsagentService#o_auth_client_credentials}
   */
   readonly oAuthClientCredentials?: DevopsagentServiceServiceDetailsPagerDutyAuthorizationConfigOAuthClientCredentials;
 }
@@ -4757,13 +4757,13 @@ export interface DevopsagentServiceServiceDetailsPagerDuty {
   /**
   * PagerDuty OAuth authorization configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#authorization_config DevopsagentService#authorization_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#authorization_config DevopsagentService#authorization_config}
   */
   readonly authorizationConfig?: DevopsagentServiceServiceDetailsPagerDutyAuthorizationConfig;
   /**
   * PagerDuty scopes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#scopes DevopsagentService#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#scopes DevopsagentService#scopes}
   */
   readonly scopes?: string[];
 }
@@ -4888,25 +4888,25 @@ export interface DevopsagentServiceServiceDetailsServiceNowAuthorizationConfigOA
   /**
   * OAuth client ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#client_id DevopsagentService#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#client_id DevopsagentService#client_id}
   */
   readonly clientId?: string;
   /**
   * User friendly OAuth client name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#client_name DevopsagentService#client_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#client_name DevopsagentService#client_name}
   */
   readonly clientName?: string;
   /**
   * OAuth client secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#client_secret DevopsagentService#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#client_secret DevopsagentService#client_secret}
   */
   readonly clientSecret?: string;
   /**
   * OAuth token exchange parameters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#exchange_parameters DevopsagentService#exchange_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#exchange_parameters DevopsagentService#exchange_parameters}
   */
   readonly exchangeParameters?: string;
 }
@@ -5089,7 +5089,7 @@ export interface DevopsagentServiceServiceDetailsServiceNowAuthorizationConfig {
   /**
   * OAuth client credentials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#o_auth_client_credentials DevopsagentService#o_auth_client_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#o_auth_client_credentials DevopsagentService#o_auth_client_credentials}
   */
   readonly oAuthClientCredentials?: DevopsagentServiceServiceDetailsServiceNowAuthorizationConfigOAuthClientCredentials;
 }
@@ -5185,13 +5185,13 @@ export interface DevopsagentServiceServiceDetailsServiceNow {
   /**
   * ServiceNow OAuth authorization configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#authorization_config DevopsagentService#authorization_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#authorization_config DevopsagentService#authorization_config}
   */
   readonly authorizationConfig?: DevopsagentServiceServiceDetailsServiceNowAuthorizationConfig;
   /**
   * ServiceNow instance URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#instance_url DevopsagentService#instance_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#instance_url DevopsagentService#instance_url}
   */
   readonly instanceUrl?: string;
 }
@@ -5316,61 +5316,61 @@ export interface DevopsagentServiceServiceDetails {
   /**
   * Azure Identity service configuration for federated identity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#azure_identity DevopsagentService#azure_identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#azure_identity DevopsagentService#azure_identity}
   */
   readonly azureIdentity?: DevopsagentServiceServiceDetailsAzureIdentity;
   /**
   * Dynatrace service configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#dynatrace DevopsagentService#dynatrace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#dynatrace DevopsagentService#dynatrace}
   */
   readonly dynatrace?: DevopsagentServiceServiceDetailsDynatrace;
   /**
   * GitLab service configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#git_lab DevopsagentService#git_lab}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#git_lab DevopsagentService#git_lab}
   */
   readonly gitLab?: DevopsagentServiceServiceDetailsGitLab;
   /**
   * MCP server configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#mcp_server DevopsagentService#mcp_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#mcp_server DevopsagentService#mcp_server}
   */
   readonly mcpServer?: DevopsagentServiceServiceDetailsMcpServer;
   /**
   * Grafana MCP server configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#mcp_server_grafana DevopsagentService#mcp_server_grafana}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#mcp_server_grafana DevopsagentService#mcp_server_grafana}
   */
   readonly mcpServerGrafana?: DevopsagentServiceServiceDetailsMcpServerGrafana;
   /**
   * New Relic service configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#mcp_server_new_relic DevopsagentService#mcp_server_new_relic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#mcp_server_new_relic DevopsagentService#mcp_server_new_relic}
   */
   readonly mcpServerNewRelic?: DevopsagentServiceServiceDetailsMcpServerNewRelic;
   /**
   * SigV4-authenticated MCP server configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#mcp_server_sig_v4 DevopsagentService#mcp_server_sig_v4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#mcp_server_sig_v4 DevopsagentService#mcp_server_sig_v4}
   */
   readonly mcpServerSigV4?: DevopsagentServiceServiceDetailsMcpServerSigV4;
   /**
   * Splunk MCP server configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#mcp_server_splunk DevopsagentService#mcp_server_splunk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#mcp_server_splunk DevopsagentService#mcp_server_splunk}
   */
   readonly mcpServerSplunk?: DevopsagentServiceServiceDetailsMcpServerSplunk;
   /**
   * PagerDuty service configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#pager_duty DevopsagentService#pager_duty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#pager_duty DevopsagentService#pager_duty}
   */
   readonly pagerDuty?: DevopsagentServiceServiceDetailsPagerDuty;
   /**
   * ServiceNow service configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#service_now DevopsagentService#service_now}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#service_now DevopsagentService#service_now}
   */
   readonly serviceNow?: DevopsagentServiceServiceDetailsServiceNow;
 }
@@ -5727,13 +5727,13 @@ export interface DevopsagentServiceTags {
   /**
   * The key name of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#key DevopsagentService#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#key DevopsagentService#key}
   */
   readonly key?: string;
   /**
   * The value for the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#value DevopsagentService#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#value DevopsagentService#value}
   */
   readonly value?: string;
 }
@@ -5878,7 +5878,7 @@ export class DevopsagentServiceTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service awscc_devopsagent_service}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service awscc_devopsagent_service}
 */
 export class DevopsagentService extends cdktn.TerraformResource {
 
@@ -5894,7 +5894,7 @@ export class DevopsagentService extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a DevopsagentService resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DevopsagentService to import
-  * @param importFromId The id of the existing DevopsagentService that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DevopsagentService that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DevopsagentService to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -5906,7 +5906,7 @@ export class DevopsagentService extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service awscc_devopsagent_service} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service awscc_devopsagent_service} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5917,7 +5917,7 @@ export class DevopsagentService extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_devopsagent_service',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.99.0',
+        providerVersion: '1.100.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

@@ -4,7 +4,7 @@
 
 ### SagemakerMlflowApp <a name="SagemakerMlflowApp" id="@cdktn/provider-awscc.sagemakerMlflowApp.SagemakerMlflowApp"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_mlflow_app awscc_sagemaker_mlflow_app}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_mlflow_app awscc_sagemaker_mlflow_app}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sagemakerMlflowApp.SagemakerMlflowApp.Initializer"></a>
 
@@ -523,7 +523,7 @@ The construct id used in the generated config for the SagemakerMlflowApp to impo
 
 The id of the existing SagemakerMlflowApp that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_mlflow_app#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_mlflow_app#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1051,7 +1051,7 @@ public string ArtifactStoreUri { get; set; }
 
 The S3 URI for a general purpose bucket to use as the MLflow App artifact store.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_mlflow_app#artifact_store_uri SagemakerMlflowApp#artifact_store_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_mlflow_app#artifact_store_uri SagemakerMlflowApp#artifact_store_uri}
 
 ---
 
@@ -1065,7 +1065,7 @@ public string Name { get; set; }
 
 The name of the MLflow App.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_mlflow_app#name SagemakerMlflowApp#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_mlflow_app#name SagemakerMlflowApp#name}
 
 ---
 
@@ -1079,7 +1079,7 @@ public string RoleArn { get; set; }
 
 The Amazon Resource Name (ARN) for an IAM role in your account that the MLflow App uses to access the artifact store in Amazon S3.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_mlflow_app#role_arn SagemakerMlflowApp#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_mlflow_app#role_arn SagemakerMlflowApp#role_arn}
 
 ---
 
@@ -1093,7 +1093,7 @@ public string ModelRegistrationMode { get; set; }
 
 Whether to enable or disable automatic registration of new MLflow models to the SageMaker Model Registry.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_mlflow_app#model_registration_mode SagemakerMlflowApp#model_registration_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_mlflow_app#model_registration_mode SagemakerMlflowApp#model_registration_mode}
 
 ---
 
@@ -1107,7 +1107,7 @@ public IResolvable|SagemakerMlflowAppTags[] Tags { get; set; }
 
 Tags to associate with the MLflow App.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_mlflow_app#tags SagemakerMlflowApp#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_mlflow_app#tags SagemakerMlflowApp#tags}
 
 ---
 
@@ -1123,7 +1123,7 @@ The day and time of the week in Coordinated Universal Time (UTC) 24-hour standar
 
 For example: Tue:03:30.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_mlflow_app#weekly_maintenance_window_start SagemakerMlflowApp#weekly_maintenance_window_start}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_mlflow_app#weekly_maintenance_window_start SagemakerMlflowApp#weekly_maintenance_window_start}
 
 ---
 
@@ -1144,8 +1144,8 @@ new SagemakerMlflowAppTags {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sagemakerMlflowApp.SagemakerMlflowAppTags.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_mlflow_app#key SagemakerMlflowApp#key}. |
-| <code><a href="#@cdktn/provider-awscc.sagemakerMlflowApp.SagemakerMlflowAppTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_mlflow_app#value SagemakerMlflowApp#value}. |
+| <code><a href="#@cdktn/provider-awscc.sagemakerMlflowApp.SagemakerMlflowAppTags.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_mlflow_app#key SagemakerMlflowApp#key}. |
+| <code><a href="#@cdktn/provider-awscc.sagemakerMlflowApp.SagemakerMlflowAppTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_mlflow_app#value SagemakerMlflowApp#value}. |
 
 ---
 
@@ -1157,7 +1157,7 @@ public string Key { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_mlflow_app#key SagemakerMlflowApp#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_mlflow_app#key SagemakerMlflowApp#key}.
 
 ---
 
@@ -1169,7 +1169,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_mlflow_app#value SagemakerMlflowApp#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_mlflow_app#value SagemakerMlflowApp#value}.
 
 ---
 

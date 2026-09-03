@@ -4,7 +4,7 @@
 
 ### ApigatewayDeployment <a name="ApigatewayDeployment" id="@cdktn/provider-awscc.apigatewayDeployment.ApigatewayDeployment"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_deployment awscc_apigateway_deployment}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_deployment awscc_apigateway_deployment}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apigatewayDeployment.ApigatewayDeployment.Initializer"></a>
 
@@ -543,7 +543,7 @@ The construct id used in the generated config for the ApigatewayDeployment to im
 
 The id of the existing ApigatewayDeployment that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_deployment#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_deployment#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -891,11 +891,11 @@ const apigatewayDeploymentConfig: apigatewayDeployment.ApigatewayDeploymentConfi
 | <code><a href="#@cdktn/provider-awscc.apigatewayDeployment.ApigatewayDeploymentConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.apigatewayDeployment.ApigatewayDeploymentConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.apigatewayDeployment.ApigatewayDeploymentConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.apigatewayDeployment.ApigatewayDeploymentConfig.property.restApiId">restApiId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_deployment#rest_api_id ApigatewayDeployment#rest_api_id}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayDeployment.ApigatewayDeploymentConfig.property.restApiId">restApiId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_deployment#rest_api_id ApigatewayDeployment#rest_api_id}. |
 | <code><a href="#@cdktn/provider-awscc.apigatewayDeployment.ApigatewayDeploymentConfig.property.deploymentCanarySettings">deploymentCanarySettings</a></code> | <code><a href="#@cdktn/provider-awscc.apigatewayDeployment.ApigatewayDeploymentDeploymentCanarySettings">ApigatewayDeploymentDeploymentCanarySettings</a></code> | The ``DeploymentCanarySettings`` property type specifies settings for the canary deployment. |
-| <code><a href="#@cdktn/provider-awscc.apigatewayDeployment.ApigatewayDeploymentConfig.property.description">description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_deployment#description ApigatewayDeployment#description}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayDeployment.ApigatewayDeploymentConfig.property.description">description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_deployment#description ApigatewayDeployment#description}. |
 | <code><a href="#@cdktn/provider-awscc.apigatewayDeployment.ApigatewayDeploymentConfig.property.stageDescription">stageDescription</a></code> | <code><a href="#@cdktn/provider-awscc.apigatewayDeployment.ApigatewayDeploymentStageDescription">ApigatewayDeploymentStageDescription</a></code> | The description of the Stage resource for the Deployment resource to create. |
-| <code><a href="#@cdktn/provider-awscc.apigatewayDeployment.ApigatewayDeploymentConfig.property.stageName">stageName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_deployment#stage_name ApigatewayDeployment#stage_name}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayDeployment.ApigatewayDeploymentConfig.property.stageName">stageName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_deployment#stage_name ApigatewayDeployment#stage_name}. |
 
 ---
 
@@ -977,7 +977,7 @@ public readonly restApiId: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_deployment#rest_api_id ApigatewayDeployment#rest_api_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_deployment#rest_api_id ApigatewayDeployment#rest_api_id}.
 
 ---
 
@@ -991,7 +991,7 @@ public readonly deploymentCanarySettings: ApigatewayDeploymentDeploymentCanarySe
 
 The ``DeploymentCanarySettings`` property type specifies settings for the canary deployment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_deployment#deployment_canary_settings ApigatewayDeployment#deployment_canary_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_deployment#deployment_canary_settings ApigatewayDeployment#deployment_canary_settings}
 
 ---
 
@@ -1003,7 +1003,7 @@ public readonly description: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_deployment#description ApigatewayDeployment#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_deployment#description ApigatewayDeployment#description}.
 
 ---
 
@@ -1019,7 +1019,7 @@ The description of the Stage resource for the Deployment resource to create.
 
 To specify a stage description, you must also provide a stage name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_deployment#stage_description ApigatewayDeployment#stage_description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_deployment#stage_description ApigatewayDeployment#stage_description}
 
 ---
 
@@ -1031,7 +1031,7 @@ public readonly stageName: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_deployment#stage_name ApigatewayDeployment#stage_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_deployment#stage_name ApigatewayDeployment#stage_name}.
 
 ---
 
@@ -1049,9 +1049,9 @@ const apigatewayDeploymentDeploymentCanarySettings: apigatewayDeployment.Apigate
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.apigatewayDeployment.ApigatewayDeploymentDeploymentCanarySettings.property.percentTraffic">percentTraffic</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_deployment#percent_traffic ApigatewayDeployment#percent_traffic}. |
-| <code><a href="#@cdktn/provider-awscc.apigatewayDeployment.ApigatewayDeploymentDeploymentCanarySettings.property.stageVariableOverrides">stageVariableOverrides</a></code> | <code>{[ key: string ]: string}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_deployment#stage_variable_overrides ApigatewayDeployment#stage_variable_overrides}. |
-| <code><a href="#@cdktn/provider-awscc.apigatewayDeployment.ApigatewayDeploymentDeploymentCanarySettings.property.useStageCache">useStageCache</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_deployment#use_stage_cache ApigatewayDeployment#use_stage_cache}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayDeployment.ApigatewayDeploymentDeploymentCanarySettings.property.percentTraffic">percentTraffic</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_deployment#percent_traffic ApigatewayDeployment#percent_traffic}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayDeployment.ApigatewayDeploymentDeploymentCanarySettings.property.stageVariableOverrides">stageVariableOverrides</a></code> | <code>{[ key: string ]: string}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_deployment#stage_variable_overrides ApigatewayDeployment#stage_variable_overrides}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayDeployment.ApigatewayDeploymentDeploymentCanarySettings.property.useStageCache">useStageCache</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_deployment#use_stage_cache ApigatewayDeployment#use_stage_cache}. |
 
 ---
 
@@ -1063,7 +1063,7 @@ public readonly percentTraffic: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_deployment#percent_traffic ApigatewayDeployment#percent_traffic}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_deployment#percent_traffic ApigatewayDeployment#percent_traffic}.
 
 ---
 
@@ -1075,7 +1075,7 @@ public readonly stageVariableOverrides: {[ key: string ]: string};
 
 - *Type:* {[ key: string ]: string}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_deployment#stage_variable_overrides ApigatewayDeployment#stage_variable_overrides}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_deployment#stage_variable_overrides ApigatewayDeployment#stage_variable_overrides}.
 
 ---
 
@@ -1087,7 +1087,7 @@ public readonly useStageCache: boolean | IResolvable;
 
 - *Type:* boolean | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_deployment#use_stage_cache ApigatewayDeployment#use_stage_cache}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_deployment#use_stage_cache ApigatewayDeployment#use_stage_cache}.
 
 ---
 
@@ -1106,7 +1106,7 @@ const apigatewayDeploymentStageDescription: apigatewayDeployment.ApigatewayDeplo
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.apigatewayDeployment.ApigatewayDeploymentStageDescription.property.accessLogSetting">accessLogSetting</a></code> | <code><a href="#@cdktn/provider-awscc.apigatewayDeployment.ApigatewayDeploymentStageDescriptionAccessLogSetting">ApigatewayDeploymentStageDescriptionAccessLogSetting</a></code> | Specifies settings for logging access in this stage. |
-| <code><a href="#@cdktn/provider-awscc.apigatewayDeployment.ApigatewayDeploymentStageDescription.property.cacheClusterEnabled">cacheClusterEnabled</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_deployment#cache_cluster_enabled ApigatewayDeployment#cache_cluster_enabled}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayDeployment.ApigatewayDeploymentStageDescription.property.cacheClusterEnabled">cacheClusterEnabled</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_deployment#cache_cluster_enabled ApigatewayDeployment#cache_cluster_enabled}. |
 | <code><a href="#@cdktn/provider-awscc.apigatewayDeployment.ApigatewayDeploymentStageDescription.property.cacheClusterSize">cacheClusterSize</a></code> | <code>string</code> | The size of the stage's cache cluster. For more information, see [cacheClusterSize](https://docs.aws.amazon.com/apigateway/latest/api/API_CreateStage.html#apigw-CreateStage-request-cacheClusterSize) in the *API Gateway API Reference*. |
 | <code><a href="#@cdktn/provider-awscc.apigatewayDeployment.ApigatewayDeploymentStageDescription.property.cacheDataEncrypted">cacheDataEncrypted</a></code> | <code>boolean \| cdktn.IResolvable</code> | Indicates whether the cached responses are encrypted. |
 | <code><a href="#@cdktn/provider-awscc.apigatewayDeployment.ApigatewayDeploymentStageDescription.property.cacheTtlInSeconds">cacheTtlInSeconds</a></code> | <code>number</code> | The time-to-live (TTL) period, in seconds, that specifies how long API Gateway caches responses. |
@@ -1137,7 +1137,7 @@ public readonly accessLogSetting: ApigatewayDeploymentStageDescriptionAccessLogS
 
 Specifies settings for logging access in this stage.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_deployment#access_log_setting ApigatewayDeployment#access_log_setting}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_deployment#access_log_setting ApigatewayDeployment#access_log_setting}
 
 ---
 
@@ -1149,7 +1149,7 @@ public readonly cacheClusterEnabled: boolean | IResolvable;
 
 - *Type:* boolean | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_deployment#cache_cluster_enabled ApigatewayDeployment#cache_cluster_enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_deployment#cache_cluster_enabled ApigatewayDeployment#cache_cluster_enabled}.
 
 ---
 
@@ -1163,7 +1163,7 @@ public readonly cacheClusterSize: string;
 
 The size of the stage's cache cluster. For more information, see [cacheClusterSize](https://docs.aws.amazon.com/apigateway/latest/api/API_CreateStage.html#apigw-CreateStage-request-cacheClusterSize) in the *API Gateway API Reference*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_deployment#cache_cluster_size ApigatewayDeployment#cache_cluster_size}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_deployment#cache_cluster_size ApigatewayDeployment#cache_cluster_size}
 
 ---
 
@@ -1177,7 +1177,7 @@ public readonly cacheDataEncrypted: boolean | IResolvable;
 
 Indicates whether the cached responses are encrypted.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_deployment#cache_data_encrypted ApigatewayDeployment#cache_data_encrypted}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_deployment#cache_data_encrypted ApigatewayDeployment#cache_data_encrypted}
 
 ---
 
@@ -1191,7 +1191,7 @@ public readonly cacheTtlInSeconds: number;
 
 The time-to-live (TTL) period, in seconds, that specifies how long API Gateway caches responses.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_deployment#cache_ttl_in_seconds ApigatewayDeployment#cache_ttl_in_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_deployment#cache_ttl_in_seconds ApigatewayDeployment#cache_ttl_in_seconds}
 
 ---
 
@@ -1207,7 +1207,7 @@ Indicates whether responses are cached and returned for requests.
 
 You must enable a cache cluster on the stage to cache responses. For more information, see [Enable API Gateway Caching in a Stage to Enhance API Performance](https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-caching.html) in the *API Gateway Developer Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_deployment#caching_enabled ApigatewayDeployment#caching_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_deployment#caching_enabled ApigatewayDeployment#caching_enabled}
 
 ---
 
@@ -1221,7 +1221,7 @@ public readonly canarySetting: ApigatewayDeploymentStageDescriptionCanarySetting
 
 Specifies settings for the canary deployment in this stage.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_deployment#canary_setting ApigatewayDeployment#canary_setting}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_deployment#canary_setting ApigatewayDeployment#canary_setting}
 
 ---
 
@@ -1235,7 +1235,7 @@ public readonly clientCertificateId: string;
 
 The identifier of the client certificate that API Gateway uses to call your integration endpoints in the stage.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_deployment#client_certificate_id ApigatewayDeployment#client_certificate_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_deployment#client_certificate_id ApigatewayDeployment#client_certificate_id}
 
 ---
 
@@ -1251,7 +1251,7 @@ Indicates whether data trace logging is enabled for methods in the stage.
 
 API Gateway pushes these logs to Amazon CloudWatch Logs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_deployment#data_trace_enabled ApigatewayDeployment#data_trace_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_deployment#data_trace_enabled ApigatewayDeployment#data_trace_enabled}
 
 ---
 
@@ -1265,7 +1265,7 @@ public readonly description: string;
 
 A description of the purpose of the stage.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_deployment#description ApigatewayDeployment#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_deployment#description ApigatewayDeployment#description}
 
 ---
 
@@ -1279,7 +1279,7 @@ public readonly documentationVersion: string;
 
 The version identifier of the API documentation snapshot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_deployment#documentation_version ApigatewayDeployment#documentation_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_deployment#documentation_version ApigatewayDeployment#documentation_version}
 
 ---
 
@@ -1295,7 +1295,7 @@ The logging level for this method.
 
 For valid values, see the ``loggingLevel`` property of the [MethodSetting](https://docs.aws.amazon.com/apigateway/latest/api/API_MethodSetting.html) resource in the *Amazon API Gateway API Reference*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_deployment#logging_level ApigatewayDeployment#logging_level}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_deployment#logging_level ApigatewayDeployment#logging_level}
 
 ---
 
@@ -1309,7 +1309,7 @@ public readonly methodSettings: IResolvable | ApigatewayDeploymentStageDescripti
 
 Configures settings for all of the stage's methods.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_deployment#method_settings ApigatewayDeployment#method_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_deployment#method_settings ApigatewayDeployment#method_settings}
 
 ---
 
@@ -1323,7 +1323,7 @@ public readonly metricsEnabled: boolean | IResolvable;
 
 Indicates whether Amazon CloudWatch metrics are enabled for methods in the stage.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_deployment#metrics_enabled ApigatewayDeployment#metrics_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_deployment#metrics_enabled ApigatewayDeployment#metrics_enabled}
 
 ---
 
@@ -1337,7 +1337,7 @@ public readonly tags: IResolvable | ApigatewayDeploymentStageDescriptionTags[];
 
 An array of arbitrary tags (key-value pairs) to associate with the stage.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_deployment#tags ApigatewayDeployment#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_deployment#tags ApigatewayDeployment#tags}
 
 ---
 
@@ -1353,7 +1353,7 @@ The target request burst rate limit.
 
 This allows more requests through for a period of time than the target rate limit. For more information, see [Manage API Request Throttling](https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-request-throttling.html) in the *API Gateway Developer Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_deployment#throttling_burst_limit ApigatewayDeployment#throttling_burst_limit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_deployment#throttling_burst_limit ApigatewayDeployment#throttling_burst_limit}
 
 ---
 
@@ -1369,7 +1369,7 @@ The target request steady-state rate limit.
 
 For more information, see [Manage API Request Throttling](https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-request-throttling.html) in the *API Gateway Developer Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_deployment#throttling_rate_limit ApigatewayDeployment#throttling_rate_limit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_deployment#throttling_rate_limit ApigatewayDeployment#throttling_rate_limit}
 
 ---
 
@@ -1385,7 +1385,7 @@ Specifies whether active tracing with X-ray is enabled for this stage.
 
 For more information, see [Trace API Gateway API Execution with X-Ray](https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-xray.html) in the *API Gateway Developer Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_deployment#tracing_enabled ApigatewayDeployment#tracing_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_deployment#tracing_enabled ApigatewayDeployment#tracing_enabled}
 
 ---
 
@@ -1401,7 +1401,7 @@ A map that defines the stage variables.
 
 Variable names must consist of alphanumeric characters, and the values must match the following regular expression: ``[A-Za-z0-9-._~:/?#&=,]+``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_deployment#variables ApigatewayDeployment#variables}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_deployment#variables ApigatewayDeployment#variables}
 
 ---
 
@@ -1419,8 +1419,8 @@ const apigatewayDeploymentStageDescriptionAccessLogSetting: apigatewayDeployment
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.apigatewayDeployment.ApigatewayDeploymentStageDescriptionAccessLogSetting.property.destinationArn">destinationArn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_deployment#destination_arn ApigatewayDeployment#destination_arn}. |
-| <code><a href="#@cdktn/provider-awscc.apigatewayDeployment.ApigatewayDeploymentStageDescriptionAccessLogSetting.property.format">format</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_deployment#format ApigatewayDeployment#format}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayDeployment.ApigatewayDeploymentStageDescriptionAccessLogSetting.property.destinationArn">destinationArn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_deployment#destination_arn ApigatewayDeployment#destination_arn}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayDeployment.ApigatewayDeploymentStageDescriptionAccessLogSetting.property.format">format</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_deployment#format ApigatewayDeployment#format}. |
 
 ---
 
@@ -1432,7 +1432,7 @@ public readonly destinationArn: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_deployment#destination_arn ApigatewayDeployment#destination_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_deployment#destination_arn ApigatewayDeployment#destination_arn}.
 
 ---
 
@@ -1444,7 +1444,7 @@ public readonly format: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_deployment#format ApigatewayDeployment#format}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_deployment#format ApigatewayDeployment#format}.
 
 ---
 
@@ -1462,9 +1462,9 @@ const apigatewayDeploymentStageDescriptionCanarySetting: apigatewayDeployment.Ap
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.apigatewayDeployment.ApigatewayDeploymentStageDescriptionCanarySetting.property.percentTraffic">percentTraffic</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_deployment#percent_traffic ApigatewayDeployment#percent_traffic}. |
-| <code><a href="#@cdktn/provider-awscc.apigatewayDeployment.ApigatewayDeploymentStageDescriptionCanarySetting.property.stageVariableOverrides">stageVariableOverrides</a></code> | <code>{[ key: string ]: string}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_deployment#stage_variable_overrides ApigatewayDeployment#stage_variable_overrides}. |
-| <code><a href="#@cdktn/provider-awscc.apigatewayDeployment.ApigatewayDeploymentStageDescriptionCanarySetting.property.useStageCache">useStageCache</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_deployment#use_stage_cache ApigatewayDeployment#use_stage_cache}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayDeployment.ApigatewayDeploymentStageDescriptionCanarySetting.property.percentTraffic">percentTraffic</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_deployment#percent_traffic ApigatewayDeployment#percent_traffic}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayDeployment.ApigatewayDeploymentStageDescriptionCanarySetting.property.stageVariableOverrides">stageVariableOverrides</a></code> | <code>{[ key: string ]: string}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_deployment#stage_variable_overrides ApigatewayDeployment#stage_variable_overrides}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayDeployment.ApigatewayDeploymentStageDescriptionCanarySetting.property.useStageCache">useStageCache</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_deployment#use_stage_cache ApigatewayDeployment#use_stage_cache}. |
 
 ---
 
@@ -1476,7 +1476,7 @@ public readonly percentTraffic: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_deployment#percent_traffic ApigatewayDeployment#percent_traffic}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_deployment#percent_traffic ApigatewayDeployment#percent_traffic}.
 
 ---
 
@@ -1488,7 +1488,7 @@ public readonly stageVariableOverrides: {[ key: string ]: string};
 
 - *Type:* {[ key: string ]: string}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_deployment#stage_variable_overrides ApigatewayDeployment#stage_variable_overrides}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_deployment#stage_variable_overrides ApigatewayDeployment#stage_variable_overrides}.
 
 ---
 
@@ -1500,7 +1500,7 @@ public readonly useStageCache: boolean | IResolvable;
 
 - *Type:* boolean | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_deployment#use_stage_cache ApigatewayDeployment#use_stage_cache}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_deployment#use_stage_cache ApigatewayDeployment#use_stage_cache}.
 
 ---
 
@@ -1518,16 +1518,16 @@ const apigatewayDeploymentStageDescriptionMethodSettings: apigatewayDeployment.A
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.apigatewayDeployment.ApigatewayDeploymentStageDescriptionMethodSettings.property.cacheDataEncrypted">cacheDataEncrypted</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_deployment#cache_data_encrypted ApigatewayDeployment#cache_data_encrypted}. |
-| <code><a href="#@cdktn/provider-awscc.apigatewayDeployment.ApigatewayDeploymentStageDescriptionMethodSettings.property.cacheTtlInSeconds">cacheTtlInSeconds</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_deployment#cache_ttl_in_seconds ApigatewayDeployment#cache_ttl_in_seconds}. |
-| <code><a href="#@cdktn/provider-awscc.apigatewayDeployment.ApigatewayDeploymentStageDescriptionMethodSettings.property.cachingEnabled">cachingEnabled</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_deployment#caching_enabled ApigatewayDeployment#caching_enabled}. |
-| <code><a href="#@cdktn/provider-awscc.apigatewayDeployment.ApigatewayDeploymentStageDescriptionMethodSettings.property.dataTraceEnabled">dataTraceEnabled</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_deployment#data_trace_enabled ApigatewayDeployment#data_trace_enabled}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayDeployment.ApigatewayDeploymentStageDescriptionMethodSettings.property.cacheDataEncrypted">cacheDataEncrypted</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_deployment#cache_data_encrypted ApigatewayDeployment#cache_data_encrypted}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayDeployment.ApigatewayDeploymentStageDescriptionMethodSettings.property.cacheTtlInSeconds">cacheTtlInSeconds</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_deployment#cache_ttl_in_seconds ApigatewayDeployment#cache_ttl_in_seconds}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayDeployment.ApigatewayDeploymentStageDescriptionMethodSettings.property.cachingEnabled">cachingEnabled</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_deployment#caching_enabled ApigatewayDeployment#caching_enabled}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayDeployment.ApigatewayDeploymentStageDescriptionMethodSettings.property.dataTraceEnabled">dataTraceEnabled</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_deployment#data_trace_enabled ApigatewayDeployment#data_trace_enabled}. |
 | <code><a href="#@cdktn/provider-awscc.apigatewayDeployment.ApigatewayDeploymentStageDescriptionMethodSettings.property.httpMethod">httpMethod</a></code> | <code>string</code> | The HTTP method. |
-| <code><a href="#@cdktn/provider-awscc.apigatewayDeployment.ApigatewayDeploymentStageDescriptionMethodSettings.property.loggingLevel">loggingLevel</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_deployment#logging_level ApigatewayDeployment#logging_level}. |
-| <code><a href="#@cdktn/provider-awscc.apigatewayDeployment.ApigatewayDeploymentStageDescriptionMethodSettings.property.metricsEnabled">metricsEnabled</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_deployment#metrics_enabled ApigatewayDeployment#metrics_enabled}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayDeployment.ApigatewayDeploymentStageDescriptionMethodSettings.property.loggingLevel">loggingLevel</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_deployment#logging_level ApigatewayDeployment#logging_level}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayDeployment.ApigatewayDeploymentStageDescriptionMethodSettings.property.metricsEnabled">metricsEnabled</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_deployment#metrics_enabled ApigatewayDeployment#metrics_enabled}. |
 | <code><a href="#@cdktn/provider-awscc.apigatewayDeployment.ApigatewayDeploymentStageDescriptionMethodSettings.property.resourcePath">resourcePath</a></code> | <code>string</code> | The resource path for this method. |
-| <code><a href="#@cdktn/provider-awscc.apigatewayDeployment.ApigatewayDeploymentStageDescriptionMethodSettings.property.throttlingBurstLimit">throttlingBurstLimit</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_deployment#throttling_burst_limit ApigatewayDeployment#throttling_burst_limit}. |
-| <code><a href="#@cdktn/provider-awscc.apigatewayDeployment.ApigatewayDeploymentStageDescriptionMethodSettings.property.throttlingRateLimit">throttlingRateLimit</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_deployment#throttling_rate_limit ApigatewayDeployment#throttling_rate_limit}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayDeployment.ApigatewayDeploymentStageDescriptionMethodSettings.property.throttlingBurstLimit">throttlingBurstLimit</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_deployment#throttling_burst_limit ApigatewayDeployment#throttling_burst_limit}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayDeployment.ApigatewayDeploymentStageDescriptionMethodSettings.property.throttlingRateLimit">throttlingRateLimit</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_deployment#throttling_rate_limit ApigatewayDeployment#throttling_rate_limit}. |
 
 ---
 
@@ -1539,7 +1539,7 @@ public readonly cacheDataEncrypted: boolean | IResolvable;
 
 - *Type:* boolean | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_deployment#cache_data_encrypted ApigatewayDeployment#cache_data_encrypted}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_deployment#cache_data_encrypted ApigatewayDeployment#cache_data_encrypted}.
 
 ---
 
@@ -1551,7 +1551,7 @@ public readonly cacheTtlInSeconds: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_deployment#cache_ttl_in_seconds ApigatewayDeployment#cache_ttl_in_seconds}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_deployment#cache_ttl_in_seconds ApigatewayDeployment#cache_ttl_in_seconds}.
 
 ---
 
@@ -1563,7 +1563,7 @@ public readonly cachingEnabled: boolean | IResolvable;
 
 - *Type:* boolean | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_deployment#caching_enabled ApigatewayDeployment#caching_enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_deployment#caching_enabled ApigatewayDeployment#caching_enabled}.
 
 ---
 
@@ -1575,7 +1575,7 @@ public readonly dataTraceEnabled: boolean | IResolvable;
 
 - *Type:* boolean | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_deployment#data_trace_enabled ApigatewayDeployment#data_trace_enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_deployment#data_trace_enabled ApigatewayDeployment#data_trace_enabled}.
 
 ---
 
@@ -1589,7 +1589,7 @@ public readonly httpMethod: string;
 
 The HTTP method.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_deployment#http_method ApigatewayDeployment#http_method}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_deployment#http_method ApigatewayDeployment#http_method}
 
 ---
 
@@ -1601,7 +1601,7 @@ public readonly loggingLevel: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_deployment#logging_level ApigatewayDeployment#logging_level}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_deployment#logging_level ApigatewayDeployment#logging_level}.
 
 ---
 
@@ -1613,7 +1613,7 @@ public readonly metricsEnabled: boolean | IResolvable;
 
 - *Type:* boolean | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_deployment#metrics_enabled ApigatewayDeployment#metrics_enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_deployment#metrics_enabled ApigatewayDeployment#metrics_enabled}.
 
 ---
 
@@ -1629,7 +1629,7 @@ The resource path for this method.
 
 Forward slashes (``/``) are encoded as ``~1`` and the initial slash must include a forward slash. For example, the path value ``/resource/subresource`` must be encoded as ``/~1resource~1subresource``. To specify the root path, use only a slash (``/``).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_deployment#resource_path ApigatewayDeployment#resource_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_deployment#resource_path ApigatewayDeployment#resource_path}
 
 ---
 
@@ -1641,7 +1641,7 @@ public readonly throttlingBurstLimit: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_deployment#throttling_burst_limit ApigatewayDeployment#throttling_burst_limit}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_deployment#throttling_burst_limit ApigatewayDeployment#throttling_burst_limit}.
 
 ---
 
@@ -1653,7 +1653,7 @@ public readonly throttlingRateLimit: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_deployment#throttling_rate_limit ApigatewayDeployment#throttling_rate_limit}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_deployment#throttling_rate_limit ApigatewayDeployment#throttling_rate_limit}.
 
 ---
 
@@ -1688,7 +1688,7 @@ A string you can use to assign a value.
 
 The combination of tag keys and values can help you organize and categorize your resources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_deployment#key ApigatewayDeployment#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_deployment#key ApigatewayDeployment#key}
 
 ---
 
@@ -1702,7 +1702,7 @@ public readonly value: string;
 
 The value for the specified tag key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_deployment#value ApigatewayDeployment#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_deployment#value ApigatewayDeployment#value}
 
 ---
 

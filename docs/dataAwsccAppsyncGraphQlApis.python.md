@@ -4,7 +4,7 @@
 
 ### DataAwsccAppsyncGraphQlApis <a name="DataAwsccAppsyncGraphQlApis" id="@cdktn/provider-awscc.dataAwsccAppsyncGraphQlApis.DataAwsccAppsyncGraphQlApis"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/appsync_graph_ql_apis awscc_appsync_graph_ql_apis}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/appsync_graph_ql_apis awscc_appsync_graph_ql_apis}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppsyncGraphQlApis.DataAwsccAppsyncGraphQlApis.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccAppsyncGraphQlApi
 
 The id of the existing DataAwsccAppsyncGraphQlApis that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/appsync_graph_ql_apis#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/appsync_graph_ql_apis#import import section} in the documentation of this resource for the id to use
 
 ---
 

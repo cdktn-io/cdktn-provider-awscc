@@ -4,7 +4,7 @@
 
 ### DataAwsccRedshiftClusterParameterGroups <a name="DataAwsccRedshiftClusterParameterGroups" id="@cdktn/provider-awscc.dataAwsccRedshiftClusterParameterGroups.DataAwsccRedshiftClusterParameterGroups"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/redshift_cluster_parameter_groups awscc_redshift_cluster_parameter_groups}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/redshift_cluster_parameter_groups awscc_redshift_cluster_parameter_groups}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRedshiftClusterParameterGroups.DataAwsccRedshiftClusterParameterGroups.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccRedshiftClusterPa
 
 The id of the existing DataAwsccRedshiftClusterParameterGroups that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/redshift_cluster_parameter_groups#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/redshift_cluster_parameter_groups#import import section} in the documentation of this resource for the id to use
 
 ---
 

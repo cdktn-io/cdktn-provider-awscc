@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_fpga_image
+// https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_fpga_image
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,31 +15,31 @@ export interface Ec2FpgaImageConfig extends cdktn.TerraformMetaArguments {
   /**
   * A description for the AFI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_fpga_image#description Ec2FpgaImage#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_fpga_image#description Ec2FpgaImage#description}
   */
   readonly description?: string;
   /**
   * The location of the encrypted design checkpoint in Amazon S3. The input must be a tarball.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_fpga_image#input_storage_location Ec2FpgaImage#input_storage_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_fpga_image#input_storage_location Ec2FpgaImage#input_storage_location}
   */
   readonly inputStorageLocation?: Ec2FpgaImageInputStorageLocation;
   /**
   * The location in Amazon S3 for the output logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_fpga_image#logs_storage_location Ec2FpgaImage#logs_storage_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_fpga_image#logs_storage_location Ec2FpgaImage#logs_storage_location}
   */
   readonly logsStorageLocation?: Ec2FpgaImageLogsStorageLocation;
   /**
   * A name for the AFI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_fpga_image#name Ec2FpgaImage#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_fpga_image#name Ec2FpgaImage#name}
   */
   readonly name?: string;
   /**
   * The tags assigned to the FPGA image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_fpga_image#tags Ec2FpgaImage#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_fpga_image#tags Ec2FpgaImage#tags}
   */
   readonly tags?: Ec2FpgaImageTags[] | cdktn.IResolvable;
 }
@@ -47,13 +47,13 @@ export interface Ec2FpgaImageInputStorageLocation {
   /**
   * The name of the S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_fpga_image#bucket Ec2FpgaImage#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_fpga_image#bucket Ec2FpgaImage#bucket}
   */
   readonly bucket?: string;
   /**
   * The key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_fpga_image#key Ec2FpgaImage#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_fpga_image#key Ec2FpgaImage#key}
   */
   readonly key?: string;
 }
@@ -178,13 +178,13 @@ export interface Ec2FpgaImageLogsStorageLocation {
   /**
   * The name of the S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_fpga_image#bucket Ec2FpgaImage#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_fpga_image#bucket Ec2FpgaImage#bucket}
   */
   readonly bucket?: string;
   /**
   * The key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_fpga_image#key Ec2FpgaImage#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_fpga_image#key Ec2FpgaImage#key}
   */
   readonly key?: string;
 }
@@ -309,13 +309,13 @@ export interface Ec2FpgaImageTags {
   /**
   * The tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_fpga_image#key Ec2FpgaImage#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_fpga_image#key Ec2FpgaImage#key}
   */
   readonly key?: string;
   /**
   * The tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_fpga_image#value Ec2FpgaImage#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_fpga_image#value Ec2FpgaImage#value}
   */
   readonly value?: string;
 }
@@ -460,7 +460,7 @@ export class Ec2FpgaImageTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_fpga_image awscc_ec2_fpga_image}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_fpga_image awscc_ec2_fpga_image}
 */
 export class Ec2FpgaImage extends cdktn.TerraformResource {
 
@@ -476,7 +476,7 @@ export class Ec2FpgaImage extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Ec2FpgaImage resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Ec2FpgaImage to import
-  * @param importFromId The id of the existing Ec2FpgaImage that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_fpga_image#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Ec2FpgaImage that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_fpga_image#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Ec2FpgaImage to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -488,7 +488,7 @@ export class Ec2FpgaImage extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_fpga_image awscc_ec2_fpga_image} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_fpga_image awscc_ec2_fpga_image} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -499,7 +499,7 @@ export class Ec2FpgaImage extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_ec2_fpga_image',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.99.0',
+        providerVersion: '1.100.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

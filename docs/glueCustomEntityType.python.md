@@ -4,7 +4,7 @@
 
 ### GlueCustomEntityType <a name="GlueCustomEntityType" id="@cdktn/provider-awscc.glueCustomEntityType.GlueCustomEntityType"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_custom_entity_type awscc_glue_custom_entity_type}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_custom_entity_type awscc_glue_custom_entity_type}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueCustomEntityType.GlueCustomEntityType.Initializer"></a>
 
@@ -112,7 +112,7 @@ Must be unique amongst siblings in the same scope
 
 A list of context words.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_custom_entity_type#context_words GlueCustomEntityType#context_words}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_custom_entity_type#context_words GlueCustomEntityType#context_words}
 
 ---
 
@@ -122,7 +122,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the custom entity type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_custom_entity_type#name GlueCustomEntityType#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_custom_entity_type#name GlueCustomEntityType#name}
 
 ---
 
@@ -132,7 +132,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A regular expression string that is used for detecting sensitive data in a custom pattern.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_custom_entity_type#regex_string GlueCustomEntityType#regex_string}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_custom_entity_type#regex_string GlueCustomEntityType#regex_string}
 
 ---
 
@@ -142,7 +142,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Tags to associate with the custom entity type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_custom_entity_type#tags GlueCustomEntityType#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_custom_entity_type#tags GlueCustomEntityType#tags}
 
 ---
 
@@ -667,7 +667,7 @@ The construct id used in the generated config for the GlueCustomEntityType to im
 
 The id of the existing GlueCustomEntityType that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_custom_entity_type#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_custom_entity_type#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1081,7 +1081,7 @@ context_words: typing.List[str]
 
 A list of context words.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_custom_entity_type#context_words GlueCustomEntityType#context_words}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_custom_entity_type#context_words GlueCustomEntityType#context_words}
 
 ---
 
@@ -1095,7 +1095,7 @@ name: str
 
 The name of the custom entity type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_custom_entity_type#name GlueCustomEntityType#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_custom_entity_type#name GlueCustomEntityType#name}
 
 ---
 
@@ -1109,7 +1109,7 @@ regex_string: str
 
 A regular expression string that is used for detecting sensitive data in a custom pattern.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_custom_entity_type#regex_string GlueCustomEntityType#regex_string}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_custom_entity_type#regex_string GlueCustomEntityType#regex_string}
 
 ---
 
@@ -1123,7 +1123,7 @@ tags: str
 
 Tags to associate with the custom entity type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_custom_entity_type#tags GlueCustomEntityType#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_custom_entity_type#tags GlueCustomEntityType#tags}
 
 ---
 

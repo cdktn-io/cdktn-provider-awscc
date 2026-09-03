@@ -4,7 +4,7 @@
 
 ### DataAwsccSesConfigurationSets <a name="DataAwsccSesConfigurationSets" id="@cdktn/provider-awscc.dataAwsccSesConfigurationSets.DataAwsccSesConfigurationSets"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ses_configuration_sets awscc_ses_configuration_sets}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ses_configuration_sets awscc_ses_configuration_sets}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesConfigurationSets.DataAwsccSesConfigurationSets.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSesConfigurationS
 
 The id of the existing DataAwsccSesConfigurationSets that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ses_configuration_sets#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ses_configuration_sets#import import section} in the documentation of this resource for the id to use
 
 ---
 

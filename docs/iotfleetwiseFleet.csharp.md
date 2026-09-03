@@ -4,7 +4,7 @@
 
 ### IotfleetwiseFleet <a name="IotfleetwiseFleet" id="@cdktn/provider-awscc.iotfleetwiseFleet.IotfleetwiseFleet"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotfleetwise_fleet awscc_iotfleetwise_fleet}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotfleetwise_fleet awscc_iotfleetwise_fleet}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotfleetwiseFleet.IotfleetwiseFleet.Initializer"></a>
 
@@ -516,7 +516,7 @@ The construct id used in the generated config for the IotfleetwiseFleet to impor
 
 The id of the existing IotfleetwiseFleet that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotfleetwise_fleet#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotfleetwise_fleet#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -876,10 +876,10 @@ new IotfleetwiseFleetConfig {
 | <code><a href="#@cdktn/provider-awscc.iotfleetwiseFleet.IotfleetwiseFleetConfig.property.lifecycle">Lifecycle</a></code> | <code>Io.Cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.iotfleetwiseFleet.IotfleetwiseFleetConfig.property.provider">Provider</a></code> | <code>Io.Cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.iotfleetwiseFleet.IotfleetwiseFleetConfig.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.iotfleetwiseFleet.IotfleetwiseFleetConfig.property.fleetId">FleetId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotfleetwise_fleet#fleet_id IotfleetwiseFleet#fleet_id}. |
-| <code><a href="#@cdktn/provider-awscc.iotfleetwiseFleet.IotfleetwiseFleetConfig.property.signalCatalogArn">SignalCatalogArn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotfleetwise_fleet#signal_catalog_arn IotfleetwiseFleet#signal_catalog_arn}. |
-| <code><a href="#@cdktn/provider-awscc.iotfleetwiseFleet.IotfleetwiseFleetConfig.property.description">Description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotfleetwise_fleet#description IotfleetwiseFleet#description}. |
-| <code><a href="#@cdktn/provider-awscc.iotfleetwiseFleet.IotfleetwiseFleetConfig.property.tags">Tags</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.iotfleetwiseFleet.IotfleetwiseFleetTags">IotfleetwiseFleetTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotfleetwise_fleet#tags IotfleetwiseFleet#tags}. |
+| <code><a href="#@cdktn/provider-awscc.iotfleetwiseFleet.IotfleetwiseFleetConfig.property.fleetId">FleetId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotfleetwise_fleet#fleet_id IotfleetwiseFleet#fleet_id}. |
+| <code><a href="#@cdktn/provider-awscc.iotfleetwiseFleet.IotfleetwiseFleetConfig.property.signalCatalogArn">SignalCatalogArn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotfleetwise_fleet#signal_catalog_arn IotfleetwiseFleet#signal_catalog_arn}. |
+| <code><a href="#@cdktn/provider-awscc.iotfleetwiseFleet.IotfleetwiseFleetConfig.property.description">Description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotfleetwise_fleet#description IotfleetwiseFleet#description}. |
+| <code><a href="#@cdktn/provider-awscc.iotfleetwiseFleet.IotfleetwiseFleetConfig.property.tags">Tags</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.iotfleetwiseFleet.IotfleetwiseFleetTags">IotfleetwiseFleetTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotfleetwise_fleet#tags IotfleetwiseFleet#tags}. |
 
 ---
 
@@ -961,7 +961,7 @@ public string FleetId { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotfleetwise_fleet#fleet_id IotfleetwiseFleet#fleet_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotfleetwise_fleet#fleet_id IotfleetwiseFleet#fleet_id}.
 
 ---
 
@@ -973,7 +973,7 @@ public string SignalCatalogArn { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotfleetwise_fleet#signal_catalog_arn IotfleetwiseFleet#signal_catalog_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotfleetwise_fleet#signal_catalog_arn IotfleetwiseFleet#signal_catalog_arn}.
 
 ---
 
@@ -985,7 +985,7 @@ public string Description { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotfleetwise_fleet#description IotfleetwiseFleet#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotfleetwise_fleet#description IotfleetwiseFleet#description}.
 
 ---
 
@@ -997,7 +997,7 @@ public IResolvable|IotfleetwiseFleetTags[] Tags { get; set; }
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.iotfleetwiseFleet.IotfleetwiseFleetTags">IotfleetwiseFleetTags</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotfleetwise_fleet#tags IotfleetwiseFleet#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotfleetwise_fleet#tags IotfleetwiseFleet#tags}.
 
 ---
 
@@ -1018,8 +1018,8 @@ new IotfleetwiseFleetTags {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.iotfleetwiseFleet.IotfleetwiseFleetTags.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotfleetwise_fleet#key IotfleetwiseFleet#key}. |
-| <code><a href="#@cdktn/provider-awscc.iotfleetwiseFleet.IotfleetwiseFleetTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotfleetwise_fleet#value IotfleetwiseFleet#value}. |
+| <code><a href="#@cdktn/provider-awscc.iotfleetwiseFleet.IotfleetwiseFleetTags.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotfleetwise_fleet#key IotfleetwiseFleet#key}. |
+| <code><a href="#@cdktn/provider-awscc.iotfleetwiseFleet.IotfleetwiseFleetTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotfleetwise_fleet#value IotfleetwiseFleet#value}. |
 
 ---
 
@@ -1031,7 +1031,7 @@ public string Key { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotfleetwise_fleet#key IotfleetwiseFleet#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotfleetwise_fleet#key IotfleetwiseFleet#key}.
 
 ---
 
@@ -1043,7 +1043,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotfleetwise_fleet#value IotfleetwiseFleet#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotfleetwise_fleet#value IotfleetwiseFleet#value}.
 
 ---
 

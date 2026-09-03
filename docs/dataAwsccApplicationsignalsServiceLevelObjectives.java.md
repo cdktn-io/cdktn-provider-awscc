@@ -4,7 +4,7 @@
 
 ### DataAwsccApplicationsignalsServiceLevelObjectives <a name="DataAwsccApplicationsignalsServiceLevelObjectives" id="@cdktn/provider-awscc.dataAwsccApplicationsignalsServiceLevelObjectives.DataAwsccApplicationsignalsServiceLevelObjectives"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/applicationsignals_service_level_objectives awscc_applicationsignals_service_level_objectives}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/applicationsignals_service_level_objectives awscc_applicationsignals_service_level_objectives}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApplicationsignalsServiceLevelObjectives.DataAwsccApplicationsignalsServiceLevelObjectives.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccApplicationsignal
 
 The id of the existing DataAwsccApplicationsignalsServiceLevelObjectives that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/applicationsignals_service_level_objectives#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/applicationsignals_service_level_objectives#import import section} in the documentation of this resource for the id to use
 
 ---
 

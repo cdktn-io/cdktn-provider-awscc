@@ -4,7 +4,7 @@
 
 ### CloudfrontFunction <a name="CloudfrontFunction" id="@cdktn/provider-awscc.cloudfrontFunction.CloudfrontFunction"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudfront_function awscc_cloudfront_function}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudfront_function awscc_cloudfront_function}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudfrontFunction.CloudfrontFunction.Initializer"></a>
 
@@ -549,7 +549,7 @@ The construct id used in the generated config for the CloudfrontFunction to impo
 
 The id of the existing CloudfrontFunction that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudfront_function#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudfront_function#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1035,7 +1035,7 @@ The function code.
 
 For more information about writing a CloudFront function, see [Writing function code for CloudFront Functions](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/writing-function-code.html) in the *Amazon CloudFront Developer Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudfront_function#function_code CloudfrontFunction#function_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudfront_function#function_code CloudfrontFunction#function_code}
 
 ---
 
@@ -1049,7 +1049,7 @@ FunctionConfig CloudfrontFunctionFunctionConfig
 
 Contains configuration information about a CloudFront function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudfront_function#function_config CloudfrontFunction#function_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudfront_function#function_config CloudfrontFunction#function_config}
 
 ---
 
@@ -1063,7 +1063,7 @@ Name *string
 
 A name to identify the function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudfront_function#name CloudfrontFunction#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudfront_function#name CloudfrontFunction#name}
 
 ---
 
@@ -1077,7 +1077,7 @@ AutoPublish interface{}
 
 A flag that determines whether to automatically publish the function to the ``LIVE`` stage when it?s created. To automatically publish to the ``LIVE`` stage, set this property to ``true``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudfront_function#auto_publish CloudfrontFunction#auto_publish}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudfront_function#auto_publish CloudfrontFunction#auto_publish}
 
 ---
 
@@ -1091,7 +1091,7 @@ FunctionMetadata CloudfrontFunctionFunctionMetadata
 
 Contains metadata about a CloudFront function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudfront_function#function_metadata CloudfrontFunction#function_metadata}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudfront_function#function_metadata CloudfrontFunction#function_metadata}
 
 ---
 
@@ -1105,7 +1105,7 @@ Tags interface{}
 
 A complex type that contains zero or more ``Tag`` elements.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudfront_function#tags CloudfrontFunction#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudfront_function#tags CloudfrontFunction#tags}
 
 ---
 
@@ -1143,7 +1143,7 @@ Comment *string
 
 A comment to describe the function. The comment cannot be longer than 128 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudfront_function#comment CloudfrontFunction#comment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudfront_function#comment CloudfrontFunction#comment}
 
 ---
 
@@ -1157,7 +1157,7 @@ Runtime *string
 
 The function's runtime environment version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudfront_function#runtime CloudfrontFunction#runtime}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudfront_function#runtime CloudfrontFunction#runtime}
 
 ---
 
@@ -1171,7 +1171,7 @@ KeyValueStoreAssociations interface{}
 
 The configuration for the key value store associations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudfront_function#key_value_store_associations CloudfrontFunction#key_value_store_associations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudfront_function#key_value_store_associations CloudfrontFunction#key_value_store_associations}
 
 ---
 
@@ -1205,7 +1205,7 @@ KeyValueStoreArn *string
 
 The Amazon Resource Name (ARN) of the key value store association.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudfront_function#key_value_store_arn CloudfrontFunction#key_value_store_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudfront_function#key_value_store_arn CloudfrontFunction#key_value_store_arn}
 
 ---
 

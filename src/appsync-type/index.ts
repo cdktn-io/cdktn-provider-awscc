@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appsync_type
+// https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appsync_type
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,25 +15,25 @@ export interface AppsyncTypeConfig extends cdktn.TerraformMetaArguments {
   /**
   * The API ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appsync_type#api_id AppsyncType#api_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appsync_type#api_id AppsyncType#api_id}
   */
   readonly apiId: string;
   /**
   * The type definition, in GraphQL Schema Definition Language (SDL) format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appsync_type#definition AppsyncType#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appsync_type#definition AppsyncType#definition}
   */
   readonly definition: string;
   /**
   * The type format: SDL or JSON.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appsync_type#format AppsyncType#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appsync_type#format AppsyncType#format}
   */
   readonly format: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appsync_type awscc_appsync_type}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appsync_type awscc_appsync_type}
 */
 export class AppsyncType extends cdktn.TerraformResource {
 
@@ -49,7 +49,7 @@ export class AppsyncType extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a AppsyncType resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AppsyncType to import
-  * @param importFromId The id of the existing AppsyncType that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appsync_type#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AppsyncType that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appsync_type#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AppsyncType to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -61,7 +61,7 @@ export class AppsyncType extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appsync_type awscc_appsync_type} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appsync_type awscc_appsync_type} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -72,7 +72,7 @@ export class AppsyncType extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_appsync_type',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.99.0',
+        providerVersion: '1.100.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

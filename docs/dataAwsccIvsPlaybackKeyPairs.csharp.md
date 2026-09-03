@@ -4,7 +4,7 @@
 
 ### DataAwsccIvsPlaybackKeyPairs <a name="DataAwsccIvsPlaybackKeyPairs" id="@cdktn/provider-awscc.dataAwsccIvsPlaybackKeyPairs.DataAwsccIvsPlaybackKeyPairs"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ivs_playback_key_pairs awscc_ivs_playback_key_pairs}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ivs_playback_key_pairs awscc_ivs_playback_key_pairs}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIvsPlaybackKeyPairs.DataAwsccIvsPlaybackKeyPairs.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIvsPlaybackKeyPai
 
 The id of the existing DataAwsccIvsPlaybackKeyPairs that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ivs_playback_key_pairs#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ivs_playback_key_pairs#import import section} in the documentation of this resource for the id to use
 
 ---
 

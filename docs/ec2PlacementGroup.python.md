@@ -4,7 +4,7 @@
 
 ### Ec2PlacementGroup <a name="Ec2PlacementGroup" id="@cdktn/provider-awscc.ec2PlacementGroup.Ec2PlacementGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_placement_group awscc_ec2_placement_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_placement_group awscc_ec2_placement_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2PlacementGroup.Ec2PlacementGroup.Initializer"></a>
 
@@ -114,7 +114,7 @@ Must be unique amongst siblings in the same scope
 
 The ID of a parent placement group. Valid for strategies that support parent group linking.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_placement_group#parent_group_id Ec2PlacementGroup#parent_group_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_placement_group#parent_group_id Ec2PlacementGroup#parent_group_id}
 
 ---
 
@@ -124,7 +124,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The number of partitions. Valid only when **Strategy** is set to `partition`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_placement_group#partition_count Ec2PlacementGroup#partition_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_placement_group#partition_count Ec2PlacementGroup#partition_count}
 
 ---
 
@@ -134,7 +134,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The Spread Level of Placement Group is an enum where it accepts either host or rack when strategy is spread.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_placement_group#spread_level Ec2PlacementGroup#spread_level}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_placement_group#spread_level Ec2PlacementGroup#spread_level}
 
 ---
 
@@ -144,7 +144,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The placement strategy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_placement_group#strategy Ec2PlacementGroup#strategy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_placement_group#strategy Ec2PlacementGroup#strategy}
 
 ---
 
@@ -154,7 +154,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_placement_group#tags Ec2PlacementGroup#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_placement_group#tags Ec2PlacementGroup#tags}
 
 ---
 
@@ -701,7 +701,7 @@ The construct id used in the generated config for the Ec2PlacementGroup to impor
 
 The id of the existing Ec2PlacementGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_placement_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_placement_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1161,7 +1161,7 @@ parent_group_id: str
 
 The ID of a parent placement group. Valid for strategies that support parent group linking.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_placement_group#parent_group_id Ec2PlacementGroup#parent_group_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_placement_group#parent_group_id Ec2PlacementGroup#parent_group_id}
 
 ---
 
@@ -1175,7 +1175,7 @@ partition_count: typing.Union[int, float]
 
 The number of partitions. Valid only when **Strategy** is set to `partition`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_placement_group#partition_count Ec2PlacementGroup#partition_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_placement_group#partition_count Ec2PlacementGroup#partition_count}
 
 ---
 
@@ -1189,7 +1189,7 @@ spread_level: str
 
 The Spread Level of Placement Group is an enum where it accepts either host or rack when strategy is spread.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_placement_group#spread_level Ec2PlacementGroup#spread_level}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_placement_group#spread_level Ec2PlacementGroup#spread_level}
 
 ---
 
@@ -1203,7 +1203,7 @@ strategy: str
 
 The placement strategy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_placement_group#strategy Ec2PlacementGroup#strategy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_placement_group#strategy Ec2PlacementGroup#strategy}
 
 ---
 
@@ -1217,7 +1217,7 @@ tags: IResolvable | typing.List[Ec2PlacementGroupTags]
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_placement_group#tags Ec2PlacementGroup#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_placement_group#tags Ec2PlacementGroup#tags}
 
 ---
 
@@ -1255,7 +1255,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_placement_group#key Ec2PlacementGroup#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_placement_group#key Ec2PlacementGroup#key}
 
 ---
 
@@ -1271,7 +1271,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_placement_group#value Ec2PlacementGroup#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_placement_group#value Ec2PlacementGroup#value}
 
 ---
 

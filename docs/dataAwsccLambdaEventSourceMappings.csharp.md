@@ -4,7 +4,7 @@
 
 ### DataAwsccLambdaEventSourceMappings <a name="DataAwsccLambdaEventSourceMappings" id="@cdktn/provider-awscc.dataAwsccLambdaEventSourceMappings.DataAwsccLambdaEventSourceMappings"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/lambda_event_source_mappings awscc_lambda_event_source_mappings}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/lambda_event_source_mappings awscc_lambda_event_source_mappings}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaEventSourceMappings.DataAwsccLambdaEventSourceMappings.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccLambdaEventSource
 
 The id of the existing DataAwsccLambdaEventSourceMappings that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/lambda_event_source_mappings#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/lambda_event_source_mappings#import import section} in the documentation of this resource for the id to use
 
 ---
 

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/panorama_package
+// https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/panorama_package
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,19 +15,19 @@ export interface PanoramaPackageConfig extends cdktn.TerraformMetaArguments {
   /**
   * A name for the package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/panorama_package#package_name PanoramaPackage#package_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/panorama_package#package_name PanoramaPackage#package_name}
   */
   readonly packageName: string;
   /**
   * A storage location.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/panorama_package#storage_location PanoramaPackage#storage_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/panorama_package#storage_location PanoramaPackage#storage_location}
   */
   readonly storageLocation?: PanoramaPackageStorageLocation;
   /**
   * Tags for the package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/panorama_package#tags PanoramaPackage#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/panorama_package#tags PanoramaPackage#tags}
   */
   readonly tags?: PanoramaPackageTags[] | cdktn.IResolvable;
 }
@@ -117,11 +117,11 @@ export class PanoramaPackageStorageLocationOutputReference extends cdktn.Complex
 }
 export interface PanoramaPackageTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/panorama_package#key PanoramaPackage#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/panorama_package#key PanoramaPackage#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/panorama_package#value PanoramaPackage#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/panorama_package#value PanoramaPackage#value}
   */
   readonly value?: string;
 }
@@ -266,7 +266,7 @@ export class PanoramaPackageTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/panorama_package awscc_panorama_package}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/panorama_package awscc_panorama_package}
 */
 export class PanoramaPackage extends cdktn.TerraformResource {
 
@@ -282,7 +282,7 @@ export class PanoramaPackage extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a PanoramaPackage resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PanoramaPackage to import
-  * @param importFromId The id of the existing PanoramaPackage that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/panorama_package#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PanoramaPackage that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/panorama_package#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PanoramaPackage to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -294,7 +294,7 @@ export class PanoramaPackage extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/panorama_package awscc_panorama_package} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/panorama_package awscc_panorama_package} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -305,7 +305,7 @@ export class PanoramaPackage extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_panorama_package',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.99.0',
+        providerVersion: '1.100.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/codebuild_source_credential
+// https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/codebuild_source_credential
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccCodebuildSourceCredentialConfig extends cdktn.Terrafor
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/codebuild_source_credential#id DataAwsccCodebuildSourceCredential#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/codebuild_source_credential#id DataAwsccCodebuildSourceCredential#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -24,7 +24,7 @@ export interface DataAwsccCodebuildSourceCredentialConfig extends cdktn.Terrafor
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/codebuild_source_credential awscc_codebuild_source_credential}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/codebuild_source_credential awscc_codebuild_source_credential}
 */
 export class DataAwsccCodebuildSourceCredential extends cdktn.TerraformDataSource {
 
@@ -40,7 +40,7 @@ export class DataAwsccCodebuildSourceCredential extends cdktn.TerraformDataSourc
   * Generates CDKTN code for importing a DataAwsccCodebuildSourceCredential resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccCodebuildSourceCredential to import
-  * @param importFromId The id of the existing DataAwsccCodebuildSourceCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/codebuild_source_credential#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccCodebuildSourceCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/codebuild_source_credential#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccCodebuildSourceCredential to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -52,7 +52,7 @@ export class DataAwsccCodebuildSourceCredential extends cdktn.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/codebuild_source_credential awscc_codebuild_source_credential} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/codebuild_source_credential awscc_codebuild_source_credential} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -63,7 +63,7 @@ export class DataAwsccCodebuildSourceCredential extends cdktn.TerraformDataSourc
       terraformResourceType: 'awscc_codebuild_source_credential',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.99.0',
+        providerVersion: '1.100.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
