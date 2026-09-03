@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_ipam_resource_discovery
+// https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ipam_resource_discovery
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,25 +13,25 @@ import * as cdktn from 'cdktn';
 
 export interface Ec2IpamResourceDiscoveryConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_ipam_resource_discovery#description Ec2IpamResourceDiscovery#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ipam_resource_discovery#description Ec2IpamResourceDiscovery#description}
   */
   readonly description?: string;
   /**
   * The regions Resource Discovery is enabled for. Allows resource discoveries to be created in these regions, as well as enabling monitoring
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_ipam_resource_discovery#operating_regions Ec2IpamResourceDiscovery#operating_regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ipam_resource_discovery#operating_regions Ec2IpamResourceDiscovery#operating_regions}
   */
   readonly operatingRegions?: Ec2IpamResourceDiscoveryOperatingRegions[] | cdktn.IResolvable;
   /**
   * A set of organizational unit (OU) exclusions for this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_ipam_resource_discovery#organizational_unit_exclusions Ec2IpamResourceDiscovery#organizational_unit_exclusions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ipam_resource_discovery#organizational_unit_exclusions Ec2IpamResourceDiscovery#organizational_unit_exclusions}
   */
   readonly organizationalUnitExclusions?: Ec2IpamResourceDiscoveryOrganizationalUnitExclusions[] | cdktn.IResolvable;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_ipam_resource_discovery#tags Ec2IpamResourceDiscovery#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ipam_resource_discovery#tags Ec2IpamResourceDiscovery#tags}
   */
   readonly tags?: Ec2IpamResourceDiscoveryTags[] | cdktn.IResolvable;
 }
@@ -39,7 +39,7 @@ export interface Ec2IpamResourceDiscoveryOperatingRegions {
   /**
   * The name of the region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_ipam_resource_discovery#region_name Ec2IpamResourceDiscovery#region_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ipam_resource_discovery#region_name Ec2IpamResourceDiscovery#region_name}
   */
   readonly regionName?: string;
 }
@@ -157,7 +157,7 @@ export interface Ec2IpamResourceDiscoveryOrganizationalUnitExclusions {
   /**
   * An AWS Organizations entity path. Build the path for the OU(s) using AWS Organizations IDs separated by a '/'. Include all child OUs by ending the path with '/*'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_ipam_resource_discovery#organizations_entity_path Ec2IpamResourceDiscovery#organizations_entity_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ipam_resource_discovery#organizations_entity_path Ec2IpamResourceDiscovery#organizations_entity_path}
   */
   readonly organizationsEntityPath?: string;
 }
@@ -275,13 +275,13 @@ export interface Ec2IpamResourceDiscoveryTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_ipam_resource_discovery#key Ec2IpamResourceDiscovery#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ipam_resource_discovery#key Ec2IpamResourceDiscovery#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_ipam_resource_discovery#value Ec2IpamResourceDiscovery#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ipam_resource_discovery#value Ec2IpamResourceDiscovery#value}
   */
   readonly value?: string;
 }
@@ -426,7 +426,7 @@ export class Ec2IpamResourceDiscoveryTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_ipam_resource_discovery awscc_ec2_ipam_resource_discovery}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ipam_resource_discovery awscc_ec2_ipam_resource_discovery}
 */
 export class Ec2IpamResourceDiscovery extends cdktn.TerraformResource {
 
@@ -442,7 +442,7 @@ export class Ec2IpamResourceDiscovery extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Ec2IpamResourceDiscovery resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Ec2IpamResourceDiscovery to import
-  * @param importFromId The id of the existing Ec2IpamResourceDiscovery that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_ipam_resource_discovery#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Ec2IpamResourceDiscovery that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ipam_resource_discovery#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Ec2IpamResourceDiscovery to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -454,7 +454,7 @@ export class Ec2IpamResourceDiscovery extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_ipam_resource_discovery awscc_ec2_ipam_resource_discovery} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ipam_resource_discovery awscc_ec2_ipam_resource_discovery} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -465,7 +465,7 @@ export class Ec2IpamResourceDiscovery extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_ec2_ipam_resource_discovery',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.99.0',
+        providerVersion: '1.100.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

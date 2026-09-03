@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/customerprofiles_recommenders
+// https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/customerprofiles_recommenders
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccCustomerprofilesRecommendersConfig extends cdktn.Terra
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/customerprofiles_recommenders awscc_customerprofiles_recommenders}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/customerprofiles_recommenders awscc_customerprofiles_recommenders}
 */
 export class DataAwsccCustomerprofilesRecommenders extends cdktn.TerraformDataSource {
 
@@ -31,7 +31,7 @@ export class DataAwsccCustomerprofilesRecommenders extends cdktn.TerraformDataSo
   * Generates CDKTN code for importing a DataAwsccCustomerprofilesRecommenders resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccCustomerprofilesRecommenders to import
-  * @param importFromId The id of the existing DataAwsccCustomerprofilesRecommenders that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/customerprofiles_recommenders#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccCustomerprofilesRecommenders that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/customerprofiles_recommenders#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccCustomerprofilesRecommenders to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -43,7 +43,7 @@ export class DataAwsccCustomerprofilesRecommenders extends cdktn.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/customerprofiles_recommenders awscc_customerprofiles_recommenders} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/customerprofiles_recommenders awscc_customerprofiles_recommenders} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -54,7 +54,7 @@ export class DataAwsccCustomerprofilesRecommenders extends cdktn.TerraformDataSo
       terraformResourceType: 'awscc_customerprofiles_recommenders',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.99.0',
+        providerVersion: '1.100.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

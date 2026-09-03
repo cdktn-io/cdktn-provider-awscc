@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rolesanywhere_crl
+// https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rolesanywhere_crl
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,33 +13,33 @@ import * as cdktn from 'cdktn';
 
 export interface RolesanywhereCrlConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rolesanywhere_crl#crl_data RolesanywhereCrl#crl_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rolesanywhere_crl#crl_data RolesanywhereCrl#crl_data}
   */
   readonly crlData: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rolesanywhere_crl#enabled RolesanywhereCrl#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rolesanywhere_crl#enabled RolesanywhereCrl#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rolesanywhere_crl#name RolesanywhereCrl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rolesanywhere_crl#name RolesanywhereCrl#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rolesanywhere_crl#tags RolesanywhereCrl#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rolesanywhere_crl#tags RolesanywhereCrl#tags}
   */
   readonly tags?: RolesanywhereCrlTags[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rolesanywhere_crl#trust_anchor_arn RolesanywhereCrl#trust_anchor_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rolesanywhere_crl#trust_anchor_arn RolesanywhereCrl#trust_anchor_arn}
   */
   readonly trustAnchorArn?: string;
 }
 export interface RolesanywhereCrlTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rolesanywhere_crl#key RolesanywhereCrl#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rolesanywhere_crl#key RolesanywhereCrl#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rolesanywhere_crl#value RolesanywhereCrl#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rolesanywhere_crl#value RolesanywhereCrl#value}
   */
   readonly value?: string;
 }
@@ -184,7 +184,7 @@ export class RolesanywhereCrlTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rolesanywhere_crl awscc_rolesanywhere_crl}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rolesanywhere_crl awscc_rolesanywhere_crl}
 */
 export class RolesanywhereCrl extends cdktn.TerraformResource {
 
@@ -200,7 +200,7 @@ export class RolesanywhereCrl extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a RolesanywhereCrl resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RolesanywhereCrl to import
-  * @param importFromId The id of the existing RolesanywhereCrl that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rolesanywhere_crl#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RolesanywhereCrl that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rolesanywhere_crl#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RolesanywhereCrl to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -212,7 +212,7 @@ export class RolesanywhereCrl extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rolesanywhere_crl awscc_rolesanywhere_crl} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rolesanywhere_crl awscc_rolesanywhere_crl} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -223,7 +223,7 @@ export class RolesanywhereCrl extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_rolesanywhere_crl',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.99.0',
+        providerVersion: '1.100.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

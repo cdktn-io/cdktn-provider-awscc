@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lakeformation_tag_association
+// https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lakeformation_tag_association
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,27 +15,27 @@ export interface LakeformationTagAssociationConfig extends cdktn.TerraformMetaAr
   /**
   * List of Lake Formation Tags to associate with the Lake Formation Resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lakeformation_tag_association#lf_tags LakeformationTagAssociation#lf_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lakeformation_tag_association#lf_tags LakeformationTagAssociation#lf_tags}
   */
   readonly lfTags: LakeformationTagAssociationLfTags[] | cdktn.IResolvable;
   /**
   * Resource to tag with the Lake Formation Tags
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lakeformation_tag_association#resource LakeformationTagAssociation#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lakeformation_tag_association#resource LakeformationTagAssociation#resource}
   */
   readonly resource: LakeformationTagAssociationResource;
 }
 export interface LakeformationTagAssociationLfTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lakeformation_tag_association#catalog_id LakeformationTagAssociation#catalog_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lakeformation_tag_association#catalog_id LakeformationTagAssociation#catalog_id}
   */
   readonly catalogId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lakeformation_tag_association#tag_key LakeformationTagAssociation#tag_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lakeformation_tag_association#tag_key LakeformationTagAssociation#tag_key}
   */
   readonly tagKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lakeformation_tag_association#tag_values LakeformationTagAssociation#tag_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lakeformation_tag_association#tag_values LakeformationTagAssociation#tag_values}
   */
   readonly tagValues: string[];
 }
@@ -200,11 +200,11 @@ export class LakeformationTagAssociationLfTagsList extends cdktn.ComplexList {
 }
 export interface LakeformationTagAssociationResourceDatabase {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lakeformation_tag_association#catalog_id LakeformationTagAssociation#catalog_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lakeformation_tag_association#catalog_id LakeformationTagAssociation#catalog_id}
   */
   readonly catalogId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lakeformation_tag_association#name LakeformationTagAssociation#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lakeformation_tag_association#name LakeformationTagAssociation#name}
   */
   readonly name?: string;
 }
@@ -327,19 +327,19 @@ export class LakeformationTagAssociationResourceDatabaseOutputReference extends 
 }
 export interface LakeformationTagAssociationResourceTable {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lakeformation_tag_association#catalog_id LakeformationTagAssociation#catalog_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lakeformation_tag_association#catalog_id LakeformationTagAssociation#catalog_id}
   */
   readonly catalogId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lakeformation_tag_association#database_name LakeformationTagAssociation#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lakeformation_tag_association#database_name LakeformationTagAssociation#database_name}
   */
   readonly databaseName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lakeformation_tag_association#name LakeformationTagAssociation#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lakeformation_tag_association#name LakeformationTagAssociation#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lakeformation_tag_association#table_wildcard LakeformationTagAssociation#table_wildcard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lakeformation_tag_association#table_wildcard LakeformationTagAssociation#table_wildcard}
   */
   readonly tableWildcard?: string;
 }
@@ -520,19 +520,19 @@ export class LakeformationTagAssociationResourceTableOutputReference extends cdk
 }
 export interface LakeformationTagAssociationResourceTableWithColumns {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lakeformation_tag_association#catalog_id LakeformationTagAssociation#catalog_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lakeformation_tag_association#catalog_id LakeformationTagAssociation#catalog_id}
   */
   readonly catalogId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lakeformation_tag_association#column_names LakeformationTagAssociation#column_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lakeformation_tag_association#column_names LakeformationTagAssociation#column_names}
   */
   readonly columnNames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lakeformation_tag_association#database_name LakeformationTagAssociation#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lakeformation_tag_association#database_name LakeformationTagAssociation#database_name}
   */
   readonly databaseName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lakeformation_tag_association#name LakeformationTagAssociation#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lakeformation_tag_association#name LakeformationTagAssociation#name}
   */
   readonly name?: string;
 }
@@ -713,19 +713,19 @@ export class LakeformationTagAssociationResourceTableWithColumnsOutputReference 
 }
 export interface LakeformationTagAssociationResource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lakeformation_tag_association#catalog LakeformationTagAssociation#catalog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lakeformation_tag_association#catalog LakeformationTagAssociation#catalog}
   */
   readonly catalog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lakeformation_tag_association#database LakeformationTagAssociation#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lakeformation_tag_association#database LakeformationTagAssociation#database}
   */
   readonly database?: LakeformationTagAssociationResourceDatabase;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lakeformation_tag_association#table LakeformationTagAssociation#table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lakeformation_tag_association#table LakeformationTagAssociation#table}
   */
   readonly table?: LakeformationTagAssociationResourceTable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lakeformation_tag_association#table_with_columns LakeformationTagAssociation#table_with_columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lakeformation_tag_association#table_with_columns LakeformationTagAssociation#table_with_columns}
   */
   readonly tableWithColumns?: LakeformationTagAssociationResourceTableWithColumns;
 }
@@ -906,7 +906,7 @@ export class LakeformationTagAssociationResourceOutputReference extends cdktn.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lakeformation_tag_association awscc_lakeformation_tag_association}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lakeformation_tag_association awscc_lakeformation_tag_association}
 */
 export class LakeformationTagAssociation extends cdktn.TerraformResource {
 
@@ -922,7 +922,7 @@ export class LakeformationTagAssociation extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a LakeformationTagAssociation resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LakeformationTagAssociation to import
-  * @param importFromId The id of the existing LakeformationTagAssociation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lakeformation_tag_association#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LakeformationTagAssociation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lakeformation_tag_association#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LakeformationTagAssociation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -934,7 +934,7 @@ export class LakeformationTagAssociation extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lakeformation_tag_association awscc_lakeformation_tag_association} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lakeformation_tag_association awscc_lakeformation_tag_association} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -945,7 +945,7 @@ export class LakeformationTagAssociation extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_lakeformation_tag_association',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.99.0',
+        providerVersion: '1.100.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

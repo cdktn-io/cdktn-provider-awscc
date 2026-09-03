@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssm_ops_item
+// https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ssm_ops_item
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,53 +15,53 @@ export interface SsmOpsItemConfig extends cdktn.TerraformMetaArguments {
   /**
   * The category of the OpsItem.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssm_ops_item#category SsmOpsItem#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ssm_ops_item#category SsmOpsItem#category}
   */
   readonly category?: string;
   /**
   * The description of the OpsItem.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssm_ops_item#description SsmOpsItem#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ssm_ops_item#description SsmOpsItem#description}
   */
   readonly description: string;
   /**
   * The priority of the OpsItem.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssm_ops_item#priority SsmOpsItem#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ssm_ops_item#priority SsmOpsItem#priority}
   */
   readonly priority?: number;
   /**
   * The severity of the OpsItem.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssm_ops_item#severity SsmOpsItem#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ssm_ops_item#severity SsmOpsItem#severity}
   */
   readonly severity?: string;
   /**
   * The origin of the OpsItem.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssm_ops_item#source SsmOpsItem#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ssm_ops_item#source SsmOpsItem#source}
   */
   readonly source: string;
   /**
   * Tags for the OpsItem.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssm_ops_item#tags SsmOpsItem#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ssm_ops_item#tags SsmOpsItem#tags}
   */
   readonly tags?: SsmOpsItemTags[] | cdktn.IResolvable;
   /**
   * The title of the OpsItem.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssm_ops_item#title SsmOpsItem#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ssm_ops_item#title SsmOpsItem#title}
   */
   readonly title: string;
 }
 export interface SsmOpsItemTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssm_ops_item#key SsmOpsItem#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ssm_ops_item#key SsmOpsItem#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssm_ops_item#value SsmOpsItem#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ssm_ops_item#value SsmOpsItem#value}
   */
   readonly value?: string;
 }
@@ -206,7 +206,7 @@ export class SsmOpsItemTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssm_ops_item awscc_ssm_ops_item}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ssm_ops_item awscc_ssm_ops_item}
 */
 export class SsmOpsItem extends cdktn.TerraformResource {
 
@@ -222,7 +222,7 @@ export class SsmOpsItem extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a SsmOpsItem resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SsmOpsItem to import
-  * @param importFromId The id of the existing SsmOpsItem that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssm_ops_item#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SsmOpsItem that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ssm_ops_item#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SsmOpsItem to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -234,7 +234,7 @@ export class SsmOpsItem extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssm_ops_item awscc_ssm_ops_item} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ssm_ops_item awscc_ssm_ops_item} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -245,7 +245,7 @@ export class SsmOpsItem extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_ssm_ops_item',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.99.0',
+        providerVersion: '1.100.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

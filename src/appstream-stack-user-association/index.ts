@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appstream_stack_user_association
+// https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appstream_stack_user_association
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,31 +15,31 @@ export interface AppstreamStackUserAssociationConfig extends cdktn.TerraformMeta
   /**
   * The authentication type for the user who is associated with the stack. You must specify USERPOOL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appstream_stack_user_association#authentication_type AppstreamStackUserAssociation#authentication_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appstream_stack_user_association#authentication_type AppstreamStackUserAssociation#authentication_type}
   */
   readonly authenticationType: string;
   /**
   * Specifies whether a welcome email is sent to a user after the user is created in the user pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appstream_stack_user_association#send_email_notification AppstreamStackUserAssociation#send_email_notification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appstream_stack_user_association#send_email_notification AppstreamStackUserAssociation#send_email_notification}
   */
   readonly sendEmailNotification?: boolean | cdktn.IResolvable;
   /**
   * The name of the stack that is associated with the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appstream_stack_user_association#stack_name AppstreamStackUserAssociation#stack_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appstream_stack_user_association#stack_name AppstreamStackUserAssociation#stack_name}
   */
   readonly stackName: string;
   /**
   * The name of the user who is associated with the stack.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appstream_stack_user_association#user_name AppstreamStackUserAssociation#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appstream_stack_user_association#user_name AppstreamStackUserAssociation#user_name}
   */
   readonly userName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appstream_stack_user_association awscc_appstream_stack_user_association}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appstream_stack_user_association awscc_appstream_stack_user_association}
 */
 export class AppstreamStackUserAssociation extends cdktn.TerraformResource {
 
@@ -55,7 +55,7 @@ export class AppstreamStackUserAssociation extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a AppstreamStackUserAssociation resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AppstreamStackUserAssociation to import
-  * @param importFromId The id of the existing AppstreamStackUserAssociation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appstream_stack_user_association#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AppstreamStackUserAssociation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appstream_stack_user_association#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AppstreamStackUserAssociation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -67,7 +67,7 @@ export class AppstreamStackUserAssociation extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appstream_stack_user_association awscc_appstream_stack_user_association} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appstream_stack_user_association awscc_appstream_stack_user_association} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -78,7 +78,7 @@ export class AppstreamStackUserAssociation extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_appstream_stack_user_association',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.99.0',
+        providerVersion: '1.100.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

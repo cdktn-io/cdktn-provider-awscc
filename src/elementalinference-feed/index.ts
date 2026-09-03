@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/elementalinference_feed
+// https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/elementalinference_feed
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,25 +13,27 @@ import * as cdktn from 'cdktn';
 
 export interface ElementalinferenceFeedConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/elementalinference_feed#access_role_arn ElementalinferenceFeed#access_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/elementalinference_feed#access_role_arn ElementalinferenceFeed#access_role_arn}
   */
   readonly accessRoleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/elementalinference_feed#name ElementalinferenceFeed#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/elementalinference_feed#name ElementalinferenceFeed#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/elementalinference_feed#outputs ElementalinferenceFeed#outputs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/elementalinference_feed#outputs ElementalinferenceFeed#outputs}
   */
   readonly outputs: ElementalinferenceFeedOutputs[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/elementalinference_feed#tags ElementalinferenceFeed#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/elementalinference_feed#tags ElementalinferenceFeed#tags}
   */
   readonly tags?: { [key: string]: string };
 }
 export interface ElementalinferenceFeedOutputsOutputConfigClippingDataSourceConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/elementalinference_feed#fixture_id ElementalinferenceFeed#fixture_id}
+  * The ID of the fixture whose event data you want Elemental Inference to map onto this clipping output. To obtain this ID, use the SearchFixtures operation.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/elementalinference_feed#fixture_id ElementalinferenceFeed#fixture_id}
   */
   readonly fixtureId?: string;
 }
@@ -125,11 +127,13 @@ export class ElementalinferenceFeedOutputsOutputConfigClippingDataSourceConfigur
 }
 export interface ElementalinferenceFeedOutputsOutputConfigClipping {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/elementalinference_feed#callback_metadata ElementalinferenceFeed#callback_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/elementalinference_feed#callback_metadata ElementalinferenceFeed#callback_metadata}
   */
   readonly callbackMetadata?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/elementalinference_feed#data_source_configuration ElementalinferenceFeed#data_source_configuration}
+  * Identifies the fixture whose event data Elemental Inference maps onto the clipping metadata for an output.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/elementalinference_feed#data_source_configuration ElementalinferenceFeed#data_source_configuration}
   */
   readonly dataSourceConfiguration?: ElementalinferenceFeedOutputsOutputConfigClippingDataSourceConfiguration;
 }
@@ -252,11 +256,11 @@ export class ElementalinferenceFeedOutputsOutputConfigClippingOutputReference ex
 }
 export interface ElementalinferenceFeedOutputsOutputConfigCroppingTemplateGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/elementalinference_feed#name ElementalinferenceFeed#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/elementalinference_feed#name ElementalinferenceFeed#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/elementalinference_feed#template_uris ElementalinferenceFeed#template_uris}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/elementalinference_feed#template_uris ElementalinferenceFeed#template_uris}
   */
   readonly templateUris?: string[];
 }
@@ -401,7 +405,7 @@ export class ElementalinferenceFeedOutputsOutputConfigCroppingTemplateGroupsList
 }
 export interface ElementalinferenceFeedOutputsOutputConfigCropping {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/elementalinference_feed#template_groups ElementalinferenceFeed#template_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/elementalinference_feed#template_groups ElementalinferenceFeed#template_groups}
   */
   readonly templateGroups?: ElementalinferenceFeedOutputsOutputConfigCroppingTemplateGroups[] | cdktn.IResolvable;
 }
@@ -495,11 +499,11 @@ export class ElementalinferenceFeedOutputsOutputConfigCroppingOutputReference ex
 }
 export interface ElementalinferenceFeedOutputsOutputConfigSubtitlingAspectRatio {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/elementalinference_feed#height ElementalinferenceFeed#height}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/elementalinference_feed#height ElementalinferenceFeed#height}
   */
   readonly height?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/elementalinference_feed#width ElementalinferenceFeed#width}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/elementalinference_feed#width ElementalinferenceFeed#width}
   */
   readonly width?: number;
 }
@@ -622,19 +626,19 @@ export class ElementalinferenceFeedOutputsOutputConfigSubtitlingAspectRatioOutpu
 }
 export interface ElementalinferenceFeedOutputsOutputConfigSubtitling {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/elementalinference_feed#aspect_ratio ElementalinferenceFeed#aspect_ratio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/elementalinference_feed#aspect_ratio ElementalinferenceFeed#aspect_ratio}
   */
   readonly aspectRatio?: ElementalinferenceFeedOutputsOutputConfigSubtitlingAspectRatio;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/elementalinference_feed#dictionary ElementalinferenceFeed#dictionary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/elementalinference_feed#dictionary ElementalinferenceFeed#dictionary}
   */
   readonly dictionary?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/elementalinference_feed#language ElementalinferenceFeed#language}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/elementalinference_feed#language ElementalinferenceFeed#language}
   */
   readonly language?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/elementalinference_feed#profanity_filter ElementalinferenceFeed#profanity_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/elementalinference_feed#profanity_filter ElementalinferenceFeed#profanity_filter}
   */
   readonly profanityFilter?: string;
 }
@@ -815,15 +819,15 @@ export class ElementalinferenceFeedOutputsOutputConfigSubtitlingOutputReference 
 }
 export interface ElementalinferenceFeedOutputsOutputConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/elementalinference_feed#clipping ElementalinferenceFeed#clipping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/elementalinference_feed#clipping ElementalinferenceFeed#clipping}
   */
   readonly clipping?: ElementalinferenceFeedOutputsOutputConfigClipping;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/elementalinference_feed#cropping ElementalinferenceFeed#cropping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/elementalinference_feed#cropping ElementalinferenceFeed#cropping}
   */
   readonly cropping?: ElementalinferenceFeedOutputsOutputConfigCropping;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/elementalinference_feed#subtitling ElementalinferenceFeed#subtitling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/elementalinference_feed#subtitling ElementalinferenceFeed#subtitling}
   */
   readonly subtitling?: ElementalinferenceFeedOutputsOutputConfigSubtitling;
 }
@@ -975,19 +979,19 @@ export class ElementalinferenceFeedOutputsOutputConfigOutputReference extends cd
 }
 export interface ElementalinferenceFeedOutputs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/elementalinference_feed#description ElementalinferenceFeed#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/elementalinference_feed#description ElementalinferenceFeed#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/elementalinference_feed#name ElementalinferenceFeed#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/elementalinference_feed#name ElementalinferenceFeed#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/elementalinference_feed#output_config ElementalinferenceFeed#output_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/elementalinference_feed#output_config ElementalinferenceFeed#output_config}
   */
   readonly outputConfig: ElementalinferenceFeedOutputsOutputConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/elementalinference_feed#status ElementalinferenceFeed#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/elementalinference_feed#status ElementalinferenceFeed#status}
   */
   readonly status: string;
 }
@@ -1181,7 +1185,7 @@ export class ElementalinferenceFeedOutputsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/elementalinference_feed awscc_elementalinference_feed}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/elementalinference_feed awscc_elementalinference_feed}
 */
 export class ElementalinferenceFeed extends cdktn.TerraformResource {
 
@@ -1197,7 +1201,7 @@ export class ElementalinferenceFeed extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ElementalinferenceFeed resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ElementalinferenceFeed to import
-  * @param importFromId The id of the existing ElementalinferenceFeed that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/elementalinference_feed#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ElementalinferenceFeed that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/elementalinference_feed#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ElementalinferenceFeed to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1209,7 +1213,7 @@ export class ElementalinferenceFeed extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/elementalinference_feed awscc_elementalinference_feed} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/elementalinference_feed awscc_elementalinference_feed} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1220,7 +1224,7 @@ export class ElementalinferenceFeed extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_elementalinference_feed',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.99.0',
+        providerVersion: '1.100.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

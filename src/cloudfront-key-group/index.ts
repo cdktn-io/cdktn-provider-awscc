@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudfront_key_group
+// https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudfront_key_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface CloudfrontKeyGroupConfig extends cdktn.TerraformMetaArguments {
   /**
   * The key group configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudfront_key_group#key_group_config CloudfrontKeyGroup#key_group_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudfront_key_group#key_group_config CloudfrontKeyGroup#key_group_config}
   */
   readonly keyGroupConfig: CloudfrontKeyGroupKeyGroupConfig;
 }
@@ -23,19 +23,19 @@ export interface CloudfrontKeyGroupKeyGroupConfig {
   /**
   * A comment to describe the key group. The comment cannot be longer than 128 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudfront_key_group#comment CloudfrontKeyGroup#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudfront_key_group#comment CloudfrontKeyGroup#comment}
   */
   readonly comment?: string;
   /**
   * A list of the identifiers of the public keys in the key group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudfront_key_group#items CloudfrontKeyGroup#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudfront_key_group#items CloudfrontKeyGroup#items}
   */
   readonly items: string[];
   /**
   * A name to identify the key group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudfront_key_group#name CloudfrontKeyGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudfront_key_group#name CloudfrontKeyGroup#name}
   */
   readonly name: string;
 }
@@ -181,7 +181,7 @@ export class CloudfrontKeyGroupKeyGroupConfigOutputReference extends cdktn.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudfront_key_group awscc_cloudfront_key_group}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudfront_key_group awscc_cloudfront_key_group}
 */
 export class CloudfrontKeyGroup extends cdktn.TerraformResource {
 
@@ -197,7 +197,7 @@ export class CloudfrontKeyGroup extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a CloudfrontKeyGroup resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudfrontKeyGroup to import
-  * @param importFromId The id of the existing CloudfrontKeyGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudfront_key_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudfrontKeyGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudfront_key_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudfrontKeyGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -209,7 +209,7 @@ export class CloudfrontKeyGroup extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudfront_key_group awscc_cloudfront_key_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudfront_key_group awscc_cloudfront_key_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -220,7 +220,7 @@ export class CloudfrontKeyGroup extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_cloudfront_key_group',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.99.0',
+        providerVersion: '1.100.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

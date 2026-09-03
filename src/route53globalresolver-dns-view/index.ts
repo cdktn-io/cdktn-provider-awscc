@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53globalresolver_dns_view
+// https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/route53globalresolver_dns_view
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,45 +13,45 @@ import * as cdktn from 'cdktn';
 
 export interface Route53GlobalresolverDnsViewConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53globalresolver_dns_view#client_token Route53GlobalresolverDnsView#client_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/route53globalresolver_dns_view#client_token Route53GlobalresolverDnsView#client_token}
   */
   readonly clientToken?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53globalresolver_dns_view#description Route53GlobalresolverDnsView#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/route53globalresolver_dns_view#description Route53GlobalresolverDnsView#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53globalresolver_dns_view#dnssec_validation Route53GlobalresolverDnsView#dnssec_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/route53globalresolver_dns_view#dnssec_validation Route53GlobalresolverDnsView#dnssec_validation}
   */
   readonly dnssecValidation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53globalresolver_dns_view#edns_client_subnet Route53GlobalresolverDnsView#edns_client_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/route53globalresolver_dns_view#edns_client_subnet Route53GlobalresolverDnsView#edns_client_subnet}
   */
   readonly ednsClientSubnet?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53globalresolver_dns_view#firewall_rules_fail_open Route53GlobalresolverDnsView#firewall_rules_fail_open}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/route53globalresolver_dns_view#firewall_rules_fail_open Route53GlobalresolverDnsView#firewall_rules_fail_open}
   */
   readonly firewallRulesFailOpen?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53globalresolver_dns_view#global_resolver_id Route53GlobalresolverDnsView#global_resolver_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/route53globalresolver_dns_view#global_resolver_id Route53GlobalresolverDnsView#global_resolver_id}
   */
   readonly globalResolverId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53globalresolver_dns_view#name Route53GlobalresolverDnsView#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/route53globalresolver_dns_view#name Route53GlobalresolverDnsView#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53globalresolver_dns_view#tags Route53GlobalresolverDnsView#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/route53globalresolver_dns_view#tags Route53GlobalresolverDnsView#tags}
   */
   readonly tags?: Route53GlobalresolverDnsViewTags[] | cdktn.IResolvable;
 }
 export interface Route53GlobalresolverDnsViewTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53globalresolver_dns_view#key Route53GlobalresolverDnsView#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/route53globalresolver_dns_view#key Route53GlobalresolverDnsView#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53globalresolver_dns_view#value Route53GlobalresolverDnsView#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/route53globalresolver_dns_view#value Route53GlobalresolverDnsView#value}
   */
   readonly value?: string;
 }
@@ -196,7 +196,7 @@ export class Route53GlobalresolverDnsViewTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53globalresolver_dns_view awscc_route53globalresolver_dns_view}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/route53globalresolver_dns_view awscc_route53globalresolver_dns_view}
 */
 export class Route53GlobalresolverDnsView extends cdktn.TerraformResource {
 
@@ -212,7 +212,7 @@ export class Route53GlobalresolverDnsView extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Route53GlobalresolverDnsView resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Route53GlobalresolverDnsView to import
-  * @param importFromId The id of the existing Route53GlobalresolverDnsView that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53globalresolver_dns_view#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Route53GlobalresolverDnsView that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/route53globalresolver_dns_view#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Route53GlobalresolverDnsView to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -224,7 +224,7 @@ export class Route53GlobalresolverDnsView extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53globalresolver_dns_view awscc_route53globalresolver_dns_view} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/route53globalresolver_dns_view awscc_route53globalresolver_dns_view} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -235,7 +235,7 @@ export class Route53GlobalresolverDnsView extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_route53globalresolver_dns_view',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.99.0',
+        providerVersion: '1.100.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

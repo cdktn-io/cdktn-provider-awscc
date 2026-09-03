@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/translate_parallel_data
+// https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/translate_parallel_data
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,31 +15,31 @@ export interface TranslateParallelDataConfig extends cdktn.TerraformMetaArgument
   /**
   * A custom description for the parallel data resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/translate_parallel_data#description TranslateParallelData#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/translate_parallel_data#description TranslateParallelData#description}
   */
   readonly description?: string;
   /**
   * The encryption key used to encrypt this object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/translate_parallel_data#encryption_key TranslateParallelData#encryption_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/translate_parallel_data#encryption_key TranslateParallelData#encryption_key}
   */
   readonly encryptionKey?: TranslateParallelDataEncryptionKey;
   /**
   * A custom name for the parallel data resource. Must be unique in the account and region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/translate_parallel_data#name TranslateParallelData#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/translate_parallel_data#name TranslateParallelData#name}
   */
   readonly name: string;
   /**
   * Specifies the format and S3 location of the parallel data input file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/translate_parallel_data#parallel_data_config TranslateParallelData#parallel_data_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/translate_parallel_data#parallel_data_config TranslateParallelData#parallel_data_config}
   */
   readonly parallelDataConfig: TranslateParallelDataParallelDataConfig;
   /**
   * Tags associated with the parallel data resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/translate_parallel_data#tags TranslateParallelData#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/translate_parallel_data#tags TranslateParallelData#tags}
   */
   readonly tags?: TranslateParallelDataTags[] | cdktn.IResolvable;
 }
@@ -47,7 +47,7 @@ export interface TranslateParallelDataEncryptionKey {
   /**
   * The Amazon Resource Name (ARN) of the encryption key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/translate_parallel_data#id TranslateParallelData#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/translate_parallel_data#id TranslateParallelData#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -56,7 +56,7 @@ export interface TranslateParallelDataEncryptionKey {
   /**
   * The type of encryption key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/translate_parallel_data#type TranslateParallelData#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/translate_parallel_data#type TranslateParallelData#type}
   */
   readonly type?: string;
 }
@@ -181,13 +181,13 @@ export interface TranslateParallelDataParallelDataConfig {
   /**
   * The format of the parallel data input file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/translate_parallel_data#format TranslateParallelData#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/translate_parallel_data#format TranslateParallelData#format}
   */
   readonly format: string;
   /**
   * The URI of the Amazon S3 folder that contains the parallel data input file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/translate_parallel_data#s3_uri TranslateParallelData#s3_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/translate_parallel_data#s3_uri TranslateParallelData#s3_uri}
   */
   readonly s3Uri: string;
 }
@@ -304,11 +304,11 @@ export class TranslateParallelDataParallelDataConfigOutputReference extends cdkt
 }
 export interface TranslateParallelDataTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/translate_parallel_data#key TranslateParallelData#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/translate_parallel_data#key TranslateParallelData#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/translate_parallel_data#value TranslateParallelData#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/translate_parallel_data#value TranslateParallelData#value}
   */
   readonly value?: string;
 }
@@ -453,7 +453,7 @@ export class TranslateParallelDataTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/translate_parallel_data awscc_translate_parallel_data}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/translate_parallel_data awscc_translate_parallel_data}
 */
 export class TranslateParallelData extends cdktn.TerraformResource {
 
@@ -469,7 +469,7 @@ export class TranslateParallelData extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a TranslateParallelData resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TranslateParallelData to import
-  * @param importFromId The id of the existing TranslateParallelData that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/translate_parallel_data#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TranslateParallelData that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/translate_parallel_data#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TranslateParallelData to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -481,7 +481,7 @@ export class TranslateParallelData extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/translate_parallel_data awscc_translate_parallel_data} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/translate_parallel_data awscc_translate_parallel_data} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -492,7 +492,7 @@ export class TranslateParallelData extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_translate_parallel_data',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.99.0',
+        providerVersion: '1.100.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

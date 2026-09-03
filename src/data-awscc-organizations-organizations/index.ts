@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/organizations_organizations
+// https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/organizations_organizations
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccOrganizationsOrganizationsConfig extends cdktn.Terrafo
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/organizations_organizations awscc_organizations_organizations}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/organizations_organizations awscc_organizations_organizations}
 */
 export class DataAwsccOrganizationsOrganizations extends cdktn.TerraformDataSource {
 
@@ -31,7 +31,7 @@ export class DataAwsccOrganizationsOrganizations extends cdktn.TerraformDataSour
   * Generates CDKTN code for importing a DataAwsccOrganizationsOrganizations resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccOrganizationsOrganizations to import
-  * @param importFromId The id of the existing DataAwsccOrganizationsOrganizations that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/organizations_organizations#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccOrganizationsOrganizations that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/organizations_organizations#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccOrganizationsOrganizations to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -43,7 +43,7 @@ export class DataAwsccOrganizationsOrganizations extends cdktn.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/organizations_organizations awscc_organizations_organizations} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/organizations_organizations awscc_organizations_organizations} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -54,7 +54,7 @@ export class DataAwsccOrganizationsOrganizations extends cdktn.TerraformDataSour
       terraformResourceType: 'awscc_organizations_organizations',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.99.0',
+        providerVersion: '1.100.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lookoutvision_project
+// https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lookoutvision_project
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,13 +15,13 @@ export interface LookoutvisionProjectConfig extends cdktn.TerraformMetaArguments
   /**
   * The name of the Amazon Lookout for Vision project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lookoutvision_project#project_name LookoutvisionProject#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lookoutvision_project#project_name LookoutvisionProject#project_name}
   */
   readonly projectName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lookoutvision_project awscc_lookoutvision_project}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lookoutvision_project awscc_lookoutvision_project}
 */
 export class LookoutvisionProject extends cdktn.TerraformResource {
 
@@ -37,7 +37,7 @@ export class LookoutvisionProject extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a LookoutvisionProject resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LookoutvisionProject to import
-  * @param importFromId The id of the existing LookoutvisionProject that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lookoutvision_project#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LookoutvisionProject that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lookoutvision_project#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LookoutvisionProject to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -49,7 +49,7 @@ export class LookoutvisionProject extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lookoutvision_project awscc_lookoutvision_project} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lookoutvision_project awscc_lookoutvision_project} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -60,7 +60,7 @@ export class LookoutvisionProject extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_lookoutvision_project',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.99.0',
+        providerVersion: '1.100.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

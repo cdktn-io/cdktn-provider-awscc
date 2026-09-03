@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_knowledge_base
+// https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/quicksight_knowledge_base
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,57 +13,57 @@ import * as cdktn from 'cdktn';
 
 export interface QuicksightKnowledgeBaseConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_knowledge_base#access_control_configuration QuicksightKnowledgeBase#access_control_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/quicksight_knowledge_base#access_control_configuration QuicksightKnowledgeBase#access_control_configuration}
   */
   readonly accessControlConfiguration?: QuicksightKnowledgeBaseAccessControlConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_knowledge_base#aws_account_id QuicksightKnowledgeBase#aws_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/quicksight_knowledge_base#aws_account_id QuicksightKnowledgeBase#aws_account_id}
   */
   readonly awsAccountId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_knowledge_base#data_source_arn QuicksightKnowledgeBase#data_source_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/quicksight_knowledge_base#data_source_arn QuicksightKnowledgeBase#data_source_arn}
   */
   readonly dataSourceArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_knowledge_base#description QuicksightKnowledgeBase#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/quicksight_knowledge_base#description QuicksightKnowledgeBase#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_knowledge_base#is_email_notification_opted_for_ingestion_failures QuicksightKnowledgeBase#is_email_notification_opted_for_ingestion_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/quicksight_knowledge_base#is_email_notification_opted_for_ingestion_failures QuicksightKnowledgeBase#is_email_notification_opted_for_ingestion_failures}
   */
   readonly isEmailNotificationOptedForIngestionFailures?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_knowledge_base#knowledge_base_configuration QuicksightKnowledgeBase#knowledge_base_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/quicksight_knowledge_base#knowledge_base_configuration QuicksightKnowledgeBase#knowledge_base_configuration}
   */
   readonly knowledgeBaseConfiguration: QuicksightKnowledgeBaseKnowledgeBaseConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_knowledge_base#knowledge_base_id QuicksightKnowledgeBase#knowledge_base_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/quicksight_knowledge_base#knowledge_base_id QuicksightKnowledgeBase#knowledge_base_id}
   */
   readonly knowledgeBaseId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_knowledge_base#media_extraction_configuration QuicksightKnowledgeBase#media_extraction_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/quicksight_knowledge_base#media_extraction_configuration QuicksightKnowledgeBase#media_extraction_configuration}
   */
   readonly mediaExtractionConfiguration?: QuicksightKnowledgeBaseMediaExtractionConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_knowledge_base#name QuicksightKnowledgeBase#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/quicksight_knowledge_base#name QuicksightKnowledgeBase#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_knowledge_base#permissions QuicksightKnowledgeBase#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/quicksight_knowledge_base#permissions QuicksightKnowledgeBase#permissions}
   */
   readonly permissions?: QuicksightKnowledgeBasePermissions[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_knowledge_base#primary_owner_arn QuicksightKnowledgeBase#primary_owner_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/quicksight_knowledge_base#primary_owner_arn QuicksightKnowledgeBase#primary_owner_arn}
   */
   readonly primaryOwnerArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_knowledge_base#tags QuicksightKnowledgeBase#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/quicksight_knowledge_base#tags QuicksightKnowledgeBase#tags}
   */
   readonly tags?: QuicksightKnowledgeBaseTags[] | cdktn.IResolvable;
 }
 export interface QuicksightKnowledgeBaseAccessControlConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_knowledge_base#is_acl_enabled QuicksightKnowledgeBase#is_acl_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/quicksight_knowledge_base#is_acl_enabled QuicksightKnowledgeBase#is_acl_enabled}
   */
   readonly isAclEnabled?: boolean | cdktn.IResolvable;
 }
@@ -157,7 +157,7 @@ export class QuicksightKnowledgeBaseAccessControlConfigurationOutputReference ex
 }
 export interface QuicksightKnowledgeBaseKnowledgeBaseConfigurationTemplateConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_knowledge_base#template QuicksightKnowledgeBase#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/quicksight_knowledge_base#template QuicksightKnowledgeBase#template}
   */
   readonly template?: string;
 }
@@ -251,7 +251,7 @@ export class QuicksightKnowledgeBaseKnowledgeBaseConfigurationTemplateConfigurat
 }
 export interface QuicksightKnowledgeBaseKnowledgeBaseConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_knowledge_base#template_configuration QuicksightKnowledgeBase#template_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/quicksight_knowledge_base#template_configuration QuicksightKnowledgeBase#template_configuration}
   */
   readonly templateConfiguration?: QuicksightKnowledgeBaseKnowledgeBaseConfigurationTemplateConfiguration;
 }
@@ -345,7 +345,7 @@ export class QuicksightKnowledgeBaseKnowledgeBaseConfigurationOutputReference ex
 }
 export interface QuicksightKnowledgeBaseMediaExtractionConfigurationAudioExtractionConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_knowledge_base#audio_extraction_status QuicksightKnowledgeBase#audio_extraction_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/quicksight_knowledge_base#audio_extraction_status QuicksightKnowledgeBase#audio_extraction_status}
   */
   readonly audioExtractionStatus?: string;
 }
@@ -439,7 +439,7 @@ export class QuicksightKnowledgeBaseMediaExtractionConfigurationAudioExtractionC
 }
 export interface QuicksightKnowledgeBaseMediaExtractionConfigurationImageExtractionConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_knowledge_base#image_extraction_status QuicksightKnowledgeBase#image_extraction_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/quicksight_knowledge_base#image_extraction_status QuicksightKnowledgeBase#image_extraction_status}
   */
   readonly imageExtractionStatus?: string;
 }
@@ -533,11 +533,11 @@ export class QuicksightKnowledgeBaseMediaExtractionConfigurationImageExtractionC
 }
 export interface QuicksightKnowledgeBaseMediaExtractionConfigurationVideoExtractionConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_knowledge_base#video_extraction_status QuicksightKnowledgeBase#video_extraction_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/quicksight_knowledge_base#video_extraction_status QuicksightKnowledgeBase#video_extraction_status}
   */
   readonly videoExtractionStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_knowledge_base#video_extraction_type QuicksightKnowledgeBase#video_extraction_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/quicksight_knowledge_base#video_extraction_type QuicksightKnowledgeBase#video_extraction_type}
   */
   readonly videoExtractionType?: string;
 }
@@ -660,15 +660,15 @@ export class QuicksightKnowledgeBaseMediaExtractionConfigurationVideoExtractionC
 }
 export interface QuicksightKnowledgeBaseMediaExtractionConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_knowledge_base#audio_extraction_configuration QuicksightKnowledgeBase#audio_extraction_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/quicksight_knowledge_base#audio_extraction_configuration QuicksightKnowledgeBase#audio_extraction_configuration}
   */
   readonly audioExtractionConfiguration?: QuicksightKnowledgeBaseMediaExtractionConfigurationAudioExtractionConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_knowledge_base#image_extraction_configuration QuicksightKnowledgeBase#image_extraction_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/quicksight_knowledge_base#image_extraction_configuration QuicksightKnowledgeBase#image_extraction_configuration}
   */
   readonly imageExtractionConfiguration?: QuicksightKnowledgeBaseMediaExtractionConfigurationImageExtractionConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_knowledge_base#video_extraction_configuration QuicksightKnowledgeBase#video_extraction_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/quicksight_knowledge_base#video_extraction_configuration QuicksightKnowledgeBase#video_extraction_configuration}
   */
   readonly videoExtractionConfiguration?: QuicksightKnowledgeBaseMediaExtractionConfigurationVideoExtractionConfiguration;
 }
@@ -822,7 +822,7 @@ export interface QuicksightKnowledgeBasePermissions {
   /**
   * <p>The IAM action to grant or revoke permissions on.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_knowledge_base#actions QuicksightKnowledgeBase#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/quicksight_knowledge_base#actions QuicksightKnowledgeBase#actions}
   */
   readonly actions?: string[];
   /**
@@ -842,11 +842,11 @@ export interface QuicksightKnowledgeBasePermissions {
   *             </li>
   *          </ul>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_knowledge_base#principal QuicksightKnowledgeBase#principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/quicksight_knowledge_base#principal QuicksightKnowledgeBase#principal}
   */
   readonly principal?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_knowledge_base#resource QuicksightKnowledgeBase#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/quicksight_knowledge_base#resource QuicksightKnowledgeBase#resource}
   */
   readonly resource?: string;
 }
@@ -1022,13 +1022,13 @@ export interface QuicksightKnowledgeBaseTags {
   /**
   * <p>Tag key.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_knowledge_base#key QuicksightKnowledgeBase#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/quicksight_knowledge_base#key QuicksightKnowledgeBase#key}
   */
   readonly key?: string;
   /**
   * <p>Tag value.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_knowledge_base#value QuicksightKnowledgeBase#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/quicksight_knowledge_base#value QuicksightKnowledgeBase#value}
   */
   readonly value?: string;
 }
@@ -1173,7 +1173,7 @@ export class QuicksightKnowledgeBaseTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_knowledge_base awscc_quicksight_knowledge_base}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/quicksight_knowledge_base awscc_quicksight_knowledge_base}
 */
 export class QuicksightKnowledgeBase extends cdktn.TerraformResource {
 
@@ -1189,7 +1189,7 @@ export class QuicksightKnowledgeBase extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a QuicksightKnowledgeBase resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the QuicksightKnowledgeBase to import
-  * @param importFromId The id of the existing QuicksightKnowledgeBase that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_knowledge_base#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing QuicksightKnowledgeBase that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/quicksight_knowledge_base#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the QuicksightKnowledgeBase to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1201,7 +1201,7 @@ export class QuicksightKnowledgeBase extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_knowledge_base awscc_quicksight_knowledge_base} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/quicksight_knowledge_base awscc_quicksight_knowledge_base} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1212,7 +1212,7 @@ export class QuicksightKnowledgeBase extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_quicksight_knowledge_base',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.99.0',
+        providerVersion: '1.100.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/mediaconnect_flow_source
+// https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/mediaconnect_flow_source
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccMediaconnectFlowSourceAConfig extends cdktn.TerraformM
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/mediaconnect_flow_source#id DataAwsccMediaconnectFlowSourceA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/mediaconnect_flow_source#id DataAwsccMediaconnectFlowSourceA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -230,10 +230,10 @@ export class DataAwsccMediaconnectFlowSourceGatewayBridgeSourceAOutputReference 
     return this._vpcInterfaceAttachment;
   }
 }
-export interface DataAwsccMediaconnectFlowSourceTags {
+export interface DataAwsccMediaconnectFlowSourceTagsA {
 }
 
-export function dataAwsccMediaconnectFlowSourceTagsToTerraform(struct?: DataAwsccMediaconnectFlowSourceTags): any {
+export function dataAwsccMediaconnectFlowSourceTagsAToTerraform(struct?: DataAwsccMediaconnectFlowSourceTagsA): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
@@ -243,7 +243,7 @@ export function dataAwsccMediaconnectFlowSourceTagsToTerraform(struct?: DataAwsc
 }
 
 
-export function dataAwsccMediaconnectFlowSourceTagsToHclTerraform(struct?: DataAwsccMediaconnectFlowSourceTags): any {
+export function dataAwsccMediaconnectFlowSourceTagsAToHclTerraform(struct?: DataAwsccMediaconnectFlowSourceTagsA): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
@@ -253,7 +253,7 @@ export function dataAwsccMediaconnectFlowSourceTagsToHclTerraform(struct?: DataA
   return attrs;
 }
 
-export class DataAwsccMediaconnectFlowSourceTagsOutputReference extends cdktn.ComplexObject {
+export class DataAwsccMediaconnectFlowSourceTagsAOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -266,13 +266,13 @@ export class DataAwsccMediaconnectFlowSourceTagsOutputReference extends cdktn.Co
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): DataAwsccMediaconnectFlowSourceTags | undefined {
+  public get internalValue(): DataAwsccMediaconnectFlowSourceTagsA | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataAwsccMediaconnectFlowSourceTags | undefined) {
+  public set internalValue(value: DataAwsccMediaconnectFlowSourceTagsA | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -292,7 +292,7 @@ export class DataAwsccMediaconnectFlowSourceTagsOutputReference extends cdktn.Co
   }
 }
 
-export class DataAwsccMediaconnectFlowSourceTagsList extends cdktn.ComplexList {
+export class DataAwsccMediaconnectFlowSourceTagsAList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
@@ -306,13 +306,13 @@ export class DataAwsccMediaconnectFlowSourceTagsList extends cdktn.ComplexList {
   /**
   * @param index the index of the item to return
   */
-  public get(index: number): DataAwsccMediaconnectFlowSourceTagsOutputReference {
-    return new DataAwsccMediaconnectFlowSourceTagsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  public get(index: number): DataAwsccMediaconnectFlowSourceTagsAOutputReference {
+    return new DataAwsccMediaconnectFlowSourceTagsAOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/mediaconnect_flow_source awscc_mediaconnect_flow_source}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/mediaconnect_flow_source awscc_mediaconnect_flow_source}
 */
 export class DataAwsccMediaconnectFlowSourceA extends cdktn.TerraformDataSource {
 
@@ -328,7 +328,7 @@ export class DataAwsccMediaconnectFlowSourceA extends cdktn.TerraformDataSource 
   * Generates CDKTN code for importing a DataAwsccMediaconnectFlowSourceA resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccMediaconnectFlowSourceA to import
-  * @param importFromId The id of the existing DataAwsccMediaconnectFlowSourceA that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/mediaconnect_flow_source#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccMediaconnectFlowSourceA that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/mediaconnect_flow_source#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccMediaconnectFlowSourceA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -340,7 +340,7 @@ export class DataAwsccMediaconnectFlowSourceA extends cdktn.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/mediaconnect_flow_source awscc_mediaconnect_flow_source} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/mediaconnect_flow_source awscc_mediaconnect_flow_source} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -351,7 +351,7 @@ export class DataAwsccMediaconnectFlowSourceA extends cdktn.TerraformDataSource 
       terraformResourceType: 'awscc_mediaconnect_flow_source',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.99.0',
+        providerVersion: '1.100.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -480,7 +480,7 @@ export class DataAwsccMediaconnectFlowSourceA extends cdktn.TerraformDataSource 
   }
 
   // tags - computed: true, optional: false, required: false
-  private _tags = new DataAwsccMediaconnectFlowSourceTagsList(this, "tags", false);
+  private _tags = new DataAwsccMediaconnectFlowSourceTagsAList(this, "tags", false);
   public get tags() {
     return this._tags;
   }

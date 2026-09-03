@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/omics_variant_store
+// https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/omics_variant_store
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,29 +13,29 @@ import * as cdktn from 'cdktn';
 
 export interface OmicsVariantStoreConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/omics_variant_store#description OmicsVariantStore#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/omics_variant_store#description OmicsVariantStore#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/omics_variant_store#name OmicsVariantStore#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/omics_variant_store#name OmicsVariantStore#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/omics_variant_store#reference OmicsVariantStore#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/omics_variant_store#reference OmicsVariantStore#reference}
   */
   readonly reference: OmicsVariantStoreReference;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/omics_variant_store#sse_config OmicsVariantStore#sse_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/omics_variant_store#sse_config OmicsVariantStore#sse_config}
   */
   readonly sseConfig?: OmicsVariantStoreSseConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/omics_variant_store#tags OmicsVariantStore#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/omics_variant_store#tags OmicsVariantStore#tags}
   */
   readonly tags?: { [key: string]: string };
 }
 export interface OmicsVariantStoreReference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/omics_variant_store#reference_arn OmicsVariantStore#reference_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/omics_variant_store#reference_arn OmicsVariantStore#reference_arn}
   */
   readonly referenceArn: string;
 }
@@ -126,11 +126,11 @@ export class OmicsVariantStoreReferenceOutputReference extends cdktn.ComplexObje
 }
 export interface OmicsVariantStoreSseConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/omics_variant_store#key_arn OmicsVariantStore#key_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/omics_variant_store#key_arn OmicsVariantStore#key_arn}
   */
   readonly keyArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/omics_variant_store#type OmicsVariantStore#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/omics_variant_store#type OmicsVariantStore#type}
   */
   readonly type?: string;
 }
@@ -253,7 +253,7 @@ export class OmicsVariantStoreSseConfigOutputReference extends cdktn.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/omics_variant_store awscc_omics_variant_store}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/omics_variant_store awscc_omics_variant_store}
 */
 export class OmicsVariantStore extends cdktn.TerraformResource {
 
@@ -269,7 +269,7 @@ export class OmicsVariantStore extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a OmicsVariantStore resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OmicsVariantStore to import
-  * @param importFromId The id of the existing OmicsVariantStore that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/omics_variant_store#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OmicsVariantStore that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/omics_variant_store#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OmicsVariantStore to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -281,7 +281,7 @@ export class OmicsVariantStore extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/omics_variant_store awscc_omics_variant_store} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/omics_variant_store awscc_omics_variant_store} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -292,7 +292,7 @@ export class OmicsVariantStore extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_omics_variant_store',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.99.0',
+        providerVersion: '1.100.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codebuild_source_credential
+// https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codebuild_source_credential
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,31 +15,31 @@ export interface CodebuildSourceCredentialConfig extends cdktn.TerraformMetaArgu
   /**
   * The type of authentication used by the credentials. Valid options are OAUTH, BASIC_AUTH, PERSONAL_ACCESS_TOKEN, CODECONNECTIONS, or SECRETS_MANAGER. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codebuild_source_credential#auth_type CodebuildSourceCredential#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codebuild_source_credential#auth_type CodebuildSourceCredential#auth_type}
   */
   readonly authType: string;
   /**
   * The type of source provider. The valid options are GITHUB, GITHUB_ENTERPRISE, GITLAB, GITLAB_SELF_MANAGED, or BITBUCKET.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codebuild_source_credential#server_type CodebuildSourceCredential#server_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codebuild_source_credential#server_type CodebuildSourceCredential#server_type}
   */
   readonly serverType: string;
   /**
   * For GitHub or GitHub Enterprise, this is the personal access token. For Bitbucket, this is either the access token or the app password. For the authType CODECONNECTIONS, this is the connectionArn. For the authType SECRETS_MANAGER, this is the secretArn.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codebuild_source_credential#token CodebuildSourceCredential#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codebuild_source_credential#token CodebuildSourceCredential#token}
   */
   readonly token: string;
   /**
   *  The Bitbucket username when the authType is BASIC_AUTH. This parameter is not valid for other types of source providers or connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codebuild_source_credential#username CodebuildSourceCredential#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codebuild_source_credential#username CodebuildSourceCredential#username}
   */
   readonly username?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codebuild_source_credential awscc_codebuild_source_credential}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codebuild_source_credential awscc_codebuild_source_credential}
 */
 export class CodebuildSourceCredential extends cdktn.TerraformResource {
 
@@ -55,7 +55,7 @@ export class CodebuildSourceCredential extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a CodebuildSourceCredential resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CodebuildSourceCredential to import
-  * @param importFromId The id of the existing CodebuildSourceCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codebuild_source_credential#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CodebuildSourceCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codebuild_source_credential#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CodebuildSourceCredential to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -67,7 +67,7 @@ export class CodebuildSourceCredential extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codebuild_source_credential awscc_codebuild_source_credential} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codebuild_source_credential awscc_codebuild_source_credential} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -78,7 +78,7 @@ export class CodebuildSourceCredential extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_codebuild_source_credential',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.99.0',
+        providerVersion: '1.100.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ivschat_logging_configuration
+// https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ivschat_logging_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,19 +15,19 @@ export interface IvschatLoggingConfigurationConfig extends cdktn.TerraformMetaAr
   /**
   * Destination configuration for IVS Chat logging.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ivschat_logging_configuration#destination_configuration IvschatLoggingConfiguration#destination_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ivschat_logging_configuration#destination_configuration IvschatLoggingConfiguration#destination_configuration}
   */
   readonly destinationConfiguration: IvschatLoggingConfigurationDestinationConfiguration;
   /**
   * The name of the logging configuration. The value does not need to be unique.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ivschat_logging_configuration#name IvschatLoggingConfiguration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ivschat_logging_configuration#name IvschatLoggingConfiguration#name}
   */
   readonly name?: string;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ivschat_logging_configuration#tags IvschatLoggingConfiguration#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ivschat_logging_configuration#tags IvschatLoggingConfiguration#tags}
   */
   readonly tags?: IvschatLoggingConfigurationTags[] | cdktn.IResolvable;
 }
@@ -35,7 +35,7 @@ export interface IvschatLoggingConfigurationDestinationConfigurationCloudwatchLo
   /**
   * Name of the Amazon CloudWatch Logs log group where chat activity will be logged.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ivschat_logging_configuration#log_group_name IvschatLoggingConfiguration#log_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ivschat_logging_configuration#log_group_name IvschatLoggingConfiguration#log_group_name}
   */
   readonly logGroupName?: string;
 }
@@ -131,7 +131,7 @@ export interface IvschatLoggingConfigurationDestinationConfigurationFirehose {
   /**
   * Name of the Amazon Kinesis Firehose delivery stream where chat activity will be logged.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ivschat_logging_configuration#delivery_stream_name IvschatLoggingConfiguration#delivery_stream_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ivschat_logging_configuration#delivery_stream_name IvschatLoggingConfiguration#delivery_stream_name}
   */
   readonly deliveryStreamName?: string;
 }
@@ -227,7 +227,7 @@ export interface IvschatLoggingConfigurationDestinationConfigurationS3 {
   /**
   * Name of the Amazon S3 bucket where chat activity will be logged.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ivschat_logging_configuration#bucket_name IvschatLoggingConfiguration#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ivschat_logging_configuration#bucket_name IvschatLoggingConfiguration#bucket_name}
   */
   readonly bucketName?: string;
 }
@@ -323,19 +323,19 @@ export interface IvschatLoggingConfigurationDestinationConfiguration {
   /**
   * CloudWatch destination configuration for IVS Chat logging.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ivschat_logging_configuration#cloudwatch_logs IvschatLoggingConfiguration#cloudwatch_logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ivschat_logging_configuration#cloudwatch_logs IvschatLoggingConfiguration#cloudwatch_logs}
   */
   readonly cloudwatchLogs?: IvschatLoggingConfigurationDestinationConfigurationCloudwatchLogs;
   /**
   * Kinesis Firehose destination configuration for IVS Chat logging.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ivschat_logging_configuration#firehose IvschatLoggingConfiguration#firehose}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ivschat_logging_configuration#firehose IvschatLoggingConfiguration#firehose}
   */
   readonly firehose?: IvschatLoggingConfigurationDestinationConfigurationFirehose;
   /**
   * S3 destination configuration for IVS Chat logging.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ivschat_logging_configuration#s3 IvschatLoggingConfiguration#s3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ivschat_logging_configuration#s3 IvschatLoggingConfiguration#s3}
   */
   readonly s3?: IvschatLoggingConfigurationDestinationConfigurationS3;
 }
@@ -489,13 +489,13 @@ export interface IvschatLoggingConfigurationTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ivschat_logging_configuration#key IvschatLoggingConfiguration#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ivschat_logging_configuration#key IvschatLoggingConfiguration#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ivschat_logging_configuration#value IvschatLoggingConfiguration#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ivschat_logging_configuration#value IvschatLoggingConfiguration#value}
   */
   readonly value?: string;
 }
@@ -640,7 +640,7 @@ export class IvschatLoggingConfigurationTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ivschat_logging_configuration awscc_ivschat_logging_configuration}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ivschat_logging_configuration awscc_ivschat_logging_configuration}
 */
 export class IvschatLoggingConfiguration extends cdktn.TerraformResource {
 
@@ -656,7 +656,7 @@ export class IvschatLoggingConfiguration extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a IvschatLoggingConfiguration resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IvschatLoggingConfiguration to import
-  * @param importFromId The id of the existing IvschatLoggingConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ivschat_logging_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IvschatLoggingConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ivschat_logging_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IvschatLoggingConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -668,7 +668,7 @@ export class IvschatLoggingConfiguration extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ivschat_logging_configuration awscc_ivschat_logging_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ivschat_logging_configuration awscc_ivschat_logging_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -679,7 +679,7 @@ export class IvschatLoggingConfiguration extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_ivschat_logging_configuration',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.99.0',
+        providerVersion: '1.100.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

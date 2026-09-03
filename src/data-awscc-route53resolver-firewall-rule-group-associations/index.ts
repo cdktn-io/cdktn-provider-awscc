@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/route53resolver_firewall_rule_group_associations
+// https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/route53resolver_firewall_rule_group_associations
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccRoute53ResolverFirewallRuleGroupAssociationsConfig ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/route53resolver_firewall_rule_group_associations awscc_route53resolver_firewall_rule_group_associations}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/route53resolver_firewall_rule_group_associations awscc_route53resolver_firewall_rule_group_associations}
 */
 export class DataAwsccRoute53ResolverFirewallRuleGroupAssociations extends cdktn.TerraformDataSource {
 
@@ -31,7 +31,7 @@ export class DataAwsccRoute53ResolverFirewallRuleGroupAssociations extends cdktn
   * Generates CDKTN code for importing a DataAwsccRoute53ResolverFirewallRuleGroupAssociations resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccRoute53ResolverFirewallRuleGroupAssociations to import
-  * @param importFromId The id of the existing DataAwsccRoute53ResolverFirewallRuleGroupAssociations that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/route53resolver_firewall_rule_group_associations#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccRoute53ResolverFirewallRuleGroupAssociations that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/route53resolver_firewall_rule_group_associations#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccRoute53ResolverFirewallRuleGroupAssociations to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -43,7 +43,7 @@ export class DataAwsccRoute53ResolverFirewallRuleGroupAssociations extends cdktn
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/route53resolver_firewall_rule_group_associations awscc_route53resolver_firewall_rule_group_associations} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/route53resolver_firewall_rule_group_associations awscc_route53resolver_firewall_rule_group_associations} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -54,7 +54,7 @@ export class DataAwsccRoute53ResolverFirewallRuleGroupAssociations extends cdktn
       terraformResourceType: 'awscc_route53resolver_firewall_rule_group_associations',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.99.0',
+        providerVersion: '1.100.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

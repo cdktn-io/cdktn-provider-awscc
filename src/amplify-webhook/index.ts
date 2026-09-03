@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_webhook
+// https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/amplify_webhook
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,35 +15,35 @@ export interface AmplifyWebhookConfig extends cdktn.TerraformMetaArguments {
   /**
   * The unique ID for an Amplify app.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_webhook#app_id AmplifyWebhook#app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/amplify_webhook#app_id AmplifyWebhook#app_id}
   */
   readonly appId?: string;
   /**
   * The name for a branch that is part of an Amplify app.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_webhook#branch_name AmplifyWebhook#branch_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/amplify_webhook#branch_name AmplifyWebhook#branch_name}
   */
   readonly branchName: string;
   /**
   * The description for a webhook.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_webhook#description AmplifyWebhook#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/amplify_webhook#description AmplifyWebhook#description}
   */
   readonly description?: string;
   /**
   * Tags for the webhook.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_webhook#tags AmplifyWebhook#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/amplify_webhook#tags AmplifyWebhook#tags}
   */
   readonly tags?: AmplifyWebhookTags[] | cdktn.IResolvable;
 }
 export interface AmplifyWebhookTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_webhook#key AmplifyWebhook#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/amplify_webhook#key AmplifyWebhook#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_webhook#value AmplifyWebhook#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/amplify_webhook#value AmplifyWebhook#value}
   */
   readonly value?: string;
 }
@@ -188,7 +188,7 @@ export class AmplifyWebhookTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_webhook awscc_amplify_webhook}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/amplify_webhook awscc_amplify_webhook}
 */
 export class AmplifyWebhook extends cdktn.TerraformResource {
 
@@ -204,7 +204,7 @@ export class AmplifyWebhook extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a AmplifyWebhook resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AmplifyWebhook to import
-  * @param importFromId The id of the existing AmplifyWebhook that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_webhook#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AmplifyWebhook that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/amplify_webhook#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AmplifyWebhook to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -216,7 +216,7 @@ export class AmplifyWebhook extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_webhook awscc_amplify_webhook} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/amplify_webhook awscc_amplify_webhook} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -227,7 +227,7 @@ export class AmplifyWebhook extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_amplify_webhook',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.99.0',
+        providerVersion: '1.100.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

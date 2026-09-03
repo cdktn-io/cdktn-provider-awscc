@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/cassandra_keyspaces
+// https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/cassandra_keyspaces
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccCassandraKeyspacesConfig extends cdktn.TerraformMetaAr
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/cassandra_keyspaces awscc_cassandra_keyspaces}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/cassandra_keyspaces awscc_cassandra_keyspaces}
 */
 export class DataAwsccCassandraKeyspaces extends cdktn.TerraformDataSource {
 
@@ -31,7 +31,7 @@ export class DataAwsccCassandraKeyspaces extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAwsccCassandraKeyspaces resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccCassandraKeyspaces to import
-  * @param importFromId The id of the existing DataAwsccCassandraKeyspaces that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/cassandra_keyspaces#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccCassandraKeyspaces that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/cassandra_keyspaces#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccCassandraKeyspaces to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -43,7 +43,7 @@ export class DataAwsccCassandraKeyspaces extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/cassandra_keyspaces awscc_cassandra_keyspaces} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/cassandra_keyspaces awscc_cassandra_keyspaces} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -54,7 +54,7 @@ export class DataAwsccCassandraKeyspaces extends cdktn.TerraformDataSource {
       terraformResourceType: 'awscc_cassandra_keyspaces',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.99.0',
+        providerVersion: '1.100.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cleanrooms_intermediate_table
+// https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cleanrooms_intermediate_table
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,37 +13,561 @@ import * as cdktn from 'cdktn';
 
 export interface CleanroomsIntermediateTableConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cleanrooms_intermediate_table#analysis_rules CleanroomsIntermediateTable#analysis_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cleanrooms_intermediate_table#analysis_rules CleanroomsIntermediateTable#analysis_rules}
   */
   readonly analysisRules?: CleanroomsIntermediateTableAnalysisRules[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cleanrooms_intermediate_table#description CleanroomsIntermediateTable#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cleanrooms_intermediate_table#description CleanroomsIntermediateTable#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cleanrooms_intermediate_table#kms_key_arn CleanroomsIntermediateTable#kms_key_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cleanrooms_intermediate_table#kms_key_arn CleanroomsIntermediateTable#kms_key_arn}
   */
   readonly kmsKeyArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cleanrooms_intermediate_table#membership_identifier CleanroomsIntermediateTable#membership_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cleanrooms_intermediate_table#membership_identifier CleanroomsIntermediateTable#membership_identifier}
   */
   readonly membershipIdentifier: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cleanrooms_intermediate_table#name CleanroomsIntermediateTable#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cleanrooms_intermediate_table#name CleanroomsIntermediateTable#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cleanrooms_intermediate_table#population_analysis_configuration CleanroomsIntermediateTable#population_analysis_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cleanrooms_intermediate_table#population_analysis_configuration CleanroomsIntermediateTable#population_analysis_configuration}
   */
   readonly populationAnalysisConfiguration: CleanroomsIntermediateTablePopulationAnalysisConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cleanrooms_intermediate_table#tags CleanroomsIntermediateTable#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cleanrooms_intermediate_table#tags CleanroomsIntermediateTable#tags}
   */
   readonly tags?: CleanroomsIntermediateTableTags[] | cdktn.IResolvable;
 }
+export interface CleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholds {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cleanrooms_intermediate_table#minimum_identity_count CleanroomsIntermediateTable#minimum_identity_count}
+  */
+  readonly minimumIdentityCount?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cleanrooms_intermediate_table#output_column_name CleanroomsIntermediateTable#output_column_name}
+  */
+  readonly outputColumnName?: string;
+}
+
+export function cleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsToTerraform(struct?: CleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholds | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    minimum_identity_count: cdktn.numberToTerraform(struct!.minimumIdentityCount),
+    output_column_name: cdktn.stringToTerraform(struct!.outputColumnName),
+  }
+}
+
+
+export function cleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsToHclTerraform(struct?: CleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholds | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    minimum_identity_count: {
+      value: cdktn.numberToHclTerraform(struct!.minimumIdentityCount),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    output_column_name: {
+      value: cdktn.stringToHclTerraform(struct!.outputColumnName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class CleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): CleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholds | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._minimumIdentityCount !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.minimumIdentityCount = this._minimumIdentityCount;
+    }
+    if (this._outputColumnName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.outputColumnName = this._outputColumnName;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: CleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholds | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._minimumIdentityCount = undefined;
+      this._outputColumnName = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._minimumIdentityCount = value.minimumIdentityCount;
+      this._outputColumnName = value.outputColumnName;
+    }
+  }
+
+  // minimum_identity_count - computed: true, optional: true, required: false
+  private _minimumIdentityCount?: number; 
+  public get minimumIdentityCount() {
+    return this.getNumberAttribute('minimum_identity_count');
+  }
+  public set minimumIdentityCount(value: number) {
+    this._minimumIdentityCount = value;
+  }
+  public resetMinimumIdentityCount() {
+    this._minimumIdentityCount = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get minimumIdentityCountInput() {
+    return this._minimumIdentityCount;
+  }
+
+  // output_column_name - computed: true, optional: true, required: false
+  private _outputColumnName?: string; 
+  public get outputColumnName() {
+    return this.getStringAttribute('output_column_name');
+  }
+  public set outputColumnName(value: string) {
+    this._outputColumnName = value;
+  }
+  public resetOutputColumnName() {
+    this._outputColumnName = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get outputColumnNameInput() {
+    return this._outputColumnName;
+  }
+}
+
+export class CleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsList extends cdktn.ComplexList {
+  public internalValue? : CleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholds[] | cdktn.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): CleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsOutputReference {
+    return new CleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface CleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholds {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cleanrooms_intermediate_table#allowed_aggregate_expression_type CleanroomsIntermediateTable#allowed_aggregate_expression_type}
+  */
+  readonly allowedAggregateExpressionType?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cleanrooms_intermediate_table#identity_columns CleanroomsIntermediateTable#identity_columns}
+  */
+  readonly identityColumns?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cleanrooms_intermediate_table#minimum_identity_count CleanroomsIntermediateTable#minimum_identity_count}
+  */
+  readonly minimumIdentityCount?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cleanrooms_intermediate_table#output_column_thresholds CleanroomsIntermediateTable#output_column_thresholds}
+  */
+  readonly outputColumnThresholds?: CleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholds[] | cdktn.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cleanrooms_intermediate_table#type CleanroomsIntermediateTable#type}
+  */
+  readonly type?: string;
+}
+
+export function cleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsToTerraform(struct?: CleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholds | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    allowed_aggregate_expression_type: cdktn.stringToTerraform(struct!.allowedAggregateExpressionType),
+    identity_columns: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.identityColumns),
+    minimum_identity_count: cdktn.numberToTerraform(struct!.minimumIdentityCount),
+    output_column_thresholds: cdktn.listMapper(cleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsToTerraform, false)(struct!.outputColumnThresholds),
+    type: cdktn.stringToTerraform(struct!.type),
+  }
+}
+
+
+export function cleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsToHclTerraform(struct?: CleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholds | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    allowed_aggregate_expression_type: {
+      value: cdktn.stringToHclTerraform(struct!.allowedAggregateExpressionType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    identity_columns: {
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.identityColumns),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    minimum_identity_count: {
+      value: cdktn.numberToHclTerraform(struct!.minimumIdentityCount),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    output_column_thresholds: {
+      value: cdktn.listMapperHcl(cleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsToHclTerraform, false)(struct!.outputColumnThresholds),
+      isBlock: true,
+      type: "list",
+      storageClassType: "CleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsList",
+    },
+    type: {
+      value: cdktn.stringToHclTerraform(struct!.type),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class CleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): CleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholds | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._allowedAggregateExpressionType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.allowedAggregateExpressionType = this._allowedAggregateExpressionType;
+    }
+    if (this._identityColumns !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.identityColumns = this._identityColumns;
+    }
+    if (this._minimumIdentityCount !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.minimumIdentityCount = this._minimumIdentityCount;
+    }
+    if (this._outputColumnThresholds?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.outputColumnThresholds = this._outputColumnThresholds?.internalValue;
+    }
+    if (this._type !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.type = this._type;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: CleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholds | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._allowedAggregateExpressionType = undefined;
+      this._identityColumns = undefined;
+      this._minimumIdentityCount = undefined;
+      this._outputColumnThresholds.internalValue = undefined;
+      this._type = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._allowedAggregateExpressionType = value.allowedAggregateExpressionType;
+      this._identityColumns = value.identityColumns;
+      this._minimumIdentityCount = value.minimumIdentityCount;
+      this._outputColumnThresholds.internalValue = value.outputColumnThresholds;
+      this._type = value.type;
+    }
+  }
+
+  // allowed_aggregate_expression_type - computed: true, optional: true, required: false
+  private _allowedAggregateExpressionType?: string; 
+  public get allowedAggregateExpressionType() {
+    return this.getStringAttribute('allowed_aggregate_expression_type');
+  }
+  public set allowedAggregateExpressionType(value: string) {
+    this._allowedAggregateExpressionType = value;
+  }
+  public resetAllowedAggregateExpressionType() {
+    this._allowedAggregateExpressionType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get allowedAggregateExpressionTypeInput() {
+    return this._allowedAggregateExpressionType;
+  }
+
+  // identity_columns - computed: true, optional: true, required: false
+  private _identityColumns?: string[]; 
+  public get identityColumns() {
+    return this.getListAttribute('identity_columns');
+  }
+  public set identityColumns(value: string[]) {
+    this._identityColumns = value;
+  }
+  public resetIdentityColumns() {
+    this._identityColumns = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get identityColumnsInput() {
+    return this._identityColumns;
+  }
+
+  // minimum_identity_count - computed: true, optional: true, required: false
+  private _minimumIdentityCount?: number; 
+  public get minimumIdentityCount() {
+    return this.getNumberAttribute('minimum_identity_count');
+  }
+  public set minimumIdentityCount(value: number) {
+    this._minimumIdentityCount = value;
+  }
+  public resetMinimumIdentityCount() {
+    this._minimumIdentityCount = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get minimumIdentityCountInput() {
+    return this._minimumIdentityCount;
+  }
+
+  // output_column_thresholds - computed: true, optional: true, required: false
+  private _outputColumnThresholds = new CleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsList(this, "output_column_thresholds", false);
+  public get outputColumnThresholds() {
+    return this._outputColumnThresholds;
+  }
+  public putOutputColumnThresholds(value: CleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholds[] | cdktn.IResolvable) {
+    this._outputColumnThresholds.internalValue = value;
+  }
+  public resetOutputColumnThresholds() {
+    this._outputColumnThresholds.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get outputColumnThresholdsInput() {
+    return this._outputColumnThresholds.internalValue;
+  }
+
+  // type - computed: true, optional: true, required: false
+  private _type?: string; 
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+  public set type(value: string) {
+    this._type = value;
+  }
+  public resetType() {
+    this._type = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get typeInput() {
+    return this._type;
+  }
+}
+
+export class CleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsList extends cdktn.ComplexList {
+  public internalValue? : CleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholds[] | cdktn.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): CleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputReference {
+    return new CleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface CleanroomsIntermediateTableAnalysisRulesPolicyV1CustomComparisonControls {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cleanrooms_intermediate_table#allowed_column_comparison_columns CleanroomsIntermediateTable#allowed_column_comparison_columns}
+  */
+  readonly allowedColumnComparisonColumns?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cleanrooms_intermediate_table#allowed_literal_comparison_columns CleanroomsIntermediateTable#allowed_literal_comparison_columns}
+  */
+  readonly allowedLiteralComparisonColumns?: string[];
+}
+
+export function cleanroomsIntermediateTableAnalysisRulesPolicyV1CustomComparisonControlsToTerraform(struct?: CleanroomsIntermediateTableAnalysisRulesPolicyV1CustomComparisonControls | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    allowed_column_comparison_columns: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.allowedColumnComparisonColumns),
+    allowed_literal_comparison_columns: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.allowedLiteralComparisonColumns),
+  }
+}
+
+
+export function cleanroomsIntermediateTableAnalysisRulesPolicyV1CustomComparisonControlsToHclTerraform(struct?: CleanroomsIntermediateTableAnalysisRulesPolicyV1CustomComparisonControls | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    allowed_column_comparison_columns: {
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.allowedColumnComparisonColumns),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    allowed_literal_comparison_columns: {
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.allowedLiteralComparisonColumns),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class CleanroomsIntermediateTableAnalysisRulesPolicyV1CustomComparisonControlsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): CleanroomsIntermediateTableAnalysisRulesPolicyV1CustomComparisonControls | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._allowedColumnComparisonColumns !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.allowedColumnComparisonColumns = this._allowedColumnComparisonColumns;
+    }
+    if (this._allowedLiteralComparisonColumns !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.allowedLiteralComparisonColumns = this._allowedLiteralComparisonColumns;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: CleanroomsIntermediateTableAnalysisRulesPolicyV1CustomComparisonControls | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._allowedColumnComparisonColumns = undefined;
+      this._allowedLiteralComparisonColumns = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._allowedColumnComparisonColumns = value.allowedColumnComparisonColumns;
+      this._allowedLiteralComparisonColumns = value.allowedLiteralComparisonColumns;
+    }
+  }
+
+  // allowed_column_comparison_columns - computed: true, optional: true, required: false
+  private _allowedColumnComparisonColumns?: string[]; 
+  public get allowedColumnComparisonColumns() {
+    return this.getListAttribute('allowed_column_comparison_columns');
+  }
+  public set allowedColumnComparisonColumns(value: string[]) {
+    this._allowedColumnComparisonColumns = value;
+  }
+  public resetAllowedColumnComparisonColumns() {
+    this._allowedColumnComparisonColumns = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get allowedColumnComparisonColumnsInput() {
+    return this._allowedColumnComparisonColumns;
+  }
+
+  // allowed_literal_comparison_columns - computed: true, optional: true, required: false
+  private _allowedLiteralComparisonColumns?: string[]; 
+  public get allowedLiteralComparisonColumns() {
+    return this.getListAttribute('allowed_literal_comparison_columns');
+  }
+  public set allowedLiteralComparisonColumns(value: string[]) {
+    this._allowedLiteralComparisonColumns = value;
+  }
+  public resetAllowedLiteralComparisonColumns() {
+    this._allowedLiteralComparisonColumns = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get allowedLiteralComparisonColumnsInput() {
+    return this._allowedLiteralComparisonColumns;
+  }
+}
 export interface CleanroomsIntermediateTableAnalysisRulesPolicyV1CustomDifferentialPrivacyColumns {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cleanrooms_intermediate_table#name CleanroomsIntermediateTable#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cleanrooms_intermediate_table#name CleanroomsIntermediateTable#name}
   */
   readonly name?: string;
 }
@@ -159,7 +683,7 @@ export class CleanroomsIntermediateTableAnalysisRulesPolicyV1CustomDifferentialP
 }
 export interface CleanroomsIntermediateTableAnalysisRulesPolicyV1CustomDifferentialPrivacy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cleanrooms_intermediate_table#columns CleanroomsIntermediateTable#columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cleanrooms_intermediate_table#columns CleanroomsIntermediateTable#columns}
   */
   readonly columns?: CleanroomsIntermediateTableAnalysisRulesPolicyV1CustomDifferentialPrivacyColumns[] | cdktn.IResolvable;
 }
@@ -253,27 +777,35 @@ export class CleanroomsIntermediateTableAnalysisRulesPolicyV1CustomDifferentialP
 }
 export interface CleanroomsIntermediateTableAnalysisRulesPolicyV1Custom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cleanrooms_intermediate_table#additional_analyses CleanroomsIntermediateTable#additional_analyses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cleanrooms_intermediate_table#additional_analyses CleanroomsIntermediateTable#additional_analyses}
   */
   readonly additionalAnalyses?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cleanrooms_intermediate_table#allowed_analyses CleanroomsIntermediateTable#allowed_analyses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cleanrooms_intermediate_table#aggregation_thresholds CleanroomsIntermediateTable#aggregation_thresholds}
+  */
+  readonly aggregationThresholds?: CleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholds[] | cdktn.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cleanrooms_intermediate_table#allowed_analyses CleanroomsIntermediateTable#allowed_analyses}
   */
   readonly allowedAnalyses?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cleanrooms_intermediate_table#allowed_analysis_providers CleanroomsIntermediateTable#allowed_analysis_providers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cleanrooms_intermediate_table#allowed_analysis_providers CleanroomsIntermediateTable#allowed_analysis_providers}
   */
   readonly allowedAnalysisProviders?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cleanrooms_intermediate_table#allowed_result_receivers CleanroomsIntermediateTable#allowed_result_receivers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cleanrooms_intermediate_table#allowed_result_receivers CleanroomsIntermediateTable#allowed_result_receivers}
   */
   readonly allowedResultReceivers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cleanrooms_intermediate_table#differential_privacy CleanroomsIntermediateTable#differential_privacy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cleanrooms_intermediate_table#comparison_controls CleanroomsIntermediateTable#comparison_controls}
+  */
+  readonly comparisonControls?: CleanroomsIntermediateTableAnalysisRulesPolicyV1CustomComparisonControls;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cleanrooms_intermediate_table#differential_privacy CleanroomsIntermediateTable#differential_privacy}
   */
   readonly differentialPrivacy?: CleanroomsIntermediateTableAnalysisRulesPolicyV1CustomDifferentialPrivacy;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cleanrooms_intermediate_table#disallowed_output_columns CleanroomsIntermediateTable#disallowed_output_columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cleanrooms_intermediate_table#disallowed_output_columns CleanroomsIntermediateTable#disallowed_output_columns}
   */
   readonly disallowedOutputColumns?: string[];
 }
@@ -285,9 +817,11 @@ export function cleanroomsIntermediateTableAnalysisRulesPolicyV1CustomToTerrafor
   }
   return {
     additional_analyses: cdktn.stringToTerraform(struct!.additionalAnalyses),
+    aggregation_thresholds: cdktn.listMapper(cleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsToTerraform, false)(struct!.aggregationThresholds),
     allowed_analyses: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.allowedAnalyses),
     allowed_analysis_providers: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.allowedAnalysisProviders),
     allowed_result_receivers: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.allowedResultReceivers),
+    comparison_controls: cleanroomsIntermediateTableAnalysisRulesPolicyV1CustomComparisonControlsToTerraform(struct!.comparisonControls),
     differential_privacy: cleanroomsIntermediateTableAnalysisRulesPolicyV1CustomDifferentialPrivacyToTerraform(struct!.differentialPrivacy),
     disallowed_output_columns: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.disallowedOutputColumns),
   }
@@ -306,6 +840,12 @@ export function cleanroomsIntermediateTableAnalysisRulesPolicyV1CustomToHclTerra
       type: "simple",
       storageClassType: "string",
     },
+    aggregation_thresholds: {
+      value: cdktn.listMapperHcl(cleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsToHclTerraform, false)(struct!.aggregationThresholds),
+      isBlock: true,
+      type: "list",
+      storageClassType: "CleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsList",
+    },
     allowed_analyses: {
       value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.allowedAnalyses),
       isBlock: false,
@@ -323,6 +863,12 @@ export function cleanroomsIntermediateTableAnalysisRulesPolicyV1CustomToHclTerra
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
+    },
+    comparison_controls: {
+      value: cleanroomsIntermediateTableAnalysisRulesPolicyV1CustomComparisonControlsToHclTerraform(struct!.comparisonControls),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "CleanroomsIntermediateTableAnalysisRulesPolicyV1CustomComparisonControls",
     },
     differential_privacy: {
       value: cleanroomsIntermediateTableAnalysisRulesPolicyV1CustomDifferentialPrivacyToHclTerraform(struct!.differentialPrivacy),
@@ -364,6 +910,10 @@ export class CleanroomsIntermediateTableAnalysisRulesPolicyV1CustomOutputReferen
       hasAnyValues = true;
       internalValueResult.additionalAnalyses = this._additionalAnalyses;
     }
+    if (this._aggregationThresholds?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.aggregationThresholds = this._aggregationThresholds?.internalValue;
+    }
     if (this._allowedAnalyses !== undefined) {
       hasAnyValues = true;
       internalValueResult.allowedAnalyses = this._allowedAnalyses;
@@ -375,6 +925,10 @@ export class CleanroomsIntermediateTableAnalysisRulesPolicyV1CustomOutputReferen
     if (this._allowedResultReceivers !== undefined) {
       hasAnyValues = true;
       internalValueResult.allowedResultReceivers = this._allowedResultReceivers;
+    }
+    if (this._comparisonControls?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.comparisonControls = this._comparisonControls?.internalValue;
     }
     if (this._differentialPrivacy?.internalValue !== undefined) {
       hasAnyValues = true;
@@ -392,9 +946,11 @@ export class CleanroomsIntermediateTableAnalysisRulesPolicyV1CustomOutputReferen
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._additionalAnalyses = undefined;
+      this._aggregationThresholds.internalValue = undefined;
       this._allowedAnalyses = undefined;
       this._allowedAnalysisProviders = undefined;
       this._allowedResultReceivers = undefined;
+      this._comparisonControls.internalValue = undefined;
       this._differentialPrivacy.internalValue = undefined;
       this._disallowedOutputColumns = undefined;
     }
@@ -406,9 +962,11 @@ export class CleanroomsIntermediateTableAnalysisRulesPolicyV1CustomOutputReferen
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
       this._additionalAnalyses = value.additionalAnalyses;
+      this._aggregationThresholds.internalValue = value.aggregationThresholds;
       this._allowedAnalyses = value.allowedAnalyses;
       this._allowedAnalysisProviders = value.allowedAnalysisProviders;
       this._allowedResultReceivers = value.allowedResultReceivers;
+      this._comparisonControls.internalValue = value.comparisonControls;
       this._differentialPrivacy.internalValue = value.differentialPrivacy;
       this._disallowedOutputColumns = value.disallowedOutputColumns;
     }
@@ -428,6 +986,22 @@ export class CleanroomsIntermediateTableAnalysisRulesPolicyV1CustomOutputReferen
   // Temporarily expose input value. Use with caution.
   public get additionalAnalysesInput() {
     return this._additionalAnalyses;
+  }
+
+  // aggregation_thresholds - computed: true, optional: true, required: false
+  private _aggregationThresholds = new CleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsList(this, "aggregation_thresholds", false);
+  public get aggregationThresholds() {
+    return this._aggregationThresholds;
+  }
+  public putAggregationThresholds(value: CleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholds[] | cdktn.IResolvable) {
+    this._aggregationThresholds.internalValue = value;
+  }
+  public resetAggregationThresholds() {
+    this._aggregationThresholds.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get aggregationThresholdsInput() {
+    return this._aggregationThresholds.internalValue;
   }
 
   // allowed_analyses - computed: true, optional: true, required: false
@@ -478,6 +1052,22 @@ export class CleanroomsIntermediateTableAnalysisRulesPolicyV1CustomOutputReferen
     return this._allowedResultReceivers;
   }
 
+  // comparison_controls - computed: true, optional: true, required: false
+  private _comparisonControls = new CleanroomsIntermediateTableAnalysisRulesPolicyV1CustomComparisonControlsOutputReference(this, "comparison_controls");
+  public get comparisonControls() {
+    return this._comparisonControls;
+  }
+  public putComparisonControls(value: CleanroomsIntermediateTableAnalysisRulesPolicyV1CustomComparisonControls) {
+    this._comparisonControls.internalValue = value;
+  }
+  public resetComparisonControls() {
+    this._comparisonControls.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get comparisonControlsInput() {
+    return this._comparisonControls.internalValue;
+  }
+
   // differential_privacy - computed: true, optional: true, required: false
   private _differentialPrivacy = new CleanroomsIntermediateTableAnalysisRulesPolicyV1CustomDifferentialPrivacyOutputReference(this, "differential_privacy");
   public get differentialPrivacy() {
@@ -512,7 +1102,7 @@ export class CleanroomsIntermediateTableAnalysisRulesPolicyV1CustomOutputReferen
 }
 export interface CleanroomsIntermediateTableAnalysisRulesPolicyV1 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cleanrooms_intermediate_table#custom CleanroomsIntermediateTable#custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cleanrooms_intermediate_table#custom CleanroomsIntermediateTable#custom}
   */
   readonly custom?: CleanroomsIntermediateTableAnalysisRulesPolicyV1Custom;
 }
@@ -606,7 +1196,7 @@ export class CleanroomsIntermediateTableAnalysisRulesPolicyV1OutputReference ext
 }
 export interface CleanroomsIntermediateTableAnalysisRulesPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cleanrooms_intermediate_table#v1 CleanroomsIntermediateTable#v1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cleanrooms_intermediate_table#v1 CleanroomsIntermediateTable#v1}
   */
   readonly v1?: CleanroomsIntermediateTableAnalysisRulesPolicyV1;
 }
@@ -700,11 +1290,11 @@ export class CleanroomsIntermediateTableAnalysisRulesPolicyOutputReference exten
 }
 export interface CleanroomsIntermediateTableAnalysisRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cleanrooms_intermediate_table#policy CleanroomsIntermediateTable#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cleanrooms_intermediate_table#policy CleanroomsIntermediateTable#policy}
   */
   readonly policy?: CleanroomsIntermediateTableAnalysisRulesPolicy;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cleanrooms_intermediate_table#type CleanroomsIntermediateTable#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cleanrooms_intermediate_table#type CleanroomsIntermediateTable#type}
   */
   readonly type?: string;
 }
@@ -849,11 +1439,11 @@ export class CleanroomsIntermediateTableAnalysisRulesList extends cdktn.ComplexL
 }
 export interface CleanroomsIntermediateTablePopulationAnalysisConfigurationSqlParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cleanrooms_intermediate_table#analysis_template_arn CleanroomsIntermediateTable#analysis_template_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cleanrooms_intermediate_table#analysis_template_arn CleanroomsIntermediateTable#analysis_template_arn}
   */
   readonly analysisTemplateArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cleanrooms_intermediate_table#query_string CleanroomsIntermediateTable#query_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cleanrooms_intermediate_table#query_string CleanroomsIntermediateTable#query_string}
   */
   readonly queryString?: string;
 }
@@ -976,7 +1566,7 @@ export class CleanroomsIntermediateTablePopulationAnalysisConfigurationSqlParame
 }
 export interface CleanroomsIntermediateTablePopulationAnalysisConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cleanrooms_intermediate_table#sql_parameters CleanroomsIntermediateTable#sql_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cleanrooms_intermediate_table#sql_parameters CleanroomsIntermediateTable#sql_parameters}
   */
   readonly sqlParameters?: CleanroomsIntermediateTablePopulationAnalysisConfigurationSqlParameters;
 }
@@ -1070,11 +1660,11 @@ export class CleanroomsIntermediateTablePopulationAnalysisConfigurationOutputRef
 }
 export interface CleanroomsIntermediateTableTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cleanrooms_intermediate_table#key CleanroomsIntermediateTable#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cleanrooms_intermediate_table#key CleanroomsIntermediateTable#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cleanrooms_intermediate_table#value CleanroomsIntermediateTable#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cleanrooms_intermediate_table#value CleanroomsIntermediateTable#value}
   */
   readonly value?: string;
 }
@@ -1219,7 +1809,7 @@ export class CleanroomsIntermediateTableTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cleanrooms_intermediate_table awscc_cleanrooms_intermediate_table}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cleanrooms_intermediate_table awscc_cleanrooms_intermediate_table}
 */
 export class CleanroomsIntermediateTable extends cdktn.TerraformResource {
 
@@ -1235,7 +1825,7 @@ export class CleanroomsIntermediateTable extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a CleanroomsIntermediateTable resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CleanroomsIntermediateTable to import
-  * @param importFromId The id of the existing CleanroomsIntermediateTable that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cleanrooms_intermediate_table#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CleanroomsIntermediateTable that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cleanrooms_intermediate_table#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CleanroomsIntermediateTable to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1247,7 +1837,7 @@ export class CleanroomsIntermediateTable extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cleanrooms_intermediate_table awscc_cleanrooms_intermediate_table} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cleanrooms_intermediate_table awscc_cleanrooms_intermediate_table} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1258,7 +1848,7 @@ export class CleanroomsIntermediateTable extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_cleanrooms_intermediate_table',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.99.0',
+        providerVersion: '1.100.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

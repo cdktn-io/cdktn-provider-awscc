@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/iam_user
+// https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/iam_user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccIamUserConfig extends cdktn.TerraformMetaArguments {
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/iam_user#id DataAwsccIamUser#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/iam_user#id DataAwsccIamUser#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -243,7 +243,7 @@ export class DataAwsccIamUserTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/iam_user awscc_iam_user}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/iam_user awscc_iam_user}
 */
 export class DataAwsccIamUser extends cdktn.TerraformDataSource {
 
@@ -259,7 +259,7 @@ export class DataAwsccIamUser extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAwsccIamUser resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccIamUser to import
-  * @param importFromId The id of the existing DataAwsccIamUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/iam_user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccIamUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/iam_user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccIamUser to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -271,7 +271,7 @@ export class DataAwsccIamUser extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/iam_user awscc_iam_user} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/iam_user awscc_iam_user} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -282,7 +282,7 @@ export class DataAwsccIamUser extends cdktn.TerraformDataSource {
       terraformResourceType: 'awscc_iam_user',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.99.0',
+        providerVersion: '1.100.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

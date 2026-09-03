@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53_record_set
+// https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/route53_record_set
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,97 +15,97 @@ export interface Route53RecordSetConfig extends cdktn.TerraformMetaArguments {
   /**
   * Alias resource record sets only: Information about the AWS resource, such as a CloudFront distribution or an Amazon S3 bucket, that you want to route traffic to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53_record_set#alias_target Route53RecordSet#alias_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/route53_record_set#alias_target Route53RecordSet#alias_target}
   */
   readonly aliasTarget?: Route53RecordSetAliasTarget;
   /**
   * The object that is specified in resource record set object when you are linking a resource record set to a CIDR location.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53_record_set#cidr_routing_config Route53RecordSet#cidr_routing_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/route53_record_set#cidr_routing_config Route53RecordSet#cidr_routing_config}
   */
   readonly cidrRoutingConfig?: Route53RecordSetCidrRoutingConfig;
   /**
   * Optional: Any comments you want to include about a change batch request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53_record_set#comment Route53RecordSet#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/route53_record_set#comment Route53RecordSet#comment}
   */
   readonly comment?: string;
   /**
   * To configure failover, you add the Failover element to two resource record sets. For one resource record set, you specify PRIMARY as the value for Failover; for the other resource record set, you specify SECONDARY. In addition, you include the HealthCheckId element and specify the health check that you want Amazon Route 53 to perform for each resource record set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53_record_set#failover Route53RecordSet#failover}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/route53_record_set#failover Route53RecordSet#failover}
   */
   readonly failover?: string;
   /**
   * A complex type that lets you control how Amazon Route 53 responds to DNS queries based on the geographic origin of the query.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53_record_set#geo_location Route53RecordSet#geo_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/route53_record_set#geo_location Route53RecordSet#geo_location}
   */
   readonly geoLocation?: Route53RecordSetGeoLocation;
   /**
   * If you want Amazon Route 53 to return this resource record set in response to a DNS query only when the status of a health check is healthy, include the HealthCheckId element and specify the ID of the applicable health check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53_record_set#health_check_id Route53RecordSet#health_check_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/route53_record_set#health_check_id Route53RecordSet#health_check_id}
   */
   readonly healthCheckId?: string;
   /**
   * The ID of the hosted zone that you want to create records in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53_record_set#hosted_zone_id Route53RecordSet#hosted_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/route53_record_set#hosted_zone_id Route53RecordSet#hosted_zone_id}
   */
   readonly hostedZoneId?: string;
   /**
   * The name of the hosted zone that you want to create records in. You must include a trailing dot (for example, www.example.com.) as part of the HostedZoneName.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53_record_set#hosted_zone_name Route53RecordSet#hosted_zone_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/route53_record_set#hosted_zone_name Route53RecordSet#hosted_zone_name}
   */
   readonly hostedZoneName?: string;
   /**
   * To route traffic approximately randomly to multiple resources, such as web servers, create one multivalue answer record for each resource and specify true for MultiValueAnswer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53_record_set#multi_value_answer Route53RecordSet#multi_value_answer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/route53_record_set#multi_value_answer Route53RecordSet#multi_value_answer}
   */
   readonly multiValueAnswer?: boolean | cdktn.IResolvable;
   /**
   * The name of the record that you want to create, update, or delete.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53_record_set#name Route53RecordSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/route53_record_set#name Route53RecordSet#name}
   */
   readonly name: string;
   /**
   * The Amazon EC2 Region where you created the resource that this resource record set refers to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53_record_set#region Route53RecordSet#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/route53_record_set#region Route53RecordSet#region}
   */
   readonly region?: string;
   /**
   * One or more values that correspond with the value that you specified for the Type property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53_record_set#resource_records Route53RecordSet#resource_records}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/route53_record_set#resource_records Route53RecordSet#resource_records}
   */
   readonly resourceRecords?: string[];
   /**
   * An identifier that differentiates among multiple resource record sets that have the same combination of name and type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53_record_set#set_identifier Route53RecordSet#set_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/route53_record_set#set_identifier Route53RecordSet#set_identifier}
   */
   readonly setIdentifier?: string;
   /**
   * The resource record cache time to live (TTL), in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53_record_set#ttl Route53RecordSet#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/route53_record_set#ttl Route53RecordSet#ttl}
   */
   readonly ttl?: string;
   /**
   * The DNS record type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53_record_set#type Route53RecordSet#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/route53_record_set#type Route53RecordSet#type}
   */
   readonly type: string;
   /**
   * Among resource record sets that have the same combination of DNS name and type, a value that determines the proportion of DNS queries that Amazon Route 53 responds to using the current resource record set. Route 53 calculates the sum of the weights for the resource record sets that have the same combination of DNS name and type. Route 53 then responds to queries based on the ratio of a resource's weight to the total.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53_record_set#weight Route53RecordSet#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/route53_record_set#weight Route53RecordSet#weight}
   */
   readonly weight?: number;
 }
@@ -113,19 +113,19 @@ export interface Route53RecordSetAliasTarget {
   /**
   * The value that you specify depends on where you want to route queries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53_record_set#dns_name Route53RecordSet#dns_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/route53_record_set#dns_name Route53RecordSet#dns_name}
   */
   readonly dnsName?: string;
   /**
   * When EvaluateTargetHealth is true, an alias resource record set inherits the health of the referenced AWS resource, such as an ELB load balancer or another resource record set in the hosted zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53_record_set#evaluate_target_health Route53RecordSet#evaluate_target_health}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/route53_record_set#evaluate_target_health Route53RecordSet#evaluate_target_health}
   */
   readonly evaluateTargetHealth?: boolean | cdktn.IResolvable;
   /**
   * The value used depends on where you want to route traffic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53_record_set#hosted_zone_id Route53RecordSet#hosted_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/route53_record_set#hosted_zone_id Route53RecordSet#hosted_zone_id}
   */
   readonly hostedZoneId?: string;
 }
@@ -279,13 +279,13 @@ export interface Route53RecordSetCidrRoutingConfig {
   /**
   * The CIDR collection ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53_record_set#collection_id Route53RecordSet#collection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/route53_record_set#collection_id Route53RecordSet#collection_id}
   */
   readonly collectionId?: string;
   /**
   * The CIDR collection location name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53_record_set#location_name Route53RecordSet#location_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/route53_record_set#location_name Route53RecordSet#location_name}
   */
   readonly locationName?: string;
 }
@@ -410,19 +410,19 @@ export interface Route53RecordSetGeoLocation {
   /**
   * For geolocation resource record sets, a two-letter abbreviation that identifies a continent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53_record_set#continent_code Route53RecordSet#continent_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/route53_record_set#continent_code Route53RecordSet#continent_code}
   */
   readonly continentCode?: string;
   /**
   * For geolocation resource record sets, the two-letter code for a country.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53_record_set#country_code Route53RecordSet#country_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/route53_record_set#country_code Route53RecordSet#country_code}
   */
   readonly countryCode?: string;
   /**
   * For geolocation resource record sets, the two-letter code for a state of the United States.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53_record_set#subdivision_code Route53RecordSet#subdivision_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/route53_record_set#subdivision_code Route53RecordSet#subdivision_code}
   */
   readonly subdivisionCode?: string;
 }
@@ -574,7 +574,7 @@ export class Route53RecordSetGeoLocationOutputReference extends cdktn.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53_record_set awscc_route53_record_set}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/route53_record_set awscc_route53_record_set}
 */
 export class Route53RecordSet extends cdktn.TerraformResource {
 
@@ -590,7 +590,7 @@ export class Route53RecordSet extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Route53RecordSet resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Route53RecordSet to import
-  * @param importFromId The id of the existing Route53RecordSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53_record_set#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Route53RecordSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/route53_record_set#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Route53RecordSet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -602,7 +602,7 @@ export class Route53RecordSet extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53_record_set awscc_route53_record_set} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/route53_record_set awscc_route53_record_set} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -613,7 +613,7 @@ export class Route53RecordSet extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_route53_record_set',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.99.0',
+        providerVersion: '1.100.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

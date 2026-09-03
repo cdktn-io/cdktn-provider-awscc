@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iam_oidc_provider
+// https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iam_oidc_provider
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,19 +13,19 @@ import * as cdktn from 'cdktn';
 
 export interface IamOidcProviderConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iam_oidc_provider#client_id_list IamOidcProvider#client_id_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iam_oidc_provider#client_id_list IamOidcProvider#client_id_list}
   */
   readonly clientIdList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iam_oidc_provider#tags IamOidcProvider#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iam_oidc_provider#tags IamOidcProvider#tags}
   */
   readonly tags?: IamOidcProviderTags[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iam_oidc_provider#thumbprint_list IamOidcProvider#thumbprint_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iam_oidc_provider#thumbprint_list IamOidcProvider#thumbprint_list}
   */
   readonly thumbprintList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iam_oidc_provider#url IamOidcProvider#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iam_oidc_provider#url IamOidcProvider#url}
   */
   readonly url?: string;
 }
@@ -33,13 +33,13 @@ export interface IamOidcProviderTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iam_oidc_provider#key IamOidcProvider#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iam_oidc_provider#key IamOidcProvider#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iam_oidc_provider#value IamOidcProvider#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iam_oidc_provider#value IamOidcProvider#value}
   */
   readonly value?: string;
 }
@@ -184,7 +184,7 @@ export class IamOidcProviderTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iam_oidc_provider awscc_iam_oidc_provider}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iam_oidc_provider awscc_iam_oidc_provider}
 */
 export class IamOidcProvider extends cdktn.TerraformResource {
 
@@ -200,7 +200,7 @@ export class IamOidcProvider extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a IamOidcProvider resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IamOidcProvider to import
-  * @param importFromId The id of the existing IamOidcProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iam_oidc_provider#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IamOidcProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iam_oidc_provider#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IamOidcProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -212,7 +212,7 @@ export class IamOidcProvider extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iam_oidc_provider awscc_iam_oidc_provider} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iam_oidc_provider awscc_iam_oidc_provider} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -223,7 +223,7 @@ export class IamOidcProvider extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_iam_oidc_provider',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.99.0',
+        providerVersion: '1.100.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

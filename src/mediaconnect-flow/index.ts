@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow
+// https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,63 +15,218 @@ export interface MediaconnectFlowConfig extends cdktn.TerraformMetaArguments {
   /**
   * The Availability Zone that you want to create the flow in. These options are limited to the Availability Zones within the current AWS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#availability_zone MediaconnectFlow#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#availability_zone MediaconnectFlow#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
+  * The encoding configuration to apply to the NDI source content when transcoding it to a transport stream (TS) for downstream distribution. You can choose between several predefined encoding profiles based on common use cases.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#encoding_config MediaconnectFlow#encoding_config}
+  */
+  readonly encodingConfig?: MediaconnectFlowEncodingConfig;
+  /**
+  * Determines the processing capacity and feature set of the flow. Set this optional parameter to LARGE if you want to enable NDI sources or outputs on the flow.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#flow_size MediaconnectFlow#flow_size}
+  */
+  readonly flowSize?: string;
+  /**
   * The maintenance settings you want to use for the flow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#maintenance MediaconnectFlow#maintenance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#maintenance MediaconnectFlow#maintenance}
   */
   readonly maintenance?: MediaconnectFlowMaintenance;
   /**
   * The media streams associated with the flow. You can associate any of these media streams with sources and outputs on the flow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#media_streams MediaconnectFlow#media_streams}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#media_streams MediaconnectFlow#media_streams}
   */
   readonly mediaStreams?: MediaconnectFlowMediaStreams[] | cdktn.IResolvable;
   /**
   * The name of the flow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#name MediaconnectFlow#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#name MediaconnectFlow#name}
   */
   readonly name: string;
   /**
+  * Specifies the configuration settings for NDI sources and outputs. Required when the flow includes NDI sources or outputs.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#ndi_config MediaconnectFlow#ndi_config}
+  */
+  readonly ndiConfig?: MediaconnectFlowNdiConfig;
+  /**
   * The source of the flow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#source MediaconnectFlow#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#source MediaconnectFlow#source}
   */
   readonly source: MediaconnectFlowSource;
   /**
   * The source failover config of the flow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#source_failover_config MediaconnectFlow#source_failover_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#source_failover_config MediaconnectFlow#source_failover_config}
   */
   readonly sourceFailoverConfig?: MediaconnectFlowSourceFailoverConfig;
   /**
   * The source monitoring config of the flow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#source_monitoring_config MediaconnectFlow#source_monitoring_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#source_monitoring_config MediaconnectFlow#source_monitoring_config}
   */
   readonly sourceMonitoringConfig?: MediaconnectFlowSourceMonitoringConfig;
   /**
+  * Key-value pairs that can be used to tag this flow.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#tags MediaconnectFlow#tags}
+  */
+  readonly tags?: MediaconnectFlowTags[] | cdktn.IResolvable;
+  /**
   * The VPC interfaces that you added to this flow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#vpc_interfaces MediaconnectFlow#vpc_interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#vpc_interfaces MediaconnectFlow#vpc_interfaces}
   */
   readonly vpcInterfaces?: MediaconnectFlowVpcInterfaces[] | cdktn.IResolvable;
+}
+export interface MediaconnectFlowEncodingConfig {
+  /**
+  * The encoding profile to use when transcoding the NDI source to a Transport Stream. You can change this value while a flow is running.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#encoding_profile MediaconnectFlow#encoding_profile}
+  */
+  readonly encodingProfile?: string;
+  /**
+  * The maximum video bitrate to use when transcoding the NDI source to a Transport Stream. This parameter enables you to override the default video bitrate within the encoding profile's supported range. The supported range is 10,000,000 - 50,000,000 bits per second (bps). If you do not specify a value, MediaConnect uses the default value of 20,000,000 bps.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#video_max_bitrate MediaconnectFlow#video_max_bitrate}
+  */
+  readonly videoMaxBitrate?: number;
+}
+
+export function mediaconnectFlowEncodingConfigToTerraform(struct?: MediaconnectFlowEncodingConfig | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    encoding_profile: cdktn.stringToTerraform(struct!.encodingProfile),
+    video_max_bitrate: cdktn.numberToTerraform(struct!.videoMaxBitrate),
+  }
+}
+
+
+export function mediaconnectFlowEncodingConfigToHclTerraform(struct?: MediaconnectFlowEncodingConfig | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    encoding_profile: {
+      value: cdktn.stringToHclTerraform(struct!.encodingProfile),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    video_max_bitrate: {
+      value: cdktn.numberToHclTerraform(struct!.videoMaxBitrate),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class MediaconnectFlowEncodingConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): MediaconnectFlowEncodingConfig | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._encodingProfile !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.encodingProfile = this._encodingProfile;
+    }
+    if (this._videoMaxBitrate !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.videoMaxBitrate = this._videoMaxBitrate;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: MediaconnectFlowEncodingConfig | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._encodingProfile = undefined;
+      this._videoMaxBitrate = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._encodingProfile = value.encodingProfile;
+      this._videoMaxBitrate = value.videoMaxBitrate;
+    }
+  }
+
+  // encoding_profile - computed: true, optional: true, required: false
+  private _encodingProfile?: string; 
+  public get encodingProfile() {
+    return this.getStringAttribute('encoding_profile');
+  }
+  public set encodingProfile(value: string) {
+    this._encodingProfile = value;
+  }
+  public resetEncodingProfile() {
+    this._encodingProfile = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get encodingProfileInput() {
+    return this._encodingProfile;
+  }
+
+  // video_max_bitrate - computed: true, optional: true, required: false
+  private _videoMaxBitrate?: number; 
+  public get videoMaxBitrate() {
+    return this.getNumberAttribute('video_max_bitrate');
+  }
+  public set videoMaxBitrate(value: number) {
+    this._videoMaxBitrate = value;
+  }
+  public resetVideoMaxBitrate() {
+    this._videoMaxBitrate = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get videoMaxBitrateInput() {
+    return this._videoMaxBitrate;
+  }
 }
 export interface MediaconnectFlowMaintenance {
   /**
   * A day of a week when the maintenance will happen. Use Monday/Tuesday/Wednesday/Thursday/Friday/Saturday/Sunday.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#maintenance_day MediaconnectFlow#maintenance_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#maintenance_day MediaconnectFlow#maintenance_day}
   */
   readonly maintenanceDay?: string;
   /**
   * UTC time when the maintenance will happen. Use 24-hour HH:MM format. Minutes must be 00. Example: 13:00. The default value is 02:00.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#maintenance_start_hour MediaconnectFlow#maintenance_start_hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#maintenance_start_hour MediaconnectFlow#maintenance_start_hour}
   */
   readonly maintenanceStartHour?: string;
 }
@@ -196,43 +351,43 @@ export interface MediaconnectFlowMediaStreamsAttributesFmtp {
   /**
   * The format of the audio channel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#channel_order MediaconnectFlow#channel_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#channel_order MediaconnectFlow#channel_order}
   */
   readonly channelOrder?: string;
   /**
   * The format used for the representation of color.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#colorimetry MediaconnectFlow#colorimetry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#colorimetry MediaconnectFlow#colorimetry}
   */
   readonly colorimetry?: string;
   /**
   * The frame rate for the video stream, in frames/second. For example: 60000/1001.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#exact_framerate MediaconnectFlow#exact_framerate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#exact_framerate MediaconnectFlow#exact_framerate}
   */
   readonly exactFramerate?: string;
   /**
   * The pixel aspect ratio (PAR) of the video.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#par MediaconnectFlow#par}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#par MediaconnectFlow#par}
   */
   readonly par?: string;
   /**
   * The encoding range of the video.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#range MediaconnectFlow#range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#range MediaconnectFlow#range}
   */
   readonly range?: string;
   /**
   * The type of compression that was used to smooth the video's appearance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#scan_mode MediaconnectFlow#scan_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#scan_mode MediaconnectFlow#scan_mode}
   */
   readonly scanMode?: string;
   /**
   * The transfer characteristic system (TCS) that is used in the video.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#tcs MediaconnectFlow#tcs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#tcs MediaconnectFlow#tcs}
   */
   readonly tcs?: string;
 }
@@ -502,13 +657,13 @@ export interface MediaconnectFlowMediaStreamsAttributes {
   /**
   * A set of parameters that define the media stream.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#fmtp MediaconnectFlow#fmtp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#fmtp MediaconnectFlow#fmtp}
   */
   readonly fmtp?: MediaconnectFlowMediaStreamsAttributesFmtp;
   /**
   * The audio language, in a format that is recognized by the receiver.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#lang MediaconnectFlow#lang}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#lang MediaconnectFlow#lang}
   */
   readonly lang?: string;
 }
@@ -629,53 +784,208 @@ export class MediaconnectFlowMediaStreamsAttributesOutputReference extends cdktn
     return this._lang;
   }
 }
+export interface MediaconnectFlowMediaStreamsTags {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#key MediaconnectFlow#key}
+  */
+  readonly key?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#value MediaconnectFlow#value}
+  */
+  readonly value?: string;
+}
+
+export function mediaconnectFlowMediaStreamsTagsToTerraform(struct?: MediaconnectFlowMediaStreamsTags | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    key: cdktn.stringToTerraform(struct!.key),
+    value: cdktn.stringToTerraform(struct!.value),
+  }
+}
+
+
+export function mediaconnectFlowMediaStreamsTagsToHclTerraform(struct?: MediaconnectFlowMediaStreamsTags | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    key: {
+      value: cdktn.stringToHclTerraform(struct!.key),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    value: {
+      value: cdktn.stringToHclTerraform(struct!.value),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class MediaconnectFlowMediaStreamsTagsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): MediaconnectFlowMediaStreamsTags | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._key !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.key = this._key;
+    }
+    if (this._value !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.value = this._value;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: MediaconnectFlowMediaStreamsTags | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._key = undefined;
+      this._value = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._key = value.key;
+      this._value = value.value;
+    }
+  }
+
+  // key - computed: true, optional: true, required: false
+  private _key?: string; 
+  public get key() {
+    return this.getStringAttribute('key');
+  }
+  public set key(value: string) {
+    this._key = value;
+  }
+  public resetKey() {
+    this._key = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get keyInput() {
+    return this._key;
+  }
+
+  // value - computed: true, optional: true, required: false
+  private _value?: string; 
+  public get value() {
+    return this.getStringAttribute('value');
+  }
+  public set value(value: string) {
+    this._value = value;
+  }
+  public resetValue() {
+    this._value = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get valueInput() {
+    return this._value;
+  }
+}
+
+export class MediaconnectFlowMediaStreamsTagsList extends cdktn.ComplexList {
+  public internalValue? : MediaconnectFlowMediaStreamsTags[] | cdktn.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): MediaconnectFlowMediaStreamsTagsOutputReference {
+    return new MediaconnectFlowMediaStreamsTagsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface MediaconnectFlowMediaStreams {
   /**
   * Attributes that are related to the media stream.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#attributes MediaconnectFlow#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#attributes MediaconnectFlow#attributes}
   */
   readonly attributes?: MediaconnectFlowMediaStreamsAttributes;
   /**
   * The sample rate for the stream. This value in measured in kHz.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#clock_rate MediaconnectFlow#clock_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#clock_rate MediaconnectFlow#clock_rate}
   */
   readonly clockRate?: number;
   /**
   * A description that can help you quickly identify what your media stream is used for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#description MediaconnectFlow#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#description MediaconnectFlow#description}
   */
   readonly description?: string;
   /**
   * The format type number (sometimes referred to as RTP payload type) of the media stream. MediaConnect assigns this value to the media stream. For ST 2110 JPEG XS outputs, you need to provide this value to the receiver.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#fmt MediaconnectFlow#fmt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#fmt MediaconnectFlow#fmt}
   */
   readonly fmt?: number;
   /**
   * A unique identifier for the media stream.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#media_stream_id MediaconnectFlow#media_stream_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#media_stream_id MediaconnectFlow#media_stream_id}
   */
   readonly mediaStreamId?: number;
   /**
   * A name that helps you distinguish one media stream from another.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#media_stream_name MediaconnectFlow#media_stream_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#media_stream_name MediaconnectFlow#media_stream_name}
   */
   readonly mediaStreamName?: string;
   /**
   * The type of media stream.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#media_stream_type MediaconnectFlow#media_stream_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#media_stream_type MediaconnectFlow#media_stream_type}
   */
   readonly mediaStreamType?: string;
   /**
+  * Key-value pairs that can be used to tag this media stream.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#tags MediaconnectFlow#tags}
+  */
+  readonly tags?: MediaconnectFlowMediaStreamsTags[] | cdktn.IResolvable;
+  /**
   * The resolution of the video.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#video_format MediaconnectFlow#video_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#video_format MediaconnectFlow#video_format}
   */
   readonly videoFormat?: string;
 }
@@ -693,6 +1003,7 @@ export function mediaconnectFlowMediaStreamsToTerraform(struct?: MediaconnectFlo
     media_stream_id: cdktn.numberToTerraform(struct!.mediaStreamId),
     media_stream_name: cdktn.stringToTerraform(struct!.mediaStreamName),
     media_stream_type: cdktn.stringToTerraform(struct!.mediaStreamType),
+    tags: cdktn.listMapper(mediaconnectFlowMediaStreamsTagsToTerraform, false)(struct!.tags),
     video_format: cdktn.stringToTerraform(struct!.videoFormat),
   }
 }
@@ -745,6 +1056,12 @@ export function mediaconnectFlowMediaStreamsToHclTerraform(struct?: Mediaconnect
       isBlock: false,
       type: "simple",
       storageClassType: "string",
+    },
+    tags: {
+      value: cdktn.listMapperHcl(mediaconnectFlowMediaStreamsTagsToHclTerraform, false)(struct!.tags),
+      isBlock: true,
+      type: "list",
+      storageClassType: "MediaconnectFlowMediaStreamsTagsList",
     },
     video_format: {
       value: cdktn.stringToHclTerraform(struct!.videoFormat),
@@ -806,6 +1123,10 @@ export class MediaconnectFlowMediaStreamsOutputReference extends cdktn.ComplexOb
       hasAnyValues = true;
       internalValueResult.mediaStreamType = this._mediaStreamType;
     }
+    if (this._tags?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tags = this._tags?.internalValue;
+    }
     if (this._videoFormat !== undefined) {
       hasAnyValues = true;
       internalValueResult.videoFormat = this._videoFormat;
@@ -824,6 +1145,7 @@ export class MediaconnectFlowMediaStreamsOutputReference extends cdktn.ComplexOb
       this._mediaStreamId = undefined;
       this._mediaStreamName = undefined;
       this._mediaStreamType = undefined;
+      this._tags.internalValue = undefined;
       this._videoFormat = undefined;
     }
     else if (cdktn.Tokenization.isResolvable(value)) {
@@ -840,6 +1162,7 @@ export class MediaconnectFlowMediaStreamsOutputReference extends cdktn.ComplexOb
       this._mediaStreamId = value.mediaStreamId;
       this._mediaStreamName = value.mediaStreamName;
       this._mediaStreamType = value.mediaStreamType;
+      this._tags.internalValue = value.tags;
       this._videoFormat = value.videoFormat;
     }
   }
@@ -956,6 +1279,22 @@ export class MediaconnectFlowMediaStreamsOutputReference extends cdktn.ComplexOb
     return this._mediaStreamType;
   }
 
+  // tags - computed: true, optional: true, required: false
+  private _tags = new MediaconnectFlowMediaStreamsTagsList(this, "tags", false);
+  public get tags() {
+    return this._tags;
+  }
+  public putTags(value: MediaconnectFlowMediaStreamsTags[] | cdktn.IResolvable) {
+    this._tags.internalValue = value;
+  }
+  public resetTags() {
+    this._tags.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tagsInput() {
+    return this._tags.internalValue;
+  }
+
   // video_format - computed: true, optional: true, required: false
   private _videoFormat?: string; 
   public get videoFormat() {
@@ -992,59 +1331,413 @@ export class MediaconnectFlowMediaStreamsList extends cdktn.ComplexList {
     return new MediaconnectFlowMediaStreamsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface MediaconnectFlowNdiConfigNdiDiscoveryServers {
+  /**
+  * The unique network address of the NDI discovery server.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#discovery_server_address MediaconnectFlow#discovery_server_address}
+  */
+  readonly discoveryServerAddress?: string;
+  /**
+  * The port for the NDI discovery server. Defaults to 5959 if a custom port isn't specified.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#discovery_server_port MediaconnectFlow#discovery_server_port}
+  */
+  readonly discoveryServerPort?: number;
+  /**
+  * The identifier for the Virtual Private Cloud (VPC) network interface used by the flow.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#vpc_interface_adapter MediaconnectFlow#vpc_interface_adapter}
+  */
+  readonly vpcInterfaceAdapter?: string;
+}
+
+export function mediaconnectFlowNdiConfigNdiDiscoveryServersToTerraform(struct?: MediaconnectFlowNdiConfigNdiDiscoveryServers | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    discovery_server_address: cdktn.stringToTerraform(struct!.discoveryServerAddress),
+    discovery_server_port: cdktn.numberToTerraform(struct!.discoveryServerPort),
+    vpc_interface_adapter: cdktn.stringToTerraform(struct!.vpcInterfaceAdapter),
+  }
+}
+
+
+export function mediaconnectFlowNdiConfigNdiDiscoveryServersToHclTerraform(struct?: MediaconnectFlowNdiConfigNdiDiscoveryServers | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    discovery_server_address: {
+      value: cdktn.stringToHclTerraform(struct!.discoveryServerAddress),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    discovery_server_port: {
+      value: cdktn.numberToHclTerraform(struct!.discoveryServerPort),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    vpc_interface_adapter: {
+      value: cdktn.stringToHclTerraform(struct!.vpcInterfaceAdapter),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class MediaconnectFlowNdiConfigNdiDiscoveryServersOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): MediaconnectFlowNdiConfigNdiDiscoveryServers | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._discoveryServerAddress !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.discoveryServerAddress = this._discoveryServerAddress;
+    }
+    if (this._discoveryServerPort !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.discoveryServerPort = this._discoveryServerPort;
+    }
+    if (this._vpcInterfaceAdapter !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.vpcInterfaceAdapter = this._vpcInterfaceAdapter;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: MediaconnectFlowNdiConfigNdiDiscoveryServers | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._discoveryServerAddress = undefined;
+      this._discoveryServerPort = undefined;
+      this._vpcInterfaceAdapter = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._discoveryServerAddress = value.discoveryServerAddress;
+      this._discoveryServerPort = value.discoveryServerPort;
+      this._vpcInterfaceAdapter = value.vpcInterfaceAdapter;
+    }
+  }
+
+  // discovery_server_address - computed: true, optional: true, required: false
+  private _discoveryServerAddress?: string; 
+  public get discoveryServerAddress() {
+    return this.getStringAttribute('discovery_server_address');
+  }
+  public set discoveryServerAddress(value: string) {
+    this._discoveryServerAddress = value;
+  }
+  public resetDiscoveryServerAddress() {
+    this._discoveryServerAddress = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get discoveryServerAddressInput() {
+    return this._discoveryServerAddress;
+  }
+
+  // discovery_server_port - computed: true, optional: true, required: false
+  private _discoveryServerPort?: number; 
+  public get discoveryServerPort() {
+    return this.getNumberAttribute('discovery_server_port');
+  }
+  public set discoveryServerPort(value: number) {
+    this._discoveryServerPort = value;
+  }
+  public resetDiscoveryServerPort() {
+    this._discoveryServerPort = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get discoveryServerPortInput() {
+    return this._discoveryServerPort;
+  }
+
+  // vpc_interface_adapter - computed: true, optional: true, required: false
+  private _vpcInterfaceAdapter?: string; 
+  public get vpcInterfaceAdapter() {
+    return this.getStringAttribute('vpc_interface_adapter');
+  }
+  public set vpcInterfaceAdapter(value: string) {
+    this._vpcInterfaceAdapter = value;
+  }
+  public resetVpcInterfaceAdapter() {
+    this._vpcInterfaceAdapter = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vpcInterfaceAdapterInput() {
+    return this._vpcInterfaceAdapter;
+  }
+}
+
+export class MediaconnectFlowNdiConfigNdiDiscoveryServersList extends cdktn.ComplexList {
+  public internalValue? : MediaconnectFlowNdiConfigNdiDiscoveryServers[] | cdktn.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): MediaconnectFlowNdiConfigNdiDiscoveryServersOutputReference {
+    return new MediaconnectFlowNdiConfigNdiDiscoveryServersOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface MediaconnectFlowNdiConfig {
+  /**
+  * A prefix for the names of the NDI sources that the flow creates. If a custom name isn't specified, MediaConnect generates a unique 12-character ID as the prefix.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#machine_name MediaconnectFlow#machine_name}
+  */
+  readonly machineName?: string;
+  /**
+  * A list of up to three NDI discovery server configurations. While not required by the API, this configuration is necessary for NDI functionality to work properly.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#ndi_discovery_servers MediaconnectFlow#ndi_discovery_servers}
+  */
+  readonly ndiDiscoveryServers?: MediaconnectFlowNdiConfigNdiDiscoveryServers[] | cdktn.IResolvable;
+  /**
+  * A setting that controls whether NDI sources or outputs can be used in the flow. The default value is DISABLED. This value must be set as ENABLED for your flow to support NDI sources or outputs.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#ndi_state MediaconnectFlow#ndi_state}
+  */
+  readonly ndiState?: string;
+}
+
+export function mediaconnectFlowNdiConfigToTerraform(struct?: MediaconnectFlowNdiConfig | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    machine_name: cdktn.stringToTerraform(struct!.machineName),
+    ndi_discovery_servers: cdktn.listMapper(mediaconnectFlowNdiConfigNdiDiscoveryServersToTerraform, false)(struct!.ndiDiscoveryServers),
+    ndi_state: cdktn.stringToTerraform(struct!.ndiState),
+  }
+}
+
+
+export function mediaconnectFlowNdiConfigToHclTerraform(struct?: MediaconnectFlowNdiConfig | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    machine_name: {
+      value: cdktn.stringToHclTerraform(struct!.machineName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    ndi_discovery_servers: {
+      value: cdktn.listMapperHcl(mediaconnectFlowNdiConfigNdiDiscoveryServersToHclTerraform, false)(struct!.ndiDiscoveryServers),
+      isBlock: true,
+      type: "list",
+      storageClassType: "MediaconnectFlowNdiConfigNdiDiscoveryServersList",
+    },
+    ndi_state: {
+      value: cdktn.stringToHclTerraform(struct!.ndiState),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class MediaconnectFlowNdiConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): MediaconnectFlowNdiConfig | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._machineName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.machineName = this._machineName;
+    }
+    if (this._ndiDiscoveryServers?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ndiDiscoveryServers = this._ndiDiscoveryServers?.internalValue;
+    }
+    if (this._ndiState !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ndiState = this._ndiState;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: MediaconnectFlowNdiConfig | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._machineName = undefined;
+      this._ndiDiscoveryServers.internalValue = undefined;
+      this._ndiState = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._machineName = value.machineName;
+      this._ndiDiscoveryServers.internalValue = value.ndiDiscoveryServers;
+      this._ndiState = value.ndiState;
+    }
+  }
+
+  // machine_name - computed: true, optional: true, required: false
+  private _machineName?: string; 
+  public get machineName() {
+    return this.getStringAttribute('machine_name');
+  }
+  public set machineName(value: string) {
+    this._machineName = value;
+  }
+  public resetMachineName() {
+    this._machineName = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get machineNameInput() {
+    return this._machineName;
+  }
+
+  // ndi_discovery_servers - computed: true, optional: true, required: false
+  private _ndiDiscoveryServers = new MediaconnectFlowNdiConfigNdiDiscoveryServersList(this, "ndi_discovery_servers", false);
+  public get ndiDiscoveryServers() {
+    return this._ndiDiscoveryServers;
+  }
+  public putNdiDiscoveryServers(value: MediaconnectFlowNdiConfigNdiDiscoveryServers[] | cdktn.IResolvable) {
+    this._ndiDiscoveryServers.internalValue = value;
+  }
+  public resetNdiDiscoveryServers() {
+    this._ndiDiscoveryServers.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ndiDiscoveryServersInput() {
+    return this._ndiDiscoveryServers.internalValue;
+  }
+
+  // ndi_state - computed: true, optional: true, required: false
+  private _ndiState?: string; 
+  public get ndiState() {
+    return this.getStringAttribute('ndi_state');
+  }
+  public set ndiState(value: string) {
+    this._ndiState = value;
+  }
+  public resetNdiState() {
+    this._ndiState = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ndiStateInput() {
+    return this._ndiState;
+  }
+}
 export interface MediaconnectFlowSourceDecryption {
   /**
   * The type of algorithm that is used for the encryption (such as aes128, aes192, or aes256).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#algorithm MediaconnectFlow#algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#algorithm MediaconnectFlow#algorithm}
   */
   readonly algorithm?: string;
   /**
   * A 128-bit, 16-byte hex value represented by a 32-character string, to be used with the key for encrypting content. This parameter is not valid for static key encryption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#constant_initialization_vector MediaconnectFlow#constant_initialization_vector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#constant_initialization_vector MediaconnectFlow#constant_initialization_vector}
   */
   readonly constantInitializationVector?: string;
   /**
   * The value of one of the devices that you configured with your digital rights management (DRM) platform key provider. This parameter is required for SPEKE encryption and is not valid for static key encryption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#device_id MediaconnectFlow#device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#device_id MediaconnectFlow#device_id}
   */
   readonly deviceId?: string;
   /**
   * The type of key that is used for the encryption. If no keyType is provided, the service will use the default setting (static-key).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#key_type MediaconnectFlow#key_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#key_type MediaconnectFlow#key_type}
   */
   readonly keyType?: string;
   /**
   * The AWS Region that the API Gateway proxy endpoint was created in. This parameter is required for SPEKE encryption and is not valid for static key encryption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#region MediaconnectFlow#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#region MediaconnectFlow#region}
   */
   readonly region?: string;
   /**
   * An identifier for the content. The service sends this value to the key server to identify the current endpoint. The resource ID is also known as the content ID. This parameter is required for SPEKE encryption and is not valid for static key encryption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#resource_id MediaconnectFlow#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#resource_id MediaconnectFlow#resource_id}
   */
   readonly resourceId?: string;
   /**
   * The ARN of the role that you created during setup (when you set up AWS Elemental MediaConnect as a trusted entity).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#role_arn MediaconnectFlow#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#role_arn MediaconnectFlow#role_arn}
   */
   readonly roleArn?: string;
   /**
   *  The ARN of the secret that you created in AWS Secrets Manager to store the encryption key. This parameter is required for static key encryption and is not valid for SPEKE encryption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#secret_arn MediaconnectFlow#secret_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#secret_arn MediaconnectFlow#secret_arn}
   */
   readonly secretArn?: string;
   /**
   * The URL from the API Gateway proxy that you set up to talk to your key server. This parameter is required for SPEKE encryption and is not valid for static key encryption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#url MediaconnectFlow#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#url MediaconnectFlow#url}
   */
   readonly url?: string;
 }
@@ -1372,7 +2065,7 @@ export interface MediaconnectFlowSourceGatewayBridgeSourceVpcInterfaceAttachment
   /**
   * The name of the VPC interface to use for this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#vpc_interface_name MediaconnectFlow#vpc_interface_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#vpc_interface_name MediaconnectFlow#vpc_interface_name}
   */
   readonly vpcInterfaceName?: string;
 }
@@ -1468,13 +2161,13 @@ export interface MediaconnectFlowSourceGatewayBridgeSource {
   /**
   * The ARN of the bridge feeding this flow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#bridge_arn MediaconnectFlow#bridge_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#bridge_arn MediaconnectFlow#bridge_arn}
   */
   readonly bridgeArn?: string;
   /**
   * The name of the VPC interface attachment to use for this bridge source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#vpc_interface_attachment MediaconnectFlow#vpc_interface_attachment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#vpc_interface_attachment MediaconnectFlow#vpc_interface_attachment}
   */
   readonly vpcInterfaceAttachment?: MediaconnectFlowSourceGatewayBridgeSourceVpcInterfaceAttachment;
 }
@@ -1599,7 +2292,7 @@ export interface MediaconnectFlowSourceMediaStreamSourceConfigurationsInputConfi
   /**
   * The name of the VPC interface that you want to use for the media stream associated with the output.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#name MediaconnectFlow#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#name MediaconnectFlow#name}
   */
   readonly name?: string;
 }
@@ -1695,13 +2388,13 @@ export interface MediaconnectFlowSourceMediaStreamSourceConfigurationsInputConfi
   /**
   * The port that the flow listens on for an incoming media stream.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#input_port MediaconnectFlow#input_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#input_port MediaconnectFlow#input_port}
   */
   readonly inputPort?: number;
   /**
   * The VPC interface where the media stream comes in from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#interface MediaconnectFlow#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#interface MediaconnectFlow#interface}
   */
   readonly interface?: MediaconnectFlowSourceMediaStreamSourceConfigurationsInputConfigurationsInterface;
 }
@@ -1848,19 +2541,19 @@ export interface MediaconnectFlowSourceMediaStreamSourceConfigurations {
   /**
   * The format that was used to encode the data. For ancillary data streams, set the encoding name to smpte291. For audio streams, set the encoding name to pcm. For video, 2110 streams, set the encoding name to raw. For video, JPEG XS streams, set the encoding name to jxsv.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#encoding_name MediaconnectFlow#encoding_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#encoding_name MediaconnectFlow#encoding_name}
   */
   readonly encodingName?: string;
   /**
   * The media streams that you want to associate with the source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#input_configurations MediaconnectFlow#input_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#input_configurations MediaconnectFlow#input_configurations}
   */
   readonly inputConfigurations?: MediaconnectFlowSourceMediaStreamSourceConfigurationsInputConfigurations[] | cdktn.IResolvable;
   /**
   * A name that helps you distinguish one media stream from another.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#media_stream_name MediaconnectFlow#media_stream_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#media_stream_name MediaconnectFlow#media_stream_name}
   */
   readonly mediaStreamName?: string;
 }
@@ -2032,119 +2725,775 @@ export class MediaconnectFlowSourceMediaStreamSourceConfigurationsList extends c
     return new MediaconnectFlowSourceMediaStreamSourceConfigurationsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface MediaconnectFlowSourceNdiSourceSettings {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#source_name MediaconnectFlow#source_name}
+  */
+  readonly sourceName?: string;
+}
+
+export function mediaconnectFlowSourceNdiSourceSettingsToTerraform(struct?: MediaconnectFlowSourceNdiSourceSettings | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    source_name: cdktn.stringToTerraform(struct!.sourceName),
+  }
+}
+
+
+export function mediaconnectFlowSourceNdiSourceSettingsToHclTerraform(struct?: MediaconnectFlowSourceNdiSourceSettings | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    source_name: {
+      value: cdktn.stringToHclTerraform(struct!.sourceName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class MediaconnectFlowSourceNdiSourceSettingsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): MediaconnectFlowSourceNdiSourceSettings | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._sourceName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sourceName = this._sourceName;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: MediaconnectFlowSourceNdiSourceSettings | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._sourceName = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._sourceName = value.sourceName;
+    }
+  }
+
+  // source_name - computed: true, optional: true, required: false
+  private _sourceName?: string; 
+  public get sourceName() {
+    return this.getStringAttribute('source_name');
+  }
+  public set sourceName(value: string) {
+    this._sourceName = value;
+  }
+  public resetSourceName() {
+    this._sourceName = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sourceNameInput() {
+    return this._sourceName;
+  }
+}
+export interface MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManager {
+  /**
+  * The ARN of the IAM role used for transit encryption from the router output using AWS Secrets Manager.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#role_arn MediaconnectFlow#role_arn}
+  */
+  readonly roleArn?: string;
+  /**
+  * The ARN of the AWS Secrets Manager secret used for transit encryption from the router output.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#secret_arn MediaconnectFlow#secret_arn}
+  */
+  readonly secretArn?: string;
+}
+
+export function mediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManagerToTerraform(struct?: MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManager | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    role_arn: cdktn.stringToTerraform(struct!.roleArn),
+    secret_arn: cdktn.stringToTerraform(struct!.secretArn),
+  }
+}
+
+
+export function mediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManagerToHclTerraform(struct?: MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManager | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    role_arn: {
+      value: cdktn.stringToHclTerraform(struct!.roleArn),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    secret_arn: {
+      value: cdktn.stringToHclTerraform(struct!.secretArn),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManagerOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManager | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._roleArn !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.roleArn = this._roleArn;
+    }
+    if (this._secretArn !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.secretArn = this._secretArn;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManager | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._roleArn = undefined;
+      this._secretArn = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._roleArn = value.roleArn;
+      this._secretArn = value.secretArn;
+    }
+  }
+
+  // role_arn - computed: true, optional: true, required: false
+  private _roleArn?: string; 
+  public get roleArn() {
+    return this.getStringAttribute('role_arn');
+  }
+  public set roleArn(value: string) {
+    this._roleArn = value;
+  }
+  public resetRoleArn() {
+    this._roleArn = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get roleArnInput() {
+    return this._roleArn;
+  }
+
+  // secret_arn - computed: true, optional: true, required: false
+  private _secretArn?: string; 
+  public get secretArn() {
+    return this.getStringAttribute('secret_arn');
+  }
+  public set secretArn(value: string) {
+    this._secretArn = value;
+  }
+  public resetSecretArn() {
+    this._secretArn = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secretArnInput() {
+    return this._secretArn;
+  }
+}
+export interface MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfiguration {
+  /**
+  * Configuration settings for automatic encryption key management, where MediaConnect handles key creation and rotation.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#automatic MediaconnectFlow#automatic}
+  */
+  readonly automatic?: string;
+  /**
+  * The configuration settings for transit encryption of a flow source using AWS Secrets Manager, including the secret ARN and role ARN.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#secrets_manager MediaconnectFlow#secrets_manager}
+  */
+  readonly secretsManager?: MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManager;
+}
+
+export function mediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationToTerraform(struct?: MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfiguration | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    automatic: cdktn.stringToTerraform(struct!.automatic),
+    secrets_manager: mediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManagerToTerraform(struct!.secretsManager),
+  }
+}
+
+
+export function mediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationToHclTerraform(struct?: MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfiguration | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    automatic: {
+      value: cdktn.stringToHclTerraform(struct!.automatic),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    secrets_manager: {
+      value: mediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManagerToHclTerraform(struct!.secretsManager),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManager",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfiguration | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._automatic !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.automatic = this._automatic;
+    }
+    if (this._secretsManager?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.secretsManager = this._secretsManager?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfiguration | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._automatic = undefined;
+      this._secretsManager.internalValue = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._automatic = value.automatic;
+      this._secretsManager.internalValue = value.secretsManager;
+    }
+  }
+
+  // automatic - computed: true, optional: true, required: false
+  private _automatic?: string; 
+  public get automatic() {
+    return this.getStringAttribute('automatic');
+  }
+  public set automatic(value: string) {
+    this._automatic = value;
+  }
+  public resetAutomatic() {
+    this._automatic = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get automaticInput() {
+    return this._automatic;
+  }
+
+  // secrets_manager - computed: true, optional: true, required: false
+  private _secretsManager = new MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManagerOutputReference(this, "secrets_manager");
+  public get secretsManager() {
+    return this._secretsManager;
+  }
+  public putSecretsManager(value: MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationSecretsManager) {
+    this._secretsManager.internalValue = value;
+  }
+  public resetSecretsManager() {
+    this._secretsManager.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secretsManagerInput() {
+    return this._secretsManager.internalValue;
+  }
+}
+export interface MediaconnectFlowSourceRouterIntegrationTransitDecryption {
+  /**
+  * Configuration settings for flow transit encryption keys.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#encryption_key_configuration MediaconnectFlow#encryption_key_configuration}
+  */
+  readonly encryptionKeyConfiguration?: MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfiguration;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#encryption_key_type MediaconnectFlow#encryption_key_type}
+  */
+  readonly encryptionKeyType?: string;
+}
+
+export function mediaconnectFlowSourceRouterIntegrationTransitDecryptionToTerraform(struct?: MediaconnectFlowSourceRouterIntegrationTransitDecryption | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    encryption_key_configuration: mediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationToTerraform(struct!.encryptionKeyConfiguration),
+    encryption_key_type: cdktn.stringToTerraform(struct!.encryptionKeyType),
+  }
+}
+
+
+export function mediaconnectFlowSourceRouterIntegrationTransitDecryptionToHclTerraform(struct?: MediaconnectFlowSourceRouterIntegrationTransitDecryption | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    encryption_key_configuration: {
+      value: mediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationToHclTerraform(struct!.encryptionKeyConfiguration),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfiguration",
+    },
+    encryption_key_type: {
+      value: cdktn.stringToHclTerraform(struct!.encryptionKeyType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class MediaconnectFlowSourceRouterIntegrationTransitDecryptionOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): MediaconnectFlowSourceRouterIntegrationTransitDecryption | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._encryptionKeyConfiguration?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.encryptionKeyConfiguration = this._encryptionKeyConfiguration?.internalValue;
+    }
+    if (this._encryptionKeyType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.encryptionKeyType = this._encryptionKeyType;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: MediaconnectFlowSourceRouterIntegrationTransitDecryption | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._encryptionKeyConfiguration.internalValue = undefined;
+      this._encryptionKeyType = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._encryptionKeyConfiguration.internalValue = value.encryptionKeyConfiguration;
+      this._encryptionKeyType = value.encryptionKeyType;
+    }
+  }
+
+  // encryption_key_configuration - computed: true, optional: true, required: false
+  private _encryptionKeyConfiguration = new MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfigurationOutputReference(this, "encryption_key_configuration");
+  public get encryptionKeyConfiguration() {
+    return this._encryptionKeyConfiguration;
+  }
+  public putEncryptionKeyConfiguration(value: MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfiguration) {
+    this._encryptionKeyConfiguration.internalValue = value;
+  }
+  public resetEncryptionKeyConfiguration() {
+    this._encryptionKeyConfiguration.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get encryptionKeyConfigurationInput() {
+    return this._encryptionKeyConfiguration.internalValue;
+  }
+
+  // encryption_key_type - computed: true, optional: true, required: false
+  private _encryptionKeyType?: string; 
+  public get encryptionKeyType() {
+    return this.getStringAttribute('encryption_key_type');
+  }
+  public set encryptionKeyType(value: string) {
+    this._encryptionKeyType = value;
+  }
+  public resetEncryptionKeyType() {
+    this._encryptionKeyType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get encryptionKeyTypeInput() {
+    return this._encryptionKeyType;
+  }
+}
+export interface MediaconnectFlowSourceTags {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#key MediaconnectFlow#key}
+  */
+  readonly key?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#value MediaconnectFlow#value}
+  */
+  readonly value?: string;
+}
+
+export function mediaconnectFlowSourceTagsToTerraform(struct?: MediaconnectFlowSourceTags | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    key: cdktn.stringToTerraform(struct!.key),
+    value: cdktn.stringToTerraform(struct!.value),
+  }
+}
+
+
+export function mediaconnectFlowSourceTagsToHclTerraform(struct?: MediaconnectFlowSourceTags | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    key: {
+      value: cdktn.stringToHclTerraform(struct!.key),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    value: {
+      value: cdktn.stringToHclTerraform(struct!.value),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class MediaconnectFlowSourceTagsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): MediaconnectFlowSourceTags | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._key !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.key = this._key;
+    }
+    if (this._value !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.value = this._value;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: MediaconnectFlowSourceTags | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._key = undefined;
+      this._value = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._key = value.key;
+      this._value = value.value;
+    }
+  }
+
+  // key - computed: true, optional: true, required: false
+  private _key?: string; 
+  public get key() {
+    return this.getStringAttribute('key');
+  }
+  public set key(value: string) {
+    this._key = value;
+  }
+  public resetKey() {
+    this._key = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get keyInput() {
+    return this._key;
+  }
+
+  // value - computed: true, optional: true, required: false
+  private _value?: string; 
+  public get value() {
+    return this.getStringAttribute('value');
+  }
+  public set value(value: string) {
+    this._value = value;
+  }
+  public resetValue() {
+    this._value = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get valueInput() {
+    return this._value;
+  }
+}
+
+export class MediaconnectFlowSourceTagsList extends cdktn.ComplexList {
+  public internalValue? : MediaconnectFlowSourceTags[] | cdktn.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): MediaconnectFlowSourceTagsOutputReference {
+    return new MediaconnectFlowSourceTagsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface MediaconnectFlowSource {
   /**
   * The type of decryption that is used on the content ingested from this source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#decryption MediaconnectFlow#decryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#decryption MediaconnectFlow#decryption}
   */
   readonly decryption?: MediaconnectFlowSourceDecryption;
   /**
   * A description for the source. This value is not used or seen outside of the current AWS Elemental MediaConnect account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#description MediaconnectFlow#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#description MediaconnectFlow#description}
   */
   readonly description?: string;
   /**
   * The ARN of the entitlement that allows you to subscribe to content that comes from another AWS account. The entitlement is set by the content originator and the ARN is generated as part of the originator's flow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#entitlement_arn MediaconnectFlow#entitlement_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#entitlement_arn MediaconnectFlow#entitlement_arn}
   */
   readonly entitlementArn?: string;
   /**
   * The source configuration for cloud flows receiving a stream from a bridge.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#gateway_bridge_source MediaconnectFlow#gateway_bridge_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#gateway_bridge_source MediaconnectFlow#gateway_bridge_source}
   */
   readonly gatewayBridgeSource?: MediaconnectFlowSourceGatewayBridgeSource;
   /**
   * The port that the flow will be listening on for incoming content.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#ingest_port MediaconnectFlow#ingest_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#ingest_port MediaconnectFlow#ingest_port}
   */
   readonly ingestPort?: number;
   /**
   * The smoothing max bitrate for RIST, RTP, and RTP-FEC streams.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#max_bitrate MediaconnectFlow#max_bitrate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#max_bitrate MediaconnectFlow#max_bitrate}
   */
   readonly maxBitrate?: number;
   /**
   * The maximum latency in milliseconds. This parameter applies only to RIST-based and Zixi-based streams.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#max_latency MediaconnectFlow#max_latency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#max_latency MediaconnectFlow#max_latency}
   */
   readonly maxLatency?: number;
   /**
   * The size of the buffer (in milliseconds) to use to sync incoming source data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#max_sync_buffer MediaconnectFlow#max_sync_buffer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#max_sync_buffer MediaconnectFlow#max_sync_buffer}
   */
   readonly maxSyncBuffer?: number;
   /**
   * The media stream that is associated with the source, and the parameters for that association.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#media_stream_source_configurations MediaconnectFlow#media_stream_source_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#media_stream_source_configurations MediaconnectFlow#media_stream_source_configurations}
   */
   readonly mediaStreamSourceConfigurations?: MediaconnectFlowSourceMediaStreamSourceConfigurations[] | cdktn.IResolvable;
   /**
   * The minimum latency in milliseconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#min_latency MediaconnectFlow#min_latency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#min_latency MediaconnectFlow#min_latency}
   */
   readonly minLatency?: number;
   /**
   * The name of the source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#name MediaconnectFlow#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#name MediaconnectFlow#name}
   */
   readonly name?: string;
   /**
+  * The settings for the NDI flow source. This includes the exact name of the upstream NDI sender that you want to connect to your flow source.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#ndi_source_settings MediaconnectFlow#ndi_source_settings}
+  */
+  readonly ndiSourceSettings?: MediaconnectFlowSourceNdiSourceSettings;
+  /**
   * The protocol that is used by the source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#protocol MediaconnectFlow#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#protocol MediaconnectFlow#protocol}
   */
   readonly protocol?: string;
   /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#router_integration_state MediaconnectFlow#router_integration_state}
+  */
+  readonly routerIntegrationState?: string;
+  /**
+  * The configuration that defines how content is encrypted during transit between the MediaConnect router and a MediaConnect flow.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#router_integration_transit_decryption MediaconnectFlow#router_integration_transit_decryption}
+  */
+  readonly routerIntegrationTransitDecryption?: MediaconnectFlowSourceRouterIntegrationTransitDecryption;
+  /**
   * The port that the flow uses to send outbound requests to initiate connection with the sender for fujitsu-qos protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#sender_control_port MediaconnectFlow#sender_control_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#sender_control_port MediaconnectFlow#sender_control_port}
   */
   readonly senderControlPort?: number;
   /**
   * The IP address that the flow communicates with to initiate connection with the sender for fujitsu-qos protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#sender_ip_address MediaconnectFlow#sender_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#sender_ip_address MediaconnectFlow#sender_ip_address}
   */
   readonly senderIpAddress?: string;
   /**
   * Source IP or domain name for SRT-caller protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#source_listener_address MediaconnectFlow#source_listener_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#source_listener_address MediaconnectFlow#source_listener_address}
   */
   readonly sourceListenerAddress?: string;
   /**
   * Source port for SRT-caller protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#source_listener_port MediaconnectFlow#source_listener_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#source_listener_port MediaconnectFlow#source_listener_port}
   */
   readonly sourceListenerPort?: number;
   /**
   * The stream ID that you want to use for this transport. This parameter applies only to Zixi-based streams.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#stream_id MediaconnectFlow#stream_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#stream_id MediaconnectFlow#stream_id}
   */
   readonly streamId?: string;
   /**
+  * Key-value pairs that can be used to tag this source.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#tags MediaconnectFlow#tags}
+  */
+  readonly tags?: MediaconnectFlowSourceTags[] | cdktn.IResolvable;
+  /**
   * The name of the VPC Interface this Source is configured with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#vpc_interface_name MediaconnectFlow#vpc_interface_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#vpc_interface_name MediaconnectFlow#vpc_interface_name}
   */
   readonly vpcInterfaceName?: string;
   /**
   * The range of IP addresses that should be allowed to contribute content to your source. These IP addresses should be in the form of a Classless Inter-Domain Routing (CIDR) block; for example, 10.0.0.0/16.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#whitelist_cidr MediaconnectFlow#whitelist_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#whitelist_cidr MediaconnectFlow#whitelist_cidr}
   */
   readonly whitelistCidr?: string;
 }
@@ -2166,12 +3515,16 @@ export function mediaconnectFlowSourceToTerraform(struct?: MediaconnectFlowSourc
     media_stream_source_configurations: cdktn.listMapper(mediaconnectFlowSourceMediaStreamSourceConfigurationsToTerraform, false)(struct!.mediaStreamSourceConfigurations),
     min_latency: cdktn.numberToTerraform(struct!.minLatency),
     name: cdktn.stringToTerraform(struct!.name),
+    ndi_source_settings: mediaconnectFlowSourceNdiSourceSettingsToTerraform(struct!.ndiSourceSettings),
     protocol: cdktn.stringToTerraform(struct!.protocol),
+    router_integration_state: cdktn.stringToTerraform(struct!.routerIntegrationState),
+    router_integration_transit_decryption: mediaconnectFlowSourceRouterIntegrationTransitDecryptionToTerraform(struct!.routerIntegrationTransitDecryption),
     sender_control_port: cdktn.numberToTerraform(struct!.senderControlPort),
     sender_ip_address: cdktn.stringToTerraform(struct!.senderIpAddress),
     source_listener_address: cdktn.stringToTerraform(struct!.sourceListenerAddress),
     source_listener_port: cdktn.numberToTerraform(struct!.sourceListenerPort),
     stream_id: cdktn.stringToTerraform(struct!.streamId),
+    tags: cdktn.listMapper(mediaconnectFlowSourceTagsToTerraform, false)(struct!.tags),
     vpc_interface_name: cdktn.stringToTerraform(struct!.vpcInterfaceName),
     whitelist_cidr: cdktn.stringToTerraform(struct!.whitelistCidr),
   }
@@ -2250,11 +3603,29 @@ export function mediaconnectFlowSourceToHclTerraform(struct?: MediaconnectFlowSo
       type: "simple",
       storageClassType: "string",
     },
+    ndi_source_settings: {
+      value: mediaconnectFlowSourceNdiSourceSettingsToHclTerraform(struct!.ndiSourceSettings),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "MediaconnectFlowSourceNdiSourceSettings",
+    },
     protocol: {
       value: cdktn.stringToHclTerraform(struct!.protocol),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
+    },
+    router_integration_state: {
+      value: cdktn.stringToHclTerraform(struct!.routerIntegrationState),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    router_integration_transit_decryption: {
+      value: mediaconnectFlowSourceRouterIntegrationTransitDecryptionToHclTerraform(struct!.routerIntegrationTransitDecryption),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "MediaconnectFlowSourceRouterIntegrationTransitDecryption",
     },
     sender_control_port: {
       value: cdktn.numberToHclTerraform(struct!.senderControlPort),
@@ -2285,6 +3656,12 @@ export function mediaconnectFlowSourceToHclTerraform(struct?: MediaconnectFlowSo
       isBlock: false,
       type: "simple",
       storageClassType: "string",
+    },
+    tags: {
+      value: cdktn.listMapperHcl(mediaconnectFlowSourceTagsToHclTerraform, false)(struct!.tags),
+      isBlock: true,
+      type: "list",
+      storageClassType: "MediaconnectFlowSourceTagsList",
     },
     vpc_interface_name: {
       value: cdktn.stringToHclTerraform(struct!.vpcInterfaceName),
@@ -2366,9 +3743,21 @@ export class MediaconnectFlowSourceOutputReference extends cdktn.ComplexObject {
       hasAnyValues = true;
       internalValueResult.name = this._name;
     }
+    if (this._ndiSourceSettings?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ndiSourceSettings = this._ndiSourceSettings?.internalValue;
+    }
     if (this._protocol !== undefined) {
       hasAnyValues = true;
       internalValueResult.protocol = this._protocol;
+    }
+    if (this._routerIntegrationState !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.routerIntegrationState = this._routerIntegrationState;
+    }
+    if (this._routerIntegrationTransitDecryption?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.routerIntegrationTransitDecryption = this._routerIntegrationTransitDecryption?.internalValue;
     }
     if (this._senderControlPort !== undefined) {
       hasAnyValues = true;
@@ -2389,6 +3778,10 @@ export class MediaconnectFlowSourceOutputReference extends cdktn.ComplexObject {
     if (this._streamId !== undefined) {
       hasAnyValues = true;
       internalValueResult.streamId = this._streamId;
+    }
+    if (this._tags?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tags = this._tags?.internalValue;
     }
     if (this._vpcInterfaceName !== undefined) {
       hasAnyValues = true;
@@ -2416,12 +3809,16 @@ export class MediaconnectFlowSourceOutputReference extends cdktn.ComplexObject {
       this._mediaStreamSourceConfigurations.internalValue = undefined;
       this._minLatency = undefined;
       this._name = undefined;
+      this._ndiSourceSettings.internalValue = undefined;
       this._protocol = undefined;
+      this._routerIntegrationState = undefined;
+      this._routerIntegrationTransitDecryption.internalValue = undefined;
       this._senderControlPort = undefined;
       this._senderIpAddress = undefined;
       this._sourceListenerAddress = undefined;
       this._sourceListenerPort = undefined;
       this._streamId = undefined;
+      this._tags.internalValue = undefined;
       this._vpcInterfaceName = undefined;
       this._whitelistCidr = undefined;
     }
@@ -2443,12 +3840,16 @@ export class MediaconnectFlowSourceOutputReference extends cdktn.ComplexObject {
       this._mediaStreamSourceConfigurations.internalValue = value.mediaStreamSourceConfigurations;
       this._minLatency = value.minLatency;
       this._name = value.name;
+      this._ndiSourceSettings.internalValue = value.ndiSourceSettings;
       this._protocol = value.protocol;
+      this._routerIntegrationState = value.routerIntegrationState;
+      this._routerIntegrationTransitDecryption.internalValue = value.routerIntegrationTransitDecryption;
       this._senderControlPort = value.senderControlPort;
       this._senderIpAddress = value.senderIpAddress;
       this._sourceListenerAddress = value.sourceListenerAddress;
       this._sourceListenerPort = value.sourceListenerPort;
       this._streamId = value.streamId;
+      this._tags.internalValue = value.tags;
       this._vpcInterfaceName = value.vpcInterfaceName;
       this._whitelistCidr = value.whitelistCidr;
     }
@@ -2635,6 +4036,22 @@ export class MediaconnectFlowSourceOutputReference extends cdktn.ComplexObject {
     return this._name;
   }
 
+  // ndi_source_settings - computed: true, optional: true, required: false
+  private _ndiSourceSettings = new MediaconnectFlowSourceNdiSourceSettingsOutputReference(this, "ndi_source_settings");
+  public get ndiSourceSettings() {
+    return this._ndiSourceSettings;
+  }
+  public putNdiSourceSettings(value: MediaconnectFlowSourceNdiSourceSettings) {
+    this._ndiSourceSettings.internalValue = value;
+  }
+  public resetNdiSourceSettings() {
+    this._ndiSourceSettings.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ndiSourceSettingsInput() {
+    return this._ndiSourceSettings.internalValue;
+  }
+
   // protocol - computed: true, optional: true, required: false
   private _protocol?: string; 
   public get protocol() {
@@ -2649,6 +4066,38 @@ export class MediaconnectFlowSourceOutputReference extends cdktn.ComplexObject {
   // Temporarily expose input value. Use with caution.
   public get protocolInput() {
     return this._protocol;
+  }
+
+  // router_integration_state - computed: true, optional: true, required: false
+  private _routerIntegrationState?: string; 
+  public get routerIntegrationState() {
+    return this.getStringAttribute('router_integration_state');
+  }
+  public set routerIntegrationState(value: string) {
+    this._routerIntegrationState = value;
+  }
+  public resetRouterIntegrationState() {
+    this._routerIntegrationState = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get routerIntegrationStateInput() {
+    return this._routerIntegrationState;
+  }
+
+  // router_integration_transit_decryption - computed: true, optional: true, required: false
+  private _routerIntegrationTransitDecryption = new MediaconnectFlowSourceRouterIntegrationTransitDecryptionOutputReference(this, "router_integration_transit_decryption");
+  public get routerIntegrationTransitDecryption() {
+    return this._routerIntegrationTransitDecryption;
+  }
+  public putRouterIntegrationTransitDecryption(value: MediaconnectFlowSourceRouterIntegrationTransitDecryption) {
+    this._routerIntegrationTransitDecryption.internalValue = value;
+  }
+  public resetRouterIntegrationTransitDecryption() {
+    this._routerIntegrationTransitDecryption.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get routerIntegrationTransitDecryptionInput() {
+    return this._routerIntegrationTransitDecryption.internalValue;
   }
 
   // sender_control_port - computed: true, optional: true, required: false
@@ -2741,6 +4190,22 @@ export class MediaconnectFlowSourceOutputReference extends cdktn.ComplexObject {
     return this._streamId;
   }
 
+  // tags - computed: true, optional: true, required: false
+  private _tags = new MediaconnectFlowSourceTagsList(this, "tags", false);
+  public get tags() {
+    return this._tags;
+  }
+  public putTags(value: MediaconnectFlowSourceTags[] | cdktn.IResolvable) {
+    this._tags.internalValue = value;
+  }
+  public resetTags() {
+    this._tags.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tagsInput() {
+    return this._tags.internalValue;
+  }
+
   // vpc_interface_name - computed: true, optional: true, required: false
   private _vpcInterfaceName?: string; 
   public get vpcInterfaceName() {
@@ -2777,7 +4242,7 @@ export interface MediaconnectFlowSourceFailoverConfigSourcePriority {
   /**
   * The name of the source you choose as the primary source for this flow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#primary_source MediaconnectFlow#primary_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#primary_source MediaconnectFlow#primary_source}
   */
   readonly primarySource?: string;
 }
@@ -2873,23 +4338,23 @@ export interface MediaconnectFlowSourceFailoverConfig {
   /**
   * The type of failover you choose for this flow. MERGE combines the source streams into a single stream, allowing graceful recovery from any single-source loss. FAILOVER allows switching between different streams.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#failover_mode MediaconnectFlow#failover_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#failover_mode MediaconnectFlow#failover_mode}
   */
   readonly failoverMode?: string;
   /**
   * Search window time to look for dash-7 packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#recovery_window MediaconnectFlow#recovery_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#recovery_window MediaconnectFlow#recovery_window}
   */
   readonly recoveryWindow?: number;
   /**
   * The priority you want to assign to a source. You can have a primary stream and a backup stream or two equally prioritized streams.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#source_priority MediaconnectFlow#source_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#source_priority MediaconnectFlow#source_priority}
   */
   readonly sourcePriority?: MediaconnectFlowSourceFailoverConfigSourcePriority;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#state MediaconnectFlow#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#state MediaconnectFlow#state}
   */
   readonly state?: string;
 }
@@ -3072,13 +4537,13 @@ export interface MediaconnectFlowSourceMonitoringConfigAudioMonitoringSettingsSi
   /**
   * Indicates whether the SilentAudio metric is enabled or disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#state MediaconnectFlow#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#state MediaconnectFlow#state}
   */
   readonly state?: string;
   /**
   * Specifies the number of consecutive seconds of silence that triggers an event or alert.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#threshold_seconds MediaconnectFlow#threshold_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#threshold_seconds MediaconnectFlow#threshold_seconds}
   */
   readonly thresholdSeconds?: number;
 }
@@ -3203,7 +4668,7 @@ export interface MediaconnectFlowSourceMonitoringConfigAudioMonitoringSettings {
   /**
   * Configures settings for the SilentAudio metric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#silent_audio MediaconnectFlow#silent_audio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#silent_audio MediaconnectFlow#silent_audio}
   */
   readonly silentAudio?: MediaconnectFlowSourceMonitoringConfigAudioMonitoringSettingsSilentAudio;
 }
@@ -3321,13 +4786,13 @@ export interface MediaconnectFlowSourceMonitoringConfigVideoMonitoringSettingsBl
   /**
   * Indicates whether the BlackFrames metric is enabled or disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#state MediaconnectFlow#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#state MediaconnectFlow#state}
   */
   readonly state?: string;
   /**
   * Specifies the number of consecutive seconds of black frames that triggers an event or alert.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#threshold_seconds MediaconnectFlow#threshold_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#threshold_seconds MediaconnectFlow#threshold_seconds}
   */
   readonly thresholdSeconds?: number;
 }
@@ -3452,13 +4917,13 @@ export interface MediaconnectFlowSourceMonitoringConfigVideoMonitoringSettingsFr
   /**
   * Indicates whether the FrozenFrames metric is enabled or disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#state MediaconnectFlow#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#state MediaconnectFlow#state}
   */
   readonly state?: string;
   /**
   * Specifies the number of consecutive seconds of a static image that triggers an event or alert.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#threshold_seconds MediaconnectFlow#threshold_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#threshold_seconds MediaconnectFlow#threshold_seconds}
   */
   readonly thresholdSeconds?: number;
 }
@@ -3583,13 +5048,13 @@ export interface MediaconnectFlowSourceMonitoringConfigVideoMonitoringSettings {
   /**
   * Configures settings for the BlackFrames metric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#black_frames MediaconnectFlow#black_frames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#black_frames MediaconnectFlow#black_frames}
   */
   readonly blackFrames?: MediaconnectFlowSourceMonitoringConfigVideoMonitoringSettingsBlackFrames;
   /**
   * Configures settings for the FrozenFrames metric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#frozen_frames MediaconnectFlow#frozen_frames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#frozen_frames MediaconnectFlow#frozen_frames}
   */
   readonly frozenFrames?: MediaconnectFlowSourceMonitoringConfigVideoMonitoringSettingsFrozenFrames;
 }
@@ -3736,25 +5201,25 @@ export interface MediaconnectFlowSourceMonitoringConfig {
   /**
   * Contains the settings for audio stream metrics monitoring.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#audio_monitoring_settings MediaconnectFlow#audio_monitoring_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#audio_monitoring_settings MediaconnectFlow#audio_monitoring_settings}
   */
   readonly audioMonitoringSettings?: MediaconnectFlowSourceMonitoringConfigAudioMonitoringSettings[] | cdktn.IResolvable;
   /**
   * Indicates whether content quality analysis is enabled or disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#content_quality_analysis_state MediaconnectFlow#content_quality_analysis_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#content_quality_analysis_state MediaconnectFlow#content_quality_analysis_state}
   */
   readonly contentQualityAnalysisState?: string;
   /**
   * The state of thumbnail monitoring.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#thumbnail_state MediaconnectFlow#thumbnail_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#thumbnail_state MediaconnectFlow#thumbnail_state}
   */
   readonly thumbnailState?: string;
   /**
   * Contains the settings for video stream metrics monitoring.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#video_monitoring_settings MediaconnectFlow#video_monitoring_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#video_monitoring_settings MediaconnectFlow#video_monitoring_settings}
   */
   readonly videoMonitoringSettings?: MediaconnectFlowSourceMonitoringConfigVideoMonitoringSettings[] | cdktn.IResolvable;
 }
@@ -3933,43 +5398,347 @@ export class MediaconnectFlowSourceMonitoringConfigOutputReference extends cdktn
     return this._videoMonitoringSettings.internalValue;
   }
 }
+export interface MediaconnectFlowTags {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#key MediaconnectFlow#key}
+  */
+  readonly key?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#value MediaconnectFlow#value}
+  */
+  readonly value?: string;
+}
+
+export function mediaconnectFlowTagsToTerraform(struct?: MediaconnectFlowTags | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    key: cdktn.stringToTerraform(struct!.key),
+    value: cdktn.stringToTerraform(struct!.value),
+  }
+}
+
+
+export function mediaconnectFlowTagsToHclTerraform(struct?: MediaconnectFlowTags | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    key: {
+      value: cdktn.stringToHclTerraform(struct!.key),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    value: {
+      value: cdktn.stringToHclTerraform(struct!.value),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class MediaconnectFlowTagsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): MediaconnectFlowTags | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._key !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.key = this._key;
+    }
+    if (this._value !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.value = this._value;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: MediaconnectFlowTags | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._key = undefined;
+      this._value = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._key = value.key;
+      this._value = value.value;
+    }
+  }
+
+  // key - computed: true, optional: true, required: false
+  private _key?: string; 
+  public get key() {
+    return this.getStringAttribute('key');
+  }
+  public set key(value: string) {
+    this._key = value;
+  }
+  public resetKey() {
+    this._key = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get keyInput() {
+    return this._key;
+  }
+
+  // value - computed: true, optional: true, required: false
+  private _value?: string; 
+  public get value() {
+    return this.getStringAttribute('value');
+  }
+  public set value(value: string) {
+    this._value = value;
+  }
+  public resetValue() {
+    this._value = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get valueInput() {
+    return this._value;
+  }
+}
+
+export class MediaconnectFlowTagsList extends cdktn.ComplexList {
+  public internalValue? : MediaconnectFlowTags[] | cdktn.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): MediaconnectFlowTagsOutputReference {
+    return new MediaconnectFlowTagsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface MediaconnectFlowVpcInterfacesTags {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#key MediaconnectFlow#key}
+  */
+  readonly key?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#value MediaconnectFlow#value}
+  */
+  readonly value?: string;
+}
+
+export function mediaconnectFlowVpcInterfacesTagsToTerraform(struct?: MediaconnectFlowVpcInterfacesTags | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    key: cdktn.stringToTerraform(struct!.key),
+    value: cdktn.stringToTerraform(struct!.value),
+  }
+}
+
+
+export function mediaconnectFlowVpcInterfacesTagsToHclTerraform(struct?: MediaconnectFlowVpcInterfacesTags | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    key: {
+      value: cdktn.stringToHclTerraform(struct!.key),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    value: {
+      value: cdktn.stringToHclTerraform(struct!.value),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class MediaconnectFlowVpcInterfacesTagsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): MediaconnectFlowVpcInterfacesTags | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._key !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.key = this._key;
+    }
+    if (this._value !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.value = this._value;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: MediaconnectFlowVpcInterfacesTags | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._key = undefined;
+      this._value = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._key = value.key;
+      this._value = value.value;
+    }
+  }
+
+  // key - computed: true, optional: true, required: false
+  private _key?: string; 
+  public get key() {
+    return this.getStringAttribute('key');
+  }
+  public set key(value: string) {
+    this._key = value;
+  }
+  public resetKey() {
+    this._key = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get keyInput() {
+    return this._key;
+  }
+
+  // value - computed: true, optional: true, required: false
+  private _value?: string; 
+  public get value() {
+    return this.getStringAttribute('value');
+  }
+  public set value(value: string) {
+    this._value = value;
+  }
+  public resetValue() {
+    this._value = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get valueInput() {
+    return this._value;
+  }
+}
+
+export class MediaconnectFlowVpcInterfacesTagsList extends cdktn.ComplexList {
+  public internalValue? : MediaconnectFlowVpcInterfacesTags[] | cdktn.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): MediaconnectFlowVpcInterfacesTagsOutputReference {
+    return new MediaconnectFlowVpcInterfacesTagsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface MediaconnectFlowVpcInterfaces {
   /**
   * Immutable and has to be a unique against other VpcInterfaces in this Flow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#name MediaconnectFlow#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#name MediaconnectFlow#name}
   */
   readonly name?: string;
   /**
   * IDs of the network interfaces created in customer's account by MediaConnect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#network_interface_ids MediaconnectFlow#network_interface_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#network_interface_ids MediaconnectFlow#network_interface_ids}
   */
   readonly networkInterfaceIds?: string[];
   /**
   * The type of network adapter that you want MediaConnect to use on this interface. If you don't set this value, it defaults to ENA.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#network_interface_type MediaconnectFlow#network_interface_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#network_interface_type MediaconnectFlow#network_interface_type}
   */
   readonly networkInterfaceType?: string;
   /**
   * Role Arn MediaConnect can assume to create ENIs in customer's account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#role_arn MediaconnectFlow#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#role_arn MediaconnectFlow#role_arn}
   */
   readonly roleArn?: string;
   /**
   * Security Group IDs to be used on ENI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#security_group_ids MediaconnectFlow#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#security_group_ids MediaconnectFlow#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
   * Subnet must be in the AZ of the Flow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#subnet_id MediaconnectFlow#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#subnet_id MediaconnectFlow#subnet_id}
   */
   readonly subnetId?: string;
+  /**
+  * Key-value pairs that can be used to tag this VPC interface.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#tags MediaconnectFlow#tags}
+  */
+  readonly tags?: MediaconnectFlowVpcInterfacesTags[] | cdktn.IResolvable;
 }
 
 export function mediaconnectFlowVpcInterfacesToTerraform(struct?: MediaconnectFlowVpcInterfaces | cdktn.IResolvable): any {
@@ -3984,6 +5753,7 @@ export function mediaconnectFlowVpcInterfacesToTerraform(struct?: MediaconnectFl
     role_arn: cdktn.stringToTerraform(struct!.roleArn),
     security_group_ids: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.securityGroupIds),
     subnet_id: cdktn.stringToTerraform(struct!.subnetId),
+    tags: cdktn.listMapper(mediaconnectFlowVpcInterfacesTagsToTerraform, false)(struct!.tags),
   }
 }
 
@@ -4029,6 +5799,12 @@ export function mediaconnectFlowVpcInterfacesToHclTerraform(struct?: Mediaconnec
       isBlock: false,
       type: "simple",
       storageClassType: "string",
+    },
+    tags: {
+      value: cdktn.listMapperHcl(mediaconnectFlowVpcInterfacesTagsToHclTerraform, false)(struct!.tags),
+      isBlock: true,
+      type: "list",
+      storageClassType: "MediaconnectFlowVpcInterfacesTagsList",
     },
   };
 
@@ -4080,6 +5856,10 @@ export class MediaconnectFlowVpcInterfacesOutputReference extends cdktn.ComplexO
       hasAnyValues = true;
       internalValueResult.subnetId = this._subnetId;
     }
+    if (this._tags?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tags = this._tags?.internalValue;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -4093,6 +5873,7 @@ export class MediaconnectFlowVpcInterfacesOutputReference extends cdktn.ComplexO
       this._roleArn = undefined;
       this._securityGroupIds = undefined;
       this._subnetId = undefined;
+      this._tags.internalValue = undefined;
     }
     else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -4107,6 +5888,7 @@ export class MediaconnectFlowVpcInterfacesOutputReference extends cdktn.ComplexO
       this._roleArn = value.roleArn;
       this._securityGroupIds = value.securityGroupIds;
       this._subnetId = value.subnetId;
+      this._tags.internalValue = value.tags;
     }
   }
 
@@ -4205,6 +5987,22 @@ export class MediaconnectFlowVpcInterfacesOutputReference extends cdktn.ComplexO
   public get subnetIdInput() {
     return this._subnetId;
   }
+
+  // tags - computed: true, optional: true, required: false
+  private _tags = new MediaconnectFlowVpcInterfacesTagsList(this, "tags", false);
+  public get tags() {
+    return this._tags;
+  }
+  public putTags(value: MediaconnectFlowVpcInterfacesTags[] | cdktn.IResolvable) {
+    this._tags.internalValue = value;
+  }
+  public resetTags() {
+    this._tags.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tagsInput() {
+    return this._tags.internalValue;
+  }
 }
 
 export class MediaconnectFlowVpcInterfacesList extends cdktn.ComplexList {
@@ -4228,7 +6026,7 @@ export class MediaconnectFlowVpcInterfacesList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow awscc_mediaconnect_flow}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow awscc_mediaconnect_flow}
 */
 export class MediaconnectFlow extends cdktn.TerraformResource {
 
@@ -4244,7 +6042,7 @@ export class MediaconnectFlow extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a MediaconnectFlow resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MediaconnectFlow to import
-  * @param importFromId The id of the existing MediaconnectFlow that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MediaconnectFlow that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MediaconnectFlow to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -4256,7 +6054,7 @@ export class MediaconnectFlow extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow awscc_mediaconnect_flow} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow awscc_mediaconnect_flow} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4267,7 +6065,7 @@ export class MediaconnectFlow extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_mediaconnect_flow',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.99.0',
+        providerVersion: '1.100.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -4279,12 +6077,16 @@ export class MediaconnectFlow extends cdktn.TerraformResource {
       forEach: config.forEach
     });
     this._availabilityZone = config.availabilityZone;
+    this._encodingConfig.internalValue = config.encodingConfig;
+    this._flowSize = config.flowSize;
     this._maintenance.internalValue = config.maintenance;
     this._mediaStreams.internalValue = config.mediaStreams;
     this._name = config.name;
+    this._ndiConfig.internalValue = config.ndiConfig;
     this._source.internalValue = config.source;
     this._sourceFailoverConfig.internalValue = config.sourceFailoverConfig;
     this._sourceMonitoringConfig.internalValue = config.sourceMonitoringConfig;
+    this._tags.internalValue = config.tags;
     this._vpcInterfaces.internalValue = config.vpcInterfaces;
   }
 
@@ -4313,6 +6115,22 @@ export class MediaconnectFlow extends cdktn.TerraformResource {
     return this.getStringAttribute('egress_ip');
   }
 
+  // encoding_config - computed: true, optional: true, required: false
+  private _encodingConfig = new MediaconnectFlowEncodingConfigOutputReference(this, "encoding_config");
+  public get encodingConfig() {
+    return this._encodingConfig;
+  }
+  public putEncodingConfig(value: MediaconnectFlowEncodingConfig) {
+    this._encodingConfig.internalValue = value;
+  }
+  public resetEncodingConfig() {
+    this._encodingConfig.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get encodingConfigInput() {
+    return this._encodingConfig.internalValue;
+  }
+
   // flow_arn - computed: true, optional: false, required: false
   public get flowArn() {
     return this.getStringAttribute('flow_arn');
@@ -4321,6 +6139,27 @@ export class MediaconnectFlow extends cdktn.TerraformResource {
   // flow_availability_zone - computed: true, optional: false, required: false
   public get flowAvailabilityZone() {
     return this.getStringAttribute('flow_availability_zone');
+  }
+
+  // flow_ndi_machine_name - computed: true, optional: false, required: false
+  public get flowNdiMachineName() {
+    return this.getStringAttribute('flow_ndi_machine_name');
+  }
+
+  // flow_size - computed: true, optional: true, required: false
+  private _flowSize?: string; 
+  public get flowSize() {
+    return this.getStringAttribute('flow_size');
+  }
+  public set flowSize(value: string) {
+    this._flowSize = value;
+  }
+  public resetFlowSize() {
+    this._flowSize = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get flowSizeInput() {
+    return this._flowSize;
   }
 
   // id - computed: true, optional: false, required: false
@@ -4373,6 +6212,22 @@ export class MediaconnectFlow extends cdktn.TerraformResource {
     return this._name;
   }
 
+  // ndi_config - computed: true, optional: true, required: false
+  private _ndiConfig = new MediaconnectFlowNdiConfigOutputReference(this, "ndi_config");
+  public get ndiConfig() {
+    return this._ndiConfig;
+  }
+  public putNdiConfig(value: MediaconnectFlowNdiConfig) {
+    this._ndiConfig.internalValue = value;
+  }
+  public resetNdiConfig() {
+    this._ndiConfig.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ndiConfigInput() {
+    return this._ndiConfig.internalValue;
+  }
+
   // source - computed: false, optional: false, required: true
   private _source = new MediaconnectFlowSourceOutputReference(this, "source");
   public get source() {
@@ -4418,6 +6273,22 @@ export class MediaconnectFlow extends cdktn.TerraformResource {
     return this._sourceMonitoringConfig.internalValue;
   }
 
+  // tags - computed: true, optional: true, required: false
+  private _tags = new MediaconnectFlowTagsList(this, "tags", false);
+  public get tags() {
+    return this._tags;
+  }
+  public putTags(value: MediaconnectFlowTags[] | cdktn.IResolvable) {
+    this._tags.internalValue = value;
+  }
+  public resetTags() {
+    this._tags.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tagsInput() {
+    return this._tags.internalValue;
+  }
+
   // vpc_interfaces - computed: true, optional: true, required: false
   private _vpcInterfaces = new MediaconnectFlowVpcInterfacesList(this, "vpc_interfaces", false);
   public get vpcInterfaces() {
@@ -4441,12 +6312,16 @@ export class MediaconnectFlow extends cdktn.TerraformResource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       availability_zone: cdktn.stringToTerraform(this._availabilityZone),
+      encoding_config: mediaconnectFlowEncodingConfigToTerraform(this._encodingConfig.internalValue),
+      flow_size: cdktn.stringToTerraform(this._flowSize),
       maintenance: mediaconnectFlowMaintenanceToTerraform(this._maintenance.internalValue),
       media_streams: cdktn.listMapper(mediaconnectFlowMediaStreamsToTerraform, false)(this._mediaStreams.internalValue),
       name: cdktn.stringToTerraform(this._name),
+      ndi_config: mediaconnectFlowNdiConfigToTerraform(this._ndiConfig.internalValue),
       source: mediaconnectFlowSourceToTerraform(this._source.internalValue),
       source_failover_config: mediaconnectFlowSourceFailoverConfigToTerraform(this._sourceFailoverConfig.internalValue),
       source_monitoring_config: mediaconnectFlowSourceMonitoringConfigToTerraform(this._sourceMonitoringConfig.internalValue),
+      tags: cdktn.listMapper(mediaconnectFlowTagsToTerraform, false)(this._tags.internalValue),
       vpc_interfaces: cdktn.listMapper(mediaconnectFlowVpcInterfacesToTerraform, false)(this._vpcInterfaces.internalValue),
     };
   }
@@ -4455,6 +6330,18 @@ export class MediaconnectFlow extends cdktn.TerraformResource {
     const attrs = {
       availability_zone: {
         value: cdktn.stringToHclTerraform(this._availabilityZone),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      encoding_config: {
+        value: mediaconnectFlowEncodingConfigToHclTerraform(this._encodingConfig.internalValue),
+        isBlock: true,
+        type: "struct",
+        storageClassType: "MediaconnectFlowEncodingConfig",
+      },
+      flow_size: {
+        value: cdktn.stringToHclTerraform(this._flowSize),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
@@ -4477,6 +6364,12 @@ export class MediaconnectFlow extends cdktn.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
+      ndi_config: {
+        value: mediaconnectFlowNdiConfigToHclTerraform(this._ndiConfig.internalValue),
+        isBlock: true,
+        type: "struct",
+        storageClassType: "MediaconnectFlowNdiConfig",
+      },
       source: {
         value: mediaconnectFlowSourceToHclTerraform(this._source.internalValue),
         isBlock: true,
@@ -4494,6 +6387,12 @@ export class MediaconnectFlow extends cdktn.TerraformResource {
         isBlock: true,
         type: "struct",
         storageClassType: "MediaconnectFlowSourceMonitoringConfig",
+      },
+      tags: {
+        value: cdktn.listMapperHcl(mediaconnectFlowTagsToHclTerraform, false)(this._tags.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "MediaconnectFlowTagsList",
       },
       vpc_interfaces: {
         value: cdktn.listMapperHcl(mediaconnectFlowVpcInterfacesToHclTerraform, false)(this._vpcInterfaces.internalValue),

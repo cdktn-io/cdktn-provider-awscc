@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_trial_component
+// https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_trial_component
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,49 +15,49 @@ export interface SagemakerTrialComponentConfig extends cdktn.TerraformMetaArgume
   /**
   * The name of the component as displayed. If DisplayName isn't specified, TrialComponentName is displayed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_trial_component#display_name SagemakerTrialComponent#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_trial_component#display_name SagemakerTrialComponent#display_name}
   */
   readonly displayName?: string;
   /**
   * The input artifacts for the component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_trial_component#input_artifacts SagemakerTrialComponent#input_artifacts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_trial_component#input_artifacts SagemakerTrialComponent#input_artifacts}
   */
   readonly inputArtifacts?: { [key: string]: SagemakerTrialComponentInputArtifacts } | cdktn.IResolvable;
   /**
   * Metadata properties of the tracking entity, trial, or trial component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_trial_component#metadata_properties SagemakerTrialComponent#metadata_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_trial_component#metadata_properties SagemakerTrialComponent#metadata_properties}
   */
   readonly metadataProperties?: SagemakerTrialComponentMetadataProperties;
   /**
   * The output artifacts for the component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_trial_component#output_artifacts SagemakerTrialComponent#output_artifacts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_trial_component#output_artifacts SagemakerTrialComponent#output_artifacts}
   */
   readonly outputArtifacts?: { [key: string]: SagemakerTrialComponentOutputArtifacts } | cdktn.IResolvable;
   /**
   * The hyperparameters for the component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_trial_component#parameters SagemakerTrialComponent#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_trial_component#parameters SagemakerTrialComponent#parameters}
   */
   readonly parameters?: { [key: string]: SagemakerTrialComponentParameters } | cdktn.IResolvable;
   /**
   * The status of the trial component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_trial_component#status SagemakerTrialComponent#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_trial_component#status SagemakerTrialComponent#status}
   */
   readonly status?: SagemakerTrialComponentStatus;
   /**
   * A list of tags to associate with the trial component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_trial_component#tags SagemakerTrialComponent#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_trial_component#tags SagemakerTrialComponent#tags}
   */
   readonly tags?: SagemakerTrialComponentTags[] | cdktn.IResolvable;
   /**
   * The name of the trial component. Must be unique in your AWS account and is not case-sensitive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_trial_component#trial_component_name SagemakerTrialComponent#trial_component_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_trial_component#trial_component_name SagemakerTrialComponent#trial_component_name}
   */
   readonly trialComponentName: string;
 }
@@ -65,13 +65,13 @@ export interface SagemakerTrialComponentInputArtifacts {
   /**
   * The media type of the artifact.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_trial_component#media_type SagemakerTrialComponent#media_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_trial_component#media_type SagemakerTrialComponent#media_type}
   */
   readonly mediaType?: string;
   /**
   * The location of the artifact.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_trial_component#value SagemakerTrialComponent#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_trial_component#value SagemakerTrialComponent#value}
   */
   readonly value?: string;
 }
@@ -216,25 +216,25 @@ export interface SagemakerTrialComponentMetadataProperties {
   /**
   * The commit ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_trial_component#commit_id SagemakerTrialComponent#commit_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_trial_component#commit_id SagemakerTrialComponent#commit_id}
   */
   readonly commitId?: string;
   /**
   * The entity this entity was generated by.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_trial_component#generated_by SagemakerTrialComponent#generated_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_trial_component#generated_by SagemakerTrialComponent#generated_by}
   */
   readonly generatedBy?: string;
   /**
   * The project ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_trial_component#project_id SagemakerTrialComponent#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_trial_component#project_id SagemakerTrialComponent#project_id}
   */
   readonly projectId?: string;
   /**
   * The repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_trial_component#repository SagemakerTrialComponent#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_trial_component#repository SagemakerTrialComponent#repository}
   */
   readonly repository?: string;
 }
@@ -417,13 +417,13 @@ export interface SagemakerTrialComponentOutputArtifacts {
   /**
   * The media type of the artifact.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_trial_component#media_type SagemakerTrialComponent#media_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_trial_component#media_type SagemakerTrialComponent#media_type}
   */
   readonly mediaType?: string;
   /**
   * The location of the artifact.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_trial_component#value SagemakerTrialComponent#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_trial_component#value SagemakerTrialComponent#value}
   */
   readonly value?: string;
 }
@@ -568,13 +568,13 @@ export interface SagemakerTrialComponentParameters {
   /**
   * The numeric value of a numeric hyperparameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_trial_component#number_value SagemakerTrialComponent#number_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_trial_component#number_value SagemakerTrialComponent#number_value}
   */
   readonly numberValue?: number;
   /**
   * The string value of a categorical hyperparameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_trial_component#string_value SagemakerTrialComponent#string_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_trial_component#string_value SagemakerTrialComponent#string_value}
   */
   readonly stringValue?: string;
 }
@@ -719,13 +719,13 @@ export interface SagemakerTrialComponentStatus {
   /**
   * If the component failed, a message describing why.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_trial_component#message SagemakerTrialComponent#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_trial_component#message SagemakerTrialComponent#message}
   */
   readonly message?: string;
   /**
   * The status of the trial component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_trial_component#primary_status SagemakerTrialComponent#primary_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_trial_component#primary_status SagemakerTrialComponent#primary_status}
   */
   readonly primaryStatus?: string;
 }
@@ -850,13 +850,13 @@ export interface SagemakerTrialComponentTags {
   /**
   * The tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_trial_component#key SagemakerTrialComponent#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_trial_component#key SagemakerTrialComponent#key}
   */
   readonly key?: string;
   /**
   * The tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_trial_component#value SagemakerTrialComponent#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_trial_component#value SagemakerTrialComponent#value}
   */
   readonly value?: string;
 }
@@ -1001,7 +1001,7 @@ export class SagemakerTrialComponentTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_trial_component awscc_sagemaker_trial_component}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_trial_component awscc_sagemaker_trial_component}
 */
 export class SagemakerTrialComponent extends cdktn.TerraformResource {
 
@@ -1017,7 +1017,7 @@ export class SagemakerTrialComponent extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a SagemakerTrialComponent resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SagemakerTrialComponent to import
-  * @param importFromId The id of the existing SagemakerTrialComponent that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_trial_component#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SagemakerTrialComponent that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_trial_component#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SagemakerTrialComponent to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1029,7 +1029,7 @@ export class SagemakerTrialComponent extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_trial_component awscc_sagemaker_trial_component} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_trial_component awscc_sagemaker_trial_component} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1040,7 +1040,7 @@ export class SagemakerTrialComponent extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_sagemaker_trial_component',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.99.0',
+        providerVersion: '1.100.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

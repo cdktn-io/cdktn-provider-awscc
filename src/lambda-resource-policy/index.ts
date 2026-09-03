@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lambda_resource_policy
+// https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lambda_resource_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -16,19 +16,19 @@ export interface LambdaResourcePolicyConfig extends cdktn.TerraformMetaArguments
   * The policy document you want to add to your LAM resource. This is formatted as a JSON string.
   *  For more information, see [Working with resource-based policies in](https://docs.aws.amazon.com/lambda/latest/dg/access-control-resource-based.html) in the *Developer Guide*.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lambda_resource_policy#policy_document LambdaResourcePolicy#policy_document}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lambda_resource_policy#policy_document LambdaResourcePolicy#policy_document}
   */
   readonly policyDocument: string;
   /**
   * The Amazon Resource Name (ARN) of the LAM resource you want to add the policy to. For a function, you can use a qualified or an unqualified ARN. The value must be a complete ARN, and the operation does not accept wildcard characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lambda_resource_policy#resource_arn LambdaResourcePolicy#resource_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lambda_resource_policy#resource_arn LambdaResourcePolicy#resource_arn}
   */
   readonly resourceArn: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lambda_resource_policy awscc_lambda_resource_policy}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lambda_resource_policy awscc_lambda_resource_policy}
 */
 export class LambdaResourcePolicy extends cdktn.TerraformResource {
 
@@ -44,7 +44,7 @@ export class LambdaResourcePolicy extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a LambdaResourcePolicy resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LambdaResourcePolicy to import
-  * @param importFromId The id of the existing LambdaResourcePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lambda_resource_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LambdaResourcePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lambda_resource_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LambdaResourcePolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -56,7 +56,7 @@ export class LambdaResourcePolicy extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lambda_resource_policy awscc_lambda_resource_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lambda_resource_policy awscc_lambda_resource_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,7 +67,7 @@ export class LambdaResourcePolicy extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_lambda_resource_policy',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.99.0',
+        providerVersion: '1.100.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

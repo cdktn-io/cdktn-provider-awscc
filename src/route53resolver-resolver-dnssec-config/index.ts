@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53resolver_resolver_dnssec_config
+// https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/route53resolver_resolver_dnssec_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,13 +15,13 @@ export interface Route53ResolverResolverDnssecConfigConfig extends cdktn.Terrafo
   /**
   * ResourceId
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53resolver_resolver_dnssec_config#resource_id Route53ResolverResolverDnssecConfig#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/route53resolver_resolver_dnssec_config#resource_id Route53ResolverResolverDnssecConfig#resource_id}
   */
   readonly resourceId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53resolver_resolver_dnssec_config awscc_route53resolver_resolver_dnssec_config}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/route53resolver_resolver_dnssec_config awscc_route53resolver_resolver_dnssec_config}
 */
 export class Route53ResolverResolverDnssecConfig extends cdktn.TerraformResource {
 
@@ -37,7 +37,7 @@ export class Route53ResolverResolverDnssecConfig extends cdktn.TerraformResource
   * Generates CDKTN code for importing a Route53ResolverResolverDnssecConfig resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Route53ResolverResolverDnssecConfig to import
-  * @param importFromId The id of the existing Route53ResolverResolverDnssecConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53resolver_resolver_dnssec_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Route53ResolverResolverDnssecConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/route53resolver_resolver_dnssec_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Route53ResolverResolverDnssecConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -49,7 +49,7 @@ export class Route53ResolverResolverDnssecConfig extends cdktn.TerraformResource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53resolver_resolver_dnssec_config awscc_route53resolver_resolver_dnssec_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/route53resolver_resolver_dnssec_config awscc_route53resolver_resolver_dnssec_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -60,7 +60,7 @@ export class Route53ResolverResolverDnssecConfig extends cdktn.TerraformResource
       terraformResourceType: 'awscc_route53resolver_resolver_dnssec_config',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.99.0',
+        providerVersion: '1.100.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

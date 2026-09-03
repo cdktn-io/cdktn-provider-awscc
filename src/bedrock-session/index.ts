@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_session
+// https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_session
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,19 +15,19 @@ export interface BedrockSessionConfig extends cdktn.TerraformMetaArguments {
   /**
   * The Amazon Resource Name (ARN) of the KMS key to use to encrypt the session data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_session#encryption_key_arn BedrockSession#encryption_key_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_session#encryption_key_arn BedrockSession#encryption_key_arn}
   */
   readonly encryptionKeyArn?: string;
   /**
   * A map of key-value pairs containing attributes to be persisted across the session.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_session#session_metadata BedrockSession#session_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_session#session_metadata BedrockSession#session_metadata}
   */
   readonly sessionMetadata?: { [key: string]: string };
   /**
   * A list of tags associated with the session.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_session#tags BedrockSession#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_session#tags BedrockSession#tags}
   */
   readonly tags?: BedrockSessionTags[] | cdktn.IResolvable;
 }
@@ -35,13 +35,13 @@ export interface BedrockSessionTags {
   /**
   * The key of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_session#key BedrockSession#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_session#key BedrockSession#key}
   */
   readonly key?: string;
   /**
   * The value of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_session#value BedrockSession#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_session#value BedrockSession#value}
   */
   readonly value?: string;
 }
@@ -186,7 +186,7 @@ export class BedrockSessionTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_session awscc_bedrock_session}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_session awscc_bedrock_session}
 */
 export class BedrockSession extends cdktn.TerraformResource {
 
@@ -202,7 +202,7 @@ export class BedrockSession extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a BedrockSession resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BedrockSession to import
-  * @param importFromId The id of the existing BedrockSession that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_session#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BedrockSession that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_session#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BedrockSession to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -214,7 +214,7 @@ export class BedrockSession extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_session awscc_bedrock_session} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_session awscc_bedrock_session} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -225,7 +225,7 @@ export class BedrockSession extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_bedrock_session',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.99.0',
+        providerVersion: '1.100.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

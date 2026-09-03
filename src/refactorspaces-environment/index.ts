@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/refactorspaces_environment
+// https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/refactorspaces_environment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,21 +13,21 @@ import * as cdktn from 'cdktn';
 
 export interface RefactorspacesEnvironmentConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/refactorspaces_environment#description RefactorspacesEnvironment#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/refactorspaces_environment#description RefactorspacesEnvironment#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/refactorspaces_environment#name RefactorspacesEnvironment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/refactorspaces_environment#name RefactorspacesEnvironment#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/refactorspaces_environment#network_fabric_type RefactorspacesEnvironment#network_fabric_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/refactorspaces_environment#network_fabric_type RefactorspacesEnvironment#network_fabric_type}
   */
   readonly networkFabricType?: string;
   /**
   * Metadata that you can assign to help organize the frameworks that you create. Each tag is a key-value pair.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/refactorspaces_environment#tags RefactorspacesEnvironment#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/refactorspaces_environment#tags RefactorspacesEnvironment#tags}
   */
   readonly tags?: RefactorspacesEnvironmentTags[] | cdktn.IResolvable;
 }
@@ -35,13 +35,13 @@ export interface RefactorspacesEnvironmentTags {
   /**
   * A string used to identify this tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/refactorspaces_environment#key RefactorspacesEnvironment#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/refactorspaces_environment#key RefactorspacesEnvironment#key}
   */
   readonly key?: string;
   /**
   * A string containing the value for the tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/refactorspaces_environment#value RefactorspacesEnvironment#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/refactorspaces_environment#value RefactorspacesEnvironment#value}
   */
   readonly value?: string;
 }
@@ -186,7 +186,7 @@ export class RefactorspacesEnvironmentTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/refactorspaces_environment awscc_refactorspaces_environment}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/refactorspaces_environment awscc_refactorspaces_environment}
 */
 export class RefactorspacesEnvironment extends cdktn.TerraformResource {
 
@@ -202,7 +202,7 @@ export class RefactorspacesEnvironment extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a RefactorspacesEnvironment resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RefactorspacesEnvironment to import
-  * @param importFromId The id of the existing RefactorspacesEnvironment that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/refactorspaces_environment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RefactorspacesEnvironment that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/refactorspaces_environment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RefactorspacesEnvironment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -214,7 +214,7 @@ export class RefactorspacesEnvironment extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/refactorspaces_environment awscc_refactorspaces_environment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/refactorspaces_environment awscc_refactorspaces_environment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -225,7 +225,7 @@ export class RefactorspacesEnvironment extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_refactorspaces_environment',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.99.0',
+        providerVersion: '1.100.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

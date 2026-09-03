@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sdb_domain
+// https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sdb_domain
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,13 +15,13 @@ export interface SdbDomainConfig extends cdktn.TerraformMetaArguments {
   /**
   * Information about the SimpleDB domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sdb_domain#description SdbDomain#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sdb_domain#description SdbDomain#description}
   */
   readonly description?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sdb_domain awscc_sdb_domain}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sdb_domain awscc_sdb_domain}
 */
 export class SdbDomain extends cdktn.TerraformResource {
 
@@ -37,7 +37,7 @@ export class SdbDomain extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a SdbDomain resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SdbDomain to import
-  * @param importFromId The id of the existing SdbDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sdb_domain#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SdbDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sdb_domain#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SdbDomain to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -49,7 +49,7 @@ export class SdbDomain extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sdb_domain awscc_sdb_domain} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sdb_domain awscc_sdb_domain} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -60,7 +60,7 @@ export class SdbDomain extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_sdb_domain',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.99.0',
+        providerVersion: '1.100.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

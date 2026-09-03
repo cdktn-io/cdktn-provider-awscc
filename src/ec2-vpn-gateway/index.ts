@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_vpn_gateway
+// https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_vpn_gateway
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,19 +15,19 @@ export interface Ec2VpnGatewayConfig extends cdktn.TerraformMetaArguments {
   /**
   * The private Autonomous System Number (ASN) for the Amazon side of a BGP session.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_vpn_gateway#amazon_side_asn Ec2VpnGateway#amazon_side_asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_vpn_gateway#amazon_side_asn Ec2VpnGateway#amazon_side_asn}
   */
   readonly amazonSideAsn?: number;
   /**
   * Any tags assigned to the virtual private gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_vpn_gateway#tags Ec2VpnGateway#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_vpn_gateway#tags Ec2VpnGateway#tags}
   */
   readonly tags?: Ec2VpnGatewayTags[] | cdktn.IResolvable;
   /**
   * The type of VPN connection the virtual private gateway supports.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_vpn_gateway#type Ec2VpnGateway#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_vpn_gateway#type Ec2VpnGateway#type}
   */
   readonly type: string;
 }
@@ -35,13 +35,13 @@ export interface Ec2VpnGatewayTags {
   /**
   * The tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_vpn_gateway#key Ec2VpnGateway#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_vpn_gateway#key Ec2VpnGateway#key}
   */
   readonly key?: string;
   /**
   * The tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_vpn_gateway#value Ec2VpnGateway#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_vpn_gateway#value Ec2VpnGateway#value}
   */
   readonly value?: string;
 }
@@ -186,7 +186,7 @@ export class Ec2VpnGatewayTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_vpn_gateway awscc_ec2_vpn_gateway}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_vpn_gateway awscc_ec2_vpn_gateway}
 */
 export class Ec2VpnGateway extends cdktn.TerraformResource {
 
@@ -202,7 +202,7 @@ export class Ec2VpnGateway extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Ec2VpnGateway resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Ec2VpnGateway to import
-  * @param importFromId The id of the existing Ec2VpnGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_vpn_gateway#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Ec2VpnGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_vpn_gateway#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Ec2VpnGateway to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -214,7 +214,7 @@ export class Ec2VpnGateway extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_vpn_gateway awscc_ec2_vpn_gateway} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_vpn_gateway awscc_ec2_vpn_gateway} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -225,7 +225,7 @@ export class Ec2VpnGateway extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_ec2_vpn_gateway',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.99.0',
+        providerVersion: '1.100.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

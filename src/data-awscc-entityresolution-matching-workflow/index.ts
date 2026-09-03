@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/entityresolution_matching_workflow
+// https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/entityresolution_matching_workflow
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccEntityresolutionMatchingWorkflowConfig extends cdktn.T
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/entityresolution_matching_workflow#id DataAwsccEntityresolutionMatchingWorkflow#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/entityresolution_matching_workflow#id DataAwsccEntityresolutionMatchingWorkflow#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1016,7 +1016,7 @@ export class DataAwsccEntityresolutionMatchingWorkflowTagsList extends cdktn.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/entityresolution_matching_workflow awscc_entityresolution_matching_workflow}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/entityresolution_matching_workflow awscc_entityresolution_matching_workflow}
 */
 export class DataAwsccEntityresolutionMatchingWorkflow extends cdktn.TerraformDataSource {
 
@@ -1032,7 +1032,7 @@ export class DataAwsccEntityresolutionMatchingWorkflow extends cdktn.TerraformDa
   * Generates CDKTN code for importing a DataAwsccEntityresolutionMatchingWorkflow resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccEntityresolutionMatchingWorkflow to import
-  * @param importFromId The id of the existing DataAwsccEntityresolutionMatchingWorkflow that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/entityresolution_matching_workflow#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccEntityresolutionMatchingWorkflow that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/entityresolution_matching_workflow#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccEntityresolutionMatchingWorkflow to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1044,7 +1044,7 @@ export class DataAwsccEntityresolutionMatchingWorkflow extends cdktn.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/entityresolution_matching_workflow awscc_entityresolution_matching_workflow} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/entityresolution_matching_workflow awscc_entityresolution_matching_workflow} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1055,7 +1055,7 @@ export class DataAwsccEntityresolutionMatchingWorkflow extends cdktn.TerraformDa
       terraformResourceType: 'awscc_entityresolution_matching_workflow',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.99.0',
+        providerVersion: '1.100.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

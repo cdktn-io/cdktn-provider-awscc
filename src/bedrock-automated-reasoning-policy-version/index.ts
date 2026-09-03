@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_automated_reasoning_policy_version
+// https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_automated_reasoning_policy_version
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,17 +15,17 @@ export interface BedrockAutomatedReasoningPolicyVersionConfig extends cdktn.Terr
   /**
   * The hash for this version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_automated_reasoning_policy_version#last_updated_definition_hash BedrockAutomatedReasoningPolicyVersion#last_updated_definition_hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_automated_reasoning_policy_version#last_updated_definition_hash BedrockAutomatedReasoningPolicyVersion#last_updated_definition_hash}
   */
   readonly lastUpdatedDefinitionHash?: string;
   /**
   * Arn of the policy 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_automated_reasoning_policy_version#policy_arn BedrockAutomatedReasoningPolicyVersion#policy_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_automated_reasoning_policy_version#policy_arn BedrockAutomatedReasoningPolicyVersion#policy_arn}
   */
   readonly policyArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_automated_reasoning_policy_version#tags BedrockAutomatedReasoningPolicyVersion#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_automated_reasoning_policy_version#tags BedrockAutomatedReasoningPolicyVersion#tags}
   */
   readonly tags?: BedrockAutomatedReasoningPolicyVersionTags[] | cdktn.IResolvable;
 }
@@ -33,13 +33,13 @@ export interface BedrockAutomatedReasoningPolicyVersionTags {
   /**
   * Tag Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_automated_reasoning_policy_version#key BedrockAutomatedReasoningPolicyVersion#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_automated_reasoning_policy_version#key BedrockAutomatedReasoningPolicyVersion#key}
   */
   readonly key?: string;
   /**
   * Tag Value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_automated_reasoning_policy_version#value BedrockAutomatedReasoningPolicyVersion#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_automated_reasoning_policy_version#value BedrockAutomatedReasoningPolicyVersion#value}
   */
   readonly value?: string;
 }
@@ -184,7 +184,7 @@ export class BedrockAutomatedReasoningPolicyVersionTagsList extends cdktn.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_automated_reasoning_policy_version awscc_bedrock_automated_reasoning_policy_version}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_automated_reasoning_policy_version awscc_bedrock_automated_reasoning_policy_version}
 */
 export class BedrockAutomatedReasoningPolicyVersion extends cdktn.TerraformResource {
 
@@ -200,7 +200,7 @@ export class BedrockAutomatedReasoningPolicyVersion extends cdktn.TerraformResou
   * Generates CDKTN code for importing a BedrockAutomatedReasoningPolicyVersion resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BedrockAutomatedReasoningPolicyVersion to import
-  * @param importFromId The id of the existing BedrockAutomatedReasoningPolicyVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_automated_reasoning_policy_version#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BedrockAutomatedReasoningPolicyVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_automated_reasoning_policy_version#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BedrockAutomatedReasoningPolicyVersion to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -212,7 +212,7 @@ export class BedrockAutomatedReasoningPolicyVersion extends cdktn.TerraformResou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_automated_reasoning_policy_version awscc_bedrock_automated_reasoning_policy_version} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_automated_reasoning_policy_version awscc_bedrock_automated_reasoning_policy_version} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -223,7 +223,7 @@ export class BedrockAutomatedReasoningPolicyVersion extends cdktn.TerraformResou
       terraformResourceType: 'awscc_bedrock_automated_reasoning_policy_version',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.99.0',
+        providerVersion: '1.100.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

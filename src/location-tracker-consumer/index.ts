@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/location_tracker_consumer
+// https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/location_tracker_consumer
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,17 +13,17 @@ import * as cdktn from 'cdktn';
 
 export interface LocationTrackerConsumerConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/location_tracker_consumer#consumer_arn LocationTrackerConsumer#consumer_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/location_tracker_consumer#consumer_arn LocationTrackerConsumer#consumer_arn}
   */
   readonly consumerArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/location_tracker_consumer#tracker_name LocationTrackerConsumer#tracker_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/location_tracker_consumer#tracker_name LocationTrackerConsumer#tracker_name}
   */
   readonly trackerName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/location_tracker_consumer awscc_location_tracker_consumer}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/location_tracker_consumer awscc_location_tracker_consumer}
 */
 export class LocationTrackerConsumer extends cdktn.TerraformResource {
 
@@ -39,7 +39,7 @@ export class LocationTrackerConsumer extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a LocationTrackerConsumer resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LocationTrackerConsumer to import
-  * @param importFromId The id of the existing LocationTrackerConsumer that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/location_tracker_consumer#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LocationTrackerConsumer that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/location_tracker_consumer#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LocationTrackerConsumer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -51,7 +51,7 @@ export class LocationTrackerConsumer extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/location_tracker_consumer awscc_location_tracker_consumer} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/location_tracker_consumer awscc_location_tracker_consumer} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -62,7 +62,7 @@ export class LocationTrackerConsumer extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_location_tracker_consumer',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.99.0',
+        providerVersion: '1.100.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

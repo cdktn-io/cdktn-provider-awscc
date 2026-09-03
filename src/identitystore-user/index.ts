@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/identitystore_user
+// https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/identitystore_user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,109 +15,109 @@ export interface IdentitystoreUserConfig extends cdktn.TerraformMetaArguments {
   /**
   * A list of addresses associated with the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/identitystore_user#addresses IdentitystoreUser#addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/identitystore_user#addresses IdentitystoreUser#addresses}
   */
   readonly addresses?: IdentitystoreUserAddresses[] | cdktn.IResolvable;
   /**
   * The user's birthdate in YYYY-MM-DD format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/identitystore_user#birthdate IdentitystoreUser#birthdate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/identitystore_user#birthdate IdentitystoreUser#birthdate}
   */
   readonly birthdate?: string;
   /**
   * A string containing the name of the user for display.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/identitystore_user#display_name IdentitystoreUser#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/identitystore_user#display_name IdentitystoreUser#display_name}
   */
   readonly displayName?: string;
   /**
   * A list of email addresses associated with the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/identitystore_user#emails IdentitystoreUser#emails}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/identitystore_user#emails IdentitystoreUser#emails}
   */
   readonly emails?: IdentitystoreUserEmails[] | cdktn.IResolvable;
   /**
   * The globally unique identifier for the identity store.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/identitystore_user#identity_store_id IdentitystoreUser#identity_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/identitystore_user#identity_store_id IdentitystoreUser#identity_store_id}
   */
   readonly identityStoreId: string;
   /**
   * The geographical region or location of the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/identitystore_user#locale IdentitystoreUser#locale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/identitystore_user#locale IdentitystoreUser#locale}
   */
   readonly locale?: string;
   /**
   * The name of the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/identitystore_user#name IdentitystoreUser#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/identitystore_user#name IdentitystoreUser#name}
   */
   readonly name?: IdentitystoreUserName;
   /**
   * An alternate name for the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/identitystore_user#nick_name IdentitystoreUser#nick_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/identitystore_user#nick_name IdentitystoreUser#nick_name}
   */
   readonly nickName?: string;
   /**
   * A list of phone numbers associated with the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/identitystore_user#phone_numbers IdentitystoreUser#phone_numbers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/identitystore_user#phone_numbers IdentitystoreUser#phone_numbers}
   */
   readonly phoneNumbers?: IdentitystoreUserPhoneNumbers[] | cdktn.IResolvable;
   /**
   * A list of photos associated with the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/identitystore_user#photos IdentitystoreUser#photos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/identitystore_user#photos IdentitystoreUser#photos}
   */
   readonly photos?: IdentitystoreUserPhotos[] | cdktn.IResolvable;
   /**
   * The preferred language of the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/identitystore_user#preferred_language IdentitystoreUser#preferred_language}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/identitystore_user#preferred_language IdentitystoreUser#preferred_language}
   */
   readonly preferredLanguage?: string;
   /**
   * A URL associated with the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/identitystore_user#profile_url IdentitystoreUser#profile_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/identitystore_user#profile_url IdentitystoreUser#profile_url}
   */
   readonly profileUrl?: string;
   /**
   * A list of roles associated with the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/identitystore_user#roles IdentitystoreUser#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/identitystore_user#roles IdentitystoreUser#roles}
   */
   readonly roles?: IdentitystoreUserRoles[] | cdktn.IResolvable;
   /**
   * The time zone for the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/identitystore_user#timezone IdentitystoreUser#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/identitystore_user#timezone IdentitystoreUser#timezone}
   */
   readonly timezone?: string;
   /**
   * The title of the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/identitystore_user#title IdentitystoreUser#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/identitystore_user#title IdentitystoreUser#title}
   */
   readonly title?: string;
   /**
   * A unique string used to identify the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/identitystore_user#user_name IdentitystoreUser#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/identitystore_user#user_name IdentitystoreUser#user_name}
   */
   readonly userName?: string;
   /**
   * A string indicating the type of user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/identitystore_user#user_type IdentitystoreUser#user_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/identitystore_user#user_type IdentitystoreUser#user_type}
   */
   readonly userType?: string;
   /**
   * The user's personal website or blog URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/identitystore_user#website IdentitystoreUser#website}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/identitystore_user#website IdentitystoreUser#website}
   */
   readonly website?: string;
 }
@@ -125,49 +125,49 @@ export interface IdentitystoreUserAddresses {
   /**
   * The country of the address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/identitystore_user#country IdentitystoreUser#country}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/identitystore_user#country IdentitystoreUser#country}
   */
   readonly country?: string;
   /**
   * A formatted version of the address for display.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/identitystore_user#formatted IdentitystoreUser#formatted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/identitystore_user#formatted IdentitystoreUser#formatted}
   */
   readonly formatted?: string;
   /**
   * A string of the address locality.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/identitystore_user#locality IdentitystoreUser#locality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/identitystore_user#locality IdentitystoreUser#locality}
   */
   readonly locality?: string;
   /**
   * The postal code of the address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/identitystore_user#postal_code IdentitystoreUser#postal_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/identitystore_user#postal_code IdentitystoreUser#postal_code}
   */
   readonly postalCode?: string;
   /**
   * Whether this is the primary address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/identitystore_user#primary IdentitystoreUser#primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/identitystore_user#primary IdentitystoreUser#primary}
   */
   readonly primary?: boolean | cdktn.IResolvable;
   /**
   * The region of the address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/identitystore_user#region IdentitystoreUser#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/identitystore_user#region IdentitystoreUser#region}
   */
   readonly region?: string;
   /**
   * The street of the address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/identitystore_user#street_address IdentitystoreUser#street_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/identitystore_user#street_address IdentitystoreUser#street_address}
   */
   readonly streetAddress?: string;
   /**
   * The type of address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/identitystore_user#type IdentitystoreUser#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/identitystore_user#type IdentitystoreUser#type}
   */
   readonly type?: string;
 }
@@ -488,19 +488,19 @@ export interface IdentitystoreUserEmails {
   /**
   * Whether this is the primary email address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/identitystore_user#primary IdentitystoreUser#primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/identitystore_user#primary IdentitystoreUser#primary}
   */
   readonly primary?: boolean | cdktn.IResolvable;
   /**
   * The type of email address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/identitystore_user#type IdentitystoreUser#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/identitystore_user#type IdentitystoreUser#type}
   */
   readonly type?: string;
   /**
   * The email address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/identitystore_user#value IdentitystoreUser#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/identitystore_user#value IdentitystoreUser#value}
   */
   readonly value?: string;
 }
@@ -676,37 +676,37 @@ export interface IdentitystoreUserName {
   /**
   * The family name of the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/identitystore_user#family_name IdentitystoreUser#family_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/identitystore_user#family_name IdentitystoreUser#family_name}
   */
   readonly familyName?: string;
   /**
   * A string containing a formatted version of the name for display.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/identitystore_user#formatted IdentitystoreUser#formatted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/identitystore_user#formatted IdentitystoreUser#formatted}
   */
   readonly formatted?: string;
   /**
   * The given name of the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/identitystore_user#given_name IdentitystoreUser#given_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/identitystore_user#given_name IdentitystoreUser#given_name}
   */
   readonly givenName?: string;
   /**
   * The honorific prefix of the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/identitystore_user#honorific_prefix IdentitystoreUser#honorific_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/identitystore_user#honorific_prefix IdentitystoreUser#honorific_prefix}
   */
   readonly honorificPrefix?: string;
   /**
   * The honorific suffix of the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/identitystore_user#honorific_suffix IdentitystoreUser#honorific_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/identitystore_user#honorific_suffix IdentitystoreUser#honorific_suffix}
   */
   readonly honorificSuffix?: string;
   /**
   * The middle name of the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/identitystore_user#middle_name IdentitystoreUser#middle_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/identitystore_user#middle_name IdentitystoreUser#middle_name}
   */
   readonly middleName?: string;
 }
@@ -947,19 +947,19 @@ export interface IdentitystoreUserPhoneNumbers {
   /**
   * Whether this is the primary phone number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/identitystore_user#primary IdentitystoreUser#primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/identitystore_user#primary IdentitystoreUser#primary}
   */
   readonly primary?: boolean | cdktn.IResolvable;
   /**
   * The type of phone number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/identitystore_user#type IdentitystoreUser#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/identitystore_user#type IdentitystoreUser#type}
   */
   readonly type?: string;
   /**
   * The phone number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/identitystore_user#value IdentitystoreUser#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/identitystore_user#value IdentitystoreUser#value}
   */
   readonly value?: string;
 }
@@ -1135,25 +1135,25 @@ export interface IdentitystoreUserPhotos {
   /**
   * A display name for the photo.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/identitystore_user#display IdentitystoreUser#display}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/identitystore_user#display IdentitystoreUser#display}
   */
   readonly display?: string;
   /**
   * Whether this is the primary photo.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/identitystore_user#primary IdentitystoreUser#primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/identitystore_user#primary IdentitystoreUser#primary}
   */
   readonly primary?: boolean | cdktn.IResolvable;
   /**
   * The type of photo.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/identitystore_user#type IdentitystoreUser#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/identitystore_user#type IdentitystoreUser#type}
   */
   readonly type?: string;
   /**
   * The photo data or URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/identitystore_user#value IdentitystoreUser#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/identitystore_user#value IdentitystoreUser#value}
   */
   readonly value?: string;
 }
@@ -1358,19 +1358,19 @@ export interface IdentitystoreUserRoles {
   /**
   * Whether this is the primary role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/identitystore_user#primary IdentitystoreUser#primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/identitystore_user#primary IdentitystoreUser#primary}
   */
   readonly primary?: boolean | cdktn.IResolvable;
   /**
   * The type of role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/identitystore_user#type IdentitystoreUser#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/identitystore_user#type IdentitystoreUser#type}
   */
   readonly type?: string;
   /**
   * The role name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/identitystore_user#value IdentitystoreUser#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/identitystore_user#value IdentitystoreUser#value}
   */
   readonly value?: string;
 }
@@ -1544,7 +1544,7 @@ export class IdentitystoreUserRolesList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/identitystore_user awscc_identitystore_user}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/identitystore_user awscc_identitystore_user}
 */
 export class IdentitystoreUser extends cdktn.TerraformResource {
 
@@ -1560,7 +1560,7 @@ export class IdentitystoreUser extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a IdentitystoreUser resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IdentitystoreUser to import
-  * @param importFromId The id of the existing IdentitystoreUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/identitystore_user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IdentitystoreUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/identitystore_user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IdentitystoreUser to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1572,7 +1572,7 @@ export class IdentitystoreUser extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/identitystore_user awscc_identitystore_user} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/identitystore_user awscc_identitystore_user} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1583,7 +1583,7 @@ export class IdentitystoreUser extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_identitystore_user',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.99.0',
+        providerVersion: '1.100.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

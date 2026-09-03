@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_template
+// https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ses_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,23 +15,23 @@ export interface SesTemplateConfig extends cdktn.TerraformMetaArguments {
   /**
   * The tags (keys and values) associated with the email template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_template#tags SesTemplate#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ses_template#tags SesTemplate#tags}
   */
   readonly tags?: SesTemplateTags[] | cdktn.IResolvable;
   /**
   * The content of the email, composed of a subject line, an HTML part, and a text-only part
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_template#template SesTemplate#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ses_template#template SesTemplate#template}
   */
   readonly template?: SesTemplateTemplate;
 }
 export interface SesTemplateTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_template#key SesTemplate#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ses_template#key SesTemplate#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_template#value SesTemplate#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ses_template#value SesTemplate#value}
   */
   readonly value?: string;
 }
@@ -178,25 +178,25 @@ export interface SesTemplateTemplate {
   /**
   * The HTML body of the email.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_template#html_part SesTemplate#html_part}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ses_template#html_part SesTemplate#html_part}
   */
   readonly htmlPart?: string;
   /**
   * The subject line of the email.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_template#subject_part SesTemplate#subject_part}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ses_template#subject_part SesTemplate#subject_part}
   */
   readonly subjectPart?: string;
   /**
   * The name of the template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_template#template_name SesTemplate#template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ses_template#template_name SesTemplate#template_name}
   */
   readonly templateName?: string;
   /**
   * The email body that is visible to recipients whose email clients do not display HTML content.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_template#text_part SesTemplate#text_part}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ses_template#text_part SesTemplate#text_part}
   */
   readonly textPart?: string;
 }
@@ -377,7 +377,7 @@ export class SesTemplateTemplateOutputReference extends cdktn.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_template awscc_ses_template}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ses_template awscc_ses_template}
 */
 export class SesTemplate extends cdktn.TerraformResource {
 
@@ -393,7 +393,7 @@ export class SesTemplate extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a SesTemplate resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SesTemplate to import
-  * @param importFromId The id of the existing SesTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SesTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ses_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SesTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -405,7 +405,7 @@ export class SesTemplate extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_template awscc_ses_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ses_template awscc_ses_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -416,7 +416,7 @@ export class SesTemplate extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_ses_template',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.99.0',
+        providerVersion: '1.100.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

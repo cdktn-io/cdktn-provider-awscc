@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lightsail_contact_method
+// https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lightsail_contact_method
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,19 +15,19 @@ export interface LightsailContactMethodConfig extends cdktn.TerraformMetaArgumen
   /**
   * The destination of the contact method, such as an email address or a mobile phone number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lightsail_contact_method#contact_endpoint LightsailContactMethod#contact_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lightsail_contact_method#contact_endpoint LightsailContactMethod#contact_endpoint}
   */
   readonly contactEndpoint: string;
   /**
   * The protocol of the contact method, such as Email or SMS (text messaging).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lightsail_contact_method#protocol LightsailContactMethod#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lightsail_contact_method#protocol LightsailContactMethod#protocol}
   */
   readonly protocol: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lightsail_contact_method awscc_lightsail_contact_method}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lightsail_contact_method awscc_lightsail_contact_method}
 */
 export class LightsailContactMethod extends cdktn.TerraformResource {
 
@@ -43,7 +43,7 @@ export class LightsailContactMethod extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a LightsailContactMethod resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LightsailContactMethod to import
-  * @param importFromId The id of the existing LightsailContactMethod that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lightsail_contact_method#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LightsailContactMethod that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lightsail_contact_method#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LightsailContactMethod to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -55,7 +55,7 @@ export class LightsailContactMethod extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lightsail_contact_method awscc_lightsail_contact_method} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lightsail_contact_method awscc_lightsail_contact_method} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -66,7 +66,7 @@ export class LightsailContactMethod extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_lightsail_contact_method',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.99.0',
+        providerVersion: '1.100.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicecatalog_service_action
+// https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/servicecatalog_service_action
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,33 +13,33 @@ import * as cdktn from 'cdktn';
 
 export interface ServicecatalogServiceActionConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicecatalog_service_action#accept_language ServicecatalogServiceAction#accept_language}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/servicecatalog_service_action#accept_language ServicecatalogServiceAction#accept_language}
   */
   readonly acceptLanguage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicecatalog_service_action#definition ServicecatalogServiceAction#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/servicecatalog_service_action#definition ServicecatalogServiceAction#definition}
   */
   readonly definition: ServicecatalogServiceActionDefinition[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicecatalog_service_action#definition_type ServicecatalogServiceAction#definition_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/servicecatalog_service_action#definition_type ServicecatalogServiceAction#definition_type}
   */
   readonly definitionType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicecatalog_service_action#description ServicecatalogServiceAction#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/servicecatalog_service_action#description ServicecatalogServiceAction#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicecatalog_service_action#name ServicecatalogServiceAction#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/servicecatalog_service_action#name ServicecatalogServiceAction#name}
   */
   readonly name: string;
 }
 export interface ServicecatalogServiceActionDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicecatalog_service_action#key ServicecatalogServiceAction#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/servicecatalog_service_action#key ServicecatalogServiceAction#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicecatalog_service_action#value ServicecatalogServiceAction#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/servicecatalog_service_action#value ServicecatalogServiceAction#value}
   */
   readonly value: string;
 }
@@ -178,7 +178,7 @@ export class ServicecatalogServiceActionDefinitionList extends cdktn.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicecatalog_service_action awscc_servicecatalog_service_action}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/servicecatalog_service_action awscc_servicecatalog_service_action}
 */
 export class ServicecatalogServiceAction extends cdktn.TerraformResource {
 
@@ -194,7 +194,7 @@ export class ServicecatalogServiceAction extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ServicecatalogServiceAction resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServicecatalogServiceAction to import
-  * @param importFromId The id of the existing ServicecatalogServiceAction that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicecatalog_service_action#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServicecatalogServiceAction that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/servicecatalog_service_action#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServicecatalogServiceAction to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -206,7 +206,7 @@ export class ServicecatalogServiceAction extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicecatalog_service_action awscc_servicecatalog_service_action} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/servicecatalog_service_action awscc_servicecatalog_service_action} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -217,7 +217,7 @@ export class ServicecatalogServiceAction extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_servicecatalog_service_action',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.99.0',
+        providerVersion: '1.100.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
