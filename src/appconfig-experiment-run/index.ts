@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appconfig_experiment_run
+// https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/appconfig_experiment_run
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,37 +15,37 @@ export interface AppconfigExperimentRunConfig extends cdktn.TerraformMetaArgumen
   /**
   * The application name or ID used to create the experiment run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appconfig_experiment_run#application_identifier AppconfigExperimentRun#application_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/appconfig_experiment_run#application_identifier AppconfigExperimentRun#application_identifier}
   */
   readonly applicationIdentifier: string;
   /**
   * Description of the experiment run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appconfig_experiment_run#description AppconfigExperimentRun#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/appconfig_experiment_run#description AppconfigExperimentRun#description}
   */
   readonly description?: string;
   /**
   * The experiment definition name or ID used to create the experiment run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appconfig_experiment_run#experiment_definition_identifier AppconfigExperimentRun#experiment_definition_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/appconfig_experiment_run#experiment_definition_identifier AppconfigExperimentRun#experiment_definition_identifier}
   */
   readonly experimentDefinitionIdentifier: string;
   /**
   * Percentage of traffic exposed to the experiment (0-100).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appconfig_experiment_run#exposure_percentage AppconfigExperimentRun#exposure_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/appconfig_experiment_run#exposure_percentage AppconfigExperimentRun#exposure_percentage}
   */
   readonly exposurePercentage: number;
   /**
   * Tags to associate with the experiment run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appconfig_experiment_run#tags AppconfigExperimentRun#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/appconfig_experiment_run#tags AppconfigExperimentRun#tags}
   */
   readonly tags?: AppconfigExperimentRunTags[] | cdktn.IResolvable;
   /**
   * Treatment overrides for specific entities.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appconfig_experiment_run#treatment_overrides AppconfigExperimentRun#treatment_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/appconfig_experiment_run#treatment_overrides AppconfigExperimentRun#treatment_overrides}
   */
   readonly treatmentOverrides?: AppconfigExperimentRunTreatmentOverrides;
 }
@@ -53,13 +53,13 @@ export interface AppconfigExperimentRunTags {
   /**
   * The tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appconfig_experiment_run#key AppconfigExperimentRun#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/appconfig_experiment_run#key AppconfigExperimentRun#key}
   */
   readonly key?: string;
   /**
   * The tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appconfig_experiment_run#value AppconfigExperimentRun#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/appconfig_experiment_run#value AppconfigExperimentRun#value}
   */
   readonly value?: string;
 }
@@ -206,7 +206,7 @@ export interface AppconfigExperimentRunTreatmentOverrides {
   /**
   * Map of entity ID to treatment key (t1, t2, ..., or c for control).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appconfig_experiment_run#inline AppconfigExperimentRun#inline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/appconfig_experiment_run#inline AppconfigExperimentRun#inline}
   */
   readonly inline?: { [key: string]: string };
 }
@@ -300,7 +300,7 @@ export class AppconfigExperimentRunTreatmentOverridesOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appconfig_experiment_run awscc_appconfig_experiment_run}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/appconfig_experiment_run awscc_appconfig_experiment_run}
 */
 export class AppconfigExperimentRun extends cdktn.TerraformResource {
 
@@ -316,7 +316,7 @@ export class AppconfigExperimentRun extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a AppconfigExperimentRun resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AppconfigExperimentRun to import
-  * @param importFromId The id of the existing AppconfigExperimentRun that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appconfig_experiment_run#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AppconfigExperimentRun that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/appconfig_experiment_run#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AppconfigExperimentRun to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -328,7 +328,7 @@ export class AppconfigExperimentRun extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appconfig_experiment_run awscc_appconfig_experiment_run} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/appconfig_experiment_run awscc_appconfig_experiment_run} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -339,7 +339,7 @@ export class AppconfigExperimentRun extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_appconfig_experiment_run',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.100.0',
+        providerVersion: '1.101.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

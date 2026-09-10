@@ -4,7 +4,7 @@
 
 ### SagemakerCluster <a name="SagemakerCluster" id="@cdktn/provider-awscc.sagemakerCluster.SagemakerCluster"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster awscc_sagemaker_cluster}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster awscc_sagemaker_cluster}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sagemakerCluster.SagemakerCluster.Initializer"></a>
 
@@ -677,7 +677,7 @@ The construct id used in the generated config for the SagemakerCluster to import
 
 The id of the existing SagemakerCluster that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1223,7 +1223,7 @@ AutoScalerType *string
 
 The type of auto-scaler to use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#auto_scaler_type SagemakerCluster#auto_scaler_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#auto_scaler_type SagemakerCluster#auto_scaler_type}
 
 ---
 
@@ -1237,7 +1237,7 @@ Mode *string
 
 The auto-scaling mode for the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#mode SagemakerCluster#mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#mode SagemakerCluster#mode}
 
 ---
 
@@ -1377,7 +1377,7 @@ AutoScaling SagemakerClusterAutoScaling
 
 Configuration for cluster auto-scaling.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#auto_scaling SagemakerCluster#auto_scaling}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#auto_scaling SagemakerCluster#auto_scaling}
 
 ---
 
@@ -1391,7 +1391,7 @@ ClusterName *string
 
 The name of the HyperPod Cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#cluster_name SagemakerCluster#cluster_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#cluster_name SagemakerCluster#cluster_name}
 
 ---
 
@@ -1405,7 +1405,7 @@ ClusterRole *string
 
 The cluster role for the autoscaler to assume.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#cluster_role SagemakerCluster#cluster_role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#cluster_role SagemakerCluster#cluster_role}
 
 ---
 
@@ -1419,7 +1419,7 @@ InstanceGroups interface{}
 
 The instance groups of the SageMaker HyperPod cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#instance_groups SagemakerCluster#instance_groups}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#instance_groups SagemakerCluster#instance_groups}
 
 ---
 
@@ -1435,7 +1435,7 @@ Determines the scaling strategy for the SageMaker HyperPod cluster.
 
 When set to 'Continuous', enables continuous scaling which dynamically manages node provisioning. If the parameter is omitted, uses the standard scaling approach in previous release.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#node_provisioning_mode SagemakerCluster#node_provisioning_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#node_provisioning_mode SagemakerCluster#node_provisioning_mode}
 
 ---
 
@@ -1451,7 +1451,7 @@ If node auto-recovery is set to true, faulty nodes will be replaced or rebooted 
 
 If set to false, nodes will be labelled when a fault is detected.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#node_recovery SagemakerCluster#node_recovery}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#node_recovery SagemakerCluster#node_recovery}
 
 ---
 
@@ -1465,7 +1465,7 @@ Orchestrator SagemakerClusterOrchestrator
 
 Specifies parameter(s) specific to the orchestrator, e.g. specify the EKS cluster or Slurm configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#orchestrator SagemakerCluster#orchestrator}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#orchestrator SagemakerCluster#orchestrator}
 
 ---
 
@@ -1479,7 +1479,7 @@ RestrictedInstanceGroups interface{}
 
 The restricted instance groups of the SageMaker HyperPod cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#restricted_instance_groups SagemakerCluster#restricted_instance_groups}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#restricted_instance_groups SagemakerCluster#restricted_instance_groups}
 
 ---
 
@@ -1493,7 +1493,7 @@ RestrictedInstanceGroupsConfig SagemakerClusterRestrictedInstanceGroupsConfig
 
 The cluster-level configuration for restricted instance groups, including shared environment settings for inter-RIG communication and FSx Lustre sharing.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#restricted_instance_groups_config SagemakerCluster#restricted_instance_groups_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#restricted_instance_groups_config SagemakerCluster#restricted_instance_groups_config}
 
 ---
 
@@ -1509,7 +1509,7 @@ Custom tags for managing the SageMaker HyperPod cluster as an AWS resource.
 
 You can add tags to your cluster in the same way you add them in other AWS services that support tagging.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#tags SagemakerCluster#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#tags SagemakerCluster#tags}
 
 ---
 
@@ -1523,7 +1523,7 @@ TieredStorageConfig SagemakerClusterTieredStorageConfig
 
 Configuration for tiered storage in the SageMaker HyperPod cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#tiered_storage_config SagemakerCluster#tiered_storage_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#tiered_storage_config SagemakerCluster#tiered_storage_config}
 
 ---
 
@@ -1539,7 +1539,7 @@ Specifies an Amazon Virtual Private Cloud (VPC) that your SageMaker jobs, hosted
 
 You can control access to and from your resources by configuring a VPC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#vpc_config SagemakerCluster#vpc_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#vpc_config SagemakerCluster#vpc_config}
 
 ---
 
@@ -1611,7 +1611,7 @@ AutoPatchConfig SagemakerClusterInstanceGroupsAutoPatchConfig
 
 The configuration for automatic patching of the instance group. Enables workload-aware, patch-level AMI updates.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#auto_patch_config SagemakerCluster#auto_patch_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#auto_patch_config SagemakerCluster#auto_patch_config}
 
 ---
 
@@ -1625,7 +1625,7 @@ CapacityRequirements SagemakerClusterInstanceGroupsCapacityRequirements
 
 Specifies the capacity requirements configuration for an instance group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#capacity_requirements SagemakerCluster#capacity_requirements}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#capacity_requirements SagemakerCluster#capacity_requirements}
 
 ---
 
@@ -1639,7 +1639,7 @@ CurrentCount *f64
 
 The number of instances that are currently in the instance group of a SageMaker HyperPod cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#current_count SagemakerCluster#current_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#current_count SagemakerCluster#current_count}
 
 ---
 
@@ -1653,7 +1653,7 @@ ExecutionRole *string
 
 The execution role for the instance group to assume.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#execution_role SagemakerCluster#execution_role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#execution_role SagemakerCluster#execution_role}
 
 ---
 
@@ -1667,7 +1667,7 @@ ImageId *string
 
 AMI Id to be used for launching EC2 instances - HyperPodPublicAmiId or CustomAmiId.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#image_id SagemakerCluster#image_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#image_id SagemakerCluster#image_id}
 
 ---
 
@@ -1681,7 +1681,7 @@ InstanceCount *f64
 
 The number of instances you specified to add to the instance group of a SageMaker HyperPod cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#instance_count SagemakerCluster#instance_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#instance_count SagemakerCluster#instance_count}
 
 ---
 
@@ -1695,7 +1695,7 @@ InstanceGroupName *string
 
 The name of the instance group of a SageMaker HyperPod cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#instance_group_name SagemakerCluster#instance_group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#instance_group_name SagemakerCluster#instance_group_name}
 
 ---
 
@@ -1709,7 +1709,7 @@ InstanceRequirements SagemakerClusterInstanceGroupsInstanceRequirements
 
 The instance requirements for the instance group. Specifies a list of instance types that can be used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#instance_requirements SagemakerCluster#instance_requirements}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#instance_requirements SagemakerCluster#instance_requirements}
 
 ---
 
@@ -1723,7 +1723,7 @@ InstanceStorageConfigs interface{}
 
 The instance storage configuration for the instance group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#instance_storage_configs SagemakerCluster#instance_storage_configs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#instance_storage_configs SagemakerCluster#instance_storage_configs}
 
 ---
 
@@ -1737,7 +1737,7 @@ InstanceType *string
 
 The instance type of the instance group of a SageMaker HyperPod cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#instance_type SagemakerCluster#instance_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#instance_type SagemakerCluster#instance_type}
 
 ---
 
@@ -1751,7 +1751,7 @@ KubernetesConfig SagemakerClusterInstanceGroupsKubernetesConfig
 
 Kubernetes configuration for cluster nodes including labels and taints.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#kubernetes_config SagemakerCluster#kubernetes_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#kubernetes_config SagemakerCluster#kubernetes_config}
 
 ---
 
@@ -1767,7 +1767,7 @@ The lifecycle configuration for a SageMaker HyperPod cluster.
 
 When omitted, the instance group uses Bootstrap mode. When provided with SourceS3Uri and OnCreate, uses Customer Managed mode. When provided with SourceS3Uri and OnInitComplete, uses Extended mode.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#life_cycle_config SagemakerCluster#life_cycle_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#life_cycle_config SagemakerCluster#life_cycle_config}
 
 ---
 
@@ -1783,7 +1783,7 @@ The minimum number of instances required for the instance group to be InService.
 
 MinInstanceCount must be less than or equal to InstanceCount.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#min_instance_count SagemakerCluster#min_instance_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#min_instance_count SagemakerCluster#min_instance_count}
 
 ---
 
@@ -1797,7 +1797,7 @@ NetworkInterface SagemakerClusterInstanceGroupsNetworkInterface
 
 Specifies the network interface configuration for the instance group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#network_interface SagemakerCluster#network_interface}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#network_interface SagemakerCluster#network_interface}
 
 ---
 
@@ -1811,7 +1811,7 @@ OnStartDeepHealthChecks *[]*string
 
 Nodes will undergo advanced stress test to detect and replace faulty instances, based on the type of deep health check(s) passed in.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#on_start_deep_health_checks SagemakerCluster#on_start_deep_health_checks}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#on_start_deep_health_checks SagemakerCluster#on_start_deep_health_checks}
 
 ---
 
@@ -1827,7 +1827,7 @@ Specifies an Amazon Virtual Private Cloud (VPC) that your SageMaker jobs, hosted
 
 You can control access to and from your resources by configuring a VPC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#override_vpc_config SagemakerCluster#override_vpc_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#override_vpc_config SagemakerCluster#override_vpc_config}
 
 ---
 
@@ -1841,7 +1841,7 @@ ScheduledUpdateConfig SagemakerClusterInstanceGroupsScheduledUpdateConfig
 
 The configuration object of the schedule that SageMaker follows when updating the AMI.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#scheduled_update_config SagemakerCluster#scheduled_update_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#scheduled_update_config SagemakerCluster#scheduled_update_config}
 
 ---
 
@@ -1855,7 +1855,7 @@ SlurmConfig SagemakerClusterInstanceGroupsSlurmConfig
 
 Slurm configuration for the instance group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#slurm_config SagemakerCluster#slurm_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#slurm_config SagemakerCluster#slurm_config}
 
 ---
 
@@ -1871,7 +1871,7 @@ The number you specified to TreadsPerCore in CreateCluster for enabling or disab
 
 For instance types that support multithreading, you can specify 1 for disabling multithreading and 2 for enabling multithreading.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#threads_per_core SagemakerCluster#threads_per_core}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#threads_per_core SagemakerCluster#threads_per_core}
 
 ---
 
@@ -1887,7 +1887,7 @@ The Amazon Resource Name (ARN) of the training plan to use for this cluster inst
 
 For more information about how to reserve GPU capacity for your SageMaker HyperPod clusters using Amazon SageMaker Training Plan, see CreateTrainingPlan.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#training_plan_arn SagemakerCluster#training_plan_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#training_plan_arn SagemakerCluster#training_plan_arn}
 
 ---
 
@@ -1925,7 +1925,7 @@ DeploymentConfig SagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfig
 
 The configuration to use when updating the AMI versions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#deployment_config SagemakerCluster#deployment_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#deployment_config SagemakerCluster#deployment_config}
 
 ---
 
@@ -1941,7 +1941,7 @@ The patching strategy that determines when and how instances are patched.
 
 WhenIdle patches instances as they become idle. WhenAllIdle patches all instances when they are all idle.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#patching_strategy SagemakerCluster#patching_strategy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#patching_strategy SagemakerCluster#patching_strategy}
 
 ---
 
@@ -1955,7 +1955,7 @@ PatchSchedule SagemakerClusterInstanceGroupsAutoPatchConfigPatchSchedule
 
 The schedule configuration for automatic patching.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#patch_schedule SagemakerCluster#patch_schedule}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#patch_schedule SagemakerCluster#patch_schedule}
 
 ---
 
@@ -1993,7 +1993,7 @@ AutoRollbackConfiguration interface{}
 
 An array that contains the alarms that SageMaker monitors to know whether to roll back the AMI update.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#auto_rollback_configuration SagemakerCluster#auto_rollback_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#auto_rollback_configuration SagemakerCluster#auto_rollback_configuration}
 
 ---
 
@@ -2007,7 +2007,7 @@ RollingUpdatePolicy SagemakerClusterInstanceGroupsAutoPatchConfigDeploymentConfi
 
 The policy that SageMaker uses when updating the AMI versions of the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#rolling_update_policy SagemakerCluster#rolling_update_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#rolling_update_policy SagemakerCluster#rolling_update_policy}
 
 ---
 
@@ -2021,7 +2021,7 @@ WaitIntervalInSeconds *f64
 
 The duration in seconds that SageMaker waits before updating more instances in the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#wait_interval_in_seconds SagemakerCluster#wait_interval_in_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#wait_interval_in_seconds SagemakerCluster#wait_interval_in_seconds}
 
 ---
 
@@ -2055,7 +2055,7 @@ AlarmName *string
 
 The name of the alarm.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#alarm_name SagemakerCluster#alarm_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#alarm_name SagemakerCluster#alarm_name}
 
 ---
 
@@ -2093,7 +2093,7 @@ The configuration of the size measurements of the AMI update.
 
 Using this configuration, you can specify whether SageMaker should update your instance group by an amount or percentage of instances.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#maximum_batch_size SagemakerCluster#maximum_batch_size}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#maximum_batch_size SagemakerCluster#maximum_batch_size}
 
 ---
 
@@ -2109,7 +2109,7 @@ The configuration of the size measurements of the AMI update.
 
 Using this configuration, you can specify whether SageMaker should update your instance group by an amount or percentage of instances.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#rollback_maximum_batch_size SagemakerCluster#rollback_maximum_batch_size}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#rollback_maximum_batch_size SagemakerCluster#rollback_maximum_batch_size}
 
 ---
 
@@ -2145,7 +2145,7 @@ Type *string
 
 Specifies whether SageMaker should process the update by amount or percentage of instances.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#type SagemakerCluster#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#type SagemakerCluster#type}
 
 ---
 
@@ -2159,7 +2159,7 @@ Value *f64
 
 Specifies the amount or percentage of instances SageMaker updates at a time.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#value SagemakerCluster#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#value SagemakerCluster#value}
 
 ---
 
@@ -2195,7 +2195,7 @@ Type *string
 
 Specifies whether SageMaker should process the update by amount or percentage of instances.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#type SagemakerCluster#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#type SagemakerCluster#type}
 
 ---
 
@@ -2209,7 +2209,7 @@ Value *f64
 
 Specifies the amount or percentage of instances SageMaker updates at a time.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#value SagemakerCluster#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#value SagemakerCluster#value}
 
 ---
 
@@ -2243,7 +2243,7 @@ NextPatchDate *string
 
 The date and time of the next scheduled patch, set by the system when a patch AMI is detected.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#next_patch_date SagemakerCluster#next_patch_date}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#next_patch_date SagemakerCluster#next_patch_date}
 
 ---
 
@@ -2279,7 +2279,7 @@ OnDemand *string
 
 Options for OnDemand capacity.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#on_demand SagemakerCluster#on_demand}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#on_demand SagemakerCluster#on_demand}
 
 ---
 
@@ -2293,7 +2293,7 @@ Spot *string
 
 Options for Spot capacity.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#spot SagemakerCluster#spot}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#spot SagemakerCluster#spot}
 
 ---
 
@@ -2327,7 +2327,7 @@ InstanceTypes *[]*string
 
 A list of instance types that can be used for this instance group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#instance_types SagemakerCluster#instance_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#instance_types SagemakerCluster#instance_types}
 
 ---
 
@@ -2367,7 +2367,7 @@ Defines the configuration for attaching additional Amazon Elastic Block Store (E
 
 The additional EBS volume is attached to each instance within the SageMaker HyperPod cluster instance group and mounted to /opt/sagemaker.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#ebs_volume_config SagemakerCluster#ebs_volume_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#ebs_volume_config SagemakerCluster#ebs_volume_config}
 
 ---
 
@@ -2381,7 +2381,7 @@ FsxLustreConfig SagemakerClusterInstanceGroupsInstanceStorageConfigsFsxLustreCon
 
 Configuration for mounting an Amazon FSx Lustre file system to the instances in the SageMaker HyperPod cluster instance group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#fsx_lustre_config SagemakerCluster#fsx_lustre_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#fsx_lustre_config SagemakerCluster#fsx_lustre_config}
 
 ---
 
@@ -2395,7 +2395,7 @@ FsxOpenZfsConfig SagemakerClusterInstanceGroupsInstanceStorageConfigsFsxOpenZfsC
 
 Configuration for mounting an Amazon FSx OpenZFS file system to the instances in the SageMaker HyperPod cluster instance group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#fsx_open_zfs_config SagemakerCluster#fsx_open_zfs_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#fsx_open_zfs_config SagemakerCluster#fsx_open_zfs_config}
 
 ---
 
@@ -2417,8 +2417,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakercluster"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterInstanceGroupsInstanceStorageConfigsEbsVolumeConfig.property.rootVolume">RootVolume</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#root_volume SagemakerCluster#root_volume}. |
-| <code><a href="#@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterInstanceGroupsInstanceStorageConfigsEbsVolumeConfig.property.volumeKmsKeyId">VolumeKmsKeyId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#volume_kms_key_id SagemakerCluster#volume_kms_key_id}. |
+| <code><a href="#@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterInstanceGroupsInstanceStorageConfigsEbsVolumeConfig.property.rootVolume">RootVolume</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#root_volume SagemakerCluster#root_volume}. |
+| <code><a href="#@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterInstanceGroupsInstanceStorageConfigsEbsVolumeConfig.property.volumeKmsKeyId">VolumeKmsKeyId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#volume_kms_key_id SagemakerCluster#volume_kms_key_id}. |
 | <code><a href="#@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterInstanceGroupsInstanceStorageConfigsEbsVolumeConfig.property.volumeSizeInGb">VolumeSizeInGb</a></code> | <code>*f64</code> | The size in gigabytes (GB) of the additional EBS volume to be attached to the instances in the SageMaker HyperPod cluster instance group. |
 
 ---
@@ -2431,7 +2431,7 @@ RootVolume interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#root_volume SagemakerCluster#root_volume}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#root_volume SagemakerCluster#root_volume}.
 
 ---
 
@@ -2443,7 +2443,7 @@ VolumeKmsKeyId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#volume_kms_key_id SagemakerCluster#volume_kms_key_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#volume_kms_key_id SagemakerCluster#volume_kms_key_id}.
 
 ---
 
@@ -2459,7 +2459,7 @@ The size in gigabytes (GB) of the additional EBS volume to be attached to the in
 
 The additional EBS volume is attached to each instance within the SageMaker HyperPod cluster instance group and mounted to /opt/sagemaker.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#volume_size_in_gb SagemakerCluster#volume_size_in_gb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#volume_size_in_gb SagemakerCluster#volume_size_in_gb}
 
 ---
 
@@ -2497,7 +2497,7 @@ DnsName *string
 
 The DNS name of the FSx for Lustre file system.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#dns_name SagemakerCluster#dns_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#dns_name SagemakerCluster#dns_name}
 
 ---
 
@@ -2511,7 +2511,7 @@ MountName *string
 
 The mount name of the FSx for Lustre file system.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#mount_name SagemakerCluster#mount_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#mount_name SagemakerCluster#mount_name}
 
 ---
 
@@ -2525,7 +2525,7 @@ MountPath *string
 
 The mount path for the FSx for Lustre file system.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#mount_path SagemakerCluster#mount_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#mount_path SagemakerCluster#mount_path}
 
 ---
 
@@ -2561,7 +2561,7 @@ DnsName *string
 
 The DNS name of the FSx for OpenZFS file system.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#dns_name SagemakerCluster#dns_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#dns_name SagemakerCluster#dns_name}
 
 ---
 
@@ -2575,7 +2575,7 @@ MountPath *string
 
 The mount path for the FSx for OpenZFS file system.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#mount_path SagemakerCluster#mount_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#mount_path SagemakerCluster#mount_path}
 
 ---
 
@@ -2611,7 +2611,7 @@ Labels *map[string]*string
 
 A map of Kubernetes labels to apply to cluster nodes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#labels SagemakerCluster#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#labels SagemakerCluster#labels}
 
 ---
 
@@ -2625,7 +2625,7 @@ Taints interface{}
 
 A list of Kubernetes taints to apply to cluster nodes. Maximum of 50 taints.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#taints SagemakerCluster#taints}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#taints SagemakerCluster#taints}
 
 ---
 
@@ -2663,7 +2663,7 @@ Effect *string
 
 The effect of the taint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#effect SagemakerCluster#effect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#effect SagemakerCluster#effect}
 
 ---
 
@@ -2677,7 +2677,7 @@ Key *string
 
 The key of the taint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#key SagemakerCluster#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#key SagemakerCluster#key}
 
 ---
 
@@ -2691,7 +2691,7 @@ Value *string
 
 The value of the taint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#value SagemakerCluster#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#value SagemakerCluster#value}
 
 ---
 
@@ -2731,7 +2731,7 @@ The file name of the entrypoint script of lifecycle scripts under SourceS3Uri.
 
 This entrypoint script runs during cluster creation. Mutually exclusive with OnInitComplete.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#on_create SagemakerCluster#on_create}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#on_create SagemakerCluster#on_create}
 
 ---
 
@@ -2747,7 +2747,7 @@ The file name of the extension script under SourceS3Uri.
 
 This script runs after HyperPod configures the default software on the instance. Mutually exclusive with OnCreate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#on_init_complete SagemakerCluster#on_init_complete}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#on_init_complete SagemakerCluster#on_init_complete}
 
 ---
 
@@ -2761,7 +2761,7 @@ SourceS3Uri *string
 
 An Amazon S3 bucket path where your lifecycle scripts are stored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#source_s3_uri SagemakerCluster#source_s3_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#source_s3_uri SagemakerCluster#source_s3_uri}
 
 ---
 
@@ -2795,7 +2795,7 @@ InterfaceType *string
 
 The type of network interface.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#interface_type SagemakerCluster#interface_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#interface_type SagemakerCluster#interface_type}
 
 ---
 
@@ -2833,7 +2833,7 @@ The VPC security group IDs, in the form sg-xxxxxxxx.
 
 Specify the security groups for the VPC that is specified in the Subnets field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#security_group_ids SagemakerCluster#security_group_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#security_group_ids SagemakerCluster#security_group_ids}
 
 ---
 
@@ -2847,7 +2847,7 @@ Subnets *[]*string
 
 The ID of the subnets in the VPC to which you want to connect your training job or model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#subnets SagemakerCluster#subnets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#subnets SagemakerCluster#subnets}
 
 ---
 
@@ -2883,7 +2883,7 @@ DeploymentConfig SagemakerClusterInstanceGroupsScheduledUpdateConfigDeploymentCo
 
 The configuration to use when updating the AMI versions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#deployment_config SagemakerCluster#deployment_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#deployment_config SagemakerCluster#deployment_config}
 
 ---
 
@@ -2897,7 +2897,7 @@ ScheduleExpression *string
 
 A cron expression that specifies the schedule that SageMaker follows when updating the AMI.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#schedule_expression SagemakerCluster#schedule_expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#schedule_expression SagemakerCluster#schedule_expression}
 
 ---
 
@@ -2935,7 +2935,7 @@ AutoRollbackConfiguration interface{}
 
 An array that contains the alarms that SageMaker monitors to know whether to roll back the AMI update.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#auto_rollback_configuration SagemakerCluster#auto_rollback_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#auto_rollback_configuration SagemakerCluster#auto_rollback_configuration}
 
 ---
 
@@ -2949,7 +2949,7 @@ RollingUpdatePolicy SagemakerClusterInstanceGroupsScheduledUpdateConfigDeploymen
 
 The policy that SageMaker uses when updating the AMI versions of the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#rolling_update_policy SagemakerCluster#rolling_update_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#rolling_update_policy SagemakerCluster#rolling_update_policy}
 
 ---
 
@@ -2963,7 +2963,7 @@ WaitIntervalInSeconds *f64
 
 The duration in seconds that SageMaker waits before updating more instances in the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#wait_interval_in_seconds SagemakerCluster#wait_interval_in_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#wait_interval_in_seconds SagemakerCluster#wait_interval_in_seconds}
 
 ---
 
@@ -2997,7 +2997,7 @@ AlarmName *string
 
 The name of the alarm.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#alarm_name SagemakerCluster#alarm_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#alarm_name SagemakerCluster#alarm_name}
 
 ---
 
@@ -3035,7 +3035,7 @@ The configuration of the size measurements of the AMI update.
 
 Using this configuration, you can specify whether SageMaker should update your instance group by an amount or percentage of instances.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#maximum_batch_size SagemakerCluster#maximum_batch_size}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#maximum_batch_size SagemakerCluster#maximum_batch_size}
 
 ---
 
@@ -3051,7 +3051,7 @@ The configuration of the size measurements of the AMI update.
 
 Using this configuration, you can specify whether SageMaker should update your instance group by an amount or percentage of instances.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#rollback_maximum_batch_size SagemakerCluster#rollback_maximum_batch_size}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#rollback_maximum_batch_size SagemakerCluster#rollback_maximum_batch_size}
 
 ---
 
@@ -3087,7 +3087,7 @@ Type *string
 
 Specifies whether SageMaker should process the update by amount or percentage of instances.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#type SagemakerCluster#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#type SagemakerCluster#type}
 
 ---
 
@@ -3101,7 +3101,7 @@ Value *f64
 
 Specifies the amount or percentage of instances SageMaker updates at a time.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#value SagemakerCluster#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#value SagemakerCluster#value}
 
 ---
 
@@ -3137,7 +3137,7 @@ Type *string
 
 Specifies whether SageMaker should process the update by amount or percentage of instances.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#type SagemakerCluster#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#type SagemakerCluster#type}
 
 ---
 
@@ -3151,7 +3151,7 @@ Value *f64
 
 Specifies the amount or percentage of instances SageMaker updates at a time.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#value SagemakerCluster#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#value SagemakerCluster#value}
 
 ---
 
@@ -3187,7 +3187,7 @@ NodeType *string
 
 The type of Slurm node for this instance group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#node_type SagemakerCluster#node_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#node_type SagemakerCluster#node_type}
 
 ---
 
@@ -3201,7 +3201,7 @@ PartitionNames *[]*string
 
 The Slurm partitions that this instance group belongs to. Maximum of 1 partition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#partition_names SagemakerCluster#partition_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#partition_names SagemakerCluster#partition_names}
 
 ---
 
@@ -3237,7 +3237,7 @@ Eks SagemakerClusterOrchestratorEks
 
 Specifies parameter(s) related to EKS as orchestrator, e.g. the EKS cluster nodes will attach to,.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#eks SagemakerCluster#eks}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#eks SagemakerCluster#eks}
 
 ---
 
@@ -3251,7 +3251,7 @@ Slurm SagemakerClusterOrchestratorSlurm
 
 Specifies parameter(s) related to Slurm as orchestrator.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#slurm SagemakerCluster#slurm}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#slurm SagemakerCluster#slurm}
 
 ---
 
@@ -3285,7 +3285,7 @@ ClusterArn *string
 
 The ARN of the EKS cluster, such as arn:aws:eks:us-west-2:123456789012:cluster/my-eks-cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#cluster_arn SagemakerCluster#cluster_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#cluster_arn SagemakerCluster#cluster_arn}
 
 ---
 
@@ -3297,6 +3297,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakercluster"
 
 &sagemakercluster.SagemakerClusterOrchestratorSlurm {
+	AccountingDatabase: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmAccountingDatabase,
 	SlurmConfigStrategy: *string,
 }
 ```
@@ -3305,7 +3306,24 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakercluster"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurm.property.accountingDatabase">AccountingDatabase</a></code> | <code><a href="#@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmAccountingDatabase">SagemakerClusterOrchestratorSlurmAccountingDatabase</a></code> | External MySQL-compatible accounting database that a Slurm cluster's slurmdbd connects to. |
 | <code><a href="#@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurm.property.slurmConfigStrategy">SlurmConfigStrategy</a></code> | <code>*string</code> | The strategy for managing Slurm configuration on the cluster. |
+
+---
+
+##### `AccountingDatabase`<sup>Optional</sup> <a name="AccountingDatabase" id="@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurm.property.accountingDatabase"></a>
+
+```go
+AccountingDatabase SagemakerClusterOrchestratorSlurmAccountingDatabase
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmAccountingDatabase">SagemakerClusterOrchestratorSlurmAccountingDatabase</a>
+
+External MySQL-compatible accounting database that a Slurm cluster's slurmdbd connects to.
+
+Database credentials are supplied out-of-band through the referenced Secrets Manager secret. Supported only with Continuous node provisioning.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#accounting_database SagemakerCluster#accounting_database}
 
 ---
 
@@ -3319,7 +3337,89 @@ SlurmConfigStrategy *string
 
 The strategy for managing Slurm configuration on the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#slurm_config_strategy SagemakerCluster#slurm_config_strategy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#slurm_config_strategy SagemakerCluster#slurm_config_strategy}
+
+---
+
+### SagemakerClusterOrchestratorSlurmAccountingDatabase <a name="SagemakerClusterOrchestratorSlurmAccountingDatabase" id="@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmAccountingDatabase"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmAccountingDatabase.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakercluster"
+
+&sagemakercluster.SagemakerClusterOrchestratorSlurmAccountingDatabase {
+	Endpoint: *string,
+	Name: *string,
+	Port: *f64,
+	SecretArn: *string,
+}
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmAccountingDatabase.property.endpoint">Endpoint</a></code> | <code>*string</code> | Hostname or endpoint of the accounting database, such as an RDS endpoint. |
+| <code><a href="#@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmAccountingDatabase.property.name">Name</a></code> | <code>*string</code> | Name of the accounting database schema. Defaults to slurm_acct_db when omitted. |
+| <code><a href="#@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmAccountingDatabase.property.port">Port</a></code> | <code>*f64</code> | TCP port of the accounting database. Defaults to 3306 when omitted. |
+| <code><a href="#@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmAccountingDatabase.property.secretArn">SecretArn</a></code> | <code>*string</code> | ARN of the Secrets Manager secret holding the database credentials. |
+
+---
+
+##### `Endpoint`<sup>Optional</sup> <a name="Endpoint" id="@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmAccountingDatabase.property.endpoint"></a>
+
+```go
+Endpoint *string
+```
+
+- *Type:* *string
+
+Hostname or endpoint of the accounting database, such as an RDS endpoint.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#endpoint SagemakerCluster#endpoint}
+
+---
+
+##### `Name`<sup>Optional</sup> <a name="Name" id="@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmAccountingDatabase.property.name"></a>
+
+```go
+Name *string
+```
+
+- *Type:* *string
+
+Name of the accounting database schema. Defaults to slurm_acct_db when omitted.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#name SagemakerCluster#name}
+
+---
+
+##### `Port`<sup>Optional</sup> <a name="Port" id="@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmAccountingDatabase.property.port"></a>
+
+```go
+Port *f64
+```
+
+- *Type:* *f64
+
+TCP port of the accounting database. Defaults to 3306 when omitted.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#port SagemakerCluster#port}
+
+---
+
+##### `SecretArn`<sup>Optional</sup> <a name="SecretArn" id="@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmAccountingDatabase.property.secretArn"></a>
+
+```go
+SecretArn *string
+```
+
+- *Type:* *string
+
+ARN of the Secrets Manager secret holding the database credentials.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#secret_arn SagemakerCluster#secret_arn}
 
 ---
 
@@ -3373,7 +3473,7 @@ CurrentCount *f64
 
 The number of instances that are currently in the restricted instance group of a SageMaker HyperPod cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#current_count SagemakerCluster#current_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#current_count SagemakerCluster#current_count}
 
 ---
 
@@ -3387,7 +3487,7 @@ EnvironmentConfig SagemakerClusterRestrictedInstanceGroupsEnvironmentConfig
 
 The configuration for the restricted instance groups (RIG) environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#environment_config SagemakerCluster#environment_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#environment_config SagemakerCluster#environment_config}
 
 ---
 
@@ -3401,7 +3501,7 @@ ExecutionRole *string
 
 The execution role for the instance group to assume.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#execution_role SagemakerCluster#execution_role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#execution_role SagemakerCluster#execution_role}
 
 ---
 
@@ -3415,7 +3515,7 @@ InstanceCount *f64
 
 The number of instances you specified to add to the restricted instance group of a SageMaker HyperPod cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#instance_count SagemakerCluster#instance_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#instance_count SagemakerCluster#instance_count}
 
 ---
 
@@ -3429,7 +3529,7 @@ InstanceGroupName *string
 
 The name of the instance group of a SageMaker HyperPod cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#instance_group_name SagemakerCluster#instance_group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#instance_group_name SagemakerCluster#instance_group_name}
 
 ---
 
@@ -3443,7 +3543,7 @@ InstanceStorageConfigs interface{}
 
 The instance storage configuration for the instance group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#instance_storage_configs SagemakerCluster#instance_storage_configs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#instance_storage_configs SagemakerCluster#instance_storage_configs}
 
 ---
 
@@ -3457,7 +3557,7 @@ InstanceType *string
 
 The instance type of the instance group of a SageMaker HyperPod cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#instance_type SagemakerCluster#instance_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#instance_type SagemakerCluster#instance_type}
 
 ---
 
@@ -3471,7 +3571,7 @@ OnStartDeepHealthChecks *[]*string
 
 Nodes will undergo advanced stress test to detect and replace faulty instances, based on the type of deep health check(s) passed in.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#on_start_deep_health_checks SagemakerCluster#on_start_deep_health_checks}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#on_start_deep_health_checks SagemakerCluster#on_start_deep_health_checks}
 
 ---
 
@@ -3487,7 +3587,7 @@ Specifies an Amazon Virtual Private Cloud (VPC) that your SageMaker jobs, hosted
 
 You can control access to and from your resources by configuring a VPC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#override_vpc_config SagemakerCluster#override_vpc_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#override_vpc_config SagemakerCluster#override_vpc_config}
 
 ---
 
@@ -3503,7 +3603,7 @@ The number you specified to TreadsPerCore in CreateCluster for enabling or disab
 
 For instance types that support multithreading, you can specify 1 for disabling multithreading and 2 for enabling multithreading.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#threads_per_core SagemakerCluster#threads_per_core}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#threads_per_core SagemakerCluster#threads_per_core}
 
 ---
 
@@ -3519,7 +3619,7 @@ The Amazon Resource Name (ARN) of the training plan to use for this cluster rest
 
 For more information about how to reserve GPU capacity for your SageMaker HyperPod clusters using Amazon SageMaker Training Plan, see CreateTrainingPlan.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#training_plan_arn SagemakerCluster#training_plan_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#training_plan_arn SagemakerCluster#training_plan_arn}
 
 ---
 
@@ -3553,7 +3653,7 @@ SharedEnvironmentConfig SagemakerClusterRestrictedInstanceGroupsConfigSharedEnvi
 
 The shared environment configuration for restricted instance groups that use cluster-level shared FSx Lustre storage.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#shared_environment_config SagemakerCluster#shared_environment_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#shared_environment_config SagemakerCluster#shared_environment_config}
 
 ---
 
@@ -3589,7 +3689,7 @@ FsxLustreConfig SagemakerClusterRestrictedInstanceGroupsConfigSharedEnvironmentC
 
 Configuration settings for an Amazon FSx for Lustre file system to be used with the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#fsx_lustre_config SagemakerCluster#fsx_lustre_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#fsx_lustre_config SagemakerCluster#fsx_lustre_config}
 
 ---
 
@@ -3605,7 +3705,7 @@ The deletion policy for the shared FSx Lustre file system.
 
 Keep retains the FSx when RIGs are deleted. DeleteIfNotUsed deletes the FSx when no RIGs reference it.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#fsx_lustre_deletion_policy SagemakerCluster#fsx_lustre_deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#fsx_lustre_deletion_policy SagemakerCluster#fsx_lustre_deletion_policy}
 
 ---
 
@@ -3641,7 +3741,7 @@ PerUnitStorageThroughput *f64
 
 The throughput capacity of the FSx for Lustre file system, measured in MB/s per TiB of storage.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#per_unit_storage_throughput SagemakerCluster#per_unit_storage_throughput}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#per_unit_storage_throughput SagemakerCluster#per_unit_storage_throughput}
 
 ---
 
@@ -3655,7 +3755,7 @@ SizeInGiB *f64
 
 The storage capacity of the FSx for Lustre file system, specified in gibibytes (GiB).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#size_in_gi_b SagemakerCluster#size_in_gi_b}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#size_in_gi_b SagemakerCluster#size_in_gi_b}
 
 ---
 
@@ -3689,7 +3789,7 @@ FsxLustreConfig SagemakerClusterRestrictedInstanceGroupsEnvironmentConfigFsxLust
 
 Configuration settings for an Amazon FSx for Lustre file system to be used with the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#fsx_lustre_config SagemakerCluster#fsx_lustre_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#fsx_lustre_config SagemakerCluster#fsx_lustre_config}
 
 ---
 
@@ -3725,7 +3825,7 @@ PerUnitStorageThroughput *f64
 
 The throughput capacity of the FSx for Lustre file system, measured in MB/s per TiB of storage.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#per_unit_storage_throughput SagemakerCluster#per_unit_storage_throughput}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#per_unit_storage_throughput SagemakerCluster#per_unit_storage_throughput}
 
 ---
 
@@ -3739,7 +3839,7 @@ SizeInGiB *f64
 
 The storage capacity of the FSx for Lustre file system, specified in gibibytes (GiB).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#size_in_gi_b SagemakerCluster#size_in_gi_b}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#size_in_gi_b SagemakerCluster#size_in_gi_b}
 
 ---
 
@@ -3779,7 +3879,7 @@ Defines the configuration for attaching additional Amazon Elastic Block Store (E
 
 The additional EBS volume is attached to each instance within the SageMaker HyperPod cluster instance group and mounted to /opt/sagemaker.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#ebs_volume_config SagemakerCluster#ebs_volume_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#ebs_volume_config SagemakerCluster#ebs_volume_config}
 
 ---
 
@@ -3793,7 +3893,7 @@ FsxLustreConfig SagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsFs
 
 Configuration for mounting an Amazon FSx Lustre file system to the instances in the SageMaker HyperPod cluster instance group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#fsx_lustre_config SagemakerCluster#fsx_lustre_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#fsx_lustre_config SagemakerCluster#fsx_lustre_config}
 
 ---
 
@@ -3807,7 +3907,7 @@ FsxOpenZfsConfig SagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsF
 
 Configuration for mounting an Amazon FSx OpenZFS file system to the instances in the SageMaker HyperPod cluster instance group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#fsx_open_zfs_config SagemakerCluster#fsx_open_zfs_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#fsx_open_zfs_config SagemakerCluster#fsx_open_zfs_config}
 
 ---
 
@@ -3829,8 +3929,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakercluster"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsEbsVolumeConfig.property.rootVolume">RootVolume</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#root_volume SagemakerCluster#root_volume}. |
-| <code><a href="#@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsEbsVolumeConfig.property.volumeKmsKeyId">VolumeKmsKeyId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#volume_kms_key_id SagemakerCluster#volume_kms_key_id}. |
+| <code><a href="#@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsEbsVolumeConfig.property.rootVolume">RootVolume</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#root_volume SagemakerCluster#root_volume}. |
+| <code><a href="#@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsEbsVolumeConfig.property.volumeKmsKeyId">VolumeKmsKeyId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#volume_kms_key_id SagemakerCluster#volume_kms_key_id}. |
 | <code><a href="#@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsEbsVolumeConfig.property.volumeSizeInGb">VolumeSizeInGb</a></code> | <code>*f64</code> | The size in gigabytes (GB) of the additional EBS volume to be attached to the instances in the SageMaker HyperPod cluster instance group. |
 
 ---
@@ -3843,7 +3943,7 @@ RootVolume interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#root_volume SagemakerCluster#root_volume}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#root_volume SagemakerCluster#root_volume}.
 
 ---
 
@@ -3855,7 +3955,7 @@ VolumeKmsKeyId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#volume_kms_key_id SagemakerCluster#volume_kms_key_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#volume_kms_key_id SagemakerCluster#volume_kms_key_id}.
 
 ---
 
@@ -3871,7 +3971,7 @@ The size in gigabytes (GB) of the additional EBS volume to be attached to the in
 
 The additional EBS volume is attached to each instance within the SageMaker HyperPod cluster instance group and mounted to /opt/sagemaker.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#volume_size_in_gb SagemakerCluster#volume_size_in_gb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#volume_size_in_gb SagemakerCluster#volume_size_in_gb}
 
 ---
 
@@ -3909,7 +4009,7 @@ DnsName *string
 
 The DNS name of the FSx for Lustre file system.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#dns_name SagemakerCluster#dns_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#dns_name SagemakerCluster#dns_name}
 
 ---
 
@@ -3923,7 +4023,7 @@ MountName *string
 
 The mount name of the FSx for Lustre file system.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#mount_name SagemakerCluster#mount_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#mount_name SagemakerCluster#mount_name}
 
 ---
 
@@ -3937,7 +4037,7 @@ MountPath *string
 
 The mount path for the FSx for Lustre file system.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#mount_path SagemakerCluster#mount_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#mount_path SagemakerCluster#mount_path}
 
 ---
 
@@ -3973,7 +4073,7 @@ DnsName *string
 
 The DNS name of the FSx for OpenZFS file system.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#dns_name SagemakerCluster#dns_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#dns_name SagemakerCluster#dns_name}
 
 ---
 
@@ -3987,7 +4087,7 @@ MountPath *string
 
 The mount path for the FSx for OpenZFS file system.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#mount_path SagemakerCluster#mount_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#mount_path SagemakerCluster#mount_path}
 
 ---
 
@@ -4025,7 +4125,7 @@ The VPC security group IDs, in the form sg-xxxxxxxx.
 
 Specify the security groups for the VPC that is specified in the Subnets field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#security_group_ids SagemakerCluster#security_group_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#security_group_ids SagemakerCluster#security_group_ids}
 
 ---
 
@@ -4039,7 +4139,7 @@ Subnets *[]*string
 
 The ID of the subnets in the VPC to which you want to connect your training job or model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#subnets SagemakerCluster#subnets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#subnets SagemakerCluster#subnets}
 
 ---
 
@@ -4077,7 +4177,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#key SagemakerCluster#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#key SagemakerCluster#key}
 
 ---
 
@@ -4093,7 +4193,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#value SagemakerCluster#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#value SagemakerCluster#value}
 
 ---
 
@@ -4129,7 +4229,7 @@ InstanceMemoryAllocationPercentage *f64
 
 The percentage of instance memory to allocate for tiered storage.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#instance_memory_allocation_percentage SagemakerCluster#instance_memory_allocation_percentage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#instance_memory_allocation_percentage SagemakerCluster#instance_memory_allocation_percentage}
 
 ---
 
@@ -4143,7 +4243,7 @@ Mode *string
 
 The mode of tiered storage.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#mode SagemakerCluster#mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#mode SagemakerCluster#mode}
 
 ---
 
@@ -4181,7 +4281,7 @@ The VPC security group IDs, in the form sg-xxxxxxxx.
 
 Specify the security groups for the VPC that is specified in the Subnets field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#security_group_ids SagemakerCluster#security_group_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#security_group_ids SagemakerCluster#security_group_ids}
 
 ---
 
@@ -4195,7 +4295,7 @@ Subnets *[]*string
 
 The ID of the subnets in the VPC to which you want to connect your training job or model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#subnets SagemakerCluster#subnets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#subnets SagemakerCluster#subnets}
 
 ---
 
@@ -14925,6 +15025,371 @@ func InternalValue() interface{}
 ---
 
 
+### SagemakerClusterOrchestratorSlurmAccountingDatabaseOutputReference <a name="SagemakerClusterOrchestratorSlurmAccountingDatabaseOutputReference" id="@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmAccountingDatabaseOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmAccountingDatabaseOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakercluster"
+
+sagemakercluster.NewSagemakerClusterOrchestratorSlurmAccountingDatabaseOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SagemakerClusterOrchestratorSlurmAccountingDatabaseOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmAccountingDatabaseOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmAccountingDatabaseOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmAccountingDatabaseOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmAccountingDatabaseOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmAccountingDatabaseOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmAccountingDatabaseOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmAccountingDatabaseOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmAccountingDatabaseOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmAccountingDatabaseOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmAccountingDatabaseOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmAccountingDatabaseOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmAccountingDatabaseOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmAccountingDatabaseOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmAccountingDatabaseOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmAccountingDatabaseOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmAccountingDatabaseOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmAccountingDatabaseOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmAccountingDatabaseOutputReference.resetEndpoint">ResetEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmAccountingDatabaseOutputReference.resetName">ResetName</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmAccountingDatabaseOutputReference.resetPort">ResetPort</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmAccountingDatabaseOutputReference.resetSecretArn">ResetSecretArn</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmAccountingDatabaseOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmAccountingDatabaseOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmAccountingDatabaseOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmAccountingDatabaseOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmAccountingDatabaseOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmAccountingDatabaseOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmAccountingDatabaseOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmAccountingDatabaseOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmAccountingDatabaseOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmAccountingDatabaseOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmAccountingDatabaseOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmAccountingDatabaseOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmAccountingDatabaseOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmAccountingDatabaseOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmAccountingDatabaseOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmAccountingDatabaseOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmAccountingDatabaseOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmAccountingDatabaseOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmAccountingDatabaseOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmAccountingDatabaseOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmAccountingDatabaseOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmAccountingDatabaseOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmAccountingDatabaseOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmAccountingDatabaseOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `ResetEndpoint` <a name="ResetEndpoint" id="@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmAccountingDatabaseOutputReference.resetEndpoint"></a>
+
+```go
+func ResetEndpoint()
+```
+
+##### `ResetName` <a name="ResetName" id="@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmAccountingDatabaseOutputReference.resetName"></a>
+
+```go
+func ResetName()
+```
+
+##### `ResetPort` <a name="ResetPort" id="@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmAccountingDatabaseOutputReference.resetPort"></a>
+
+```go
+func ResetPort()
+```
+
+##### `ResetSecretArn` <a name="ResetSecretArn" id="@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmAccountingDatabaseOutputReference.resetSecretArn"></a>
+
+```go
+func ResetSecretArn()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmAccountingDatabaseOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmAccountingDatabaseOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmAccountingDatabaseOutputReference.property.endpointInput">EndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmAccountingDatabaseOutputReference.property.nameInput">NameInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmAccountingDatabaseOutputReference.property.portInput">PortInput</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmAccountingDatabaseOutputReference.property.secretArnInput">SecretArnInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmAccountingDatabaseOutputReference.property.endpoint">Endpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmAccountingDatabaseOutputReference.property.name">Name</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmAccountingDatabaseOutputReference.property.port">Port</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmAccountingDatabaseOutputReference.property.secretArn">SecretArn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmAccountingDatabaseOutputReference.property.internalValue">InternalValue</a></code> | <code>interface{}</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmAccountingDatabaseOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmAccountingDatabaseOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `EndpointInput`<sup>Optional</sup> <a name="EndpointInput" id="@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmAccountingDatabaseOutputReference.property.endpointInput"></a>
+
+```go
+func EndpointInput() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `NameInput`<sup>Optional</sup> <a name="NameInput" id="@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmAccountingDatabaseOutputReference.property.nameInput"></a>
+
+```go
+func NameInput() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `PortInput`<sup>Optional</sup> <a name="PortInput" id="@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmAccountingDatabaseOutputReference.property.portInput"></a>
+
+```go
+func PortInput() *f64
+```
+
+- *Type:* *f64
+
+---
+
+##### `SecretArnInput`<sup>Optional</sup> <a name="SecretArnInput" id="@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmAccountingDatabaseOutputReference.property.secretArnInput"></a>
+
+```go
+func SecretArnInput() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `Endpoint`<sup>Required</sup> <a name="Endpoint" id="@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmAccountingDatabaseOutputReference.property.endpoint"></a>
+
+```go
+func Endpoint() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `Name`<sup>Required</sup> <a name="Name" id="@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmAccountingDatabaseOutputReference.property.name"></a>
+
+```go
+func Name() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `Port`<sup>Required</sup> <a name="Port" id="@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmAccountingDatabaseOutputReference.property.port"></a>
+
+```go
+func Port() *f64
+```
+
+- *Type:* *f64
+
+---
+
+##### `SecretArn`<sup>Required</sup> <a name="SecretArn" id="@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmAccountingDatabaseOutputReference.property.secretArn"></a>
+
+```go
+func SecretArn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmAccountingDatabaseOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
+
 ### SagemakerClusterOrchestratorSlurmOutputReference <a name="SagemakerClusterOrchestratorSlurmOutputReference" id="@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmOutputReference.Initializer"></a>
@@ -14975,6 +15440,8 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmOutputReference.putAccountingDatabase">PutAccountingDatabase</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmOutputReference.resetAccountingDatabase">ResetAccountingDatabase</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmOutputReference.resetSlurmConfigStrategy">ResetSlurmConfigStrategy</a></code> | *No description.* |
 
 ---
@@ -15129,6 +15596,24 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
+##### `PutAccountingDatabase` <a name="PutAccountingDatabase" id="@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmOutputReference.putAccountingDatabase"></a>
+
+```go
+func PutAccountingDatabase(value SagemakerClusterOrchestratorSlurmAccountingDatabase)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmOutputReference.putAccountingDatabase.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmAccountingDatabase">SagemakerClusterOrchestratorSlurmAccountingDatabase</a>
+
+---
+
+##### `ResetAccountingDatabase` <a name="ResetAccountingDatabase" id="@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmOutputReference.resetAccountingDatabase"></a>
+
+```go
+func ResetAccountingDatabase()
+```
+
 ##### `ResetSlurmConfigStrategy` <a name="ResetSlurmConfigStrategy" id="@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmOutputReference.resetSlurmConfigStrategy"></a>
 
 ```go
@@ -15142,6 +15627,8 @@ func ResetSlurmConfigStrategy()
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmOutputReference.property.accountingDatabase">AccountingDatabase</a></code> | <code><a href="#@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmAccountingDatabaseOutputReference">SagemakerClusterOrchestratorSlurmAccountingDatabaseOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmOutputReference.property.accountingDatabaseInput">AccountingDatabaseInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmOutputReference.property.slurmConfigStrategyInput">SlurmConfigStrategyInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmOutputReference.property.slurmConfigStrategy">SlurmConfigStrategy</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmOutputReference.property.internalValue">InternalValue</a></code> | <code>interface{}</code> | *No description.* |
@@ -15169,6 +15656,26 @@ func Fqn() *string
 ```
 
 - *Type:* *string
+
+---
+
+##### `AccountingDatabase`<sup>Required</sup> <a name="AccountingDatabase" id="@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmOutputReference.property.accountingDatabase"></a>
+
+```go
+func AccountingDatabase() SagemakerClusterOrchestratorSlurmAccountingDatabaseOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmAccountingDatabaseOutputReference">SagemakerClusterOrchestratorSlurmAccountingDatabaseOutputReference</a>
+
+---
+
+##### `AccountingDatabaseInput`<sup>Optional</sup> <a name="AccountingDatabaseInput" id="@cdktn/provider-awscc.sagemakerCluster.SagemakerClusterOrchestratorSlurmOutputReference.property.accountingDatabaseInput"></a>
+
+```go
+func AccountingDatabaseInput() interface{}
+```
+
+- *Type:* interface{}
 
 ---
 

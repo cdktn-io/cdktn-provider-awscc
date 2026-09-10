@@ -4,7 +4,7 @@
 
 ### DataAwsccIotTopicRule <a name="DataAwsccIotTopicRule" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRule"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/iot_topic_rule awscc_iot_topic_rule}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/iot_topic_rule awscc_iot_topic_rule}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRule.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIotTopicRule to i
 
 The id of the existing DataAwsccIotTopicRule that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/iot_topic_rule#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/iot_topic_rule#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -740,7 +740,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/iot_topic_rule#id DataAwsccIotTopicRule#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/iot_topic_rule#id DataAwsccIotTopicRule#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -950,6 +950,32 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
 import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
 
 &dataawscciottopicrule.DataAwsccIotTopicRuleTopicRulePayloadActionsHttpHeaders {
+
+}
+```
+
+
+### DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDb <a name="DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDb" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDb"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDb.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+
+&dataawscciottopicrule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDb {
+
+}
+```
+
+
+### DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbBatchConfig <a name="DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbBatchConfig" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbBatchConfig"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbBatchConfig.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+
+&dataawscciottopicrule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbBatchConfig {
 
 }
 ```
@@ -1444,6 +1470,32 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
 import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
 
 &dataawscciottopicrule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionHttpHeaders {
+
+}
+```
+
+
+### DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDb <a name="DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDb" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDb"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDb.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+
+&dataawscciottopicrule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDb {
+
+}
+```
+
+
+### DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbBatchConfig <a name="DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbBatchConfig" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbBatchConfig"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbBatchConfig.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+
+&dataawscciottopicrule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbBatchConfig {
 
 }
 ```
@@ -6151,6 +6203,636 @@ func InternalValue() DataAwsccIotTopicRuleTopicRulePayloadActionsHttp
 ```
 
 - *Type:* <a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsHttp">DataAwsccIotTopicRuleTopicRulePayloadActionsHttp</a>
+
+---
+
+
+### DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbBatchConfigOutputReference <a name="DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbBatchConfigOutputReference" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbBatchConfigOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbBatchConfigOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+
+dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbBatchConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbBatchConfigOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbBatchConfigOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbBatchConfigOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbBatchConfigOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbBatchConfigOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbBatchConfigOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbBatchConfigOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbBatchConfigOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbBatchConfigOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbBatchConfigOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbBatchConfigOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbBatchConfigOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbBatchConfigOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbBatchConfigOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbBatchConfigOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbBatchConfigOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbBatchConfigOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbBatchConfigOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbBatchConfigOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbBatchConfigOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbBatchConfigOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbBatchConfigOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbBatchConfigOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbBatchConfigOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbBatchConfigOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbBatchConfigOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbBatchConfigOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbBatchConfigOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbBatchConfigOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbBatchConfigOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbBatchConfigOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbBatchConfigOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbBatchConfigOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbBatchConfigOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbBatchConfigOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbBatchConfigOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbBatchConfigOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbBatchConfigOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbBatchConfigOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbBatchConfigOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbBatchConfigOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbBatchConfigOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbBatchConfigOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbBatchConfigOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbBatchConfigOutputReference.property.batchAcrossTopics">BatchAcrossTopics</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbBatchConfigOutputReference.property.maxBatchOpenMs">MaxBatchOpenMs</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbBatchConfigOutputReference.property.maxBatchSize">MaxBatchSize</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbBatchConfigOutputReference.property.maxBatchSizeBytes">MaxBatchSizeBytes</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbBatchConfigOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbBatchConfig">DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbBatchConfig</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbBatchConfigOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbBatchConfigOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `BatchAcrossTopics`<sup>Required</sup> <a name="BatchAcrossTopics" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbBatchConfigOutputReference.property.batchAcrossTopics"></a>
+
+```go
+func BatchAcrossTopics() IResolvable
+```
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable
+
+---
+
+##### `MaxBatchOpenMs`<sup>Required</sup> <a name="MaxBatchOpenMs" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbBatchConfigOutputReference.property.maxBatchOpenMs"></a>
+
+```go
+func MaxBatchOpenMs() *f64
+```
+
+- *Type:* *f64
+
+---
+
+##### `MaxBatchSize`<sup>Required</sup> <a name="MaxBatchSize" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbBatchConfigOutputReference.property.maxBatchSize"></a>
+
+```go
+func MaxBatchSize() *f64
+```
+
+- *Type:* *f64
+
+---
+
+##### `MaxBatchSizeBytes`<sup>Required</sup> <a name="MaxBatchSizeBytes" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbBatchConfigOutputReference.property.maxBatchSizeBytes"></a>
+
+```go
+func MaxBatchSizeBytes() *f64
+```
+
+- *Type:* *f64
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbBatchConfigOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbBatchConfig
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbBatchConfig">DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbBatchConfig</a>
+
+---
+
+
+### DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbOutputReference <a name="DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbOutputReference" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+
+dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbOutputReference.property.batchConfig">BatchConfig</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbBatchConfigOutputReference">DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbBatchConfigOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbOutputReference.property.databaseName">DatabaseName</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbOutputReference.property.destinationArn">DestinationArn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbOutputReference.property.organization">Organization</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbOutputReference.property.roleArn">RoleArn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbOutputReference.property.tableName">TableName</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbOutputReference.property.tags">Tags</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.StringMap</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbOutputReference.property.timestampUnit">TimestampUnit</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDb">DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDb</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `BatchConfig`<sup>Required</sup> <a name="BatchConfig" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbOutputReference.property.batchConfig"></a>
+
+```go
+func BatchConfig() DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbBatchConfigOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbBatchConfigOutputReference">DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbBatchConfigOutputReference</a>
+
+---
+
+##### `DatabaseName`<sup>Required</sup> <a name="DatabaseName" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbOutputReference.property.databaseName"></a>
+
+```go
+func DatabaseName() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `DestinationArn`<sup>Required</sup> <a name="DestinationArn" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbOutputReference.property.destinationArn"></a>
+
+```go
+func DestinationArn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `Organization`<sup>Required</sup> <a name="Organization" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbOutputReference.property.organization"></a>
+
+```go
+func Organization() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `RoleArn`<sup>Required</sup> <a name="RoleArn" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbOutputReference.property.roleArn"></a>
+
+```go
+func RoleArn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `TableName`<sup>Required</sup> <a name="TableName" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbOutputReference.property.tableName"></a>
+
+```go
+func TableName() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `Tags`<sup>Required</sup> <a name="Tags" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbOutputReference.property.tags"></a>
+
+```go
+func Tags() StringMap
+```
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.StringMap
+
+---
+
+##### `TimestampUnit`<sup>Required</sup> <a name="TimestampUnit" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbOutputReference.property.timestampUnit"></a>
+
+```go
+func TimestampUnit() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDb
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDb">DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDb</a>
 
 ---
 
@@ -11055,6 +11737,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsOutputReference.property.elasticsearch">Elasticsearch</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsElasticsearchOutputReference">DataAwsccIotTopicRuleTopicRulePayloadActionsElasticsearchOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsOutputReference.property.firehose">Firehose</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsFirehoseOutputReference">DataAwsccIotTopicRuleTopicRulePayloadActionsFirehoseOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsOutputReference.property.http">Http</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsHttpOutputReference">DataAwsccIotTopicRuleTopicRulePayloadActionsHttpOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsOutputReference.property.influxDb">InfluxDb</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbOutputReference">DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsOutputReference.property.iotAnalytics">IotAnalytics</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsIotAnalyticsOutputReference">DataAwsccIotTopicRuleTopicRulePayloadActionsIotAnalyticsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsOutputReference.property.iotEvents">IotEvents</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsIotEventsOutputReference">DataAwsccIotTopicRuleTopicRulePayloadActionsIotEventsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsOutputReference.property.iotSiteWise">IotSiteWise</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsIotSiteWiseOutputReference">DataAwsccIotTopicRuleTopicRulePayloadActionsIotSiteWiseOutputReference</a></code> | *No description.* |
@@ -11174,6 +11857,16 @@ func Http() DataAwsccIotTopicRuleTopicRulePayloadActionsHttpOutputReference
 ```
 
 - *Type:* <a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsHttpOutputReference">DataAwsccIotTopicRuleTopicRulePayloadActionsHttpOutputReference</a>
+
+---
+
+##### `InfluxDb`<sup>Required</sup> <a name="InfluxDb" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsOutputReference.property.influxDb"></a>
+
+```go
+func InfluxDb() DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbOutputReference">DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbOutputReference</a>
 
 ---
 
@@ -18480,6 +19173,636 @@ func InternalValue() DataAwsccIotTopicRuleTopicRulePayloadErrorActionHttp
 ---
 
 
+### DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbBatchConfigOutputReference <a name="DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbBatchConfigOutputReference" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbBatchConfigOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbBatchConfigOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+
+dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbBatchConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbBatchConfigOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbBatchConfigOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbBatchConfigOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbBatchConfigOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbBatchConfigOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbBatchConfigOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbBatchConfigOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbBatchConfigOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbBatchConfigOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbBatchConfigOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbBatchConfigOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbBatchConfigOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbBatchConfigOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbBatchConfigOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbBatchConfigOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbBatchConfigOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbBatchConfigOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbBatchConfigOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbBatchConfigOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbBatchConfigOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbBatchConfigOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbBatchConfigOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbBatchConfigOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbBatchConfigOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbBatchConfigOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbBatchConfigOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbBatchConfigOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbBatchConfigOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbBatchConfigOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbBatchConfigOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbBatchConfigOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbBatchConfigOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbBatchConfigOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbBatchConfigOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbBatchConfigOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbBatchConfigOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbBatchConfigOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbBatchConfigOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbBatchConfigOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbBatchConfigOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbBatchConfigOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbBatchConfigOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbBatchConfigOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbBatchConfigOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbBatchConfigOutputReference.property.batchAcrossTopics">BatchAcrossTopics</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbBatchConfigOutputReference.property.maxBatchOpenMs">MaxBatchOpenMs</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbBatchConfigOutputReference.property.maxBatchSize">MaxBatchSize</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbBatchConfigOutputReference.property.maxBatchSizeBytes">MaxBatchSizeBytes</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbBatchConfigOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbBatchConfig">DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbBatchConfig</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbBatchConfigOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbBatchConfigOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `BatchAcrossTopics`<sup>Required</sup> <a name="BatchAcrossTopics" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbBatchConfigOutputReference.property.batchAcrossTopics"></a>
+
+```go
+func BatchAcrossTopics() IResolvable
+```
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable
+
+---
+
+##### `MaxBatchOpenMs`<sup>Required</sup> <a name="MaxBatchOpenMs" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbBatchConfigOutputReference.property.maxBatchOpenMs"></a>
+
+```go
+func MaxBatchOpenMs() *f64
+```
+
+- *Type:* *f64
+
+---
+
+##### `MaxBatchSize`<sup>Required</sup> <a name="MaxBatchSize" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbBatchConfigOutputReference.property.maxBatchSize"></a>
+
+```go
+func MaxBatchSize() *f64
+```
+
+- *Type:* *f64
+
+---
+
+##### `MaxBatchSizeBytes`<sup>Required</sup> <a name="MaxBatchSizeBytes" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbBatchConfigOutputReference.property.maxBatchSizeBytes"></a>
+
+```go
+func MaxBatchSizeBytes() *f64
+```
+
+- *Type:* *f64
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbBatchConfigOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbBatchConfig
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbBatchConfig">DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbBatchConfig</a>
+
+---
+
+
+### DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbOutputReference <a name="DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbOutputReference" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+
+dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbOutputReference.property.batchConfig">BatchConfig</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbBatchConfigOutputReference">DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbBatchConfigOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbOutputReference.property.databaseName">DatabaseName</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbOutputReference.property.destinationArn">DestinationArn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbOutputReference.property.organization">Organization</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbOutputReference.property.roleArn">RoleArn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbOutputReference.property.tableName">TableName</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbOutputReference.property.tags">Tags</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.StringMap</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbOutputReference.property.timestampUnit">TimestampUnit</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDb">DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDb</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `BatchConfig`<sup>Required</sup> <a name="BatchConfig" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbOutputReference.property.batchConfig"></a>
+
+```go
+func BatchConfig() DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbBatchConfigOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbBatchConfigOutputReference">DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbBatchConfigOutputReference</a>
+
+---
+
+##### `DatabaseName`<sup>Required</sup> <a name="DatabaseName" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbOutputReference.property.databaseName"></a>
+
+```go
+func DatabaseName() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `DestinationArn`<sup>Required</sup> <a name="DestinationArn" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbOutputReference.property.destinationArn"></a>
+
+```go
+func DestinationArn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `Organization`<sup>Required</sup> <a name="Organization" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbOutputReference.property.organization"></a>
+
+```go
+func Organization() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `RoleArn`<sup>Required</sup> <a name="RoleArn" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbOutputReference.property.roleArn"></a>
+
+```go
+func RoleArn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `TableName`<sup>Required</sup> <a name="TableName" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbOutputReference.property.tableName"></a>
+
+```go
+func TableName() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `Tags`<sup>Required</sup> <a name="Tags" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbOutputReference.property.tags"></a>
+
+```go
+func Tags() StringMap
+```
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.StringMap
+
+---
+
+##### `TimestampUnit`<sup>Required</sup> <a name="TimestampUnit" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbOutputReference.property.timestampUnit"></a>
+
+```go
+func TimestampUnit() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDb
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDb">DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDb</a>
+
+---
+
+
 ### DataAwsccIotTopicRuleTopicRulePayloadErrorActionIotAnalyticsOutputReference <a name="DataAwsccIotTopicRuleTopicRulePayloadErrorActionIotAnalyticsOutputReference" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionIotAnalyticsOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionIotAnalyticsOutputReference.Initializer"></a>
@@ -23213,6 +24536,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionOutputReference.property.elasticsearch">Elasticsearch</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionElasticsearchOutputReference">DataAwsccIotTopicRuleTopicRulePayloadErrorActionElasticsearchOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionOutputReference.property.firehose">Firehose</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionFirehoseOutputReference">DataAwsccIotTopicRuleTopicRulePayloadErrorActionFirehoseOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionOutputReference.property.http">Http</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionHttpOutputReference">DataAwsccIotTopicRuleTopicRulePayloadErrorActionHttpOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionOutputReference.property.influxDb">InfluxDb</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbOutputReference">DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionOutputReference.property.iotAnalytics">IotAnalytics</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionIotAnalyticsOutputReference">DataAwsccIotTopicRuleTopicRulePayloadErrorActionIotAnalyticsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionOutputReference.property.iotEvents">IotEvents</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionIotEventsOutputReference">DataAwsccIotTopicRuleTopicRulePayloadErrorActionIotEventsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionOutputReference.property.iotSiteWise">IotSiteWise</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionIotSiteWiseOutputReference">DataAwsccIotTopicRuleTopicRulePayloadErrorActionIotSiteWiseOutputReference</a></code> | *No description.* |
@@ -23332,6 +24656,16 @@ func Http() DataAwsccIotTopicRuleTopicRulePayloadErrorActionHttpOutputReference
 ```
 
 - *Type:* <a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionHttpOutputReference">DataAwsccIotTopicRuleTopicRulePayloadErrorActionHttpOutputReference</a>
+
+---
+
+##### `InfluxDb`<sup>Required</sup> <a name="InfluxDb" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionOutputReference.property.influxDb"></a>
+
+```go
+func InfluxDb() DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbOutputReference">DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbOutputReference</a>
 
 ---
 

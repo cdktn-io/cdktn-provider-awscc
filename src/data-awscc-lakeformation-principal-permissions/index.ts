@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/lakeformation_principal_permissions
+// https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/lakeformation_principal_permissions
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccLakeformationPrincipalPermissionsConfig extends cdktn.
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/lakeformation_principal_permissions#id DataAwsccLakeformationPrincipalPermissions#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/lakeformation_principal_permissions#id DataAwsccLakeformationPrincipalPermissions#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -823,7 +823,7 @@ export class DataAwsccLakeformationPrincipalPermissionsResourceOutputReference e
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/lakeformation_principal_permissions awscc_lakeformation_principal_permissions}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/lakeformation_principal_permissions awscc_lakeformation_principal_permissions}
 */
 export class DataAwsccLakeformationPrincipalPermissions extends cdktn.TerraformDataSource {
 
@@ -839,7 +839,7 @@ export class DataAwsccLakeformationPrincipalPermissions extends cdktn.TerraformD
   * Generates CDKTN code for importing a DataAwsccLakeformationPrincipalPermissions resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccLakeformationPrincipalPermissions to import
-  * @param importFromId The id of the existing DataAwsccLakeformationPrincipalPermissions that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/lakeformation_principal_permissions#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccLakeformationPrincipalPermissions that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/lakeformation_principal_permissions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccLakeformationPrincipalPermissions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -851,7 +851,7 @@ export class DataAwsccLakeformationPrincipalPermissions extends cdktn.TerraformD
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/lakeformation_principal_permissions awscc_lakeformation_principal_permissions} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/lakeformation_principal_permissions awscc_lakeformation_principal_permissions} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -862,7 +862,7 @@ export class DataAwsccLakeformationPrincipalPermissions extends cdktn.TerraformD
       terraformResourceType: 'awscc_lakeformation_principal_permissions',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.100.0',
+        providerVersion: '1.101.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

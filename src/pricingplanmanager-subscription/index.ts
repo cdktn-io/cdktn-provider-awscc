@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/pricingplanmanager_subscription
+// https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/pricingplanmanager_subscription
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,29 +15,29 @@ export interface PricingplanmanagerSubscriptionConfig extends cdktn.TerraformMet
   /**
   * The name of the pricing plan family.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/pricingplanmanager_subscription#plan_family PricingplanmanagerSubscription#plan_family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/pricingplanmanager_subscription#plan_family PricingplanmanagerSubscription#plan_family}
   */
   readonly planFamily: string;
   /**
-  * The tier of the pricing plan. Upgrades take effect immediately. However, rolling back an upgrade does not revert billing instantly; it schedules a downgrade to the end of the current billing period, and the higher-tier charge applies for the remainder of that month. While a downgrade is scheduled, the CurrentPlanTier property reports the tier currently being billed.
+  * The tier of the pricing plan. CloudFormation does not change the tier of an existing subscription; a stack update that changes the tier, upgrading or downgrading it, is rejected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/pricingplanmanager_subscription#plan_tier PricingplanmanagerSubscription#plan_tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/pricingplanmanager_subscription#plan_tier PricingplanmanagerSubscription#plan_tier}
   */
   readonly planTier: string;
   /**
   * The ARNs of resources associated with the subscription.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/pricingplanmanager_subscription#resource_arns PricingplanmanagerSubscription#resource_arns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/pricingplanmanager_subscription#resource_arns PricingplanmanagerSubscription#resource_arns}
   */
   readonly resourceArns: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/pricingplanmanager_subscription#usage_level PricingplanmanagerSubscription#usage_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/pricingplanmanager_subscription#usage_level PricingplanmanagerSubscription#usage_level}
   */
   readonly usageLevel?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/pricingplanmanager_subscription awscc_pricingplanmanager_subscription}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/pricingplanmanager_subscription awscc_pricingplanmanager_subscription}
 */
 export class PricingplanmanagerSubscription extends cdktn.TerraformResource {
 
@@ -53,7 +53,7 @@ export class PricingplanmanagerSubscription extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a PricingplanmanagerSubscription resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PricingplanmanagerSubscription to import
-  * @param importFromId The id of the existing PricingplanmanagerSubscription that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/pricingplanmanager_subscription#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PricingplanmanagerSubscription that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/pricingplanmanager_subscription#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PricingplanmanagerSubscription to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -65,7 +65,7 @@ export class PricingplanmanagerSubscription extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/pricingplanmanager_subscription awscc_pricingplanmanager_subscription} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/pricingplanmanager_subscription awscc_pricingplanmanager_subscription} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -76,7 +76,7 @@ export class PricingplanmanagerSubscription extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_pricingplanmanager_subscription',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.100.0',
+        providerVersion: '1.101.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

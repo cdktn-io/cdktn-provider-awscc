@@ -4,7 +4,7 @@
 
 ### SagemakerEndpoint <a name="SagemakerEndpoint" id="@cdktn/provider-awscc.sagemakerEndpoint.SagemakerEndpoint"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_endpoint awscc_sagemaker_endpoint}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_endpoint awscc_sagemaker_endpoint}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sagemakerEndpoint.SagemakerEndpoint.Initializer"></a>
 
@@ -78,6 +78,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-awscc.sagemakerEndpoint.SagemakerEndpoint.putExcludeRetainedVariantProperties">PutExcludeRetainedVariantProperties</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.sagemakerEndpoint.SagemakerEndpoint.putTags">PutTags</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.sagemakerEndpoint.SagemakerEndpoint.resetDeploymentConfig">ResetDeploymentConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sagemakerEndpoint.SagemakerEndpoint.resetEndpointName">ResetEndpointName</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.sagemakerEndpoint.SagemakerEndpoint.resetExcludeRetainedVariantProperties">ResetExcludeRetainedVariantProperties</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.sagemakerEndpoint.SagemakerEndpoint.resetRetainAllVariantProperties">ResetRetainAllVariantProperties</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.sagemakerEndpoint.SagemakerEndpoint.resetRetainDeploymentConfig">ResetRetainDeploymentConfig</a></code> | *No description.* |
@@ -436,6 +437,12 @@ func PutTags(value interface{})
 func ResetDeploymentConfig()
 ```
 
+##### `ResetEndpointName` <a name="ResetEndpointName" id="@cdktn/provider-awscc.sagemakerEndpoint.SagemakerEndpoint.resetEndpointName"></a>
+
+```go
+func ResetEndpointName()
+```
+
 ##### `ResetExcludeRetainedVariantProperties` <a name="ResetExcludeRetainedVariantProperties" id="@cdktn/provider-awscc.sagemakerEndpoint.SagemakerEndpoint.resetExcludeRetainedVariantProperties"></a>
 
 ```go
@@ -563,7 +570,7 @@ The construct id used in the generated config for the SagemakerEndpoint to impor
 
 The id of the existing SagemakerEndpoint that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_endpoint#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_endpoint#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -595,17 +602,18 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.10
 | <code><a href="#@cdktn/provider-awscc.sagemakerEndpoint.SagemakerEndpoint.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.sagemakerEndpoint.SagemakerEndpoint.property.deploymentConfig">DeploymentConfig</a></code> | <code><a href="#@cdktn/provider-awscc.sagemakerEndpoint.SagemakerEndpointDeploymentConfigOutputReference">SagemakerEndpointDeploymentConfigOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.sagemakerEndpoint.SagemakerEndpoint.property.endpointArn">EndpointArn</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.sagemakerEndpoint.SagemakerEndpoint.property.endpointName">EndpointName</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.sagemakerEndpoint.SagemakerEndpoint.property.excludeRetainedVariantProperties">ExcludeRetainedVariantProperties</a></code> | <code><a href="#@cdktn/provider-awscc.sagemakerEndpoint.SagemakerEndpointExcludeRetainedVariantPropertiesList">SagemakerEndpointExcludeRetainedVariantPropertiesList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.sagemakerEndpoint.SagemakerEndpoint.property.id">Id</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.sagemakerEndpoint.SagemakerEndpoint.property.tags">Tags</a></code> | <code><a href="#@cdktn/provider-awscc.sagemakerEndpoint.SagemakerEndpointTagsList">SagemakerEndpointTagsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.sagemakerEndpoint.SagemakerEndpoint.property.deploymentConfigInput">DeploymentConfigInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.sagemakerEndpoint.SagemakerEndpoint.property.endpointConfigNameInput">EndpointConfigNameInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sagemakerEndpoint.SagemakerEndpoint.property.endpointNameInput">EndpointNameInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.sagemakerEndpoint.SagemakerEndpoint.property.excludeRetainedVariantPropertiesInput">ExcludeRetainedVariantPropertiesInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.sagemakerEndpoint.SagemakerEndpoint.property.retainAllVariantPropertiesInput">RetainAllVariantPropertiesInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.sagemakerEndpoint.SagemakerEndpoint.property.retainDeploymentConfigInput">RetainDeploymentConfigInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.sagemakerEndpoint.SagemakerEndpoint.property.tagsInput">TagsInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.sagemakerEndpoint.SagemakerEndpoint.property.endpointConfigName">EndpointConfigName</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sagemakerEndpoint.SagemakerEndpoint.property.endpointName">EndpointName</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.sagemakerEndpoint.SagemakerEndpoint.property.retainAllVariantProperties">RetainAllVariantProperties</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.sagemakerEndpoint.SagemakerEndpoint.property.retainDeploymentConfig">RetainDeploymentConfig</a></code> | <code>interface{}</code> | *No description.* |
 
@@ -773,16 +781,6 @@ func EndpointArn() *string
 
 ---
 
-##### `EndpointName`<sup>Required</sup> <a name="EndpointName" id="@cdktn/provider-awscc.sagemakerEndpoint.SagemakerEndpoint.property.endpointName"></a>
-
-```go
-func EndpointName() *string
-```
-
-- *Type:* *string
-
----
-
 ##### `ExcludeRetainedVariantProperties`<sup>Required</sup> <a name="ExcludeRetainedVariantProperties" id="@cdktn/provider-awscc.sagemakerEndpoint.SagemakerEndpoint.property.excludeRetainedVariantProperties"></a>
 
 ```go
@@ -833,6 +831,16 @@ func EndpointConfigNameInput() *string
 
 ---
 
+##### `EndpointNameInput`<sup>Optional</sup> <a name="EndpointNameInput" id="@cdktn/provider-awscc.sagemakerEndpoint.SagemakerEndpoint.property.endpointNameInput"></a>
+
+```go
+func EndpointNameInput() *string
+```
+
+- *Type:* *string
+
+---
+
 ##### `ExcludeRetainedVariantPropertiesInput`<sup>Optional</sup> <a name="ExcludeRetainedVariantPropertiesInput" id="@cdktn/provider-awscc.sagemakerEndpoint.SagemakerEndpoint.property.excludeRetainedVariantPropertiesInput"></a>
 
 ```go
@@ -877,6 +885,16 @@ func TagsInput() interface{}
 
 ```go
 func EndpointConfigName() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `EndpointName`<sup>Required</sup> <a name="EndpointName" id="@cdktn/provider-awscc.sagemakerEndpoint.SagemakerEndpoint.property.endpointName"></a>
+
+```go
+func EndpointName() *string
 ```
 
 - *Type:* *string
@@ -940,6 +958,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerendpoint"
 	Provisioners: *[]interface{},
 	EndpointConfigName: *string,
 	DeploymentConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.sagemakerEndpoint.SagemakerEndpointDeploymentConfig,
+	EndpointName: *string,
 	ExcludeRetainedVariantProperties: interface{},
 	RetainAllVariantProperties: interface{},
 	RetainDeploymentConfig: interface{},
@@ -960,6 +979,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerendpoint"
 | <code><a href="#@cdktn/provider-awscc.sagemakerEndpoint.SagemakerEndpointConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.sagemakerEndpoint.SagemakerEndpointConfig.property.endpointConfigName">EndpointConfigName</a></code> | <code>*string</code> | The name of the endpoint configuration for the SageMaker endpoint. This is a required property. |
 | <code><a href="#@cdktn/provider-awscc.sagemakerEndpoint.SagemakerEndpointConfig.property.deploymentConfig">DeploymentConfig</a></code> | <code><a href="#@cdktn/provider-awscc.sagemakerEndpoint.SagemakerEndpointDeploymentConfig">SagemakerEndpointDeploymentConfig</a></code> | Specifies deployment configuration for updating the SageMaker endpoint. Includes rollback and update policies. |
+| <code><a href="#@cdktn/provider-awscc.sagemakerEndpoint.SagemakerEndpointConfig.property.endpointName">EndpointName</a></code> | <code>*string</code> | The name of the SageMaker endpoint. This name must be unique within an AWS Region. |
 | <code><a href="#@cdktn/provider-awscc.sagemakerEndpoint.SagemakerEndpointConfig.property.excludeRetainedVariantProperties">ExcludeRetainedVariantProperties</a></code> | <code>interface{}</code> | Specifies a list of variant properties that you want to exclude when updating an endpoint. |
 | <code><a href="#@cdktn/provider-awscc.sagemakerEndpoint.SagemakerEndpointConfig.property.retainAllVariantProperties">RetainAllVariantProperties</a></code> | <code>interface{}</code> | When set to true, retains all variant properties for an endpoint when it is updated. |
 | <code><a href="#@cdktn/provider-awscc.sagemakerEndpoint.SagemakerEndpointConfig.property.retainDeploymentConfig">RetainDeploymentConfig</a></code> | <code>interface{}</code> | When set to true, retains the deployment configuration during endpoint updates. |
@@ -1047,7 +1067,7 @@ EndpointConfigName *string
 
 The name of the endpoint configuration for the SageMaker endpoint. This is a required property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_endpoint#endpoint_config_name SagemakerEndpoint#endpoint_config_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_endpoint#endpoint_config_name SagemakerEndpoint#endpoint_config_name}
 
 ---
 
@@ -1061,7 +1081,21 @@ DeploymentConfig SagemakerEndpointDeploymentConfig
 
 Specifies deployment configuration for updating the SageMaker endpoint. Includes rollback and update policies.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_endpoint#deployment_config SagemakerEndpoint#deployment_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_endpoint#deployment_config SagemakerEndpoint#deployment_config}
+
+---
+
+##### `EndpointName`<sup>Optional</sup> <a name="EndpointName" id="@cdktn/provider-awscc.sagemakerEndpoint.SagemakerEndpointConfig.property.endpointName"></a>
+
+```go
+EndpointName *string
+```
+
+- *Type:* *string
+
+The name of the SageMaker endpoint. This name must be unique within an AWS Region.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_endpoint#endpoint_name SagemakerEndpoint#endpoint_name}
 
 ---
 
@@ -1075,7 +1109,7 @@ ExcludeRetainedVariantProperties interface{}
 
 Specifies a list of variant properties that you want to exclude when updating an endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_endpoint#exclude_retained_variant_properties SagemakerEndpoint#exclude_retained_variant_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_endpoint#exclude_retained_variant_properties SagemakerEndpoint#exclude_retained_variant_properties}
 
 ---
 
@@ -1089,7 +1123,7 @@ RetainAllVariantProperties interface{}
 
 When set to true, retains all variant properties for an endpoint when it is updated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_endpoint#retain_all_variant_properties SagemakerEndpoint#retain_all_variant_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_endpoint#retain_all_variant_properties SagemakerEndpoint#retain_all_variant_properties}
 
 ---
 
@@ -1103,7 +1137,7 @@ RetainDeploymentConfig interface{}
 
 When set to true, retains the deployment configuration during endpoint updates.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_endpoint#retain_deployment_config SagemakerEndpoint#retain_deployment_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_endpoint#retain_deployment_config SagemakerEndpoint#retain_deployment_config}
 
 ---
 
@@ -1117,7 +1151,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_endpoint#tags SagemakerEndpoint#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_endpoint#tags SagemakerEndpoint#tags}
 
 ---
 
@@ -1155,7 +1189,7 @@ AutoRollbackConfiguration SagemakerEndpointDeploymentConfigAutoRollbackConfigura
 
 Configuration for automatic rollback if an error occurs during deployment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_endpoint#auto_rollback_configuration SagemakerEndpoint#auto_rollback_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_endpoint#auto_rollback_configuration SagemakerEndpoint#auto_rollback_configuration}
 
 ---
 
@@ -1169,7 +1203,7 @@ BlueGreenUpdatePolicy SagemakerEndpointDeploymentConfigBlueGreenUpdatePolicy
 
 Configuration for blue-green update deployment policies.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_endpoint#blue_green_update_policy SagemakerEndpoint#blue_green_update_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_endpoint#blue_green_update_policy SagemakerEndpoint#blue_green_update_policy}
 
 ---
 
@@ -1183,7 +1217,7 @@ RollingUpdatePolicy SagemakerEndpointDeploymentConfigRollingUpdatePolicy
 
 Configuration for rolling update deployment policies.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_endpoint#rolling_update_policy SagemakerEndpoint#rolling_update_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_endpoint#rolling_update_policy SagemakerEndpoint#rolling_update_policy}
 
 ---
 
@@ -1217,7 +1251,7 @@ Alarms interface{}
 
 List of CloudWatch alarms to monitor during the deployment. If any alarm goes off, the deployment is rolled back.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_endpoint#alarms SagemakerEndpoint#alarms}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_endpoint#alarms SagemakerEndpoint#alarms}
 
 ---
 
@@ -1251,7 +1285,7 @@ AlarmName *string
 
 The name of the CloudWatch alarm.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_endpoint#alarm_name SagemakerEndpoint#alarm_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_endpoint#alarm_name SagemakerEndpoint#alarm_name}
 
 ---
 
@@ -1289,7 +1323,7 @@ MaximumExecutionTimeoutInSeconds *f64
 
 The maximum time allowed for the blue/green update, in seconds.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_endpoint#maximum_execution_timeout_in_seconds SagemakerEndpoint#maximum_execution_timeout_in_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_endpoint#maximum_execution_timeout_in_seconds SagemakerEndpoint#maximum_execution_timeout_in_seconds}
 
 ---
 
@@ -1303,7 +1337,7 @@ TerminationWaitInSeconds *f64
 
 The wait time before terminating the old endpoint during a blue/green deployment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_endpoint#termination_wait_in_seconds SagemakerEndpoint#termination_wait_in_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_endpoint#termination_wait_in_seconds SagemakerEndpoint#termination_wait_in_seconds}
 
 ---
 
@@ -1317,7 +1351,7 @@ TrafficRoutingConfiguration SagemakerEndpointDeploymentConfigBlueGreenUpdatePoli
 
 The traffic routing configuration for the blue/green deployment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_endpoint#traffic_routing_configuration SagemakerEndpoint#traffic_routing_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_endpoint#traffic_routing_configuration SagemakerEndpoint#traffic_routing_configuration}
 
 ---
 
@@ -1357,7 +1391,7 @@ CanarySize SagemakerEndpointDeploymentConfigBlueGreenUpdatePolicyTrafficRoutingC
 
 Specifies the size of the canary traffic in a canary deployment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_endpoint#canary_size SagemakerEndpoint#canary_size}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_endpoint#canary_size SagemakerEndpoint#canary_size}
 
 ---
 
@@ -1371,7 +1405,7 @@ LinearStepSize SagemakerEndpointDeploymentConfigBlueGreenUpdatePolicyTrafficRout
 
 Specifies the step size for linear traffic routing.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_endpoint#linear_step_size SagemakerEndpoint#linear_step_size}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_endpoint#linear_step_size SagemakerEndpoint#linear_step_size}
 
 ---
 
@@ -1385,7 +1419,7 @@ Type *string
 
 Specifies the type of traffic routing (e.g., 'AllAtOnce', 'Canary', 'Linear').
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_endpoint#type SagemakerEndpoint#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_endpoint#type SagemakerEndpoint#type}
 
 ---
 
@@ -1399,7 +1433,7 @@ WaitIntervalInSeconds *f64
 
 Specifies the wait interval between traffic shifts, in seconds.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_endpoint#wait_interval_in_seconds SagemakerEndpoint#wait_interval_in_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_endpoint#wait_interval_in_seconds SagemakerEndpoint#wait_interval_in_seconds}
 
 ---
 
@@ -1435,7 +1469,7 @@ Type *string
 
 Specifies whether the `Value` is an instance count or a capacity unit.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_endpoint#type SagemakerEndpoint#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_endpoint#type SagemakerEndpoint#type}
 
 ---
 
@@ -1449,7 +1483,7 @@ Value *f64
 
 The value representing either the number of instances or the number of capacity units.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_endpoint#value SagemakerEndpoint#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_endpoint#value SagemakerEndpoint#value}
 
 ---
 
@@ -1485,7 +1519,7 @@ Type *string
 
 Specifies whether the `Value` is an instance count or a capacity unit.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_endpoint#type SagemakerEndpoint#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_endpoint#type SagemakerEndpoint#type}
 
 ---
 
@@ -1499,7 +1533,7 @@ Value *f64
 
 The value representing either the number of instances or the number of capacity units.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_endpoint#value SagemakerEndpoint#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_endpoint#value SagemakerEndpoint#value}
 
 ---
 
@@ -1539,7 +1573,7 @@ MaximumBatchSize SagemakerEndpointDeploymentConfigRollingUpdatePolicyMaximumBatc
 
 Specifies the maximum batch size for each rolling update.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_endpoint#maximum_batch_size SagemakerEndpoint#maximum_batch_size}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_endpoint#maximum_batch_size SagemakerEndpoint#maximum_batch_size}
 
 ---
 
@@ -1553,7 +1587,7 @@ MaximumExecutionTimeoutInSeconds *f64
 
 The maximum time allowed for the rolling update, in seconds.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_endpoint#maximum_execution_timeout_in_seconds SagemakerEndpoint#maximum_execution_timeout_in_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_endpoint#maximum_execution_timeout_in_seconds SagemakerEndpoint#maximum_execution_timeout_in_seconds}
 
 ---
 
@@ -1567,7 +1601,7 @@ RollbackMaximumBatchSize SagemakerEndpointDeploymentConfigRollingUpdatePolicyRol
 
 The maximum batch size for rollback during an update failure.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_endpoint#rollback_maximum_batch_size SagemakerEndpoint#rollback_maximum_batch_size}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_endpoint#rollback_maximum_batch_size SagemakerEndpoint#rollback_maximum_batch_size}
 
 ---
 
@@ -1581,7 +1615,7 @@ WaitIntervalInSeconds *f64
 
 The time to wait between steps during the rolling update, in seconds.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_endpoint#wait_interval_in_seconds SagemakerEndpoint#wait_interval_in_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_endpoint#wait_interval_in_seconds SagemakerEndpoint#wait_interval_in_seconds}
 
 ---
 
@@ -1617,7 +1651,7 @@ Type *string
 
 Specifies whether the `Value` is an instance count or a capacity unit.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_endpoint#type SagemakerEndpoint#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_endpoint#type SagemakerEndpoint#type}
 
 ---
 
@@ -1631,7 +1665,7 @@ Value *f64
 
 The value representing either the number of instances or the number of capacity units.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_endpoint#value SagemakerEndpoint#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_endpoint#value SagemakerEndpoint#value}
 
 ---
 
@@ -1667,7 +1701,7 @@ Type *string
 
 Specifies whether the `Value` is an instance count or a capacity unit.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_endpoint#type SagemakerEndpoint#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_endpoint#type SagemakerEndpoint#type}
 
 ---
 
@@ -1681,7 +1715,7 @@ Value *f64
 
 The value representing either the number of instances or the number of capacity units.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_endpoint#value SagemakerEndpoint#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_endpoint#value SagemakerEndpoint#value}
 
 ---
 
@@ -1715,7 +1749,7 @@ VariantPropertyType *string
 
 The type of variant property (e.g., 'DesiredInstanceCount', 'DesiredWeight', 'DataCaptureConfig').
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_endpoint#variant_property_type SagemakerEndpoint#variant_property_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_endpoint#variant_property_type SagemakerEndpoint#variant_property_type}
 
 ---
 
@@ -1751,7 +1785,7 @@ Key *string
 
 The key of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_endpoint#key SagemakerEndpoint#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_endpoint#key SagemakerEndpoint#key}
 
 ---
 
@@ -1765,7 +1799,7 @@ Value *string
 
 The value of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_endpoint#value SagemakerEndpoint#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_endpoint#value SagemakerEndpoint#value}
 
 ---
 

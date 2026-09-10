@@ -4,7 +4,7 @@
 
 ### DataAwsccEc2IpamExternalResourceVerificationToken <a name="DataAwsccEc2IpamExternalResourceVerificationToken" id="@cdktn/provider-awscc.dataAwsccEc2IpamExternalResourceVerificationToken.DataAwsccEc2IpamExternalResourceVerificationToken"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_ipam_external_resource_verification_token awscc_ec2_ipam_external_resource_verification_token}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ec2_ipam_external_resource_verification_token awscc_ec2_ipam_external_resource_verification_token}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2IpamExternalResourceVerificationToken.DataAwsccEc2IpamExternalResourceVerificationToken.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2IpamExternalRe
 
 The id of the existing DataAwsccEc2IpamExternalResourceVerificationToken that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_ipam_external_resource_verification_token#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ec2_ipam_external_resource_verification_token#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -808,7 +808,7 @@ public readonly id: string;
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_ipam_external_resource_verification_token#id DataAwsccEc2IpamExternalResourceVerificationToken#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ec2_ipam_external_resource_verification_token#id DataAwsccEc2IpamExternalResourceVerificationToken#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

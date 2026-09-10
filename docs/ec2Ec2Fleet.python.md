@@ -4,7 +4,7 @@
 
 ### Ec2Ec2Fleet <a name="Ec2Ec2Fleet" id="@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2Fleet"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet awscc_ec2_ec2_fleet}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet awscc_ec2_ec2_fleet}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2Fleet.Initializer"></a>
 
@@ -48,19 +48,19 @@ ec2Ec2Fleet.Ec2Ec2Fleet(
 | <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2Fleet.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2Fleet.Initializer.parameter.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2Fleet.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2Fleet.Initializer.parameter.launchTemplateConfigs">launch_template_configs</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigs">Ec2Ec2FleetLaunchTemplateConfigs</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#launch_template_configs Ec2Ec2Fleet#launch_template_configs}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2Fleet.Initializer.parameter.targetCapacitySpecification">target_capacity_specification</a></code> | <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetTargetCapacitySpecification">Ec2Ec2FleetTargetCapacitySpecification</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#target_capacity_specification Ec2Ec2Fleet#target_capacity_specification}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2Fleet.Initializer.parameter.context">context</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#context Ec2Ec2Fleet#context}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2Fleet.Initializer.parameter.excessCapacityTerminationPolicy">excess_capacity_termination_policy</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#excess_capacity_termination_policy Ec2Ec2Fleet#excess_capacity_termination_policy}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2Fleet.Initializer.parameter.onDemandOptions">on_demand_options</a></code> | <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetOnDemandOptions">Ec2Ec2FleetOnDemandOptions</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#on_demand_options Ec2Ec2Fleet#on_demand_options}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2Fleet.Initializer.parameter.replaceUnhealthyInstances">replace_unhealthy_instances</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#replace_unhealthy_instances Ec2Ec2Fleet#replace_unhealthy_instances}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2Fleet.Initializer.parameter.reservedCapacityOptions">reserved_capacity_options</a></code> | <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetReservedCapacityOptions">Ec2Ec2FleetReservedCapacityOptions</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#reserved_capacity_options Ec2Ec2Fleet#reserved_capacity_options}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2Fleet.Initializer.parameter.spotOptions">spot_options</a></code> | <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetSpotOptions">Ec2Ec2FleetSpotOptions</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#spot_options Ec2Ec2Fleet#spot_options}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2Fleet.Initializer.parameter.tagSpecifications">tag_specifications</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetTagSpecifications">Ec2Ec2FleetTagSpecifications</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#tag_specifications Ec2Ec2Fleet#tag_specifications}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2Fleet.Initializer.parameter.terminateInstancesWithExpiration">terminate_instances_with_expiration</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#terminate_instances_with_expiration Ec2Ec2Fleet#terminate_instances_with_expiration}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2Fleet.Initializer.parameter.type">type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#type Ec2Ec2Fleet#type}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2Fleet.Initializer.parameter.validFrom">valid_from</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#valid_from Ec2Ec2Fleet#valid_from}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2Fleet.Initializer.parameter.validUntil">valid_until</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#valid_until Ec2Ec2Fleet#valid_until}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2Fleet.Initializer.parameter.launchTemplateConfigs">launch_template_configs</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigs">Ec2Ec2FleetLaunchTemplateConfigs</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#launch_template_configs Ec2Ec2Fleet#launch_template_configs}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2Fleet.Initializer.parameter.targetCapacitySpecification">target_capacity_specification</a></code> | <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetTargetCapacitySpecification">Ec2Ec2FleetTargetCapacitySpecification</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#target_capacity_specification Ec2Ec2Fleet#target_capacity_specification}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2Fleet.Initializer.parameter.context">context</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#context Ec2Ec2Fleet#context}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2Fleet.Initializer.parameter.excessCapacityTerminationPolicy">excess_capacity_termination_policy</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#excess_capacity_termination_policy Ec2Ec2Fleet#excess_capacity_termination_policy}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2Fleet.Initializer.parameter.onDemandOptions">on_demand_options</a></code> | <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetOnDemandOptions">Ec2Ec2FleetOnDemandOptions</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#on_demand_options Ec2Ec2Fleet#on_demand_options}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2Fleet.Initializer.parameter.replaceUnhealthyInstances">replace_unhealthy_instances</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#replace_unhealthy_instances Ec2Ec2Fleet#replace_unhealthy_instances}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2Fleet.Initializer.parameter.reservedCapacityOptions">reserved_capacity_options</a></code> | <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetReservedCapacityOptions">Ec2Ec2FleetReservedCapacityOptions</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#reserved_capacity_options Ec2Ec2Fleet#reserved_capacity_options}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2Fleet.Initializer.parameter.spotOptions">spot_options</a></code> | <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetSpotOptions">Ec2Ec2FleetSpotOptions</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#spot_options Ec2Ec2Fleet#spot_options}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2Fleet.Initializer.parameter.tagSpecifications">tag_specifications</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetTagSpecifications">Ec2Ec2FleetTagSpecifications</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#tag_specifications Ec2Ec2Fleet#tag_specifications}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2Fleet.Initializer.parameter.terminateInstancesWithExpiration">terminate_instances_with_expiration</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#terminate_instances_with_expiration Ec2Ec2Fleet#terminate_instances_with_expiration}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2Fleet.Initializer.parameter.type">type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#type Ec2Ec2Fleet#type}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2Fleet.Initializer.parameter.validFrom">valid_from</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#valid_from Ec2Ec2Fleet#valid_from}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2Fleet.Initializer.parameter.validUntil">valid_until</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#valid_until Ec2Ec2Fleet#valid_until}. |
 
 ---
 
@@ -128,7 +128,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigs">Ec2Ec2FleetLaunchTemplateConfigs</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#launch_template_configs Ec2Ec2Fleet#launch_template_configs}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#launch_template_configs Ec2Ec2Fleet#launch_template_configs}.
 
 ---
 
@@ -136,7 +136,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetTargetCapacitySpecification">Ec2Ec2FleetTargetCapacitySpecification</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#target_capacity_specification Ec2Ec2Fleet#target_capacity_specification}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#target_capacity_specification Ec2Ec2Fleet#target_capacity_specification}.
 
 ---
 
@@ -144,7 +144,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#context Ec2Ec2Fleet#context}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#context Ec2Ec2Fleet#context}.
 
 ---
 
@@ -152,7 +152,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#excess_capacity_termination_policy Ec2Ec2Fleet#excess_capacity_termination_policy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#excess_capacity_termination_policy Ec2Ec2Fleet#excess_capacity_termination_policy}.
 
 ---
 
@@ -160,7 +160,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetOnDemandOptions">Ec2Ec2FleetOnDemandOptions</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#on_demand_options Ec2Ec2Fleet#on_demand_options}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#on_demand_options Ec2Ec2Fleet#on_demand_options}.
 
 ---
 
@@ -168,7 +168,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#replace_unhealthy_instances Ec2Ec2Fleet#replace_unhealthy_instances}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#replace_unhealthy_instances Ec2Ec2Fleet#replace_unhealthy_instances}.
 
 ---
 
@@ -176,7 +176,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetReservedCapacityOptions">Ec2Ec2FleetReservedCapacityOptions</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#reserved_capacity_options Ec2Ec2Fleet#reserved_capacity_options}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#reserved_capacity_options Ec2Ec2Fleet#reserved_capacity_options}.
 
 ---
 
@@ -184,7 +184,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetSpotOptions">Ec2Ec2FleetSpotOptions</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#spot_options Ec2Ec2Fleet#spot_options}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#spot_options Ec2Ec2Fleet#spot_options}.
 
 ---
 
@@ -192,7 +192,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetTagSpecifications">Ec2Ec2FleetTagSpecifications</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#tag_specifications Ec2Ec2Fleet#tag_specifications}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#tag_specifications Ec2Ec2Fleet#tag_specifications}.
 
 ---
 
@@ -200,7 +200,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#terminate_instances_with_expiration Ec2Ec2Fleet#terminate_instances_with_expiration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#terminate_instances_with_expiration Ec2Ec2Fleet#terminate_instances_with_expiration}.
 
 ---
 
@@ -208,7 +208,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#type Ec2Ec2Fleet#type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#type Ec2Ec2Fleet#type}.
 
 ---
 
@@ -216,7 +216,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#valid_from Ec2Ec2Fleet#valid_from}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#valid_from Ec2Ec2Fleet#valid_from}.
 
 ---
 
@@ -224,7 +224,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#valid_until Ec2Ec2Fleet#valid_until}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#valid_until Ec2Ec2Fleet#valid_until}.
 
 ---
 
@@ -655,7 +655,7 @@ def put_on_demand_options(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#allocation_strategy Ec2Ec2Fleet#allocation_strategy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#allocation_strategy Ec2Ec2Fleet#allocation_strategy}.
 
 ---
 
@@ -663,7 +663,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetOnDemandOptionsCapacityReservationOptions">Ec2Ec2FleetOnDemandOptionsCapacityReservationOptions</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#capacity_reservation_options Ec2Ec2Fleet#capacity_reservation_options}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#capacity_reservation_options Ec2Ec2Fleet#capacity_reservation_options}.
 
 ---
 
@@ -671,7 +671,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#max_total_price Ec2Ec2Fleet#max_total_price}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#max_total_price Ec2Ec2Fleet#max_total_price}.
 
 ---
 
@@ -679,7 +679,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#min_target_capacity Ec2Ec2Fleet#min_target_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#min_target_capacity Ec2Ec2Fleet#min_target_capacity}.
 
 ---
 
@@ -687,7 +687,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#single_availability_zone Ec2Ec2Fleet#single_availability_zone}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#single_availability_zone Ec2Ec2Fleet#single_availability_zone}.
 
 ---
 
@@ -695,7 +695,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#single_instance_type Ec2Ec2Fleet#single_instance_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#single_instance_type Ec2Ec2Fleet#single_instance_type}.
 
 ---
 
@@ -714,7 +714,7 @@ def put_reserved_capacity_options(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#allocation_strategy Ec2Ec2Fleet#allocation_strategy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#allocation_strategy Ec2Ec2Fleet#allocation_strategy}.
 
 ---
 
@@ -722,7 +722,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetReservedCapacityOptionsCapacityReservationTarget">Ec2Ec2FleetReservedCapacityOptionsCapacityReservationTarget</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#capacity_reservation_target Ec2Ec2Fleet#capacity_reservation_target}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#capacity_reservation_target Ec2Ec2Fleet#capacity_reservation_target}.
 
 ---
 
@@ -730,7 +730,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#reservation_types Ec2Ec2Fleet#reservation_types}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#reservation_types Ec2Ec2Fleet#reservation_types}.
 
 ---
 
@@ -738,7 +738,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetReservedCapacityOptionsReservedCapacityFallbackOptions">Ec2Ec2FleetReservedCapacityOptionsReservedCapacityFallbackOptions</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#reserved_capacity_fallback_options Ec2Ec2Fleet#reserved_capacity_fallback_options}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#reserved_capacity_fallback_options Ec2Ec2Fleet#reserved_capacity_fallback_options}.
 
 ---
 
@@ -761,7 +761,7 @@ def put_spot_options(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#allocation_strategy Ec2Ec2Fleet#allocation_strategy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#allocation_strategy Ec2Ec2Fleet#allocation_strategy}.
 
 ---
 
@@ -769,7 +769,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#instance_interruption_behavior Ec2Ec2Fleet#instance_interruption_behavior}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#instance_interruption_behavior Ec2Ec2Fleet#instance_interruption_behavior}.
 
 ---
 
@@ -777,7 +777,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#instance_pools_to_use_count Ec2Ec2Fleet#instance_pools_to_use_count}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#instance_pools_to_use_count Ec2Ec2Fleet#instance_pools_to_use_count}.
 
 ---
 
@@ -785,7 +785,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetSpotOptionsMaintenanceStrategies">Ec2Ec2FleetSpotOptionsMaintenanceStrategies</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#maintenance_strategies Ec2Ec2Fleet#maintenance_strategies}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#maintenance_strategies Ec2Ec2Fleet#maintenance_strategies}.
 
 ---
 
@@ -793,7 +793,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#max_total_price Ec2Ec2Fleet#max_total_price}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#max_total_price Ec2Ec2Fleet#max_total_price}.
 
 ---
 
@@ -801,7 +801,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#min_target_capacity Ec2Ec2Fleet#min_target_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#min_target_capacity Ec2Ec2Fleet#min_target_capacity}.
 
 ---
 
@@ -809,7 +809,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#single_availability_zone Ec2Ec2Fleet#single_availability_zone}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#single_availability_zone Ec2Ec2Fleet#single_availability_zone}.
 
 ---
 
@@ -817,7 +817,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#single_instance_type Ec2Ec2Fleet#single_instance_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#single_instance_type Ec2Ec2Fleet#single_instance_type}.
 
 ---
 
@@ -851,7 +851,7 @@ def put_target_capacity_specification(
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#total_target_capacity Ec2Ec2Fleet#total_target_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#total_target_capacity Ec2Ec2Fleet#total_target_capacity}.
 
 ---
 
@@ -859,7 +859,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#default_target_capacity_type Ec2Ec2Fleet#default_target_capacity_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#default_target_capacity_type Ec2Ec2Fleet#default_target_capacity_type}.
 
 ---
 
@@ -867,7 +867,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#on_demand_target_capacity Ec2Ec2Fleet#on_demand_target_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#on_demand_target_capacity Ec2Ec2Fleet#on_demand_target_capacity}.
 
 ---
 
@@ -875,7 +875,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#spot_target_capacity Ec2Ec2Fleet#spot_target_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#spot_target_capacity Ec2Ec2Fleet#spot_target_capacity}.
 
 ---
 
@@ -883,7 +883,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#target_capacity_unit_type Ec2Ec2Fleet#target_capacity_unit_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#target_capacity_unit_type Ec2Ec2Fleet#target_capacity_unit_type}.
 
 ---
 
@@ -1067,7 +1067,7 @@ The construct id used in the generated config for the Ec2Ec2Fleet to import.
 
 The id of the existing Ec2Ec2Fleet that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1612,19 +1612,19 @@ ec2Ec2Fleet.Ec2Ec2FleetConfig(
 | <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetConfig.property.launchTemplateConfigs">launch_template_configs</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigs">Ec2Ec2FleetLaunchTemplateConfigs</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#launch_template_configs Ec2Ec2Fleet#launch_template_configs}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetConfig.property.targetCapacitySpecification">target_capacity_specification</a></code> | <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetTargetCapacitySpecification">Ec2Ec2FleetTargetCapacitySpecification</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#target_capacity_specification Ec2Ec2Fleet#target_capacity_specification}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetConfig.property.context">context</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#context Ec2Ec2Fleet#context}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetConfig.property.excessCapacityTerminationPolicy">excess_capacity_termination_policy</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#excess_capacity_termination_policy Ec2Ec2Fleet#excess_capacity_termination_policy}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetConfig.property.onDemandOptions">on_demand_options</a></code> | <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetOnDemandOptions">Ec2Ec2FleetOnDemandOptions</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#on_demand_options Ec2Ec2Fleet#on_demand_options}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetConfig.property.replaceUnhealthyInstances">replace_unhealthy_instances</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#replace_unhealthy_instances Ec2Ec2Fleet#replace_unhealthy_instances}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetConfig.property.reservedCapacityOptions">reserved_capacity_options</a></code> | <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetReservedCapacityOptions">Ec2Ec2FleetReservedCapacityOptions</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#reserved_capacity_options Ec2Ec2Fleet#reserved_capacity_options}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetConfig.property.spotOptions">spot_options</a></code> | <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetSpotOptions">Ec2Ec2FleetSpotOptions</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#spot_options Ec2Ec2Fleet#spot_options}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetConfig.property.tagSpecifications">tag_specifications</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetTagSpecifications">Ec2Ec2FleetTagSpecifications</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#tag_specifications Ec2Ec2Fleet#tag_specifications}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetConfig.property.terminateInstancesWithExpiration">terminate_instances_with_expiration</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#terminate_instances_with_expiration Ec2Ec2Fleet#terminate_instances_with_expiration}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetConfig.property.type">type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#type Ec2Ec2Fleet#type}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetConfig.property.validFrom">valid_from</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#valid_from Ec2Ec2Fleet#valid_from}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetConfig.property.validUntil">valid_until</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#valid_until Ec2Ec2Fleet#valid_until}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetConfig.property.launchTemplateConfigs">launch_template_configs</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigs">Ec2Ec2FleetLaunchTemplateConfigs</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#launch_template_configs Ec2Ec2Fleet#launch_template_configs}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetConfig.property.targetCapacitySpecification">target_capacity_specification</a></code> | <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetTargetCapacitySpecification">Ec2Ec2FleetTargetCapacitySpecification</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#target_capacity_specification Ec2Ec2Fleet#target_capacity_specification}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetConfig.property.context">context</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#context Ec2Ec2Fleet#context}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetConfig.property.excessCapacityTerminationPolicy">excess_capacity_termination_policy</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#excess_capacity_termination_policy Ec2Ec2Fleet#excess_capacity_termination_policy}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetConfig.property.onDemandOptions">on_demand_options</a></code> | <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetOnDemandOptions">Ec2Ec2FleetOnDemandOptions</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#on_demand_options Ec2Ec2Fleet#on_demand_options}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetConfig.property.replaceUnhealthyInstances">replace_unhealthy_instances</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#replace_unhealthy_instances Ec2Ec2Fleet#replace_unhealthy_instances}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetConfig.property.reservedCapacityOptions">reserved_capacity_options</a></code> | <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetReservedCapacityOptions">Ec2Ec2FleetReservedCapacityOptions</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#reserved_capacity_options Ec2Ec2Fleet#reserved_capacity_options}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetConfig.property.spotOptions">spot_options</a></code> | <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetSpotOptions">Ec2Ec2FleetSpotOptions</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#spot_options Ec2Ec2Fleet#spot_options}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetConfig.property.tagSpecifications">tag_specifications</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetTagSpecifications">Ec2Ec2FleetTagSpecifications</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#tag_specifications Ec2Ec2Fleet#tag_specifications}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetConfig.property.terminateInstancesWithExpiration">terminate_instances_with_expiration</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#terminate_instances_with_expiration Ec2Ec2Fleet#terminate_instances_with_expiration}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetConfig.property.type">type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#type Ec2Ec2Fleet#type}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetConfig.property.validFrom">valid_from</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#valid_from Ec2Ec2Fleet#valid_from}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetConfig.property.validUntil">valid_until</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#valid_until Ec2Ec2Fleet#valid_until}. |
 
 ---
 
@@ -1706,7 +1706,7 @@ launch_template_configs: IResolvable | typing.List[Ec2Ec2FleetLaunchTemplateConf
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigs">Ec2Ec2FleetLaunchTemplateConfigs</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#launch_template_configs Ec2Ec2Fleet#launch_template_configs}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#launch_template_configs Ec2Ec2Fleet#launch_template_configs}.
 
 ---
 
@@ -1718,7 +1718,7 @@ target_capacity_specification: Ec2Ec2FleetTargetCapacitySpecification
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetTargetCapacitySpecification">Ec2Ec2FleetTargetCapacitySpecification</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#target_capacity_specification Ec2Ec2Fleet#target_capacity_specification}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#target_capacity_specification Ec2Ec2Fleet#target_capacity_specification}.
 
 ---
 
@@ -1730,7 +1730,7 @@ context: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#context Ec2Ec2Fleet#context}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#context Ec2Ec2Fleet#context}.
 
 ---
 
@@ -1742,7 +1742,7 @@ excess_capacity_termination_policy: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#excess_capacity_termination_policy Ec2Ec2Fleet#excess_capacity_termination_policy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#excess_capacity_termination_policy Ec2Ec2Fleet#excess_capacity_termination_policy}.
 
 ---
 
@@ -1754,7 +1754,7 @@ on_demand_options: Ec2Ec2FleetOnDemandOptions
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetOnDemandOptions">Ec2Ec2FleetOnDemandOptions</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#on_demand_options Ec2Ec2Fleet#on_demand_options}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#on_demand_options Ec2Ec2Fleet#on_demand_options}.
 
 ---
 
@@ -1766,7 +1766,7 @@ replace_unhealthy_instances: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#replace_unhealthy_instances Ec2Ec2Fleet#replace_unhealthy_instances}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#replace_unhealthy_instances Ec2Ec2Fleet#replace_unhealthy_instances}.
 
 ---
 
@@ -1778,7 +1778,7 @@ reserved_capacity_options: Ec2Ec2FleetReservedCapacityOptions
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetReservedCapacityOptions">Ec2Ec2FleetReservedCapacityOptions</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#reserved_capacity_options Ec2Ec2Fleet#reserved_capacity_options}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#reserved_capacity_options Ec2Ec2Fleet#reserved_capacity_options}.
 
 ---
 
@@ -1790,7 +1790,7 @@ spot_options: Ec2Ec2FleetSpotOptions
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetSpotOptions">Ec2Ec2FleetSpotOptions</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#spot_options Ec2Ec2Fleet#spot_options}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#spot_options Ec2Ec2Fleet#spot_options}.
 
 ---
 
@@ -1802,7 +1802,7 @@ tag_specifications: IResolvable | typing.List[Ec2Ec2FleetTagSpecifications]
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetTagSpecifications">Ec2Ec2FleetTagSpecifications</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#tag_specifications Ec2Ec2Fleet#tag_specifications}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#tag_specifications Ec2Ec2Fleet#tag_specifications}.
 
 ---
 
@@ -1814,7 +1814,7 @@ terminate_instances_with_expiration: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#terminate_instances_with_expiration Ec2Ec2Fleet#terminate_instances_with_expiration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#terminate_instances_with_expiration Ec2Ec2Fleet#terminate_instances_with_expiration}.
 
 ---
 
@@ -1826,7 +1826,7 @@ type: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#type Ec2Ec2Fleet#type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#type Ec2Ec2Fleet#type}.
 
 ---
 
@@ -1838,7 +1838,7 @@ valid_from: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#valid_from Ec2Ec2Fleet#valid_from}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#valid_from Ec2Ec2Fleet#valid_from}.
 
 ---
 
@@ -1850,7 +1850,7 @@ valid_until: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#valid_until Ec2Ec2Fleet#valid_until}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#valid_until Ec2Ec2Fleet#valid_until}.
 
 ---
 
@@ -1871,8 +1871,8 @@ ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigs(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigs.property.launchTemplateSpecification">launch_template_specification</a></code> | <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsLaunchTemplateSpecification">Ec2Ec2FleetLaunchTemplateConfigsLaunchTemplateSpecification</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#launch_template_specification Ec2Ec2Fleet#launch_template_specification}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigs.property.overrides">overrides</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverrides">Ec2Ec2FleetLaunchTemplateConfigsOverrides</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#overrides Ec2Ec2Fleet#overrides}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigs.property.launchTemplateSpecification">launch_template_specification</a></code> | <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsLaunchTemplateSpecification">Ec2Ec2FleetLaunchTemplateConfigsLaunchTemplateSpecification</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#launch_template_specification Ec2Ec2Fleet#launch_template_specification}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigs.property.overrides">overrides</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverrides">Ec2Ec2FleetLaunchTemplateConfigsOverrides</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#overrides Ec2Ec2Fleet#overrides}. |
 
 ---
 
@@ -1884,7 +1884,7 @@ launch_template_specification: Ec2Ec2FleetLaunchTemplateConfigsLaunchTemplateSpe
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsLaunchTemplateSpecification">Ec2Ec2FleetLaunchTemplateConfigsLaunchTemplateSpecification</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#launch_template_specification Ec2Ec2Fleet#launch_template_specification}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#launch_template_specification Ec2Ec2Fleet#launch_template_specification}.
 
 ---
 
@@ -1896,7 +1896,7 @@ overrides: IResolvable | typing.List[Ec2Ec2FleetLaunchTemplateConfigsOverrides]
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverrides">Ec2Ec2FleetLaunchTemplateConfigsOverrides</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#overrides Ec2Ec2Fleet#overrides}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#overrides Ec2Ec2Fleet#overrides}.
 
 ---
 
@@ -1919,10 +1919,10 @@ ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsLaunchTemplateSpecification(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsLaunchTemplateSpecification.property.launchTemplateId">launch_template_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#launch_template_id Ec2Ec2Fleet#launch_template_id}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsLaunchTemplateSpecification.property.launchTemplateName">launch_template_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#launch_template_name Ec2Ec2Fleet#launch_template_name}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsLaunchTemplateSpecification.property.launchTemplateSpecificationUserData">launch_template_specification_user_data</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#launch_template_specification_user_data Ec2Ec2Fleet#launch_template_specification_user_data}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsLaunchTemplateSpecification.property.version">version</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#version Ec2Ec2Fleet#version}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsLaunchTemplateSpecification.property.launchTemplateId">launch_template_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#launch_template_id Ec2Ec2Fleet#launch_template_id}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsLaunchTemplateSpecification.property.launchTemplateName">launch_template_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#launch_template_name Ec2Ec2Fleet#launch_template_name}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsLaunchTemplateSpecification.property.launchTemplateSpecificationUserData">launch_template_specification_user_data</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#launch_template_specification_user_data Ec2Ec2Fleet#launch_template_specification_user_data}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsLaunchTemplateSpecification.property.version">version</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#version Ec2Ec2Fleet#version}. |
 
 ---
 
@@ -1934,7 +1934,7 @@ launch_template_id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#launch_template_id Ec2Ec2Fleet#launch_template_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#launch_template_id Ec2Ec2Fleet#launch_template_id}.
 
 ---
 
@@ -1946,7 +1946,7 @@ launch_template_name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#launch_template_name Ec2Ec2Fleet#launch_template_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#launch_template_name Ec2Ec2Fleet#launch_template_name}.
 
 ---
 
@@ -1958,7 +1958,7 @@ launch_template_specification_user_data: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#launch_template_specification_user_data Ec2Ec2Fleet#launch_template_specification_user_data}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#launch_template_specification_user_data Ec2Ec2Fleet#launch_template_specification_user_data}.
 
 ---
 
@@ -1970,7 +1970,7 @@ version: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#version Ec2Ec2Fleet#version}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#version Ec2Ec2Fleet#version}.
 
 ---
 
@@ -2003,20 +2003,20 @@ ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverrides(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverrides.property.availabilityZone">availability_zone</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#availability_zone Ec2Ec2Fleet#availability_zone}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverrides.property.availabilityZoneId">availability_zone_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#availability_zone_id Ec2Ec2Fleet#availability_zone_id}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverrides.property.blockDeviceMappings">block_device_mappings</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappings">Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappings</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#block_device_mappings Ec2Ec2Fleet#block_device_mappings}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverrides.property.iamInstanceProfile">iam_instance_profile</a></code> | <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesIamInstanceProfile">Ec2Ec2FleetLaunchTemplateConfigsOverridesIamInstanceProfile</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#iam_instance_profile Ec2Ec2Fleet#iam_instance_profile}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverrides.property.instanceRequirements">instance_requirements</a></code> | <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirements">Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirements</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#instance_requirements Ec2Ec2Fleet#instance_requirements}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverrides.property.instanceType">instance_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#instance_type Ec2Ec2Fleet#instance_type}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverrides.property.keyName">key_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#key_name Ec2Ec2Fleet#key_name}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverrides.property.maxPrice">max_price</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#max_price Ec2Ec2Fleet#max_price}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverrides.property.metadataOptions">metadata_options</a></code> | <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesMetadataOptions">Ec2Ec2FleetLaunchTemplateConfigsOverridesMetadataOptions</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#metadata_options Ec2Ec2Fleet#metadata_options}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverrides.property.networkInterfaces">network_interfaces</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesNetworkInterfaces">Ec2Ec2FleetLaunchTemplateConfigsOverridesNetworkInterfaces</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#network_interfaces Ec2Ec2Fleet#network_interfaces}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverrides.property.placement">placement</a></code> | <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesPlacement">Ec2Ec2FleetLaunchTemplateConfigsOverridesPlacement</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#placement Ec2Ec2Fleet#placement}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverrides.property.priority">priority</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#priority Ec2Ec2Fleet#priority}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverrides.property.subnetId">subnet_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#subnet_id Ec2Ec2Fleet#subnet_id}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverrides.property.weightedCapacity">weighted_capacity</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#weighted_capacity Ec2Ec2Fleet#weighted_capacity}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverrides.property.availabilityZone">availability_zone</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#availability_zone Ec2Ec2Fleet#availability_zone}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverrides.property.availabilityZoneId">availability_zone_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#availability_zone_id Ec2Ec2Fleet#availability_zone_id}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverrides.property.blockDeviceMappings">block_device_mappings</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappings">Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappings</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#block_device_mappings Ec2Ec2Fleet#block_device_mappings}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverrides.property.iamInstanceProfile">iam_instance_profile</a></code> | <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesIamInstanceProfile">Ec2Ec2FleetLaunchTemplateConfigsOverridesIamInstanceProfile</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#iam_instance_profile Ec2Ec2Fleet#iam_instance_profile}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverrides.property.instanceRequirements">instance_requirements</a></code> | <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirements">Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirements</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#instance_requirements Ec2Ec2Fleet#instance_requirements}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverrides.property.instanceType">instance_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#instance_type Ec2Ec2Fleet#instance_type}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverrides.property.keyName">key_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#key_name Ec2Ec2Fleet#key_name}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverrides.property.maxPrice">max_price</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#max_price Ec2Ec2Fleet#max_price}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverrides.property.metadataOptions">metadata_options</a></code> | <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesMetadataOptions">Ec2Ec2FleetLaunchTemplateConfigsOverridesMetadataOptions</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#metadata_options Ec2Ec2Fleet#metadata_options}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverrides.property.networkInterfaces">network_interfaces</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesNetworkInterfaces">Ec2Ec2FleetLaunchTemplateConfigsOverridesNetworkInterfaces</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#network_interfaces Ec2Ec2Fleet#network_interfaces}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverrides.property.placement">placement</a></code> | <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesPlacement">Ec2Ec2FleetLaunchTemplateConfigsOverridesPlacement</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#placement Ec2Ec2Fleet#placement}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverrides.property.priority">priority</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#priority Ec2Ec2Fleet#priority}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverrides.property.subnetId">subnet_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#subnet_id Ec2Ec2Fleet#subnet_id}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverrides.property.weightedCapacity">weighted_capacity</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#weighted_capacity Ec2Ec2Fleet#weighted_capacity}. |
 
 ---
 
@@ -2028,7 +2028,7 @@ availability_zone: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#availability_zone Ec2Ec2Fleet#availability_zone}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#availability_zone Ec2Ec2Fleet#availability_zone}.
 
 ---
 
@@ -2040,7 +2040,7 @@ availability_zone_id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#availability_zone_id Ec2Ec2Fleet#availability_zone_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#availability_zone_id Ec2Ec2Fleet#availability_zone_id}.
 
 ---
 
@@ -2052,7 +2052,7 @@ block_device_mappings: IResolvable | typing.List[Ec2Ec2FleetLaunchTemplateConfig
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappings">Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappings</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#block_device_mappings Ec2Ec2Fleet#block_device_mappings}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#block_device_mappings Ec2Ec2Fleet#block_device_mappings}.
 
 ---
 
@@ -2064,7 +2064,7 @@ iam_instance_profile: Ec2Ec2FleetLaunchTemplateConfigsOverridesIamInstanceProfil
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesIamInstanceProfile">Ec2Ec2FleetLaunchTemplateConfigsOverridesIamInstanceProfile</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#iam_instance_profile Ec2Ec2Fleet#iam_instance_profile}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#iam_instance_profile Ec2Ec2Fleet#iam_instance_profile}.
 
 ---
 
@@ -2076,7 +2076,7 @@ instance_requirements: Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirem
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirements">Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirements</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#instance_requirements Ec2Ec2Fleet#instance_requirements}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#instance_requirements Ec2Ec2Fleet#instance_requirements}.
 
 ---
 
@@ -2088,7 +2088,7 @@ instance_type: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#instance_type Ec2Ec2Fleet#instance_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#instance_type Ec2Ec2Fleet#instance_type}.
 
 ---
 
@@ -2100,7 +2100,7 @@ key_name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#key_name Ec2Ec2Fleet#key_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#key_name Ec2Ec2Fleet#key_name}.
 
 ---
 
@@ -2112,7 +2112,7 @@ max_price: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#max_price Ec2Ec2Fleet#max_price}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#max_price Ec2Ec2Fleet#max_price}.
 
 ---
 
@@ -2124,7 +2124,7 @@ metadata_options: Ec2Ec2FleetLaunchTemplateConfigsOverridesMetadataOptions
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesMetadataOptions">Ec2Ec2FleetLaunchTemplateConfigsOverridesMetadataOptions</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#metadata_options Ec2Ec2Fleet#metadata_options}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#metadata_options Ec2Ec2Fleet#metadata_options}.
 
 ---
 
@@ -2136,7 +2136,7 @@ network_interfaces: IResolvable | typing.List[Ec2Ec2FleetLaunchTemplateConfigsOv
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesNetworkInterfaces">Ec2Ec2FleetLaunchTemplateConfigsOverridesNetworkInterfaces</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#network_interfaces Ec2Ec2Fleet#network_interfaces}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#network_interfaces Ec2Ec2Fleet#network_interfaces}.
 
 ---
 
@@ -2148,7 +2148,7 @@ placement: Ec2Ec2FleetLaunchTemplateConfigsOverridesPlacement
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesPlacement">Ec2Ec2FleetLaunchTemplateConfigsOverridesPlacement</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#placement Ec2Ec2Fleet#placement}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#placement Ec2Ec2Fleet#placement}.
 
 ---
 
@@ -2160,7 +2160,7 @@ priority: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#priority Ec2Ec2Fleet#priority}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#priority Ec2Ec2Fleet#priority}.
 
 ---
 
@@ -2172,7 +2172,7 @@ subnet_id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#subnet_id Ec2Ec2Fleet#subnet_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#subnet_id Ec2Ec2Fleet#subnet_id}.
 
 ---
 
@@ -2184,7 +2184,7 @@ weighted_capacity: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#weighted_capacity Ec2Ec2Fleet#weighted_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#weighted_capacity Ec2Ec2Fleet#weighted_capacity}.
 
 ---
 
@@ -2207,10 +2207,10 @@ ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappings(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappings.property.deviceName">device_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#device_name Ec2Ec2Fleet#device_name}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappings.property.ebs">ebs</a></code> | <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsEbs">Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsEbs</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#ebs Ec2Ec2Fleet#ebs}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappings.property.noDevice">no_device</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#no_device Ec2Ec2Fleet#no_device}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappings.property.virtualName">virtual_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#virtual_name Ec2Ec2Fleet#virtual_name}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappings.property.deviceName">device_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#device_name Ec2Ec2Fleet#device_name}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappings.property.ebs">ebs</a></code> | <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsEbs">Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsEbs</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#ebs Ec2Ec2Fleet#ebs}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappings.property.noDevice">no_device</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#no_device Ec2Ec2Fleet#no_device}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappings.property.virtualName">virtual_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#virtual_name Ec2Ec2Fleet#virtual_name}. |
 
 ---
 
@@ -2222,7 +2222,7 @@ device_name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#device_name Ec2Ec2Fleet#device_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#device_name Ec2Ec2Fleet#device_name}.
 
 ---
 
@@ -2234,7 +2234,7 @@ ebs: Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsEbs
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsEbs">Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsEbs</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#ebs Ec2Ec2Fleet#ebs}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#ebs Ec2Ec2Fleet#ebs}.
 
 ---
 
@@ -2246,7 +2246,7 @@ no_device: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#no_device Ec2Ec2Fleet#no_device}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#no_device Ec2Ec2Fleet#no_device}.
 
 ---
 
@@ -2258,7 +2258,7 @@ virtual_name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#virtual_name Ec2Ec2Fleet#virtual_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#virtual_name Ec2Ec2Fleet#virtual_name}.
 
 ---
 
@@ -2284,13 +2284,13 @@ ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsEbs(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsEbs.property.deleteOnTermination">delete_on_termination</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#delete_on_termination Ec2Ec2Fleet#delete_on_termination}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsEbs.property.encrypted">encrypted</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#encrypted Ec2Ec2Fleet#encrypted}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsEbs.property.iops">iops</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#iops Ec2Ec2Fleet#iops}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsEbs.property.kmsKeyId">kms_key_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#kms_key_id Ec2Ec2Fleet#kms_key_id}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsEbs.property.snapshotId">snapshot_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#snapshot_id Ec2Ec2Fleet#snapshot_id}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsEbs.property.volumeSize">volume_size</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#volume_size Ec2Ec2Fleet#volume_size}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsEbs.property.volumeType">volume_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#volume_type Ec2Ec2Fleet#volume_type}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsEbs.property.deleteOnTermination">delete_on_termination</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#delete_on_termination Ec2Ec2Fleet#delete_on_termination}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsEbs.property.encrypted">encrypted</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#encrypted Ec2Ec2Fleet#encrypted}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsEbs.property.iops">iops</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#iops Ec2Ec2Fleet#iops}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsEbs.property.kmsKeyId">kms_key_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#kms_key_id Ec2Ec2Fleet#kms_key_id}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsEbs.property.snapshotId">snapshot_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#snapshot_id Ec2Ec2Fleet#snapshot_id}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsEbs.property.volumeSize">volume_size</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#volume_size Ec2Ec2Fleet#volume_size}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsEbs.property.volumeType">volume_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#volume_type Ec2Ec2Fleet#volume_type}. |
 
 ---
 
@@ -2302,7 +2302,7 @@ delete_on_termination: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#delete_on_termination Ec2Ec2Fleet#delete_on_termination}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#delete_on_termination Ec2Ec2Fleet#delete_on_termination}.
 
 ---
 
@@ -2314,7 +2314,7 @@ encrypted: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#encrypted Ec2Ec2Fleet#encrypted}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#encrypted Ec2Ec2Fleet#encrypted}.
 
 ---
 
@@ -2326,7 +2326,7 @@ iops: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#iops Ec2Ec2Fleet#iops}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#iops Ec2Ec2Fleet#iops}.
 
 ---
 
@@ -2338,7 +2338,7 @@ kms_key_id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#kms_key_id Ec2Ec2Fleet#kms_key_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#kms_key_id Ec2Ec2Fleet#kms_key_id}.
 
 ---
 
@@ -2350,7 +2350,7 @@ snapshot_id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#snapshot_id Ec2Ec2Fleet#snapshot_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#snapshot_id Ec2Ec2Fleet#snapshot_id}.
 
 ---
 
@@ -2362,7 +2362,7 @@ volume_size: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#volume_size Ec2Ec2Fleet#volume_size}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#volume_size Ec2Ec2Fleet#volume_size}.
 
 ---
 
@@ -2374,7 +2374,7 @@ volume_type: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#volume_type Ec2Ec2Fleet#volume_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#volume_type Ec2Ec2Fleet#volume_type}.
 
 ---
 
@@ -2395,8 +2395,8 @@ ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesIamInstanceProfile(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesIamInstanceProfile.property.arn">arn</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#arn Ec2Ec2Fleet#arn}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesIamInstanceProfile.property.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#name Ec2Ec2Fleet#name}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesIamInstanceProfile.property.arn">arn</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#arn Ec2Ec2Fleet#arn}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesIamInstanceProfile.property.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#name Ec2Ec2Fleet#name}. |
 
 ---
 
@@ -2408,7 +2408,7 @@ arn: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#arn Ec2Ec2Fleet#arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#arn Ec2Ec2Fleet#arn}.
 
 ---
 
@@ -2420,7 +2420,7 @@ name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#name Ec2Ec2Fleet#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#name Ec2Ec2Fleet#name}.
 
 ---
 
@@ -2465,32 +2465,32 @@ ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirements(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirements.property.acceleratorCount">accelerator_count</a></code> | <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsAcceleratorCount">Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsAcceleratorCount</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#accelerator_count Ec2Ec2Fleet#accelerator_count}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirements.property.acceleratorManufacturers">accelerator_manufacturers</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#accelerator_manufacturers Ec2Ec2Fleet#accelerator_manufacturers}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirements.property.acceleratorNames">accelerator_names</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#accelerator_names Ec2Ec2Fleet#accelerator_names}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirements.property.acceleratorTotalMemoryMiB">accelerator_total_memory_mi_b</a></code> | <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsAcceleratorTotalMemoryMiB">Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsAcceleratorTotalMemoryMiB</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#accelerator_total_memory_mi_b Ec2Ec2Fleet#accelerator_total_memory_mi_b}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirements.property.acceleratorTypes">accelerator_types</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#accelerator_types Ec2Ec2Fleet#accelerator_types}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirements.property.allowedInstanceTypes">allowed_instance_types</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#allowed_instance_types Ec2Ec2Fleet#allowed_instance_types}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirements.property.bareMetal">bare_metal</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#bare_metal Ec2Ec2Fleet#bare_metal}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirements.property.baselineEbsBandwidthMbps">baseline_ebs_bandwidth_mbps</a></code> | <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsBaselineEbsBandwidthMbps">Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsBaselineEbsBandwidthMbps</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#baseline_ebs_bandwidth_mbps Ec2Ec2Fleet#baseline_ebs_bandwidth_mbps}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirements.property.baselinePerformanceFactors">baseline_performance_factors</a></code> | <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsBaselinePerformanceFactors">Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsBaselinePerformanceFactors</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#baseline_performance_factors Ec2Ec2Fleet#baseline_performance_factors}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirements.property.burstablePerformance">burstable_performance</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#burstable_performance Ec2Ec2Fleet#burstable_performance}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirements.property.cpuManufacturers">cpu_manufacturers</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#cpu_manufacturers Ec2Ec2Fleet#cpu_manufacturers}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirements.property.excludedInstanceTypes">excluded_instance_types</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#excluded_instance_types Ec2Ec2Fleet#excluded_instance_types}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirements.property.instanceGenerations">instance_generations</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#instance_generations Ec2Ec2Fleet#instance_generations}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirements.property.localStorage">local_storage</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#local_storage Ec2Ec2Fleet#local_storage}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirements.property.localStorageTypes">local_storage_types</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#local_storage_types Ec2Ec2Fleet#local_storage_types}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirements.property.maxSpotPriceAsPercentageOfOptimalOnDemandPrice">max_spot_price_as_percentage_of_optimal_on_demand_price</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#max_spot_price_as_percentage_of_optimal_on_demand_price Ec2Ec2Fleet#max_spot_price_as_percentage_of_optimal_on_demand_price}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirements.property.memoryGiBPerVCpu">memory_gi_b_per_v_cpu</a></code> | <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsMemoryGiBPerVCpu">Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsMemoryGiBPerVCpu</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#memory_gi_b_per_v_cpu Ec2Ec2Fleet#memory_gi_b_per_v_cpu}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirements.property.memoryMiB">memory_mi_b</a></code> | <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsMemoryMiB">Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsMemoryMiB</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#memory_mi_b Ec2Ec2Fleet#memory_mi_b}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirements.property.networkBandwidthGbps">network_bandwidth_gbps</a></code> | <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsNetworkBandwidthGbps">Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsNetworkBandwidthGbps</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#network_bandwidth_gbps Ec2Ec2Fleet#network_bandwidth_gbps}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirements.property.networkInterfaceCount">network_interface_count</a></code> | <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsNetworkInterfaceCount">Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsNetworkInterfaceCount</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#network_interface_count Ec2Ec2Fleet#network_interface_count}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirements.property.onDemandMaxPricePercentageOverLowestPrice">on_demand_max_price_percentage_over_lowest_price</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#on_demand_max_price_percentage_over_lowest_price Ec2Ec2Fleet#on_demand_max_price_percentage_over_lowest_price}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirements.property.requireEncryptionInTransit">require_encryption_in_transit</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#require_encryption_in_transit Ec2Ec2Fleet#require_encryption_in_transit}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirements.property.requireHibernateSupport">require_hibernate_support</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#require_hibernate_support Ec2Ec2Fleet#require_hibernate_support}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirements.property.spotMaxPricePercentageOverLowestPrice">spot_max_price_percentage_over_lowest_price</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#spot_max_price_percentage_over_lowest_price Ec2Ec2Fleet#spot_max_price_percentage_over_lowest_price}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirements.property.totalLocalStorageGb">total_local_storage_gb</a></code> | <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsTotalLocalStorageGb">Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsTotalLocalStorageGb</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#total_local_storage_gb Ec2Ec2Fleet#total_local_storage_gb}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirements.property.vCpuCount">v_cpu_count</a></code> | <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsVCpuCount">Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsVCpuCount</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#v_cpu_count Ec2Ec2Fleet#v_cpu_count}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirements.property.acceleratorCount">accelerator_count</a></code> | <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsAcceleratorCount">Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsAcceleratorCount</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#accelerator_count Ec2Ec2Fleet#accelerator_count}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirements.property.acceleratorManufacturers">accelerator_manufacturers</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#accelerator_manufacturers Ec2Ec2Fleet#accelerator_manufacturers}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirements.property.acceleratorNames">accelerator_names</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#accelerator_names Ec2Ec2Fleet#accelerator_names}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirements.property.acceleratorTotalMemoryMiB">accelerator_total_memory_mi_b</a></code> | <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsAcceleratorTotalMemoryMiB">Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsAcceleratorTotalMemoryMiB</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#accelerator_total_memory_mi_b Ec2Ec2Fleet#accelerator_total_memory_mi_b}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirements.property.acceleratorTypes">accelerator_types</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#accelerator_types Ec2Ec2Fleet#accelerator_types}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirements.property.allowedInstanceTypes">allowed_instance_types</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#allowed_instance_types Ec2Ec2Fleet#allowed_instance_types}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirements.property.bareMetal">bare_metal</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#bare_metal Ec2Ec2Fleet#bare_metal}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirements.property.baselineEbsBandwidthMbps">baseline_ebs_bandwidth_mbps</a></code> | <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsBaselineEbsBandwidthMbps">Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsBaselineEbsBandwidthMbps</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#baseline_ebs_bandwidth_mbps Ec2Ec2Fleet#baseline_ebs_bandwidth_mbps}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirements.property.baselinePerformanceFactors">baseline_performance_factors</a></code> | <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsBaselinePerformanceFactors">Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsBaselinePerformanceFactors</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#baseline_performance_factors Ec2Ec2Fleet#baseline_performance_factors}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirements.property.burstablePerformance">burstable_performance</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#burstable_performance Ec2Ec2Fleet#burstable_performance}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirements.property.cpuManufacturers">cpu_manufacturers</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#cpu_manufacturers Ec2Ec2Fleet#cpu_manufacturers}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirements.property.excludedInstanceTypes">excluded_instance_types</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#excluded_instance_types Ec2Ec2Fleet#excluded_instance_types}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirements.property.instanceGenerations">instance_generations</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#instance_generations Ec2Ec2Fleet#instance_generations}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirements.property.localStorage">local_storage</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#local_storage Ec2Ec2Fleet#local_storage}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirements.property.localStorageTypes">local_storage_types</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#local_storage_types Ec2Ec2Fleet#local_storage_types}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirements.property.maxSpotPriceAsPercentageOfOptimalOnDemandPrice">max_spot_price_as_percentage_of_optimal_on_demand_price</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#max_spot_price_as_percentage_of_optimal_on_demand_price Ec2Ec2Fleet#max_spot_price_as_percentage_of_optimal_on_demand_price}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirements.property.memoryGiBPerVCpu">memory_gi_b_per_v_cpu</a></code> | <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsMemoryGiBPerVCpu">Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsMemoryGiBPerVCpu</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#memory_gi_b_per_v_cpu Ec2Ec2Fleet#memory_gi_b_per_v_cpu}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirements.property.memoryMiB">memory_mi_b</a></code> | <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsMemoryMiB">Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsMemoryMiB</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#memory_mi_b Ec2Ec2Fleet#memory_mi_b}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirements.property.networkBandwidthGbps">network_bandwidth_gbps</a></code> | <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsNetworkBandwidthGbps">Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsNetworkBandwidthGbps</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#network_bandwidth_gbps Ec2Ec2Fleet#network_bandwidth_gbps}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirements.property.networkInterfaceCount">network_interface_count</a></code> | <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsNetworkInterfaceCount">Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsNetworkInterfaceCount</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#network_interface_count Ec2Ec2Fleet#network_interface_count}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirements.property.onDemandMaxPricePercentageOverLowestPrice">on_demand_max_price_percentage_over_lowest_price</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#on_demand_max_price_percentage_over_lowest_price Ec2Ec2Fleet#on_demand_max_price_percentage_over_lowest_price}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirements.property.requireEncryptionInTransit">require_encryption_in_transit</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#require_encryption_in_transit Ec2Ec2Fleet#require_encryption_in_transit}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirements.property.requireHibernateSupport">require_hibernate_support</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#require_hibernate_support Ec2Ec2Fleet#require_hibernate_support}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirements.property.spotMaxPricePercentageOverLowestPrice">spot_max_price_percentage_over_lowest_price</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#spot_max_price_percentage_over_lowest_price Ec2Ec2Fleet#spot_max_price_percentage_over_lowest_price}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirements.property.totalLocalStorageGb">total_local_storage_gb</a></code> | <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsTotalLocalStorageGb">Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsTotalLocalStorageGb</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#total_local_storage_gb Ec2Ec2Fleet#total_local_storage_gb}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirements.property.vCpuCount">v_cpu_count</a></code> | <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsVCpuCount">Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsVCpuCount</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#v_cpu_count Ec2Ec2Fleet#v_cpu_count}. |
 
 ---
 
@@ -2502,7 +2502,7 @@ accelerator_count: Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirements
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsAcceleratorCount">Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsAcceleratorCount</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#accelerator_count Ec2Ec2Fleet#accelerator_count}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#accelerator_count Ec2Ec2Fleet#accelerator_count}.
 
 ---
 
@@ -2514,7 +2514,7 @@ accelerator_manufacturers: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#accelerator_manufacturers Ec2Ec2Fleet#accelerator_manufacturers}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#accelerator_manufacturers Ec2Ec2Fleet#accelerator_manufacturers}.
 
 ---
 
@@ -2526,7 +2526,7 @@ accelerator_names: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#accelerator_names Ec2Ec2Fleet#accelerator_names}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#accelerator_names Ec2Ec2Fleet#accelerator_names}.
 
 ---
 
@@ -2538,7 +2538,7 @@ accelerator_total_memory_mi_b: Ec2Ec2FleetLaunchTemplateConfigsOverridesInstance
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsAcceleratorTotalMemoryMiB">Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsAcceleratorTotalMemoryMiB</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#accelerator_total_memory_mi_b Ec2Ec2Fleet#accelerator_total_memory_mi_b}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#accelerator_total_memory_mi_b Ec2Ec2Fleet#accelerator_total_memory_mi_b}.
 
 ---
 
@@ -2550,7 +2550,7 @@ accelerator_types: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#accelerator_types Ec2Ec2Fleet#accelerator_types}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#accelerator_types Ec2Ec2Fleet#accelerator_types}.
 
 ---
 
@@ -2562,7 +2562,7 @@ allowed_instance_types: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#allowed_instance_types Ec2Ec2Fleet#allowed_instance_types}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#allowed_instance_types Ec2Ec2Fleet#allowed_instance_types}.
 
 ---
 
@@ -2574,7 +2574,7 @@ bare_metal: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#bare_metal Ec2Ec2Fleet#bare_metal}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#bare_metal Ec2Ec2Fleet#bare_metal}.
 
 ---
 
@@ -2586,7 +2586,7 @@ baseline_ebs_bandwidth_mbps: Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRe
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsBaselineEbsBandwidthMbps">Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsBaselineEbsBandwidthMbps</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#baseline_ebs_bandwidth_mbps Ec2Ec2Fleet#baseline_ebs_bandwidth_mbps}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#baseline_ebs_bandwidth_mbps Ec2Ec2Fleet#baseline_ebs_bandwidth_mbps}.
 
 ---
 
@@ -2598,7 +2598,7 @@ baseline_performance_factors: Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceR
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsBaselinePerformanceFactors">Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsBaselinePerformanceFactors</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#baseline_performance_factors Ec2Ec2Fleet#baseline_performance_factors}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#baseline_performance_factors Ec2Ec2Fleet#baseline_performance_factors}.
 
 ---
 
@@ -2610,7 +2610,7 @@ burstable_performance: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#burstable_performance Ec2Ec2Fleet#burstable_performance}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#burstable_performance Ec2Ec2Fleet#burstable_performance}.
 
 ---
 
@@ -2622,7 +2622,7 @@ cpu_manufacturers: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#cpu_manufacturers Ec2Ec2Fleet#cpu_manufacturers}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#cpu_manufacturers Ec2Ec2Fleet#cpu_manufacturers}.
 
 ---
 
@@ -2634,7 +2634,7 @@ excluded_instance_types: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#excluded_instance_types Ec2Ec2Fleet#excluded_instance_types}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#excluded_instance_types Ec2Ec2Fleet#excluded_instance_types}.
 
 ---
 
@@ -2646,7 +2646,7 @@ instance_generations: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#instance_generations Ec2Ec2Fleet#instance_generations}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#instance_generations Ec2Ec2Fleet#instance_generations}.
 
 ---
 
@@ -2658,7 +2658,7 @@ local_storage: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#local_storage Ec2Ec2Fleet#local_storage}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#local_storage Ec2Ec2Fleet#local_storage}.
 
 ---
 
@@ -2670,7 +2670,7 @@ local_storage_types: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#local_storage_types Ec2Ec2Fleet#local_storage_types}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#local_storage_types Ec2Ec2Fleet#local_storage_types}.
 
 ---
 
@@ -2682,7 +2682,7 @@ max_spot_price_as_percentage_of_optimal_on_demand_price: typing.Union[int, float
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#max_spot_price_as_percentage_of_optimal_on_demand_price Ec2Ec2Fleet#max_spot_price_as_percentage_of_optimal_on_demand_price}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#max_spot_price_as_percentage_of_optimal_on_demand_price Ec2Ec2Fleet#max_spot_price_as_percentage_of_optimal_on_demand_price}.
 
 ---
 
@@ -2694,7 +2694,7 @@ memory_gi_b_per_v_cpu: Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirem
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsMemoryGiBPerVCpu">Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsMemoryGiBPerVCpu</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#memory_gi_b_per_v_cpu Ec2Ec2Fleet#memory_gi_b_per_v_cpu}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#memory_gi_b_per_v_cpu Ec2Ec2Fleet#memory_gi_b_per_v_cpu}.
 
 ---
 
@@ -2706,7 +2706,7 @@ memory_mi_b: Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsMemory
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsMemoryMiB">Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsMemoryMiB</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#memory_mi_b Ec2Ec2Fleet#memory_mi_b}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#memory_mi_b Ec2Ec2Fleet#memory_mi_b}.
 
 ---
 
@@ -2718,7 +2718,7 @@ network_bandwidth_gbps: Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequire
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsNetworkBandwidthGbps">Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsNetworkBandwidthGbps</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#network_bandwidth_gbps Ec2Ec2Fleet#network_bandwidth_gbps}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#network_bandwidth_gbps Ec2Ec2Fleet#network_bandwidth_gbps}.
 
 ---
 
@@ -2730,7 +2730,7 @@ network_interface_count: Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequir
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsNetworkInterfaceCount">Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsNetworkInterfaceCount</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#network_interface_count Ec2Ec2Fleet#network_interface_count}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#network_interface_count Ec2Ec2Fleet#network_interface_count}.
 
 ---
 
@@ -2742,7 +2742,7 @@ on_demand_max_price_percentage_over_lowest_price: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#on_demand_max_price_percentage_over_lowest_price Ec2Ec2Fleet#on_demand_max_price_percentage_over_lowest_price}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#on_demand_max_price_percentage_over_lowest_price Ec2Ec2Fleet#on_demand_max_price_percentage_over_lowest_price}.
 
 ---
 
@@ -2754,7 +2754,7 @@ require_encryption_in_transit: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#require_encryption_in_transit Ec2Ec2Fleet#require_encryption_in_transit}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#require_encryption_in_transit Ec2Ec2Fleet#require_encryption_in_transit}.
 
 ---
 
@@ -2766,7 +2766,7 @@ require_hibernate_support: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#require_hibernate_support Ec2Ec2Fleet#require_hibernate_support}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#require_hibernate_support Ec2Ec2Fleet#require_hibernate_support}.
 
 ---
 
@@ -2778,7 +2778,7 @@ spot_max_price_percentage_over_lowest_price: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#spot_max_price_percentage_over_lowest_price Ec2Ec2Fleet#spot_max_price_percentage_over_lowest_price}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#spot_max_price_percentage_over_lowest_price Ec2Ec2Fleet#spot_max_price_percentage_over_lowest_price}.
 
 ---
 
@@ -2790,7 +2790,7 @@ total_local_storage_gb: Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequire
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsTotalLocalStorageGb">Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsTotalLocalStorageGb</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#total_local_storage_gb Ec2Ec2Fleet#total_local_storage_gb}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#total_local_storage_gb Ec2Ec2Fleet#total_local_storage_gb}.
 
 ---
 
@@ -2802,7 +2802,7 @@ v_cpu_count: Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsVCpuCo
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsVCpuCount">Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsVCpuCount</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#v_cpu_count Ec2Ec2Fleet#v_cpu_count}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#v_cpu_count Ec2Ec2Fleet#v_cpu_count}.
 
 ---
 
@@ -2823,8 +2823,8 @@ ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsAcceler
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsAcceleratorCount.property.max">max</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#max Ec2Ec2Fleet#max}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsAcceleratorCount.property.min">min</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#min Ec2Ec2Fleet#min}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsAcceleratorCount.property.max">max</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#max Ec2Ec2Fleet#max}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsAcceleratorCount.property.min">min</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#min Ec2Ec2Fleet#min}. |
 
 ---
 
@@ -2836,7 +2836,7 @@ max: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#max Ec2Ec2Fleet#max}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#max Ec2Ec2Fleet#max}.
 
 ---
 
@@ -2848,7 +2848,7 @@ min: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#min Ec2Ec2Fleet#min}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#min Ec2Ec2Fleet#min}.
 
 ---
 
@@ -2869,8 +2869,8 @@ ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsAcceler
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsAcceleratorTotalMemoryMiB.property.max">max</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#max Ec2Ec2Fleet#max}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsAcceleratorTotalMemoryMiB.property.min">min</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#min Ec2Ec2Fleet#min}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsAcceleratorTotalMemoryMiB.property.max">max</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#max Ec2Ec2Fleet#max}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsAcceleratorTotalMemoryMiB.property.min">min</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#min Ec2Ec2Fleet#min}. |
 
 ---
 
@@ -2882,7 +2882,7 @@ max: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#max Ec2Ec2Fleet#max}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#max Ec2Ec2Fleet#max}.
 
 ---
 
@@ -2894,7 +2894,7 @@ min: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#min Ec2Ec2Fleet#min}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#min Ec2Ec2Fleet#min}.
 
 ---
 
@@ -2915,8 +2915,8 @@ ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsBaselin
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsBaselineEbsBandwidthMbps.property.max">max</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#max Ec2Ec2Fleet#max}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsBaselineEbsBandwidthMbps.property.min">min</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#min Ec2Ec2Fleet#min}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsBaselineEbsBandwidthMbps.property.max">max</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#max Ec2Ec2Fleet#max}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsBaselineEbsBandwidthMbps.property.min">min</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#min Ec2Ec2Fleet#min}. |
 
 ---
 
@@ -2928,7 +2928,7 @@ max: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#max Ec2Ec2Fleet#max}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#max Ec2Ec2Fleet#max}.
 
 ---
 
@@ -2940,7 +2940,7 @@ min: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#min Ec2Ec2Fleet#min}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#min Ec2Ec2Fleet#min}.
 
 ---
 
@@ -2960,7 +2960,7 @@ ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsBaselin
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsBaselinePerformanceFactors.property.cpu">cpu</a></code> | <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsBaselinePerformanceFactorsCpu">Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsBaselinePerformanceFactorsCpu</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#cpu Ec2Ec2Fleet#cpu}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsBaselinePerformanceFactors.property.cpu">cpu</a></code> | <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsBaselinePerformanceFactorsCpu">Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsBaselinePerformanceFactorsCpu</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#cpu Ec2Ec2Fleet#cpu}. |
 
 ---
 
@@ -2972,7 +2972,7 @@ cpu: Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsBaselinePerfor
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsBaselinePerformanceFactorsCpu">Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsBaselinePerformanceFactorsCpu</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#cpu Ec2Ec2Fleet#cpu}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#cpu Ec2Ec2Fleet#cpu}.
 
 ---
 
@@ -2992,7 +2992,7 @@ ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsBaselin
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsBaselinePerformanceFactorsCpu.property.references">references</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsBaselinePerformanceFactorsCpuReferences">Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsBaselinePerformanceFactorsCpuReferences</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#references Ec2Ec2Fleet#references}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsBaselinePerformanceFactorsCpu.property.references">references</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsBaselinePerformanceFactorsCpuReferences">Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsBaselinePerformanceFactorsCpuReferences</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#references Ec2Ec2Fleet#references}. |
 
 ---
 
@@ -3004,7 +3004,7 @@ references: IResolvable | typing.List[Ec2Ec2FleetLaunchTemplateConfigsOverridesI
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsBaselinePerformanceFactorsCpuReferences">Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsBaselinePerformanceFactorsCpuReferences</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#references Ec2Ec2Fleet#references}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#references Ec2Ec2Fleet#references}.
 
 ---
 
@@ -3024,7 +3024,7 @@ ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsBaselin
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsBaselinePerformanceFactorsCpuReferences.property.instanceFamily">instance_family</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#instance_family Ec2Ec2Fleet#instance_family}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsBaselinePerformanceFactorsCpuReferences.property.instanceFamily">instance_family</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#instance_family Ec2Ec2Fleet#instance_family}. |
 
 ---
 
@@ -3036,7 +3036,7 @@ instance_family: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#instance_family Ec2Ec2Fleet#instance_family}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#instance_family Ec2Ec2Fleet#instance_family}.
 
 ---
 
@@ -3057,8 +3057,8 @@ ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsMemoryG
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsMemoryGiBPerVCpu.property.max">max</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#max Ec2Ec2Fleet#max}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsMemoryGiBPerVCpu.property.min">min</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#min Ec2Ec2Fleet#min}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsMemoryGiBPerVCpu.property.max">max</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#max Ec2Ec2Fleet#max}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsMemoryGiBPerVCpu.property.min">min</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#min Ec2Ec2Fleet#min}. |
 
 ---
 
@@ -3070,7 +3070,7 @@ max: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#max Ec2Ec2Fleet#max}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#max Ec2Ec2Fleet#max}.
 
 ---
 
@@ -3082,7 +3082,7 @@ min: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#min Ec2Ec2Fleet#min}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#min Ec2Ec2Fleet#min}.
 
 ---
 
@@ -3103,8 +3103,8 @@ ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsMemoryM
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsMemoryMiB.property.max">max</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#max Ec2Ec2Fleet#max}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsMemoryMiB.property.min">min</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#min Ec2Ec2Fleet#min}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsMemoryMiB.property.max">max</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#max Ec2Ec2Fleet#max}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsMemoryMiB.property.min">min</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#min Ec2Ec2Fleet#min}. |
 
 ---
 
@@ -3116,7 +3116,7 @@ max: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#max Ec2Ec2Fleet#max}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#max Ec2Ec2Fleet#max}.
 
 ---
 
@@ -3128,7 +3128,7 @@ min: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#min Ec2Ec2Fleet#min}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#min Ec2Ec2Fleet#min}.
 
 ---
 
@@ -3149,8 +3149,8 @@ ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsNetwork
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsNetworkBandwidthGbps.property.max">max</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#max Ec2Ec2Fleet#max}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsNetworkBandwidthGbps.property.min">min</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#min Ec2Ec2Fleet#min}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsNetworkBandwidthGbps.property.max">max</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#max Ec2Ec2Fleet#max}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsNetworkBandwidthGbps.property.min">min</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#min Ec2Ec2Fleet#min}. |
 
 ---
 
@@ -3162,7 +3162,7 @@ max: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#max Ec2Ec2Fleet#max}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#max Ec2Ec2Fleet#max}.
 
 ---
 
@@ -3174,7 +3174,7 @@ min: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#min Ec2Ec2Fleet#min}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#min Ec2Ec2Fleet#min}.
 
 ---
 
@@ -3195,8 +3195,8 @@ ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsNetwork
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsNetworkInterfaceCount.property.max">max</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#max Ec2Ec2Fleet#max}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsNetworkInterfaceCount.property.min">min</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#min Ec2Ec2Fleet#min}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsNetworkInterfaceCount.property.max">max</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#max Ec2Ec2Fleet#max}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsNetworkInterfaceCount.property.min">min</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#min Ec2Ec2Fleet#min}. |
 
 ---
 
@@ -3208,7 +3208,7 @@ max: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#max Ec2Ec2Fleet#max}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#max Ec2Ec2Fleet#max}.
 
 ---
 
@@ -3220,7 +3220,7 @@ min: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#min Ec2Ec2Fleet#min}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#min Ec2Ec2Fleet#min}.
 
 ---
 
@@ -3241,8 +3241,8 @@ ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsTotalLo
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsTotalLocalStorageGb.property.max">max</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#max Ec2Ec2Fleet#max}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsTotalLocalStorageGb.property.min">min</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#min Ec2Ec2Fleet#min}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsTotalLocalStorageGb.property.max">max</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#max Ec2Ec2Fleet#max}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsTotalLocalStorageGb.property.min">min</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#min Ec2Ec2Fleet#min}. |
 
 ---
 
@@ -3254,7 +3254,7 @@ max: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#max Ec2Ec2Fleet#max}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#max Ec2Ec2Fleet#max}.
 
 ---
 
@@ -3266,7 +3266,7 @@ min: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#min Ec2Ec2Fleet#min}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#min Ec2Ec2Fleet#min}.
 
 ---
 
@@ -3287,8 +3287,8 @@ ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsVCpuCou
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsVCpuCount.property.max">max</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#max Ec2Ec2Fleet#max}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsVCpuCount.property.min">min</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#min Ec2Ec2Fleet#min}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsVCpuCount.property.max">max</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#max Ec2Ec2Fleet#max}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsVCpuCount.property.min">min</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#min Ec2Ec2Fleet#min}. |
 
 ---
 
@@ -3300,7 +3300,7 @@ max: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#max Ec2Ec2Fleet#max}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#max Ec2Ec2Fleet#max}.
 
 ---
 
@@ -3312,7 +3312,7 @@ min: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#min Ec2Ec2Fleet#min}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#min Ec2Ec2Fleet#min}.
 
 ---
 
@@ -3334,9 +3334,9 @@ ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesMetadataOptions(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesMetadataOptions.property.httpEndpoint">http_endpoint</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#http_endpoint Ec2Ec2Fleet#http_endpoint}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesMetadataOptions.property.httpPutResponseHopLimit">http_put_response_hop_limit</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#http_put_response_hop_limit Ec2Ec2Fleet#http_put_response_hop_limit}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesMetadataOptions.property.httpTokens">http_tokens</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#http_tokens Ec2Ec2Fleet#http_tokens}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesMetadataOptions.property.httpEndpoint">http_endpoint</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#http_endpoint Ec2Ec2Fleet#http_endpoint}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesMetadataOptions.property.httpPutResponseHopLimit">http_put_response_hop_limit</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#http_put_response_hop_limit Ec2Ec2Fleet#http_put_response_hop_limit}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesMetadataOptions.property.httpTokens">http_tokens</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#http_tokens Ec2Ec2Fleet#http_tokens}. |
 
 ---
 
@@ -3348,7 +3348,7 @@ http_endpoint: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#http_endpoint Ec2Ec2Fleet#http_endpoint}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#http_endpoint Ec2Ec2Fleet#http_endpoint}.
 
 ---
 
@@ -3360,7 +3360,7 @@ http_put_response_hop_limit: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#http_put_response_hop_limit Ec2Ec2Fleet#http_put_response_hop_limit}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#http_put_response_hop_limit Ec2Ec2Fleet#http_put_response_hop_limit}.
 
 ---
 
@@ -3372,7 +3372,7 @@ http_tokens: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#http_tokens Ec2Ec2Fleet#http_tokens}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#http_tokens Ec2Ec2Fleet#http_tokens}.
 
 ---
 
@@ -3405,20 +3405,20 @@ ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesNetworkInterfaces(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesNetworkInterfaces.property.associatePublicIpAddress">associate_public_ip_address</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#associate_public_ip_address Ec2Ec2Fleet#associate_public_ip_address}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesNetworkInterfaces.property.deleteOnTermination">delete_on_termination</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#delete_on_termination Ec2Ec2Fleet#delete_on_termination}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesNetworkInterfaces.property.description">description</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#description Ec2Ec2Fleet#description}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesNetworkInterfaces.property.deviceIndex">device_index</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#device_index Ec2Ec2Fleet#device_index}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesNetworkInterfaces.property.groups">groups</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#groups Ec2Ec2Fleet#groups}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesNetworkInterfaces.property.interfaceType">interface_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#interface_type Ec2Ec2Fleet#interface_type}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesNetworkInterfaces.property.ipv6AddressCount">ipv6_address_count</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#ipv_6_address_count Ec2Ec2Fleet#ipv_6_address_count}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesNetworkInterfaces.property.ipv6Addresses">ipv6_addresses</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesNetworkInterfacesIpv6Addresses">Ec2Ec2FleetLaunchTemplateConfigsOverridesNetworkInterfacesIpv6Addresses</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#ipv_6_addresses Ec2Ec2Fleet#ipv_6_addresses}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesNetworkInterfaces.property.networkCardIndex">network_card_index</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#network_card_index Ec2Ec2Fleet#network_card_index}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesNetworkInterfaces.property.networkInterfaceId">network_interface_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#network_interface_id Ec2Ec2Fleet#network_interface_id}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesNetworkInterfaces.property.privateIpAddress">private_ip_address</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#private_ip_address Ec2Ec2Fleet#private_ip_address}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesNetworkInterfaces.property.privateIpAddresses">private_ip_addresses</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesNetworkInterfacesPrivateIpAddresses">Ec2Ec2FleetLaunchTemplateConfigsOverridesNetworkInterfacesPrivateIpAddresses</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#private_ip_addresses Ec2Ec2Fleet#private_ip_addresses}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesNetworkInterfaces.property.secondaryPrivateIpAddressCount">secondary_private_ip_address_count</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#secondary_private_ip_address_count Ec2Ec2Fleet#secondary_private_ip_address_count}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesNetworkInterfaces.property.subnetId">subnet_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#subnet_id Ec2Ec2Fleet#subnet_id}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesNetworkInterfaces.property.associatePublicIpAddress">associate_public_ip_address</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#associate_public_ip_address Ec2Ec2Fleet#associate_public_ip_address}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesNetworkInterfaces.property.deleteOnTermination">delete_on_termination</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#delete_on_termination Ec2Ec2Fleet#delete_on_termination}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesNetworkInterfaces.property.description">description</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#description Ec2Ec2Fleet#description}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesNetworkInterfaces.property.deviceIndex">device_index</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#device_index Ec2Ec2Fleet#device_index}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesNetworkInterfaces.property.groups">groups</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#groups Ec2Ec2Fleet#groups}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesNetworkInterfaces.property.interfaceType">interface_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#interface_type Ec2Ec2Fleet#interface_type}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesNetworkInterfaces.property.ipv6AddressCount">ipv6_address_count</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#ipv_6_address_count Ec2Ec2Fleet#ipv_6_address_count}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesNetworkInterfaces.property.ipv6Addresses">ipv6_addresses</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesNetworkInterfacesIpv6Addresses">Ec2Ec2FleetLaunchTemplateConfigsOverridesNetworkInterfacesIpv6Addresses</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#ipv_6_addresses Ec2Ec2Fleet#ipv_6_addresses}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesNetworkInterfaces.property.networkCardIndex">network_card_index</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#network_card_index Ec2Ec2Fleet#network_card_index}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesNetworkInterfaces.property.networkInterfaceId">network_interface_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#network_interface_id Ec2Ec2Fleet#network_interface_id}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesNetworkInterfaces.property.privateIpAddress">private_ip_address</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#private_ip_address Ec2Ec2Fleet#private_ip_address}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesNetworkInterfaces.property.privateIpAddresses">private_ip_addresses</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesNetworkInterfacesPrivateIpAddresses">Ec2Ec2FleetLaunchTemplateConfigsOverridesNetworkInterfacesPrivateIpAddresses</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#private_ip_addresses Ec2Ec2Fleet#private_ip_addresses}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesNetworkInterfaces.property.secondaryPrivateIpAddressCount">secondary_private_ip_address_count</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#secondary_private_ip_address_count Ec2Ec2Fleet#secondary_private_ip_address_count}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesNetworkInterfaces.property.subnetId">subnet_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#subnet_id Ec2Ec2Fleet#subnet_id}. |
 
 ---
 
@@ -3430,7 +3430,7 @@ associate_public_ip_address: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#associate_public_ip_address Ec2Ec2Fleet#associate_public_ip_address}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#associate_public_ip_address Ec2Ec2Fleet#associate_public_ip_address}.
 
 ---
 
@@ -3442,7 +3442,7 @@ delete_on_termination: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#delete_on_termination Ec2Ec2Fleet#delete_on_termination}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#delete_on_termination Ec2Ec2Fleet#delete_on_termination}.
 
 ---
 
@@ -3454,7 +3454,7 @@ description: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#description Ec2Ec2Fleet#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#description Ec2Ec2Fleet#description}.
 
 ---
 
@@ -3466,7 +3466,7 @@ device_index: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#device_index Ec2Ec2Fleet#device_index}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#device_index Ec2Ec2Fleet#device_index}.
 
 ---
 
@@ -3478,7 +3478,7 @@ groups: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#groups Ec2Ec2Fleet#groups}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#groups Ec2Ec2Fleet#groups}.
 
 ---
 
@@ -3490,7 +3490,7 @@ interface_type: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#interface_type Ec2Ec2Fleet#interface_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#interface_type Ec2Ec2Fleet#interface_type}.
 
 ---
 
@@ -3502,7 +3502,7 @@ ipv6_address_count: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#ipv_6_address_count Ec2Ec2Fleet#ipv_6_address_count}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#ipv_6_address_count Ec2Ec2Fleet#ipv_6_address_count}.
 
 ---
 
@@ -3514,7 +3514,7 @@ ipv6_addresses: IResolvable | typing.List[Ec2Ec2FleetLaunchTemplateConfigsOverri
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesNetworkInterfacesIpv6Addresses">Ec2Ec2FleetLaunchTemplateConfigsOverridesNetworkInterfacesIpv6Addresses</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#ipv_6_addresses Ec2Ec2Fleet#ipv_6_addresses}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#ipv_6_addresses Ec2Ec2Fleet#ipv_6_addresses}.
 
 ---
 
@@ -3526,7 +3526,7 @@ network_card_index: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#network_card_index Ec2Ec2Fleet#network_card_index}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#network_card_index Ec2Ec2Fleet#network_card_index}.
 
 ---
 
@@ -3538,7 +3538,7 @@ network_interface_id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#network_interface_id Ec2Ec2Fleet#network_interface_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#network_interface_id Ec2Ec2Fleet#network_interface_id}.
 
 ---
 
@@ -3550,7 +3550,7 @@ private_ip_address: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#private_ip_address Ec2Ec2Fleet#private_ip_address}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#private_ip_address Ec2Ec2Fleet#private_ip_address}.
 
 ---
 
@@ -3562,7 +3562,7 @@ private_ip_addresses: IResolvable | typing.List[Ec2Ec2FleetLaunchTemplateConfigs
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesNetworkInterfacesPrivateIpAddresses">Ec2Ec2FleetLaunchTemplateConfigsOverridesNetworkInterfacesPrivateIpAddresses</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#private_ip_addresses Ec2Ec2Fleet#private_ip_addresses}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#private_ip_addresses Ec2Ec2Fleet#private_ip_addresses}.
 
 ---
 
@@ -3574,7 +3574,7 @@ secondary_private_ip_address_count: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#secondary_private_ip_address_count Ec2Ec2Fleet#secondary_private_ip_address_count}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#secondary_private_ip_address_count Ec2Ec2Fleet#secondary_private_ip_address_count}.
 
 ---
 
@@ -3586,7 +3586,7 @@ subnet_id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#subnet_id Ec2Ec2Fleet#subnet_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#subnet_id Ec2Ec2Fleet#subnet_id}.
 
 ---
 
@@ -3606,7 +3606,7 @@ ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesNetworkInterfacesIpv6Addres
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesNetworkInterfacesIpv6Addresses.property.ipv6Address">ipv6_address</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#ipv_6_address Ec2Ec2Fleet#ipv_6_address}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesNetworkInterfacesIpv6Addresses.property.ipv6Address">ipv6_address</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#ipv_6_address Ec2Ec2Fleet#ipv_6_address}. |
 
 ---
 
@@ -3618,7 +3618,7 @@ ipv6_address: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#ipv_6_address Ec2Ec2Fleet#ipv_6_address}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#ipv_6_address Ec2Ec2Fleet#ipv_6_address}.
 
 ---
 
@@ -3639,8 +3639,8 @@ ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesNetworkInterfacesPrivateIpA
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesNetworkInterfacesPrivateIpAddresses.property.primary">primary</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#primary Ec2Ec2Fleet#primary}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesNetworkInterfacesPrivateIpAddresses.property.privateIpAddress">private_ip_address</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#private_ip_address Ec2Ec2Fleet#private_ip_address}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesNetworkInterfacesPrivateIpAddresses.property.primary">primary</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#primary Ec2Ec2Fleet#primary}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesNetworkInterfacesPrivateIpAddresses.property.privateIpAddress">private_ip_address</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#private_ip_address Ec2Ec2Fleet#private_ip_address}. |
 
 ---
 
@@ -3652,7 +3652,7 @@ primary: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#primary Ec2Ec2Fleet#primary}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#primary Ec2Ec2Fleet#primary}.
 
 ---
 
@@ -3664,7 +3664,7 @@ private_ip_address: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#private_ip_address Ec2Ec2Fleet#private_ip_address}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#private_ip_address Ec2Ec2Fleet#private_ip_address}.
 
 ---
 
@@ -3691,14 +3691,14 @@ ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesPlacement(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesPlacement.property.affinity">affinity</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#affinity Ec2Ec2Fleet#affinity}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesPlacement.property.availabilityZone">availability_zone</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#availability_zone Ec2Ec2Fleet#availability_zone}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesPlacement.property.groupName">group_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#group_name Ec2Ec2Fleet#group_name}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesPlacement.property.hostId">host_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#host_id Ec2Ec2Fleet#host_id}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesPlacement.property.hostResourceGroupArn">host_resource_group_arn</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#host_resource_group_arn Ec2Ec2Fleet#host_resource_group_arn}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesPlacement.property.partitionNumber">partition_number</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#partition_number Ec2Ec2Fleet#partition_number}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesPlacement.property.spreadDomain">spread_domain</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#spread_domain Ec2Ec2Fleet#spread_domain}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesPlacement.property.tenancy">tenancy</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#tenancy Ec2Ec2Fleet#tenancy}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesPlacement.property.affinity">affinity</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#affinity Ec2Ec2Fleet#affinity}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesPlacement.property.availabilityZone">availability_zone</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#availability_zone Ec2Ec2Fleet#availability_zone}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesPlacement.property.groupName">group_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#group_name Ec2Ec2Fleet#group_name}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesPlacement.property.hostId">host_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#host_id Ec2Ec2Fleet#host_id}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesPlacement.property.hostResourceGroupArn">host_resource_group_arn</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#host_resource_group_arn Ec2Ec2Fleet#host_resource_group_arn}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesPlacement.property.partitionNumber">partition_number</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#partition_number Ec2Ec2Fleet#partition_number}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesPlacement.property.spreadDomain">spread_domain</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#spread_domain Ec2Ec2Fleet#spread_domain}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesPlacement.property.tenancy">tenancy</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#tenancy Ec2Ec2Fleet#tenancy}. |
 
 ---
 
@@ -3710,7 +3710,7 @@ affinity: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#affinity Ec2Ec2Fleet#affinity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#affinity Ec2Ec2Fleet#affinity}.
 
 ---
 
@@ -3722,7 +3722,7 @@ availability_zone: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#availability_zone Ec2Ec2Fleet#availability_zone}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#availability_zone Ec2Ec2Fleet#availability_zone}.
 
 ---
 
@@ -3734,7 +3734,7 @@ group_name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#group_name Ec2Ec2Fleet#group_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#group_name Ec2Ec2Fleet#group_name}.
 
 ---
 
@@ -3746,7 +3746,7 @@ host_id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#host_id Ec2Ec2Fleet#host_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#host_id Ec2Ec2Fleet#host_id}.
 
 ---
 
@@ -3758,7 +3758,7 @@ host_resource_group_arn: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#host_resource_group_arn Ec2Ec2Fleet#host_resource_group_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#host_resource_group_arn Ec2Ec2Fleet#host_resource_group_arn}.
 
 ---
 
@@ -3770,7 +3770,7 @@ partition_number: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#partition_number Ec2Ec2Fleet#partition_number}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#partition_number Ec2Ec2Fleet#partition_number}.
 
 ---
 
@@ -3782,7 +3782,7 @@ spread_domain: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#spread_domain Ec2Ec2Fleet#spread_domain}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#spread_domain Ec2Ec2Fleet#spread_domain}.
 
 ---
 
@@ -3794,7 +3794,7 @@ tenancy: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#tenancy Ec2Ec2Fleet#tenancy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#tenancy Ec2Ec2Fleet#tenancy}.
 
 ---
 
@@ -3819,12 +3819,12 @@ ec2Ec2Fleet.Ec2Ec2FleetOnDemandOptions(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetOnDemandOptions.property.allocationStrategy">allocation_strategy</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#allocation_strategy Ec2Ec2Fleet#allocation_strategy}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetOnDemandOptions.property.capacityReservationOptions">capacity_reservation_options</a></code> | <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetOnDemandOptionsCapacityReservationOptions">Ec2Ec2FleetOnDemandOptionsCapacityReservationOptions</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#capacity_reservation_options Ec2Ec2Fleet#capacity_reservation_options}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetOnDemandOptions.property.maxTotalPrice">max_total_price</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#max_total_price Ec2Ec2Fleet#max_total_price}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetOnDemandOptions.property.minTargetCapacity">min_target_capacity</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#min_target_capacity Ec2Ec2Fleet#min_target_capacity}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetOnDemandOptions.property.singleAvailabilityZone">single_availability_zone</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#single_availability_zone Ec2Ec2Fleet#single_availability_zone}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetOnDemandOptions.property.singleInstanceType">single_instance_type</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#single_instance_type Ec2Ec2Fleet#single_instance_type}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetOnDemandOptions.property.allocationStrategy">allocation_strategy</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#allocation_strategy Ec2Ec2Fleet#allocation_strategy}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetOnDemandOptions.property.capacityReservationOptions">capacity_reservation_options</a></code> | <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetOnDemandOptionsCapacityReservationOptions">Ec2Ec2FleetOnDemandOptionsCapacityReservationOptions</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#capacity_reservation_options Ec2Ec2Fleet#capacity_reservation_options}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetOnDemandOptions.property.maxTotalPrice">max_total_price</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#max_total_price Ec2Ec2Fleet#max_total_price}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetOnDemandOptions.property.minTargetCapacity">min_target_capacity</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#min_target_capacity Ec2Ec2Fleet#min_target_capacity}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetOnDemandOptions.property.singleAvailabilityZone">single_availability_zone</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#single_availability_zone Ec2Ec2Fleet#single_availability_zone}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetOnDemandOptions.property.singleInstanceType">single_instance_type</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#single_instance_type Ec2Ec2Fleet#single_instance_type}. |
 
 ---
 
@@ -3836,7 +3836,7 @@ allocation_strategy: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#allocation_strategy Ec2Ec2Fleet#allocation_strategy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#allocation_strategy Ec2Ec2Fleet#allocation_strategy}.
 
 ---
 
@@ -3848,7 +3848,7 @@ capacity_reservation_options: Ec2Ec2FleetOnDemandOptionsCapacityReservationOptio
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetOnDemandOptionsCapacityReservationOptions">Ec2Ec2FleetOnDemandOptionsCapacityReservationOptions</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#capacity_reservation_options Ec2Ec2Fleet#capacity_reservation_options}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#capacity_reservation_options Ec2Ec2Fleet#capacity_reservation_options}.
 
 ---
 
@@ -3860,7 +3860,7 @@ max_total_price: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#max_total_price Ec2Ec2Fleet#max_total_price}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#max_total_price Ec2Ec2Fleet#max_total_price}.
 
 ---
 
@@ -3872,7 +3872,7 @@ min_target_capacity: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#min_target_capacity Ec2Ec2Fleet#min_target_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#min_target_capacity Ec2Ec2Fleet#min_target_capacity}.
 
 ---
 
@@ -3884,7 +3884,7 @@ single_availability_zone: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#single_availability_zone Ec2Ec2Fleet#single_availability_zone}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#single_availability_zone Ec2Ec2Fleet#single_availability_zone}.
 
 ---
 
@@ -3896,7 +3896,7 @@ single_instance_type: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#single_instance_type Ec2Ec2Fleet#single_instance_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#single_instance_type Ec2Ec2Fleet#single_instance_type}.
 
 ---
 
@@ -3916,7 +3916,7 @@ ec2Ec2Fleet.Ec2Ec2FleetOnDemandOptionsCapacityReservationOptions(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetOnDemandOptionsCapacityReservationOptions.property.usageStrategy">usage_strategy</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#usage_strategy Ec2Ec2Fleet#usage_strategy}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetOnDemandOptionsCapacityReservationOptions.property.usageStrategy">usage_strategy</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#usage_strategy Ec2Ec2Fleet#usage_strategy}. |
 
 ---
 
@@ -3928,7 +3928,7 @@ usage_strategy: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#usage_strategy Ec2Ec2Fleet#usage_strategy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#usage_strategy Ec2Ec2Fleet#usage_strategy}.
 
 ---
 
@@ -3951,10 +3951,10 @@ ec2Ec2Fleet.Ec2Ec2FleetReservedCapacityOptions(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetReservedCapacityOptions.property.allocationStrategy">allocation_strategy</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#allocation_strategy Ec2Ec2Fleet#allocation_strategy}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetReservedCapacityOptions.property.capacityReservationTarget">capacity_reservation_target</a></code> | <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetReservedCapacityOptionsCapacityReservationTarget">Ec2Ec2FleetReservedCapacityOptionsCapacityReservationTarget</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#capacity_reservation_target Ec2Ec2Fleet#capacity_reservation_target}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetReservedCapacityOptions.property.reservationTypes">reservation_types</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#reservation_types Ec2Ec2Fleet#reservation_types}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetReservedCapacityOptions.property.reservedCapacityFallbackOptions">reserved_capacity_fallback_options</a></code> | <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetReservedCapacityOptionsReservedCapacityFallbackOptions">Ec2Ec2FleetReservedCapacityOptionsReservedCapacityFallbackOptions</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#reserved_capacity_fallback_options Ec2Ec2Fleet#reserved_capacity_fallback_options}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetReservedCapacityOptions.property.allocationStrategy">allocation_strategy</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#allocation_strategy Ec2Ec2Fleet#allocation_strategy}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetReservedCapacityOptions.property.capacityReservationTarget">capacity_reservation_target</a></code> | <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetReservedCapacityOptionsCapacityReservationTarget">Ec2Ec2FleetReservedCapacityOptionsCapacityReservationTarget</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#capacity_reservation_target Ec2Ec2Fleet#capacity_reservation_target}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetReservedCapacityOptions.property.reservationTypes">reservation_types</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#reservation_types Ec2Ec2Fleet#reservation_types}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetReservedCapacityOptions.property.reservedCapacityFallbackOptions">reserved_capacity_fallback_options</a></code> | <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetReservedCapacityOptionsReservedCapacityFallbackOptions">Ec2Ec2FleetReservedCapacityOptionsReservedCapacityFallbackOptions</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#reserved_capacity_fallback_options Ec2Ec2Fleet#reserved_capacity_fallback_options}. |
 
 ---
 
@@ -3966,7 +3966,7 @@ allocation_strategy: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#allocation_strategy Ec2Ec2Fleet#allocation_strategy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#allocation_strategy Ec2Ec2Fleet#allocation_strategy}.
 
 ---
 
@@ -3978,7 +3978,7 @@ capacity_reservation_target: Ec2Ec2FleetReservedCapacityOptionsCapacityReservati
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetReservedCapacityOptionsCapacityReservationTarget">Ec2Ec2FleetReservedCapacityOptionsCapacityReservationTarget</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#capacity_reservation_target Ec2Ec2Fleet#capacity_reservation_target}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#capacity_reservation_target Ec2Ec2Fleet#capacity_reservation_target}.
 
 ---
 
@@ -3990,7 +3990,7 @@ reservation_types: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#reservation_types Ec2Ec2Fleet#reservation_types}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#reservation_types Ec2Ec2Fleet#reservation_types}.
 
 ---
 
@@ -4002,7 +4002,7 @@ reserved_capacity_fallback_options: Ec2Ec2FleetReservedCapacityOptionsReservedCa
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetReservedCapacityOptionsReservedCapacityFallbackOptions">Ec2Ec2FleetReservedCapacityOptionsReservedCapacityFallbackOptions</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#reserved_capacity_fallback_options Ec2Ec2Fleet#reserved_capacity_fallback_options}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#reserved_capacity_fallback_options Ec2Ec2Fleet#reserved_capacity_fallback_options}.
 
 ---
 
@@ -4023,8 +4023,8 @@ ec2Ec2Fleet.Ec2Ec2FleetReservedCapacityOptionsCapacityReservationTarget(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetReservedCapacityOptionsCapacityReservationTarget.property.capacityReservationIds">capacity_reservation_ids</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#capacity_reservation_ids Ec2Ec2Fleet#capacity_reservation_ids}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetReservedCapacityOptionsCapacityReservationTarget.property.capacityReservationResourceGroupArns">capacity_reservation_resource_group_arns</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#capacity_reservation_resource_group_arns Ec2Ec2Fleet#capacity_reservation_resource_group_arns}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetReservedCapacityOptionsCapacityReservationTarget.property.capacityReservationIds">capacity_reservation_ids</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#capacity_reservation_ids Ec2Ec2Fleet#capacity_reservation_ids}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetReservedCapacityOptionsCapacityReservationTarget.property.capacityReservationResourceGroupArns">capacity_reservation_resource_group_arns</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#capacity_reservation_resource_group_arns Ec2Ec2Fleet#capacity_reservation_resource_group_arns}. |
 
 ---
 
@@ -4036,7 +4036,7 @@ capacity_reservation_ids: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#capacity_reservation_ids Ec2Ec2Fleet#capacity_reservation_ids}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#capacity_reservation_ids Ec2Ec2Fleet#capacity_reservation_ids}.
 
 ---
 
@@ -4048,7 +4048,7 @@ capacity_reservation_resource_group_arns: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#capacity_reservation_resource_group_arns Ec2Ec2Fleet#capacity_reservation_resource_group_arns}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#capacity_reservation_resource_group_arns Ec2Ec2Fleet#capacity_reservation_resource_group_arns}.
 
 ---
 
@@ -4068,7 +4068,7 @@ ec2Ec2Fleet.Ec2Ec2FleetReservedCapacityOptionsReservedCapacityFallbackOptions(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetReservedCapacityOptionsReservedCapacityFallbackOptions.property.marketTypes">market_types</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#market_types Ec2Ec2Fleet#market_types}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetReservedCapacityOptionsReservedCapacityFallbackOptions.property.marketTypes">market_types</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#market_types Ec2Ec2Fleet#market_types}. |
 
 ---
 
@@ -4080,7 +4080,7 @@ market_types: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#market_types Ec2Ec2Fleet#market_types}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#market_types Ec2Ec2Fleet#market_types}.
 
 ---
 
@@ -4107,14 +4107,14 @@ ec2Ec2Fleet.Ec2Ec2FleetSpotOptions(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetSpotOptions.property.allocationStrategy">allocation_strategy</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#allocation_strategy Ec2Ec2Fleet#allocation_strategy}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetSpotOptions.property.instanceInterruptionBehavior">instance_interruption_behavior</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#instance_interruption_behavior Ec2Ec2Fleet#instance_interruption_behavior}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetSpotOptions.property.instancePoolsToUseCount">instance_pools_to_use_count</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#instance_pools_to_use_count Ec2Ec2Fleet#instance_pools_to_use_count}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetSpotOptions.property.maintenanceStrategies">maintenance_strategies</a></code> | <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetSpotOptionsMaintenanceStrategies">Ec2Ec2FleetSpotOptionsMaintenanceStrategies</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#maintenance_strategies Ec2Ec2Fleet#maintenance_strategies}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetSpotOptions.property.maxTotalPrice">max_total_price</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#max_total_price Ec2Ec2Fleet#max_total_price}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetSpotOptions.property.minTargetCapacity">min_target_capacity</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#min_target_capacity Ec2Ec2Fleet#min_target_capacity}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetSpotOptions.property.singleAvailabilityZone">single_availability_zone</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#single_availability_zone Ec2Ec2Fleet#single_availability_zone}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetSpotOptions.property.singleInstanceType">single_instance_type</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#single_instance_type Ec2Ec2Fleet#single_instance_type}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetSpotOptions.property.allocationStrategy">allocation_strategy</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#allocation_strategy Ec2Ec2Fleet#allocation_strategy}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetSpotOptions.property.instanceInterruptionBehavior">instance_interruption_behavior</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#instance_interruption_behavior Ec2Ec2Fleet#instance_interruption_behavior}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetSpotOptions.property.instancePoolsToUseCount">instance_pools_to_use_count</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#instance_pools_to_use_count Ec2Ec2Fleet#instance_pools_to_use_count}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetSpotOptions.property.maintenanceStrategies">maintenance_strategies</a></code> | <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetSpotOptionsMaintenanceStrategies">Ec2Ec2FleetSpotOptionsMaintenanceStrategies</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#maintenance_strategies Ec2Ec2Fleet#maintenance_strategies}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetSpotOptions.property.maxTotalPrice">max_total_price</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#max_total_price Ec2Ec2Fleet#max_total_price}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetSpotOptions.property.minTargetCapacity">min_target_capacity</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#min_target_capacity Ec2Ec2Fleet#min_target_capacity}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetSpotOptions.property.singleAvailabilityZone">single_availability_zone</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#single_availability_zone Ec2Ec2Fleet#single_availability_zone}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetSpotOptions.property.singleInstanceType">single_instance_type</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#single_instance_type Ec2Ec2Fleet#single_instance_type}. |
 
 ---
 
@@ -4126,7 +4126,7 @@ allocation_strategy: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#allocation_strategy Ec2Ec2Fleet#allocation_strategy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#allocation_strategy Ec2Ec2Fleet#allocation_strategy}.
 
 ---
 
@@ -4138,7 +4138,7 @@ instance_interruption_behavior: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#instance_interruption_behavior Ec2Ec2Fleet#instance_interruption_behavior}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#instance_interruption_behavior Ec2Ec2Fleet#instance_interruption_behavior}.
 
 ---
 
@@ -4150,7 +4150,7 @@ instance_pools_to_use_count: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#instance_pools_to_use_count Ec2Ec2Fleet#instance_pools_to_use_count}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#instance_pools_to_use_count Ec2Ec2Fleet#instance_pools_to_use_count}.
 
 ---
 
@@ -4162,7 +4162,7 @@ maintenance_strategies: Ec2Ec2FleetSpotOptionsMaintenanceStrategies
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetSpotOptionsMaintenanceStrategies">Ec2Ec2FleetSpotOptionsMaintenanceStrategies</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#maintenance_strategies Ec2Ec2Fleet#maintenance_strategies}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#maintenance_strategies Ec2Ec2Fleet#maintenance_strategies}.
 
 ---
 
@@ -4174,7 +4174,7 @@ max_total_price: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#max_total_price Ec2Ec2Fleet#max_total_price}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#max_total_price Ec2Ec2Fleet#max_total_price}.
 
 ---
 
@@ -4186,7 +4186,7 @@ min_target_capacity: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#min_target_capacity Ec2Ec2Fleet#min_target_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#min_target_capacity Ec2Ec2Fleet#min_target_capacity}.
 
 ---
 
@@ -4198,7 +4198,7 @@ single_availability_zone: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#single_availability_zone Ec2Ec2Fleet#single_availability_zone}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#single_availability_zone Ec2Ec2Fleet#single_availability_zone}.
 
 ---
 
@@ -4210,7 +4210,7 @@ single_instance_type: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#single_instance_type Ec2Ec2Fleet#single_instance_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#single_instance_type Ec2Ec2Fleet#single_instance_type}.
 
 ---
 
@@ -4230,7 +4230,7 @@ ec2Ec2Fleet.Ec2Ec2FleetSpotOptionsMaintenanceStrategies(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetSpotOptionsMaintenanceStrategies.property.capacityRebalance">capacity_rebalance</a></code> | <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetSpotOptionsMaintenanceStrategiesCapacityRebalance">Ec2Ec2FleetSpotOptionsMaintenanceStrategiesCapacityRebalance</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#capacity_rebalance Ec2Ec2Fleet#capacity_rebalance}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetSpotOptionsMaintenanceStrategies.property.capacityRebalance">capacity_rebalance</a></code> | <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetSpotOptionsMaintenanceStrategiesCapacityRebalance">Ec2Ec2FleetSpotOptionsMaintenanceStrategiesCapacityRebalance</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#capacity_rebalance Ec2Ec2Fleet#capacity_rebalance}. |
 
 ---
 
@@ -4242,7 +4242,7 @@ capacity_rebalance: Ec2Ec2FleetSpotOptionsMaintenanceStrategiesCapacityRebalance
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetSpotOptionsMaintenanceStrategiesCapacityRebalance">Ec2Ec2FleetSpotOptionsMaintenanceStrategiesCapacityRebalance</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#capacity_rebalance Ec2Ec2Fleet#capacity_rebalance}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#capacity_rebalance Ec2Ec2Fleet#capacity_rebalance}.
 
 ---
 
@@ -4263,8 +4263,8 @@ ec2Ec2Fleet.Ec2Ec2FleetSpotOptionsMaintenanceStrategiesCapacityRebalance(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetSpotOptionsMaintenanceStrategiesCapacityRebalance.property.replacementStrategy">replacement_strategy</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#replacement_strategy Ec2Ec2Fleet#replacement_strategy}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetSpotOptionsMaintenanceStrategiesCapacityRebalance.property.terminationDelay">termination_delay</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#termination_delay Ec2Ec2Fleet#termination_delay}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetSpotOptionsMaintenanceStrategiesCapacityRebalance.property.replacementStrategy">replacement_strategy</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#replacement_strategy Ec2Ec2Fleet#replacement_strategy}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetSpotOptionsMaintenanceStrategiesCapacityRebalance.property.terminationDelay">termination_delay</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#termination_delay Ec2Ec2Fleet#termination_delay}. |
 
 ---
 
@@ -4276,7 +4276,7 @@ replacement_strategy: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#replacement_strategy Ec2Ec2Fleet#replacement_strategy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#replacement_strategy Ec2Ec2Fleet#replacement_strategy}.
 
 ---
 
@@ -4288,7 +4288,7 @@ termination_delay: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#termination_delay Ec2Ec2Fleet#termination_delay}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#termination_delay Ec2Ec2Fleet#termination_delay}.
 
 ---
 
@@ -4309,8 +4309,8 @@ ec2Ec2Fleet.Ec2Ec2FleetTagSpecifications(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetTagSpecifications.property.resourceType">resource_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#resource_type Ec2Ec2Fleet#resource_type}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetTagSpecifications.property.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetTagSpecificationsTags">Ec2Ec2FleetTagSpecificationsTags</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#tags Ec2Ec2Fleet#tags}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetTagSpecifications.property.resourceType">resource_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#resource_type Ec2Ec2Fleet#resource_type}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetTagSpecifications.property.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetTagSpecificationsTags">Ec2Ec2FleetTagSpecificationsTags</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#tags Ec2Ec2Fleet#tags}. |
 
 ---
 
@@ -4322,7 +4322,7 @@ resource_type: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#resource_type Ec2Ec2Fleet#resource_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#resource_type Ec2Ec2Fleet#resource_type}.
 
 ---
 
@@ -4334,7 +4334,7 @@ tags: IResolvable | typing.List[Ec2Ec2FleetTagSpecificationsTags]
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetTagSpecificationsTags">Ec2Ec2FleetTagSpecificationsTags</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#tags Ec2Ec2Fleet#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#tags Ec2Ec2Fleet#tags}.
 
 ---
 
@@ -4355,8 +4355,8 @@ ec2Ec2Fleet.Ec2Ec2FleetTagSpecificationsTags(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetTagSpecificationsTags.property.key">key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#key Ec2Ec2Fleet#key}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetTagSpecificationsTags.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#value Ec2Ec2Fleet#value}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetTagSpecificationsTags.property.key">key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#key Ec2Ec2Fleet#key}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetTagSpecificationsTags.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#value Ec2Ec2Fleet#value}. |
 
 ---
 
@@ -4368,7 +4368,7 @@ key: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#key Ec2Ec2Fleet#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#key Ec2Ec2Fleet#key}.
 
 ---
 
@@ -4380,7 +4380,7 @@ value: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#value Ec2Ec2Fleet#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#value Ec2Ec2Fleet#value}.
 
 ---
 
@@ -4404,11 +4404,11 @@ ec2Ec2Fleet.Ec2Ec2FleetTargetCapacitySpecification(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetTargetCapacitySpecification.property.totalTargetCapacity">total_target_capacity</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#total_target_capacity Ec2Ec2Fleet#total_target_capacity}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetTargetCapacitySpecification.property.defaultTargetCapacityType">default_target_capacity_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#default_target_capacity_type Ec2Ec2Fleet#default_target_capacity_type}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetTargetCapacitySpecification.property.onDemandTargetCapacity">on_demand_target_capacity</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#on_demand_target_capacity Ec2Ec2Fleet#on_demand_target_capacity}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetTargetCapacitySpecification.property.spotTargetCapacity">spot_target_capacity</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#spot_target_capacity Ec2Ec2Fleet#spot_target_capacity}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetTargetCapacitySpecification.property.targetCapacityUnitType">target_capacity_unit_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#target_capacity_unit_type Ec2Ec2Fleet#target_capacity_unit_type}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetTargetCapacitySpecification.property.totalTargetCapacity">total_target_capacity</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#total_target_capacity Ec2Ec2Fleet#total_target_capacity}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetTargetCapacitySpecification.property.defaultTargetCapacityType">default_target_capacity_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#default_target_capacity_type Ec2Ec2Fleet#default_target_capacity_type}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetTargetCapacitySpecification.property.onDemandTargetCapacity">on_demand_target_capacity</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#on_demand_target_capacity Ec2Ec2Fleet#on_demand_target_capacity}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetTargetCapacitySpecification.property.spotTargetCapacity">spot_target_capacity</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#spot_target_capacity Ec2Ec2Fleet#spot_target_capacity}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetTargetCapacitySpecification.property.targetCapacityUnitType">target_capacity_unit_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#target_capacity_unit_type Ec2Ec2Fleet#target_capacity_unit_type}. |
 
 ---
 
@@ -4420,7 +4420,7 @@ total_target_capacity: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#total_target_capacity Ec2Ec2Fleet#total_target_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#total_target_capacity Ec2Ec2Fleet#total_target_capacity}.
 
 ---
 
@@ -4432,7 +4432,7 @@ default_target_capacity_type: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#default_target_capacity_type Ec2Ec2Fleet#default_target_capacity_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#default_target_capacity_type Ec2Ec2Fleet#default_target_capacity_type}.
 
 ---
 
@@ -4444,7 +4444,7 @@ on_demand_target_capacity: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#on_demand_target_capacity Ec2Ec2Fleet#on_demand_target_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#on_demand_target_capacity Ec2Ec2Fleet#on_demand_target_capacity}.
 
 ---
 
@@ -4456,7 +4456,7 @@ spot_target_capacity: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#spot_target_capacity Ec2Ec2Fleet#spot_target_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#spot_target_capacity Ec2Ec2Fleet#spot_target_capacity}.
 
 ---
 
@@ -4468,7 +4468,7 @@ target_capacity_unit_type: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#target_capacity_unit_type Ec2Ec2Fleet#target_capacity_unit_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#target_capacity_unit_type Ec2Ec2Fleet#target_capacity_unit_type}.
 
 ---
 
@@ -5301,7 +5301,7 @@ def put_launch_template_specification(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#launch_template_id Ec2Ec2Fleet#launch_template_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#launch_template_id Ec2Ec2Fleet#launch_template_id}.
 
 ---
 
@@ -5309,7 +5309,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#launch_template_name Ec2Ec2Fleet#launch_template_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#launch_template_name Ec2Ec2Fleet#launch_template_name}.
 
 ---
 
@@ -5317,7 +5317,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#launch_template_specification_user_data Ec2Ec2Fleet#launch_template_specification_user_data}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#launch_template_specification_user_data Ec2Ec2Fleet#launch_template_specification_user_data}.
 
 ---
 
@@ -5325,7 +5325,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#version Ec2Ec2Fleet#version}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#version Ec2Ec2Fleet#version}.
 
 ---
 
@@ -6363,7 +6363,7 @@ def put_ebs(
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#delete_on_termination Ec2Ec2Fleet#delete_on_termination}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#delete_on_termination Ec2Ec2Fleet#delete_on_termination}.
 
 ---
 
@@ -6371,7 +6371,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#encrypted Ec2Ec2Fleet#encrypted}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#encrypted Ec2Ec2Fleet#encrypted}.
 
 ---
 
@@ -6379,7 +6379,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#iops Ec2Ec2Fleet#iops}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#iops Ec2Ec2Fleet#iops}.
 
 ---
 
@@ -6387,7 +6387,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#kms_key_id Ec2Ec2Fleet#kms_key_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#kms_key_id Ec2Ec2Fleet#kms_key_id}.
 
 ---
 
@@ -6395,7 +6395,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#snapshot_id Ec2Ec2Fleet#snapshot_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#snapshot_id Ec2Ec2Fleet#snapshot_id}.
 
 ---
 
@@ -6403,7 +6403,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#volume_size Ec2Ec2Fleet#volume_size}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#volume_size Ec2Ec2Fleet#volume_size}.
 
 ---
 
@@ -6411,7 +6411,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#volume_type Ec2Ec2Fleet#volume_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#volume_type Ec2Ec2Fleet#volume_type}.
 
 ---
 
@@ -8954,7 +8954,7 @@ def put_cpu(
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsBaselinePerformanceFactorsCpuReferences">Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsBaselinePerformanceFactorsCpuReferences</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#references Ec2Ec2Fleet#references}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#references Ec2Ec2Fleet#references}.
 
 ---
 
@@ -10637,7 +10637,7 @@ def put_accelerator_count(
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#max Ec2Ec2Fleet#max}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#max Ec2Ec2Fleet#max}.
 
 ---
 
@@ -10645,7 +10645,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#min Ec2Ec2Fleet#min}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#min Ec2Ec2Fleet#min}.
 
 ---
 
@@ -10662,7 +10662,7 @@ def put_accelerator_total_memory_mi_b(
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#max Ec2Ec2Fleet#max}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#max Ec2Ec2Fleet#max}.
 
 ---
 
@@ -10670,7 +10670,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#min Ec2Ec2Fleet#min}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#min Ec2Ec2Fleet#min}.
 
 ---
 
@@ -10687,7 +10687,7 @@ def put_baseline_ebs_bandwidth_mbps(
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#max Ec2Ec2Fleet#max}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#max Ec2Ec2Fleet#max}.
 
 ---
 
@@ -10695,7 +10695,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#min Ec2Ec2Fleet#min}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#min Ec2Ec2Fleet#min}.
 
 ---
 
@@ -10711,7 +10711,7 @@ def put_baseline_performance_factors(
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsBaselinePerformanceFactorsCpu">Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsBaselinePerformanceFactorsCpu</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#cpu Ec2Ec2Fleet#cpu}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#cpu Ec2Ec2Fleet#cpu}.
 
 ---
 
@@ -10728,7 +10728,7 @@ def put_memory_gi_b_per_v_cpu(
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#max Ec2Ec2Fleet#max}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#max Ec2Ec2Fleet#max}.
 
 ---
 
@@ -10736,7 +10736,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#min Ec2Ec2Fleet#min}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#min Ec2Ec2Fleet#min}.
 
 ---
 
@@ -10753,7 +10753,7 @@ def put_memory_mi_b(
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#max Ec2Ec2Fleet#max}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#max Ec2Ec2Fleet#max}.
 
 ---
 
@@ -10761,7 +10761,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#min Ec2Ec2Fleet#min}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#min Ec2Ec2Fleet#min}.
 
 ---
 
@@ -10778,7 +10778,7 @@ def put_network_bandwidth_gbps(
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#max Ec2Ec2Fleet#max}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#max Ec2Ec2Fleet#max}.
 
 ---
 
@@ -10786,7 +10786,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#min Ec2Ec2Fleet#min}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#min Ec2Ec2Fleet#min}.
 
 ---
 
@@ -10803,7 +10803,7 @@ def put_network_interface_count(
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#max Ec2Ec2Fleet#max}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#max Ec2Ec2Fleet#max}.
 
 ---
 
@@ -10811,7 +10811,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#min Ec2Ec2Fleet#min}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#min Ec2Ec2Fleet#min}.
 
 ---
 
@@ -10828,7 +10828,7 @@ def put_total_local_storage_gb(
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#max Ec2Ec2Fleet#max}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#max Ec2Ec2Fleet#max}.
 
 ---
 
@@ -10836,7 +10836,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#min Ec2Ec2Fleet#min}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#min Ec2Ec2Fleet#min}.
 
 ---
 
@@ -10853,7 +10853,7 @@ def put_v_cpu_count(
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#max Ec2Ec2Fleet#max}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#max Ec2Ec2Fleet#max}.
 
 ---
 
@@ -10861,7 +10861,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#min Ec2Ec2Fleet#min}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#min Ec2Ec2Fleet#min}.
 
 ---
 
@@ -15044,7 +15044,7 @@ def put_iam_instance_profile(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#arn Ec2Ec2Fleet#arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#arn Ec2Ec2Fleet#arn}.
 
 ---
 
@@ -15052,7 +15052,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#name Ec2Ec2Fleet#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#name Ec2Ec2Fleet#name}.
 
 ---
 
@@ -15093,7 +15093,7 @@ def put_instance_requirements(
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsAcceleratorCount">Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsAcceleratorCount</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#accelerator_count Ec2Ec2Fleet#accelerator_count}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#accelerator_count Ec2Ec2Fleet#accelerator_count}.
 
 ---
 
@@ -15101,7 +15101,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#accelerator_manufacturers Ec2Ec2Fleet#accelerator_manufacturers}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#accelerator_manufacturers Ec2Ec2Fleet#accelerator_manufacturers}.
 
 ---
 
@@ -15109,7 +15109,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#accelerator_names Ec2Ec2Fleet#accelerator_names}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#accelerator_names Ec2Ec2Fleet#accelerator_names}.
 
 ---
 
@@ -15117,7 +15117,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsAcceleratorTotalMemoryMiB">Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsAcceleratorTotalMemoryMiB</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#accelerator_total_memory_mi_b Ec2Ec2Fleet#accelerator_total_memory_mi_b}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#accelerator_total_memory_mi_b Ec2Ec2Fleet#accelerator_total_memory_mi_b}.
 
 ---
 
@@ -15125,7 +15125,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#accelerator_types Ec2Ec2Fleet#accelerator_types}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#accelerator_types Ec2Ec2Fleet#accelerator_types}.
 
 ---
 
@@ -15133,7 +15133,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#allowed_instance_types Ec2Ec2Fleet#allowed_instance_types}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#allowed_instance_types Ec2Ec2Fleet#allowed_instance_types}.
 
 ---
 
@@ -15141,7 +15141,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#bare_metal Ec2Ec2Fleet#bare_metal}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#bare_metal Ec2Ec2Fleet#bare_metal}.
 
 ---
 
@@ -15149,7 +15149,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsBaselineEbsBandwidthMbps">Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsBaselineEbsBandwidthMbps</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#baseline_ebs_bandwidth_mbps Ec2Ec2Fleet#baseline_ebs_bandwidth_mbps}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#baseline_ebs_bandwidth_mbps Ec2Ec2Fleet#baseline_ebs_bandwidth_mbps}.
 
 ---
 
@@ -15157,7 +15157,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsBaselinePerformanceFactors">Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsBaselinePerformanceFactors</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#baseline_performance_factors Ec2Ec2Fleet#baseline_performance_factors}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#baseline_performance_factors Ec2Ec2Fleet#baseline_performance_factors}.
 
 ---
 
@@ -15165,7 +15165,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#burstable_performance Ec2Ec2Fleet#burstable_performance}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#burstable_performance Ec2Ec2Fleet#burstable_performance}.
 
 ---
 
@@ -15173,7 +15173,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#cpu_manufacturers Ec2Ec2Fleet#cpu_manufacturers}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#cpu_manufacturers Ec2Ec2Fleet#cpu_manufacturers}.
 
 ---
 
@@ -15181,7 +15181,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#excluded_instance_types Ec2Ec2Fleet#excluded_instance_types}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#excluded_instance_types Ec2Ec2Fleet#excluded_instance_types}.
 
 ---
 
@@ -15189,7 +15189,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#instance_generations Ec2Ec2Fleet#instance_generations}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#instance_generations Ec2Ec2Fleet#instance_generations}.
 
 ---
 
@@ -15197,7 +15197,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#local_storage Ec2Ec2Fleet#local_storage}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#local_storage Ec2Ec2Fleet#local_storage}.
 
 ---
 
@@ -15205,7 +15205,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#local_storage_types Ec2Ec2Fleet#local_storage_types}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#local_storage_types Ec2Ec2Fleet#local_storage_types}.
 
 ---
 
@@ -15213,7 +15213,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#max_spot_price_as_percentage_of_optimal_on_demand_price Ec2Ec2Fleet#max_spot_price_as_percentage_of_optimal_on_demand_price}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#max_spot_price_as_percentage_of_optimal_on_demand_price Ec2Ec2Fleet#max_spot_price_as_percentage_of_optimal_on_demand_price}.
 
 ---
 
@@ -15221,7 +15221,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsMemoryGiBPerVCpu">Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsMemoryGiBPerVCpu</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#memory_gi_b_per_v_cpu Ec2Ec2Fleet#memory_gi_b_per_v_cpu}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#memory_gi_b_per_v_cpu Ec2Ec2Fleet#memory_gi_b_per_v_cpu}.
 
 ---
 
@@ -15229,7 +15229,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsMemoryMiB">Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsMemoryMiB</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#memory_mi_b Ec2Ec2Fleet#memory_mi_b}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#memory_mi_b Ec2Ec2Fleet#memory_mi_b}.
 
 ---
 
@@ -15237,7 +15237,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsNetworkBandwidthGbps">Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsNetworkBandwidthGbps</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#network_bandwidth_gbps Ec2Ec2Fleet#network_bandwidth_gbps}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#network_bandwidth_gbps Ec2Ec2Fleet#network_bandwidth_gbps}.
 
 ---
 
@@ -15245,7 +15245,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsNetworkInterfaceCount">Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsNetworkInterfaceCount</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#network_interface_count Ec2Ec2Fleet#network_interface_count}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#network_interface_count Ec2Ec2Fleet#network_interface_count}.
 
 ---
 
@@ -15253,7 +15253,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#on_demand_max_price_percentage_over_lowest_price Ec2Ec2Fleet#on_demand_max_price_percentage_over_lowest_price}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#on_demand_max_price_percentage_over_lowest_price Ec2Ec2Fleet#on_demand_max_price_percentage_over_lowest_price}.
 
 ---
 
@@ -15261,7 +15261,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#require_encryption_in_transit Ec2Ec2Fleet#require_encryption_in_transit}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#require_encryption_in_transit Ec2Ec2Fleet#require_encryption_in_transit}.
 
 ---
 
@@ -15269,7 +15269,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#require_hibernate_support Ec2Ec2Fleet#require_hibernate_support}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#require_hibernate_support Ec2Ec2Fleet#require_hibernate_support}.
 
 ---
 
@@ -15277,7 +15277,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#spot_max_price_percentage_over_lowest_price Ec2Ec2Fleet#spot_max_price_percentage_over_lowest_price}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#spot_max_price_percentage_over_lowest_price Ec2Ec2Fleet#spot_max_price_percentage_over_lowest_price}.
 
 ---
 
@@ -15285,7 +15285,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsTotalLocalStorageGb">Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsTotalLocalStorageGb</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#total_local_storage_gb Ec2Ec2Fleet#total_local_storage_gb}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#total_local_storage_gb Ec2Ec2Fleet#total_local_storage_gb}.
 
 ---
 
@@ -15293,7 +15293,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsVCpuCount">Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsVCpuCount</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#v_cpu_count Ec2Ec2Fleet#v_cpu_count}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#v_cpu_count Ec2Ec2Fleet#v_cpu_count}.
 
 ---
 
@@ -15311,7 +15311,7 @@ def put_metadata_options(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#http_endpoint Ec2Ec2Fleet#http_endpoint}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#http_endpoint Ec2Ec2Fleet#http_endpoint}.
 
 ---
 
@@ -15319,7 +15319,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#http_put_response_hop_limit Ec2Ec2Fleet#http_put_response_hop_limit}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#http_put_response_hop_limit Ec2Ec2Fleet#http_put_response_hop_limit}.
 
 ---
 
@@ -15327,7 +15327,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#http_tokens Ec2Ec2Fleet#http_tokens}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#http_tokens Ec2Ec2Fleet#http_tokens}.
 
 ---
 
@@ -15364,7 +15364,7 @@ def put_placement(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#affinity Ec2Ec2Fleet#affinity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#affinity Ec2Ec2Fleet#affinity}.
 
 ---
 
@@ -15372,7 +15372,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#availability_zone Ec2Ec2Fleet#availability_zone}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#availability_zone Ec2Ec2Fleet#availability_zone}.
 
 ---
 
@@ -15380,7 +15380,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#group_name Ec2Ec2Fleet#group_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#group_name Ec2Ec2Fleet#group_name}.
 
 ---
 
@@ -15388,7 +15388,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#host_id Ec2Ec2Fleet#host_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#host_id Ec2Ec2Fleet#host_id}.
 
 ---
 
@@ -15396,7 +15396,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#host_resource_group_arn Ec2Ec2Fleet#host_resource_group_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#host_resource_group_arn Ec2Ec2Fleet#host_resource_group_arn}.
 
 ---
 
@@ -15404,7 +15404,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#partition_number Ec2Ec2Fleet#partition_number}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#partition_number Ec2Ec2Fleet#partition_number}.
 
 ---
 
@@ -15412,7 +15412,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#spread_domain Ec2Ec2Fleet#spread_domain}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#spread_domain Ec2Ec2Fleet#spread_domain}.
 
 ---
 
@@ -15420,7 +15420,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#tenancy Ec2Ec2Fleet#tenancy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#tenancy Ec2Ec2Fleet#tenancy}.
 
 ---
 
@@ -16918,7 +16918,7 @@ def put_capacity_reservation_options(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#usage_strategy Ec2Ec2Fleet#usage_strategy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#usage_strategy Ec2Ec2Fleet#usage_strategy}.
 
 ---
 
@@ -17715,7 +17715,7 @@ def put_capacity_reservation_target(
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#capacity_reservation_ids Ec2Ec2Fleet#capacity_reservation_ids}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#capacity_reservation_ids Ec2Ec2Fleet#capacity_reservation_ids}.
 
 ---
 
@@ -17723,7 +17723,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#capacity_reservation_resource_group_arns Ec2Ec2Fleet#capacity_reservation_resource_group_arns}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#capacity_reservation_resource_group_arns Ec2Ec2Fleet#capacity_reservation_resource_group_arns}.
 
 ---
 
@@ -17739,7 +17739,7 @@ def put_reserved_capacity_fallback_options(
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#market_types Ec2Ec2Fleet#market_types}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#market_types Ec2Ec2Fleet#market_types}.
 
 ---
 
@@ -18779,7 +18779,7 @@ def put_capacity_rebalance(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#replacement_strategy Ec2Ec2Fleet#replacement_strategy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#replacement_strategy Ec2Ec2Fleet#replacement_strategy}.
 
 ---
 
@@ -18787,7 +18787,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#termination_delay Ec2Ec2Fleet#termination_delay}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#termination_delay Ec2Ec2Fleet#termination_delay}.
 
 ---
 
@@ -19114,7 +19114,7 @@ def put_maintenance_strategies(
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetSpotOptionsMaintenanceStrategiesCapacityRebalance">Ec2Ec2FleetSpotOptionsMaintenanceStrategiesCapacityRebalance</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#capacity_rebalance Ec2Ec2Fleet#capacity_rebalance}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#capacity_rebalance Ec2Ec2Fleet#capacity_rebalance}.
 
 ---
 

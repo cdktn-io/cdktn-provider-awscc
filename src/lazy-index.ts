@@ -460,6 +460,7 @@ Object.defineProperty(exports, 'directconnectPrivateVirtualInterface', { get: fu
 Object.defineProperty(exports, 'directconnectPublicVirtualInterface', { get: function () { return require('./directconnect-public-virtual-interface'); } });
 Object.defineProperty(exports, 'directconnectTransitVirtualInterface', { get: function () { return require('./directconnect-transit-virtual-interface'); } });
 Object.defineProperty(exports, 'directoryserviceSimpleAd', { get: function () { return require('./directoryservice-simple-ad'); } });
+Object.defineProperty(exports, 'dlmLifecyclePolicy', { get: function () { return require('./dlm-lifecycle-policy'); } });
 Object.defineProperty(exports, 'dmsCertificate', { get: function () { return require('./dms-certificate'); } });
 Object.defineProperty(exports, 'dmsDataMigration', { get: function () { return require('./dms-data-migration'); } });
 Object.defineProperty(exports, 'dmsDataProvider', { get: function () { return require('./dms-data-provider'); } });
@@ -469,6 +470,7 @@ Object.defineProperty(exports, 'dmsInstanceProfile', { get: function () { return
 Object.defineProperty(exports, 'dmsMigrationProject', { get: function () { return require('./dms-migration-project'); } });
 Object.defineProperty(exports, 'dmsReplicationConfig', { get: function () { return require('./dms-replication-config'); } });
 Object.defineProperty(exports, 'dmsReplicationSubnetGroup', { get: function () { return require('./dms-replication-subnet-group'); } });
+Object.defineProperty(exports, 'dmsReplicationTask', { get: function () { return require('./dms-replication-task'); } });
 Object.defineProperty(exports, 'docdbDbClusterParameterGroup', { get: function () { return require('./docdb-db-cluster-parameter-group'); } });
 Object.defineProperty(exports, 'docdbDbSubnetGroup', { get: function () { return require('./docdb-db-subnet-group'); } });
 Object.defineProperty(exports, 'docdbEventSubscription', { get: function () { return require('./docdb-event-subscription'); } });
@@ -479,6 +481,7 @@ Object.defineProperty(exports, 'dsqlCluster', { get: function () { return requir
 Object.defineProperty(exports, 'dynamodbBackup', { get: function () { return require('./dynamodb-backup'); } });
 Object.defineProperty(exports, 'dynamodbGlobalTable', { get: function () { return require('./dynamodb-global-table'); } });
 Object.defineProperty(exports, 'dynamodbTable', { get: function () { return require('./dynamodb-table'); } });
+Object.defineProperty(exports, 'ec2ApplicationStatusCheck', { get: function () { return require('./ec2-application-status-check'); } });
 Object.defineProperty(exports, 'ec2CapacityManagerDataExport', { get: function () { return require('./ec2-capacity-manager-data-export'); } });
 Object.defineProperty(exports, 'ec2CapacityReservation', { get: function () { return require('./ec2-capacity-reservation'); } });
 Object.defineProperty(exports, 'ec2CapacityReservationFleet', { get: function () { return require('./ec2-capacity-reservation-fleet'); } });
@@ -836,8 +839,11 @@ Object.defineProperty(exports, 'iotsitewiseAssetModel', { get: function () { ret
 Object.defineProperty(exports, 'iotsitewiseDashboard', { get: function () { return require('./iotsitewise-dashboard'); } });
 Object.defineProperty(exports, 'iotsitewiseDataset', { get: function () { return require('./iotsitewise-dataset'); } });
 Object.defineProperty(exports, 'iotsitewiseGateway', { get: function () { return require('./iotsitewise-gateway'); } });
+Object.defineProperty(exports, 'iotsitewisePipeline', { get: function () { return require('./iotsitewise-pipeline'); } });
 Object.defineProperty(exports, 'iotsitewisePortal', { get: function () { return require('./iotsitewise-portal'); } });
 Object.defineProperty(exports, 'iotsitewiseProject', { get: function () { return require('./iotsitewise-project'); } });
+Object.defineProperty(exports, 'iotsitewiseTask', { get: function () { return require('./iotsitewise-task'); } });
+Object.defineProperty(exports, 'iotsitewiseWorkspace', { get: function () { return require('./iotsitewise-workspace'); } });
 Object.defineProperty(exports, 'iottwinmakerScene', { get: function () { return require('./iottwinmaker-scene'); } });
 Object.defineProperty(exports, 'iottwinmakerSyncJob', { get: function () { return require('./iottwinmaker-sync-job'); } });
 Object.defineProperty(exports, 'iottwinmakerWorkspace', { get: function () { return require('./iottwinmaker-workspace'); } });
@@ -1384,6 +1390,7 @@ Object.defineProperty(exports, 'servicecatalogappregistryApplication', { get: fu
 Object.defineProperty(exports, 'servicecatalogappregistryAttributeGroup', { get: function () { return require('./servicecatalogappregistry-attribute-group'); } });
 Object.defineProperty(exports, 'servicecatalogappregistryAttributeGroupAssociation', { get: function () { return require('./servicecatalogappregistry-attribute-group-association'); } });
 Object.defineProperty(exports, 'servicecatalogappregistryResourceAssociation', { get: function () { return require('./servicecatalogappregistry-resource-association'); } });
+Object.defineProperty(exports, 'servicediscoveryHttpNamespace', { get: function () { return require('./servicediscovery-http-namespace'); } });
 Object.defineProperty(exports, 'servicediscoveryPrivateDnsNamespace', { get: function () { return require('./servicediscovery-private-dns-namespace'); } });
 Object.defineProperty(exports, 'servicediscoveryPublicDnsNamespace', { get: function () { return require('./servicediscovery-public-dns-namespace'); } });
 Object.defineProperty(exports, 'servicediscoveryService', { get: function () { return require('./servicediscovery-service'); } });
@@ -2287,6 +2294,8 @@ Object.defineProperty(exports, 'dataAwsccDirectconnectTransitVirtualInterface', 
 Object.defineProperty(exports, 'dataAwsccDirectconnectTransitVirtualInterfaces', { get: function () { return require('./data-awscc-directconnect-transit-virtual-interfaces'); } });
 Object.defineProperty(exports, 'dataAwsccDirectoryserviceSimpleAd', { get: function () { return require('./data-awscc-directoryservice-simple-ad'); } });
 Object.defineProperty(exports, 'dataAwsccDirectoryserviceSimpleAds', { get: function () { return require('./data-awscc-directoryservice-simple-ads'); } });
+Object.defineProperty(exports, 'dataAwsccDlmLifecyclePolicies', { get: function () { return require('./data-awscc-dlm-lifecycle-policies'); } });
+Object.defineProperty(exports, 'dataAwsccDlmLifecyclePolicy', { get: function () { return require('./data-awscc-dlm-lifecycle-policy'); } });
 Object.defineProperty(exports, 'dataAwsccDmsCertificate', { get: function () { return require('./data-awscc-dms-certificate'); } });
 Object.defineProperty(exports, 'dataAwsccDmsCertificates', { get: function () { return require('./data-awscc-dms-certificates'); } });
 Object.defineProperty(exports, 'dataAwsccDmsDataMigration', { get: function () { return require('./data-awscc-dms-data-migration'); } });
@@ -2305,6 +2314,8 @@ Object.defineProperty(exports, 'dataAwsccDmsReplicationConfig', { get: function 
 Object.defineProperty(exports, 'dataAwsccDmsReplicationConfigs', { get: function () { return require('./data-awscc-dms-replication-configs'); } });
 Object.defineProperty(exports, 'dataAwsccDmsReplicationSubnetGroup', { get: function () { return require('./data-awscc-dms-replication-subnet-group'); } });
 Object.defineProperty(exports, 'dataAwsccDmsReplicationSubnetGroups', { get: function () { return require('./data-awscc-dms-replication-subnet-groups'); } });
+Object.defineProperty(exports, 'dataAwsccDmsReplicationTask', { get: function () { return require('./data-awscc-dms-replication-task'); } });
+Object.defineProperty(exports, 'dataAwsccDmsReplicationTasks', { get: function () { return require('./data-awscc-dms-replication-tasks'); } });
 Object.defineProperty(exports, 'dataAwsccDocdbDbClusterParameterGroup', { get: function () { return require('./data-awscc-docdb-db-cluster-parameter-group'); } });
 Object.defineProperty(exports, 'dataAwsccDocdbDbClusterParameterGroups', { get: function () { return require('./data-awscc-docdb-db-cluster-parameter-groups'); } });
 Object.defineProperty(exports, 'dataAwsccDocdbDbSubnetGroup', { get: function () { return require('./data-awscc-docdb-db-subnet-group'); } });
@@ -2325,6 +2336,8 @@ Object.defineProperty(exports, 'dataAwsccDynamodbGlobalTable', { get: function (
 Object.defineProperty(exports, 'dataAwsccDynamodbGlobalTables', { get: function () { return require('./data-awscc-dynamodb-global-tables'); } });
 Object.defineProperty(exports, 'dataAwsccDynamodbTable', { get: function () { return require('./data-awscc-dynamodb-table'); } });
 Object.defineProperty(exports, 'dataAwsccDynamodbTables', { get: function () { return require('./data-awscc-dynamodb-tables'); } });
+Object.defineProperty(exports, 'dataAwsccEc2ApplicationStatusCheck', { get: function () { return require('./data-awscc-ec2-application-status-check'); } });
+Object.defineProperty(exports, 'dataAwsccEc2ApplicationStatusChecks', { get: function () { return require('./data-awscc-ec2-application-status-checks'); } });
 Object.defineProperty(exports, 'dataAwsccEc2CapacityManagerDataExport', { get: function () { return require('./data-awscc-ec2-capacity-manager-data-export'); } });
 Object.defineProperty(exports, 'dataAwsccEc2CapacityManagerDataExports', { get: function () { return require('./data-awscc-ec2-capacity-manager-data-exports'); } });
 Object.defineProperty(exports, 'dataAwsccEc2CapacityReservation', { get: function () { return require('./data-awscc-ec2-capacity-reservation'); } });
@@ -2988,10 +3001,14 @@ Object.defineProperty(exports, 'dataAwsccIotsitewiseDataset', { get: function ()
 Object.defineProperty(exports, 'dataAwsccIotsitewiseDatasets', { get: function () { return require('./data-awscc-iotsitewise-datasets'); } });
 Object.defineProperty(exports, 'dataAwsccIotsitewiseGateway', { get: function () { return require('./data-awscc-iotsitewise-gateway'); } });
 Object.defineProperty(exports, 'dataAwsccIotsitewiseGateways', { get: function () { return require('./data-awscc-iotsitewise-gateways'); } });
+Object.defineProperty(exports, 'dataAwsccIotsitewisePipeline', { get: function () { return require('./data-awscc-iotsitewise-pipeline'); } });
 Object.defineProperty(exports, 'dataAwsccIotsitewisePortal', { get: function () { return require('./data-awscc-iotsitewise-portal'); } });
 Object.defineProperty(exports, 'dataAwsccIotsitewisePortals', { get: function () { return require('./data-awscc-iotsitewise-portals'); } });
 Object.defineProperty(exports, 'dataAwsccIotsitewiseProject', { get: function () { return require('./data-awscc-iotsitewise-project'); } });
 Object.defineProperty(exports, 'dataAwsccIotsitewiseProjects', { get: function () { return require('./data-awscc-iotsitewise-projects'); } });
+Object.defineProperty(exports, 'dataAwsccIotsitewiseTask', { get: function () { return require('./data-awscc-iotsitewise-task'); } });
+Object.defineProperty(exports, 'dataAwsccIotsitewiseWorkspace', { get: function () { return require('./data-awscc-iotsitewise-workspace'); } });
+Object.defineProperty(exports, 'dataAwsccIotsitewiseWorkspaces', { get: function () { return require('./data-awscc-iotsitewise-workspaces'); } });
 Object.defineProperty(exports, 'dataAwsccIottwinmakerScene', { get: function () { return require('./data-awscc-iottwinmaker-scene'); } });
 Object.defineProperty(exports, 'dataAwsccIottwinmakerSyncJob', { get: function () { return require('./data-awscc-iottwinmaker-sync-job'); } });
 Object.defineProperty(exports, 'dataAwsccIottwinmakerWorkspace', { get: function () { return require('./data-awscc-iottwinmaker-workspace'); } });
@@ -3959,6 +3976,8 @@ Object.defineProperty(exports, 'dataAwsccServicecatalogappregistryAttributeGroup
 Object.defineProperty(exports, 'dataAwsccServicecatalogappregistryAttributeGroupAssociation', { get: function () { return require('./data-awscc-servicecatalogappregistry-attribute-group-association'); } });
 Object.defineProperty(exports, 'dataAwsccServicecatalogappregistryAttributeGroups', { get: function () { return require('./data-awscc-servicecatalogappregistry-attribute-groups'); } });
 Object.defineProperty(exports, 'dataAwsccServicecatalogappregistryResourceAssociation', { get: function () { return require('./data-awscc-servicecatalogappregistry-resource-association'); } });
+Object.defineProperty(exports, 'dataAwsccServicediscoveryHttpNamespace', { get: function () { return require('./data-awscc-servicediscovery-http-namespace'); } });
+Object.defineProperty(exports, 'dataAwsccServicediscoveryHttpNamespaces', { get: function () { return require('./data-awscc-servicediscovery-http-namespaces'); } });
 Object.defineProperty(exports, 'dataAwsccServicediscoveryPrivateDnsNamespace', { get: function () { return require('./data-awscc-servicediscovery-private-dns-namespace'); } });
 Object.defineProperty(exports, 'dataAwsccServicediscoveryPrivateDnsNamespaces', { get: function () { return require('./data-awscc-servicediscovery-private-dns-namespaces'); } });
 Object.defineProperty(exports, 'dataAwsccServicediscoveryPublicDnsNamespace', { get: function () { return require('./data-awscc-servicediscovery-public-dns-namespace'); } });

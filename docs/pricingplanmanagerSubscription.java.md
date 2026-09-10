@@ -4,7 +4,7 @@
 
 ### PricingplanmanagerSubscription <a name="PricingplanmanagerSubscription" id="@cdktn/provider-awscc.pricingplanmanagerSubscription.PricingplanmanagerSubscription"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/pricingplanmanager_subscription awscc_pricingplanmanager_subscription}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/pricingplanmanager_subscription awscc_pricingplanmanager_subscription}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.pricingplanmanagerSubscription.PricingplanmanagerSubscription.Initializer"></a>
 
@@ -40,7 +40,7 @@ PricingplanmanagerSubscription.Builder.create(Construct scope, java.lang.String 
 | <code><a href="#@cdktn/provider-awscc.pricingplanmanagerSubscription.PricingplanmanagerSubscription.Initializer.parameter.planFamily">planFamily</a></code> | <code>java.lang.String</code> | The name of the pricing plan family. |
 | <code><a href="#@cdktn/provider-awscc.pricingplanmanagerSubscription.PricingplanmanagerSubscription.Initializer.parameter.planTier">planTier</a></code> | <code>java.lang.String</code> | The tier of the pricing plan. |
 | <code><a href="#@cdktn/provider-awscc.pricingplanmanagerSubscription.PricingplanmanagerSubscription.Initializer.parameter.resourceArns">resourceArns</a></code> | <code>java.util.List<java.lang.String></code> | The ARNs of resources associated with the subscription. |
-| <code><a href="#@cdktn/provider-awscc.pricingplanmanagerSubscription.PricingplanmanagerSubscription.Initializer.parameter.usageLevel">usageLevel</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/pricingplanmanager_subscription#usage_level PricingplanmanagerSubscription#usage_level}. |
+| <code><a href="#@cdktn/provider-awscc.pricingplanmanagerSubscription.PricingplanmanagerSubscription.Initializer.parameter.usageLevel">usageLevel</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/pricingplanmanager_subscription#usage_level PricingplanmanagerSubscription#usage_level}. |
 
 ---
 
@@ -110,7 +110,7 @@ Must be unique amongst siblings in the same scope
 
 The name of the pricing plan family.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/pricingplanmanager_subscription#plan_family PricingplanmanagerSubscription#plan_family}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/pricingplanmanager_subscription#plan_family PricingplanmanagerSubscription#plan_family}
 
 ---
 
@@ -120,9 +120,9 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The tier of the pricing plan.
 
-Upgrades take effect immediately. However, rolling back an upgrade does not revert billing instantly; it schedules a downgrade to the end of the current billing period, and the higher-tier charge applies for the remainder of that month. While a downgrade is scheduled, the CurrentPlanTier property reports the tier currently being billed.
+CloudFormation does not change the tier of an existing subscription; a stack update that changes the tier, upgrading or downgrading it, is rejected.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/pricingplanmanager_subscription#plan_tier PricingplanmanagerSubscription#plan_tier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/pricingplanmanager_subscription#plan_tier PricingplanmanagerSubscription#plan_tier}
 
 ---
 
@@ -132,7 +132,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The ARNs of resources associated with the subscription.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/pricingplanmanager_subscription#resource_arns PricingplanmanagerSubscription#resource_arns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/pricingplanmanager_subscription#resource_arns PricingplanmanagerSubscription#resource_arns}
 
 ---
 
@@ -140,7 +140,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/pricingplanmanager_subscription#usage_level PricingplanmanagerSubscription#usage_level}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/pricingplanmanager_subscription#usage_level PricingplanmanagerSubscription#usage_level}.
 
 ---
 
@@ -596,7 +596,7 @@ The construct id used in the generated config for the PricingplanmanagerSubscrip
 
 The id of the existing PricingplanmanagerSubscription that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/pricingplanmanager_subscription#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/pricingplanmanager_subscription#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -992,7 +992,7 @@ PricingplanmanagerSubscriptionConfig.builder()
 | <code><a href="#@cdktn/provider-awscc.pricingplanmanagerSubscription.PricingplanmanagerSubscriptionConfig.property.planFamily">planFamily</a></code> | <code>java.lang.String</code> | The name of the pricing plan family. |
 | <code><a href="#@cdktn/provider-awscc.pricingplanmanagerSubscription.PricingplanmanagerSubscriptionConfig.property.planTier">planTier</a></code> | <code>java.lang.String</code> | The tier of the pricing plan. |
 | <code><a href="#@cdktn/provider-awscc.pricingplanmanagerSubscription.PricingplanmanagerSubscriptionConfig.property.resourceArns">resourceArns</a></code> | <code>java.util.List<java.lang.String></code> | The ARNs of resources associated with the subscription. |
-| <code><a href="#@cdktn/provider-awscc.pricingplanmanagerSubscription.PricingplanmanagerSubscriptionConfig.property.usageLevel">usageLevel</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/pricingplanmanager_subscription#usage_level PricingplanmanagerSubscription#usage_level}. |
+| <code><a href="#@cdktn/provider-awscc.pricingplanmanagerSubscription.PricingplanmanagerSubscriptionConfig.property.usageLevel">usageLevel</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/pricingplanmanager_subscription#usage_level PricingplanmanagerSubscription#usage_level}. |
 
 ---
 
@@ -1076,7 +1076,7 @@ public java.lang.String getPlanFamily();
 
 The name of the pricing plan family.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/pricingplanmanager_subscription#plan_family PricingplanmanagerSubscription#plan_family}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/pricingplanmanager_subscription#plan_family PricingplanmanagerSubscription#plan_family}
 
 ---
 
@@ -1090,9 +1090,9 @@ public java.lang.String getPlanTier();
 
 The tier of the pricing plan.
 
-Upgrades take effect immediately. However, rolling back an upgrade does not revert billing instantly; it schedules a downgrade to the end of the current billing period, and the higher-tier charge applies for the remainder of that month. While a downgrade is scheduled, the CurrentPlanTier property reports the tier currently being billed.
+CloudFormation does not change the tier of an existing subscription; a stack update that changes the tier, upgrading or downgrading it, is rejected.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/pricingplanmanager_subscription#plan_tier PricingplanmanagerSubscription#plan_tier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/pricingplanmanager_subscription#plan_tier PricingplanmanagerSubscription#plan_tier}
 
 ---
 
@@ -1106,7 +1106,7 @@ public java.util.List<java.lang.String> getResourceArns();
 
 The ARNs of resources associated with the subscription.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/pricingplanmanager_subscription#resource_arns PricingplanmanagerSubscription#resource_arns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/pricingplanmanager_subscription#resource_arns PricingplanmanagerSubscription#resource_arns}
 
 ---
 
@@ -1118,7 +1118,7 @@ public java.lang.String getUsageLevel();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/pricingplanmanager_subscription#usage_level PricingplanmanagerSubscription#usage_level}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/pricingplanmanager_subscription#usage_level PricingplanmanagerSubscription#usage_level}.
 
 ---
 

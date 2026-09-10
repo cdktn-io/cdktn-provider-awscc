@@ -4,7 +4,7 @@
 
 ### IotTopicRuleDestination <a name="IotTopicRuleDestination" id="@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestination"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_topic_rule_destination awscc_iot_topic_rule_destination}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iot_topic_rule_destination awscc_iot_topic_rule_destination}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestination.Initializer"></a>
 
@@ -22,6 +22,7 @@ iotTopicRuleDestination.IotTopicRuleDestination(
   provider: TerraformProvider = None,
   provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner] = None,
   http_url_properties: IotTopicRuleDestinationHttpUrlProperties = None,
+  influx_db_properties: IotTopicRuleDestinationInfluxDbProperties = None,
   status: str = None,
   vpc_properties: IotTopicRuleDestinationVpcProperties = None
 )
@@ -39,6 +40,7 @@ iotTopicRuleDestination.IotTopicRuleDestination(
 | <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestination.Initializer.parameter.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestination.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestination.Initializer.parameter.httpUrlProperties">http_url_properties</a></code> | <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationHttpUrlProperties">IotTopicRuleDestinationHttpUrlProperties</a></code> | HTTP URL destination properties. |
+| <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestination.Initializer.parameter.influxDbProperties">influx_db_properties</a></code> | <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbProperties">IotTopicRuleDestinationInfluxDbProperties</a></code> | InfluxDB destination properties. |
 | <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestination.Initializer.parameter.status">status</a></code> | <code>str</code> | The status of the TopicRuleDestination. |
 | <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestination.Initializer.parameter.vpcProperties">vpc_properties</a></code> | <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationVpcProperties">IotTopicRuleDestinationVpcProperties</a></code> | VPC destination properties. |
 
@@ -110,7 +112,17 @@ Must be unique amongst siblings in the same scope
 
 HTTP URL destination properties.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_topic_rule_destination#http_url_properties IotTopicRuleDestination#http_url_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iot_topic_rule_destination#http_url_properties IotTopicRuleDestination#http_url_properties}
+
+---
+
+##### `influx_db_properties`<sup>Optional</sup> <a name="influx_db_properties" id="@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestination.Initializer.parameter.influxDbProperties"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbProperties">IotTopicRuleDestinationInfluxDbProperties</a>
+
+InfluxDB destination properties.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iot_topic_rule_destination#influx_db_properties IotTopicRuleDestination#influx_db_properties}
 
 ---
 
@@ -120,7 +132,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The status of the TopicRuleDestination.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_topic_rule_destination#status IotTopicRuleDestination#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iot_topic_rule_destination#status IotTopicRuleDestination#status}
 
 ---
 
@@ -130,7 +142,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 VPC destination properties.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_topic_rule_destination#vpc_properties IotTopicRuleDestination#vpc_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iot_topic_rule_destination#vpc_properties IotTopicRuleDestination#vpc_properties}
 
 ---
 
@@ -163,8 +175,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestination.moveTo">move_to</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestination.moveToId">move_to_id</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestination.putHttpUrlProperties">put_http_url_properties</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestination.putInfluxDbProperties">put_influx_db_properties</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestination.putVpcProperties">put_vpc_properties</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestination.resetHttpUrlProperties">reset_http_url_properties</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestination.resetInfluxDbProperties">reset_influx_db_properties</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestination.resetStatus">reset_status</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestination.resetVpcProperties">reset_vpc_properties</a></code> | *No description.* |
 
@@ -530,7 +544,69 @@ def put_http_url_properties(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_topic_rule_destination#confirmation_url IotTopicRuleDestination#confirmation_url}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iot_topic_rule_destination#confirmation_url IotTopicRuleDestination#confirmation_url}.
+
+---
+
+##### `put_influx_db_properties` <a name="put_influx_db_properties" id="@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestination.putInfluxDbProperties"></a>
+
+```python
+def put_influx_db_properties(
+  endpoint: str = None,
+  influx_db_version: str = None,
+  secret_id: str = None,
+  secret_key: str = None,
+  secret_type: str = None
+) -> None
+```
+
+###### `endpoint`<sup>Optional</sup> <a name="endpoint" id="@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestination.putInfluxDbProperties.parameter.endpoint"></a>
+
+- *Type:* str
+
+The endpoint URL of the InfluxDB database.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iot_topic_rule_destination#endpoint IotTopicRuleDestination#endpoint}
+
+---
+
+###### `influx_db_version`<sup>Optional</sup> <a name="influx_db_version" id="@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestination.putInfluxDbProperties.parameter.influxDbVersion"></a>
+
+- *Type:* str
+
+The version of the InfluxDB database (for example, V2 or V3).
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iot_topic_rule_destination#influx_db_version IotTopicRuleDestination#influx_db_version}
+
+---
+
+###### `secret_id`<sup>Optional</sup> <a name="secret_id" id="@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestination.putInfluxDbProperties.parameter.secretId"></a>
+
+- *Type:* str
+
+The ARN or name of the Secrets Manager secret containing the InfluxDB API token.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iot_topic_rule_destination#secret_id IotTopicRuleDestination#secret_id}
+
+---
+
+###### `secret_key`<sup>Optional</sup> <a name="secret_key" id="@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestination.putInfluxDbProperties.parameter.secretKey"></a>
+
+- *Type:* str
+
+The key name within the secret that contains the InfluxDB token.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iot_topic_rule_destination#secret_key IotTopicRuleDestination#secret_key}
+
+---
+
+###### `secret_type`<sup>Optional</sup> <a name="secret_type" id="@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestination.putInfluxDbProperties.parameter.secretType"></a>
+
+- *Type:* str
+
+The type of the secret value (SecretString or SecretBinary).
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iot_topic_rule_destination#secret_type IotTopicRuleDestination#secret_type}
 
 ---
 
@@ -549,7 +625,7 @@ def put_vpc_properties(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_topic_rule_destination#role_arn IotTopicRuleDestination#role_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iot_topic_rule_destination#role_arn IotTopicRuleDestination#role_arn}.
 
 ---
 
@@ -557,7 +633,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_topic_rule_destination#security_groups IotTopicRuleDestination#security_groups}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iot_topic_rule_destination#security_groups IotTopicRuleDestination#security_groups}.
 
 ---
 
@@ -565,7 +641,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_topic_rule_destination#subnet_ids IotTopicRuleDestination#subnet_ids}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iot_topic_rule_destination#subnet_ids IotTopicRuleDestination#subnet_ids}.
 
 ---
 
@@ -573,7 +649,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_topic_rule_destination#vpc_id IotTopicRuleDestination#vpc_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iot_topic_rule_destination#vpc_id IotTopicRuleDestination#vpc_id}.
 
 ---
 
@@ -581,6 +657,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ```python
 def reset_http_url_properties() -> None
+```
+
+##### `reset_influx_db_properties` <a name="reset_influx_db_properties" id="@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestination.resetInfluxDbProperties"></a>
+
+```python
+def reset_influx_db_properties() -> None
 ```
 
 ##### `reset_status` <a name="reset_status" id="@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestination.resetStatus"></a>
@@ -709,7 +791,7 @@ The construct id used in the generated config for the IotTopicRuleDestination to
 
 The id of the existing IotTopicRuleDestination that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_topic_rule_destination#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iot_topic_rule_destination#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -742,9 +824,11 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.10
 | <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestination.property.arn">arn</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestination.property.httpUrlProperties">http_url_properties</a></code> | <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationHttpUrlPropertiesOutputReference">IotTopicRuleDestinationHttpUrlPropertiesOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestination.property.id">id</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestination.property.influxDbProperties">influx_db_properties</a></code> | <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbPropertiesOutputReference">IotTopicRuleDestinationInfluxDbPropertiesOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestination.property.statusReason">status_reason</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestination.property.vpcProperties">vpc_properties</a></code> | <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationVpcPropertiesOutputReference">IotTopicRuleDestinationVpcPropertiesOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestination.property.httpUrlPropertiesInput">http_url_properties_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationHttpUrlProperties">IotTopicRuleDestinationHttpUrlProperties</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestination.property.influxDbPropertiesInput">influx_db_properties_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbProperties">IotTopicRuleDestinationInfluxDbProperties</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestination.property.statusInput">status_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestination.property.vpcPropertiesInput">vpc_properties_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationVpcProperties">IotTopicRuleDestinationVpcProperties</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestination.property.status">status</a></code> | <code>str</code> | *No description.* |
@@ -923,6 +1007,16 @@ id: str
 
 ---
 
+##### `influx_db_properties`<sup>Required</sup> <a name="influx_db_properties" id="@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestination.property.influxDbProperties"></a>
+
+```python
+influx_db_properties: IotTopicRuleDestinationInfluxDbPropertiesOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbPropertiesOutputReference">IotTopicRuleDestinationInfluxDbPropertiesOutputReference</a>
+
+---
+
 ##### `status_reason`<sup>Required</sup> <a name="status_reason" id="@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestination.property.statusReason"></a>
 
 ```python
@@ -950,6 +1044,16 @@ http_url_properties_input: IResolvable | IotTopicRuleDestinationHttpUrlPropertie
 ```
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationHttpUrlProperties">IotTopicRuleDestinationHttpUrlProperties</a>
+
+---
+
+##### `influx_db_properties_input`<sup>Optional</sup> <a name="influx_db_properties_input" id="@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestination.property.influxDbPropertiesInput"></a>
+
+```python
+influx_db_properties_input: IResolvable | IotTopicRuleDestinationInfluxDbProperties
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbProperties">IotTopicRuleDestinationInfluxDbProperties</a>
 
 ---
 
@@ -1019,6 +1123,7 @@ iotTopicRuleDestination.IotTopicRuleDestinationConfig(
   provider: TerraformProvider = None,
   provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner] = None,
   http_url_properties: IotTopicRuleDestinationHttpUrlProperties = None,
+  influx_db_properties: IotTopicRuleDestinationInfluxDbProperties = None,
   status: str = None,
   vpc_properties: IotTopicRuleDestinationVpcProperties = None
 )
@@ -1036,6 +1141,7 @@ iotTopicRuleDestination.IotTopicRuleDestinationConfig(
 | <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationConfig.property.httpUrlProperties">http_url_properties</a></code> | <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationHttpUrlProperties">IotTopicRuleDestinationHttpUrlProperties</a></code> | HTTP URL destination properties. |
+| <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationConfig.property.influxDbProperties">influx_db_properties</a></code> | <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbProperties">IotTopicRuleDestinationInfluxDbProperties</a></code> | InfluxDB destination properties. |
 | <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationConfig.property.status">status</a></code> | <code>str</code> | The status of the TopicRuleDestination. |
 | <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationConfig.property.vpcProperties">vpc_properties</a></code> | <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationVpcProperties">IotTopicRuleDestinationVpcProperties</a></code> | VPC destination properties. |
 
@@ -1121,7 +1227,21 @@ http_url_properties: IotTopicRuleDestinationHttpUrlProperties
 
 HTTP URL destination properties.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_topic_rule_destination#http_url_properties IotTopicRuleDestination#http_url_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iot_topic_rule_destination#http_url_properties IotTopicRuleDestination#http_url_properties}
+
+---
+
+##### `influx_db_properties`<sup>Optional</sup> <a name="influx_db_properties" id="@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationConfig.property.influxDbProperties"></a>
+
+```python
+influx_db_properties: IotTopicRuleDestinationInfluxDbProperties
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbProperties">IotTopicRuleDestinationInfluxDbProperties</a>
+
+InfluxDB destination properties.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iot_topic_rule_destination#influx_db_properties IotTopicRuleDestination#influx_db_properties}
 
 ---
 
@@ -1135,7 +1255,7 @@ status: str
 
 The status of the TopicRuleDestination.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_topic_rule_destination#status IotTopicRuleDestination#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iot_topic_rule_destination#status IotTopicRuleDestination#status}
 
 ---
 
@@ -1149,7 +1269,7 @@ vpc_properties: IotTopicRuleDestinationVpcProperties
 
 VPC destination properties.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_topic_rule_destination#vpc_properties IotTopicRuleDestination#vpc_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iot_topic_rule_destination#vpc_properties IotTopicRuleDestination#vpc_properties}
 
 ---
 
@@ -1169,7 +1289,7 @@ iotTopicRuleDestination.IotTopicRuleDestinationHttpUrlProperties(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationHttpUrlProperties.property.confirmationUrl">confirmation_url</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_topic_rule_destination#confirmation_url IotTopicRuleDestination#confirmation_url}. |
+| <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationHttpUrlProperties.property.confirmationUrl">confirmation_url</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iot_topic_rule_destination#confirmation_url IotTopicRuleDestination#confirmation_url}. |
 
 ---
 
@@ -1181,7 +1301,105 @@ confirmation_url: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_topic_rule_destination#confirmation_url IotTopicRuleDestination#confirmation_url}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iot_topic_rule_destination#confirmation_url IotTopicRuleDestination#confirmation_url}.
+
+---
+
+### IotTopicRuleDestinationInfluxDbProperties <a name="IotTopicRuleDestinationInfluxDbProperties" id="@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbProperties"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbProperties.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import iot_topic_rule_destination
+
+iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbProperties(
+  endpoint: str = None,
+  influx_db_version: str = None,
+  secret_id: str = None,
+  secret_key: str = None,
+  secret_type: str = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbProperties.property.endpoint">endpoint</a></code> | <code>str</code> | The endpoint URL of the InfluxDB database. |
+| <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbProperties.property.influxDbVersion">influx_db_version</a></code> | <code>str</code> | The version of the InfluxDB database (for example, V2 or V3). |
+| <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbProperties.property.secretId">secret_id</a></code> | <code>str</code> | The ARN or name of the Secrets Manager secret containing the InfluxDB API token. |
+| <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbProperties.property.secretKey">secret_key</a></code> | <code>str</code> | The key name within the secret that contains the InfluxDB token. |
+| <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbProperties.property.secretType">secret_type</a></code> | <code>str</code> | The type of the secret value (SecretString or SecretBinary). |
+
+---
+
+##### `endpoint`<sup>Optional</sup> <a name="endpoint" id="@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbProperties.property.endpoint"></a>
+
+```python
+endpoint: str
+```
+
+- *Type:* str
+
+The endpoint URL of the InfluxDB database.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iot_topic_rule_destination#endpoint IotTopicRuleDestination#endpoint}
+
+---
+
+##### `influx_db_version`<sup>Optional</sup> <a name="influx_db_version" id="@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbProperties.property.influxDbVersion"></a>
+
+```python
+influx_db_version: str
+```
+
+- *Type:* str
+
+The version of the InfluxDB database (for example, V2 or V3).
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iot_topic_rule_destination#influx_db_version IotTopicRuleDestination#influx_db_version}
+
+---
+
+##### `secret_id`<sup>Optional</sup> <a name="secret_id" id="@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbProperties.property.secretId"></a>
+
+```python
+secret_id: str
+```
+
+- *Type:* str
+
+The ARN or name of the Secrets Manager secret containing the InfluxDB API token.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iot_topic_rule_destination#secret_id IotTopicRuleDestination#secret_id}
+
+---
+
+##### `secret_key`<sup>Optional</sup> <a name="secret_key" id="@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbProperties.property.secretKey"></a>
+
+```python
+secret_key: str
+```
+
+- *Type:* str
+
+The key name within the secret that contains the InfluxDB token.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iot_topic_rule_destination#secret_key IotTopicRuleDestination#secret_key}
+
+---
+
+##### `secret_type`<sup>Optional</sup> <a name="secret_type" id="@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbProperties.property.secretType"></a>
+
+```python
+secret_type: str
+```
+
+- *Type:* str
+
+The type of the secret value (SecretString or SecretBinary).
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iot_topic_rule_destination#secret_type IotTopicRuleDestination#secret_type}
 
 ---
 
@@ -1204,10 +1422,10 @@ iotTopicRuleDestination.IotTopicRuleDestinationVpcProperties(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationVpcProperties.property.roleArn">role_arn</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_topic_rule_destination#role_arn IotTopicRuleDestination#role_arn}. |
-| <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationVpcProperties.property.securityGroups">security_groups</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_topic_rule_destination#security_groups IotTopicRuleDestination#security_groups}. |
-| <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationVpcProperties.property.subnetIds">subnet_ids</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_topic_rule_destination#subnet_ids IotTopicRuleDestination#subnet_ids}. |
-| <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationVpcProperties.property.vpcId">vpc_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_topic_rule_destination#vpc_id IotTopicRuleDestination#vpc_id}. |
+| <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationVpcProperties.property.roleArn">role_arn</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iot_topic_rule_destination#role_arn IotTopicRuleDestination#role_arn}. |
+| <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationVpcProperties.property.securityGroups">security_groups</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iot_topic_rule_destination#security_groups IotTopicRuleDestination#security_groups}. |
+| <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationVpcProperties.property.subnetIds">subnet_ids</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iot_topic_rule_destination#subnet_ids IotTopicRuleDestination#subnet_ids}. |
+| <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationVpcProperties.property.vpcId">vpc_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iot_topic_rule_destination#vpc_id IotTopicRuleDestination#vpc_id}. |
 
 ---
 
@@ -1219,7 +1437,7 @@ role_arn: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_topic_rule_destination#role_arn IotTopicRuleDestination#role_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iot_topic_rule_destination#role_arn IotTopicRuleDestination#role_arn}.
 
 ---
 
@@ -1231,7 +1449,7 @@ security_groups: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_topic_rule_destination#security_groups IotTopicRuleDestination#security_groups}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iot_topic_rule_destination#security_groups IotTopicRuleDestination#security_groups}.
 
 ---
 
@@ -1243,7 +1461,7 @@ subnet_ids: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_topic_rule_destination#subnet_ids IotTopicRuleDestination#subnet_ids}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iot_topic_rule_destination#subnet_ids IotTopicRuleDestination#subnet_ids}.
 
 ---
 
@@ -1255,7 +1473,7 @@ vpc_id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_topic_rule_destination#vpc_id IotTopicRuleDestination#vpc_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iot_topic_rule_destination#vpc_id IotTopicRuleDestination#vpc_id}.
 
 ---
 
@@ -1560,6 +1778,425 @@ internal_value: IResolvable | IotTopicRuleDestinationHttpUrlProperties
 ```
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationHttpUrlProperties">IotTopicRuleDestinationHttpUrlProperties</a>
+
+---
+
+
+### IotTopicRuleDestinationInfluxDbPropertiesOutputReference <a name="IotTopicRuleDestinationInfluxDbPropertiesOutputReference" id="@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbPropertiesOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbPropertiesOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import iot_topic_rule_destination
+
+iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbPropertiesOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbPropertiesOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbPropertiesOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbPropertiesOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbPropertiesOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbPropertiesOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbPropertiesOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbPropertiesOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbPropertiesOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbPropertiesOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbPropertiesOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbPropertiesOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbPropertiesOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbPropertiesOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbPropertiesOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbPropertiesOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbPropertiesOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbPropertiesOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbPropertiesOutputReference.resetEndpoint">reset_endpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbPropertiesOutputReference.resetInfluxDbVersion">reset_influx_db_version</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbPropertiesOutputReference.resetSecretId">reset_secret_id</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbPropertiesOutputReference.resetSecretKey">reset_secret_key</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbPropertiesOutputReference.resetSecretType">reset_secret_type</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbPropertiesOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbPropertiesOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbPropertiesOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbPropertiesOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbPropertiesOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbPropertiesOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbPropertiesOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbPropertiesOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbPropertiesOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbPropertiesOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbPropertiesOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbPropertiesOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbPropertiesOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbPropertiesOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbPropertiesOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbPropertiesOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbPropertiesOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbPropertiesOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbPropertiesOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbPropertiesOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbPropertiesOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbPropertiesOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbPropertiesOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbPropertiesOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `reset_endpoint` <a name="reset_endpoint" id="@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbPropertiesOutputReference.resetEndpoint"></a>
+
+```python
+def reset_endpoint() -> None
+```
+
+##### `reset_influx_db_version` <a name="reset_influx_db_version" id="@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbPropertiesOutputReference.resetInfluxDbVersion"></a>
+
+```python
+def reset_influx_db_version() -> None
+```
+
+##### `reset_secret_id` <a name="reset_secret_id" id="@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbPropertiesOutputReference.resetSecretId"></a>
+
+```python
+def reset_secret_id() -> None
+```
+
+##### `reset_secret_key` <a name="reset_secret_key" id="@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbPropertiesOutputReference.resetSecretKey"></a>
+
+```python
+def reset_secret_key() -> None
+```
+
+##### `reset_secret_type` <a name="reset_secret_type" id="@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbPropertiesOutputReference.resetSecretType"></a>
+
+```python
+def reset_secret_type() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbPropertiesOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbPropertiesOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbPropertiesOutputReference.property.endpointInput">endpoint_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbPropertiesOutputReference.property.influxDbVersionInput">influx_db_version_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbPropertiesOutputReference.property.secretIdInput">secret_id_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbPropertiesOutputReference.property.secretKeyInput">secret_key_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbPropertiesOutputReference.property.secretTypeInput">secret_type_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbPropertiesOutputReference.property.endpoint">endpoint</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbPropertiesOutputReference.property.influxDbVersion">influx_db_version</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbPropertiesOutputReference.property.secretId">secret_id</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbPropertiesOutputReference.property.secretKey">secret_key</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbPropertiesOutputReference.property.secretType">secret_type</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbPropertiesOutputReference.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbProperties">IotTopicRuleDestinationInfluxDbProperties</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbPropertiesOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbPropertiesOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `endpoint_input`<sup>Optional</sup> <a name="endpoint_input" id="@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbPropertiesOutputReference.property.endpointInput"></a>
+
+```python
+endpoint_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `influx_db_version_input`<sup>Optional</sup> <a name="influx_db_version_input" id="@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbPropertiesOutputReference.property.influxDbVersionInput"></a>
+
+```python
+influx_db_version_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `secret_id_input`<sup>Optional</sup> <a name="secret_id_input" id="@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbPropertiesOutputReference.property.secretIdInput"></a>
+
+```python
+secret_id_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `secret_key_input`<sup>Optional</sup> <a name="secret_key_input" id="@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbPropertiesOutputReference.property.secretKeyInput"></a>
+
+```python
+secret_key_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `secret_type_input`<sup>Optional</sup> <a name="secret_type_input" id="@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbPropertiesOutputReference.property.secretTypeInput"></a>
+
+```python
+secret_type_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `endpoint`<sup>Required</sup> <a name="endpoint" id="@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbPropertiesOutputReference.property.endpoint"></a>
+
+```python
+endpoint: str
+```
+
+- *Type:* str
+
+---
+
+##### `influx_db_version`<sup>Required</sup> <a name="influx_db_version" id="@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbPropertiesOutputReference.property.influxDbVersion"></a>
+
+```python
+influx_db_version: str
+```
+
+- *Type:* str
+
+---
+
+##### `secret_id`<sup>Required</sup> <a name="secret_id" id="@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbPropertiesOutputReference.property.secretId"></a>
+
+```python
+secret_id: str
+```
+
+- *Type:* str
+
+---
+
+##### `secret_key`<sup>Required</sup> <a name="secret_key" id="@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbPropertiesOutputReference.property.secretKey"></a>
+
+```python
+secret_key: str
+```
+
+- *Type:* str
+
+---
+
+##### `secret_type`<sup>Required</sup> <a name="secret_type" id="@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbPropertiesOutputReference.property.secretType"></a>
+
+```python
+secret_type: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbPropertiesOutputReference.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | IotTopicRuleDestinationInfluxDbProperties
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbProperties">IotTopicRuleDestinationInfluxDbProperties</a>
 
 ---
 

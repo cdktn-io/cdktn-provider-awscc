@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_topic_rule_destination
+// https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iot_topic_rule_destination
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,25 +15,31 @@ export interface IotTopicRuleDestinationConfig extends cdktn.TerraformMetaArgume
   /**
   * HTTP URL destination properties.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_topic_rule_destination#http_url_properties IotTopicRuleDestination#http_url_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iot_topic_rule_destination#http_url_properties IotTopicRuleDestination#http_url_properties}
   */
   readonly httpUrlProperties?: IotTopicRuleDestinationHttpUrlProperties;
   /**
+  * InfluxDB destination properties.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iot_topic_rule_destination#influx_db_properties IotTopicRuleDestination#influx_db_properties}
+  */
+  readonly influxDbProperties?: IotTopicRuleDestinationInfluxDbProperties;
+  /**
   * The status of the TopicRuleDestination.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_topic_rule_destination#status IotTopicRuleDestination#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iot_topic_rule_destination#status IotTopicRuleDestination#status}
   */
   readonly status?: string;
   /**
   * VPC destination properties.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_topic_rule_destination#vpc_properties IotTopicRuleDestination#vpc_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iot_topic_rule_destination#vpc_properties IotTopicRuleDestination#vpc_properties}
   */
   readonly vpcProperties?: IotTopicRuleDestinationVpcProperties;
 }
 export interface IotTopicRuleDestinationHttpUrlProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_topic_rule_destination#confirmation_url IotTopicRuleDestination#confirmation_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iot_topic_rule_destination#confirmation_url IotTopicRuleDestination#confirmation_url}
   */
   readonly confirmationUrl?: string;
 }
@@ -125,21 +131,257 @@ export class IotTopicRuleDestinationHttpUrlPropertiesOutputReference extends cdk
     return this._confirmationUrl;
   }
 }
+export interface IotTopicRuleDestinationInfluxDbProperties {
+  /**
+  * The endpoint URL of the InfluxDB database.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iot_topic_rule_destination#endpoint IotTopicRuleDestination#endpoint}
+  */
+  readonly endpoint?: string;
+  /**
+  * The version of the InfluxDB database (for example, V2 or V3).
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iot_topic_rule_destination#influx_db_version IotTopicRuleDestination#influx_db_version}
+  */
+  readonly influxDbVersion?: string;
+  /**
+  * The ARN or name of the Secrets Manager secret containing the InfluxDB API token.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iot_topic_rule_destination#secret_id IotTopicRuleDestination#secret_id}
+  */
+  readonly secretId?: string;
+  /**
+  * The key name within the secret that contains the InfluxDB token.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iot_topic_rule_destination#secret_key IotTopicRuleDestination#secret_key}
+  */
+  readonly secretKey?: string;
+  /**
+  * The type of the secret value (SecretString or SecretBinary).
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iot_topic_rule_destination#secret_type IotTopicRuleDestination#secret_type}
+  */
+  readonly secretType?: string;
+}
+
+export function iotTopicRuleDestinationInfluxDbPropertiesToTerraform(struct?: IotTopicRuleDestinationInfluxDbProperties | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    endpoint: cdktn.stringToTerraform(struct!.endpoint),
+    influx_db_version: cdktn.stringToTerraform(struct!.influxDbVersion),
+    secret_id: cdktn.stringToTerraform(struct!.secretId),
+    secret_key: cdktn.stringToTerraform(struct!.secretKey),
+    secret_type: cdktn.stringToTerraform(struct!.secretType),
+  }
+}
+
+
+export function iotTopicRuleDestinationInfluxDbPropertiesToHclTerraform(struct?: IotTopicRuleDestinationInfluxDbProperties | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    endpoint: {
+      value: cdktn.stringToHclTerraform(struct!.endpoint),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    influx_db_version: {
+      value: cdktn.stringToHclTerraform(struct!.influxDbVersion),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    secret_id: {
+      value: cdktn.stringToHclTerraform(struct!.secretId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    secret_key: {
+      value: cdktn.stringToHclTerraform(struct!.secretKey),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    secret_type: {
+      value: cdktn.stringToHclTerraform(struct!.secretType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class IotTopicRuleDestinationInfluxDbPropertiesOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): IotTopicRuleDestinationInfluxDbProperties | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._endpoint !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.endpoint = this._endpoint;
+    }
+    if (this._influxDbVersion !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.influxDbVersion = this._influxDbVersion;
+    }
+    if (this._secretId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.secretId = this._secretId;
+    }
+    if (this._secretKey !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.secretKey = this._secretKey;
+    }
+    if (this._secretType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.secretType = this._secretType;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: IotTopicRuleDestinationInfluxDbProperties | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._endpoint = undefined;
+      this._influxDbVersion = undefined;
+      this._secretId = undefined;
+      this._secretKey = undefined;
+      this._secretType = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._endpoint = value.endpoint;
+      this._influxDbVersion = value.influxDbVersion;
+      this._secretId = value.secretId;
+      this._secretKey = value.secretKey;
+      this._secretType = value.secretType;
+    }
+  }
+
+  // endpoint - computed: true, optional: true, required: false
+  private _endpoint?: string; 
+  public get endpoint() {
+    return this.getStringAttribute('endpoint');
+  }
+  public set endpoint(value: string) {
+    this._endpoint = value;
+  }
+  public resetEndpoint() {
+    this._endpoint = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get endpointInput() {
+    return this._endpoint;
+  }
+
+  // influx_db_version - computed: true, optional: true, required: false
+  private _influxDbVersion?: string; 
+  public get influxDbVersion() {
+    return this.getStringAttribute('influx_db_version');
+  }
+  public set influxDbVersion(value: string) {
+    this._influxDbVersion = value;
+  }
+  public resetInfluxDbVersion() {
+    this._influxDbVersion = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get influxDbVersionInput() {
+    return this._influxDbVersion;
+  }
+
+  // secret_id - computed: true, optional: true, required: false
+  private _secretId?: string; 
+  public get secretId() {
+    return this.getStringAttribute('secret_id');
+  }
+  public set secretId(value: string) {
+    this._secretId = value;
+  }
+  public resetSecretId() {
+    this._secretId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secretIdInput() {
+    return this._secretId;
+  }
+
+  // secret_key - computed: true, optional: true, required: false
+  private _secretKey?: string; 
+  public get secretKey() {
+    return this.getStringAttribute('secret_key');
+  }
+  public set secretKey(value: string) {
+    this._secretKey = value;
+  }
+  public resetSecretKey() {
+    this._secretKey = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secretKeyInput() {
+    return this._secretKey;
+  }
+
+  // secret_type - computed: true, optional: true, required: false
+  private _secretType?: string; 
+  public get secretType() {
+    return this.getStringAttribute('secret_type');
+  }
+  public set secretType(value: string) {
+    this._secretType = value;
+  }
+  public resetSecretType() {
+    this._secretType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secretTypeInput() {
+    return this._secretType;
+  }
+}
 export interface IotTopicRuleDestinationVpcProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_topic_rule_destination#role_arn IotTopicRuleDestination#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iot_topic_rule_destination#role_arn IotTopicRuleDestination#role_arn}
   */
   readonly roleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_topic_rule_destination#security_groups IotTopicRuleDestination#security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iot_topic_rule_destination#security_groups IotTopicRuleDestination#security_groups}
   */
   readonly securityGroups?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_topic_rule_destination#subnet_ids IotTopicRuleDestination#subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iot_topic_rule_destination#subnet_ids IotTopicRuleDestination#subnet_ids}
   */
   readonly subnetIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_topic_rule_destination#vpc_id IotTopicRuleDestination#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iot_topic_rule_destination#vpc_id IotTopicRuleDestination#vpc_id}
   */
   readonly vpcId?: string;
 }
@@ -320,7 +562,7 @@ export class IotTopicRuleDestinationVpcPropertiesOutputReference extends cdktn.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_topic_rule_destination awscc_iot_topic_rule_destination}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iot_topic_rule_destination awscc_iot_topic_rule_destination}
 */
 export class IotTopicRuleDestination extends cdktn.TerraformResource {
 
@@ -336,7 +578,7 @@ export class IotTopicRuleDestination extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a IotTopicRuleDestination resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IotTopicRuleDestination to import
-  * @param importFromId The id of the existing IotTopicRuleDestination that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_topic_rule_destination#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IotTopicRuleDestination that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iot_topic_rule_destination#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IotTopicRuleDestination to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -348,7 +590,7 @@ export class IotTopicRuleDestination extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_topic_rule_destination awscc_iot_topic_rule_destination} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iot_topic_rule_destination awscc_iot_topic_rule_destination} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -359,7 +601,7 @@ export class IotTopicRuleDestination extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_iot_topic_rule_destination',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.100.0',
+        providerVersion: '1.101.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -371,6 +613,7 @@ export class IotTopicRuleDestination extends cdktn.TerraformResource {
       forEach: config.forEach
     });
     this._httpUrlProperties.internalValue = config.httpUrlProperties;
+    this._influxDbProperties.internalValue = config.influxDbProperties;
     this._status = config.status;
     this._vpcProperties.internalValue = config.vpcProperties;
   }
@@ -403,6 +646,22 @@ export class IotTopicRuleDestination extends cdktn.TerraformResource {
   // id - computed: true, optional: false, required: false
   public get id() {
     return this.getStringAttribute('id');
+  }
+
+  // influx_db_properties - computed: true, optional: true, required: false
+  private _influxDbProperties = new IotTopicRuleDestinationInfluxDbPropertiesOutputReference(this, "influx_db_properties");
+  public get influxDbProperties() {
+    return this._influxDbProperties;
+  }
+  public putInfluxDbProperties(value: IotTopicRuleDestinationInfluxDbProperties) {
+    this._influxDbProperties.internalValue = value;
+  }
+  public resetInfluxDbProperties() {
+    this._influxDbProperties.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get influxDbPropertiesInput() {
+    return this._influxDbProperties.internalValue;
   }
 
   // status - computed: true, optional: true, required: false
@@ -449,6 +708,7 @@ export class IotTopicRuleDestination extends cdktn.TerraformResource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       http_url_properties: iotTopicRuleDestinationHttpUrlPropertiesToTerraform(this._httpUrlProperties.internalValue),
+      influx_db_properties: iotTopicRuleDestinationInfluxDbPropertiesToTerraform(this._influxDbProperties.internalValue),
       status: cdktn.stringToTerraform(this._status),
       vpc_properties: iotTopicRuleDestinationVpcPropertiesToTerraform(this._vpcProperties.internalValue),
     };
@@ -461,6 +721,12 @@ export class IotTopicRuleDestination extends cdktn.TerraformResource {
         isBlock: true,
         type: "struct",
         storageClassType: "IotTopicRuleDestinationHttpUrlProperties",
+      },
+      influx_db_properties: {
+        value: iotTopicRuleDestinationInfluxDbPropertiesToHclTerraform(this._influxDbProperties.internalValue),
+        isBlock: true,
+        type: "struct",
+        storageClassType: "IotTopicRuleDestinationInfluxDbProperties",
       },
       status: {
         value: cdktn.stringToHclTerraform(this._status),
