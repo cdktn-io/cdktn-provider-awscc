@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/iot_topic_rule
+// https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/iot_topic_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccIotTopicRuleConfig extends cdktn.TerraformMetaArgument
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/iot_topic_rule#id DataAwsccIotTopicRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/iot_topic_rule#id DataAwsccIotTopicRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1013,6 +1013,166 @@ export class DataAwsccIotTopicRuleTopicRulePayloadActionsHttpOutputReference ext
   // url - computed: true, optional: false, required: false
   public get url() {
     return this.getStringAttribute('url');
+  }
+}
+export interface DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbBatchConfig {
+}
+
+export function dataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbBatchConfigToTerraform(struct?: DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbBatchConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbBatchConfigToHclTerraform(struct?: DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbBatchConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbBatchConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbBatchConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbBatchConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // batch_across_topics - computed: true, optional: false, required: false
+  public get batchAcrossTopics() {
+    return this.getBooleanAttribute('batch_across_topics');
+  }
+
+  // max_batch_open_ms - computed: true, optional: false, required: false
+  public get maxBatchOpenMs() {
+    return this.getNumberAttribute('max_batch_open_ms');
+  }
+
+  // max_batch_size - computed: true, optional: false, required: false
+  public get maxBatchSize() {
+    return this.getNumberAttribute('max_batch_size');
+  }
+
+  // max_batch_size_bytes - computed: true, optional: false, required: false
+  public get maxBatchSizeBytes() {
+    return this.getNumberAttribute('max_batch_size_bytes');
+  }
+}
+export interface DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDb {
+}
+
+export function dataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbToTerraform(struct?: DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDb): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbToHclTerraform(struct?: DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDb): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDb | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDb | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // batch_config - computed: true, optional: false, required: false
+  private _batchConfig = new DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbBatchConfigOutputReference(this, "batch_config");
+  public get batchConfig() {
+    return this._batchConfig;
+  }
+
+  // database_name - computed: true, optional: false, required: false
+  public get databaseName() {
+    return this.getStringAttribute('database_name');
+  }
+
+  // destination_arn - computed: true, optional: false, required: false
+  public get destinationArn() {
+    return this.getStringAttribute('destination_arn');
+  }
+
+  // organization - computed: true, optional: false, required: false
+  public get organization() {
+    return this.getStringAttribute('organization');
+  }
+
+  // role_arn - computed: true, optional: false, required: false
+  public get roleArn() {
+    return this.getStringAttribute('role_arn');
+  }
+
+  // table_name - computed: true, optional: false, required: false
+  public get tableName() {
+    return this.getStringAttribute('table_name');
+  }
+
+  // tags - computed: true, optional: false, required: false
+  private _tags = new cdktn.StringMap(this, "tags");
+  public get tags() {
+    return this._tags;
+  }
+
+  // timestamp_unit - computed: true, optional: false, required: false
+  public get timestampUnit() {
+    return this.getStringAttribute('timestamp_unit');
   }
 }
 export interface DataAwsccIotTopicRuleTopicRulePayloadActionsIotAnalytics {
@@ -2816,6 +2976,12 @@ export class DataAwsccIotTopicRuleTopicRulePayloadActionsOutputReference extends
     return this._http;
   }
 
+  // influx_db - computed: true, optional: false, required: false
+  private _influxDb = new DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbOutputReference(this, "influx_db");
+  public get influxDb() {
+    return this._influxDb;
+  }
+
   // iot_analytics - computed: true, optional: false, required: false
   private _iotAnalytics = new DataAwsccIotTopicRuleTopicRulePayloadActionsIotAnalyticsOutputReference(this, "iot_analytics");
   public get iotAnalytics() {
@@ -3830,6 +3996,166 @@ export class DataAwsccIotTopicRuleTopicRulePayloadErrorActionHttpOutputReference
   // url - computed: true, optional: false, required: false
   public get url() {
     return this.getStringAttribute('url');
+  }
+}
+export interface DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbBatchConfig {
+}
+
+export function dataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbBatchConfigToTerraform(struct?: DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbBatchConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbBatchConfigToHclTerraform(struct?: DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbBatchConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbBatchConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbBatchConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbBatchConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // batch_across_topics - computed: true, optional: false, required: false
+  public get batchAcrossTopics() {
+    return this.getBooleanAttribute('batch_across_topics');
+  }
+
+  // max_batch_open_ms - computed: true, optional: false, required: false
+  public get maxBatchOpenMs() {
+    return this.getNumberAttribute('max_batch_open_ms');
+  }
+
+  // max_batch_size - computed: true, optional: false, required: false
+  public get maxBatchSize() {
+    return this.getNumberAttribute('max_batch_size');
+  }
+
+  // max_batch_size_bytes - computed: true, optional: false, required: false
+  public get maxBatchSizeBytes() {
+    return this.getNumberAttribute('max_batch_size_bytes');
+  }
+}
+export interface DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDb {
+}
+
+export function dataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbToTerraform(struct?: DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDb): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbToHclTerraform(struct?: DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDb): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDb | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDb | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // batch_config - computed: true, optional: false, required: false
+  private _batchConfig = new DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbBatchConfigOutputReference(this, "batch_config");
+  public get batchConfig() {
+    return this._batchConfig;
+  }
+
+  // database_name - computed: true, optional: false, required: false
+  public get databaseName() {
+    return this.getStringAttribute('database_name');
+  }
+
+  // destination_arn - computed: true, optional: false, required: false
+  public get destinationArn() {
+    return this.getStringAttribute('destination_arn');
+  }
+
+  // organization - computed: true, optional: false, required: false
+  public get organization() {
+    return this.getStringAttribute('organization');
+  }
+
+  // role_arn - computed: true, optional: false, required: false
+  public get roleArn() {
+    return this.getStringAttribute('role_arn');
+  }
+
+  // table_name - computed: true, optional: false, required: false
+  public get tableName() {
+    return this.getStringAttribute('table_name');
+  }
+
+  // tags - computed: true, optional: false, required: false
+  private _tags = new cdktn.StringMap(this, "tags");
+  public get tags() {
+    return this._tags;
+  }
+
+  // timestamp_unit - computed: true, optional: false, required: false
+  public get timestampUnit() {
+    return this.getStringAttribute('timestamp_unit');
   }
 }
 export interface DataAwsccIotTopicRuleTopicRulePayloadErrorActionIotAnalytics {
@@ -5631,6 +5957,12 @@ export class DataAwsccIotTopicRuleTopicRulePayloadErrorActionOutputReference ext
     return this._http;
   }
 
+  // influx_db - computed: true, optional: false, required: false
+  private _influxDb = new DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbOutputReference(this, "influx_db");
+  public get influxDb() {
+    return this._influxDb;
+  }
+
   // iot_analytics - computed: true, optional: false, required: false
   private _iotAnalytics = new DataAwsccIotTopicRuleTopicRulePayloadErrorActionIotAnalyticsOutputReference(this, "iot_analytics");
   public get iotAnalytics() {
@@ -5798,7 +6130,7 @@ export class DataAwsccIotTopicRuleTopicRulePayloadOutputReference extends cdktn.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/iot_topic_rule awscc_iot_topic_rule}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/iot_topic_rule awscc_iot_topic_rule}
 */
 export class DataAwsccIotTopicRule extends cdktn.TerraformDataSource {
 
@@ -5814,7 +6146,7 @@ export class DataAwsccIotTopicRule extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAwsccIotTopicRule resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccIotTopicRule to import
-  * @param importFromId The id of the existing DataAwsccIotTopicRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/iot_topic_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccIotTopicRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/iot_topic_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccIotTopicRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -5826,7 +6158,7 @@ export class DataAwsccIotTopicRule extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/iot_topic_rule awscc_iot_topic_rule} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/iot_topic_rule awscc_iot_topic_rule} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5837,7 +6169,7 @@ export class DataAwsccIotTopicRule extends cdktn.TerraformDataSource {
       terraformResourceType: 'awscc_iot_topic_rule',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.100.0',
+        providerVersion: '1.101.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/agentregistry_registry_record
+// https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/agentregistry_registry_record
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,49 +15,49 @@ export interface AgentregistryRegistryRecordConfig extends cdktn.TerraformMetaAr
   /**
   * The description of the registry record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/agentregistry_registry_record#description AgentregistryRegistryRecord#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/agentregistry_registry_record#description AgentregistryRegistryRecord#description}
   */
   readonly description?: string;
   /**
   * The typed set of descriptors for a registry record. Exactly one descriptor field is populated based on the record type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/agentregistry_registry_record#descriptors AgentregistryRegistryRecord#descriptors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/agentregistry_registry_record#descriptors AgentregistryRegistryRecord#descriptors}
   */
   readonly descriptors: AgentregistryRegistryRecordDescriptors;
   /**
   * The human-readable display name of the registry record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/agentregistry_registry_record#display_name AgentregistryRegistryRecord#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/agentregistry_registry_record#display_name AgentregistryRegistryRecord#display_name}
   */
   readonly displayName?: string;
   /**
   * The name of the registry record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/agentregistry_registry_record#name AgentregistryRegistryRecord#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/agentregistry_registry_record#name AgentregistryRegistryRecord#name}
   */
   readonly name: string;
   /**
   * The type of the registry record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/agentregistry_registry_record#record_type AgentregistryRegistryRecord#record_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/agentregistry_registry_record#record_type AgentregistryRegistryRecord#record_type}
   */
   readonly recordType: string;
   /**
   * The version of the registry record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/agentregistry_registry_record#record_version AgentregistryRegistryRecord#record_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/agentregistry_registry_record#record_version AgentregistryRegistryRecord#record_version}
   */
   readonly recordVersion?: string;
   /**
   * The identifier of the registry in which to create the record. You can specify either the registry ID or the registry Amazon Resource Name (ARN). Use the ARN form to reference a registry shared from another account via AWS Resource Access Manager (RAM).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/agentregistry_registry_record#registry_id AgentregistryRegistryRecord#registry_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/agentregistry_registry_record#registry_id AgentregistryRegistryRecord#registry_id}
   */
   readonly registryId?: string;
   /**
   * Tags to assign to the registry record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/agentregistry_registry_record#tags AgentregistryRegistryRecord#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/agentregistry_registry_record#tags AgentregistryRegistryRecord#tags}
   */
   readonly tags?: AgentregistryRegistryRecordTags[] | cdktn.IResolvable;
 }
@@ -65,19 +65,19 @@ export interface AgentregistryRegistryRecordDescriptorsA2AAgentCardSourceFromUrl
   /**
   * The SigV4 signing region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/agentregistry_registry_record#region AgentregistryRegistryRecord#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/agentregistry_registry_record#region AgentregistryRegistryRecord#region}
   */
   readonly region?: string;
   /**
   * The ARN of the IAM role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/agentregistry_registry_record#role_arn AgentregistryRegistryRecord#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/agentregistry_registry_record#role_arn AgentregistryRegistryRecord#role_arn}
   */
   readonly roleArn?: string;
   /**
   * The SigV4 signing service name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/agentregistry_registry_record#service AgentregistryRegistryRecord#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/agentregistry_registry_record#service AgentregistryRegistryRecord#service}
   */
   readonly service?: string;
 }
@@ -231,23 +231,23 @@ export interface AgentregistryRegistryRecordDescriptorsA2AAgentCardSourceFromUrl
   /**
   * Additional custom parameters for the OAuth flow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/agentregistry_registry_record#custom_parameters AgentregistryRegistryRecord#custom_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/agentregistry_registry_record#custom_parameters AgentregistryRegistryRecord#custom_parameters}
   */
   readonly customParameters?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/agentregistry_registry_record#grant_type AgentregistryRegistryRecord#grant_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/agentregistry_registry_record#grant_type AgentregistryRegistryRecord#grant_type}
   */
   readonly grantType?: string;
   /**
   * The ARN of the OAuth credential provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/agentregistry_registry_record#provider_arn AgentregistryRegistryRecord#provider_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/agentregistry_registry_record#provider_arn AgentregistryRegistryRecord#provider_arn}
   */
   readonly providerArn?: string;
   /**
   * OAuth scopes to request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/agentregistry_registry_record#scopes AgentregistryRegistryRecord#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/agentregistry_registry_record#scopes AgentregistryRegistryRecord#scopes}
   */
   readonly scopes?: string[];
 }
@@ -430,13 +430,13 @@ export interface AgentregistryRegistryRecordDescriptorsA2AAgentCardSourceFromUrl
   /**
   * IAM credential provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/agentregistry_registry_record#iam_credential_provider AgentregistryRegistryRecord#iam_credential_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/agentregistry_registry_record#iam_credential_provider AgentregistryRegistryRecord#iam_credential_provider}
   */
   readonly iamCredentialProvider?: AgentregistryRegistryRecordDescriptorsA2AAgentCardSourceFromUrlCredentialProviderConfigurationsCredentialProviderIamCredentialProvider;
   /**
   * OAuth credential provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/agentregistry_registry_record#oauth_credential_provider AgentregistryRegistryRecord#oauth_credential_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/agentregistry_registry_record#oauth_credential_provider AgentregistryRegistryRecord#oauth_credential_provider}
   */
   readonly oauthCredentialProvider?: AgentregistryRegistryRecordDescriptorsA2AAgentCardSourceFromUrlCredentialProviderConfigurationsCredentialProviderOauthCredentialProvider;
 }
@@ -561,11 +561,11 @@ export interface AgentregistryRegistryRecordDescriptorsA2AAgentCardSourceFromUrl
   /**
   * The credential provider details. Specify exactly one member.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/agentregistry_registry_record#credential_provider AgentregistryRegistryRecord#credential_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/agentregistry_registry_record#credential_provider AgentregistryRegistryRecord#credential_provider}
   */
   readonly credentialProvider?: AgentregistryRegistryRecordDescriptorsA2AAgentCardSourceFromUrlCredentialProviderConfigurationsCredentialProvider;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/agentregistry_registry_record#credential_provider_type AgentregistryRegistryRecord#credential_provider_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/agentregistry_registry_record#credential_provider_type AgentregistryRegistryRecord#credential_provider_type}
   */
   readonly credentialProviderType?: string;
 }
@@ -712,13 +712,13 @@ export interface AgentregistryRegistryRecordDescriptorsA2AAgentCardSourceFromUrl
   /**
   * The credential providers used to authenticate when fetching descriptor content from the source URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/agentregistry_registry_record#credential_provider_configurations AgentregistryRegistryRecord#credential_provider_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/agentregistry_registry_record#credential_provider_configurations AgentregistryRegistryRecord#credential_provider_configurations}
   */
   readonly credentialProviderConfigurations?: AgentregistryRegistryRecordDescriptorsA2AAgentCardSourceFromUrlCredentialProviderConfigurations[] | cdktn.IResolvable;
   /**
   * URL source for descriptor content.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/agentregistry_registry_record#url AgentregistryRegistryRecord#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/agentregistry_registry_record#url AgentregistryRegistryRecord#url}
   */
   readonly url?: string;
 }
@@ -843,7 +843,7 @@ export interface AgentregistryRegistryRecordDescriptorsA2AAgentCardSource {
   /**
   * URL-based descriptor source configuration, with credential provider configurations for authenticated URL retrieval.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/agentregistry_registry_record#from_url AgentregistryRegistryRecord#from_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/agentregistry_registry_record#from_url AgentregistryRegistryRecord#from_url}
   */
   readonly fromUrl?: AgentregistryRegistryRecordDescriptorsA2AAgentCardSourceFromUrl;
 }
@@ -939,19 +939,19 @@ export interface AgentregistryRegistryRecordDescriptorsA2AAgentCard {
   /**
   * Descriptor payload data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/agentregistry_registry_record#data AgentregistryRegistryRecord#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/agentregistry_registry_record#data AgentregistryRegistryRecord#data}
   */
   readonly data?: string;
   /**
   * Version of the descriptor type schema.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/agentregistry_registry_record#data_schema_version AgentregistryRegistryRecord#data_schema_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/agentregistry_registry_record#data_schema_version AgentregistryRegistryRecord#data_schema_version}
   */
   readonly dataSchemaVersion?: string;
   /**
   * The source configuration that defines where descriptor content is retrieved from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/agentregistry_registry_record#source AgentregistryRegistryRecord#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/agentregistry_registry_record#source AgentregistryRegistryRecord#source}
   */
   readonly source?: AgentregistryRegistryRecordDescriptorsA2AAgentCardSource;
 }
@@ -1105,7 +1105,7 @@ export interface AgentregistryRegistryRecordDescriptorsAgentSkillsDefinitionAddi
   /**
   * URL source for the SkillMd document.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/agentregistry_registry_record#url AgentregistryRegistryRecord#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/agentregistry_registry_record#url AgentregistryRegistryRecord#url}
   */
   readonly url?: string;
 }
@@ -1201,7 +1201,7 @@ export interface AgentregistryRegistryRecordDescriptorsAgentSkillsDefinitionAddi
   /**
   * URL-based source for SkillMd content (sync is skipped; content is provided inline via Data).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/agentregistry_registry_record#from_url AgentregistryRegistryRecord#from_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/agentregistry_registry_record#from_url AgentregistryRegistryRecord#from_url}
   */
   readonly fromUrl?: AgentregistryRegistryRecordDescriptorsAgentSkillsDefinitionAdditionalDataSkillMdSourceFromUrl;
 }
@@ -1297,19 +1297,19 @@ export interface AgentregistryRegistryRecordDescriptorsAgentSkillsDefinitionAddi
   /**
   * Descriptor payload data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/agentregistry_registry_record#data AgentregistryRegistryRecord#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/agentregistry_registry_record#data AgentregistryRegistryRecord#data}
   */
   readonly data?: string;
   /**
   * Version of the descriptor type schema.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/agentregistry_registry_record#data_schema_version AgentregistryRegistryRecord#data_schema_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/agentregistry_registry_record#data_schema_version AgentregistryRegistryRecord#data_schema_version}
   */
   readonly dataSchemaVersion?: string;
   /**
   * Source configuration for a SkillMd document. Unlike MCP/A2A sources, SkillMd does not support credential providers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/agentregistry_registry_record#source AgentregistryRegistryRecord#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/agentregistry_registry_record#source AgentregistryRegistryRecord#source}
   */
   readonly source?: AgentregistryRegistryRecordDescriptorsAgentSkillsDefinitionAdditionalDataSkillMdSource;
 }
@@ -1463,7 +1463,7 @@ export interface AgentregistryRegistryRecordDescriptorsAgentSkillsDefinitionAddi
   /**
   * Markdown-format descriptor containing an agent skills document.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/agentregistry_registry_record#skill_md AgentregistryRegistryRecord#skill_md}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/agentregistry_registry_record#skill_md AgentregistryRegistryRecord#skill_md}
   */
   readonly skillMd?: AgentregistryRegistryRecordDescriptorsAgentSkillsDefinitionAdditionalDataSkillMd;
 }
@@ -1559,19 +1559,19 @@ export interface AgentregistryRegistryRecordDescriptorsAgentSkillsDefinition {
   /**
   * Additional data associated with an agent skills definition descriptor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/agentregistry_registry_record#additional_data AgentregistryRegistryRecord#additional_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/agentregistry_registry_record#additional_data AgentregistryRegistryRecord#additional_data}
   */
   readonly additionalData?: AgentregistryRegistryRecordDescriptorsAgentSkillsDefinitionAdditionalData;
   /**
   * Descriptor payload data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/agentregistry_registry_record#data AgentregistryRegistryRecord#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/agentregistry_registry_record#data AgentregistryRegistryRecord#data}
   */
   readonly data?: string;
   /**
   * Version of the descriptor type schema.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/agentregistry_registry_record#data_schema_version AgentregistryRegistryRecord#data_schema_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/agentregistry_registry_record#data_schema_version AgentregistryRegistryRecord#data_schema_version}
   */
   readonly dataSchemaVersion?: string;
 }
@@ -1721,11 +1721,299 @@ export class AgentregistryRegistryRecordDescriptorsAgentSkillsDefinitionOutputRe
     return this._dataSchemaVersion;
   }
 }
+export interface AgentregistryRegistryRecordDescriptorsAguiSourceFromUrl {
+  /**
+  * URL source for descriptor content.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/agentregistry_registry_record#url AgentregistryRegistryRecord#url}
+  */
+  readonly url?: string;
+}
+
+export function agentregistryRegistryRecordDescriptorsAguiSourceFromUrlToTerraform(struct?: AgentregistryRegistryRecordDescriptorsAguiSourceFromUrl | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    url: cdktn.stringToTerraform(struct!.url),
+  }
+}
+
+
+export function agentregistryRegistryRecordDescriptorsAguiSourceFromUrlToHclTerraform(struct?: AgentregistryRegistryRecordDescriptorsAguiSourceFromUrl | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    url: {
+      value: cdktn.stringToHclTerraform(struct!.url),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class AgentregistryRegistryRecordDescriptorsAguiSourceFromUrlOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): AgentregistryRegistryRecordDescriptorsAguiSourceFromUrl | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._url !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.url = this._url;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: AgentregistryRegistryRecordDescriptorsAguiSourceFromUrl | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._url = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._url = value.url;
+    }
+  }
+
+  // url - computed: true, optional: true, required: false
+  private _url?: string; 
+  public get url() {
+    return this.getStringAttribute('url');
+  }
+  public set url(value: string) {
+    this._url = value;
+  }
+  public resetUrl() {
+    this._url = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get urlInput() {
+    return this._url;
+  }
+}
+export interface AgentregistryRegistryRecordDescriptorsAguiSource {
+  /**
+  * URL-based source configuration for a source-only descriptor.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/agentregistry_registry_record#from_url AgentregistryRegistryRecord#from_url}
+  */
+  readonly fromUrl?: AgentregistryRegistryRecordDescriptorsAguiSourceFromUrl;
+}
+
+export function agentregistryRegistryRecordDescriptorsAguiSourceToTerraform(struct?: AgentregistryRegistryRecordDescriptorsAguiSource | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    from_url: agentregistryRegistryRecordDescriptorsAguiSourceFromUrlToTerraform(struct!.fromUrl),
+  }
+}
+
+
+export function agentregistryRegistryRecordDescriptorsAguiSourceToHclTerraform(struct?: AgentregistryRegistryRecordDescriptorsAguiSource | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    from_url: {
+      value: agentregistryRegistryRecordDescriptorsAguiSourceFromUrlToHclTerraform(struct!.fromUrl),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "AgentregistryRegistryRecordDescriptorsAguiSourceFromUrl",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class AgentregistryRegistryRecordDescriptorsAguiSourceOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): AgentregistryRegistryRecordDescriptorsAguiSource | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._fromUrl?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.fromUrl = this._fromUrl?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: AgentregistryRegistryRecordDescriptorsAguiSource | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._fromUrl.internalValue = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._fromUrl.internalValue = value.fromUrl;
+    }
+  }
+
+  // from_url - computed: true, optional: true, required: false
+  private _fromUrl = new AgentregistryRegistryRecordDescriptorsAguiSourceFromUrlOutputReference(this, "from_url");
+  public get fromUrl() {
+    return this._fromUrl;
+  }
+  public putFromUrl(value: AgentregistryRegistryRecordDescriptorsAguiSourceFromUrl) {
+    this._fromUrl.internalValue = value;
+  }
+  public resetFromUrl() {
+    this._fromUrl.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fromUrlInput() {
+    return this._fromUrl.internalValue;
+  }
+}
+export interface AgentregistryRegistryRecordDescriptorsAgui {
+  /**
+  * Source configuration for a source-only descriptor. Unlike mcpServer/a2aAgentCard sources, source-only descriptors do not support credential providers.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/agentregistry_registry_record#source AgentregistryRegistryRecord#source}
+  */
+  readonly source?: AgentregistryRegistryRecordDescriptorsAguiSource;
+}
+
+export function agentregistryRegistryRecordDescriptorsAguiToTerraform(struct?: AgentregistryRegistryRecordDescriptorsAgui | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    source: agentregistryRegistryRecordDescriptorsAguiSourceToTerraform(struct!.source),
+  }
+}
+
+
+export function agentregistryRegistryRecordDescriptorsAguiToHclTerraform(struct?: AgentregistryRegistryRecordDescriptorsAgui | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    source: {
+      value: agentregistryRegistryRecordDescriptorsAguiSourceToHclTerraform(struct!.source),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "AgentregistryRegistryRecordDescriptorsAguiSource",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class AgentregistryRegistryRecordDescriptorsAguiOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): AgentregistryRegistryRecordDescriptorsAgui | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._source?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.source = this._source?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: AgentregistryRegistryRecordDescriptorsAgui | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._source.internalValue = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._source.internalValue = value.source;
+    }
+  }
+
+  // source - computed: true, optional: true, required: false
+  private _source = new AgentregistryRegistryRecordDescriptorsAguiSourceOutputReference(this, "source");
+  public get source() {
+    return this._source;
+  }
+  public putSource(value: AgentregistryRegistryRecordDescriptorsAguiSource) {
+    this._source.internalValue = value;
+  }
+  public resetSource() {
+    this._source.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sourceInput() {
+    return this._source.internalValue;
+  }
+}
 export interface AgentregistryRegistryRecordDescriptorsCustom {
   /**
   * Descriptor payload data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/agentregistry_registry_record#data AgentregistryRegistryRecord#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/agentregistry_registry_record#data AgentregistryRegistryRecord#data}
   */
   readonly data?: string;
 }
@@ -1817,17 +2105,305 @@ export class AgentregistryRegistryRecordDescriptorsCustomOutputReference extends
     return this._data;
   }
 }
+export interface AgentregistryRegistryRecordDescriptorsHttpSourceFromUrl {
+  /**
+  * URL source for descriptor content.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/agentregistry_registry_record#url AgentregistryRegistryRecord#url}
+  */
+  readonly url?: string;
+}
+
+export function agentregistryRegistryRecordDescriptorsHttpSourceFromUrlToTerraform(struct?: AgentregistryRegistryRecordDescriptorsHttpSourceFromUrl | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    url: cdktn.stringToTerraform(struct!.url),
+  }
+}
+
+
+export function agentregistryRegistryRecordDescriptorsHttpSourceFromUrlToHclTerraform(struct?: AgentregistryRegistryRecordDescriptorsHttpSourceFromUrl | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    url: {
+      value: cdktn.stringToHclTerraform(struct!.url),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class AgentregistryRegistryRecordDescriptorsHttpSourceFromUrlOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): AgentregistryRegistryRecordDescriptorsHttpSourceFromUrl | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._url !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.url = this._url;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: AgentregistryRegistryRecordDescriptorsHttpSourceFromUrl | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._url = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._url = value.url;
+    }
+  }
+
+  // url - computed: true, optional: true, required: false
+  private _url?: string; 
+  public get url() {
+    return this.getStringAttribute('url');
+  }
+  public set url(value: string) {
+    this._url = value;
+  }
+  public resetUrl() {
+    this._url = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get urlInput() {
+    return this._url;
+  }
+}
+export interface AgentregistryRegistryRecordDescriptorsHttpSource {
+  /**
+  * URL-based source configuration for a source-only descriptor.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/agentregistry_registry_record#from_url AgentregistryRegistryRecord#from_url}
+  */
+  readonly fromUrl?: AgentregistryRegistryRecordDescriptorsHttpSourceFromUrl;
+}
+
+export function agentregistryRegistryRecordDescriptorsHttpSourceToTerraform(struct?: AgentregistryRegistryRecordDescriptorsHttpSource | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    from_url: agentregistryRegistryRecordDescriptorsHttpSourceFromUrlToTerraform(struct!.fromUrl),
+  }
+}
+
+
+export function agentregistryRegistryRecordDescriptorsHttpSourceToHclTerraform(struct?: AgentregistryRegistryRecordDescriptorsHttpSource | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    from_url: {
+      value: agentregistryRegistryRecordDescriptorsHttpSourceFromUrlToHclTerraform(struct!.fromUrl),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "AgentregistryRegistryRecordDescriptorsHttpSourceFromUrl",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class AgentregistryRegistryRecordDescriptorsHttpSourceOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): AgentregistryRegistryRecordDescriptorsHttpSource | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._fromUrl?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.fromUrl = this._fromUrl?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: AgentregistryRegistryRecordDescriptorsHttpSource | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._fromUrl.internalValue = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._fromUrl.internalValue = value.fromUrl;
+    }
+  }
+
+  // from_url - computed: true, optional: true, required: false
+  private _fromUrl = new AgentregistryRegistryRecordDescriptorsHttpSourceFromUrlOutputReference(this, "from_url");
+  public get fromUrl() {
+    return this._fromUrl;
+  }
+  public putFromUrl(value: AgentregistryRegistryRecordDescriptorsHttpSourceFromUrl) {
+    this._fromUrl.internalValue = value;
+  }
+  public resetFromUrl() {
+    this._fromUrl.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fromUrlInput() {
+    return this._fromUrl.internalValue;
+  }
+}
+export interface AgentregistryRegistryRecordDescriptorsHttp {
+  /**
+  * Source configuration for a source-only descriptor. Unlike mcpServer/a2aAgentCard sources, source-only descriptors do not support credential providers.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/agentregistry_registry_record#source AgentregistryRegistryRecord#source}
+  */
+  readonly source?: AgentregistryRegistryRecordDescriptorsHttpSource;
+}
+
+export function agentregistryRegistryRecordDescriptorsHttpToTerraform(struct?: AgentregistryRegistryRecordDescriptorsHttp | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    source: agentregistryRegistryRecordDescriptorsHttpSourceToTerraform(struct!.source),
+  }
+}
+
+
+export function agentregistryRegistryRecordDescriptorsHttpToHclTerraform(struct?: AgentregistryRegistryRecordDescriptorsHttp | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    source: {
+      value: agentregistryRegistryRecordDescriptorsHttpSourceToHclTerraform(struct!.source),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "AgentregistryRegistryRecordDescriptorsHttpSource",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class AgentregistryRegistryRecordDescriptorsHttpOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): AgentregistryRegistryRecordDescriptorsHttp | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._source?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.source = this._source?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: AgentregistryRegistryRecordDescriptorsHttp | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._source.internalValue = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._source.internalValue = value.source;
+    }
+  }
+
+  // source - computed: true, optional: true, required: false
+  private _source = new AgentregistryRegistryRecordDescriptorsHttpSourceOutputReference(this, "source");
+  public get source() {
+    return this._source;
+  }
+  public putSource(value: AgentregistryRegistryRecordDescriptorsHttpSource) {
+    this._source.internalValue = value;
+  }
+  public resetSource() {
+    this._source.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sourceInput() {
+    return this._source.internalValue;
+  }
+}
 export interface AgentregistryRegistryRecordDescriptorsMcpServerAdditionalDataTools {
   /**
   * Descriptor payload data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/agentregistry_registry_record#data AgentregistryRegistryRecord#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/agentregistry_registry_record#data AgentregistryRegistryRecord#data}
   */
   readonly data?: string;
   /**
   * Version of the tools descriptor schema.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/agentregistry_registry_record#data_schema_version AgentregistryRegistryRecord#data_schema_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/agentregistry_registry_record#data_schema_version AgentregistryRegistryRecord#data_schema_version}
   */
   readonly dataSchemaVersion?: string;
 }
@@ -1952,7 +2528,7 @@ export interface AgentregistryRegistryRecordDescriptorsMcpServerAdditionalData {
   /**
   * The MCP tools descriptor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/agentregistry_registry_record#tools AgentregistryRegistryRecord#tools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/agentregistry_registry_record#tools AgentregistryRegistryRecord#tools}
   */
   readonly tools?: AgentregistryRegistryRecordDescriptorsMcpServerAdditionalDataTools;
 }
@@ -2048,19 +2624,19 @@ export interface AgentregistryRegistryRecordDescriptorsMcpServerSourceFromUrlCre
   /**
   * The SigV4 signing region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/agentregistry_registry_record#region AgentregistryRegistryRecord#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/agentregistry_registry_record#region AgentregistryRegistryRecord#region}
   */
   readonly region?: string;
   /**
   * The ARN of the IAM role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/agentregistry_registry_record#role_arn AgentregistryRegistryRecord#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/agentregistry_registry_record#role_arn AgentregistryRegistryRecord#role_arn}
   */
   readonly roleArn?: string;
   /**
   * The SigV4 signing service name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/agentregistry_registry_record#service AgentregistryRegistryRecord#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/agentregistry_registry_record#service AgentregistryRegistryRecord#service}
   */
   readonly service?: string;
 }
@@ -2214,23 +2790,23 @@ export interface AgentregistryRegistryRecordDescriptorsMcpServerSourceFromUrlCre
   /**
   * Additional custom parameters for the OAuth flow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/agentregistry_registry_record#custom_parameters AgentregistryRegistryRecord#custom_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/agentregistry_registry_record#custom_parameters AgentregistryRegistryRecord#custom_parameters}
   */
   readonly customParameters?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/agentregistry_registry_record#grant_type AgentregistryRegistryRecord#grant_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/agentregistry_registry_record#grant_type AgentregistryRegistryRecord#grant_type}
   */
   readonly grantType?: string;
   /**
   * The ARN of the OAuth credential provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/agentregistry_registry_record#provider_arn AgentregistryRegistryRecord#provider_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/agentregistry_registry_record#provider_arn AgentregistryRegistryRecord#provider_arn}
   */
   readonly providerArn?: string;
   /**
   * OAuth scopes to request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/agentregistry_registry_record#scopes AgentregistryRegistryRecord#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/agentregistry_registry_record#scopes AgentregistryRegistryRecord#scopes}
   */
   readonly scopes?: string[];
 }
@@ -2413,13 +2989,13 @@ export interface AgentregistryRegistryRecordDescriptorsMcpServerSourceFromUrlCre
   /**
   * IAM credential provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/agentregistry_registry_record#iam_credential_provider AgentregistryRegistryRecord#iam_credential_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/agentregistry_registry_record#iam_credential_provider AgentregistryRegistryRecord#iam_credential_provider}
   */
   readonly iamCredentialProvider?: AgentregistryRegistryRecordDescriptorsMcpServerSourceFromUrlCredentialProviderConfigurationsCredentialProviderIamCredentialProvider;
   /**
   * OAuth credential provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/agentregistry_registry_record#oauth_credential_provider AgentregistryRegistryRecord#oauth_credential_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/agentregistry_registry_record#oauth_credential_provider AgentregistryRegistryRecord#oauth_credential_provider}
   */
   readonly oauthCredentialProvider?: AgentregistryRegistryRecordDescriptorsMcpServerSourceFromUrlCredentialProviderConfigurationsCredentialProviderOauthCredentialProvider;
 }
@@ -2544,11 +3120,11 @@ export interface AgentregistryRegistryRecordDescriptorsMcpServerSourceFromUrlCre
   /**
   * The credential provider details. Specify exactly one member.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/agentregistry_registry_record#credential_provider AgentregistryRegistryRecord#credential_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/agentregistry_registry_record#credential_provider AgentregistryRegistryRecord#credential_provider}
   */
   readonly credentialProvider?: AgentregistryRegistryRecordDescriptorsMcpServerSourceFromUrlCredentialProviderConfigurationsCredentialProvider;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/agentregistry_registry_record#credential_provider_type AgentregistryRegistryRecord#credential_provider_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/agentregistry_registry_record#credential_provider_type AgentregistryRegistryRecord#credential_provider_type}
   */
   readonly credentialProviderType?: string;
 }
@@ -2695,13 +3271,13 @@ export interface AgentregistryRegistryRecordDescriptorsMcpServerSourceFromUrl {
   /**
   * The credential providers used to authenticate when fetching descriptor content from the source URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/agentregistry_registry_record#credential_provider_configurations AgentregistryRegistryRecord#credential_provider_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/agentregistry_registry_record#credential_provider_configurations AgentregistryRegistryRecord#credential_provider_configurations}
   */
   readonly credentialProviderConfigurations?: AgentregistryRegistryRecordDescriptorsMcpServerSourceFromUrlCredentialProviderConfigurations[] | cdktn.IResolvable;
   /**
   * URL source for descriptor content.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/agentregistry_registry_record#url AgentregistryRegistryRecord#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/agentregistry_registry_record#url AgentregistryRegistryRecord#url}
   */
   readonly url?: string;
 }
@@ -2826,7 +3402,7 @@ export interface AgentregistryRegistryRecordDescriptorsMcpServerSource {
   /**
   * URL-based descriptor source configuration, with credential provider configurations for authenticated URL retrieval.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/agentregistry_registry_record#from_url AgentregistryRegistryRecord#from_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/agentregistry_registry_record#from_url AgentregistryRegistryRecord#from_url}
   */
   readonly fromUrl?: AgentregistryRegistryRecordDescriptorsMcpServerSourceFromUrl;
 }
@@ -2922,25 +3498,25 @@ export interface AgentregistryRegistryRecordDescriptorsMcpServer {
   /**
   * Additional data associated with an MCP server descriptor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/agentregistry_registry_record#additional_data AgentregistryRegistryRecord#additional_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/agentregistry_registry_record#additional_data AgentregistryRegistryRecord#additional_data}
   */
   readonly additionalData?: AgentregistryRegistryRecordDescriptorsMcpServerAdditionalData;
   /**
   * Descriptor payload data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/agentregistry_registry_record#data AgentregistryRegistryRecord#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/agentregistry_registry_record#data AgentregistryRegistryRecord#data}
   */
   readonly data?: string;
   /**
   * Version of the descriptor type schema.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/agentregistry_registry_record#data_schema_version AgentregistryRegistryRecord#data_schema_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/agentregistry_registry_record#data_schema_version AgentregistryRegistryRecord#data_schema_version}
   */
   readonly dataSchemaVersion?: string;
   /**
   * The source configuration that defines where descriptor content is retrieved from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/agentregistry_registry_record#source AgentregistryRegistryRecord#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/agentregistry_registry_record#source AgentregistryRegistryRecord#source}
   */
   readonly source?: AgentregistryRegistryRecordDescriptorsMcpServerSource;
 }
@@ -3123,25 +3699,37 @@ export interface AgentregistryRegistryRecordDescriptors {
   /**
   * The A2A agent card descriptor, populated when the record type is AGENT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/agentregistry_registry_record#a2_a_agent_card AgentregistryRegistryRecord#a2_a_agent_card}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/agentregistry_registry_record#a2_a_agent_card AgentregistryRegistryRecord#a2_a_agent_card}
   */
   readonly a2AAgentCard?: AgentregistryRegistryRecordDescriptorsA2AAgentCard;
   /**
   * The agent skills definition descriptor, populated when the record type is SKILL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/agentregistry_registry_record#agent_skills_definition AgentregistryRegistryRecord#agent_skills_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/agentregistry_registry_record#agent_skills_definition AgentregistryRegistryRecord#agent_skills_definition}
   */
   readonly agentSkillsDefinition?: AgentregistryRegistryRecordDescriptorsAgentSkillsDefinition;
   /**
+  * The AG-UI (Agent-User Interaction) descriptor, populated for records detected from an AG-UI protocol source. This descriptor is source-only: its content is synchronized from the configured source URL rather than supplied inline.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/agentregistry_registry_record#agui AgentregistryRegistryRecord#agui}
+  */
+  readonly agui?: AgentregistryRegistryRecordDescriptorsAgui;
+  /**
   * The custom descriptor, populated when the record type is CUSTOM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/agentregistry_registry_record#custom AgentregistryRegistryRecord#custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/agentregistry_registry_record#custom AgentregistryRegistryRecord#custom}
   */
   readonly custom?: AgentregistryRegistryRecordDescriptorsCustom;
   /**
+  * The HTTP descriptor, populated for records detected from an HTTP protocol source. This descriptor is source-only: its content is synchronized from the configured source URL rather than supplied inline.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/agentregistry_registry_record#http AgentregistryRegistryRecord#http}
+  */
+  readonly http?: AgentregistryRegistryRecordDescriptorsHttp;
+  /**
   * The MCP server descriptor, populated when the record type is MCP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/agentregistry_registry_record#mcp_server AgentregistryRegistryRecord#mcp_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/agentregistry_registry_record#mcp_server AgentregistryRegistryRecord#mcp_server}
   */
   readonly mcpServer?: AgentregistryRegistryRecordDescriptorsMcpServer;
 }
@@ -3154,7 +3742,9 @@ export function agentregistryRegistryRecordDescriptorsToTerraform(struct?: Agent
   return {
     a2_a_agent_card: agentregistryRegistryRecordDescriptorsA2AAgentCardToTerraform(struct!.a2AAgentCard),
     agent_skills_definition: agentregistryRegistryRecordDescriptorsAgentSkillsDefinitionToTerraform(struct!.agentSkillsDefinition),
+    agui: agentregistryRegistryRecordDescriptorsAguiToTerraform(struct!.agui),
     custom: agentregistryRegistryRecordDescriptorsCustomToTerraform(struct!.custom),
+    http: agentregistryRegistryRecordDescriptorsHttpToTerraform(struct!.http),
     mcp_server: agentregistryRegistryRecordDescriptorsMcpServerToTerraform(struct!.mcpServer),
   }
 }
@@ -3178,11 +3768,23 @@ export function agentregistryRegistryRecordDescriptorsToHclTerraform(struct?: Ag
       type: "struct",
       storageClassType: "AgentregistryRegistryRecordDescriptorsAgentSkillsDefinition",
     },
+    agui: {
+      value: agentregistryRegistryRecordDescriptorsAguiToHclTerraform(struct!.agui),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "AgentregistryRegistryRecordDescriptorsAgui",
+    },
     custom: {
       value: agentregistryRegistryRecordDescriptorsCustomToHclTerraform(struct!.custom),
       isBlock: true,
       type: "struct",
       storageClassType: "AgentregistryRegistryRecordDescriptorsCustom",
+    },
+    http: {
+      value: agentregistryRegistryRecordDescriptorsHttpToHclTerraform(struct!.http),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "AgentregistryRegistryRecordDescriptorsHttp",
     },
     mcp_server: {
       value: agentregistryRegistryRecordDescriptorsMcpServerToHclTerraform(struct!.mcpServer),
@@ -3222,9 +3824,17 @@ export class AgentregistryRegistryRecordDescriptorsOutputReference extends cdktn
       hasAnyValues = true;
       internalValueResult.agentSkillsDefinition = this._agentSkillsDefinition?.internalValue;
     }
+    if (this._agui?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.agui = this._agui?.internalValue;
+    }
     if (this._custom?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.custom = this._custom?.internalValue;
+    }
+    if (this._http?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.http = this._http?.internalValue;
     }
     if (this._mcpServer?.internalValue !== undefined) {
       hasAnyValues = true;
@@ -3239,7 +3849,9 @@ export class AgentregistryRegistryRecordDescriptorsOutputReference extends cdktn
       this.resolvableValue = undefined;
       this._a2AAgentCard.internalValue = undefined;
       this._agentSkillsDefinition.internalValue = undefined;
+      this._agui.internalValue = undefined;
       this._custom.internalValue = undefined;
+      this._http.internalValue = undefined;
       this._mcpServer.internalValue = undefined;
     }
     else if (cdktn.Tokenization.isResolvable(value)) {
@@ -3251,7 +3863,9 @@ export class AgentregistryRegistryRecordDescriptorsOutputReference extends cdktn
       this.resolvableValue = undefined;
       this._a2AAgentCard.internalValue = value.a2AAgentCard;
       this._agentSkillsDefinition.internalValue = value.agentSkillsDefinition;
+      this._agui.internalValue = value.agui;
       this._custom.internalValue = value.custom;
+      this._http.internalValue = value.http;
       this._mcpServer.internalValue = value.mcpServer;
     }
   }
@@ -3288,6 +3902,22 @@ export class AgentregistryRegistryRecordDescriptorsOutputReference extends cdktn
     return this._agentSkillsDefinition.internalValue;
   }
 
+  // agui - computed: true, optional: true, required: false
+  private _agui = new AgentregistryRegistryRecordDescriptorsAguiOutputReference(this, "agui");
+  public get agui() {
+    return this._agui;
+  }
+  public putAgui(value: AgentregistryRegistryRecordDescriptorsAgui) {
+    this._agui.internalValue = value;
+  }
+  public resetAgui() {
+    this._agui.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get aguiInput() {
+    return this._agui.internalValue;
+  }
+
   // custom - computed: true, optional: true, required: false
   private _custom = new AgentregistryRegistryRecordDescriptorsCustomOutputReference(this, "custom");
   public get custom() {
@@ -3302,6 +3932,22 @@ export class AgentregistryRegistryRecordDescriptorsOutputReference extends cdktn
   // Temporarily expose input value. Use with caution.
   public get customInput() {
     return this._custom.internalValue;
+  }
+
+  // http - computed: true, optional: true, required: false
+  private _http = new AgentregistryRegistryRecordDescriptorsHttpOutputReference(this, "http");
+  public get http() {
+    return this._http;
+  }
+  public putHttp(value: AgentregistryRegistryRecordDescriptorsHttp) {
+    this._http.internalValue = value;
+  }
+  public resetHttp() {
+    this._http.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get httpInput() {
+    return this._http.internalValue;
   }
 
   // mcp_server - computed: true, optional: true, required: false
@@ -3324,13 +3970,13 @@ export interface AgentregistryRegistryRecordTags {
   /**
   * The key of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/agentregistry_registry_record#key AgentregistryRegistryRecord#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/agentregistry_registry_record#key AgentregistryRegistryRecord#key}
   */
   readonly key?: string;
   /**
   * The value of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/agentregistry_registry_record#value AgentregistryRegistryRecord#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/agentregistry_registry_record#value AgentregistryRegistryRecord#value}
   */
   readonly value?: string;
 }
@@ -3475,7 +4121,7 @@ export class AgentregistryRegistryRecordTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/agentregistry_registry_record awscc_agentregistry_registry_record}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/agentregistry_registry_record awscc_agentregistry_registry_record}
 */
 export class AgentregistryRegistryRecord extends cdktn.TerraformResource {
 
@@ -3491,7 +4137,7 @@ export class AgentregistryRegistryRecord extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a AgentregistryRegistryRecord resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AgentregistryRegistryRecord to import
-  * @param importFromId The id of the existing AgentregistryRegistryRecord that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/agentregistry_registry_record#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AgentregistryRegistryRecord that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/agentregistry_registry_record#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AgentregistryRegistryRecord to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -3503,7 +4149,7 @@ export class AgentregistryRegistryRecord extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/agentregistry_registry_record awscc_agentregistry_registry_record} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/agentregistry_registry_record awscc_agentregistry_registry_record} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3514,7 +4160,7 @@ export class AgentregistryRegistryRecord extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_agentregistry_registry_record',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.100.0',
+        providerVersion: '1.101.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -3542,6 +4188,11 @@ export class AgentregistryRegistryRecord extends cdktn.TerraformResource {
   // created_at - computed: true, optional: false, required: false
   public get createdAt() {
     return this.getStringAttribute('created_at');
+  }
+
+  // created_by - computed: true, optional: false, required: false
+  public get createdBy() {
+    return this.getStringAttribute('created_by');
   }
 
   // description - computed: true, optional: true, required: false

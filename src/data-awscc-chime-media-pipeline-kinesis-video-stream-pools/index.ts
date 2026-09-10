@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/chime_media_pipeline_kinesis_video_stream_pools
+// https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/chime_media_pipeline_kinesis_video_stream_pools
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccChimeMediaPipelineKinesisVideoStreamPoolsConfig extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/chime_media_pipeline_kinesis_video_stream_pools awscc_chime_media_pipeline_kinesis_video_stream_pools}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/chime_media_pipeline_kinesis_video_stream_pools awscc_chime_media_pipeline_kinesis_video_stream_pools}
 */
 export class DataAwsccChimeMediaPipelineKinesisVideoStreamPools extends cdktn.TerraformDataSource {
 
@@ -31,7 +31,7 @@ export class DataAwsccChimeMediaPipelineKinesisVideoStreamPools extends cdktn.Te
   * Generates CDKTN code for importing a DataAwsccChimeMediaPipelineKinesisVideoStreamPools resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccChimeMediaPipelineKinesisVideoStreamPools to import
-  * @param importFromId The id of the existing DataAwsccChimeMediaPipelineKinesisVideoStreamPools that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/chime_media_pipeline_kinesis_video_stream_pools#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccChimeMediaPipelineKinesisVideoStreamPools that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/chime_media_pipeline_kinesis_video_stream_pools#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccChimeMediaPipelineKinesisVideoStreamPools to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -43,7 +43,7 @@ export class DataAwsccChimeMediaPipelineKinesisVideoStreamPools extends cdktn.Te
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/chime_media_pipeline_kinesis_video_stream_pools awscc_chime_media_pipeline_kinesis_video_stream_pools} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/chime_media_pipeline_kinesis_video_stream_pools awscc_chime_media_pipeline_kinesis_video_stream_pools} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -54,7 +54,7 @@ export class DataAwsccChimeMediaPipelineKinesisVideoStreamPools extends cdktn.Te
       terraformResourceType: 'awscc_chime_media_pipeline_kinesis_video_stream_pools',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.100.0',
+        providerVersion: '1.101.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
