@@ -4,7 +4,7 @@
 
 ### DataAwsccFsxVolumes <a name="DataAwsccFsxVolumes" id="@cdktn/provider-awscc.dataAwsccFsxVolumes.DataAwsccFsxVolumes"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/fsx_volumes awscc_fsx_volumes}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/fsx_volumes awscc_fsx_volumes}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFsxVolumes.DataAwsccFsxVolumes.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccFsxVolumes to imp
 
 The id of the existing DataAwsccFsxVolumes that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/fsx_volumes#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/fsx_volumes#import import section} in the documentation of this resource for the id to use
 
 ---
 

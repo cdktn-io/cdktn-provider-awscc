@@ -4,7 +4,7 @@
 
 ### DataAwsccChimeMediaPipelineKinesisVideoStreamPools <a name="DataAwsccChimeMediaPipelineKinesisVideoStreamPools" id="@cdktn/provider-awscc.dataAwsccChimeMediaPipelineKinesisVideoStreamPools.DataAwsccChimeMediaPipelineKinesisVideoStreamPools"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/chime_media_pipeline_kinesis_video_stream_pools awscc_chime_media_pipeline_kinesis_video_stream_pools}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/chime_media_pipeline_kinesis_video_stream_pools awscc_chime_media_pipeline_kinesis_video_stream_pools}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccChimeMediaPipelineKinesisVideoStreamPools.DataAwsccChimeMediaPipelineKinesisVideoStreamPools.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccChimeMediaPipelin
 
 The id of the existing DataAwsccChimeMediaPipelineKinesisVideoStreamPools that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/chime_media_pipeline_kinesis_video_stream_pools#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/chime_media_pipeline_kinesis_video_stream_pools#import import section} in the documentation of this resource for the id to use
 
 ---
 

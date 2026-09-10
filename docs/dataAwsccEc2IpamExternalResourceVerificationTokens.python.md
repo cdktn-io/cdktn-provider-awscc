@@ -4,7 +4,7 @@
 
 ### DataAwsccEc2IpamExternalResourceVerificationTokens <a name="DataAwsccEc2IpamExternalResourceVerificationTokens" id="@cdktn/provider-awscc.dataAwsccEc2IpamExternalResourceVerificationTokens.DataAwsccEc2IpamExternalResourceVerificationTokens"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_ipam_external_resource_verification_tokens awscc_ec2_ipam_external_resource_verification_tokens}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ec2_ipam_external_resource_verification_tokens awscc_ec2_ipam_external_resource_verification_tokens}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2IpamExternalResourceVerificationTokens.DataAwsccEc2IpamExternalResourceVerificationTokens.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccEc2IpamExternalRe
 
 The id of the existing DataAwsccEc2IpamExternalResourceVerificationTokens that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_ipam_external_resource_verification_tokens#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ec2_ipam_external_resource_verification_tokens#import import section} in the documentation of this resource for the id to use
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### DataAwsccPricingplanmanagerSubscriptions <a name="DataAwsccPricingplanmanagerSubscriptions" id="@cdktn/provider-awscc.dataAwsccPricingplanmanagerSubscriptions.DataAwsccPricingplanmanagerSubscriptions"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/pricingplanmanager_subscriptions awscc_pricingplanmanager_subscriptions}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/pricingplanmanager_subscriptions awscc_pricingplanmanager_subscriptions}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPricingplanmanagerSubscriptions.DataAwsccPricingplanmanagerSubscriptions.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccPricingplanmanage
 
 The id of the existing DataAwsccPricingplanmanagerSubscriptions that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/pricingplanmanager_subscriptions#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/pricingplanmanager_subscriptions#import import section} in the documentation of this resource for the id to use
 
 ---
 
