@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet
+// https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,73 +13,73 @@ import * as cdktn from 'cdktn';
 
 export interface Ec2Ec2FleetConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#context Ec2Ec2Fleet#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#context Ec2Ec2Fleet#context}
   */
   readonly context?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#excess_capacity_termination_policy Ec2Ec2Fleet#excess_capacity_termination_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#excess_capacity_termination_policy Ec2Ec2Fleet#excess_capacity_termination_policy}
   */
   readonly excessCapacityTerminationPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#launch_template_configs Ec2Ec2Fleet#launch_template_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#launch_template_configs Ec2Ec2Fleet#launch_template_configs}
   */
   readonly launchTemplateConfigs: Ec2Ec2FleetLaunchTemplateConfigs[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#on_demand_options Ec2Ec2Fleet#on_demand_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#on_demand_options Ec2Ec2Fleet#on_demand_options}
   */
   readonly onDemandOptions?: Ec2Ec2FleetOnDemandOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#replace_unhealthy_instances Ec2Ec2Fleet#replace_unhealthy_instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#replace_unhealthy_instances Ec2Ec2Fleet#replace_unhealthy_instances}
   */
   readonly replaceUnhealthyInstances?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#reserved_capacity_options Ec2Ec2Fleet#reserved_capacity_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#reserved_capacity_options Ec2Ec2Fleet#reserved_capacity_options}
   */
   readonly reservedCapacityOptions?: Ec2Ec2FleetReservedCapacityOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#spot_options Ec2Ec2Fleet#spot_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#spot_options Ec2Ec2Fleet#spot_options}
   */
   readonly spotOptions?: Ec2Ec2FleetSpotOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#tag_specifications Ec2Ec2Fleet#tag_specifications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#tag_specifications Ec2Ec2Fleet#tag_specifications}
   */
   readonly tagSpecifications?: Ec2Ec2FleetTagSpecifications[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#target_capacity_specification Ec2Ec2Fleet#target_capacity_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#target_capacity_specification Ec2Ec2Fleet#target_capacity_specification}
   */
   readonly targetCapacitySpecification: Ec2Ec2FleetTargetCapacitySpecification;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#terminate_instances_with_expiration Ec2Ec2Fleet#terminate_instances_with_expiration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#terminate_instances_with_expiration Ec2Ec2Fleet#terminate_instances_with_expiration}
   */
   readonly terminateInstancesWithExpiration?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#type Ec2Ec2Fleet#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#type Ec2Ec2Fleet#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#valid_from Ec2Ec2Fleet#valid_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#valid_from Ec2Ec2Fleet#valid_from}
   */
   readonly validFrom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#valid_until Ec2Ec2Fleet#valid_until}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#valid_until Ec2Ec2Fleet#valid_until}
   */
   readonly validUntil?: string;
 }
 export interface Ec2Ec2FleetLaunchTemplateConfigsLaunchTemplateSpecification {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#launch_template_id Ec2Ec2Fleet#launch_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#launch_template_id Ec2Ec2Fleet#launch_template_id}
   */
   readonly launchTemplateId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#launch_template_name Ec2Ec2Fleet#launch_template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#launch_template_name Ec2Ec2Fleet#launch_template_name}
   */
   readonly launchTemplateName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#launch_template_specification_user_data Ec2Ec2Fleet#launch_template_specification_user_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#launch_template_specification_user_data Ec2Ec2Fleet#launch_template_specification_user_data}
   */
   readonly launchTemplateSpecificationUserData?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#version Ec2Ec2Fleet#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#version Ec2Ec2Fleet#version}
   */
   readonly version?: string;
 }
@@ -258,33 +258,313 @@ export class Ec2Ec2FleetLaunchTemplateConfigsLaunchTemplateSpecificationOutputRe
     return this._version;
   }
 }
+export interface Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsEbsMultiAvailabilityZoneConfigurationStandbyAvailabilityZones {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#availability_zone Ec2Ec2Fleet#availability_zone}
+  */
+  readonly availabilityZone?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#availability_zone_id Ec2Ec2Fleet#availability_zone_id}
+  */
+  readonly availabilityZoneId?: string;
+}
+
+export function ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsEbsMultiAvailabilityZoneConfigurationStandbyAvailabilityZonesToTerraform(struct?: Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsEbsMultiAvailabilityZoneConfigurationStandbyAvailabilityZones | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    availability_zone: cdktn.stringToTerraform(struct!.availabilityZone),
+    availability_zone_id: cdktn.stringToTerraform(struct!.availabilityZoneId),
+  }
+}
+
+
+export function ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsEbsMultiAvailabilityZoneConfigurationStandbyAvailabilityZonesToHclTerraform(struct?: Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsEbsMultiAvailabilityZoneConfigurationStandbyAvailabilityZones | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    availability_zone: {
+      value: cdktn.stringToHclTerraform(struct!.availabilityZone),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    availability_zone_id: {
+      value: cdktn.stringToHclTerraform(struct!.availabilityZoneId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsEbsMultiAvailabilityZoneConfigurationStandbyAvailabilityZonesOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsEbsMultiAvailabilityZoneConfigurationStandbyAvailabilityZones | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._availabilityZone !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.availabilityZone = this._availabilityZone;
+    }
+    if (this._availabilityZoneId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.availabilityZoneId = this._availabilityZoneId;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsEbsMultiAvailabilityZoneConfigurationStandbyAvailabilityZones | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._availabilityZone = undefined;
+      this._availabilityZoneId = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._availabilityZone = value.availabilityZone;
+      this._availabilityZoneId = value.availabilityZoneId;
+    }
+  }
+
+  // availability_zone - computed: true, optional: true, required: false
+  private _availabilityZone?: string; 
+  public get availabilityZone() {
+    return this.getStringAttribute('availability_zone');
+  }
+  public set availabilityZone(value: string) {
+    this._availabilityZone = value;
+  }
+  public resetAvailabilityZone() {
+    this._availabilityZone = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get availabilityZoneInput() {
+    return this._availabilityZone;
+  }
+
+  // availability_zone_id - computed: true, optional: true, required: false
+  private _availabilityZoneId?: string; 
+  public get availabilityZoneId() {
+    return this.getStringAttribute('availability_zone_id');
+  }
+  public set availabilityZoneId(value: string) {
+    this._availabilityZoneId = value;
+  }
+  public resetAvailabilityZoneId() {
+    this._availabilityZoneId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get availabilityZoneIdInput() {
+    return this._availabilityZoneId;
+  }
+}
+
+export class Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsEbsMultiAvailabilityZoneConfigurationStandbyAvailabilityZonesList extends cdktn.ComplexList {
+  public internalValue? : Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsEbsMultiAvailabilityZoneConfigurationStandbyAvailabilityZones[] | cdktn.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsEbsMultiAvailabilityZoneConfigurationStandbyAvailabilityZonesOutputReference {
+    return new Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsEbsMultiAvailabilityZoneConfigurationStandbyAvailabilityZonesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsEbsMultiAvailabilityZoneConfiguration {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#configuration_type Ec2Ec2Fleet#configuration_type}
+  */
+  readonly configurationType?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#standby_availability_zones Ec2Ec2Fleet#standby_availability_zones}
+  */
+  readonly standbyAvailabilityZones?: Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsEbsMultiAvailabilityZoneConfigurationStandbyAvailabilityZones[] | cdktn.IResolvable;
+}
+
+export function ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsEbsMultiAvailabilityZoneConfigurationToTerraform(struct?: Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsEbsMultiAvailabilityZoneConfiguration | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    configuration_type: cdktn.stringToTerraform(struct!.configurationType),
+    standby_availability_zones: cdktn.listMapper(ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsEbsMultiAvailabilityZoneConfigurationStandbyAvailabilityZonesToTerraform, false)(struct!.standbyAvailabilityZones),
+  }
+}
+
+
+export function ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsEbsMultiAvailabilityZoneConfigurationToHclTerraform(struct?: Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsEbsMultiAvailabilityZoneConfiguration | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    configuration_type: {
+      value: cdktn.stringToHclTerraform(struct!.configurationType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    standby_availability_zones: {
+      value: cdktn.listMapperHcl(ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsEbsMultiAvailabilityZoneConfigurationStandbyAvailabilityZonesToHclTerraform, false)(struct!.standbyAvailabilityZones),
+      isBlock: true,
+      type: "list",
+      storageClassType: "Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsEbsMultiAvailabilityZoneConfigurationStandbyAvailabilityZonesList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsEbsMultiAvailabilityZoneConfigurationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsEbsMultiAvailabilityZoneConfiguration | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._configurationType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.configurationType = this._configurationType;
+    }
+    if (this._standbyAvailabilityZones?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.standbyAvailabilityZones = this._standbyAvailabilityZones?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsEbsMultiAvailabilityZoneConfiguration | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._configurationType = undefined;
+      this._standbyAvailabilityZones.internalValue = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._configurationType = value.configurationType;
+      this._standbyAvailabilityZones.internalValue = value.standbyAvailabilityZones;
+    }
+  }
+
+  // configuration_type - computed: true, optional: true, required: false
+  private _configurationType?: string; 
+  public get configurationType() {
+    return this.getStringAttribute('configuration_type');
+  }
+  public set configurationType(value: string) {
+    this._configurationType = value;
+  }
+  public resetConfigurationType() {
+    this._configurationType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get configurationTypeInput() {
+    return this._configurationType;
+  }
+
+  // standby_availability_zones - computed: true, optional: true, required: false
+  private _standbyAvailabilityZones = new Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsEbsMultiAvailabilityZoneConfigurationStandbyAvailabilityZonesList(this, "standby_availability_zones", false);
+  public get standbyAvailabilityZones() {
+    return this._standbyAvailabilityZones;
+  }
+  public putStandbyAvailabilityZones(value: Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsEbsMultiAvailabilityZoneConfigurationStandbyAvailabilityZones[] | cdktn.IResolvable) {
+    this._standbyAvailabilityZones.internalValue = value;
+  }
+  public resetStandbyAvailabilityZones() {
+    this._standbyAvailabilityZones.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get standbyAvailabilityZonesInput() {
+    return this._standbyAvailabilityZones.internalValue;
+  }
+}
 export interface Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsEbs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#delete_on_termination Ec2Ec2Fleet#delete_on_termination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#delete_on_termination Ec2Ec2Fleet#delete_on_termination}
   */
   readonly deleteOnTermination?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#encrypted Ec2Ec2Fleet#encrypted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#encrypted Ec2Ec2Fleet#encrypted}
   */
   readonly encrypted?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#iops Ec2Ec2Fleet#iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#iops Ec2Ec2Fleet#iops}
   */
   readonly iops?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#kms_key_id Ec2Ec2Fleet#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#kms_key_id Ec2Ec2Fleet#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#snapshot_id Ec2Ec2Fleet#snapshot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#multi_availability_zone_configuration Ec2Ec2Fleet#multi_availability_zone_configuration}
+  */
+  readonly multiAvailabilityZoneConfiguration?: Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsEbsMultiAvailabilityZoneConfiguration;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#snapshot_id Ec2Ec2Fleet#snapshot_id}
   */
   readonly snapshotId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#volume_size Ec2Ec2Fleet#volume_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#volume_size Ec2Ec2Fleet#volume_size}
   */
   readonly volumeSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#volume_type Ec2Ec2Fleet#volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#volume_type Ec2Ec2Fleet#volume_type}
   */
   readonly volumeType?: string;
 }
@@ -299,6 +579,7 @@ export function ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsEbsT
     encrypted: cdktn.booleanToTerraform(struct!.encrypted),
     iops: cdktn.numberToTerraform(struct!.iops),
     kms_key_id: cdktn.stringToTerraform(struct!.kmsKeyId),
+    multi_availability_zone_configuration: ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsEbsMultiAvailabilityZoneConfigurationToTerraform(struct!.multiAvailabilityZoneConfiguration),
     snapshot_id: cdktn.stringToTerraform(struct!.snapshotId),
     volume_size: cdktn.numberToTerraform(struct!.volumeSize),
     volume_type: cdktn.stringToTerraform(struct!.volumeType),
@@ -335,6 +616,12 @@ export function ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsEbsT
       isBlock: false,
       type: "simple",
       storageClassType: "string",
+    },
+    multi_availability_zone_configuration: {
+      value: ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsEbsMultiAvailabilityZoneConfigurationToHclTerraform(struct!.multiAvailabilityZoneConfiguration),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsEbsMultiAvailabilityZoneConfiguration",
     },
     snapshot_id: {
       value: cdktn.stringToHclTerraform(struct!.snapshotId),
@@ -394,6 +681,10 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsEbsOutp
       hasAnyValues = true;
       internalValueResult.kmsKeyId = this._kmsKeyId;
     }
+    if (this._multiAvailabilityZoneConfiguration?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.multiAvailabilityZoneConfiguration = this._multiAvailabilityZoneConfiguration?.internalValue;
+    }
     if (this._snapshotId !== undefined) {
       hasAnyValues = true;
       internalValueResult.snapshotId = this._snapshotId;
@@ -417,6 +708,7 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsEbsOutp
       this._encrypted = undefined;
       this._iops = undefined;
       this._kmsKeyId = undefined;
+      this._multiAvailabilityZoneConfiguration.internalValue = undefined;
       this._snapshotId = undefined;
       this._volumeSize = undefined;
       this._volumeType = undefined;
@@ -432,6 +724,7 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsEbsOutp
       this._encrypted = value.encrypted;
       this._iops = value.iops;
       this._kmsKeyId = value.kmsKeyId;
+      this._multiAvailabilityZoneConfiguration.internalValue = value.multiAvailabilityZoneConfiguration;
       this._snapshotId = value.snapshotId;
       this._volumeSize = value.volumeSize;
       this._volumeType = value.volumeType;
@@ -502,6 +795,22 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsEbsOutp
     return this._kmsKeyId;
   }
 
+  // multi_availability_zone_configuration - computed: true, optional: true, required: false
+  private _multiAvailabilityZoneConfiguration = new Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsEbsMultiAvailabilityZoneConfigurationOutputReference(this, "multi_availability_zone_configuration");
+  public get multiAvailabilityZoneConfiguration() {
+    return this._multiAvailabilityZoneConfiguration;
+  }
+  public putMultiAvailabilityZoneConfiguration(value: Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsEbsMultiAvailabilityZoneConfiguration) {
+    this._multiAvailabilityZoneConfiguration.internalValue = value;
+  }
+  public resetMultiAvailabilityZoneConfiguration() {
+    this._multiAvailabilityZoneConfiguration.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get multiAvailabilityZoneConfigurationInput() {
+    return this._multiAvailabilityZoneConfiguration.internalValue;
+  }
+
   // snapshot_id - computed: true, optional: true, required: false
   private _snapshotId?: string; 
   public get snapshotId() {
@@ -552,19 +861,19 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsEbsOutp
 }
 export interface Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#device_name Ec2Ec2Fleet#device_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#device_name Ec2Ec2Fleet#device_name}
   */
   readonly deviceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#ebs Ec2Ec2Fleet#ebs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#ebs Ec2Ec2Fleet#ebs}
   */
   readonly ebs?: Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsEbs;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#no_device Ec2Ec2Fleet#no_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#no_device Ec2Ec2Fleet#no_device}
   */
   readonly noDevice?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#virtual_name Ec2Ec2Fleet#virtual_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#virtual_name Ec2Ec2Fleet#virtual_name}
   */
   readonly virtualName?: string;
 }
@@ -767,11 +1076,11 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsList ex
 }
 export interface Ec2Ec2FleetLaunchTemplateConfigsOverridesIamInstanceProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#arn Ec2Ec2Fleet#arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#arn Ec2Ec2Fleet#arn}
   */
   readonly arn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#name Ec2Ec2Fleet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#name Ec2Ec2Fleet#name}
   */
   readonly name?: string;
 }
@@ -894,11 +1203,11 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesIamInstanceProfileOutputRe
 }
 export interface Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsAcceleratorCount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#max Ec2Ec2Fleet#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#max Ec2Ec2Fleet#max}
   */
   readonly max?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#min Ec2Ec2Fleet#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#min Ec2Ec2Fleet#min}
   */
   readonly min?: number;
 }
@@ -1021,11 +1330,11 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsAccele
 }
 export interface Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsAcceleratorTotalMemoryMiB {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#max Ec2Ec2Fleet#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#max Ec2Ec2Fleet#max}
   */
   readonly max?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#min Ec2Ec2Fleet#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#min Ec2Ec2Fleet#min}
   */
   readonly min?: number;
 }
@@ -1148,11 +1457,11 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsAccele
 }
 export interface Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsBaselineEbsBandwidthMbps {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#max Ec2Ec2Fleet#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#max Ec2Ec2Fleet#max}
   */
   readonly max?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#min Ec2Ec2Fleet#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#min Ec2Ec2Fleet#min}
   */
   readonly min?: number;
 }
@@ -1275,7 +1584,7 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsBaseli
 }
 export interface Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsBaselinePerformanceFactorsCpuReferences {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#instance_family Ec2Ec2Fleet#instance_family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#instance_family Ec2Ec2Fleet#instance_family}
   */
   readonly instanceFamily?: string;
 }
@@ -1391,7 +1700,7 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsBaseli
 }
 export interface Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsBaselinePerformanceFactorsCpu {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#references Ec2Ec2Fleet#references}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#references Ec2Ec2Fleet#references}
   */
   readonly references?: Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsBaselinePerformanceFactorsCpuReferences[] | cdktn.IResolvable;
 }
@@ -1485,7 +1794,7 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsBaseli
 }
 export interface Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsBaselinePerformanceFactors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#cpu Ec2Ec2Fleet#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#cpu Ec2Ec2Fleet#cpu}
   */
   readonly cpu?: Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsBaselinePerformanceFactorsCpu;
 }
@@ -1579,11 +1888,11 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsBaseli
 }
 export interface Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsMemoryGiBPerVCpu {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#max Ec2Ec2Fleet#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#max Ec2Ec2Fleet#max}
   */
   readonly max?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#min Ec2Ec2Fleet#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#min Ec2Ec2Fleet#min}
   */
   readonly min?: number;
 }
@@ -1706,11 +2015,11 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsMemory
 }
 export interface Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsMemoryMiB {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#max Ec2Ec2Fleet#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#max Ec2Ec2Fleet#max}
   */
   readonly max?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#min Ec2Ec2Fleet#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#min Ec2Ec2Fleet#min}
   */
   readonly min?: number;
 }
@@ -1833,11 +2142,11 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsMemory
 }
 export interface Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsNetworkBandwidthGbps {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#max Ec2Ec2Fleet#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#max Ec2Ec2Fleet#max}
   */
   readonly max?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#min Ec2Ec2Fleet#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#min Ec2Ec2Fleet#min}
   */
   readonly min?: number;
 }
@@ -1960,11 +2269,11 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsNetwor
 }
 export interface Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsNetworkInterfaceCount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#max Ec2Ec2Fleet#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#max Ec2Ec2Fleet#max}
   */
   readonly max?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#min Ec2Ec2Fleet#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#min Ec2Ec2Fleet#min}
   */
   readonly min?: number;
 }
@@ -2087,11 +2396,11 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsNetwor
 }
 export interface Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsTotalLocalStorageGb {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#max Ec2Ec2Fleet#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#max Ec2Ec2Fleet#max}
   */
   readonly max?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#min Ec2Ec2Fleet#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#min Ec2Ec2Fleet#min}
   */
   readonly min?: number;
 }
@@ -2214,11 +2523,11 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsTotalL
 }
 export interface Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsVCpuCount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#max Ec2Ec2Fleet#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#max Ec2Ec2Fleet#max}
   */
   readonly max?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#min Ec2Ec2Fleet#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#min Ec2Ec2Fleet#min}
   */
   readonly min?: number;
 }
@@ -2341,107 +2650,107 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsVCpuCo
 }
 export interface Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirements {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#accelerator_count Ec2Ec2Fleet#accelerator_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#accelerator_count Ec2Ec2Fleet#accelerator_count}
   */
   readonly acceleratorCount?: Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsAcceleratorCount;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#accelerator_manufacturers Ec2Ec2Fleet#accelerator_manufacturers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#accelerator_manufacturers Ec2Ec2Fleet#accelerator_manufacturers}
   */
   readonly acceleratorManufacturers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#accelerator_names Ec2Ec2Fleet#accelerator_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#accelerator_names Ec2Ec2Fleet#accelerator_names}
   */
   readonly acceleratorNames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#accelerator_total_memory_mi_b Ec2Ec2Fleet#accelerator_total_memory_mi_b}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#accelerator_total_memory_mi_b Ec2Ec2Fleet#accelerator_total_memory_mi_b}
   */
   readonly acceleratorTotalMemoryMiB?: Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsAcceleratorTotalMemoryMiB;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#accelerator_types Ec2Ec2Fleet#accelerator_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#accelerator_types Ec2Ec2Fleet#accelerator_types}
   */
   readonly acceleratorTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#allowed_instance_types Ec2Ec2Fleet#allowed_instance_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#allowed_instance_types Ec2Ec2Fleet#allowed_instance_types}
   */
   readonly allowedInstanceTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#bare_metal Ec2Ec2Fleet#bare_metal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#bare_metal Ec2Ec2Fleet#bare_metal}
   */
   readonly bareMetal?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#baseline_ebs_bandwidth_mbps Ec2Ec2Fleet#baseline_ebs_bandwidth_mbps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#baseline_ebs_bandwidth_mbps Ec2Ec2Fleet#baseline_ebs_bandwidth_mbps}
   */
   readonly baselineEbsBandwidthMbps?: Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsBaselineEbsBandwidthMbps;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#baseline_performance_factors Ec2Ec2Fleet#baseline_performance_factors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#baseline_performance_factors Ec2Ec2Fleet#baseline_performance_factors}
   */
   readonly baselinePerformanceFactors?: Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsBaselinePerformanceFactors;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#burstable_performance Ec2Ec2Fleet#burstable_performance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#burstable_performance Ec2Ec2Fleet#burstable_performance}
   */
   readonly burstablePerformance?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#cpu_manufacturers Ec2Ec2Fleet#cpu_manufacturers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#cpu_manufacturers Ec2Ec2Fleet#cpu_manufacturers}
   */
   readonly cpuManufacturers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#excluded_instance_types Ec2Ec2Fleet#excluded_instance_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#excluded_instance_types Ec2Ec2Fleet#excluded_instance_types}
   */
   readonly excludedInstanceTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#instance_generations Ec2Ec2Fleet#instance_generations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#instance_generations Ec2Ec2Fleet#instance_generations}
   */
   readonly instanceGenerations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#local_storage Ec2Ec2Fleet#local_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#local_storage Ec2Ec2Fleet#local_storage}
   */
   readonly localStorage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#local_storage_types Ec2Ec2Fleet#local_storage_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#local_storage_types Ec2Ec2Fleet#local_storage_types}
   */
   readonly localStorageTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#max_spot_price_as_percentage_of_optimal_on_demand_price Ec2Ec2Fleet#max_spot_price_as_percentage_of_optimal_on_demand_price}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#max_spot_price_as_percentage_of_optimal_on_demand_price Ec2Ec2Fleet#max_spot_price_as_percentage_of_optimal_on_demand_price}
   */
   readonly maxSpotPriceAsPercentageOfOptimalOnDemandPrice?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#memory_gi_b_per_v_cpu Ec2Ec2Fleet#memory_gi_b_per_v_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#memory_gi_b_per_v_cpu Ec2Ec2Fleet#memory_gi_b_per_v_cpu}
   */
   readonly memoryGiBPerVCpu?: Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsMemoryGiBPerVCpu;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#memory_mi_b Ec2Ec2Fleet#memory_mi_b}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#memory_mi_b Ec2Ec2Fleet#memory_mi_b}
   */
   readonly memoryMiB?: Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsMemoryMiB;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#network_bandwidth_gbps Ec2Ec2Fleet#network_bandwidth_gbps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#network_bandwidth_gbps Ec2Ec2Fleet#network_bandwidth_gbps}
   */
   readonly networkBandwidthGbps?: Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsNetworkBandwidthGbps;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#network_interface_count Ec2Ec2Fleet#network_interface_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#network_interface_count Ec2Ec2Fleet#network_interface_count}
   */
   readonly networkInterfaceCount?: Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsNetworkInterfaceCount;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#on_demand_max_price_percentage_over_lowest_price Ec2Ec2Fleet#on_demand_max_price_percentage_over_lowest_price}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#on_demand_max_price_percentage_over_lowest_price Ec2Ec2Fleet#on_demand_max_price_percentage_over_lowest_price}
   */
   readonly onDemandMaxPricePercentageOverLowestPrice?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#require_encryption_in_transit Ec2Ec2Fleet#require_encryption_in_transit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#require_encryption_in_transit Ec2Ec2Fleet#require_encryption_in_transit}
   */
   readonly requireEncryptionInTransit?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#require_hibernate_support Ec2Ec2Fleet#require_hibernate_support}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#require_hibernate_support Ec2Ec2Fleet#require_hibernate_support}
   */
   readonly requireHibernateSupport?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#spot_max_price_percentage_over_lowest_price Ec2Ec2Fleet#spot_max_price_percentage_over_lowest_price}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#spot_max_price_percentage_over_lowest_price Ec2Ec2Fleet#spot_max_price_percentage_over_lowest_price}
   */
   readonly spotMaxPricePercentageOverLowestPrice?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#total_local_storage_gb Ec2Ec2Fleet#total_local_storage_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#total_local_storage_gb Ec2Ec2Fleet#total_local_storage_gb}
   */
   readonly totalLocalStorageGb?: Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsTotalLocalStorageGb;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#v_cpu_count Ec2Ec2Fleet#v_cpu_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#v_cpu_count Ec2Ec2Fleet#v_cpu_count}
   */
   readonly vCpuCount?: Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsVCpuCount;
 }
@@ -3260,15 +3569,15 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsOutput
 }
 export interface Ec2Ec2FleetLaunchTemplateConfigsOverridesMetadataOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#http_endpoint Ec2Ec2Fleet#http_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#http_endpoint Ec2Ec2Fleet#http_endpoint}
   */
   readonly httpEndpoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#http_put_response_hop_limit Ec2Ec2Fleet#http_put_response_hop_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#http_put_response_hop_limit Ec2Ec2Fleet#http_put_response_hop_limit}
   */
   readonly httpPutResponseHopLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#http_tokens Ec2Ec2Fleet#http_tokens}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#http_tokens Ec2Ec2Fleet#http_tokens}
   */
   readonly httpTokens?: string;
 }
@@ -3420,7 +3729,7 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesMetadataOptionsOutputRefer
 }
 export interface Ec2Ec2FleetLaunchTemplateConfigsOverridesNetworkInterfacesIpv6Addresses {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#ipv_6_address Ec2Ec2Fleet#ipv_6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#ipv_6_address Ec2Ec2Fleet#ipv_6_address}
   */
   readonly ipv6Address?: string;
 }
@@ -3536,11 +3845,11 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesNetworkInterfacesIpv6Addre
 }
 export interface Ec2Ec2FleetLaunchTemplateConfigsOverridesNetworkInterfacesPrivateIpAddresses {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#primary Ec2Ec2Fleet#primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#primary Ec2Ec2Fleet#primary}
   */
   readonly primary?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#private_ip_address Ec2Ec2Fleet#private_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#private_ip_address Ec2Ec2Fleet#private_ip_address}
   */
   readonly privateIpAddress?: string;
 }
@@ -3685,59 +3994,59 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesNetworkInterfacesPrivateIp
 }
 export interface Ec2Ec2FleetLaunchTemplateConfigsOverridesNetworkInterfaces {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#associate_public_ip_address Ec2Ec2Fleet#associate_public_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#associate_public_ip_address Ec2Ec2Fleet#associate_public_ip_address}
   */
   readonly associatePublicIpAddress?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#delete_on_termination Ec2Ec2Fleet#delete_on_termination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#delete_on_termination Ec2Ec2Fleet#delete_on_termination}
   */
   readonly deleteOnTermination?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#description Ec2Ec2Fleet#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#description Ec2Ec2Fleet#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#device_index Ec2Ec2Fleet#device_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#device_index Ec2Ec2Fleet#device_index}
   */
   readonly deviceIndex?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#groups Ec2Ec2Fleet#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#groups Ec2Ec2Fleet#groups}
   */
   readonly groups?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#interface_type Ec2Ec2Fleet#interface_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#interface_type Ec2Ec2Fleet#interface_type}
   */
   readonly interfaceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#ipv_6_address_count Ec2Ec2Fleet#ipv_6_address_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#ipv_6_address_count Ec2Ec2Fleet#ipv_6_address_count}
   */
   readonly ipv6AddressCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#ipv_6_addresses Ec2Ec2Fleet#ipv_6_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#ipv_6_addresses Ec2Ec2Fleet#ipv_6_addresses}
   */
   readonly ipv6Addresses?: Ec2Ec2FleetLaunchTemplateConfigsOverridesNetworkInterfacesIpv6Addresses[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#network_card_index Ec2Ec2Fleet#network_card_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#network_card_index Ec2Ec2Fleet#network_card_index}
   */
   readonly networkCardIndex?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#network_interface_id Ec2Ec2Fleet#network_interface_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#network_interface_id Ec2Ec2Fleet#network_interface_id}
   */
   readonly networkInterfaceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#private_ip_address Ec2Ec2Fleet#private_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#private_ip_address Ec2Ec2Fleet#private_ip_address}
   */
   readonly privateIpAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#private_ip_addresses Ec2Ec2Fleet#private_ip_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#private_ip_addresses Ec2Ec2Fleet#private_ip_addresses}
   */
   readonly privateIpAddresses?: Ec2Ec2FleetLaunchTemplateConfigsOverridesNetworkInterfacesPrivateIpAddresses[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#secondary_private_ip_address_count Ec2Ec2Fleet#secondary_private_ip_address_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#secondary_private_ip_address_count Ec2Ec2Fleet#secondary_private_ip_address_count}
   */
   readonly secondaryPrivateIpAddressCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#subnet_id Ec2Ec2Fleet#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#subnet_id Ec2Ec2Fleet#subnet_id}
   */
   readonly subnetId?: string;
 }
@@ -4230,35 +4539,35 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesNetworkInterfacesList exte
 }
 export interface Ec2Ec2FleetLaunchTemplateConfigsOverridesPlacement {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#affinity Ec2Ec2Fleet#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#affinity Ec2Ec2Fleet#affinity}
   */
   readonly affinity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#availability_zone Ec2Ec2Fleet#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#availability_zone Ec2Ec2Fleet#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#group_name Ec2Ec2Fleet#group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#group_name Ec2Ec2Fleet#group_name}
   */
   readonly groupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#host_id Ec2Ec2Fleet#host_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#host_id Ec2Ec2Fleet#host_id}
   */
   readonly hostId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#host_resource_group_arn Ec2Ec2Fleet#host_resource_group_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#host_resource_group_arn Ec2Ec2Fleet#host_resource_group_arn}
   */
   readonly hostResourceGroupArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#partition_number Ec2Ec2Fleet#partition_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#partition_number Ec2Ec2Fleet#partition_number}
   */
   readonly partitionNumber?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#spread_domain Ec2Ec2Fleet#spread_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#spread_domain Ec2Ec2Fleet#spread_domain}
   */
   readonly spreadDomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#tenancy Ec2Ec2Fleet#tenancy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#tenancy Ec2Ec2Fleet#tenancy}
   */
   readonly tenancy?: string;
 }
@@ -4555,59 +4864,59 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesPlacementOutputReference e
 }
 export interface Ec2Ec2FleetLaunchTemplateConfigsOverrides {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#availability_zone Ec2Ec2Fleet#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#availability_zone Ec2Ec2Fleet#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#availability_zone_id Ec2Ec2Fleet#availability_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#availability_zone_id Ec2Ec2Fleet#availability_zone_id}
   */
   readonly availabilityZoneId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#block_device_mappings Ec2Ec2Fleet#block_device_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#block_device_mappings Ec2Ec2Fleet#block_device_mappings}
   */
   readonly blockDeviceMappings?: Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappings[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#iam_instance_profile Ec2Ec2Fleet#iam_instance_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#iam_instance_profile Ec2Ec2Fleet#iam_instance_profile}
   */
   readonly iamInstanceProfile?: Ec2Ec2FleetLaunchTemplateConfigsOverridesIamInstanceProfile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#instance_requirements Ec2Ec2Fleet#instance_requirements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#instance_requirements Ec2Ec2Fleet#instance_requirements}
   */
   readonly instanceRequirements?: Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirements;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#instance_type Ec2Ec2Fleet#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#instance_type Ec2Ec2Fleet#instance_type}
   */
   readonly instanceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#key_name Ec2Ec2Fleet#key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#key_name Ec2Ec2Fleet#key_name}
   */
   readonly keyName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#max_price Ec2Ec2Fleet#max_price}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#max_price Ec2Ec2Fleet#max_price}
   */
   readonly maxPrice?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#metadata_options Ec2Ec2Fleet#metadata_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#metadata_options Ec2Ec2Fleet#metadata_options}
   */
   readonly metadataOptions?: Ec2Ec2FleetLaunchTemplateConfigsOverridesMetadataOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#network_interfaces Ec2Ec2Fleet#network_interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#network_interfaces Ec2Ec2Fleet#network_interfaces}
   */
   readonly networkInterfaces?: Ec2Ec2FleetLaunchTemplateConfigsOverridesNetworkInterfaces[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#placement Ec2Ec2Fleet#placement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#placement Ec2Ec2Fleet#placement}
   */
   readonly placement?: Ec2Ec2FleetLaunchTemplateConfigsOverridesPlacement;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#priority Ec2Ec2Fleet#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#priority Ec2Ec2Fleet#priority}
   */
   readonly priority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#subnet_id Ec2Ec2Fleet#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#subnet_id Ec2Ec2Fleet#subnet_id}
   */
   readonly subnetId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#weighted_capacity Ec2Ec2Fleet#weighted_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#weighted_capacity Ec2Ec2Fleet#weighted_capacity}
   */
   readonly weightedCapacity?: number;
 }
@@ -5100,11 +5409,11 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesList extends cdktn.Complex
 }
 export interface Ec2Ec2FleetLaunchTemplateConfigs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#launch_template_specification Ec2Ec2Fleet#launch_template_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#launch_template_specification Ec2Ec2Fleet#launch_template_specification}
   */
   readonly launchTemplateSpecification?: Ec2Ec2FleetLaunchTemplateConfigsLaunchTemplateSpecification;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#overrides Ec2Ec2Fleet#overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#overrides Ec2Ec2Fleet#overrides}
   */
   readonly overrides?: Ec2Ec2FleetLaunchTemplateConfigsOverrides[] | cdktn.IResolvable;
 }
@@ -5249,7 +5558,7 @@ export class Ec2Ec2FleetLaunchTemplateConfigsList extends cdktn.ComplexList {
 }
 export interface Ec2Ec2FleetOnDemandOptionsCapacityReservationOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#usage_strategy Ec2Ec2Fleet#usage_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#usage_strategy Ec2Ec2Fleet#usage_strategy}
   */
   readonly usageStrategy?: string;
 }
@@ -5343,27 +5652,27 @@ export class Ec2Ec2FleetOnDemandOptionsCapacityReservationOptionsOutputReference
 }
 export interface Ec2Ec2FleetOnDemandOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#allocation_strategy Ec2Ec2Fleet#allocation_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#allocation_strategy Ec2Ec2Fleet#allocation_strategy}
   */
   readonly allocationStrategy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#capacity_reservation_options Ec2Ec2Fleet#capacity_reservation_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#capacity_reservation_options Ec2Ec2Fleet#capacity_reservation_options}
   */
   readonly capacityReservationOptions?: Ec2Ec2FleetOnDemandOptionsCapacityReservationOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#max_total_price Ec2Ec2Fleet#max_total_price}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#max_total_price Ec2Ec2Fleet#max_total_price}
   */
   readonly maxTotalPrice?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#min_target_capacity Ec2Ec2Fleet#min_target_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#min_target_capacity Ec2Ec2Fleet#min_target_capacity}
   */
   readonly minTargetCapacity?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#single_availability_zone Ec2Ec2Fleet#single_availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#single_availability_zone Ec2Ec2Fleet#single_availability_zone}
   */
   readonly singleAvailabilityZone?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#single_instance_type Ec2Ec2Fleet#single_instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#single_instance_type Ec2Ec2Fleet#single_instance_type}
   */
   readonly singleInstanceType?: boolean | cdktn.IResolvable;
 }
@@ -5602,11 +5911,11 @@ export class Ec2Ec2FleetOnDemandOptionsOutputReference extends cdktn.ComplexObje
 }
 export interface Ec2Ec2FleetReservedCapacityOptionsCapacityReservationTarget {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#capacity_reservation_ids Ec2Ec2Fleet#capacity_reservation_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#capacity_reservation_ids Ec2Ec2Fleet#capacity_reservation_ids}
   */
   readonly capacityReservationIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#capacity_reservation_resource_group_arns Ec2Ec2Fleet#capacity_reservation_resource_group_arns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#capacity_reservation_resource_group_arns Ec2Ec2Fleet#capacity_reservation_resource_group_arns}
   */
   readonly capacityReservationResourceGroupArns?: string[];
 }
@@ -5729,7 +6038,7 @@ export class Ec2Ec2FleetReservedCapacityOptionsCapacityReservationTargetOutputRe
 }
 export interface Ec2Ec2FleetReservedCapacityOptionsReservedCapacityFallbackOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#market_types Ec2Ec2Fleet#market_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#market_types Ec2Ec2Fleet#market_types}
   */
   readonly marketTypes?: string[];
 }
@@ -5823,19 +6132,19 @@ export class Ec2Ec2FleetReservedCapacityOptionsReservedCapacityFallbackOptionsOu
 }
 export interface Ec2Ec2FleetReservedCapacityOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#allocation_strategy Ec2Ec2Fleet#allocation_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#allocation_strategy Ec2Ec2Fleet#allocation_strategy}
   */
   readonly allocationStrategy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#capacity_reservation_target Ec2Ec2Fleet#capacity_reservation_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#capacity_reservation_target Ec2Ec2Fleet#capacity_reservation_target}
   */
   readonly capacityReservationTarget?: Ec2Ec2FleetReservedCapacityOptionsCapacityReservationTarget;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#reservation_types Ec2Ec2Fleet#reservation_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#reservation_types Ec2Ec2Fleet#reservation_types}
   */
   readonly reservationTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#reserved_capacity_fallback_options Ec2Ec2Fleet#reserved_capacity_fallback_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#reserved_capacity_fallback_options Ec2Ec2Fleet#reserved_capacity_fallback_options}
   */
   readonly reservedCapacityFallbackOptions?: Ec2Ec2FleetReservedCapacityOptionsReservedCapacityFallbackOptions;
 }
@@ -6016,11 +6325,11 @@ export class Ec2Ec2FleetReservedCapacityOptionsOutputReference extends cdktn.Com
 }
 export interface Ec2Ec2FleetSpotOptionsMaintenanceStrategiesCapacityRebalance {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#replacement_strategy Ec2Ec2Fleet#replacement_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#replacement_strategy Ec2Ec2Fleet#replacement_strategy}
   */
   readonly replacementStrategy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#termination_delay Ec2Ec2Fleet#termination_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#termination_delay Ec2Ec2Fleet#termination_delay}
   */
   readonly terminationDelay?: number;
 }
@@ -6143,7 +6452,7 @@ export class Ec2Ec2FleetSpotOptionsMaintenanceStrategiesCapacityRebalanceOutputR
 }
 export interface Ec2Ec2FleetSpotOptionsMaintenanceStrategies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#capacity_rebalance Ec2Ec2Fleet#capacity_rebalance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#capacity_rebalance Ec2Ec2Fleet#capacity_rebalance}
   */
   readonly capacityRebalance?: Ec2Ec2FleetSpotOptionsMaintenanceStrategiesCapacityRebalance;
 }
@@ -6237,35 +6546,35 @@ export class Ec2Ec2FleetSpotOptionsMaintenanceStrategiesOutputReference extends 
 }
 export interface Ec2Ec2FleetSpotOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#allocation_strategy Ec2Ec2Fleet#allocation_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#allocation_strategy Ec2Ec2Fleet#allocation_strategy}
   */
   readonly allocationStrategy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#instance_interruption_behavior Ec2Ec2Fleet#instance_interruption_behavior}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#instance_interruption_behavior Ec2Ec2Fleet#instance_interruption_behavior}
   */
   readonly instanceInterruptionBehavior?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#instance_pools_to_use_count Ec2Ec2Fleet#instance_pools_to_use_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#instance_pools_to_use_count Ec2Ec2Fleet#instance_pools_to_use_count}
   */
   readonly instancePoolsToUseCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#maintenance_strategies Ec2Ec2Fleet#maintenance_strategies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#maintenance_strategies Ec2Ec2Fleet#maintenance_strategies}
   */
   readonly maintenanceStrategies?: Ec2Ec2FleetSpotOptionsMaintenanceStrategies;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#max_total_price Ec2Ec2Fleet#max_total_price}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#max_total_price Ec2Ec2Fleet#max_total_price}
   */
   readonly maxTotalPrice?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#min_target_capacity Ec2Ec2Fleet#min_target_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#min_target_capacity Ec2Ec2Fleet#min_target_capacity}
   */
   readonly minTargetCapacity?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#single_availability_zone Ec2Ec2Fleet#single_availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#single_availability_zone Ec2Ec2Fleet#single_availability_zone}
   */
   readonly singleAvailabilityZone?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#single_instance_type Ec2Ec2Fleet#single_instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#single_instance_type Ec2Ec2Fleet#single_instance_type}
   */
   readonly singleInstanceType?: boolean | cdktn.IResolvable;
 }
@@ -6562,11 +6871,11 @@ export class Ec2Ec2FleetSpotOptionsOutputReference extends cdktn.ComplexObject {
 }
 export interface Ec2Ec2FleetTagSpecificationsTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#key Ec2Ec2Fleet#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#key Ec2Ec2Fleet#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#value Ec2Ec2Fleet#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#value Ec2Ec2Fleet#value}
   */
   readonly value?: string;
 }
@@ -6711,11 +7020,11 @@ export class Ec2Ec2FleetTagSpecificationsTagsList extends cdktn.ComplexList {
 }
 export interface Ec2Ec2FleetTagSpecifications {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#resource_type Ec2Ec2Fleet#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#resource_type Ec2Ec2Fleet#resource_type}
   */
   readonly resourceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#tags Ec2Ec2Fleet#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#tags Ec2Ec2Fleet#tags}
   */
   readonly tags?: Ec2Ec2FleetTagSpecificationsTags[] | cdktn.IResolvable;
 }
@@ -6860,23 +7169,23 @@ export class Ec2Ec2FleetTagSpecificationsList extends cdktn.ComplexList {
 }
 export interface Ec2Ec2FleetTargetCapacitySpecification {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#default_target_capacity_type Ec2Ec2Fleet#default_target_capacity_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#default_target_capacity_type Ec2Ec2Fleet#default_target_capacity_type}
   */
   readonly defaultTargetCapacityType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#on_demand_target_capacity Ec2Ec2Fleet#on_demand_target_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#on_demand_target_capacity Ec2Ec2Fleet#on_demand_target_capacity}
   */
   readonly onDemandTargetCapacity?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#spot_target_capacity Ec2Ec2Fleet#spot_target_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#spot_target_capacity Ec2Ec2Fleet#spot_target_capacity}
   */
   readonly spotTargetCapacity?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#target_capacity_unit_type Ec2Ec2Fleet#target_capacity_unit_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#target_capacity_unit_type Ec2Ec2Fleet#target_capacity_unit_type}
   */
   readonly targetCapacityUnitType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#total_target_capacity Ec2Ec2Fleet#total_target_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#total_target_capacity Ec2Ec2Fleet#total_target_capacity}
   */
   readonly totalTargetCapacity: number;
 }
@@ -7083,7 +7392,7 @@ export class Ec2Ec2FleetTargetCapacitySpecificationOutputReference extends cdktn
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet awscc_ec2_ec2_fleet}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet awscc_ec2_ec2_fleet}
 */
 export class Ec2Ec2Fleet extends cdktn.TerraformResource {
 
@@ -7099,7 +7408,7 @@ export class Ec2Ec2Fleet extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Ec2Ec2Fleet resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Ec2Ec2Fleet to import
-  * @param importFromId The id of the existing Ec2Ec2Fleet that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Ec2Ec2Fleet that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Ec2Ec2Fleet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -7111,7 +7420,7 @@ export class Ec2Ec2Fleet extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet awscc_ec2_ec2_fleet} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet awscc_ec2_ec2_fleet} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -7122,7 +7431,7 @@ export class Ec2Ec2Fleet extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_ec2_ec2_fleet',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.101.0',
+        providerVersion: '1.102.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

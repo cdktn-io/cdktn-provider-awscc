@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/iotsitewise_task
+// https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/iotsitewise_task
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccIotsitewiseTaskConfig extends cdktn.TerraformMetaArgum
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/iotsitewise_task#id DataAwsccIotsitewiseTask#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/iotsitewise_task#id DataAwsccIotsitewiseTask#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -102,6 +102,270 @@ export class DataAwsccIotsitewiseTaskTagsList extends cdktn.ComplexList {
     return new DataAwsccIotsitewiseTaskTagsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfiguration {
+}
+
+export function dataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfigurationToTerraform(struct?: DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfigurationToHclTerraform(struct?: DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfigurationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfiguration | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfiguration | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // storage_class - computed: true, optional: false, required: false
+  public get storageClass() {
+    return this.getStringAttribute('storage_class');
+  }
+
+  // storage_size_in_gi_b - computed: true, optional: false, required: false
+  public get storageSizeInGiB() {
+    return this.getNumberAttribute('storage_size_in_gi_b');
+  }
+}
+export interface DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPoint {
+}
+
+export function dataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPointToTerraform(struct?: DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPoint): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPointToHclTerraform(struct?: DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPoint): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPointOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPoint | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPoint | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // access_point_arn - computed: true, optional: false, required: false
+  public get accessPointArn() {
+    return this.getStringAttribute('access_point_arn');
+  }
+
+  // prefix - computed: true, optional: false, required: false
+  public get prefix() {
+    return this.getStringAttribute('prefix');
+  }
+}
+export interface DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSource {
+}
+
+export function dataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceToTerraform(struct?: DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSource): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceToHclTerraform(struct?: DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSource): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSource | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSource | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // s3_access_point - computed: true, optional: false, required: false
+  private _s3AccessPoint = new DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPointOutputReference(this, "s3_access_point");
+  public get s3AccessPoint() {
+    return this._s3AccessPoint;
+  }
+}
+export interface DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMounts {
+}
+
+export function dataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsToTerraform(struct?: DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMounts): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsToHclTerraform(struct?: DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMounts): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMounts | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMounts | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // name - computed: true, optional: false, required: false
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+
+  // relative_path - computed: true, optional: false, required: false
+  public get relativePath() {
+    return this.getStringAttribute('relative_path');
+  }
+
+  // source - computed: true, optional: false, required: false
+  private _source = new DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceOutputReference(this, "source");
+  public get source() {
+    return this._source;
+  }
+
+  // storage_type - computed: true, optional: false, required: false
+  public get storageType() {
+    return this.getStringAttribute('storage_type');
+  }
+}
+
+export class DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsList extends cdktn.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsOutputReference {
+    return new DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfiguration {
 }
 
@@ -165,6 +429,18 @@ export class DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfiguration
   private _environmentVariables = new cdktn.StringMap(this, "environment_variables");
   public get environmentVariables() {
     return this._environmentVariables;
+  }
+
+  // ephemeral_storage_configuration - computed: true, optional: false, required: false
+  private _ephemeralStorageConfiguration = new DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfigurationOutputReference(this, "ephemeral_storage_configuration");
+  public get ephemeralStorageConfiguration() {
+    return this._ephemeralStorageConfiguration;
+  }
+
+  // mounts - computed: true, optional: false, required: false
+  private _mounts = new DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsList(this, "mounts", false);
+  public get mounts() {
+    return this._mounts;
   }
 
   // processing_type - computed: true, optional: false, required: false
@@ -244,7 +520,7 @@ export class DataAwsccIotsitewiseTaskTaskConfigurationOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/iotsitewise_task awscc_iotsitewise_task}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/iotsitewise_task awscc_iotsitewise_task}
 */
 export class DataAwsccIotsitewiseTask extends cdktn.TerraformDataSource {
 
@@ -260,7 +536,7 @@ export class DataAwsccIotsitewiseTask extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAwsccIotsitewiseTask resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccIotsitewiseTask to import
-  * @param importFromId The id of the existing DataAwsccIotsitewiseTask that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/iotsitewise_task#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccIotsitewiseTask that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/iotsitewise_task#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccIotsitewiseTask to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -272,7 +548,7 @@ export class DataAwsccIotsitewiseTask extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/iotsitewise_task awscc_iotsitewise_task} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/iotsitewise_task awscc_iotsitewise_task} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -283,7 +559,7 @@ export class DataAwsccIotsitewiseTask extends cdktn.TerraformDataSource {
       terraformResourceType: 'awscc_iotsitewise_task',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.101.0',
+        providerVersion: '1.102.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

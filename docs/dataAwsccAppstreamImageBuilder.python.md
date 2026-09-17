@@ -4,7 +4,7 @@
 
 ### DataAwsccAppstreamImageBuilder <a name="DataAwsccAppstreamImageBuilder" id="@cdktn/provider-awscc.dataAwsccAppstreamImageBuilder.DataAwsccAppstreamImageBuilder"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/appstream_image_builder awscc_appstream_image_builder}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/appstream_image_builder awscc_appstream_image_builder}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppstreamImageBuilder.DataAwsccAppstreamImageBuilder.Initializer"></a>
 
@@ -106,7 +106,7 @@ Must be unique amongst siblings in the same scope
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/appstream_image_builder#id DataAwsccAppstreamImageBuilder#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/appstream_image_builder#id DataAwsccAppstreamImageBuilder#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -492,7 +492,7 @@ The construct id used in the generated config for the DataAwsccAppstreamImageBui
 
 The id of the existing DataAwsccAppstreamImageBuilder that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/appstream_image_builder#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/appstream_image_builder#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -523,6 +523,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.10
 | <code><a href="#@cdktn/provider-awscc.dataAwsccAppstreamImageBuilder.DataAwsccAppstreamImageBuilder.property.accessEndpoints">access_endpoints</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccAppstreamImageBuilder.DataAwsccAppstreamImageBuilderAccessEndpointsList">DataAwsccAppstreamImageBuilderAccessEndpointsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccAppstreamImageBuilder.DataAwsccAppstreamImageBuilder.property.appstreamAgentVersion">appstream_agent_version</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccAppstreamImageBuilder.DataAwsccAppstreamImageBuilder.property.description">description</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccAppstreamImageBuilder.DataAwsccAppstreamImageBuilder.property.disableImdsv1">disable_imdsv1</a></code> | <code>cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccAppstreamImageBuilder.DataAwsccAppstreamImageBuilder.property.displayName">display_name</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccAppstreamImageBuilder.DataAwsccAppstreamImageBuilder.property.domainJoinInfo">domain_join_info</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccAppstreamImageBuilder.DataAwsccAppstreamImageBuilderDomainJoinInfoOutputReference">DataAwsccAppstreamImageBuilderDomainJoinInfoOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccAppstreamImageBuilder.DataAwsccAppstreamImageBuilder.property.enableDefaultInternetAccess">enable_default_internet_access</a></code> | <code>cdktn.IResolvable</code> | *No description.* |
@@ -691,6 +692,16 @@ description: str
 ```
 
 - *Type:* str
+
+---
+
+##### `disable_imdsv1`<sup>Required</sup> <a name="disable_imdsv1" id="@cdktn/provider-awscc.dataAwsccAppstreamImageBuilder.DataAwsccAppstreamImageBuilder.property.disableImdsv1"></a>
+
+```python
+disable_imdsv1: IResolvable
+```
+
+- *Type:* cdktn.IResolvable
 
 ---
 
@@ -999,7 +1010,7 @@ id: str
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/appstream_image_builder#id DataAwsccAppstreamImageBuilder#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/appstream_image_builder#id DataAwsccAppstreamImageBuilder#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

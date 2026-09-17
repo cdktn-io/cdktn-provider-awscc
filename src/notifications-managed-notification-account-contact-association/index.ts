@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/notifications_managed_notification_account_contact_association
+// https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/notifications_managed_notification_account_contact_association
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,19 +15,25 @@ export interface NotificationsManagedNotificationAccountContactAssociationConfig
   /**
   * This unique identifier for Contact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/notifications_managed_notification_account_contact_association#contact_identifier NotificationsManagedNotificationAccountContactAssociation#contact_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/notifications_managed_notification_account_contact_association#contact_identifier NotificationsManagedNotificationAccountContactAssociation#contact_identifier}
   */
   readonly contactIdentifier: string;
   /**
+  * Whether the account contact association is subscribed to sensitive events. Access to sensitive events is gated by the SubscribeSensitiveEvents virtual IAM action.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/notifications_managed_notification_account_contact_association#is_sensitive_events_subscribed NotificationsManagedNotificationAccountContactAssociation#is_sensitive_events_subscribed}
+  */
+  readonly isSensitiveEventsSubscribed?: boolean | cdktn.IResolvable;
+  /**
   * The managed notification configuration ARN, against which the account contact association will be created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/notifications_managed_notification_account_contact_association#managed_notification_configuration_arn NotificationsManagedNotificationAccountContactAssociation#managed_notification_configuration_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/notifications_managed_notification_account_contact_association#managed_notification_configuration_arn NotificationsManagedNotificationAccountContactAssociation#managed_notification_configuration_arn}
   */
   readonly managedNotificationConfigurationArn: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/notifications_managed_notification_account_contact_association awscc_notifications_managed_notification_account_contact_association}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/notifications_managed_notification_account_contact_association awscc_notifications_managed_notification_account_contact_association}
 */
 export class NotificationsManagedNotificationAccountContactAssociation extends cdktn.TerraformResource {
 
@@ -43,7 +49,7 @@ export class NotificationsManagedNotificationAccountContactAssociation extends c
   * Generates CDKTN code for importing a NotificationsManagedNotificationAccountContactAssociation resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NotificationsManagedNotificationAccountContactAssociation to import
-  * @param importFromId The id of the existing NotificationsManagedNotificationAccountContactAssociation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/notifications_managed_notification_account_contact_association#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NotificationsManagedNotificationAccountContactAssociation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/notifications_managed_notification_account_contact_association#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NotificationsManagedNotificationAccountContactAssociation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -55,7 +61,7 @@ export class NotificationsManagedNotificationAccountContactAssociation extends c
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/notifications_managed_notification_account_contact_association awscc_notifications_managed_notification_account_contact_association} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/notifications_managed_notification_account_contact_association awscc_notifications_managed_notification_account_contact_association} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -66,7 +72,7 @@ export class NotificationsManagedNotificationAccountContactAssociation extends c
       terraformResourceType: 'awscc_notifications_managed_notification_account_contact_association',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.101.0',
+        providerVersion: '1.102.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -78,6 +84,7 @@ export class NotificationsManagedNotificationAccountContactAssociation extends c
       forEach: config.forEach
     });
     this._contactIdentifier = config.contactIdentifier;
+    this._isSensitiveEventsSubscribed = config.isSensitiveEventsSubscribed;
     this._managedNotificationConfigurationArn = config.managedNotificationConfigurationArn;
   }
 
@@ -103,6 +110,22 @@ export class NotificationsManagedNotificationAccountContactAssociation extends c
     return this.getStringAttribute('id');
   }
 
+  // is_sensitive_events_subscribed - computed: true, optional: true, required: false
+  private _isSensitiveEventsSubscribed?: boolean | cdktn.IResolvable; 
+  public get isSensitiveEventsSubscribed() {
+    return this.getBooleanAttribute('is_sensitive_events_subscribed');
+  }
+  public set isSensitiveEventsSubscribed(value: boolean | cdktn.IResolvable) {
+    this._isSensitiveEventsSubscribed = value;
+  }
+  public resetIsSensitiveEventsSubscribed() {
+    this._isSensitiveEventsSubscribed = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get isSensitiveEventsSubscribedInput() {
+    return this._isSensitiveEventsSubscribed;
+  }
+
   // managed_notification_configuration_arn - computed: false, optional: false, required: true
   private _managedNotificationConfigurationArn?: string; 
   public get managedNotificationConfigurationArn() {
@@ -123,6 +146,7 @@ export class NotificationsManagedNotificationAccountContactAssociation extends c
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       contact_identifier: cdktn.stringToTerraform(this._contactIdentifier),
+      is_sensitive_events_subscribed: cdktn.booleanToTerraform(this._isSensitiveEventsSubscribed),
       managed_notification_configuration_arn: cdktn.stringToTerraform(this._managedNotificationConfigurationArn),
     };
   }
@@ -134,6 +158,12 @@ export class NotificationsManagedNotificationAccountContactAssociation extends c
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      is_sensitive_events_subscribed: {
+        value: cdktn.booleanToHclTerraform(this._isSensitiveEventsSubscribed),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
       },
       managed_notification_configuration_arn: {
         value: cdktn.stringToHclTerraform(this._managedNotificationConfigurationArn),

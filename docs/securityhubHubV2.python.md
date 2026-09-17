@@ -4,7 +4,7 @@
 
 ### SecurityhubHubV2 <a name="SecurityhubHubV2" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/securityhub_hub_v2 awscc_securityhub_hub_v2}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/securityhub_hub_v2 awscc_securityhub_hub_v2}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2.Initializer"></a>
 
@@ -21,6 +21,7 @@ securityhubHubV2.SecurityhubHubV2(
   lifecycle: TerraformResourceLifecycle = None,
   provider: TerraformProvider = None,
   provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner] = None,
+  network_scanning: SecurityhubHubV2NetworkScanning = None,
   tags: typing.Mapping[str] = None
 )
 ```
@@ -36,6 +37,7 @@ securityhubHubV2.SecurityhubHubV2(
 | <code><a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2.Initializer.parameter.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2.Initializer.parameter.networkScanning">network_scanning</a></code> | <code><a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanning">SecurityhubHubV2NetworkScanning</a></code> | Configuration for the Network Scanning opt-in feature of Security Hub V2. |
 | <code><a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2.Initializer.parameter.tags">tags</a></code> | <code>typing.Mapping[str]</code> | A key-value pair to associate with the Security Hub V2 resource. |
 
 ---
@@ -100,6 +102,18 @@ Must be unique amongst siblings in the same scope
 
 ---
 
+##### `network_scanning`<sup>Optional</sup> <a name="network_scanning" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2.Initializer.parameter.networkScanning"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanning">SecurityhubHubV2NetworkScanning</a>
+
+Configuration for the Network Scanning opt-in feature of Security Hub V2.
+
+Network Scanning is available in the AWS commercial partition only; specifying this property in another partition, such as AWS GovCloud (US) or China, fails. This property is desired state: if you remove it from a stack that previously set it, the feature is disabled. If a stack has never set it, the feature is left as-is, so a stack that does not manage Network Scanning will not disable it. Network Scanning requires Security Hub V2 to be enabled in the same account and Region.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/securityhub_hub_v2#network_scanning SecurityhubHubV2#network_scanning}
+
+---
+
 ##### `tags`<sup>Optional</sup> <a name="tags" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2.Initializer.parameter.tags"></a>
 
 - *Type:* typing.Mapping[str]
@@ -108,7 +122,7 @@ A key-value pair to associate with the Security Hub V2 resource.
 
 You can specify a key that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/securityhub_hub_v2#tags SecurityhubHubV2#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/securityhub_hub_v2#tags SecurityhubHubV2#tags}
 
 ---
 
@@ -140,6 +154,8 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2.moveFromId">move_from_id</a></code> | Move the resource corresponding to "id" to this resource. |
 | <code><a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2.moveTo">move_to</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2.moveToId">move_to_id</a></code> | Moves this resource to the resource corresponding to "id". |
+| <code><a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2.putNetworkScanning">put_network_scanning</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2.resetNetworkScanning">reset_network_scanning</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2.resetTags">reset_tags</a></code> | *No description.* |
 
 ---
@@ -492,6 +508,30 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 
 ---
 
+##### `put_network_scanning` <a name="put_network_scanning" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2.putNetworkScanning"></a>
+
+```python
+def put_network_scanning(
+  status: str = None
+) -> None
+```
+
+###### `status`<sup>Optional</sup> <a name="status" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2.putNetworkScanning.parameter.status"></a>
+
+- *Type:* str
+
+Whether the Network Scanning feature is enabled for this account and Region.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/securityhub_hub_v2#status SecurityhubHubV2#status}
+
+---
+
+##### `reset_network_scanning` <a name="reset_network_scanning" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2.resetNetworkScanning"></a>
+
+```python
+def reset_network_scanning() -> None
+```
+
 ##### `reset_tags` <a name="reset_tags" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2.resetTags"></a>
 
 ```python
@@ -612,7 +652,7 @@ The construct id used in the generated config for the SecurityhubHubV2 to import
 
 The id of the existing SecurityhubHubV2 that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/securityhub_hub_v2#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/securityhub_hub_v2#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -644,7 +684,9 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.10
 | <code><a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2.property.hubV2Arn">hub_v2_arn</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2.property.id">id</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2.property.networkScanning">network_scanning</a></code> | <code><a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference">SecurityhubHubV2NetworkScanningOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2.property.subscribedAt">subscribed_at</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2.property.networkScanningInput">network_scanning_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanning">SecurityhubHubV2NetworkScanning</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2.property.tagsInput">tags_input</a></code> | <code>typing.Mapping[str]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2.property.tags">tags</a></code> | <code>typing.Mapping[str]</code> | *No description.* |
 
@@ -812,6 +854,16 @@ id: str
 
 ---
 
+##### `network_scanning`<sup>Required</sup> <a name="network_scanning" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2.property.networkScanning"></a>
+
+```python
+network_scanning: SecurityhubHubV2NetworkScanningOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference">SecurityhubHubV2NetworkScanningOutputReference</a>
+
+---
+
 ##### `subscribed_at`<sup>Required</sup> <a name="subscribed_at" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2.property.subscribedAt"></a>
 
 ```python
@@ -819,6 +871,16 @@ subscribed_at: str
 ```
 
 - *Type:* str
+
+---
+
+##### `network_scanning_input`<sup>Optional</sup> <a name="network_scanning_input" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2.property.networkScanningInput"></a>
+
+```python
+network_scanning_input: IResolvable | SecurityhubHubV2NetworkScanning
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanning">SecurityhubHubV2NetworkScanning</a>
 
 ---
 
@@ -877,6 +939,7 @@ securityhubHubV2.SecurityhubHubV2Config(
   lifecycle: TerraformResourceLifecycle = None,
   provider: TerraformProvider = None,
   provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner] = None,
+  network_scanning: SecurityhubHubV2NetworkScanning = None,
   tags: typing.Mapping[str] = None
 )
 ```
@@ -892,6 +955,7 @@ securityhubHubV2.SecurityhubHubV2Config(
 | <code><a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2Config.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2Config.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2Config.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2Config.property.networkScanning">network_scanning</a></code> | <code><a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanning">SecurityhubHubV2NetworkScanning</a></code> | Configuration for the Network Scanning opt-in feature of Security Hub V2. |
 | <code><a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2Config.property.tags">tags</a></code> | <code>typing.Mapping[str]</code> | A key-value pair to associate with the Security Hub V2 resource. |
 
 ---
@@ -966,6 +1030,22 @@ provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecPro
 
 ---
 
+##### `network_scanning`<sup>Optional</sup> <a name="network_scanning" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2Config.property.networkScanning"></a>
+
+```python
+network_scanning: SecurityhubHubV2NetworkScanning
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanning">SecurityhubHubV2NetworkScanning</a>
+
+Configuration for the Network Scanning opt-in feature of Security Hub V2.
+
+Network Scanning is available in the AWS commercial partition only; specifying this property in another partition, such as AWS GovCloud (US) or China, fails. This property is desired state: if you remove it from a stack that previously set it, the feature is disabled. If a stack has never set it, the feature is left as-is, so a stack that does not manage Network Scanning will not disable it. Network Scanning requires Security Hub V2 to be enabled in the same account and Region.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/securityhub_hub_v2#network_scanning SecurityhubHubV2#network_scanning}
+
+---
+
 ##### `tags`<sup>Optional</sup> <a name="tags" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2Config.property.tags"></a>
 
 ```python
@@ -978,7 +1058,345 @@ A key-value pair to associate with the Security Hub V2 resource.
 
 You can specify a key that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/securityhub_hub_v2#tags SecurityhubHubV2#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/securityhub_hub_v2#tags SecurityhubHubV2#tags}
+
+---
+
+### SecurityhubHubV2NetworkScanning <a name="SecurityhubHubV2NetworkScanning" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanning"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanning.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import securityhub_hub_v2
+
+securityhubHubV2.SecurityhubHubV2NetworkScanning(
+  status: str = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanning.property.status">status</a></code> | <code>str</code> | Whether the Network Scanning feature is enabled for this account and Region. |
+
+---
+
+##### `status`<sup>Optional</sup> <a name="status" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanning.property.status"></a>
+
+```python
+status: str
+```
+
+- *Type:* str
+
+Whether the Network Scanning feature is enabled for this account and Region.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/securityhub_hub_v2#status SecurityhubHubV2#status}
+
+---
+
+## Classes <a name="Classes" id="Classes"></a>
+
+### SecurityhubHubV2NetworkScanningOutputReference <a name="SecurityhubHubV2NetworkScanningOutputReference" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import securityhub_hub_v2
+
+securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.resetStatus">reset_status</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `reset_status` <a name="reset_status" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.resetStatus"></a>
+
+```python
+def reset_status() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.property.statusInput">status_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.property.status">status</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanning">SecurityhubHubV2NetworkScanning</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `status_input`<sup>Optional</sup> <a name="status_input" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.property.statusInput"></a>
+
+```python
+status_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `status`<sup>Required</sup> <a name="status" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.property.status"></a>
+
+```python
+status: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | SecurityhubHubV2NetworkScanning
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanning">SecurityhubHubV2NetworkScanning</a>
 
 ---
 

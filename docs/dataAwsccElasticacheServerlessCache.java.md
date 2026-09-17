@@ -4,7 +4,7 @@
 
 ### DataAwsccElasticacheServerlessCache <a name="DataAwsccElasticacheServerlessCache" id="@cdktn/provider-awscc.dataAwsccElasticacheServerlessCache.DataAwsccElasticacheServerlessCache"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/elasticache_serverless_cache awscc_elasticache_serverless_cache}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/elasticache_serverless_cache awscc_elasticache_serverless_cache}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccElasticacheServerlessCache.DataAwsccElasticacheServerlessCache.Initializer"></a>
 
@@ -104,7 +104,7 @@ Must be unique amongst siblings in the same scope
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/elasticache_serverless_cache#id DataAwsccElasticacheServerlessCache#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/elasticache_serverless_cache#id DataAwsccElasticacheServerlessCache#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -452,7 +452,7 @@ The construct id used in the generated config for the DataAwsccElasticacheServer
 
 The id of the existing DataAwsccElasticacheServerlessCache that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/elasticache_serverless_cache#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/elasticache_serverless_cache#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -491,6 +491,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.10
 | <code><a href="#@cdktn/provider-awscc.dataAwsccElasticacheServerlessCache.DataAwsccElasticacheServerlessCache.property.fullEngineVersion">fullEngineVersion</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccElasticacheServerlessCache.DataAwsccElasticacheServerlessCache.property.kmsKeyId">kmsKeyId</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccElasticacheServerlessCache.DataAwsccElasticacheServerlessCache.property.majorEngineVersion">majorEngineVersion</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccElasticacheServerlessCache.DataAwsccElasticacheServerlessCache.property.networkType">networkType</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccElasticacheServerlessCache.DataAwsccElasticacheServerlessCache.property.readerEndpoint">readerEndpoint</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccElasticacheServerlessCache.DataAwsccElasticacheServerlessCacheReaderEndpointOutputReference">DataAwsccElasticacheServerlessCacheReaderEndpointOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccElasticacheServerlessCache.DataAwsccElasticacheServerlessCache.property.securityGroupIds">securityGroupIds</a></code> | <code>java.util.List<java.lang.String></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccElasticacheServerlessCache.DataAwsccElasticacheServerlessCache.property.serverlessCacheName">serverlessCacheName</a></code> | <code>java.lang.String</code> | *No description.* |
@@ -731,6 +732,16 @@ public java.lang.String getKmsKeyId();
 
 ```java
 public java.lang.String getMajorEngineVersion();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `networkType`<sup>Required</sup> <a name="networkType" id="@cdktn/provider-awscc.dataAwsccElasticacheServerlessCache.DataAwsccElasticacheServerlessCache.property.networkType"></a>
+
+```java
+public java.lang.String getNetworkType();
 ```
 
 - *Type:* java.lang.String
@@ -1017,7 +1028,7 @@ public java.lang.String getId();
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/elasticache_serverless_cache#id DataAwsccElasticacheServerlessCache#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/elasticache_serverless_cache#id DataAwsccElasticacheServerlessCache#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

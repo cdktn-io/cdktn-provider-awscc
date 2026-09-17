@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/notifications_managed_notification_additional_channel_association
+// https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/notifications_managed_notification_additional_channel_association
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -16,20 +16,26 @@ export interface NotificationsManagedNotificationAdditionalChannelAssociationCon
   * ARN identifier of the channel.
   * Example: arn:aws:chatbot::123456789012:chat-configuration/slack-channel/security-ops
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/notifications_managed_notification_additional_channel_association#channel_arn NotificationsManagedNotificationAdditionalChannelAssociation#channel_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/notifications_managed_notification_additional_channel_association#channel_arn NotificationsManagedNotificationAdditionalChannelAssociation#channel_arn}
   */
   readonly channelArn: string;
+  /**
+  * Whether the channel association is subscribed to sensitive events. Access to sensitive events is gated by the SubscribeSensitiveEvents virtual IAM action.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/notifications_managed_notification_additional_channel_association#is_sensitive_events_subscribed NotificationsManagedNotificationAdditionalChannelAssociation#is_sensitive_events_subscribed}
+  */
+  readonly isSensitiveEventsSubscribed?: boolean | cdktn.IResolvable;
   /**
   * ARN identifier of the Managed Notification.
   * Example: arn:aws:notifications::381491923782:managed-notification-configuration/category/AWS-Health/sub-category/Billing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/notifications_managed_notification_additional_channel_association#managed_notification_configuration_arn NotificationsManagedNotificationAdditionalChannelAssociation#managed_notification_configuration_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/notifications_managed_notification_additional_channel_association#managed_notification_configuration_arn NotificationsManagedNotificationAdditionalChannelAssociation#managed_notification_configuration_arn}
   */
   readonly managedNotificationConfigurationArn: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/notifications_managed_notification_additional_channel_association awscc_notifications_managed_notification_additional_channel_association}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/notifications_managed_notification_additional_channel_association awscc_notifications_managed_notification_additional_channel_association}
 */
 export class NotificationsManagedNotificationAdditionalChannelAssociation extends cdktn.TerraformResource {
 
@@ -45,7 +51,7 @@ export class NotificationsManagedNotificationAdditionalChannelAssociation extend
   * Generates CDKTN code for importing a NotificationsManagedNotificationAdditionalChannelAssociation resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NotificationsManagedNotificationAdditionalChannelAssociation to import
-  * @param importFromId The id of the existing NotificationsManagedNotificationAdditionalChannelAssociation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/notifications_managed_notification_additional_channel_association#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NotificationsManagedNotificationAdditionalChannelAssociation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/notifications_managed_notification_additional_channel_association#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NotificationsManagedNotificationAdditionalChannelAssociation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -57,7 +63,7 @@ export class NotificationsManagedNotificationAdditionalChannelAssociation extend
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/notifications_managed_notification_additional_channel_association awscc_notifications_managed_notification_additional_channel_association} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/notifications_managed_notification_additional_channel_association awscc_notifications_managed_notification_additional_channel_association} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,7 +74,7 @@ export class NotificationsManagedNotificationAdditionalChannelAssociation extend
       terraformResourceType: 'awscc_notifications_managed_notification_additional_channel_association',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.101.0',
+        providerVersion: '1.102.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -80,6 +86,7 @@ export class NotificationsManagedNotificationAdditionalChannelAssociation extend
       forEach: config.forEach
     });
     this._channelArn = config.channelArn;
+    this._isSensitiveEventsSubscribed = config.isSensitiveEventsSubscribed;
     this._managedNotificationConfigurationArn = config.managedNotificationConfigurationArn;
   }
 
@@ -105,6 +112,22 @@ export class NotificationsManagedNotificationAdditionalChannelAssociation extend
     return this.getStringAttribute('id');
   }
 
+  // is_sensitive_events_subscribed - computed: true, optional: true, required: false
+  private _isSensitiveEventsSubscribed?: boolean | cdktn.IResolvable; 
+  public get isSensitiveEventsSubscribed() {
+    return this.getBooleanAttribute('is_sensitive_events_subscribed');
+  }
+  public set isSensitiveEventsSubscribed(value: boolean | cdktn.IResolvable) {
+    this._isSensitiveEventsSubscribed = value;
+  }
+  public resetIsSensitiveEventsSubscribed() {
+    this._isSensitiveEventsSubscribed = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get isSensitiveEventsSubscribedInput() {
+    return this._isSensitiveEventsSubscribed;
+  }
+
   // managed_notification_configuration_arn - computed: false, optional: false, required: true
   private _managedNotificationConfigurationArn?: string; 
   public get managedNotificationConfigurationArn() {
@@ -125,6 +148,7 @@ export class NotificationsManagedNotificationAdditionalChannelAssociation extend
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       channel_arn: cdktn.stringToTerraform(this._channelArn),
+      is_sensitive_events_subscribed: cdktn.booleanToTerraform(this._isSensitiveEventsSubscribed),
       managed_notification_configuration_arn: cdktn.stringToTerraform(this._managedNotificationConfigurationArn),
     };
   }
@@ -136,6 +160,12 @@ export class NotificationsManagedNotificationAdditionalChannelAssociation extend
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      is_sensitive_events_subscribed: {
+        value: cdktn.booleanToHclTerraform(this._isSensitiveEventsSubscribed),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
       },
       managed_notification_configuration_arn: {
         value: cdktn.stringToHclTerraform(this._managedNotificationConfigurationArn),

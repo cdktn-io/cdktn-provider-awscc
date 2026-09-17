@@ -4,7 +4,7 @@
 
 ### DataAwsccIotsitewiseTask <a name="DataAwsccIotsitewiseTask" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTask"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/iotsitewise_task awscc_iotsitewise_task}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/iotsitewise_task awscc_iotsitewise_task}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTask.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIotsitewiseTask t
 
 The id of the existing DataAwsccIotsitewiseTask that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/iotsitewise_task#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/iotsitewise_task#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -764,7 +764,7 @@ public readonly id: string;
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/iotsitewise_task#id DataAwsccIotsitewiseTask#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/iotsitewise_task#id DataAwsccIotsitewiseTask#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -801,6 +801,50 @@ const dataAwsccIotsitewiseTaskTaskConfiguration: dataAwsccIotsitewiseTask.DataAw
 import { dataAwsccIotsitewiseTask } from '@cdktn/provider-awscc'
 
 const dataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfiguration: dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfiguration = { ... }
+```
+
+
+### DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfiguration <a name="DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfiguration" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfiguration"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfiguration.Initializer"></a>
+
+```typescript
+import { dataAwsccIotsitewiseTask } from '@cdktn/provider-awscc'
+
+const dataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfiguration: dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfiguration = { ... }
+```
+
+
+### DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMounts <a name="DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMounts" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMounts"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMounts.Initializer"></a>
+
+```typescript
+import { dataAwsccIotsitewiseTask } from '@cdktn/provider-awscc'
+
+const dataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMounts: dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMounts = { ... }
+```
+
+
+### DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSource <a name="DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSource" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSource"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSource.Initializer"></a>
+
+```typescript
+import { dataAwsccIotsitewiseTask } from '@cdktn/provider-awscc'
+
+const dataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSource: dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSource = { ... }
+```
+
+
+### DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPoint <a name="DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPoint" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPoint"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPoint.Initializer"></a>
+
+```typescript
+import { dataAwsccIotsitewiseTask } from '@cdktn/provider-awscc'
+
+const dataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPoint: dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPoint = { ... }
 ```
 
 
@@ -1244,6 +1288,1268 @@ public readonly internalValue: DataAwsccIotsitewiseTaskTags;
 ---
 
 
+### DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfigurationOutputReference <a name="DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfigurationOutputReference" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfigurationOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfigurationOutputReference.Initializer"></a>
+
+```typescript
+import { dataAwsccIotsitewiseTask } from '@cdktn/provider-awscc'
+
+new dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfigurationOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfigurationOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfigurationOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfigurationOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfigurationOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfigurationOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfigurationOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfigurationOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfigurationOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfigurationOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfigurationOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfigurationOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfigurationOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfigurationOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfigurationOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfigurationOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfigurationOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfigurationOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfigurationOutputReference.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfigurationOutputReference.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfigurationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfigurationOutputReference.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfigurationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfigurationOutputReference.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfigurationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfigurationOutputReference.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfigurationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfigurationOutputReference.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfigurationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfigurationOutputReference.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfigurationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfigurationOutputReference.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfigurationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfigurationOutputReference.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfigurationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfigurationOutputReference.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfigurationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfigurationOutputReference.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(property: string): IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfigurationOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfigurationOutputReference.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfigurationOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfigurationOutputReference.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfigurationOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfigurationOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfigurationOutputReference.property.storageClass">storageClass</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfigurationOutputReference.property.storageSizeInGiB">storageSizeInGiB</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfigurationOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfiguration">DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfiguration</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfigurationOutputReference.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfigurationOutputReference.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `storageClass`<sup>Required</sup> <a name="storageClass" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfigurationOutputReference.property.storageClass"></a>
+
+```typescript
+public readonly storageClass: string;
+```
+
+- *Type:* string
+
+---
+
+##### `storageSizeInGiB`<sup>Required</sup> <a name="storageSizeInGiB" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfigurationOutputReference.property.storageSizeInGiB"></a>
+
+```typescript
+public readonly storageSizeInGiB: number;
+```
+
+- *Type:* number
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfigurationOutputReference.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfiguration;
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfiguration">DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfiguration</a>
+
+---
+
+
+### DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsList <a name="DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsList" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsList.Initializer"></a>
+
+```typescript
+import { dataAwsccIotsitewiseTask } from '@cdktn/provider-awscc'
+
+new dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsList(terraformResource: IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsList.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsList.Initializer.parameter.wrapsSet">wrapsSet</a></code> | <code>boolean</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wrapsSet`<sup>Required</sup> <a name="wrapsSet" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* boolean
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsList.allWithMapKey">allWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsList.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsList.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsList.get">get</a></code> | *No description.* |
+
+---
+
+##### `allWithMapKey` <a name="allWithMapKey" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsList.allWithMapKey"></a>
+
+```typescript
+public allWithMapKey(mapKeyAttributeName: string): DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* string
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsList.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsList.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsList.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsList.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `get` <a name="get" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsList.get"></a>
+
+```typescript
+public get(index: number): DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsList.get.parameter.index"></a>
+
+- *Type:* number
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsList.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsList.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsList.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsList.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+
+### DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsOutputReference <a name="DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsOutputReference" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsOutputReference.Initializer"></a>
+
+```typescript
+import { dataAwsccIotsitewiseTask } from '@cdktn/provider-awscc'
+
+new dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsOutputReference.Initializer.parameter.complexObjectIndex">complexObjectIndex</a></code> | <code>number</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsOutputReference.Initializer.parameter.complexObjectIsFromSet">complexObjectIsFromSet</a></code> | <code>boolean</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complexObjectIndex`<sup>Required</sup> <a name="complexObjectIndex" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* number
+
+the index of this item in the list.
+
+---
+
+##### `complexObjectIsFromSet`<sup>Required</sup> <a name="complexObjectIsFromSet" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* boolean
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsOutputReference.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsOutputReference.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsOutputReference.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsOutputReference.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsOutputReference.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsOutputReference.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsOutputReference.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsOutputReference.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsOutputReference.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsOutputReference.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsOutputReference.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(property: string): IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsOutputReference.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsOutputReference.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsOutputReference.property.name">name</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsOutputReference.property.relativePath">relativePath</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsOutputReference.property.source">source</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceOutputReference">DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsOutputReference.property.storageType">storageType</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMounts">DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMounts</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsOutputReference.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsOutputReference.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `name`<sup>Required</sup> <a name="name" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsOutputReference.property.name"></a>
+
+```typescript
+public readonly name: string;
+```
+
+- *Type:* string
+
+---
+
+##### `relativePath`<sup>Required</sup> <a name="relativePath" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsOutputReference.property.relativePath"></a>
+
+```typescript
+public readonly relativePath: string;
+```
+
+- *Type:* string
+
+---
+
+##### `source`<sup>Required</sup> <a name="source" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsOutputReference.property.source"></a>
+
+```typescript
+public readonly source: DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceOutputReference;
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceOutputReference">DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceOutputReference</a>
+
+---
+
+##### `storageType`<sup>Required</sup> <a name="storageType" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsOutputReference.property.storageType"></a>
+
+```typescript
+public readonly storageType: string;
+```
+
+- *Type:* string
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsOutputReference.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMounts;
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMounts">DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMounts</a>
+
+---
+
+
+### DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceOutputReference <a name="DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceOutputReference" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceOutputReference.Initializer"></a>
+
+```typescript
+import { dataAwsccIotsitewiseTask } from '@cdktn/provider-awscc'
+
+new dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceOutputReference.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceOutputReference.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceOutputReference.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceOutputReference.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceOutputReference.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceOutputReference.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceOutputReference.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceOutputReference.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceOutputReference.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceOutputReference.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceOutputReference.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(property: string): IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceOutputReference.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceOutputReference.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceOutputReference.property.s3AccessPoint">s3AccessPoint</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPointOutputReference">DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPointOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSource">DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSource</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceOutputReference.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceOutputReference.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `s3AccessPoint`<sup>Required</sup> <a name="s3AccessPoint" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceOutputReference.property.s3AccessPoint"></a>
+
+```typescript
+public readonly s3AccessPoint: DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPointOutputReference;
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPointOutputReference">DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPointOutputReference</a>
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceOutputReference.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSource;
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSource">DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSource</a>
+
+---
+
+
+### DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPointOutputReference <a name="DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPointOutputReference" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPointOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPointOutputReference.Initializer"></a>
+
+```typescript
+import { dataAwsccIotsitewiseTask } from '@cdktn/provider-awscc'
+
+new dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPointOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPointOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPointOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPointOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPointOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPointOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPointOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPointOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPointOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPointOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPointOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPointOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPointOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPointOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPointOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPointOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPointOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPointOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPointOutputReference.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPointOutputReference.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPointOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPointOutputReference.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPointOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPointOutputReference.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPointOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPointOutputReference.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPointOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPointOutputReference.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPointOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPointOutputReference.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPointOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPointOutputReference.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPointOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPointOutputReference.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPointOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPointOutputReference.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPointOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPointOutputReference.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(property: string): IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPointOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPointOutputReference.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPointOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPointOutputReference.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPointOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPointOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPointOutputReference.property.accessPointArn">accessPointArn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPointOutputReference.property.prefix">prefix</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPointOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPoint">DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPoint</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPointOutputReference.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPointOutputReference.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `accessPointArn`<sup>Required</sup> <a name="accessPointArn" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPointOutputReference.property.accessPointArn"></a>
+
+```typescript
+public readonly accessPointArn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `prefix`<sup>Required</sup> <a name="prefix" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPointOutputReference.property.prefix"></a>
+
+```typescript
+public readonly prefix: string;
+```
+
+- *Type:* string
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPointOutputReference.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPoint;
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPoint">DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPoint</a>
+
+---
+
+
 ### DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationOutputReference <a name="DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationOutputReference" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationOutputReference.Initializer"></a>
@@ -1457,6 +2763,8 @@ Returns a reversible string representation.
 | <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationOutputReference.property.command">command</a></code> | <code>string[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationOutputReference.property.ecrUri">ecrUri</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationOutputReference.property.environmentVariables">environmentVariables</a></code> | <code>cdktn.StringMap</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationOutputReference.property.ephemeralStorageConfiguration">ephemeralStorageConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfigurationOutputReference">DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfigurationOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationOutputReference.property.mounts">mounts</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsList">DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationOutputReference.property.processingType">processingType</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationOutputReference.property.processingUnit">processingUnit</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationOutputReference.property.taskExecutionRole">taskExecutionRole</a></code> | <code>string</code> | *No description.* |
@@ -1516,6 +2824,26 @@ public readonly environmentVariables: StringMap;
 ```
 
 - *Type:* cdktn.StringMap
+
+---
+
+##### `ephemeralStorageConfiguration`<sup>Required</sup> <a name="ephemeralStorageConfiguration" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationOutputReference.property.ephemeralStorageConfiguration"></a>
+
+```typescript
+public readonly ephemeralStorageConfiguration: DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfigurationOutputReference;
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfigurationOutputReference">DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfigurationOutputReference</a>
+
+---
+
+##### `mounts`<sup>Required</sup> <a name="mounts" id="@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationOutputReference.property.mounts"></a>
+
+```typescript
+public readonly mounts: DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsList;
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseTask.DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsList">DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsList</a>
 
 ---
 

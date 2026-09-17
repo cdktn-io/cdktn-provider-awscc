@@ -4,7 +4,7 @@
 
 ### BillingconductorPricingRule <a name="BillingconductorPricingRule" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRule"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/billingconductor_pricing_rule awscc_billingconductor_pricing_rule}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/billingconductor_pricing_rule awscc_billingconductor_pricing_rule}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRule.Initializer"></a>
 
@@ -571,7 +571,7 @@ The construct id used in the generated config for the BillingconductorPricingRul
 
 The id of the existing BillingconductorPricingRule that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/billingconductor_pricing_rule#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/billingconductor_pricing_rule#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1111,7 +1111,7 @@ new BillingconductorPricingRuleConfig {
 | <code><a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleConfig.property.modifierPercentage">ModifierPercentage</a></code> | <code>double</code> | Pricing rule modifier percentage. |
 | <code><a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleConfig.property.operation">Operation</a></code> | <code>string</code> | The Operation which a SKU pricing rule is modifying. |
 | <code><a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleConfig.property.service">Service</a></code> | <code>string</code> | The service which a pricing rule is applied on. |
-| <code><a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleConfig.property.tags">Tags</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTags">BillingconductorPricingRuleTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/billingconductor_pricing_rule#tags BillingconductorPricingRule#tags}. |
+| <code><a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleConfig.property.tags">Tags</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTags">BillingconductorPricingRuleTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/billingconductor_pricing_rule#tags BillingconductorPricingRule#tags}. |
 | <code><a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleConfig.property.tiering">Tiering</a></code> | <code><a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTiering">BillingconductorPricingRuleTiering</a></code> | The set of tiering configurations for the pricing rule. |
 | <code><a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleConfig.property.usageType">UsageType</a></code> | <code>string</code> | The UsageType which a SKU pricing rule is modifying. |
 
@@ -1197,7 +1197,7 @@ public string Name { get; set; }
 
 Pricing rule name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/billingconductor_pricing_rule#name BillingconductorPricingRule#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/billingconductor_pricing_rule#name BillingconductorPricingRule#name}
 
 ---
 
@@ -1211,7 +1211,7 @@ public string Scope { get; set; }
 
 A term used to categorize the granularity of a Pricing Rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/billingconductor_pricing_rule#scope BillingconductorPricingRule#scope}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/billingconductor_pricing_rule#scope BillingconductorPricingRule#scope}
 
 ---
 
@@ -1225,7 +1225,7 @@ public string Type { get; set; }
 
 One of MARKUP, DISCOUNT or TIERING that describes the behaviour of the pricing rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/billingconductor_pricing_rule#type BillingconductorPricingRule#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/billingconductor_pricing_rule#type BillingconductorPricingRule#type}
 
 ---
 
@@ -1241,7 +1241,7 @@ The seller of services provided by AWS, their affiliates, or third-party provide
 
 Supported billing entities are AWS, AWS Marketplace, and AISPL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/billingconductor_pricing_rule#billing_entity BillingconductorPricingRule#billing_entity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/billingconductor_pricing_rule#billing_entity BillingconductorPricingRule#billing_entity}
 
 ---
 
@@ -1255,7 +1255,7 @@ public string Description { get; set; }
 
 Pricing rule description.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/billingconductor_pricing_rule#description BillingconductorPricingRule#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/billingconductor_pricing_rule#description BillingconductorPricingRule#description}
 
 ---
 
@@ -1269,7 +1269,7 @@ public double ModifierPercentage { get; set; }
 
 Pricing rule modifier percentage.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/billingconductor_pricing_rule#modifier_percentage BillingconductorPricingRule#modifier_percentage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/billingconductor_pricing_rule#modifier_percentage BillingconductorPricingRule#modifier_percentage}
 
 ---
 
@@ -1283,7 +1283,7 @@ public string Operation { get; set; }
 
 The Operation which a SKU pricing rule is modifying.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/billingconductor_pricing_rule#operation BillingconductorPricingRule#operation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/billingconductor_pricing_rule#operation BillingconductorPricingRule#operation}
 
 ---
 
@@ -1297,7 +1297,7 @@ public string Service { get; set; }
 
 The service which a pricing rule is applied on.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/billingconductor_pricing_rule#service BillingconductorPricingRule#service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/billingconductor_pricing_rule#service BillingconductorPricingRule#service}
 
 ---
 
@@ -1309,7 +1309,7 @@ public IResolvable|BillingconductorPricingRuleTags[] Tags { get; set; }
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTags">BillingconductorPricingRuleTags</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/billingconductor_pricing_rule#tags BillingconductorPricingRule#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/billingconductor_pricing_rule#tags BillingconductorPricingRule#tags}.
 
 ---
 
@@ -1323,7 +1323,7 @@ public BillingconductorPricingRuleTiering Tiering { get; set; }
 
 The set of tiering configurations for the pricing rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/billingconductor_pricing_rule#tiering BillingconductorPricingRule#tiering}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/billingconductor_pricing_rule#tiering BillingconductorPricingRule#tiering}
 
 ---
 
@@ -1337,7 +1337,7 @@ public string UsageType { get; set; }
 
 The UsageType which a SKU pricing rule is modifying.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/billingconductor_pricing_rule#usage_type BillingconductorPricingRule#usage_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/billingconductor_pricing_rule#usage_type BillingconductorPricingRule#usage_type}
 
 ---
 
@@ -1358,8 +1358,8 @@ new BillingconductorPricingRuleTags {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTags.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/billingconductor_pricing_rule#key BillingconductorPricingRule#key}. |
-| <code><a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/billingconductor_pricing_rule#value BillingconductorPricingRule#value}. |
+| <code><a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTags.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/billingconductor_pricing_rule#key BillingconductorPricingRule#key}. |
+| <code><a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/billingconductor_pricing_rule#value BillingconductorPricingRule#value}. |
 
 ---
 
@@ -1371,7 +1371,7 @@ public string Key { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/billingconductor_pricing_rule#key BillingconductorPricingRule#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/billingconductor_pricing_rule#key BillingconductorPricingRule#key}.
 
 ---
 
@@ -1383,7 +1383,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/billingconductor_pricing_rule#value BillingconductorPricingRule#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/billingconductor_pricing_rule#value BillingconductorPricingRule#value}.
 
 ---
 
@@ -1395,6 +1395,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 using Io.Cdktn.Providers.Awscc;
 
 new BillingconductorPricingRuleTiering {
+    IResolvable|BillingconductorPricingRuleTieringCustomTiers[] CustomTiers = null,
     BillingconductorPricingRuleTieringFreeTier FreeTier = null
 };
 ```
@@ -1403,7 +1404,24 @@ new BillingconductorPricingRuleTiering {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTiering.property.customTiers">CustomTiers</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiers">BillingconductorPricingRuleTieringCustomTiers</a>[]</code> | The set of custom volume tiers for a SKU-scoped TIERING pricing rule. |
 | <code><a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTiering.property.freeTier">FreeTier</a></code> | <code><a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringFreeTier">BillingconductorPricingRuleTieringFreeTier</a></code> | The possible customizable free tier configurations. |
+
+---
+
+##### `CustomTiers`<sup>Optional</sup> <a name="CustomTiers" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTiering.property.customTiers"></a>
+
+```csharp
+public IResolvable|BillingconductorPricingRuleTieringCustomTiers[] CustomTiers { get; set; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiers">BillingconductorPricingRuleTieringCustomTiers</a>[]
+
+The set of custom volume tiers for a SKU-scoped TIERING pricing rule.
+
+Tiers must start at 0, be contiguous, and the last tier must have no end range.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/billingconductor_pricing_rule#custom_tiers BillingconductorPricingRule#custom_tiers}
 
 ---
 
@@ -1417,7 +1435,73 @@ public BillingconductorPricingRuleTieringFreeTier FreeTier { get; set; }
 
 The possible customizable free tier configurations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/billingconductor_pricing_rule#free_tier BillingconductorPricingRule#free_tier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/billingconductor_pricing_rule#free_tier BillingconductorPricingRule#free_tier}
+
+---
+
+### BillingconductorPricingRuleTieringCustomTiers <a name="BillingconductorPricingRuleTieringCustomTiers" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiers"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiers.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new BillingconductorPricingRuleTieringCustomTiers {
+    double BeginRangeInclusive = null,
+    double EndRangeExclusive = null,
+    double RateValue = null
+};
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiers.property.beginRangeInclusive">BeginRangeInclusive</a></code> | <code>double</code> | The inclusive beginning of the tier's usage range. |
+| <code><a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiers.property.endRangeExclusive">EndRangeExclusive</a></code> | <code>double</code> | The exclusive end of the tier's usage range. Omit for the last tier (infinity). |
+| <code><a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiers.property.rateValue">RateValue</a></code> | <code>double</code> | The custom rate applied to usage within the tier's range. |
+
+---
+
+##### `BeginRangeInclusive`<sup>Optional</sup> <a name="BeginRangeInclusive" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiers.property.beginRangeInclusive"></a>
+
+```csharp
+public double BeginRangeInclusive { get; set; }
+```
+
+- *Type:* double
+
+The inclusive beginning of the tier's usage range.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/billingconductor_pricing_rule#begin_range_inclusive BillingconductorPricingRule#begin_range_inclusive}
+
+---
+
+##### `EndRangeExclusive`<sup>Optional</sup> <a name="EndRangeExclusive" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiers.property.endRangeExclusive"></a>
+
+```csharp
+public double EndRangeExclusive { get; set; }
+```
+
+- *Type:* double
+
+The exclusive end of the tier's usage range. Omit for the last tier (infinity).
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/billingconductor_pricing_rule#end_range_exclusive BillingconductorPricingRule#end_range_exclusive}
+
+---
+
+##### `RateValue`<sup>Optional</sup> <a name="RateValue" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiers.property.rateValue"></a>
+
+```csharp
+public double RateValue { get; set; }
+```
+
+- *Type:* double
+
+The custom rate applied to usage within the tier's range.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/billingconductor_pricing_rule#rate_value BillingconductorPricingRule#rate_value}
 
 ---
 
@@ -1437,7 +1521,7 @@ new BillingconductorPricingRuleTieringFreeTier {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringFreeTier.property.activated">Activated</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/billingconductor_pricing_rule#activated BillingconductorPricingRule#activated}. |
+| <code><a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringFreeTier.property.activated">Activated</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/billingconductor_pricing_rule#activated BillingconductorPricingRule#activated}. |
 
 ---
 
@@ -1449,7 +1533,7 @@ public bool|IResolvable Activated { get; set; }
 
 - *Type:* bool|Io.Cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/billingconductor_pricing_rule#activated BillingconductorPricingRule#activated}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/billingconductor_pricing_rule#activated BillingconductorPricingRule#activated}.
 
 ---
 
@@ -1940,6 +2024,520 @@ public IResolvable|BillingconductorPricingRuleTags InternalValue { get; }
 ---
 
 
+### BillingconductorPricingRuleTieringCustomTiersList <a name="BillingconductorPricingRuleTieringCustomTiersList" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersList.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new BillingconductorPricingRuleTieringCustomTiersList(IInterpolatingParent TerraformResource, string TerraformAttribute, bool WrapsSet);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersList.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersList.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersList.Initializer.parameter.wrapsSet">WrapsSet</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `WrapsSet`<sup>Required</sup> <a name="WrapsSet" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersList.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersList.allWithMapKey"></a>
+
+```csharp
+private DynamicListTerraformIterator AllWithMapKey(string MapKeyAttributeName)
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `MapKeyAttributeName`<sup>Required</sup> <a name="MapKeyAttributeName" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* string
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersList.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersList.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersList.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersList.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `Get` <a name="Get" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersList.get"></a>
+
+```csharp
+private BillingconductorPricingRuleTieringCustomTiersOutputReference Get(double Index)
+```
+
+###### `Index`<sup>Required</sup> <a name="Index" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersList.get.parameter.index"></a>
+
+- *Type:* double
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersList.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersList.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersList.property.internalValue">InternalValue</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiers">BillingconductorPricingRuleTieringCustomTiers</a>[]</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersList.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersList.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersList.property.internalValue"></a>
+
+```csharp
+public IResolvable|BillingconductorPricingRuleTieringCustomTiers[] InternalValue { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiers">BillingconductorPricingRuleTieringCustomTiers</a>[]
+
+---
+
+
+### BillingconductorPricingRuleTieringCustomTiersOutputReference <a name="BillingconductorPricingRuleTieringCustomTiersOutputReference" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new BillingconductorPricingRuleTieringCustomTiersOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute, double ComplexObjectIndex, bool ComplexObjectIsFromSet);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersOutputReference.Initializer.parameter.complexObjectIndex">ComplexObjectIndex</a></code> | <code>double</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersOutputReference.Initializer.parameter.complexObjectIsFromSet">ComplexObjectIsFromSet</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `ComplexObjectIndex`<sup>Required</sup> <a name="ComplexObjectIndex" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* double
+
+the index of this item in the list.
+
+---
+
+##### `ComplexObjectIsFromSet`<sup>Required</sup> <a name="ComplexObjectIsFromSet" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersOutputReference.resetBeginRangeInclusive">ResetBeginRangeInclusive</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersOutputReference.resetEndRangeExclusive">ResetEndRangeExclusive</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersOutputReference.resetRateValue">ResetRateValue</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `ResetBeginRangeInclusive` <a name="ResetBeginRangeInclusive" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersOutputReference.resetBeginRangeInclusive"></a>
+
+```csharp
+private void ResetBeginRangeInclusive()
+```
+
+##### `ResetEndRangeExclusive` <a name="ResetEndRangeExclusive" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersOutputReference.resetEndRangeExclusive"></a>
+
+```csharp
+private void ResetEndRangeExclusive()
+```
+
+##### `ResetRateValue` <a name="ResetRateValue" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersOutputReference.resetRateValue"></a>
+
+```csharp
+private void ResetRateValue()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersOutputReference.property.beginRangeInclusiveInput">BeginRangeInclusiveInput</a></code> | <code>double</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersOutputReference.property.endRangeExclusiveInput">EndRangeExclusiveInput</a></code> | <code>double</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersOutputReference.property.rateValueInput">RateValueInput</a></code> | <code>double</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersOutputReference.property.beginRangeInclusive">BeginRangeInclusive</a></code> | <code>double</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersOutputReference.property.endRangeExclusive">EndRangeExclusive</a></code> | <code>double</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersOutputReference.property.rateValue">RateValue</a></code> | <code>double</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersOutputReference.property.internalValue">InternalValue</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiers">BillingconductorPricingRuleTieringCustomTiers</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `BeginRangeInclusiveInput`<sup>Optional</sup> <a name="BeginRangeInclusiveInput" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersOutputReference.property.beginRangeInclusiveInput"></a>
+
+```csharp
+public double BeginRangeInclusiveInput { get; }
+```
+
+- *Type:* double
+
+---
+
+##### `EndRangeExclusiveInput`<sup>Optional</sup> <a name="EndRangeExclusiveInput" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersOutputReference.property.endRangeExclusiveInput"></a>
+
+```csharp
+public double EndRangeExclusiveInput { get; }
+```
+
+- *Type:* double
+
+---
+
+##### `RateValueInput`<sup>Optional</sup> <a name="RateValueInput" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersOutputReference.property.rateValueInput"></a>
+
+```csharp
+public double RateValueInput { get; }
+```
+
+- *Type:* double
+
+---
+
+##### `BeginRangeInclusive`<sup>Required</sup> <a name="BeginRangeInclusive" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersOutputReference.property.beginRangeInclusive"></a>
+
+```csharp
+public double BeginRangeInclusive { get; }
+```
+
+- *Type:* double
+
+---
+
+##### `EndRangeExclusive`<sup>Required</sup> <a name="EndRangeExclusive" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersOutputReference.property.endRangeExclusive"></a>
+
+```csharp
+public double EndRangeExclusive { get; }
+```
+
+- *Type:* double
+
+---
+
+##### `RateValue`<sup>Required</sup> <a name="RateValue" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersOutputReference.property.rateValue"></a>
+
+```csharp
+public double RateValue { get; }
+```
+
+- *Type:* double
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersOutputReference.property.internalValue"></a>
+
+```csharp
+public IResolvable|BillingconductorPricingRuleTieringCustomTiers InternalValue { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiers">BillingconductorPricingRuleTieringCustomTiers</a>
+
+---
+
+
 ### BillingconductorPricingRuleTieringFreeTierOutputReference <a name="BillingconductorPricingRuleTieringFreeTierOutputReference" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringFreeTierOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringFreeTierOutputReference.Initializer"></a>
@@ -2268,7 +2866,9 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringOutputReference.putCustomTiers">PutCustomTiers</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringOutputReference.putFreeTier">PutFreeTier</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringOutputReference.resetCustomTiers">ResetCustomTiers</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringOutputReference.resetFreeTier">ResetFreeTier</a></code> | *No description.* |
 
 ---
@@ -2423,6 +3023,18 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
+##### `PutCustomTiers` <a name="PutCustomTiers" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringOutputReference.putCustomTiers"></a>
+
+```csharp
+private void PutCustomTiers(IResolvable|BillingconductorPricingRuleTieringCustomTiers[] Value)
+```
+
+###### `Value`<sup>Required</sup> <a name="Value" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringOutputReference.putCustomTiers.parameter.value"></a>
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiers">BillingconductorPricingRuleTieringCustomTiers</a>[]
+
+---
+
 ##### `PutFreeTier` <a name="PutFreeTier" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringOutputReference.putFreeTier"></a>
 
 ```csharp
@@ -2434,6 +3046,12 @@ private void PutFreeTier(BillingconductorPricingRuleTieringFreeTier Value)
 - *Type:* <a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringFreeTier">BillingconductorPricingRuleTieringFreeTier</a>
 
 ---
+
+##### `ResetCustomTiers` <a name="ResetCustomTiers" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringOutputReference.resetCustomTiers"></a>
+
+```csharp
+private void ResetCustomTiers()
+```
 
 ##### `ResetFreeTier` <a name="ResetFreeTier" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringOutputReference.resetFreeTier"></a>
 
@@ -2448,7 +3066,9 @@ private void ResetFreeTier()
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringOutputReference.property.customTiers">CustomTiers</a></code> | <code><a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersList">BillingconductorPricingRuleTieringCustomTiersList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringOutputReference.property.freeTier">FreeTier</a></code> | <code><a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringFreeTierOutputReference">BillingconductorPricingRuleTieringFreeTierOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringOutputReference.property.customTiersInput">CustomTiersInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiers">BillingconductorPricingRuleTieringCustomTiers</a>[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringOutputReference.property.freeTierInput">FreeTierInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringFreeTier">BillingconductorPricingRuleTieringFreeTier</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringOutputReference.property.internalValue">InternalValue</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTiering">BillingconductorPricingRuleTiering</a></code> | *No description.* |
 
@@ -2478,6 +3098,16 @@ public string Fqn { get; }
 
 ---
 
+##### `CustomTiers`<sup>Required</sup> <a name="CustomTiers" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringOutputReference.property.customTiers"></a>
+
+```csharp
+public BillingconductorPricingRuleTieringCustomTiersList CustomTiers { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersList">BillingconductorPricingRuleTieringCustomTiersList</a>
+
+---
+
 ##### `FreeTier`<sup>Required</sup> <a name="FreeTier" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringOutputReference.property.freeTier"></a>
 
 ```csharp
@@ -2485,6 +3115,16 @@ public BillingconductorPricingRuleTieringFreeTierOutputReference FreeTier { get;
 ```
 
 - *Type:* <a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringFreeTierOutputReference">BillingconductorPricingRuleTieringFreeTierOutputReference</a>
+
+---
+
+##### `CustomTiersInput`<sup>Optional</sup> <a name="CustomTiersInput" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringOutputReference.property.customTiersInput"></a>
+
+```csharp
+public IResolvable|BillingconductorPricingRuleTieringCustomTiers[] CustomTiersInput { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiers">BillingconductorPricingRuleTieringCustomTiers</a>[]
 
 ---
 

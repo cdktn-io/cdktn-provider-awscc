@@ -1,0 +1,1028 @@
+# `route53TrafficPolicyInstance` Submodule <a name="`route53TrafficPolicyInstance` Submodule" id="@cdktn/provider-awscc.route53TrafficPolicyInstance"></a>
+
+## Constructs <a name="Constructs" id="Constructs"></a>
+
+### Route53TrafficPolicyInstance <a name="Route53TrafficPolicyInstance" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance"></a>
+
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/route53_traffic_policy_instance awscc_route53_traffic_policy_instance}.
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.Initializer"></a>
+
+```typescript
+import { route53TrafficPolicyInstance } from '@cdktn/provider-awscc'
+
+new route53TrafficPolicyInstance.Route53TrafficPolicyInstance(scope: Construct, id: string, config: Route53TrafficPolicyInstanceConfig)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.Initializer.parameter.scope">scope</a></code> | <code>constructs.Construct</code> | The scope in which to define this construct. |
+| <code><a href="#@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.Initializer.parameter.id">id</a></code> | <code>string</code> | The scoped construct ID. |
+| <code><a href="#@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.Initializer.parameter.config">config</a></code> | <code><a href="#@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstanceConfig">Route53TrafficPolicyInstanceConfig</a></code> | *No description.* |
+
+---
+
+##### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.Initializer.parameter.scope"></a>
+
+- *Type:* constructs.Construct
+
+The scope in which to define this construct.
+
+---
+
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.Initializer.parameter.id"></a>
+
+- *Type:* string
+
+The scoped construct ID.
+
+Must be unique amongst siblings in the same scope
+
+---
+
+##### `config`<sup>Required</sup> <a name="config" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.Initializer.parameter.config"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstanceConfig">Route53TrafficPolicyInstanceConfig</a>
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.toString">toString</a></code> | Returns a string representation of this construct. |
+| <code><a href="#@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.with">with</a></code> | Applies one or more mixins to this construct. |
+| <code><a href="#@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.addOverride">addOverride</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.overrideLogicalId">overrideLogicalId</a></code> | Overrides the auto-generated logical ID with a specific ID. |
+| <code><a href="#@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.resetOverrideLogicalId">resetOverrideLogicalId</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
+| <code><a href="#@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.toHclTerraform">toHclTerraform</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.toMetadata">toMetadata</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.toTerraform">toTerraform</a></code> | Adds this resource to the terraform JSON output. |
+| <code><a href="#@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.addMoveTarget">addMoveTarget</a></code> | Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move. |
+| <code><a href="#@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.hasResourceMove">hasResourceMove</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.importFrom">importFrom</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.moveFromId">moveFromId</a></code> | Move the resource corresponding to "id" to this resource. |
+| <code><a href="#@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.moveTo">moveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
+| <code><a href="#@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.moveToId">moveToId</a></code> | Moves this resource to the resource corresponding to "id". |
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Returns a string representation of this construct.
+
+##### `with` <a name="with" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.with"></a>
+
+```typescript
+public with(mixins: ...IMixin[]): IConstruct
+```
+
+Applies one or more mixins to this construct.
+
+Mixins are applied in order. The list of constructs is captured at the
+start of the call, so constructs added by a mixin will not be visited.
+Use multiple `with()` calls if subsequent mixins should apply to added
+constructs.
+
+###### `mixins`<sup>Required</sup> <a name="mixins" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.with.parameter.mixins"></a>
+
+- *Type:* ...constructs.IMixin[]
+
+The mixins to apply.
+
+---
+
+##### `addOverride` <a name="addOverride" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.addOverride"></a>
+
+```typescript
+public addOverride(path: string, value: any): void
+```
+
+###### `path`<sup>Required</sup> <a name="path" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.addOverride.parameter.path"></a>
+
+- *Type:* string
+
+---
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.addOverride.parameter.value"></a>
+
+- *Type:* any
+
+---
+
+##### `overrideLogicalId` <a name="overrideLogicalId" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.overrideLogicalId"></a>
+
+```typescript
+public overrideLogicalId(newLogicalId: string): void
+```
+
+Overrides the auto-generated logical ID with a specific ID.
+
+###### `newLogicalId`<sup>Required</sup> <a name="newLogicalId" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.overrideLogicalId.parameter.newLogicalId"></a>
+
+- *Type:* string
+
+The new logical ID to use for this stack element.
+
+---
+
+##### `resetOverrideLogicalId` <a name="resetOverrideLogicalId" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.resetOverrideLogicalId"></a>
+
+```typescript
+public resetOverrideLogicalId(): void
+```
+
+Resets a previously passed logical Id to use the auto-generated logical id again.
+
+##### `toHclTerraform` <a name="toHclTerraform" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.toHclTerraform"></a>
+
+```typescript
+public toHclTerraform(): any
+```
+
+##### `toMetadata` <a name="toMetadata" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.toMetadata"></a>
+
+```typescript
+public toMetadata(): any
+```
+
+##### `toTerraform` <a name="toTerraform" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.toTerraform"></a>
+
+```typescript
+public toTerraform(): any
+```
+
+Adds this resource to the terraform JSON output.
+
+##### `addMoveTarget` <a name="addMoveTarget" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.addMoveTarget"></a>
+
+```typescript
+public addMoveTarget(moveTarget: string): void
+```
+
+Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
+
+###### `moveTarget`<sup>Required</sup> <a name="moveTarget" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.addMoveTarget.parameter.moveTarget"></a>
+
+- *Type:* string
+
+The string move target that will correspond to this resource.
+
+---
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `hasResourceMove` <a name="hasResourceMove" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.hasResourceMove"></a>
+
+```typescript
+public hasResourceMove(): TerraformResourceMoveByTarget | TerraformResourceMoveById
+```
+
+##### `importFrom` <a name="importFrom" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.importFrom"></a>
+
+```typescript
+public importFrom(id: string, provider?: TerraformProvider): void
+```
+
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.importFrom.parameter.id"></a>
+
+- *Type:* string
+
+---
+
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.importFrom.parameter.provider"></a>
+
+- *Type:* cdktn.TerraformProvider
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.interpolationForAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `moveFromId` <a name="moveFromId" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.moveFromId"></a>
+
+```typescript
+public moveFromId(id: string): void
+```
+
+Move the resource corresponding to "id" to this resource.
+
+Note that the resource being moved from must be marked as moved using its instance function.
+
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.moveFromId.parameter.id"></a>
+
+- *Type:* string
+
+Full id of resource being moved from, e.g. "aws_s3_bucket.example".
+
+---
+
+##### `moveTo` <a name="moveTo" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.moveTo"></a>
+
+```typescript
+public moveTo(moveTarget: string, index?: string | number): void
+```
+
+Moves this resource to the target resource given by moveTarget.
+
+###### `moveTarget`<sup>Required</sup> <a name="moveTarget" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.moveTo.parameter.moveTarget"></a>
+
+- *Type:* string
+
+The previously set user defined string set by .addMoveTarget() corresponding to the resource to move to.
+
+---
+
+###### `index`<sup>Optional</sup> <a name="index" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.moveTo.parameter.index"></a>
+
+- *Type:* string | number
+
+Optional The index corresponding to the key the resource is to appear in the foreach of a resource to move to.
+
+---
+
+##### `moveToId` <a name="moveToId" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.moveToId"></a>
+
+```typescript
+public moveToId(id: string): void
+```
+
+Moves this resource to the resource corresponding to "id".
+
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.moveToId.parameter.id"></a>
+
+- *Type:* string
+
+Full id of resource to move to, e.g. "aws_s3_bucket.example".
+
+---
+
+#### Static Functions <a name="Static Functions" id="Static Functions"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.isTerraformElement">isTerraformElement</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.isTerraformResource">isTerraformResource</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.generateConfigForImport">generateConfigForImport</a></code> | Generates CDKTN code for importing a Route53TrafficPolicyInstance resource upon running "cdktn plan <stack-name>". |
+
+---
+
+##### `isConstruct` <a name="isConstruct" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.isConstruct"></a>
+
+```typescript
+import { route53TrafficPolicyInstance } from '@cdktn/provider-awscc'
+
+route53TrafficPolicyInstance.Route53TrafficPolicyInstance.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+Use this method instead of `instanceof` to properly detect `Construct`
+instances, even when the construct library is symlinked.
+
+Explanation: in JavaScript, multiple copies of the `constructs` library on
+disk are seen as independent, completely different libraries. As a
+consequence, the class `Construct` in each copy of the `constructs` library
+is seen as a different class, and an instance of one class will not test as
+`instanceof` the other class. `npm install` will not create installations
+like this, but users may manually symlink construct libraries together or
+use a monorepo tool: in those cases, multiple copies of the `constructs`
+library can be accidentally installed, and `instanceof` will behave
+unpredictably. It is safest to avoid using `instanceof`, and using
+this type-testing method instead.
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
+
+---
+
+##### `isTerraformElement` <a name="isTerraformElement" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.isTerraformElement"></a>
+
+```typescript
+import { route53TrafficPolicyInstance } from '@cdktn/provider-awscc'
+
+route53TrafficPolicyInstance.Route53TrafficPolicyInstance.isTerraformElement(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.isTerraformElement.parameter.x"></a>
+
+- *Type:* any
+
+---
+
+##### `isTerraformResource` <a name="isTerraformResource" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.isTerraformResource"></a>
+
+```typescript
+import { route53TrafficPolicyInstance } from '@cdktn/provider-awscc'
+
+route53TrafficPolicyInstance.Route53TrafficPolicyInstance.isTerraformResource(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.isTerraformResource.parameter.x"></a>
+
+- *Type:* any
+
+---
+
+##### `generateConfigForImport` <a name="generateConfigForImport" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.generateConfigForImport"></a>
+
+```typescript
+import { route53TrafficPolicyInstance } from '@cdktn/provider-awscc'
+
+route53TrafficPolicyInstance.Route53TrafficPolicyInstance.generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: TerraformProvider)
+```
+
+Generates CDKTN code for importing a Route53TrafficPolicyInstance resource upon running "cdktn plan <stack-name>".
+
+###### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.generateConfigForImport.parameter.scope"></a>
+
+- *Type:* constructs.Construct
+
+The scope in which to define this construct.
+
+---
+
+###### `importToId`<sup>Required</sup> <a name="importToId" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.generateConfigForImport.parameter.importToId"></a>
+
+- *Type:* string
+
+The construct id used in the generated config for the Route53TrafficPolicyInstance to import.
+
+---
+
+###### `importFromId`<sup>Required</sup> <a name="importFromId" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.generateConfigForImport.parameter.importFromId"></a>
+
+- *Type:* string
+
+The id of the existing Route53TrafficPolicyInstance that should be imported.
+
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/route53_traffic_policy_instance#import import section} in the documentation of this resource for the id to use
+
+---
+
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.generateConfigForImport.parameter.provider"></a>
+
+- *Type:* cdktn.TerraformProvider
+
+? Optional instance of the provider where the Route53TrafficPolicyInstance to import is found.
+
+---
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
+| <code><a href="#@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.property.cdktfStack">cdktfStack</a></code> | <code>cdktn.TerraformStack</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.property.friendlyUniqueId">friendlyUniqueId</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.property.terraformMetaArguments">terraformMetaArguments</a></code> | <code>{[ key: string ]: any}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.property.terraformResourceType">terraformResourceType</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.property.terraformGeneratorMetadata">terraformGeneratorMetadata</a></code> | <code>cdktn.TerraformProviderGeneratorMetadata</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.property.connection">connection</a></code> | <code>cdktn.SSHProvisionerConnection \| cdktn.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.property.count">count</a></code> | <code>number \| cdktn.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.property.dependsOn">dependsOn</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.property.forEach">forEach</a></code> | <code>cdktn.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.property.arn">arn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.property.id">id</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.property.state">state</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.property.trafficPolicyInstanceId">trafficPolicyInstanceId</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.property.trafficPolicyType">trafficPolicyType</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.property.hostedZoneIdInput">hostedZoneIdInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.property.nameInput">nameInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.property.trafficPolicyIdInput">trafficPolicyIdInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.property.trafficPolicyVersionInput">trafficPolicyVersionInput</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.property.ttlInput">ttlInput</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.property.hostedZoneId">hostedZoneId</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.property.name">name</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.property.trafficPolicyId">trafficPolicyId</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.property.trafficPolicyVersion">trafficPolicyVersion</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.property.ttl">ttl</a></code> | <code>number</code> | *No description.* |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
+
+---
+
+##### `cdktfStack`<sup>Required</sup> <a name="cdktfStack" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.property.cdktfStack"></a>
+
+```typescript
+public readonly cdktfStack: TerraformStack;
+```
+
+- *Type:* cdktn.TerraformStack
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `friendlyUniqueId`<sup>Required</sup> <a name="friendlyUniqueId" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.property.friendlyUniqueId"></a>
+
+```typescript
+public readonly friendlyUniqueId: string;
+```
+
+- *Type:* string
+
+---
+
+##### `terraformMetaArguments`<sup>Required</sup> <a name="terraformMetaArguments" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.property.terraformMetaArguments"></a>
+
+```typescript
+public readonly terraformMetaArguments: {[ key: string ]: any};
+```
+
+- *Type:* {[ key: string ]: any}
+
+---
+
+##### `terraformResourceType`<sup>Required</sup> <a name="terraformResourceType" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.property.terraformResourceType"></a>
+
+```typescript
+public readonly terraformResourceType: string;
+```
+
+- *Type:* string
+
+---
+
+##### `terraformGeneratorMetadata`<sup>Optional</sup> <a name="terraformGeneratorMetadata" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.property.terraformGeneratorMetadata"></a>
+
+```typescript
+public readonly terraformGeneratorMetadata: TerraformProviderGeneratorMetadata;
+```
+
+- *Type:* cdktn.TerraformProviderGeneratorMetadata
+
+---
+
+##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.property.connection"></a>
+
+```typescript
+public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnection;
+```
+
+- *Type:* cdktn.SSHProvisionerConnection | cdktn.WinrmProvisionerConnection
+
+---
+
+##### `count`<sup>Optional</sup> <a name="count" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.property.count"></a>
+
+```typescript
+public readonly count: number | TerraformCount;
+```
+
+- *Type:* number | cdktn.TerraformCount
+
+---
+
+##### `dependsOn`<sup>Optional</sup> <a name="dependsOn" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.property.dependsOn"></a>
+
+```typescript
+public readonly dependsOn: string[];
+```
+
+- *Type:* string[]
+
+---
+
+##### `forEach`<sup>Optional</sup> <a name="forEach" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.property.forEach"></a>
+
+```typescript
+public readonly forEach: ITerraformIterator;
+```
+
+- *Type:* cdktn.ITerraformIterator
+
+---
+
+##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.property.lifecycle"></a>
+
+```typescript
+public readonly lifecycle: TerraformResourceLifecycle;
+```
+
+- *Type:* cdktn.TerraformResourceLifecycle
+
+---
+
+##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.property.provider"></a>
+
+```typescript
+public readonly provider: TerraformProvider;
+```
+
+- *Type:* cdktn.TerraformProvider
+
+---
+
+##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.property.provisioners"></a>
+
+```typescript
+public readonly provisioners: (FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner)[];
+```
+
+- *Type:* cdktn.FileProvisioner | cdktn.LocalExecProvisioner | cdktn.RemoteExecProvisioner[]
+
+---
+
+##### `arn`<sup>Required</sup> <a name="arn" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.property.arn"></a>
+
+```typescript
+public readonly arn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.property.id"></a>
+
+```typescript
+public readonly id: string;
+```
+
+- *Type:* string
+
+---
+
+##### `state`<sup>Required</sup> <a name="state" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.property.state"></a>
+
+```typescript
+public readonly state: string;
+```
+
+- *Type:* string
+
+---
+
+##### `trafficPolicyInstanceId`<sup>Required</sup> <a name="trafficPolicyInstanceId" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.property.trafficPolicyInstanceId"></a>
+
+```typescript
+public readonly trafficPolicyInstanceId: string;
+```
+
+- *Type:* string
+
+---
+
+##### `trafficPolicyType`<sup>Required</sup> <a name="trafficPolicyType" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.property.trafficPolicyType"></a>
+
+```typescript
+public readonly trafficPolicyType: string;
+```
+
+- *Type:* string
+
+---
+
+##### `hostedZoneIdInput`<sup>Optional</sup> <a name="hostedZoneIdInput" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.property.hostedZoneIdInput"></a>
+
+```typescript
+public readonly hostedZoneIdInput: string;
+```
+
+- *Type:* string
+
+---
+
+##### `nameInput`<sup>Optional</sup> <a name="nameInput" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.property.nameInput"></a>
+
+```typescript
+public readonly nameInput: string;
+```
+
+- *Type:* string
+
+---
+
+##### `trafficPolicyIdInput`<sup>Optional</sup> <a name="trafficPolicyIdInput" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.property.trafficPolicyIdInput"></a>
+
+```typescript
+public readonly trafficPolicyIdInput: string;
+```
+
+- *Type:* string
+
+---
+
+##### `trafficPolicyVersionInput`<sup>Optional</sup> <a name="trafficPolicyVersionInput" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.property.trafficPolicyVersionInput"></a>
+
+```typescript
+public readonly trafficPolicyVersionInput: number;
+```
+
+- *Type:* number
+
+---
+
+##### `ttlInput`<sup>Optional</sup> <a name="ttlInput" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.property.ttlInput"></a>
+
+```typescript
+public readonly ttlInput: number;
+```
+
+- *Type:* number
+
+---
+
+##### `hostedZoneId`<sup>Required</sup> <a name="hostedZoneId" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.property.hostedZoneId"></a>
+
+```typescript
+public readonly hostedZoneId: string;
+```
+
+- *Type:* string
+
+---
+
+##### `name`<sup>Required</sup> <a name="name" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.property.name"></a>
+
+```typescript
+public readonly name: string;
+```
+
+- *Type:* string
+
+---
+
+##### `trafficPolicyId`<sup>Required</sup> <a name="trafficPolicyId" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.property.trafficPolicyId"></a>
+
+```typescript
+public readonly trafficPolicyId: string;
+```
+
+- *Type:* string
+
+---
+
+##### `trafficPolicyVersion`<sup>Required</sup> <a name="trafficPolicyVersion" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.property.trafficPolicyVersion"></a>
+
+```typescript
+public readonly trafficPolicyVersion: number;
+```
+
+- *Type:* number
+
+---
+
+##### `ttl`<sup>Required</sup> <a name="ttl" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.property.ttl"></a>
+
+```typescript
+public readonly ttl: number;
+```
+
+- *Type:* number
+
+---
+
+#### Constants <a name="Constants" id="Constants"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.property.tfResourceType">tfResourceType</a></code> | <code>string</code> | *No description.* |
+
+---
+
+##### `tfResourceType`<sup>Required</sup> <a name="tfResourceType" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstance.property.tfResourceType"></a>
+
+```typescript
+public readonly tfResourceType: string;
+```
+
+- *Type:* string
+
+---
+
+## Structs <a name="Structs" id="Structs"></a>
+
+### Route53TrafficPolicyInstanceConfig <a name="Route53TrafficPolicyInstanceConfig" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstanceConfig"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstanceConfig.Initializer"></a>
+
+```typescript
+import { route53TrafficPolicyInstance } from '@cdktn/provider-awscc'
+
+const route53TrafficPolicyInstanceConfig: route53TrafficPolicyInstance.Route53TrafficPolicyInstanceConfig = { ... }
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstanceConfig.property.connection">connection</a></code> | <code>cdktn.SSHProvisionerConnection \| cdktn.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstanceConfig.property.count">count</a></code> | <code>number \| cdktn.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstanceConfig.property.dependsOn">dependsOn</a></code> | <code>cdktn.ITerraformDependable[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstanceConfig.property.forEach">forEach</a></code> | <code>cdktn.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstanceConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstanceConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstanceConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstanceConfig.property.hostedZoneId">hostedZoneId</a></code> | <code>string</code> | The ID of the hosted zone that Amazon Route 53 creates the resource record sets in. |
+| <code><a href="#@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstanceConfig.property.name">name</a></code> | <code>string</code> | The domain name, or subdomain name, for which Amazon Route 53 answers DNS queries by using the resource record sets it creates for this traffic policy instance. |
+| <code><a href="#@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstanceConfig.property.trafficPolicyId">trafficPolicyId</a></code> | <code>string</code> | The ID of the traffic policy that Amazon Route 53 uses to create resource record sets in the specified hosted zone. |
+| <code><a href="#@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstanceConfig.property.trafficPolicyVersion">trafficPolicyVersion</a></code> | <code>number</code> | The version of the traffic policy that Amazon Route 53 uses to create resource record sets in the specified hosted zone. |
+| <code><a href="#@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstanceConfig.property.ttl">ttl</a></code> | <code>number</code> | The TTL that Amazon Route 53 assigns to all of the resource record sets that it creates in the specified hosted zone. |
+
+---
+
+##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstanceConfig.property.connection"></a>
+
+```typescript
+public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnection;
+```
+
+- *Type:* cdktn.SSHProvisionerConnection | cdktn.WinrmProvisionerConnection
+
+---
+
+##### `count`<sup>Optional</sup> <a name="count" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstanceConfig.property.count"></a>
+
+```typescript
+public readonly count: number | TerraformCount;
+```
+
+- *Type:* number | cdktn.TerraformCount
+
+---
+
+##### `dependsOn`<sup>Optional</sup> <a name="dependsOn" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstanceConfig.property.dependsOn"></a>
+
+```typescript
+public readonly dependsOn: ITerraformDependable[];
+```
+
+- *Type:* cdktn.ITerraformDependable[]
+
+---
+
+##### `forEach`<sup>Optional</sup> <a name="forEach" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstanceConfig.property.forEach"></a>
+
+```typescript
+public readonly forEach: ITerraformIterator;
+```
+
+- *Type:* cdktn.ITerraformIterator
+
+---
+
+##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstanceConfig.property.lifecycle"></a>
+
+```typescript
+public readonly lifecycle: TerraformResourceLifecycle;
+```
+
+- *Type:* cdktn.TerraformResourceLifecycle
+
+---
+
+##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstanceConfig.property.provider"></a>
+
+```typescript
+public readonly provider: TerraformProvider;
+```
+
+- *Type:* cdktn.TerraformProvider
+
+---
+
+##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstanceConfig.property.provisioners"></a>
+
+```typescript
+public readonly provisioners: (FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner)[];
+```
+
+- *Type:* cdktn.FileProvisioner | cdktn.LocalExecProvisioner | cdktn.RemoteExecProvisioner[]
+
+---
+
+##### `hostedZoneId`<sup>Required</sup> <a name="hostedZoneId" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstanceConfig.property.hostedZoneId"></a>
+
+```typescript
+public readonly hostedZoneId: string;
+```
+
+- *Type:* string
+
+The ID of the hosted zone that Amazon Route 53 creates the resource record sets in.
+
+The bare ID as Route 53 returns it, without a /hostedzone/ prefix.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/route53_traffic_policy_instance#hosted_zone_id Route53TrafficPolicyInstance#hosted_zone_id}
+
+---
+
+##### `name`<sup>Required</sup> <a name="name" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstanceConfig.property.name"></a>
+
+```typescript
+public readonly name: string;
+```
+
+- *Type:* string
+
+The domain name, or subdomain name, for which Amazon Route 53 answers DNS queries by using the resource record sets it creates for this traffic policy instance.
+
+Must be lower-case and end with a trailing dot, which is the form Route 53 returns: Route 53 normalizes DNS names, so admitting another form would neither round-trip through Read nor guarantee that a change to this property changes the resource's identity.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/route53_traffic_policy_instance#name Route53TrafficPolicyInstance#name}
+
+---
+
+##### `trafficPolicyId`<sup>Required</sup> <a name="trafficPolicyId" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstanceConfig.property.trafficPolicyId"></a>
+
+```typescript
+public readonly trafficPolicyId: string;
+```
+
+- *Type:* string
+
+The ID of the traffic policy that Amazon Route 53 uses to create resource record sets in the specified hosted zone.
+
+Lower-case, as Route 53 returns it.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/route53_traffic_policy_instance#traffic_policy_id Route53TrafficPolicyInstance#traffic_policy_id}
+
+---
+
+##### `trafficPolicyVersion`<sup>Required</sup> <a name="trafficPolicyVersion" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstanceConfig.property.trafficPolicyVersion"></a>
+
+```typescript
+public readonly trafficPolicyVersion: number;
+```
+
+- *Type:* number
+
+The version of the traffic policy that Amazon Route 53 uses to create resource record sets in the specified hosted zone.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/route53_traffic_policy_instance#traffic_policy_version Route53TrafficPolicyInstance#traffic_policy_version}
+
+---
+
+##### `ttl`<sup>Required</sup> <a name="ttl" id="@cdktn/provider-awscc.route53TrafficPolicyInstance.Route53TrafficPolicyInstanceConfig.property.ttl"></a>
+
+```typescript
+public readonly ttl: number;
+```
+
+- *Type:* number
+
+The TTL that Amazon Route 53 assigns to all of the resource record sets that it creates in the specified hosted zone.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/route53_traffic_policy_instance#ttl Route53TrafficPolicyInstance#ttl}
+
+---
+
+
+

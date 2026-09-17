@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/billingconductor_pricing_rule
+// https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/billingconductor_pricing_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,75 +15,75 @@ export interface BillingconductorPricingRuleConfig extends cdktn.TerraformMetaAr
   /**
   * The seller of services provided by AWS, their affiliates, or third-party providers selling services via AWS Marketplaces. Supported billing entities are AWS, AWS Marketplace, and AISPL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/billingconductor_pricing_rule#billing_entity BillingconductorPricingRule#billing_entity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/billingconductor_pricing_rule#billing_entity BillingconductorPricingRule#billing_entity}
   */
   readonly billingEntity?: string;
   /**
   * Pricing rule description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/billingconductor_pricing_rule#description BillingconductorPricingRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/billingconductor_pricing_rule#description BillingconductorPricingRule#description}
   */
   readonly description?: string;
   /**
   * Pricing rule modifier percentage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/billingconductor_pricing_rule#modifier_percentage BillingconductorPricingRule#modifier_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/billingconductor_pricing_rule#modifier_percentage BillingconductorPricingRule#modifier_percentage}
   */
   readonly modifierPercentage?: number;
   /**
   * Pricing rule name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/billingconductor_pricing_rule#name BillingconductorPricingRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/billingconductor_pricing_rule#name BillingconductorPricingRule#name}
   */
   readonly name: string;
   /**
   * The Operation which a SKU pricing rule is modifying
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/billingconductor_pricing_rule#operation BillingconductorPricingRule#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/billingconductor_pricing_rule#operation BillingconductorPricingRule#operation}
   */
   readonly operation?: string;
   /**
   * A term used to categorize the granularity of a Pricing Rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/billingconductor_pricing_rule#scope BillingconductorPricingRule#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/billingconductor_pricing_rule#scope BillingconductorPricingRule#scope}
   */
   readonly scope: string;
   /**
   * The service which a pricing rule is applied on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/billingconductor_pricing_rule#service BillingconductorPricingRule#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/billingconductor_pricing_rule#service BillingconductorPricingRule#service}
   */
   readonly service?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/billingconductor_pricing_rule#tags BillingconductorPricingRule#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/billingconductor_pricing_rule#tags BillingconductorPricingRule#tags}
   */
   readonly tags?: BillingconductorPricingRuleTags[] | cdktn.IResolvable;
   /**
   * The set of tiering configurations for the pricing rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/billingconductor_pricing_rule#tiering BillingconductorPricingRule#tiering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/billingconductor_pricing_rule#tiering BillingconductorPricingRule#tiering}
   */
   readonly tiering?: BillingconductorPricingRuleTiering;
   /**
   * One of MARKUP, DISCOUNT or TIERING that describes the behaviour of the pricing rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/billingconductor_pricing_rule#type BillingconductorPricingRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/billingconductor_pricing_rule#type BillingconductorPricingRule#type}
   */
   readonly type: string;
   /**
   * The UsageType which a SKU pricing rule is modifying
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/billingconductor_pricing_rule#usage_type BillingconductorPricingRule#usage_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/billingconductor_pricing_rule#usage_type BillingconductorPricingRule#usage_type}
   */
   readonly usageType?: string;
 }
 export interface BillingconductorPricingRuleTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/billingconductor_pricing_rule#key BillingconductorPricingRule#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/billingconductor_pricing_rule#key BillingconductorPricingRule#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/billingconductor_pricing_rule#value BillingconductorPricingRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/billingconductor_pricing_rule#value BillingconductorPricingRule#value}
   */
   readonly value?: string;
 }
@@ -226,9 +226,197 @@ export class BillingconductorPricingRuleTagsList extends cdktn.ComplexList {
     return new BillingconductorPricingRuleTagsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface BillingconductorPricingRuleTieringCustomTiers {
+  /**
+  * The inclusive beginning of the tier's usage range.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/billingconductor_pricing_rule#begin_range_inclusive BillingconductorPricingRule#begin_range_inclusive}
+  */
+  readonly beginRangeInclusive?: number;
+  /**
+  * The exclusive end of the tier's usage range. Omit for the last tier (infinity).
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/billingconductor_pricing_rule#end_range_exclusive BillingconductorPricingRule#end_range_exclusive}
+  */
+  readonly endRangeExclusive?: number;
+  /**
+  * The custom rate applied to usage within the tier's range.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/billingconductor_pricing_rule#rate_value BillingconductorPricingRule#rate_value}
+  */
+  readonly rateValue?: number;
+}
+
+export function billingconductorPricingRuleTieringCustomTiersToTerraform(struct?: BillingconductorPricingRuleTieringCustomTiers | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    begin_range_inclusive: cdktn.numberToTerraform(struct!.beginRangeInclusive),
+    end_range_exclusive: cdktn.numberToTerraform(struct!.endRangeExclusive),
+    rate_value: cdktn.numberToTerraform(struct!.rateValue),
+  }
+}
+
+
+export function billingconductorPricingRuleTieringCustomTiersToHclTerraform(struct?: BillingconductorPricingRuleTieringCustomTiers | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    begin_range_inclusive: {
+      value: cdktn.numberToHclTerraform(struct!.beginRangeInclusive),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    end_range_exclusive: {
+      value: cdktn.numberToHclTerraform(struct!.endRangeExclusive),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    rate_value: {
+      value: cdktn.numberToHclTerraform(struct!.rateValue),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class BillingconductorPricingRuleTieringCustomTiersOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): BillingconductorPricingRuleTieringCustomTiers | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._beginRangeInclusive !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.beginRangeInclusive = this._beginRangeInclusive;
+    }
+    if (this._endRangeExclusive !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.endRangeExclusive = this._endRangeExclusive;
+    }
+    if (this._rateValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.rateValue = this._rateValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: BillingconductorPricingRuleTieringCustomTiers | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._beginRangeInclusive = undefined;
+      this._endRangeExclusive = undefined;
+      this._rateValue = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._beginRangeInclusive = value.beginRangeInclusive;
+      this._endRangeExclusive = value.endRangeExclusive;
+      this._rateValue = value.rateValue;
+    }
+  }
+
+  // begin_range_inclusive - computed: true, optional: true, required: false
+  private _beginRangeInclusive?: number; 
+  public get beginRangeInclusive() {
+    return this.getNumberAttribute('begin_range_inclusive');
+  }
+  public set beginRangeInclusive(value: number) {
+    this._beginRangeInclusive = value;
+  }
+  public resetBeginRangeInclusive() {
+    this._beginRangeInclusive = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get beginRangeInclusiveInput() {
+    return this._beginRangeInclusive;
+  }
+
+  // end_range_exclusive - computed: true, optional: true, required: false
+  private _endRangeExclusive?: number; 
+  public get endRangeExclusive() {
+    return this.getNumberAttribute('end_range_exclusive');
+  }
+  public set endRangeExclusive(value: number) {
+    this._endRangeExclusive = value;
+  }
+  public resetEndRangeExclusive() {
+    this._endRangeExclusive = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get endRangeExclusiveInput() {
+    return this._endRangeExclusive;
+  }
+
+  // rate_value - computed: true, optional: true, required: false
+  private _rateValue?: number; 
+  public get rateValue() {
+    return this.getNumberAttribute('rate_value');
+  }
+  public set rateValue(value: number) {
+    this._rateValue = value;
+  }
+  public resetRateValue() {
+    this._rateValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get rateValueInput() {
+    return this._rateValue;
+  }
+}
+
+export class BillingconductorPricingRuleTieringCustomTiersList extends cdktn.ComplexList {
+  public internalValue? : BillingconductorPricingRuleTieringCustomTiers[] | cdktn.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): BillingconductorPricingRuleTieringCustomTiersOutputReference {
+    return new BillingconductorPricingRuleTieringCustomTiersOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface BillingconductorPricingRuleTieringFreeTier {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/billingconductor_pricing_rule#activated BillingconductorPricingRule#activated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/billingconductor_pricing_rule#activated BillingconductorPricingRule#activated}
   */
   readonly activated?: boolean | cdktn.IResolvable;
 }
@@ -322,9 +510,15 @@ export class BillingconductorPricingRuleTieringFreeTierOutputReference extends c
 }
 export interface BillingconductorPricingRuleTiering {
   /**
+  * The set of custom volume tiers for a SKU-scoped TIERING pricing rule. Tiers must start at 0, be contiguous, and the last tier must have no end range.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/billingconductor_pricing_rule#custom_tiers BillingconductorPricingRule#custom_tiers}
+  */
+  readonly customTiers?: BillingconductorPricingRuleTieringCustomTiers[] | cdktn.IResolvable;
+  /**
   * The possible customizable free tier configurations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/billingconductor_pricing_rule#free_tier BillingconductorPricingRule#free_tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/billingconductor_pricing_rule#free_tier BillingconductorPricingRule#free_tier}
   */
   readonly freeTier?: BillingconductorPricingRuleTieringFreeTier;
 }
@@ -335,6 +529,7 @@ export function billingconductorPricingRuleTieringToTerraform(struct?: Billingco
     throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
+    custom_tiers: cdktn.listMapper(billingconductorPricingRuleTieringCustomTiersToTerraform, false)(struct!.customTiers),
     free_tier: billingconductorPricingRuleTieringFreeTierToTerraform(struct!.freeTier),
   }
 }
@@ -346,6 +541,12 @@ export function billingconductorPricingRuleTieringToHclTerraform(struct?: Billin
     throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
+    custom_tiers: {
+      value: cdktn.listMapperHcl(billingconductorPricingRuleTieringCustomTiersToHclTerraform, false)(struct!.customTiers),
+      isBlock: true,
+      type: "list",
+      storageClassType: "BillingconductorPricingRuleTieringCustomTiersList",
+    },
     free_tier: {
       value: billingconductorPricingRuleTieringFreeTierToHclTerraform(struct!.freeTier),
       isBlock: true,
@@ -376,6 +577,10 @@ export class BillingconductorPricingRuleTieringOutputReference extends cdktn.Com
     }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._customTiers?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.customTiers = this._customTiers?.internalValue;
+    }
     if (this._freeTier?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.freeTier = this._freeTier?.internalValue;
@@ -387,6 +592,7 @@ export class BillingconductorPricingRuleTieringOutputReference extends cdktn.Com
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
+      this._customTiers.internalValue = undefined;
       this._freeTier.internalValue = undefined;
     }
     else if (cdktn.Tokenization.isResolvable(value)) {
@@ -396,8 +602,25 @@ export class BillingconductorPricingRuleTieringOutputReference extends cdktn.Com
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
+      this._customTiers.internalValue = value.customTiers;
       this._freeTier.internalValue = value.freeTier;
     }
+  }
+
+  // custom_tiers - computed: true, optional: true, required: false
+  private _customTiers = new BillingconductorPricingRuleTieringCustomTiersList(this, "custom_tiers", false);
+  public get customTiers() {
+    return this._customTiers;
+  }
+  public putCustomTiers(value: BillingconductorPricingRuleTieringCustomTiers[] | cdktn.IResolvable) {
+    this._customTiers.internalValue = value;
+  }
+  public resetCustomTiers() {
+    this._customTiers.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get customTiersInput() {
+    return this._customTiers.internalValue;
   }
 
   // free_tier - computed: true, optional: true, required: false
@@ -418,7 +641,7 @@ export class BillingconductorPricingRuleTieringOutputReference extends cdktn.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/billingconductor_pricing_rule awscc_billingconductor_pricing_rule}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/billingconductor_pricing_rule awscc_billingconductor_pricing_rule}
 */
 export class BillingconductorPricingRule extends cdktn.TerraformResource {
 
@@ -434,7 +657,7 @@ export class BillingconductorPricingRule extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a BillingconductorPricingRule resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BillingconductorPricingRule to import
-  * @param importFromId The id of the existing BillingconductorPricingRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/billingconductor_pricing_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BillingconductorPricingRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/billingconductor_pricing_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BillingconductorPricingRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -446,7 +669,7 @@ export class BillingconductorPricingRule extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/billingconductor_pricing_rule awscc_billingconductor_pricing_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/billingconductor_pricing_rule awscc_billingconductor_pricing_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -457,7 +680,7 @@ export class BillingconductorPricingRule extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_billingconductor_pricing_rule',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.101.0',
+        providerVersion: '1.102.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

@@ -4,7 +4,7 @@
 
 ### DynamodbTable <a name="DynamodbTable" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTable"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table awscc_dynamodb_table}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table awscc_dynamodb_table}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTable.Initializer"></a>
 
@@ -40,6 +40,7 @@ dynamodbTable.DynamodbTable(
   table_name: str = None,
   tags: IResolvable | typing.List[DynamodbTableTags] = None,
   time_to_live_specification: DynamodbTableTimeToLiveSpecification = None,
+  vector_indexes: IResolvable | typing.List[DynamodbTableVectorIndexes] = None,
   warm_throughput: DynamodbTableWarmThroughput = None
 )
 ```
@@ -74,6 +75,7 @@ dynamodbTable.DynamodbTable(
 | <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTable.Initializer.parameter.tableName">table_name</a></code> | <code>str</code> | A name for the table. |
 | <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTable.Initializer.parameter.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableTags">DynamodbTableTags</a>]</code> | An array of key-value pairs to apply to this resource.  For more information, see [Tag](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-resource-tags.html). |
 | <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTable.Initializer.parameter.timeToLiveSpecification">time_to_live_specification</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableTimeToLiveSpecification">DynamodbTableTimeToLiveSpecification</a></code> | Specifies the Time to Live (TTL) settings for the table. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTable.Initializer.parameter.vectorIndexes">vector_indexes</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexes">DynamodbTableVectorIndexes</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#vector_indexes DynamodbTable#vector_indexes}. |
 | <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTable.Initializer.parameter.warmThroughput">warm_throughput</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableWarmThroughput">DynamodbTableWarmThroughput</a></code> | Represents the warm throughput (in read units per second and write units per second) for creating a table. |
 
 ---
@@ -146,7 +148,7 @@ Specifies the attributes that make up the primary key for the table.
 
 The attributes in the `KeySchema` property must also be defined in the `AttributeDefinitions` property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#key_schema DynamodbTable#key_schema}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#key_schema DynamodbTable#key_schema}
 
 ---
 
@@ -159,7 +161,7 @@ A list of attributes that describe the key schema for the table and indexes.
 This property is required to create a DDB table.
 You can add an `AttributeDefinition` without interruption. Changing the type of an existing `AttributeDefinition` requires replacement of the table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#attribute_definitions DynamodbTable#attribute_definitions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#attribute_definitions DynamodbTable#attribute_definitions}
 
 ---
 
@@ -176,7 +178,7 @@ Valid values include:
 
 If not specified, the default is `PROVISIONED`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#billing_mode DynamodbTable#billing_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#billing_mode DynamodbTable#billing_mode}
 
 ---
 
@@ -186,7 +188,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The settings used to specify whether to enable CloudWatch Contributor Insights for the table and define which events to monitor.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#contributor_insights_specification DynamodbTable#contributor_insights_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#contributor_insights_specification DynamodbTable#contributor_insights_specification}
 
 ---
 
@@ -198,7 +200,7 @@ Determines if a table is protected from deletion.
 
 When enabled, the table cannot be deleted by any user or process. This setting is disabled by default. For more information, see [Using deletion protection](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/WorkingWithTables.Basics.html#WorkingWithTables.Basics.DeletionProtection) in the *Developer Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#deletion_protection_enabled DynamodbTable#deletion_protection_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#deletion_protection_enabled DynamodbTable#deletion_protection_enabled}
 
 ---
 
@@ -216,7 +218,7 @@ Updates are not supported. The following are exceptions:
 * If you update either the contributor insights specification or the provisioned throughput values of global secondary indexes, you can update the table without interruption.
 * You can delete or add one global secondary index without interruption. If you do both in the same update (for example, by changing the index's logical ID), the update fails.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#global_secondary_indexes DynamodbTable#global_secondary_indexes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#global_secondary_indexes DynamodbTable#global_secondary_indexes}
 
 ---
 
@@ -228,7 +230,7 @@ Specifies the properties of data being imported from the S3 bucket source to the
 
 If you specify the `ImportSourceSpecification` property, and also specify either the `StreamSpecification`, the `TableClass` property, the `DeletionProtectionEnabled` property, or the `WarmThroughput` property, the IAM entity creating/updating stack must have `UpdateTable` permission.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#import_source_specification DynamodbTable#import_source_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#import_source_specification DynamodbTable#import_source_specification}
 
 ---
 
@@ -238,7 +240,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The Kinesis Data Streams configuration for the specified table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#kinesis_stream_specification DynamodbTable#kinesis_stream_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#kinesis_stream_specification DynamodbTable#kinesis_stream_specification}
 
 ---
 
@@ -250,7 +252,7 @@ Local secondary indexes to be created on the table.
 
 You can create up to 5 local secondary indexes. Each index is scoped to a given hash key value. The size of each hash key can be up to 10 gigabytes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#local_secondary_indexes DynamodbTable#local_secondary_indexes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#local_secondary_indexes DynamodbTable#local_secondary_indexes}
 
 ---
 
@@ -262,7 +264,7 @@ Sets the maximum number of read and write units for the specified on-demand tabl
 
 If you use this property, you must specify `MaxReadRequestUnits`, `MaxWriteRequestUnits`, or both.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#on_demand_throughput DynamodbTable#on_demand_throughput}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#on_demand_throughput DynamodbTable#on_demand_throughput}
 
 ---
 
@@ -272,7 +274,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The settings used to enable point in time recovery.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#point_in_time_recovery_specification DynamodbTable#point_in_time_recovery_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#point_in_time_recovery_specification DynamodbTable#point_in_time_recovery_specification}
 
 ---
 
@@ -285,7 +287,7 @@ Throughput for the specified table, which consists of values for ``ReadCapacityU
 For more information about the contents of a provisioned throughput structure, see [Amazon DynamoDB Table ProvisionedThroughput](https://docs.aws.amazon.com/amazondynamodb/latest/APIReference/API_ProvisionedThroughput.html).
 If you set `BillingMode` as `PROVISIONED`, you must specify this property. If you set `BillingMode` as `PAY_PER_REQUEST`, you cannot specify this property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#provisioned_throughput DynamodbTable#provisioned_throughput}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#provisioned_throughput DynamodbTable#provisioned_throughput}
 
 ---
 
@@ -299,7 +301,7 @@ When you attach a resource-based policy while creating a table, the policy appli
 The maximum size supported for a resource-based policy document is 20 KB. DynamoDB counts whitespaces when calculating the size of a policy against this limit. For a full list of all considerations that apply for resource-based policies, see [Resource-based policy considerations](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/rbac-considerations.html).
 You need to specify the `CreateTable` and `PutResourcePolicy` IAM actions for authorizing a user to create a table with a resource-based policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#resource_policy DynamodbTable#resource_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#resource_policy DynamodbTable#resource_policy}
 
 ---
 
@@ -309,7 +311,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Specifies the settings to enable server-side encryption.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#sse_specification DynamodbTable#sse_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#sse_specification DynamodbTable#sse_specification}
 
 ---
 
@@ -321,7 +323,7 @@ The settings for the DDB table stream, which captures changes to items stored in
 
 Including this property in your CFNlong template automatically enables streaming.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#stream_specification DynamodbTable#stream_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#stream_specification DynamodbTable#stream_specification}
 
 ---
 
@@ -331,7 +333,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The table class of the new table. Valid values are ``STANDARD`` and ``STANDARD_INFREQUENT_ACCESS``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#table_class DynamodbTable#table_class}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#table_class DynamodbTable#table_class}
 
 ---
 
@@ -344,7 +346,7 @@ A name for the table.
 If you don't specify a name, CFNlong generates a unique physical ID and uses that ID for the table name. For more information, see [Name Type](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-name.html).
 If you specify a name, you cannot perform updates that require replacement of this resource. You can perform updates that require no or some interruption. If you must replace the resource, specify a new name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#table_name DynamodbTable#table_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#table_name DynamodbTable#table_name}
 
 ---
 
@@ -354,7 +356,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An array of key-value pairs to apply to this resource.  For more information, see [Tag](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-resource-tags.html).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#tags DynamodbTable#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#tags DynamodbTable#tags}
 
 ---
 
@@ -366,7 +368,15 @@ Specifies the Time to Live (TTL) settings for the table.
 
 For detailed information about the limits in DynamoDB, see [Limits in Amazon DynamoDB](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Limits.html) in the Amazon DynamoDB Developer Guide.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#time_to_live_specification DynamodbTable#time_to_live_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#time_to_live_specification DynamodbTable#time_to_live_specification}
+
+---
+
+##### `vector_indexes`<sup>Optional</sup> <a name="vector_indexes" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTable.Initializer.parameter.vectorIndexes"></a>
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexes">DynamodbTableVectorIndexes</a>]
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#vector_indexes DynamodbTable#vector_indexes}.
 
 ---
 
@@ -376,7 +386,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Represents the warm throughput (in read units per second and write units per second) for creating a table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#warm_throughput DynamodbTable#warm_throughput}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#warm_throughput DynamodbTable#warm_throughput}
 
 ---
 
@@ -422,6 +432,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTable.putStreamSpecification">put_stream_specification</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTable.putTags">put_tags</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTable.putTimeToLiveSpecification">put_time_to_live_specification</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTable.putVectorIndexes">put_vector_indexes</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTable.putWarmThroughput">put_warm_throughput</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTable.resetAttributeDefinitions">reset_attribute_definitions</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTable.resetBillingMode">reset_billing_mode</a></code> | *No description.* |
@@ -441,6 +452,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTable.resetTableName">reset_table_name</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTable.resetTags">reset_tags</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTable.resetTimeToLiveSpecification">reset_time_to_live_specification</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTable.resetVectorIndexes">reset_vector_indexes</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTable.resetWarmThroughput">reset_warm_throughput</a></code> | *No description.* |
 
 ---
@@ -822,7 +834,7 @@ def put_contributor_insights_specification(
 
 Indicates whether CloudWatch Contributor Insights are to be enabled (true) or disabled (false).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#enabled DynamodbTable#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#enabled DynamodbTable#enabled}
 
 ---
 
@@ -834,7 +846,7 @@ Specifies the CloudWatch Contributor Insights mode for a table.
 
 Valid values are `ACCESSED_AND_THROTTLED_KEYS` (tracks all access and throttled events) or `THROTTLED_KEYS` (tracks only throttled events). This setting determines what type of contributor insights data is collected for the table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#mode DynamodbTable#mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#mode DynamodbTable#mode}
 
 ---
 
@@ -869,7 +881,7 @@ def put_import_source_specification(
 
 Type of compression to be used on the input coming from the imported table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#input_compression_type DynamodbTable#input_compression_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#input_compression_type DynamodbTable#input_compression_type}
 
 ---
 
@@ -879,7 +891,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The format of the source data. Valid values for ``ImportFormat`` are ``CSV``, ``DYNAMODB_JSON`` or ``ION``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#input_format DynamodbTable#input_format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#input_format DynamodbTable#input_format}
 
 ---
 
@@ -889,7 +901,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Additional properties that specify how the input is formatted,.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#input_format_options DynamodbTable#input_format_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#input_format_options DynamodbTable#input_format_options}
 
 ---
 
@@ -899,7 +911,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The S3 bucket that provides the source for the import.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#s3_bucket_source DynamodbTable#s3_bucket_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#s3_bucket_source DynamodbTable#s3_bucket_source}
 
 ---
 
@@ -918,7 +930,7 @@ def put_kinesis_stream_specification(
 
 The precision for the time and date that the stream was created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#approximate_creation_date_time_precision DynamodbTable#approximate_creation_date_time_precision}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#approximate_creation_date_time_precision DynamodbTable#approximate_creation_date_time_precision}
 
 ---
 
@@ -928,7 +940,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The ARN for a specific Kinesis data stream.  Length Constraints: Minimum length of 37. Maximum length of 1024.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#stream_arn DynamodbTable#stream_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#stream_arn DynamodbTable#stream_arn}
 
 ---
 
@@ -963,7 +975,7 @@ Maximum number of read request units for the specified table.
 
 To specify a maximum `OnDemandThroughput` on your table, set the value of `MaxReadRequestUnits` as greater than or equal to 1. To remove the maximum `OnDemandThroughput` that is currently set on your table, set the value of `MaxReadRequestUnits` to -1.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#max_read_request_units DynamodbTable#max_read_request_units}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#max_read_request_units DynamodbTable#max_read_request_units}
 
 ---
 
@@ -975,7 +987,7 @@ Maximum number of write request units for the specified table.
 
 To specify a maximum `OnDemandThroughput` on your table, set the value of `MaxWriteRequestUnits` as greater than or equal to 1. To remove the maximum `OnDemandThroughput` that is currently set on your table, set the value of `MaxWriteRequestUnits` to -1.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#max_write_request_units DynamodbTable#max_write_request_units}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#max_write_request_units DynamodbTable#max_write_request_units}
 
 ---
 
@@ -994,7 +1006,7 @@ def put_point_in_time_recovery_specification(
 
 Indicates whether point in time recovery is enabled (true) or disabled (false) on the table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#point_in_time_recovery_enabled DynamodbTable#point_in_time_recovery_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#point_in_time_recovery_enabled DynamodbTable#point_in_time_recovery_enabled}
 
 ---
 
@@ -1006,7 +1018,7 @@ The number of preceding days for which continuous backups are taken and maintain
 
 Your table data is only recoverable to any point-in-time from within the configured recovery period. This parameter is optional. If no value is provided, the value will default to 35.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#recovery_period_in_days DynamodbTable#recovery_period_in_days}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#recovery_period_in_days DynamodbTable#recovery_period_in_days}
 
 ---
 
@@ -1028,7 +1040,7 @@ The maximum number of strongly consistent reads consumed per second before Dynam
 For more information, see [Specifying Read and Write Requirements](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/ProvisionedThroughput.html) in the *Amazon DynamoDB Developer Guide*.
 If read/write capacity mode is `PAY_PER_REQUEST` the value is set to 0.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#read_capacity_units DynamodbTable#read_capacity_units}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#read_capacity_units DynamodbTable#read_capacity_units}
 
 ---
 
@@ -1041,7 +1053,7 @@ The maximum number of writes consumed per second before DynamoDB returns a ``Thr
 For more information, see [Specifying Read and Write Requirements](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/ProvisionedThroughput.html) in the *Amazon DynamoDB Developer Guide*.
 If read/write capacity mode is `PAY_PER_REQUEST` the value is set to 0.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#write_capacity_units DynamodbTable#write_capacity_units}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#write_capacity_units DynamodbTable#write_capacity_units}
 
 ---
 
@@ -1061,7 +1073,7 @@ A resource-based policy document that contains permissions to add to the specifi
 
 In a CFNshort template, you can provide the policy in JSON or YAML format because CFNshort converts YAML to JSON before submitting it to DDB. For more information about resource-based policies, see [Using resource-based policies for](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/access-control-resource-based.html) and [Resource-based policy examples](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/rbac-examples.html).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#policy_document DynamodbTable#policy_document}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#policy_document DynamodbTable#policy_document}
 
 ---
 
@@ -1083,7 +1095,7 @@ The KMS key that should be used for the KMS encryption.
 
 To specify a key, use its key ID, Amazon Resource Name (ARN), alias name, or alias ARN. Note that you should only provide this parameter if the key is different from the default DynamoDB key `alias/aws/dynamodb`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#kms_master_key_id DynamodbTable#kms_master_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#kms_master_key_id DynamodbTable#kms_master_key_id}
 
 ---
 
@@ -1095,7 +1107,7 @@ Indicates whether server-side encryption is done using an AWS managed key or an 
 
 If enabled (true), server-side encryption type is set to `KMS` and an AWS managed key is used (KMS charges apply). If disabled (false) or not specified, server-side encryption is set to AWS owned key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#sse_enabled DynamodbTable#sse_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#sse_enabled DynamodbTable#sse_enabled}
 
 ---
 
@@ -1109,7 +1121,7 @@ The only supported value is:
 
 * `KMS` - Server-side encryption that uses KMSlong. The key is stored in your account and is managed by KMS (KMS charges apply).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#sse_type DynamodbTable#sse_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#sse_type DynamodbTable#sse_type}
 
 ---
 
@@ -1133,7 +1145,7 @@ Resource-based policies let you define access permissions by specifying who has 
 When you remove the `StreamSpecification` property from the template, DynamoDB disables the stream but retains any attached resource policy until the stream is deleted after 24 hours. When you modify the `StreamViewType` property, DynamoDB creates a new stream and retains the old stream's resource policy. The old stream and its resource policy are deleted after the 24-hour retention period.
 In a CFNshort template, you can provide the policy in JSON or YAML format because CFNshort converts YAML to JSON before submitting it to DDB. For more information about resource-based policies, see [Using resource-based policies for](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/access-control-resource-based.html) and [Resource-based policy examples](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/rbac-examples.html).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#resource_policy DynamodbTable#resource_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#resource_policy DynamodbTable#resource_policy}
 
 ---
 
@@ -1150,7 +1162,7 @@ Valid values for `StreamViewType` are:
 * `OLD_IMAGE` - The entire item, as it appeared before it was modified, is written to the stream.
 * `NEW_AND_OLD_IMAGES` - Both the new and the old item images of the item are written to the stream.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#stream_view_type DynamodbTable#stream_view_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#stream_view_type DynamodbTable#stream_view_type}
 
 ---
 
@@ -1163,7 +1175,7 @@ Specifies the tags to apply to the DDB stream.
 Stream tags are independent of table tags.
 For an overview on tagging DynamoDB resources, see [Tagging for DynamoDB](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Tagging.html) in the *Amazon DynamoDB Developer Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#tags DynamodbTable#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#tags DynamodbTable#tags}
 
 ---
 
@@ -1199,7 +1211,7 @@ The name of the TTL attribute used to store the expiration time for items in the
 * The `AttributeName` property is required when enabling the TTL, or when TTL is already enabled.
 * To update this property, you must first disable TTL and then enable TTL with the new attribute name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#attribute_name DynamodbTable#attribute_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#attribute_name DynamodbTable#attribute_name}
 
 ---
 
@@ -1209,7 +1221,21 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Indicates whether TTL is to be enabled (true) or disabled (false) on the table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#enabled DynamodbTable#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#enabled DynamodbTable#enabled}
+
+---
+
+##### `put_vector_indexes` <a name="put_vector_indexes" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTable.putVectorIndexes"></a>
+
+```python
+def put_vector_indexes(
+  value: IResolvable | typing.List[DynamodbTableVectorIndexes]
+) -> None
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTable.putVectorIndexes.parameter.value"></a>
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexes">DynamodbTableVectorIndexes</a>]
 
 ---
 
@@ -1228,7 +1254,7 @@ def put_warm_throughput(
 
 Represents the number of read operations your base table can instantaneously support.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#read_units_per_second DynamodbTable#read_units_per_second}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#read_units_per_second DynamodbTable#read_units_per_second}
 
 ---
 
@@ -1238,7 +1264,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Represents the number of write operations your base table can instantaneously support.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#write_units_per_second DynamodbTable#write_units_per_second}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#write_units_per_second DynamodbTable#write_units_per_second}
 
 ---
 
@@ -1348,6 +1374,12 @@ def reset_tags() -> None
 
 ```python
 def reset_time_to_live_specification() -> None
+```
+
+##### `reset_vector_indexes` <a name="reset_vector_indexes" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTable.resetVectorIndexes"></a>
+
+```python
+def reset_vector_indexes() -> None
 ```
 
 ##### `reset_warm_throughput` <a name="reset_warm_throughput" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTable.resetWarmThroughput"></a>
@@ -1470,7 +1502,7 @@ The construct id used in the generated config for the DynamodbTable to import.
 
 The id of the existing DynamodbTable that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1517,6 +1549,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.10
 | <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTable.property.streamSpecification">stream_specification</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableStreamSpecificationOutputReference">DynamodbTableStreamSpecificationOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTable.property.tags">tags</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableTagsList">DynamodbTableTagsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTable.property.timeToLiveSpecification">time_to_live_specification</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableTimeToLiveSpecificationOutputReference">DynamodbTableTimeToLiveSpecificationOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTable.property.vectorIndexes">vector_indexes</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesList">DynamodbTableVectorIndexesList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTable.property.warmThroughput">warm_throughput</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableWarmThroughputOutputReference">DynamodbTableWarmThroughputOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTable.property.attributeDefinitionsInput">attribute_definitions_input</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableAttributeDefinitions">DynamodbTableAttributeDefinitions</a>]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTable.property.billingModeInput">billing_mode_input</a></code> | <code>str</code> | *No description.* |
@@ -1537,6 +1570,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.10
 | <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTable.property.tableNameInput">table_name_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTable.property.tagsInput">tags_input</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableTags">DynamodbTableTags</a>]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTable.property.timeToLiveSpecificationInput">time_to_live_specification_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableTimeToLiveSpecification">DynamodbTableTimeToLiveSpecification</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTable.property.vectorIndexesInput">vector_indexes_input</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexes">DynamodbTableVectorIndexes</a>]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTable.property.warmThroughputInput">warm_throughput_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableWarmThroughput">DynamodbTableWarmThroughput</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTable.property.billingMode">billing_mode</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTable.property.deletionProtectionEnabled">deletion_protection_enabled</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
@@ -1858,6 +1892,16 @@ time_to_live_specification: DynamodbTableTimeToLiveSpecificationOutputReference
 
 ---
 
+##### `vector_indexes`<sup>Required</sup> <a name="vector_indexes" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTable.property.vectorIndexes"></a>
+
+```python
+vector_indexes: DynamodbTableVectorIndexesList
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesList">DynamodbTableVectorIndexesList</a>
+
+---
+
 ##### `warm_throughput`<sup>Required</sup> <a name="warm_throughput" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTable.property.warmThroughput"></a>
 
 ```python
@@ -2058,6 +2102,16 @@ time_to_live_specification_input: IResolvable | DynamodbTableTimeToLiveSpecifica
 
 ---
 
+##### `vector_indexes_input`<sup>Optional</sup> <a name="vector_indexes_input" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTable.property.vectorIndexesInput"></a>
+
+```python
+vector_indexes_input: IResolvable | typing.List[DynamodbTableVectorIndexes]
+```
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexes">DynamodbTableVectorIndexes</a>]
+
+---
+
 ##### `warm_throughput_input`<sup>Optional</sup> <a name="warm_throughput_input" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTable.property.warmThroughputInput"></a>
 
 ```python
@@ -2170,7 +2224,7 @@ attribute_name: str
 
 A name for the attribute.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#attribute_name DynamodbTable#attribute_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#attribute_name DynamodbTable#attribute_name}
 
 ---
 
@@ -2184,7 +2238,7 @@ attribute_type: str
 
 The data type for the attribute, where:   +  ``S`` - the attribute is of type String   +  ``N`` - the attribute is of type Number   +  ``B`` - the attribute is of type Binary.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#attribute_type DynamodbTable#attribute_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#attribute_type DynamodbTable#attribute_type}
 
 ---
 
@@ -2222,6 +2276,7 @@ dynamodbTable.DynamodbTableConfig(
   table_name: str = None,
   tags: IResolvable | typing.List[DynamodbTableTags] = None,
   time_to_live_specification: DynamodbTableTimeToLiveSpecification = None,
+  vector_indexes: IResolvable | typing.List[DynamodbTableVectorIndexes] = None,
   warm_throughput: DynamodbTableWarmThroughput = None
 )
 ```
@@ -2256,6 +2311,7 @@ dynamodbTable.DynamodbTableConfig(
 | <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableConfig.property.tableName">table_name</a></code> | <code>str</code> | A name for the table. |
 | <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableTags">DynamodbTableTags</a>]</code> | An array of key-value pairs to apply to this resource.  For more information, see [Tag](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-resource-tags.html). |
 | <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableConfig.property.timeToLiveSpecification">time_to_live_specification</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableTimeToLiveSpecification">DynamodbTableTimeToLiveSpecification</a></code> | Specifies the Time to Live (TTL) settings for the table. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableConfig.property.vectorIndexes">vector_indexes</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexes">DynamodbTableVectorIndexes</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#vector_indexes DynamodbTable#vector_indexes}. |
 | <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableConfig.property.warmThroughput">warm_throughput</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableWarmThroughput">DynamodbTableWarmThroughput</a></code> | Represents the warm throughput (in read units per second and write units per second) for creating a table. |
 
 ---
@@ -2342,7 +2398,7 @@ Specifies the attributes that make up the primary key for the table.
 
 The attributes in the `KeySchema` property must also be defined in the `AttributeDefinitions` property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#key_schema DynamodbTable#key_schema}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#key_schema DynamodbTable#key_schema}
 
 ---
 
@@ -2359,7 +2415,7 @@ A list of attributes that describe the key schema for the table and indexes.
 This property is required to create a DDB table.
 You can add an `AttributeDefinition` without interruption. Changing the type of an existing `AttributeDefinition` requires replacement of the table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#attribute_definitions DynamodbTable#attribute_definitions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#attribute_definitions DynamodbTable#attribute_definitions}
 
 ---
 
@@ -2380,7 +2436,7 @@ Valid values include:
 
 If not specified, the default is `PROVISIONED`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#billing_mode DynamodbTable#billing_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#billing_mode DynamodbTable#billing_mode}
 
 ---
 
@@ -2394,7 +2450,7 @@ contributor_insights_specification: DynamodbTableContributorInsightsSpecificatio
 
 The settings used to specify whether to enable CloudWatch Contributor Insights for the table and define which events to monitor.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#contributor_insights_specification DynamodbTable#contributor_insights_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#contributor_insights_specification DynamodbTable#contributor_insights_specification}
 
 ---
 
@@ -2410,7 +2466,7 @@ Determines if a table is protected from deletion.
 
 When enabled, the table cannot be deleted by any user or process. This setting is disabled by default. For more information, see [Using deletion protection](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/WorkingWithTables.Basics.html#WorkingWithTables.Basics.DeletionProtection) in the *Developer Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#deletion_protection_enabled DynamodbTable#deletion_protection_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#deletion_protection_enabled DynamodbTable#deletion_protection_enabled}
 
 ---
 
@@ -2432,7 +2488,7 @@ Updates are not supported. The following are exceptions:
 * If you update either the contributor insights specification or the provisioned throughput values of global secondary indexes, you can update the table without interruption.
 * You can delete or add one global secondary index without interruption. If you do both in the same update (for example, by changing the index's logical ID), the update fails.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#global_secondary_indexes DynamodbTable#global_secondary_indexes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#global_secondary_indexes DynamodbTable#global_secondary_indexes}
 
 ---
 
@@ -2448,7 +2504,7 @@ Specifies the properties of data being imported from the S3 bucket source to the
 
 If you specify the `ImportSourceSpecification` property, and also specify either the `StreamSpecification`, the `TableClass` property, the `DeletionProtectionEnabled` property, or the `WarmThroughput` property, the IAM entity creating/updating stack must have `UpdateTable` permission.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#import_source_specification DynamodbTable#import_source_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#import_source_specification DynamodbTable#import_source_specification}
 
 ---
 
@@ -2462,7 +2518,7 @@ kinesis_stream_specification: DynamodbTableKinesisStreamSpecification
 
 The Kinesis Data Streams configuration for the specified table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#kinesis_stream_specification DynamodbTable#kinesis_stream_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#kinesis_stream_specification DynamodbTable#kinesis_stream_specification}
 
 ---
 
@@ -2478,7 +2534,7 @@ Local secondary indexes to be created on the table.
 
 You can create up to 5 local secondary indexes. Each index is scoped to a given hash key value. The size of each hash key can be up to 10 gigabytes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#local_secondary_indexes DynamodbTable#local_secondary_indexes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#local_secondary_indexes DynamodbTable#local_secondary_indexes}
 
 ---
 
@@ -2494,7 +2550,7 @@ Sets the maximum number of read and write units for the specified on-demand tabl
 
 If you use this property, you must specify `MaxReadRequestUnits`, `MaxWriteRequestUnits`, or both.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#on_demand_throughput DynamodbTable#on_demand_throughput}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#on_demand_throughput DynamodbTable#on_demand_throughput}
 
 ---
 
@@ -2508,7 +2564,7 @@ point_in_time_recovery_specification: DynamodbTablePointInTimeRecoverySpecificat
 
 The settings used to enable point in time recovery.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#point_in_time_recovery_specification DynamodbTable#point_in_time_recovery_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#point_in_time_recovery_specification DynamodbTable#point_in_time_recovery_specification}
 
 ---
 
@@ -2525,7 +2581,7 @@ Throughput for the specified table, which consists of values for ``ReadCapacityU
 For more information about the contents of a provisioned throughput structure, see [Amazon DynamoDB Table ProvisionedThroughput](https://docs.aws.amazon.com/amazondynamodb/latest/APIReference/API_ProvisionedThroughput.html).
 If you set `BillingMode` as `PROVISIONED`, you must specify this property. If you set `BillingMode` as `PAY_PER_REQUEST`, you cannot specify this property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#provisioned_throughput DynamodbTable#provisioned_throughput}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#provisioned_throughput DynamodbTable#provisioned_throughput}
 
 ---
 
@@ -2543,7 +2599,7 @@ When you attach a resource-based policy while creating a table, the policy appli
 The maximum size supported for a resource-based policy document is 20 KB. DynamoDB counts whitespaces when calculating the size of a policy against this limit. For a full list of all considerations that apply for resource-based policies, see [Resource-based policy considerations](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/rbac-considerations.html).
 You need to specify the `CreateTable` and `PutResourcePolicy` IAM actions for authorizing a user to create a table with a resource-based policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#resource_policy DynamodbTable#resource_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#resource_policy DynamodbTable#resource_policy}
 
 ---
 
@@ -2557,7 +2613,7 @@ sse_specification: DynamodbTableSseSpecification
 
 Specifies the settings to enable server-side encryption.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#sse_specification DynamodbTable#sse_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#sse_specification DynamodbTable#sse_specification}
 
 ---
 
@@ -2573,7 +2629,7 @@ The settings for the DDB table stream, which captures changes to items stored in
 
 Including this property in your CFNlong template automatically enables streaming.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#stream_specification DynamodbTable#stream_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#stream_specification DynamodbTable#stream_specification}
 
 ---
 
@@ -2587,7 +2643,7 @@ table_class: str
 
 The table class of the new table. Valid values are ``STANDARD`` and ``STANDARD_INFREQUENT_ACCESS``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#table_class DynamodbTable#table_class}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#table_class DynamodbTable#table_class}
 
 ---
 
@@ -2604,7 +2660,7 @@ A name for the table.
 If you don't specify a name, CFNlong generates a unique physical ID and uses that ID for the table name. For more information, see [Name Type](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-name.html).
 If you specify a name, you cannot perform updates that require replacement of this resource. You can perform updates that require no or some interruption. If you must replace the resource, specify a new name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#table_name DynamodbTable#table_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#table_name DynamodbTable#table_name}
 
 ---
 
@@ -2618,7 +2674,7 @@ tags: IResolvable | typing.List[DynamodbTableTags]
 
 An array of key-value pairs to apply to this resource.  For more information, see [Tag](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-resource-tags.html).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#tags DynamodbTable#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#tags DynamodbTable#tags}
 
 ---
 
@@ -2634,7 +2690,19 @@ Specifies the Time to Live (TTL) settings for the table.
 
 For detailed information about the limits in DynamoDB, see [Limits in Amazon DynamoDB](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Limits.html) in the Amazon DynamoDB Developer Guide.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#time_to_live_specification DynamodbTable#time_to_live_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#time_to_live_specification DynamodbTable#time_to_live_specification}
+
+---
+
+##### `vector_indexes`<sup>Optional</sup> <a name="vector_indexes" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableConfig.property.vectorIndexes"></a>
+
+```python
+vector_indexes: IResolvable | typing.List[DynamodbTableVectorIndexes]
+```
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexes">DynamodbTableVectorIndexes</a>]
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#vector_indexes DynamodbTable#vector_indexes}.
 
 ---
 
@@ -2648,7 +2716,7 @@ warm_throughput: DynamodbTableWarmThroughput
 
 Represents the warm throughput (in read units per second and write units per second) for creating a table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#warm_throughput DynamodbTable#warm_throughput}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#warm_throughput DynamodbTable#warm_throughput}
 
 ---
 
@@ -2684,7 +2752,7 @@ enabled: bool | IResolvable
 
 Indicates whether CloudWatch Contributor Insights are to be enabled (true) or disabled (false).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#enabled DynamodbTable#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#enabled DynamodbTable#enabled}
 
 ---
 
@@ -2700,7 +2768,7 @@ Specifies the CloudWatch Contributor Insights mode for a table.
 
 Valid values are `ACCESSED_AND_THROTTLED_KEYS` (tracks all access and throttled events) or `THROTTLED_KEYS` (tracks only throttled events). This setting determines what type of contributor insights data is collected for the table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#mode DynamodbTable#mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#mode DynamodbTable#mode}
 
 ---
 
@@ -2746,7 +2814,7 @@ contributor_insights_specification: DynamodbTableGlobalSecondaryIndexesContribut
 
 The settings used to specify whether to enable CloudWatch Contributor Insights for the global table and define which events to monitor.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#contributor_insights_specification DynamodbTable#contributor_insights_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#contributor_insights_specification DynamodbTable#contributor_insights_specification}
 
 ---
 
@@ -2760,7 +2828,7 @@ index_name: str
 
 The name of the global secondary index. The name must be unique among all other indexes on this table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#index_name DynamodbTable#index_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#index_name DynamodbTable#index_name}
 
 ---
 
@@ -2777,7 +2845,7 @@ The complete key schema for a global secondary index, which consists of one or m
 The term "hash attribute" derives from DynamoDB's usage of an internal hash function to evenly distribute data items across partitions, based on their partition key values.
 The sort key of an item is also known as its *range attribute*. The term "range attribute" derives from the way DynamoDB stores items with the same partition key physically close together, in sorted order by the sort key value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#key_schema DynamodbTable#key_schema}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#key_schema DynamodbTable#key_schema}
 
 ---
 
@@ -2793,7 +2861,7 @@ The maximum number of read and write units for the specified global secondary in
 
 If you use this parameter, you must specify `MaxReadRequestUnits`, `MaxWriteRequestUnits`, or both. You must use either `OnDemandThroughput` or `ProvisionedThroughput` based on your table's capacity mode.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#on_demand_throughput DynamodbTable#on_demand_throughput}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#on_demand_throughput DynamodbTable#on_demand_throughput}
 
 ---
 
@@ -2809,7 +2877,7 @@ Represents attributes that are copied (projected) from the table into the global
 
 These are in addition to the primary key attributes and index key attributes, which are automatically projected.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#projection DynamodbTable#projection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#projection DynamodbTable#projection}
 
 ---
 
@@ -2826,7 +2894,7 @@ Represents the provisioned throughput settings for the specified global secondar
 You must use either `OnDemandThroughput` or `ProvisionedThroughput` based on your table's capacity mode.
 For current minimum and maximum provisioned throughput values, see [Service, Account, and Table Quotas](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Limits.html) in the *Amazon DynamoDB Developer Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#provisioned_throughput DynamodbTable#provisioned_throughput}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#provisioned_throughput DynamodbTable#provisioned_throughput}
 
 ---
 
@@ -2842,7 +2910,7 @@ Represents the warm throughput value (in read units per second and write units p
 
 If you use this parameter, you must specify `ReadUnitsPerSecond`, `WriteUnitsPerSecond`, or both.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#warm_throughput DynamodbTable#warm_throughput}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#warm_throughput DynamodbTable#warm_throughput}
 
 ---
 
@@ -2878,7 +2946,7 @@ enabled: bool | IResolvable
 
 Indicates whether CloudWatch Contributor Insights are to be enabled (true) or disabled (false).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#enabled DynamodbTable#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#enabled DynamodbTable#enabled}
 
 ---
 
@@ -2894,7 +2962,7 @@ Specifies the CloudWatch Contributor Insights mode for a table.
 
 Valid values are `ACCESSED_AND_THROTTLED_KEYS` (tracks all access and throttled events) or `THROTTLED_KEYS` (tracks only throttled events). This setting determines what type of contributor insights data is collected for the table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#mode DynamodbTable#mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#mode DynamodbTable#mode}
 
 ---
 
@@ -2930,7 +2998,7 @@ attribute_name: str
 
 The name of a key attribute.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#attribute_name DynamodbTable#attribute_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#attribute_name DynamodbTable#attribute_name}
 
 ---
 
@@ -2947,7 +3015,7 @@ The role that this key attribute will assume:   +  ``HASH`` - partition key   + 
 The term "hash attribute" derives from DynamoDB's usage of an internal hash function to evenly distribute data items across partitions, based on their partition key values.
 The sort key of an item is also known as its *range attribute*. The term "range attribute" derives from the way DynamoDB stores items with the same partition key physically close together, in sorted order by the sort key value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#key_type DynamodbTable#key_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#key_type DynamodbTable#key_type}
 
 ---
 
@@ -2985,7 +3053,7 @@ Maximum number of read request units for the specified table.
 
 To specify a maximum `OnDemandThroughput` on your table, set the value of `MaxReadRequestUnits` as greater than or equal to 1. To remove the maximum `OnDemandThroughput` that is currently set on your table, set the value of `MaxReadRequestUnits` to -1.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#max_read_request_units DynamodbTable#max_read_request_units}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#max_read_request_units DynamodbTable#max_read_request_units}
 
 ---
 
@@ -3001,7 +3069,7 @@ Maximum number of write request units for the specified table.
 
 To specify a maximum `OnDemandThroughput` on your table, set the value of `MaxWriteRequestUnits` as greater than or equal to 1. To remove the maximum `OnDemandThroughput` that is currently set on your table, set the value of `MaxWriteRequestUnits` to -1.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#max_write_request_units DynamodbTable#max_write_request_units}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#max_write_request_units DynamodbTable#max_write_request_units}
 
 ---
 
@@ -3039,7 +3107,7 @@ Represents the non-key attribute names which will be projected into the index.
 
 For global and local secondary indexes, the total count of `NonKeyAttributes` summed across all of the secondary indexes, must not exceed 100. If you project the same attribute into two different indexes, this counts as two distinct attributes when determining the total. This limit only applies when you specify the ProjectionType of `INCLUDE`. You still can specify the ProjectionType of `ALL` to project all attributes from the source table, even if the table has more than 100 attributes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#non_key_attributes DynamodbTable#non_key_attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#non_key_attributes DynamodbTable#non_key_attributes}
 
 ---
 
@@ -3059,7 +3127,7 @@ The set of attributes that are projected into the index:   +  ``KEYS_ONLY`` - On
 When using the DynamoDB console, `ALL` is selected by default.
 You can't modify the projection of an existing index. To change the projected attributes, you must delete the index and create a new one with the projection that you want.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#projection_type DynamodbTable#projection_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#projection_type DynamodbTable#projection_type}
 
 ---
 
@@ -3098,7 +3166,7 @@ The maximum number of strongly consistent reads consumed per second before Dynam
 For more information, see [Specifying Read and Write Requirements](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/ProvisionedThroughput.html) in the *Amazon DynamoDB Developer Guide*.
 If read/write capacity mode is `PAY_PER_REQUEST` the value is set to 0.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#read_capacity_units DynamodbTable#read_capacity_units}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#read_capacity_units DynamodbTable#read_capacity_units}
 
 ---
 
@@ -3115,7 +3183,7 @@ The maximum number of writes consumed per second before DynamoDB returns a ``Thr
 For more information, see [Specifying Read and Write Requirements](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/ProvisionedThroughput.html) in the *Amazon DynamoDB Developer Guide*.
 If read/write capacity mode is `PAY_PER_REQUEST` the value is set to 0.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#write_capacity_units DynamodbTable#write_capacity_units}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#write_capacity_units DynamodbTable#write_capacity_units}
 
 ---
 
@@ -3151,7 +3219,7 @@ read_units_per_second: typing.Union[int, float]
 
 Represents the number of read operations your base table can instantaneously support.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#read_units_per_second DynamodbTable#read_units_per_second}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#read_units_per_second DynamodbTable#read_units_per_second}
 
 ---
 
@@ -3165,7 +3233,7 @@ write_units_per_second: typing.Union[int, float]
 
 Represents the number of write operations your base table can instantaneously support.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#write_units_per_second DynamodbTable#write_units_per_second}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#write_units_per_second DynamodbTable#write_units_per_second}
 
 ---
 
@@ -3205,7 +3273,7 @@ input_compression_type: str
 
 Type of compression to be used on the input coming from the imported table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#input_compression_type DynamodbTable#input_compression_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#input_compression_type DynamodbTable#input_compression_type}
 
 ---
 
@@ -3219,7 +3287,7 @@ input_format: str
 
 The format of the source data. Valid values for ``ImportFormat`` are ``CSV``, ``DYNAMODB_JSON`` or ``ION``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#input_format DynamodbTable#input_format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#input_format DynamodbTable#input_format}
 
 ---
 
@@ -3233,7 +3301,7 @@ input_format_options: DynamodbTableImportSourceSpecificationInputFormatOptions
 
 Additional properties that specify how the input is formatted,.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#input_format_options DynamodbTable#input_format_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#input_format_options DynamodbTable#input_format_options}
 
 ---
 
@@ -3247,7 +3315,7 @@ s3_bucket_source: DynamodbTableImportSourceSpecificationS3BucketSource
 
 The S3 bucket that provides the source for the import.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#s3_bucket_source DynamodbTable#s3_bucket_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#s3_bucket_source DynamodbTable#s3_bucket_source}
 
 ---
 
@@ -3281,7 +3349,7 @@ csv: DynamodbTableImportSourceSpecificationInputFormatOptionsCsv
 
 The options for imported source files in CSV format. The values are Delimiter and HeaderList.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#csv DynamodbTable#csv}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#csv DynamodbTable#csv}
 
 ---
 
@@ -3317,7 +3385,7 @@ delimiter: str
 
 The delimiter used for separating items in the CSV file being imported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#delimiter DynamodbTable#delimiter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#delimiter DynamodbTable#delimiter}
 
 ---
 
@@ -3333,7 +3401,7 @@ List of the headers used to specify a common header for all source CSV files bei
 
 If this field is specified then the first line of each CSV file is treated as data instead of the header. If this field is not specified the the first line of each CSV file is treated as the header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#header_list DynamodbTable#header_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#header_list DynamodbTable#header_list}
 
 ---
 
@@ -3371,7 +3439,7 @@ s3_bucket: str
 
 The S3 bucket that is being imported from.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#s3_bucket DynamodbTable#s3_bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#s3_bucket DynamodbTable#s3_bucket}
 
 ---
 
@@ -3387,7 +3455,7 @@ The account number of the S3 bucket that is being imported from.
 
 If the bucket is owned by the requester this is optional.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#s3_bucket_owner DynamodbTable#s3_bucket_owner}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#s3_bucket_owner DynamodbTable#s3_bucket_owner}
 
 ---
 
@@ -3401,7 +3469,7 @@ s3_key_prefix: str
 
 The key prefix shared by all S3 Objects that are being imported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#s3_key_prefix DynamodbTable#s3_key_prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#s3_key_prefix DynamodbTable#s3_key_prefix}
 
 ---
 
@@ -3437,7 +3505,7 @@ approximate_creation_date_time_precision: str
 
 The precision for the time and date that the stream was created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#approximate_creation_date_time_precision DynamodbTable#approximate_creation_date_time_precision}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#approximate_creation_date_time_precision DynamodbTable#approximate_creation_date_time_precision}
 
 ---
 
@@ -3451,7 +3519,7 @@ stream_arn: str
 
 The ARN for a specific Kinesis data stream.  Length Constraints: Minimum length of 37. Maximum length of 1024.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#stream_arn DynamodbTable#stream_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#stream_arn DynamodbTable#stream_arn}
 
 ---
 
@@ -3489,7 +3557,7 @@ index_name: str
 
 The name of the local secondary index. The name must be unique among all other indexes on this table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#index_name DynamodbTable#index_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#index_name DynamodbTable#index_name}
 
 ---
 
@@ -3506,7 +3574,7 @@ The complete key schema for the local secondary index, consisting of one or more
 The term "hash attribute" derives from DynamoDB's usage of an internal hash function to evenly distribute data items across partitions, based on their partition key values.
 The sort key of an item is also known as its *range attribute*. The term "range attribute" derives from the way DynamoDB stores items with the same partition key physically close together, in sorted order by the sort key value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#key_schema DynamodbTable#key_schema}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#key_schema DynamodbTable#key_schema}
 
 ---
 
@@ -3522,7 +3590,7 @@ Represents attributes that are copied (projected) from the table into the local 
 
 These are in addition to the primary key attributes and index key attributes, which are automatically projected.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#projection DynamodbTable#projection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#projection DynamodbTable#projection}
 
 ---
 
@@ -3558,7 +3626,7 @@ attribute_name: str
 
 The name of a key attribute.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#attribute_name DynamodbTable#attribute_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#attribute_name DynamodbTable#attribute_name}
 
 ---
 
@@ -3575,7 +3643,7 @@ The role that this key attribute will assume:   +  ``HASH`` - partition key   + 
 The term "hash attribute" derives from DynamoDB's usage of an internal hash function to evenly distribute data items across partitions, based on their partition key values.
 The sort key of an item is also known as its *range attribute*. The term "range attribute" derives from the way DynamoDB stores items with the same partition key physically close together, in sorted order by the sort key value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#key_type DynamodbTable#key_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#key_type DynamodbTable#key_type}
 
 ---
 
@@ -3613,7 +3681,7 @@ Represents the non-key attribute names which will be projected into the index.
 
 For global and local secondary indexes, the total count of `NonKeyAttributes` summed across all of the secondary indexes, must not exceed 100. If you project the same attribute into two different indexes, this counts as two distinct attributes when determining the total. This limit only applies when you specify the ProjectionType of `INCLUDE`. You still can specify the ProjectionType of `ALL` to project all attributes from the source table, even if the table has more than 100 attributes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#non_key_attributes DynamodbTable#non_key_attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#non_key_attributes DynamodbTable#non_key_attributes}
 
 ---
 
@@ -3633,7 +3701,7 @@ The set of attributes that are projected into the index:   +  ``KEYS_ONLY`` - On
 When using the DynamoDB console, `ALL` is selected by default.
 You can't modify the projection of an existing index. To change the projected attributes, you must delete the index and create a new one with the projection that you want.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#projection_type DynamodbTable#projection_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#projection_type DynamodbTable#projection_type}
 
 ---
 
@@ -3671,7 +3739,7 @@ Maximum number of read request units for the specified table.
 
 To specify a maximum `OnDemandThroughput` on your table, set the value of `MaxReadRequestUnits` as greater than or equal to 1. To remove the maximum `OnDemandThroughput` that is currently set on your table, set the value of `MaxReadRequestUnits` to -1.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#max_read_request_units DynamodbTable#max_read_request_units}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#max_read_request_units DynamodbTable#max_read_request_units}
 
 ---
 
@@ -3687,7 +3755,7 @@ Maximum number of write request units for the specified table.
 
 To specify a maximum `OnDemandThroughput` on your table, set the value of `MaxWriteRequestUnits` as greater than or equal to 1. To remove the maximum `OnDemandThroughput` that is currently set on your table, set the value of `MaxWriteRequestUnits` to -1.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#max_write_request_units DynamodbTable#max_write_request_units}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#max_write_request_units DynamodbTable#max_write_request_units}
 
 ---
 
@@ -3723,7 +3791,7 @@ point_in_time_recovery_enabled: bool | IResolvable
 
 Indicates whether point in time recovery is enabled (true) or disabled (false) on the table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#point_in_time_recovery_enabled DynamodbTable#point_in_time_recovery_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#point_in_time_recovery_enabled DynamodbTable#point_in_time_recovery_enabled}
 
 ---
 
@@ -3739,7 +3807,7 @@ The number of preceding days for which continuous backups are taken and maintain
 
 Your table data is only recoverable to any point-in-time from within the configured recovery period. This parameter is optional. If no value is provided, the value will default to 35.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#recovery_period_in_days DynamodbTable#recovery_period_in_days}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#recovery_period_in_days DynamodbTable#recovery_period_in_days}
 
 ---
 
@@ -3778,7 +3846,7 @@ The maximum number of strongly consistent reads consumed per second before Dynam
 For more information, see [Specifying Read and Write Requirements](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/ProvisionedThroughput.html) in the *Amazon DynamoDB Developer Guide*.
 If read/write capacity mode is `PAY_PER_REQUEST` the value is set to 0.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#read_capacity_units DynamodbTable#read_capacity_units}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#read_capacity_units DynamodbTable#read_capacity_units}
 
 ---
 
@@ -3795,7 +3863,7 @@ The maximum number of writes consumed per second before DynamoDB returns a ``Thr
 For more information, see [Specifying Read and Write Requirements](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/ProvisionedThroughput.html) in the *Amazon DynamoDB Developer Guide*.
 If read/write capacity mode is `PAY_PER_REQUEST` the value is set to 0.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#write_capacity_units DynamodbTable#write_capacity_units}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#write_capacity_units DynamodbTable#write_capacity_units}
 
 ---
 
@@ -3831,7 +3899,7 @@ A resource-based policy document that contains permissions to add to the specifi
 
 In a CFNshort template, you can provide the policy in JSON or YAML format because CFNshort converts YAML to JSON before submitting it to DDB. For more information about resource-based policies, see [Using resource-based policies for](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/access-control-resource-based.html) and [Resource-based policy examples](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/rbac-examples.html).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#policy_document DynamodbTable#policy_document}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#policy_document DynamodbTable#policy_document}
 
 ---
 
@@ -3871,7 +3939,7 @@ The KMS key that should be used for the KMS encryption.
 
 To specify a key, use its key ID, Amazon Resource Name (ARN), alias name, or alias ARN. Note that you should only provide this parameter if the key is different from the default DynamoDB key `alias/aws/dynamodb`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#kms_master_key_id DynamodbTable#kms_master_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#kms_master_key_id DynamodbTable#kms_master_key_id}
 
 ---
 
@@ -3887,7 +3955,7 @@ Indicates whether server-side encryption is done using an AWS managed key or an 
 
 If enabled (true), server-side encryption type is set to `KMS` and an AWS managed key is used (KMS charges apply). If disabled (false) or not specified, server-side encryption is set to AWS owned key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#sse_enabled DynamodbTable#sse_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#sse_enabled DynamodbTable#sse_enabled}
 
 ---
 
@@ -3905,7 +3973,7 @@ The only supported value is:
 
 * `KMS` - Server-side encryption that uses KMSlong. The key is stored in your account and is managed by KMS (KMS charges apply).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#sse_type DynamodbTable#sse_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#sse_type DynamodbTable#sse_type}
 
 ---
 
@@ -3947,7 +4015,7 @@ Resource-based policies let you define access permissions by specifying who has 
 When you remove the `StreamSpecification` property from the template, DynamoDB disables the stream but retains any attached resource policy until the stream is deleted after 24 hours. When you modify the `StreamViewType` property, DynamoDB creates a new stream and retains the old stream's resource policy. The old stream and its resource policy are deleted after the 24-hour retention period.
 In a CFNshort template, you can provide the policy in JSON or YAML format because CFNshort converts YAML to JSON before submitting it to DDB. For more information about resource-based policies, see [Using resource-based policies for](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/access-control-resource-based.html) and [Resource-based policy examples](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/rbac-examples.html).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#resource_policy DynamodbTable#resource_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#resource_policy DynamodbTable#resource_policy}
 
 ---
 
@@ -3968,7 +4036,7 @@ Valid values for `StreamViewType` are:
 * `OLD_IMAGE` - The entire item, as it appeared before it was modified, is written to the stream.
 * `NEW_AND_OLD_IMAGES` - Both the new and the old item images of the item are written to the stream.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#stream_view_type DynamodbTable#stream_view_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#stream_view_type DynamodbTable#stream_view_type}
 
 ---
 
@@ -3985,7 +4053,7 @@ Specifies the tags to apply to the DDB stream.
 Stream tags are independent of table tags.
 For an overview on tagging DynamoDB resources, see [Tagging for DynamoDB](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Tagging.html) in the *Amazon DynamoDB Developer Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#tags DynamodbTable#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#tags DynamodbTable#tags}
 
 ---
 
@@ -4021,7 +4089,7 @@ A resource-based policy document that contains permissions to add to the specifi
 
 In a CFNshort template, you can provide the policy in JSON or YAML format because CFNshort converts YAML to JSON before submitting it to DDB. For more information about resource-based policies, see [Using resource-based policies for](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/access-control-resource-based.html) and [Resource-based policy examples](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/rbac-examples.html).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#policy_document DynamodbTable#policy_document}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#policy_document DynamodbTable#policy_document}
 
 ---
 
@@ -4059,7 +4127,7 @@ The key of the tag.
 
 Tag keys are case sensitive. Each DynamoDB table can only have up to one tag with the same key. If you try to add an existing tag (same key), the existing tag value will be updated to the new value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#key DynamodbTable#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#key DynamodbTable#key}
 
 ---
 
@@ -4073,7 +4141,7 @@ value: str
 
 The value of the tag. Tag values are case-sensitive and can be null.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#value DynamodbTable#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#value DynamodbTable#value}
 
 ---
 
@@ -4111,7 +4179,7 @@ The key of the tag.
 
 Tag keys are case sensitive. Each DynamoDB table can only have up to one tag with the same key. If you try to add an existing tag (same key), the existing tag value will be updated to the new value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#key DynamodbTable#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#key DynamodbTable#key}
 
 ---
 
@@ -4125,7 +4193,7 @@ value: str
 
 The value of the tag. Tag values are case-sensitive and can be null.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#value DynamodbTable#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#value DynamodbTable#value}
 
 ---
 
@@ -4164,7 +4232,7 @@ The name of the TTL attribute used to store the expiration time for items in the
 * The `AttributeName` property is required when enabling the TTL, or when TTL is already enabled.
 * To update this property, you must first disable TTL and then enable TTL with the new attribute name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#attribute_name DynamodbTable#attribute_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#attribute_name DynamodbTable#attribute_name}
 
 ---
 
@@ -4178,7 +4246,249 @@ enabled: bool | IResolvable
 
 Indicates whether TTL is to be enabled (true) or disabled (false) on the table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#enabled DynamodbTable#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#enabled DynamodbTable#enabled}
+
+---
+
+### DynamodbTableVectorIndexes <a name="DynamodbTableVectorIndexes" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexes"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexes.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import dynamodb_table
+
+dynamodbTable.DynamodbTableVectorIndexes(
+  dimensions: typing.Union[int, float] = None,
+  distance_function: str = None,
+  index_name: str = None,
+  projection: DynamodbTableVectorIndexesProjection = None,
+  search_schema: IResolvable | typing.List[DynamodbTableVectorIndexesSearchSchema] = None,
+  vector_attribute: DynamodbTableVectorIndexesVectorAttribute = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexes.property.dimensions">dimensions</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#dimensions DynamodbTable#dimensions}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexes.property.distanceFunction">distance_function</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#distance_function DynamodbTable#distance_function}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexes.property.indexName">index_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#index_name DynamodbTable#index_name}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexes.property.projection">projection</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesProjection">DynamodbTableVectorIndexesProjection</a></code> | Represents attributes that are copied (projected) from the table into an index. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexes.property.searchSchema">search_schema</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchema">DynamodbTableVectorIndexesSearchSchema</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#search_schema DynamodbTable#search_schema}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexes.property.vectorAttribute">vector_attribute</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesVectorAttribute">DynamodbTableVectorIndexesVectorAttribute</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#vector_attribute DynamodbTable#vector_attribute}. |
+
+---
+
+##### `dimensions`<sup>Optional</sup> <a name="dimensions" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexes.property.dimensions"></a>
+
+```python
+dimensions: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#dimensions DynamodbTable#dimensions}.
+
+---
+
+##### `distance_function`<sup>Optional</sup> <a name="distance_function" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexes.property.distanceFunction"></a>
+
+```python
+distance_function: str
+```
+
+- *Type:* str
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#distance_function DynamodbTable#distance_function}.
+
+---
+
+##### `index_name`<sup>Optional</sup> <a name="index_name" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexes.property.indexName"></a>
+
+```python
+index_name: str
+```
+
+- *Type:* str
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#index_name DynamodbTable#index_name}.
+
+---
+
+##### `projection`<sup>Optional</sup> <a name="projection" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexes.property.projection"></a>
+
+```python
+projection: DynamodbTableVectorIndexesProjection
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesProjection">DynamodbTableVectorIndexesProjection</a>
+
+Represents attributes that are copied (projected) from the table into an index.
+
+These are in addition to the primary key attributes and index key attributes, which are automatically projected.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#projection DynamodbTable#projection}
+
+---
+
+##### `search_schema`<sup>Optional</sup> <a name="search_schema" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexes.property.searchSchema"></a>
+
+```python
+search_schema: IResolvable | typing.List[DynamodbTableVectorIndexesSearchSchema]
+```
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchema">DynamodbTableVectorIndexesSearchSchema</a>]
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#search_schema DynamodbTable#search_schema}.
+
+---
+
+##### `vector_attribute`<sup>Optional</sup> <a name="vector_attribute" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexes.property.vectorAttribute"></a>
+
+```python
+vector_attribute: DynamodbTableVectorIndexesVectorAttribute
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesVectorAttribute">DynamodbTableVectorIndexesVectorAttribute</a>
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#vector_attribute DynamodbTable#vector_attribute}.
+
+---
+
+### DynamodbTableVectorIndexesProjection <a name="DynamodbTableVectorIndexesProjection" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesProjection"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesProjection.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import dynamodb_table
+
+dynamodbTable.DynamodbTableVectorIndexesProjection(
+  non_key_attributes: typing.List[str] = None,
+  projection_type: str = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesProjection.property.nonKeyAttributes">non_key_attributes</a></code> | <code>typing.List[str]</code> | Represents the non-key attribute names which will be projected into the index. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesProjection.property.projectionType">projection_type</a></code> | <code>str</code> | The set of attributes that are projected into the index:   +  ``KEYS_ONLY`` - Only the index and primary keys are projected into the index. |
+
+---
+
+##### `non_key_attributes`<sup>Optional</sup> <a name="non_key_attributes" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesProjection.property.nonKeyAttributes"></a>
+
+```python
+non_key_attributes: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+Represents the non-key attribute names which will be projected into the index.
+
+For global and local secondary indexes, the total count of `NonKeyAttributes` summed across all of the secondary indexes, must not exceed 100. If you project the same attribute into two different indexes, this counts as two distinct attributes when determining the total. This limit only applies when you specify the ProjectionType of `INCLUDE`. You still can specify the ProjectionType of `ALL` to project all attributes from the source table, even if the table has more than 100 attributes.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#non_key_attributes DynamodbTable#non_key_attributes}
+
+---
+
+##### `projection_type`<sup>Optional</sup> <a name="projection_type" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesProjection.property.projectionType"></a>
+
+```python
+projection_type: str
+```
+
+- *Type:* str
+
+The set of attributes that are projected into the index:   +  ``KEYS_ONLY`` - Only the index and primary keys are projected into the index.
+
+* `INCLUDE` - In addition to the attributes described in `KEYS_ONLY`, the secondary index will include other non-key attributes that you specify.
+* `ALL` - All of the table attributes are projected into the index.
+
+When using the DynamoDB console, `ALL` is selected by default.
+You can't modify the projection of an existing index. To change the projected attributes, you must delete the index and create a new one with the projection that you want.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#projection_type DynamodbTable#projection_type}
+
+---
+
+### DynamodbTableVectorIndexesSearchSchema <a name="DynamodbTableVectorIndexesSearchSchema" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchema"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchema.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import dynamodb_table
+
+dynamodbTable.DynamodbTableVectorIndexesSearchSchema(
+  attribute_name: str = None,
+  search_schema_element_type: str = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchema.property.attributeName">attribute_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#attribute_name DynamodbTable#attribute_name}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchema.property.searchSchemaElementType">search_schema_element_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#search_schema_element_type DynamodbTable#search_schema_element_type}. |
+
+---
+
+##### `attribute_name`<sup>Optional</sup> <a name="attribute_name" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchema.property.attributeName"></a>
+
+```python
+attribute_name: str
+```
+
+- *Type:* str
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#attribute_name DynamodbTable#attribute_name}.
+
+---
+
+##### `search_schema_element_type`<sup>Optional</sup> <a name="search_schema_element_type" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchema.property.searchSchemaElementType"></a>
+
+```python
+search_schema_element_type: str
+```
+
+- *Type:* str
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#search_schema_element_type DynamodbTable#search_schema_element_type}.
+
+---
+
+### DynamodbTableVectorIndexesVectorAttribute <a name="DynamodbTableVectorIndexesVectorAttribute" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesVectorAttribute"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesVectorAttribute.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import dynamodb_table
+
+dynamodbTable.DynamodbTableVectorIndexesVectorAttribute(
+  attribute_name: str = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesVectorAttribute.property.attributeName">attribute_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#attribute_name DynamodbTable#attribute_name}. |
+
+---
+
+##### `attribute_name`<sup>Optional</sup> <a name="attribute_name" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesVectorAttribute.property.attributeName"></a>
+
+```python
+attribute_name: str
+```
+
+- *Type:* str
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#attribute_name DynamodbTable#attribute_name}.
 
 ---
 
@@ -4214,7 +4524,7 @@ read_units_per_second: typing.Union[int, float]
 
 Represents the number of read operations your base table can instantaneously support.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#read_units_per_second DynamodbTable#read_units_per_second}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#read_units_per_second DynamodbTable#read_units_per_second}
 
 ---
 
@@ -4228,7 +4538,7 @@ write_units_per_second: typing.Union[int, float]
 
 Represents the number of write operations your base table can instantaneously support.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#write_units_per_second DynamodbTable#write_units_per_second}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#write_units_per_second DynamodbTable#write_units_per_second}
 
 ---
 
@@ -6720,7 +7030,7 @@ def put_contributor_insights_specification(
 
 Indicates whether CloudWatch Contributor Insights are to be enabled (true) or disabled (false).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#enabled DynamodbTable#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#enabled DynamodbTable#enabled}
 
 ---
 
@@ -6732,7 +7042,7 @@ Specifies the CloudWatch Contributor Insights mode for a table.
 
 Valid values are `ACCESSED_AND_THROTTLED_KEYS` (tracks all access and throttled events) or `THROTTLED_KEYS` (tracks only throttled events). This setting determines what type of contributor insights data is collected for the table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#mode DynamodbTable#mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#mode DynamodbTable#mode}
 
 ---
 
@@ -6767,7 +7077,7 @@ Maximum number of read request units for the specified table.
 
 To specify a maximum `OnDemandThroughput` on your table, set the value of `MaxReadRequestUnits` as greater than or equal to 1. To remove the maximum `OnDemandThroughput` that is currently set on your table, set the value of `MaxReadRequestUnits` to -1.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#max_read_request_units DynamodbTable#max_read_request_units}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#max_read_request_units DynamodbTable#max_read_request_units}
 
 ---
 
@@ -6779,7 +7089,7 @@ Maximum number of write request units for the specified table.
 
 To specify a maximum `OnDemandThroughput` on your table, set the value of `MaxWriteRequestUnits` as greater than or equal to 1. To remove the maximum `OnDemandThroughput` that is currently set on your table, set the value of `MaxWriteRequestUnits` to -1.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#max_write_request_units DynamodbTable#max_write_request_units}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#max_write_request_units DynamodbTable#max_write_request_units}
 
 ---
 
@@ -6800,7 +7110,7 @@ Represents the non-key attribute names which will be projected into the index.
 
 For global and local secondary indexes, the total count of `NonKeyAttributes` summed across all of the secondary indexes, must not exceed 100. If you project the same attribute into two different indexes, this counts as two distinct attributes when determining the total. This limit only applies when you specify the ProjectionType of `INCLUDE`. You still can specify the ProjectionType of `ALL` to project all attributes from the source table, even if the table has more than 100 attributes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#non_key_attributes DynamodbTable#non_key_attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#non_key_attributes DynamodbTable#non_key_attributes}
 
 ---
 
@@ -6816,7 +7126,7 @@ The set of attributes that are projected into the index:   +  ``KEYS_ONLY`` - On
 When using the DynamoDB console, `ALL` is selected by default.
 You can't modify the projection of an existing index. To change the projected attributes, you must delete the index and create a new one with the projection that you want.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#projection_type DynamodbTable#projection_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#projection_type DynamodbTable#projection_type}
 
 ---
 
@@ -6838,7 +7148,7 @@ The maximum number of strongly consistent reads consumed per second before Dynam
 For more information, see [Specifying Read and Write Requirements](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/ProvisionedThroughput.html) in the *Amazon DynamoDB Developer Guide*.
 If read/write capacity mode is `PAY_PER_REQUEST` the value is set to 0.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#read_capacity_units DynamodbTable#read_capacity_units}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#read_capacity_units DynamodbTable#read_capacity_units}
 
 ---
 
@@ -6851,7 +7161,7 @@ The maximum number of writes consumed per second before DynamoDB returns a ``Thr
 For more information, see [Specifying Read and Write Requirements](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/ProvisionedThroughput.html) in the *Amazon DynamoDB Developer Guide*.
 If read/write capacity mode is `PAY_PER_REQUEST` the value is set to 0.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#write_capacity_units DynamodbTable#write_capacity_units}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#write_capacity_units DynamodbTable#write_capacity_units}
 
 ---
 
@@ -6870,7 +7180,7 @@ def put_warm_throughput(
 
 Represents the number of read operations your base table can instantaneously support.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#read_units_per_second DynamodbTable#read_units_per_second}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#read_units_per_second DynamodbTable#read_units_per_second}
 
 ---
 
@@ -6880,7 +7190,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Represents the number of write operations your base table can instantaneously support.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#write_units_per_second DynamodbTable#write_units_per_second}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#write_units_per_second DynamodbTable#write_units_per_second}
 
 ---
 
@@ -8699,7 +9009,7 @@ def put_csv(
 
 The delimiter used for separating items in the CSV file being imported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#delimiter DynamodbTable#delimiter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#delimiter DynamodbTable#delimiter}
 
 ---
 
@@ -8711,7 +9021,7 @@ List of the headers used to specify a common header for all source CSV files bei
 
 If this field is specified then the first line of each CSV file is treated as data instead of the header. If this field is not specified the the first line of each CSV file is treated as the header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#header_list DynamodbTable#header_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#header_list DynamodbTable#header_list}
 
 ---
 
@@ -9037,7 +9347,7 @@ def put_input_format_options(
 
 The options for imported source files in CSV format. The values are Delimiter and HeaderList.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#csv DynamodbTable#csv}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#csv DynamodbTable#csv}
 
 ---
 
@@ -9057,7 +9367,7 @@ def put_s3_bucket_source(
 
 The S3 bucket that is being imported from.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#s3_bucket DynamodbTable#s3_bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#s3_bucket DynamodbTable#s3_bucket}
 
 ---
 
@@ -9069,7 +9379,7 @@ The account number of the S3 bucket that is being imported from.
 
 If the bucket is owned by the requester this is optional.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#s3_bucket_owner DynamodbTable#s3_bucket_owner}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#s3_bucket_owner DynamodbTable#s3_bucket_owner}
 
 ---
 
@@ -9079,7 +9389,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The key prefix shared by all S3 Objects that are being imported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#s3_key_prefix DynamodbTable#s3_key_prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#s3_key_prefix DynamodbTable#s3_key_prefix}
 
 ---
 
@@ -10910,7 +11220,7 @@ Represents the non-key attribute names which will be projected into the index.
 
 For global and local secondary indexes, the total count of `NonKeyAttributes` summed across all of the secondary indexes, must not exceed 100. If you project the same attribute into two different indexes, this counts as two distinct attributes when determining the total. This limit only applies when you specify the ProjectionType of `INCLUDE`. You still can specify the ProjectionType of `ALL` to project all attributes from the source table, even if the table has more than 100 attributes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#non_key_attributes DynamodbTable#non_key_attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#non_key_attributes DynamodbTable#non_key_attributes}
 
 ---
 
@@ -10926,7 +11236,7 @@ The set of attributes that are projected into the index:   +  ``KEYS_ONLY`` - On
 When using the DynamoDB console, `ALL` is selected by default.
 You can't modify the projection of an existing index. To change the projected attributes, you must delete the index and create a new one with the projection that you want.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#projection_type DynamodbTable#projection_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#projection_type DynamodbTable#projection_type}
 
 ---
 
@@ -13301,7 +13611,7 @@ A resource-based policy document that contains permissions to add to the specifi
 
 In a CFNshort template, you can provide the policy in JSON or YAML format because CFNshort converts YAML to JSON before submitting it to DDB. For more information about resource-based policies, see [Using resource-based policies for](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/access-control-resource-based.html) and [Resource-based policy examples](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/rbac-examples.html).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table#policy_document DynamodbTable#policy_document}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#policy_document DynamodbTable#policy_document}
 
 ---
 
@@ -15124,6 +15434,1871 @@ internal_value: IResolvable | DynamodbTableTimeToLiveSpecification
 ```
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableTimeToLiveSpecification">DynamodbTableTimeToLiveSpecification</a>
+
+---
+
+
+### DynamodbTableVectorIndexesList <a name="DynamodbTableVectorIndexesList" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesList.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import dynamodb_table
+
+dynamodbTable.DynamodbTableVectorIndexesList(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  wraps_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesList.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesList.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesList.Initializer.parameter.wrapsSet">wraps_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wraps_set`<sup>Required</sup> <a name="wraps_set" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesList.allWithMapKey">all_with_map_key</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesList.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesList.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesList.get">get</a></code> | *No description.* |
+
+---
+
+##### `all_with_map_key` <a name="all_with_map_key" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesList.allWithMapKey"></a>
+
+```python
+def all_with_map_key(
+  map_key_attribute_name: str
+) -> DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `map_key_attribute_name`<sup>Required</sup> <a name="map_key_attribute_name" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* str
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesList.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesList.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesList.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesList.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `get` <a name="get" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesList.get"></a>
+
+```python
+def get(
+  index: typing.Union[int, float]
+) -> DynamodbTableVectorIndexesOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesList.get.parameter.index"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesList.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesList.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesList.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexes">DynamodbTableVectorIndexes</a>]</code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesList.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesList.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesList.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | typing.List[DynamodbTableVectorIndexes]
+```
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexes">DynamodbTableVectorIndexes</a>]
+
+---
+
+
+### DynamodbTableVectorIndexesOutputReference <a name="DynamodbTableVectorIndexesOutputReference" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import dynamodb_table
+
+dynamodbTable.DynamodbTableVectorIndexesOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  complex_object_index: typing.Union[int, float],
+  complex_object_is_from_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.Initializer.parameter.complexObjectIndex">complex_object_index</a></code> | <code>typing.Union[int, float]</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.Initializer.parameter.complexObjectIsFromSet">complex_object_is_from_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complex_object_index`<sup>Required</sup> <a name="complex_object_index" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of this item in the list.
+
+---
+
+##### `complex_object_is_from_set`<sup>Required</sup> <a name="complex_object_is_from_set" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.putProjection">put_projection</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.putSearchSchema">put_search_schema</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.putVectorAttribute">put_vector_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.resetDimensions">reset_dimensions</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.resetDistanceFunction">reset_distance_function</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.resetIndexName">reset_index_name</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.resetProjection">reset_projection</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.resetSearchSchema">reset_search_schema</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.resetVectorAttribute">reset_vector_attribute</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `put_projection` <a name="put_projection" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.putProjection"></a>
+
+```python
+def put_projection(
+  non_key_attributes: typing.List[str] = None,
+  projection_type: str = None
+) -> None
+```
+
+###### `non_key_attributes`<sup>Optional</sup> <a name="non_key_attributes" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.putProjection.parameter.nonKeyAttributes"></a>
+
+- *Type:* typing.List[str]
+
+Represents the non-key attribute names which will be projected into the index.
+
+For global and local secondary indexes, the total count of `NonKeyAttributes` summed across all of the secondary indexes, must not exceed 100. If you project the same attribute into two different indexes, this counts as two distinct attributes when determining the total. This limit only applies when you specify the ProjectionType of `INCLUDE`. You still can specify the ProjectionType of `ALL` to project all attributes from the source table, even if the table has more than 100 attributes.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#non_key_attributes DynamodbTable#non_key_attributes}
+
+---
+
+###### `projection_type`<sup>Optional</sup> <a name="projection_type" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.putProjection.parameter.projectionType"></a>
+
+- *Type:* str
+
+The set of attributes that are projected into the index:   +  ``KEYS_ONLY`` - Only the index and primary keys are projected into the index.
+
+* `INCLUDE` - In addition to the attributes described in `KEYS_ONLY`, the secondary index will include other non-key attributes that you specify.
+* `ALL` - All of the table attributes are projected into the index.
+
+When using the DynamoDB console, `ALL` is selected by default.
+You can't modify the projection of an existing index. To change the projected attributes, you must delete the index and create a new one with the projection that you want.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#projection_type DynamodbTable#projection_type}
+
+---
+
+##### `put_search_schema` <a name="put_search_schema" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.putSearchSchema"></a>
+
+```python
+def put_search_schema(
+  value: IResolvable | typing.List[DynamodbTableVectorIndexesSearchSchema]
+) -> None
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.putSearchSchema.parameter.value"></a>
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchema">DynamodbTableVectorIndexesSearchSchema</a>]
+
+---
+
+##### `put_vector_attribute` <a name="put_vector_attribute" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.putVectorAttribute"></a>
+
+```python
+def put_vector_attribute(
+  attribute_name: str = None
+) -> None
+```
+
+###### `attribute_name`<sup>Optional</sup> <a name="attribute_name" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.putVectorAttribute.parameter.attributeName"></a>
+
+- *Type:* str
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#attribute_name DynamodbTable#attribute_name}.
+
+---
+
+##### `reset_dimensions` <a name="reset_dimensions" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.resetDimensions"></a>
+
+```python
+def reset_dimensions() -> None
+```
+
+##### `reset_distance_function` <a name="reset_distance_function" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.resetDistanceFunction"></a>
+
+```python
+def reset_distance_function() -> None
+```
+
+##### `reset_index_name` <a name="reset_index_name" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.resetIndexName"></a>
+
+```python
+def reset_index_name() -> None
+```
+
+##### `reset_projection` <a name="reset_projection" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.resetProjection"></a>
+
+```python
+def reset_projection() -> None
+```
+
+##### `reset_search_schema` <a name="reset_search_schema" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.resetSearchSchema"></a>
+
+```python
+def reset_search_schema() -> None
+```
+
+##### `reset_vector_attribute` <a name="reset_vector_attribute" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.resetVectorAttribute"></a>
+
+```python
+def reset_vector_attribute() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.property.projection">projection</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesProjectionOutputReference">DynamodbTableVectorIndexesProjectionOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.property.searchSchema">search_schema</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaList">DynamodbTableVectorIndexesSearchSchemaList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.property.vectorAttribute">vector_attribute</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesVectorAttributeOutputReference">DynamodbTableVectorIndexesVectorAttributeOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.property.dimensionsInput">dimensions_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.property.distanceFunctionInput">distance_function_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.property.indexNameInput">index_name_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.property.projectionInput">projection_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesProjection">DynamodbTableVectorIndexesProjection</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.property.searchSchemaInput">search_schema_input</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchema">DynamodbTableVectorIndexesSearchSchema</a>]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.property.vectorAttributeInput">vector_attribute_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesVectorAttribute">DynamodbTableVectorIndexesVectorAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.property.dimensions">dimensions</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.property.distanceFunction">distance_function</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.property.indexName">index_name</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexes">DynamodbTableVectorIndexes</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `projection`<sup>Required</sup> <a name="projection" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.property.projection"></a>
+
+```python
+projection: DynamodbTableVectorIndexesProjectionOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesProjectionOutputReference">DynamodbTableVectorIndexesProjectionOutputReference</a>
+
+---
+
+##### `search_schema`<sup>Required</sup> <a name="search_schema" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.property.searchSchema"></a>
+
+```python
+search_schema: DynamodbTableVectorIndexesSearchSchemaList
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaList">DynamodbTableVectorIndexesSearchSchemaList</a>
+
+---
+
+##### `vector_attribute`<sup>Required</sup> <a name="vector_attribute" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.property.vectorAttribute"></a>
+
+```python
+vector_attribute: DynamodbTableVectorIndexesVectorAttributeOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesVectorAttributeOutputReference">DynamodbTableVectorIndexesVectorAttributeOutputReference</a>
+
+---
+
+##### `dimensions_input`<sup>Optional</sup> <a name="dimensions_input" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.property.dimensionsInput"></a>
+
+```python
+dimensions_input: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+---
+
+##### `distance_function_input`<sup>Optional</sup> <a name="distance_function_input" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.property.distanceFunctionInput"></a>
+
+```python
+distance_function_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `index_name_input`<sup>Optional</sup> <a name="index_name_input" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.property.indexNameInput"></a>
+
+```python
+index_name_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `projection_input`<sup>Optional</sup> <a name="projection_input" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.property.projectionInput"></a>
+
+```python
+projection_input: IResolvable | DynamodbTableVectorIndexesProjection
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesProjection">DynamodbTableVectorIndexesProjection</a>
+
+---
+
+##### `search_schema_input`<sup>Optional</sup> <a name="search_schema_input" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.property.searchSchemaInput"></a>
+
+```python
+search_schema_input: IResolvable | typing.List[DynamodbTableVectorIndexesSearchSchema]
+```
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchema">DynamodbTableVectorIndexesSearchSchema</a>]
+
+---
+
+##### `vector_attribute_input`<sup>Optional</sup> <a name="vector_attribute_input" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.property.vectorAttributeInput"></a>
+
+```python
+vector_attribute_input: IResolvable | DynamodbTableVectorIndexesVectorAttribute
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesVectorAttribute">DynamodbTableVectorIndexesVectorAttribute</a>
+
+---
+
+##### `dimensions`<sup>Required</sup> <a name="dimensions" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.property.dimensions"></a>
+
+```python
+dimensions: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+---
+
+##### `distance_function`<sup>Required</sup> <a name="distance_function" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.property.distanceFunction"></a>
+
+```python
+distance_function: str
+```
+
+- *Type:* str
+
+---
+
+##### `index_name`<sup>Required</sup> <a name="index_name" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.property.indexName"></a>
+
+```python
+index_name: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | DynamodbTableVectorIndexes
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexes">DynamodbTableVectorIndexes</a>
+
+---
+
+
+### DynamodbTableVectorIndexesProjectionOutputReference <a name="DynamodbTableVectorIndexesProjectionOutputReference" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesProjectionOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesProjectionOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import dynamodb_table
+
+dynamodbTable.DynamodbTableVectorIndexesProjectionOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesProjectionOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesProjectionOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesProjectionOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesProjectionOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesProjectionOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesProjectionOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesProjectionOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesProjectionOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesProjectionOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesProjectionOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesProjectionOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesProjectionOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesProjectionOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesProjectionOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesProjectionOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesProjectionOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesProjectionOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesProjectionOutputReference.resetNonKeyAttributes">reset_non_key_attributes</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesProjectionOutputReference.resetProjectionType">reset_projection_type</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesProjectionOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesProjectionOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesProjectionOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesProjectionOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesProjectionOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesProjectionOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesProjectionOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesProjectionOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesProjectionOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesProjectionOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesProjectionOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesProjectionOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesProjectionOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesProjectionOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesProjectionOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesProjectionOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesProjectionOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesProjectionOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesProjectionOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesProjectionOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesProjectionOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesProjectionOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesProjectionOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesProjectionOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `reset_non_key_attributes` <a name="reset_non_key_attributes" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesProjectionOutputReference.resetNonKeyAttributes"></a>
+
+```python
+def reset_non_key_attributes() -> None
+```
+
+##### `reset_projection_type` <a name="reset_projection_type" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesProjectionOutputReference.resetProjectionType"></a>
+
+```python
+def reset_projection_type() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesProjectionOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesProjectionOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesProjectionOutputReference.property.nonKeyAttributesInput">non_key_attributes_input</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesProjectionOutputReference.property.projectionTypeInput">projection_type_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesProjectionOutputReference.property.nonKeyAttributes">non_key_attributes</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesProjectionOutputReference.property.projectionType">projection_type</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesProjectionOutputReference.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesProjection">DynamodbTableVectorIndexesProjection</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesProjectionOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesProjectionOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `non_key_attributes_input`<sup>Optional</sup> <a name="non_key_attributes_input" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesProjectionOutputReference.property.nonKeyAttributesInput"></a>
+
+```python
+non_key_attributes_input: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+---
+
+##### `projection_type_input`<sup>Optional</sup> <a name="projection_type_input" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesProjectionOutputReference.property.projectionTypeInput"></a>
+
+```python
+projection_type_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `non_key_attributes`<sup>Required</sup> <a name="non_key_attributes" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesProjectionOutputReference.property.nonKeyAttributes"></a>
+
+```python
+non_key_attributes: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+---
+
+##### `projection_type`<sup>Required</sup> <a name="projection_type" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesProjectionOutputReference.property.projectionType"></a>
+
+```python
+projection_type: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesProjectionOutputReference.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | DynamodbTableVectorIndexesProjection
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesProjection">DynamodbTableVectorIndexesProjection</a>
+
+---
+
+
+### DynamodbTableVectorIndexesSearchSchemaList <a name="DynamodbTableVectorIndexesSearchSchemaList" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaList.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import dynamodb_table
+
+dynamodbTable.DynamodbTableVectorIndexesSearchSchemaList(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  wraps_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaList.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaList.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaList.Initializer.parameter.wrapsSet">wraps_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wraps_set`<sup>Required</sup> <a name="wraps_set" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaList.allWithMapKey">all_with_map_key</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaList.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaList.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaList.get">get</a></code> | *No description.* |
+
+---
+
+##### `all_with_map_key` <a name="all_with_map_key" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaList.allWithMapKey"></a>
+
+```python
+def all_with_map_key(
+  map_key_attribute_name: str
+) -> DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `map_key_attribute_name`<sup>Required</sup> <a name="map_key_attribute_name" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* str
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaList.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaList.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaList.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaList.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `get` <a name="get" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaList.get"></a>
+
+```python
+def get(
+  index: typing.Union[int, float]
+) -> DynamodbTableVectorIndexesSearchSchemaOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaList.get.parameter.index"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaList.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaList.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaList.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchema">DynamodbTableVectorIndexesSearchSchema</a>]</code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaList.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaList.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaList.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | typing.List[DynamodbTableVectorIndexesSearchSchema]
+```
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchema">DynamodbTableVectorIndexesSearchSchema</a>]
+
+---
+
+
+### DynamodbTableVectorIndexesSearchSchemaOutputReference <a name="DynamodbTableVectorIndexesSearchSchemaOutputReference" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import dynamodb_table
+
+dynamodbTable.DynamodbTableVectorIndexesSearchSchemaOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  complex_object_index: typing.Union[int, float],
+  complex_object_is_from_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaOutputReference.Initializer.parameter.complexObjectIndex">complex_object_index</a></code> | <code>typing.Union[int, float]</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaOutputReference.Initializer.parameter.complexObjectIsFromSet">complex_object_is_from_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complex_object_index`<sup>Required</sup> <a name="complex_object_index" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of this item in the list.
+
+---
+
+##### `complex_object_is_from_set`<sup>Required</sup> <a name="complex_object_is_from_set" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaOutputReference.resetAttributeName">reset_attribute_name</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaOutputReference.resetSearchSchemaElementType">reset_search_schema_element_type</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `reset_attribute_name` <a name="reset_attribute_name" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaOutputReference.resetAttributeName"></a>
+
+```python
+def reset_attribute_name() -> None
+```
+
+##### `reset_search_schema_element_type` <a name="reset_search_schema_element_type" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaOutputReference.resetSearchSchemaElementType"></a>
+
+```python
+def reset_search_schema_element_type() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaOutputReference.property.attributeNameInput">attribute_name_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaOutputReference.property.searchSchemaElementTypeInput">search_schema_element_type_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaOutputReference.property.attributeName">attribute_name</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaOutputReference.property.searchSchemaElementType">search_schema_element_type</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaOutputReference.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchema">DynamodbTableVectorIndexesSearchSchema</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `attribute_name_input`<sup>Optional</sup> <a name="attribute_name_input" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaOutputReference.property.attributeNameInput"></a>
+
+```python
+attribute_name_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `search_schema_element_type_input`<sup>Optional</sup> <a name="search_schema_element_type_input" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaOutputReference.property.searchSchemaElementTypeInput"></a>
+
+```python
+search_schema_element_type_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `attribute_name`<sup>Required</sup> <a name="attribute_name" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaOutputReference.property.attributeName"></a>
+
+```python
+attribute_name: str
+```
+
+- *Type:* str
+
+---
+
+##### `search_schema_element_type`<sup>Required</sup> <a name="search_schema_element_type" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaOutputReference.property.searchSchemaElementType"></a>
+
+```python
+search_schema_element_type: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaOutputReference.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | DynamodbTableVectorIndexesSearchSchema
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchema">DynamodbTableVectorIndexesSearchSchema</a>
+
+---
+
+
+### DynamodbTableVectorIndexesVectorAttributeOutputReference <a name="DynamodbTableVectorIndexesVectorAttributeOutputReference" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesVectorAttributeOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesVectorAttributeOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import dynamodb_table
+
+dynamodbTable.DynamodbTableVectorIndexesVectorAttributeOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesVectorAttributeOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesVectorAttributeOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesVectorAttributeOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesVectorAttributeOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesVectorAttributeOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesVectorAttributeOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesVectorAttributeOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesVectorAttributeOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesVectorAttributeOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesVectorAttributeOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesVectorAttributeOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesVectorAttributeOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesVectorAttributeOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesVectorAttributeOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesVectorAttributeOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesVectorAttributeOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesVectorAttributeOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesVectorAttributeOutputReference.resetAttributeName">reset_attribute_name</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesVectorAttributeOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesVectorAttributeOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesVectorAttributeOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesVectorAttributeOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesVectorAttributeOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesVectorAttributeOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesVectorAttributeOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesVectorAttributeOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesVectorAttributeOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesVectorAttributeOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesVectorAttributeOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesVectorAttributeOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesVectorAttributeOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesVectorAttributeOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesVectorAttributeOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesVectorAttributeOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesVectorAttributeOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesVectorAttributeOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesVectorAttributeOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesVectorAttributeOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesVectorAttributeOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesVectorAttributeOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesVectorAttributeOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesVectorAttributeOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `reset_attribute_name` <a name="reset_attribute_name" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesVectorAttributeOutputReference.resetAttributeName"></a>
+
+```python
+def reset_attribute_name() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesVectorAttributeOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesVectorAttributeOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesVectorAttributeOutputReference.property.attributeNameInput">attribute_name_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesVectorAttributeOutputReference.property.attributeName">attribute_name</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesVectorAttributeOutputReference.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesVectorAttribute">DynamodbTableVectorIndexesVectorAttribute</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesVectorAttributeOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesVectorAttributeOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `attribute_name_input`<sup>Optional</sup> <a name="attribute_name_input" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesVectorAttributeOutputReference.property.attributeNameInput"></a>
+
+```python
+attribute_name_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `attribute_name`<sup>Required</sup> <a name="attribute_name" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesVectorAttributeOutputReference.property.attributeName"></a>
+
+```python
+attribute_name: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesVectorAttributeOutputReference.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | DynamodbTableVectorIndexesVectorAttribute
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesVectorAttribute">DynamodbTableVectorIndexesVectorAttribute</a>
 
 ---
 

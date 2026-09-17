@@ -4,7 +4,7 @@
 
 ### NotificationsManagedNotificationAdditionalChannelAssociation <a name="NotificationsManagedNotificationAdditionalChannelAssociation" id="@cdktn/provider-awscc.notificationsManagedNotificationAdditionalChannelAssociation.NotificationsManagedNotificationAdditionalChannelAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/notifications_managed_notification_additional_channel_association awscc_notifications_managed_notification_additional_channel_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/notifications_managed_notification_additional_channel_association awscc_notifications_managed_notification_additional_channel_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.notificationsManagedNotificationAdditionalChannelAssociation.NotificationsManagedNotificationAdditionalChannelAssociation.Initializer"></a>
 
@@ -22,7 +22,8 @@ notificationsManagedNotificationAdditionalChannelAssociation.NotificationsManage
   provider: TerraformProvider = None,
   provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner] = None,
   channel_arn: str,
-  managed_notification_configuration_arn: str
+  managed_notification_configuration_arn: str,
+  is_sensitive_events_subscribed: bool | IResolvable = None
 )
 ```
 
@@ -39,6 +40,7 @@ notificationsManagedNotificationAdditionalChannelAssociation.NotificationsManage
 | <code><a href="#@cdktn/provider-awscc.notificationsManagedNotificationAdditionalChannelAssociation.NotificationsManagedNotificationAdditionalChannelAssociation.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.notificationsManagedNotificationAdditionalChannelAssociation.NotificationsManagedNotificationAdditionalChannelAssociation.Initializer.parameter.channelArn">channel_arn</a></code> | <code>str</code> | ARN identifier of the channel. Example: arn:aws:chatbot::123456789012:chat-configuration/slack-channel/security-ops. |
 | <code><a href="#@cdktn/provider-awscc.notificationsManagedNotificationAdditionalChannelAssociation.NotificationsManagedNotificationAdditionalChannelAssociation.Initializer.parameter.managedNotificationConfigurationArn">managed_notification_configuration_arn</a></code> | <code>str</code> | ARN identifier of the Managed Notification. Example: arn:aws:notifications::381491923782:managed-notification-configuration/category/AWS-Health/sub-category/Billing. |
+| <code><a href="#@cdktn/provider-awscc.notificationsManagedNotificationAdditionalChannelAssociation.NotificationsManagedNotificationAdditionalChannelAssociation.Initializer.parameter.isSensitiveEventsSubscribed">is_sensitive_events_subscribed</a></code> | <code>bool \| cdktn.IResolvable</code> | Whether the channel association is subscribed to sensitive events. |
 
 ---
 
@@ -108,7 +110,7 @@ Must be unique amongst siblings in the same scope
 
 ARN identifier of the channel. Example: arn:aws:chatbot::123456789012:chat-configuration/slack-channel/security-ops.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/notifications_managed_notification_additional_channel_association#channel_arn NotificationsManagedNotificationAdditionalChannelAssociation#channel_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/notifications_managed_notification_additional_channel_association#channel_arn NotificationsManagedNotificationAdditionalChannelAssociation#channel_arn}
 
 ---
 
@@ -118,7 +120,19 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ARN identifier of the Managed Notification. Example: arn:aws:notifications::381491923782:managed-notification-configuration/category/AWS-Health/sub-category/Billing.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/notifications_managed_notification_additional_channel_association#managed_notification_configuration_arn NotificationsManagedNotificationAdditionalChannelAssociation#managed_notification_configuration_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/notifications_managed_notification_additional_channel_association#managed_notification_configuration_arn NotificationsManagedNotificationAdditionalChannelAssociation#managed_notification_configuration_arn}
+
+---
+
+##### `is_sensitive_events_subscribed`<sup>Optional</sup> <a name="is_sensitive_events_subscribed" id="@cdktn/provider-awscc.notificationsManagedNotificationAdditionalChannelAssociation.NotificationsManagedNotificationAdditionalChannelAssociation.Initializer.parameter.isSensitiveEventsSubscribed"></a>
+
+- *Type:* bool | cdktn.IResolvable
+
+Whether the channel association is subscribed to sensitive events.
+
+Access to sensitive events is gated by the SubscribeSensitiveEvents virtual IAM action.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/notifications_managed_notification_additional_channel_association#is_sensitive_events_subscribed NotificationsManagedNotificationAdditionalChannelAssociation#is_sensitive_events_subscribed}
 
 ---
 
@@ -150,6 +164,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-awscc.notificationsManagedNotificationAdditionalChannelAssociation.NotificationsManagedNotificationAdditionalChannelAssociation.moveFromId">move_from_id</a></code> | Move the resource corresponding to "id" to this resource. |
 | <code><a href="#@cdktn/provider-awscc.notificationsManagedNotificationAdditionalChannelAssociation.NotificationsManagedNotificationAdditionalChannelAssociation.moveTo">move_to</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-awscc.notificationsManagedNotificationAdditionalChannelAssociation.NotificationsManagedNotificationAdditionalChannelAssociation.moveToId">move_to_id</a></code> | Moves this resource to the resource corresponding to "id". |
+| <code><a href="#@cdktn/provider-awscc.notificationsManagedNotificationAdditionalChannelAssociation.NotificationsManagedNotificationAdditionalChannelAssociation.resetIsSensitiveEventsSubscribed">reset_is_sensitive_events_subscribed</a></code> | *No description.* |
 
 ---
 
@@ -501,6 +516,12 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 
 ---
 
+##### `reset_is_sensitive_events_subscribed` <a name="reset_is_sensitive_events_subscribed" id="@cdktn/provider-awscc.notificationsManagedNotificationAdditionalChannelAssociation.NotificationsManagedNotificationAdditionalChannelAssociation.resetIsSensitiveEventsSubscribed"></a>
+
+```python
+def reset_is_sensitive_events_subscribed() -> None
+```
+
 #### Static Functions <a name="Static Functions" id="Static Functions"></a>
 
 | **Name** | **Description** |
@@ -615,7 +636,7 @@ The construct id used in the generated config for the NotificationsManagedNotifi
 
 The id of the existing NotificationsManagedNotificationAdditionalChannelAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/notifications_managed_notification_additional_channel_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/notifications_managed_notification_additional_channel_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -647,8 +668,10 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.10
 | <code><a href="#@cdktn/provider-awscc.notificationsManagedNotificationAdditionalChannelAssociation.NotificationsManagedNotificationAdditionalChannelAssociation.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.notificationsManagedNotificationAdditionalChannelAssociation.NotificationsManagedNotificationAdditionalChannelAssociation.property.id">id</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.notificationsManagedNotificationAdditionalChannelAssociation.NotificationsManagedNotificationAdditionalChannelAssociation.property.channelArnInput">channel_arn_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.notificationsManagedNotificationAdditionalChannelAssociation.NotificationsManagedNotificationAdditionalChannelAssociation.property.isSensitiveEventsSubscribedInput">is_sensitive_events_subscribed_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.notificationsManagedNotificationAdditionalChannelAssociation.NotificationsManagedNotificationAdditionalChannelAssociation.property.managedNotificationConfigurationArnInput">managed_notification_configuration_arn_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.notificationsManagedNotificationAdditionalChannelAssociation.NotificationsManagedNotificationAdditionalChannelAssociation.property.channelArn">channel_arn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.notificationsManagedNotificationAdditionalChannelAssociation.NotificationsManagedNotificationAdditionalChannelAssociation.property.isSensitiveEventsSubscribed">is_sensitive_events_subscribed</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.notificationsManagedNotificationAdditionalChannelAssociation.NotificationsManagedNotificationAdditionalChannelAssociation.property.managedNotificationConfigurationArn">managed_notification_configuration_arn</a></code> | <code>str</code> | *No description.* |
 
 ---
@@ -815,6 +838,16 @@ channel_arn_input: str
 
 ---
 
+##### `is_sensitive_events_subscribed_input`<sup>Optional</sup> <a name="is_sensitive_events_subscribed_input" id="@cdktn/provider-awscc.notificationsManagedNotificationAdditionalChannelAssociation.NotificationsManagedNotificationAdditionalChannelAssociation.property.isSensitiveEventsSubscribedInput"></a>
+
+```python
+is_sensitive_events_subscribed_input: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+---
+
 ##### `managed_notification_configuration_arn_input`<sup>Optional</sup> <a name="managed_notification_configuration_arn_input" id="@cdktn/provider-awscc.notificationsManagedNotificationAdditionalChannelAssociation.NotificationsManagedNotificationAdditionalChannelAssociation.property.managedNotificationConfigurationArnInput"></a>
 
 ```python
@@ -832,6 +865,16 @@ channel_arn: str
 ```
 
 - *Type:* str
+
+---
+
+##### `is_sensitive_events_subscribed`<sup>Required</sup> <a name="is_sensitive_events_subscribed" id="@cdktn/provider-awscc.notificationsManagedNotificationAdditionalChannelAssociation.NotificationsManagedNotificationAdditionalChannelAssociation.property.isSensitiveEventsSubscribed"></a>
+
+```python
+is_sensitive_events_subscribed: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -881,7 +924,8 @@ notificationsManagedNotificationAdditionalChannelAssociation.NotificationsManage
   provider: TerraformProvider = None,
   provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner] = None,
   channel_arn: str,
-  managed_notification_configuration_arn: str
+  managed_notification_configuration_arn: str,
+  is_sensitive_events_subscribed: bool | IResolvable = None
 )
 ```
 
@@ -898,6 +942,7 @@ notificationsManagedNotificationAdditionalChannelAssociation.NotificationsManage
 | <code><a href="#@cdktn/provider-awscc.notificationsManagedNotificationAdditionalChannelAssociation.NotificationsManagedNotificationAdditionalChannelAssociationConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.notificationsManagedNotificationAdditionalChannelAssociation.NotificationsManagedNotificationAdditionalChannelAssociationConfig.property.channelArn">channel_arn</a></code> | <code>str</code> | ARN identifier of the channel. Example: arn:aws:chatbot::123456789012:chat-configuration/slack-channel/security-ops. |
 | <code><a href="#@cdktn/provider-awscc.notificationsManagedNotificationAdditionalChannelAssociation.NotificationsManagedNotificationAdditionalChannelAssociationConfig.property.managedNotificationConfigurationArn">managed_notification_configuration_arn</a></code> | <code>str</code> | ARN identifier of the Managed Notification. Example: arn:aws:notifications::381491923782:managed-notification-configuration/category/AWS-Health/sub-category/Billing. |
+| <code><a href="#@cdktn/provider-awscc.notificationsManagedNotificationAdditionalChannelAssociation.NotificationsManagedNotificationAdditionalChannelAssociationConfig.property.isSensitiveEventsSubscribed">is_sensitive_events_subscribed</a></code> | <code>bool \| cdktn.IResolvable</code> | Whether the channel association is subscribed to sensitive events. |
 
 ---
 
@@ -981,7 +1026,7 @@ channel_arn: str
 
 ARN identifier of the channel. Example: arn:aws:chatbot::123456789012:chat-configuration/slack-channel/security-ops.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/notifications_managed_notification_additional_channel_association#channel_arn NotificationsManagedNotificationAdditionalChannelAssociation#channel_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/notifications_managed_notification_additional_channel_association#channel_arn NotificationsManagedNotificationAdditionalChannelAssociation#channel_arn}
 
 ---
 
@@ -995,7 +1040,23 @@ managed_notification_configuration_arn: str
 
 ARN identifier of the Managed Notification. Example: arn:aws:notifications::381491923782:managed-notification-configuration/category/AWS-Health/sub-category/Billing.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/notifications_managed_notification_additional_channel_association#managed_notification_configuration_arn NotificationsManagedNotificationAdditionalChannelAssociation#managed_notification_configuration_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/notifications_managed_notification_additional_channel_association#managed_notification_configuration_arn NotificationsManagedNotificationAdditionalChannelAssociation#managed_notification_configuration_arn}
+
+---
+
+##### `is_sensitive_events_subscribed`<sup>Optional</sup> <a name="is_sensitive_events_subscribed" id="@cdktn/provider-awscc.notificationsManagedNotificationAdditionalChannelAssociation.NotificationsManagedNotificationAdditionalChannelAssociationConfig.property.isSensitiveEventsSubscribed"></a>
+
+```python
+is_sensitive_events_subscribed: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+Whether the channel association is subscribed to sensitive events.
+
+Access to sensitive events is gated by the SubscribeSensitiveEvents virtual IAM action.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/notifications_managed_notification_additional_channel_association#is_sensitive_events_subscribed NotificationsManagedNotificationAdditionalChannelAssociation#is_sensitive_events_subscribed}
 
 ---
 

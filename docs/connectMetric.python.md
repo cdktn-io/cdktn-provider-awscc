@@ -4,7 +4,7 @@
 
 ### ConnectMetric <a name="ConnectMetric" id="@cdktn/provider-awscc.connectMetric.ConnectMetric"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_metric awscc_connect_metric}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_metric awscc_connect_metric}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectMetric.ConnectMetric.Initializer"></a>
 
@@ -22,13 +22,13 @@ connectMetric.ConnectMetric(
   provider: TerraformProvider = None,
   provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner] = None,
   instance_arn: str,
+  metric_calculation: ConnectMetricMetricCalculation,
+  name: str,
+  status: str,
+  unit: str,
   description: str = None,
-  metric_calculation: ConnectMetricMetricCalculation = None,
-  name: str = None,
   positive_trend_indicator: str = None,
-  status: str = None,
-  tags: IResolvable | typing.List[ConnectMetricTags] = None,
-  unit: str = None
+  tags: IResolvable | typing.List[ConnectMetricTags] = None
 )
 ```
 
@@ -44,13 +44,13 @@ connectMetric.ConnectMetric(
 | <code><a href="#@cdktn/provider-awscc.connectMetric.ConnectMetric.Initializer.parameter.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.connectMetric.ConnectMetric.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.connectMetric.ConnectMetric.Initializer.parameter.instanceArn">instance_arn</a></code> | <code>str</code> | The identifier of the Amazon Connect instance. |
-| <code><a href="#@cdktn/provider-awscc.connectMetric.ConnectMetric.Initializer.parameter.description">description</a></code> | <code>str</code> | The description of the custom metric. |
 | <code><a href="#@cdktn/provider-awscc.connectMetric.ConnectMetric.Initializer.parameter.metricCalculation">metric_calculation</a></code> | <code><a href="#@cdktn/provider-awscc.connectMetric.ConnectMetricMetricCalculation">ConnectMetricMetricCalculation</a></code> | The calculation configuration for the metric. |
 | <code><a href="#@cdktn/provider-awscc.connectMetric.ConnectMetric.Initializer.parameter.name">name</a></code> | <code>str</code> | The name of the custom metric. |
-| <code><a href="#@cdktn/provider-awscc.connectMetric.ConnectMetric.Initializer.parameter.positiveTrendIndicator">positive_trend_indicator</a></code> | <code>str</code> | Indicates how to classify a positive trend in metric data on the UI. |
 | <code><a href="#@cdktn/provider-awscc.connectMetric.ConnectMetric.Initializer.parameter.status">status</a></code> | <code>str</code> | The status of the custom metric. |
-| <code><a href="#@cdktn/provider-awscc.connectMetric.ConnectMetric.Initializer.parameter.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.connectMetric.ConnectMetricTags">ConnectMetricTags</a>]</code> | One or more tags. |
 | <code><a href="#@cdktn/provider-awscc.connectMetric.ConnectMetric.Initializer.parameter.unit">unit</a></code> | <code>str</code> | Display unit for the metric data. |
+| <code><a href="#@cdktn/provider-awscc.connectMetric.ConnectMetric.Initializer.parameter.description">description</a></code> | <code>str</code> | The description of the custom metric. |
+| <code><a href="#@cdktn/provider-awscc.connectMetric.ConnectMetric.Initializer.parameter.positiveTrendIndicator">positive_trend_indicator</a></code> | <code>str</code> | Indicates how to classify a positive trend in metric data on the UI. |
+| <code><a href="#@cdktn/provider-awscc.connectMetric.ConnectMetric.Initializer.parameter.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.connectMetric.ConnectMetricTags">ConnectMetricTags</a>]</code> | One or more tags. |
 
 ---
 
@@ -120,7 +120,47 @@ Must be unique amongst siblings in the same scope
 
 The identifier of the Amazon Connect instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_metric#instance_arn ConnectMetric#instance_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_metric#instance_arn ConnectMetric#instance_arn}
+
+---
+
+##### `metric_calculation`<sup>Required</sup> <a name="metric_calculation" id="@cdktn/provider-awscc.connectMetric.ConnectMetric.Initializer.parameter.metricCalculation"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.connectMetric.ConnectMetricMetricCalculation">ConnectMetricMetricCalculation</a>
+
+The calculation configuration for the metric.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_metric#metric_calculation ConnectMetric#metric_calculation}
+
+---
+
+##### `name`<sup>Required</sup> <a name="name" id="@cdktn/provider-awscc.connectMetric.ConnectMetric.Initializer.parameter.name"></a>
+
+- *Type:* str
+
+The name of the custom metric.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_metric#name ConnectMetric#name}
+
+---
+
+##### `status`<sup>Required</sup> <a name="status" id="@cdktn/provider-awscc.connectMetric.ConnectMetric.Initializer.parameter.status"></a>
+
+- *Type:* str
+
+The status of the custom metric.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_metric#status ConnectMetric#status}
+
+---
+
+##### `unit`<sup>Required</sup> <a name="unit" id="@cdktn/provider-awscc.connectMetric.ConnectMetric.Initializer.parameter.unit"></a>
+
+- *Type:* str
+
+Display unit for the metric data.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_metric#unit ConnectMetric#unit}
 
 ---
 
@@ -130,27 +170,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The description of the custom metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_metric#description ConnectMetric#description}
-
----
-
-##### `metric_calculation`<sup>Optional</sup> <a name="metric_calculation" id="@cdktn/provider-awscc.connectMetric.ConnectMetric.Initializer.parameter.metricCalculation"></a>
-
-- *Type:* <a href="#@cdktn/provider-awscc.connectMetric.ConnectMetricMetricCalculation">ConnectMetricMetricCalculation</a>
-
-The calculation configuration for the metric.
-
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_metric#metric_calculation ConnectMetric#metric_calculation}
-
----
-
-##### `name`<sup>Optional</sup> <a name="name" id="@cdktn/provider-awscc.connectMetric.ConnectMetric.Initializer.parameter.name"></a>
-
-- *Type:* str
-
-The name of the custom metric.
-
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_metric#name ConnectMetric#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_metric#description ConnectMetric#description}
 
 ---
 
@@ -160,17 +180,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Indicates how to classify a positive trend in metric data on the UI.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_metric#positive_trend_indicator ConnectMetric#positive_trend_indicator}
-
----
-
-##### `status`<sup>Optional</sup> <a name="status" id="@cdktn/provider-awscc.connectMetric.ConnectMetric.Initializer.parameter.status"></a>
-
-- *Type:* str
-
-The status of the custom metric.
-
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_metric#status ConnectMetric#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_metric#positive_trend_indicator ConnectMetric#positive_trend_indicator}
 
 ---
 
@@ -180,17 +190,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 One or more tags.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_metric#tags ConnectMetric#tags}
-
----
-
-##### `unit`<sup>Optional</sup> <a name="unit" id="@cdktn/provider-awscc.connectMetric.ConnectMetric.Initializer.parameter.unit"></a>
-
-- *Type:* str
-
-Display unit for the metric data.
-
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_metric#unit ConnectMetric#unit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_metric#tags ConnectMetric#tags}
 
 ---
 
@@ -225,12 +225,8 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-awscc.connectMetric.ConnectMetric.putMetricCalculation">put_metric_calculation</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.connectMetric.ConnectMetric.putTags">put_tags</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.connectMetric.ConnectMetric.resetDescription">reset_description</a></code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.connectMetric.ConnectMetric.resetMetricCalculation">reset_metric_calculation</a></code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.connectMetric.ConnectMetric.resetName">reset_name</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.connectMetric.ConnectMetric.resetPositiveTrendIndicator">reset_positive_trend_indicator</a></code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.connectMetric.ConnectMetric.resetStatus">reset_status</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.connectMetric.ConnectMetric.resetTags">reset_tags</a></code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.connectMetric.ConnectMetric.resetUnit">reset_unit</a></code> | *No description.* |
 
 ---
 
@@ -586,28 +582,28 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 
 ```python
 def put_metric_calculation(
-  calculation: str = None,
-  calculation_components: IResolvable | typing.List[ConnectMetricMetricCalculationCalculationComponents] = None
+  calculation: str,
+  calculation_components: IResolvable | typing.List[ConnectMetricMetricCalculationCalculationComponents]
 ) -> None
 ```
 
-###### `calculation`<sup>Optional</sup> <a name="calculation" id="@cdktn/provider-awscc.connectMetric.ConnectMetric.putMetricCalculation.parameter.calculation"></a>
+###### `calculation`<sup>Required</sup> <a name="calculation" id="@cdktn/provider-awscc.connectMetric.ConnectMetric.putMetricCalculation.parameter.calculation"></a>
 
 - *Type:* str
 
 The calculation formula.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_metric#calculation ConnectMetric#calculation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_metric#calculation ConnectMetric#calculation}
 
 ---
 
-###### `calculation_components`<sup>Optional</sup> <a name="calculation_components" id="@cdktn/provider-awscc.connectMetric.ConnectMetric.putMetricCalculation.parameter.calculationComponents"></a>
+###### `calculation_components`<sup>Required</sup> <a name="calculation_components" id="@cdktn/provider-awscc.connectMetric.ConnectMetric.putMetricCalculation.parameter.calculationComponents"></a>
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.connectMetric.ConnectMetricMetricCalculationCalculationComponents">ConnectMetricMetricCalculationCalculationComponents</a>]
 
 The calculation components for the metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_metric#calculation_components ConnectMetric#calculation_components}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_metric#calculation_components ConnectMetric#calculation_components}
 
 ---
 
@@ -631,40 +627,16 @@ def put_tags(
 def reset_description() -> None
 ```
 
-##### `reset_metric_calculation` <a name="reset_metric_calculation" id="@cdktn/provider-awscc.connectMetric.ConnectMetric.resetMetricCalculation"></a>
-
-```python
-def reset_metric_calculation() -> None
-```
-
-##### `reset_name` <a name="reset_name" id="@cdktn/provider-awscc.connectMetric.ConnectMetric.resetName"></a>
-
-```python
-def reset_name() -> None
-```
-
 ##### `reset_positive_trend_indicator` <a name="reset_positive_trend_indicator" id="@cdktn/provider-awscc.connectMetric.ConnectMetric.resetPositiveTrendIndicator"></a>
 
 ```python
 def reset_positive_trend_indicator() -> None
 ```
 
-##### `reset_status` <a name="reset_status" id="@cdktn/provider-awscc.connectMetric.ConnectMetric.resetStatus"></a>
-
-```python
-def reset_status() -> None
-```
-
 ##### `reset_tags` <a name="reset_tags" id="@cdktn/provider-awscc.connectMetric.ConnectMetric.resetTags"></a>
 
 ```python
 def reset_tags() -> None
-```
-
-##### `reset_unit` <a name="reset_unit" id="@cdktn/provider-awscc.connectMetric.ConnectMetric.resetUnit"></a>
-
-```python
-def reset_unit() -> None
 ```
 
 #### Static Functions <a name="Static Functions" id="Static Functions"></a>
@@ -781,7 +753,7 @@ The construct id used in the generated config for the ConnectMetric to import.
 
 The id of the existing ConnectMetric that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_metric#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_metric#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1377,13 +1349,13 @@ connectMetric.ConnectMetricConfig(
   provider: TerraformProvider = None,
   provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner] = None,
   instance_arn: str,
+  metric_calculation: ConnectMetricMetricCalculation,
+  name: str,
+  status: str,
+  unit: str,
   description: str = None,
-  metric_calculation: ConnectMetricMetricCalculation = None,
-  name: str = None,
   positive_trend_indicator: str = None,
-  status: str = None,
-  tags: IResolvable | typing.List[ConnectMetricTags] = None,
-  unit: str = None
+  tags: IResolvable | typing.List[ConnectMetricTags] = None
 )
 ```
 
@@ -1399,13 +1371,13 @@ connectMetric.ConnectMetricConfig(
 | <code><a href="#@cdktn/provider-awscc.connectMetric.ConnectMetricConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.connectMetric.ConnectMetricConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.connectMetric.ConnectMetricConfig.property.instanceArn">instance_arn</a></code> | <code>str</code> | The identifier of the Amazon Connect instance. |
-| <code><a href="#@cdktn/provider-awscc.connectMetric.ConnectMetricConfig.property.description">description</a></code> | <code>str</code> | The description of the custom metric. |
 | <code><a href="#@cdktn/provider-awscc.connectMetric.ConnectMetricConfig.property.metricCalculation">metric_calculation</a></code> | <code><a href="#@cdktn/provider-awscc.connectMetric.ConnectMetricMetricCalculation">ConnectMetricMetricCalculation</a></code> | The calculation configuration for the metric. |
 | <code><a href="#@cdktn/provider-awscc.connectMetric.ConnectMetricConfig.property.name">name</a></code> | <code>str</code> | The name of the custom metric. |
-| <code><a href="#@cdktn/provider-awscc.connectMetric.ConnectMetricConfig.property.positiveTrendIndicator">positive_trend_indicator</a></code> | <code>str</code> | Indicates how to classify a positive trend in metric data on the UI. |
 | <code><a href="#@cdktn/provider-awscc.connectMetric.ConnectMetricConfig.property.status">status</a></code> | <code>str</code> | The status of the custom metric. |
-| <code><a href="#@cdktn/provider-awscc.connectMetric.ConnectMetricConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.connectMetric.ConnectMetricTags">ConnectMetricTags</a>]</code> | One or more tags. |
 | <code><a href="#@cdktn/provider-awscc.connectMetric.ConnectMetricConfig.property.unit">unit</a></code> | <code>str</code> | Display unit for the metric data. |
+| <code><a href="#@cdktn/provider-awscc.connectMetric.ConnectMetricConfig.property.description">description</a></code> | <code>str</code> | The description of the custom metric. |
+| <code><a href="#@cdktn/provider-awscc.connectMetric.ConnectMetricConfig.property.positiveTrendIndicator">positive_trend_indicator</a></code> | <code>str</code> | Indicates how to classify a positive trend in metric data on the UI. |
+| <code><a href="#@cdktn/provider-awscc.connectMetric.ConnectMetricConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.connectMetric.ConnectMetricTags">ConnectMetricTags</a>]</code> | One or more tags. |
 
 ---
 
@@ -1489,7 +1461,63 @@ instance_arn: str
 
 The identifier of the Amazon Connect instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_metric#instance_arn ConnectMetric#instance_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_metric#instance_arn ConnectMetric#instance_arn}
+
+---
+
+##### `metric_calculation`<sup>Required</sup> <a name="metric_calculation" id="@cdktn/provider-awscc.connectMetric.ConnectMetricConfig.property.metricCalculation"></a>
+
+```python
+metric_calculation: ConnectMetricMetricCalculation
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.connectMetric.ConnectMetricMetricCalculation">ConnectMetricMetricCalculation</a>
+
+The calculation configuration for the metric.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_metric#metric_calculation ConnectMetric#metric_calculation}
+
+---
+
+##### `name`<sup>Required</sup> <a name="name" id="@cdktn/provider-awscc.connectMetric.ConnectMetricConfig.property.name"></a>
+
+```python
+name: str
+```
+
+- *Type:* str
+
+The name of the custom metric.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_metric#name ConnectMetric#name}
+
+---
+
+##### `status`<sup>Required</sup> <a name="status" id="@cdktn/provider-awscc.connectMetric.ConnectMetricConfig.property.status"></a>
+
+```python
+status: str
+```
+
+- *Type:* str
+
+The status of the custom metric.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_metric#status ConnectMetric#status}
+
+---
+
+##### `unit`<sup>Required</sup> <a name="unit" id="@cdktn/provider-awscc.connectMetric.ConnectMetricConfig.property.unit"></a>
+
+```python
+unit: str
+```
+
+- *Type:* str
+
+Display unit for the metric data.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_metric#unit ConnectMetric#unit}
 
 ---
 
@@ -1503,35 +1531,7 @@ description: str
 
 The description of the custom metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_metric#description ConnectMetric#description}
-
----
-
-##### `metric_calculation`<sup>Optional</sup> <a name="metric_calculation" id="@cdktn/provider-awscc.connectMetric.ConnectMetricConfig.property.metricCalculation"></a>
-
-```python
-metric_calculation: ConnectMetricMetricCalculation
-```
-
-- *Type:* <a href="#@cdktn/provider-awscc.connectMetric.ConnectMetricMetricCalculation">ConnectMetricMetricCalculation</a>
-
-The calculation configuration for the metric.
-
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_metric#metric_calculation ConnectMetric#metric_calculation}
-
----
-
-##### `name`<sup>Optional</sup> <a name="name" id="@cdktn/provider-awscc.connectMetric.ConnectMetricConfig.property.name"></a>
-
-```python
-name: str
-```
-
-- *Type:* str
-
-The name of the custom metric.
-
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_metric#name ConnectMetric#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_metric#description ConnectMetric#description}
 
 ---
 
@@ -1545,21 +1545,7 @@ positive_trend_indicator: str
 
 Indicates how to classify a positive trend in metric data on the UI.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_metric#positive_trend_indicator ConnectMetric#positive_trend_indicator}
-
----
-
-##### `status`<sup>Optional</sup> <a name="status" id="@cdktn/provider-awscc.connectMetric.ConnectMetricConfig.property.status"></a>
-
-```python
-status: str
-```
-
-- *Type:* str
-
-The status of the custom metric.
-
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_metric#status ConnectMetric#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_metric#positive_trend_indicator ConnectMetric#positive_trend_indicator}
 
 ---
 
@@ -1573,21 +1559,7 @@ tags: IResolvable | typing.List[ConnectMetricTags]
 
 One or more tags.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_metric#tags ConnectMetric#tags}
-
----
-
-##### `unit`<sup>Optional</sup> <a name="unit" id="@cdktn/provider-awscc.connectMetric.ConnectMetricConfig.property.unit"></a>
-
-```python
-unit: str
-```
-
-- *Type:* str
-
-Display unit for the metric data.
-
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_metric#unit ConnectMetric#unit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_metric#tags ConnectMetric#tags}
 
 ---
 
@@ -1632,8 +1604,8 @@ connectMetric.ConnectMetricLastModifiedUser()
 from cdktn_provider_awscc import connect_metric
 
 connectMetric.ConnectMetricMetricCalculation(
-  calculation: str = None,
-  calculation_components: IResolvable | typing.List[ConnectMetricMetricCalculationCalculationComponents] = None
+  calculation: str,
+  calculation_components: IResolvable | typing.List[ConnectMetricMetricCalculationCalculationComponents]
 )
 ```
 
@@ -1646,7 +1618,7 @@ connectMetric.ConnectMetricMetricCalculation(
 
 ---
 
-##### `calculation`<sup>Optional</sup> <a name="calculation" id="@cdktn/provider-awscc.connectMetric.ConnectMetricMetricCalculation.property.calculation"></a>
+##### `calculation`<sup>Required</sup> <a name="calculation" id="@cdktn/provider-awscc.connectMetric.ConnectMetricMetricCalculation.property.calculation"></a>
 
 ```python
 calculation: str
@@ -1656,11 +1628,11 @@ calculation: str
 
 The calculation formula.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_metric#calculation ConnectMetric#calculation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_metric#calculation ConnectMetric#calculation}
 
 ---
 
-##### `calculation_components`<sup>Optional</sup> <a name="calculation_components" id="@cdktn/provider-awscc.connectMetric.ConnectMetricMetricCalculation.property.calculationComponents"></a>
+##### `calculation_components`<sup>Required</sup> <a name="calculation_components" id="@cdktn/provider-awscc.connectMetric.ConnectMetricMetricCalculation.property.calculationComponents"></a>
 
 ```python
 calculation_components: IResolvable | typing.List[ConnectMetricMetricCalculationCalculationComponents]
@@ -1670,7 +1642,7 @@ calculation_components: IResolvable | typing.List[ConnectMetricMetricCalculation
 
 The calculation components for the metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_metric#calculation_components ConnectMetric#calculation_components}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_metric#calculation_components ConnectMetric#calculation_components}
 
 ---
 
@@ -1682,7 +1654,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 from cdktn_provider_awscc import connect_metric
 
 connectMetric.ConnectMetricMetricCalculationCalculationComponents(
-  alias: str = None,
+  alias: str,
   metric_filters: IResolvable | typing.List[ConnectMetricMetricCalculationCalculationComponentsMetricFilters] = None,
   metric_id: str = None,
   metric_name: str = None
@@ -1694,13 +1666,13 @@ connectMetric.ConnectMetricMetricCalculationCalculationComponents(
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.connectMetric.ConnectMetricMetricCalculationCalculationComponents.property.alias">alias</a></code> | <code>str</code> | Metric calculation component alias for use within a calculation. |
-| <code><a href="#@cdktn/provider-awscc.connectMetric.ConnectMetricMetricCalculationCalculationComponents.property.metricFilters">metric_filters</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.connectMetric.ConnectMetricMetricCalculationCalculationComponentsMetricFilters">ConnectMetricMetricCalculationCalculationComponentsMetricFilters</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_metric#metric_filters ConnectMetric#metric_filters}. |
-| <code><a href="#@cdktn/provider-awscc.connectMetric.ConnectMetricMetricCalculationCalculationComponents.property.metricId">metric_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_metric#metric_id ConnectMetric#metric_id}. |
-| <code><a href="#@cdktn/provider-awscc.connectMetric.ConnectMetricMetricCalculationCalculationComponents.property.metricName">metric_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_metric#metric_name ConnectMetric#metric_name}. |
+| <code><a href="#@cdktn/provider-awscc.connectMetric.ConnectMetricMetricCalculationCalculationComponents.property.metricFilters">metric_filters</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.connectMetric.ConnectMetricMetricCalculationCalculationComponentsMetricFilters">ConnectMetricMetricCalculationCalculationComponentsMetricFilters</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_metric#metric_filters ConnectMetric#metric_filters}. |
+| <code><a href="#@cdktn/provider-awscc.connectMetric.ConnectMetricMetricCalculationCalculationComponents.property.metricId">metric_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_metric#metric_id ConnectMetric#metric_id}. |
+| <code><a href="#@cdktn/provider-awscc.connectMetric.ConnectMetricMetricCalculationCalculationComponents.property.metricName">metric_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_metric#metric_name ConnectMetric#metric_name}. |
 
 ---
 
-##### `alias`<sup>Optional</sup> <a name="alias" id="@cdktn/provider-awscc.connectMetric.ConnectMetricMetricCalculationCalculationComponents.property.alias"></a>
+##### `alias`<sup>Required</sup> <a name="alias" id="@cdktn/provider-awscc.connectMetric.ConnectMetricMetricCalculationCalculationComponents.property.alias"></a>
 
 ```python
 alias: str
@@ -1710,7 +1682,7 @@ alias: str
 
 Metric calculation component alias for use within a calculation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_metric#alias ConnectMetric#alias}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_metric#alias ConnectMetric#alias}
 
 ---
 
@@ -1722,7 +1694,7 @@ metric_filters: IResolvable | typing.List[ConnectMetricMetricCalculationCalculat
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.connectMetric.ConnectMetricMetricCalculationCalculationComponentsMetricFilters">ConnectMetricMetricCalculationCalculationComponentsMetricFilters</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_metric#metric_filters ConnectMetric#metric_filters}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_metric#metric_filters ConnectMetric#metric_filters}.
 
 ---
 
@@ -1734,7 +1706,7 @@ metric_id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_metric#metric_id ConnectMetric#metric_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_metric#metric_id ConnectMetric#metric_id}.
 
 ---
 
@@ -1746,7 +1718,7 @@ metric_name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_metric#metric_name ConnectMetric#metric_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_metric#metric_name ConnectMetric#metric_name}.
 
 ---
 
@@ -1770,11 +1742,11 @@ connectMetric.ConnectMetricMetricCalculationCalculationComponentsMetricFilters(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.connectMetric.ConnectMetricMetricCalculationCalculationComponentsMetricFilters.property.booleanCondition">boolean_condition</a></code> | <code><a href="#@cdktn/provider-awscc.connectMetric.ConnectMetricMetricCalculationCalculationComponentsMetricFiltersBooleanCondition">ConnectMetricMetricCalculationCalculationComponentsMetricFiltersBooleanCondition</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_metric#boolean_condition ConnectMetric#boolean_condition}. |
-| <code><a href="#@cdktn/provider-awscc.connectMetric.ConnectMetricMetricCalculationCalculationComponentsMetricFilters.property.metricFilterKey">metric_filter_key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_metric#metric_filter_key ConnectMetric#metric_filter_key}. |
-| <code><a href="#@cdktn/provider-awscc.connectMetric.ConnectMetricMetricCalculationCalculationComponentsMetricFilters.property.negate">negate</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_metric#negate ConnectMetric#negate}. |
-| <code><a href="#@cdktn/provider-awscc.connectMetric.ConnectMetricMetricCalculationCalculationComponentsMetricFilters.property.numberCondition">number_condition</a></code> | <code><a href="#@cdktn/provider-awscc.connectMetric.ConnectMetricMetricCalculationCalculationComponentsMetricFiltersNumberCondition">ConnectMetricMetricCalculationCalculationComponentsMetricFiltersNumberCondition</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_metric#number_condition ConnectMetric#number_condition}. |
-| <code><a href="#@cdktn/provider-awscc.connectMetric.ConnectMetricMetricCalculationCalculationComponentsMetricFilters.property.stringCondition">string_condition</a></code> | <code><a href="#@cdktn/provider-awscc.connectMetric.ConnectMetricMetricCalculationCalculationComponentsMetricFiltersStringCondition">ConnectMetricMetricCalculationCalculationComponentsMetricFiltersStringCondition</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_metric#string_condition ConnectMetric#string_condition}. |
+| <code><a href="#@cdktn/provider-awscc.connectMetric.ConnectMetricMetricCalculationCalculationComponentsMetricFilters.property.booleanCondition">boolean_condition</a></code> | <code><a href="#@cdktn/provider-awscc.connectMetric.ConnectMetricMetricCalculationCalculationComponentsMetricFiltersBooleanCondition">ConnectMetricMetricCalculationCalculationComponentsMetricFiltersBooleanCondition</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_metric#boolean_condition ConnectMetric#boolean_condition}. |
+| <code><a href="#@cdktn/provider-awscc.connectMetric.ConnectMetricMetricCalculationCalculationComponentsMetricFilters.property.metricFilterKey">metric_filter_key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_metric#metric_filter_key ConnectMetric#metric_filter_key}. |
+| <code><a href="#@cdktn/provider-awscc.connectMetric.ConnectMetricMetricCalculationCalculationComponentsMetricFilters.property.negate">negate</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_metric#negate ConnectMetric#negate}. |
+| <code><a href="#@cdktn/provider-awscc.connectMetric.ConnectMetricMetricCalculationCalculationComponentsMetricFilters.property.numberCondition">number_condition</a></code> | <code><a href="#@cdktn/provider-awscc.connectMetric.ConnectMetricMetricCalculationCalculationComponentsMetricFiltersNumberCondition">ConnectMetricMetricCalculationCalculationComponentsMetricFiltersNumberCondition</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_metric#number_condition ConnectMetric#number_condition}. |
+| <code><a href="#@cdktn/provider-awscc.connectMetric.ConnectMetricMetricCalculationCalculationComponentsMetricFilters.property.stringCondition">string_condition</a></code> | <code><a href="#@cdktn/provider-awscc.connectMetric.ConnectMetricMetricCalculationCalculationComponentsMetricFiltersStringCondition">ConnectMetricMetricCalculationCalculationComponentsMetricFiltersStringCondition</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_metric#string_condition ConnectMetric#string_condition}. |
 
 ---
 
@@ -1786,7 +1758,7 @@ boolean_condition: ConnectMetricMetricCalculationCalculationComponentsMetricFilt
 
 - *Type:* <a href="#@cdktn/provider-awscc.connectMetric.ConnectMetricMetricCalculationCalculationComponentsMetricFiltersBooleanCondition">ConnectMetricMetricCalculationCalculationComponentsMetricFiltersBooleanCondition</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_metric#boolean_condition ConnectMetric#boolean_condition}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_metric#boolean_condition ConnectMetric#boolean_condition}.
 
 ---
 
@@ -1798,7 +1770,7 @@ metric_filter_key: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_metric#metric_filter_key ConnectMetric#metric_filter_key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_metric#metric_filter_key ConnectMetric#metric_filter_key}.
 
 ---
 
@@ -1810,7 +1782,7 @@ negate: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_metric#negate ConnectMetric#negate}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_metric#negate ConnectMetric#negate}.
 
 ---
 
@@ -1822,7 +1794,7 @@ number_condition: ConnectMetricMetricCalculationCalculationComponentsMetricFilte
 
 - *Type:* <a href="#@cdktn/provider-awscc.connectMetric.ConnectMetricMetricCalculationCalculationComponentsMetricFiltersNumberCondition">ConnectMetricMetricCalculationCalculationComponentsMetricFiltersNumberCondition</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_metric#number_condition ConnectMetric#number_condition}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_metric#number_condition ConnectMetric#number_condition}.
 
 ---
 
@@ -1834,7 +1806,7 @@ string_condition: ConnectMetricMetricCalculationCalculationComponentsMetricFilte
 
 - *Type:* <a href="#@cdktn/provider-awscc.connectMetric.ConnectMetricMetricCalculationCalculationComponentsMetricFiltersStringCondition">ConnectMetricMetricCalculationCalculationComponentsMetricFiltersStringCondition</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_metric#string_condition ConnectMetric#string_condition}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_metric#string_condition ConnectMetric#string_condition}.
 
 ---
 
@@ -1854,7 +1826,7 @@ connectMetric.ConnectMetricMetricCalculationCalculationComponentsMetricFiltersBo
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.connectMetric.ConnectMetricMetricCalculationCalculationComponentsMetricFiltersBooleanCondition.property.comparison">comparison</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_metric#comparison ConnectMetric#comparison}. |
+| <code><a href="#@cdktn/provider-awscc.connectMetric.ConnectMetricMetricCalculationCalculationComponentsMetricFiltersBooleanCondition.property.comparison">comparison</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_metric#comparison ConnectMetric#comparison}. |
 
 ---
 
@@ -1866,7 +1838,7 @@ comparison: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_metric#comparison ConnectMetric#comparison}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_metric#comparison ConnectMetric#comparison}.
 
 ---
 
@@ -1887,8 +1859,8 @@ connectMetric.ConnectMetricMetricCalculationCalculationComponentsMetricFiltersNu
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.connectMetric.ConnectMetricMetricCalculationCalculationComponentsMetricFiltersNumberCondition.property.comparison">comparison</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_metric#comparison ConnectMetric#comparison}. |
-| <code><a href="#@cdktn/provider-awscc.connectMetric.ConnectMetricMetricCalculationCalculationComponentsMetricFiltersNumberCondition.property.values">values</a></code> | <code>typing.List[typing.Union[int, float]]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_metric#values ConnectMetric#values}. |
+| <code><a href="#@cdktn/provider-awscc.connectMetric.ConnectMetricMetricCalculationCalculationComponentsMetricFiltersNumberCondition.property.comparison">comparison</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_metric#comparison ConnectMetric#comparison}. |
+| <code><a href="#@cdktn/provider-awscc.connectMetric.ConnectMetricMetricCalculationCalculationComponentsMetricFiltersNumberCondition.property.values">values</a></code> | <code>typing.List[typing.Union[int, float]]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_metric#values ConnectMetric#values}. |
 
 ---
 
@@ -1900,7 +1872,7 @@ comparison: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_metric#comparison ConnectMetric#comparison}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_metric#comparison ConnectMetric#comparison}.
 
 ---
 
@@ -1912,7 +1884,7 @@ values: typing.List[typing.Union[int, float]]
 
 - *Type:* typing.List[typing.Union[int, float]]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_metric#values ConnectMetric#values}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_metric#values ConnectMetric#values}.
 
 ---
 
@@ -1933,8 +1905,8 @@ connectMetric.ConnectMetricMetricCalculationCalculationComponentsMetricFiltersSt
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.connectMetric.ConnectMetricMetricCalculationCalculationComponentsMetricFiltersStringCondition.property.comparison">comparison</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_metric#comparison ConnectMetric#comparison}. |
-| <code><a href="#@cdktn/provider-awscc.connectMetric.ConnectMetricMetricCalculationCalculationComponentsMetricFiltersStringCondition.property.values">values</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_metric#values ConnectMetric#values}. |
+| <code><a href="#@cdktn/provider-awscc.connectMetric.ConnectMetricMetricCalculationCalculationComponentsMetricFiltersStringCondition.property.comparison">comparison</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_metric#comparison ConnectMetric#comparison}. |
+| <code><a href="#@cdktn/provider-awscc.connectMetric.ConnectMetricMetricCalculationCalculationComponentsMetricFiltersStringCondition.property.values">values</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_metric#values ConnectMetric#values}. |
 
 ---
 
@@ -1946,7 +1918,7 @@ comparison: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_metric#comparison ConnectMetric#comparison}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_metric#comparison ConnectMetric#comparison}.
 
 ---
 
@@ -1958,7 +1930,7 @@ values: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_metric#values ConnectMetric#values}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_metric#values ConnectMetric#values}.
 
 ---
 
@@ -1996,7 +1968,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_metric#key ConnectMetric#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_metric#key ConnectMetric#key}
 
 ---
 
@@ -2012,7 +1984,7 @@ The value for the tag.
 
 You can specify a value that is maximum of 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_metric#value ConnectMetric#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_metric#value ConnectMetric#value}
 
 ---
 
@@ -4328,7 +4300,7 @@ def put_boolean_condition(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_metric#comparison ConnectMetric#comparison}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_metric#comparison ConnectMetric#comparison}.
 
 ---
 
@@ -4345,7 +4317,7 @@ def put_number_condition(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_metric#comparison ConnectMetric#comparison}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_metric#comparison ConnectMetric#comparison}.
 
 ---
 
@@ -4353,7 +4325,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.List[typing.Union[int, float]]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_metric#values ConnectMetric#values}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_metric#values ConnectMetric#values}.
 
 ---
 
@@ -4370,7 +4342,7 @@ def put_string_condition(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_metric#comparison ConnectMetric#comparison}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_metric#comparison ConnectMetric#comparison}.
 
 ---
 
@@ -4378,7 +4350,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_metric#values ConnectMetric#values}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_metric#values ConnectMetric#values}.
 
 ---
 
@@ -4974,7 +4946,6 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 | <code><a href="#@cdktn/provider-awscc.connectMetric.ConnectMetricMetricCalculationCalculationComponentsOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-awscc.connectMetric.ConnectMetricMetricCalculationCalculationComponentsOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktn/provider-awscc.connectMetric.ConnectMetricMetricCalculationCalculationComponentsOutputReference.putMetricFilters">put_metric_filters</a></code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.connectMetric.ConnectMetricMetricCalculationCalculationComponentsOutputReference.resetAlias">reset_alias</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.connectMetric.ConnectMetricMetricCalculationCalculationComponentsOutputReference.resetMetricFilters">reset_metric_filters</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.connectMetric.ConnectMetricMetricCalculationCalculationComponentsOutputReference.resetMetricId">reset_metric_id</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.connectMetric.ConnectMetricMetricCalculationCalculationComponentsOutputReference.resetMetricName">reset_metric_name</a></code> | *No description.* |
@@ -5166,12 +5137,6 @@ def put_metric_filters(
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.connectMetric.ConnectMetricMetricCalculationCalculationComponentsMetricFilters">ConnectMetricMetricCalculationCalculationComponentsMetricFilters</a>]
 
 ---
-
-##### `reset_alias` <a name="reset_alias" id="@cdktn/provider-awscc.connectMetric.ConnectMetricMetricCalculationCalculationComponentsOutputReference.resetAlias"></a>
-
-```python
-def reset_alias() -> None
-```
 
 ##### `reset_metric_filters` <a name="reset_metric_filters" id="@cdktn/provider-awscc.connectMetric.ConnectMetricMetricCalculationCalculationComponentsOutputReference.resetMetricFilters"></a>
 
@@ -5379,8 +5344,6 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-awscc.connectMetric.ConnectMetricMetricCalculationOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-awscc.connectMetric.ConnectMetricMetricCalculationOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktn/provider-awscc.connectMetric.ConnectMetricMetricCalculationOutputReference.putCalculationComponents">put_calculation_components</a></code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.connectMetric.ConnectMetricMetricCalculationOutputReference.resetCalculation">reset_calculation</a></code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.connectMetric.ConnectMetricMetricCalculationOutputReference.resetCalculationComponents">reset_calculation_components</a></code> | *No description.* |
 
 ---
 
@@ -5569,18 +5532,6 @@ def put_calculation_components(
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.connectMetric.ConnectMetricMetricCalculationCalculationComponents">ConnectMetricMetricCalculationCalculationComponents</a>]
 
 ---
-
-##### `reset_calculation` <a name="reset_calculation" id="@cdktn/provider-awscc.connectMetric.ConnectMetricMetricCalculationOutputReference.resetCalculation"></a>
-
-```python
-def reset_calculation() -> None
-```
-
-##### `reset_calculation_components` <a name="reset_calculation_components" id="@cdktn/provider-awscc.connectMetric.ConnectMetricMetricCalculationOutputReference.resetCalculationComponents"></a>
-
-```python
-def reset_calculation_components() -> None
-```
 
 
 #### Properties <a name="Properties" id="Properties"></a>

@@ -4,7 +4,7 @@
 
 ### DataAwsccIotsitewiseWorkspace <a name="DataAwsccIotsitewiseWorkspace" id="@cdktn/provider-awscc.dataAwsccIotsitewiseWorkspace.DataAwsccIotsitewiseWorkspace"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/iotsitewise_workspace awscc_iotsitewise_workspace}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/iotsitewise_workspace awscc_iotsitewise_workspace}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotsitewiseWorkspace.DataAwsccIotsitewiseWorkspace.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIotsitewiseWorksp
 
 The id of the existing DataAwsccIotsitewiseWorkspace that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/iotsitewise_workspace#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/iotsitewise_workspace#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -795,7 +795,7 @@ public string Id { get; set; }
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/iotsitewise_workspace#id DataAwsccIotsitewiseWorkspace#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/iotsitewise_workspace#id DataAwsccIotsitewiseWorkspace#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

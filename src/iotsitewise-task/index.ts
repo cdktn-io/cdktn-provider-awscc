@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iotsitewise_task
+// https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_task
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,31 +15,31 @@ export interface IotsitewiseTaskConfig extends cdktn.TerraformMetaArguments {
   /**
   * A description of the task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iotsitewise_task#description IotsitewiseTask#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_task#description IotsitewiseTask#description}
   */
   readonly description?: string;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iotsitewise_task#tags IotsitewiseTask#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_task#tags IotsitewiseTask#tags}
   */
   readonly tags?: IotsitewiseTaskTags[] | cdktn.IResolvable;
   /**
   * The task execution configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iotsitewise_task#task_configuration IotsitewiseTask#task_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_task#task_configuration IotsitewiseTask#task_configuration}
   */
   readonly taskConfiguration: IotsitewiseTaskTaskConfiguration;
   /**
   * The name of the task. Must be unique within the workspace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iotsitewise_task#task_name IotsitewiseTask#task_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_task#task_name IotsitewiseTask#task_name}
   */
   readonly taskName: string;
   /**
   * The name of the workspace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iotsitewise_task#workspace_name IotsitewiseTask#workspace_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_task#workspace_name IotsitewiseTask#workspace_name}
   */
   readonly workspaceName: string;
 }
@@ -47,13 +47,13 @@ export interface IotsitewiseTaskTags {
   /**
   * The key name of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iotsitewise_task#key IotsitewiseTask#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_task#key IotsitewiseTask#key}
   */
   readonly key?: string;
   /**
   * The value for the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iotsitewise_task#value IotsitewiseTask#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_task#value IotsitewiseTask#value}
   */
   readonly value?: string;
 }
@@ -196,47 +196,640 @@ export class IotsitewiseTaskTagsList extends cdktn.ComplexList {
     return new IotsitewiseTaskTagsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface IotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfiguration {
+  /**
+  * The storage type that determines I/O performance characteristics. Family name indicates workload pattern, level number indicates performance within that family.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_task#storage_class IotsitewiseTask#storage_class}
+  */
+  readonly storageClass?: string;
+  /**
+  * Storage volume size in GiB.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_task#storage_size_in_gi_b IotsitewiseTask#storage_size_in_gi_b}
+  */
+  readonly storageSizeInGiB?: number;
+}
+
+export function iotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfigurationToTerraform(struct?: IotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfiguration | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    storage_class: cdktn.stringToTerraform(struct!.storageClass),
+    storage_size_in_gi_b: cdktn.numberToTerraform(struct!.storageSizeInGiB),
+  }
+}
+
+
+export function iotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfigurationToHclTerraform(struct?: IotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfiguration | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    storage_class: {
+      value: cdktn.stringToHclTerraform(struct!.storageClass),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    storage_size_in_gi_b: {
+      value: cdktn.numberToHclTerraform(struct!.storageSizeInGiB),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class IotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfigurationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): IotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfiguration | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._storageClass !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.storageClass = this._storageClass;
+    }
+    if (this._storageSizeInGiB !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.storageSizeInGiB = this._storageSizeInGiB;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: IotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfiguration | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._storageClass = undefined;
+      this._storageSizeInGiB = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._storageClass = value.storageClass;
+      this._storageSizeInGiB = value.storageSizeInGiB;
+    }
+  }
+
+  // storage_class - computed: true, optional: true, required: false
+  private _storageClass?: string; 
+  public get storageClass() {
+    return this.getStringAttribute('storage_class');
+  }
+  public set storageClass(value: string) {
+    this._storageClass = value;
+  }
+  public resetStorageClass() {
+    this._storageClass = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get storageClassInput() {
+    return this._storageClass;
+  }
+
+  // storage_size_in_gi_b - computed: true, optional: true, required: false
+  private _storageSizeInGiB?: number; 
+  public get storageSizeInGiB() {
+    return this.getNumberAttribute('storage_size_in_gi_b');
+  }
+  public set storageSizeInGiB(value: number) {
+    this._storageSizeInGiB = value;
+  }
+  public resetStorageSizeInGiB() {
+    this._storageSizeInGiB = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get storageSizeInGiBInput() {
+    return this._storageSizeInGiB;
+  }
+}
+export interface IotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPoint {
+  /**
+  * The Amazon Resource Name (ARN) of the Amazon S3 access point. The mount reads objects from the bucket associated with this access point. Access is governed by the access point policy and the task execution role's IAM permissions.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_task#access_point_arn IotsitewiseTask#access_point_arn}
+  */
+  readonly accessPointArn?: string;
+  /**
+  * An object key name prefix. If specified, the mount includes only objects whose keys begin with this prefix. To include all objects at the access point, omit this field.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_task#prefix IotsitewiseTask#prefix}
+  */
+  readonly prefix?: string;
+}
+
+export function iotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPointToTerraform(struct?: IotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPoint | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    access_point_arn: cdktn.stringToTerraform(struct!.accessPointArn),
+    prefix: cdktn.stringToTerraform(struct!.prefix),
+  }
+}
+
+
+export function iotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPointToHclTerraform(struct?: IotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPoint | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    access_point_arn: {
+      value: cdktn.stringToHclTerraform(struct!.accessPointArn),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    prefix: {
+      value: cdktn.stringToHclTerraform(struct!.prefix),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class IotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPointOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): IotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPoint | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._accessPointArn !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.accessPointArn = this._accessPointArn;
+    }
+    if (this._prefix !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.prefix = this._prefix;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: IotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPoint | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._accessPointArn = undefined;
+      this._prefix = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._accessPointArn = value.accessPointArn;
+      this._prefix = value.prefix;
+    }
+  }
+
+  // access_point_arn - computed: true, optional: true, required: false
+  private _accessPointArn?: string; 
+  public get accessPointArn() {
+    return this.getStringAttribute('access_point_arn');
+  }
+  public set accessPointArn(value: string) {
+    this._accessPointArn = value;
+  }
+  public resetAccessPointArn() {
+    this._accessPointArn = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get accessPointArnInput() {
+    return this._accessPointArn;
+  }
+
+  // prefix - computed: true, optional: true, required: false
+  private _prefix?: string; 
+  public get prefix() {
+    return this.getStringAttribute('prefix');
+  }
+  public set prefix(value: string) {
+    this._prefix = value;
+  }
+  public resetPrefix() {
+    this._prefix = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get prefixInput() {
+    return this._prefix;
+  }
+}
+export interface IotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSource {
+  /**
+  * Configures a mount that reads from an Amazon S3 access point.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_task#s3_access_point IotsitewiseTask#s3_access_point}
+  */
+  readonly s3AccessPoint?: IotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPoint;
+}
+
+export function iotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceToTerraform(struct?: IotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSource | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    s3_access_point: iotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPointToTerraform(struct!.s3AccessPoint),
+  }
+}
+
+
+export function iotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceToHclTerraform(struct?: IotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSource | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    s3_access_point: {
+      value: iotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPointToHclTerraform(struct!.s3AccessPoint),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "IotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPoint",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class IotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): IotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSource | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._s3AccessPoint?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.s3AccessPoint = this._s3AccessPoint?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: IotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSource | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._s3AccessPoint.internalValue = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._s3AccessPoint.internalValue = value.s3AccessPoint;
+    }
+  }
+
+  // s3_access_point - computed: true, optional: true, required: false
+  private _s3AccessPoint = new IotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPointOutputReference(this, "s3_access_point");
+  public get s3AccessPoint() {
+    return this._s3AccessPoint;
+  }
+  public putS3AccessPoint(value: IotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPoint) {
+    this._s3AccessPoint.internalValue = value;
+  }
+  public resetS3AccessPoint() {
+    this._s3AccessPoint.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get s3AccessPointInput() {
+    return this._s3AccessPoint.internalValue;
+  }
+}
+export interface IotsitewiseTaskTaskConfigurationContainerTaskConfigurationMounts {
+  /**
+  * A unique name for the mount within the task.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_task#name IotsitewiseTask#name}
+  */
+  readonly name?: string;
+  /**
+  * The relative path under the service-owned mount root where this mount is attached inside the container.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_task#relative_path IotsitewiseTask#relative_path}
+  */
+  readonly relativePath?: string;
+  /**
+  * The data source configuration for a mount.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_task#source IotsitewiseTask#source}
+  */
+  readonly source?: IotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSource;
+  /**
+  * The type of storage used for the mount inside the container.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_task#storage_type IotsitewiseTask#storage_type}
+  */
+  readonly storageType?: string;
+}
+
+export function iotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsToTerraform(struct?: IotsitewiseTaskTaskConfigurationContainerTaskConfigurationMounts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    name: cdktn.stringToTerraform(struct!.name),
+    relative_path: cdktn.stringToTerraform(struct!.relativePath),
+    source: iotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceToTerraform(struct!.source),
+    storage_type: cdktn.stringToTerraform(struct!.storageType),
+  }
+}
+
+
+export function iotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsToHclTerraform(struct?: IotsitewiseTaskTaskConfigurationContainerTaskConfigurationMounts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    name: {
+      value: cdktn.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    relative_path: {
+      value: cdktn.stringToHclTerraform(struct!.relativePath),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    source: {
+      value: iotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceToHclTerraform(struct!.source),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "IotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSource",
+    },
+    storage_type: {
+      value: cdktn.stringToHclTerraform(struct!.storageType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class IotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): IotsitewiseTaskTaskConfigurationContainerTaskConfigurationMounts | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._relativePath !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.relativePath = this._relativePath;
+    }
+    if (this._source?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.source = this._source?.internalValue;
+    }
+    if (this._storageType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.storageType = this._storageType;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: IotsitewiseTaskTaskConfigurationContainerTaskConfigurationMounts | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._name = undefined;
+      this._relativePath = undefined;
+      this._source.internalValue = undefined;
+      this._storageType = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._name = value.name;
+      this._relativePath = value.relativePath;
+      this._source.internalValue = value.source;
+      this._storageType = value.storageType;
+    }
+  }
+
+  // name - computed: true, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // relative_path - computed: true, optional: true, required: false
+  private _relativePath?: string; 
+  public get relativePath() {
+    return this.getStringAttribute('relative_path');
+  }
+  public set relativePath(value: string) {
+    this._relativePath = value;
+  }
+  public resetRelativePath() {
+    this._relativePath = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get relativePathInput() {
+    return this._relativePath;
+  }
+
+  // source - computed: true, optional: true, required: false
+  private _source = new IotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceOutputReference(this, "source");
+  public get source() {
+    return this._source;
+  }
+  public putSource(value: IotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSource) {
+    this._source.internalValue = value;
+  }
+  public resetSource() {
+    this._source.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sourceInput() {
+    return this._source.internalValue;
+  }
+
+  // storage_type - computed: true, optional: true, required: false
+  private _storageType?: string; 
+  public get storageType() {
+    return this.getStringAttribute('storage_type');
+  }
+  public set storageType(value: string) {
+    this._storageType = value;
+  }
+  public resetStorageType() {
+    this._storageType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get storageTypeInput() {
+    return this._storageType;
+  }
+}
+
+export class IotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsList extends cdktn.ComplexList {
+  public internalValue? : IotsitewiseTaskTaskConfigurationContainerTaskConfigurationMounts[] | cdktn.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): IotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsOutputReference {
+    return new IotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface IotsitewiseTaskTaskConfigurationContainerTaskConfiguration {
   /**
   * The command to execute in the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iotsitewise_task#command IotsitewiseTask#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_task#command IotsitewiseTask#command}
   */
   readonly command?: string[];
   /**
   * The Amazon ECR image URI for the task container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iotsitewise_task#ecr_uri IotsitewiseTask#ecr_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_task#ecr_uri IotsitewiseTask#ecr_uri}
   */
   readonly ecrUri: string;
   /**
   * A map of environment variable key-value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iotsitewise_task#environment_variables IotsitewiseTask#environment_variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_task#environment_variables IotsitewiseTask#environment_variables}
   */
   readonly environmentVariables?: { [key: string]: string };
   /**
+  * Configuration for ephemeral storage attached to the container task.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_task#ephemeral_storage_configuration IotsitewiseTask#ephemeral_storage_configuration}
+  */
+  readonly ephemeralStorageConfiguration?: IotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfiguration;
+  /**
+  * Mounts attached to the container filesystem. Each mount exposes an external data source as a local directory inside the container.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_task#mounts IotsitewiseTask#mounts}
+  */
+  readonly mounts?: IotsitewiseTaskTaskConfigurationContainerTaskConfigurationMounts[] | cdktn.IResolvable;
+  /**
   * The processing type for compute resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iotsitewise_task#processing_type IotsitewiseTask#processing_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_task#processing_type IotsitewiseTask#processing_type}
   */
   readonly processingType: string;
   /**
   * The processing unit allocation that determines vCPU, memory, and GPU resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iotsitewise_task#processing_unit IotsitewiseTask#processing_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_task#processing_unit IotsitewiseTask#processing_unit}
   */
   readonly processingUnit: string;
   /**
   * The ARN of the IAM role that grants the containerized workload permissions to access AWS resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iotsitewise_task#task_execution_role IotsitewiseTask#task_execution_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_task#task_execution_role IotsitewiseTask#task_execution_role}
   */
   readonly taskExecutionRole: string;
   /**
   * The timeout in seconds for task execution. Default: 3600 (1 hour).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iotsitewise_task#timeout_seconds IotsitewiseTask#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_task#timeout_seconds IotsitewiseTask#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -250,6 +843,8 @@ export function iotsitewiseTaskTaskConfigurationContainerTaskConfigurationToTerr
     command: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.command),
     ecr_uri: cdktn.stringToTerraform(struct!.ecrUri),
     environment_variables: cdktn.hashMapper(cdktn.stringToTerraform)(struct!.environmentVariables),
+    ephemeral_storage_configuration: iotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfigurationToTerraform(struct!.ephemeralStorageConfiguration),
+    mounts: cdktn.listMapper(iotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsToTerraform, false)(struct!.mounts),
     processing_type: cdktn.stringToTerraform(struct!.processingType),
     processing_unit: cdktn.stringToTerraform(struct!.processingUnit),
     task_execution_role: cdktn.stringToTerraform(struct!.taskExecutionRole),
@@ -281,6 +876,18 @@ export function iotsitewiseTaskTaskConfigurationContainerTaskConfigurationToHclT
       isBlock: false,
       type: "map",
       storageClassType: "stringMap",
+    },
+    ephemeral_storage_configuration: {
+      value: iotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfigurationToHclTerraform(struct!.ephemeralStorageConfiguration),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "IotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfiguration",
+    },
+    mounts: {
+      value: cdktn.listMapperHcl(iotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsToHclTerraform, false)(struct!.mounts),
+      isBlock: true,
+      type: "list",
+      storageClassType: "IotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsList",
     },
     processing_type: {
       value: cdktn.stringToHclTerraform(struct!.processingType),
@@ -342,6 +949,14 @@ export class IotsitewiseTaskTaskConfigurationContainerTaskConfigurationOutputRef
       hasAnyValues = true;
       internalValueResult.environmentVariables = this._environmentVariables;
     }
+    if (this._ephemeralStorageConfiguration?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ephemeralStorageConfiguration = this._ephemeralStorageConfiguration?.internalValue;
+    }
+    if (this._mounts?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.mounts = this._mounts?.internalValue;
+    }
     if (this._processingType !== undefined) {
       hasAnyValues = true;
       internalValueResult.processingType = this._processingType;
@@ -368,6 +983,8 @@ export class IotsitewiseTaskTaskConfigurationContainerTaskConfigurationOutputRef
       this._command = undefined;
       this._ecrUri = undefined;
       this._environmentVariables = undefined;
+      this._ephemeralStorageConfiguration.internalValue = undefined;
+      this._mounts.internalValue = undefined;
       this._processingType = undefined;
       this._processingUnit = undefined;
       this._taskExecutionRole = undefined;
@@ -383,6 +1000,8 @@ export class IotsitewiseTaskTaskConfigurationContainerTaskConfigurationOutputRef
       this._command = value.command;
       this._ecrUri = value.ecrUri;
       this._environmentVariables = value.environmentVariables;
+      this._ephemeralStorageConfiguration.internalValue = value.ephemeralStorageConfiguration;
+      this._mounts.internalValue = value.mounts;
       this._processingType = value.processingType;
       this._processingUnit = value.processingUnit;
       this._taskExecutionRole = value.taskExecutionRole;
@@ -433,6 +1052,38 @@ export class IotsitewiseTaskTaskConfigurationContainerTaskConfigurationOutputRef
   // Temporarily expose input value. Use with caution.
   public get environmentVariablesInput() {
     return this._environmentVariables;
+  }
+
+  // ephemeral_storage_configuration - computed: true, optional: true, required: false
+  private _ephemeralStorageConfiguration = new IotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfigurationOutputReference(this, "ephemeral_storage_configuration");
+  public get ephemeralStorageConfiguration() {
+    return this._ephemeralStorageConfiguration;
+  }
+  public putEphemeralStorageConfiguration(value: IotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfiguration) {
+    this._ephemeralStorageConfiguration.internalValue = value;
+  }
+  public resetEphemeralStorageConfiguration() {
+    this._ephemeralStorageConfiguration.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ephemeralStorageConfigurationInput() {
+    return this._ephemeralStorageConfiguration.internalValue;
+  }
+
+  // mounts - computed: true, optional: true, required: false
+  private _mounts = new IotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsList(this, "mounts", false);
+  public get mounts() {
+    return this._mounts;
+  }
+  public putMounts(value: IotsitewiseTaskTaskConfigurationContainerTaskConfigurationMounts[] | cdktn.IResolvable) {
+    this._mounts.internalValue = value;
+  }
+  public resetMounts() {
+    this._mounts.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get mountsInput() {
+    return this._mounts.internalValue;
   }
 
   // processing_type - computed: false, optional: false, required: true
@@ -494,7 +1145,7 @@ export interface IotsitewiseTaskTaskConfiguration {
   /**
   * Configuration for running a custom container image on managed compute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iotsitewise_task#container_task_configuration IotsitewiseTask#container_task_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_task#container_task_configuration IotsitewiseTask#container_task_configuration}
   */
   readonly containerTaskConfiguration: IotsitewiseTaskTaskConfigurationContainerTaskConfiguration;
 }
@@ -585,7 +1236,7 @@ export class IotsitewiseTaskTaskConfigurationOutputReference extends cdktn.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iotsitewise_task awscc_iotsitewise_task}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_task awscc_iotsitewise_task}
 */
 export class IotsitewiseTask extends cdktn.TerraformResource {
 
@@ -601,7 +1252,7 @@ export class IotsitewiseTask extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a IotsitewiseTask resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IotsitewiseTask to import
-  * @param importFromId The id of the existing IotsitewiseTask that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iotsitewise_task#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IotsitewiseTask that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_task#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IotsitewiseTask to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -613,7 +1264,7 @@ export class IotsitewiseTask extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iotsitewise_task awscc_iotsitewise_task} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_task awscc_iotsitewise_task} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -624,7 +1275,7 @@ export class IotsitewiseTask extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_iotsitewise_task',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.101.0',
+        providerVersion: '1.102.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
