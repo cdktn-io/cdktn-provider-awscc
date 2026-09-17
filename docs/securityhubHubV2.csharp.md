@@ -4,7 +4,7 @@
 
 ### SecurityhubHubV2 <a name="SecurityhubHubV2" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/securityhub_hub_v2 awscc_securityhub_hub_v2}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/securityhub_hub_v2 awscc_securityhub_hub_v2}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2.Initializer"></a>
 
@@ -74,6 +74,8 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2.moveFromId">MoveFromId</a></code> | Move the resource corresponding to "id" to this resource. |
 | <code><a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2.moveTo">MoveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2.moveToId">MoveToId</a></code> | Moves this resource to the resource corresponding to "id". |
+| <code><a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2.putNetworkScanning">PutNetworkScanning</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2.resetNetworkScanning">ResetNetworkScanning</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2.resetTags">ResetTags</a></code> | *No description.* |
 
 ---
@@ -387,6 +389,24 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 
 ---
 
+##### `PutNetworkScanning` <a name="PutNetworkScanning" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2.putNetworkScanning"></a>
+
+```csharp
+private void PutNetworkScanning(SecurityhubHubV2NetworkScanning Value)
+```
+
+###### `Value`<sup>Required</sup> <a name="Value" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2.putNetworkScanning.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanning">SecurityhubHubV2NetworkScanning</a>
+
+---
+
+##### `ResetNetworkScanning` <a name="ResetNetworkScanning" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2.resetNetworkScanning"></a>
+
+```csharp
+private void ResetNetworkScanning()
+```
+
 ##### `ResetTags` <a name="ResetTags" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2.resetTags"></a>
 
 ```csharp
@@ -496,7 +516,7 @@ The construct id used in the generated config for the SecurityhubHubV2 to import
 
 The id of the existing SecurityhubHubV2 that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/securityhub_hub_v2#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/securityhub_hub_v2#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -528,7 +548,9 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.10
 | <code><a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2.property.hubV2Arn">HubV2Arn</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2.property.id">Id</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2.property.networkScanning">NetworkScanning</a></code> | <code><a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference">SecurityhubHubV2NetworkScanningOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2.property.subscribedAt">SubscribedAt</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2.property.networkScanningInput">NetworkScanningInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanning">SecurityhubHubV2NetworkScanning</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2.property.tagsInput">TagsInput</a></code> | <code>System.Collections.Generic.IDictionary<string, string></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2.property.tags">Tags</a></code> | <code>System.Collections.Generic.IDictionary<string, string></code> | *No description.* |
 
@@ -696,6 +718,16 @@ public string Id { get; }
 
 ---
 
+##### `NetworkScanning`<sup>Required</sup> <a name="NetworkScanning" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2.property.networkScanning"></a>
+
+```csharp
+public SecurityhubHubV2NetworkScanningOutputReference NetworkScanning { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference">SecurityhubHubV2NetworkScanningOutputReference</a>
+
+---
+
 ##### `SubscribedAt`<sup>Required</sup> <a name="SubscribedAt" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2.property.subscribedAt"></a>
 
 ```csharp
@@ -703,6 +735,16 @@ public string SubscribedAt { get; }
 ```
 
 - *Type:* string
+
+---
+
+##### `NetworkScanningInput`<sup>Optional</sup> <a name="NetworkScanningInput" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2.property.networkScanningInput"></a>
+
+```csharp
+public IResolvable|SecurityhubHubV2NetworkScanning NetworkScanningInput { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanning">SecurityhubHubV2NetworkScanning</a>
 
 ---
 
@@ -761,6 +803,7 @@ new SecurityhubHubV2Config {
     TerraformResourceLifecycle Lifecycle = null,
     TerraformProvider Provider = null,
     (FileProvisioner|LocalExecProvisioner|RemoteExecProvisioner)[] Provisioners = null,
+    SecurityhubHubV2NetworkScanning NetworkScanning = null,
     System.Collections.Generic.IDictionary<string, string> Tags = null
 };
 ```
@@ -776,6 +819,7 @@ new SecurityhubHubV2Config {
 | <code><a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2Config.property.lifecycle">Lifecycle</a></code> | <code>Io.Cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2Config.property.provider">Provider</a></code> | <code>Io.Cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2Config.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2Config.property.networkScanning">NetworkScanning</a></code> | <code><a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanning">SecurityhubHubV2NetworkScanning</a></code> | Configuration for the Network Scanning opt-in feature of Security Hub V2. |
 | <code><a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2Config.property.tags">Tags</a></code> | <code>System.Collections.Generic.IDictionary<string, string></code> | A key-value pair to associate with the Security Hub V2 resource. |
 
 ---
@@ -850,6 +894,22 @@ public (FileProvisioner|LocalExecProvisioner|RemoteExecProvisioner)[] Provisione
 
 ---
 
+##### `NetworkScanning`<sup>Optional</sup> <a name="NetworkScanning" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2Config.property.networkScanning"></a>
+
+```csharp
+public SecurityhubHubV2NetworkScanning NetworkScanning { get; set; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanning">SecurityhubHubV2NetworkScanning</a>
+
+Configuration for the Network Scanning opt-in feature of Security Hub V2.
+
+Network Scanning is available in the AWS commercial partition only; specifying this property in another partition, such as AWS GovCloud (US) or China, fails. This property is desired state: if you remove it from a stack that previously set it, the feature is disabled. If a stack has never set it, the feature is left as-is, so a stack that does not manage Network Scanning will not disable it. Network Scanning requires Security Hub V2 to be enabled in the same account and Region.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/securityhub_hub_v2#network_scanning SecurityhubHubV2#network_scanning}
+
+---
+
 ##### `Tags`<sup>Optional</sup> <a name="Tags" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2Config.property.tags"></a>
 
 ```csharp
@@ -862,7 +922,320 @@ A key-value pair to associate with the Security Hub V2 resource.
 
 You can specify a key that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/securityhub_hub_v2#tags SecurityhubHubV2#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/securityhub_hub_v2#tags SecurityhubHubV2#tags}
+
+---
+
+### SecurityhubHubV2NetworkScanning <a name="SecurityhubHubV2NetworkScanning" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanning"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanning.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new SecurityhubHubV2NetworkScanning {
+    string Status = null
+};
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanning.property.status">Status</a></code> | <code>string</code> | Whether the Network Scanning feature is enabled for this account and Region. |
+
+---
+
+##### `Status`<sup>Optional</sup> <a name="Status" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanning.property.status"></a>
+
+```csharp
+public string Status { get; set; }
+```
+
+- *Type:* string
+
+Whether the Network Scanning feature is enabled for this account and Region.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/securityhub_hub_v2#status SecurityhubHubV2#status}
+
+---
+
+## Classes <a name="Classes" id="Classes"></a>
+
+### SecurityhubHubV2NetworkScanningOutputReference <a name="SecurityhubHubV2NetworkScanningOutputReference" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new SecurityhubHubV2NetworkScanningOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.resetStatus">ResetStatus</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `ResetStatus` <a name="ResetStatus" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.resetStatus"></a>
+
+```csharp
+private void ResetStatus()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.property.statusInput">StatusInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.property.status">Status</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.property.internalValue">InternalValue</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanning">SecurityhubHubV2NetworkScanning</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `StatusInput`<sup>Optional</sup> <a name="StatusInput" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.property.statusInput"></a>
+
+```csharp
+public string StatusInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `Status`<sup>Required</sup> <a name="Status" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.property.status"></a>
+
+```csharp
+public string Status { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.property.internalValue"></a>
+
+```csharp
+public IResolvable|SecurityhubHubV2NetworkScanning InternalValue { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanning">SecurityhubHubV2NetworkScanning</a>
 
 ---
 

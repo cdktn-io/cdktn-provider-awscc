@@ -4,7 +4,7 @@
 
 ### DataAwsccNotificationsManagedNotificationAccountContactAssociation <a name="DataAwsccNotificationsManagedNotificationAccountContactAssociation" id="@cdktn/provider-awscc.dataAwsccNotificationsManagedNotificationAccountContactAssociation.DataAwsccNotificationsManagedNotificationAccountContactAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/notifications_managed_notification_account_contact_association awscc_notifications_managed_notification_account_contact_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/notifications_managed_notification_account_contact_association awscc_notifications_managed_notification_account_contact_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNotificationsManagedNotificationAccountContactAssociation.DataAwsccNotificationsManagedNotificationAccountContactAssociation.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccNotificationsMana
 
 The id of the existing DataAwsccNotificationsManagedNotificationAccountContactAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/notifications_managed_notification_account_contact_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/notifications_managed_notification_account_contact_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -416,6 +416,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.10
 | <code><a href="#@cdktn/provider-awscc.dataAwsccNotificationsManagedNotificationAccountContactAssociation.DataAwsccNotificationsManagedNotificationAccountContactAssociation.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccNotificationsManagedNotificationAccountContactAssociation.DataAwsccNotificationsManagedNotificationAccountContactAssociation.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccNotificationsManagedNotificationAccountContactAssociation.DataAwsccNotificationsManagedNotificationAccountContactAssociation.property.contactIdentifier">contactIdentifier</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNotificationsManagedNotificationAccountContactAssociation.DataAwsccNotificationsManagedNotificationAccountContactAssociation.property.isSensitiveEventsSubscribed">isSensitiveEventsSubscribed</a></code> | <code>cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccNotificationsManagedNotificationAccountContactAssociation.DataAwsccNotificationsManagedNotificationAccountContactAssociation.property.managedNotificationConfigurationArn">managedNotificationConfigurationArn</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccNotificationsManagedNotificationAccountContactAssociation.DataAwsccNotificationsManagedNotificationAccountContactAssociation.property.idInput">idInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccNotificationsManagedNotificationAccountContactAssociation.DataAwsccNotificationsManagedNotificationAccountContactAssociation.property.id">id</a></code> | <code>string</code> | *No description.* |
@@ -551,6 +552,16 @@ public readonly contactIdentifier: string;
 ```
 
 - *Type:* string
+
+---
+
+##### `isSensitiveEventsSubscribed`<sup>Required</sup> <a name="isSensitiveEventsSubscribed" id="@cdktn/provider-awscc.dataAwsccNotificationsManagedNotificationAccountContactAssociation.DataAwsccNotificationsManagedNotificationAccountContactAssociation.property.isSensitiveEventsSubscribed"></a>
+
+```typescript
+public readonly isSensitiveEventsSubscribed: IResolvable;
+```
+
+- *Type:* cdktn.IResolvable
 
 ---
 
@@ -709,7 +720,7 @@ public readonly id: string;
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/notifications_managed_notification_account_contact_association#id DataAwsccNotificationsManagedNotificationAccountContactAssociation#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/notifications_managed_notification_account_contact_association#id DataAwsccNotificationsManagedNotificationAccountContactAssociation#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

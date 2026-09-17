@@ -4,7 +4,7 @@
 
 ### NotificationsManagedNotificationAccountContactAssociation <a name="NotificationsManagedNotificationAccountContactAssociation" id="@cdktn/provider-awscc.notificationsManagedNotificationAccountContactAssociation.NotificationsManagedNotificationAccountContactAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/notifications_managed_notification_account_contact_association awscc_notifications_managed_notification_account_contact_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/notifications_managed_notification_account_contact_association awscc_notifications_managed_notification_account_contact_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.notificationsManagedNotificationAccountContactAssociation.NotificationsManagedNotificationAccountContactAssociation.Initializer"></a>
 
@@ -74,6 +74,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-awscc.notificationsManagedNotificationAccountContactAssociation.NotificationsManagedNotificationAccountContactAssociation.moveFromId">MoveFromId</a></code> | Move the resource corresponding to "id" to this resource. |
 | <code><a href="#@cdktn/provider-awscc.notificationsManagedNotificationAccountContactAssociation.NotificationsManagedNotificationAccountContactAssociation.moveTo">MoveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-awscc.notificationsManagedNotificationAccountContactAssociation.NotificationsManagedNotificationAccountContactAssociation.moveToId">MoveToId</a></code> | Moves this resource to the resource corresponding to "id". |
+| <code><a href="#@cdktn/provider-awscc.notificationsManagedNotificationAccountContactAssociation.NotificationsManagedNotificationAccountContactAssociation.resetIsSensitiveEventsSubscribed">ResetIsSensitiveEventsSubscribed</a></code> | *No description.* |
 
 ---
 
@@ -386,6 +387,12 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 
 ---
 
+##### `ResetIsSensitiveEventsSubscribed` <a name="ResetIsSensitiveEventsSubscribed" id="@cdktn/provider-awscc.notificationsManagedNotificationAccountContactAssociation.NotificationsManagedNotificationAccountContactAssociation.resetIsSensitiveEventsSubscribed"></a>
+
+```csharp
+private void ResetIsSensitiveEventsSubscribed()
+```
+
 #### Static Functions <a name="Static Functions" id="Static Functions"></a>
 
 | **Name** | **Description** |
@@ -489,7 +496,7 @@ The construct id used in the generated config for the NotificationsManagedNotifi
 
 The id of the existing NotificationsManagedNotificationAccountContactAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/notifications_managed_notification_account_contact_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/notifications_managed_notification_account_contact_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -521,8 +528,10 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.10
 | <code><a href="#@cdktn/provider-awscc.notificationsManagedNotificationAccountContactAssociation.NotificationsManagedNotificationAccountContactAssociation.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.notificationsManagedNotificationAccountContactAssociation.NotificationsManagedNotificationAccountContactAssociation.property.id">Id</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.notificationsManagedNotificationAccountContactAssociation.NotificationsManagedNotificationAccountContactAssociation.property.contactIdentifierInput">ContactIdentifierInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.notificationsManagedNotificationAccountContactAssociation.NotificationsManagedNotificationAccountContactAssociation.property.isSensitiveEventsSubscribedInput">IsSensitiveEventsSubscribedInput</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.notificationsManagedNotificationAccountContactAssociation.NotificationsManagedNotificationAccountContactAssociation.property.managedNotificationConfigurationArnInput">ManagedNotificationConfigurationArnInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.notificationsManagedNotificationAccountContactAssociation.NotificationsManagedNotificationAccountContactAssociation.property.contactIdentifier">ContactIdentifier</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.notificationsManagedNotificationAccountContactAssociation.NotificationsManagedNotificationAccountContactAssociation.property.isSensitiveEventsSubscribed">IsSensitiveEventsSubscribed</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.notificationsManagedNotificationAccountContactAssociation.NotificationsManagedNotificationAccountContactAssociation.property.managedNotificationConfigurationArn">ManagedNotificationConfigurationArn</a></code> | <code>string</code> | *No description.* |
 
 ---
@@ -689,6 +698,16 @@ public string ContactIdentifierInput { get; }
 
 ---
 
+##### `IsSensitiveEventsSubscribedInput`<sup>Optional</sup> <a name="IsSensitiveEventsSubscribedInput" id="@cdktn/provider-awscc.notificationsManagedNotificationAccountContactAssociation.NotificationsManagedNotificationAccountContactAssociation.property.isSensitiveEventsSubscribedInput"></a>
+
+```csharp
+public bool|IResolvable IsSensitiveEventsSubscribedInput { get; }
+```
+
+- *Type:* bool|Io.Cdktn.IResolvable
+
+---
+
 ##### `ManagedNotificationConfigurationArnInput`<sup>Optional</sup> <a name="ManagedNotificationConfigurationArnInput" id="@cdktn/provider-awscc.notificationsManagedNotificationAccountContactAssociation.NotificationsManagedNotificationAccountContactAssociation.property.managedNotificationConfigurationArnInput"></a>
 
 ```csharp
@@ -706,6 +725,16 @@ public string ContactIdentifier { get; }
 ```
 
 - *Type:* string
+
+---
+
+##### `IsSensitiveEventsSubscribed`<sup>Required</sup> <a name="IsSensitiveEventsSubscribed" id="@cdktn/provider-awscc.notificationsManagedNotificationAccountContactAssociation.NotificationsManagedNotificationAccountContactAssociation.property.isSensitiveEventsSubscribed"></a>
+
+```csharp
+public bool|IResolvable IsSensitiveEventsSubscribed { get; }
+```
+
+- *Type:* bool|Io.Cdktn.IResolvable
 
 ---
 
@@ -755,7 +784,8 @@ new NotificationsManagedNotificationAccountContactAssociationConfig {
     TerraformProvider Provider = null,
     (FileProvisioner|LocalExecProvisioner|RemoteExecProvisioner)[] Provisioners = null,
     string ContactIdentifier,
-    string ManagedNotificationConfigurationArn
+    string ManagedNotificationConfigurationArn,
+    bool|IResolvable IsSensitiveEventsSubscribed = null
 };
 ```
 
@@ -772,6 +802,7 @@ new NotificationsManagedNotificationAccountContactAssociationConfig {
 | <code><a href="#@cdktn/provider-awscc.notificationsManagedNotificationAccountContactAssociation.NotificationsManagedNotificationAccountContactAssociationConfig.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.notificationsManagedNotificationAccountContactAssociation.NotificationsManagedNotificationAccountContactAssociationConfig.property.contactIdentifier">ContactIdentifier</a></code> | <code>string</code> | This unique identifier for Contact. |
 | <code><a href="#@cdktn/provider-awscc.notificationsManagedNotificationAccountContactAssociation.NotificationsManagedNotificationAccountContactAssociationConfig.property.managedNotificationConfigurationArn">ManagedNotificationConfigurationArn</a></code> | <code>string</code> | The managed notification configuration ARN, against which the account contact association will be created. |
+| <code><a href="#@cdktn/provider-awscc.notificationsManagedNotificationAccountContactAssociation.NotificationsManagedNotificationAccountContactAssociationConfig.property.isSensitiveEventsSubscribed">IsSensitiveEventsSubscribed</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | Whether the account contact association is subscribed to sensitive events. |
 
 ---
 
@@ -855,7 +886,7 @@ public string ContactIdentifier { get; set; }
 
 This unique identifier for Contact.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/notifications_managed_notification_account_contact_association#contact_identifier NotificationsManagedNotificationAccountContactAssociation#contact_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/notifications_managed_notification_account_contact_association#contact_identifier NotificationsManagedNotificationAccountContactAssociation#contact_identifier}
 
 ---
 
@@ -869,7 +900,23 @@ public string ManagedNotificationConfigurationArn { get; set; }
 
 The managed notification configuration ARN, against which the account contact association will be created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/notifications_managed_notification_account_contact_association#managed_notification_configuration_arn NotificationsManagedNotificationAccountContactAssociation#managed_notification_configuration_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/notifications_managed_notification_account_contact_association#managed_notification_configuration_arn NotificationsManagedNotificationAccountContactAssociation#managed_notification_configuration_arn}
+
+---
+
+##### `IsSensitiveEventsSubscribed`<sup>Optional</sup> <a name="IsSensitiveEventsSubscribed" id="@cdktn/provider-awscc.notificationsManagedNotificationAccountContactAssociation.NotificationsManagedNotificationAccountContactAssociationConfig.property.isSensitiveEventsSubscribed"></a>
+
+```csharp
+public bool|IResolvable IsSensitiveEventsSubscribed { get; set; }
+```
+
+- *Type:* bool|Io.Cdktn.IResolvable
+
+Whether the account contact association is subscribed to sensitive events.
+
+Access to sensitive events is gated by the SubscribeSensitiveEvents virtual IAM action.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/notifications_managed_notification_account_contact_association#is_sensitive_events_subscribed NotificationsManagedNotificationAccountContactAssociation#is_sensitive_events_subscribed}
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### DataAwsccIotsitewiseWorkspaces <a name="DataAwsccIotsitewiseWorkspaces" id="@cdktn/provider-awscc.dataAwsccIotsitewiseWorkspaces.DataAwsccIotsitewiseWorkspaces"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/iotsitewise_workspaces awscc_iotsitewise_workspaces}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/iotsitewise_workspaces awscc_iotsitewise_workspaces}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotsitewiseWorkspaces.DataAwsccIotsitewiseWorkspaces.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccIotsitewiseWorksp
 
 The id of the existing DataAwsccIotsitewiseWorkspaces that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/iotsitewise_workspaces#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/iotsitewise_workspaces#import import section} in the documentation of this resource for the id to use
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### DataAwsccNotificationsManagedNotificationAdditionalChannelAssociation <a name="DataAwsccNotificationsManagedNotificationAdditionalChannelAssociation" id="@cdktn/provider-awscc.dataAwsccNotificationsManagedNotificationAdditionalChannelAssociation.DataAwsccNotificationsManagedNotificationAdditionalChannelAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/notifications_managed_notification_additional_channel_association awscc_notifications_managed_notification_additional_channel_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/notifications_managed_notification_additional_channel_association awscc_notifications_managed_notification_additional_channel_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNotificationsManagedNotificationAdditionalChannelAssociation.DataAwsccNotificationsManagedNotificationAdditionalChannelAssociation.Initializer"></a>
 
@@ -104,7 +104,7 @@ Must be unique amongst siblings in the same scope
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/notifications_managed_notification_additional_channel_association#id DataAwsccNotificationsManagedNotificationAdditionalChannelAssociation#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/notifications_managed_notification_additional_channel_association#id DataAwsccNotificationsManagedNotificationAdditionalChannelAssociation#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -452,7 +452,7 @@ The construct id used in the generated config for the DataAwsccNotificationsMana
 
 The id of the existing DataAwsccNotificationsManagedNotificationAdditionalChannelAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/notifications_managed_notification_additional_channel_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/notifications_managed_notification_additional_channel_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -481,6 +481,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.10
 | <code><a href="#@cdktn/provider-awscc.dataAwsccNotificationsManagedNotificationAdditionalChannelAssociation.DataAwsccNotificationsManagedNotificationAdditionalChannelAssociation.property.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccNotificationsManagedNotificationAdditionalChannelAssociation.DataAwsccNotificationsManagedNotificationAdditionalChannelAssociation.property.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccNotificationsManagedNotificationAdditionalChannelAssociation.DataAwsccNotificationsManagedNotificationAdditionalChannelAssociation.property.channelArn">channelArn</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNotificationsManagedNotificationAdditionalChannelAssociation.DataAwsccNotificationsManagedNotificationAdditionalChannelAssociation.property.isSensitiveEventsSubscribed">isSensitiveEventsSubscribed</a></code> | <code>io.cdktn.cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccNotificationsManagedNotificationAdditionalChannelAssociation.DataAwsccNotificationsManagedNotificationAdditionalChannelAssociation.property.managedNotificationConfigurationArn">managedNotificationConfigurationArn</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccNotificationsManagedNotificationAdditionalChannelAssociation.DataAwsccNotificationsManagedNotificationAdditionalChannelAssociation.property.idInput">idInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccNotificationsManagedNotificationAdditionalChannelAssociation.DataAwsccNotificationsManagedNotificationAdditionalChannelAssociation.property.id">id</a></code> | <code>java.lang.String</code> | *No description.* |
@@ -616,6 +617,16 @@ public java.lang.String getChannelArn();
 ```
 
 - *Type:* java.lang.String
+
+---
+
+##### `isSensitiveEventsSubscribed`<sup>Required</sup> <a name="isSensitiveEventsSubscribed" id="@cdktn/provider-awscc.dataAwsccNotificationsManagedNotificationAdditionalChannelAssociation.DataAwsccNotificationsManagedNotificationAdditionalChannelAssociation.property.isSensitiveEventsSubscribed"></a>
+
+```java
+public IResolvable getIsSensitiveEventsSubscribed();
+```
+
+- *Type:* io.cdktn.cdktn.IResolvable
 
 ---
 
@@ -783,7 +794,7 @@ public java.lang.String getId();
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/notifications_managed_notification_additional_channel_association#id DataAwsccNotificationsManagedNotificationAdditionalChannelAssociation#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/notifications_managed_notification_additional_channel_association#id DataAwsccNotificationsManagedNotificationAdditionalChannelAssociation#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

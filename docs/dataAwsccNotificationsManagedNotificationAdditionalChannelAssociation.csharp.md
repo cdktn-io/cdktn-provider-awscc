@@ -4,7 +4,7 @@
 
 ### DataAwsccNotificationsManagedNotificationAdditionalChannelAssociation <a name="DataAwsccNotificationsManagedNotificationAdditionalChannelAssociation" id="@cdktn/provider-awscc.dataAwsccNotificationsManagedNotificationAdditionalChannelAssociation.DataAwsccNotificationsManagedNotificationAdditionalChannelAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/notifications_managed_notification_additional_channel_association awscc_notifications_managed_notification_additional_channel_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/notifications_managed_notification_additional_channel_association awscc_notifications_managed_notification_additional_channel_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNotificationsManagedNotificationAdditionalChannelAssociation.DataAwsccNotificationsManagedNotificationAdditionalChannelAssociation.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccNotificationsMana
 
 The id of the existing DataAwsccNotificationsManagedNotificationAdditionalChannelAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/notifications_managed_notification_additional_channel_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/notifications_managed_notification_additional_channel_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -416,6 +416,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.10
 | <code><a href="#@cdktn/provider-awscc.dataAwsccNotificationsManagedNotificationAdditionalChannelAssociation.DataAwsccNotificationsManagedNotificationAdditionalChannelAssociation.property.lifecycle">Lifecycle</a></code> | <code>Io.Cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccNotificationsManagedNotificationAdditionalChannelAssociation.DataAwsccNotificationsManagedNotificationAdditionalChannelAssociation.property.provider">Provider</a></code> | <code>Io.Cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccNotificationsManagedNotificationAdditionalChannelAssociation.DataAwsccNotificationsManagedNotificationAdditionalChannelAssociation.property.channelArn">ChannelArn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNotificationsManagedNotificationAdditionalChannelAssociation.DataAwsccNotificationsManagedNotificationAdditionalChannelAssociation.property.isSensitiveEventsSubscribed">IsSensitiveEventsSubscribed</a></code> | <code>Io.Cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccNotificationsManagedNotificationAdditionalChannelAssociation.DataAwsccNotificationsManagedNotificationAdditionalChannelAssociation.property.managedNotificationConfigurationArn">ManagedNotificationConfigurationArn</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccNotificationsManagedNotificationAdditionalChannelAssociation.DataAwsccNotificationsManagedNotificationAdditionalChannelAssociation.property.idInput">IdInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccNotificationsManagedNotificationAdditionalChannelAssociation.DataAwsccNotificationsManagedNotificationAdditionalChannelAssociation.property.id">Id</a></code> | <code>string</code> | *No description.* |
@@ -551,6 +552,16 @@ public string ChannelArn { get; }
 ```
 
 - *Type:* string
+
+---
+
+##### `IsSensitiveEventsSubscribed`<sup>Required</sup> <a name="IsSensitiveEventsSubscribed" id="@cdktn/provider-awscc.dataAwsccNotificationsManagedNotificationAdditionalChannelAssociation.DataAwsccNotificationsManagedNotificationAdditionalChannelAssociation.property.isSensitiveEventsSubscribed"></a>
+
+```csharp
+public IResolvable IsSensitiveEventsSubscribed { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable
 
 ---
 
@@ -718,7 +729,7 @@ public string Id { get; set; }
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/notifications_managed_notification_additional_channel_association#id DataAwsccNotificationsManagedNotificationAdditionalChannelAssociation#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/notifications_managed_notification_additional_channel_association#id DataAwsccNotificationsManagedNotificationAdditionalChannelAssociation#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
