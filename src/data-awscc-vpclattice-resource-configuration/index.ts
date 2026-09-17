@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/vpclattice_resource_configuration
+// https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/vpclattice_resource_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,12 +15,66 @@ export interface DataAwsccVpclatticeResourceConfigurationConfig extends cdktn.Te
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/vpclattice_resource_configuration#id DataAwsccVpclatticeResourceConfiguration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/vpclattice_resource_configuration#id DataAwsccVpclatticeResourceConfiguration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
+}
+export interface DataAwsccVpclatticeResourceConfigurationResourceConfigurationDefinitionCidrResource {
+}
+
+export function dataAwsccVpclatticeResourceConfigurationResourceConfigurationDefinitionCidrResourceToTerraform(struct?: DataAwsccVpclatticeResourceConfigurationResourceConfigurationDefinitionCidrResource): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccVpclatticeResourceConfigurationResourceConfigurationDefinitionCidrResourceToHclTerraform(struct?: DataAwsccVpclatticeResourceConfigurationResourceConfigurationDefinitionCidrResource): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccVpclatticeResourceConfigurationResourceConfigurationDefinitionCidrResourceOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccVpclatticeResourceConfigurationResourceConfigurationDefinitionCidrResource | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccVpclatticeResourceConfigurationResourceConfigurationDefinitionCidrResource | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // cidr_ranges - computed: true, optional: false, required: false
+  public get cidrRanges() {
+    return this.getListAttribute('cidr_ranges');
+  }
 }
 export interface DataAwsccVpclatticeResourceConfigurationResourceConfigurationDefinitionDnsResource {
 }
@@ -135,6 +189,12 @@ export class DataAwsccVpclatticeResourceConfigurationResourceConfigurationDefini
     return this.getStringAttribute('arn_resource');
   }
 
+  // cidr_resource - computed: true, optional: false, required: false
+  private _cidrResource = new DataAwsccVpclatticeResourceConfigurationResourceConfigurationDefinitionCidrResourceOutputReference(this, "cidr_resource");
+  public get cidrResource() {
+    return this._cidrResource;
+  }
+
   // dns_resource - computed: true, optional: false, required: false
   private _dnsResource = new DataAwsccVpclatticeResourceConfigurationResourceConfigurationDefinitionDnsResourceOutputReference(this, "dns_resource");
   public get dnsResource() {
@@ -228,7 +288,7 @@ export class DataAwsccVpclatticeResourceConfigurationTagsList extends cdktn.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/vpclattice_resource_configuration awscc_vpclattice_resource_configuration}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/vpclattice_resource_configuration awscc_vpclattice_resource_configuration}
 */
 export class DataAwsccVpclatticeResourceConfiguration extends cdktn.TerraformDataSource {
 
@@ -244,7 +304,7 @@ export class DataAwsccVpclatticeResourceConfiguration extends cdktn.TerraformDat
   * Generates CDKTN code for importing a DataAwsccVpclatticeResourceConfiguration resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccVpclatticeResourceConfiguration to import
-  * @param importFromId The id of the existing DataAwsccVpclatticeResourceConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/vpclattice_resource_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccVpclatticeResourceConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/vpclattice_resource_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccVpclatticeResourceConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -256,7 +316,7 @@ export class DataAwsccVpclatticeResourceConfiguration extends cdktn.TerraformDat
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/vpclattice_resource_configuration awscc_vpclattice_resource_configuration} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/vpclattice_resource_configuration awscc_vpclattice_resource_configuration} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -267,7 +327,7 @@ export class DataAwsccVpclatticeResourceConfiguration extends cdktn.TerraformDat
       terraformResourceType: 'awscc_vpclattice_resource_configuration',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.101.0',
+        providerVersion: '1.102.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

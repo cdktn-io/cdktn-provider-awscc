@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/fsx_volume
+// https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fsx_volume
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,37 +13,37 @@ import * as cdktn from 'cdktn';
 
 export interface FsxVolumeConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/fsx_volume#backup_id FsxVolume#backup_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fsx_volume#backup_id FsxVolume#backup_id}
   */
   readonly backupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/fsx_volume#name FsxVolume#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fsx_volume#name FsxVolume#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/fsx_volume#ontap_configuration FsxVolume#ontap_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fsx_volume#ontap_configuration FsxVolume#ontap_configuration}
   */
   readonly ontapConfiguration?: FsxVolumeOntapConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/fsx_volume#open_zfs_configuration FsxVolume#open_zfs_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fsx_volume#open_zfs_configuration FsxVolume#open_zfs_configuration}
   */
   readonly openZfsConfiguration?: FsxVolumeOpenZfsConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/fsx_volume#tags FsxVolume#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fsx_volume#tags FsxVolume#tags}
   */
   readonly tags?: FsxVolumeTags[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/fsx_volume#volume_type FsxVolume#volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fsx_volume#volume_type FsxVolume#volume_type}
   */
   readonly volumeType?: string;
 }
 export interface FsxVolumeOntapConfigurationAggregateConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/fsx_volume#aggregates FsxVolume#aggregates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fsx_volume#aggregates FsxVolume#aggregates}
   */
   readonly aggregates?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/fsx_volume#constituents_per_aggregate FsxVolume#constituents_per_aggregate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fsx_volume#constituents_per_aggregate FsxVolume#constituents_per_aggregate}
   */
   readonly constituentsPerAggregate?: number;
 }
@@ -166,11 +166,11 @@ export class FsxVolumeOntapConfigurationAggregateConfigurationOutputReference ex
 }
 export interface FsxVolumeOntapConfigurationSnaplockConfigurationAutocommitPeriod {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/fsx_volume#type FsxVolume#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fsx_volume#type FsxVolume#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/fsx_volume#value FsxVolume#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fsx_volume#value FsxVolume#value}
   */
   readonly value?: number;
 }
@@ -293,11 +293,11 @@ export class FsxVolumeOntapConfigurationSnaplockConfigurationAutocommitPeriodOut
 }
 export interface FsxVolumeOntapConfigurationSnaplockConfigurationRetentionPeriodDefaultRetention {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/fsx_volume#type FsxVolume#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fsx_volume#type FsxVolume#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/fsx_volume#value FsxVolume#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fsx_volume#value FsxVolume#value}
   */
   readonly value?: number;
 }
@@ -420,11 +420,11 @@ export class FsxVolumeOntapConfigurationSnaplockConfigurationRetentionPeriodDefa
 }
 export interface FsxVolumeOntapConfigurationSnaplockConfigurationRetentionPeriodMaximumRetention {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/fsx_volume#type FsxVolume#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fsx_volume#type FsxVolume#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/fsx_volume#value FsxVolume#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fsx_volume#value FsxVolume#value}
   */
   readonly value?: number;
 }
@@ -547,11 +547,11 @@ export class FsxVolumeOntapConfigurationSnaplockConfigurationRetentionPeriodMaxi
 }
 export interface FsxVolumeOntapConfigurationSnaplockConfigurationRetentionPeriodMinimumRetention {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/fsx_volume#type FsxVolume#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fsx_volume#type FsxVolume#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/fsx_volume#value FsxVolume#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fsx_volume#value FsxVolume#value}
   */
   readonly value?: number;
 }
@@ -674,15 +674,15 @@ export class FsxVolumeOntapConfigurationSnaplockConfigurationRetentionPeriodMini
 }
 export interface FsxVolumeOntapConfigurationSnaplockConfigurationRetentionPeriod {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/fsx_volume#default_retention FsxVolume#default_retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fsx_volume#default_retention FsxVolume#default_retention}
   */
   readonly defaultRetention?: FsxVolumeOntapConfigurationSnaplockConfigurationRetentionPeriodDefaultRetention;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/fsx_volume#maximum_retention FsxVolume#maximum_retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fsx_volume#maximum_retention FsxVolume#maximum_retention}
   */
   readonly maximumRetention?: FsxVolumeOntapConfigurationSnaplockConfigurationRetentionPeriodMaximumRetention;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/fsx_volume#minimum_retention FsxVolume#minimum_retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fsx_volume#minimum_retention FsxVolume#minimum_retention}
   */
   readonly minimumRetention?: FsxVolumeOntapConfigurationSnaplockConfigurationRetentionPeriodMinimumRetention;
 }
@@ -834,27 +834,27 @@ export class FsxVolumeOntapConfigurationSnaplockConfigurationRetentionPeriodOutp
 }
 export interface FsxVolumeOntapConfigurationSnaplockConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/fsx_volume#audit_log_volume FsxVolume#audit_log_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fsx_volume#audit_log_volume FsxVolume#audit_log_volume}
   */
   readonly auditLogVolume?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/fsx_volume#autocommit_period FsxVolume#autocommit_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fsx_volume#autocommit_period FsxVolume#autocommit_period}
   */
   readonly autocommitPeriod?: FsxVolumeOntapConfigurationSnaplockConfigurationAutocommitPeriod;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/fsx_volume#privileged_delete FsxVolume#privileged_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fsx_volume#privileged_delete FsxVolume#privileged_delete}
   */
   readonly privilegedDelete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/fsx_volume#retention_period FsxVolume#retention_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fsx_volume#retention_period FsxVolume#retention_period}
   */
   readonly retentionPeriod?: FsxVolumeOntapConfigurationSnaplockConfigurationRetentionPeriod;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/fsx_volume#snaplock_type FsxVolume#snaplock_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fsx_volume#snaplock_type FsxVolume#snaplock_type}
   */
   readonly snaplockType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/fsx_volume#volume_append_mode_enabled FsxVolume#volume_append_mode_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fsx_volume#volume_append_mode_enabled FsxVolume#volume_append_mode_enabled}
   */
   readonly volumeAppendModeEnabled?: string;
 }
@@ -1093,11 +1093,11 @@ export class FsxVolumeOntapConfigurationSnaplockConfigurationOutputReference ext
 }
 export interface FsxVolumeOntapConfigurationTieringPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/fsx_volume#cooling_period FsxVolume#cooling_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fsx_volume#cooling_period FsxVolume#cooling_period}
   */
   readonly coolingPeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/fsx_volume#name FsxVolume#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fsx_volume#name FsxVolume#name}
   */
   readonly name?: string;
 }
@@ -1220,55 +1220,55 @@ export class FsxVolumeOntapConfigurationTieringPolicyOutputReference extends cdk
 }
 export interface FsxVolumeOntapConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/fsx_volume#aggregate_configuration FsxVolume#aggregate_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fsx_volume#aggregate_configuration FsxVolume#aggregate_configuration}
   */
   readonly aggregateConfiguration?: FsxVolumeOntapConfigurationAggregateConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/fsx_volume#copy_tags_to_backups FsxVolume#copy_tags_to_backups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fsx_volume#copy_tags_to_backups FsxVolume#copy_tags_to_backups}
   */
   readonly copyTagsToBackups?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/fsx_volume#junction_path FsxVolume#junction_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fsx_volume#junction_path FsxVolume#junction_path}
   */
   readonly junctionPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/fsx_volume#ontap_volume_type FsxVolume#ontap_volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fsx_volume#ontap_volume_type FsxVolume#ontap_volume_type}
   */
   readonly ontapVolumeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/fsx_volume#security_style FsxVolume#security_style}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fsx_volume#security_style FsxVolume#security_style}
   */
   readonly securityStyle?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/fsx_volume#size_in_bytes FsxVolume#size_in_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fsx_volume#size_in_bytes FsxVolume#size_in_bytes}
   */
   readonly sizeInBytes?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/fsx_volume#size_in_megabytes FsxVolume#size_in_megabytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fsx_volume#size_in_megabytes FsxVolume#size_in_megabytes}
   */
   readonly sizeInMegabytes?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/fsx_volume#snaplock_configuration FsxVolume#snaplock_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fsx_volume#snaplock_configuration FsxVolume#snaplock_configuration}
   */
   readonly snaplockConfiguration?: FsxVolumeOntapConfigurationSnaplockConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/fsx_volume#snapshot_policy FsxVolume#snapshot_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fsx_volume#snapshot_policy FsxVolume#snapshot_policy}
   */
   readonly snapshotPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/fsx_volume#storage_efficiency_enabled FsxVolume#storage_efficiency_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fsx_volume#storage_efficiency_enabled FsxVolume#storage_efficiency_enabled}
   */
   readonly storageEfficiencyEnabled?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/fsx_volume#storage_virtual_machine_id FsxVolume#storage_virtual_machine_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fsx_volume#storage_virtual_machine_id FsxVolume#storage_virtual_machine_id}
   */
   readonly storageVirtualMachineId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/fsx_volume#tiering_policy FsxVolume#tiering_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fsx_volume#tiering_policy FsxVolume#tiering_policy}
   */
   readonly tieringPolicy?: FsxVolumeOntapConfigurationTieringPolicy;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/fsx_volume#volume_style FsxVolume#volume_style}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fsx_volume#volume_style FsxVolume#volume_style}
   */
   readonly volumeStyle?: string;
 }
@@ -1710,11 +1710,11 @@ export class FsxVolumeOntapConfigurationOutputReference extends cdktn.ComplexObj
 }
 export interface FsxVolumeOpenZfsConfigurationNfsExportsClientConfigurations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/fsx_volume#clients FsxVolume#clients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fsx_volume#clients FsxVolume#clients}
   */
   readonly clients?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/fsx_volume#options FsxVolume#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fsx_volume#options FsxVolume#options}
   */
   readonly options?: string[];
 }
@@ -1859,7 +1859,7 @@ export class FsxVolumeOpenZfsConfigurationNfsExportsClientConfigurationsList ext
 }
 export interface FsxVolumeOpenZfsConfigurationNfsExports {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/fsx_volume#client_configurations FsxVolume#client_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fsx_volume#client_configurations FsxVolume#client_configurations}
   */
   readonly clientConfigurations?: FsxVolumeOpenZfsConfigurationNfsExportsClientConfigurations[] | cdktn.IResolvable;
 }
@@ -1975,11 +1975,11 @@ export class FsxVolumeOpenZfsConfigurationNfsExportsList extends cdktn.ComplexLi
 }
 export interface FsxVolumeOpenZfsConfigurationOriginSnapshot {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/fsx_volume#copy_strategy FsxVolume#copy_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fsx_volume#copy_strategy FsxVolume#copy_strategy}
   */
   readonly copyStrategy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/fsx_volume#snapshot_arn FsxVolume#snapshot_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fsx_volume#snapshot_arn FsxVolume#snapshot_arn}
   */
   readonly snapshotArn?: string;
 }
@@ -2102,18 +2102,18 @@ export class FsxVolumeOpenZfsConfigurationOriginSnapshotOutputReference extends 
 }
 export interface FsxVolumeOpenZfsConfigurationUserAndGroupQuotas {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/fsx_volume#id FsxVolume#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fsx_volume#id FsxVolume#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/fsx_volume#storage_capacity_quota_gi_b FsxVolume#storage_capacity_quota_gi_b}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fsx_volume#storage_capacity_quota_gi_b FsxVolume#storage_capacity_quota_gi_b}
   */
   readonly storageCapacityQuotaGiB?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/fsx_volume#type FsxVolume#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fsx_volume#type FsxVolume#type}
   */
   readonly type?: string;
 }
@@ -2287,47 +2287,47 @@ export class FsxVolumeOpenZfsConfigurationUserAndGroupQuotasList extends cdktn.C
 }
 export interface FsxVolumeOpenZfsConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/fsx_volume#copy_tags_to_snapshots FsxVolume#copy_tags_to_snapshots}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fsx_volume#copy_tags_to_snapshots FsxVolume#copy_tags_to_snapshots}
   */
   readonly copyTagsToSnapshots?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/fsx_volume#data_compression_type FsxVolume#data_compression_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fsx_volume#data_compression_type FsxVolume#data_compression_type}
   */
   readonly dataCompressionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/fsx_volume#nfs_exports FsxVolume#nfs_exports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fsx_volume#nfs_exports FsxVolume#nfs_exports}
   */
   readonly nfsExports?: FsxVolumeOpenZfsConfigurationNfsExports[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/fsx_volume#options FsxVolume#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fsx_volume#options FsxVolume#options}
   */
   readonly options?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/fsx_volume#origin_snapshot FsxVolume#origin_snapshot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fsx_volume#origin_snapshot FsxVolume#origin_snapshot}
   */
   readonly originSnapshot?: FsxVolumeOpenZfsConfigurationOriginSnapshot;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/fsx_volume#parent_volume_id FsxVolume#parent_volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fsx_volume#parent_volume_id FsxVolume#parent_volume_id}
   */
   readonly parentVolumeId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/fsx_volume#read_only FsxVolume#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fsx_volume#read_only FsxVolume#read_only}
   */
   readonly readOnly?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/fsx_volume#record_size_ki_b FsxVolume#record_size_ki_b}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fsx_volume#record_size_ki_b FsxVolume#record_size_ki_b}
   */
   readonly recordSizeKiB?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/fsx_volume#storage_capacity_quota_gi_b FsxVolume#storage_capacity_quota_gi_b}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fsx_volume#storage_capacity_quota_gi_b FsxVolume#storage_capacity_quota_gi_b}
   */
   readonly storageCapacityQuotaGiB?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/fsx_volume#storage_capacity_reservation_gi_b FsxVolume#storage_capacity_reservation_gi_b}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fsx_volume#storage_capacity_reservation_gi_b FsxVolume#storage_capacity_reservation_gi_b}
   */
   readonly storageCapacityReservationGiB?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/fsx_volume#user_and_group_quotas FsxVolume#user_and_group_quotas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fsx_volume#user_and_group_quotas FsxVolume#user_and_group_quotas}
   */
   readonly userAndGroupQuotas?: FsxVolumeOpenZfsConfigurationUserAndGroupQuotas[] | cdktn.IResolvable;
 }
@@ -2711,11 +2711,11 @@ export class FsxVolumeOpenZfsConfigurationOutputReference extends cdktn.ComplexO
 }
 export interface FsxVolumeTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/fsx_volume#key FsxVolume#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fsx_volume#key FsxVolume#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/fsx_volume#value FsxVolume#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fsx_volume#value FsxVolume#value}
   */
   readonly value?: string;
 }
@@ -2860,7 +2860,7 @@ export class FsxVolumeTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/fsx_volume awscc_fsx_volume}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fsx_volume awscc_fsx_volume}
 */
 export class FsxVolume extends cdktn.TerraformResource {
 
@@ -2876,7 +2876,7 @@ export class FsxVolume extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a FsxVolume resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FsxVolume to import
-  * @param importFromId The id of the existing FsxVolume that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/fsx_volume#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FsxVolume that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fsx_volume#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FsxVolume to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -2888,7 +2888,7 @@ export class FsxVolume extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/fsx_volume awscc_fsx_volume} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fsx_volume awscc_fsx_volume} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2899,7 +2899,7 @@ export class FsxVolume extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_fsx_volume',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.101.0',
+        providerVersion: '1.102.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

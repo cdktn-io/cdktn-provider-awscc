@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/neptunegraph_graph
+// https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/neptunegraph_graph
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,12 +15,231 @@ export interface DataAwsccNeptunegraphGraphConfig extends cdktn.TerraformMetaArg
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/neptunegraph_graph#id DataAwsccNeptunegraphGraph#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/neptunegraph_graph#id DataAwsccNeptunegraphGraph#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
+}
+export interface DataAwsccNeptunegraphGraphImportTaskImportOptionsNeptune {
+}
+
+export function dataAwsccNeptunegraphGraphImportTaskImportOptionsNeptuneToTerraform(struct?: DataAwsccNeptunegraphGraphImportTaskImportOptionsNeptune): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccNeptunegraphGraphImportTaskImportOptionsNeptuneToHclTerraform(struct?: DataAwsccNeptunegraphGraphImportTaskImportOptionsNeptune): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccNeptunegraphGraphImportTaskImportOptionsNeptuneOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccNeptunegraphGraphImportTaskImportOptionsNeptune | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccNeptunegraphGraphImportTaskImportOptionsNeptune | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // preserve_default_vertex_labels - computed: true, optional: false, required: false
+  public get preserveDefaultVertexLabels() {
+    return this.getBooleanAttribute('preserve_default_vertex_labels');
+  }
+
+  // preserve_edge_ids - computed: true, optional: false, required: false
+  public get preserveEdgeIds() {
+    return this.getBooleanAttribute('preserve_edge_ids');
+  }
+
+  // s3_export_kms_key_id - computed: true, optional: false, required: false
+  public get s3ExportKmsKeyId() {
+    return this.getStringAttribute('s3_export_kms_key_id');
+  }
+
+  // s3_export_path - computed: true, optional: false, required: false
+  public get s3ExportPath() {
+    return this.getStringAttribute('s3_export_path');
+  }
+}
+export interface DataAwsccNeptunegraphGraphImportTaskImportOptions {
+}
+
+export function dataAwsccNeptunegraphGraphImportTaskImportOptionsToTerraform(struct?: DataAwsccNeptunegraphGraphImportTaskImportOptions): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccNeptunegraphGraphImportTaskImportOptionsToHclTerraform(struct?: DataAwsccNeptunegraphGraphImportTaskImportOptions): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccNeptunegraphGraphImportTaskImportOptionsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccNeptunegraphGraphImportTaskImportOptions | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccNeptunegraphGraphImportTaskImportOptions | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // neptune - computed: true, optional: false, required: false
+  private _neptune = new DataAwsccNeptunegraphGraphImportTaskImportOptionsNeptuneOutputReference(this, "neptune");
+  public get neptune() {
+    return this._neptune;
+  }
+}
+export interface DataAwsccNeptunegraphGraphImportTask {
+}
+
+export function dataAwsccNeptunegraphGraphImportTaskToTerraform(struct?: DataAwsccNeptunegraphGraphImportTask): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccNeptunegraphGraphImportTaskToHclTerraform(struct?: DataAwsccNeptunegraphGraphImportTask): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccNeptunegraphGraphImportTaskOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccNeptunegraphGraphImportTask | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccNeptunegraphGraphImportTask | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // blank_node_handling - computed: true, optional: false, required: false
+  public get blankNodeHandling() {
+    return this.getStringAttribute('blank_node_handling');
+  }
+
+  // fail_on_error - computed: true, optional: false, required: false
+  public get failOnError() {
+    return this.getBooleanAttribute('fail_on_error');
+  }
+
+  // format - computed: true, optional: false, required: false
+  public get format() {
+    return this.getStringAttribute('format');
+  }
+
+  // import_options - computed: true, optional: false, required: false
+  private _importOptions = new DataAwsccNeptunegraphGraphImportTaskImportOptionsOutputReference(this, "import_options");
+  public get importOptions() {
+    return this._importOptions;
+  }
+
+  // max_provisioned_memory - computed: true, optional: false, required: false
+  public get maxProvisionedMemory() {
+    return this.getNumberAttribute('max_provisioned_memory');
+  }
+
+  // min_provisioned_memory - computed: true, optional: false, required: false
+  public get minProvisionedMemory() {
+    return this.getNumberAttribute('min_provisioned_memory');
+  }
+
+  // parquet_type - computed: true, optional: false, required: false
+  public get parquetType() {
+    return this.getStringAttribute('parquet_type');
+  }
+
+  // role_arn - computed: true, optional: false, required: false
+  public get roleArn() {
+    return this.getStringAttribute('role_arn');
+  }
+
+  // source - computed: true, optional: false, required: false
+  public get source() {
+    return this.getStringAttribute('source');
+  }
 }
 export interface DataAwsccNeptunegraphGraphTags {
 }
@@ -158,7 +377,7 @@ export class DataAwsccNeptunegraphGraphVectorSearchConfigurationOutputReference 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/neptunegraph_graph awscc_neptunegraph_graph}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/neptunegraph_graph awscc_neptunegraph_graph}
 */
 export class DataAwsccNeptunegraphGraph extends cdktn.TerraformDataSource {
 
@@ -174,7 +393,7 @@ export class DataAwsccNeptunegraphGraph extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAwsccNeptunegraphGraph resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccNeptunegraphGraph to import
-  * @param importFromId The id of the existing DataAwsccNeptunegraphGraph that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/neptunegraph_graph#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccNeptunegraphGraph that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/neptunegraph_graph#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccNeptunegraphGraph to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -186,7 +405,7 @@ export class DataAwsccNeptunegraphGraph extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/neptunegraph_graph awscc_neptunegraph_graph} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/neptunegraph_graph awscc_neptunegraph_graph} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -197,7 +416,7 @@ export class DataAwsccNeptunegraphGraph extends cdktn.TerraformDataSource {
       terraformResourceType: 'awscc_neptunegraph_graph',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.101.0',
+        providerVersion: '1.102.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -251,6 +470,12 @@ export class DataAwsccNeptunegraphGraph extends cdktn.TerraformDataSource {
   // Temporarily expose input value. Use with caution.
   public get idInput() {
     return this._id;
+  }
+
+  // import_task - computed: true, optional: false, required: false
+  private _importTask = new DataAwsccNeptunegraphGraphImportTaskOutputReference(this, "import_task");
+  public get importTask() {
+    return this._importTask;
   }
 
   // kms_key_identifier - computed: true, optional: false, required: false

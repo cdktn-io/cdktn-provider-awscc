@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/dynamodb_table
+// https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/dynamodb_table
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccDynamodbTableConfig extends cdktn.TerraformMetaArgumen
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/dynamodb_table#id DataAwsccDynamodbTable#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/dynamodb_table#id DataAwsccDynamodbTable#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1815,6 +1815,302 @@ export class DataAwsccDynamodbTableTimeToLiveSpecificationOutputReference extend
     return this.getBooleanAttribute('enabled');
   }
 }
+export interface DataAwsccDynamodbTableVectorIndexesProjection {
+}
+
+export function dataAwsccDynamodbTableVectorIndexesProjectionToTerraform(struct?: DataAwsccDynamodbTableVectorIndexesProjection): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccDynamodbTableVectorIndexesProjectionToHclTerraform(struct?: DataAwsccDynamodbTableVectorIndexesProjection): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccDynamodbTableVectorIndexesProjectionOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccDynamodbTableVectorIndexesProjection | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccDynamodbTableVectorIndexesProjection | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // non_key_attributes - computed: true, optional: false, required: false
+  public get nonKeyAttributes() {
+    return this.getListAttribute('non_key_attributes');
+  }
+
+  // projection_type - computed: true, optional: false, required: false
+  public get projectionType() {
+    return this.getStringAttribute('projection_type');
+  }
+}
+export interface DataAwsccDynamodbTableVectorIndexesSearchSchema {
+}
+
+export function dataAwsccDynamodbTableVectorIndexesSearchSchemaToTerraform(struct?: DataAwsccDynamodbTableVectorIndexesSearchSchema): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccDynamodbTableVectorIndexesSearchSchemaToHclTerraform(struct?: DataAwsccDynamodbTableVectorIndexesSearchSchema): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccDynamodbTableVectorIndexesSearchSchemaOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataAwsccDynamodbTableVectorIndexesSearchSchema | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccDynamodbTableVectorIndexesSearchSchema | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // attribute_name - computed: true, optional: false, required: false
+  public get attributeName() {
+    return this.getStringAttribute('attribute_name');
+  }
+
+  // search_schema_element_type - computed: true, optional: false, required: false
+  public get searchSchemaElementType() {
+    return this.getStringAttribute('search_schema_element_type');
+  }
+}
+
+export class DataAwsccDynamodbTableVectorIndexesSearchSchemaList extends cdktn.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataAwsccDynamodbTableVectorIndexesSearchSchemaOutputReference {
+    return new DataAwsccDynamodbTableVectorIndexesSearchSchemaOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataAwsccDynamodbTableVectorIndexesVectorAttribute {
+}
+
+export function dataAwsccDynamodbTableVectorIndexesVectorAttributeToTerraform(struct?: DataAwsccDynamodbTableVectorIndexesVectorAttribute): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccDynamodbTableVectorIndexesVectorAttributeToHclTerraform(struct?: DataAwsccDynamodbTableVectorIndexesVectorAttribute): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccDynamodbTableVectorIndexesVectorAttributeOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccDynamodbTableVectorIndexesVectorAttribute | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccDynamodbTableVectorIndexesVectorAttribute | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // attribute_name - computed: true, optional: false, required: false
+  public get attributeName() {
+    return this.getStringAttribute('attribute_name');
+  }
+}
+export interface DataAwsccDynamodbTableVectorIndexes {
+}
+
+export function dataAwsccDynamodbTableVectorIndexesToTerraform(struct?: DataAwsccDynamodbTableVectorIndexes): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccDynamodbTableVectorIndexesToHclTerraform(struct?: DataAwsccDynamodbTableVectorIndexes): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccDynamodbTableVectorIndexesOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataAwsccDynamodbTableVectorIndexes | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccDynamodbTableVectorIndexes | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // dimensions - computed: true, optional: false, required: false
+  public get dimensions() {
+    return this.getNumberAttribute('dimensions');
+  }
+
+  // distance_function - computed: true, optional: false, required: false
+  public get distanceFunction() {
+    return this.getStringAttribute('distance_function');
+  }
+
+  // index_name - computed: true, optional: false, required: false
+  public get indexName() {
+    return this.getStringAttribute('index_name');
+  }
+
+  // projection - computed: true, optional: false, required: false
+  private _projection = new DataAwsccDynamodbTableVectorIndexesProjectionOutputReference(this, "projection");
+  public get projection() {
+    return this._projection;
+  }
+
+  // search_schema - computed: true, optional: false, required: false
+  private _searchSchema = new DataAwsccDynamodbTableVectorIndexesSearchSchemaList(this, "search_schema", true);
+  public get searchSchema() {
+    return this._searchSchema;
+  }
+
+  // vector_attribute - computed: true, optional: false, required: false
+  private _vectorAttribute = new DataAwsccDynamodbTableVectorIndexesVectorAttributeOutputReference(this, "vector_attribute");
+  public get vectorAttribute() {
+    return this._vectorAttribute;
+  }
+}
+
+export class DataAwsccDynamodbTableVectorIndexesList extends cdktn.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataAwsccDynamodbTableVectorIndexesOutputReference {
+    return new DataAwsccDynamodbTableVectorIndexesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface DataAwsccDynamodbTableWarmThroughput {
 }
 
@@ -1876,7 +2172,7 @@ export class DataAwsccDynamodbTableWarmThroughputOutputReference extends cdktn.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/dynamodb_table awscc_dynamodb_table}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/dynamodb_table awscc_dynamodb_table}
 */
 export class DataAwsccDynamodbTable extends cdktn.TerraformDataSource {
 
@@ -1892,7 +2188,7 @@ export class DataAwsccDynamodbTable extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAwsccDynamodbTable resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccDynamodbTable to import
-  * @param importFromId The id of the existing DataAwsccDynamodbTable that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/dynamodb_table#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccDynamodbTable that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/dynamodb_table#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccDynamodbTable to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1904,7 +2200,7 @@ export class DataAwsccDynamodbTable extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/dynamodb_table awscc_dynamodb_table} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/dynamodb_table awscc_dynamodb_table} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1915,7 +2211,7 @@ export class DataAwsccDynamodbTable extends cdktn.TerraformDataSource {
       terraformResourceType: 'awscc_dynamodb_table',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.101.0',
+        providerVersion: '1.102.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -2063,6 +2359,12 @@ export class DataAwsccDynamodbTable extends cdktn.TerraformDataSource {
   private _timeToLiveSpecification = new DataAwsccDynamodbTableTimeToLiveSpecificationOutputReference(this, "time_to_live_specification");
   public get timeToLiveSpecification() {
     return this._timeToLiveSpecification;
+  }
+
+  // vector_indexes - computed: true, optional: false, required: false
+  private _vectorIndexes = new DataAwsccDynamodbTableVectorIndexesList(this, "vector_indexes", true);
+  public get vectorIndexes() {
+    return this._vectorIndexes;
   }
 
   // warm_throughput - computed: true, optional: false, required: false
