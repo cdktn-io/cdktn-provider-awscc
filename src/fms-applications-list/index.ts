@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fms_applications_list
+// https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/fms_applications_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,19 +15,19 @@ export interface FmsApplicationsListConfig extends cdktn.TerraformMetaArguments 
   /**
   * An array of applications in the Firewall Manager applications list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fms_applications_list#apps_list FmsApplicationsList#apps_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/fms_applications_list#apps_list FmsApplicationsList#apps_list}
   */
   readonly appsList: FmsApplicationsListAppsListStruct[] | cdktn.IResolvable;
   /**
   * The name of the Firewall Manager applications list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fms_applications_list#list_name FmsApplicationsList#list_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/fms_applications_list#list_name FmsApplicationsList#list_name}
   */
   readonly listName: string;
   /**
   * An array of key-value pairs to apply to the applications list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fms_applications_list#tags FmsApplicationsList#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/fms_applications_list#tags FmsApplicationsList#tags}
   */
   readonly tags?: FmsApplicationsListTags[] | cdktn.IResolvable;
 }
@@ -35,19 +35,19 @@ export interface FmsApplicationsListAppsListStruct {
   /**
   * The application's name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fms_applications_list#app_name FmsApplicationsList#app_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/fms_applications_list#app_name FmsApplicationsList#app_name}
   */
   readonly appName: string;
   /**
   * The application's port number, for example 80.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fms_applications_list#port FmsApplicationsList#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/fms_applications_list#port FmsApplicationsList#port}
   */
   readonly port: number;
   /**
   * The IP protocol name or number. The name can be one of tcp, udp, or icmp. For information on possible numbers, see Protocol Numbers (https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xhtml).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fms_applications_list#protocol FmsApplicationsList#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/fms_applications_list#protocol FmsApplicationsList#protocol}
   */
   readonly protocol: string;
 }
@@ -214,13 +214,13 @@ export interface FmsApplicationsListTags {
   /**
   * The tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fms_applications_list#key FmsApplicationsList#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/fms_applications_list#key FmsApplicationsList#key}
   */
   readonly key?: string;
   /**
   * The tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fms_applications_list#value FmsApplicationsList#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/fms_applications_list#value FmsApplicationsList#value}
   */
   readonly value?: string;
 }
@@ -365,7 +365,7 @@ export class FmsApplicationsListTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fms_applications_list awscc_fms_applications_list}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/fms_applications_list awscc_fms_applications_list}
 */
 export class FmsApplicationsList extends cdktn.TerraformResource {
 
@@ -381,7 +381,7 @@ export class FmsApplicationsList extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a FmsApplicationsList resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FmsApplicationsList to import
-  * @param importFromId The id of the existing FmsApplicationsList that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fms_applications_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FmsApplicationsList that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/fms_applications_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FmsApplicationsList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -393,7 +393,7 @@ export class FmsApplicationsList extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fms_applications_list awscc_fms_applications_list} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/fms_applications_list awscc_fms_applications_list} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -404,7 +404,7 @@ export class FmsApplicationsList extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_fms_applications_list',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.102.0',
+        providerVersion: '1.103.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

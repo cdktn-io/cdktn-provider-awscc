@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/redshift_snapshot
+// https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/redshift_snapshot
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,25 +15,25 @@ export interface RedshiftSnapshotConfig extends cdktn.TerraformMetaArguments {
   /**
   * The cluster identifier for which you want a snapshot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/redshift_snapshot#cluster_identifier RedshiftSnapshot#cluster_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/redshift_snapshot#cluster_identifier RedshiftSnapshot#cluster_identifier}
   */
   readonly clusterIdentifier: string;
   /**
   * The number of days that a manual snapshot is retained. If the value is -1, the manual snapshot is retained indefinitely. The value must be either -1 or an integer between 1 and 3653.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/redshift_snapshot#manual_snapshot_retention_period RedshiftSnapshot#manual_snapshot_retention_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/redshift_snapshot#manual_snapshot_retention_period RedshiftSnapshot#manual_snapshot_retention_period}
   */
   readonly manualSnapshotRetentionPeriod?: number;
   /**
   * A unique identifier for the snapshot that you are requesting. This identifier must be unique for all snapshots within the Amazon Web Services account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/redshift_snapshot#snapshot_identifier RedshiftSnapshot#snapshot_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/redshift_snapshot#snapshot_identifier RedshiftSnapshot#snapshot_identifier}
   */
   readonly snapshotIdentifier: string;
   /**
   * A list of tag instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/redshift_snapshot#tags RedshiftSnapshot#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/redshift_snapshot#tags RedshiftSnapshot#tags}
   */
   readonly tags?: RedshiftSnapshotTags[] | cdktn.IResolvable;
 }
@@ -41,13 +41,13 @@ export interface RedshiftSnapshotTags {
   /**
   * The key, or name, for the resource tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/redshift_snapshot#key RedshiftSnapshot#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/redshift_snapshot#key RedshiftSnapshot#key}
   */
   readonly key?: string;
   /**
   * The value for the resource tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/redshift_snapshot#value RedshiftSnapshot#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/redshift_snapshot#value RedshiftSnapshot#value}
   */
   readonly value?: string;
 }
@@ -192,7 +192,7 @@ export class RedshiftSnapshotTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/redshift_snapshot awscc_redshift_snapshot}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/redshift_snapshot awscc_redshift_snapshot}
 */
 export class RedshiftSnapshot extends cdktn.TerraformResource {
 
@@ -208,7 +208,7 @@ export class RedshiftSnapshot extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a RedshiftSnapshot resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RedshiftSnapshot to import
-  * @param importFromId The id of the existing RedshiftSnapshot that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/redshift_snapshot#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RedshiftSnapshot that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/redshift_snapshot#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RedshiftSnapshot to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -220,7 +220,7 @@ export class RedshiftSnapshot extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/redshift_snapshot awscc_redshift_snapshot} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/redshift_snapshot awscc_redshift_snapshot} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -231,7 +231,7 @@ export class RedshiftSnapshot extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_redshift_snapshot',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.102.0',
+        providerVersion: '1.103.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

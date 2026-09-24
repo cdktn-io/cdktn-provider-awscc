@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/kinesis_channel
+// https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/kinesis_channel
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,49 +15,49 @@ export interface KinesisChannelConfig extends cdktn.TerraformMetaArguments {
   /**
   * The name of the channel. The name's uniqueness is scoped per AWS account and region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/kinesis_channel#channel_name KinesisChannel#channel_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/kinesis_channel#channel_name KinesisChannel#channel_name}
   */
   readonly channelName: string;
   /**
   * Server-side encryption configuration for data at rest.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/kinesis_channel#encryption_configuration KinesisChannel#encryption_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/kinesis_channel#encryption_configuration KinesisChannel#encryption_configuration}
   */
   readonly encryptionConfiguration?: KinesisChannelEncryptionConfiguration;
   /**
   * Configuration for delivering channel operational logs. Defaults to CloudWatch Logs disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/kinesis_channel#logging_configuration KinesisChannel#logging_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/kinesis_channel#logging_configuration KinesisChannel#logging_configuration}
   */
   readonly loggingConfiguration?: KinesisChannelLoggingConfiguration;
   /**
   * Configuration for delivery to a vanilla S3 bucket destination. Exactly one of S3DestinationConfiguration and S3TablesDestinationConfiguration must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/kinesis_channel#s3_destination_configuration KinesisChannel#s3_destination_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/kinesis_channel#s3_destination_configuration KinesisChannel#s3_destination_configuration}
   */
   readonly s3DestinationConfiguration?: KinesisChannelS3DestinationConfiguration;
   /**
   * Configuration for delivery to S3 Tables destinations. Exactly one of S3DestinationConfiguration and S3TablesDestinationConfiguration must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/kinesis_channel#s3_tables_destination_configuration KinesisChannel#s3_tables_destination_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/kinesis_channel#s3_tables_destination_configuration KinesisChannel#s3_tables_destination_configuration}
   */
   readonly s3TablesDestinationConfiguration?: KinesisChannelS3TablesDestinationConfiguration;
   /**
   * The ARN of the IAM role that the channel assumes to read from the source stream, deliver records to the destination, and (when enabled) write CloudWatch Logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/kinesis_channel#service_execution_role_arn KinesisChannel#service_execution_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/kinesis_channel#service_execution_role_arn KinesisChannel#service_execution_role_arn}
   */
   readonly serviceExecutionRoleArn: string;
   /**
   * List of stream configurations associated with the channel. v1 supports a single element; the list shape allows future extensibility to fan in from multiple streams.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/kinesis_channel#stream_configuration_list KinesisChannel#stream_configuration_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/kinesis_channel#stream_configuration_list KinesisChannel#stream_configuration_list}
   */
   readonly streamConfigurationList: KinesisChannelStreamConfigurationListStruct[] | cdktn.IResolvable;
   /**
   * An arbitrary set of tags (key-value pairs) to associate with the Kinesis channel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/kinesis_channel#tags KinesisChannel#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/kinesis_channel#tags KinesisChannel#tags}
   */
   readonly tags?: KinesisChannelTags[] | cdktn.IResolvable;
 }
@@ -65,13 +65,13 @@ export interface KinesisChannelEncryptionConfiguration {
   /**
   * The encryption type. KMS is the only supported value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/kinesis_channel#encryption_type KinesisChannel#encryption_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/kinesis_channel#encryption_type KinesisChannel#encryption_type}
   */
   readonly encryptionType?: string;
   /**
   * The customer-managed AWS KMS key. Accepts a key GUID, key ARN, alias ARN, or alias name prefixed by 'alias/'. The Kinesis Data Streams managed alias 'aws/kinesis' is not accepted - the key must be customer-owned so it can also be used by readers of the destination.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/kinesis_channel#key_id KinesisChannel#key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/kinesis_channel#key_id KinesisChannel#key_id}
   */
   readonly keyId?: string;
 }
@@ -196,19 +196,19 @@ export interface KinesisChannelLoggingConfigurationCloudwatchLogs {
   /**
   * Whether CloudWatch Logs delivery is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/kinesis_channel#enabled KinesisChannel#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/kinesis_channel#enabled KinesisChannel#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
   /**
   * The CloudWatch log group name. When Enabled is true and LogGroupName is omitted, the service uses the default '/aws/kinesis/<channelName>/<channelId>'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/kinesis_channel#log_group_name KinesisChannel#log_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/kinesis_channel#log_group_name KinesisChannel#log_group_name}
   */
   readonly logGroupName?: string;
   /**
   * The CloudWatch log stream name. Defaults to the literal string 'DestinationDelivery' when omitted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/kinesis_channel#log_stream_name KinesisChannel#log_stream_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/kinesis_channel#log_stream_name KinesisChannel#log_stream_name}
   */
   readonly logStreamName?: string;
 }
@@ -362,7 +362,7 @@ export interface KinesisChannelLoggingConfiguration {
   /**
   * CloudWatch Logs configuration block. When provided, controls whether and where the channel writes operational logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/kinesis_channel#cloudwatch_logs KinesisChannel#cloudwatch_logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/kinesis_channel#cloudwatch_logs KinesisChannel#cloudwatch_logs}
   */
   readonly cloudwatchLogs?: KinesisChannelLoggingConfigurationCloudwatchLogs;
 }
@@ -458,19 +458,19 @@ export interface KinesisChannelS3DestinationConfigurationDeadLetterQueueS3Config
   /**
   * The ARN of the S3 bucket for storing failed records.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/kinesis_channel#bucket_arn KinesisChannel#bucket_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/kinesis_channel#bucket_arn KinesisChannel#bucket_arn}
   */
   readonly bucketArn?: string;
   /**
   * Optional S3 key prefix under which error records are organized. When omitted, the service uses the default 'kinesis-channel/errors/<channelName>/<channelId>/'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/kinesis_channel#error_output_prefix KinesisChannel#error_output_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/kinesis_channel#error_output_prefix KinesisChannel#error_output_prefix}
   */
   readonly errorOutputPrefix?: string;
   /**
   * The AWS account ID of the expected owner of the dead-letter queue S3 bucket. Used to verify bucket ownership before delivery.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/kinesis_channel#expected_bucket_owner KinesisChannel#expected_bucket_owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/kinesis_channel#expected_bucket_owner KinesisChannel#expected_bucket_owner}
   */
   readonly expectedBucketOwner?: string;
 }
@@ -624,31 +624,31 @@ export interface KinesisChannelS3DestinationConfigurationStorageConfiguration {
   /**
   * The ARN of the S3 bucket for record delivery. Different channels can deliver to the same bucket. Buckets can be cross-account but must be in the same region as the channel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/kinesis_channel#bucket_arn KinesisChannel#bucket_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/kinesis_channel#bucket_arn KinesisChannel#bucket_arn}
   */
   readonly bucketArn?: string;
   /**
   * The compression algorithm applied to delivered objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/kinesis_channel#compression_type KinesisChannel#compression_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/kinesis_channel#compression_type KinesisChannel#compression_type}
   */
   readonly compressionType?: string;
   /**
   * The AWS account ID of the expected owner of the destination S3 bucket. Used to verify bucket ownership before delivery.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/kinesis_channel#expected_bucket_owner KinesisChannel#expected_bucket_owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/kinesis_channel#expected_bucket_owner KinesisChannel#expected_bucket_owner}
   */
   readonly expectedBucketOwner?: string;
   /**
   * Optional template for the S3 object key path. Supports placeholders in the form !{name}: !{channel-name}, !{channel-id}, !{stream-name}, !{yyyy}, !{yy}, !{MM}, !{dd}, !{HH}, !{mm}, and !{extension} (a literal file extension can be supplied as !{extension:.json.gz}). When omitted, the service uses the default 'kinesis-channel/!{channel-name}/!{channel-id}/!{yyyy}/!{MM}/!{dd}/!{HH}/!{channel-name}-!{channel-id}-!{yyyy}-!{MM}-!{dd}-!{HH}-!{mm}!{extension}'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/kinesis_channel#output_key_template KinesisChannel#output_key_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/kinesis_channel#output_key_template KinesisChannel#output_key_template}
   */
   readonly outputKeyTemplate?: string;
   /**
   * The S3 storage class for delivered objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/kinesis_channel#storage_class KinesisChannel#storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/kinesis_channel#storage_class KinesisChannel#storage_class}
   */
   readonly storageClass?: string;
 }
@@ -860,19 +860,19 @@ export interface KinesisChannelS3DestinationConfiguration {
   /**
   * The maximum time in seconds the channel buffers records before delivery if the minimum target file size is not reached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/kinesis_channel#data_freshness_in_seconds KinesisChannel#data_freshness_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/kinesis_channel#data_freshness_in_seconds KinesisChannel#data_freshness_in_seconds}
   */
   readonly dataFreshnessInSeconds?: number;
   /**
   * Optional dead-letter queue (DLQ) configuration for records that cannot be delivered to the destination. When omitted, the service auto-fills using the storage BucketARN with an error prefix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/kinesis_channel#dead_letter_queue_s3_configuration KinesisChannel#dead_letter_queue_s3_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/kinesis_channel#dead_letter_queue_s3_configuration KinesisChannel#dead_letter_queue_s3_configuration}
   */
   readonly deadLetterQueueS3Configuration?: KinesisChannelS3DestinationConfigurationDeadLetterQueueS3Configuration;
   /**
   * S3 storage configuration including the destination bucket, output key template, storage class, and compression type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/kinesis_channel#storage_configuration KinesisChannel#storage_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/kinesis_channel#storage_configuration KinesisChannel#storage_configuration}
   */
   readonly storageConfiguration?: KinesisChannelS3DestinationConfigurationStorageConfiguration;
 }
@@ -1026,19 +1026,19 @@ export interface KinesisChannelS3TablesDestinationConfigurationDeadLetterQueueS3
   /**
   * The ARN of the S3 bucket for storing failed records.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/kinesis_channel#bucket_arn KinesisChannel#bucket_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/kinesis_channel#bucket_arn KinesisChannel#bucket_arn}
   */
   readonly bucketArn?: string;
   /**
   * Optional S3 key prefix under which error records are organized. When omitted, the service uses the default 'kinesis-channel/errors/<channelName>/<channelId>/'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/kinesis_channel#error_output_prefix KinesisChannel#error_output_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/kinesis_channel#error_output_prefix KinesisChannel#error_output_prefix}
   */
   readonly errorOutputPrefix?: string;
   /**
   * The AWS account ID of the expected owner of the dead-letter queue S3 bucket. Used to verify bucket ownership before delivery.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/kinesis_channel#expected_bucket_owner KinesisChannel#expected_bucket_owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/kinesis_channel#expected_bucket_owner KinesisChannel#expected_bucket_owner}
   */
   readonly expectedBucketOwner?: string;
 }
@@ -1192,13 +1192,13 @@ export interface KinesisChannelS3TablesDestinationConfigurationS3TablesConfigura
   /**
   * The name of the source column on which the transform is applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/kinesis_channel#source_name KinesisChannel#source_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/kinesis_channel#source_name KinesisChannel#source_name}
   */
   readonly sourceName?: string;
   /**
   * The partitioning transform applied to the SourceName column.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/kinesis_channel#transform KinesisChannel#transform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/kinesis_channel#transform KinesisChannel#transform}
   */
   readonly transform?: string;
 }
@@ -1345,7 +1345,7 @@ export interface KinesisChannelS3TablesDestinationConfigurationS3TablesConfigura
   /**
   * List of partition fields that define how records are partitioned when written to the destination table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/kinesis_channel#partition_fields KinesisChannel#partition_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/kinesis_channel#partition_fields KinesisChannel#partition_fields}
   */
   readonly partitionFields?: KinesisChannelS3TablesDestinationConfigurationS3TablesConfigurationListPartitionSpecPartitionFields[] | cdktn.IResolvable;
 }
@@ -1441,31 +1441,31 @@ export interface KinesisChannelS3TablesDestinationConfigurationS3TablesConfigura
   /**
   * The compression algorithm applied to objects delivered to the S3 Tables destination.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/kinesis_channel#compression_type KinesisChannel#compression_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/kinesis_channel#compression_type KinesisChannel#compression_type}
   */
   readonly compressionType?: string;
   /**
   * The name of the S3 Tables namespace that contains the destination table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/kinesis_channel#namespace KinesisChannel#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/kinesis_channel#namespace KinesisChannel#namespace}
   */
   readonly namespace?: string;
   /**
   * The partition specification used by the destination Iceberg table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/kinesis_channel#partition_spec KinesisChannel#partition_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/kinesis_channel#partition_spec KinesisChannel#partition_spec}
   */
   readonly partitionSpec?: KinesisChannelS3TablesDestinationConfigurationS3TablesConfigurationListPartitionSpec;
   /**
   * The ARN of the S3 Tables table bucket for record delivery. Buckets can be cross-account but must be in the same region as the channel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/kinesis_channel#table_bucket_arn KinesisChannel#table_bucket_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/kinesis_channel#table_bucket_arn KinesisChannel#table_bucket_arn}
   */
   readonly tableBucketArn?: string;
   /**
   * The name of the destination S3 Tables table. The table is created for the customer if it does not yet exist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/kinesis_channel#table_name KinesisChannel#table_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/kinesis_channel#table_name KinesisChannel#table_name}
   */
   readonly tableName?: string;
 }
@@ -1699,19 +1699,19 @@ export interface KinesisChannelS3TablesDestinationConfiguration {
   /**
   * The maximum time in seconds the channel buffers records before delivery if the minimum target file size is not reached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/kinesis_channel#data_freshness_in_seconds KinesisChannel#data_freshness_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/kinesis_channel#data_freshness_in_seconds KinesisChannel#data_freshness_in_seconds}
   */
   readonly dataFreshnessInSeconds?: number;
   /**
   * The dead-letter queue (DLQ) configuration for records that cannot be delivered to the S3 Tables destination. Required for S3 Tables: there is no safe fallback because S3 Tables metadata writes are critical-path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/kinesis_channel#dead_letter_queue_s3_configuration KinesisChannel#dead_letter_queue_s3_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/kinesis_channel#dead_letter_queue_s3_configuration KinesisChannel#dead_letter_queue_s3_configuration}
   */
   readonly deadLetterQueueS3Configuration?: KinesisChannelS3TablesDestinationConfigurationDeadLetterQueueS3Configuration;
   /**
   * The list of S3 Tables destinations. v1 supports a single element; the list shape allows future extensibility to fan out to multiple tables.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/kinesis_channel#s3_tables_configuration_list KinesisChannel#s3_tables_configuration_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/kinesis_channel#s3_tables_configuration_list KinesisChannel#s3_tables_configuration_list}
   */
   readonly s3TablesConfigurationList?: KinesisChannelS3TablesDestinationConfigurationS3TablesConfigurationListStruct[] | cdktn.IResolvable;
 }
@@ -1865,13 +1865,13 @@ export interface KinesisChannelStreamConfigurationListRecordConfiguration {
   /**
   * The ARN of the AWS Glue Schema Registry (GSR) schema. Required for the S3 Tables destination, where it is used to create the S3 Table and to validate that the record format matches the table schema. Also used when RecordFormatType is GSR_JSON to interpret records read from the source stream. Vanilla S3 delivery writes records as S3 objects and does not need a schema. The schema must be in the same account and region as the channel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/kinesis_channel#gsr_schema_arn KinesisChannel#gsr_schema_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/kinesis_channel#gsr_schema_arn KinesisChannel#gsr_schema_arn}
   */
   readonly gsrSchemaArn?: string;
   /**
   * The format used to interpret records read from the source stream.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/kinesis_channel#record_format_type KinesisChannel#record_format_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/kinesis_channel#record_format_type KinesisChannel#record_format_type}
   */
   readonly recordFormatType: string;
 }
@@ -1993,13 +1993,13 @@ export interface KinesisChannelStreamConfigurationListStruct {
   /**
   * The configuration that describes how records on the source stream are encoded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/kinesis_channel#record_configuration KinesisChannel#record_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/kinesis_channel#record_configuration KinesisChannel#record_configuration}
   */
   readonly recordConfiguration: KinesisChannelStreamConfigurationListRecordConfiguration;
   /**
   * The Amazon resource name (ARN) of the Kinesis data stream that the channel reads from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/kinesis_channel#stream_arn KinesisChannel#stream_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/kinesis_channel#stream_arn KinesisChannel#stream_arn}
   */
   readonly streamArn: string;
 }
@@ -2140,13 +2140,13 @@ export interface KinesisChannelTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/kinesis_channel#key KinesisChannel#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/kinesis_channel#key KinesisChannel#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/kinesis_channel#value KinesisChannel#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/kinesis_channel#value KinesisChannel#value}
   */
   readonly value?: string;
 }
@@ -2291,7 +2291,7 @@ export class KinesisChannelTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/kinesis_channel awscc_kinesis_channel}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/kinesis_channel awscc_kinesis_channel}
 */
 export class KinesisChannel extends cdktn.TerraformResource {
 
@@ -2307,7 +2307,7 @@ export class KinesisChannel extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a KinesisChannel resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KinesisChannel to import
-  * @param importFromId The id of the existing KinesisChannel that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/kinesis_channel#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KinesisChannel that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/kinesis_channel#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KinesisChannel to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -2319,7 +2319,7 @@ export class KinesisChannel extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/kinesis_channel awscc_kinesis_channel} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/kinesis_channel awscc_kinesis_channel} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2330,7 +2330,7 @@ export class KinesisChannel extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_kinesis_channel',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.102.0',
+        providerVersion: '1.103.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

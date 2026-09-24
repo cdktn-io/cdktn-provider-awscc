@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fms_protocols_list
+// https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/fms_protocols_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,19 +15,19 @@ export interface FmsProtocolsListConfig extends cdktn.TerraformMetaArguments {
   /**
   * The name of the Firewall Manager protocols list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fms_protocols_list#list_name FmsProtocolsList#list_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/fms_protocols_list#list_name FmsProtocolsList#list_name}
   */
   readonly listName: string;
   /**
   * An array of protocols in the Firewall Manager protocols list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fms_protocols_list#protocols_list FmsProtocolsList#protocols_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/fms_protocols_list#protocols_list FmsProtocolsList#protocols_list}
   */
   readonly protocolsList: string[];
   /**
   * An array of key-value pairs to apply to the protocols list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fms_protocols_list#tags FmsProtocolsList#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/fms_protocols_list#tags FmsProtocolsList#tags}
   */
   readonly tags?: FmsProtocolsListTags[] | cdktn.IResolvable;
 }
@@ -35,13 +35,13 @@ export interface FmsProtocolsListTags {
   /**
   * The tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fms_protocols_list#key FmsProtocolsList#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/fms_protocols_list#key FmsProtocolsList#key}
   */
   readonly key?: string;
   /**
   * The tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fms_protocols_list#value FmsProtocolsList#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/fms_protocols_list#value FmsProtocolsList#value}
   */
   readonly value?: string;
 }
@@ -186,7 +186,7 @@ export class FmsProtocolsListTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fms_protocols_list awscc_fms_protocols_list}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/fms_protocols_list awscc_fms_protocols_list}
 */
 export class FmsProtocolsList extends cdktn.TerraformResource {
 
@@ -202,7 +202,7 @@ export class FmsProtocolsList extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a FmsProtocolsList resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FmsProtocolsList to import
-  * @param importFromId The id of the existing FmsProtocolsList that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fms_protocols_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FmsProtocolsList that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/fms_protocols_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FmsProtocolsList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -214,7 +214,7 @@ export class FmsProtocolsList extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fms_protocols_list awscc_fms_protocols_list} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/fms_protocols_list awscc_fms_protocols_list} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -225,7 +225,7 @@ export class FmsProtocolsList extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_fms_protocols_list',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.102.0',
+        providerVersion: '1.103.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

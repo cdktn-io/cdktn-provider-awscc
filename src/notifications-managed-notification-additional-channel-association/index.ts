@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/notifications_managed_notification_additional_channel_association
+// https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/notifications_managed_notification_additional_channel_association
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -16,26 +16,26 @@ export interface NotificationsManagedNotificationAdditionalChannelAssociationCon
   * ARN identifier of the channel.
   * Example: arn:aws:chatbot::123456789012:chat-configuration/slack-channel/security-ops
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/notifications_managed_notification_additional_channel_association#channel_arn NotificationsManagedNotificationAdditionalChannelAssociation#channel_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/notifications_managed_notification_additional_channel_association#channel_arn NotificationsManagedNotificationAdditionalChannelAssociation#channel_arn}
   */
   readonly channelArn: string;
   /**
   * Whether the channel association is subscribed to sensitive events. Access to sensitive events is gated by the SubscribeSensitiveEvents virtual IAM action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/notifications_managed_notification_additional_channel_association#is_sensitive_events_subscribed NotificationsManagedNotificationAdditionalChannelAssociation#is_sensitive_events_subscribed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/notifications_managed_notification_additional_channel_association#is_sensitive_events_subscribed NotificationsManagedNotificationAdditionalChannelAssociation#is_sensitive_events_subscribed}
   */
   readonly isSensitiveEventsSubscribed?: boolean | cdktn.IResolvable;
   /**
   * ARN identifier of the Managed Notification.
   * Example: arn:aws:notifications::381491923782:managed-notification-configuration/category/AWS-Health/sub-category/Billing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/notifications_managed_notification_additional_channel_association#managed_notification_configuration_arn NotificationsManagedNotificationAdditionalChannelAssociation#managed_notification_configuration_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/notifications_managed_notification_additional_channel_association#managed_notification_configuration_arn NotificationsManagedNotificationAdditionalChannelAssociation#managed_notification_configuration_arn}
   */
   readonly managedNotificationConfigurationArn: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/notifications_managed_notification_additional_channel_association awscc_notifications_managed_notification_additional_channel_association}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/notifications_managed_notification_additional_channel_association awscc_notifications_managed_notification_additional_channel_association}
 */
 export class NotificationsManagedNotificationAdditionalChannelAssociation extends cdktn.TerraformResource {
 
@@ -51,7 +51,7 @@ export class NotificationsManagedNotificationAdditionalChannelAssociation extend
   * Generates CDKTN code for importing a NotificationsManagedNotificationAdditionalChannelAssociation resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NotificationsManagedNotificationAdditionalChannelAssociation to import
-  * @param importFromId The id of the existing NotificationsManagedNotificationAdditionalChannelAssociation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/notifications_managed_notification_additional_channel_association#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NotificationsManagedNotificationAdditionalChannelAssociation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/notifications_managed_notification_additional_channel_association#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NotificationsManagedNotificationAdditionalChannelAssociation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -63,7 +63,7 @@ export class NotificationsManagedNotificationAdditionalChannelAssociation extend
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/notifications_managed_notification_additional_channel_association awscc_notifications_managed_notification_additional_channel_association} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/notifications_managed_notification_additional_channel_association awscc_notifications_managed_notification_additional_channel_association} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,7 +74,7 @@ export class NotificationsManagedNotificationAdditionalChannelAssociation extend
       terraformResourceType: 'awscc_notifications_managed_notification_additional_channel_association',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.102.0',
+        providerVersion: '1.103.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

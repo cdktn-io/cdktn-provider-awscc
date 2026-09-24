@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/iotsitewise_dataset
+// https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/iotsitewise_dataset
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,12 +15,126 @@ export interface DataAwsccIotsitewiseDatasetConfig extends cdktn.TerraformMetaAr
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/iotsitewise_dataset#id DataAwsccIotsitewiseDataset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/iotsitewise_dataset#id DataAwsccIotsitewiseDataset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
+}
+export interface DataAwsccIotsitewiseDatasetDatasetConfigSession {
+}
+
+export function dataAwsccIotsitewiseDatasetDatasetConfigSessionToTerraform(struct?: DataAwsccIotsitewiseDatasetDatasetConfigSession): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccIotsitewiseDatasetDatasetConfigSessionToHclTerraform(struct?: DataAwsccIotsitewiseDatasetDatasetConfigSession): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccIotsitewiseDatasetDatasetConfigSessionOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccIotsitewiseDatasetDatasetConfigSession | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccIotsitewiseDatasetDatasetConfigSession | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // session_end_time - computed: true, optional: false, required: false
+  public get sessionEndTime() {
+    return this.getStringAttribute('session_end_time');
+  }
+
+  // session_start_time - computed: true, optional: false, required: false
+  public get sessionStartTime() {
+    return this.getStringAttribute('session_start_time');
+  }
+}
+export interface DataAwsccIotsitewiseDatasetDatasetConfig {
+}
+
+export function dataAwsccIotsitewiseDatasetDatasetConfigToTerraform(struct?: DataAwsccIotsitewiseDatasetDatasetConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccIotsitewiseDatasetDatasetConfigToHclTerraform(struct?: DataAwsccIotsitewiseDatasetDatasetConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccIotsitewiseDatasetDatasetConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccIotsitewiseDatasetDatasetConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccIotsitewiseDatasetDatasetConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // session - computed: true, optional: false, required: false
+  private _session = new DataAwsccIotsitewiseDatasetDatasetConfigSessionOutputReference(this, "session");
+  public get session() {
+    return this._session;
+  }
 }
 export interface DataAwsccIotsitewiseDatasetDatasetSourceSourceDetailKendra {
 }
@@ -283,7 +397,7 @@ export class DataAwsccIotsitewiseDatasetTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/iotsitewise_dataset awscc_iotsitewise_dataset}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/iotsitewise_dataset awscc_iotsitewise_dataset}
 */
 export class DataAwsccIotsitewiseDataset extends cdktn.TerraformDataSource {
 
@@ -299,7 +413,7 @@ export class DataAwsccIotsitewiseDataset extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAwsccIotsitewiseDataset resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccIotsitewiseDataset to import
-  * @param importFromId The id of the existing DataAwsccIotsitewiseDataset that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/iotsitewise_dataset#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccIotsitewiseDataset that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/iotsitewise_dataset#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccIotsitewiseDataset to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -311,7 +425,7 @@ export class DataAwsccIotsitewiseDataset extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/iotsitewise_dataset awscc_iotsitewise_dataset} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/iotsitewise_dataset awscc_iotsitewise_dataset} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -322,7 +436,7 @@ export class DataAwsccIotsitewiseDataset extends cdktn.TerraformDataSource {
       terraformResourceType: 'awscc_iotsitewise_dataset',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.102.0',
+        providerVersion: '1.103.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -343,6 +457,12 @@ export class DataAwsccIotsitewiseDataset extends cdktn.TerraformDataSource {
   // dataset_arn - computed: true, optional: false, required: false
   public get datasetArn() {
     return this.getStringAttribute('dataset_arn');
+  }
+
+  // dataset_config - computed: true, optional: false, required: false
+  private _datasetConfig = new DataAwsccIotsitewiseDatasetDatasetConfigOutputReference(this, "dataset_config");
+  public get datasetConfig() {
+    return this._datasetConfig;
   }
 
   // dataset_description - computed: true, optional: false, required: false
@@ -366,6 +486,11 @@ export class DataAwsccIotsitewiseDataset extends cdktn.TerraformDataSource {
     return this._datasetSource;
   }
 
+  // dataset_type - computed: true, optional: false, required: false
+  public get datasetType() {
+    return this.getStringAttribute('dataset_type');
+  }
+
   // id - computed: false, optional: false, required: true
   private _id?: string; 
   public get id() {
@@ -383,6 +508,11 @@ export class DataAwsccIotsitewiseDataset extends cdktn.TerraformDataSource {
   private _tags = new DataAwsccIotsitewiseDatasetTagsList(this, "tags", true);
   public get tags() {
     return this._tags;
+  }
+
+  // workspace_name - computed: true, optional: false, required: false
+  public get workspaceName() {
+    return this.getStringAttribute('workspace_name');
   }
 
   // =========

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_theme
+// https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,38 +13,38 @@ import * as cdktn from 'cdktn';
 
 export interface QuicksightThemeConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_theme#aws_account_id QuicksightTheme#aws_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#aws_account_id QuicksightTheme#aws_account_id}
   */
   readonly awsAccountId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_theme#base_theme_id QuicksightTheme#base_theme_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#base_theme_id QuicksightTheme#base_theme_id}
   */
   readonly baseThemeId: string;
   /**
   * <p>The theme configuration. This configuration contains all of the display properties for
   *             a theme.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_theme#configuration QuicksightTheme#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#configuration QuicksightTheme#configuration}
   */
   readonly configuration: QuicksightThemeConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_theme#name QuicksightTheme#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#name QuicksightTheme#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_theme#permissions QuicksightTheme#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#permissions QuicksightTheme#permissions}
   */
   readonly permissions?: QuicksightThemePermissions[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_theme#tags QuicksightTheme#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#tags QuicksightTheme#tags}
   */
   readonly tags?: QuicksightThemeTags[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_theme#theme_id QuicksightTheme#theme_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#theme_id QuicksightTheme#theme_id}
   */
   readonly themeId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_theme#version_description QuicksightTheme#version_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#version_description QuicksightTheme#version_description}
   */
   readonly versionDescription?: string;
 }
@@ -52,20 +52,20 @@ export interface QuicksightThemeConfigurationDataColorPalette {
   /**
   * <p>The hexadecimal codes for the colors.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_theme#colors QuicksightTheme#colors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#colors QuicksightTheme#colors}
   */
   readonly colors?: string[];
   /**
   * <p>The hexadecimal code of a color that applies to charts where a lack of data is
   *             highlighted.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_theme#empty_fill_color QuicksightTheme#empty_fill_color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#empty_fill_color QuicksightTheme#empty_fill_color}
   */
   readonly emptyFillColor?: string;
   /**
   * <p>The minimum and maximum hexadecimal codes that describe a color gradient. </p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_theme#min_max_gradient QuicksightTheme#min_max_gradient}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#min_max_gradient QuicksightTheme#min_max_gradient}
   */
   readonly minMaxGradient?: string[];
 }
@@ -215,13 +215,154 @@ export class QuicksightThemeConfigurationDataColorPaletteOutputReference extends
     return this._minMaxGradient;
   }
 }
+export interface QuicksightThemeConfigurationSheetBackground {
+  /**
+  * String to encapsulate the most generic way Color can be formatted (words, hexStrings etc)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#color QuicksightTheme#color}
+  */
+  readonly color?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#gradient QuicksightTheme#gradient}
+  */
+  readonly gradient?: string;
+}
+
+export function quicksightThemeConfigurationSheetBackgroundToTerraform(struct?: QuicksightThemeConfigurationSheetBackground | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    color: cdktn.stringToTerraform(struct!.color),
+    gradient: cdktn.stringToTerraform(struct!.gradient),
+  }
+}
+
+
+export function quicksightThemeConfigurationSheetBackgroundToHclTerraform(struct?: QuicksightThemeConfigurationSheetBackground | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    color: {
+      value: cdktn.stringToHclTerraform(struct!.color),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    gradient: {
+      value: cdktn.stringToHclTerraform(struct!.gradient),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class QuicksightThemeConfigurationSheetBackgroundOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): QuicksightThemeConfigurationSheetBackground | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._color !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.color = this._color;
+    }
+    if (this._gradient !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.gradient = this._gradient;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: QuicksightThemeConfigurationSheetBackground | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._color = undefined;
+      this._gradient = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._color = value.color;
+      this._gradient = value.gradient;
+    }
+  }
+
+  // color - computed: true, optional: true, required: false
+  private _color?: string; 
+  public get color() {
+    return this.getStringAttribute('color');
+  }
+  public set color(value: string) {
+    this._color = value;
+  }
+  public resetColor() {
+    this._color = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get colorInput() {
+    return this._color;
+  }
+
+  // gradient - computed: true, optional: true, required: false
+  private _gradient?: string; 
+  public get gradient() {
+    return this.getStringAttribute('gradient');
+  }
+  public set gradient(value: string) {
+    this._gradient = value;
+  }
+  public resetGradient() {
+    this._gradient = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get gradientInput() {
+    return this._gradient;
+  }
+}
 export interface QuicksightThemeConfigurationSheetTileBorder {
+  /**
+  * String to encapsulate the most generic way Color can be formatted (words, hexStrings etc)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#color QuicksightTheme#color}
+  */
+  readonly color?: string;
   /**
   * <p>The option to enable display of borders for visuals.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_theme#show QuicksightTheme#show}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#show QuicksightTheme#show}
   */
   readonly show?: boolean | cdktn.IResolvable;
+  /**
+  * String to encapsulate the most generic way Width can be formatted with whatever units (px, em etc)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#width QuicksightTheme#width}
+  */
+  readonly width?: string;
 }
 
 export function quicksightThemeConfigurationSheetTileBorderToTerraform(struct?: QuicksightThemeConfigurationSheetTileBorder | cdktn.IResolvable): any {
@@ -230,7 +371,9 @@ export function quicksightThemeConfigurationSheetTileBorderToTerraform(struct?: 
     throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
+    color: cdktn.stringToTerraform(struct!.color),
     show: cdktn.booleanToTerraform(struct!.show),
+    width: cdktn.stringToTerraform(struct!.width),
   }
 }
 
@@ -241,11 +384,23 @@ export function quicksightThemeConfigurationSheetTileBorderToHclTerraform(struct
     throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
+    color: {
+      value: cdktn.stringToHclTerraform(struct!.color),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     show: {
       value: cdktn.booleanToHclTerraform(struct!.show),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
+    },
+    width: {
+      value: cdktn.stringToHclTerraform(struct!.width),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
     },
   };
 
@@ -271,9 +426,17 @@ export class QuicksightThemeConfigurationSheetTileBorderOutputReference extends 
     }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._color !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.color = this._color;
+    }
     if (this._show !== undefined) {
       hasAnyValues = true;
       internalValueResult.show = this._show;
+    }
+    if (this._width !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.width = this._width;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
@@ -282,7 +445,9 @@ export class QuicksightThemeConfigurationSheetTileBorderOutputReference extends 
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
+      this._color = undefined;
       this._show = undefined;
+      this._width = undefined;
     }
     else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -291,8 +456,26 @@ export class QuicksightThemeConfigurationSheetTileBorderOutputReference extends 
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
+      this._color = value.color;
       this._show = value.show;
+      this._width = value.width;
     }
+  }
+
+  // color - computed: true, optional: true, required: false
+  private _color?: string; 
+  public get color() {
+    return this.getStringAttribute('color');
+  }
+  public set color(value: string) {
+    this._color = value;
+  }
+  public resetColor() {
+    this._color = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get colorInput() {
+    return this._color;
   }
 
   // show - computed: true, optional: true, required: false
@@ -310,14 +493,44 @@ export class QuicksightThemeConfigurationSheetTileBorderOutputReference extends 
   public get showInput() {
     return this._show;
   }
+
+  // width - computed: true, optional: true, required: false
+  private _width?: string; 
+  public get width() {
+    return this.getStringAttribute('width');
+  }
+  public set width(value: string) {
+    this._width = value;
+  }
+  public resetWidth() {
+    this._width = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get widthInput() {
+    return this._width;
+  }
 }
 export interface QuicksightThemeConfigurationSheetTile {
   /**
+  * String to encapsulate the most generic way Color can be formatted (words, hexStrings etc)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#background_color QuicksightTheme#background_color}
+  */
+  readonly backgroundColor?: string;
+  /**
   * <p>The display options for tile borders for visuals.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_theme#border QuicksightTheme#border}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#border QuicksightTheme#border}
   */
   readonly border?: QuicksightThemeConfigurationSheetTileBorder;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#border_radius QuicksightTheme#border_radius}
+  */
+  readonly borderRadius?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#padding QuicksightTheme#padding}
+  */
+  readonly padding?: string;
 }
 
 export function quicksightThemeConfigurationSheetTileToTerraform(struct?: QuicksightThemeConfigurationSheetTile | cdktn.IResolvable): any {
@@ -326,7 +539,10 @@ export function quicksightThemeConfigurationSheetTileToTerraform(struct?: Quicks
     throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
+    background_color: cdktn.stringToTerraform(struct!.backgroundColor),
     border: quicksightThemeConfigurationSheetTileBorderToTerraform(struct!.border),
+    border_radius: cdktn.stringToTerraform(struct!.borderRadius),
+    padding: cdktn.stringToTerraform(struct!.padding),
   }
 }
 
@@ -337,11 +553,29 @@ export function quicksightThemeConfigurationSheetTileToHclTerraform(struct?: Qui
     throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
+    background_color: {
+      value: cdktn.stringToHclTerraform(struct!.backgroundColor),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     border: {
       value: quicksightThemeConfigurationSheetTileBorderToHclTerraform(struct!.border),
       isBlock: true,
       type: "struct",
       storageClassType: "QuicksightThemeConfigurationSheetTileBorder",
+    },
+    border_radius: {
+      value: cdktn.stringToHclTerraform(struct!.borderRadius),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    padding: {
+      value: cdktn.stringToHclTerraform(struct!.padding),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
     },
   };
 
@@ -367,9 +601,21 @@ export class QuicksightThemeConfigurationSheetTileOutputReference extends cdktn.
     }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._backgroundColor !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.backgroundColor = this._backgroundColor;
+    }
     if (this._border?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.border = this._border?.internalValue;
+    }
+    if (this._borderRadius !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.borderRadius = this._borderRadius;
+    }
+    if (this._padding !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.padding = this._padding;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
@@ -378,7 +624,10 @@ export class QuicksightThemeConfigurationSheetTileOutputReference extends cdktn.
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
+      this._backgroundColor = undefined;
       this._border.internalValue = undefined;
+      this._borderRadius = undefined;
+      this._padding = undefined;
     }
     else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -387,8 +636,27 @@ export class QuicksightThemeConfigurationSheetTileOutputReference extends cdktn.
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
+      this._backgroundColor = value.backgroundColor;
       this._border.internalValue = value.border;
+      this._borderRadius = value.borderRadius;
+      this._padding = value.padding;
     }
+  }
+
+  // background_color - computed: true, optional: true, required: false
+  private _backgroundColor?: string; 
+  public get backgroundColor() {
+    return this.getStringAttribute('background_color');
+  }
+  public set backgroundColor(value: string) {
+    this._backgroundColor = value;
+  }
+  public resetBackgroundColor() {
+    this._backgroundColor = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get backgroundColorInput() {
+    return this._backgroundColor;
   }
 
   // border - computed: true, optional: true, required: false
@@ -406,13 +674,45 @@ export class QuicksightThemeConfigurationSheetTileOutputReference extends cdktn.
   public get borderInput() {
     return this._border.internalValue;
   }
+
+  // border_radius - computed: true, optional: true, required: false
+  private _borderRadius?: string; 
+  public get borderRadius() {
+    return this.getStringAttribute('border_radius');
+  }
+  public set borderRadius(value: string) {
+    this._borderRadius = value;
+  }
+  public resetBorderRadius() {
+    this._borderRadius = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get borderRadiusInput() {
+    return this._borderRadius;
+  }
+
+  // padding - computed: true, optional: true, required: false
+  private _padding?: string; 
+  public get padding() {
+    return this.getStringAttribute('padding');
+  }
+  public set padding(value: string) {
+    this._padding = value;
+  }
+  public resetPadding() {
+    this._padding = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get paddingInput() {
+    return this._padding;
+  }
 }
 export interface QuicksightThemeConfigurationSheetTileLayoutGutter {
   /**
   * <p>This Boolean value controls whether to display a gutter space between sheet tiles.
   *         </p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_theme#show QuicksightTheme#show}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#show QuicksightTheme#show}
   */
   readonly show?: boolean | cdktn.IResolvable;
 }
@@ -508,7 +808,7 @@ export interface QuicksightThemeConfigurationSheetTileLayoutMargin {
   /**
   * <p>This Boolean value controls whether to display sheet margins.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_theme#show QuicksightTheme#show}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#show QuicksightTheme#show}
   */
   readonly show?: boolean | cdktn.IResolvable;
 }
@@ -604,13 +904,13 @@ export interface QuicksightThemeConfigurationSheetTileLayout {
   /**
   * <p>The display options for gutter spacing between tiles on a sheet.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_theme#gutter QuicksightTheme#gutter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#gutter QuicksightTheme#gutter}
   */
   readonly gutter?: QuicksightThemeConfigurationSheetTileLayoutGutter;
   /**
   * <p>The display options for margins around the outside edge of sheets.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_theme#margin QuicksightTheme#margin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#margin QuicksightTheme#margin}
   */
   readonly margin?: QuicksightThemeConfigurationSheetTileLayoutMargin;
 }
@@ -733,15 +1033,19 @@ export class QuicksightThemeConfigurationSheetTileLayoutOutputReference extends 
 }
 export interface QuicksightThemeConfigurationSheet {
   /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#background QuicksightTheme#background}
+  */
+  readonly background?: QuicksightThemeConfigurationSheetBackground;
+  /**
   * <p>Display options related to tiles on a sheet.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_theme#tile QuicksightTheme#tile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#tile QuicksightTheme#tile}
   */
   readonly tile?: QuicksightThemeConfigurationSheetTile;
   /**
   * <p>The display options for the layout of tiles on a sheet.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_theme#tile_layout QuicksightTheme#tile_layout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#tile_layout QuicksightTheme#tile_layout}
   */
   readonly tileLayout?: QuicksightThemeConfigurationSheetTileLayout;
 }
@@ -752,6 +1056,7 @@ export function quicksightThemeConfigurationSheetToTerraform(struct?: Quicksight
     throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
+    background: quicksightThemeConfigurationSheetBackgroundToTerraform(struct!.background),
     tile: quicksightThemeConfigurationSheetTileToTerraform(struct!.tile),
     tile_layout: quicksightThemeConfigurationSheetTileLayoutToTerraform(struct!.tileLayout),
   }
@@ -764,6 +1069,12 @@ export function quicksightThemeConfigurationSheetToHclTerraform(struct?: Quicksi
     throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
+    background: {
+      value: quicksightThemeConfigurationSheetBackgroundToHclTerraform(struct!.background),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "QuicksightThemeConfigurationSheetBackground",
+    },
     tile: {
       value: quicksightThemeConfigurationSheetTileToHclTerraform(struct!.tile),
       isBlock: true,
@@ -800,6 +1111,10 @@ export class QuicksightThemeConfigurationSheetOutputReference extends cdktn.Comp
     }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._background?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.background = this._background?.internalValue;
+    }
     if (this._tile?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.tile = this._tile?.internalValue;
@@ -815,6 +1130,7 @@ export class QuicksightThemeConfigurationSheetOutputReference extends cdktn.Comp
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
+      this._background.internalValue = undefined;
       this._tile.internalValue = undefined;
       this._tileLayout.internalValue = undefined;
     }
@@ -825,9 +1141,26 @@ export class QuicksightThemeConfigurationSheetOutputReference extends cdktn.Comp
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
+      this._background.internalValue = value.background;
       this._tile.internalValue = value.tile;
       this._tileLayout.internalValue = value.tileLayout;
     }
+  }
+
+  // background - computed: true, optional: true, required: false
+  private _background = new QuicksightThemeConfigurationSheetBackgroundOutputReference(this, "background");
+  public get background() {
+    return this._background;
+  }
+  public putBackground(value: QuicksightThemeConfigurationSheetBackground) {
+    this._background.internalValue = value;
+  }
+  public resetBackground() {
+    this._background.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get backgroundInput() {
+    return this._background.internalValue;
   }
 
   // tile - computed: true, optional: true, required: false
@@ -862,9 +1195,1362 @@ export class QuicksightThemeConfigurationSheetOutputReference extends cdktn.Comp
     return this._tileLayout.internalValue;
   }
 }
+export interface QuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSize {
+  /**
+  * <p>The font size that you want to use in px.</p>
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#absolute QuicksightTheme#absolute}
+  */
+  readonly absolute?: string;
+}
+
+export function quicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSizeToTerraform(struct?: QuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSize | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    absolute: cdktn.stringToTerraform(struct!.absolute),
+  }
+}
+
+
+export function quicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSizeToHclTerraform(struct?: QuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSize | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    absolute: {
+      value: cdktn.stringToHclTerraform(struct!.absolute),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class QuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): QuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSize | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._absolute !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.absolute = this._absolute;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: QuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSize | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._absolute = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._absolute = value.absolute;
+    }
+  }
+
+  // absolute - computed: true, optional: true, required: false
+  private _absolute?: string; 
+  public get absolute() {
+    return this.getStringAttribute('absolute');
+  }
+  public set absolute(value: string) {
+    this._absolute = value;
+  }
+  public resetAbsolute() {
+    this._absolute = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get absoluteInput() {
+    return this._absolute;
+  }
+}
+export interface QuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeight {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#name QuicksightTheme#name}
+  */
+  readonly name?: string;
+}
+
+export function quicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeightToTerraform(struct?: QuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeight | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    name: cdktn.stringToTerraform(struct!.name),
+  }
+}
+
+
+export function quicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeightToHclTerraform(struct?: QuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeight | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    name: {
+      value: cdktn.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class QuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): QuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeight | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: QuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeight | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._name = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._name = value.name;
+    }
+  }
+
+  // name - computed: true, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+}
+export interface QuicksightThemeConfigurationTypographyAxisLabelFontConfiguration {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_color QuicksightTheme#font_color}
+  */
+  readonly fontColor?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_decoration QuicksightTheme#font_decoration}
+  */
+  readonly fontDecoration?: string;
+  /**
+  * <p>The font family that you want to use.</p>
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_family QuicksightTheme#font_family}
+  */
+  readonly fontFamily?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_size QuicksightTheme#font_size}
+  */
+  readonly fontSize?: QuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSize;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_style QuicksightTheme#font_style}
+  */
+  readonly fontStyle?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_weight QuicksightTheme#font_weight}
+  */
+  readonly fontWeight?: QuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeight;
+}
+
+export function quicksightThemeConfigurationTypographyAxisLabelFontConfigurationToTerraform(struct?: QuicksightThemeConfigurationTypographyAxisLabelFontConfiguration | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    font_color: cdktn.stringToTerraform(struct!.fontColor),
+    font_decoration: cdktn.stringToTerraform(struct!.fontDecoration),
+    font_family: cdktn.stringToTerraform(struct!.fontFamily),
+    font_size: quicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSizeToTerraform(struct!.fontSize),
+    font_style: cdktn.stringToTerraform(struct!.fontStyle),
+    font_weight: quicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeightToTerraform(struct!.fontWeight),
+  }
+}
+
+
+export function quicksightThemeConfigurationTypographyAxisLabelFontConfigurationToHclTerraform(struct?: QuicksightThemeConfigurationTypographyAxisLabelFontConfiguration | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    font_color: {
+      value: cdktn.stringToHclTerraform(struct!.fontColor),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    font_decoration: {
+      value: cdktn.stringToHclTerraform(struct!.fontDecoration),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    font_family: {
+      value: cdktn.stringToHclTerraform(struct!.fontFamily),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    font_size: {
+      value: quicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSizeToHclTerraform(struct!.fontSize),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "QuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSize",
+    },
+    font_style: {
+      value: cdktn.stringToHclTerraform(struct!.fontStyle),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    font_weight: {
+      value: quicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeightToHclTerraform(struct!.fontWeight),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "QuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeight",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class QuicksightThemeConfigurationTypographyAxisLabelFontConfigurationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): QuicksightThemeConfigurationTypographyAxisLabelFontConfiguration | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._fontColor !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.fontColor = this._fontColor;
+    }
+    if (this._fontDecoration !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.fontDecoration = this._fontDecoration;
+    }
+    if (this._fontFamily !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.fontFamily = this._fontFamily;
+    }
+    if (this._fontSize?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.fontSize = this._fontSize?.internalValue;
+    }
+    if (this._fontStyle !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.fontStyle = this._fontStyle;
+    }
+    if (this._fontWeight?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.fontWeight = this._fontWeight?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: QuicksightThemeConfigurationTypographyAxisLabelFontConfiguration | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._fontColor = undefined;
+      this._fontDecoration = undefined;
+      this._fontFamily = undefined;
+      this._fontSize.internalValue = undefined;
+      this._fontStyle = undefined;
+      this._fontWeight.internalValue = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._fontColor = value.fontColor;
+      this._fontDecoration = value.fontDecoration;
+      this._fontFamily = value.fontFamily;
+      this._fontSize.internalValue = value.fontSize;
+      this._fontStyle = value.fontStyle;
+      this._fontWeight.internalValue = value.fontWeight;
+    }
+  }
+
+  // font_color - computed: true, optional: true, required: false
+  private _fontColor?: string; 
+  public get fontColor() {
+    return this.getStringAttribute('font_color');
+  }
+  public set fontColor(value: string) {
+    this._fontColor = value;
+  }
+  public resetFontColor() {
+    this._fontColor = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fontColorInput() {
+    return this._fontColor;
+  }
+
+  // font_decoration - computed: true, optional: true, required: false
+  private _fontDecoration?: string; 
+  public get fontDecoration() {
+    return this.getStringAttribute('font_decoration');
+  }
+  public set fontDecoration(value: string) {
+    this._fontDecoration = value;
+  }
+  public resetFontDecoration() {
+    this._fontDecoration = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fontDecorationInput() {
+    return this._fontDecoration;
+  }
+
+  // font_family - computed: true, optional: true, required: false
+  private _fontFamily?: string; 
+  public get fontFamily() {
+    return this.getStringAttribute('font_family');
+  }
+  public set fontFamily(value: string) {
+    this._fontFamily = value;
+  }
+  public resetFontFamily() {
+    this._fontFamily = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fontFamilyInput() {
+    return this._fontFamily;
+  }
+
+  // font_size - computed: true, optional: true, required: false
+  private _fontSize = new QuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference(this, "font_size");
+  public get fontSize() {
+    return this._fontSize;
+  }
+  public putFontSize(value: QuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSize) {
+    this._fontSize.internalValue = value;
+  }
+  public resetFontSize() {
+    this._fontSize.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fontSizeInput() {
+    return this._fontSize.internalValue;
+  }
+
+  // font_style - computed: true, optional: true, required: false
+  private _fontStyle?: string; 
+  public get fontStyle() {
+    return this.getStringAttribute('font_style');
+  }
+  public set fontStyle(value: string) {
+    this._fontStyle = value;
+  }
+  public resetFontStyle() {
+    this._fontStyle = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fontStyleInput() {
+    return this._fontStyle;
+  }
+
+  // font_weight - computed: true, optional: true, required: false
+  private _fontWeight = new QuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference(this, "font_weight");
+  public get fontWeight() {
+    return this._fontWeight;
+  }
+  public putFontWeight(value: QuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeight) {
+    this._fontWeight.internalValue = value;
+  }
+  public resetFontWeight() {
+    this._fontWeight.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fontWeightInput() {
+    return this._fontWeight.internalValue;
+  }
+}
+export interface QuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSize {
+  /**
+  * <p>The font size that you want to use in px.</p>
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#absolute QuicksightTheme#absolute}
+  */
+  readonly absolute?: string;
+}
+
+export function quicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSizeToTerraform(struct?: QuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSize | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    absolute: cdktn.stringToTerraform(struct!.absolute),
+  }
+}
+
+
+export function quicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSizeToHclTerraform(struct?: QuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSize | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    absolute: {
+      value: cdktn.stringToHclTerraform(struct!.absolute),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class QuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): QuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSize | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._absolute !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.absolute = this._absolute;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: QuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSize | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._absolute = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._absolute = value.absolute;
+    }
+  }
+
+  // absolute - computed: true, optional: true, required: false
+  private _absolute?: string; 
+  public get absolute() {
+    return this.getStringAttribute('absolute');
+  }
+  public set absolute(value: string) {
+    this._absolute = value;
+  }
+  public resetAbsolute() {
+    this._absolute = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get absoluteInput() {
+    return this._absolute;
+  }
+}
+export interface QuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeight {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#name QuicksightTheme#name}
+  */
+  readonly name?: string;
+}
+
+export function quicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeightToTerraform(struct?: QuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeight | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    name: cdktn.stringToTerraform(struct!.name),
+  }
+}
+
+
+export function quicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeightToHclTerraform(struct?: QuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeight | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    name: {
+      value: cdktn.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class QuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): QuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeight | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: QuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeight | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._name = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._name = value.name;
+    }
+  }
+
+  // name - computed: true, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+}
+export interface QuicksightThemeConfigurationTypographyAxisTitleFontConfiguration {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_color QuicksightTheme#font_color}
+  */
+  readonly fontColor?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_decoration QuicksightTheme#font_decoration}
+  */
+  readonly fontDecoration?: string;
+  /**
+  * <p>The font family that you want to use.</p>
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_family QuicksightTheme#font_family}
+  */
+  readonly fontFamily?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_size QuicksightTheme#font_size}
+  */
+  readonly fontSize?: QuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSize;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_style QuicksightTheme#font_style}
+  */
+  readonly fontStyle?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_weight QuicksightTheme#font_weight}
+  */
+  readonly fontWeight?: QuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeight;
+}
+
+export function quicksightThemeConfigurationTypographyAxisTitleFontConfigurationToTerraform(struct?: QuicksightThemeConfigurationTypographyAxisTitleFontConfiguration | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    font_color: cdktn.stringToTerraform(struct!.fontColor),
+    font_decoration: cdktn.stringToTerraform(struct!.fontDecoration),
+    font_family: cdktn.stringToTerraform(struct!.fontFamily),
+    font_size: quicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSizeToTerraform(struct!.fontSize),
+    font_style: cdktn.stringToTerraform(struct!.fontStyle),
+    font_weight: quicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeightToTerraform(struct!.fontWeight),
+  }
+}
+
+
+export function quicksightThemeConfigurationTypographyAxisTitleFontConfigurationToHclTerraform(struct?: QuicksightThemeConfigurationTypographyAxisTitleFontConfiguration | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    font_color: {
+      value: cdktn.stringToHclTerraform(struct!.fontColor),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    font_decoration: {
+      value: cdktn.stringToHclTerraform(struct!.fontDecoration),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    font_family: {
+      value: cdktn.stringToHclTerraform(struct!.fontFamily),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    font_size: {
+      value: quicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSizeToHclTerraform(struct!.fontSize),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "QuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSize",
+    },
+    font_style: {
+      value: cdktn.stringToHclTerraform(struct!.fontStyle),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    font_weight: {
+      value: quicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeightToHclTerraform(struct!.fontWeight),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "QuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeight",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class QuicksightThemeConfigurationTypographyAxisTitleFontConfigurationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): QuicksightThemeConfigurationTypographyAxisTitleFontConfiguration | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._fontColor !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.fontColor = this._fontColor;
+    }
+    if (this._fontDecoration !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.fontDecoration = this._fontDecoration;
+    }
+    if (this._fontFamily !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.fontFamily = this._fontFamily;
+    }
+    if (this._fontSize?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.fontSize = this._fontSize?.internalValue;
+    }
+    if (this._fontStyle !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.fontStyle = this._fontStyle;
+    }
+    if (this._fontWeight?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.fontWeight = this._fontWeight?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: QuicksightThemeConfigurationTypographyAxisTitleFontConfiguration | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._fontColor = undefined;
+      this._fontDecoration = undefined;
+      this._fontFamily = undefined;
+      this._fontSize.internalValue = undefined;
+      this._fontStyle = undefined;
+      this._fontWeight.internalValue = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._fontColor = value.fontColor;
+      this._fontDecoration = value.fontDecoration;
+      this._fontFamily = value.fontFamily;
+      this._fontSize.internalValue = value.fontSize;
+      this._fontStyle = value.fontStyle;
+      this._fontWeight.internalValue = value.fontWeight;
+    }
+  }
+
+  // font_color - computed: true, optional: true, required: false
+  private _fontColor?: string; 
+  public get fontColor() {
+    return this.getStringAttribute('font_color');
+  }
+  public set fontColor(value: string) {
+    this._fontColor = value;
+  }
+  public resetFontColor() {
+    this._fontColor = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fontColorInput() {
+    return this._fontColor;
+  }
+
+  // font_decoration - computed: true, optional: true, required: false
+  private _fontDecoration?: string; 
+  public get fontDecoration() {
+    return this.getStringAttribute('font_decoration');
+  }
+  public set fontDecoration(value: string) {
+    this._fontDecoration = value;
+  }
+  public resetFontDecoration() {
+    this._fontDecoration = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fontDecorationInput() {
+    return this._fontDecoration;
+  }
+
+  // font_family - computed: true, optional: true, required: false
+  private _fontFamily?: string; 
+  public get fontFamily() {
+    return this.getStringAttribute('font_family');
+  }
+  public set fontFamily(value: string) {
+    this._fontFamily = value;
+  }
+  public resetFontFamily() {
+    this._fontFamily = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fontFamilyInput() {
+    return this._fontFamily;
+  }
+
+  // font_size - computed: true, optional: true, required: false
+  private _fontSize = new QuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference(this, "font_size");
+  public get fontSize() {
+    return this._fontSize;
+  }
+  public putFontSize(value: QuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSize) {
+    this._fontSize.internalValue = value;
+  }
+  public resetFontSize() {
+    this._fontSize.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fontSizeInput() {
+    return this._fontSize.internalValue;
+  }
+
+  // font_style - computed: true, optional: true, required: false
+  private _fontStyle?: string; 
+  public get fontStyle() {
+    return this.getStringAttribute('font_style');
+  }
+  public set fontStyle(value: string) {
+    this._fontStyle = value;
+  }
+  public resetFontStyle() {
+    this._fontStyle = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fontStyleInput() {
+    return this._fontStyle;
+  }
+
+  // font_weight - computed: true, optional: true, required: false
+  private _fontWeight = new QuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference(this, "font_weight");
+  public get fontWeight() {
+    return this._fontWeight;
+  }
+  public putFontWeight(value: QuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeight) {
+    this._fontWeight.internalValue = value;
+  }
+  public resetFontWeight() {
+    this._fontWeight.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fontWeightInput() {
+    return this._fontWeight.internalValue;
+  }
+}
+export interface QuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSize {
+  /**
+  * <p>The font size that you want to use in px.</p>
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#absolute QuicksightTheme#absolute}
+  */
+  readonly absolute?: string;
+}
+
+export function quicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSizeToTerraform(struct?: QuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSize | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    absolute: cdktn.stringToTerraform(struct!.absolute),
+  }
+}
+
+
+export function quicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSizeToHclTerraform(struct?: QuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSize | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    absolute: {
+      value: cdktn.stringToHclTerraform(struct!.absolute),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class QuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): QuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSize | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._absolute !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.absolute = this._absolute;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: QuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSize | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._absolute = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._absolute = value.absolute;
+    }
+  }
+
+  // absolute - computed: true, optional: true, required: false
+  private _absolute?: string; 
+  public get absolute() {
+    return this.getStringAttribute('absolute');
+  }
+  public set absolute(value: string) {
+    this._absolute = value;
+  }
+  public resetAbsolute() {
+    this._absolute = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get absoluteInput() {
+    return this._absolute;
+  }
+}
+export interface QuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeight {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#name QuicksightTheme#name}
+  */
+  readonly name?: string;
+}
+
+export function quicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeightToTerraform(struct?: QuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeight | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    name: cdktn.stringToTerraform(struct!.name),
+  }
+}
+
+
+export function quicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeightToHclTerraform(struct?: QuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeight | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    name: {
+      value: cdktn.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class QuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): QuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeight | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: QuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeight | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._name = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._name = value.name;
+    }
+  }
+
+  // name - computed: true, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+}
+export interface QuicksightThemeConfigurationTypographyDataLabelFontConfiguration {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_color QuicksightTheme#font_color}
+  */
+  readonly fontColor?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_decoration QuicksightTheme#font_decoration}
+  */
+  readonly fontDecoration?: string;
+  /**
+  * <p>The font family that you want to use.</p>
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_family QuicksightTheme#font_family}
+  */
+  readonly fontFamily?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_size QuicksightTheme#font_size}
+  */
+  readonly fontSize?: QuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSize;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_style QuicksightTheme#font_style}
+  */
+  readonly fontStyle?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_weight QuicksightTheme#font_weight}
+  */
+  readonly fontWeight?: QuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeight;
+}
+
+export function quicksightThemeConfigurationTypographyDataLabelFontConfigurationToTerraform(struct?: QuicksightThemeConfigurationTypographyDataLabelFontConfiguration | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    font_color: cdktn.stringToTerraform(struct!.fontColor),
+    font_decoration: cdktn.stringToTerraform(struct!.fontDecoration),
+    font_family: cdktn.stringToTerraform(struct!.fontFamily),
+    font_size: quicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSizeToTerraform(struct!.fontSize),
+    font_style: cdktn.stringToTerraform(struct!.fontStyle),
+    font_weight: quicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeightToTerraform(struct!.fontWeight),
+  }
+}
+
+
+export function quicksightThemeConfigurationTypographyDataLabelFontConfigurationToHclTerraform(struct?: QuicksightThemeConfigurationTypographyDataLabelFontConfiguration | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    font_color: {
+      value: cdktn.stringToHclTerraform(struct!.fontColor),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    font_decoration: {
+      value: cdktn.stringToHclTerraform(struct!.fontDecoration),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    font_family: {
+      value: cdktn.stringToHclTerraform(struct!.fontFamily),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    font_size: {
+      value: quicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSizeToHclTerraform(struct!.fontSize),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "QuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSize",
+    },
+    font_style: {
+      value: cdktn.stringToHclTerraform(struct!.fontStyle),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    font_weight: {
+      value: quicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeightToHclTerraform(struct!.fontWeight),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "QuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeight",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class QuicksightThemeConfigurationTypographyDataLabelFontConfigurationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): QuicksightThemeConfigurationTypographyDataLabelFontConfiguration | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._fontColor !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.fontColor = this._fontColor;
+    }
+    if (this._fontDecoration !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.fontDecoration = this._fontDecoration;
+    }
+    if (this._fontFamily !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.fontFamily = this._fontFamily;
+    }
+    if (this._fontSize?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.fontSize = this._fontSize?.internalValue;
+    }
+    if (this._fontStyle !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.fontStyle = this._fontStyle;
+    }
+    if (this._fontWeight?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.fontWeight = this._fontWeight?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: QuicksightThemeConfigurationTypographyDataLabelFontConfiguration | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._fontColor = undefined;
+      this._fontDecoration = undefined;
+      this._fontFamily = undefined;
+      this._fontSize.internalValue = undefined;
+      this._fontStyle = undefined;
+      this._fontWeight.internalValue = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._fontColor = value.fontColor;
+      this._fontDecoration = value.fontDecoration;
+      this._fontFamily = value.fontFamily;
+      this._fontSize.internalValue = value.fontSize;
+      this._fontStyle = value.fontStyle;
+      this._fontWeight.internalValue = value.fontWeight;
+    }
+  }
+
+  // font_color - computed: true, optional: true, required: false
+  private _fontColor?: string; 
+  public get fontColor() {
+    return this.getStringAttribute('font_color');
+  }
+  public set fontColor(value: string) {
+    this._fontColor = value;
+  }
+  public resetFontColor() {
+    this._fontColor = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fontColorInput() {
+    return this._fontColor;
+  }
+
+  // font_decoration - computed: true, optional: true, required: false
+  private _fontDecoration?: string; 
+  public get fontDecoration() {
+    return this.getStringAttribute('font_decoration');
+  }
+  public set fontDecoration(value: string) {
+    this._fontDecoration = value;
+  }
+  public resetFontDecoration() {
+    this._fontDecoration = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fontDecorationInput() {
+    return this._fontDecoration;
+  }
+
+  // font_family - computed: true, optional: true, required: false
+  private _fontFamily?: string; 
+  public get fontFamily() {
+    return this.getStringAttribute('font_family');
+  }
+  public set fontFamily(value: string) {
+    this._fontFamily = value;
+  }
+  public resetFontFamily() {
+    this._fontFamily = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fontFamilyInput() {
+    return this._fontFamily;
+  }
+
+  // font_size - computed: true, optional: true, required: false
+  private _fontSize = new QuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference(this, "font_size");
+  public get fontSize() {
+    return this._fontSize;
+  }
+  public putFontSize(value: QuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSize) {
+    this._fontSize.internalValue = value;
+  }
+  public resetFontSize() {
+    this._fontSize.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fontSizeInput() {
+    return this._fontSize.internalValue;
+  }
+
+  // font_style - computed: true, optional: true, required: false
+  private _fontStyle?: string; 
+  public get fontStyle() {
+    return this.getStringAttribute('font_style');
+  }
+  public set fontStyle(value: string) {
+    this._fontStyle = value;
+  }
+  public resetFontStyle() {
+    this._fontStyle = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fontStyleInput() {
+    return this._fontStyle;
+  }
+
+  // font_weight - computed: true, optional: true, required: false
+  private _fontWeight = new QuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference(this, "font_weight");
+  public get fontWeight() {
+    return this._fontWeight;
+  }
+  public putFontWeight(value: QuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeight) {
+    this._fontWeight.internalValue = value;
+  }
+  public resetFontWeight() {
+    this._fontWeight.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fontWeightInput() {
+    return this._fontWeight.internalValue;
+  }
+}
 export interface QuicksightThemeConfigurationTypographyFontFamilies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_theme#font_family QuicksightTheme#font_family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_family QuicksightTheme#font_family}
   */
   readonly fontFamily?: string;
 }
@@ -978,11 +2664,2163 @@ export class QuicksightThemeConfigurationTypographyFontFamiliesList extends cdkt
     return new QuicksightThemeConfigurationTypographyFontFamiliesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface QuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSize {
+  /**
+  * <p>The font size that you want to use in px.</p>
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#absolute QuicksightTheme#absolute}
+  */
+  readonly absolute?: string;
+}
+
+export function quicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSizeToTerraform(struct?: QuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSize | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    absolute: cdktn.stringToTerraform(struct!.absolute),
+  }
+}
+
+
+export function quicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSizeToHclTerraform(struct?: QuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSize | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    absolute: {
+      value: cdktn.stringToHclTerraform(struct!.absolute),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class QuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): QuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSize | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._absolute !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.absolute = this._absolute;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: QuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSize | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._absolute = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._absolute = value.absolute;
+    }
+  }
+
+  // absolute - computed: true, optional: true, required: false
+  private _absolute?: string; 
+  public get absolute() {
+    return this.getStringAttribute('absolute');
+  }
+  public set absolute(value: string) {
+    this._absolute = value;
+  }
+  public resetAbsolute() {
+    this._absolute = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get absoluteInput() {
+    return this._absolute;
+  }
+}
+export interface QuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeight {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#name QuicksightTheme#name}
+  */
+  readonly name?: string;
+}
+
+export function quicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeightToTerraform(struct?: QuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeight | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    name: cdktn.stringToTerraform(struct!.name),
+  }
+}
+
+
+export function quicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeightToHclTerraform(struct?: QuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeight | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    name: {
+      value: cdktn.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class QuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): QuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeight | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: QuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeight | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._name = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._name = value.name;
+    }
+  }
+
+  // name - computed: true, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+}
+export interface QuicksightThemeConfigurationTypographyLegendTitleFontConfiguration {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_color QuicksightTheme#font_color}
+  */
+  readonly fontColor?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_decoration QuicksightTheme#font_decoration}
+  */
+  readonly fontDecoration?: string;
+  /**
+  * <p>The font family that you want to use.</p>
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_family QuicksightTheme#font_family}
+  */
+  readonly fontFamily?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_size QuicksightTheme#font_size}
+  */
+  readonly fontSize?: QuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSize;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_style QuicksightTheme#font_style}
+  */
+  readonly fontStyle?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_weight QuicksightTheme#font_weight}
+  */
+  readonly fontWeight?: QuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeight;
+}
+
+export function quicksightThemeConfigurationTypographyLegendTitleFontConfigurationToTerraform(struct?: QuicksightThemeConfigurationTypographyLegendTitleFontConfiguration | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    font_color: cdktn.stringToTerraform(struct!.fontColor),
+    font_decoration: cdktn.stringToTerraform(struct!.fontDecoration),
+    font_family: cdktn.stringToTerraform(struct!.fontFamily),
+    font_size: quicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSizeToTerraform(struct!.fontSize),
+    font_style: cdktn.stringToTerraform(struct!.fontStyle),
+    font_weight: quicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeightToTerraform(struct!.fontWeight),
+  }
+}
+
+
+export function quicksightThemeConfigurationTypographyLegendTitleFontConfigurationToHclTerraform(struct?: QuicksightThemeConfigurationTypographyLegendTitleFontConfiguration | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    font_color: {
+      value: cdktn.stringToHclTerraform(struct!.fontColor),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    font_decoration: {
+      value: cdktn.stringToHclTerraform(struct!.fontDecoration),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    font_family: {
+      value: cdktn.stringToHclTerraform(struct!.fontFamily),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    font_size: {
+      value: quicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSizeToHclTerraform(struct!.fontSize),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "QuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSize",
+    },
+    font_style: {
+      value: cdktn.stringToHclTerraform(struct!.fontStyle),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    font_weight: {
+      value: quicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeightToHclTerraform(struct!.fontWeight),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "QuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeight",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class QuicksightThemeConfigurationTypographyLegendTitleFontConfigurationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): QuicksightThemeConfigurationTypographyLegendTitleFontConfiguration | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._fontColor !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.fontColor = this._fontColor;
+    }
+    if (this._fontDecoration !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.fontDecoration = this._fontDecoration;
+    }
+    if (this._fontFamily !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.fontFamily = this._fontFamily;
+    }
+    if (this._fontSize?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.fontSize = this._fontSize?.internalValue;
+    }
+    if (this._fontStyle !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.fontStyle = this._fontStyle;
+    }
+    if (this._fontWeight?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.fontWeight = this._fontWeight?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: QuicksightThemeConfigurationTypographyLegendTitleFontConfiguration | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._fontColor = undefined;
+      this._fontDecoration = undefined;
+      this._fontFamily = undefined;
+      this._fontSize.internalValue = undefined;
+      this._fontStyle = undefined;
+      this._fontWeight.internalValue = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._fontColor = value.fontColor;
+      this._fontDecoration = value.fontDecoration;
+      this._fontFamily = value.fontFamily;
+      this._fontSize.internalValue = value.fontSize;
+      this._fontStyle = value.fontStyle;
+      this._fontWeight.internalValue = value.fontWeight;
+    }
+  }
+
+  // font_color - computed: true, optional: true, required: false
+  private _fontColor?: string; 
+  public get fontColor() {
+    return this.getStringAttribute('font_color');
+  }
+  public set fontColor(value: string) {
+    this._fontColor = value;
+  }
+  public resetFontColor() {
+    this._fontColor = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fontColorInput() {
+    return this._fontColor;
+  }
+
+  // font_decoration - computed: true, optional: true, required: false
+  private _fontDecoration?: string; 
+  public get fontDecoration() {
+    return this.getStringAttribute('font_decoration');
+  }
+  public set fontDecoration(value: string) {
+    this._fontDecoration = value;
+  }
+  public resetFontDecoration() {
+    this._fontDecoration = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fontDecorationInput() {
+    return this._fontDecoration;
+  }
+
+  // font_family - computed: true, optional: true, required: false
+  private _fontFamily?: string; 
+  public get fontFamily() {
+    return this.getStringAttribute('font_family');
+  }
+  public set fontFamily(value: string) {
+    this._fontFamily = value;
+  }
+  public resetFontFamily() {
+    this._fontFamily = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fontFamilyInput() {
+    return this._fontFamily;
+  }
+
+  // font_size - computed: true, optional: true, required: false
+  private _fontSize = new QuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference(this, "font_size");
+  public get fontSize() {
+    return this._fontSize;
+  }
+  public putFontSize(value: QuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSize) {
+    this._fontSize.internalValue = value;
+  }
+  public resetFontSize() {
+    this._fontSize.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fontSizeInput() {
+    return this._fontSize.internalValue;
+  }
+
+  // font_style - computed: true, optional: true, required: false
+  private _fontStyle?: string; 
+  public get fontStyle() {
+    return this.getStringAttribute('font_style');
+  }
+  public set fontStyle(value: string) {
+    this._fontStyle = value;
+  }
+  public resetFontStyle() {
+    this._fontStyle = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fontStyleInput() {
+    return this._fontStyle;
+  }
+
+  // font_weight - computed: true, optional: true, required: false
+  private _fontWeight = new QuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference(this, "font_weight");
+  public get fontWeight() {
+    return this._fontWeight;
+  }
+  public putFontWeight(value: QuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeight) {
+    this._fontWeight.internalValue = value;
+  }
+  public resetFontWeight() {
+    this._fontWeight.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fontWeightInput() {
+    return this._fontWeight.internalValue;
+  }
+}
+export interface QuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSize {
+  /**
+  * <p>The font size that you want to use in px.</p>
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#absolute QuicksightTheme#absolute}
+  */
+  readonly absolute?: string;
+}
+
+export function quicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSizeToTerraform(struct?: QuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSize | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    absolute: cdktn.stringToTerraform(struct!.absolute),
+  }
+}
+
+
+export function quicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSizeToHclTerraform(struct?: QuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSize | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    absolute: {
+      value: cdktn.stringToHclTerraform(struct!.absolute),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class QuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): QuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSize | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._absolute !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.absolute = this._absolute;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: QuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSize | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._absolute = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._absolute = value.absolute;
+    }
+  }
+
+  // absolute - computed: true, optional: true, required: false
+  private _absolute?: string; 
+  public get absolute() {
+    return this.getStringAttribute('absolute');
+  }
+  public set absolute(value: string) {
+    this._absolute = value;
+  }
+  public resetAbsolute() {
+    this._absolute = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get absoluteInput() {
+    return this._absolute;
+  }
+}
+export interface QuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeight {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#name QuicksightTheme#name}
+  */
+  readonly name?: string;
+}
+
+export function quicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeightToTerraform(struct?: QuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeight | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    name: cdktn.stringToTerraform(struct!.name),
+  }
+}
+
+
+export function quicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeightToHclTerraform(struct?: QuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeight | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    name: {
+      value: cdktn.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class QuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): QuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeight | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: QuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeight | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._name = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._name = value.name;
+    }
+  }
+
+  // name - computed: true, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+}
+export interface QuicksightThemeConfigurationTypographyLegendValueFontConfiguration {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_color QuicksightTheme#font_color}
+  */
+  readonly fontColor?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_decoration QuicksightTheme#font_decoration}
+  */
+  readonly fontDecoration?: string;
+  /**
+  * <p>The font family that you want to use.</p>
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_family QuicksightTheme#font_family}
+  */
+  readonly fontFamily?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_size QuicksightTheme#font_size}
+  */
+  readonly fontSize?: QuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSize;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_style QuicksightTheme#font_style}
+  */
+  readonly fontStyle?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_weight QuicksightTheme#font_weight}
+  */
+  readonly fontWeight?: QuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeight;
+}
+
+export function quicksightThemeConfigurationTypographyLegendValueFontConfigurationToTerraform(struct?: QuicksightThemeConfigurationTypographyLegendValueFontConfiguration | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    font_color: cdktn.stringToTerraform(struct!.fontColor),
+    font_decoration: cdktn.stringToTerraform(struct!.fontDecoration),
+    font_family: cdktn.stringToTerraform(struct!.fontFamily),
+    font_size: quicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSizeToTerraform(struct!.fontSize),
+    font_style: cdktn.stringToTerraform(struct!.fontStyle),
+    font_weight: quicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeightToTerraform(struct!.fontWeight),
+  }
+}
+
+
+export function quicksightThemeConfigurationTypographyLegendValueFontConfigurationToHclTerraform(struct?: QuicksightThemeConfigurationTypographyLegendValueFontConfiguration | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    font_color: {
+      value: cdktn.stringToHclTerraform(struct!.fontColor),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    font_decoration: {
+      value: cdktn.stringToHclTerraform(struct!.fontDecoration),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    font_family: {
+      value: cdktn.stringToHclTerraform(struct!.fontFamily),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    font_size: {
+      value: quicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSizeToHclTerraform(struct!.fontSize),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "QuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSize",
+    },
+    font_style: {
+      value: cdktn.stringToHclTerraform(struct!.fontStyle),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    font_weight: {
+      value: quicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeightToHclTerraform(struct!.fontWeight),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "QuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeight",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class QuicksightThemeConfigurationTypographyLegendValueFontConfigurationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): QuicksightThemeConfigurationTypographyLegendValueFontConfiguration | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._fontColor !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.fontColor = this._fontColor;
+    }
+    if (this._fontDecoration !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.fontDecoration = this._fontDecoration;
+    }
+    if (this._fontFamily !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.fontFamily = this._fontFamily;
+    }
+    if (this._fontSize?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.fontSize = this._fontSize?.internalValue;
+    }
+    if (this._fontStyle !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.fontStyle = this._fontStyle;
+    }
+    if (this._fontWeight?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.fontWeight = this._fontWeight?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: QuicksightThemeConfigurationTypographyLegendValueFontConfiguration | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._fontColor = undefined;
+      this._fontDecoration = undefined;
+      this._fontFamily = undefined;
+      this._fontSize.internalValue = undefined;
+      this._fontStyle = undefined;
+      this._fontWeight.internalValue = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._fontColor = value.fontColor;
+      this._fontDecoration = value.fontDecoration;
+      this._fontFamily = value.fontFamily;
+      this._fontSize.internalValue = value.fontSize;
+      this._fontStyle = value.fontStyle;
+      this._fontWeight.internalValue = value.fontWeight;
+    }
+  }
+
+  // font_color - computed: true, optional: true, required: false
+  private _fontColor?: string; 
+  public get fontColor() {
+    return this.getStringAttribute('font_color');
+  }
+  public set fontColor(value: string) {
+    this._fontColor = value;
+  }
+  public resetFontColor() {
+    this._fontColor = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fontColorInput() {
+    return this._fontColor;
+  }
+
+  // font_decoration - computed: true, optional: true, required: false
+  private _fontDecoration?: string; 
+  public get fontDecoration() {
+    return this.getStringAttribute('font_decoration');
+  }
+  public set fontDecoration(value: string) {
+    this._fontDecoration = value;
+  }
+  public resetFontDecoration() {
+    this._fontDecoration = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fontDecorationInput() {
+    return this._fontDecoration;
+  }
+
+  // font_family - computed: true, optional: true, required: false
+  private _fontFamily?: string; 
+  public get fontFamily() {
+    return this.getStringAttribute('font_family');
+  }
+  public set fontFamily(value: string) {
+    this._fontFamily = value;
+  }
+  public resetFontFamily() {
+    this._fontFamily = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fontFamilyInput() {
+    return this._fontFamily;
+  }
+
+  // font_size - computed: true, optional: true, required: false
+  private _fontSize = new QuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference(this, "font_size");
+  public get fontSize() {
+    return this._fontSize;
+  }
+  public putFontSize(value: QuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSize) {
+    this._fontSize.internalValue = value;
+  }
+  public resetFontSize() {
+    this._fontSize.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fontSizeInput() {
+    return this._fontSize.internalValue;
+  }
+
+  // font_style - computed: true, optional: true, required: false
+  private _fontStyle?: string; 
+  public get fontStyle() {
+    return this.getStringAttribute('font_style');
+  }
+  public set fontStyle(value: string) {
+    this._fontStyle = value;
+  }
+  public resetFontStyle() {
+    this._fontStyle = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fontStyleInput() {
+    return this._fontStyle;
+  }
+
+  // font_weight - computed: true, optional: true, required: false
+  private _fontWeight = new QuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference(this, "font_weight");
+  public get fontWeight() {
+    return this._fontWeight;
+  }
+  public putFontWeight(value: QuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeight) {
+    this._fontWeight.internalValue = value;
+  }
+  public resetFontWeight() {
+    this._fontWeight.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fontWeightInput() {
+    return this._fontWeight.internalValue;
+  }
+}
+export interface QuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSize {
+  /**
+  * <p>The font size that you want to use in px.</p>
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#absolute QuicksightTheme#absolute}
+  */
+  readonly absolute?: string;
+}
+
+export function quicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeToTerraform(struct?: QuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSize | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    absolute: cdktn.stringToTerraform(struct!.absolute),
+  }
+}
+
+
+export function quicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeToHclTerraform(struct?: QuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSize | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    absolute: {
+      value: cdktn.stringToHclTerraform(struct!.absolute),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class QuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): QuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSize | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._absolute !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.absolute = this._absolute;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: QuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSize | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._absolute = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._absolute = value.absolute;
+    }
+  }
+
+  // absolute - computed: true, optional: true, required: false
+  private _absolute?: string; 
+  public get absolute() {
+    return this.getStringAttribute('absolute');
+  }
+  public set absolute(value: string) {
+    this._absolute = value;
+  }
+  public resetAbsolute() {
+    this._absolute = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get absoluteInput() {
+    return this._absolute;
+  }
+}
+export interface QuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeight {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#name QuicksightTheme#name}
+  */
+  readonly name?: string;
+}
+
+export function quicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightToTerraform(struct?: QuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeight | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    name: cdktn.stringToTerraform(struct!.name),
+  }
+}
+
+
+export function quicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightToHclTerraform(struct?: QuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeight | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    name: {
+      value: cdktn.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class QuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): QuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeight | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: QuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeight | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._name = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._name = value.name;
+    }
+  }
+
+  // name - computed: true, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+}
+export interface QuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfiguration {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_color QuicksightTheme#font_color}
+  */
+  readonly fontColor?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_decoration QuicksightTheme#font_decoration}
+  */
+  readonly fontDecoration?: string;
+  /**
+  * <p>The font family that you want to use.</p>
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_family QuicksightTheme#font_family}
+  */
+  readonly fontFamily?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_size QuicksightTheme#font_size}
+  */
+  readonly fontSize?: QuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSize;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_style QuicksightTheme#font_style}
+  */
+  readonly fontStyle?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_weight QuicksightTheme#font_weight}
+  */
+  readonly fontWeight?: QuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeight;
+}
+
+export function quicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationToTerraform(struct?: QuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfiguration | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    font_color: cdktn.stringToTerraform(struct!.fontColor),
+    font_decoration: cdktn.stringToTerraform(struct!.fontDecoration),
+    font_family: cdktn.stringToTerraform(struct!.fontFamily),
+    font_size: quicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeToTerraform(struct!.fontSize),
+    font_style: cdktn.stringToTerraform(struct!.fontStyle),
+    font_weight: quicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightToTerraform(struct!.fontWeight),
+  }
+}
+
+
+export function quicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationToHclTerraform(struct?: QuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfiguration | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    font_color: {
+      value: cdktn.stringToHclTerraform(struct!.fontColor),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    font_decoration: {
+      value: cdktn.stringToHclTerraform(struct!.fontDecoration),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    font_family: {
+      value: cdktn.stringToHclTerraform(struct!.fontFamily),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    font_size: {
+      value: quicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeToHclTerraform(struct!.fontSize),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "QuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSize",
+    },
+    font_style: {
+      value: cdktn.stringToHclTerraform(struct!.fontStyle),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    font_weight: {
+      value: quicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightToHclTerraform(struct!.fontWeight),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "QuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeight",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class QuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): QuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfiguration | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._fontColor !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.fontColor = this._fontColor;
+    }
+    if (this._fontDecoration !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.fontDecoration = this._fontDecoration;
+    }
+    if (this._fontFamily !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.fontFamily = this._fontFamily;
+    }
+    if (this._fontSize?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.fontSize = this._fontSize?.internalValue;
+    }
+    if (this._fontStyle !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.fontStyle = this._fontStyle;
+    }
+    if (this._fontWeight?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.fontWeight = this._fontWeight?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: QuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfiguration | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._fontColor = undefined;
+      this._fontDecoration = undefined;
+      this._fontFamily = undefined;
+      this._fontSize.internalValue = undefined;
+      this._fontStyle = undefined;
+      this._fontWeight.internalValue = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._fontColor = value.fontColor;
+      this._fontDecoration = value.fontDecoration;
+      this._fontFamily = value.fontFamily;
+      this._fontSize.internalValue = value.fontSize;
+      this._fontStyle = value.fontStyle;
+      this._fontWeight.internalValue = value.fontWeight;
+    }
+  }
+
+  // font_color - computed: true, optional: true, required: false
+  private _fontColor?: string; 
+  public get fontColor() {
+    return this.getStringAttribute('font_color');
+  }
+  public set fontColor(value: string) {
+    this._fontColor = value;
+  }
+  public resetFontColor() {
+    this._fontColor = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fontColorInput() {
+    return this._fontColor;
+  }
+
+  // font_decoration - computed: true, optional: true, required: false
+  private _fontDecoration?: string; 
+  public get fontDecoration() {
+    return this.getStringAttribute('font_decoration');
+  }
+  public set fontDecoration(value: string) {
+    this._fontDecoration = value;
+  }
+  public resetFontDecoration() {
+    this._fontDecoration = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fontDecorationInput() {
+    return this._fontDecoration;
+  }
+
+  // font_family - computed: true, optional: true, required: false
+  private _fontFamily?: string; 
+  public get fontFamily() {
+    return this.getStringAttribute('font_family');
+  }
+  public set fontFamily(value: string) {
+    this._fontFamily = value;
+  }
+  public resetFontFamily() {
+    this._fontFamily = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fontFamilyInput() {
+    return this._fontFamily;
+  }
+
+  // font_size - computed: true, optional: true, required: false
+  private _fontSize = new QuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference(this, "font_size");
+  public get fontSize() {
+    return this._fontSize;
+  }
+  public putFontSize(value: QuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSize) {
+    this._fontSize.internalValue = value;
+  }
+  public resetFontSize() {
+    this._fontSize.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fontSizeInput() {
+    return this._fontSize.internalValue;
+  }
+
+  // font_style - computed: true, optional: true, required: false
+  private _fontStyle?: string; 
+  public get fontStyle() {
+    return this.getStringAttribute('font_style');
+  }
+  public set fontStyle(value: string) {
+    this._fontStyle = value;
+  }
+  public resetFontStyle() {
+    this._fontStyle = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fontStyleInput() {
+    return this._fontStyle;
+  }
+
+  // font_weight - computed: true, optional: true, required: false
+  private _fontWeight = new QuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference(this, "font_weight");
+  public get fontWeight() {
+    return this._fontWeight;
+  }
+  public putFontWeight(value: QuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeight) {
+    this._fontWeight.internalValue = value;
+  }
+  public resetFontWeight() {
+    this._fontWeight.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fontWeightInput() {
+    return this._fontWeight.internalValue;
+  }
+}
+export interface QuicksightThemeConfigurationTypographyVisualSubtitleFontConfiguration {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_configuration QuicksightTheme#font_configuration}
+  */
+  readonly fontConfiguration?: QuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfiguration;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#text_alignment QuicksightTheme#text_alignment}
+  */
+  readonly textAlignment?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#text_transform QuicksightTheme#text_transform}
+  */
+  readonly textTransform?: string;
+}
+
+export function quicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationToTerraform(struct?: QuicksightThemeConfigurationTypographyVisualSubtitleFontConfiguration | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    font_configuration: quicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationToTerraform(struct!.fontConfiguration),
+    text_alignment: cdktn.stringToTerraform(struct!.textAlignment),
+    text_transform: cdktn.stringToTerraform(struct!.textTransform),
+  }
+}
+
+
+export function quicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationToHclTerraform(struct?: QuicksightThemeConfigurationTypographyVisualSubtitleFontConfiguration | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    font_configuration: {
+      value: quicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationToHclTerraform(struct!.fontConfiguration),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "QuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfiguration",
+    },
+    text_alignment: {
+      value: cdktn.stringToHclTerraform(struct!.textAlignment),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    text_transform: {
+      value: cdktn.stringToHclTerraform(struct!.textTransform),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class QuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): QuicksightThemeConfigurationTypographyVisualSubtitleFontConfiguration | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._fontConfiguration?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.fontConfiguration = this._fontConfiguration?.internalValue;
+    }
+    if (this._textAlignment !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.textAlignment = this._textAlignment;
+    }
+    if (this._textTransform !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.textTransform = this._textTransform;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: QuicksightThemeConfigurationTypographyVisualSubtitleFontConfiguration | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._fontConfiguration.internalValue = undefined;
+      this._textAlignment = undefined;
+      this._textTransform = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._fontConfiguration.internalValue = value.fontConfiguration;
+      this._textAlignment = value.textAlignment;
+      this._textTransform = value.textTransform;
+    }
+  }
+
+  // font_configuration - computed: true, optional: true, required: false
+  private _fontConfiguration = new QuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference(this, "font_configuration");
+  public get fontConfiguration() {
+    return this._fontConfiguration;
+  }
+  public putFontConfiguration(value: QuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfiguration) {
+    this._fontConfiguration.internalValue = value;
+  }
+  public resetFontConfiguration() {
+    this._fontConfiguration.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fontConfigurationInput() {
+    return this._fontConfiguration.internalValue;
+  }
+
+  // text_alignment - computed: true, optional: true, required: false
+  private _textAlignment?: string; 
+  public get textAlignment() {
+    return this.getStringAttribute('text_alignment');
+  }
+  public set textAlignment(value: string) {
+    this._textAlignment = value;
+  }
+  public resetTextAlignment() {
+    this._textAlignment = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get textAlignmentInput() {
+    return this._textAlignment;
+  }
+
+  // text_transform - computed: true, optional: true, required: false
+  private _textTransform?: string; 
+  public get textTransform() {
+    return this.getStringAttribute('text_transform');
+  }
+  public set textTransform(value: string) {
+    this._textTransform = value;
+  }
+  public resetTextTransform() {
+    this._textTransform = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get textTransformInput() {
+    return this._textTransform;
+  }
+}
+export interface QuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSize {
+  /**
+  * <p>The font size that you want to use in px.</p>
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#absolute QuicksightTheme#absolute}
+  */
+  readonly absolute?: string;
+}
+
+export function quicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeToTerraform(struct?: QuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSize | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    absolute: cdktn.stringToTerraform(struct!.absolute),
+  }
+}
+
+
+export function quicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeToHclTerraform(struct?: QuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSize | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    absolute: {
+      value: cdktn.stringToHclTerraform(struct!.absolute),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class QuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): QuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSize | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._absolute !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.absolute = this._absolute;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: QuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSize | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._absolute = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._absolute = value.absolute;
+    }
+  }
+
+  // absolute - computed: true, optional: true, required: false
+  private _absolute?: string; 
+  public get absolute() {
+    return this.getStringAttribute('absolute');
+  }
+  public set absolute(value: string) {
+    this._absolute = value;
+  }
+  public resetAbsolute() {
+    this._absolute = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get absoluteInput() {
+    return this._absolute;
+  }
+}
+export interface QuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeight {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#name QuicksightTheme#name}
+  */
+  readonly name?: string;
+}
+
+export function quicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightToTerraform(struct?: QuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeight | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    name: cdktn.stringToTerraform(struct!.name),
+  }
+}
+
+
+export function quicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightToHclTerraform(struct?: QuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeight | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    name: {
+      value: cdktn.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class QuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): QuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeight | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: QuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeight | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._name = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._name = value.name;
+    }
+  }
+
+  // name - computed: true, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+}
+export interface QuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfiguration {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_color QuicksightTheme#font_color}
+  */
+  readonly fontColor?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_decoration QuicksightTheme#font_decoration}
+  */
+  readonly fontDecoration?: string;
+  /**
+  * <p>The font family that you want to use.</p>
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_family QuicksightTheme#font_family}
+  */
+  readonly fontFamily?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_size QuicksightTheme#font_size}
+  */
+  readonly fontSize?: QuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSize;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_style QuicksightTheme#font_style}
+  */
+  readonly fontStyle?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_weight QuicksightTheme#font_weight}
+  */
+  readonly fontWeight?: QuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeight;
+}
+
+export function quicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationToTerraform(struct?: QuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfiguration | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    font_color: cdktn.stringToTerraform(struct!.fontColor),
+    font_decoration: cdktn.stringToTerraform(struct!.fontDecoration),
+    font_family: cdktn.stringToTerraform(struct!.fontFamily),
+    font_size: quicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeToTerraform(struct!.fontSize),
+    font_style: cdktn.stringToTerraform(struct!.fontStyle),
+    font_weight: quicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightToTerraform(struct!.fontWeight),
+  }
+}
+
+
+export function quicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationToHclTerraform(struct?: QuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfiguration | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    font_color: {
+      value: cdktn.stringToHclTerraform(struct!.fontColor),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    font_decoration: {
+      value: cdktn.stringToHclTerraform(struct!.fontDecoration),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    font_family: {
+      value: cdktn.stringToHclTerraform(struct!.fontFamily),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    font_size: {
+      value: quicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeToHclTerraform(struct!.fontSize),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "QuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSize",
+    },
+    font_style: {
+      value: cdktn.stringToHclTerraform(struct!.fontStyle),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    font_weight: {
+      value: quicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightToHclTerraform(struct!.fontWeight),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "QuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeight",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class QuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): QuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfiguration | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._fontColor !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.fontColor = this._fontColor;
+    }
+    if (this._fontDecoration !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.fontDecoration = this._fontDecoration;
+    }
+    if (this._fontFamily !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.fontFamily = this._fontFamily;
+    }
+    if (this._fontSize?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.fontSize = this._fontSize?.internalValue;
+    }
+    if (this._fontStyle !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.fontStyle = this._fontStyle;
+    }
+    if (this._fontWeight?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.fontWeight = this._fontWeight?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: QuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfiguration | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._fontColor = undefined;
+      this._fontDecoration = undefined;
+      this._fontFamily = undefined;
+      this._fontSize.internalValue = undefined;
+      this._fontStyle = undefined;
+      this._fontWeight.internalValue = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._fontColor = value.fontColor;
+      this._fontDecoration = value.fontDecoration;
+      this._fontFamily = value.fontFamily;
+      this._fontSize.internalValue = value.fontSize;
+      this._fontStyle = value.fontStyle;
+      this._fontWeight.internalValue = value.fontWeight;
+    }
+  }
+
+  // font_color - computed: true, optional: true, required: false
+  private _fontColor?: string; 
+  public get fontColor() {
+    return this.getStringAttribute('font_color');
+  }
+  public set fontColor(value: string) {
+    this._fontColor = value;
+  }
+  public resetFontColor() {
+    this._fontColor = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fontColorInput() {
+    return this._fontColor;
+  }
+
+  // font_decoration - computed: true, optional: true, required: false
+  private _fontDecoration?: string; 
+  public get fontDecoration() {
+    return this.getStringAttribute('font_decoration');
+  }
+  public set fontDecoration(value: string) {
+    this._fontDecoration = value;
+  }
+  public resetFontDecoration() {
+    this._fontDecoration = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fontDecorationInput() {
+    return this._fontDecoration;
+  }
+
+  // font_family - computed: true, optional: true, required: false
+  private _fontFamily?: string; 
+  public get fontFamily() {
+    return this.getStringAttribute('font_family');
+  }
+  public set fontFamily(value: string) {
+    this._fontFamily = value;
+  }
+  public resetFontFamily() {
+    this._fontFamily = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fontFamilyInput() {
+    return this._fontFamily;
+  }
+
+  // font_size - computed: true, optional: true, required: false
+  private _fontSize = new QuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference(this, "font_size");
+  public get fontSize() {
+    return this._fontSize;
+  }
+  public putFontSize(value: QuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSize) {
+    this._fontSize.internalValue = value;
+  }
+  public resetFontSize() {
+    this._fontSize.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fontSizeInput() {
+    return this._fontSize.internalValue;
+  }
+
+  // font_style - computed: true, optional: true, required: false
+  private _fontStyle?: string; 
+  public get fontStyle() {
+    return this.getStringAttribute('font_style');
+  }
+  public set fontStyle(value: string) {
+    this._fontStyle = value;
+  }
+  public resetFontStyle() {
+    this._fontStyle = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fontStyleInput() {
+    return this._fontStyle;
+  }
+
+  // font_weight - computed: true, optional: true, required: false
+  private _fontWeight = new QuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference(this, "font_weight");
+  public get fontWeight() {
+    return this._fontWeight;
+  }
+  public putFontWeight(value: QuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeight) {
+    this._fontWeight.internalValue = value;
+  }
+  public resetFontWeight() {
+    this._fontWeight.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fontWeightInput() {
+    return this._fontWeight.internalValue;
+  }
+}
+export interface QuicksightThemeConfigurationTypographyVisualTitleFontConfiguration {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_configuration QuicksightTheme#font_configuration}
+  */
+  readonly fontConfiguration?: QuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfiguration;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#text_alignment QuicksightTheme#text_alignment}
+  */
+  readonly textAlignment?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#text_transform QuicksightTheme#text_transform}
+  */
+  readonly textTransform?: string;
+}
+
+export function quicksightThemeConfigurationTypographyVisualTitleFontConfigurationToTerraform(struct?: QuicksightThemeConfigurationTypographyVisualTitleFontConfiguration | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    font_configuration: quicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationToTerraform(struct!.fontConfiguration),
+    text_alignment: cdktn.stringToTerraform(struct!.textAlignment),
+    text_transform: cdktn.stringToTerraform(struct!.textTransform),
+  }
+}
+
+
+export function quicksightThemeConfigurationTypographyVisualTitleFontConfigurationToHclTerraform(struct?: QuicksightThemeConfigurationTypographyVisualTitleFontConfiguration | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    font_configuration: {
+      value: quicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationToHclTerraform(struct!.fontConfiguration),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "QuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfiguration",
+    },
+    text_alignment: {
+      value: cdktn.stringToHclTerraform(struct!.textAlignment),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    text_transform: {
+      value: cdktn.stringToHclTerraform(struct!.textTransform),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class QuicksightThemeConfigurationTypographyVisualTitleFontConfigurationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): QuicksightThemeConfigurationTypographyVisualTitleFontConfiguration | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._fontConfiguration?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.fontConfiguration = this._fontConfiguration?.internalValue;
+    }
+    if (this._textAlignment !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.textAlignment = this._textAlignment;
+    }
+    if (this._textTransform !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.textTransform = this._textTransform;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: QuicksightThemeConfigurationTypographyVisualTitleFontConfiguration | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._fontConfiguration.internalValue = undefined;
+      this._textAlignment = undefined;
+      this._textTransform = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._fontConfiguration.internalValue = value.fontConfiguration;
+      this._textAlignment = value.textAlignment;
+      this._textTransform = value.textTransform;
+    }
+  }
+
+  // font_configuration - computed: true, optional: true, required: false
+  private _fontConfiguration = new QuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference(this, "font_configuration");
+  public get fontConfiguration() {
+    return this._fontConfiguration;
+  }
+  public putFontConfiguration(value: QuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfiguration) {
+    this._fontConfiguration.internalValue = value;
+  }
+  public resetFontConfiguration() {
+    this._fontConfiguration.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fontConfigurationInput() {
+    return this._fontConfiguration.internalValue;
+  }
+
+  // text_alignment - computed: true, optional: true, required: false
+  private _textAlignment?: string; 
+  public get textAlignment() {
+    return this.getStringAttribute('text_alignment');
+  }
+  public set textAlignment(value: string) {
+    this._textAlignment = value;
+  }
+  public resetTextAlignment() {
+    this._textAlignment = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get textAlignmentInput() {
+    return this._textAlignment;
+  }
+
+  // text_transform - computed: true, optional: true, required: false
+  private _textTransform?: string; 
+  public get textTransform() {
+    return this.getStringAttribute('text_transform');
+  }
+  public set textTransform(value: string) {
+    this._textTransform = value;
+  }
+  public resetTextTransform() {
+    this._textTransform = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get textTransformInput() {
+    return this._textTransform;
+  }
+}
 export interface QuicksightThemeConfigurationTypography {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_theme#font_families QuicksightTheme#font_families}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#axis_label_font_configuration QuicksightTheme#axis_label_font_configuration}
+  */
+  readonly axisLabelFontConfiguration?: QuicksightThemeConfigurationTypographyAxisLabelFontConfiguration;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#axis_title_font_configuration QuicksightTheme#axis_title_font_configuration}
+  */
+  readonly axisTitleFontConfiguration?: QuicksightThemeConfigurationTypographyAxisTitleFontConfiguration;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#data_label_font_configuration QuicksightTheme#data_label_font_configuration}
+  */
+  readonly dataLabelFontConfiguration?: QuicksightThemeConfigurationTypographyDataLabelFontConfiguration;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_families QuicksightTheme#font_families}
   */
   readonly fontFamilies?: QuicksightThemeConfigurationTypographyFontFamilies[] | cdktn.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#legend_title_font_configuration QuicksightTheme#legend_title_font_configuration}
+  */
+  readonly legendTitleFontConfiguration?: QuicksightThemeConfigurationTypographyLegendTitleFontConfiguration;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#legend_value_font_configuration QuicksightTheme#legend_value_font_configuration}
+  */
+  readonly legendValueFontConfiguration?: QuicksightThemeConfigurationTypographyLegendValueFontConfiguration;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#visual_subtitle_font_configuration QuicksightTheme#visual_subtitle_font_configuration}
+  */
+  readonly visualSubtitleFontConfiguration?: QuicksightThemeConfigurationTypographyVisualSubtitleFontConfiguration;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#visual_title_font_configuration QuicksightTheme#visual_title_font_configuration}
+  */
+  readonly visualTitleFontConfiguration?: QuicksightThemeConfigurationTypographyVisualTitleFontConfiguration;
 }
 
 export function quicksightThemeConfigurationTypographyToTerraform(struct?: QuicksightThemeConfigurationTypography | cdktn.IResolvable): any {
@@ -991,7 +4829,14 @@ export function quicksightThemeConfigurationTypographyToTerraform(struct?: Quick
     throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
+    axis_label_font_configuration: quicksightThemeConfigurationTypographyAxisLabelFontConfigurationToTerraform(struct!.axisLabelFontConfiguration),
+    axis_title_font_configuration: quicksightThemeConfigurationTypographyAxisTitleFontConfigurationToTerraform(struct!.axisTitleFontConfiguration),
+    data_label_font_configuration: quicksightThemeConfigurationTypographyDataLabelFontConfigurationToTerraform(struct!.dataLabelFontConfiguration),
     font_families: cdktn.listMapper(quicksightThemeConfigurationTypographyFontFamiliesToTerraform, false)(struct!.fontFamilies),
+    legend_title_font_configuration: quicksightThemeConfigurationTypographyLegendTitleFontConfigurationToTerraform(struct!.legendTitleFontConfiguration),
+    legend_value_font_configuration: quicksightThemeConfigurationTypographyLegendValueFontConfigurationToTerraform(struct!.legendValueFontConfiguration),
+    visual_subtitle_font_configuration: quicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationToTerraform(struct!.visualSubtitleFontConfiguration),
+    visual_title_font_configuration: quicksightThemeConfigurationTypographyVisualTitleFontConfigurationToTerraform(struct!.visualTitleFontConfiguration),
   }
 }
 
@@ -1002,11 +4847,53 @@ export function quicksightThemeConfigurationTypographyToHclTerraform(struct?: Qu
     throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
+    axis_label_font_configuration: {
+      value: quicksightThemeConfigurationTypographyAxisLabelFontConfigurationToHclTerraform(struct!.axisLabelFontConfiguration),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "QuicksightThemeConfigurationTypographyAxisLabelFontConfiguration",
+    },
+    axis_title_font_configuration: {
+      value: quicksightThemeConfigurationTypographyAxisTitleFontConfigurationToHclTerraform(struct!.axisTitleFontConfiguration),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "QuicksightThemeConfigurationTypographyAxisTitleFontConfiguration",
+    },
+    data_label_font_configuration: {
+      value: quicksightThemeConfigurationTypographyDataLabelFontConfigurationToHclTerraform(struct!.dataLabelFontConfiguration),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "QuicksightThemeConfigurationTypographyDataLabelFontConfiguration",
+    },
     font_families: {
       value: cdktn.listMapperHcl(quicksightThemeConfigurationTypographyFontFamiliesToHclTerraform, false)(struct!.fontFamilies),
       isBlock: true,
       type: "list",
       storageClassType: "QuicksightThemeConfigurationTypographyFontFamiliesList",
+    },
+    legend_title_font_configuration: {
+      value: quicksightThemeConfigurationTypographyLegendTitleFontConfigurationToHclTerraform(struct!.legendTitleFontConfiguration),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "QuicksightThemeConfigurationTypographyLegendTitleFontConfiguration",
+    },
+    legend_value_font_configuration: {
+      value: quicksightThemeConfigurationTypographyLegendValueFontConfigurationToHclTerraform(struct!.legendValueFontConfiguration),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "QuicksightThemeConfigurationTypographyLegendValueFontConfiguration",
+    },
+    visual_subtitle_font_configuration: {
+      value: quicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationToHclTerraform(struct!.visualSubtitleFontConfiguration),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "QuicksightThemeConfigurationTypographyVisualSubtitleFontConfiguration",
+    },
+    visual_title_font_configuration: {
+      value: quicksightThemeConfigurationTypographyVisualTitleFontConfigurationToHclTerraform(struct!.visualTitleFontConfiguration),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "QuicksightThemeConfigurationTypographyVisualTitleFontConfiguration",
     },
   };
 
@@ -1032,9 +4919,37 @@ export class QuicksightThemeConfigurationTypographyOutputReference extends cdktn
     }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._axisLabelFontConfiguration?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.axisLabelFontConfiguration = this._axisLabelFontConfiguration?.internalValue;
+    }
+    if (this._axisTitleFontConfiguration?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.axisTitleFontConfiguration = this._axisTitleFontConfiguration?.internalValue;
+    }
+    if (this._dataLabelFontConfiguration?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dataLabelFontConfiguration = this._dataLabelFontConfiguration?.internalValue;
+    }
     if (this._fontFamilies?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.fontFamilies = this._fontFamilies?.internalValue;
+    }
+    if (this._legendTitleFontConfiguration?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.legendTitleFontConfiguration = this._legendTitleFontConfiguration?.internalValue;
+    }
+    if (this._legendValueFontConfiguration?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.legendValueFontConfiguration = this._legendValueFontConfiguration?.internalValue;
+    }
+    if (this._visualSubtitleFontConfiguration?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.visualSubtitleFontConfiguration = this._visualSubtitleFontConfiguration?.internalValue;
+    }
+    if (this._visualTitleFontConfiguration?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.visualTitleFontConfiguration = this._visualTitleFontConfiguration?.internalValue;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
@@ -1043,7 +4958,14 @@ export class QuicksightThemeConfigurationTypographyOutputReference extends cdktn
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
+      this._axisLabelFontConfiguration.internalValue = undefined;
+      this._axisTitleFontConfiguration.internalValue = undefined;
+      this._dataLabelFontConfiguration.internalValue = undefined;
       this._fontFamilies.internalValue = undefined;
+      this._legendTitleFontConfiguration.internalValue = undefined;
+      this._legendValueFontConfiguration.internalValue = undefined;
+      this._visualSubtitleFontConfiguration.internalValue = undefined;
+      this._visualTitleFontConfiguration.internalValue = undefined;
     }
     else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -1052,8 +4974,63 @@ export class QuicksightThemeConfigurationTypographyOutputReference extends cdktn
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
+      this._axisLabelFontConfiguration.internalValue = value.axisLabelFontConfiguration;
+      this._axisTitleFontConfiguration.internalValue = value.axisTitleFontConfiguration;
+      this._dataLabelFontConfiguration.internalValue = value.dataLabelFontConfiguration;
       this._fontFamilies.internalValue = value.fontFamilies;
+      this._legendTitleFontConfiguration.internalValue = value.legendTitleFontConfiguration;
+      this._legendValueFontConfiguration.internalValue = value.legendValueFontConfiguration;
+      this._visualSubtitleFontConfiguration.internalValue = value.visualSubtitleFontConfiguration;
+      this._visualTitleFontConfiguration.internalValue = value.visualTitleFontConfiguration;
     }
+  }
+
+  // axis_label_font_configuration - computed: true, optional: true, required: false
+  private _axisLabelFontConfiguration = new QuicksightThemeConfigurationTypographyAxisLabelFontConfigurationOutputReference(this, "axis_label_font_configuration");
+  public get axisLabelFontConfiguration() {
+    return this._axisLabelFontConfiguration;
+  }
+  public putAxisLabelFontConfiguration(value: QuicksightThemeConfigurationTypographyAxisLabelFontConfiguration) {
+    this._axisLabelFontConfiguration.internalValue = value;
+  }
+  public resetAxisLabelFontConfiguration() {
+    this._axisLabelFontConfiguration.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get axisLabelFontConfigurationInput() {
+    return this._axisLabelFontConfiguration.internalValue;
+  }
+
+  // axis_title_font_configuration - computed: true, optional: true, required: false
+  private _axisTitleFontConfiguration = new QuicksightThemeConfigurationTypographyAxisTitleFontConfigurationOutputReference(this, "axis_title_font_configuration");
+  public get axisTitleFontConfiguration() {
+    return this._axisTitleFontConfiguration;
+  }
+  public putAxisTitleFontConfiguration(value: QuicksightThemeConfigurationTypographyAxisTitleFontConfiguration) {
+    this._axisTitleFontConfiguration.internalValue = value;
+  }
+  public resetAxisTitleFontConfiguration() {
+    this._axisTitleFontConfiguration.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get axisTitleFontConfigurationInput() {
+    return this._axisTitleFontConfiguration.internalValue;
+  }
+
+  // data_label_font_configuration - computed: true, optional: true, required: false
+  private _dataLabelFontConfiguration = new QuicksightThemeConfigurationTypographyDataLabelFontConfigurationOutputReference(this, "data_label_font_configuration");
+  public get dataLabelFontConfiguration() {
+    return this._dataLabelFontConfiguration;
+  }
+  public putDataLabelFontConfiguration(value: QuicksightThemeConfigurationTypographyDataLabelFontConfiguration) {
+    this._dataLabelFontConfiguration.internalValue = value;
+  }
+  public resetDataLabelFontConfiguration() {
+    this._dataLabelFontConfiguration.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dataLabelFontConfigurationInput() {
+    return this._dataLabelFontConfiguration.internalValue;
   }
 
   // font_families - computed: true, optional: true, required: false
@@ -1071,112 +5048,176 @@ export class QuicksightThemeConfigurationTypographyOutputReference extends cdktn
   public get fontFamiliesInput() {
     return this._fontFamilies.internalValue;
   }
+
+  // legend_title_font_configuration - computed: true, optional: true, required: false
+  private _legendTitleFontConfiguration = new QuicksightThemeConfigurationTypographyLegendTitleFontConfigurationOutputReference(this, "legend_title_font_configuration");
+  public get legendTitleFontConfiguration() {
+    return this._legendTitleFontConfiguration;
+  }
+  public putLegendTitleFontConfiguration(value: QuicksightThemeConfigurationTypographyLegendTitleFontConfiguration) {
+    this._legendTitleFontConfiguration.internalValue = value;
+  }
+  public resetLegendTitleFontConfiguration() {
+    this._legendTitleFontConfiguration.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get legendTitleFontConfigurationInput() {
+    return this._legendTitleFontConfiguration.internalValue;
+  }
+
+  // legend_value_font_configuration - computed: true, optional: true, required: false
+  private _legendValueFontConfiguration = new QuicksightThemeConfigurationTypographyLegendValueFontConfigurationOutputReference(this, "legend_value_font_configuration");
+  public get legendValueFontConfiguration() {
+    return this._legendValueFontConfiguration;
+  }
+  public putLegendValueFontConfiguration(value: QuicksightThemeConfigurationTypographyLegendValueFontConfiguration) {
+    this._legendValueFontConfiguration.internalValue = value;
+  }
+  public resetLegendValueFontConfiguration() {
+    this._legendValueFontConfiguration.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get legendValueFontConfigurationInput() {
+    return this._legendValueFontConfiguration.internalValue;
+  }
+
+  // visual_subtitle_font_configuration - computed: true, optional: true, required: false
+  private _visualSubtitleFontConfiguration = new QuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationOutputReference(this, "visual_subtitle_font_configuration");
+  public get visualSubtitleFontConfiguration() {
+    return this._visualSubtitleFontConfiguration;
+  }
+  public putVisualSubtitleFontConfiguration(value: QuicksightThemeConfigurationTypographyVisualSubtitleFontConfiguration) {
+    this._visualSubtitleFontConfiguration.internalValue = value;
+  }
+  public resetVisualSubtitleFontConfiguration() {
+    this._visualSubtitleFontConfiguration.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get visualSubtitleFontConfigurationInput() {
+    return this._visualSubtitleFontConfiguration.internalValue;
+  }
+
+  // visual_title_font_configuration - computed: true, optional: true, required: false
+  private _visualTitleFontConfiguration = new QuicksightThemeConfigurationTypographyVisualTitleFontConfigurationOutputReference(this, "visual_title_font_configuration");
+  public get visualTitleFontConfiguration() {
+    return this._visualTitleFontConfiguration;
+  }
+  public putVisualTitleFontConfiguration(value: QuicksightThemeConfigurationTypographyVisualTitleFontConfiguration) {
+    this._visualTitleFontConfiguration.internalValue = value;
+  }
+  public resetVisualTitleFontConfiguration() {
+    this._visualTitleFontConfiguration.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get visualTitleFontConfigurationInput() {
+    return this._visualTitleFontConfiguration.internalValue;
+  }
 }
 export interface QuicksightThemeConfigurationUiColorPalette {
   /**
   * <p>This color is that applies to selected states and buttons.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_theme#accent QuicksightTheme#accent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#accent QuicksightTheme#accent}
   */
   readonly accent?: string;
   /**
   * <p>The foreground color that applies to any text or other elements that appear over the
   *             accent color.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_theme#accent_foreground QuicksightTheme#accent_foreground}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#accent_foreground QuicksightTheme#accent_foreground}
   */
   readonly accentForeground?: string;
   /**
   * <p>The color that applies to error messages.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_theme#danger QuicksightTheme#danger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#danger QuicksightTheme#danger}
   */
   readonly danger?: string;
   /**
   * <p>The foreground color that applies to any text or other elements that appear over the
   *             error color.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_theme#danger_foreground QuicksightTheme#danger_foreground}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#danger_foreground QuicksightTheme#danger_foreground}
   */
   readonly dangerForeground?: string;
   /**
   * <p>The color that applies to the names of fields that are identified as
   *             dimensions.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_theme#dimension QuicksightTheme#dimension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#dimension QuicksightTheme#dimension}
   */
   readonly dimension?: string;
   /**
   * <p>The foreground color that applies to any text or other elements that appear over the
   *             dimension color.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_theme#dimension_foreground QuicksightTheme#dimension_foreground}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#dimension_foreground QuicksightTheme#dimension_foreground}
   */
   readonly dimensionForeground?: string;
   /**
   * <p>The color that applies to the names of fields that are identified as measures.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_theme#measure QuicksightTheme#measure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#measure QuicksightTheme#measure}
   */
   readonly measure?: string;
   /**
   * <p>The foreground color that applies to any text or other elements that appear over the
   *             measure color.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_theme#measure_foreground QuicksightTheme#measure_foreground}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#measure_foreground QuicksightTheme#measure_foreground}
   */
   readonly measureForeground?: string;
   /**
   * <p>The background color that applies to visuals and other high emphasis UI.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_theme#primary_background QuicksightTheme#primary_background}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#primary_background QuicksightTheme#primary_background}
   */
   readonly primaryBackground?: string;
   /**
   * <p>The color of text and other foreground elements that appear over the primary
   *             background regions, such as grid lines, borders, table banding, icons, and so on.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_theme#primary_foreground QuicksightTheme#primary_foreground}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#primary_foreground QuicksightTheme#primary_foreground}
   */
   readonly primaryForeground?: string;
   /**
   * <p>The background color that applies to the sheet background and sheet controls.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_theme#secondary_background QuicksightTheme#secondary_background}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#secondary_background QuicksightTheme#secondary_background}
   */
   readonly secondaryBackground?: string;
   /**
   * <p>The foreground color that applies to any sheet title, sheet control text, or UI that
   *             appears over the secondary background.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_theme#secondary_foreground QuicksightTheme#secondary_foreground}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#secondary_foreground QuicksightTheme#secondary_foreground}
   */
   readonly secondaryForeground?: string;
   /**
   * <p>The color that applies to success messages, for example the check mark for a
   *             successful download.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_theme#success QuicksightTheme#success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#success QuicksightTheme#success}
   */
   readonly success?: string;
   /**
   * <p>The foreground color that applies to any text or other elements that appear over the
   *             success color.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_theme#success_foreground QuicksightTheme#success_foreground}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#success_foreground QuicksightTheme#success_foreground}
   */
   readonly successForeground?: string;
   /**
   * <p>This color that applies to warning and informational messages.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_theme#warning QuicksightTheme#warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#warning QuicksightTheme#warning}
   */
   readonly warning?: string;
   /**
   * <p>The foreground color that applies to any text or other elements that appear over the
   *             warning color.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_theme#warning_foreground QuicksightTheme#warning_foreground}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#warning_foreground QuicksightTheme#warning_foreground}
   */
   readonly warningForeground?: string;
 }
@@ -1709,27 +5750,27 @@ export interface QuicksightThemeConfiguration {
   *             hexadecimal color code that consists of six alphanumerical characters, prefixed with
   *                 <code>#</code>, for example #37BFF5. </p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_theme#data_color_palette QuicksightTheme#data_color_palette}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#data_color_palette QuicksightTheme#data_color_palette}
   */
   readonly dataColorPalette?: QuicksightThemeConfigurationDataColorPalette;
   /**
   * <p>The theme display options for sheets. </p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_theme#sheet QuicksightTheme#sheet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#sheet QuicksightTheme#sheet}
   */
   readonly sheet?: QuicksightThemeConfigurationSheet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_theme#typography QuicksightTheme#typography}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#typography QuicksightTheme#typography}
   */
   readonly typography?: QuicksightThemeConfigurationTypography;
   /**
   * <p>The theme colors that apply to UI and to charts, excluding data colors. The colors
   *             description is a hexadecimal color code that consists of six alphanumerical characters,
-  *             prefixed with <code>#</code>, for example #37BFF5. For more information, see <a href="https://docs.aws.amazon.com/quicksight/latest/user/themes-in-quicksight.html">Using Themes in Amazon QuickSight</a> in the <i>Amazon QuickSight User
+  *             prefixed with <code>#</code>, for example #37BFF5. For more information, see <a href="https://docs.aws.amazon.com/quicksight/latest/user/themes-in-quicksight.html">Using Themes in Amazon Quick</a> in the <i>Amazon Quick User
   *                 Guide.</i>
   *          </p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_theme#ui_color_palette QuicksightTheme#ui_color_palette}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#ui_color_palette QuicksightTheme#ui_color_palette}
   */
   readonly uiColorPalette?: QuicksightThemeConfigurationUiColorPalette;
 }
@@ -1912,7 +5953,7 @@ export interface QuicksightThemePermissions {
   /**
   * <p>The IAM action to grant or revoke permissions on.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_theme#actions QuicksightTheme#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#actions QuicksightTheme#actions}
   */
   readonly actions?: string[];
   /**
@@ -1920,10 +5961,10 @@ export interface QuicksightThemePermissions {
   *             following:</p>
   *          <ul>
   *             <li>
-  *                <p>The ARN of an Amazon QuickSight user or group associated with a data source or dataset. (This is common.)</p>
+  *                <p>The ARN of an Amazon Quick user or group associated with a data source or dataset. (This is common.)</p>
   *             </li>
   *             <li>
-  *                <p>The ARN of an Amazon QuickSight user, group, or namespace associated with an analysis, dashboard, template, or theme. (This is common.)</p>
+  *                <p>The ARN of an Amazon Quick user, group, or namespace associated with an analysis, dashboard, template, or theme. (This is common.)</p>
   *             </li>
   *             <li>
   *                <p>The ARN of an Amazon Web Services account root: This is an IAM ARN rather than a QuickSight
@@ -1932,7 +5973,7 @@ export interface QuicksightThemePermissions {
   *             </li>
   *          </ul>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_theme#principal QuicksightTheme#principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#principal QuicksightTheme#principal}
   */
   readonly principal?: string;
 }
@@ -2079,13 +6120,13 @@ export interface QuicksightThemeTags {
   /**
   * <p>Tag key.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_theme#key QuicksightTheme#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#key QuicksightTheme#key}
   */
   readonly key?: string;
   /**
   * <p>Tag value.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_theme#value QuicksightTheme#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#value QuicksightTheme#value}
   */
   readonly value?: string;
 }
@@ -2292,6 +6333,65 @@ export class QuicksightThemeVersionConfigurationDataColorPaletteOutputReference 
     return this.getListAttribute('min_max_gradient');
   }
 }
+export interface QuicksightThemeVersionConfigurationSheetBackground {
+}
+
+export function quicksightThemeVersionConfigurationSheetBackgroundToTerraform(struct?: QuicksightThemeVersionConfigurationSheetBackground): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function quicksightThemeVersionConfigurationSheetBackgroundToHclTerraform(struct?: QuicksightThemeVersionConfigurationSheetBackground): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class QuicksightThemeVersionConfigurationSheetBackgroundOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): QuicksightThemeVersionConfigurationSheetBackground | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: QuicksightThemeVersionConfigurationSheetBackground | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // color - computed: true, optional: false, required: false
+  public get color() {
+    return this.getStringAttribute('color');
+  }
+
+  // gradient - computed: true, optional: false, required: false
+  public get gradient() {
+    return this.getStringAttribute('gradient');
+  }
+}
 export interface QuicksightThemeVersionConfigurationSheetTileBorder {
 }
 
@@ -2341,9 +6441,19 @@ export class QuicksightThemeVersionConfigurationSheetTileBorderOutputReference e
     }
   }
 
+  // color - computed: true, optional: false, required: false
+  public get color() {
+    return this.getStringAttribute('color');
+  }
+
   // show - computed: true, optional: false, required: false
   public get show() {
     return this.getBooleanAttribute('show');
+  }
+
+  // width - computed: true, optional: false, required: false
+  public get width() {
+    return this.getStringAttribute('width');
   }
 }
 export interface QuicksightThemeVersionConfigurationSheetTile {
@@ -2395,10 +6505,25 @@ export class QuicksightThemeVersionConfigurationSheetTileOutputReference extends
     }
   }
 
+  // background_color - computed: true, optional: false, required: false
+  public get backgroundColor() {
+    return this.getStringAttribute('background_color');
+  }
+
   // border - computed: true, optional: false, required: false
   private _border = new QuicksightThemeVersionConfigurationSheetTileBorderOutputReference(this, "border");
   public get border() {
     return this._border;
+  }
+
+  // border_radius - computed: true, optional: false, required: false
+  public get borderRadius() {
+    return this.getStringAttribute('border_radius');
+  }
+
+  // padding - computed: true, optional: false, required: false
+  public get padding() {
+    return this.getStringAttribute('padding');
   }
 }
 export interface QuicksightThemeVersionConfigurationSheetTileLayoutGutter {
@@ -2619,6 +6744,12 @@ export class QuicksightThemeVersionConfigurationSheetOutputReference extends cdk
     }
   }
 
+  // background - computed: true, optional: false, required: false
+  private _background = new QuicksightThemeVersionConfigurationSheetBackgroundOutputReference(this, "background");
+  public get background() {
+    return this._background;
+  }
+
   // tile - computed: true, optional: false, required: false
   private _tile = new QuicksightThemeVersionConfigurationSheetTileOutputReference(this, "tile");
   public get tile() {
@@ -2629,6 +6760,573 @@ export class QuicksightThemeVersionConfigurationSheetOutputReference extends cdk
   private _tileLayout = new QuicksightThemeVersionConfigurationSheetTileLayoutOutputReference(this, "tile_layout");
   public get tileLayout() {
     return this._tileLayout;
+  }
+}
+export interface QuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontSize {
+}
+
+export function quicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontSizeToTerraform(struct?: QuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontSize): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function quicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontSizeToHclTerraform(struct?: QuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontSize): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class QuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): QuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontSize | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: QuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontSize | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // absolute - computed: true, optional: false, required: false
+  public get absolute() {
+    return this.getStringAttribute('absolute');
+  }
+}
+export interface QuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontWeight {
+}
+
+export function quicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontWeightToTerraform(struct?: QuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontWeight): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function quicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontWeightToHclTerraform(struct?: QuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontWeight): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class QuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): QuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontWeight | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: QuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontWeight | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // name - computed: true, optional: false, required: false
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+}
+export interface QuicksightThemeVersionConfigurationTypographyAxisLabelFontConfiguration {
+}
+
+export function quicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationToTerraform(struct?: QuicksightThemeVersionConfigurationTypographyAxisLabelFontConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function quicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationToHclTerraform(struct?: QuicksightThemeVersionConfigurationTypographyAxisLabelFontConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class QuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): QuicksightThemeVersionConfigurationTypographyAxisLabelFontConfiguration | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: QuicksightThemeVersionConfigurationTypographyAxisLabelFontConfiguration | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // font_color - computed: true, optional: false, required: false
+  public get fontColor() {
+    return this.getStringAttribute('font_color');
+  }
+
+  // font_decoration - computed: true, optional: false, required: false
+  public get fontDecoration() {
+    return this.getStringAttribute('font_decoration');
+  }
+
+  // font_family - computed: true, optional: false, required: false
+  public get fontFamily() {
+    return this.getStringAttribute('font_family');
+  }
+
+  // font_size - computed: true, optional: false, required: false
+  private _fontSize = new QuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference(this, "font_size");
+  public get fontSize() {
+    return this._fontSize;
+  }
+
+  // font_style - computed: true, optional: false, required: false
+  public get fontStyle() {
+    return this.getStringAttribute('font_style');
+  }
+
+  // font_weight - computed: true, optional: false, required: false
+  private _fontWeight = new QuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference(this, "font_weight");
+  public get fontWeight() {
+    return this._fontWeight;
+  }
+}
+export interface QuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontSize {
+}
+
+export function quicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontSizeToTerraform(struct?: QuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontSize): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function quicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontSizeToHclTerraform(struct?: QuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontSize): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class QuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): QuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontSize | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: QuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontSize | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // absolute - computed: true, optional: false, required: false
+  public get absolute() {
+    return this.getStringAttribute('absolute');
+  }
+}
+export interface QuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontWeight {
+}
+
+export function quicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontWeightToTerraform(struct?: QuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontWeight): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function quicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontWeightToHclTerraform(struct?: QuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontWeight): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class QuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): QuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontWeight | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: QuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontWeight | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // name - computed: true, optional: false, required: false
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+}
+export interface QuicksightThemeVersionConfigurationTypographyAxisTitleFontConfiguration {
+}
+
+export function quicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationToTerraform(struct?: QuicksightThemeVersionConfigurationTypographyAxisTitleFontConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function quicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationToHclTerraform(struct?: QuicksightThemeVersionConfigurationTypographyAxisTitleFontConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class QuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): QuicksightThemeVersionConfigurationTypographyAxisTitleFontConfiguration | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: QuicksightThemeVersionConfigurationTypographyAxisTitleFontConfiguration | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // font_color - computed: true, optional: false, required: false
+  public get fontColor() {
+    return this.getStringAttribute('font_color');
+  }
+
+  // font_decoration - computed: true, optional: false, required: false
+  public get fontDecoration() {
+    return this.getStringAttribute('font_decoration');
+  }
+
+  // font_family - computed: true, optional: false, required: false
+  public get fontFamily() {
+    return this.getStringAttribute('font_family');
+  }
+
+  // font_size - computed: true, optional: false, required: false
+  private _fontSize = new QuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference(this, "font_size");
+  public get fontSize() {
+    return this._fontSize;
+  }
+
+  // font_style - computed: true, optional: false, required: false
+  public get fontStyle() {
+    return this.getStringAttribute('font_style');
+  }
+
+  // font_weight - computed: true, optional: false, required: false
+  private _fontWeight = new QuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference(this, "font_weight");
+  public get fontWeight() {
+    return this._fontWeight;
+  }
+}
+export interface QuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontSize {
+}
+
+export function quicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontSizeToTerraform(struct?: QuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontSize): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function quicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontSizeToHclTerraform(struct?: QuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontSize): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class QuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): QuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontSize | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: QuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontSize | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // absolute - computed: true, optional: false, required: false
+  public get absolute() {
+    return this.getStringAttribute('absolute');
+  }
+}
+export interface QuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontWeight {
+}
+
+export function quicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontWeightToTerraform(struct?: QuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontWeight): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function quicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontWeightToHclTerraform(struct?: QuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontWeight): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class QuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): QuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontWeight | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: QuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontWeight | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // name - computed: true, optional: false, required: false
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+}
+export interface QuicksightThemeVersionConfigurationTypographyDataLabelFontConfiguration {
+}
+
+export function quicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationToTerraform(struct?: QuicksightThemeVersionConfigurationTypographyDataLabelFontConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function quicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationToHclTerraform(struct?: QuicksightThemeVersionConfigurationTypographyDataLabelFontConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class QuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): QuicksightThemeVersionConfigurationTypographyDataLabelFontConfiguration | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: QuicksightThemeVersionConfigurationTypographyDataLabelFontConfiguration | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // font_color - computed: true, optional: false, required: false
+  public get fontColor() {
+    return this.getStringAttribute('font_color');
+  }
+
+  // font_decoration - computed: true, optional: false, required: false
+  public get fontDecoration() {
+    return this.getStringAttribute('font_decoration');
+  }
+
+  // font_family - computed: true, optional: false, required: false
+  public get fontFamily() {
+    return this.getStringAttribute('font_family');
+  }
+
+  // font_size - computed: true, optional: false, required: false
+  private _fontSize = new QuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference(this, "font_size");
+  public get fontSize() {
+    return this._fontSize;
+  }
+
+  // font_style - computed: true, optional: false, required: false
+  public get fontStyle() {
+    return this.getStringAttribute('font_style');
+  }
+
+  // font_weight - computed: true, optional: false, required: false
+  private _fontWeight = new QuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference(this, "font_weight");
+  public get fontWeight() {
+    return this._fontWeight;
   }
 }
 export interface QuicksightThemeVersionConfigurationTypographyFontFamilies {
@@ -2706,6 +7404,892 @@ export class QuicksightThemeVersionConfigurationTypographyFontFamiliesList exten
     return new QuicksightThemeVersionConfigurationTypographyFontFamiliesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface QuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontSize {
+}
+
+export function quicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontSizeToTerraform(struct?: QuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontSize): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function quicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontSizeToHclTerraform(struct?: QuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontSize): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class QuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): QuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontSize | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: QuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontSize | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // absolute - computed: true, optional: false, required: false
+  public get absolute() {
+    return this.getStringAttribute('absolute');
+  }
+}
+export interface QuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontWeight {
+}
+
+export function quicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontWeightToTerraform(struct?: QuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontWeight): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function quicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontWeightToHclTerraform(struct?: QuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontWeight): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class QuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): QuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontWeight | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: QuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontWeight | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // name - computed: true, optional: false, required: false
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+}
+export interface QuicksightThemeVersionConfigurationTypographyLegendTitleFontConfiguration {
+}
+
+export function quicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationToTerraform(struct?: QuicksightThemeVersionConfigurationTypographyLegendTitleFontConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function quicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationToHclTerraform(struct?: QuicksightThemeVersionConfigurationTypographyLegendTitleFontConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class QuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): QuicksightThemeVersionConfigurationTypographyLegendTitleFontConfiguration | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: QuicksightThemeVersionConfigurationTypographyLegendTitleFontConfiguration | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // font_color - computed: true, optional: false, required: false
+  public get fontColor() {
+    return this.getStringAttribute('font_color');
+  }
+
+  // font_decoration - computed: true, optional: false, required: false
+  public get fontDecoration() {
+    return this.getStringAttribute('font_decoration');
+  }
+
+  // font_family - computed: true, optional: false, required: false
+  public get fontFamily() {
+    return this.getStringAttribute('font_family');
+  }
+
+  // font_size - computed: true, optional: false, required: false
+  private _fontSize = new QuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference(this, "font_size");
+  public get fontSize() {
+    return this._fontSize;
+  }
+
+  // font_style - computed: true, optional: false, required: false
+  public get fontStyle() {
+    return this.getStringAttribute('font_style');
+  }
+
+  // font_weight - computed: true, optional: false, required: false
+  private _fontWeight = new QuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference(this, "font_weight");
+  public get fontWeight() {
+    return this._fontWeight;
+  }
+}
+export interface QuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSize {
+}
+
+export function quicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSizeToTerraform(struct?: QuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSize): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function quicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSizeToHclTerraform(struct?: QuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSize): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class QuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): QuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSize | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: QuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSize | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // absolute - computed: true, optional: false, required: false
+  public get absolute() {
+    return this.getStringAttribute('absolute');
+  }
+}
+export interface QuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontWeight {
+}
+
+export function quicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontWeightToTerraform(struct?: QuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontWeight): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function quicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontWeightToHclTerraform(struct?: QuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontWeight): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class QuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): QuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontWeight | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: QuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontWeight | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // name - computed: true, optional: false, required: false
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+}
+export interface QuicksightThemeVersionConfigurationTypographyLegendValueFontConfiguration {
+}
+
+export function quicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationToTerraform(struct?: QuicksightThemeVersionConfigurationTypographyLegendValueFontConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function quicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationToHclTerraform(struct?: QuicksightThemeVersionConfigurationTypographyLegendValueFontConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class QuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): QuicksightThemeVersionConfigurationTypographyLegendValueFontConfiguration | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: QuicksightThemeVersionConfigurationTypographyLegendValueFontConfiguration | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // font_color - computed: true, optional: false, required: false
+  public get fontColor() {
+    return this.getStringAttribute('font_color');
+  }
+
+  // font_decoration - computed: true, optional: false, required: false
+  public get fontDecoration() {
+    return this.getStringAttribute('font_decoration');
+  }
+
+  // font_family - computed: true, optional: false, required: false
+  public get fontFamily() {
+    return this.getStringAttribute('font_family');
+  }
+
+  // font_size - computed: true, optional: false, required: false
+  private _fontSize = new QuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference(this, "font_size");
+  public get fontSize() {
+    return this._fontSize;
+  }
+
+  // font_style - computed: true, optional: false, required: false
+  public get fontStyle() {
+    return this.getStringAttribute('font_style');
+  }
+
+  // font_weight - computed: true, optional: false, required: false
+  private _fontWeight = new QuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference(this, "font_weight");
+  public get fontWeight() {
+    return this._fontWeight;
+  }
+}
+export interface QuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSize {
+}
+
+export function quicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeToTerraform(struct?: QuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSize): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function quicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeToHclTerraform(struct?: QuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSize): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class QuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): QuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSize | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: QuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSize | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // absolute - computed: true, optional: false, required: false
+  public get absolute() {
+    return this.getStringAttribute('absolute');
+  }
+}
+export interface QuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeight {
+}
+
+export function quicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightToTerraform(struct?: QuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeight): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function quicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightToHclTerraform(struct?: QuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeight): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class QuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): QuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeight | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: QuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeight | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // name - computed: true, optional: false, required: false
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+}
+export interface QuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfiguration {
+}
+
+export function quicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationToTerraform(struct?: QuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function quicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationToHclTerraform(struct?: QuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class QuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): QuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfiguration | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: QuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfiguration | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // font_color - computed: true, optional: false, required: false
+  public get fontColor() {
+    return this.getStringAttribute('font_color');
+  }
+
+  // font_decoration - computed: true, optional: false, required: false
+  public get fontDecoration() {
+    return this.getStringAttribute('font_decoration');
+  }
+
+  // font_family - computed: true, optional: false, required: false
+  public get fontFamily() {
+    return this.getStringAttribute('font_family');
+  }
+
+  // font_size - computed: true, optional: false, required: false
+  private _fontSize = new QuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference(this, "font_size");
+  public get fontSize() {
+    return this._fontSize;
+  }
+
+  // font_style - computed: true, optional: false, required: false
+  public get fontStyle() {
+    return this.getStringAttribute('font_style');
+  }
+
+  // font_weight - computed: true, optional: false, required: false
+  private _fontWeight = new QuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference(this, "font_weight");
+  public get fontWeight() {
+    return this._fontWeight;
+  }
+}
+export interface QuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfiguration {
+}
+
+export function quicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationToTerraform(struct?: QuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function quicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationToHclTerraform(struct?: QuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class QuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): QuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfiguration | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: QuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfiguration | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // font_configuration - computed: true, optional: false, required: false
+  private _fontConfiguration = new QuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference(this, "font_configuration");
+  public get fontConfiguration() {
+    return this._fontConfiguration;
+  }
+
+  // text_alignment - computed: true, optional: false, required: false
+  public get textAlignment() {
+    return this.getStringAttribute('text_alignment');
+  }
+
+  // text_transform - computed: true, optional: false, required: false
+  public get textTransform() {
+    return this.getStringAttribute('text_transform');
+  }
+}
+export interface QuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSize {
+}
+
+export function quicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeToTerraform(struct?: QuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSize): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function quicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeToHclTerraform(struct?: QuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSize): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class QuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): QuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSize | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: QuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSize | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // absolute - computed: true, optional: false, required: false
+  public get absolute() {
+    return this.getStringAttribute('absolute');
+  }
+}
+export interface QuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeight {
+}
+
+export function quicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightToTerraform(struct?: QuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeight): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function quicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightToHclTerraform(struct?: QuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeight): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class QuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): QuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeight | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: QuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeight | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // name - computed: true, optional: false, required: false
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+}
+export interface QuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfiguration {
+}
+
+export function quicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationToTerraform(struct?: QuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function quicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationToHclTerraform(struct?: QuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class QuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): QuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfiguration | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: QuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfiguration | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // font_color - computed: true, optional: false, required: false
+  public get fontColor() {
+    return this.getStringAttribute('font_color');
+  }
+
+  // font_decoration - computed: true, optional: false, required: false
+  public get fontDecoration() {
+    return this.getStringAttribute('font_decoration');
+  }
+
+  // font_family - computed: true, optional: false, required: false
+  public get fontFamily() {
+    return this.getStringAttribute('font_family');
+  }
+
+  // font_size - computed: true, optional: false, required: false
+  private _fontSize = new QuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference(this, "font_size");
+  public get fontSize() {
+    return this._fontSize;
+  }
+
+  // font_style - computed: true, optional: false, required: false
+  public get fontStyle() {
+    return this.getStringAttribute('font_style');
+  }
+
+  // font_weight - computed: true, optional: false, required: false
+  private _fontWeight = new QuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference(this, "font_weight");
+  public get fontWeight() {
+    return this._fontWeight;
+  }
+}
+export interface QuicksightThemeVersionConfigurationTypographyVisualTitleFontConfiguration {
+}
+
+export function quicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationToTerraform(struct?: QuicksightThemeVersionConfigurationTypographyVisualTitleFontConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function quicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationToHclTerraform(struct?: QuicksightThemeVersionConfigurationTypographyVisualTitleFontConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class QuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): QuicksightThemeVersionConfigurationTypographyVisualTitleFontConfiguration | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: QuicksightThemeVersionConfigurationTypographyVisualTitleFontConfiguration | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // font_configuration - computed: true, optional: false, required: false
+  private _fontConfiguration = new QuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference(this, "font_configuration");
+  public get fontConfiguration() {
+    return this._fontConfiguration;
+  }
+
+  // text_alignment - computed: true, optional: false, required: false
+  public get textAlignment() {
+    return this.getStringAttribute('text_alignment');
+  }
+
+  // text_transform - computed: true, optional: false, required: false
+  public get textTransform() {
+    return this.getStringAttribute('text_transform');
+  }
+}
 export interface QuicksightThemeVersionConfigurationTypography {
 }
 
@@ -2755,10 +8339,52 @@ export class QuicksightThemeVersionConfigurationTypographyOutputReference extend
     }
   }
 
+  // axis_label_font_configuration - computed: true, optional: false, required: false
+  private _axisLabelFontConfiguration = new QuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationOutputReference(this, "axis_label_font_configuration");
+  public get axisLabelFontConfiguration() {
+    return this._axisLabelFontConfiguration;
+  }
+
+  // axis_title_font_configuration - computed: true, optional: false, required: false
+  private _axisTitleFontConfiguration = new QuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationOutputReference(this, "axis_title_font_configuration");
+  public get axisTitleFontConfiguration() {
+    return this._axisTitleFontConfiguration;
+  }
+
+  // data_label_font_configuration - computed: true, optional: false, required: false
+  private _dataLabelFontConfiguration = new QuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationOutputReference(this, "data_label_font_configuration");
+  public get dataLabelFontConfiguration() {
+    return this._dataLabelFontConfiguration;
+  }
+
   // font_families - computed: true, optional: false, required: false
   private _fontFamilies = new QuicksightThemeVersionConfigurationTypographyFontFamiliesList(this, "font_families", false);
   public get fontFamilies() {
     return this._fontFamilies;
+  }
+
+  // legend_title_font_configuration - computed: true, optional: false, required: false
+  private _legendTitleFontConfiguration = new QuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationOutputReference(this, "legend_title_font_configuration");
+  public get legendTitleFontConfiguration() {
+    return this._legendTitleFontConfiguration;
+  }
+
+  // legend_value_font_configuration - computed: true, optional: false, required: false
+  private _legendValueFontConfiguration = new QuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationOutputReference(this, "legend_value_font_configuration");
+  public get legendValueFontConfiguration() {
+    return this._legendValueFontConfiguration;
+  }
+
+  // visual_subtitle_font_configuration - computed: true, optional: false, required: false
+  private _visualSubtitleFontConfiguration = new QuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationOutputReference(this, "visual_subtitle_font_configuration");
+  public get visualSubtitleFontConfiguration() {
+    return this._visualSubtitleFontConfiguration;
+  }
+
+  // visual_title_font_configuration - computed: true, optional: false, required: false
+  private _visualTitleFontConfiguration = new QuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationOutputReference(this, "visual_title_font_configuration");
+  public get visualTitleFontConfiguration() {
+    return this._visualTitleFontConfiguration;
   }
 }
 export interface QuicksightThemeVersionConfigurationUiColorPalette {
@@ -3136,7 +8762,7 @@ export class QuicksightThemeVersionOutputReference extends cdktn.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_theme awscc_quicksight_theme}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme awscc_quicksight_theme}
 */
 export class QuicksightTheme extends cdktn.TerraformResource {
 
@@ -3152,7 +8778,7 @@ export class QuicksightTheme extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a QuicksightTheme resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the QuicksightTheme to import
-  * @param importFromId The id of the existing QuicksightTheme that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_theme#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing QuicksightTheme that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the QuicksightTheme to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -3164,7 +8790,7 @@ export class QuicksightTheme extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_theme awscc_quicksight_theme} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme awscc_quicksight_theme} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3175,7 +8801,7 @@ export class QuicksightTheme extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_quicksight_theme',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.102.0',
+        providerVersion: '1.103.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/invoicing_procurement_portal_preferences
+// https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/invoicing_procurement_portal_preferences
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccInvoicingProcurementPortalPreferencesConfig extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/invoicing_procurement_portal_preferences awscc_invoicing_procurement_portal_preferences}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/invoicing_procurement_portal_preferences awscc_invoicing_procurement_portal_preferences}
 */
 export class DataAwsccInvoicingProcurementPortalPreferences extends cdktn.TerraformDataSource {
 
@@ -31,7 +31,7 @@ export class DataAwsccInvoicingProcurementPortalPreferences extends cdktn.Terraf
   * Generates CDKTN code for importing a DataAwsccInvoicingProcurementPortalPreferences resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccInvoicingProcurementPortalPreferences to import
-  * @param importFromId The id of the existing DataAwsccInvoicingProcurementPortalPreferences that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/invoicing_procurement_portal_preferences#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccInvoicingProcurementPortalPreferences that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/invoicing_procurement_portal_preferences#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccInvoicingProcurementPortalPreferences to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -43,7 +43,7 @@ export class DataAwsccInvoicingProcurementPortalPreferences extends cdktn.Terraf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/invoicing_procurement_portal_preferences awscc_invoicing_procurement_portal_preferences} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/invoicing_procurement_portal_preferences awscc_invoicing_procurement_portal_preferences} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -54,7 +54,7 @@ export class DataAwsccInvoicingProcurementPortalPreferences extends cdktn.Terraf
       terraformResourceType: 'awscc_invoicing_procurement_portal_preferences',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.102.0',
+        providerVersion: '1.103.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

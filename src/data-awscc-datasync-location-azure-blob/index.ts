@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/datasync_location_azure_blob
+// https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/datasync_location_azure_blob
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccDatasyncLocationAzureBlobConfig extends cdktn.Terrafor
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/datasync_location_azure_blob#id DataAwsccDatasyncLocationAzureBlob#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/datasync_location_azure_blob#id DataAwsccDatasyncLocationAzureBlob#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -194,6 +194,125 @@ export class DataAwsccDatasyncLocationAzureBlobCustomSecretConfigOutputReference
     return this.getStringAttribute('secret_arn');
   }
 }
+export interface DataAwsccDatasyncLocationAzureBlobFederatedIdentityAzureOidc {
+}
+
+export function dataAwsccDatasyncLocationAzureBlobFederatedIdentityAzureOidcToTerraform(struct?: DataAwsccDatasyncLocationAzureBlobFederatedIdentityAzureOidc): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccDatasyncLocationAzureBlobFederatedIdentityAzureOidcToHclTerraform(struct?: DataAwsccDatasyncLocationAzureBlobFederatedIdentityAzureOidc): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccDatasyncLocationAzureBlobFederatedIdentityAzureOidcOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccDatasyncLocationAzureBlobFederatedIdentityAzureOidc | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccDatasyncLocationAzureBlobFederatedIdentityAzureOidc | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // client_id - computed: true, optional: false, required: false
+  public get clientId() {
+    return this.getStringAttribute('client_id');
+  }
+
+  // tenant_id - computed: true, optional: false, required: false
+  public get tenantId() {
+    return this.getStringAttribute('tenant_id');
+  }
+}
+export interface DataAwsccDatasyncLocationAzureBlobFederatedIdentity {
+}
+
+export function dataAwsccDatasyncLocationAzureBlobFederatedIdentityToTerraform(struct?: DataAwsccDatasyncLocationAzureBlobFederatedIdentity): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccDatasyncLocationAzureBlobFederatedIdentityToHclTerraform(struct?: DataAwsccDatasyncLocationAzureBlobFederatedIdentity): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccDatasyncLocationAzureBlobFederatedIdentityOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccDatasyncLocationAzureBlobFederatedIdentity | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccDatasyncLocationAzureBlobFederatedIdentity | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // aws_iam_role - computed: true, optional: false, required: false
+  public get awsIamRole() {
+    return this.getStringAttribute('aws_iam_role');
+  }
+
+  // azure_oidc - computed: true, optional: false, required: false
+  private _azureOidc = new DataAwsccDatasyncLocationAzureBlobFederatedIdentityAzureOidcOutputReference(this, "azure_oidc");
+  public get azureOidc() {
+    return this._azureOidc;
+  }
+}
 export interface DataAwsccDatasyncLocationAzureBlobManagedSecretConfig {
 }
 
@@ -330,7 +449,7 @@ export class DataAwsccDatasyncLocationAzureBlobTagsList extends cdktn.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/datasync_location_azure_blob awscc_datasync_location_azure_blob}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/datasync_location_azure_blob awscc_datasync_location_azure_blob}
 */
 export class DataAwsccDatasyncLocationAzureBlob extends cdktn.TerraformDataSource {
 
@@ -346,7 +465,7 @@ export class DataAwsccDatasyncLocationAzureBlob extends cdktn.TerraformDataSourc
   * Generates CDKTN code for importing a DataAwsccDatasyncLocationAzureBlob resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccDatasyncLocationAzureBlob to import
-  * @param importFromId The id of the existing DataAwsccDatasyncLocationAzureBlob that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/datasync_location_azure_blob#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccDatasyncLocationAzureBlob that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/datasync_location_azure_blob#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccDatasyncLocationAzureBlob to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -358,7 +477,7 @@ export class DataAwsccDatasyncLocationAzureBlob extends cdktn.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/datasync_location_azure_blob awscc_datasync_location_azure_blob} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/datasync_location_azure_blob awscc_datasync_location_azure_blob} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -369,7 +488,7 @@ export class DataAwsccDatasyncLocationAzureBlob extends cdktn.TerraformDataSourc
       terraformResourceType: 'awscc_datasync_location_azure_blob',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.102.0',
+        providerVersion: '1.103.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -428,6 +547,12 @@ export class DataAwsccDatasyncLocationAzureBlob extends cdktn.TerraformDataSourc
   private _customSecretConfig = new DataAwsccDatasyncLocationAzureBlobCustomSecretConfigOutputReference(this, "custom_secret_config");
   public get customSecretConfig() {
     return this._customSecretConfig;
+  }
+
+  // federated_identity - computed: true, optional: false, required: false
+  private _federatedIdentity = new DataAwsccDatasyncLocationAzureBlobFederatedIdentityOutputReference(this, "federated_identity");
+  public get federatedIdentity() {
+    return this._federatedIdentity;
   }
 
   // id - computed: false, optional: false, required: true

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/lightsail_key_pair
+// https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/lightsail_key_pair
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,13 +15,13 @@ export interface LightsailKeyPairConfig extends cdktn.TerraformMetaArguments {
   /**
   * The name of the key pair.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/lightsail_key_pair#key_pair_name LightsailKeyPair#key_pair_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/lightsail_key_pair#key_pair_name LightsailKeyPair#key_pair_name}
   */
   readonly keyPairName: string;
   /**
   * The tag keys and optional values to add to the resource during create.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/lightsail_key_pair#tags LightsailKeyPair#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/lightsail_key_pair#tags LightsailKeyPair#tags}
   */
   readonly tags?: LightsailKeyPairTags[] | cdktn.IResolvable;
 }
@@ -88,13 +88,13 @@ export interface LightsailKeyPairTags {
   /**
   * The key of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/lightsail_key_pair#key LightsailKeyPair#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/lightsail_key_pair#key LightsailKeyPair#key}
   */
   readonly key?: string;
   /**
   * The value of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/lightsail_key_pair#value LightsailKeyPair#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/lightsail_key_pair#value LightsailKeyPair#value}
   */
   readonly value?: string;
 }
@@ -239,7 +239,7 @@ export class LightsailKeyPairTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/lightsail_key_pair awscc_lightsail_key_pair}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/lightsail_key_pair awscc_lightsail_key_pair}
 */
 export class LightsailKeyPair extends cdktn.TerraformResource {
 
@@ -255,7 +255,7 @@ export class LightsailKeyPair extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a LightsailKeyPair resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LightsailKeyPair to import
-  * @param importFromId The id of the existing LightsailKeyPair that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/lightsail_key_pair#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LightsailKeyPair that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/lightsail_key_pair#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LightsailKeyPair to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -267,7 +267,7 @@ export class LightsailKeyPair extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/lightsail_key_pair awscc_lightsail_key_pair} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/lightsail_key_pair awscc_lightsail_key_pair} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -278,7 +278,7 @@ export class LightsailKeyPair extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_lightsail_key_pair',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.102.0',
+        providerVersion: '1.103.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

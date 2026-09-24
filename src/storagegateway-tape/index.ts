@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/storagegateway_tape
+// https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/storagegateway_tape
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,49 +15,49 @@ export interface StoragegatewayTapeConfig extends cdktn.TerraformMetaArguments {
   /**
   * The Amazon Resource Name (ARN) of the Tape Gateway that hosts the virtual tape.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/storagegateway_tape#gateway_arn StoragegatewayTape#gateway_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/storagegateway_tape#gateway_arn StoragegatewayTape#gateway_arn}
   */
   readonly gatewayArn: string;
   /**
   * Set to true to use Amazon S3 server-side encryption with your own KMS key, or false to use a key managed by Amazon S3. Optional.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/storagegateway_tape#kms_encrypted StoragegatewayTape#kms_encrypted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/storagegateway_tape#kms_encrypted StoragegatewayTape#kms_encrypted}
   */
   readonly kmsEncrypted?: boolean | cdktn.IResolvable;
   /**
   * The Amazon Resource Name (ARN) of a symmetric customer master key (CMK) used for Amazon S3 server-side encryption. This value must be set if KMSEncrypted is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/storagegateway_tape#kms_key StoragegatewayTape#kms_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/storagegateway_tape#kms_key StoragegatewayTape#kms_key}
   */
   readonly kmsKey?: string;
   /**
   * The ID of the pool that you want to add your tape to for archiving. Tapes in this pool are archived in the S3 storage class that is associated with the pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/storagegateway_tape#pool_id StoragegatewayTape#pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/storagegateway_tape#pool_id StoragegatewayTape#pool_id}
   */
   readonly poolId?: string;
   /**
   * A list of up to 50 tags to assign to the virtual tape.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/storagegateway_tape#tags StoragegatewayTape#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/storagegateway_tape#tags StoragegatewayTape#tags}
   */
   readonly tags?: StoragegatewayTapeTags[] | cdktn.IResolvable;
   /**
   * The barcode that you want to assign to the virtual tape. Barcodes cannot be reused, even after a tape is deleted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/storagegateway_tape#tape_barcode StoragegatewayTape#tape_barcode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/storagegateway_tape#tape_barcode StoragegatewayTape#tape_barcode}
   */
   readonly tapeBarcode?: string;
   /**
   * The size, in bytes, of the virtual tape that you want to create.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/storagegateway_tape#tape_size_in_bytes StoragegatewayTape#tape_size_in_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/storagegateway_tape#tape_size_in_bytes StoragegatewayTape#tape_size_in_bytes}
   */
   readonly tapeSizeInBytes: number;
   /**
   * Set to true to create a write-once-read-many (WORM) virtual tape.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/storagegateway_tape#worm StoragegatewayTape#worm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/storagegateway_tape#worm StoragegatewayTape#worm}
   */
   readonly worm?: boolean | cdktn.IResolvable;
 }
@@ -65,13 +65,13 @@ export interface StoragegatewayTapeTags {
   /**
   * The tag key. Cannot be prefixed with aws:.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/storagegateway_tape#key StoragegatewayTape#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/storagegateway_tape#key StoragegatewayTape#key}
   */
   readonly key?: string;
   /**
   * The tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/storagegateway_tape#value StoragegatewayTape#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/storagegateway_tape#value StoragegatewayTape#value}
   */
   readonly value?: string;
 }
@@ -216,7 +216,7 @@ export class StoragegatewayTapeTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/storagegateway_tape awscc_storagegateway_tape}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/storagegateway_tape awscc_storagegateway_tape}
 */
 export class StoragegatewayTape extends cdktn.TerraformResource {
 
@@ -232,7 +232,7 @@ export class StoragegatewayTape extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a StoragegatewayTape resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the StoragegatewayTape to import
-  * @param importFromId The id of the existing StoragegatewayTape that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/storagegateway_tape#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing StoragegatewayTape that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/storagegateway_tape#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the StoragegatewayTape to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -244,7 +244,7 @@ export class StoragegatewayTape extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/storagegateway_tape awscc_storagegateway_tape} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/storagegateway_tape awscc_storagegateway_tape} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -255,7 +255,7 @@ export class StoragegatewayTape extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_storagegateway_tape',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.102.0',
+        providerVersion: '1.103.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/elasticbeanstalk_application_version
+// https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/elasticbeanstalk_application_version
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,12 +15,285 @@ export interface DataAwsccElasticbeanstalkApplicationVersionConfig extends cdktn
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/elasticbeanstalk_application_version#id DataAwsccElasticbeanstalkApplicationVersion#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/elasticbeanstalk_application_version#id DataAwsccElasticbeanstalkApplicationVersion#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
+}
+export interface DataAwsccElasticbeanstalkApplicationVersionBuildConfiguration {
+}
+
+export function dataAwsccElasticbeanstalkApplicationVersionBuildConfigurationToTerraform(struct?: DataAwsccElasticbeanstalkApplicationVersionBuildConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccElasticbeanstalkApplicationVersionBuildConfigurationToHclTerraform(struct?: DataAwsccElasticbeanstalkApplicationVersionBuildConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccElasticbeanstalkApplicationVersionBuildConfigurationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccElasticbeanstalkApplicationVersionBuildConfiguration | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccElasticbeanstalkApplicationVersionBuildConfiguration | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // artifact_name - computed: true, optional: false, required: false
+  public get artifactName() {
+    return this.getStringAttribute('artifact_name');
+  }
+
+  // code_build_service_role - computed: true, optional: false, required: false
+  public get codeBuildServiceRole() {
+    return this.getStringAttribute('code_build_service_role');
+  }
+
+  // compute_type - computed: true, optional: false, required: false
+  public get computeType() {
+    return this.getStringAttribute('compute_type');
+  }
+
+  // image - computed: true, optional: false, required: false
+  public get image() {
+    return this.getStringAttribute('image');
+  }
+
+  // timeout_in_minutes - computed: true, optional: false, required: false
+  public get timeoutInMinutes() {
+    return this.getNumberAttribute('timeout_in_minutes');
+  }
+}
+export interface DataAwsccElasticbeanstalkApplicationVersionImageConfigurationBuild {
+}
+
+export function dataAwsccElasticbeanstalkApplicationVersionImageConfigurationBuildToTerraform(struct?: DataAwsccElasticbeanstalkApplicationVersionImageConfigurationBuild): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccElasticbeanstalkApplicationVersionImageConfigurationBuildToHclTerraform(struct?: DataAwsccElasticbeanstalkApplicationVersionImageConfigurationBuild): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccElasticbeanstalkApplicationVersionImageConfigurationBuildOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccElasticbeanstalkApplicationVersionImageConfigurationBuild | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccElasticbeanstalkApplicationVersionImageConfigurationBuild | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // architecture - computed: true, optional: false, required: false
+  public get architecture() {
+    return this.getStringAttribute('architecture');
+  }
+
+  // buildpack - computed: true, optional: false, required: false
+  public get buildpack() {
+    return this.getStringAttribute('buildpack');
+  }
+
+  // code_build_service_role - computed: true, optional: false, required: false
+  public get codeBuildServiceRole() {
+    return this.getStringAttribute('code_build_service_role');
+  }
+
+  // compute_type - computed: true, optional: false, required: false
+  public get computeType() {
+    return this.getStringAttribute('compute_type');
+  }
+
+  // dockerfile_location - computed: true, optional: false, required: false
+  public get dockerfileLocation() {
+    return this.getStringAttribute('dockerfile_location');
+  }
+
+  // timeout_in_minutes - computed: true, optional: false, required: false
+  public get timeoutInMinutes() {
+    return this.getNumberAttribute('timeout_in_minutes');
+  }
+
+  // type - computed: true, optional: false, required: false
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+}
+export interface DataAwsccElasticbeanstalkApplicationVersionImageConfigurationSource {
+}
+
+export function dataAwsccElasticbeanstalkApplicationVersionImageConfigurationSourceToTerraform(struct?: DataAwsccElasticbeanstalkApplicationVersionImageConfigurationSource): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccElasticbeanstalkApplicationVersionImageConfigurationSourceToHclTerraform(struct?: DataAwsccElasticbeanstalkApplicationVersionImageConfigurationSource): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccElasticbeanstalkApplicationVersionImageConfigurationSourceOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccElasticbeanstalkApplicationVersionImageConfigurationSource | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccElasticbeanstalkApplicationVersionImageConfigurationSource | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // uri - computed: true, optional: false, required: false
+  public get uri() {
+    return this.getStringAttribute('uri');
+  }
+}
+export interface DataAwsccElasticbeanstalkApplicationVersionImageConfiguration {
+}
+
+export function dataAwsccElasticbeanstalkApplicationVersionImageConfigurationToTerraform(struct?: DataAwsccElasticbeanstalkApplicationVersionImageConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccElasticbeanstalkApplicationVersionImageConfigurationToHclTerraform(struct?: DataAwsccElasticbeanstalkApplicationVersionImageConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccElasticbeanstalkApplicationVersionImageConfigurationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccElasticbeanstalkApplicationVersionImageConfiguration | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccElasticbeanstalkApplicationVersionImageConfiguration | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // build - computed: true, optional: false, required: false
+  private _build = new DataAwsccElasticbeanstalkApplicationVersionImageConfigurationBuildOutputReference(this, "build");
+  public get buildAttribute() {
+    return this._build;
+  }
+
+  // source - computed: true, optional: false, required: false
+  private _source = new DataAwsccElasticbeanstalkApplicationVersionImageConfigurationSourceOutputReference(this, "source");
+  public get source() {
+    return this._source;
+  }
 }
 export interface DataAwsccElasticbeanstalkApplicationVersionSourceBundle {
 }
@@ -83,7 +356,7 @@ export class DataAwsccElasticbeanstalkApplicationVersionSourceBundleOutputRefere
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/elasticbeanstalk_application_version awscc_elasticbeanstalk_application_version}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/elasticbeanstalk_application_version awscc_elasticbeanstalk_application_version}
 */
 export class DataAwsccElasticbeanstalkApplicationVersion extends cdktn.TerraformDataSource {
 
@@ -99,7 +372,7 @@ export class DataAwsccElasticbeanstalkApplicationVersion extends cdktn.Terraform
   * Generates CDKTN code for importing a DataAwsccElasticbeanstalkApplicationVersion resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccElasticbeanstalkApplicationVersion to import
-  * @param importFromId The id of the existing DataAwsccElasticbeanstalkApplicationVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/elasticbeanstalk_application_version#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccElasticbeanstalkApplicationVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/elasticbeanstalk_application_version#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccElasticbeanstalkApplicationVersion to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -111,7 +384,7 @@ export class DataAwsccElasticbeanstalkApplicationVersion extends cdktn.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/elasticbeanstalk_application_version awscc_elasticbeanstalk_application_version} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/elasticbeanstalk_application_version awscc_elasticbeanstalk_application_version} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -122,7 +395,7 @@ export class DataAwsccElasticbeanstalkApplicationVersion extends cdktn.Terraform
       terraformResourceType: 'awscc_elasticbeanstalk_application_version',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.102.0',
+        providerVersion: '1.103.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -150,6 +423,12 @@ export class DataAwsccElasticbeanstalkApplicationVersion extends cdktn.Terraform
     return this.getStringAttribute('application_version_id');
   }
 
+  // build_configuration - computed: true, optional: false, required: false
+  private _buildConfiguration = new DataAwsccElasticbeanstalkApplicationVersionBuildConfigurationOutputReference(this, "build_configuration");
+  public get buildConfiguration() {
+    return this._buildConfiguration;
+  }
+
   // description - computed: true, optional: false, required: false
   public get description() {
     return this.getStringAttribute('description');
@@ -166,6 +445,17 @@ export class DataAwsccElasticbeanstalkApplicationVersion extends cdktn.Terraform
   // Temporarily expose input value. Use with caution.
   public get idInput() {
     return this._id;
+  }
+
+  // image_configuration - computed: true, optional: false, required: false
+  private _imageConfiguration = new DataAwsccElasticbeanstalkApplicationVersionImageConfigurationOutputReference(this, "image_configuration");
+  public get imageConfiguration() {
+    return this._imageConfiguration;
+  }
+
+  // process - computed: true, optional: false, required: false
+  public get process() {
+    return this.getBooleanAttribute('process');
   }
 
   // source_bundle - computed: true, optional: false, required: false

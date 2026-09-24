@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/servicediscovery_http_namespace
+// https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/servicediscovery_http_namespace
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,29 +15,29 @@ export interface ServicediscoveryHttpNamespaceConfig extends cdktn.TerraformMeta
   /**
   * A description for the namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/servicediscovery_http_namespace#description ServicediscoveryHttpNamespace#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/servicediscovery_http_namespace#description ServicediscoveryHttpNamespace#description}
   */
   readonly description?: string;
   /**
   * The name that you want to assign to this namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/servicediscovery_http_namespace#name ServicediscoveryHttpNamespace#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/servicediscovery_http_namespace#name ServicediscoveryHttpNamespace#name}
   */
   readonly name: string;
   /**
   * The tags for the namespace. Each tag consists of a key and an optional value, both of which you define. Tag keys can have a maximum character length of 128 characters, and tag values can have a maximum length of 256 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/servicediscovery_http_namespace#tags ServicediscoveryHttpNamespace#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/servicediscovery_http_namespace#tags ServicediscoveryHttpNamespace#tags}
   */
   readonly tags?: ServicediscoveryHttpNamespaceTags[] | cdktn.IResolvable;
 }
 export interface ServicediscoveryHttpNamespaceTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/servicediscovery_http_namespace#key ServicediscoveryHttpNamespace#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/servicediscovery_http_namespace#key ServicediscoveryHttpNamespace#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/servicediscovery_http_namespace#value ServicediscoveryHttpNamespace#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/servicediscovery_http_namespace#value ServicediscoveryHttpNamespace#value}
   */
   readonly value?: string;
 }
@@ -182,7 +182,7 @@ export class ServicediscoveryHttpNamespaceTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/servicediscovery_http_namespace awscc_servicediscovery_http_namespace}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/servicediscovery_http_namespace awscc_servicediscovery_http_namespace}
 */
 export class ServicediscoveryHttpNamespace extends cdktn.TerraformResource {
 
@@ -198,7 +198,7 @@ export class ServicediscoveryHttpNamespace extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ServicediscoveryHttpNamespace resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServicediscoveryHttpNamespace to import
-  * @param importFromId The id of the existing ServicediscoveryHttpNamespace that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/servicediscovery_http_namespace#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServicediscoveryHttpNamespace that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/servicediscovery_http_namespace#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServicediscoveryHttpNamespace to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -210,7 +210,7 @@ export class ServicediscoveryHttpNamespace extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/servicediscovery_http_namespace awscc_servicediscovery_http_namespace} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/servicediscovery_http_namespace awscc_servicediscovery_http_namespace} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -221,7 +221,7 @@ export class ServicediscoveryHttpNamespace extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_servicediscovery_http_namespace',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.102.0',
+        providerVersion: '1.103.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_application_status_check
+// https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ec2_application_status_check
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,101 +15,101 @@ export interface Ec2ApplicationStatusCheckConfig extends cdktn.TerraformMetaArgu
   /**
   * Whether this check is included in the rolled-up application status.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_application_status_check#aggregation Ec2ApplicationStatusCheck#aggregation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ec2_application_status_check#aggregation Ec2ApplicationStatusCheck#aggregation}
   */
   readonly aggregation?: string;
   /**
   * The network interface device index used for the health check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_application_status_check#device_index Ec2ApplicationStatusCheck#device_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ec2_application_status_check#device_index Ec2ApplicationStatusCheck#device_index}
   */
   readonly deviceIndex?: number;
   /**
   * The number of consecutive failed probes required to mark the instance unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_application_status_check#failure_threshold Ec2ApplicationStatusCheck#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ec2_application_status_check#failure_threshold Ec2ApplicationStatusCheck#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * The source/destination network paths used for the health check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_application_status_check#health_check_paths Ec2ApplicationStatusCheck#health_check_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ec2_application_status_check#health_check_paths Ec2ApplicationStatusCheck#health_check_paths}
   */
   readonly healthCheckPaths?: Ec2ApplicationStatusCheckHealthCheckPaths[] | cdktn.IResolvable;
   /**
   * Seconds to wait after instance launch before beginning health checks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_application_status_check#initialization_grace_period_seconds Ec2ApplicationStatusCheck#initialization_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ec2_application_status_check#initialization_grace_period_seconds Ec2ApplicationStatusCheck#initialization_grace_period_seconds}
   */
   readonly initializationGracePeriodSeconds?: number;
   /**
   * The interval, in seconds, between health check probes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_application_status_check#interval Ec2ApplicationStatusCheck#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ec2_application_status_check#interval Ec2ApplicationStatusCheck#interval}
   */
   readonly interval?: number;
   /**
   * The IP scope used for the health check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_application_status_check#ip_scope Ec2ApplicationStatusCheck#ip_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ec2_application_status_check#ip_scope Ec2ApplicationStatusCheck#ip_scope}
   */
   readonly ipScope?: string;
   /**
   * The IP version used for the health check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_application_status_check#ip_version Ec2ApplicationStatusCheck#ip_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ec2_application_status_check#ip_version Ec2ApplicationStatusCheck#ip_version}
   */
   readonly ipVersion?: string;
   /**
   * The HTTP path used for the health check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_application_status_check#path Ec2ApplicationStatusCheck#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ec2_application_status_check#path Ec2ApplicationStatusCheck#path}
   */
   readonly path?: string;
   /**
   * The port used for the health check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_application_status_check#port Ec2ApplicationStatusCheck#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ec2_application_status_check#port Ec2ApplicationStatusCheck#port}
   */
   readonly port: number;
   /**
   * The network protocol used for the health check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_application_status_check#protocol Ec2ApplicationStatusCheck#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ec2_application_status_check#protocol Ec2ApplicationStatusCheck#protocol}
   */
   readonly protocol: string;
   /**
   * The HTTP status codes considered successful (e.g., "200-299").
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_application_status_check#status_code_matcher Ec2ApplicationStatusCheck#status_code_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ec2_application_status_check#status_code_matcher Ec2ApplicationStatusCheck#status_code_matcher}
   */
   readonly statusCodeMatcher?: string;
   /**
   * The number of consecutive successful probes required to mark the instance healthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_application_status_check#success_threshold Ec2ApplicationStatusCheck#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ec2_application_status_check#success_threshold Ec2ApplicationStatusCheck#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * Tags to apply to the application status check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_application_status_check#tags Ec2ApplicationStatusCheck#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ec2_application_status_check#tags Ec2ApplicationStatusCheck#tags}
   */
   readonly tags?: Ec2ApplicationStatusCheckTags[] | cdktn.IResolvable;
   /**
   * The timeout, in seconds, for each health check probe.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_application_status_check#timeout Ec2ApplicationStatusCheck#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ec2_application_status_check#timeout Ec2ApplicationStatusCheck#timeout}
   */
   readonly timeout?: number;
 }
 export interface Ec2ApplicationStatusCheckHealthCheckPathsDestinations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_application_status_check#security_group_id Ec2ApplicationStatusCheck#security_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ec2_application_status_check#security_group_id Ec2ApplicationStatusCheck#security_group_id}
   */
   readonly securityGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_application_status_check#subnet_id Ec2ApplicationStatusCheck#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ec2_application_status_check#subnet_id Ec2ApplicationStatusCheck#subnet_id}
   */
   readonly subnetId?: string;
 }
@@ -254,11 +254,11 @@ export class Ec2ApplicationStatusCheckHealthCheckPathsDestinationsList extends c
 }
 export interface Ec2ApplicationStatusCheckHealthCheckPathsSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_application_status_check#security_group_id Ec2ApplicationStatusCheck#security_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ec2_application_status_check#security_group_id Ec2ApplicationStatusCheck#security_group_id}
   */
   readonly securityGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_application_status_check#subnet_id Ec2ApplicationStatusCheck#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ec2_application_status_check#subnet_id Ec2ApplicationStatusCheck#subnet_id}
   */
   readonly subnetId?: string;
 }
@@ -381,11 +381,11 @@ export class Ec2ApplicationStatusCheckHealthCheckPathsSourceOutputReference exte
 }
 export interface Ec2ApplicationStatusCheckHealthCheckPaths {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_application_status_check#destinations Ec2ApplicationStatusCheck#destinations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ec2_application_status_check#destinations Ec2ApplicationStatusCheck#destinations}
   */
   readonly destinations?: Ec2ApplicationStatusCheckHealthCheckPathsDestinations[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_application_status_check#source Ec2ApplicationStatusCheck#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ec2_application_status_check#source Ec2ApplicationStatusCheck#source}
   */
   readonly source?: Ec2ApplicationStatusCheckHealthCheckPathsSource;
 }
@@ -530,11 +530,11 @@ export class Ec2ApplicationStatusCheckHealthCheckPathsList extends cdktn.Complex
 }
 export interface Ec2ApplicationStatusCheckTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_application_status_check#key Ec2ApplicationStatusCheck#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ec2_application_status_check#key Ec2ApplicationStatusCheck#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_application_status_check#value Ec2ApplicationStatusCheck#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ec2_application_status_check#value Ec2ApplicationStatusCheck#value}
   */
   readonly value?: string;
 }
@@ -679,7 +679,7 @@ export class Ec2ApplicationStatusCheckTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_application_status_check awscc_ec2_application_status_check}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ec2_application_status_check awscc_ec2_application_status_check}
 */
 export class Ec2ApplicationStatusCheck extends cdktn.TerraformResource {
 
@@ -695,7 +695,7 @@ export class Ec2ApplicationStatusCheck extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Ec2ApplicationStatusCheck resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Ec2ApplicationStatusCheck to import
-  * @param importFromId The id of the existing Ec2ApplicationStatusCheck that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_application_status_check#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Ec2ApplicationStatusCheck that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ec2_application_status_check#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Ec2ApplicationStatusCheck to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -707,7 +707,7 @@ export class Ec2ApplicationStatusCheck extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_application_status_check awscc_ec2_application_status_check} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ec2_application_status_check awscc_ec2_application_status_check} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -718,7 +718,7 @@ export class Ec2ApplicationStatusCheck extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_ec2_application_status_check',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.102.0',
+        providerVersion: '1.103.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

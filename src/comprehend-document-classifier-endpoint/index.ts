@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/comprehend_document_classifier_endpoint
+// https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/comprehend_document_classifier_endpoint
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,25 +15,25 @@ export interface ComprehendDocumentClassifierEndpointConfig extends cdktn.Terraf
   /**
   * The desired number of inference units to be used by the model. Each inference unit represents throughput of 100 characters per second.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/comprehend_document_classifier_endpoint#desired_inference_units ComprehendDocumentClassifierEndpoint#desired_inference_units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/comprehend_document_classifier_endpoint#desired_inference_units ComprehendDocumentClassifierEndpoint#desired_inference_units}
   */
   readonly desiredInferenceUnits: number;
   /**
   * The name of the endpoint. The name must be unique within the AWS Region and account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/comprehend_document_classifier_endpoint#endpoint_name ComprehendDocumentClassifierEndpoint#endpoint_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/comprehend_document_classifier_endpoint#endpoint_name ComprehendDocumentClassifierEndpoint#endpoint_name}
   */
   readonly endpointName: string;
   /**
   * The Amazon Resource Name (ARN) of the document classifier model to which the endpoint is attached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/comprehend_document_classifier_endpoint#model_arn ComprehendDocumentClassifierEndpoint#model_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/comprehend_document_classifier_endpoint#model_arn ComprehendDocumentClassifierEndpoint#model_arn}
   */
   readonly modelArn: string;
   /**
   * Tags associated with the endpoint being created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/comprehend_document_classifier_endpoint#tags ComprehendDocumentClassifierEndpoint#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/comprehend_document_classifier_endpoint#tags ComprehendDocumentClassifierEndpoint#tags}
   */
   readonly tags?: ComprehendDocumentClassifierEndpointTags[] | cdktn.IResolvable;
 }
@@ -41,13 +41,13 @@ export interface ComprehendDocumentClassifierEndpointTags {
   /**
   * The initial part of a key-value pair that forms a tag associated with a given resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/comprehend_document_classifier_endpoint#key ComprehendDocumentClassifierEndpoint#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/comprehend_document_classifier_endpoint#key ComprehendDocumentClassifierEndpoint#key}
   */
   readonly key?: string;
   /**
   * The second part of a key-value pair that forms a tag associated with a given resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/comprehend_document_classifier_endpoint#value ComprehendDocumentClassifierEndpoint#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/comprehend_document_classifier_endpoint#value ComprehendDocumentClassifierEndpoint#value}
   */
   readonly value?: string;
 }
@@ -192,7 +192,7 @@ export class ComprehendDocumentClassifierEndpointTagsList extends cdktn.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/comprehend_document_classifier_endpoint awscc_comprehend_document_classifier_endpoint}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/comprehend_document_classifier_endpoint awscc_comprehend_document_classifier_endpoint}
 */
 export class ComprehendDocumentClassifierEndpoint extends cdktn.TerraformResource {
 
@@ -208,7 +208,7 @@ export class ComprehendDocumentClassifierEndpoint extends cdktn.TerraformResourc
   * Generates CDKTN code for importing a ComprehendDocumentClassifierEndpoint resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ComprehendDocumentClassifierEndpoint to import
-  * @param importFromId The id of the existing ComprehendDocumentClassifierEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/comprehend_document_classifier_endpoint#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ComprehendDocumentClassifierEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/comprehend_document_classifier_endpoint#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ComprehendDocumentClassifierEndpoint to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -220,7 +220,7 @@ export class ComprehendDocumentClassifierEndpoint extends cdktn.TerraformResourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/comprehend_document_classifier_endpoint awscc_comprehend_document_classifier_endpoint} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/comprehend_document_classifier_endpoint awscc_comprehend_document_classifier_endpoint} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -231,7 +231,7 @@ export class ComprehendDocumentClassifierEndpoint extends cdktn.TerraformResourc
       terraformResourceType: 'awscc_comprehend_document_classifier_endpoint',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.102.0',
+        providerVersion: '1.103.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

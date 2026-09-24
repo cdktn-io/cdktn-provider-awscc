@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_dataset
+// https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_dataset
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,41 +13,286 @@ import * as cdktn from 'cdktn';
 
 export interface IotsitewiseDatasetConfig extends cdktn.TerraformMetaArguments {
   /**
+  * The configuration for the dataset.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_dataset#dataset_config IotsitewiseDataset#dataset_config}
+  */
+  readonly datasetConfig?: IotsitewiseDatasetDatasetConfig;
+  /**
   * A description about the dataset, and its functionality.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_dataset#dataset_description IotsitewiseDataset#dataset_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_dataset#dataset_description IotsitewiseDataset#dataset_description}
   */
   readonly datasetDescription?: string;
   /**
   * The name of the dataset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_dataset#dataset_name IotsitewiseDataset#dataset_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_dataset#dataset_name IotsitewiseDataset#dataset_name}
   */
   readonly datasetName: string;
   /**
   * The data source for the dataset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_dataset#dataset_source IotsitewiseDataset#dataset_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_dataset#dataset_source IotsitewiseDataset#dataset_source}
   */
-  readonly datasetSource: IotsitewiseDatasetDatasetSource;
+  readonly datasetSource?: IotsitewiseDatasetDatasetSource;
+  /**
+  * The type of the dataset.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_dataset#dataset_type IotsitewiseDataset#dataset_type}
+  */
+  readonly datasetType?: string;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_dataset#tags IotsitewiseDataset#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_dataset#tags IotsitewiseDataset#tags}
   */
   readonly tags?: IotsitewiseDatasetTags[] | cdktn.IResolvable;
+  /**
+  * The name of the workspace associated with the dataset.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_dataset#workspace_name IotsitewiseDataset#workspace_name}
+  */
+  readonly workspaceName?: string;
+}
+export interface IotsitewiseDatasetDatasetConfigSession {
+  /**
+  * The end time of the session as an ISO 8601 UTC instant, for example 2024-12-31T23:59:59Z.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_dataset#session_end_time IotsitewiseDataset#session_end_time}
+  */
+  readonly sessionEndTime?: string;
+  /**
+  * The start time of the session as an ISO 8601 UTC instant, for example 2024-01-01T00:00:00Z.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_dataset#session_start_time IotsitewiseDataset#session_start_time}
+  */
+  readonly sessionStartTime?: string;
+}
+
+export function iotsitewiseDatasetDatasetConfigSessionToTerraform(struct?: IotsitewiseDatasetDatasetConfigSession | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    session_end_time: cdktn.stringToTerraform(struct!.sessionEndTime),
+    session_start_time: cdktn.stringToTerraform(struct!.sessionStartTime),
+  }
+}
+
+
+export function iotsitewiseDatasetDatasetConfigSessionToHclTerraform(struct?: IotsitewiseDatasetDatasetConfigSession | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    session_end_time: {
+      value: cdktn.stringToHclTerraform(struct!.sessionEndTime),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    session_start_time: {
+      value: cdktn.stringToHclTerraform(struct!.sessionStartTime),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class IotsitewiseDatasetDatasetConfigSessionOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): IotsitewiseDatasetDatasetConfigSession | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._sessionEndTime !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sessionEndTime = this._sessionEndTime;
+    }
+    if (this._sessionStartTime !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sessionStartTime = this._sessionStartTime;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: IotsitewiseDatasetDatasetConfigSession | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._sessionEndTime = undefined;
+      this._sessionStartTime = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._sessionEndTime = value.sessionEndTime;
+      this._sessionStartTime = value.sessionStartTime;
+    }
+  }
+
+  // session_end_time - computed: true, optional: true, required: false
+  private _sessionEndTime?: string; 
+  public get sessionEndTime() {
+    return this.getStringAttribute('session_end_time');
+  }
+  public set sessionEndTime(value: string) {
+    this._sessionEndTime = value;
+  }
+  public resetSessionEndTime() {
+    this._sessionEndTime = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sessionEndTimeInput() {
+    return this._sessionEndTime;
+  }
+
+  // session_start_time - computed: true, optional: true, required: false
+  private _sessionStartTime?: string; 
+  public get sessionStartTime() {
+    return this.getStringAttribute('session_start_time');
+  }
+  public set sessionStartTime(value: string) {
+    this._sessionStartTime = value;
+  }
+  public resetSessionStartTime() {
+    this._sessionStartTime = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sessionStartTimeInput() {
+    return this._sessionStartTime;
+  }
+}
+export interface IotsitewiseDatasetDatasetConfig {
+  /**
+  * The session configuration for a SESSION dataset.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_dataset#session IotsitewiseDataset#session}
+  */
+  readonly session?: IotsitewiseDatasetDatasetConfigSession;
+}
+
+export function iotsitewiseDatasetDatasetConfigToTerraform(struct?: IotsitewiseDatasetDatasetConfig | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    session: iotsitewiseDatasetDatasetConfigSessionToTerraform(struct!.session),
+  }
+}
+
+
+export function iotsitewiseDatasetDatasetConfigToHclTerraform(struct?: IotsitewiseDatasetDatasetConfig | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    session: {
+      value: iotsitewiseDatasetDatasetConfigSessionToHclTerraform(struct!.session),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "IotsitewiseDatasetDatasetConfigSession",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class IotsitewiseDatasetDatasetConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): IotsitewiseDatasetDatasetConfig | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._session?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.session = this._session?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: IotsitewiseDatasetDatasetConfig | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._session.internalValue = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._session.internalValue = value.session;
+    }
+  }
+
+  // session - computed: true, optional: true, required: false
+  private _session = new IotsitewiseDatasetDatasetConfigSessionOutputReference(this, "session");
+  public get session() {
+    return this._session;
+  }
+  public putSession(value: IotsitewiseDatasetDatasetConfigSession) {
+    this._session.internalValue = value;
+  }
+  public resetSession() {
+    this._session.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sessionInput() {
+    return this._session.internalValue;
+  }
 }
 export interface IotsitewiseDatasetDatasetSourceSourceDetailKendra {
   /**
   * The knowledgeBaseArn details for the Kendra dataset source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_dataset#knowledge_base_arn IotsitewiseDataset#knowledge_base_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_dataset#knowledge_base_arn IotsitewiseDataset#knowledge_base_arn}
   */
   readonly knowledgeBaseArn?: string;
   /**
   * The roleARN details for the Kendra dataset source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_dataset#role_arn IotsitewiseDataset#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_dataset#role_arn IotsitewiseDataset#role_arn}
   */
   readonly roleArn?: string;
 }
@@ -172,7 +417,7 @@ export interface IotsitewiseDatasetDatasetSourceSourceDetail {
   /**
   * Contains details about the Kendra dataset source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_dataset#kendra IotsitewiseDataset#kendra}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_dataset#kendra IotsitewiseDataset#kendra}
   */
   readonly kendra?: IotsitewiseDatasetDatasetSourceSourceDetailKendra;
 }
@@ -268,21 +513,21 @@ export interface IotsitewiseDatasetDatasetSource {
   /**
   * The details of the dataset source associated with the dataset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_dataset#source_detail IotsitewiseDataset#source_detail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_dataset#source_detail IotsitewiseDataset#source_detail}
   */
   readonly sourceDetail?: IotsitewiseDatasetDatasetSourceSourceDetail;
   /**
   * The format of the dataset source associated with the dataset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_dataset#source_format IotsitewiseDataset#source_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_dataset#source_format IotsitewiseDataset#source_format}
   */
-  readonly sourceFormat: string;
+  readonly sourceFormat?: string;
   /**
   * The type of data source for the dataset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_dataset#source_type IotsitewiseDataset#source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_dataset#source_type IotsitewiseDataset#source_type}
   */
-  readonly sourceType: string;
+  readonly sourceType?: string;
 }
 
 export function iotsitewiseDatasetDatasetSourceToTerraform(struct?: IotsitewiseDatasetDatasetSource | cdktn.IResolvable): any {
@@ -398,7 +643,7 @@ export class IotsitewiseDatasetDatasetSourceOutputReference extends cdktn.Comple
     return this._sourceDetail.internalValue;
   }
 
-  // source_format - computed: false, optional: false, required: true
+  // source_format - computed: true, optional: true, required: false
   private _sourceFormat?: string; 
   public get sourceFormat() {
     return this.getStringAttribute('source_format');
@@ -406,18 +651,24 @@ export class IotsitewiseDatasetDatasetSourceOutputReference extends cdktn.Comple
   public set sourceFormat(value: string) {
     this._sourceFormat = value;
   }
+  public resetSourceFormat() {
+    this._sourceFormat = undefined;
+  }
   // Temporarily expose input value. Use with caution.
   public get sourceFormatInput() {
     return this._sourceFormat;
   }
 
-  // source_type - computed: false, optional: false, required: true
+  // source_type - computed: true, optional: true, required: false
   private _sourceType?: string; 
   public get sourceType() {
     return this.getStringAttribute('source_type');
   }
   public set sourceType(value: string) {
     this._sourceType = value;
+  }
+  public resetSourceType() {
+    this._sourceType = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get sourceTypeInput() {
@@ -426,11 +677,11 @@ export class IotsitewiseDatasetDatasetSourceOutputReference extends cdktn.Comple
 }
 export interface IotsitewiseDatasetTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_dataset#key IotsitewiseDataset#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_dataset#key IotsitewiseDataset#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_dataset#value IotsitewiseDataset#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_dataset#value IotsitewiseDataset#value}
   */
   readonly value?: string;
 }
@@ -575,7 +826,7 @@ export class IotsitewiseDatasetTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_dataset awscc_iotsitewise_dataset}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_dataset awscc_iotsitewise_dataset}
 */
 export class IotsitewiseDataset extends cdktn.TerraformResource {
 
@@ -591,7 +842,7 @@ export class IotsitewiseDataset extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a IotsitewiseDataset resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IotsitewiseDataset to import
-  * @param importFromId The id of the existing IotsitewiseDataset that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_dataset#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IotsitewiseDataset that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_dataset#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IotsitewiseDataset to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -603,7 +854,7 @@ export class IotsitewiseDataset extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_dataset awscc_iotsitewise_dataset} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_dataset awscc_iotsitewise_dataset} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -614,7 +865,7 @@ export class IotsitewiseDataset extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_iotsitewise_dataset',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.102.0',
+        providerVersion: '1.103.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -625,10 +876,13 @@ export class IotsitewiseDataset extends cdktn.TerraformResource {
       connection: config.connection,
       forEach: config.forEach
     });
+    this._datasetConfig.internalValue = config.datasetConfig;
     this._datasetDescription = config.datasetDescription;
     this._datasetName = config.datasetName;
     this._datasetSource.internalValue = config.datasetSource;
+    this._datasetType = config.datasetType;
     this._tags.internalValue = config.tags;
+    this._workspaceName = config.workspaceName;
   }
 
   // ==========
@@ -638,6 +892,22 @@ export class IotsitewiseDataset extends cdktn.TerraformResource {
   // dataset_arn - computed: true, optional: false, required: false
   public get datasetArn() {
     return this.getStringAttribute('dataset_arn');
+  }
+
+  // dataset_config - computed: true, optional: true, required: false
+  private _datasetConfig = new IotsitewiseDatasetDatasetConfigOutputReference(this, "dataset_config");
+  public get datasetConfig() {
+    return this._datasetConfig;
+  }
+  public putDatasetConfig(value: IotsitewiseDatasetDatasetConfig) {
+    this._datasetConfig.internalValue = value;
+  }
+  public resetDatasetConfig() {
+    this._datasetConfig.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get datasetConfigInput() {
+    return this._datasetConfig.internalValue;
   }
 
   // dataset_description - computed: true, optional: true, required: false
@@ -674,7 +944,7 @@ export class IotsitewiseDataset extends cdktn.TerraformResource {
     return this._datasetName;
   }
 
-  // dataset_source - computed: false, optional: false, required: true
+  // dataset_source - computed: true, optional: true, required: false
   private _datasetSource = new IotsitewiseDatasetDatasetSourceOutputReference(this, "dataset_source");
   public get datasetSource() {
     return this._datasetSource;
@@ -682,9 +952,28 @@ export class IotsitewiseDataset extends cdktn.TerraformResource {
   public putDatasetSource(value: IotsitewiseDatasetDatasetSource) {
     this._datasetSource.internalValue = value;
   }
+  public resetDatasetSource() {
+    this._datasetSource.internalValue = undefined;
+  }
   // Temporarily expose input value. Use with caution.
   public get datasetSourceInput() {
     return this._datasetSource.internalValue;
+  }
+
+  // dataset_type - computed: true, optional: true, required: false
+  private _datasetType?: string; 
+  public get datasetType() {
+    return this.getStringAttribute('dataset_type');
+  }
+  public set datasetType(value: string) {
+    this._datasetType = value;
+  }
+  public resetDatasetType() {
+    this._datasetType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get datasetTypeInput() {
+    return this._datasetType;
   }
 
   // id - computed: true, optional: false, required: false
@@ -708,21 +997,46 @@ export class IotsitewiseDataset extends cdktn.TerraformResource {
     return this._tags.internalValue;
   }
 
+  // workspace_name - computed: true, optional: true, required: false
+  private _workspaceName?: string; 
+  public get workspaceName() {
+    return this.getStringAttribute('workspace_name');
+  }
+  public set workspaceName(value: string) {
+    this._workspaceName = value;
+  }
+  public resetWorkspaceName() {
+    this._workspaceName = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get workspaceNameInput() {
+    return this._workspaceName;
+  }
+
   // =========
   // SYNTHESIS
   // =========
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
+      dataset_config: iotsitewiseDatasetDatasetConfigToTerraform(this._datasetConfig.internalValue),
       dataset_description: cdktn.stringToTerraform(this._datasetDescription),
       dataset_name: cdktn.stringToTerraform(this._datasetName),
       dataset_source: iotsitewiseDatasetDatasetSourceToTerraform(this._datasetSource.internalValue),
+      dataset_type: cdktn.stringToTerraform(this._datasetType),
       tags: cdktn.listMapper(iotsitewiseDatasetTagsToTerraform, false)(this._tags.internalValue),
+      workspace_name: cdktn.stringToTerraform(this._workspaceName),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
+      dataset_config: {
+        value: iotsitewiseDatasetDatasetConfigToHclTerraform(this._datasetConfig.internalValue),
+        isBlock: true,
+        type: "struct",
+        storageClassType: "IotsitewiseDatasetDatasetConfig",
+      },
       dataset_description: {
         value: cdktn.stringToHclTerraform(this._datasetDescription),
         isBlock: false,
@@ -741,11 +1055,23 @@ export class IotsitewiseDataset extends cdktn.TerraformResource {
         type: "struct",
         storageClassType: "IotsitewiseDatasetDatasetSource",
       },
+      dataset_type: {
+        value: cdktn.stringToHclTerraform(this._datasetType),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       tags: {
         value: cdktn.listMapperHcl(iotsitewiseDatasetTagsToHclTerraform, false)(this._tags.internalValue),
         isBlock: true,
         type: "set",
         storageClassType: "IotsitewiseDatasetTagsList",
+      },
+      workspace_name: {
+        value: cdktn.stringToHclTerraform(this._workspaceName),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
       },
     };
 

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/chime_voice_connector
+// https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/chime_voice_connector
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,31 +15,31 @@ export interface ChimeVoiceConnectorConfig extends cdktn.TerraformMetaArguments 
   /**
   * The AWS Region in which the Voice Connector is created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/chime_voice_connector#aws_region ChimeVoiceConnector#aws_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/chime_voice_connector#aws_region ChimeVoiceConnector#aws_region}
   */
   readonly awsRegion?: string;
   /**
   * The name of the Voice Connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/chime_voice_connector#name ChimeVoiceConnector#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/chime_voice_connector#name ChimeVoiceConnector#name}
   */
   readonly name: string;
   /**
   * The type of network for the Voice Connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/chime_voice_connector#network_type ChimeVoiceConnector#network_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/chime_voice_connector#network_type ChimeVoiceConnector#network_type}
   */
   readonly networkType?: string;
   /**
   * Enables or disables encryption for the Voice Connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/chime_voice_connector#require_encryption ChimeVoiceConnector#require_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/chime_voice_connector#require_encryption ChimeVoiceConnector#require_encryption}
   */
   readonly requireEncryption: boolean | cdktn.IResolvable;
   /**
   * The tags assigned to the Voice Connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/chime_voice_connector#tags ChimeVoiceConnector#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/chime_voice_connector#tags ChimeVoiceConnector#tags}
   */
   readonly tags?: ChimeVoiceConnectorTags[] | cdktn.IResolvable;
 }
@@ -47,13 +47,13 @@ export interface ChimeVoiceConnectorTags {
   /**
   * The tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/chime_voice_connector#key ChimeVoiceConnector#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/chime_voice_connector#key ChimeVoiceConnector#key}
   */
   readonly key?: string;
   /**
   * The tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/chime_voice_connector#value ChimeVoiceConnector#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/chime_voice_connector#value ChimeVoiceConnector#value}
   */
   readonly value?: string;
 }
@@ -198,7 +198,7 @@ export class ChimeVoiceConnectorTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/chime_voice_connector awscc_chime_voice_connector}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/chime_voice_connector awscc_chime_voice_connector}
 */
 export class ChimeVoiceConnector extends cdktn.TerraformResource {
 
@@ -214,7 +214,7 @@ export class ChimeVoiceConnector extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ChimeVoiceConnector resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ChimeVoiceConnector to import
-  * @param importFromId The id of the existing ChimeVoiceConnector that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/chime_voice_connector#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ChimeVoiceConnector that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/chime_voice_connector#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ChimeVoiceConnector to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -226,7 +226,7 @@ export class ChimeVoiceConnector extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/chime_voice_connector awscc_chime_voice_connector} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/chime_voice_connector awscc_chime_voice_connector} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -237,7 +237,7 @@ export class ChimeVoiceConnector extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_chime_voice_connector',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.102.0',
+        providerVersion: '1.103.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
